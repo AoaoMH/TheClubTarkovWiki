@@ -1,0 +1,17 @@
+{
+  "name": "spt-wiki-generator",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "generate": "tsx src/index.ts",
+    "generate:images": "tsx src/index.ts --images-only"
+  },
+  "dependencies": {
+    "tsx": "^4.19.0",
+    "undici": "^8.5.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "~5.7.2"
+  }
+}

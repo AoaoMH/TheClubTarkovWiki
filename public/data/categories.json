@@ -1,0 +1,959 @@
+[
+  {
+    "id": "5b5f6fd286f774093f2ecf0d",
+    "parentId": "5b47574386f77428ca22b33f",
+    "name": {
+      "zh": "安全箱",
+      "en": "Secured Containers"
+    },
+    "icon": "/files/handbook/icon_gear_secured.png",
+    "order": 100,
+    "itemCount": 0
+  },
+  {
+    "id": "5b47574386f77428ca22b2f1",
+    "parentId": "5b47574386f77428ca22b33e",
+    "name": {
+      "zh": "贵重品",
+      "en": "Valuables"
+    },
+    "icon": "/files/handbook/icon_barter_valuables.png",
+    "order": 100,
+    "itemCount": 46
+  },
+  {
+    "id": "5b47574386f77428ca22b2f4",
+    "parentId": "5b47574386f77428ca22b33e",
+    "name": {
+      "zh": "其他",
+      "en": "Other"
+    },
+    "icon": "/files/handbook/icon_barter_others.png",
+    "order": 110,
+    "itemCount": 47
+  },
+  {
+    "id": "5b47574386f77428ca22b340",
+    "parentId": null,
+    "name": {
+      "zh": "补给品",
+      "en": "Provisions"
+    },
+    "icon": "/files/handbook/icon_provisions.png",
+    "order": 8,
+    "itemCount": 0
+  },
+  {
+    "id": "5b47574386f77428ca22b33b",
+    "parentId": "5b47574386f77428ca22b346",
+    "name": {
+      "zh": "子弹",
+      "en": "Rounds"
+    },
+    "icon": "/files/handbook/icon_ammo_rounds.png",
+    "order": 100,
+    "itemCount": 199
+  },
+  {
+    "id": "5b47574386f77428ca22b330",
+    "parentId": "5b47574386f77428ca22b33f",
+    "name": {
+      "zh": "头部装备",
+      "en": "Headwear"
+    },
+    "icon": "/files/handbook/icon_gear_headwear.png",
+    "order": 100,
+    "itemCount": 95
+  },
+  {
+    "id": "5b47574386f77428ca22b335",
+    "parentId": "5b47574386f77428ca22b340",
+    "name": {
+      "zh": "饮料",
+      "en": "Drinks"
+    },
+    "icon": "/files/handbook/icon_provisions_drinks.png",
+    "order": 100,
+    "itemCount": 20
+  },
+  {
+    "id": "5b47574386f77428ca22b331",
+    "parentId": "5b47574386f77428ca22b33f",
+    "name": {
+      "zh": "面罩护目镜",
+      "en": "Visors"
+    },
+    "icon": "/files/handbook/icon_gear_visors.png",
+    "order": 100,
+    "itemCount": 20
+  },
+  {
+    "id": "5b5f750686f774093e6cb503",
+    "parentId": "5b5f71a686f77447ed5636ab",
+    "name": {
+      "zh": "装备配件",
+      "en": "Gear Mods"
+    },
+    "icon": "/files/handbook/icon_mods_gear.png",
+    "order": 100,
+    "itemCount": 0
+  },
+  {
+    "id": "5b47574386f77428ca22b2f0",
+    "parentId": "5b47574386f77428ca22b33e",
+    "name": {
+      "zh": "家居用品",
+      "en": "Household Goods"
+    },
+    "icon": "/files/handbook/icon_barter_household.png",
+    "order": 100,
+    "itemCount": 18
+  },
+  {
+    "id": "5b47574386f77428ca22b32f",
+    "parentId": "5b47574386f77428ca22b33f",
+    "name": {
+      "zh": "面部装备",
+      "en": "Face Covers"
+    },
+    "icon": "/files/handbook/icon_gear_facecovers.png",
+    "order": 100,
+    "itemCount": 96
+  },
+  {
+    "id": "5b47574386f77428ca22b2f2",
+    "parentId": "5b47574386f77428ca22b33e",
+    "name": {
+      "zh": "易燃物",
+      "en": "Flammable"
+    },
+    "icon": "/files/handbook/icon_barter_flammable.png",
+    "order": 100,
+    "itemCount": 19
+  },
+  {
+    "id": "5b47574386f77428ca22b2ef",
+    "parentId": "5b47574386f77428ca22b33e",
+    "name": {
+      "zh": "电子元件",
+      "en": "Electronics"
+    },
+    "icon": "/files/handbook/icon_barter_electronics.png",
+    "order": 100,
+    "itemCount": 50
+  },
+  {
+    "id": "5b47574386f77428ca22b2ee",
+    "parentId": "5b47574386f77428ca22b33e",
+    "name": {
+      "zh": "建筑材料",
+      "en": "Building Materials"
+    },
+    "icon": "/files/handbook/icon_barter_building.png",
+    "order": 100,
+    "itemCount": 17
+  },
+  {
+    "id": "5b47574386f77428ca22b2f3",
+    "parentId": "5b47574386f77428ca22b33e",
+    "name": {
+      "zh": "医疗用品",
+      "en": "Medical Supplies"
+    },
+    "icon": "/files/handbook/icon_barter_medical.png",
+    "order": 100,
+    "itemCount": 11
+  },
+  {
+    "id": "5b47574386f77428ca22b345",
+    "parentId": null,
+    "name": {
+      "zh": "特殊物品",
+      "en": "Special Items"
+    },
+    "icon": "/files/handbook/icon_spec.png",
+    "order": 4,
+    "itemCount": 16
+  },
+  {
+    "id": "5b47574386f77428ca22b2ed",
+    "parentId": "5b47574386f77428ca22b33e",
+    "name": {
+      "zh": "能源",
+      "en": "Energy"
+    },
+    "icon": "/files/handbook/icon_barter_energy.png",
+    "order": 100,
+    "itemCount": 8
+  },
+  {
+    "id": "5b47574386f77428ca22b33c",
+    "parentId": "5b47574386f77428ca22b346",
+    "name": {
+      "zh": "弹药包",
+      "en": "Ammo Packs"
+    },
+    "icon": "/files/handbook/icon_ammo_boxes.png",
+    "order": 100,
+    "itemCount": 213
+  },
+  {
+    "id": "5b5f73c486f77447ec5d7704",
+    "parentId": "5b5f736886f774094242f193",
+    "name": {
+      "zh": "激光/手电组合",
+      "en": "Combo Devices"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 2
+  },
+  {
+    "id": "5b5f760586f774093e6cb509",
+    "parentId": "5b5f75b986f77447ec5d7710",
+    "name": {
+      "zh": "导气箍",
+      "en": "Gas Blocks"
+    },
+    "icon": "/files/handbook/icon_mod_gasblock.png",
+    "order": 100,
+    "itemCount": 34
+  },
+  {
+    "id": "5b5f6f6c86f774093f2ecf0b",
+    "parentId": "5b47574386f77428ca22b33f",
+    "name": {
+      "zh": "背包",
+      "en": "Backpacks"
+    },
+    "icon": "/files/handbook/icon_gear_backpacks.png",
+    "order": 100,
+    "itemCount": 44
+  },
+  {
+    "id": "5b5f71de86f774093f2ecf13",
+    "parentId": "5b5f71b386f774093f2ecf11",
+    "name": {
+      "zh": "前握把",
+      "en": "Tactical Devices"
+    },
+    "icon": "/files/handbook/icon_mod_tactical.png",
+    "order": 100,
+    "itemCount": 56
+  },
+  {
+    "id": "5b5f759686f774094242f19d",
+    "parentId": "5b5f750686f774093e6cb503",
+    "name": {
+      "zh": "弹匣井",
+      "en": "Tactical"
+    },
+    "icon": "/files/handbook/icon_mod_tactical.png",
+    "order": 100,
+    "itemCount": 0
+  },
+  {
+    "id": "5b5f761f86f774094242f1a1",
+    "parentId": "5b5f75b986f77447ec5d7710",
+    "name": {
+      "zh": "手枪式握把",
+      "en": "Pistol Grips"
+    },
+    "icon": "/files/handbook/icon_mod_pistolgrip.png",
+    "order": 100,
+    "itemCount": 120
+  },
+  {
+    "id": "5b5f764186f77447ec5d7714",
+    "parentId": "5b5f75b986f77447ec5d7710",
+    "name": {
+      "zh": "机匣&套筒",
+      "en": "Receivers"
+    },
+    "icon": "/files/handbook/icon_mod_reciever.png",
+    "order": 100,
+    "itemCount": 100
+  },
+  {
+    "id": "5b5f792486f77447ed5636b3",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "手枪",
+      "en": "Pistols"
+    },
+    "icon": "/files/handbook/icon_weapons_pistols.png",
+    "order": 100,
+    "itemCount": 29
+  },
+  {
+    "id": "5b5f798886f77447ed5636b5",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "栓动式步枪",
+      "en": "Bolt-Action Rifles"
+    },
+    "icon": "/files/handbook/icon_weapons_botaction.png",
+    "order": 100,
+    "itemCount": 9
+  },
+  {
+    "id": "5c518ec986f7743b68682ce2",
+    "parentId": "5b47574386f77428ca22b342",
+    "name": {
+      "zh": "机械钥匙",
+      "en": "Mechanical Keys"
+    },
+    "icon": "/files/handbook/icon_keys_mechanic.png",
+    "order": 100,
+    "itemCount": 214
+  },
+  {
+    "id": "5b47574386f77428ca22b336",
+    "parentId": "5b47574386f77428ca22b340",
+    "name": {
+      "zh": "食物",
+      "en": "Food"
+    },
+    "icon": "/files/handbook/icon_provisions_food.png",
+    "order": 100,
+    "itemCount": 22
+  },
+  {
+    "id": "5b47574386f77428ca22b338",
+    "parentId": "5b47574386f77428ca22b344",
+    "name": {
+      "zh": "急救包",
+      "en": "Medkits"
+    },
+    "icon": "/files/handbook/icon_medical_medkits.png",
+    "order": 100,
+    "itemCount": 6
+  },
+  {
+    "id": "5b47574386f77428ca22b343",
+    "parentId": null,
+    "name": {
+      "zh": "地图",
+      "en": "Maps"
+    },
+    "icon": "/files/handbook/icon_maps.png",
+    "order": 3,
+    "itemCount": 6
+  },
+  {
+    "id": "5b5f6f8786f77447ed563642",
+    "parentId": "5b47574386f77428ca22b33f",
+    "name": {
+      "zh": "战术胸挂",
+      "en": "Chest Rigs"
+    },
+    "icon": "/files/handbook/icon_gear_rigs.png",
+    "order": 100,
+    "itemCount": 61
+  },
+  {
+    "id": "5b5f731a86f774093e6cb4f9",
+    "parentId": "5b5f724186f77447ed5636ad",
+    "name": {
+      "zh": "消音器",
+      "en": "Suppressors"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 76
+  },
+  {
+    "id": "5b5f746686f77447ec5d7708",
+    "parentId": "5b5f73ec86f774093e6cb4fd",
+    "name": {
+      "zh": "机械瞄具",
+      "en": "Assault Scopes"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 116
+  },
+  {
+    "id": "5b5f74cc86f77447ec5d770a",
+    "parentId": "5b5f71b386f774093f2ecf11",
+    "name": {
+      "zh": "辅助配件",
+      "en": "Auxiliary Mods"
+    },
+    "icon": "/files/handbook/icon_mod_aux.png",
+    "order": 100,
+    "itemCount": 44
+  },
+  {
+    "id": "5b5f755f86f77447ec5d770e",
+    "parentId": "5b5f750686f774093e6cb503",
+    "name": {
+      "zh": "基座",
+      "en": "Mounts"
+    },
+    "icon": "/files/handbook/icon_mod_mount.png",
+    "order": 100,
+    "itemCount": 239
+  },
+  {
+    "id": "5b5f7a0886f77409407a7f96",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "近战武器",
+      "en": "Melee Weapons"
+    },
+    "icon": "/files/handbook/icon_weapons_melee.png",
+    "order": 100,
+    "itemCount": 23
+  },
+  {
+    "id": "6564b96a189fe36f356d177c",
+    "parentId": null,
+    "name": {
+      "zh": "其他交换物",
+      "en": "Other Barter"
+    },
+    "icon": "/files/handbook/icon_barter_others.png",
+    "order": 0,
+    "itemCount": 0
+  },
+  {
+    "id": "5b47574386f77428ca22b33e",
+    "parentId": null,
+    "name": {
+      "zh": "交换物",
+      "en": "Barter Items"
+    },
+    "icon": "/files/handbook/icon_barter.png",
+    "order": 13,
+    "itemCount": 0
+  },
+  {
+    "id": "5b47574386f77428ca22b33f",
+    "parentId": null,
+    "name": {
+      "zh": "装备",
+      "en": "Gear"
+    },
+    "icon": "/files/handbook/icon_gear.png",
+    "order": 12,
+    "itemCount": 0
+  },
+  {
+    "id": "5b5f748386f774093e6cb501",
+    "parentId": "5b5f73ec86f774093e6cb4fd",
+    "name": {
+      "zh": "光学瞄准镜",
+      "en": "Sniper Scopes"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 24
+  },
+  {
+    "id": "5b47574386f77428ca22b2f6",
+    "parentId": "5b47574386f77428ca22b33e",
+    "name": {
+      "zh": "5b47574386f77428ca22b2f6",
+      "en": "5b47574386f77428ca22b2f6"
+    },
+    "icon": "/files/handbook/icon_barter_tools.png",
+    "order": 100,
+    "itemCount": 20
+  },
+  {
+    "id": "5b47574386f77428ca22b341",
+    "parentId": null,
+    "name": {
+      "zh": "信息物品",
+      "en": "Info Items"
+    },
+    "icon": "/files/handbook/icon_info.png",
+    "order": 5,
+    "itemCount": 33
+  },
+  {
+    "id": "5b5f744786f774094242f197",
+    "parentId": "5b5f73ec86f774093e6cb4fd",
+    "name": {
+      "zh": "紧凑型反射式瞄具",
+      "en": "Low Power Optics"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 9
+  },
+  {
+    "id": "5b5f751486f77447ec5d770c",
+    "parentId": "5b5f750686f774093e6cb503",
+    "name": {
+      "zh": "拉机柄",
+      "en": "Charging Handles"
+    },
+    "icon": "/files/handbook/icon_mod_charge.png",
+    "order": 100,
+    "itemCount": 34
+  },
+  {
+    "id": "5b5f794b86f77409407a7f92",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "霰弹枪",
+      "en": "Shotguns"
+    },
+    "icon": "/files/handbook/icon_weapons_shotguns.png",
+    "order": 100,
+    "itemCount": 16
+  },
+  {
+    "id": "5b5f6fa186f77409407a7eb7",
+    "parentId": "5b47574386f77428ca22b33f",
+    "name": {
+      "zh": "容器",
+      "en": "Containers"
+    },
+    "icon": "/files/handbook/icon_gear_cases.png",
+    "order": 100,
+    "itemCount": 4
+  },
+  {
+    "id": "5b5f796a86f774093f2ed3c0",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "冲锋枪",
+      "en": "SMG"
+    },
+    "icon": "/files/handbook/icon_weapons_smg.png",
+    "order": 100,
+    "itemCount": 22
+  },
+  {
+    "id": "5b5f7a2386f774093f2ed3c4",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "投掷物",
+      "en": "Throwable Weapons"
+    },
+    "icon": "/files/handbook/icon_weapons_throw.png",
+    "order": 100,
+    "itemCount": 13
+  },
+  {
+    "id": "5b47574386f77428ca22b344",
+    "parentId": null,
+    "name": {
+      "zh": "医疗物资",
+      "en": "Medical Supplies"
+    },
+    "icon": "/files/handbook/icon_medical.png",
+    "order": 7,
+    "itemCount": 0
+  },
+  {
+    "id": "5b5f701386f774093f2ecf0f",
+    "parentId": "5b47574386f77428ca22b33f",
+    "name": {
+      "zh": "防弹衣",
+      "en": "Body Armor"
+    },
+    "icon": "/files/handbook/icon_gear_armor.png",
+    "order": 100,
+    "itemCount": 39
+  },
+  {
+    "id": "5b5f737886f774093e6cb4fb",
+    "parentId": "5b5f736886f774094242f193",
+    "name": {
+      "zh": "多功能战术设备",
+      "en": "Laser"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 17
+  },
+  {
+    "id": "5b5f75b986f77447ec5d7710",
+    "parentId": "5b5f71a686f77447ed5636ab",
+    "name": {
+      "zh": "基础部件",
+      "en": "Vital Parts"
+    },
+    "icon": "/files/handbook/icon_mods_vital.png",
+    "order": 100,
+    "itemCount": 0
+  },
+  {
+    "id": "5b5f6f3c86f774094242ef87",
+    "parentId": "5b47574386f77428ca22b33f",
+    "name": {
+      "zh": "耳机",
+      "en": "Headsets"
+    },
+    "icon": "/files/handbook/icon_gear_headsets.png",
+    "order": 100,
+    "itemCount": 14
+  },
+  {
+    "id": "5b5f704686f77447ec5d76d7",
+    "parentId": "5b47574386f77428ca22b33f",
+    "name": {
+      "zh": "装备组件",
+      "en": "Gear Components"
+    },
+    "icon": "/files/handbook/icon_gear_components.png",
+    "order": 100,
+    "itemCount": 61
+  },
+  {
+    "id": "5b5f724186f77447ed5636ad",
+    "parentId": "5b5f71b386f774093f2ecf11",
+    "name": {
+      "zh": "枪口装置",
+      "en": "Muzzle Devices"
+    },
+    "icon": "/files/handbook/icon_mod_muzzle.png",
+    "order": 100,
+    "itemCount": 0
+  },
+  {
+    "id": "5b5f742686f774093e6cb4ff",
+    "parentId": "5b5f73ec86f774093e6cb4fd",
+    "name": {
+      "zh": "反射式瞄具",
+      "en": "Holographic Sights"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 32
+  },
+  {
+    "id": "5b5f749986f774094242f199",
+    "parentId": "5b5f73ec86f774093e6cb4fd",
+    "name": {
+      "zh": "特种观瞄",
+      "en": "Special Sights"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 15
+  },
+  {
+    "id": "5b5f754a86f774094242f19b",
+    "parentId": "5b5f750686f774093e6cb503",
+    "name": {
+      "zh": "弹匣",
+      "en": "Magazines"
+    },
+    "icon": "/files/handbook/icon_mod_magazine.png",
+    "order": 100,
+    "itemCount": 212
+  },
+  {
+    "id": "5b47574386f77428ca22b342",
+    "parentId": null,
+    "name": {
+      "zh": "钥匙",
+      "en": "Keys"
+    },
+    "icon": "/files/handbook/icon_keys.png",
+    "order": 6,
+    "itemCount": 0
+  },
+  {
+    "id": "5b5f75c686f774094242f19f",
+    "parentId": "5b5f75b986f77447ec5d7710",
+    "name": {
+      "zh": "枪管",
+      "en": "Barrels"
+    },
+    "icon": "/files/handbook/icon_mod_barrel.png",
+    "order": 100,
+    "itemCount": 174
+  },
+  {
+    "id": "5b5f78b786f77447ed5636af",
+    "parentId": null,
+    "name": {
+      "zh": "货币",
+      "en": "Money"
+    },
+    "icon": "/files/handbook/icon_money.png",
+    "order": 2,
+    "itemCount": 3
+  },
+  {
+    "id": "5b5f78e986f77447ed5636b1",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "突击卡宾枪",
+      "en": "Assault Carbines"
+    },
+    "icon": "/files/handbook/icon_weapons_carbines.png",
+    "order": 100,
+    "itemCount": 15
+  },
+  {
+    "id": "5b5f791486f774093f2ed3be",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "精确射手步枪",
+      "en": "DMR"
+    },
+    "icon": "/files/handbook/icon_weapons_dmr.png",
+    "order": 100,
+    "itemCount": 8
+  },
+  {
+    "id": "5b47574386f77428ca22b33a",
+    "parentId": "5b47574386f77428ca22b344",
+    "name": {
+      "zh": "注射器",
+      "en": "Injectors"
+    },
+    "icon": "/files/handbook/icon_medical_injectors.png",
+    "order": 100,
+    "itemCount": 22
+  },
+  {
+    "id": "5b5f736886f774094242f193",
+    "parentId": "5b5f71b386f774093f2ecf11",
+    "name": {
+      "zh": "照明&激光装置",
+      "en": "Laser Devices"
+    },
+    "icon": "/files/handbook/icon_mod_lightlaser.png",
+    "order": 100,
+    "itemCount": 0
+  },
+  {
+    "id": "5b5f740a86f77447ec5d7706",
+    "parentId": "5b5f73ec86f774093e6cb4fd",
+    "name": {
+      "zh": "突击瞄准镜",
+      "en": "Reflex Sights"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 16
+  },
+  {
+    "id": "5c518ed586f774119a772aee",
+    "parentId": "5b47574386f77428ca22b342",
+    "name": {
+      "zh": "电子钥匙",
+      "en": "Keycards"
+    },
+    "icon": "/files/handbook/icon_keys_electronic.png",
+    "order": 100,
+    "itemCount": 14
+  },
+  {
+    "id": "5b47574386f77428ca22b339",
+    "parentId": "5b47574386f77428ca22b344",
+    "name": {
+      "zh": "伤情处理",
+      "en": "Injury Treatment"
+    },
+    "icon": "/files/handbook/icon_medical_injury.png",
+    "order": 100,
+    "itemCount": 11
+  },
+  {
+    "id": "5b5f71a686f77447ed5636ab",
+    "parentId": null,
+    "name": {
+      "zh": "武器零件&配件",
+      "en": "Weapon Mods"
+    },
+    "icon": "/files/handbook/icon_mods.png",
+    "order": 11,
+    "itemCount": 0
+  },
+  {
+    "id": "5b5f71c186f77409407a7ec0",
+    "parentId": "5b5f71b386f774093f2ecf11",
+    "name": {
+      "zh": "脚架",
+      "en": "Bipods"
+    },
+    "icon": "/files/handbook/icon_mod_bipod.png",
+    "order": 100,
+    "itemCount": 7
+  },
+  {
+    "id": "5b5f72f786f77447ec5d7702",
+    "parentId": "5b5f724186f77447ed5636ad",
+    "name": {
+      "zh": "膛口转接器",
+      "en": "Compensators"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 47
+  },
+  {
+    "id": "5b5f75e486f77447ec5d7712",
+    "parentId": "5b5f75b986f77447ec5d7710",
+    "name": {
+      "zh": "护木",
+      "en": "Handguards"
+    },
+    "icon": "/files/handbook/icon_mod_handguard.png",
+    "order": 100,
+    "itemCount": 197
+  },
+  {
+    "id": "5b5f71b386f774093f2ecf11",
+    "parentId": "5b5f71a686f77447ed5636ab",
+    "name": {
+      "zh": "功能模块",
+      "en": "Functional Mods"
+    },
+    "icon": "/files/handbook/icon_mods_functional.png",
+    "order": 100,
+    "itemCount": 0
+  },
+  {
+    "id": "5b5f724c86f774093f2ecf15",
+    "parentId": "5b5f724186f77447ed5636ad",
+    "name": {
+      "zh": "消焰器&制退器",
+      "en": "Flash Hiders"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 155
+  },
+  {
+    "id": "5b5f73ec86f774093e6cb4fd",
+    "parentId": "5b5f71b386f774093f2ecf11",
+    "name": {
+      "zh": "瞄具",
+      "en": "Sights"
+    },
+    "icon": "/files/handbook/icon_mod_sight.png",
+    "order": 100,
+    "itemCount": 0
+  },
+  {
+    "id": "5b5f757486f774093e6cb507",
+    "parentId": "5b5f750686f774093e6cb503",
+    "name": {
+      "zh": "枪托&框架",
+      "en": "Stocks"
+    },
+    "icon": "/files/handbook/icon_mod_stock.png",
+    "order": 100,
+    "itemCount": 244
+  },
+  {
+    "id": "5b5f78dc86f77409407a7f8e",
+    "parentId": null,
+    "name": {
+      "zh": "武器",
+      "en": "Weapons"
+    },
+    "icon": "/files/handbook/icon_weapons.png",
+    "order": 10,
+    "itemCount": 2
+  },
+  {
+    "id": "5b619f1a86f77450a702a6f3",
+    "parentId": null,
+    "name": {
+      "zh": "任务物品",
+      "en": "Quest Items"
+    },
+    "icon": "/files/handbook/icon_quest.png",
+    "order": 1,
+    "itemCount": 149
+  },
+  {
+    "id": "5b5f73ab86f774094242f195",
+    "parentId": "5b5f736886f774094242f193",
+    "name": {
+      "zh": "手电",
+      "en": "Flashlights"
+    },
+    "icon": "/files/handbook/",
+    "order": 100,
+    "itemCount": 4
+  },
+  {
+    "id": "5b5f78fc86f77409407a7f90",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "突击步枪",
+      "en": "Assault Rifles"
+    },
+    "icon": "/files/handbook/icon_weapons_assaultrifles.png",
+    "order": 100,
+    "itemCount": 40
+  },
+  {
+    "id": "5b5f79a486f77409407a7f94",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "机枪",
+      "en": "Machine Guns"
+    },
+    "icon": "/files/handbook/icon_weapons_mg.png",
+    "order": 100,
+    "itemCount": 8
+  },
+  {
+    "id": "5b5f79eb86f77447ed5636b7",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "特殊武器",
+      "en": "Special Weapons"
+    },
+    "icon": "/files/handbook/icon_weapons_special.png",
+    "order": 100,
+    "itemCount": 8
+  },
+  {
+    "id": "5b47574386f77428ca22b337",
+    "parentId": "5b47574386f77428ca22b344",
+    "name": {
+      "zh": "药丸",
+      "en": "Pills"
+    },
+    "icon": "/files/handbook/icon_medical_pills.png",
+    "order": 100,
+    "itemCount": 3
+  },
+  {
+    "id": "5b47574386f77428ca22b346",
+    "parentId": null,
+    "name": {
+      "zh": "弹药",
+      "en": "Ammo"
+    },
+    "icon": "/files/handbook/icon_ammo.png",
+    "order": 9,
+    "itemCount": 0
+  },
+  {
+    "id": "5b5f752e86f774093e6cb505",
+    "parentId": "5b5f750686f774093e6cb503",
+    "name": {
+      "zh": "榴弹发射器",
+      "en": "Grenade Launchers"
+    },
+    "icon": "/files/handbook/icon_mod_launcher.png",
+    "order": 100,
+    "itemCount": 3
+  },
+  {
+    "id": "5b5f79d186f774093f2ed3c2",
+    "parentId": "5b5f78dc86f77409407a7f8e",
+    "name": {
+      "zh": "榴弹发射器",
+      "en": "Grenade Launchers"
+    },
+    "icon": "/files/handbook/icon_weapons_gl.png",
+    "order": 100,
+    "itemCount": 2
+  }
+]
