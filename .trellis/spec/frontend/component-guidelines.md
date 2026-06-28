@@ -1,5 +1,63 @@
 # Component Guidelines
 
+## 道具详情页（ItemDetail.tsx）
+
+核心组件，根据道具类型动态展示不同属性区域。
+
+### 通用结构
+```tsx
+<Section title={t('common')}>
+  <StatRow label={...} value={...} unit={...} />
+</Section>
+```
+
+### 类型特化展示
+通过 `item.category` 和 `item.typeName` 判断展示哪些 section：
+- 武器 → 武器属性 + 弹药链接
+- 弹药 → 弹药属性
+- 护甲 → 护甲属性（ColoredStatRow 显示惩罚）
+- 头盔 → 性能栏 + 兼容配件
+- 耳机 → 性能栏 + 冲突道具
+- 背包 → 性能栏 + 空间布局网格
+- 近战 → 攻击属性
+- 医疗 → 使用效果
+- 食物/饮料 → 效果（属性变化/状态移除/兴奋剂增益）
+- 改装件 → ColoredStatRow（人机/后坐力/精度）
+
+### 原始属性访问
+道具的 `_raw` 字段包含原始游戏数据，用于特殊类型展示：
+```tsx
+const raw = item.properties._raw || {}
+raw.speedPenaltyPercent  // 移速惩罚
+raw.knifeHitSlashDam     // 挥砍伤害
+```
+
+### 效果展示（EffectsSection）
+按三组显示：属性变化、状态移除、兴奋剂增益。
+兴奋剂增益按 delay+duration 分组，每组内列出所有 buff。
+
+## 弹药视图（AmmoPage.tsx）
+
+`AmmoView` 组件接受 items/categories/lang/filterCaliber props。
+
+### 分组逻辑
+使用 `CALIBER_GROUPS` 硬编码映射（游戏数据格式如 `545x39` 非 `5.45x39`）。
+显示名通过 `CALIBER_DISPLAY` 映射转换。
+
+### 排序
+每个口径内按穿甲力（penetrationPower）从低到高排序。
+
+## 颜色规范
+
+| 属性 | 正=蓝(好) | 负=红(坏) | invertColor |
+|------|-----------|-----------|-------------|
+| 人机工效 | ✓ | ✓ | 否 |
+| 后坐力 | ✗ | ✗ | 是 |
+| 精度 | ✓ | ✓ | 否 |
+| 移速/转向惩罚 | ✗ | ✗ | 否 |
+| 效果数值 | ✓ | ✓ | 否 |
+# Component Guidelines
+
 > How components are built in this project.
 
 ---
