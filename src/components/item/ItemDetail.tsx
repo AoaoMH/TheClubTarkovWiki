@@ -1,6 +1,7 @@
+import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft } from 'lucide-react'
+import { ArrowLeft, HelpCircle, Copy, Check } from 'lucide-react'
 import { useItemDetail, useCategories, getTypeNameZH } from '@/hooks/useItems'
 import type { HealthEffect, StimBuff, ItemEffects } from '@/hooks/useItems'
 
@@ -17,6 +18,29 @@ function StatRow({ label, value, unit, showZero }: { label: string; value: strin
   return (
     <div className="flex justify-between py-1.5 border-b border-border/50 last:border-0">
       <span className="text-sm text-muted-foreground">{label}</span>
+      <span className="text-sm font-medium">
+        {value}{unit && <span className="text-muted-foreground ml-0.5">{unit}</span>}
+      </span>
+    </div>
+  )
+}
+
+function StatRowWithTip({ label, tip, value, unit, showZero }: {
+  label: string; tip: string; value: string | number; unit?: string; showZero?: boolean
+}) {
+  if (value === undefined || value === null || value === '') return null
+  if (!showZero && value === 0) return null
+  return (
+    <div className="flex justify-between py-1.5 border-b border-border/50 last:border-0">
+      <span className="text-sm text-muted-foreground inline-flex items-center gap-1">
+        {label}
+        <span className="relative group inline-block">
+          <HelpCircle size={13} className="text-muted-foreground/60 hover:text-primary cursor-help transition-colors" />
+          <span className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-1.5 w-56 px-2.5 py-1.5 rounded-md bg-popover border border-border shadow-lg text-xs text-popover-foreground opacity-0 group-hover:opacity-100 transition-opacity z-50">
+            {tip}
+          </span>
+        </span>
+      </span>
       <span className="text-sm font-medium">
         {value}{unit && <span className="text-muted-foreground ml-0.5">{unit}</span>}
       </span>
@@ -45,7 +69,7 @@ function ColoredStatRow({ label, value, unit, invertColor, showZero }: {
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <div className="bg-card border border-border rounded-lg overflow-hidden">
+    <div className="bg-card border border-border rounded-lg">
       <div className="px-4 py-2.5 bg-secondary/50 border-b border-border">
         <h3 className="text-sm font-semibold">{title}</h3>
       </div>
@@ -297,6 +321,7 @@ export function ItemDetail() {
   const { item, loading } = useItemDetail(id || null)
   const { categories } = useCategories()
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
+  const [copied, setCopied] = useState(false)
 
   const category = item?.handbook.categoryId ? categories.find(c => c.id === item.handbook.categoryId) : null
 
@@ -319,6 +344,12 @@ export function ItemDetail() {
   const isWeapon = item.category === 'weapon'
   const isAmmoBox = item.category === 'ammobox'
   const typeNameZH = lang === 'zh' ? getTypeNameZH(item.typeName) : item.typeName
+  const copyName = () => {
+    navigator.clipboard.writeText(common.name[lang]).then(() => {
+      setCopied(true)
+      setTimeout(() => setCopied(false), 1500)
+    })
+  }
 
   // Check if mod properties are all zero
   const modAllZero = properties.mod &&
@@ -381,13 +412,20 @@ export function ItemDetail() {
         </div>
 
         <div className="flex-1 min-w-0">
-          <h1 className="text-2xl font-bold mb-1">
-            {common.name[lang]}
+          <h1 className="text-2xl font-bold mb-1 inline-flex items-center gap-2">
+            <span>{common.name[lang]}</span>
             {item.isMod && (
-              <span className="ml-2 text-xs font-medium px-1.5 py-0.5 rounded bg-primary/20 text-primary align-middle">
+              <span className="text-xs font-medium px-1.5 py-0.5 rounded bg-primary/20 text-primary">
                 MOD
               </span>
             )}
+            <button
+              onClick={copyName}
+              className="text-muted-foreground/50 hover:text-primary transition-colors"
+              title={lang === 'zh' ? '复制名称' : 'Copy name'}
+            >
+              {copied ? <Check size={16} className="text-green-400" /> : <Copy size={15} />}
+            </button>
           </h1>
           <p className="text-sm text-muted-foreground mb-3">{common.shortName[lang]} · {typeNameZH}</p>
           <p className="text-sm text-muted-foreground leading-relaxed">{common.description[lang]}</p>
@@ -434,6 +472,20 @@ export function ItemDetail() {
                 </div>
               </div>
             )}
+          </Section>
+        )}
+
+        {/* Hidden Stats */}
+        {properties.weapon && (
+          <Section title={t('hiddenStats')}>
+            <StatRowWithTip label={t('recoilAngle')} tip={t('tip_recoilAngle')} value={properties.weapon.recoilAngle as number} unit="°" showZero />
+            <StatRowWithTip label={t('recoilDispersion')} tip={t('tip_recoilDispersion')} value={properties.weapon.recoilDispersion as number} showZero />
+            <StatRowWithTip label={t('recoilCamera')} tip={t('tip_recoilCamera')} value={properties.weapon.recoilCamera as number} showZero />
+            <StatRowWithTip label={t('cameraSnap')} tip={t('tip_cameraSnap')} value={properties.weapon.cameraSnap as number} showZero />
+            <StatRowWithTip label={t('recoilStableAngleIncreaseStep')} tip={t('tip_recoilStableAngleIncreaseStep')} value={properties.weapon.recoilStableAngleIncreaseStep as number} showZero />
+            <StatRowWithTip label={t('recoilStableIndexShot')} tip={t('tip_recoilStableIndexShot')} value={properties.weapon.recoilStableIndexShot as number} showZero />
+            <StatRowWithTip label={t('deviationMax')} tip={t('tip_deviationMax')} value={properties.weapon.deviationMax as number} showZero />
+            <StatRowWithTip label={t('deviationCurve')} tip={t('tip_deviationCurve')} value={properties.weapon.deviationCurve as number} showZero />
           </Section>
         )}
 

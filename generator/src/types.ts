@@ -134,6 +134,13 @@ export interface WeaponProps {
   recoilForceUp: number
   recoilForceBack: number
   recoilAngle: number
+  recoilDispersion: number
+  recoilCamera: number
+  cameraSnap: number
+  recoilStableAngleIncreaseStep: number
+  recoilStableIndexShot: number
+  deviationMax: number
+  deviationCurve: number
   durability: number
   maxDurability: number
   fireModes: string[]
