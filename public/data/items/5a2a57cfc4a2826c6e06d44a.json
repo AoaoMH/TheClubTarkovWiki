@@ -1,1 +1,128 @@
-{"id":"5a2a57cfc4a2826c6e06d44a","typeName":"ThrowWeap","category":"grenade","parentTypeChain":["ThrowWeap","Item"],"handbook":{"categoryId":"5b5f7a2386f774093f2ed3c4","price":5441},"common":{"name":{"zh":"RDG-2B烟雾弹","en":"RDG-2B smoke grenade"},"shortName":{"zh":"RDG-2B","en":"RDG-2B"},"description":{"zh":"苏制烟雾手榴弹，设计用于创建烟雾区域进行掩护，或指示目标。在前苏联国家里既便宜又很常见。","en":"A Soviet-made smoke hand grenade, designed to create smoke zones with covering or target designation purposes. Cheap and pretty common in post-soviet countries."},"weight":0.6,"width":1,"height":2,"rarity":"Common","backgroundColor":"grey"},"properties":{"_raw":{"AnimationVariantsNumber":0,"ArmorDistanceDistanceDamage":{"x":0,"y":0,"z":0},"BackgroundColor":"grey","Blindness":{"x":0,"y":0,"z":0},"CanBeHiddenDuringThrow":false,"CanPlantOnGround":false,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Contusion":{"x":0,"y":0,"z":0},"ContusionDistance":0,"Description":"weapon_grenade_rdg2","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","EmitTime":120,"ExamineExperience":4,"ExamineTime":1,"ExaminedByDefault":true,"ExplDelay":3,"ExplosionEffectType":"","ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"FragmentType":"5996f6d686f77467977ba6cc","FragmentsCount":0,"Height":2,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"generic","LeftHandItem":false,"LootExperience":5,"MaxExplosionDistance":0,"MergesWithChildren":false,"MetascoreGroup":"Firepower","MinExplosionDistance":0,"MinTimeToContactExplode":-1,"Name":"weapon_grenade_rdg2","NotShownInSlot":false,"PlayFuzeSound":true,"Prefab":{"path":"assets/content/weapons/rdg2/weapon_grenade_rdg2_container.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Common","RepairCost":0,"RepairSpeed":0,"ShortName":"weapon_grenade_rdg2","StackMaxSize":1,"StackObjectsCount":1,"Strength":0,"ThrowType":"smoke_grenade","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":0.6,"Width":1,"explDelay":3.5,"throwDamMax":0}},"slots":[],"image":"/images/items/5a2a57cfc4a2826c6e06d44a.jpg","isMod":false}
+{
+  "id": "5a2a57cfc4a2826c6e06d44a",
+  "typeName": "ThrowWeap",
+  "category": "grenade",
+  "parentTypeChain": [
+    "ThrowWeap",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f7a2386f774093f2ed3c4",
+    "price": 5441
+  },
+  "common": {
+    "name": {
+      "zh": "RDG-2B烟雾弹",
+      "en": "RDG-2B smoke grenade"
+    },
+    "shortName": {
+      "zh": "RDG-2B",
+      "en": "RDG-2B"
+    },
+    "description": {
+      "zh": "苏制烟雾手榴弹，设计用于创建烟雾区域进行掩护，或指示目标。在前苏联国家里既便宜又很常见。",
+      "en": "A Soviet-made smoke hand grenade, designed to create smoke zones with covering or target designation purposes. Cheap and pretty common in post-soviet countries."
+    },
+    "weight": 0.6,
+    "width": 1,
+    "height": 2,
+    "rarity": "Common",
+    "backgroundColor": "grey"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "ArmorDistanceDistanceDamage": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BackgroundColor": "grey",
+      "Blindness": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "CanBeHiddenDuringThrow": false,
+      "CanPlantOnGround": false,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Contusion": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ContusionDistance": 0,
+      "Description": "weapon_grenade_rdg2",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "EmitTime": 120,
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExplDelay": 3,
+      "ExplosionEffectType": "",
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "FragmentType": "5996f6d686f77467977ba6cc",
+      "FragmentsCount": 0,
+      "Height": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "generic",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "MaxExplosionDistance": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Firepower",
+      "MinExplosionDistance": 0,
+      "MinTimeToContactExplode": -1,
+      "Name": "weapon_grenade_rdg2",
+      "NotShownInSlot": false,
+      "PlayFuzeSound": true,
+      "Prefab": {
+        "path": "assets/content/weapons/rdg2/weapon_grenade_rdg2_container.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Common",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "weapon_grenade_rdg2",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Strength": 0,
+      "ThrowType": "smoke_grenade",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.6,
+      "Width": 1,
+      "explDelay": 3.5,
+      "throwDamMax": 0
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5a2a57cfc4a2826c6e06d44a.jpg",
+  "isMod": false
+}

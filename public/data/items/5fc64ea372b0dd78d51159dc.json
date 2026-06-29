@@ -1,1 +1,138 @@
-{"id":"5fc64ea372b0dd78d51159dc","typeName":"Knife","category":"knife","parentTypeChain":["Knife","Item"],"handbook":{"categoryId":"5b5f7a0886f77409407a7f96","price":35000},"common":{"name":{"zh":"邪教徒之刃","en":"Cultist knife"},"shortName":{"zh":"仪式刀","en":"Knife"},"description":{"zh":"从邪教徒身上获得的战利品：一把构造奇特、刀身刻满了奇怪符号的刀。看样子是用来举行某种仪式的道具，但显然并不只有这一种用途。为了涂覆毒素，邪教徒们煞费苦心地对刀身进行了改造——以防万一，最好别碰刀刃。","en":"A knife of a strange shape and with strange signs, taken from the cultists. Seems like it is used as a ritual knife, but apparently it's not limited to this use. It has technological changes in the design intended for the use of toxic substances - it's better not to touch the blade."},"weight":0.28,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"grey"},"properties":{"_raw":{"AdditionalAnimationLayer":0,"AnimationVariantsNumber":0,"AppliedHeadRotation":{"x":2,"y":4,"z":0},"AppliedTrunkRotation":{"x":0,"y":0,"z":0},"BackgroundColor":"grey","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ColliderScaleMultiplier":{"x":1,"y":1,"z":1},"ConflictingItems":[],"DeflectionConsumption":3,"Description":"weapon_cultist_damask\n","DiscardLimit":0,"DiscardingBlock":false,"DisplayOnModel":false,"DropSoundType":"None","Durability":38,"ExamineExperience":100,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":true,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"knife_generic","LeftHandItem":false,"LootExperience":10,"MaxDurability":38,"MaxRepairDegradation":0.01,"MaxResource":2,"MergesWithChildren":false,"MetascoreGroup":"Firepower","MinRepairDegradation":0,"Name":"weapon_cultist_damask","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/knife_ritual/weapon_knife_ritual_container.bundle","rcid":""},"PrimaryConsumption":8,"PrimaryDistance":0.35,"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"SecondryConsumption":10,"SecondryDistance":0.45,"ShortName":"weapon_cultist_damask","SlashPenetration":1,"StabPenetration":1,"StackMaxSize":1,"StackObjectsCount":1,"StaminaBurnRate":0,"StimulatorBuffs":"Buffs_KultistsToxin","Unlootable":false,"UnlootableFromSide":["Bear","Usec"],"UnlootableFromSlot":"Scabbard","UsePrefab":{"path":"","rcid":""},"Weight":0.28,"Width":2,"knifeDurab":38,"knifeHitDelay":0,"knifeHitRadius":0.35,"knifeHitSlashDam":25,"knifeHitSlashRate":0,"knifeHitStabDam":32,"knifeHitStabRate":1}},"slots":[],"image":"/images/items/5fc64ea372b0dd78d51159dc.jpg","isMod":false}
+{
+  "id": "5fc64ea372b0dd78d51159dc",
+  "typeName": "Knife",
+  "category": "knife",
+  "parentTypeChain": [
+    "Knife",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f7a0886f77409407a7f96",
+    "price": 35000
+  },
+  "common": {
+    "name": {
+      "zh": "邪教徒之刃",
+      "en": "Cultist knife"
+    },
+    "shortName": {
+      "zh": "仪式刀",
+      "en": "Knife"
+    },
+    "description": {
+      "zh": "从邪教徒身上获得的战利品：一把构造奇特、刀身刻满了奇怪符号的刀。看样子是用来举行某种仪式的道具，但显然并不只有这一种用途。为了涂覆毒素，邪教徒们煞费苦心地对刀身进行了改造——以防万一，最好别碰刀刃。",
+      "en": "A knife of a strange shape and with strange signs, taken from the cultists. Seems like it is used as a ritual knife, but apparently it's not limited to this use. It has technological changes in the design intended for the use of toxic substances - it's better not to touch the blade."
+    },
+    "weight": 0.28,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "grey"
+  },
+  "properties": {
+    "_raw": {
+      "AdditionalAnimationLayer": 0,
+      "AnimationVariantsNumber": 0,
+      "AppliedHeadRotation": {
+        "x": 2,
+        "y": 4,
+        "z": 0
+      },
+      "AppliedTrunkRotation": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "BackgroundColor": "grey",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ColliderScaleMultiplier": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "ConflictingItems": [],
+      "DeflectionConsumption": 3,
+      "Description": "weapon_cultist_damask\n",
+      "DiscardLimit": 0,
+      "DiscardingBlock": false,
+      "DisplayOnModel": false,
+      "DropSoundType": "None",
+      "Durability": 38,
+      "ExamineExperience": 100,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": true,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "knife_generic",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxDurability": 38,
+      "MaxRepairDegradation": 0.01,
+      "MaxResource": 2,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Firepower",
+      "MinRepairDegradation": 0,
+      "Name": "weapon_cultist_damask",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/knife_ritual/weapon_knife_ritual_container.bundle",
+        "rcid": ""
+      },
+      "PrimaryConsumption": 8,
+      "PrimaryDistance": 0.35,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SecondryConsumption": 10,
+      "SecondryDistance": 0.45,
+      "ShortName": "weapon_cultist_damask",
+      "SlashPenetration": 1,
+      "StabPenetration": 1,
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StaminaBurnRate": 0,
+      "StimulatorBuffs": "Buffs_KultistsToxin",
+      "Unlootable": false,
+      "UnlootableFromSide": [
+        "Bear",
+        "Usec"
+      ],
+      "UnlootableFromSlot": "Scabbard",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.28,
+      "Width": 2,
+      "knifeDurab": 38,
+      "knifeHitDelay": 0,
+      "knifeHitRadius": 0.35,
+      "knifeHitSlashDam": 25,
+      "knifeHitSlashRate": 0,
+      "knifeHitStabDam": 32,
+      "knifeHitStabRate": 1
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5fc64ea372b0dd78d51159dc.jpg",
+  "isMod": false
+}

@@ -1,1 +1,129 @@
-{"id":"63a898a328e385334e0640a5","typeName":"RandomLootContainer","category":"container","parentTypeChain":["RandomLootContainer","SearchableItem","CompoundItem","Item"],"handbook":{"categoryId":"5b5f6fa186f77409407a7eb7","price":50000},"common":{"name":{"zh":"圣诞礼物","en":"Christmas gift"},"shortName":{"zh":"礼物","en":"Gift"},"description":{"zh":"一个包装精美的圣诞礼物。看起来圣诞老人对你很好。快来打开它吧！","en":"A neatly wrapped Christmas gift. Looks like Santa is kind to you. Come on, open it up!"},"weight":3,"width":2,"height":3,"rarity":"Not_exist","backgroundColor":"red"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"red","BlocksArmorVest":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"new_year_gift_medium","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":100,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[{"_id":"63a898a328e385334e0640a6","_name":"main","_parent":"63a898a328e385334e0640a5","_props":{"cellsH":3,"cellsV":3,"filters":[{"ExcludedFilter":["54009119af1c881c07000029"],"Filter":[]}],"isSortingTable":false,"maxCount":6,"maxWeight":4,"minCount":4},"_proto":"55d329c24bdc2d892f8b4567"}],"Height":3,"HideEntrails":true,"InsuranceDisabled":true,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"container_plastic","LeftHandItem":false,"LootExperience":20,"MergesWithChildren":false,"Name":"new_year_gift_medium","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/containers/item_container_cristmas_prize_01-02/item_container_cristmas_prize_02.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"SearchSound":"drawer_metal_looting","ShortName":"new_year_gift_medium","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":3,"Width":2}},"slots":[],"image":"/images/items/63a898a328e385334e0640a5.jpg","isMod":false}
+{
+  "id": "63a898a328e385334e0640a5",
+  "typeName": "RandomLootContainer",
+  "category": "container",
+  "parentTypeChain": [
+    "RandomLootContainer",
+    "SearchableItem",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f6fa186f77409407a7eb7",
+    "price": 50000
+  },
+  "common": {
+    "name": {
+      "zh": "圣诞礼物",
+      "en": "Christmas gift"
+    },
+    "shortName": {
+      "zh": "礼物",
+      "en": "Gift"
+    },
+    "description": {
+      "zh": "一个包装精美的圣诞礼物。看起来圣诞老人对你很好。快来打开它吧！",
+      "en": "A neatly wrapped Christmas gift. Looks like Santa is kind to you. Come on, open it up!"
+    },
+    "weight": 3,
+    "width": 2,
+    "height": 3,
+    "rarity": "Not_exist",
+    "backgroundColor": "red"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "red",
+      "BlocksArmorVest": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "new_year_gift_medium",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 100,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [
+        {
+          "_id": "63a898a328e385334e0640a6",
+          "_name": "main",
+          "_parent": "63a898a328e385334e0640a5",
+          "_props": {
+            "cellsH": 3,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "54009119af1c881c07000029"
+                ],
+                "Filter": []
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 6,
+            "maxWeight": 4,
+            "minCount": 4
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Height": 3,
+      "HideEntrails": true,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "container_plastic",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MergesWithChildren": false,
+      "Name": "new_year_gift_medium",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/containers/item_container_cristmas_prize_01-02/item_container_cristmas_prize_02.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SearchSound": "drawer_metal_looting",
+      "ShortName": "new_year_gift_medium",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 3,
+      "Width": 2
+    }
+  },
+  "slots": [],
+  "image": "/images/items/63a898a328e385334e0640a5.jpg",
+  "isMod": false
+}

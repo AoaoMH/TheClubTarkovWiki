@@ -1,1 +1,247 @@
-{"id":"669fcbd899f4dc2f8ed7d113","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"勃朗宁 Auto-5 Heritage Ordnance 24英寸12铅径枪管","en":"Browning Auto-5 Heritage Ordnance 12ga 24 inch barrel"},"shortName":{"zh":"Auto-5 24英寸","en":"Auto-5 24\""},"description":{"zh":"由Heritage Ordnance制造的24英寸（610毫米）枪管，配备战斗瞄具，专为勃朗宁Auto-5 12铅径霰弹枪设计。","en":"A 24 inch (610mm) barrel manufactured by Heritage Ordnance with mounted combat sights for the Browning Auto-5 12 gauge shotgun."},"weight":1.2,"width":4,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.58,"ConflictingItems":[],"CoolFactor":0.92,"Description":"Стандартный заводской ствол для ружья МР-133 длинной 610мм под патрон 12-го калибра, с широкой прицельной планкой.","DeviationCurve":2.5,"DeviationMax":10,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-6,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":2,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.88,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":20,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Ствол 610мм для ружья МР-133 12к с прицельной планкой","NotShownInSlot":false,"Prefab":{"path":"WeaponAuto5/auto5_tacticalbarrel.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-6.5,"RepairCost":0,"RepairSpeed":0,"ShortName":"610мм МР-133 12к","ShotgunDispersion":1.4,"SightingRange":0,"Slots":[{"_id":"669fcb19e9163ce1412068c2","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"669fcbd899f4dc2f8ed7d113","_props":{"filters":[{"Filter":["609b9e31506cf869cf3eaf41","5dfe14f30b92095fd441edaf"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"669fcb1f53b328b6c221057d","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"669fcbd899f4dc2f8ed7d113","_props":{"filters":[{"Filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":10.8,"Weight":1.2,"Width":4},"mod":{"ergonomics":-6,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":10.8,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_mount","id":"669fcb19e9163ce1412068c2","required":false,"filter":["609b9e31506cf869cf3eaf41","5dfe14f30b92095fd441edaf"]},{"name":"mod_muzzle","id":"669fcb1f53b328b6c221057d","required":false,"filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"]}],"image":null,"isMod":true}
+{
+  "id": "669fcbd899f4dc2f8ed7d113",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "勃朗宁 Auto-5 Heritage Ordnance 24英寸12铅径枪管",
+      "en": "Browning Auto-5 Heritage Ordnance 12ga 24 inch barrel"
+    },
+    "shortName": {
+      "zh": "Auto-5 24英寸",
+      "en": "Auto-5 24\""
+    },
+    "description": {
+      "zh": "由Heritage Ordnance制造的24英寸（610毫米）枪管，配备战斗瞄具，专为勃朗宁Auto-5 12铅径霰弹枪设计。",
+      "en": "A 24 inch (610mm) barrel manufactured by Heritage Ordnance with mounted combat sights for the Browning Auto-5 12 gauge shotgun."
+    },
+    "weight": 1.5299999999999998,
+    "width": 4,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.58,
+      "ConflictingItems": [],
+      "CoolFactor": 0.92,
+      "Description": "Стандартный заводской ствол для ружья МР-133 длинной 610мм под патрон 12-го калибра, с широкой прицельной планкой.",
+      "DeviationCurve": 2.5,
+      "DeviationMax": 10,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -6,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.88,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Ствол 610мм для ружья МР-133 12к с прицельной планкой",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponAuto5/auto5_tacticalbarrel.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -6.5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "610мм МР-133 12к",
+      "ShotgunDispersion": 1.4,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "669fcb19e9163ce1412068c2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "669fcbd899f4dc2f8ed7d113",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "609b9e31506cf869cf3eaf41",
+                  "5dfe14f30b92095fd441edaf"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "669fcb1f53b328b6c221057d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "669fcbd899f4dc2f8ed7d113",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0111ab0db834001966914d",
+                  "560838c94bdc2d77798b4569",
+                  "5b363dea5acfc4771e1c5e7e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 10.8,
+      "Weight": 1.2,
+      "Width": 4
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "609b9e31506cf869cf3eaf41",
+          "name": {
+            "zh": "VOMZ PILAD Target Ring反射式瞄具",
+            "en": "VOMZ Pilad TargetRing reflex sight"
+          },
+          "armorClass": 0,
+          "weight": 0.21,
+          "count": 1
+        },
+        {
+          "id": "5c0111ab0db834001966914d",
+          "name": {
+            "zh": "ME Cylinder 12铅径膛口转接器",
+            "en": "ME Cylinder 12ga muzzle adapter"
+          },
+          "armorClass": 0,
+          "weight": 0.12,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.5299999999999998
+    },
+    "mod": {
+      "ergonomics": -6,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 10.8,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_mount",
+      "id": "669fcb19e9163ce1412068c2",
+      "required": false,
+      "filter": [
+        "609b9e31506cf869cf3eaf41",
+        "5dfe14f30b92095fd441edaf"
+      ]
+    },
+    {
+      "name": "mod_muzzle",
+      "id": "669fcb1f53b328b6c221057d",
+      "required": false,
+      "filter": [
+        "5c0111ab0db834001966914d",
+        "560838c94bdc2d77798b4569",
+        "5b363dea5acfc4771e1c5e7e"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

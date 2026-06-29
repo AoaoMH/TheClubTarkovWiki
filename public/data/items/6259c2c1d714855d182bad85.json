@@ -1,1 +1,247 @@
-{"id":"6259c2c1d714855d182bad85","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":13500},"common":{"name":{"zh":"Benelli M3 Super 90 12铅径 500毫米枪管","en":"Benelli M3 Super 90 12ga 500mm barrel"},"shortName":{"zh":"M3 500毫米","en":"M3 500mm"},"description":{"zh":"Benelli M3 S90 12铅径霰弹枪所用的500毫米长枪管。","en":"A 500mm barrel for the Benelli M3 S90 12 gauge shotgun."},"weight":0.8,"width":3,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.53,"ConflictingItems":[],"CoolFactor":1.02,"Description":"barrel_870_extra_barrel_355mm","DeviationCurve":2.5,"DeviationMax":9,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":0.98,"EffectiveDistance":0,"Ergonomics":-8,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.95,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_870_extra_barrel_355mm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_m3_benelli_500mm_12g.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-7,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_870_extra_barrel_355mm","ShotgunDispersion":1.37,"SightingRange":0,"Slots":[{"_id":"62a30b8311bd27063b4c40a6","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"6259c2c1d714855d182bad85","_props":{"filters":[{"Filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"6764991dd8ffd0b1b20716f9","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"6259c2c1d714855d182bad85","_props":{"filters":[{"Filter":["676177b09cfcc4c25b027446","5a789261c5856700186c65d3"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":6.4,"Weight":0.8,"Width":3},"mod":{"ergonomics":-8,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":6.4,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"62a30b8311bd27063b4c40a6","required":false,"filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"]},{"name":"mod_mount","id":"6764991dd8ffd0b1b20716f9","required":false,"filter":["676177b09cfcc4c25b027446","5a789261c5856700186c65d3"]}],"image":"/images/items/6259c2c1d714855d182bad85.jpg","isMod":false}
+{
+  "id": "6259c2c1d714855d182bad85",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 13500
+  },
+  "common": {
+    "name": {
+      "zh": "Benelli M3 Super 90 12铅径 500毫米枪管",
+      "en": "Benelli M3 Super 90 12ga 500mm barrel"
+    },
+    "shortName": {
+      "zh": "M3 500毫米",
+      "en": "M3 500mm"
+    },
+    "description": {
+      "zh": "Benelli M3 S90 12铅径霰弹枪所用的500毫米长枪管。",
+      "en": "A 500mm barrel for the Benelli M3 S90 12 gauge shotgun."
+    },
+    "weight": 1.038,
+    "width": 3,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.53,
+      "ConflictingItems": [],
+      "CoolFactor": 1.02,
+      "Description": "barrel_870_extra_barrel_355mm",
+      "DeviationCurve": 2.5,
+      "DeviationMax": 9,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 0.98,
+      "EffectiveDistance": 0,
+      "Ergonomics": -8,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.95,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_870_extra_barrel_355mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_m3_benelli_500mm_12g.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -7,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_870_extra_barrel_355mm",
+      "ShotgunDispersion": 1.37,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "62a30b8311bd27063b4c40a6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "6259c2c1d714855d182bad85",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0111ab0db834001966914d",
+                  "560838c94bdc2d77798b4569",
+                  "5b363dea5acfc4771e1c5e7e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6764991dd8ffd0b1b20716f9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "6259c2c1d714855d182bad85",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "676177b09cfcc4c25b027446",
+                  "5a789261c5856700186c65d3"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 6.4,
+      "Weight": 0.8,
+      "Width": 3
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5c0111ab0db834001966914d",
+          "name": {
+            "zh": "ME Cylinder 12铅径膛口转接器",
+            "en": "ME Cylinder 12ga muzzle adapter"
+          },
+          "armorClass": 0,
+          "weight": 0.12,
+          "count": 1
+        },
+        {
+          "id": "676177b09cfcc4c25b027446",
+          "name": {
+            "zh": "Toni System 战术附件枪管夹具",
+            "en": "Toni System Tactical Barrel Clamp"
+          },
+          "armorClass": 0,
+          "weight": 0.118,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.038
+    },
+    "mod": {
+      "ergonomics": -8,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 6.4,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "62a30b8311bd27063b4c40a6",
+      "required": false,
+      "filter": [
+        "5c0111ab0db834001966914d",
+        "560838c94bdc2d77798b4569",
+        "5b363dea5acfc4771e1c5e7e"
+      ]
+    },
+    {
+      "name": "mod_mount",
+      "id": "6764991dd8ffd0b1b20716f9",
+      "required": false,
+      "filter": [
+        "676177b09cfcc4c25b027446",
+        "5a789261c5856700186c65d3"
+      ]
+    }
+  ],
+  "image": "/images/items/6259c2c1d714855d182bad85.jpg",
+  "isMod": false
+}

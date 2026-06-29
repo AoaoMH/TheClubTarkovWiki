@@ -3,7 +3,7 @@ import type {
   SPTItemsMap, SPTItem, Handbook, Locales,
   WikiItem, ItemCategory, SlotInfo, ResolvedSlot, ItemNameEntry,
   WeaponProps, AmmoProps, AmmoBoxProps, ArmorProps, MedicalProps, ModProps, FoodDrinkProps,
-  HeadwearProps, HealthEffect, StimBuff, ItemEffects, StimulatorBuffsMap
+  HeadwearProps, HealthEffect, StimBuff, ItemEffects, StimulatorBuffsMap, DefaultPlate
 } from '../types.js'
 
 export interface NormalizeResult {
@@ -192,20 +192,142 @@ function extractAmmoBoxProps(item: SPTItem): AmmoBoxProps | undefined {
   }
 }
 
-function extractArmorProps(item: SPTItem): ArmorProps | undefined {
+/**
+ * Read armorColliders from child components of an item's slots.
+ * Returns aggregated zones, effective armor class, durability, and default plates.
+ */
+function readChildArmorData(
+  item: SPTItem,
+  items: SPTItemsMap,
+  locales: { zh: Locales; en: Locales },
+): {
+  zones: string[]
+  plateZones: string[]
+  maxArmorClass: number
+  softArmorClass: number
+  maxDurability: number
+  durability: number
+  defaultPlates: DefaultPlate[]
+  defaultPlateClass: number
+  plateWeight: number
+} {
+  const zones: string[] = []
+  const plateZones: string[] = []
+  let maxArmorClass = 0
+  let softArmorClass = 0
+  let maxDurability = 0
+  let durability = 0
+  const defaultPlates: DefaultPlate[] = []
+  let defaultPlateClass = 0
+  let plateWeight = 0
+
+  const slots = item._props.Slots as Array<Record<string, unknown>> | undefined
+  if (!Array.isArray(slots)) return { zones, plateZones, maxArmorClass, softArmorClass, maxDurability, durability, defaultPlates, defaultPlateClass, plateWeight }
+
+  for (const slot of slots) {
+    const slotProps = slot._props as Record<string, unknown> | undefined
+    if (!slotProps?.filters) continue
+    const filters = slotProps.filters as Array<Record<string, unknown>>
+    const firstFilter = filters[0]
+    if (!firstFilter || !Array.isArray(firstFilter.Filter) || firstFilter.Filter.length === 0) continue
+
+    const isRequired = slot._required === true
+    const firstItemId = firstFilter.Filter[0] as string
+    const childItem = items[firstItemId]
+    if (!childItem) continue
+
+    const cp = childItem._props
+    const childAC = Number(cp.armorClass || cp.ArmorClass || 0)
+    const childDur = (cp.MaxDurability as number) || 0
+
+    if (!isRequired) {
+      // Optional slot = plate slot → extract default plate info
+      const colliders = (cp.armorPlateColliders as string[]) || []
+      for (const z of colliders) {
+        if (!plateZones.includes(z)) plateZones.push(z)
+      }
+
+      // Count how many slots use the same first plate item
+      const plateNameZh = getLocale(firstItemId, 'Name', locales.zh, cp.Name as string || childItem._name)
+      const plateNameEn = getLocale(firstItemId, 'Name', locales.en, cp.Name as string || childItem._name)
+
+      // Check if we already have this plate
+      const existing = defaultPlates.find(p => p.name.en === plateNameEn)
+      if (existing) {
+        existing.count++
+      } else {
+        defaultPlates.push({
+          id: firstItemId,
+          name: { zh: plateNameZh, en: plateNameEn },
+          armorClass: childAC,
+          weight: (cp.Weight as number) || 0,
+          count: 1,
+        })
+      }
+
+      if (childAC > defaultPlateClass) defaultPlateClass = childAC
+      plateWeight += (cp.Weight as number) || 0
+    } else {
+      // Required slot = built-in soft armor → read armorColliders
+      const colliders = (cp.armorColliders as string[]) || []
+      for (const z of colliders) {
+        if (!zones.includes(z)) zones.push(z)
+      }
+      if (childAC > softArmorClass) softArmorClass = childAC
+    }
+
+    if (childAC > maxArmorClass) maxArmorClass = childAC
+    if (childDur > maxDurability) {
+      maxDurability = childDur
+      durability = (cp.Durability as number) || childDur
+    }
+  }
+
+  return { zones, plateZones, maxArmorClass, softArmorClass, maxDurability, durability, defaultPlates, defaultPlateClass, plateWeight }
+}
+
+function extractArmorProps(
+  item: SPTItem,
+  items: SPTItemsMap,
+  locales: { zh: Locales; en: Locales },
+): ArmorProps | undefined {
   const p = item._props
-  if (!p.ArmorClass && !p.armorClass) return undefined
+  const baseArmorClass = Number(p.ArmorClass || p.armorClass || 0)
+  const armorType = (p.ArmorType as string) || ''
+
+  // Read child armor data
+  const childData = readChildArmorData(item, items, locales)
+  const effectiveAC = Math.max(baseArmorClass, childData.maxArmorClass)
+
+  // Only extract armor props if item has actual armor protection
+  if (effectiveAC === 0 && (!armorType || armorType === 'None') && childData.zones.length === 0 && childData.defaultPlates.length === 0) {
+    return undefined
+  }
+
+  // Use child zones if parent has none
+  let zones: string[] = Array.isArray(p.armorZone) && (p.armorZone as string[]).length > 0
+    ? p.armorZone as string[]
+    : childData.zones
+
+  const baseWeight = (p.Weight as number) || 0
+  const totalWeight = baseWeight + childData.plateWeight
+
   return {
-    armorClass: Number(p.ArmorClass || p.armorClass || 0),
-    durability: (p.Durability as number) || 0,
-    maxDurability: (p.MaxDurability as number) || 0,
+    armorClass: effectiveAC,
+    baseArmorClass: Math.max(baseArmorClass, childData.softArmorClass),
+    durability: (p.Durability as number) || childData.durability || 0,
+    maxDurability: (p.MaxDurability as number) || childData.maxDurability || 0,
     material: (p.ArmorMaterial as string) || '',
-    zones: Array.isArray(p.armorZone) ? p.armorZone as string[] : [],
-    speedPenalty: (p.SpeedPenalty as number) || 0,
-    ergonomicsPenalty: (p.ErgonomicsPenalty as number) || 0,
+    zones,
+    speedPenalty: (p.SpeedPenalty as number) || (p.speedPenaltyPercent as number) || 0,
+    ergonomicsPenalty: (p.ErgonomicsPenalty as number) || (p.weaponErgonomicPenalty as number) || 0,
     bluntThroughput: (p.BluntThroughput as number) || 0,
-    armorType: (p.ArmorType as string) || '',
+    armorType,
     mousePenalty: (p.mousePenalty as number) || 0,
+    defaultPlates: childData.defaultPlates,
+    defaultPlateClass: childData.defaultPlateClass,
+    plateZones: childData.plateZones,
+    totalWeight,
   }
 }
 
@@ -335,7 +457,10 @@ function extractModProps(item: SPTItem): ModProps | undefined {
   }
 }
 
-function extractHeadwearProps(item: SPTItem, items: SPTItemsMap): HeadwearProps | undefined {
+function extractHeadwearProps(
+  item: SPTItem,
+  items: SPTItemsMap,
+): HeadwearProps | undefined {
   const p = item._props
   // Only process items that have headwear-related properties
   const armorType = (p.ArmorType as string) || ''
@@ -349,15 +474,20 @@ function extractHeadwearProps(item: SPTItem, items: SPTItemsMap): HeadwearProps 
   let armorClass = Number(p.armorClass || p.ArmorClass || 0)
   let durability = (p.Durability as number) || 0
   let maxDurability = (p.MaxDurability as number) || 0
-  let zones: string[] = Array.isArray(p.armorZone) ? p.armorZone as string[] : []
+  let zones: string[] = Array.isArray(p.armorZone) && (p.armorZone as string[]).length > 0
+    ? p.armorZone as string[]
+    : []
 
-  // Check child armor slots for effective values
+  // Check child armor slots for effective values and read armorColliders
   const armorSlotNames = ['Helmet_top', 'Helmet_back', 'Helmet_ears', 'Helmet_eyes', 'Helmet_jaw']
   const slots = item._props.Slots as Array<Record<string, unknown>> | undefined
+  let hasHelmetSlots = false
   if (Array.isArray(slots)) {
     for (const slot of slots) {
       const slotName = slot._name as string
       if (!armorSlotNames.includes(slotName)) continue
+      hasHelmetSlots = true
+
       const slotProps = slot._props as Record<string, unknown> | undefined
       if (!slotProps?.filters) continue
       for (const f of slotProps.filters as Array<Record<string, unknown>>) {
@@ -366,6 +496,13 @@ function extractHeadwearProps(item: SPTItem, items: SPTItemsMap): HeadwearProps 
           const childItem = items[filterId]
           if (!childItem) continue
           const cp = childItem._props
+
+          // Read armorColliders from child component
+          const colliders = (cp.armorColliders as string[]) || []
+          for (const z of colliders) {
+            if (!zones.includes(z)) zones.push(z)
+          }
+
           const childAC = Number(cp.armorClass || cp.ArmorClass || 0)
           if (childAC > armorClass) armorClass = childAC
           const childDur = (cp.MaxDurability as number) || 0
@@ -373,13 +510,14 @@ function extractHeadwearProps(item: SPTItem, items: SPTItemsMap): HeadwearProps 
             maxDurability = childDur
             durability = (cp.Durability as number) || childDur
           }
-          const childZones = Array.isArray(cp.armorZone) ? cp.armorZone as string[] : []
-          for (const z of childZones) {
-            if (!zones.includes(z)) zones.push(z)
-          }
         }
       }
     }
+  }
+
+  // If no zones from child components and item has real armor, default to HeadCommon (face)
+  if (zones.length === 0 && !hasHelmetSlots && armorType && armorType !== 'None') {
+    zones.push('HeadCommon')
   }
 
   // Ricochet chance from RicochetParams.z
@@ -477,11 +615,11 @@ export function normalizeItems(ctx: NormalizeContext): NormalizeResult {
     const wpn = category === 'ammobox' ? undefined : extractWeaponProps(item)
     const ammo = extractAmmoProps(item)
     const ammoBox = category === 'ammobox' ? extractAmmoBoxProps(item) : undefined
-    const armor = extractArmorProps(item)
+    const armor = extractArmorProps(item, items, locales)
     const med = extractMedicalProps(item, stimBuffsMap)
     const mod = extractModProps(item)
     const fd = extractFoodDrinkProps(item, stimBuffsMap)
-    const hw = category === 'headwear' ? extractHeadwearProps(item, items) : undefined
+    const hw = (category === 'headwear' || category === 'facecover') ? extractHeadwearProps(item, items) : undefined
     if (wpn) properties.weapon = wpn
     if (ammo) properties.ammo = ammo
     if (ammoBox) properties.ammoBox = ammoBox
@@ -532,7 +670,7 @@ export function normalizeItems(ctx: NormalizeContext): NormalizeResult {
         name: { zh: nameZh, en: nameEn },
         shortName: { zh: shortNameZh, en: shortNameEn },
         description: { zh: descZh, en: descEn },
-        weight: (item._props.Weight as number) || 0,
+        weight: armor?.totalWeight || (item._props.Weight as number) || 0,
         width: (item._props.Width as number) || 1,
         height: (item._props.Height as number) || 1,
         rarity: (item._props.RarityPvE as string) || 'Common',

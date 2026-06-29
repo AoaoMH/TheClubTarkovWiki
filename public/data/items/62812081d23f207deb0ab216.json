@@ -1,1 +1,204 @@
-{"id":"62812081d23f207deb0ab216","typeName":"FlashHider","category":"mod_muzzle","parentTypeChain":["FlashHider","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f724c86f774093f2ecf15","price":12500},"common":{"name":{"zh":"AI .338 LM战术型枪口制退器 ","en":"AI .338 LM Tactical Muzzle Brake "},"shortName":{"zh":"TMB 338LM","en":"TMB 338LM"},"description":{"zh":"Accuracy International生产的.338 LM (8.6x70) 枪口制退器。可以降低后坐力，抑制枪口抬高。","en":"A muzzle brake manufactured by Accuracy International for .338 LM (8.6x70). Reduces recoil and counters the muzzle rise."},"weight":0.23,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":1,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"Пламегаситель 5.56x45 Colt USGI A2 также известный как Bird Cage (Птичья Клетка) предназначен для установки на оружие на базе AR-15 под патрон 5.56x45. Однако может быть установлен и на другое оружие под тот же калибр, если ствол имеет ту же резьбу для установки дополнительных дульных устройств. Штатно устанавливается на штурмовую винтовку M4A1.","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-2,"ExamineExperience":5,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.987,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":30,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Пламегаситель Colt USGI A2 5.56x45 для AR-15","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/muzzle/muzzle_all_accuracy_international_tactical_muzzle_brake_86x70.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":-8,"RepairCost":0,"RepairSpeed":0,"ShortName":"5.56x45 AR-15 USGI A2","SightingRange":0,"Slots":[{"_id":"62812081d23f207deb0ab217","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"62812081d23f207deb0ab216","_props":{"filters":[{"Filter":["62811fa609427b40ab14e765","628120621d5df4475f46a335"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.23,"Width":1,"muzzleModType":"brake"},"mod":{"ergonomics":-2,"recoilForceUp":0,"recoilForceBack":0,"accuracy":1,"loudness":30,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"brake","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"62812081d23f207deb0ab217","required":false,"filter":["62811fa609427b40ab14e765","628120621d5df4475f46a335"]}],"image":"/images/items/62812081d23f207deb0ab216.jpg","isMod":false}
+{
+  "id": "62812081d23f207deb0ab216",
+  "typeName": "FlashHider",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "FlashHider",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f724c86f774093f2ecf15",
+    "price": 12500
+  },
+  "common": {
+    "name": {
+      "zh": "AI .338 LM战术型枪口制退器 ",
+      "en": "AI .338 LM Tactical Muzzle Brake "
+    },
+    "shortName": {
+      "zh": "TMB 338LM",
+      "en": "TMB 338LM"
+    },
+    "description": {
+      "zh": "Accuracy International生产的.338 LM (8.6x70) 枪口制退器。可以降低后坐力，抑制枪口抬高。",
+      "en": "A muzzle brake manufactured by Accuracy International for .338 LM (8.6x70). Reduces recoil and counters the muzzle rise."
+    },
+    "weight": 0.895,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 1,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "Пламегаситель 5.56x45 Colt USGI A2 также известный как Bird Cage (Птичья Клетка) предназначен для установки на оружие на базе AR-15 под патрон 5.56x45. Однако может быть установлен и на другое оружие под тот же калибр, если ствол имеет ту же резьбу для установки дополнительных дульных устройств. Штатно устанавливается на штурмовую винтовку M4A1.",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -2,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.987,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 30,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Пламегаситель Colt USGI A2 5.56x45 для AR-15",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/muzzle/muzzle_all_accuracy_international_tactical_muzzle_brake_86x70.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": -8,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "5.56x45 AR-15 USGI A2",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "62812081d23f207deb0ab217",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "62812081d23f207deb0ab216",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "62811fa609427b40ab14e765",
+                  "628120621d5df4475f46a335"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.23,
+      "Width": 1,
+      "muzzleModType": "brake"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "62811fa609427b40ab14e765",
+          "name": {
+            "zh": "AI .338 LM战术声音抑制器",
+            "en": "AI .338 LM Tactical Sound Moderator"
+          },
+          "armorClass": 0,
+          "weight": 0.665,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.895
+    },
+    "mod": {
+      "ergonomics": -2,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 1,
+      "loudness": 30,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "brake",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "62812081d23f207deb0ab217",
+      "required": false,
+      "filter": [
+        "62811fa609427b40ab14e765",
+        "628120621d5df4475f46a335"
+      ]
+    }
+  ],
+  "image": "/images/items/62812081d23f207deb0ab216.jpg",
+  "isMod": false
+}

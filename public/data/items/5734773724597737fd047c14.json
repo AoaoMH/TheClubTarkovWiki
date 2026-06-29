@@ -1,1 +1,153 @@
-{"id":"5734773724597737fd047c14","typeName":"Food","category":"food","parentTypeChain":["Food","FoodDrink","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b336","price":24943},"common":{"name":{"zh":"炼乳罐头","en":"Can of condensed milk"},"shortName":{"zh":"炼乳","en":"Cond. milk"},"description":{"zh":"炼乳在俄语中被称作“Sguschyonka”，也就是所谓的稠牛奶。虽然炼乳罐头最早在美国南北战争时期作为联邦军的野战配给大量配发，但其真正流行却是在苏东国家，几乎是过去唯一常见的乳制品。罐装炼乳可储存数十年而不腐坏，依然保留着苏联时代的香甜口感与营养。","en":"Condensed milk, also called \"Sguschyonka\" in Russia, once was a part of field ration for the Union soldiers in Civil War, but later reached unprecedented popularity in post-Soviet countries, becoming almost a staple product. Canned, it can be stored for decades and remain just as sweet, tasty and nutritious."},"weight":0.44,"width":1,"height":1,"rarity":"Rare","backgroundColor":"default"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"default","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"Condensed milk","DiscardLimit":1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":20,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"food_tin_can","LeftHandItem":false,"LootExperience":5,"MaxResource":1,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"Condensed milk","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_food_condensed_milk/item_food_condensed_milk_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Rare","RepairCost":0,"RepairSpeed":0,"ShortName":"Condensed milk","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_food_condensed_milk","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_food_condensed_milk/item_food_condensed_milk_container.bundle","rcid":""},"Weight":0.44,"Width":1,"effects_damage":[],"effects_health":{"Energy":{"value":75},"Hydration":{"value":-65}},"foodEffectType":"afterUse","foodUseTime":4},"foodDrink":{"useTime":4,"effects":{"healthEffects":[{"type":"Energy","value":75},{"type":"Hydration","value":-65}],"damageEffects":[],"stimBuffs":[{"buffType":"SkillRate","skillName":"Intellect","value":3,"delay":1,"duration":300,"chance":1},{"buffType":"SkillRate","skillName":"Attention","value":3,"delay":1,"duration":300,"chance":1},{"buffType":"SkillRate","skillName":"StressResistance","value":3,"delay":1,"duration":300,"chance":1}]}}},"slots":[],"image":"/images/items/5734773724597737fd047c14.jpg","isMod":false}
+{
+  "id": "5734773724597737fd047c14",
+  "typeName": "Food",
+  "category": "food",
+  "parentTypeChain": [
+    "Food",
+    "FoodDrink",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b336",
+    "price": 24943
+  },
+  "common": {
+    "name": {
+      "zh": "炼乳罐头",
+      "en": "Can of condensed milk"
+    },
+    "shortName": {
+      "zh": "炼乳",
+      "en": "Cond. milk"
+    },
+    "description": {
+      "zh": "炼乳在俄语中被称作“Sguschyonka”，也就是所谓的稠牛奶。虽然炼乳罐头最早在美国南北战争时期作为联邦军的野战配给大量配发，但其真正流行却是在苏东国家，几乎是过去唯一常见的乳制品。罐装炼乳可储存数十年而不腐坏，依然保留着苏联时代的香甜口感与营养。",
+      "en": "Condensed milk, also called \"Sguschyonka\" in Russia, once was a part of field ration for the Union soldiers in Civil War, but later reached unprecedented popularity in post-Soviet countries, becoming almost a staple product. Canned, it can be stored for decades and remain just as sweet, tasty and nutritious."
+    },
+    "weight": 0.44,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "default"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "default",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "Condensed milk",
+      "DiscardLimit": 1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 20,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "food_tin_can",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "MaxResource": 1,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "Condensed milk",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_food_condensed_milk/item_food_condensed_milk_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "Condensed milk",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_food_condensed_milk",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_food_condensed_milk/item_food_condensed_milk_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.44,
+      "Width": 1,
+      "effects_damage": [],
+      "effects_health": {
+        "Energy": {
+          "value": 75
+        },
+        "Hydration": {
+          "value": -65
+        }
+      },
+      "foodEffectType": "afterUse",
+      "foodUseTime": 4
+    },
+    "foodDrink": {
+      "useTime": 4,
+      "effects": {
+        "healthEffects": [
+          {
+            "type": "Energy",
+            "value": 75
+          },
+          {
+            "type": "Hydration",
+            "value": -65
+          }
+        ],
+        "damageEffects": [],
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "Intellect",
+            "value": 3,
+            "delay": 1,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Attention",
+            "value": 3,
+            "delay": 1,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "StressResistance",
+            "value": 3,
+            "delay": 1,
+            "duration": 300,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5734773724597737fd047c14.jpg",
+  "isMod": false
+}

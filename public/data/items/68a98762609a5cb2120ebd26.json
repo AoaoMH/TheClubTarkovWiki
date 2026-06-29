@@ -1,1 +1,681 @@
-{"id":"68a98762609a5cb2120ebd26","typeName":"Headwear","category":"headwear","parentTypeChain":["Headwear","ArmoredEquipment","Equipment","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"Vulkan-5 (火神) LShZ-5 重型防弹头盔 (烈焰)","en":"Vulkan-5 LShZ-5 bulletproof helmet (Flame)"},"shortName":{"zh":"Vulkan-5","en":"Vulkan-5"},"description":{"zh":"LShZ-5“火神-5”防弹头盔的防护等级相当扎实，达到了俄标 GOST-5 级防护。搭配其他作战装备能够在多种作战环境中有效保护使用者的头部，足以抵御全威力弹药的直击。戴上它，再配上皮夹克与重型机车，你就是塔科夫的恶灵骑士。","en":"The Vulkan-5 LShZ-5 high-level protection helmet is intended for use in a set of combat equipment with circular 5-class (Russian GOST) head protection from medium to heavy projectiles. Would match well with a motorbike and leather jacket."},"weight":4.5,"width":2,"height":2,"rarity":"Not_exist","backgroundColor":"default"},"properties":{"_raw":{"AnimationVariantsNumber":0,"ArmorMaterial":"Combined","ArmorType":"Heavy","BackgroundColor":"default","BlindnessProtection":0,"BlocksEarpiece":false,"BlocksEyewear":false,"BlocksFaceCover":false,"BlocksHeadwear":false,"BluntThroughput":0.1314,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":false,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["5645bcc04bdc2d363b8b4572","5aa2ba71e5b5b000137b758f","5a16b9fffcdbcb0176308b34","66b5f69ea7f72d197e70bcdb","66b5f6a28ca68c6461709ed8","628e4e576d783146b124c64d","66b5f693acff495a294927e3","66b5f6985891c84aab75ca76","5b432b965acfc47a8774094e","66b5f68de98be930d701c00e","6033fa48ffd42c541047f728","5c165d832e2216398b5a7e36","5e4d34ca86f774264f758330","5f60cd6cf2bcbb675b00dac6","68bee0ee79c8186398098e6b","68bee0fac89ccaee060c81d4","68bee1066b0736bebc012adb","68bee20bede5c8489f08e1b1","68bee21213febe37b20e7e11","68bee22e79c8186398098e6d","68bee23f6b0736bebc012add","68bee246ede5c8489f08e1b3","68bee238a48c3c320808abc4","5c1a1e3f2e221602b66cc4c2","67a9ea39de7fb0f19e077da6","62a09dd4621468534a797ac7","60363c0c92ec1c31037959f5","59e770b986f7742cbd762754","6176a40f0b8c0312ac75a3d3","635267ab3c89e2112001f826","6176a48d732a664031271438","5bd06f5d86f77427101ad47c","5bd0716d86f774171822ef4b","5bd071d786f7747e707b93a3","62a5c41e8ec41a51b34739c3"],"DeafStrength":"High","Description":"helmet_vulkan5","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","Durability":0,"ExamineExperience":4,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"FaceShieldComponent":false,"FaceShieldMask":"NoMask","ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasHinge":false,"Height":2,"HideEntrails":false,"Indestructibility":0.9,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_helmet","LeftHandItem":false,"LootExperience":20,"MaterialType":"Helmet","MaxDurability":0,"MergesWithChildren":true,"MetascoreGroup":"Defence","Name":"Бронешлем \"Вулкан-5\" (Пламя) ","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/helmet_vulkan_5/item_equipment_helmet_vulkan5_flame_bp2.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":787,"RepairSpeed":10,"RicochetParams":{"x":0.9,"y":0.4,"z":50},"ShortName":"helmet_vulkan5","Slots":[{"_name":"mod_equipment","_id":"68a98762609a5cb2120ebd28","_parent":"68a98762609a5cb2120ebd26","_props":{"filters":[{"Filter":["5ca2113f86f7740b2547e1d2"],"Shift":0}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"},{"_name":"Helmet_top","_id":"68a98762609a5cb2120ebd29","_parent":"68a98762609a5cb2120ebd26","_props":{"filters":[{"Filter":["657bbe73a1c61ee0c303632b"],"Plate":"657bbe73a1c61ee0c303632b","armorColliders":["ParietalHead"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_required":true,"_mergeSlotWithChildren":true,"_proto":"64479fdf9731c8fadc0642c1"},{"_name":"Helmet_back","_id":"68a98762609a5cb2120ebd2a","_parent":"68a98762609a5cb2120ebd26","_props":{"filters":[{"Filter":["657bbed0aab96fccee08be96"],"Plate":"657bbed0aab96fccee08be96","armorColliders":["BackHead"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_required":true,"_mergeSlotWithChildren":true,"_proto":"64479fdf9731c8fadc0642c1"},{"_name":"Helmet_ears","_id":"68a98762609a5cb2120ebd2b","_parent":"68a98762609a5cb2120ebd26","_props":{"filters":[{"Filter":["657bbefeb30eca9763051189"],"Plate":"657bbefeb30eca9763051189","armorColliders":["Ears"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_required":true,"_mergeSlotWithChildren":true,"_proto":"64479fdf9731c8fadc0642c1"}],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":4.5,"Width":2,"armorClass":"0","armorColliders":[],"armorPlateColliders":[],"mousePenalty":-2,"speedPenaltyPercent":0,"weaponErgonomicPenalty":-3,"IsNotDeletableFromQuestStashAfterQuestComplete":false,"RagfairLevelToTrade":0},"armor":{"armorClass":0,"durability":0,"maxDurability":0,"material":"Combined","zones":[],"speedPenalty":0,"ergonomicsPenalty":0,"bluntThroughput":0.1314,"armorType":"Heavy","mousePenalty":-2},"headwear":{"armorClass":5,"durability":25,"maxDurability":25,"armorType":"Heavy","armorMaterial":"Combined","zones":[],"ricochetChance":50,"blindnessProtection":0,"speedPenalty":0,"turnSpeed":-2,"ergonomicsPenalty":-3,"deafStrength":"High"},"resolvedSlots":[{"name":"mod_equipment","filters":[{"id":"5ca2113f86f7740b2547e1d2","name":{"zh":"Vulkan-5面罩","en":"Vulkan-5 helmet face shield"},"isWikiItem":false}]},{"name":"Helmet_top","filters":[{"id":"657bbe73a1c61ee0c303632b","name":{"zh":"混合复合材料","en":"Hybrid composite materials"},"isWikiItem":false}]},{"name":"Helmet_back","filters":[{"id":"657bbed0aab96fccee08be96","name":{"zh":"混合复合材料","en":"Hybrid composite materials"},"isWikiItem":false}]},{"name":"Helmet_ears","filters":[{"id":"657bbefeb30eca9763051189","name":{"zh":"混合复合材料","en":"Hybrid composite materials"},"isWikiItem":false}]}],"resolvedConflicts":[{"id":"5645bcc04bdc2d363b8b4572","name":{"zh":"Peltor ComTac 2 耳机（橄榄绿）","en":"Peltor ComTac II headset (OD Green)"},"isWikiItem":true},{"id":"5aa2ba71e5b5b000137b758f","name":{"zh":"MSA Sordin Supreme PRO-X/L有源耳机","en":"MSA Sordin Supreme PRO-X/L headset"},"isWikiItem":true},{"id":"5a16b9fffcdbcb0176308b34","name":{"zh":"Ops-Core FAST RAC 耳机","en":"Ops-Core FAST RAC Headset"},"isWikiItem":true},{"id":"66b5f69ea7f72d197e70bcdb","name":{"zh":"TW EXFIL Peltor ComTac V耳机（橄榄绿）","en":"TW EXFIL Peltor ComTac V headset (OD Green)"},"isWikiItem":true},{"id":"66b5f6a28ca68c6461709ed8","name":{"zh":"TW EXFIL Peltor ComTac VI 耳机（棕褐色）","en":"TW EXFIL Peltor ComTac VI headset (Coyote Brown)"},"isWikiItem":true},{"id":"628e4e576d783146b124c64d","name":{"zh":"Peltor ComTac IV Hybrid 耳机（棕褐色）","en":"Peltor ComTac IV Hybrid headset (Coyote Brown)"},"isWikiItem":true},{"id":"66b5f693acff495a294927e3","name":{"zh":"Peltor ComTac V耳机（橄榄绿）","en":"Peltor ComTac V headset (OD Green)"},"isWikiItem":true},{"id":"66b5f6985891c84aab75ca76","name":{"zh":"Peltor ComTac VI 耳机（棕褐色）","en":"Peltor ComTac VI headset (Coyote Brown)"},"isWikiItem":true},{"id":"5b432b965acfc47a8774094e","name":{"zh":"GSSh-01有源耳机","en":"GSSh-01 active headset"},"isWikiItem":true},{"id":"66b5f68de98be930d701c00e","name":{"zh":"Safariland Liberator HP 2.0听力保护耳机（泥土色）","en":"Safariland Liberator HP 2.0 Hearing Protection Headset (FDE)"},"isWikiItem":true},{"id":"6033fa48ffd42c541047f728","name":{"zh":"Opsmen Earmor M32 耳机","en":"OPSMEN Earmor M32 headset"},"isWikiItem":true},{"id":"5c165d832e2216398b5a7e36","name":{"zh":"Peltor战术运动型耳机","en":"Peltor Tactical Sport headset"},"isWikiItem":true},{"id":"5e4d34ca86f774264f758330","name":{"zh":"Walker's Razor 数字耳机","en":"Walker's Razor Digital headset"},"isWikiItem":true},{"id":"5f60cd6cf2bcbb675b00dac6","name":{"zh":" Walker's XCEL 500BT 数字耳机","en":"Walker's XCEL 500BT Digital headset"},"isWikiItem":true},{"id":"68bee0ee79c8186398098e6b","name":{"zh":"Work Peak 运动面罩","en":"Work Peak training mask"},"isWikiItem":true},{"id":"68bee0fac89ccaee060c81d4","name":{"zh":"Work Peak 运动面罩 (健身房打卡)","en":"Work Peak training mask (Gym Duty)"},"isWikiItem":true},{"id":"68bee1066b0736bebc012adb","name":{"zh":"Work Peak 运动面罩 (灰色)","en":"Work Peak training mask (Gray)"},"isWikiItem":true},{"id":"68bee20bede5c8489f08e1b1","name":{"zh":"Work Peak 运动面罩 (鲨鱼嘴)","en":"Work Peak training mask (Sharky)"},"isWikiItem":true},{"id":"68bee21213febe37b20e7e11","name":{"zh":"Work Peak 运动面罩 (黄色)","en":"Work Peak training mask (Yellow)"},"isWikiItem":true},{"id":"68bee22e79c8186398098e6d","name":{"zh":"DevTaс 武士下颊 防弹面具","en":"DevTaс Samurai Menpo Mask"},"isWikiItem":true},{"id":"68bee23f6b0736bebc012add","name":{"zh":"DevTaс 武士下颊 防弹面具 (紫色)","en":"DevTaс Samurai Menpo Mask (Purple)"},"isWikiItem":true},{"id":"68bee246ede5c8489f08e1b3","name":{"zh":"DevTaс 武士下颊 防弹面具 (白色)","en":"DevTaс Samurai Menpo Mask (White)"},"isWikiItem":true},{"id":"68bee238a48c3c320808abc4","name":{"zh":"DevTaс 武士下颊 防弹面具 (金色)","en":"DevTaс Samurai Menpo Mask (Gold)"},"isWikiItem":true},{"id":"5c1a1e3f2e221602b66cc4c2","name":{"zh":"假白胡子","en":"Fake white beard"},"isWikiItem":true},{"id":"67a9ea39de7fb0f19e077da6","name":{"zh":"赤鬼巴拉克拉瓦头套","en":"Balaclava (Red Oni)"},"isWikiItem":true},{"id":"62a09dd4621468534a797ac7","name":{"zh":"Baddie的红胡子","en":"Baddie's red beard"},"isWikiItem":true},{"id":"60363c0c92ec1c31037959f5","name":{"zh":"GP-7防毒面具","en":"GP-7 gas mask"},"isWikiItem":true},{"id":"59e770b986f7742cbd762754","name":{"zh":"防破片护目镜","en":"Anti-fragmentation glasses"},"isWikiItem":true},{"id":"6176a40f0b8c0312ac75a3d3","name":{"zh":"食尸鬼面具","en":"Ghoul mask"},"isWikiItem":true},{"id":"635267ab3c89e2112001f826","name":{"zh":"恐怖头颅面具","en":"Spooky skull mask"},"isWikiItem":true},{"id":"6176a48d732a664031271438","name":{"zh":"无头鬼面具","en":"Faceless mask"},"isWikiItem":true},{"id":"5bd06f5d86f77427101ad47c","name":{"zh":"瘦长鬼面具","en":"Slender mask"},"isWikiItem":true},{"id":"5bd0716d86f774171822ef4b","name":{"zh":"Misha Mayorov的面具","en":"Misha Mayorov mask"},"isWikiItem":true},{"id":"5bd071d786f7747e707b93a3","name":{"zh":"杰森面具","en":"Jason mask"},"isWikiItem":true},{"id":"62a5c41e8ec41a51b34739c3","name":{"zh":"瘦长鬼影面具","en":"Slender mask"},"isWikiItem":true}]},"slots":[{"name":"mod_equipment","id":"68a98762609a5cb2120ebd28","required":false,"filter":["5ca2113f86f7740b2547e1d2"]},{"name":"Helmet_top","id":"68a98762609a5cb2120ebd29","required":true,"filter":["657bbe73a1c61ee0c303632b"]},{"name":"Helmet_back","id":"68a98762609a5cb2120ebd2a","required":true,"filter":["657bbed0aab96fccee08be96"]},{"name":"Helmet_ears","id":"68a98762609a5cb2120ebd2b","required":true,"filter":["657bbefeb30eca9763051189"]}],"image":null,"isMod":true}
+{
+  "id": "68a98762609a5cb2120ebd26",
+  "typeName": "Headwear",
+  "category": "headwear",
+  "parentTypeChain": [
+    "Headwear",
+    "ArmoredEquipment",
+    "Equipment",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "Vulkan-5 (火神) LShZ-5 重型防弹头盔 (烈焰)",
+      "en": "Vulkan-5 LShZ-5 bulletproof helmet (Flame)"
+    },
+    "shortName": {
+      "zh": "Vulkan-5",
+      "en": "Vulkan-5"
+    },
+    "description": {
+      "zh": "LShZ-5“火神-5”防弹头盔的防护等级相当扎实，达到了俄标 GOST-5 级防护。搭配其他作战装备能够在多种作战环境中有效保护使用者的头部，足以抵御全威力弹药的直击。戴上它，再配上皮夹克与重型机车，你就是塔科夫的恶灵骑士。",
+      "en": "The Vulkan-5 LShZ-5 high-level protection helmet is intended for use in a set of combat equipment with circular 5-class (Russian GOST) head protection from medium to heavy projectiles. Would match well with a motorbike and leather jacket."
+    },
+    "weight": 6.3,
+    "width": 2,
+    "height": 2,
+    "rarity": "Not_exist",
+    "backgroundColor": "default"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "ArmorMaterial": "Combined",
+      "ArmorType": "Heavy",
+      "BackgroundColor": "default",
+      "BlindnessProtection": 0,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksFaceCover": false,
+      "BlocksHeadwear": false,
+      "BluntThroughput": 0.1314,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "5645bcc04bdc2d363b8b4572",
+        "5aa2ba71e5b5b000137b758f",
+        "5a16b9fffcdbcb0176308b34",
+        "66b5f69ea7f72d197e70bcdb",
+        "66b5f6a28ca68c6461709ed8",
+        "628e4e576d783146b124c64d",
+        "66b5f693acff495a294927e3",
+        "66b5f6985891c84aab75ca76",
+        "5b432b965acfc47a8774094e",
+        "66b5f68de98be930d701c00e",
+        "6033fa48ffd42c541047f728",
+        "5c165d832e2216398b5a7e36",
+        "5e4d34ca86f774264f758330",
+        "5f60cd6cf2bcbb675b00dac6",
+        "68bee0ee79c8186398098e6b",
+        "68bee0fac89ccaee060c81d4",
+        "68bee1066b0736bebc012adb",
+        "68bee20bede5c8489f08e1b1",
+        "68bee21213febe37b20e7e11",
+        "68bee22e79c8186398098e6d",
+        "68bee23f6b0736bebc012add",
+        "68bee246ede5c8489f08e1b3",
+        "68bee238a48c3c320808abc4",
+        "5c1a1e3f2e221602b66cc4c2",
+        "67a9ea39de7fb0f19e077da6",
+        "62a09dd4621468534a797ac7",
+        "60363c0c92ec1c31037959f5",
+        "59e770b986f7742cbd762754",
+        "6176a40f0b8c0312ac75a3d3",
+        "635267ab3c89e2112001f826",
+        "6176a48d732a664031271438",
+        "5bd06f5d86f77427101ad47c",
+        "5bd0716d86f774171822ef4b",
+        "5bd071d786f7747e707b93a3",
+        "62a5c41e8ec41a51b34739c3"
+      ],
+      "DeafStrength": "High",
+      "Description": "helmet_vulkan5",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "Durability": 0,
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasHinge": false,
+      "Height": 2,
+      "HideEntrails": false,
+      "Indestructibility": 0.9,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_helmet",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MaterialType": "Helmet",
+      "MaxDurability": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Defence",
+      "Name": "Бронешлем \"Вулкан-5\" (Пламя) ",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/helmet_vulkan_5/item_equipment_helmet_vulkan5_flame_bp2.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 787,
+      "RepairSpeed": 10,
+      "RicochetParams": {
+        "x": 0.9,
+        "y": 0.4,
+        "z": 50
+      },
+      "ShortName": "helmet_vulkan5",
+      "Slots": [
+        {
+          "_name": "mod_equipment",
+          "_id": "68a98762609a5cb2120ebd28",
+          "_parent": "68a98762609a5cb2120ebd26",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ca2113f86f7740b2547e1d2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "Helmet_top",
+          "_id": "68a98762609a5cb2120ebd29",
+          "_parent": "68a98762609a5cb2120ebd26",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657bbe73a1c61ee0c303632b"
+                ],
+                "Plate": "657bbe73a1c61ee0c303632b",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Helmet_back",
+          "_id": "68a98762609a5cb2120ebd2a",
+          "_parent": "68a98762609a5cb2120ebd26",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657bbed0aab96fccee08be96"
+                ],
+                "Plate": "657bbed0aab96fccee08be96",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Helmet_ears",
+          "_id": "68a98762609a5cb2120ebd2b",
+          "_parent": "68a98762609a5cb2120ebd26",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657bbefeb30eca9763051189"
+                ],
+                "Plate": "657bbefeb30eca9763051189",
+                "armorColliders": [
+                  "Ears"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 4.5,
+      "Width": 2,
+      "armorClass": "0",
+      "armorColliders": [],
+      "armorPlateColliders": [],
+      "mousePenalty": -2,
+      "speedPenaltyPercent": 0,
+      "weaponErgonomicPenalty": -3,
+      "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+      "RagfairLevelToTrade": 0
+    },
+    "armor": {
+      "armorClass": 5,
+      "baseArmorClass": 5,
+      "durability": 85,
+      "maxDurability": 85,
+      "material": "Combined",
+      "zones": [
+        "ParietalHead",
+        "BackHead",
+        "Ears"
+      ],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": -3,
+      "bluntThroughput": 0.1314,
+      "armorType": "Heavy",
+      "mousePenalty": -2,
+      "defaultPlates": [
+        {
+          "id": "5ca2113f86f7740b2547e1d2",
+          "name": {
+            "zh": "Vulkan-5面罩",
+            "en": "Vulkan-5 helmet face shield"
+          },
+          "armorClass": 4,
+          "weight": 1.8,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 4,
+      "plateZones": [],
+      "totalWeight": 6.3
+    },
+    "headwear": {
+      "armorClass": 5,
+      "durability": 25,
+      "maxDurability": 25,
+      "armorType": "Heavy",
+      "armorMaterial": "Combined",
+      "zones": [
+        "ParietalHead",
+        "BackHead",
+        "Ears"
+      ],
+      "ricochetChance": 50,
+      "blindnessProtection": 0,
+      "speedPenalty": 0,
+      "turnSpeed": -2,
+      "ergonomicsPenalty": -3,
+      "deafStrength": "High"
+    },
+    "resolvedSlots": [
+      {
+        "name": "mod_equipment",
+        "filters": [
+          {
+            "id": "5ca2113f86f7740b2547e1d2",
+            "name": {
+              "zh": "Vulkan-5面罩",
+              "en": "Vulkan-5 helmet face shield"
+            },
+            "isWikiItem": false
+          }
+        ]
+      },
+      {
+        "name": "Helmet_top",
+        "filters": [
+          {
+            "id": "657bbe73a1c61ee0c303632b",
+            "name": {
+              "zh": "混合复合材料",
+              "en": "Hybrid composite materials"
+            },
+            "isWikiItem": false
+          }
+        ]
+      },
+      {
+        "name": "Helmet_back",
+        "filters": [
+          {
+            "id": "657bbed0aab96fccee08be96",
+            "name": {
+              "zh": "混合复合材料",
+              "en": "Hybrid composite materials"
+            },
+            "isWikiItem": false
+          }
+        ]
+      },
+      {
+        "name": "Helmet_ears",
+        "filters": [
+          {
+            "id": "657bbefeb30eca9763051189",
+            "name": {
+              "zh": "混合复合材料",
+              "en": "Hybrid composite materials"
+            },
+            "isWikiItem": false
+          }
+        ]
+      }
+    ],
+    "resolvedConflicts": [
+      {
+        "id": "5645bcc04bdc2d363b8b4572",
+        "name": {
+          "zh": "Peltor ComTac 2 耳机（橄榄绿）",
+          "en": "Peltor ComTac II headset (OD Green)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5aa2ba71e5b5b000137b758f",
+        "name": {
+          "zh": "MSA Sordin Supreme PRO-X/L有源耳机",
+          "en": "MSA Sordin Supreme PRO-X/L headset"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5a16b9fffcdbcb0176308b34",
+        "name": {
+          "zh": "Ops-Core FAST RAC 耳机",
+          "en": "Ops-Core FAST RAC Headset"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "66b5f69ea7f72d197e70bcdb",
+        "name": {
+          "zh": "TW EXFIL Peltor ComTac V耳机（橄榄绿）",
+          "en": "TW EXFIL Peltor ComTac V headset (OD Green)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "66b5f6a28ca68c6461709ed8",
+        "name": {
+          "zh": "TW EXFIL Peltor ComTac VI 耳机（棕褐色）",
+          "en": "TW EXFIL Peltor ComTac VI headset (Coyote Brown)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "628e4e576d783146b124c64d",
+        "name": {
+          "zh": "Peltor ComTac IV Hybrid 耳机（棕褐色）",
+          "en": "Peltor ComTac IV Hybrid headset (Coyote Brown)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "66b5f693acff495a294927e3",
+        "name": {
+          "zh": "Peltor ComTac V耳机（橄榄绿）",
+          "en": "Peltor ComTac V headset (OD Green)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "66b5f6985891c84aab75ca76",
+        "name": {
+          "zh": "Peltor ComTac VI 耳机（棕褐色）",
+          "en": "Peltor ComTac VI headset (Coyote Brown)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5b432b965acfc47a8774094e",
+        "name": {
+          "zh": "GSSh-01有源耳机",
+          "en": "GSSh-01 active headset"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "66b5f68de98be930d701c00e",
+        "name": {
+          "zh": "Safariland Liberator HP 2.0听力保护耳机（泥土色）",
+          "en": "Safariland Liberator HP 2.0 Hearing Protection Headset (FDE)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "6033fa48ffd42c541047f728",
+        "name": {
+          "zh": "Opsmen Earmor M32 耳机",
+          "en": "OPSMEN Earmor M32 headset"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5c165d832e2216398b5a7e36",
+        "name": {
+          "zh": "Peltor战术运动型耳机",
+          "en": "Peltor Tactical Sport headset"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5e4d34ca86f774264f758330",
+        "name": {
+          "zh": "Walker's Razor 数字耳机",
+          "en": "Walker's Razor Digital headset"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5f60cd6cf2bcbb675b00dac6",
+        "name": {
+          "zh": " Walker's XCEL 500BT 数字耳机",
+          "en": "Walker's XCEL 500BT Digital headset"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68bee0ee79c8186398098e6b",
+        "name": {
+          "zh": "Work Peak 运动面罩",
+          "en": "Work Peak training mask"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68bee0fac89ccaee060c81d4",
+        "name": {
+          "zh": "Work Peak 运动面罩 (健身房打卡)",
+          "en": "Work Peak training mask (Gym Duty)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68bee1066b0736bebc012adb",
+        "name": {
+          "zh": "Work Peak 运动面罩 (灰色)",
+          "en": "Work Peak training mask (Gray)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68bee20bede5c8489f08e1b1",
+        "name": {
+          "zh": "Work Peak 运动面罩 (鲨鱼嘴)",
+          "en": "Work Peak training mask (Sharky)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68bee21213febe37b20e7e11",
+        "name": {
+          "zh": "Work Peak 运动面罩 (黄色)",
+          "en": "Work Peak training mask (Yellow)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68bee22e79c8186398098e6d",
+        "name": {
+          "zh": "DevTaс 武士下颊 防弹面具",
+          "en": "DevTaс Samurai Menpo Mask"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68bee23f6b0736bebc012add",
+        "name": {
+          "zh": "DevTaс 武士下颊 防弹面具 (紫色)",
+          "en": "DevTaс Samurai Menpo Mask (Purple)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68bee246ede5c8489f08e1b3",
+        "name": {
+          "zh": "DevTaс 武士下颊 防弹面具 (白色)",
+          "en": "DevTaс Samurai Menpo Mask (White)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68bee238a48c3c320808abc4",
+        "name": {
+          "zh": "DevTaс 武士下颊 防弹面具 (金色)",
+          "en": "DevTaс Samurai Menpo Mask (Gold)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5c1a1e3f2e221602b66cc4c2",
+        "name": {
+          "zh": "假白胡子",
+          "en": "Fake white beard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "67a9ea39de7fb0f19e077da6",
+        "name": {
+          "zh": "赤鬼巴拉克拉瓦头套",
+          "en": "Balaclava (Red Oni)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "62a09dd4621468534a797ac7",
+        "name": {
+          "zh": "Baddie的红胡子",
+          "en": "Baddie's red beard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "60363c0c92ec1c31037959f5",
+        "name": {
+          "zh": "GP-7防毒面具",
+          "en": "GP-7 gas mask"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "59e770b986f7742cbd762754",
+        "name": {
+          "zh": "防破片护目镜",
+          "en": "Anti-fragmentation glasses"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "6176a40f0b8c0312ac75a3d3",
+        "name": {
+          "zh": "食尸鬼面具",
+          "en": "Ghoul mask"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "635267ab3c89e2112001f826",
+        "name": {
+          "zh": "恐怖头颅面具",
+          "en": "Spooky skull mask"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "6176a48d732a664031271438",
+        "name": {
+          "zh": "无头鬼面具",
+          "en": "Faceless mask"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5bd06f5d86f77427101ad47c",
+        "name": {
+          "zh": "瘦长鬼面具",
+          "en": "Slender mask"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5bd0716d86f774171822ef4b",
+        "name": {
+          "zh": "Misha Mayorov的面具",
+          "en": "Misha Mayorov mask"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5bd071d786f7747e707b93a3",
+        "name": {
+          "zh": "杰森面具",
+          "en": "Jason mask"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "62a5c41e8ec41a51b34739c3",
+        "name": {
+          "zh": "瘦长鬼影面具",
+          "en": "Slender mask"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_equipment",
+      "id": "68a98762609a5cb2120ebd28",
+      "required": false,
+      "filter": [
+        "5ca2113f86f7740b2547e1d2"
+      ]
+    },
+    {
+      "name": "Helmet_top",
+      "id": "68a98762609a5cb2120ebd29",
+      "required": true,
+      "filter": [
+        "657bbe73a1c61ee0c303632b"
+      ]
+    },
+    {
+      "name": "Helmet_back",
+      "id": "68a98762609a5cb2120ebd2a",
+      "required": true,
+      "filter": [
+        "657bbed0aab96fccee08be96"
+      ]
+    },
+    {
+      "name": "Helmet_ears",
+      "id": "68a98762609a5cb2120ebd2b",
+      "required": true,
+      "filter": [
+        "657bbefeb30eca9763051189"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

@@ -1,1 +1,204 @@
-{"id":"57616ca52459773c69055192","typeName":"Stock","category":"mod_stock","parentTypeChain":["Stock","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f757486f774093e6cb507","price":1661},"common":{"name":{"zh":"Izhmash SOK-12 AK式枪托","en":"SOK-12 AK-style stock"},"shortName":{"zh":"SOK-12AK枪托","en":"SOK-12 AK"},"description":{"zh":"Izhmash制造的AK式折叠聚合物枪托。","en":"A folding polymer AK-styled stock for SOK-12, manufactured by Izhmash."},"weight":0.35,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"stock_saiga12","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":6,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":1,"ExtraSizeUp":0,"Foldable":false,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":true,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsShoulderContact":true,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"stock_saiga12","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/stocks/stock_saiga12_izhmash_saiga12_fold_ak_type.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-24,"RepairCost":0,"RepairSpeed":0,"Retractable":false,"ShortName":"stock_saiga12","SightingRange":0,"SizeReduceRight":0,"Slots":[{"_id":"5ac224b1d8ce8700150a20cb","_mergeSlotWithChildren":false,"_name":"mod_stock","_parent":"57616ca52459773c69055192","_props":{"filters":[{"Filter":["5a0c59791526d8dba737bba7"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.35,"Width":2},"mod":{"ergonomics":6,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_stock","id":"5ac224b1d8ce8700150a20cb","required":false,"filter":["5a0c59791526d8dba737bba7"]}],"image":"/images/items/57616ca52459773c69055192.jpg","isMod":false}
+{
+  "id": "57616ca52459773c69055192",
+  "typeName": "Stock",
+  "category": "mod_stock",
+  "parentTypeChain": [
+    "Stock",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f757486f774093e6cb507",
+    "price": 1661
+  },
+  "common": {
+    "name": {
+      "zh": "Izhmash SOK-12 AK式枪托",
+      "en": "SOK-12 AK-style stock"
+    },
+    "shortName": {
+      "zh": "SOK-12AK枪托",
+      "en": "SOK-12 AK"
+    },
+    "description": {
+      "zh": "Izhmash制造的AK式折叠聚合物枪托。",
+      "en": "A folding polymer AK-styled stock for SOK-12, manufactured by Izhmash."
+    },
+    "weight": 0.505,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "stock_saiga12",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 6,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 1,
+      "ExtraSizeUp": 0,
+      "Foldable": false,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": true,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsShoulderContact": true,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "stock_saiga12",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/stocks/stock_saiga12_izhmash_saiga12_fold_ak_type.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -24,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "Retractable": false,
+      "ShortName": "stock_saiga12",
+      "SightingRange": 0,
+      "SizeReduceRight": 0,
+      "Slots": [
+        {
+          "_id": "5ac224b1d8ce8700150a20cb",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "57616ca52459773c69055192",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a0c59791526d8dba737bba7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.35,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5a0c59791526d8dba737bba7",
+          "name": {
+            "zh": "AK GP-25附件包 后座力缓冲垫",
+            "en": "AK GP-25 accessory kit recoil pad"
+          },
+          "armorClass": 0,
+          "weight": 0.155,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.505
+    },
+    "mod": {
+      "ergonomics": 6,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_stock",
+      "id": "5ac224b1d8ce8700150a20cb",
+      "required": false,
+      "filter": [
+        "5a0c59791526d8dba737bba7"
+      ]
+    }
+  ],
+  "image": "/images/items/57616ca52459773c69055192.jpg",
+  "isMod": false
+}

@@ -1,1 +1,220 @@
-{"id":"67641a851b2899700609901a","typeName":"Mount","category":"mod_mount","parentTypeChain":["Mount","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f755f86f77447ec5d770e","price":742},"common":{"name":{"zh":"Cyclone Shakhin 基座","en":"Cyclone Shakhin mount"},"shortName":{"zh":"Shakhin","en":"Shakhin"},"description":{"zh":"在韦弗式导轨上安装 Shakhin 热成像瞄具所需的适配器，由旋风中央设计局设计制造。","en":"A Weaver mount for installing the Shakhin thermal scope. Manufactured by Central Research Institute Cyclone."},"weight":0.014,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":true,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["55d5f46a4bdc2d1b198b4567","5ae30bad5acfc400185c2dc4"],"CoolFactor":1,"Description":"mount_all_ciklon_shakhin_std","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":5,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mount_all_ciklon_shakhin_std","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/mounts/mount_all_ciklon_shakhin_std.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"mount_all_ciklon_shakhin_std","SightingRange":0,"Slots":[{"_id":"67641a851b2899700609901c","_mergeSlotWithChildren":false,"_name":"mod_scope","_parent":"67641a851b2899700609901a","_props":{"filters":[{"Filter":["67641b461c2eb66ade05dba6"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.014,"Width":1},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"55d5f46a4bdc2d1b198b4567","name":{"zh":"柯尔特A2 AR-15照门","en":"AR-15 Colt A2 rear sight"},"isWikiItem":true},{"id":"5ae30bad5acfc400185c2dc4","name":{"zh":" AR-15提把式照门","en":"AR-15 rear sight carry handle"},"isWikiItem":true}]},"slots":[{"name":"mod_scope","id":"67641a851b2899700609901c","required":false,"filter":["67641b461c2eb66ade05dba6"]}],"image":"/images/items/67641a851b2899700609901a.webp","isMod":false}
+{
+  "id": "67641a851b2899700609901a",
+  "typeName": "Mount",
+  "category": "mod_mount",
+  "parentTypeChain": [
+    "Mount",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f755f86f77447ec5d770e",
+    "price": 742
+  },
+  "common": {
+    "name": {
+      "zh": "Cyclone Shakhin 基座",
+      "en": "Cyclone Shakhin mount"
+    },
+    "shortName": {
+      "zh": "Shakhin",
+      "en": "Shakhin"
+    },
+    "description": {
+      "zh": "在韦弗式导轨上安装 Shakhin 热成像瞄具所需的适配器，由旋风中央设计局设计制造。",
+      "en": "A Weaver mount for installing the Shakhin thermal scope. Manufactured by Central Research Institute Cyclone."
+    },
+    "weight": 1.028,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": true,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "55d5f46a4bdc2d1b198b4567",
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "CoolFactor": 1,
+      "Description": "mount_all_ciklon_shakhin_std",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mount_all_ciklon_shakhin_std",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/mounts/mount_all_ciklon_shakhin_std.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mount_all_ciklon_shakhin_std",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "67641a851b2899700609901c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "67641a851b2899700609901a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "67641b461c2eb66ade05dba6"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.014,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "67641b461c2eb66ade05dba6",
+          "name": {
+            "zh": "Cyclone Shakhin 3.7x 热成像瞄准镜",
+            "en": "Cyclone Shakhin 3.7x thermal scope"
+          },
+          "armorClass": 0,
+          "weight": 1.014,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.028
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "55d5f46a4bdc2d1b198b4567",
+        "name": {
+          "zh": "柯尔特A2 AR-15照门",
+          "en": "AR-15 Colt A2 rear sight"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5ae30bad5acfc400185c2dc4",
+        "name": {
+          "zh": " AR-15提把式照门",
+          "en": "AR-15 rear sight carry handle"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_scope",
+      "id": "67641a851b2899700609901c",
+      "required": false,
+      "filter": [
+        "67641b461c2eb66ade05dba6"
+      ]
+    }
+  ],
+  "image": "/images/items/67641a851b2899700609901a.webp",
+  "isMod": false
+}

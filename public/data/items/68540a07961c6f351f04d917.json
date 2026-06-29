@@ -1,1 +1,212 @@
-{"id":"68540a07961c6f351f04d917","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"MP-155 12 铅径 660 毫米枪管","en":"MP-155 12ga 660mm barrel"},"shortName":{"zh":"MP155 660mm","en":"MP155 660mm"},"description":{"zh":"适用于 12 铅径 MP-155 霰弹枪的量产型 660 毫米枪管，自带机械瞄具。","en":"A standard serially produced 660mm barrel with built-in iron sights for MP-155 12 gauge shotguns."},"weight":0.8,"width":4,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.52,"ConflictingItems":[],"CoolFactor":0.92,"Description":"barrel_mp155_sight_660mm_12g","DeviationCurve":2.7,"DeviationMax":9.6,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":0.98,"EffectiveDistance":0,"Ergonomics":-10,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":2,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.88,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_mp155_sight_660mm_12g","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_mp155_sight_660mm_12g.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-7,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_mp155_sight_660mm_12g","ShotgunDispersion":1.34,"SightingRange":0,"Slots":[{"_name":"mod_muzzle","_id":"68540a07961c6f351f04d919","_parent":"68540a07961c6f351f04d917","_props":{"filters":[{"Filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"],"Shift":0}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":12.8,"Weight":0.8,"Width":4,"IsNotDeletableFromQuestStashAfterQuestComplete":false,"RagfairLevelToTrade":0,"CategoryAnimationModId":0},"mod":{"ergonomics":-10,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":12.8,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"68540a07961c6f351f04d919","required":false,"filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"]}],"image":null,"isMod":true}
+{
+  "id": "68540a07961c6f351f04d917",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "MP-155 12 铅径 660 毫米枪管",
+      "en": "MP-155 12ga 660mm barrel"
+    },
+    "shortName": {
+      "zh": "MP155 660mm",
+      "en": "MP155 660mm"
+    },
+    "description": {
+      "zh": "适用于 12 铅径 MP-155 霰弹枪的量产型 660 毫米枪管，自带机械瞄具。",
+      "en": "A standard serially produced 660mm barrel with built-in iron sights for MP-155 12 gauge shotguns."
+    },
+    "weight": 0.92,
+    "width": 4,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.52,
+      "ConflictingItems": [],
+      "CoolFactor": 0.92,
+      "Description": "barrel_mp155_sight_660mm_12g",
+      "DeviationCurve": 2.7,
+      "DeviationMax": 9.6,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 0.98,
+      "EffectiveDistance": 0,
+      "Ergonomics": -10,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.88,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_mp155_sight_660mm_12g",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_mp155_sight_660mm_12g.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -7,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_mp155_sight_660mm_12g",
+      "ShotgunDispersion": 1.34,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_name": "mod_muzzle",
+          "_id": "68540a07961c6f351f04d919",
+          "_parent": "68540a07961c6f351f04d917",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0111ab0db834001966914d",
+                  "560838c94bdc2d77798b4569",
+                  "5b363dea5acfc4771e1c5e7e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 12.8,
+      "Weight": 0.8,
+      "Width": 4,
+      "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+      "RagfairLevelToTrade": 0,
+      "CategoryAnimationModId": 0
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5c0111ab0db834001966914d",
+          "name": {
+            "zh": "ME Cylinder 12铅径膛口转接器",
+            "en": "ME Cylinder 12ga muzzle adapter"
+          },
+          "armorClass": 0,
+          "weight": 0.12,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.92
+    },
+    "mod": {
+      "ergonomics": -10,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 12.8,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "68540a07961c6f351f04d919",
+      "required": false,
+      "filter": [
+        "5c0111ab0db834001966914d",
+        "560838c94bdc2d77798b4569",
+        "5b363dea5acfc4771e1c5e7e"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

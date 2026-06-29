@@ -1,1 +1,129 @@
-{"id":"6489c753a74e43447b64d5e6","typeName":"RandomLootContainer","category":"container","parentTypeChain":["RandomLootContainer","SearchableItem","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"已密封的武器箱","en":"Sealed weapon case"},"shortName":{"zh":"武器箱","en":"Weapon (sealed)"},"description":{"zh":"已密封的武器箱","en":"Sealed weapon case"},"weight":15,"width":5,"height":2,"rarity":"Not_exist","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BlocksArmorVest":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":false,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"boxpreset1","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":100,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[{"_id":"6489c753a74e43447b64d5e7","_name":"main","_parent":"6489c753a74e43447b64d5e6","_props":{"cellsH":10,"cellsV":12,"filters":[{"ExcludedFilter":["54009119af1c881c07000029"],"Filter":[]}],"isSortingTable":false,"maxCount":99,"maxWeight":0,"minCount":1},"_proto":"55d329c24bdc2d892f8b4567"}],"Height":2,"HideEntrails":true,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"container_plastic","LeftHandItem":false,"LootExperience":20,"MergesWithChildren":false,"Name":"boxpreset1","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/containers/item_container_weaponcase/item_container_weaponcase.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"SearchSound":"drawer_metal_looting","ShortName":"boxpreset1","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":15,"Width":5}},"slots":[],"image":"/images/items/6489c753a74e43447b64d5e6.webp","isMod":false}
+{
+  "id": "6489c753a74e43447b64d5e6",
+  "typeName": "RandomLootContainer",
+  "category": "container",
+  "parentTypeChain": [
+    "RandomLootContainer",
+    "SearchableItem",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "已密封的武器箱",
+      "en": "Sealed weapon case"
+    },
+    "shortName": {
+      "zh": "武器箱",
+      "en": "Weapon (sealed)"
+    },
+    "description": {
+      "zh": "已密封的武器箱",
+      "en": "Sealed weapon case"
+    },
+    "weight": 15,
+    "width": 5,
+    "height": 2,
+    "rarity": "Not_exist",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BlocksArmorVest": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "boxpreset1",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 100,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [
+        {
+          "_id": "6489c753a74e43447b64d5e7",
+          "_name": "main",
+          "_parent": "6489c753a74e43447b64d5e6",
+          "_props": {
+            "cellsH": 10,
+            "cellsV": 12,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "54009119af1c881c07000029"
+                ],
+                "Filter": []
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 99,
+            "maxWeight": 0,
+            "minCount": 1
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Height": 2,
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "container_plastic",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MergesWithChildren": false,
+      "Name": "boxpreset1",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/containers/item_container_weaponcase/item_container_weaponcase.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SearchSound": "drawer_metal_looting",
+      "ShortName": "boxpreset1",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 15,
+      "Width": 5
+    }
+  },
+  "slots": [],
+  "image": "/images/items/6489c753a74e43447b64d5e6.webp",
+  "isMod": false
+}

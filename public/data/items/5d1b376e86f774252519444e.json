@@ -1,1 +1,181 @@
-{"id":"5d1b376e86f774252519444e","typeName":"Drink","category":"drink","parentTypeChain":["Drink","FoodDrink","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b335","price":200000},"common":{"name":{"zh":"“凶狠跑刀崽”私酒","en":"Bottle of Fierce Hatchling moonshine"},"shortName":{"zh":"私酒","en":"Moonshine"},"description":{"zh":"一等一的“月光”（私酒）从藏身处径直流出。经过六次蒸馏、纯化、结晶和电离的煮沸过程，才创造出了这79度的饮料。请记住，喝酒会导致令人悲伤的后果。","en":"A first-class moonshine straight from the Hideout. Sixfold distillation, purification, crystallization, and ionization of the boiling process led to the creation of this 79-degree drink. Remember that drinking alcohol can lead to tragic consequences."},"weight":1.2,"width":1,"height":2,"rarity":"Superrare","backgroundColor":"violet"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"violet","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"item_food_moonshine","DiscardLimit":0,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":2,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"food_bottle","LeftHandItem":false,"LootExperience":10,"MaxResource":1,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"item_food_moonshine","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_alcohol_moonshine/item_alcohol_moonshine_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"item_food_moonshine","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_drink_moonshine","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_alcohol_moonshine/item_alcohol_moonshine_container.bundle","rcid":""},"Weight":1.2,"Width":1,"effects_damage":{"Pain":{"delay":0,"duration":500},"RadExposure":{"delay":0,"duration":0}},"effects_health":{"Energy":{"value":20},"Hydration":{"value":-10}},"foodEffectType":"afterUse","foodUseTime":6},"foodDrink":{"useTime":6,"effects":{"healthEffects":[{"type":"Energy","value":20},{"type":"Hydration","value":-10}],"damageEffects":[{"type":"Pain","delay":0,"duration":500},{"type":"RadExposure","delay":0,"duration":0}],"stimBuffs":[{"buffType":"SkillRate","skillName":"StressResistance","value":3,"delay":1,"duration":500,"chance":1},{"buffType":"SkillRate","skillName":"Memory","value":-5,"delay":1,"duration":500,"chance":1},{"buffType":"SkillRate","skillName":"Health","value":-1,"delay":1,"duration":500,"chance":1},{"buffType":"HandsTremor","skillName":"","value":0,"delay":510,"duration":150,"chance":1}]}}},"slots":[],"image":"/images/items/5d1b376e86f774252519444e.jpg","isMod":false}
+{
+  "id": "5d1b376e86f774252519444e",
+  "typeName": "Drink",
+  "category": "drink",
+  "parentTypeChain": [
+    "Drink",
+    "FoodDrink",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 200000
+  },
+  "common": {
+    "name": {
+      "zh": "“凶狠跑刀崽”私酒",
+      "en": "Bottle of Fierce Hatchling moonshine"
+    },
+    "shortName": {
+      "zh": "私酒",
+      "en": "Moonshine"
+    },
+    "description": {
+      "zh": "一等一的“月光”（私酒）从藏身处径直流出。经过六次蒸馏、纯化、结晶和电离的煮沸过程，才创造出了这79度的饮料。请记住，喝酒会导致令人悲伤的后果。",
+      "en": "A first-class moonshine straight from the Hideout. Sixfold distillation, purification, crystallization, and ionization of the boiling process led to the creation of this 79-degree drink. Remember that drinking alcohol can lead to tragic consequences."
+    },
+    "weight": 1.2,
+    "width": 1,
+    "height": 2,
+    "rarity": "Superrare",
+    "backgroundColor": "violet"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "violet",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "item_food_moonshine",
+      "DiscardLimit": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "food_bottle",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxResource": 1,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "item_food_moonshine",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_alcohol_moonshine/item_alcohol_moonshine_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "item_food_moonshine",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_drink_moonshine",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_alcohol_moonshine/item_alcohol_moonshine_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 1.2,
+      "Width": 1,
+      "effects_damage": {
+        "Pain": {
+          "delay": 0,
+          "duration": 500
+        },
+        "RadExposure": {
+          "delay": 0,
+          "duration": 0
+        }
+      },
+      "effects_health": {
+        "Energy": {
+          "value": 20
+        },
+        "Hydration": {
+          "value": -10
+        }
+      },
+      "foodEffectType": "afterUse",
+      "foodUseTime": 6
+    },
+    "foodDrink": {
+      "useTime": 6,
+      "effects": {
+        "healthEffects": [
+          {
+            "type": "Energy",
+            "value": 20
+          },
+          {
+            "type": "Hydration",
+            "value": -10
+          }
+        ],
+        "damageEffects": [
+          {
+            "type": "Pain",
+            "delay": 0,
+            "duration": 500
+          },
+          {
+            "type": "RadExposure",
+            "delay": 0,
+            "duration": 0
+          }
+        ],
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "StressResistance",
+            "value": 3,
+            "delay": 1,
+            "duration": 500,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Memory",
+            "value": -5,
+            "delay": 1,
+            "duration": 500,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -1,
+            "delay": 1,
+            "duration": 500,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 510,
+            "duration": 150,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5d1b376e86f774252519444e.jpg",
+  "isMod": false
+}

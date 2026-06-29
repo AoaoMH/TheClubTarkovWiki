@@ -1,1 +1,267 @@
-{"id":"669fa4ba1bd4416eaa09b3c6","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":1933},"common":{"name":{"zh":"沙漠之鹰L5 .50 AE 127毫米枪管","en":"Desert Eagle L5 .50 AE 127mm barrel"},"shortName":{"zh":"L5 127毫米","en":"L5 127mm"},"description":{"zh":"沙漠之鹰手枪的标准127毫米枪管。由Magnum Research制造。","en":"An L5 127mm .50 AE barrel for the Desert Eagle pistol, manufactured by Magnum Research."},"weight":0.336,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.24,"ConflictingItems":[],"CoolFactor":1.148,"Description":"barrel_glock_glock_114mm_9x19_std\n","DeviationCurve":2.25,"DeviationMax":11,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-2,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.094,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_glock_glock_114mm_9x19_std","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_deagle_magnum_research_l5_std_127mm_127x33.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-1,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_glock_glock_114mm_9x19_std","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"669fa4ba1bd4416eaa09b3c8","_mergeSlotWithChildren":false,"_name":"mod_sight_front","_parent":"669fa4ba1bd4416eaa09b3c6","_props":{"filters":[{"Filter":["668fe5ec4315934ba10c6f96"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"66a39a0e545ab551f20e5c39","_mergeSlotWithChildren":false,"_name":"mod_scope","_parent":"669fa4ba1bd4416eaa09b3c6","_props":{"filters":[{"Filter":["58d39d3d86f77445bb794ae7","616554fe50224f204c1da2aa","5c7d55f52e221644f31bff6a","616584766ef05c2ce828ef57","615d8d878004cc50514c3233","577d128124597739d65d0e56","58d2664f86f7747fec5834f6","5b31163c5acfc400153b71cb","5a33b2c9c4a282000c5a9511","5a33b652c4a28232996e407c","57ae0171245977343c27bfcf","5a1ead28fcdbcb001912fa9f","64785e7c19d732620e045e15","5d2dc3e548f035404a1a4798"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.336,"Width":1},"mod":{"ergonomics":-2,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_sight_front","id":"669fa4ba1bd4416eaa09b3c8","required":false,"filter":["668fe5ec4315934ba10c6f96"]},{"name":"mod_scope","id":"66a39a0e545ab551f20e5c39","required":false,"filter":["58d39d3d86f77445bb794ae7","616554fe50224f204c1da2aa","5c7d55f52e221644f31bff6a","616584766ef05c2ce828ef57","615d8d878004cc50514c3233","577d128124597739d65d0e56","58d2664f86f7747fec5834f6","5b31163c5acfc400153b71cb","5a33b2c9c4a282000c5a9511","5a33b652c4a28232996e407c","57ae0171245977343c27bfcf","5a1ead28fcdbcb001912fa9f","64785e7c19d732620e045e15","5d2dc3e548f035404a1a4798"]}],"image":"/images/items/669fa4ba1bd4416eaa09b3c6.webp","isMod":false}
+{
+  "id": "669fa4ba1bd4416eaa09b3c6",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 1933
+  },
+  "common": {
+    "name": {
+      "zh": "沙漠之鹰L5 .50 AE 127毫米枪管",
+      "en": "Desert Eagle L5 .50 AE 127mm barrel"
+    },
+    "shortName": {
+      "zh": "L5 127毫米",
+      "en": "L5 127mm"
+    },
+    "description": {
+      "zh": "沙漠之鹰手枪的标准127毫米枪管。由Magnum Research制造。",
+      "en": "An L5 127mm .50 AE barrel for the Desert Eagle pistol, manufactured by Magnum Research."
+    },
+    "weight": 0.35600000000000004,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.24,
+      "ConflictingItems": [],
+      "CoolFactor": 1.148,
+      "Description": "barrel_glock_glock_114mm_9x19_std\n",
+      "DeviationCurve": 2.25,
+      "DeviationMax": 11,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -2,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.094,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_glock_glock_114mm_9x19_std",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_deagle_magnum_research_l5_std_127mm_127x33.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -1,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_glock_glock_114mm_9x19_std",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "669fa4ba1bd4416eaa09b3c8",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "669fa4ba1bd4416eaa09b3c6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "668fe5ec4315934ba10c6f96"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "66a39a0e545ab551f20e5c39",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "669fa4ba1bd4416eaa09b3c6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b2c9c4a282000c5a9511",
+                  "5a33b652c4a28232996e407c",
+                  "57ae0171245977343c27bfcf",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "64785e7c19d732620e045e15",
+                  "5d2dc3e548f035404a1a4798"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.336,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "668fe5ec4315934ba10c6f96",
+          "name": {
+            "zh": "沙漠之鹰准星",
+            "en": "Desert Eagle front sight"
+          },
+          "armorClass": 0,
+          "weight": 0.005,
+          "count": 1
+        },
+        {
+          "id": "58d39d3d86f77445bb794ae7",
+          "name": {
+            "zh": "Aimpoint Micro瞄具基座",
+            "en": "Aimpoint Micro Standard Mount"
+          },
+          "armorClass": 0,
+          "weight": 0.015,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.35600000000000004
+    },
+    "mod": {
+      "ergonomics": -2,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_sight_front",
+      "id": "669fa4ba1bd4416eaa09b3c8",
+      "required": false,
+      "filter": [
+        "668fe5ec4315934ba10c6f96"
+      ]
+    },
+    {
+      "name": "mod_scope",
+      "id": "66a39a0e545ab551f20e5c39",
+      "required": false,
+      "filter": [
+        "58d39d3d86f77445bb794ae7",
+        "616554fe50224f204c1da2aa",
+        "5c7d55f52e221644f31bff6a",
+        "616584766ef05c2ce828ef57",
+        "615d8d878004cc50514c3233",
+        "577d128124597739d65d0e56",
+        "58d2664f86f7747fec5834f6",
+        "5b31163c5acfc400153b71cb",
+        "5a33b2c9c4a282000c5a9511",
+        "5a33b652c4a28232996e407c",
+        "57ae0171245977343c27bfcf",
+        "5a1ead28fcdbcb001912fa9f",
+        "64785e7c19d732620e045e15",
+        "5d2dc3e548f035404a1a4798"
+      ]
+    }
+  ],
+  "image": "/images/items/669fa4ba1bd4416eaa09b3c6.webp",
+  "isMod": false
+}

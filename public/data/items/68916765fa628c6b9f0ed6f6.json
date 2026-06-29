@@ -1,1 +1,253 @@
-{"id":"68916765fa628c6b9f0ed6f6","typeName":"IronSight","category":"mod_scope","parentTypeChain":["IronSight","Sights","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"AK-308 照门基座","en":"AK-308 rear sight base"},"shortName":{"zh":"AK-308基座","en":"AK-308 RSB"},"description":{"zh":"AK-308 突击步枪标配的可拆式照门基座，由卡拉什尼科夫集团设计制造。","en":"A standard-issue removable rear sight base mount for the AK-308 assault rifle. Manufactured by Kalashnikov Group."},"weight":0.05,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AdjustableOpticSensitivity":0,"AdjustableOpticSensitivityMax":0,"AimSensitivity":[[0.65]],"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CalibrationDistances":[[100]],"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["5b3b99265acfc4704b4a1afb"],"CustomAimPlane":"","Description":"sight_rear_all_izhmash_ak308_rear_sight_base","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":0,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAdjustableOptic":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","MinMaxFov":{"x":0,"y":0,"z":0},"ModesCount":[1],"Name":"sight_rear_all_izhmash_ak308_rear_sight_base","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/sights rear/sight_rear_all_izhmash_ak308_rear_sight_base.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ScopesCount":1,"ShortName":"sight_rear_all_izhmash_ak308_rear_sight_base","SightingRange":600,"Slots":[{"_name":"mod_sight_rear","_id":"68916765fa628c6b9f0ed6f8","_parent":"68916765fa628c6b9f0ed6f6","_props":{"filters":[{"Filter":["5ac733a45acfc400192630e2","5649b0544bdc2d1b2b8b458a","5ac72e475acfc400180ae6fe","5bf3f59f0db834001a6fa060","649ec2cec93611967b03495e"],"Shift":0}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.05,"Width":1,"ZoomSensitivity":0,"Zooms":[[1]],"sightModType":"iron","IsNotDeletableFromQuestStashAfterQuestComplete":false,"RagfairLevelToTrade":0,"CategoryAnimationModId":0},"mod":{"ergonomics":0,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"1x","sightingRange":600,"sightModType":"iron","calibrationDistances":[100],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"5b3b99265acfc4704b4a1afb","name":{"zh":"Nightforce 30毫米瞄准镜基座环","en":"Nightforce Magmount 30mm ring scope mount"},"isWikiItem":true}]},"slots":[{"name":"mod_sight_rear","id":"68916765fa628c6b9f0ed6f8","required":false,"filter":["5ac733a45acfc400192630e2","5649b0544bdc2d1b2b8b458a","5ac72e475acfc400180ae6fe","5bf3f59f0db834001a6fa060","649ec2cec93611967b03495e"]}],"image":null,"isMod":true}
+{
+  "id": "68916765fa628c6b9f0ed6f6",
+  "typeName": "IronSight",
+  "category": "mod_scope",
+  "parentTypeChain": [
+    "IronSight",
+    "Sights",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "AK-308 照门基座",
+      "en": "AK-308 rear sight base"
+    },
+    "shortName": {
+      "zh": "AK-308基座",
+      "en": "AK-308 RSB"
+    },
+    "description": {
+      "zh": "AK-308 突击步枪标配的可拆式照门基座，由卡拉什尼科夫集团设计制造。",
+      "en": "A standard-issue removable rear sight base mount for the AK-308 assault rifle. Manufactured by Kalashnikov Group."
+    },
+    "weight": 0.07500000000000001,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0,
+      "AimSensitivity": [
+        [
+          0.65
+        ]
+      ],
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CalibrationDistances": [
+        [
+          100
+        ]
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "5b3b99265acfc4704b4a1afb"
+      ],
+      "CustomAimPlane": "",
+      "Description": "sight_rear_all_izhmash_ak308_rear_sight_base",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAdjustableOptic": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ModesCount": [
+        1
+      ],
+      "Name": "sight_rear_all_izhmash_ak308_rear_sight_base",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/sights rear/sight_rear_all_izhmash_ak308_rear_sight_base.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ScopesCount": 1,
+      "ShortName": "sight_rear_all_izhmash_ak308_rear_sight_base",
+      "SightingRange": 600,
+      "Slots": [
+        {
+          "_name": "mod_sight_rear",
+          "_id": "68916765fa628c6b9f0ed6f8",
+          "_parent": "68916765fa628c6b9f0ed6f6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ac733a45acfc400192630e2",
+                  "5649b0544bdc2d1b2b8b458a",
+                  "5ac72e475acfc400180ae6fe",
+                  "5bf3f59f0db834001a6fa060",
+                  "649ec2cec93611967b03495e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.05,
+      "Width": 1,
+      "ZoomSensitivity": 0,
+      "Zooms": [
+        [
+          1
+        ]
+      ],
+      "sightModType": "iron",
+      "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+      "RagfairLevelToTrade": 0,
+      "CategoryAnimationModId": 0
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5ac733a45acfc400192630e2",
+          "name": {
+            "zh": "AK-105标准照门（6P44 Sb.1-30）",
+            "en": "AK-105 rear sight"
+          },
+          "armorClass": 0,
+          "weight": 0.025,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.07500000000000001
+    },
+    "mod": {
+      "ergonomics": 0,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "1x",
+      "sightingRange": 600,
+      "sightModType": "iron",
+      "calibrationDistances": [
+        100
+      ],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "5b3b99265acfc4704b4a1afb",
+        "name": {
+          "zh": "Nightforce 30毫米瞄准镜基座环",
+          "en": "Nightforce Magmount 30mm ring scope mount"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_sight_rear",
+      "id": "68916765fa628c6b9f0ed6f8",
+      "required": false,
+      "filter": [
+        "5ac733a45acfc400192630e2",
+        "5649b0544bdc2d1b2b8b458a",
+        "5ac72e475acfc400180ae6fe",
+        "5bf3f59f0db834001a6fa060",
+        "649ec2cec93611967b03495e"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

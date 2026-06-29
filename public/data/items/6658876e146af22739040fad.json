@@ -1,1 +1,129 @@
-{"id":"6658876e146af22739040fad","typeName":"RandomLootContainer","category":"container","parentTypeChain":["RandomLootContainer","SearchableItem","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"已解锁的装备箱（普通）","en":"Unlocked equipment crate (Common)"},"shortName":{"zh":"装备箱（普通）","en":"Equipment (Common)"},"description":{"zh":"参加竞技场战斗的奖品。包含各种装备，能够帮助你在混乱的塔科夫中杀出重围。箱子的锁已经被破坏掉了，这意味着你和里面的东西已在咫尺之间了。","en":"A trophy for participating in Arena battles. It contains various equipment to help you survive and kill in the harsh world of Tarkov. The lock has been crudely broken, which means there are no more obstacles between you and the contents of the box."},"weight":10,"width":4,"height":4,"rarity":"Not_exist","backgroundColor":"green"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"green","BlocksArmorVest":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":false,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"Arena_gearcrate_green_open","DiscardLimit":0,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":100,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[{"_id":"6658876e146af22739040faf","_name":"main","_parent":"6658876e146af22739040fad","_props":{"cellsH":3,"cellsV":3,"filters":[{"ExcludedFilter":["54009119af1c881c07000029"],"Filter":[]}],"isSortingTable":false,"maxCount":7,"maxWeight":3,"minCount":5},"_proto":"55d329c24bdc2d892f8b4567"}],"Height":4,"HideEntrails":true,"InsuranceDisabled":true,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":true,"ItemSound":"container_metal","LeftHandItem":false,"LootExperience":20,"MergesWithChildren":false,"Name":"Arena_gearcrate_green_open","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/containers/item_container_trackcase/item_container_trackcase_rare.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"SearchSound":"drawer_metal_looting","ShortName":"Arena_gearcrate_green_open","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":10,"Width":4}},"slots":[],"image":"/images/items/6658876e146af22739040fad.webp","isMod":false}
+{
+  "id": "6658876e146af22739040fad",
+  "typeName": "RandomLootContainer",
+  "category": "container",
+  "parentTypeChain": [
+    "RandomLootContainer",
+    "SearchableItem",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "已解锁的装备箱（普通）",
+      "en": "Unlocked equipment crate (Common)"
+    },
+    "shortName": {
+      "zh": "装备箱（普通）",
+      "en": "Equipment (Common)"
+    },
+    "description": {
+      "zh": "参加竞技场战斗的奖品。包含各种装备，能够帮助你在混乱的塔科夫中杀出重围。箱子的锁已经被破坏掉了，这意味着你和里面的东西已在咫尺之间了。",
+      "en": "A trophy for participating in Arena battles. It contains various equipment to help you survive and kill in the harsh world of Tarkov. The lock has been crudely broken, which means there are no more obstacles between you and the contents of the box."
+    },
+    "weight": 10,
+    "width": 4,
+    "height": 4,
+    "rarity": "Not_exist",
+    "backgroundColor": "green"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "green",
+      "BlocksArmorVest": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "Arena_gearcrate_green_open",
+      "DiscardLimit": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 100,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [
+        {
+          "_id": "6658876e146af22739040faf",
+          "_name": "main",
+          "_parent": "6658876e146af22739040fad",
+          "_props": {
+            "cellsH": 3,
+            "cellsV": 3,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "54009119af1c881c07000029"
+                ],
+                "Filter": []
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 7,
+            "maxWeight": 3,
+            "minCount": 5
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Height": 4,
+      "HideEntrails": true,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": true,
+      "ItemSound": "container_metal",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MergesWithChildren": false,
+      "Name": "Arena_gearcrate_green_open",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/containers/item_container_trackcase/item_container_trackcase_rare.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SearchSound": "drawer_metal_looting",
+      "ShortName": "Arena_gearcrate_green_open",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 10,
+      "Width": 4
+    }
+  },
+  "slots": [],
+  "image": "/images/items/6658876e146af22739040fad.webp",
+  "isMod": false
+}

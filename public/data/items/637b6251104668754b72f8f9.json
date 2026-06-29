@@ -1,1 +1,208 @@
-{"id":"637b6251104668754b72f8f9","typeName":"Stimulator","category":"stimulator","parentTypeChain":["Stimulator","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b33a","price":66000},"common":{"name":{"zh":"人造血（蓝血）注射器","en":"Perfotoran (Blue Blood) stimulant injector"},"shortName":{"zh":"人造血","en":"Perfotoran"},"description":{"zh":"一种能够转运氧气的血液替代品，被用作中毒、辐射的超级解药。它是苏联科学家于20世纪80年代发明的。这是一种基于PFO混合物的亚微米级乳化液。注入血液后，它能暂时加快代谢，并促进组织恢复。过量使用和免疫反应会对健康带来不利影响。","en":"A blood substitute with the function of oxygen transfer, used as a powerful antidote capable of relieving toxins, poisons, and radiation damage. It was developed by Soviet scientists in the 1980s. It is a submicron emulsion based on PFO compounds. Once in the blood, it temporarily speeds up the metabolism and regenerates tissues. Negatively affects health in case of overdose or rejection."},"weight":0.05,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"","DiscardLimit":2,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":8,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_stimulator","LeftHandItem":false,"LootExperience":10,"MaxHpResource":0,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"Пропитал","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_perfotoran_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"Пропитал","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_Perfotoran","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_perfotoran_container.bundle","rcid":""},"Weight":0.05,"Width":1,"effects_damage":{"HeavyBleeding":{"delay":0,"duration":60,"fadeOut":0},"Intoxication":{"delay":0,"duration":60,"fadeOut":0},"LightBleeding":{"delay":0,"duration":60,"fadeOut":0},"RadExposure":{"delay":0,"duration":60,"fadeOut":0}},"effects_health":[],"hpResourceRate":0,"medEffectType":"duringUse","medUseTime":2},"medical":{"medEffectType":"duringUse","medUseTime":2,"maxHpResource":0,"hpResourceRate":0,"effects":{"healthEffects":[],"damageEffects":[{"type":"HeavyBleeding","delay":0,"duration":60},{"type":"Intoxication","delay":0,"duration":60},{"type":"LightBleeding","delay":0,"duration":60},{"type":"RadExposure","delay":0,"duration":60}],"stimBuffs":[{"buffType":"SkillRate","skillName":"Metabolism","value":5,"delay":1,"duration":60,"chance":1},{"buffType":"Antidote","skillName":"","value":0,"delay":1,"duration":60,"chance":1},{"buffType":"RemoveAllBloodLosses","skillName":"","value":0,"delay":1,"duration":60,"chance":1},{"buffType":"HealthRate","skillName":"","value":1.5,"delay":1,"duration":60,"chance":1},{"buffType":"SkillRate","skillName":"Health","value":-15,"delay":60,"duration":60,"chance":1},{"buffType":"EnergyRate","skillName":"","value":-1.1,"delay":60,"duration":60,"chance":1}]}}},"slots":[],"image":"/images/items/637b6251104668754b72f8f9.jpg","isMod":false}
+{
+  "id": "637b6251104668754b72f8f9",
+  "typeName": "Stimulator",
+  "category": "stimulator",
+  "parentTypeChain": [
+    "Stimulator",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b33a",
+    "price": 66000
+  },
+  "common": {
+    "name": {
+      "zh": "人造血（蓝血）注射器",
+      "en": "Perfotoran (Blue Blood) stimulant injector"
+    },
+    "shortName": {
+      "zh": "人造血",
+      "en": "Perfotoran"
+    },
+    "description": {
+      "zh": "一种能够转运氧气的血液替代品，被用作中毒、辐射的超级解药。它是苏联科学家于20世纪80年代发明的。这是一种基于PFO混合物的亚微米级乳化液。注入血液后，它能暂时加快代谢，并促进组织恢复。过量使用和免疫反应会对健康带来不利影响。",
+      "en": "A blood substitute with the function of oxygen transfer, used as a powerful antidote capable of relieving toxins, poisons, and radiation damage. It was developed by Soviet scientists in the 1980s. It is a submicron emulsion based on PFO compounds. Once in the blood, it temporarily speeds up the metabolism and regenerates tissues. Negatively affects health in case of overdose or rejection."
+    },
+    "weight": 0.05,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "",
+      "DiscardLimit": 2,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 8,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_stimulator",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "Пропитал",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_perfotoran_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "Пропитал",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_Perfotoran",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_perfotoran_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.05,
+      "Width": 1,
+      "effects_damage": {
+        "HeavyBleeding": {
+          "delay": 0,
+          "duration": 60,
+          "fadeOut": 0
+        },
+        "Intoxication": {
+          "delay": 0,
+          "duration": 60,
+          "fadeOut": 0
+        },
+        "LightBleeding": {
+          "delay": 0,
+          "duration": 60,
+          "fadeOut": 0
+        },
+        "RadExposure": {
+          "delay": 0,
+          "duration": 60,
+          "fadeOut": 0
+        }
+      },
+      "effects_health": [],
+      "hpResourceRate": 0,
+      "medEffectType": "duringUse",
+      "medUseTime": 2
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 2,
+      "maxHpResource": 0,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [
+          {
+            "type": "HeavyBleeding",
+            "delay": 0,
+            "duration": 60
+          },
+          {
+            "type": "Intoxication",
+            "delay": 0,
+            "duration": 60
+          },
+          {
+            "type": "LightBleeding",
+            "delay": 0,
+            "duration": 60
+          },
+          {
+            "type": "RadExposure",
+            "delay": 0,
+            "duration": 60
+          }
+        ],
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "Metabolism",
+            "value": 5,
+            "delay": 1,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "Antidote",
+            "skillName": "",
+            "value": 0,
+            "delay": 1,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "RemoveAllBloodLosses",
+            "skillName": "",
+            "value": 0,
+            "delay": 1,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": 1.5,
+            "delay": 1,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -15,
+            "delay": 60,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -1.1,
+            "delay": 60,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/637b6251104668754b72f8f9.jpg",
+  "isMod": false
+}

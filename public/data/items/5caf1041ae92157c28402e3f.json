@@ -1,1 +1,176 @@
-{"id":"5caf1041ae92157c28402e3f","typeName":"Magazine","category":"mod_magazine","parentTypeChain":["Magazine","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f754a86f774094242f19b","price":6600},"common":{"name":{"zh":"12.7x55 10发ASh-12弹匣","en":"ASh-12 12.7x55 10-round magazine"},"shortName":{"zh":"ASh-12 10发","en":"ASh-12"},"description":{"zh":"ASh-12的10发12.7x55弹匣。","en":"A 10-round magazine for the 12.7x55 ASh-12 assault rifle."},"weight":0.35,"width":1,"height":2,"rarity":"Not_exist","backgroundColor":"yellow"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"yellow","BeltMagazineRefreshCount":0,"BlocksCollapsible":false,"BlocksFolding":false,"CanAdmin":false,"CanFast":true,"CanHit":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"Cartridges":[{"_id":"5caf1041ae92157c28402e41","_max_count":10,"_name":"cartridges","_parent":"5caf1041ae92157c28402e3f","_props":{"filters":[{"Filter":["5cadf6ddae9215051e1c23b2","5cadf6e5ae921500113bb973","5cadf6eeae921500134b2799"]}]},"_proto":"5748538b2459770af276a261"}],"CheckOverride":0,"CheckTimeModifier":0,"ConflictingItems":[],"Description":"mag_ash12_ckib_ash12_std_127x55_10","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-3,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":2,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsMagazineForStationaryWeapon":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mag_plastic","LeftHandItem":false,"LoadUnloadModifier":0,"LootExperience":10,"Loudness":0,"MagazineWithBelt":false,"MalfunctionChance":0.05,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mag_ash12_ckib_ash12_std_127x55_10","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/magazines/mag_ash12_ckib_ash12_std_127x55_10.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"ReloadMagType":"ExternalMagazine","RepairCost":0,"RepairSpeed":0,"ShortName":"mag_ash12_ckib_ash12_std_127x55_10","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"TagColor":0,"TagName":"","ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"VisibleAmmoRangesString":"1-3","Weight":0.35,"Width":1,"magAnimationIndex":0},"mod":{"ergonomics":-3,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0.05,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[],"image":"/images/items/5caf1041ae92157c28402e3f.jpg","isMod":false}
+{
+  "id": "5caf1041ae92157c28402e3f",
+  "typeName": "Magazine",
+  "category": "mod_magazine",
+  "parentTypeChain": [
+    "Magazine",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f754a86f774094242f19b",
+    "price": 6600
+  },
+  "common": {
+    "name": {
+      "zh": "12.7x55 10发ASh-12弹匣",
+      "en": "ASh-12 12.7x55 10-round magazine"
+    },
+    "shortName": {
+      "zh": "ASh-12 10发",
+      "en": "ASh-12"
+    },
+    "description": {
+      "zh": "ASh-12的10发12.7x55弹匣。",
+      "en": "A 10-round magazine for the 12.7x55 ASh-12 assault rifle."
+    },
+    "weight": 0.35,
+    "width": 1,
+    "height": 2,
+    "rarity": "Not_exist",
+    "backgroundColor": "yellow"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "BeltMagazineRefreshCount": 0,
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanAdmin": false,
+      "CanFast": true,
+      "CanHit": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Cartridges": [
+        {
+          "_id": "5caf1041ae92157c28402e41",
+          "_max_count": 10,
+          "_name": "cartridges",
+          "_parent": "5caf1041ae92157c28402e3f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cadf6ddae9215051e1c23b2",
+                  "5cadf6e5ae921500113bb973",
+                  "5cadf6eeae921500134b2799"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "CheckOverride": 0,
+      "CheckTimeModifier": 0,
+      "ConflictingItems": [],
+      "Description": "mag_ash12_ckib_ash12_std_127x55_10",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -3,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsMagazineForStationaryWeapon": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mag_plastic",
+      "LeftHandItem": false,
+      "LoadUnloadModifier": 0,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MagazineWithBelt": false,
+      "MalfunctionChance": 0.05,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mag_ash12_ckib_ash12_std_127x55_10",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/magazines/mag_ash12_ckib_ash12_std_127x55_10.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "ReloadMagType": "ExternalMagazine",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mag_ash12_ckib_ash12_std_127x55_10",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "TagColor": 0,
+      "TagName": "",
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "VisibleAmmoRangesString": "1-3",
+      "Weight": 0.35,
+      "Width": 1,
+      "magAnimationIndex": 0
+    },
+    "mod": {
+      "ergonomics": -3,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0.05,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5caf1041ae92157c28402e3f.jpg",
+  "isMod": false
+}

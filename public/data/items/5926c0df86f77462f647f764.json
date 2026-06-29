@@ -1,1 +1,328 @@
-{"id":"5926c0df86f77462f647f764","typeName":"Receiver","category":"mod_other","parentTypeChain":["Receiver","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f764186f77447ec5d7714","price":3270},"common":{"name":{"zh":"HK MP5上机匣","en":"HK MP5 9x19 upper receiver"},"shortName":{"zh":"MP5机匣","en":"MP5"},"description":{"zh":"MP5拉机柄\n用于MP5枪族武器的标准拉机柄。","en":"A standard upper receiver for MP5 SMGs, manufactured by Heckler & Koch."},"weight":0.588,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.0815,"Description":"reciever_mp5_hk_std","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":5,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.969,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"reciever_mp5_hk_std","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/recievers/reciever_mp5_hk_std.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"reciever_mp5_hk_std","SightingRange":0,"Slots":[{"_id":"5926c0df86f77462f647f767","_mergeSlotWithChildren":false,"_name":"mod_handguard","_parent":"5926c0df86f77462f647f764","_props":{"filters":[{"Filter":["5a9548c9159bd400133e97b3","5d010d1cd7ad1a59283b1ce7","5926c36d86f77467a92a8629","5d19cd96d7ad1a4a992c9f52"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"5926c0df86f77462f647f768","_mergeSlotWithChildren":false,"_name":"mod_sight_rear","_parent":"5926c0df86f77462f647f764","_props":{"filters":[{"Filter":["5926d2be86f774134d668e4e"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"5926c1c786f774641f04af45","_mergeSlotWithChildren":false,"_name":"mod_stock","_parent":"5926c0df86f77462f647f764","_props":{"filters":[{"Filter":["5926d3c686f77410de68ebc8","5926d40686f7740f152b6b7e","5c07c9660db834001a66b588"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"5926df9986f7742f6356f504","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"5926c0df86f77462f647f764","_props":{"filters":[{"Filter":["5926e16e86f7742f5a0f7ecb","5c0000c00db834001a6697fc"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"5926dfdc86f7742eb80708a0","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"5926c0df86f77462f647f764","_props":{"filters":[{"Filter":["5926dad986f7741f82604363","5a966ec8a2750c00171b3f36"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.588,"Width":2},"mod":{"ergonomics":5,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_handguard","id":"5926c0df86f77462f647f767","required":true,"filter":["5a9548c9159bd400133e97b3","5d010d1cd7ad1a59283b1ce7","5926c36d86f77467a92a8629","5d19cd96d7ad1a4a992c9f52"]},{"name":"mod_sight_rear","id":"5926c0df86f77462f647f768","required":false,"filter":["5926d2be86f774134d668e4e"]},{"name":"mod_stock","id":"5926c1c786f774641f04af45","required":true,"filter":["5926d3c686f77410de68ebc8","5926d40686f7740f152b6b7e","5c07c9660db834001a66b588"]},{"name":"mod_muzzle","id":"5926df9986f7742f6356f504","required":true,"filter":["5926e16e86f7742f5a0f7ecb","5c0000c00db834001a6697fc"]},{"name":"mod_mount","id":"5926dfdc86f7742eb80708a0","required":false,"filter":["5926dad986f7741f82604363","5a966ec8a2750c00171b3f36"]}],"image":"/images/items/5926c0df86f77462f647f764.jpg","isMod":false}
+{
+  "id": "5926c0df86f77462f647f764",
+  "typeName": "Receiver",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Receiver",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f764186f77447ec5d7714",
+    "price": 3270
+  },
+  "common": {
+    "name": {
+      "zh": "HK MP5上机匣",
+      "en": "HK MP5 9x19 upper receiver"
+    },
+    "shortName": {
+      "zh": "MP5机匣",
+      "en": "MP5"
+    },
+    "description": {
+      "zh": "MP5拉机柄\n用于MP5枪族武器的标准拉机柄。",
+      "en": "A standard upper receiver for MP5 SMGs, manufactured by Heckler & Koch."
+    },
+    "weight": 0.7989999999999999,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.0815,
+      "Description": "reciever_mp5_hk_std",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 5,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.969,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "reciever_mp5_hk_std",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/recievers/reciever_mp5_hk_std.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "reciever_mp5_hk_std",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5926c0df86f77462f647f767",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "5926c0df86f77462f647f764",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a9548c9159bd400133e97b3",
+                  "5d010d1cd7ad1a59283b1ce7",
+                  "5926c36d86f77467a92a8629",
+                  "5d19cd96d7ad1a4a992c9f52"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "5926c0df86f77462f647f768",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "5926c0df86f77462f647f764",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5926d2be86f774134d668e4e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5926c1c786f774641f04af45",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "5926c0df86f77462f647f764",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5926d3c686f77410de68ebc8",
+                  "5926d40686f7740f152b6b7e",
+                  "5c07c9660db834001a66b588"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "5926df9986f7742f6356f504",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "5926c0df86f77462f647f764",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5926e16e86f7742f5a0f7ecb",
+                  "5c0000c00db834001a6697fc"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "5926dfdc86f7742eb80708a0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "5926c0df86f77462f647f764",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5926dad986f7741f82604363",
+                  "5a966ec8a2750c00171b3f36"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.588,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5926d2be86f774134d668e4e",
+          "name": {
+            "zh": "HK MP5鼓式照门",
+            "en": "HK MP5 Drum rear sight"
+          },
+          "armorClass": 0,
+          "weight": 0.14,
+          "count": 1
+        },
+        {
+          "id": "5926dad986f7741f82604363",
+          "name": {
+            "zh": "MFI HK通用低轮廓型瞄具导轨",
+            "en": "HK MP5 MFI HK universal low profile scope mount"
+          },
+          "armorClass": 0,
+          "weight": 0.071,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.7989999999999999
+    },
+    "mod": {
+      "ergonomics": 5,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_handguard",
+      "id": "5926c0df86f77462f647f767",
+      "required": true,
+      "filter": [
+        "5a9548c9159bd400133e97b3",
+        "5d010d1cd7ad1a59283b1ce7",
+        "5926c36d86f77467a92a8629",
+        "5d19cd96d7ad1a4a992c9f52"
+      ]
+    },
+    {
+      "name": "mod_sight_rear",
+      "id": "5926c0df86f77462f647f768",
+      "required": false,
+      "filter": [
+        "5926d2be86f774134d668e4e"
+      ]
+    },
+    {
+      "name": "mod_stock",
+      "id": "5926c1c786f774641f04af45",
+      "required": true,
+      "filter": [
+        "5926d3c686f77410de68ebc8",
+        "5926d40686f7740f152b6b7e",
+        "5c07c9660db834001a66b588"
+      ]
+    },
+    {
+      "name": "mod_muzzle",
+      "id": "5926df9986f7742f6356f504",
+      "required": true,
+      "filter": [
+        "5926e16e86f7742f5a0f7ecb",
+        "5c0000c00db834001a6697fc"
+      ]
+    },
+    {
+      "name": "mod_mount",
+      "id": "5926dfdc86f7742eb80708a0",
+      "required": false,
+      "filter": [
+        "5926dad986f7741f82604363",
+        "5a966ec8a2750c00171b3f36"
+      ]
+    }
+  ],
+  "image": "/images/items/5926c0df86f77462f647f764.jpg",
+  "isMod": false
+}

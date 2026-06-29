@@ -1,1 +1,198 @@
-{"id":"57235b6f24597759bf5a30f1","typeName":"NightVision","category":"special","parentTypeChain":["NightVision","SpecialScope","Sights","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f749986f774094242f199","price":91951},"common":{"name":{"zh":"AN/PVS-14单筒夜视仪","en":"L3Harris AN/PVS-14 night vision monocular"},"shortName":{"zh":"PVS-14","en":"PVS-14"},"description":{"zh":"AN/PVS-14单筒夜视仪。\n陆军/海军所使用的便携式视觉搜索设备，可视夜间视野达350米并有40°的视野宽度以及亮度调节功能。","en":"The AN/PVS-14 monocular night vision device for army/navy that allows nighttime detection of targets on distances of up to 350m with 40° FOV and has an adjustable brightness."},"weight":0.65,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"default"},"properties":{"_raw":{"Accuracy":0,"AdjustableOpticSensitivity":0,"AdjustableOpticSensitivityMax":0,"AimSensitivity":[[0.2]],"AnimationVariantsNumber":0,"BackgroundColor":"default","BlocksCollapsible":false,"BlocksFolding":false,"CalibrationDistances":[[50,100,150,200]],"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"Color":{"a":254,"b":86,"g":255,"r":183},"ConflictingItems":[],"CustomAimPlane":"","Description":"ПНВ","DiffuseIntensity":0.022,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":0,"ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasHinge":true,"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"Intensity":2.27,"IsAdjustableOptic":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_goggles","LeftHandItem":false,"LootExperience":15,"Loudness":0,"Mask":"OldMonocular","MaskSize":1.2,"MergesWithChildren":false,"MetascoreGroup":"Firepower","MinMaxFov":{"x":0,"y":0,"z":0},"ModesCount":[1],"Name":"ПНВ","NoiseIntensity":0.02,"NoiseScale":5,"NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/customizable/pvs_14/nvg_pvs_14.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Superrare","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ScopesCount":1,"ShortName":"ПНВ","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":["Bear","Usec","Savage"],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.65,"Width":1,"ZoomSensitivity":0,"Zooms":[[1]],"sightModType":"iron"},"mod":{"ergonomics":0,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"1x","sightingRange":0,"sightModType":"iron","calibrationDistances":[50,100,150,200],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[],"image":"/images/items/57235b6f24597759bf5a30f1.jpg","isMod":false}
+{
+  "id": "57235b6f24597759bf5a30f1",
+  "typeName": "NightVision",
+  "category": "special",
+  "parentTypeChain": [
+    "NightVision",
+    "SpecialScope",
+    "Sights",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f749986f774094242f199",
+    "price": 91951
+  },
+  "common": {
+    "name": {
+      "zh": "AN/PVS-14单筒夜视仪",
+      "en": "L3Harris AN/PVS-14 night vision monocular"
+    },
+    "shortName": {
+      "zh": "PVS-14",
+      "en": "PVS-14"
+    },
+    "description": {
+      "zh": "AN/PVS-14单筒夜视仪。\n陆军/海军所使用的便携式视觉搜索设备，可视夜间视野达350米并有40°的视野宽度以及亮度调节功能。",
+      "en": "The AN/PVS-14 monocular night vision device for army/navy that allows nighttime detection of targets on distances of up to 350m with 40° FOV and has an adjustable brightness."
+    },
+    "weight": 0.65,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "default"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0,
+      "AimSensitivity": [
+        [
+          0.2
+        ]
+      ],
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "default",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200
+        ]
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Color": {
+        "a": 254,
+        "b": 86,
+        "g": 255,
+        "r": 183
+      },
+      "ConflictingItems": [],
+      "CustomAimPlane": "",
+      "Description": "ПНВ",
+      "DiffuseIntensity": 0.022,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasHinge": true,
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "Intensity": 2.27,
+      "IsAdjustableOptic": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_goggles",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "Mask": "OldMonocular",
+      "MaskSize": 1.2,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Firepower",
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ModesCount": [
+        1
+      ],
+      "Name": "ПНВ",
+      "NoiseIntensity": 0.02,
+      "NoiseScale": 5,
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/customizable/pvs_14/nvg_pvs_14.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Superrare",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ScopesCount": 1,
+      "ShortName": "ПНВ",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [
+        "Bear",
+        "Usec",
+        "Savage"
+      ],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.65,
+      "Width": 1,
+      "ZoomSensitivity": 0,
+      "Zooms": [
+        [
+          1
+        ]
+      ],
+      "sightModType": "iron"
+    },
+    "mod": {
+      "ergonomics": 0,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "1x",
+      "sightingRange": 0,
+      "sightModType": "iron",
+      "calibrationDistances": [
+        50,
+        100,
+        150,
+        200
+      ],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [],
+  "image": "/images/items/57235b6f24597759bf5a30f1.jpg",
+  "isMod": false
+}

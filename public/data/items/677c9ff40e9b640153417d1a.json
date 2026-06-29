@@ -1,1 +1,280 @@
-{"id":"677c9ff40e9b640153417d1a","typeName":"Receiver","category":"mod_other","parentTypeChain":["Receiver","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"LAR Grizzly 50 Mark V手枪套筒（金色）","en":"LAR Grizzly 50 Mark V pistol slide (Gold)"},"shortName":{"zh":"Grizzly","en":"Grizzly"},"description":{"zh":"LAR Grizzly 50 Mark V .50 AE手枪不锈钢制套筒","en":"Stainless pistol slide for the LAR Grizzly 50 Mark V .50 AE pistol."},"weight":0.485,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.06,"Description":"reciever_m1911_colt_m45a1_std","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":4,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.954,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"reciever_m1911_colt_m45a1_std","NotShownInSlot":false,"Prefab":{"path":"WeaponGrizzly/grizzly_receiver_gold.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"reciever_m1911_colt_m45a1_std","SightingRange":0,"Slots":[{"_id":"677ca0037552e3e22d722b0c","_mergeSlotWithChildren":false,"_name":"mod_sight_front","_parent":"677c9ff40e9b640153417d1a","_props":{"filters":[{"Filter":["677c9d30ca0b19fe954b4ed2","677c9d5ecdee47b41baa92ac","677c9d4ee9edb9191668af01"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"677ca006669679e5d42f5f21","_mergeSlotWithChildren":false,"_name":"mod_sight_rear","_parent":"677c9ff40e9b640153417d1a","_props":{"filters":[{"Filter":["677ca78263bc534f0b830a42","677c9e554dde113597355fad","677c9e4595c08963e941a146"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"677ca2820d939b9daa402590","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"677c9ff40e9b640153417d1a","_props":{"filters":[{"Filter":["677ca2211cbf2a608adfc741"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.485,"Width":2},"mod":{"ergonomics":4,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_sight_front","id":"677ca0037552e3e22d722b0c","required":false,"filter":["677c9d30ca0b19fe954b4ed2","677c9d5ecdee47b41baa92ac","677c9d4ee9edb9191668af01"]},{"name":"mod_sight_rear","id":"677ca006669679e5d42f5f21","required":false,"filter":["677ca78263bc534f0b830a42","677c9e554dde113597355fad","677c9e4595c08963e941a146"]},{"name":"mod_muzzle","id":"677ca2820d939b9daa402590","required":false,"filter":["677ca2211cbf2a608adfc741"]}],"image":null,"isMod":true}
+{
+  "id": "677c9ff40e9b640153417d1a",
+  "typeName": "Receiver",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Receiver",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "LAR Grizzly 50 Mark V手枪套筒（金色）",
+      "en": "LAR Grizzly 50 Mark V pistol slide (Gold)"
+    },
+    "shortName": {
+      "zh": "Grizzly",
+      "en": "Grizzly"
+    },
+    "description": {
+      "zh": "LAR Grizzly 50 Mark V .50 AE手枪不锈钢制套筒",
+      "en": "Stainless pistol slide for the LAR Grizzly 50 Mark V .50 AE pistol."
+    },
+    "weight": 0.6,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.06,
+      "Description": "reciever_m1911_colt_m45a1_std",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 4,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.954,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "reciever_m1911_colt_m45a1_std",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponGrizzly/grizzly_receiver_gold.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "reciever_m1911_colt_m45a1_std",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "677ca0037552e3e22d722b0c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "677c9ff40e9b640153417d1a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "677c9d30ca0b19fe954b4ed2",
+                  "677c9d5ecdee47b41baa92ac",
+                  "677c9d4ee9edb9191668af01"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "677ca006669679e5d42f5f21",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "677c9ff40e9b640153417d1a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "677ca78263bc534f0b830a42",
+                  "677c9e554dde113597355fad",
+                  "677c9e4595c08963e941a146"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "677ca2820d939b9daa402590",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "677c9ff40e9b640153417d1a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "677ca2211cbf2a608adfc741"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.485,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "677c9d30ca0b19fe954b4ed2",
+          "name": {
+            "zh": "LAR Grizzly 准星（绿色）",
+            "en": "LAR Grizzly front sight (Green)"
+          },
+          "armorClass": 0,
+          "weight": 0.006,
+          "count": 1
+        },
+        {
+          "id": "677ca78263bc534f0b830a42",
+          "name": {
+            "zh": "LAR Grizzly 氚光照门（绿色）",
+            "en": "LAR Grizzly Tritium rear sight (Green)"
+          },
+          "armorClass": 0,
+          "weight": 0.009,
+          "count": 1
+        },
+        {
+          "id": "677ca2211cbf2a608adfc741",
+          "name": {
+            "zh": "LAR Grizzly 50 Mark V .50 AE定制补偿器",
+            "en": "LAR Grizzly 50 Mark V .50 AE custom compensator"
+          },
+          "armorClass": 0,
+          "weight": 0.1,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.6
+    },
+    "mod": {
+      "ergonomics": 4,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_sight_front",
+      "id": "677ca0037552e3e22d722b0c",
+      "required": false,
+      "filter": [
+        "677c9d30ca0b19fe954b4ed2",
+        "677c9d5ecdee47b41baa92ac",
+        "677c9d4ee9edb9191668af01"
+      ]
+    },
+    {
+      "name": "mod_sight_rear",
+      "id": "677ca006669679e5d42f5f21",
+      "required": false,
+      "filter": [
+        "677ca78263bc534f0b830a42",
+        "677c9e554dde113597355fad",
+        "677c9e4595c08963e941a146"
+      ]
+    },
+    {
+      "name": "mod_muzzle",
+      "id": "677ca2820d939b9daa402590",
+      "required": false,
+      "filter": [
+        "677ca2211cbf2a608adfc741"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

@@ -1,1 +1,170 @@
-{"id":"5ed515e03a40a50460332579","typeName":"Stimulator","category":"stimulator","parentTypeChain":["Stimulator","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b33a","price":37570},"common":{"name":{"zh":"L1（去甲肾上腺素）","en":"L1 (Norepinephrine) injector"},"shortName":{"zh":"L1","en":"L1"},"description":{"zh":"装有一剂L1的一次性无菌注射器，主要成分是去甲肾上腺素。它是用来短期增加力量和耐力的，还可减少疼痛的影响。它将增强生理反应的执行力，比如“该打还是该跑”。增加水分和能量消耗。","en":"A sterile disposable syringe with a dose of L1, based on norepinephrine. It is used for short-term increase of strength and endurance, as well as to reduce the pain effect. This activates the implementation of a physiological response such as \"hit or run\". Increases water and energy consumption."},"weight":0.05,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"","DiscardLimit":2,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":8,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_stimulator","LeftHandItem":false,"LootExperience":10,"MaxHpResource":0,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"L1(Norepinephrine)","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_l1_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"L1(Norepinephrine)","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_L1","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_l1_container.bundle","rcid":""},"Weight":0.05,"Width":1,"effects_damage":{"Pain":{"delay":0,"duration":120,"fadeOut":0}},"effects_health":[],"hpResourceRate":0,"medEffectType":"duringUse","medUseTime":2},"medical":{"medEffectType":"duringUse","medUseTime":2,"maxHpResource":0,"hpResourceRate":0,"effects":{"healthEffects":[],"damageEffects":[{"type":"Pain","delay":0,"duration":120}],"stimBuffs":[{"buffType":"SkillRate","skillName":"Endurance","value":10,"delay":1,"duration":120,"chance":1},{"buffType":"SkillRate","skillName":"Strength","value":20,"delay":1,"duration":120,"chance":1},{"buffType":"MaxStamina","skillName":"","value":30,"delay":1,"duration":120,"chance":1},{"buffType":"HydrationRate","skillName":"","value":-0.45,"delay":1,"duration":60,"chance":1},{"buffType":"EnergyRate","skillName":"","value":-0.45,"delay":1,"duration":60,"chance":1}]}}},"slots":[],"image":"/images/items/5ed515e03a40a50460332579.jpg","isMod":false}
+{
+  "id": "5ed515e03a40a50460332579",
+  "typeName": "Stimulator",
+  "category": "stimulator",
+  "parentTypeChain": [
+    "Stimulator",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b33a",
+    "price": 37570
+  },
+  "common": {
+    "name": {
+      "zh": "L1（去甲肾上腺素）",
+      "en": "L1 (Norepinephrine) injector"
+    },
+    "shortName": {
+      "zh": "L1",
+      "en": "L1"
+    },
+    "description": {
+      "zh": "装有一剂L1的一次性无菌注射器，主要成分是去甲肾上腺素。它是用来短期增加力量和耐力的，还可减少疼痛的影响。它将增强生理反应的执行力，比如“该打还是该跑”。增加水分和能量消耗。",
+      "en": "A sterile disposable syringe with a dose of L1, based on norepinephrine. It is used for short-term increase of strength and endurance, as well as to reduce the pain effect. This activates the implementation of a physiological response such as \"hit or run\". Increases water and energy consumption."
+    },
+    "weight": 0.05,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "",
+      "DiscardLimit": 2,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 8,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_stimulator",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "L1(Norepinephrine)",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_l1_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "L1(Norepinephrine)",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_L1",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_l1_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.05,
+      "Width": 1,
+      "effects_damage": {
+        "Pain": {
+          "delay": 0,
+          "duration": 120,
+          "fadeOut": 0
+        }
+      },
+      "effects_health": [],
+      "hpResourceRate": 0,
+      "medEffectType": "duringUse",
+      "medUseTime": 2
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 2,
+      "maxHpResource": 0,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [
+          {
+            "type": "Pain",
+            "delay": 0,
+            "duration": 120
+          }
+        ],
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 10,
+            "delay": 1,
+            "duration": 120,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 20,
+            "delay": 1,
+            "duration": 120,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 30,
+            "delay": 1,
+            "duration": 120,
+            "chance": 1
+          },
+          {
+            "buffType": "HydrationRate",
+            "skillName": "",
+            "value": -0.45,
+            "delay": 1,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -0.45,
+            "delay": 1,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5ed515e03a40a50460332579.jpg",
+  "isMod": false
+}

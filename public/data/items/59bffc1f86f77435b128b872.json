@@ -1,1 +1,202 @@
-{"id":"59bffc1f86f77435b128b872","typeName":"MuzzleCombo","category":"mod_muzzle","parentTypeChain":["MuzzleCombo","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f72f786f77447ec5d7702","price":4120},"common":{"name":{"zh":"Silencerco Hybrid 46直接螺纹转接器","en":"SilencerCo Hybrid 46 Direct Thread Mount adapter"},"shortName":{"zh":"DT Hybrid","en":"DT Hybrid"},"description":{"zh":"膛口螺纹转接器，供Silencerco Hybrid 46消音器直接安装在枪管螺纹上。","en":"The Direct Thread Mount adapter for installation of SilencerCo Hybrid 46 silencer directly onto the barrel threading."},"weight":0.14,"width":1,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"muzzle_all_silencerco_hybrid_46_direct_thread_multi","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":0,"ExamineExperience":5,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"muzzle_all_silencerco_hybrid_46_direct_thread_multi","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/muzzle/muzzle_all_silencerco_hybrid_46_multi.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"muzzle_all_silencerco_hybrid_46_direct_thread_multi","SightingRange":0,"Slots":[{"_id":"59bffc9f86f77435b263bfa2","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"59bffc1f86f77435b128b872","_props":{"filters":[{"Filter":["59bffbb386f77435b379b9c2"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.14,"Width":1,"muzzleModType":"muzzleCombo"},"mod":{"ergonomics":0,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"muzzleCombo","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"59bffc9f86f77435b263bfa2","required":false,"filter":["59bffbb386f77435b379b9c2"]}],"image":"/images/items/59bffc1f86f77435b128b872.jpg","isMod":false}
+{
+  "id": "59bffc1f86f77435b128b872",
+  "typeName": "MuzzleCombo",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "MuzzleCombo",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f72f786f77447ec5d7702",
+    "price": 4120
+  },
+  "common": {
+    "name": {
+      "zh": "Silencerco Hybrid 46直接螺纹转接器",
+      "en": "SilencerCo Hybrid 46 Direct Thread Mount adapter"
+    },
+    "shortName": {
+      "zh": "DT Hybrid",
+      "en": "DT Hybrid"
+    },
+    "description": {
+      "zh": "膛口螺纹转接器，供Silencerco Hybrid 46消音器直接安装在枪管螺纹上。",
+      "en": "The Direct Thread Mount adapter for installation of SilencerCo Hybrid 46 silencer directly onto the barrel threading."
+    },
+    "weight": 0.63,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "muzzle_all_silencerco_hybrid_46_direct_thread_multi",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "muzzle_all_silencerco_hybrid_46_direct_thread_multi",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/muzzle/muzzle_all_silencerco_hybrid_46_multi.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "muzzle_all_silencerco_hybrid_46_direct_thread_multi",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "59bffc9f86f77435b263bfa2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "59bffc1f86f77435b128b872",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59bffbb386f77435b379b9c2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.14,
+      "Width": 1,
+      "muzzleModType": "muzzleCombo"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "59bffbb386f77435b379b9c2",
+          "name": {
+            "zh": "Silencerco Hybrid 46多口径消音器",
+            "en": "SilencerCo Hybrid 46 multi-caliber sound suppressor"
+          },
+          "armorClass": 0,
+          "weight": 0.49,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.63
+    },
+    "mod": {
+      "ergonomics": 0,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "muzzleCombo",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "59bffc9f86f77435b263bfa2",
+      "required": false,
+      "filter": [
+        "59bffbb386f77435b379b9c2"
+      ]
+    }
+  ],
+  "image": "/images/items/59bffc1f86f77435b128b872.jpg",
+  "isMod": false
+}

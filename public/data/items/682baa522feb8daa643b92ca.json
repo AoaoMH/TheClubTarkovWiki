@@ -1,1 +1,204 @@
-{"id":"682baa522feb8daa643b92ca","typeName":"Stock","category":"mod_stock","parentTypeChain":["Stock","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"Ak5C 钢丝枪托","en":"Ak5C wire stock"},"shortName":{"zh":"AK5C-Wire","en":"Ak5C Wire."},"description":{"zh":"AK5C 5.56x45步枪的折叠金属丝枪托。","en":"A folding wire stock for the Ak5C 5.56x45 rifle."},"weight":0.35,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"stock_ak74m_izhmash_ak74m_std","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":8,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":1,"ExtraSizeUp":0,"Foldable":false,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":true,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsShoulderContact":true,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"stock_ak74m_izhmash_ak74m_std","NotShownInSlot":false,"Prefab":{"path":"WeaponAK5C/ak5c_wirestock.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-23,"RepairCost":0,"RepairSpeed":0,"Retractable":false,"ShortName":"stock_ak74m_izhmash_ak74m_std","SightingRange":0,"SizeReduceRight":1,"Slots":[{"_id":"682baa7a8e33d2036193fcfc","_mergeSlotWithChildren":false,"_name":"mod_stock","_parent":"682baa522feb8daa643b92ca","_props":{"filters":[{"Filter":["682baac5d66c1da62f72a40a"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.35,"Width":2},"mod":{"ergonomics":8,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_stock","id":"682baa7a8e33d2036193fcfc","required":false,"filter":["682baac5d66c1da62f72a40a"]}],"image":null,"isMod":true}
+{
+  "id": "682baa522feb8daa643b92ca",
+  "typeName": "Stock",
+  "category": "mod_stock",
+  "parentTypeChain": [
+    "Stock",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "Ak5C 钢丝枪托",
+      "en": "Ak5C wire stock"
+    },
+    "shortName": {
+      "zh": "AK5C-Wire",
+      "en": "Ak5C Wire."
+    },
+    "description": {
+      "zh": "AK5C 5.56x45步枪的折叠金属丝枪托。",
+      "en": "A folding wire stock for the Ak5C 5.56x45 rifle."
+    },
+    "weight": 0.39999999999999997,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "stock_ak74m_izhmash_ak74m_std",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 8,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 1,
+      "ExtraSizeUp": 0,
+      "Foldable": false,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": true,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsShoulderContact": true,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "stock_ak74m_izhmash_ak74m_std",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponAK5C/ak5c_wirestock.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -23,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "Retractable": false,
+      "ShortName": "stock_ak74m_izhmash_ak74m_std",
+      "SightingRange": 0,
+      "SizeReduceRight": 1,
+      "Slots": [
+        {
+          "_id": "682baa7a8e33d2036193fcfc",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "682baa522feb8daa643b92ca",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "682baac5d66c1da62f72a40a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.35,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "682baac5d66c1da62f72a40a",
+          "name": {
+            "zh": "Ak5C 金属丝枪托贴腮垫",
+            "en": "Ak5C wire stock cheek pad"
+          },
+          "armorClass": 0,
+          "weight": 0.05,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.39999999999999997
+    },
+    "mod": {
+      "ergonomics": 8,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_stock",
+      "id": "682baa7a8e33d2036193fcfc",
+      "required": false,
+      "filter": [
+        "682baac5d66c1da62f72a40a"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

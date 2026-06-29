@@ -1,1 +1,137 @@
-{"id":"628bc7fb408e2b2e9c0801b1","typeName":"Backpack","category":"backpack","parentTypeChain":["Backpack","SearchableItem","CompoundItem","Item"],"handbook":{"categoryId":"5b5f6f6c86f774093f2ecf0b","price":180000},"common":{"name":{"zh":"Mystery Ranch NICE COMM 3 BVS 稳固系统（黄褐色）","en":"Mystery Ranch NICE COMM 3 BVS frame system (Coyote)"},"shortName":{"zh":"COMM 3","en":"COMM 3"},"description":{"zh":"用于装载超大、超重设备，并带有COMM 3电台背包的特殊装备。\nCOMM 3适配PRC117F/G、PRC119F、152/ASIP电台。如有需要，也可以用它单独收纳其他装备。模块化的NICE COMM3系统能够应对各种任务。\n这是一件极其稀有的装备，有人为了得到他，在塔科夫四处搜索。","en":"The NICE Frame special system for carrying oversized or heavy loads with an installed COMM 3 backpack for carrying radio systems. The COMM 3 main bay is designed for PRC117F or G, PRC119F, 152, or ASIP radios. The Hitchhiker and Daypack lid allows you to carry separate gear if needed. The modular NICE COMM 3 system is ready to adapt to changing tasks. An extremely rare thing, for which a real hunt is conducted in Tarkov."},"weight":15,"width":4,"height":5,"rarity":"Not_exist","backgroundColor":"violet"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"violet","BlocksArmorVest":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"sso_attack","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":100,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"GridLayoutName":"","Grids":[{"_id":"628bc7fb408e2b2e9c0801b2","_name":"main","_parent":"628bc7fb408e2b2e9c0801b1","_props":{"cellsH":2,"cellsV":7,"filters":[{"ExcludedFilter":["566168634bdc2d144c8b456c","5795f317245977243854e041"],"Filter":["54009119af1c881c07000029"]}],"isSortingTable":false,"maxCount":0,"maxWeight":0,"minCount":0},"_proto":"55d329c24bdc2d892f8b4567"}],"Height":5,"HideEntrails":true,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_backpack","LeanWeaponAgainstBody":false,"LeftHandItem":false,"LootExperience":20,"MergesWithChildren":false,"Name":"sso_attack","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/backpack_boss_birdeye/backpack_boss_birdeye.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"SearchSound":"looting_body_extended","ShortName":"sso_attack","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":15,"Width":4,"mousePenalty":-1,"speedPenaltyPercent":-6,"weaponErgonomicPenalty":-5}},"slots":[],"image":"/images/items/628bc7fb408e2b2e9c0801b1.jpg","isMod":false}
+{
+  "id": "628bc7fb408e2b2e9c0801b1",
+  "typeName": "Backpack",
+  "category": "backpack",
+  "parentTypeChain": [
+    "Backpack",
+    "SearchableItem",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f6f6c86f774093f2ecf0b",
+    "price": 180000
+  },
+  "common": {
+    "name": {
+      "zh": "Mystery Ranch NICE COMM 3 BVS 稳固系统（黄褐色）",
+      "en": "Mystery Ranch NICE COMM 3 BVS frame system (Coyote)"
+    },
+    "shortName": {
+      "zh": "COMM 3",
+      "en": "COMM 3"
+    },
+    "description": {
+      "zh": "用于装载超大、超重设备，并带有COMM 3电台背包的特殊装备。\nCOMM 3适配PRC117F/G、PRC119F、152/ASIP电台。如有需要，也可以用它单独收纳其他装备。模块化的NICE COMM3系统能够应对各种任务。\n这是一件极其稀有的装备，有人为了得到他，在塔科夫四处搜索。",
+      "en": "The NICE Frame special system for carrying oversized or heavy loads with an installed COMM 3 backpack for carrying radio systems. The COMM 3 main bay is designed for PRC117F or G, PRC119F, 152, or ASIP radios. The Hitchhiker and Daypack lid allows you to carry separate gear if needed. The modular NICE COMM 3 system is ready to adapt to changing tasks. An extremely rare thing, for which a real hunt is conducted in Tarkov."
+    },
+    "weight": 15,
+    "width": 4,
+    "height": 5,
+    "rarity": "Not_exist",
+    "backgroundColor": "violet"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "violet",
+      "BlocksArmorVest": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "sso_attack",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 100,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "GridLayoutName": "",
+      "Grids": [
+        {
+          "_id": "628bc7fb408e2b2e9c0801b2",
+          "_name": "main",
+          "_parent": "628bc7fb408e2b2e9c0801b1",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 7,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "566168634bdc2d144c8b456c",
+                  "5795f317245977243854e041"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Height": 5,
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_backpack",
+      "LeanWeaponAgainstBody": false,
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MergesWithChildren": false,
+      "Name": "sso_attack",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/backpack_boss_birdeye/backpack_boss_birdeye.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SearchSound": "looting_body_extended",
+      "ShortName": "sso_attack",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 15,
+      "Width": 4,
+      "mousePenalty": -1,
+      "speedPenaltyPercent": -6,
+      "weaponErgonomicPenalty": -5
+    }
+  },
+  "slots": [],
+  "image": "/images/items/628bc7fb408e2b2e9c0801b1.jpg",
+  "isMod": false
+}

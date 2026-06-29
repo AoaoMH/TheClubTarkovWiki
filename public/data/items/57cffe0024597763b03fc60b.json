@@ -1,1 +1,255 @@
-{"id":"57cffe0024597763b03fc60b","typeName":"Handguard","category":"mod_other","parentTypeChain":["Handguard","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75e486f77447ec5d7712","price":14141},"common":{"name":{"zh":"Magpul MOE AKM/AK护木（黑红色）","en":"AK Magpul MOE AKM handguard (Plum)"},"shortName":{"zh":"MOE AKM","en":"MOE AKM"},"description":{"zh":"Magpul MOE AKM护木可安装在AKM/AK-74兼容武器系统上，配有授权的M-LOK插槽来安装额外的设备或导轨。 ","en":"The Magpul MOE AKM hand guard is installed on AKM/AK-74-compatible weapon systems. It comes equipped with licensed M-LOK mounts for the installation of additional devices or rails. Plum-colored polymer version."},"weight":0.221,"width":1,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.018,"Description":"handguard_ak_magpul_moe_ak_plm","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":10,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.053,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"handguard_ak_magpul_moe_ak_plm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/handguards/handguard_ak_magpul_moe_ak_plm.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":-2,"RepairCost":0,"RepairSpeed":0,"ShortName":"handguard_ak_magpul_moe_ak_plm","SightingRange":0,"Slots":[{"_id":"57cffe9f24597763b31685de","_mergeSlotWithChildren":false,"_name":"mod_mount_003","_parent":"57cffe0024597763b03fc60b","_props":{"filters":[{"Filter":["57cffb66245977632f391a99","57cffcd624597763133760c5","57cffcdd24597763f5110006","57cffce524597763b31685d8","5b7be4895acfc400170e2dd5","651a8bf3a8520e48047bf708","651a8e529829226ceb67c319","665d5d9e338229cfd6078da1","665edce564fb556f940ab32a"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"5b7d243e5acfc4001a5c4014","_mergeSlotWithChildren":false,"_name":"mod_mount_000","_parent":"57cffe0024597763b03fc60b","_props":{"filters":[{"Filter":["5b7be47f5acfc400170e2dd2","6269220d70b6c02e665f2635","669a6a4a525be1d2d004b8eb"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.221,"Width":1},"mod":{"ergonomics":10,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_mount_003","id":"57cffe9f24597763b31685de","required":false,"filter":["57cffb66245977632f391a99","57cffcd624597763133760c5","57cffcdd24597763f5110006","57cffce524597763b31685d8","5b7be4895acfc400170e2dd5","651a8bf3a8520e48047bf708","651a8e529829226ceb67c319","665d5d9e338229cfd6078da1","665edce564fb556f940ab32a"]},{"name":"mod_mount_000","id":"5b7d243e5acfc4001a5c4014","required":false,"filter":["5b7be47f5acfc400170e2dd2","6269220d70b6c02e665f2635","669a6a4a525be1d2d004b8eb"]}],"image":"/images/items/57cffe0024597763b03fc60b.jpg","isMod":false}
+{
+  "id": "57cffe0024597763b03fc60b",
+  "typeName": "Handguard",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Handguard",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75e486f77447ec5d7712",
+    "price": 14141
+  },
+  "common": {
+    "name": {
+      "zh": "Magpul MOE AKM/AK护木（黑红色）",
+      "en": "AK Magpul MOE AKM handguard (Plum)"
+    },
+    "shortName": {
+      "zh": "MOE AKM",
+      "en": "MOE AKM"
+    },
+    "description": {
+      "zh": "Magpul MOE AKM护木可安装在AKM/AK-74兼容武器系统上，配有授权的M-LOK插槽来安装额外的设备或导轨。 ",
+      "en": "The Magpul MOE AKM hand guard is installed on AKM/AK-74-compatible weapon systems. It comes equipped with licensed M-LOK mounts for the installation of additional devices or rails. Plum-colored polymer version."
+    },
+    "weight": 0.313,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.018,
+      "Description": "handguard_ak_magpul_moe_ak_plm",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 10,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.053,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "handguard_ak_magpul_moe_ak_plm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/handguards/handguard_ak_magpul_moe_ak_plm.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": -2,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "handguard_ak_magpul_moe_ak_plm",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "57cffe9f24597763b31685de",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_003",
+          "_parent": "57cffe0024597763b03fc60b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "5b7be4895acfc400170e2dd5",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5b7d243e5acfc4001a5c4014",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "57cffe0024597763b03fc60b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "669a6a4a525be1d2d004b8eb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.221,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "57cffb66245977632f391a99",
+          "name": {
+            "zh": "Magpul M-LOK AFG战术握把",
+            "en": "Magpul M-LOK AFG tactical foregrip (Black)"
+          },
+          "armorClass": 0,
+          "weight": 0.042,
+          "count": 1
+        },
+        {
+          "id": "5b7be47f5acfc400170e2dd2",
+          "name": {
+            "zh": "Magpul M-LOK 2.5英寸导轨",
+            "en": "Magpul M-LOK 2.5 inch rail"
+          },
+          "armorClass": 0,
+          "weight": 0.05,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.313
+    },
+    "mod": {
+      "ergonomics": 10,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_mount_003",
+      "id": "57cffe9f24597763b31685de",
+      "required": false,
+      "filter": [
+        "57cffb66245977632f391a99",
+        "57cffcd624597763133760c5",
+        "57cffcdd24597763f5110006",
+        "57cffce524597763b31685d8",
+        "5b7be4895acfc400170e2dd5",
+        "651a8bf3a8520e48047bf708",
+        "651a8e529829226ceb67c319",
+        "665d5d9e338229cfd6078da1",
+        "665edce564fb556f940ab32a"
+      ]
+    },
+    {
+      "name": "mod_mount_000",
+      "id": "5b7d243e5acfc4001a5c4014",
+      "required": false,
+      "filter": [
+        "5b7be47f5acfc400170e2dd2",
+        "6269220d70b6c02e665f2635",
+        "669a6a4a525be1d2d004b8eb"
+      ]
+    }
+  ],
+  "image": "/images/items/57cffe0024597763b03fc60b.jpg",
+  "isMod": false
+}

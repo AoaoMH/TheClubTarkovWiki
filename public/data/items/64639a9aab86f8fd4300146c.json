@@ -1,1 +1,161 @@
-{"id":"64639a9aab86f8fd4300146c","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":34364},"common":{"name":{"zh":"PKP 7.62x54R 658毫米枪管","en":"PKP 7.62x54R 658mm barrel"},"shortName":{"zh":"PKP 658毫米","en":"PKP 658mm"},"description":{"zh":"PKP \"Pecheneg\"的标准658毫米枪管，带有一个内置的枪口制退器。由V.A. Degtyarev Plant生产。","en":"A standard-issue 658mm barrel for PKP \"Pecheneg\" with a built-in muzzle brake. Manufactured by V.A. Degtyarev Plant."},"weight":3.2,"width":4,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.028,"ConflictingItems":["6492c6dd60fdb10a020621a2"],"CoolFactor":0.88,"Description":"barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm","DeviationCurve":1.35,"DeviationMax":23,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":0.94,"EffectiveDistance":0,"Ergonomics":-8.5,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":2,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.78,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_pkp_zid_std_658mm_762x54r.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-8.5,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm","ShotgunDispersion":1.9,"SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":11,"Weight":3.2,"Width":4},"mod":{"ergonomics":-8.5,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":11,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"6492c6dd60fdb10a020621a2","name":{"zh":"PK Zenit B-50 16毫米顶部基座","en":"PK Zenit B-50 16mm top mount"},"isWikiItem":true}]},"slots":[],"image":"/images/items/64639a9aab86f8fd4300146c.webp","isMod":false}
+{
+  "id": "64639a9aab86f8fd4300146c",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 34364
+  },
+  "common": {
+    "name": {
+      "zh": "PKP 7.62x54R 658毫米枪管",
+      "en": "PKP 7.62x54R 658mm barrel"
+    },
+    "shortName": {
+      "zh": "PKP 658毫米",
+      "en": "PKP 658mm"
+    },
+    "description": {
+      "zh": "PKP \"Pecheneg\"的标准658毫米枪管，带有一个内置的枪口制退器。由V.A. Degtyarev Plant生产。",
+      "en": "A standard-issue 658mm barrel for PKP \"Pecheneg\" with a built-in muzzle brake. Manufactured by V.A. Degtyarev Plant."
+    },
+    "weight": 3.2,
+    "width": 4,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.028,
+      "ConflictingItems": [
+        "6492c6dd60fdb10a020621a2"
+      ],
+      "CoolFactor": 0.88,
+      "Description": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
+      "DeviationCurve": 1.35,
+      "DeviationMax": 23,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 0.94,
+      "EffectiveDistance": 0,
+      "Ergonomics": -8.5,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.78,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_pkp_zid_std_658mm_762x54r.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -8.5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
+      "ShotgunDispersion": 1.9,
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 11,
+      "Weight": 3.2,
+      "Width": 4
+    },
+    "mod": {
+      "ergonomics": -8.5,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 11,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "6492c6dd60fdb10a020621a2",
+        "name": {
+          "zh": "PK Zenit B-50 16毫米顶部基座",
+          "en": "PK Zenit B-50 16mm top mount"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [],
+  "image": "/images/items/64639a9aab86f8fd4300146c.webp",
+  "isMod": false
+}

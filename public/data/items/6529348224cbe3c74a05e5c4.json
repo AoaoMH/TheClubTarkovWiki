@@ -1,1 +1,204 @@
-{"id":"6529348224cbe3c74a05e5c4","typeName":"Stock","category":"mod_stock","parentTypeChain":["Stock","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f757486f774093e6cb507","price":3648},"common":{"name":{"zh":"MCX/MPX枪托锁定铰链套件","en":"SIG Sauer Locking Stock Hinge Assembly"},"shortName":{"zh":"MCX/MPX","en":"SIG LSHA"},"description":{"zh":"适用于SIG步枪和冲锋枪的折叠枪托转换器。","en":"An adapter for installing buffer tubes on 1913 rail interface receivers. Manufactured by SIG Sauer."},"weight":0.2,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"Адаптер для установки трубы под телескопические приклады на АК с нескладными прикладами.","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-2,"ExamineExperience":4,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Foldable":false,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsShoulderContact":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Переходник ME для АК","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/stocks/stock_all_sig_stock_locking_hinge_assembly.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"Retractable":false,"ShortName":"МЕ4","SightingRange":0,"SizeReduceRight":0,"Slots":[{"_id":"6529348224cbe3c74a05e5c5","_mergeSlotWithChildren":false,"_name":"mod_stock","_parent":"6529348224cbe3c74a05e5c4","_props":{"filters":[{"Filter":["6529366450dc782999054ba0"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.2,"Width":1},"mod":{"ergonomics":-2,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_stock","id":"6529348224cbe3c74a05e5c5","required":false,"filter":["6529366450dc782999054ba0"]}],"image":"/images/items/6529348224cbe3c74a05e5c4.webp","isMod":false}
+{
+  "id": "6529348224cbe3c74a05e5c4",
+  "typeName": "Stock",
+  "category": "mod_stock",
+  "parentTypeChain": [
+    "Stock",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f757486f774093e6cb507",
+    "price": 3648
+  },
+  "common": {
+    "name": {
+      "zh": "MCX/MPX枪托锁定铰链套件",
+      "en": "SIG Sauer Locking Stock Hinge Assembly"
+    },
+    "shortName": {
+      "zh": "MCX/MPX",
+      "en": "SIG LSHA"
+    },
+    "description": {
+      "zh": "适用于SIG步枪和冲锋枪的折叠枪托转换器。",
+      "en": "An adapter for installing buffer tubes on 1913 rail interface receivers. Manufactured by SIG Sauer."
+    },
+    "weight": 0.362,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "Адаптер для установки трубы под телескопические приклады на АК с нескладными прикладами.",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -2,
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Foldable": false,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsShoulderContact": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Переходник ME для АК",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/stocks/stock_all_sig_stock_locking_hinge_assembly.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "Retractable": false,
+      "ShortName": "МЕ4",
+      "SightingRange": 0,
+      "SizeReduceRight": 0,
+      "Slots": [
+        {
+          "_id": "6529348224cbe3c74a05e5c5",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "6529348224cbe3c74a05e5c4",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6529366450dc782999054ba0"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.2,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "6529366450dc782999054ba0",
+          "name": {
+            "zh": "MCX/MPX折叠枪托转换器缓冲管（郊狼棕色）",
+            "en": "SIG Sauer Stock Adapter Low Profile Tube (Coyote Tan)"
+          },
+          "armorClass": 0,
+          "weight": 0.162,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.362
+    },
+    "mod": {
+      "ergonomics": -2,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_stock",
+      "id": "6529348224cbe3c74a05e5c5",
+      "required": false,
+      "filter": [
+        "6529366450dc782999054ba0"
+      ]
+    }
+  ],
+  "image": "/images/items/6529348224cbe3c74a05e5c4.webp",
+  "isMod": false
+}

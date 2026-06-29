@@ -1,1 +1,189 @@
-{"id":"5d5d8ca986f7742798716522","typeName":"Vest","category":"vest","parentTypeChain":["Vest","SearchableItem","CompoundItem","Item"],"handbook":{"categoryId":"5b5f6f8786f77447ed563642","price":9600},"common":{"name":{"zh":"SOE微型胸挂","en":"SOE Micro Rig (MultiCam)"},"shortName":{"zh":"微型胸挂","en":"Micro Rig"},"description":{"zh":"额外的轻小型胸挂带有最低数量的必要口袋。","en":"An extra lightweight and small chest rig with the necessary minimum of pouches. Manufactured by SOE Gear."},"weight":0.8,"width":2,"height":3,"rarity":"Common","backgroundColor":"default"},"properties":{"_raw":{"AnimationVariantsNumber":0,"ArmorMaterial":"UHMWPE","ArmorType":"None","BackgroundColor":"default","BlocksArmorVest":false,"BluntThroughput":0,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"Wild Vest","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[{"_id":"5d5d8ca986f7742798716524","_name":"1","_parent":"5d5d8ca986f7742798716522","_props":{"cellsH":2,"cellsV":2,"filters":[{"ExcludedFilter":["5448bf274bdc2dfc2f8b456a"],"Filter":["54009119af1c881c07000029"]}],"isSortingTable":false,"maxCount":0,"maxWeight":0,"minCount":0},"_proto":"55d329c24bdc2d892f8b4567"},{"_id":"5d5d8ca986f7742798716525","_name":"2","_parent":"5d5d8ca986f7742798716522","_props":{"cellsH":1,"cellsV":2,"filters":[{"ExcludedFilter":["5448bf274bdc2dfc2f8b456a"],"Filter":["54009119af1c881c07000029"]}],"isSortingTable":false,"maxCount":0,"maxWeight":0,"minCount":0},"_proto":"55d329c24bdc2d892f8b4567"},{"_id":"5d5d8ca986f7742798716526","_name":"3","_parent":"5d5d8ca986f7742798716522","_props":{"cellsH":1,"cellsV":2,"filters":[{"ExcludedFilter":["5448bf274bdc2dfc2f8b456a"],"Filter":["54009119af1c881c07000029"]}],"isSortingTable":false,"maxCount":0,"maxWeight":0,"minCount":0},"_proto":"55d329c24bdc2d892f8b4567"}],"Height":3,"HideEntrails":true,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_generic","LeftHandItem":false,"LootExperience":30,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"Wild Vest","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/rig_micro_rig_series/item_equipment_rig_micro.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Common","RepairCost":0,"RepairSpeed":0,"RigLayoutName":"Micro","SearchSound":"looting_body_extended","ShortName":"Wild Vest","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":0.8,"Width":2,"armorClass":0,"armorZone":[],"mousePenalty":0,"speedPenaltyPercent":0,"weaponErgonomicPenalty":0}},"slots":[],"image":"/images/items/5d5d8ca986f7742798716522.jpg","isMod":false}
+{
+  "id": "5d5d8ca986f7742798716522",
+  "typeName": "Vest",
+  "category": "vest",
+  "parentTypeChain": [
+    "Vest",
+    "SearchableItem",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f6f8786f77447ed563642",
+    "price": 9600
+  },
+  "common": {
+    "name": {
+      "zh": "SOE微型胸挂",
+      "en": "SOE Micro Rig (MultiCam)"
+    },
+    "shortName": {
+      "zh": "微型胸挂",
+      "en": "Micro Rig"
+    },
+    "description": {
+      "zh": "额外的轻小型胸挂带有最低数量的必要口袋。",
+      "en": "An extra lightweight and small chest rig with the necessary minimum of pouches. Manufactured by SOE Gear."
+    },
+    "weight": 0.8,
+    "width": 2,
+    "height": 3,
+    "rarity": "Common",
+    "backgroundColor": "default"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "ArmorMaterial": "UHMWPE",
+      "ArmorType": "None",
+      "BackgroundColor": "default",
+      "BlocksArmorVest": false,
+      "BluntThroughput": 0,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "Wild Vest",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [
+        {
+          "_id": "5d5d8ca986f7742798716524",
+          "_name": "1",
+          "_parent": "5d5d8ca986f7742798716522",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "5d5d8ca986f7742798716525",
+          "_name": "2",
+          "_parent": "5d5d8ca986f7742798716522",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_id": "5d5d8ca986f7742798716526",
+          "_name": "3",
+          "_parent": "5d5d8ca986f7742798716522",
+          "_props": {
+            "cellsH": 1,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Height": 3,
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_generic",
+      "LeftHandItem": false,
+      "LootExperience": 30,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "Wild Vest",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/rig_micro_rig_series/item_equipment_rig_micro.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Common",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "RigLayoutName": "Micro",
+      "SearchSound": "looting_body_extended",
+      "ShortName": "Wild Vest",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.8,
+      "Width": 2,
+      "armorClass": 0,
+      "armorZone": [],
+      "mousePenalty": 0,
+      "speedPenaltyPercent": 0,
+      "weaponErgonomicPenalty": 0
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5d5d8ca986f7742798716522.jpg",
+  "isMod": false
+}

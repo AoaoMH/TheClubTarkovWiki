@@ -1,1 +1,249 @@
-{"id":"5894a2c386f77427140b8342","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":6574},"common":{"name":{"zh":"203毫米MPX枪管 9x19","en":"MPX 9x19 8 inch barrel"},"shortName":{"zh":"203毫米 MPX 9x19","en":"MPX 8\""},"description":{"zh":"MPX系列武器用203mm长枪管，适用于9x19弹药。 ","en":"An 8 inch (203mm) barrel for MPX-based weapons chambered for 9x19 ammunition."},"weight":0.25,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.15,"ConflictingItems":["5c59529a2e221602b177d160","5c5db6302e2216000e5e47f0","5c5db63a2e2216000f1b284a"],"CoolFactor":1.06,"Description":"barrel_mpx_203mm","DeviationCurve":2.5,"DeviationMax":10,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-6,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":2,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.03,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_mpx_203mm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_mpx_203mm_9x19.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-3,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_mpx_203mm","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"5894a35e86f77426d4485312","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"5894a2c386f77427140b8342","_props":{"filters":[{"Filter":["5cf6935bd7f00c06585fb791","5b3a16655acfc40016387a2a","58949dea86f77409483e16a8","59bffc1f86f77435b128b872","5c7e8fab2e22165df16b889b","5a9fb739a2750c003215717f","5c6165902e22160010261b28","5a32a064c4a28200741e22de"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":-12.31,"Weight":0.25,"Width":2},"mod":{"ergonomics":-6,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":-12.31,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"5c59529a2e221602b177d160","name":{"zh":"Lancer OEM M-LOK 14英寸MPX护木","en":"MPX Lancer OEM 14 inch M-LOK handguard"},"isWikiItem":true},{"id":"5c5db6302e2216000e5e47f0","name":{"zh":"Midwest 10.5英寸MPX M-LOK护木","en":"MPX Midwest Industries 10.5 inch M-LOK handguard"},"isWikiItem":true},{"id":"5c5db63a2e2216000f1b284a","name":{"zh":"Midwest 14英寸MPX M-LOK护木","en":"MPX Midwest Industries 14 inch M-LOK handguard"},"isWikiItem":true}]},"slots":[{"name":"mod_muzzle","id":"5894a35e86f77426d4485312","required":false,"filter":["5cf6935bd7f00c06585fb791","5b3a16655acfc40016387a2a","58949dea86f77409483e16a8","59bffc1f86f77435b128b872","5c7e8fab2e22165df16b889b","5a9fb739a2750c003215717f","5c6165902e22160010261b28","5a32a064c4a28200741e22de"]}],"image":"/images/items/5894a2c386f77427140b8342.jpg","isMod":false}
+{
+  "id": "5894a2c386f77427140b8342",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 6574
+  },
+  "common": {
+    "name": {
+      "zh": "203毫米MPX枪管 9x19",
+      "en": "MPX 9x19 8 inch barrel"
+    },
+    "shortName": {
+      "zh": "203毫米 MPX 9x19",
+      "en": "MPX 8\""
+    },
+    "description": {
+      "zh": "MPX系列武器用203mm长枪管，适用于9x19弹药。 ",
+      "en": "An 8 inch (203mm) barrel for MPX-based weapons chambered for 9x19 ammunition."
+    },
+    "weight": 0.329,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.15,
+      "ConflictingItems": [
+        "5c59529a2e221602b177d160",
+        "5c5db6302e2216000e5e47f0",
+        "5c5db63a2e2216000f1b284a"
+      ],
+      "CoolFactor": 1.06,
+      "Description": "barrel_mpx_203mm",
+      "DeviationCurve": 2.5,
+      "DeviationMax": 10,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -6,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.03,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_mpx_203mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_mpx_203mm_9x19.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -3,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_mpx_203mm",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5894a35e86f77426d4485312",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "5894a2c386f77427140b8342",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cf6935bd7f00c06585fb791",
+                  "5b3a16655acfc40016387a2a",
+                  "58949dea86f77409483e16a8",
+                  "59bffc1f86f77435b128b872",
+                  "5c7e8fab2e22165df16b889b",
+                  "5a9fb739a2750c003215717f",
+                  "5c6165902e22160010261b28",
+                  "5a32a064c4a28200741e22de"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": -12.31,
+      "Weight": 0.25,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5cf6935bd7f00c06585fb791",
+          "name": {
+            "zh": "TACCOM Carbine Brake 9x19制退器",
+            "en": "TACCOM Carbine Brake 9x19 muzzle brake"
+          },
+          "armorClass": 0,
+          "weight": 0.079,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.329
+    },
+    "mod": {
+      "ergonomics": -6,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": -12.31,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "5c59529a2e221602b177d160",
+        "name": {
+          "zh": "Lancer OEM M-LOK 14英寸MPX护木",
+          "en": "MPX Lancer OEM 14 inch M-LOK handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5c5db6302e2216000e5e47f0",
+        "name": {
+          "zh": "Midwest 10.5英寸MPX M-LOK护木",
+          "en": "MPX Midwest Industries 10.5 inch M-LOK handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5c5db63a2e2216000f1b284a",
+        "name": {
+          "zh": "Midwest 14英寸MPX M-LOK护木",
+          "en": "MPX Midwest Industries 14 inch M-LOK handguard"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "5894a35e86f77426d4485312",
+      "required": false,
+      "filter": [
+        "5cf6935bd7f00c06585fb791",
+        "5b3a16655acfc40016387a2a",
+        "58949dea86f77409483e16a8",
+        "59bffc1f86f77435b128b872",
+        "5c7e8fab2e22165df16b889b",
+        "5a9fb739a2750c003215717f",
+        "5c6165902e22160010261b28",
+        "5a32a064c4a28200741e22de"
+      ]
+    }
+  ],
+  "image": "/images/items/5894a2c386f77427140b8342.jpg",
+  "isMod": false
+}

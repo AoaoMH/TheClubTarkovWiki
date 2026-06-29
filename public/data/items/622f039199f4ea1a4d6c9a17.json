@@ -1,1 +1,155 @@
-{"id":"622f039199f4ea1a4d6c9a17","typeName":"Mount","category":"mod_mount","parentTypeChain":["Mount","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f755f86f77447ec5d770e","price":1500},"common":{"name":{"zh":"HK G36 STANAG 弹匣井","en":"HK G36 STANAG magwell"},"shortName":{"zh":"G36 NATO","en":"G36 NATO"},"description":{"zh":"HK 公司制造的 STANAG 规格弹匣井，可装配任意军规 STANAG 5.56x45 毫米弹匣。","en":"A STANAG magwell for the G36 assault rifle, manufactured by Heckler & Koch."},"weight":0.02,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["62307b7b10d2321fa8741921"],"CoolFactor":1,"Description":"mount_acog_trijicon_rm35","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":5,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":1,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":true,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mount_acog_trijicon_rm35","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/mounts/mount_g36_hk_magwell_ar15_conversion.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"mount_acog_trijicon_rm35","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.02,"Width":1},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"62307b7b10d2321fa8741921","name":{"zh":"HK G36 5.56x45 30发容量弹匣","en":"HK G36 5.56x45 30-round magazine"},"isWikiItem":true}]},"slots":[],"image":"/images/items/622f039199f4ea1a4d6c9a17.jpg","isMod":false}
+{
+  "id": "622f039199f4ea1a4d6c9a17",
+  "typeName": "Mount",
+  "category": "mod_mount",
+  "parentTypeChain": [
+    "Mount",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f755f86f77447ec5d770e",
+    "price": 1500
+  },
+  "common": {
+    "name": {
+      "zh": "HK G36 STANAG 弹匣井",
+      "en": "HK G36 STANAG magwell"
+    },
+    "shortName": {
+      "zh": "G36 NATO",
+      "en": "G36 NATO"
+    },
+    "description": {
+      "zh": "HK 公司制造的 STANAG 规格弹匣井，可装配任意军规 STANAG 5.56x45 毫米弹匣。",
+      "en": "A STANAG magwell for the G36 assault rifle, manufactured by Heckler & Koch."
+    },
+    "weight": 0.02,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "62307b7b10d2321fa8741921"
+      ],
+      "CoolFactor": 1,
+      "Description": "mount_acog_trijicon_rm35",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 1,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": true,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mount_acog_trijicon_rm35",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/mounts/mount_g36_hk_magwell_ar15_conversion.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mount_acog_trijicon_rm35",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.02,
+      "Width": 1
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "62307b7b10d2321fa8741921",
+        "name": {
+          "zh": "HK G36 5.56x45 30发容量弹匣",
+          "en": "HK G36 5.56x45 30-round magazine"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [],
+  "image": "/images/items/622f039199f4ea1a4d6c9a17.jpg",
+  "isMod": false
+}

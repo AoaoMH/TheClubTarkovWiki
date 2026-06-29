@@ -1,1 +1,311 @@
-{"id":"5894a42086f77426d2590762","typeName":"Handguard","category":"mod_other","parentTypeChain":["Handguard","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75e486f77447ec5d7712","price":7311},"common":{"name":{"zh":"SIG MPX Gen. 1 MPX护木","en":"MPX GEN1 6 inch handguard"},"shortName":{"zh":"MPX Gen. 1","en":"MPX GEN1 6\""},"description":{"zh":"第一代SIG MPX护木。","en":"A 6 inch handguard for the first generation of the SIG Sauer MPX SMG."},"weight":0.302,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.016,"Description":"handguard_mpx_sig_mpx_gen1_handguard","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":7,"ExamineExperience":5,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.976,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"handguard_mpx_sig_mpx_gen1_handguard","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/handguards/handguard_mpx_sig_mpx_gen1_handguard.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-1,"RepairCost":0,"RepairSpeed":0,"ShortName":"handguard_mpx_sig_mpx_gen1_handguard","SightingRange":0,"Slots":[{"_id":"5894a4b386f77427140b8345","_mergeSlotWithChildren":false,"_name":"mod_sight_front","_parent":"5894a42086f77426d2590762","_props":{"filters":[{"Filter":["5ba26b01d4351e0085325a51","5dfa3d950dee1b22f862eae0","5c17804b2e2216152006c02f","5fb6567747ce63734e3fa1dc","5bc09a30d4351e00367fb7c8","5c18b90d2e2216152142466b","5fc0fa362770a0045c59c677","5894a73486f77426d259076c"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"58a5760886f77470e446628a","_mergeSlotWithChildren":false,"_name":"mod_mount_000","_parent":"5894a42086f77426d2590762","_props":{"filters":[{"Filter":["58a56f8d86f774651579314c"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"58a5761486f7746f8a5389ed","_mergeSlotWithChildren":false,"_name":"mod_mount_001","_parent":"5894a42086f77426d2590762","_props":{"filters":[{"Filter":["58a5c12e86f7745d585a2b9e"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"58d9119686f774372438568c","_mergeSlotWithChildren":false,"_name":"mod_mount_002","_parent":"5894a42086f77426d2590762","_props":{"filters":[{"Filter":["58a56f8d86f774651579314c"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.302,"Width":2},"mod":{"ergonomics":7,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_sight_front","id":"5894a4b386f77427140b8345","required":false,"filter":["5ba26b01d4351e0085325a51","5dfa3d950dee1b22f862eae0","5c17804b2e2216152006c02f","5fb6567747ce63734e3fa1dc","5bc09a30d4351e00367fb7c8","5c18b90d2e2216152142466b","5fc0fa362770a0045c59c677","5894a73486f77426d259076c"]},{"name":"mod_mount_000","id":"58a5760886f77470e446628a","required":false,"filter":["58a56f8d86f774651579314c"]},{"name":"mod_mount_001","id":"58a5761486f7746f8a5389ed","required":false,"filter":["58a5c12e86f7745d585a2b9e"]},{"name":"mod_mount_002","id":"58d9119686f774372438568c","required":false,"filter":["58a56f8d86f774651579314c"]}],"image":"/images/items/5894a42086f77426d2590762.jpg","isMod":false}
+{
+  "id": "5894a42086f77426d2590762",
+  "typeName": "Handguard",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Handguard",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75e486f77447ec5d7712",
+    "price": 7311
+  },
+  "common": {
+    "name": {
+      "zh": "SIG MPX Gen. 1 MPX护木",
+      "en": "MPX GEN1 6 inch handguard"
+    },
+    "shortName": {
+      "zh": "MPX Gen. 1",
+      "en": "MPX GEN1 6\""
+    },
+    "description": {
+      "zh": "第一代SIG MPX护木。",
+      "en": "A 6 inch handguard for the first generation of the SIG Sauer MPX SMG."
+    },
+    "weight": 0.622,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.016,
+      "Description": "handguard_mpx_sig_mpx_gen1_handguard",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 7,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.976,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "handguard_mpx_sig_mpx_gen1_handguard",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/handguards/handguard_mpx_sig_mpx_gen1_handguard.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -1,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "handguard_mpx_sig_mpx_gen1_handguard",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5894a4b386f77427140b8345",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "5894a42086f77426d2590762",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ba26b01d4351e0085325a51",
+                  "5dfa3d950dee1b22f862eae0",
+                  "5c17804b2e2216152006c02f",
+                  "5fb6567747ce63734e3fa1dc",
+                  "5bc09a30d4351e00367fb7c8",
+                  "5c18b90d2e2216152142466b",
+                  "5fc0fa362770a0045c59c677",
+                  "5894a73486f77426d259076c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "58a5760886f77470e446628a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "5894a42086f77426d2590762",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58a56f8d86f774651579314c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "58a5761486f7746f8a5389ed",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "5894a42086f77426d2590762",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58a5c12e86f7745d585a2b9e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "58d9119686f774372438568c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "5894a42086f77426d2590762",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58a56f8d86f774651579314c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.302,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5ba26b01d4351e0085325a51",
+          "name": {
+            "zh": "MP7可折叠准星",
+            "en": "HK MP7 flip-up front sight"
+          },
+          "armorClass": 0,
+          "weight": 0.13,
+          "count": 1
+        },
+        {
+          "id": "58a56f8d86f774651579314c",
+          "name": {
+            "zh": "SIG MPX Gen1护木2英寸导轨适配器",
+            "en": "MPX GEN1 handguard 2 inch rail"
+          },
+          "armorClass": 0,
+          "weight": 0.07,
+          "count": 2
+        },
+        {
+          "id": "58a5c12e86f7745d585a2b9e",
+          "name": {
+            "zh": "SIG MPX Gen1护木4英寸导轨适配器",
+            "en": "MPX GEN1 handguard 4 inch rail"
+          },
+          "armorClass": 0,
+          "weight": 0.05,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.622
+    },
+    "mod": {
+      "ergonomics": 7,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_sight_front",
+      "id": "5894a4b386f77427140b8345",
+      "required": false,
+      "filter": [
+        "5ba26b01d4351e0085325a51",
+        "5dfa3d950dee1b22f862eae0",
+        "5c17804b2e2216152006c02f",
+        "5fb6567747ce63734e3fa1dc",
+        "5bc09a30d4351e00367fb7c8",
+        "5c18b90d2e2216152142466b",
+        "5fc0fa362770a0045c59c677",
+        "5894a73486f77426d259076c"
+      ]
+    },
+    {
+      "name": "mod_mount_000",
+      "id": "58a5760886f77470e446628a",
+      "required": false,
+      "filter": [
+        "58a56f8d86f774651579314c"
+      ]
+    },
+    {
+      "name": "mod_mount_001",
+      "id": "58a5761486f7746f8a5389ed",
+      "required": false,
+      "filter": [
+        "58a5c12e86f7745d585a2b9e"
+      ]
+    },
+    {
+      "name": "mod_mount_002",
+      "id": "58d9119686f774372438568c",
+      "required": false,
+      "filter": [
+        "58a56f8d86f774651579314c"
+      ]
+    }
+  ],
+  "image": "/images/items/5894a42086f77426d2590762.jpg",
+  "isMod": false
+}

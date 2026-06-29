@@ -190,8 +190,17 @@ export interface AmmoBoxProps {
   count: number
 }
 
+export interface DefaultPlate {
+  id: string
+  name: { zh: string; en: string }
+  armorClass: number
+  weight: number
+  count: number
+}
+
 export interface ArmorProps {
   armorClass: number
+  baseArmorClass: number
   durability: number
   maxDurability: number
   material: string
@@ -201,6 +210,11 @@ export interface ArmorProps {
   bluntThroughput: number
   armorType: string
   mousePenalty: number
+  // Plate carrier fields
+  defaultPlates: DefaultPlate[]
+  defaultPlateClass: number
+  plateZones: string[]
+  totalWeight: number
 }
 
 export interface MedicalProps {

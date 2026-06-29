@@ -1,1 +1,300 @@
-{"id":"5bfd4cd60db834001c38f095","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":7350},"common":{"name":{"zh":"220毫米莫辛锯短枪管","en":"Mosin Rifle 7.62x54R sawed-off 220mm threaded barrel"},"shortName":{"zh":"220毫米莫辛枪管","en":"Mosin 220mm"},"description":{"zh":"莫辛步枪的锯短式220毫米枪管。","en":"A sawed-off 220mm barrel for the Mosin rifle."},"weight":0.9,"width":2,"height":1,"rarity":"Superrare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.19,"ConflictingItems":["5bbdb870d4351e00367fb67d","5bfd37c80db834001d23e842","5bfd384c0db834001a6691d3","5bfd35380db83400232fe5cc","5ae096d95acfc400185c2c81","5bae13bad4351e00320204af"],"CoolFactor":0.98,"Description":"barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm","DeviationCurve":1.35,"DeviationMax":23,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":0.84,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.92,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_mosin_izhmash_mosin_custom_threaded_sawn_off_220mm.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Superrare","Recoil":-1,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm","ShotgunDispersion":1.9,"SightingRange":0,"Slots":[{"_id":"5bfd4cd60db834001c38f099","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"5bfd4cd60db834001c38f095","_props":{"filters":[{"Filter":["59bffc1f86f77435b128b872"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"5bfd59dc0db834001d23e8e7","_mergeSlotWithChildren":false,"_name":"mod_sight_rear","_parent":"5bfd4cd60db834001c38f095","_props":{"filters":[{"Filter":["5bfd4c980db834001b73449d","5bbdb811d4351e45020113c7"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":-2,"Weight":0.9,"Width":2},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":-2,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"5bbdb870d4351e00367fb67d","name":{"zh":"ATI Monte Carlo莫辛步枪枪托","en":"Mosin Rifle ATI Monte Carlo stock"},"isWikiItem":true},{"id":"5bfd37c80db834001d23e842","name":{"zh":"莫辛步枪狙击型卡宾枪托","en":"Mosin Rifle sniper carbine stock"},"isWikiItem":true},{"id":"5bfd384c0db834001a6691d3","name":{"zh":"莫辛卡宾式枪托","en":"Mosin Rifle carbine stock"},"isWikiItem":true},{"id":"5bfd35380db83400232fe5cc","name":{"zh":"步兵式莫辛步枪枪托","en":"Mosin Rifle Infantry stock"},"isWikiItem":true},{"id":"5ae096d95acfc400185c2c81","name":{"zh":"莫辛步枪标准枪托","en":"Mosin Rifle standard stock"},"isWikiItem":true},{"id":"5bae13bad4351e00320204af","name":{"zh":"ProMag Archangel OPFOR PRS莫辛步枪枪托","en":"Mosin Rifle ProMag Archangel OPFOR PRS chassis"},"isWikiItem":true}]},"slots":[{"name":"mod_muzzle","id":"5bfd4cd60db834001c38f099","required":false,"filter":["59bffc1f86f77435b128b872"]},{"name":"mod_sight_rear","id":"5bfd59dc0db834001d23e8e7","required":false,"filter":["5bfd4c980db834001b73449d","5bbdb811d4351e45020113c7"]}],"image":"/images/items/5bfd4cd60db834001c38f095.jpg","isMod":false}
+{
+  "id": "5bfd4cd60db834001c38f095",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 7350
+  },
+  "common": {
+    "name": {
+      "zh": "220毫米莫辛锯短枪管",
+      "en": "Mosin Rifle 7.62x54R sawed-off 220mm threaded barrel"
+    },
+    "shortName": {
+      "zh": "220毫米莫辛枪管",
+      "en": "Mosin 220mm"
+    },
+    "description": {
+      "zh": "莫辛步枪的锯短式220毫米枪管。",
+      "en": "A sawed-off 220mm barrel for the Mosin rifle."
+    },
+    "weight": 1.19,
+    "width": 2,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.19,
+      "ConflictingItems": [
+        "5bbdb870d4351e00367fb67d",
+        "5bfd37c80db834001d23e842",
+        "5bfd384c0db834001a6691d3",
+        "5bfd35380db83400232fe5cc",
+        "5ae096d95acfc400185c2c81",
+        "5bae13bad4351e00320204af"
+      ],
+      "CoolFactor": 0.98,
+      "Description": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
+      "DeviationCurve": 1.35,
+      "DeviationMax": 23,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 0.84,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.92,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_mosin_izhmash_mosin_custom_threaded_sawn_off_220mm.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Superrare",
+      "Recoil": -1,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
+      "ShotgunDispersion": 1.9,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5bfd4cd60db834001c38f099",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "5bfd4cd60db834001c38f095",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59bffc1f86f77435b128b872"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5bfd59dc0db834001d23e8e7",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "5bfd4cd60db834001c38f095",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bfd4c980db834001b73449d",
+                  "5bbdb811d4351e45020113c7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": -2,
+      "Weight": 0.9,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "59bffc1f86f77435b128b872",
+          "name": {
+            "zh": "Silencerco Hybrid 46直接螺纹转接器",
+            "en": "SilencerCo Hybrid 46 Direct Thread Mount adapter"
+          },
+          "armorClass": 0,
+          "weight": 0.14,
+          "count": 1
+        },
+        {
+          "id": "5bfd4c980db834001b73449d",
+          "name": {
+            "zh": "莫辛卡宾枪照门",
+            "en": "Mosin Rifle carbine rear sight"
+          },
+          "armorClass": 0,
+          "weight": 0.15,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.19
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": -2,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "5bbdb870d4351e00367fb67d",
+        "name": {
+          "zh": "ATI Monte Carlo莫辛步枪枪托",
+          "en": "Mosin Rifle ATI Monte Carlo stock"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5bfd37c80db834001d23e842",
+        "name": {
+          "zh": "莫辛步枪狙击型卡宾枪托",
+          "en": "Mosin Rifle sniper carbine stock"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5bfd384c0db834001a6691d3",
+        "name": {
+          "zh": "莫辛卡宾式枪托",
+          "en": "Mosin Rifle carbine stock"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5bfd35380db83400232fe5cc",
+        "name": {
+          "zh": "步兵式莫辛步枪枪托",
+          "en": "Mosin Rifle Infantry stock"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5ae096d95acfc400185c2c81",
+        "name": {
+          "zh": "莫辛步枪标准枪托",
+          "en": "Mosin Rifle standard stock"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5bae13bad4351e00320204af",
+        "name": {
+          "zh": "ProMag Archangel OPFOR PRS莫辛步枪枪托",
+          "en": "Mosin Rifle ProMag Archangel OPFOR PRS chassis"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "5bfd4cd60db834001c38f099",
+      "required": false,
+      "filter": [
+        "59bffc1f86f77435b128b872"
+      ]
+    },
+    {
+      "name": "mod_sight_rear",
+      "id": "5bfd59dc0db834001d23e8e7",
+      "required": false,
+      "filter": [
+        "5bfd4c980db834001b73449d",
+        "5bbdb811d4351e45020113c7"
+      ]
+    }
+  ],
+  "image": "/images/items/5bfd4cd60db834001c38f095.jpg",
+  "isMod": false
+}

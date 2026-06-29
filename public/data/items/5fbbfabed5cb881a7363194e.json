@@ -1,1 +1,237 @@
-{"id":"5fbbfabed5cb881a7363194e","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":16118},"common":{"name":{"zh":"171毫米 MCX兼容枪管 .300 BLK","en":"MCX .300 BLK 6.75 inch barrel"},"shortName":{"zh":"171毫米 MCX .300 BLK","en":"MCX 6.75\""},"description":{"zh":"适用于MCX系列武器发射 .300 BLK弹的枪管，171毫米长。","en":"A 6.75 inch (171mm) barrel for MCX-based weapons, chambered in .300 BLK."},"weight":0.409,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.095,"ConflictingItems":[],"CoolFactor":1.09,"Description":".300 BLKbarrel_mcx_171mm_762x35","DeviationCurve":1.7,"DeviationMax":16.5,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":0.93,"EffectiveDistance":0,"Ergonomics":-4,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":true,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.06,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":".300 BLKbarrel_mcx_171mm_762x35","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_mcx_171mm_762x35.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-3,"RepairCost":0,"RepairSpeed":0,"ShortName":".300 BLKbarrel_mcx_171mm_762x35","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"5fbbfabed5cb881a73631950","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"5fbbfabed5cb881a7363194e","_props":{"filters":[{"Filter":["5c7954d52e221600106f4cc7","5fbc22ccf24b94483f726483","59bffc1f86f77435b128b872","5fbe7618d6fa9c00c571bb6c"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"5fbbfabed5cb881a73631951","_mergeSlotWithChildren":false,"_name":"mod_gas_block","_parent":"5fbbfabed5cb881a7363194e","_props":{"filters":[{"Filter":["5fbc210bf24b94483f726481"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":-16.31,"Weight":0.409,"Width":2},"mod":{"ergonomics":-4,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":-16.31,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"5fbbfabed5cb881a73631950","required":false,"filter":["5c7954d52e221600106f4cc7","5fbc22ccf24b94483f726483","59bffc1f86f77435b128b872","5fbe7618d6fa9c00c571bb6c"]},{"name":"mod_gas_block","id":"5fbbfabed5cb881a73631951","required":true,"filter":["5fbc210bf24b94483f726481"]}],"image":"/images/items/5fbbfabed5cb881a7363194e.jpg","isMod":false}
+{
+  "id": "5fbbfabed5cb881a7363194e",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 16118
+  },
+  "common": {
+    "name": {
+      "zh": "171毫米 MCX兼容枪管 .300 BLK",
+      "en": "MCX .300 BLK 6.75 inch barrel"
+    },
+    "shortName": {
+      "zh": "171毫米 MCX .300 BLK",
+      "en": "MCX 6.75\""
+    },
+    "description": {
+      "zh": "适用于MCX系列武器发射 .300 BLK弹的枪管，171毫米长。",
+      "en": "A 6.75 inch (171mm) barrel for MCX-based weapons, chambered in .300 BLK."
+    },
+    "weight": 0.519,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.095,
+      "ConflictingItems": [],
+      "CoolFactor": 1.09,
+      "Description": ".300 BLKbarrel_mcx_171mm_762x35",
+      "DeviationCurve": 1.7,
+      "DeviationMax": 16.5,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 0.93,
+      "EffectiveDistance": 0,
+      "Ergonomics": -4,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": true,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.06,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": ".300 BLKbarrel_mcx_171mm_762x35",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_mcx_171mm_762x35.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -3,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": ".300 BLKbarrel_mcx_171mm_762x35",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5fbbfabed5cb881a73631950",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "5fbbfabed5cb881a7363194e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c7954d52e221600106f4cc7",
+                  "5fbc22ccf24b94483f726483",
+                  "59bffc1f86f77435b128b872",
+                  "5fbe7618d6fa9c00c571bb6c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5fbbfabed5cb881a73631951",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "5fbbfabed5cb881a7363194e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fbc210bf24b94483f726481"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": -16.31,
+      "Weight": 0.409,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5c7954d52e221600106f4cc7",
+          "name": {
+            "zh": "Gemtech One直接螺纹安装转接器",
+            "en": "Gemtech ONE Direct Thread Mount adapter"
+          },
+          "armorClass": 0,
+          "weight": 0.11,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.519
+    },
+    "mod": {
+      "ergonomics": -4,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": -16.31,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "5fbbfabed5cb881a73631950",
+      "required": false,
+      "filter": [
+        "5c7954d52e221600106f4cc7",
+        "5fbc22ccf24b94483f726483",
+        "59bffc1f86f77435b128b872",
+        "5fbe7618d6fa9c00c571bb6c"
+      ]
+    },
+    {
+      "name": "mod_gas_block",
+      "id": "5fbbfabed5cb881a73631951",
+      "required": true,
+      "filter": [
+        "5fbc210bf24b94483f726481"
+      ]
+    }
+  ],
+  "image": "/images/items/5fbbfabed5cb881a7363194e.jpg",
+  "isMod": false
+}

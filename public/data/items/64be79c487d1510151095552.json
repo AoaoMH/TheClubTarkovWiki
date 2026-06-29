@@ -1,1 +1,223 @@
-{"id":"64be79c487d1510151095552","typeName":"Armor","category":"armor","parentTypeChain":["Armor","ArmoredEquipment","Equipment","CompoundItem","Item"],"handbook":{"categoryId":"5b5f701386f774093f2ecf0f","price":2162},"common":{"name":{"zh":"NPP KlASS Kora-Kulon防弹衣","en":"NPP KlASS Kora-Kulon body armor (Black)"},"shortName":{"zh":"Kora-Kulon","en":"Kora-Kulon"},"description":{"zh":"Kora-Kulon防弹衣是一款适合长期穿着的防弹衣，适用于内务部和国防部人员的所有行动。这款防弹衣的设计使得它可以作为外套的打底，保护穿戴者抵御枪械和刀具的攻击。黑色版本。","en":"The Kora-Kulon bulletproof vest is a means of individual armor protection of long-term wear, allowing to perform all types of professional activities of the personnel of the Ministry of Internal Affairs and Ministry of Defense units. The design of the bulletproof vest allows its use in concealed operation under outer clothing. Designed to protect the wearer from firearms and sharp weapons. Black version."},"weight":11.1,"width":3,"height":3,"rarity":"Common","backgroundColor":"blue"},"properties":{"_raw":{"AnimationVariantsNumber":0,"ArmorMaterial":"ArmoredSteel","ArmorType":"Light","BackgroundColor":"blue","BlindnessProtection":0,"BlocksEarpiece":false,"BlocksEyewear":false,"BlocksFaceCover":false,"BlocksHeadwear":false,"BluntThroughput":0.298,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"DeafStrength":"None","Description":"kirasa","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","Durability":0,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"FaceShieldComponent":false,"FaceShieldMask":"NoMask","ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasHinge":false,"Height":3,"HideEntrails":false,"Indestructibility":0.9,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_armor","LeftHandItem":false,"LootExperience":45,"MaterialType":"BodyArmor","MaxDurability":0,"MergesWithChildren":false,"MetascoreGroup":"Defence","Name":"kirasa","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/armor_kora_kulon/item_equipment_armor_kora_kulon_black.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Common","RepairCost":143,"RepairSpeed":8,"RicochetParams":{"x":0,"y":0,"z":80},"ShortName":"kirasa","Slots":[{"_id":"65704cb64f41c410d004edb9","_mergeSlotWithChildren":true,"_name":"Soft_armor_front","_parent":"64be79c487d1510151095552","_props":{"filters":[{"Filter":["6570495b45d573133d0d6adb"],"Plate":"6570495b45d573133d0d6adb","armorColliders":["RibcageLow","RibcageUp"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_proto":"64479fdf9731c8fadc0642c1","_required":true},{"_id":"65704cb64f41c410d004edba","_mergeSlotWithChildren":true,"_name":"Soft_armor_back","_parent":"64be79c487d1510151095552","_props":{"filters":[{"Filter":["657049d23425b19bbc0502f0"],"Plate":"657049d23425b19bbc0502f0","armorColliders":["SpineTop","SpineDown"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_proto":"64479fdf9731c8fadc0642c1","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":11.1,"Width":3,"armorClass":"0","armorColliders":[],"armorPlateColliders":[],"mousePenalty":-1,"speedPenaltyPercent":-1,"weaponErgonomicPenalty":-1},"armor":{"armorClass":0,"durability":0,"maxDurability":0,"material":"ArmoredSteel","zones":[],"speedPenalty":0,"ergonomicsPenalty":0,"bluntThroughput":0.298,"armorType":"Light","mousePenalty":-1}},"slots":[{"name":"Soft_armor_front","id":"65704cb64f41c410d004edb9","required":true,"filter":["6570495b45d573133d0d6adb"]},{"name":"Soft_armor_back","id":"65704cb64f41c410d004edba","required":true,"filter":["657049d23425b19bbc0502f0"]}],"image":"/images/items/64be79c487d1510151095552.webp","isMod":false}
+{
+  "id": "64be79c487d1510151095552",
+  "typeName": "Armor",
+  "category": "armor",
+  "parentTypeChain": [
+    "Armor",
+    "ArmoredEquipment",
+    "Equipment",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f701386f774093f2ecf0f",
+    "price": 2162
+  },
+  "common": {
+    "name": {
+      "zh": "NPP KlASS Kora-Kulon防弹衣",
+      "en": "NPP KlASS Kora-Kulon body armor (Black)"
+    },
+    "shortName": {
+      "zh": "Kora-Kulon",
+      "en": "Kora-Kulon"
+    },
+    "description": {
+      "zh": "Kora-Kulon防弹衣是一款适合长期穿着的防弹衣，适用于内务部和国防部人员的所有行动。这款防弹衣的设计使得它可以作为外套的打底，保护穿戴者抵御枪械和刀具的攻击。黑色版本。",
+      "en": "The Kora-Kulon bulletproof vest is a means of individual armor protection of long-term wear, allowing to perform all types of professional activities of the personnel of the Ministry of Internal Affairs and Ministry of Defense units. The design of the bulletproof vest allows its use in concealed operation under outer clothing. Designed to protect the wearer from firearms and sharp weapons. Black version."
+    },
+    "weight": 11.1,
+    "width": 3,
+    "height": 3,
+    "rarity": "Common",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "ArmorMaterial": "ArmoredSteel",
+      "ArmorType": "Light",
+      "BackgroundColor": "blue",
+      "BlindnessProtection": 0,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksFaceCover": false,
+      "BlocksHeadwear": false,
+      "BluntThroughput": 0.298,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "DeafStrength": "None",
+      "Description": "kirasa",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "Durability": 0,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasHinge": false,
+      "Height": 3,
+      "HideEntrails": false,
+      "Indestructibility": 0.9,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_armor",
+      "LeftHandItem": false,
+      "LootExperience": 45,
+      "MaterialType": "BodyArmor",
+      "MaxDurability": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Defence",
+      "Name": "kirasa",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/armor_kora_kulon/item_equipment_armor_kora_kulon_black.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Common",
+      "RepairCost": 143,
+      "RepairSpeed": 8,
+      "RicochetParams": {
+        "x": 0,
+        "y": 0,
+        "z": 80
+      },
+      "ShortName": "kirasa",
+      "Slots": [
+        {
+          "_id": "65704cb64f41c410d004edb9",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "64be79c487d1510151095552",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6570495b45d573133d0d6adb"
+                ],
+                "Plate": "6570495b45d573133d0d6adb",
+                "armorColliders": [
+                  "RibcageLow",
+                  "RibcageUp"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "65704cb64f41c410d004edba",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "64be79c487d1510151095552",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657049d23425b19bbc0502f0"
+                ],
+                "Plate": "657049d23425b19bbc0502f0",
+                "armorColliders": [
+                  "SpineTop",
+                  "SpineDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 11.1,
+      "Width": 3,
+      "armorClass": "0",
+      "armorColliders": [],
+      "armorPlateColliders": [],
+      "mousePenalty": -1,
+      "speedPenaltyPercent": -1,
+      "weaponErgonomicPenalty": -1
+    },
+    "armor": {
+      "armorClass": 3,
+      "baseArmorClass": 3,
+      "durability": 64,
+      "maxDurability": 64,
+      "material": "ArmoredSteel",
+      "zones": [
+        "RibcageUp",
+        "RibcageLow",
+        "SpineTop",
+        "SpineDown"
+      ],
+      "speedPenalty": -1,
+      "ergonomicsPenalty": -1,
+      "bluntThroughput": 0.298,
+      "armorType": "Light",
+      "mousePenalty": -1,
+      "defaultPlates": [],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 11.1
+    }
+  },
+  "slots": [
+    {
+      "name": "Soft_armor_front",
+      "id": "65704cb64f41c410d004edb9",
+      "required": true,
+      "filter": [
+        "6570495b45d573133d0d6adb"
+      ]
+    },
+    {
+      "name": "Soft_armor_back",
+      "id": "65704cb64f41c410d004edba",
+      "required": true,
+      "filter": [
+        "657049d23425b19bbc0502f0"
+      ]
+    }
+  ],
+  "image": "/images/items/64be79c487d1510151095552.webp",
+  "isMod": false
+}

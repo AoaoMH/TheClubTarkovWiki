@@ -1,1 +1,158 @@
-{"id":"5bffd7ed0db834001d23ebf9","typeName":"FlashHider","category":"mod_muzzle","parentTypeChain":["FlashHider","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f724c86f774093f2ecf15","price":3800},"common":{"name":{"zh":"PM-Laser DTK-TT TT手枪膛口制退器","en":"TT PM-Laser DTK-TT muzzle brake-compensator"},"shortName":{"zh":"DTK-TT","en":"DTK-TT"},"description":{"zh":"PM-Laser生产的定制制退器。","en":"A custom compensator for TT pistols manufactured by PM-Laser."},"weight":0.036,"width":1,"height":1,"rarity":"Common","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":2,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["571a28e524597720b4066567"],"CoolFactor":1,"Description":"muzzle_tt_pm_laser_dtk_tt","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":0.98,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":5,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.99,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"muzzle_tt_pm_laser_dtk_tt","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/muzzle/muzzle_tt_pm_laser_dtk_tt.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Common","Recoil":-8,"RepairCost":0,"RepairSpeed":0,"ShortName":"muzzle_tt_pm_laser_dtk_tt","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.036,"Width":1,"muzzleModType":"conpensator"},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":2,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"conpensator","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"571a28e524597720b4066567","name":{"zh":"土制7.62x25 TT消音器","en":"TT 7.62x25 makeshift sound suppressor"},"isWikiItem":true}]},"slots":[],"image":"/images/items/5bffd7ed0db834001d23ebf9.jpg","isMod":false}
+{
+  "id": "5bffd7ed0db834001d23ebf9",
+  "typeName": "FlashHider",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "FlashHider",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f724c86f774093f2ecf15",
+    "price": 3800
+  },
+  "common": {
+    "name": {
+      "zh": "PM-Laser DTK-TT TT手枪膛口制退器",
+      "en": "TT PM-Laser DTK-TT muzzle brake-compensator"
+    },
+    "shortName": {
+      "zh": "DTK-TT",
+      "en": "DTK-TT"
+    },
+    "description": {
+      "zh": "PM-Laser生产的定制制退器。",
+      "en": "A custom compensator for TT pistols manufactured by PM-Laser."
+    },
+    "weight": 0.036,
+    "width": 1,
+    "height": 1,
+    "rarity": "Common",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 2,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "571a28e524597720b4066567"
+      ],
+      "CoolFactor": 1,
+      "Description": "muzzle_tt_pm_laser_dtk_tt",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 0.98,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.99,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "muzzle_tt_pm_laser_dtk_tt",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/muzzle/muzzle_tt_pm_laser_dtk_tt.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Common",
+      "Recoil": -8,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "muzzle_tt_pm_laser_dtk_tt",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.036,
+      "Width": 1,
+      "muzzleModType": "conpensator"
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 2,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "conpensator",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "571a28e524597720b4066567",
+        "name": {
+          "zh": "土制7.62x25 TT消音器",
+          "en": "TT 7.62x25 makeshift sound suppressor"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [],
+  "image": "/images/items/5bffd7ed0db834001d23ebf9.jpg",
+  "isMod": false
+}

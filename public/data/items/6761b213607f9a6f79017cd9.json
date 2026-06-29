@@ -1,1 +1,205 @@
-{"id":"6761b213607f9a6f79017cd9","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"美蓓亚 PM-9 9x19毫米带消焰器枪管","en":"Minebea PM-9 9x19mm barrel with flash hider"},"shortName":{"zh":"PM-9","en":"PM-9"},"description":{"zh":"标准型9x19毫米枪管，配备内置消焰器，专为美蓓亚PM-9冲锋枪设计。","en":"Standard issue 9x19mm barrel with built-in flash hider for the Minebea PM-9 submachine gun."},"weight":0.288,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.128,"ConflictingItems":[],"CoolFactor":1.04,"Description":"barrel_vector_140mm_1143x23\n","DeviationCurve":2,"DeviationMax":14,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-3,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.98,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_vector_140mm_1143x23","NotShownInSlot":false,"Prefab":{"path":"WeaponPM9/pm9_barrel_flashhider.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-3,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_vector_140mm_1143x23","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"6830dd01dff553079a61f3ab","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"6761b213607f9a6f79017cda","_props":{"filters":[{"AnimationIndex":-1,"Filter":["6830dd0abbaa5e243b9fc47d"]}]},"_proto":"55d30c394bdc2dae468b4577","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":1,"Weight":0.288,"Width":2},"mod":{"ergonomics":-3,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":1,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_mount","id":"6830dd01dff553079a61f3ab","required":false,"filter":["6830dd0abbaa5e243b9fc47d"]}],"image":null,"isMod":true}
+{
+  "id": "6761b213607f9a6f79017cd9",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "美蓓亚 PM-9 9x19毫米带消焰器枪管",
+      "en": "Minebea PM-9 9x19mm barrel with flash hider"
+    },
+    "shortName": {
+      "zh": "PM-9",
+      "en": "PM-9"
+    },
+    "description": {
+      "zh": "标准型9x19毫米枪管，配备内置消焰器，专为美蓓亚PM-9冲锋枪设计。",
+      "en": "Standard issue 9x19mm barrel with built-in flash hider for the Minebea PM-9 submachine gun."
+    },
+    "weight": 0.373,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.128,
+      "ConflictingItems": [],
+      "CoolFactor": 1.04,
+      "Description": "barrel_vector_140mm_1143x23\n",
+      "DeviationCurve": 2,
+      "DeviationMax": 14,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -3,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.98,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_vector_140mm_1143x23",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponPM9/pm9_barrel_flashhider.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -3,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_vector_140mm_1143x23",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "6830dd01dff553079a61f3ab",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "6761b213607f9a6f79017cda",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "6830dd0abbaa5e243b9fc47d"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 1,
+      "Weight": 0.288,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "6830dd0abbaa5e243b9fc47d",
+          "name": {
+            "zh": "美蓓亚 PM-9 25毫米配件环形支架",
+            "en": "Minebea PM-9 25mm accessory ring mount"
+          },
+          "armorClass": 0,
+          "weight": 0.085,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.373
+    },
+    "mod": {
+      "ergonomics": -3,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 1,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_mount",
+      "id": "6830dd01dff553079a61f3ab",
+      "required": false,
+      "filter": [
+        "6830dd0abbaa5e243b9fc47d"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

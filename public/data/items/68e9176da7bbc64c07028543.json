@@ -1,1 +1,125 @@
-{"id":"68e9176da7bbc64c07028543","typeName":"AmmoBox","category":"ammobox","parentTypeChain":["AmmoBox","StackableItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"7.62x25mm ТТ M855A1 弹药包（25发装）","en":"7.62x25mm ТТ M855A1 ammo pack (25 pcs)"},"shortName":{"zh":"ТТ 855A1","en":"ТТ 855A1"},"description":{"zh":"一盒 7.62x25 mm ТТ M855A1 弹药，25发装。","en":"A pack of 7.62x25 mm ТТ M855A1 ammo, 25 rounds."},"weight":0.01,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"yellow"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"yellow","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"item_ammo_box_762x25_25_855a1","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":true,"InsuranceDisabled":true,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"ammo_pack_generic","LeftHandItem":false,"LootExperience":0,"MergesWithChildren":false,"Name":"item_ammo_box_762x25_25_855a1","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/ammo/boxes/item_ammo_box_7_62x25mm.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"item_ammo_box_762x25_25_855a1","StackMaxRandom":25,"StackMaxSize":1,"StackMinRandom":25,"StackObjectsCount":1,"StackSlots":[{"_name":"cartridges","_id":"68e9176da7bbc64c07028545","_parent":"68e9176da7bbc64c07028543","_max_count":25,"_props":{"filters":[{"Filter":["68c15a033173b556890b5959"]}]},"_proto":"5748538b2459770af276a261"}],"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":0.01,"Width":1,"ammoCaliber":"Caliber762x25TT","IsNotDeletableFromQuestStashAfterQuestComplete":false,"RagfairLevelToTrade":0},"ammoBox":{"ammoId":"68c15a033173b556890b5959","caliber":"762x25TT","count":25}},"slots":[],"image":null,"isMod":true}
+{
+  "id": "68e9176da7bbc64c07028543",
+  "typeName": "AmmoBox",
+  "category": "ammobox",
+  "parentTypeChain": [
+    "AmmoBox",
+    "StackableItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "7.62x25mm ТТ M855A1 弹药包（25发装）",
+      "en": "7.62x25mm ТТ M855A1 ammo pack (25 pcs)"
+    },
+    "shortName": {
+      "zh": "ТТ 855A1",
+      "en": "ТТ 855A1"
+    },
+    "description": {
+      "zh": "一盒 7.62x25 mm ТТ M855A1 弹药，25发装。",
+      "en": "A pack of 7.62x25 mm ТТ M855A1 ammo, 25 rounds."
+    },
+    "weight": 0.01,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "yellow"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "item_ammo_box_762x25_25_855a1",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": true,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "ammo_pack_generic",
+      "LeftHandItem": false,
+      "LootExperience": 0,
+      "MergesWithChildren": false,
+      "Name": "item_ammo_box_762x25_25_855a1",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/ammo/boxes/item_ammo_box_7_62x25mm.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "item_ammo_box_762x25_25_855a1",
+      "StackMaxRandom": 25,
+      "StackMaxSize": 1,
+      "StackMinRandom": 25,
+      "StackObjectsCount": 1,
+      "StackSlots": [
+        {
+          "_name": "cartridges",
+          "_id": "68e9176da7bbc64c07028545",
+          "_parent": "68e9176da7bbc64c07028543",
+          "_max_count": 25,
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68c15a033173b556890b5959"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.01,
+      "Width": 1,
+      "ammoCaliber": "Caliber762x25TT",
+      "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+      "RagfairLevelToTrade": 0
+    },
+    "ammoBox": {
+      "ammoId": "68c15a033173b556890b5959",
+      "caliber": "762x25TT",
+      "count": 25
+    }
+  },
+  "slots": [],
+  "image": null,
+  "isMod": true
+}

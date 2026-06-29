@@ -1,1 +1,179 @@
-{"id":"6876b80b37f01b91d94b927c","typeName":"Magazine","category":"mod_magazine","parentTypeChain":["Magazine","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"KAC PDW .300 BLK 30发弹匣","en":"KAC PDW .300 blackout 30-round magazine"},"shortName":{"zh":"KAC PDW","en":"KAC PDW"},"description":{"zh":"一款为KAC PDW设计的聚合物弹匣，可装填30发.300 BLK弹药。","en":"A polymer magazine that holds 30 rounds of .300 BLK for the KAC PDW."},"weight":0.1,"width":1,"height":2,"rarity":"Common","backgroundColor":"yellow"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"yellow","BeltMagazineRefreshCount":0,"BlocksCollapsible":false,"BlocksFolding":false,"CanAdmin":false,"CanFast":true,"CanHit":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"Cartridges":[{"_id":"6937465123981e45e8dcdb9f","_max_count":30,"_name":"cartridges","_parent":"6876b80b37f01b91d94b927c","_props":{"filters":[{"Filter":["5fbe3ffdf8b6a877a729ea82","5fd20ff893a8961fc660a954","619636be6db0f2477964e710","6196364158ef8c428c287d9f","6196365d58ef8c428c287da1","64b8725c4b75259c590fa899"]}]},"_proto":"5748538b2459770af276a261"}],"CheckOverride":0,"CheckTimeModifier":0,"ConflictingItems":[],"Description":"30-ти зарядный полимерный магазин Magpul PMAG GEN M3 30, под патрон 5.56х45 с окном для контроля количества боеприпасов.","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":1,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":2,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsMagazineForStationaryWeapon":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mag_plastic","LeftHandItem":false,"LoadUnloadModifier":0,"LootExperience":10,"Loudness":0,"MagazineWithBelt":false,"MalfunctionChance":0.08,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Магазин PMAG GEN M3 30 5.56x45 STANAG на 30 патронов","NotShownInSlot":false,"Prefab":{"path":"WeaponKACPDW/kacpdw_magazine_banded.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Common","Recoil":0,"ReloadMagType":"ExternalMagazine","RepairCost":0,"RepairSpeed":0,"ShortName":"5.56x45 PMAG GEN M3 30","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"TagColor":0,"TagName":"","ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"VisibleAmmoRangesString":"1-3","Weight":0.1,"Width":1,"magAnimationIndex":0},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0.08,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[],"image":null,"isMod":true}
+{
+  "id": "6876b80b37f01b91d94b927c",
+  "typeName": "Magazine",
+  "category": "mod_magazine",
+  "parentTypeChain": [
+    "Magazine",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "KAC PDW .300 BLK 30发弹匣",
+      "en": "KAC PDW .300 blackout 30-round magazine"
+    },
+    "shortName": {
+      "zh": "KAC PDW",
+      "en": "KAC PDW"
+    },
+    "description": {
+      "zh": "一款为KAC PDW设计的聚合物弹匣，可装填30发.300 BLK弹药。",
+      "en": "A polymer magazine that holds 30 rounds of .300 BLK for the KAC PDW."
+    },
+    "weight": 0.1,
+    "width": 1,
+    "height": 2,
+    "rarity": "Common",
+    "backgroundColor": "yellow"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "BeltMagazineRefreshCount": 0,
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanAdmin": false,
+      "CanFast": true,
+      "CanHit": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Cartridges": [
+        {
+          "_id": "6937465123981e45e8dcdb9f",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "6876b80b37f01b91d94b927c",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fbe3ffdf8b6a877a729ea82",
+                  "5fd20ff893a8961fc660a954",
+                  "619636be6db0f2477964e710",
+                  "6196364158ef8c428c287d9f",
+                  "6196365d58ef8c428c287da1",
+                  "64b8725c4b75259c590fa899"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "CheckOverride": 0,
+      "CheckTimeModifier": 0,
+      "ConflictingItems": [],
+      "Description": "30-ти зарядный полимерный магазин Magpul PMAG GEN M3 30, под патрон 5.56х45 с окном для контроля количества боеприпасов.",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 1,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsMagazineForStationaryWeapon": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mag_plastic",
+      "LeftHandItem": false,
+      "LoadUnloadModifier": 0,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MagazineWithBelt": false,
+      "MalfunctionChance": 0.08,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Магазин PMAG GEN M3 30 5.56x45 STANAG на 30 патронов",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponKACPDW/kacpdw_magazine_banded.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Common",
+      "Recoil": 0,
+      "ReloadMagType": "ExternalMagazine",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "5.56x45 PMAG GEN M3 30",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "TagColor": 0,
+      "TagName": "",
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "VisibleAmmoRangesString": "1-3",
+      "Weight": 0.1,
+      "Width": 1,
+      "magAnimationIndex": 0
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0.08,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [],
+  "image": null,
+  "isMod": true
+}

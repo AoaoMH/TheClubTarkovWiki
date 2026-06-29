@@ -1,1 +1,202 @@
-{"id":"64119d1f2c6d6f921a0929f8","typeName":"FlashHider","category":"mod_muzzle","parentTypeChain":["FlashHider","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f724c86f774093f2ecf15","price":6488},"common":{"name":{"zh":"SVT-40 7.62x54R枪口制退器","en":"SVT-40 7.62x54R muzzle brake"},"shortName":{"zh":"SVT","en":"SVT"},"description":{"zh":"SVT的标准枪口制退器。","en":"A standard-issue muzzle brake for the SVT rifle."},"weight":0.07,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"muzzle_m1a_springfield_armory_socom_16_762x51","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":0.96,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":5,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.99,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"muzzle_m1a_springfield_armory_socom_16_762x51","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/muzzle/muzzle_svt40_toz_std_762x54r.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":-7,"RepairCost":0,"RepairSpeed":0,"ShortName":"muzzle_m1a_springfield_armory_socom_16_762x51","SightingRange":0,"Slots":[{"_id":"64119d1f2c6d6f921a0929f9","_mergeSlotWithChildren":false,"_name":"mod_sight_front","_parent":"64119d1f2c6d6f921a0929f8","_props":{"filters":[{"Filter":["64119d672c6d6f921a0929fb"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.07,"Width":2,"muzzleModType":"conpensator"},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"conpensator","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_sight_front","id":"64119d1f2c6d6f921a0929f9","required":false,"filter":["64119d672c6d6f921a0929fb"]}],"image":"/images/items/64119d1f2c6d6f921a0929f8.webp","isMod":false}
+{
+  "id": "64119d1f2c6d6f921a0929f8",
+  "typeName": "FlashHider",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "FlashHider",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f724c86f774093f2ecf15",
+    "price": 6488
+  },
+  "common": {
+    "name": {
+      "zh": "SVT-40 7.62x54R枪口制退器",
+      "en": "SVT-40 7.62x54R muzzle brake"
+    },
+    "shortName": {
+      "zh": "SVT",
+      "en": "SVT"
+    },
+    "description": {
+      "zh": "SVT的标准枪口制退器。",
+      "en": "A standard-issue muzzle brake for the SVT rifle."
+    },
+    "weight": 0.14,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "muzzle_m1a_springfield_armory_socom_16_762x51",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 0.96,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.99,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "muzzle_m1a_springfield_armory_socom_16_762x51",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/muzzle/muzzle_svt40_toz_std_762x54r.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": -7,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "muzzle_m1a_springfield_armory_socom_16_762x51",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "64119d1f2c6d6f921a0929f9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "64119d1f2c6d6f921a0929f8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "64119d672c6d6f921a0929fb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.07,
+      "Width": 2,
+      "muzzleModType": "conpensator"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "64119d672c6d6f921a0929fb",
+          "name": {
+            "zh": "SVT-40准星",
+            "en": "SVT-40 front sight"
+          },
+          "armorClass": 0,
+          "weight": 0.07,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.14
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "conpensator",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_sight_front",
+      "id": "64119d1f2c6d6f921a0929f9",
+      "required": false,
+      "filter": [
+        "64119d672c6d6f921a0929fb"
+      ]
+    }
+  ],
+  "image": "/images/items/64119d1f2c6d6f921a0929f8.webp",
+  "isMod": false
+}

@@ -1,1 +1,223 @@
-{"id":"2322ee962f6c77a1284abc1e","typeName":"AssaultScope","category":"mod_scope","parentTypeChain":["AssaultScope","Sights","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"BAE System SUSAT 4x32瞄准镜","en":"BAE Systems SUSAT 4x32 scope"},"shortName":{"zh":"SUSAT","en":"SUSAT"},"description":{"zh":"清晰、紧凑、小型化、Trilux制造（SUSAT）。是SA80系列武器的标准4倍放大光学瞄准镜。","en":"Sight, Unit, Small Arms, Trilux. (SUSAT) Standard issue 4x magnification optical sight for the SA80 family of weapons."},"weight":0.495,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AdjustableOpticSensitivity":0,"AdjustableOpticSensitivityMax":0,"AimSensitivity":[[0.1625,0.1625],[0.7]],"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CalibrationDistances":[[50,100,150,200],[25]],"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["55d5f46a4bdc2d1b198b4567","5a7c74b3e899ef0014332c29","5bfd4c980db834001b73449d"],"CustomAimPlane":"","Description":"","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-3.5,"ExamineExperience":4,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAdjustableOptic":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","MinMaxFov":{"x":0,"y":0,"z":0},"ModesCount":[2,1],"Name":"","NotShownInSlot":false,"Prefab":{"path":"Attachment_Scopes/susat_new_scope.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ScopesCount":2,"ShortName":"","SightingRange":800,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.495,"Width":2,"ZoomSensitivity":0,"Zooms":[[4,4],[1]],"sightModType":"optic"},"mod":{"ergonomics":-3.5,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"4-4x, 1x","sightingRange":800,"sightModType":"optic","calibrationDistances":[50,100,150,200,25],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"55d5f46a4bdc2d1b198b4567","name":{"zh":"柯尔特A2 AR-15照门","en":"AR-15 Colt A2 rear sight"},"isWikiItem":true},{"id":"5a7c74b3e899ef0014332c29","name":{"zh":"NSPU-M 3.5 倍 燕尾槽夜视瞄准镜","en":"NSPU-M 3.5x dovetail night vision scope"},"isWikiItem":true},{"id":"5bfd4c980db834001b73449d","name":{"zh":"莫辛卡宾枪照门","en":"Mosin Rifle carbine rear sight"},"isWikiItem":true}]},"slots":[],"image":null,"isMod":true}
+{
+  "id": "2322ee962f6c77a1284abc1e",
+  "typeName": "AssaultScope",
+  "category": "mod_scope",
+  "parentTypeChain": [
+    "AssaultScope",
+    "Sights",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "BAE System SUSAT 4x32瞄准镜",
+      "en": "BAE Systems SUSAT 4x32 scope"
+    },
+    "shortName": {
+      "zh": "SUSAT",
+      "en": "SUSAT"
+    },
+    "description": {
+      "zh": "清晰、紧凑、小型化、Trilux制造（SUSAT）。是SA80系列武器的标准4倍放大光学瞄准镜。",
+      "en": "Sight, Unit, Small Arms, Trilux. (SUSAT) Standard issue 4x magnification optical sight for the SA80 family of weapons."
+    },
+    "weight": 0.495,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0,
+      "AimSensitivity": [
+        [
+          0.1625,
+          0.1625
+        ],
+        [
+          0.7
+        ]
+      ],
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200
+        ],
+        [
+          25
+        ]
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "55d5f46a4bdc2d1b198b4567",
+        "5a7c74b3e899ef0014332c29",
+        "5bfd4c980db834001b73449d"
+      ],
+      "CustomAimPlane": "",
+      "Description": "",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -3.5,
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAdjustableOptic": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ModesCount": [
+        2,
+        1
+      ],
+      "Name": "",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "Attachment_Scopes/susat_new_scope.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ScopesCount": 2,
+      "ShortName": "",
+      "SightingRange": 800,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.495,
+      "Width": 2,
+      "ZoomSensitivity": 0,
+      "Zooms": [
+        [
+          4,
+          4
+        ],
+        [
+          1
+        ]
+      ],
+      "sightModType": "optic"
+    },
+    "mod": {
+      "ergonomics": -3.5,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "4-4x, 1x",
+      "sightingRange": 800,
+      "sightModType": "optic",
+      "calibrationDistances": [
+        50,
+        100,
+        150,
+        200,
+        25
+      ],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "55d5f46a4bdc2d1b198b4567",
+        "name": {
+          "zh": "柯尔特A2 AR-15照门",
+          "en": "AR-15 Colt A2 rear sight"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5a7c74b3e899ef0014332c29",
+        "name": {
+          "zh": "NSPU-M 3.5 倍 燕尾槽夜视瞄准镜",
+          "en": "NSPU-M 3.5x dovetail night vision scope"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5bfd4c980db834001b73449d",
+        "name": {
+          "zh": "莫辛卡宾枪照门",
+          "en": "Mosin Rifle carbine rear sight"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [],
+  "image": null,
+  "isMod": true
+}

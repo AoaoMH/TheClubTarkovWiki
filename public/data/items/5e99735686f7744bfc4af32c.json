@@ -1,1 +1,131 @@
-{"id":"5e99735686f7744bfc4af32c","typeName":"Medical","category":"medical","parentTypeChain":["Medical","Meds","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"卫生员急救包","en":"Sanitar kit"},"shortName":{"zh":"Sanitar kit","en":"Sanitar kit"},"description":{"zh":"卫生员急救包","en":"Sanitar kit"},"weight":0.4,"width":1,"height":11,"rarity":"Not_exist","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"sanitar_medical_surgical_kit","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":11,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_medkit","LeftHandItem":false,"LootExperience":40,"MaxHpResource":3000,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"sanitar_medical_surgical_kit","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_meds_core_medical_surgical_kit/item_meds_core_medical_surgical_kit_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"ShortName":"sanitar_medical_surgical_kit","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_meds_core_medical_surgical_kit/item_meds_core_medical_surgical_kit_container.bundle","rcid":""},"Weight":0.4,"Width":1,"effects_damage":{"DestroyedPart":{"delay":0,"duration":0,"fadeOut":0,"healthPenaltyMax":100,"healthPenaltyMin":100}},"effects_health":[],"hpResourceRate":1,"medEffectType":"duringUse","medUseTime":16},"medical":{"medEffectType":"duringUse","medUseTime":16,"maxHpResource":3000,"hpResourceRate":1,"effects":{"healthEffects":[],"damageEffects":[{"type":"DestroyedPart","delay":0,"duration":0}],"stimBuffs":[]}}},"slots":[],"image":null,"isMod":false}
+{
+  "id": "5e99735686f7744bfc4af32c",
+  "typeName": "Medical",
+  "category": "medical",
+  "parentTypeChain": [
+    "Medical",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "卫生员急救包",
+      "en": "Sanitar kit"
+    },
+    "shortName": {
+      "zh": "Sanitar kit",
+      "en": "Sanitar kit"
+    },
+    "description": {
+      "zh": "卫生员急救包",
+      "en": "Sanitar kit"
+    },
+    "weight": 0.4,
+    "width": 1,
+    "height": 11,
+    "rarity": "Not_exist",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "sanitar_medical_surgical_kit",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 11,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_medkit",
+      "LeftHandItem": false,
+      "LootExperience": 40,
+      "MaxHpResource": 3000,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "sanitar_medical_surgical_kit",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_meds_core_medical_surgical_kit/item_meds_core_medical_surgical_kit_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "sanitar_medical_surgical_kit",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_meds_core_medical_surgical_kit/item_meds_core_medical_surgical_kit_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.4,
+      "Width": 1,
+      "effects_damage": {
+        "DestroyedPart": {
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0,
+          "healthPenaltyMax": 100,
+          "healthPenaltyMin": 100
+        }
+      },
+      "effects_health": [],
+      "hpResourceRate": 1,
+      "medEffectType": "duringUse",
+      "medUseTime": 16
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 16,
+      "maxHpResource": 3000,
+      "hpResourceRate": 1,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [
+          {
+            "type": "DestroyedPart",
+            "delay": 0,
+            "duration": 0
+          }
+        ],
+        "stimBuffs": []
+      }
+    }
+  },
+  "slots": [],
+  "image": null,
+  "isMod": false
+}

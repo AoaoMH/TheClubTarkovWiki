@@ -1,1 +1,207 @@
-{"id":"645123013d52156624001fd1","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":7900},"common":{"name":{"zh":"VSK-94 9x39枪管","en":"VSK-94 9x39 barrel"},"shortName":{"zh":"VSK-94","en":"VSK-94"},"description":{"zh":"由Tula KPB武器设计局制造的标准VSK-94 180毫米枪管。","en":"A standard-issue 180mm barrel for the VSK-94 marksman rifle. Manufactured by Tula KPB Instrument Design Bureau."},"weight":0.409,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.127,"ConflictingItems":[],"CoolFactor":1.125,"Description":"Ствол для оружия на базе AR-15 под патрон 5.56х45 NATO длинной 260мм. Соответствует стандартному стволу для M4 CQBR.\n","DeviationCurve":1.9,"DeviationMax":15.5,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":0,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.084,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Ствол 260мм для AR-15 и совместимых 5.56х45","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_9a91_kbp_vsk94_180mm_9x39.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-2,"RepairCost":0,"RepairSpeed":0,"ShortName":"260мм AR-15 5.56х45","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"645123013d52156624001fd2","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"645123013d52156624001fd1","_props":{"filters":[{"Filter":["64527a263d52156624001fd7","64527a3a7da7133e5a09ca99"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"645b6051c42f3c94f80028db","_mergeSlotWithChildren":false,"_name":"mod_handguard","_parent":"645123013d52156624001fd1","_props":{"filters":[{"Filter":["644675573d52156624001fc9","6448f2f6d4928d46d30be3f6"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":-16.31,"Weight":0.409,"Width":2},"mod":{"ergonomics":0,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":-16.31,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"645123013d52156624001fd2","required":true,"filter":["64527a263d52156624001fd7","64527a3a7da7133e5a09ca99"]},{"name":"mod_handguard","id":"645b6051c42f3c94f80028db","required":true,"filter":["644675573d52156624001fc9","6448f2f6d4928d46d30be3f6"]}],"image":"/images/items/645123013d52156624001fd1.webp","isMod":false}
+{
+  "id": "645123013d52156624001fd1",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 7900
+  },
+  "common": {
+    "name": {
+      "zh": "VSK-94 9x39枪管",
+      "en": "VSK-94 9x39 barrel"
+    },
+    "shortName": {
+      "zh": "VSK-94",
+      "en": "VSK-94"
+    },
+    "description": {
+      "zh": "由Tula KPB武器设计局制造的标准VSK-94 180毫米枪管。",
+      "en": "A standard-issue 180mm barrel for the VSK-94 marksman rifle. Manufactured by Tula KPB Instrument Design Bureau."
+    },
+    "weight": 0.409,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.127,
+      "ConflictingItems": [],
+      "CoolFactor": 1.125,
+      "Description": "Ствол для оружия на базе AR-15 под патрон 5.56х45 NATO длинной 260мм. Соответствует стандартному стволу для M4 CQBR.\n",
+      "DeviationCurve": 1.9,
+      "DeviationMax": 15.5,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.084,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Ствол 260мм для AR-15 и совместимых 5.56х45",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_9a91_kbp_vsk94_180mm_9x39.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -2,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "260мм AR-15 5.56х45",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "645123013d52156624001fd2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "645123013d52156624001fd1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "64527a263d52156624001fd7",
+                  "64527a3a7da7133e5a09ca99"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "645b6051c42f3c94f80028db",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "645123013d52156624001fd1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "644675573d52156624001fc9",
+                  "6448f2f6d4928d46d30be3f6"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": -16.31,
+      "Weight": 0.409,
+      "Width": 2
+    },
+    "mod": {
+      "ergonomics": 0,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": -16.31,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "645123013d52156624001fd2",
+      "required": true,
+      "filter": [
+        "64527a263d52156624001fd7",
+        "64527a3a7da7133e5a09ca99"
+      ]
+    },
+    {
+      "name": "mod_handguard",
+      "id": "645b6051c42f3c94f80028db",
+      "required": true,
+      "filter": [
+        "644675573d52156624001fc9",
+        "6448f2f6d4928d46d30be3f6"
+      ]
+    }
+  ],
+  "image": "/images/items/645123013d52156624001fd1.webp",
+  "isMod": false
+}

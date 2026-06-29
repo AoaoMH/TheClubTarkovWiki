@@ -1,1 +1,231 @@
-{"id":"5c471c2d2e22164bef5d077f","typeName":"Mount","category":"mod_mount","parentTypeChain":["Mount","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f755f86f77447ec5d770e","price":5588},"common":{"name":{"zh":"SVDS照门固定环","en":"SVDS upper band"},"shortName":{"zh":"SVDS UB","en":"SVDS UB"},"description":{"zh":"标准SVDS的机匣固定环。","en":"A standard upper band for SVDS sniper rifles and compatibles, allows installation of rear sights."},"weight":0.246,"width":1,"height":1,"rarity":"Common","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"mount_all_burris_ar_p_e_p_r_30mm","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mount_all_burris_ar_p_e_p_r_30mm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/mounts/mount_svd_izhmash_svd_s_lower_band_std.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Common","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"mount_all_burris_ar_p_e_p_r_30mm","SightingRange":0,"Slots":[{"_id":"5c471e662e22161b267d9bd0","_mergeSlotWithChildren":false,"_name":"mod_handguard","_parent":"5c471c2d2e22164bef5d077f","_props":{"filters":[{"Filter":["5e5699df2161e06ac158df6f","5e56991336989c75ab4f03f6","5c471c6c2e221602b66cd9ae"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"5c47256b2e221602b3137e84","_mergeSlotWithChildren":false,"_name":"mod_sight_rear","_parent":"5c471c2d2e22164bef5d077f","_props":{"filters":[{"Filter":["5649d9a14bdc2d79388b4580","5c471b7e2e2216152006e46c"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.246,"Width":1},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_handguard","id":"5c471e662e22161b267d9bd0","required":true,"filter":["5e5699df2161e06ac158df6f","5e56991336989c75ab4f03f6","5c471c6c2e221602b66cd9ae"]},{"name":"mod_sight_rear","id":"5c47256b2e221602b3137e84","required":false,"filter":["5649d9a14bdc2d79388b4580","5c471b7e2e2216152006e46c"]}],"image":"/images/items/5c471c2d2e22164bef5d077f.jpg","isMod":false}
+{
+  "id": "5c471c2d2e22164bef5d077f",
+  "typeName": "Mount",
+  "category": "mod_mount",
+  "parentTypeChain": [
+    "Mount",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f755f86f77447ec5d770e",
+    "price": 5588
+  },
+  "common": {
+    "name": {
+      "zh": "SVDS照门固定环",
+      "en": "SVDS upper band"
+    },
+    "shortName": {
+      "zh": "SVDS UB",
+      "en": "SVDS UB"
+    },
+    "description": {
+      "zh": "标准SVDS的机匣固定环。",
+      "en": "A standard upper band for SVDS sniper rifles and compatibles, allows installation of rear sights."
+    },
+    "weight": 0.331,
+    "width": 1,
+    "height": 1,
+    "rarity": "Common",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "mount_all_burris_ar_p_e_p_r_30mm",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mount_all_burris_ar_p_e_p_r_30mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/mounts/mount_svd_izhmash_svd_s_lower_band_std.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Common",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mount_all_burris_ar_p_e_p_r_30mm",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5c471e662e22161b267d9bd0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "5c471c2d2e22164bef5d077f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5e5699df2161e06ac158df6f",
+                  "5e56991336989c75ab4f03f6",
+                  "5c471c6c2e221602b66cd9ae"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "5c47256b2e221602b3137e84",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "5c471c2d2e22164bef5d077f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5649d9a14bdc2d79388b4580",
+                  "5c471b7e2e2216152006e46c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.246,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5649d9a14bdc2d79388b4580",
+          "name": {
+            "zh": "Tactica Tula TT01韦弗式照门适配器",
+            "en": "AK Taktika Tula TT01 rear sight rail"
+          },
+          "armorClass": 0,
+          "weight": 0.085,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.331
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_handguard",
+      "id": "5c471e662e22161b267d9bd0",
+      "required": true,
+      "filter": [
+        "5e5699df2161e06ac158df6f",
+        "5e56991336989c75ab4f03f6",
+        "5c471c6c2e221602b66cd9ae"
+      ]
+    },
+    {
+      "name": "mod_sight_rear",
+      "id": "5c47256b2e221602b3137e84",
+      "required": false,
+      "filter": [
+        "5649d9a14bdc2d79388b4580",
+        "5c471b7e2e2216152006e46c"
+      ]
+    }
+  ],
+  "image": "/images/items/5c471c2d2e22164bef5d077f.jpg",
+  "isMod": false
+}

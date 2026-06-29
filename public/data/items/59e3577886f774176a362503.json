@@ -1,1 +1,137 @@
-{"id":"59e3577886f774176a362503","typeName":"Food","category":"food","parentTypeChain":["Food","FoodDrink","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b336","price":21489},"common":{"name":{"zh":"一包糖","en":"Pack of sugar"},"shortName":{"zh":"糖","en":"Sugar"},"description":{"zh":"一包方糖。在食物短缺的状况下是很珍贵的东西，它也可以被用作酿造。","en":"A packet of lump sugar. A rare thing in conditions of total food shortage. It is also used in brewing."},"weight":0.5,"width":1,"height":1,"rarity":"Rare","backgroundColor":"default"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"default","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"Сахар","DiscardLimit":1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"generic","LeftHandItem":false,"LootExperience":5,"MaxResource":70,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"Сахар","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_sugar/item_sugar_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Rare","RepairCost":0,"RepairSpeed":0,"ShortName":"Сахар","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_food_sugar","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_sugar/item_food_sugar_container.bundle","rcid":""},"Weight":0.5,"Width":1,"effects_damage":[],"effects_health":{"Energy":{"value":70},"Hydration":{"value":-45}},"foodEffectType":"afterUse","foodUseTime":9},"foodDrink":{"useTime":9,"effects":{"healthEffects":[{"type":"Energy","value":70},{"type":"Hydration","value":-45}],"damageEffects":[],"stimBuffs":[{"buffType":"SkillRate","skillName":"Intellect","value":1,"delay":1,"duration":300,"chance":1}]}}},"slots":[],"image":"/images/items/59e3577886f774176a362503.jpg","isMod":false}
+{
+  "id": "59e3577886f774176a362503",
+  "typeName": "Food",
+  "category": "food",
+  "parentTypeChain": [
+    "Food",
+    "FoodDrink",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b336",
+    "price": 21489
+  },
+  "common": {
+    "name": {
+      "zh": "一包糖",
+      "en": "Pack of sugar"
+    },
+    "shortName": {
+      "zh": "糖",
+      "en": "Sugar"
+    },
+    "description": {
+      "zh": "一包方糖。在食物短缺的状况下是很珍贵的东西，它也可以被用作酿造。",
+      "en": "A packet of lump sugar. A rare thing in conditions of total food shortage. It is also used in brewing."
+    },
+    "weight": 0.5,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "default"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "default",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "Сахар",
+      "DiscardLimit": 1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "generic",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "MaxResource": 70,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "Сахар",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_sugar/item_sugar_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "Сахар",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_food_sugar",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_sugar/item_food_sugar_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.5,
+      "Width": 1,
+      "effects_damage": [],
+      "effects_health": {
+        "Energy": {
+          "value": 70
+        },
+        "Hydration": {
+          "value": -45
+        }
+      },
+      "foodEffectType": "afterUse",
+      "foodUseTime": 9
+    },
+    "foodDrink": {
+      "useTime": 9,
+      "effects": {
+        "healthEffects": [
+          {
+            "type": "Energy",
+            "value": 70
+          },
+          {
+            "type": "Hydration",
+            "value": -45
+          }
+        ],
+        "damageEffects": [],
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "Intellect",
+            "value": 1,
+            "delay": 1,
+            "duration": 300,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/59e3577886f774176a362503.jpg",
+  "isMod": false
+}

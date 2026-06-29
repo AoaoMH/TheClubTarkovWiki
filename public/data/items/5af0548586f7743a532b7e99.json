@@ -1,1 +1,148 @@
-{"id":"5af0548586f7743a532b7e99","typeName":"Drugs","category":"drugs","parentTypeChain":["Drugs","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b337","price":25235},"common":{"name":{"zh":"布洛芬止痛药","en":"Ibuprofen painkillers"},"shortName":{"zh":"布洛芬","en":"Ibuprofen"},"description":{"zh":"是一种非甾体抗炎药（NSAID）类药物，用于治疗疼痛、发烧和炎症。","en":"Ibuprofen is a medication in the nonsteroidal anti-inflammatory drug (NSAID) class that is used for treating pain, fever, and inflammation."},"weight":0.07,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"ibuprofen","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":4,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_pills","LeftHandItem":false,"LootExperience":10,"MaxHpResource":8,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"ibuprofen","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_ibuprofen/item_ibuprofen_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"ibuprofen","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_ibuprofen/item_ibuprofen_container.bundle","rcid":""},"Weight":0.07,"Width":1,"effects_damage":{"Contusion":{"delay":0,"duration":0,"fadeOut":0},"Pain":{"delay":0,"duration":280,"fadeOut":10}},"effects_health":{"Hydration":{"value":-17}},"hpResourceRate":0,"medEffectType":"duringUse","medUseTime":5},"medical":{"medEffectType":"duringUse","medUseTime":5,"maxHpResource":8,"hpResourceRate":0,"effects":{"healthEffects":[{"type":"Hydration","value":-17}],"damageEffects":[{"type":"Contusion","delay":0,"duration":0},{"type":"Pain","delay":0,"duration":280}],"stimBuffs":[]}}},"slots":[],"image":"/images/items/5af0548586f7743a532b7e99.jpg","isMod":false}
+{
+  "id": "5af0548586f7743a532b7e99",
+  "typeName": "Drugs",
+  "category": "drugs",
+  "parentTypeChain": [
+    "Drugs",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b337",
+    "price": 25235
+  },
+  "common": {
+    "name": {
+      "zh": "布洛芬止痛药",
+      "en": "Ibuprofen painkillers"
+    },
+    "shortName": {
+      "zh": "布洛芬",
+      "en": "Ibuprofen"
+    },
+    "description": {
+      "zh": "是一种非甾体抗炎药（NSAID）类药物，用于治疗疼痛、发烧和炎症。",
+      "en": "Ibuprofen is a medication in the nonsteroidal anti-inflammatory drug (NSAID) class that is used for treating pain, fever, and inflammation."
+    },
+    "weight": 0.07,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "ibuprofen",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_pills",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 8,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "ibuprofen",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_ibuprofen/item_ibuprofen_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "ibuprofen",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_ibuprofen/item_ibuprofen_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.07,
+      "Width": 1,
+      "effects_damage": {
+        "Contusion": {
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0
+        },
+        "Pain": {
+          "delay": 0,
+          "duration": 280,
+          "fadeOut": 10
+        }
+      },
+      "effects_health": {
+        "Hydration": {
+          "value": -17
+        }
+      },
+      "hpResourceRate": 0,
+      "medEffectType": "duringUse",
+      "medUseTime": 5
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 5,
+      "maxHpResource": 8,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [
+          {
+            "type": "Hydration",
+            "value": -17
+          }
+        ],
+        "damageEffects": [
+          {
+            "type": "Contusion",
+            "delay": 0,
+            "duration": 0
+          },
+          {
+            "type": "Pain",
+            "delay": 0,
+            "duration": 280
+          }
+        ],
+        "stimBuffs": []
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5af0548586f7743a532b7e99.jpg",
+  "isMod": false
+}

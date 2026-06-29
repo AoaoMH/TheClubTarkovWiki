@@ -1,1 +1,179 @@
-{"id":"59f99a7d86f7745b134aa97b","typeName":"Magazine","category":"mod_magazine","parentTypeChain":["Magazine","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f754a86f774094242f19b","price":1506},"common":{"name":{"zh":"SR1-MP弹匣","en":"SR-1MP 9x21 18-round magazine"},"shortName":{"zh":"9x21 SR1-MP","en":"SR-1MP"},"description":{"zh":"SR1-MP用标准18发9x21弹匣。","en":"A standard 18-round 9x21 magazine for the SR-1MP pistol."},"weight":0.105,"width":1,"height":1,"rarity":"Rare","backgroundColor":"yellow"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"yellow","BeltMagazineRefreshCount":0,"BlocksCollapsible":false,"BlocksFolding":false,"CanAdmin":false,"CanFast":true,"CanHit":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"Cartridges":[{"_id":"59f99a7d86f7745b134aa97c","_max_count":18,"_name":"cartridges","_parent":"59f99a7d86f7745b134aa97b","_props":{"filters":[{"Filter":["5a269f97c4a282000b151807","5a26abfac4a28232980eabff","5a26ac06c4a282000c5a90a8","5a26ac0ec4a28200741e1e18","6576f4708ca9c4381d16cd9d","6576f93989f0062e741ba952"]}]},"_proto":"5748538b2459770af276a261"}],"CheckOverride":1,"CheckTimeModifier":-20,"ConflictingItems":[],"Description":"mag_sr1mp_tochmash_std_9x21_18","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsMagazineForStationaryWeapon":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"magazine_metal","LeftHandItem":false,"LoadUnloadModifier":0,"LootExperience":5,"Loudness":0,"MagazineWithBelt":false,"MalfunctionChance":0.02,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mag_sr1mp_tochmash_std_9x21_18","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/magazines/mag_sr1mp_tochmash_std_9x21_18.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":0,"ReloadMagType":"ExternalMagazine","RepairCost":0,"RepairSpeed":0,"ShortName":"mag_sr1mp_tochmash_std_9x21_18","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"TagColor":0,"TagName":"","ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"VisibleAmmoRangesString":"1-1;4-5;8-10;13-15;18-20","Weight":0.105,"Width":1,"magAnimationIndex":0},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0.02,"loadUnloadModifier":0,"checkTimeModifier":-20,"foldable":false,"retractable":false}},"slots":[],"image":"/images/items/59f99a7d86f7745b134aa97b.jpg","isMod":false}
+{
+  "id": "59f99a7d86f7745b134aa97b",
+  "typeName": "Magazine",
+  "category": "mod_magazine",
+  "parentTypeChain": [
+    "Magazine",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f754a86f774094242f19b",
+    "price": 1506
+  },
+  "common": {
+    "name": {
+      "zh": "SR1-MP弹匣",
+      "en": "SR-1MP 9x21 18-round magazine"
+    },
+    "shortName": {
+      "zh": "9x21 SR1-MP",
+      "en": "SR-1MP"
+    },
+    "description": {
+      "zh": "SR1-MP用标准18发9x21弹匣。",
+      "en": "A standard 18-round 9x21 magazine for the SR-1MP pistol."
+    },
+    "weight": 0.105,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "yellow"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "BeltMagazineRefreshCount": 0,
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanAdmin": false,
+      "CanFast": true,
+      "CanHit": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Cartridges": [
+        {
+          "_id": "59f99a7d86f7745b134aa97c",
+          "_max_count": 18,
+          "_name": "cartridges",
+          "_parent": "59f99a7d86f7745b134aa97b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a269f97c4a282000b151807",
+                  "5a26abfac4a28232980eabff",
+                  "5a26ac06c4a282000c5a90a8",
+                  "5a26ac0ec4a28200741e1e18",
+                  "6576f4708ca9c4381d16cd9d",
+                  "6576f93989f0062e741ba952"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "CheckOverride": 1,
+      "CheckTimeModifier": -20,
+      "ConflictingItems": [],
+      "Description": "mag_sr1mp_tochmash_std_9x21_18",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsMagazineForStationaryWeapon": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "magazine_metal",
+      "LeftHandItem": false,
+      "LoadUnloadModifier": 0,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MagazineWithBelt": false,
+      "MalfunctionChance": 0.02,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mag_sr1mp_tochmash_std_9x21_18",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/magazines/mag_sr1mp_tochmash_std_9x21_18.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": 0,
+      "ReloadMagType": "ExternalMagazine",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mag_sr1mp_tochmash_std_9x21_18",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "TagColor": 0,
+      "TagName": "",
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "VisibleAmmoRangesString": "1-1;4-5;8-10;13-15;18-20",
+      "Weight": 0.105,
+      "Width": 1,
+      "magAnimationIndex": 0
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0.02,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": -20,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [],
+  "image": "/images/items/59f99a7d86f7745b134aa97b.jpg",
+  "isMod": false
+}

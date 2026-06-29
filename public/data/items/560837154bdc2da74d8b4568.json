@@ -1,1 +1,247 @@
-{"id":"560837154bdc2da74d8b4568","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":5501},"common":{"name":{"zh":"660毫米MP-133霰弹枪肋条枪管 12铅径","en":"MP-133 12ga 660mm barrel with rib"},"shortName":{"zh":"660毫米MP-133 12铅径","en":"MP133 660mm rib"},"description":{"zh":"适用于MP-133 12铅径的660毫米标准产量型枪管，有宽肋条。","en":"A standard factory-produced 660mm barrel with a wide upper rib for MP-133 12 gauge shotguns."},"weight":1.25,"width":4,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.5,"ConflictingItems":[],"CoolFactor":0.9,"Description":"Стандартный заводской ствол для ружья МР-133 длинной 660мм под патрон 12-го калибра, с широкой прицельной планкой.","DeviationCurve":2.5,"DeviationMax":10,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-10,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":2,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.86,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":20,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Ствол 660мм для ружья МР-133 12к с прицельной планкой","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_mr133_660mm_plank.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-6,"RepairCost":0,"RepairSpeed":0,"ShortName":"660мм МР-133 12к","ShotgunDispersion":1.3,"SightingRange":0,"Slots":[{"_id":"56e31582d2720b42068b4569","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"560837154bdc2da74d8b4568","_props":{"filters":[{"Filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"5dfe4057e9dc277128008b42","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"560837154bdc2da74d8b4568","_props":{"filters":[{"Filter":["609b9e31506cf869cf3eaf41","5dfe14f30b92095fd441edaf"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":13.5,"Weight":1.25,"Width":4},"mod":{"ergonomics":-10,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":13.5,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"56e31582d2720b42068b4569","required":false,"filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"]},{"name":"mod_mount","id":"5dfe4057e9dc277128008b42","required":false,"filter":["609b9e31506cf869cf3eaf41","5dfe14f30b92095fd441edaf"]}],"image":"/images/items/560837154bdc2da74d8b4568.jpg","isMod":false}
+{
+  "id": "560837154bdc2da74d8b4568",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 5501
+  },
+  "common": {
+    "name": {
+      "zh": "660毫米MP-133霰弹枪肋条枪管 12铅径",
+      "en": "MP-133 12ga 660mm barrel with rib"
+    },
+    "shortName": {
+      "zh": "660毫米MP-133 12铅径",
+      "en": "MP133 660mm rib"
+    },
+    "description": {
+      "zh": "适用于MP-133 12铅径的660毫米标准产量型枪管，有宽肋条。",
+      "en": "A standard factory-produced 660mm barrel with a wide upper rib for MP-133 12 gauge shotguns."
+    },
+    "weight": 1.58,
+    "width": 4,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.5,
+      "ConflictingItems": [],
+      "CoolFactor": 0.9,
+      "Description": "Стандартный заводской ствол для ружья МР-133 длинной 660мм под патрон 12-го калибра, с широкой прицельной планкой.",
+      "DeviationCurve": 2.5,
+      "DeviationMax": 10,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -10,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.86,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Ствол 660мм для ружья МР-133 12к с прицельной планкой",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_mr133_660mm_plank.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -6,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "660мм МР-133 12к",
+      "ShotgunDispersion": 1.3,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "56e31582d2720b42068b4569",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "560837154bdc2da74d8b4568",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0111ab0db834001966914d",
+                  "560838c94bdc2d77798b4569",
+                  "5b363dea5acfc4771e1c5e7e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5dfe4057e9dc277128008b42",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "560837154bdc2da74d8b4568",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "609b9e31506cf869cf3eaf41",
+                  "5dfe14f30b92095fd441edaf"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 13.5,
+      "Weight": 1.25,
+      "Width": 4
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5c0111ab0db834001966914d",
+          "name": {
+            "zh": "ME Cylinder 12铅径膛口转接器",
+            "en": "ME Cylinder 12ga muzzle adapter"
+          },
+          "armorClass": 0,
+          "weight": 0.12,
+          "count": 1
+        },
+        {
+          "id": "609b9e31506cf869cf3eaf41",
+          "name": {
+            "zh": "VOMZ PILAD Target Ring反射式瞄具",
+            "en": "VOMZ Pilad TargetRing reflex sight"
+          },
+          "armorClass": 0,
+          "weight": 0.21,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.58
+    },
+    "mod": {
+      "ergonomics": -10,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 13.5,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "56e31582d2720b42068b4569",
+      "required": false,
+      "filter": [
+        "5c0111ab0db834001966914d",
+        "560838c94bdc2d77798b4569",
+        "5b363dea5acfc4771e1c5e7e"
+      ]
+    },
+    {
+      "name": "mod_mount",
+      "id": "5dfe4057e9dc277128008b42",
+      "required": false,
+      "filter": [
+        "609b9e31506cf869cf3eaf41",
+        "5dfe14f30b92095fd441edaf"
+      ]
+    }
+  ],
+  "image": "/images/items/560837154bdc2da74d8b4568.jpg",
+  "isMod": false
+}

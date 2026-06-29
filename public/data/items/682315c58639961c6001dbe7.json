@@ -1,1 +1,326 @@
-{"id":"682315c58639961c6001dbe7","typeName":"Handguard","category":"mod_other","parentTypeChain":["Handguard","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"Zenit AK-12 Sport-12 护木","en":"AK-12 Zenit Sport-12 handguard"},"shortName":{"zh":"Sport-12","en":"Sport-12"},"description":{"zh":"为 AK-12 突击步枪打造的护木，由 Zenit 公司设计制造。","en":"A handguard for the AK-12 assault rifle. Manufactured by Zenit."},"weight":0.15,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":0.974,"Description":"handguard_ak12_zenit_sport_12","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":4,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.024,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"handguard_ak12_zenit_sport_12","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/handguards/handguard_ak12_zenit_sport_12.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-0.5,"RepairCost":0,"RepairSpeed":0,"ShortName":"handguard_ak12_zenit_sport_12","SightingRange":0,"Slots":[{"_name":"mod_foregrip","_id":"68235df207cdca4a09067727","_parent":"682315c58639961c6001dbe7","_props":{"filters":[{"Filter":["682317428639961c6001dbf1"],"Shift":0}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"},{"_name":"mod_mount_000","_id":"68235e0d85791536f5008353","_parent":"682315c58639961c6001dbe7","_props":{"filters":[{"Filter":["682317390ee6ef08a60e4547"],"Shift":0}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"},{"_name":"mod_mount_001","_id":"68235e2285791536f5008354","_parent":"682315c58639961c6001dbe7","_props":{"filters":[{"Filter":["682317390ee6ef08a60e4547"],"Shift":0}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"},{"_name":"mod_mount_002","_id":"68235e2285791536f5008355","_parent":"682315c58639961c6001dbe7","_props":{"filters":[{"Filter":["682317390ee6ef08a60e4547"],"Shift":0}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"},{"_name":"mod_mount_003","_id":"68235e3b85791536f5008356","_parent":"682315c58639961c6001dbe7","_props":{"filters":[{"Filter":["682315d08639961c6001dbec"],"Shift":0}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.15,"Width":2,"IsNotDeletableFromQuestStashAfterQuestComplete":false,"RagfairLevelToTrade":0,"CategoryAnimationModId":0},"mod":{"ergonomics":4,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_foregrip","id":"68235df207cdca4a09067727","required":false,"filter":["682317428639961c6001dbf1"]},{"name":"mod_mount_000","id":"68235e0d85791536f5008353","required":false,"filter":["682317390ee6ef08a60e4547"]},{"name":"mod_mount_001","id":"68235e2285791536f5008354","required":false,"filter":["682317390ee6ef08a60e4547"]},{"name":"mod_mount_002","id":"68235e2285791536f5008355","required":false,"filter":["682317390ee6ef08a60e4547"]},{"name":"mod_mount_003","id":"68235e3b85791536f5008356","required":false,"filter":["682315d08639961c6001dbec"]}],"image":null,"isMod":true}
+{
+  "id": "682315c58639961c6001dbe7",
+  "typeName": "Handguard",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Handguard",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "Zenit AK-12 Sport-12 护木",
+      "en": "AK-12 Zenit Sport-12 handguard"
+    },
+    "shortName": {
+      "zh": "Sport-12",
+      "en": "Sport-12"
+    },
+    "description": {
+      "zh": "为 AK-12 突击步枪打造的护木，由 Zenit 公司设计制造。",
+      "en": "A handguard for the AK-12 assault rifle. Manufactured by Zenit."
+    },
+    "weight": 0.48,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 0.974,
+      "Description": "handguard_ak12_zenit_sport_12",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 4,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.024,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "handguard_ak12_zenit_sport_12",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/handguards/handguard_ak12_zenit_sport_12.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -0.5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "handguard_ak12_zenit_sport_12",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_name": "mod_foregrip",
+          "_id": "68235df207cdca4a09067727",
+          "_parent": "682315c58639961c6001dbe7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "682317428639961c6001dbf1"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_000",
+          "_id": "68235e0d85791536f5008353",
+          "_parent": "682315c58639961c6001dbe7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "682317390ee6ef08a60e4547"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_001",
+          "_id": "68235e2285791536f5008354",
+          "_parent": "682315c58639961c6001dbe7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "682317390ee6ef08a60e4547"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_002",
+          "_id": "68235e2285791536f5008355",
+          "_parent": "682315c58639961c6001dbe7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "682317390ee6ef08a60e4547"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_003",
+          "_id": "68235e3b85791536f5008356",
+          "_parent": "682315c58639961c6001dbe7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "682315d08639961c6001dbec"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.15,
+      "Width": 2,
+      "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+      "RagfairLevelToTrade": 0,
+      "CategoryAnimationModId": 0
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "682317428639961c6001dbf1",
+          "name": {
+            "zh": "Zenit B-2U 导轨",
+            "en": "Zenit B-2U rail"
+          },
+          "armorClass": 0,
+          "weight": 0.07,
+          "count": 1
+        },
+        {
+          "id": "682317390ee6ef08a60e4547",
+          "name": {
+            "zh": "Zenit B-2 导轨",
+            "en": "Zenit B-2 rail"
+          },
+          "armorClass": 0,
+          "weight": 0.05,
+          "count": 3
+        },
+        {
+          "id": "682315d08639961c6001dbec",
+          "name": {
+            "zh": "Zenit AK-12 Sport-12 护木防尘盖",
+            "en": "AK-12 Zenit Sport-12 handguard cover"
+          },
+          "armorClass": 0,
+          "weight": 0.11,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.48
+    },
+    "mod": {
+      "ergonomics": 4,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_foregrip",
+      "id": "68235df207cdca4a09067727",
+      "required": false,
+      "filter": [
+        "682317428639961c6001dbf1"
+      ]
+    },
+    {
+      "name": "mod_mount_000",
+      "id": "68235e0d85791536f5008353",
+      "required": false,
+      "filter": [
+        "682317390ee6ef08a60e4547"
+      ]
+    },
+    {
+      "name": "mod_mount_001",
+      "id": "68235e2285791536f5008354",
+      "required": false,
+      "filter": [
+        "682317390ee6ef08a60e4547"
+      ]
+    },
+    {
+      "name": "mod_mount_002",
+      "id": "68235e2285791536f5008355",
+      "required": false,
+      "filter": [
+        "682317390ee6ef08a60e4547"
+      ]
+    },
+    {
+      "name": "mod_mount_003",
+      "id": "68235e3b85791536f5008356",
+      "required": false,
+      "filter": [
+        "682315d08639961c6001dbec"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

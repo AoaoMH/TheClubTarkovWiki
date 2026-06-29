@@ -1,1 +1,128 @@
-{"id":"5448ff904bdc2d6f028b456e","typeName":"Food","category":"food","parentTypeChain":["Food","FoodDrink","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b336","price":2402},"common":{"name":{"zh":"军用饼干","en":"Army crackers"},"shortName":{"zh":"饼干","en":"Crackers"},"description":{"zh":"一小包咸味饼干，常见于俄罗斯军用口粮中。","en":"A small pack of saltine crackers usually found in Russian army combat rations."},"weight":0.2,"width":1,"height":1,"rarity":"Common","backgroundColor":"default"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"default","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"Crackers","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"food_snack","LeftHandItem":false,"LootExperience":5,"MaxResource":1,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"Crackers","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_galette/item_galette_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Common","RepairCost":0,"RepairSpeed":0,"ShortName":"Crackers","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_galette/item_galette_container.bundle","rcid":""},"Weight":0.2,"Width":1,"effects_damage":[],"effects_health":{"Energy":{"value":10},"Hydration":{"value":-5}},"foodEffectType":"afterUse","foodUseTime":4},"foodDrink":{"useTime":4,"effects":{"healthEffects":[{"type":"Energy","value":10},{"type":"Hydration","value":-5}],"damageEffects":[],"stimBuffs":[]}}},"slots":[],"image":"/images/items/5448ff904bdc2d6f028b456e.jpg","isMod":false}
+{
+  "id": "5448ff904bdc2d6f028b456e",
+  "typeName": "Food",
+  "category": "food",
+  "parentTypeChain": [
+    "Food",
+    "FoodDrink",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b336",
+    "price": 2402
+  },
+  "common": {
+    "name": {
+      "zh": "军用饼干",
+      "en": "Army crackers"
+    },
+    "shortName": {
+      "zh": "饼干",
+      "en": "Crackers"
+    },
+    "description": {
+      "zh": "一小包咸味饼干，常见于俄罗斯军用口粮中。",
+      "en": "A small pack of saltine crackers usually found in Russian army combat rations."
+    },
+    "weight": 0.2,
+    "width": 1,
+    "height": 1,
+    "rarity": "Common",
+    "backgroundColor": "default"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "default",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "Crackers",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "food_snack",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "MaxResource": 1,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "Crackers",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_galette/item_galette_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Common",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "Crackers",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_galette/item_galette_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.2,
+      "Width": 1,
+      "effects_damage": [],
+      "effects_health": {
+        "Energy": {
+          "value": 10
+        },
+        "Hydration": {
+          "value": -5
+        }
+      },
+      "foodEffectType": "afterUse",
+      "foodUseTime": 4
+    },
+    "foodDrink": {
+      "useTime": 4,
+      "effects": {
+        "healthEffects": [
+          {
+            "type": "Energy",
+            "value": 10
+          },
+          {
+            "type": "Hydration",
+            "value": -5
+          }
+        ],
+        "damageEffects": [],
+        "stimBuffs": []
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5448ff904bdc2d6f028b456e.jpg",
+  "isMod": false
+}

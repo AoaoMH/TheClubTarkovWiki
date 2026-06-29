@@ -1,1 +1,139 @@
-{"id":"679ba90d269ddfea47012159","typeName":"Knife","category":"knife","parentTypeChain":["Knife","Item"],"handbook":{"categoryId":"5b5f7a0886f77409407a7f96","price":45000},"common":{"name":{"zh":"系链双刃斧","en":"Chained Labrys"},"shortName":{"zh":"双刃斧","en":"Labrys"},"description":{"zh":"用下水道井盖打造而成的双手斧……重到这个地步已经不是一般的斧子了，无论开不开刃，都能一斧头把人脑袋劈成两半。","en":"A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not."},"weight":19.08,"width":5,"height":5,"rarity":"Not_exist","backgroundColor":"violet"},"properties":{"_raw":{"AdditionalAnimationLayer":12,"AnimationVariantsNumber":0,"AppliedHeadRotation":{"x":4,"y":8,"z":0},"AppliedTrunkRotation":{"x":15,"y":30,"z":0},"BackgroundColor":"violet","CanRequireOnRagfair":false,"CanSellOnRagfair":false,"ColliderScaleMultiplier":{"x":1.15,"y":1.35,"z":1.15},"ConflictingItems":[],"DeflectionConsumption":3,"Description":"weapon_labris_axe","DiscardLimit":-1,"DiscardingBlock":false,"DisplayOnModel":true,"DropSoundType":"None","Durability":90,"ExamineExperience":1000,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":5,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"knife_generic","LeftHandItem":false,"LootExperience":15,"MaxDurability":90,"MaxRepairDegradation":0.01,"MaxResource":0,"MergesWithChildren":false,"MetascoreGroup":"Firepower","MinRepairDegradation":0,"Name":"weapon_labris_axe","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/labris/weapon_labris_axe_container.bundle","rcid":""},"PrimaryConsumption":10,"PrimaryDistance":0.9,"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"SecondryConsumption":13,"SecondryDistance":0.9,"ShortName":"weapon_labris_axe","SlashPenetration":1,"StabPenetration":1,"StackMaxSize":1,"StackObjectsCount":1,"StaminaBurnRate":1,"StimulatorBuffs":"Buffs_hultafors","Unlootable":true,"UnlootableFromSide":["Bear","Usec","Savage"],"UnlootableFromSlot":"Scabbard","UsePrefab":{"path":"","rcid":""},"Weight":19.08,"Width":5,"knifeDurab":90,"knifeHitDelay":0,"knifeHitRadius":0.9,"knifeHitSlashDam":166,"knifeHitSlashRate":0,"knifeHitStabDam":199,"knifeHitStabRate":1}},"slots":[],"image":"/images/items/679ba90d269ddfea47012159.webp","isMod":false}
+{
+  "id": "679ba90d269ddfea47012159",
+  "typeName": "Knife",
+  "category": "knife",
+  "parentTypeChain": [
+    "Knife",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f7a0886f77409407a7f96",
+    "price": 45000
+  },
+  "common": {
+    "name": {
+      "zh": "系链双刃斧",
+      "en": "Chained Labrys"
+    },
+    "shortName": {
+      "zh": "双刃斧",
+      "en": "Labrys"
+    },
+    "description": {
+      "zh": "用下水道井盖打造而成的双手斧……重到这个地步已经不是一般的斧子了，无论开不开刃，都能一斧头把人脑袋劈成两半。",
+      "en": "A two-handed axe made out of a sewer hatch... With that weight, a single blow is enough to split a skull, whether the blade is sharp or not."
+    },
+    "weight": 19.08,
+    "width": 5,
+    "height": 5,
+    "rarity": "Not_exist",
+    "backgroundColor": "violet"
+  },
+  "properties": {
+    "_raw": {
+      "AdditionalAnimationLayer": 12,
+      "AnimationVariantsNumber": 0,
+      "AppliedHeadRotation": {
+        "x": 4,
+        "y": 8,
+        "z": 0
+      },
+      "AppliedTrunkRotation": {
+        "x": 15,
+        "y": 30,
+        "z": 0
+      },
+      "BackgroundColor": "violet",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "ColliderScaleMultiplier": {
+        "x": 1.15,
+        "y": 1.35,
+        "z": 1.15
+      },
+      "ConflictingItems": [],
+      "DeflectionConsumption": 3,
+      "Description": "weapon_labris_axe",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DisplayOnModel": true,
+      "DropSoundType": "None",
+      "Durability": 90,
+      "ExamineExperience": 1000,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 5,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "knife_generic",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "MaxDurability": 90,
+      "MaxRepairDegradation": 0.01,
+      "MaxResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Firepower",
+      "MinRepairDegradation": 0,
+      "Name": "weapon_labris_axe",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/labris/weapon_labris_axe_container.bundle",
+        "rcid": ""
+      },
+      "PrimaryConsumption": 10,
+      "PrimaryDistance": 0.9,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SecondryConsumption": 13,
+      "SecondryDistance": 0.9,
+      "ShortName": "weapon_labris_axe",
+      "SlashPenetration": 1,
+      "StabPenetration": 1,
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StaminaBurnRate": 1,
+      "StimulatorBuffs": "Buffs_hultafors",
+      "Unlootable": true,
+      "UnlootableFromSide": [
+        "Bear",
+        "Usec",
+        "Savage"
+      ],
+      "UnlootableFromSlot": "Scabbard",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 19.08,
+      "Width": 5,
+      "knifeDurab": 90,
+      "knifeHitDelay": 0,
+      "knifeHitRadius": 0.9,
+      "knifeHitSlashDam": 166,
+      "knifeHitSlashRate": 0,
+      "knifeHitStabDam": 199,
+      "knifeHitStabRate": 1
+    }
+  },
+  "slots": [],
+  "image": "/images/items/679ba90d269ddfea47012159.webp",
+  "isMod": false
+}

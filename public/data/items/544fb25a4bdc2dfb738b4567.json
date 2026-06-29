@@ -1,1 +1,129 @@
-{"id":"544fb25a4bdc2dfb738b4567","typeName":"Medical","category":"medical","parentTypeChain":["Medical","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b339","price":1456},"common":{"name":{"zh":"无菌绷带","en":"Aseptic bandage"},"shortName":{"zh":"绷带","en":"Bandage"},"description":{"zh":"最常见的纱布绷带，经过了蒸压灭菌处理。","en":"The most common gauze bandage, autoclaved and aseptic."},"weight":0.04,"width":1,"height":1,"rarity":"Common","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_bandage","LeftHandItem":false,"LootExperience":10,"MaxHpResource":0,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"Бинт стерильный","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_bandage/item_bandage_med_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Common","RepairCost":0,"RepairSpeed":0,"ShortName":"Bandages","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_bandage/item_bandage_med_container.bundle","rcid":""},"Weight":0.04,"Width":1,"effects_damage":{"LightBleeding":{"delay":0,"duration":0,"fadeOut":0}},"effects_health":[],"hpResourceRate":0,"medEffectType":"duringUse","medUseTime":2},"medical":{"medEffectType":"duringUse","medUseTime":2,"maxHpResource":0,"hpResourceRate":0,"effects":{"healthEffects":[],"damageEffects":[{"type":"LightBleeding","delay":0,"duration":0}],"stimBuffs":[]}}},"slots":[],"image":"/images/items/544fb25a4bdc2dfb738b4567.jpg","isMod":false}
+{
+  "id": "544fb25a4bdc2dfb738b4567",
+  "typeName": "Medical",
+  "category": "medical",
+  "parentTypeChain": [
+    "Medical",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b339",
+    "price": 1456
+  },
+  "common": {
+    "name": {
+      "zh": "无菌绷带",
+      "en": "Aseptic bandage"
+    },
+    "shortName": {
+      "zh": "绷带",
+      "en": "Bandage"
+    },
+    "description": {
+      "zh": "最常见的纱布绷带，经过了蒸压灭菌处理。",
+      "en": "The most common gauze bandage, autoclaved and aseptic."
+    },
+    "weight": 0.04,
+    "width": 1,
+    "height": 1,
+    "rarity": "Common",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_bandage",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "Бинт стерильный",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_bandage/item_bandage_med_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Common",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "Bandages",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_bandage/item_bandage_med_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.04,
+      "Width": 1,
+      "effects_damage": {
+        "LightBleeding": {
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0
+        }
+      },
+      "effects_health": [],
+      "hpResourceRate": 0,
+      "medEffectType": "duringUse",
+      "medUseTime": 2
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 2,
+      "maxHpResource": 0,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [
+          {
+            "type": "LightBleeding",
+            "delay": 0,
+            "duration": 0
+          }
+        ],
+        "stimBuffs": []
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/544fb25a4bdc2dfb738b4567.jpg",
+  "isMod": false
+}

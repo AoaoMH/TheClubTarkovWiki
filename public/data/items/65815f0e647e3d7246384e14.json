@@ -1,1 +1,128 @@
-{"id":"65815f0e647e3d7246384e14","typeName":"Food","category":"food","parentTypeChain":["Food","FoodDrink","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b336","price":19632},"common":{"name":{"zh":"塔克肉干","en":"Pack of Tarker dried meat"},"shortName":{"zh":"塔克肉干","en":"Tarker"},"description":{"zh":"真空包装的牛肉干。超好吃。","en":"A vacuum pack with slices of beef jerky. Yum yum."},"weight":0.28,"width":1,"height":1,"rarity":"Rare","backgroundColor":"default"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"default","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"item_food_sprats","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":100,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"food_snack","LeftHandItem":false,"LootExperience":5,"MaxResource":1,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"item_food_sprats","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_food_snacker_beef/item_food_snacker_beef_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Rare","RepairCost":0,"RepairSpeed":0,"ShortName":"item_food_sprats","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_food_snacker_beef/item_food_snacker_beef_container.bundle","rcid":""},"Weight":0.28,"Width":1,"effects_damage":[],"effects_health":{"Energy":{"value":55},"Hydration":{"value":-5}},"foodEffectType":"afterUse","foodUseTime":4},"foodDrink":{"useTime":4,"effects":{"healthEffects":[{"type":"Energy","value":55},{"type":"Hydration","value":-5}],"damageEffects":[],"stimBuffs":[]}}},"slots":[],"image":"/images/items/65815f0e647e3d7246384e14.webp","isMod":false}
+{
+  "id": "65815f0e647e3d7246384e14",
+  "typeName": "Food",
+  "category": "food",
+  "parentTypeChain": [
+    "Food",
+    "FoodDrink",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b336",
+    "price": 19632
+  },
+  "common": {
+    "name": {
+      "zh": "塔克肉干",
+      "en": "Pack of Tarker dried meat"
+    },
+    "shortName": {
+      "zh": "塔克肉干",
+      "en": "Tarker"
+    },
+    "description": {
+      "zh": "真空包装的牛肉干。超好吃。",
+      "en": "A vacuum pack with slices of beef jerky. Yum yum."
+    },
+    "weight": 0.28,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "default"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "default",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "item_food_sprats",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 100,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "food_snack",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "MaxResource": 1,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "item_food_sprats",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_food_snacker_beef/item_food_snacker_beef_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "item_food_sprats",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_food_snacker_beef/item_food_snacker_beef_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.28,
+      "Width": 1,
+      "effects_damage": [],
+      "effects_health": {
+        "Energy": {
+          "value": 55
+        },
+        "Hydration": {
+          "value": -5
+        }
+      },
+      "foodEffectType": "afterUse",
+      "foodUseTime": 4
+    },
+    "foodDrink": {
+      "useTime": 4,
+      "effects": {
+        "healthEffects": [
+          {
+            "type": "Energy",
+            "value": 55
+          },
+          {
+            "type": "Hydration",
+            "value": -5
+          }
+        ],
+        "damageEffects": [],
+        "stimBuffs": []
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/65815f0e647e3d7246384e14.webp",
+  "isMod": false
+}

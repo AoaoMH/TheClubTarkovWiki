@@ -1,1 +1,209 @@
-{"id":"6840eb5bce5018a937eb9527","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"勃朗宁 Auto-5 12英寸12铅径枪管（迷彩涂装）","en":"Browning Auto-5 12ga 12 inch barrel (Camo)"},"shortName":{"zh":"Auto-5 12英寸","en":"Auto-5 12\""},"description":{"zh":"一款12英寸（305毫米）迷彩涂装定制短管，适用于勃朗宁Auto-5型12铅径霰弹枪。","en":"A 12 inch (305mm) camo painted custom length shortened barrel for the Browning Auto-5 12 gauge shotgun."},"weight":0.15,"width":3,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.62,"ConflictingItems":[],"CoolFactor":0.96,"Description":"Стандартный заводской ствол для ружья МР-133 длинной 510мм.","DeviationCurve":3,"DeviationMax":9,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":0.95,"EffectiveDistance":0,"Ergonomics":-5.5,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.92,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Ствол 510мм для МР-133 12к ","NotShownInSlot":false,"Prefab":{"path":"WeaponAuto5/auto5_barrel_boss.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-7.5,"RepairCost":0,"RepairSpeed":0,"ShortName":"510мм МР-133","ShotgunDispersion":1.55,"SightingRange":0,"Slots":[{"_id":"669fcb24100457fa919e650b","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"669fcc072ce7ed70082a6272","_props":{"filters":[{"Filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":5.4,"Weight":0.15,"Width":3},"mod":{"ergonomics":-5.5,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":5.4,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"669fcb24100457fa919e650b","required":false,"filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"]}],"image":null,"isMod":true}
+{
+  "id": "6840eb5bce5018a937eb9527",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "勃朗宁 Auto-5 12英寸12铅径枪管（迷彩涂装）",
+      "en": "Browning Auto-5 12ga 12 inch barrel (Camo)"
+    },
+    "shortName": {
+      "zh": "Auto-5 12英寸",
+      "en": "Auto-5 12\""
+    },
+    "description": {
+      "zh": "一款12英寸（305毫米）迷彩涂装定制短管，适用于勃朗宁Auto-5型12铅径霰弹枪。",
+      "en": "A 12 inch (305mm) camo painted custom length shortened barrel for the Browning Auto-5 12 gauge shotgun."
+    },
+    "weight": 0.27,
+    "width": 3,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.62,
+      "ConflictingItems": [],
+      "CoolFactor": 0.96,
+      "Description": "Стандартный заводской ствол для ружья МР-133 длинной 510мм.",
+      "DeviationCurve": 3,
+      "DeviationMax": 9,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 0.95,
+      "EffectiveDistance": 0,
+      "Ergonomics": -5.5,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.92,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Ствол 510мм для МР-133 12к ",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponAuto5/auto5_barrel_boss.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -7.5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "510мм МР-133",
+      "ShotgunDispersion": 1.55,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "669fcb24100457fa919e650b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "669fcc072ce7ed70082a6272",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0111ab0db834001966914d",
+                  "560838c94bdc2d77798b4569",
+                  "5b363dea5acfc4771e1c5e7e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 5.4,
+      "Weight": 0.15,
+      "Width": 3
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5c0111ab0db834001966914d",
+          "name": {
+            "zh": "ME Cylinder 12铅径膛口转接器",
+            "en": "ME Cylinder 12ga muzzle adapter"
+          },
+          "armorClass": 0,
+          "weight": 0.12,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.27
+    },
+    "mod": {
+      "ergonomics": -5.5,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 5.4,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "669fcb24100457fa919e650b",
+      "required": false,
+      "filter": [
+        "5c0111ab0db834001966914d",
+        "560838c94bdc2d77798b4569",
+        "5b363dea5acfc4771e1c5e7e"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

@@ -1,1 +1,182 @@
-{"id":"6165ac8c290d254f5e6b2f6c","typeName":"Collimator","category":"mod_scope","parentTypeChain":["Collimator","Sights","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f742686f774093e6cb4ff","price":12200},"common":{"name":{"zh":"Leapers UTG反射式瞄具","en":"Leapers UTG reflex sight"},"shortName":{"zh":"UTG","en":"UTG"},"description":{"zh":"带有红色/绿色圆点的UTG反射式瞄具。","en":"The UTG reflex sight with a Red/Green circle dot, manufactured by Leapers Inc. This model is a compact, small-size reflex sight, which mounts on Weaver/Picatinny rails."},"weight":0.227,"width":1,"height":1,"rarity":"Common","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AdjustableOpticSensitivity":0,"AdjustableOpticSensitivityMax":0,"AimSensitivity":[[0.65,0.65]],"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CalibrationDistances":[[50,100,150,200]],"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CustomAimPlane":"","Description":"scope_all_holosun_hs401g5","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-3,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAdjustableOptic":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","MinMaxFov":{"x":0,"y":0,"z":0},"ModesCount":[2],"Name":"scope_all_holosun_hs401g5","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/scopes/scope_all_leapers_utg_38_ita_1x30.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Common","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ScopesCount":1,"ShortName":"scope_all_holosun_hs401g5","SightingRange":300,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.227,"Width":1,"ZoomSensitivity":0,"Zooms":[[1,1]],"sightModType":"reflex"},"mod":{"ergonomics":-3,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"1-1x","sightingRange":300,"sightModType":"reflex","calibrationDistances":[50,100,150,200],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[],"image":"/images/items/6165ac8c290d254f5e6b2f6c.jpg","isMod":false}
+{
+  "id": "6165ac8c290d254f5e6b2f6c",
+  "typeName": "Collimator",
+  "category": "mod_scope",
+  "parentTypeChain": [
+    "Collimator",
+    "Sights",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f742686f774093e6cb4ff",
+    "price": 12200
+  },
+  "common": {
+    "name": {
+      "zh": "Leapers UTG反射式瞄具",
+      "en": "Leapers UTG reflex sight"
+    },
+    "shortName": {
+      "zh": "UTG",
+      "en": "UTG"
+    },
+    "description": {
+      "zh": "带有红色/绿色圆点的UTG反射式瞄具。",
+      "en": "The UTG reflex sight with a Red/Green circle dot, manufactured by Leapers Inc. This model is a compact, small-size reflex sight, which mounts on Weaver/Picatinny rails."
+    },
+    "weight": 0.227,
+    "width": 1,
+    "height": 1,
+    "rarity": "Common",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0,
+      "AimSensitivity": [
+        [
+          0.65,
+          0.65
+        ]
+      ],
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200
+        ]
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CustomAimPlane": "",
+      "Description": "scope_all_holosun_hs401g5",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -3,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAdjustableOptic": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ModesCount": [
+        2
+      ],
+      "Name": "scope_all_holosun_hs401g5",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/scopes/scope_all_leapers_utg_38_ita_1x30.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Common",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ScopesCount": 1,
+      "ShortName": "scope_all_holosun_hs401g5",
+      "SightingRange": 300,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.227,
+      "Width": 1,
+      "ZoomSensitivity": 0,
+      "Zooms": [
+        [
+          1,
+          1
+        ]
+      ],
+      "sightModType": "reflex"
+    },
+    "mod": {
+      "ergonomics": -3,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "1-1x",
+      "sightingRange": 300,
+      "sightModType": "reflex",
+      "calibrationDistances": [
+        50,
+        100,
+        150,
+        200
+      ],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [],
+  "image": "/images/items/6165ac8c290d254f5e6b2f6c.jpg",
+  "isMod": false
+}

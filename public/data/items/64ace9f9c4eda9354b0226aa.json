@@ -1,1 +1,123 @@
-{"id":"64ace9f9c4eda9354b0226aa","typeName":"AmmoBox","category":"ammobox","parentTypeChain":["AmmoBox","StackableItem","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b33c","price":1000},"common":{"name":{"zh":"7.62x39mm PP gzh弹药包（20发装）","en":"7.62x39mm PP gzh ammo pack (20 pcs)"},"shortName":{"zh":"PP","en":"PP"},"description":{"zh":"一盒7.62x39 PP gzh弹药，20发装。","en":"A 20-round package of 7.62x39 PP gzh cartridges."},"weight":0.015,"width":1,"height":1,"rarity":"Rare","backgroundColor":"yellow"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"yellow","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"ammo_box_762x39_20_PS","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":true,"InsuranceDisabled":true,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"ammo_pack_generic","LeftHandItem":false,"LootExperience":0,"MergesWithChildren":false,"Name":"ammo_box_762x39_20_PS","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/ammo/boxes/item_ammo_box_762x39_pp.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Rare","RepairCost":0,"RepairSpeed":0,"ShortName":"ammo_box_762x39_20_PS","StackMaxRandom":20,"StackMaxSize":1,"StackMinRandom":20,"StackObjectsCount":1,"StackSlots":[{"_id":"64ace9f9c4eda9354b0226ab","_max_count":20,"_name":"cartridges","_parent":"64ace9f9c4eda9354b0226aa","_props":{"filters":[{"Filter":["64b7af434b75259c590fa893"]}]},"_proto":"5748538b2459770af276a261"}],"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":0.015,"Width":1,"ammoCaliber":"Caliber762x39"},"ammoBox":{"ammoId":"64b7af434b75259c590fa893","caliber":"762x39","count":20}},"slots":[],"image":"/images/items/64ace9f9c4eda9354b0226aa.webp","isMod":false}
+{
+  "id": "64ace9f9c4eda9354b0226aa",
+  "typeName": "AmmoBox",
+  "category": "ammobox",
+  "parentTypeChain": [
+    "AmmoBox",
+    "StackableItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b33c",
+    "price": 1000
+  },
+  "common": {
+    "name": {
+      "zh": "7.62x39mm PP gzh弹药包（20发装）",
+      "en": "7.62x39mm PP gzh ammo pack (20 pcs)"
+    },
+    "shortName": {
+      "zh": "PP",
+      "en": "PP"
+    },
+    "description": {
+      "zh": "一盒7.62x39 PP gzh弹药，20发装。",
+      "en": "A 20-round package of 7.62x39 PP gzh cartridges."
+    },
+    "weight": 0.015,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "yellow"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "ammo_box_762x39_20_PS",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": true,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "ammo_pack_generic",
+      "LeftHandItem": false,
+      "LootExperience": 0,
+      "MergesWithChildren": false,
+      "Name": "ammo_box_762x39_20_PS",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/ammo/boxes/item_ammo_box_762x39_pp.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "ammo_box_762x39_20_PS",
+      "StackMaxRandom": 20,
+      "StackMaxSize": 1,
+      "StackMinRandom": 20,
+      "StackObjectsCount": 1,
+      "StackSlots": [
+        {
+          "_id": "64ace9f9c4eda9354b0226ab",
+          "_max_count": 20,
+          "_name": "cartridges",
+          "_parent": "64ace9f9c4eda9354b0226aa",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "64b7af434b75259c590fa893"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.015,
+      "Width": 1,
+      "ammoCaliber": "Caliber762x39"
+    },
+    "ammoBox": {
+      "ammoId": "64b7af434b75259c590fa893",
+      "caliber": "762x39",
+      "count": 20
+    }
+  },
+  "slots": [],
+  "image": "/images/items/64ace9f9c4eda9354b0226aa.webp",
+  "isMod": false
+}

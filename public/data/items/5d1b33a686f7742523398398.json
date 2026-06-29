@@ -1,1 +1,236 @@
-{"id":"5d1b33a686f7742523398398","typeName":"Drink","category":"drink","parentTypeChain":["Drink","FoodDrink","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b335","price":50000},"common":{"name":{"zh":"纯净水","en":"Canister with purified water"},"shortName":{"zh":"Superwater","en":"Superwater"},"description":{"zh":"浓缩纯化过的水，不仅好喝，还有利于健康。一口闷，吨吨吨！","en":"Enriched purified water, which is not only delicious, but also good for your health. Chug all of it in one go, we dare you."},"weight":3.3,"width":2,"height":2,"rarity":"Superrare","backgroundColor":"violet"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"violet","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"item_food_purewater","DiscardLimit":1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":2,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"food_bottle","LeftHandItem":false,"LootExperience":20,"MaxResource":1,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"item_food_purewater","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/food/item_food_purewater/item_food_purewater.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"item_food_purewater","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_drink_purewater","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_drink_purewater/item_drink_purewater_container.bundle","rcid":""},"Weight":3.3,"Width":2,"effects_damage":{"RadExposure":{"delay":0,"duration":0}},"effects_health":{"Energy":{"value":25},"Hydration":{"value":100}},"foodEffectType":"afterUse","foodUseTime":15},"foodDrink":{"useTime":15,"effects":{"healthEffects":[{"type":"Energy","value":25},{"type":"Hydration","value":100}],"damageEffects":[{"type":"RadExposure","delay":0,"duration":0}],"stimBuffs":[{"buffType":"HealthRate","skillName":"","value":1,"delay":3,"duration":60,"chance":1},{"buffType":"SkillRate","skillName":"Endurance","value":1,"delay":1,"duration":600,"chance":1},{"buffType":"SkillRate","skillName":"Strength","value":1,"delay":1,"duration":600,"chance":1},{"buffType":"SkillRate","skillName":"Vitality","value":1,"delay":1,"duration":600,"chance":1},{"buffType":"SkillRate","skillName":"Health","value":1,"delay":1,"duration":600,"chance":1},{"buffType":"SkillRate","skillName":"StressResistance","value":1,"delay":1,"duration":600,"chance":1},{"buffType":"SkillRate","skillName":"Metabolism","value":1,"delay":1,"duration":600,"chance":1},{"buffType":"SkillRate","skillName":"Immunity","value":1,"delay":1,"duration":600,"chance":1},{"buffType":"SkillRate","skillName":"Intellect","value":1,"delay":1,"duration":600,"chance":1},{"buffType":"SkillRate","skillName":"Memory","value":1,"delay":1,"duration":600,"chance":1},{"buffType":"SkillRate","skillName":"Perception","value":1,"delay":1,"duration":600,"chance":1},{"buffType":"SkillRate","skillName":"Attention","value":1,"delay":1,"duration":600,"chance":1}]}}},"slots":[],"image":"/images/items/5d1b33a686f7742523398398.jpg","isMod":false}
+{
+  "id": "5d1b33a686f7742523398398",
+  "typeName": "Drink",
+  "category": "drink",
+  "parentTypeChain": [
+    "Drink",
+    "FoodDrink",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 50000
+  },
+  "common": {
+    "name": {
+      "zh": "纯净水",
+      "en": "Canister with purified water"
+    },
+    "shortName": {
+      "zh": "Superwater",
+      "en": "Superwater"
+    },
+    "description": {
+      "zh": "浓缩纯化过的水，不仅好喝，还有利于健康。一口闷，吨吨吨！",
+      "en": "Enriched purified water, which is not only delicious, but also good for your health. Chug all of it in one go, we dare you."
+    },
+    "weight": 3.3,
+    "width": 2,
+    "height": 2,
+    "rarity": "Superrare",
+    "backgroundColor": "violet"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "violet",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "item_food_purewater",
+      "DiscardLimit": 1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "food_bottle",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MaxResource": 1,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "item_food_purewater",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/food/item_food_purewater/item_food_purewater.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "item_food_purewater",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_drink_purewater",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_drink_purewater/item_drink_purewater_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 3.3,
+      "Width": 2,
+      "effects_damage": {
+        "RadExposure": {
+          "delay": 0,
+          "duration": 0
+        }
+      },
+      "effects_health": {
+        "Energy": {
+          "value": 25
+        },
+        "Hydration": {
+          "value": 100
+        }
+      },
+      "foodEffectType": "afterUse",
+      "foodUseTime": 15
+    },
+    "foodDrink": {
+      "useTime": 15,
+      "effects": {
+        "healthEffects": [
+          {
+            "type": "Energy",
+            "value": 25
+          },
+          {
+            "type": "Hydration",
+            "value": 100
+          }
+        ],
+        "damageEffects": [
+          {
+            "type": "RadExposure",
+            "delay": 0,
+            "duration": 0
+          }
+        ],
+        "stimBuffs": [
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": 1,
+            "delay": 3,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 1,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 1,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Vitality",
+            "value": 1,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": 1,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "StressResistance",
+            "value": 1,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Metabolism",
+            "value": 1,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Immunity",
+            "value": 1,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Intellect",
+            "value": 1,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Memory",
+            "value": 1,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Perception",
+            "value": 1,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Attention",
+            "value": 1,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5d1b33a686f7742523398398.jpg",
+  "isMod": false
+}

@@ -1,1 +1,238 @@
-{"id":"5ed5166ad380ab312177c100","typeName":"Stimulator","category":"stimulator","parentTypeChain":["Stimulator","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b33a","price":61893},"common":{"name":{"zh":"Obdolbos 鸡尾酒兴奋剂注射器","en":"Obdolbos cocktail injector"},"shortName":{"zh":"Obdolbos","en":"Obdolbos"},"description":{"zh":"装有自制药品的注射器，由 TerraGroup Labs 的前雇员制作，每次的副作用都不一样。如果你觉得你没什么可失去的了，也可以冒这个险。","en":"A syringe with a homemade drug, authored by a former employee of TerraGroup Labs. The negative effects are different each time. You could take the risk, got nothing to lose anyway."},"weight":0.05,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"","DiscardLimit":2,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":100,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_stimulator","LeftHandItem":false,"LootExperience":10,"MaxHpResource":0,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"Obdolbos","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_obdolbos_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"Obdolbos","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_Obdolbos","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_obdolbos_container.bundle","rcid":""},"Weight":0.05,"Width":1,"effects_damage":[],"effects_health":[],"hpResourceRate":0,"medEffectType":"duringUse","medUseTime":2},"medical":{"medEffectType":"duringUse","medUseTime":2,"maxHpResource":0,"hpResourceRate":0,"effects":{"healthEffects":[],"damageEffects":[],"stimBuffs":[{"buffType":"SkillRate","skillName":"Endurance","value":10,"delay":0,"duration":600,"chance":0.25},{"buffType":"SkillRate","skillName":"Strength","value":10,"delay":0,"duration":600,"chance":0.25},{"buffType":"SkillRate","skillName":"Intellect","value":10,"delay":0,"duration":600,"chance":0.25},{"buffType":"SkillRate","skillName":"Attention","value":10,"delay":0,"duration":600,"chance":0.25},{"buffType":"SkillRate","skillName":"StressResistance","value":10,"delay":0,"duration":600,"chance":0.25},{"buffType":"SkillRate","skillName":"Charisma","value":10,"delay":0,"duration":600,"chance":0.25},{"buffType":"MaxStamina","skillName":"","value":20,"delay":0,"duration":600,"chance":0.25},{"buffType":"HealthRate","skillName":"","value":1,"delay":0,"duration":600,"chance":0.25},{"buffType":"StaminaRate","skillName":"","value":1,"delay":0,"duration":600,"chance":0.25},{"buffType":"WeightLimit","skillName":"","value":0.1,"delay":0,"duration":600,"chance":0.25},{"buffType":"DamageModifier","skillName":"","value":0.2,"delay":0,"duration":600,"chance":0.25},{"buffType":"HandsTremor","skillName":"","value":0,"delay":0,"duration":600,"chance":0.25},{"buffType":"HydrationRate","skillName":"","value":-1,"delay":0,"duration":600,"chance":0.25},{"buffType":"EnergyRate","skillName":"","value":-1,"delay":0,"duration":600,"chance":0.25},{"buffType":"HealthRate","skillName":"","value":-600,"delay":0,"duration":600,"chance":0.25}]}}},"slots":[],"image":"/images/items/5ed5166ad380ab312177c100.jpg","isMod":false}
+{
+  "id": "5ed5166ad380ab312177c100",
+  "typeName": "Stimulator",
+  "category": "stimulator",
+  "parentTypeChain": [
+    "Stimulator",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b33a",
+    "price": 61893
+  },
+  "common": {
+    "name": {
+      "zh": "Obdolbos 鸡尾酒兴奋剂注射器",
+      "en": "Obdolbos cocktail injector"
+    },
+    "shortName": {
+      "zh": "Obdolbos",
+      "en": "Obdolbos"
+    },
+    "description": {
+      "zh": "装有自制药品的注射器，由 TerraGroup Labs 的前雇员制作，每次的副作用都不一样。如果你觉得你没什么可失去的了，也可以冒这个险。",
+      "en": "A syringe with a homemade drug, authored by a former employee of TerraGroup Labs. The negative effects are different each time. You could take the risk, got nothing to lose anyway."
+    },
+    "weight": 0.05,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "",
+      "DiscardLimit": 2,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 100,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_stimulator",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "Obdolbos",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_obdolbos_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "Obdolbos",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_Obdolbos",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_obdolbos_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.05,
+      "Width": 1,
+      "effects_damage": [],
+      "effects_health": [],
+      "hpResourceRate": 0,
+      "medEffectType": "duringUse",
+      "medUseTime": 2
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 2,
+      "maxHpResource": 0,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [],
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Intellect",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Attention",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "StressResistance",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Charisma",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 20,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": 1,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 1,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "WeightLimit",
+            "skillName": "",
+            "value": 0.1,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "DamageModifier",
+            "skillName": "",
+            "value": 0.2,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "HydrationRate",
+            "skillName": "",
+            "value": -1,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -1,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          },
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": -600,
+            "delay": 0,
+            "duration": 600,
+            "chance": 0.25
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5ed5166ad380ab312177c100.jpg",
+  "isMod": false
+}

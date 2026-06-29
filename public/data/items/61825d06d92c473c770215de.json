@@ -1,1 +1,238 @@
-{"id":"61825d06d92c473c770215de","typeName":"Stock","category":"mod_stock","parentTypeChain":["Stock","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f757486f774093e6cb507","price":6500},"common":{"name":{"zh":"FN SCAR 折叠式聚合物枪托 （FDE）","en":"FN SCAR folding polymer stock (FDE)"},"shortName":{"zh":"SCAR折叠式","en":"SCAR fold."},"description":{"zh":"适用于SCAR系列步枪的聚合物枪托。","en":"A folding polymer stock for the SCAR-series rifles, manufactured by Fabrique Nationale Herstal. Flat Dark Earth version."},"weight":0.35,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"stock_mk16_fn_scar_folding_stock_fde","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":0,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":1,"ExtraSizeUp":0,"Foldable":false,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":true,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":true,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsShoulderContact":true,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"stock_mk16_fn_scar_folding_stock_fde","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/stocks/stock_mk16_fn_scar_folding_stock_fde.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-4,"RepairCost":0,"RepairSpeed":0,"Retractable":false,"ShortName":"stock_mk16_fn_scar_folding_stock_fde","SightingRange":0,"SizeReduceRight":1,"Slots":[{"_id":"61825d06d92c473c770215e0","_mergeSlotWithChildren":false,"_name":"mod_stock_001","_parent":"61825d06d92c473c770215de","_props":{"filters":[{"Filter":["618167528004cc50514c34f9","61825d136ef05c2ce828f1cc","66ffc2bd132225f0fe0611d8","66ffc2ecfe9b3825960652f7"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"61825d06d92c473c770215e1","_mergeSlotWithChildren":false,"_name":"mod_stock_002","_parent":"61825d06d92c473c770215de","_props":{"filters":[{"Filter":["618167441cb55961fa0fdc71","61825d24d3a39d50044c13af"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.35,"Width":2},"mod":{"ergonomics":0,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_stock_001","id":"61825d06d92c473c770215e0","required":true,"filter":["618167528004cc50514c34f9","61825d136ef05c2ce828f1cc","66ffc2bd132225f0fe0611d8","66ffc2ecfe9b3825960652f7"]},{"name":"mod_stock_002","id":"61825d06d92c473c770215e1","required":false,"filter":["618167441cb55961fa0fdc71","61825d24d3a39d50044c13af"]}],"image":"/images/items/61825d06d92c473c770215de.jpg","isMod":false}
+{
+  "id": "61825d06d92c473c770215de",
+  "typeName": "Stock",
+  "category": "mod_stock",
+  "parentTypeChain": [
+    "Stock",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f757486f774093e6cb507",
+    "price": 6500
+  },
+  "common": {
+    "name": {
+      "zh": "FN SCAR 折叠式聚合物枪托 （FDE）",
+      "en": "FN SCAR folding polymer stock (FDE)"
+    },
+    "shortName": {
+      "zh": "SCAR折叠式",
+      "en": "SCAR fold."
+    },
+    "description": {
+      "zh": "适用于SCAR系列步枪的聚合物枪托。",
+      "en": "A folding polymer stock for the SCAR-series rifles, manufactured by Fabrique Nationale Herstal. Flat Dark Earth version."
+    },
+    "weight": 0.41,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "stock_mk16_fn_scar_folding_stock_fde",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 1,
+      "ExtraSizeUp": 0,
+      "Foldable": false,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": true,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": true,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsShoulderContact": true,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "stock_mk16_fn_scar_folding_stock_fde",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/stocks/stock_mk16_fn_scar_folding_stock_fde.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -4,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "Retractable": false,
+      "ShortName": "stock_mk16_fn_scar_folding_stock_fde",
+      "SightingRange": 0,
+      "SizeReduceRight": 1,
+      "Slots": [
+        {
+          "_id": "61825d06d92c473c770215e0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock_001",
+          "_parent": "61825d06d92c473c770215de",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "618167528004cc50514c34f9",
+                  "61825d136ef05c2ce828f1cc",
+                  "66ffc2bd132225f0fe0611d8",
+                  "66ffc2ecfe9b3825960652f7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "61825d06d92c473c770215e1",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock_002",
+          "_parent": "61825d06d92c473c770215de",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "618167441cb55961fa0fdc71",
+                  "61825d24d3a39d50044c13af"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.35,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "618167441cb55961fa0fdc71",
+          "name": {
+            "zh": "FN SCAR托腮板",
+            "en": "FN SCAR cheek rest"
+          },
+          "armorClass": 0,
+          "weight": 0.06,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.41
+    },
+    "mod": {
+      "ergonomics": 0,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_stock_001",
+      "id": "61825d06d92c473c770215e0",
+      "required": true,
+      "filter": [
+        "618167528004cc50514c34f9",
+        "61825d136ef05c2ce828f1cc",
+        "66ffc2bd132225f0fe0611d8",
+        "66ffc2ecfe9b3825960652f7"
+      ]
+    },
+    {
+      "name": "mod_stock_002",
+      "id": "61825d06d92c473c770215e1",
+      "required": false,
+      "filter": [
+        "618167441cb55961fa0fdc71",
+        "61825d24d3a39d50044c13af"
+      ]
+    }
+  ],
+  "image": "/images/items/61825d06d92c473c770215de.jpg",
+  "isMod": false
+}

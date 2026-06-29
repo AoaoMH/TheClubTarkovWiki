@@ -1,1 +1,916 @@
-{"id":"6671ebcdd32bd95eb398e920","typeName":"AssaultRifle","category":"weapon","parentTypeChain":["AssaultRifle","Weapon","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"博福斯Ak5C 5.56x45毫米突击步枪","en":"Bofors Ak5C 5.56x45 assault rifle"},"shortName":{"zh":"Ak5C","en":"Ak5C"},"description":{"zh":"Ak5C是原版Ak5的现代化版本，即比利时FN FNC突击步枪的瑞典授权型号。该枪由萨博博福斯动力公司为瑞典军方特许生产，采用5.56×45毫米北约标准弹，射速650发/分钟，后坐力较低。","en":"The Ak5C is the modernized version of the original Ak 5, the Swedish version of the Belgian FN FNC assault rifle. Manufactured under license from FN by Saab Bofors Dynamics for the Swedish military, it fires at a cyclic rate of 650 rpm and has low recoil. It uses the standard 5.56x45mm NATO round."},"weight":2.74,"width":4,"height":1,"rarity":"Rare","backgroundColor":"black"},"properties":{"_raw":{"AdjustCollimatorsToTrajectory":false,"AimPlane":0.16,"AimSensitivity":0.65,"AllowFeed":true,"AllowJam":true,"AllowMisfire":true,"AllowOverheat":true,"AllowSlide":true,"AnimationVariantsNumber":0,"BackgroundColor":"black","BaseMalfunctionChance":0.15,"BoltAction":false,"BurstShotsCount":3,"CameraSnap":3.5,"CameraToWeaponAngleSpeedRange":{"x":0.1,"y":0.2,"z":0},"CameraToWeaponAngleStep":0.1,"CanPutIntoDuringTheRaid":true,"CanQueueSecondShot":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CanUnloadAmmoByPlayer":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.044,"Chambers":[{"_id":"56eaa85ad2720b69698b456c","_mergeSlotWithChildren":false,"_name":"patron_in_weapon","_parent":"5447a9cd4bdc2dbd208b4567","_props":{"filters":[{"Filter":["59e6920f86f77411d82aa167","59e6927d86f77411da468256","54527a984bdc2d4e668b4567","54527ac44bdc2d36668b4567","59e68f6f86f7746c9f75e846","59e6906286f7746c9f75e847","59e690b686f7746c9f75e848","59e6918f86f7746c9f75e849","60194943740c5d77f6705eea","601949593ae8f707c4608daa","5c0d5ae286f7741e46554302"]}]},"_proto":"55d4af244bdc2d962f8b4571","_required":false}],"CompactHandling":true,"ConflictingItems":[],"CoolFactorGun":3.168,"CoolFactorGunMods":1,"Description":"Colt M4A1- штурмовая винтовка (карабин) созданная в США на базе платформы AR-15 под патрон 5.56x45 NATO. Планировалась к вооружению экипажей боевых машин и расчетов техники, которым было необходимо иметь оружие меньших габаритов чем штатное вооружение но использующее стандартный боеприпас. Однако вскоре US SOCOM (Командование Сил Специальных Операций США) приняло на вооружение M4A1 для всех входящих в его состав подразделений. Затем последовало полное принятие M4A1 на вооружение в армии и морской пехоте США.","DeviationCurve":1.35,"DeviationMax":23,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenalty":1.5,"DropSoundType":"Rifle","Durability":100,"DurabilityBurnRatio":1.13,"Ergonomics":50,"ExamineExperience":8,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Foldable":true,"FoldedSlot":"mod_stock","ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HeatFactorByShot":1.15,"HeatFactorGun":1,"Height":1,"HideEntrails":false,"HipAccuracyRestorationDelay":0.2,"HipAccuracyRestorationSpeed":7,"HipInnaccuracyGain":0.16,"InsuranceDisabled":false,"IronSightRange":100,"IsAlwaysAvailableForInsurance":false,"IsBeltMachineGun":false,"IsFlareGun":false,"IsGrenadeLauncher":false,"IsLockedafterEquip":false,"IsMountable":true,"IsOneoff":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsStationaryWeapon":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"weap_ar","LeftHandItem":false,"LootExperience":5,"ManualBoltCatch":false,"MaxDurability":100,"MaxRepairDegradation":0.03,"MaxRepairKitDegradation":0.025,"MergesWithChildren":true,"MetascoreGroup":"Firepower","MinRepairDegradation":0,"MinRepairKitDegradation":0,"MountCameraSnapMultiplier":3,"MountHorizontalRecoilMultiplier":0.6,"MountReturnSpeedHandMultiplier":1,"MountVerticalRecoilMultiplier":0.85,"MountingHorizontalOutOfBreathMultiplier":0.4,"MountingPosition":{"x":0,"y":0,"z":0},"MountingVerticalOutOfBreathMultiplier":0.8,"MustBoltBeOpennedForExternalReload":false,"MustBoltBeOpennedForInternalReload":false,"Name":"Штурмовая винтовка Colt M4A1 5.56x45","NoFiremodeOnBoltcatch":false,"NotShownInSlot":false,"OperatingResource":4000,"PostRecoilHorizontalRangeHandRotation":{"x":-1.5,"y":1.5,"z":0},"PostRecoilVerticalRangeHandRotation":{"x":-1.5,"y":0,"z":0},"Prefab":{"path":"WeaponAK5C/weapon_ak5c_container.bundle","rcid":""},"ProgressRecoilAngleOnStable":{"x":0,"y":28,"z":0},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Rare","RecoilAngle":90,"RecoilCamera":0.045,"RecoilCategoryMultiplierHandRotation":0.19,"RecoilCenter":{"x":0,"y":-0.24,"z":0},"RecoilDampingHandRotation":0.78,"RecoilForceBack":310,"RecoilForceUp":102,"RecoilPosZMult":1,"RecoilReturnPathDampingHandRotation":0.48,"RecoilReturnPathOffsetHandRotation":0.01,"RecoilReturnSpeedHandRotation":2.5,"RecoilStableAngleIncreaseStep":2.3,"RecoilStableIndexShot":5,"RecolDispersion":8,"ReloadMode":"ExternalMagazine","RepairComplexity":0,"RepairCost":173,"RepairSpeed":15,"ResetAfterShot":false,"Retractable":false,"RotationCenter":{"x":0,"y":-0.1,"z":0},"RotationCenterNoStock":{"x":0,"y":0,"z":0},"ShortName":"M4A1 5.56x45","ShotsGroupSettings":[{"EndShotIndex":200,"ShotRecoilPositionStrength":{"x":0,"y":0,"z":0},"ShotRecoilRadianRange":{"x":6,"y":-6,"z":0},"ShotRecoilRotationStrength":{"x":0,"y":0,"z":0},"StartShotIndex":1}],"SightingRange":100,"SingleFireRate":450,"SizeReduceRight":0,"Slots":[{"_id":"66aa5828f1bb45a15173a9ec","_mergeSlotWithChildren":false,"_name":"mod_pistol_grip","_parent":"6671ebcdd32bd95eb398e920","_props":{"filters":[{"Filter":["6671ec6e0bebf6ee2d5abf61","682b93398666a4746cd08575","682b9369a66773ee54219101","682b9415c5e1bc01f034f7ad","682b94a07dd1fd93a60d0054","682b94e1362393814780df6f","682cfb5d01263131c5c1b1de"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"6827a9a8f7acdf5f4a506b1b","_mergeSlotWithChildren":false,"_name":"mod_scope","_parent":"6671ebcdd32bd95eb398e920","_props":{"filters":[{"Filter":["57ac965c24597706be5f975c","57aca93d2459771f2c7e26db","544a3f024bdc2d1d388b4568","544a3a774bdc2d3a388b4567","5d2dc3e548f035404a1a4798","57adff4f24597737f373b6e6","5c0517910db83400232ffee5","591c4efa86f7741030027726","570fd79bd2720bc7458b4583","570fd6c2d2720bc6458b457f","558022b54bdc2dac148b458d","5c07dd120db834001c39092d","5c0a2cec0db834001b7ce47d","58491f3324597764bc48fa02","584924ec24597768f12ae244","5b30b0dc5acfc400153b7124","6165ac8c290d254f5e6b2f6c","60a23797a37c940de7062d02","5d2da1e948f035477b1ce2ba","5c0505e00db834001b735073","609a63b6e2ff132951242d09","584984812459776a704a82a6","59f9d81586f7744c7506ee62","570fd721d2720bc5458b4596","57ae0171245977343c27bfcf","5dfe6104585a0c3e995c7b82","544a3d0a4bdc2d1b388b4567","5d1b5e94d7ad1a2b865a96b0","609bab8b455afd752b2e6138","58d39d3d86f77445bb794ae7","616554fe50224f204c1da2aa","5c7d55f52e221644f31bff6a","616584766ef05c2ce828ef57","5b3b6dc75acfc47a8773fb1e","615d8d878004cc50514c3233","5b2389515acfc4771e1be0c0","577d128124597739d65d0e56","618b9643526131765025ab35","618bab21526131765025ab3f","5c86592b2e2216000e69e77c","5a37ca54c4a282000d72296a","5d0a29fed7ad1a002769ad08","5c064c400db834001d23f468","58d2664f86f7747fec5834f6","57c69dd424597774c03b7bbc","5b3b99265acfc4704b4a1afb","5aa66a9be5b5b0214e506e89","5aa66c72e5b5b00016327c93","5c1cdd302e221602b3137250","61714b2467085e45ef140b2c","6171407e50224f204c1da3c5","61713cc4d8e3106d9806c109","5b31163c5acfc400153b71cb","5a33b652c4a28232996e407c","5a33b2c9c4a282000c5a9511","59db7eed86f77461f8380365","5a1ead28fcdbcb001912fa9f","5dff77c759400025ea5150cf","626bb8532c923541184624b4","62811f461d5df4475f46a332","63fc449f5bd61c6cf3784a88","6477772ea8a38bb2050ed4db","6478641c19d732620e045e17","64785e7c19d732620e045e15","65392f611406374f82152ba5","653931da5db71d30ab1d6296","655f13e0a246670fb0373245","6567e751a715f85433025998","6761759e7ee06333f108bf86","67641a851b2899700609901a","03f6c86c56945862820e1006","2322ee962f6c77a1284abc1e","5ae3d18efa17cbd51e898ced","682be7bf16812803987c3715"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"66aa58376646595e762f9975","_mergeSlotWithChildren":false,"_name":"mod_magazine","_parent":"6671ebcdd32bd95eb398e920","_props":{"filters":[{"AnimationIndex":-1,"Filter":["55d4887d4bdc2d962f8b4570","61840bedd92c473c77021635","61840d85568c120fdd2962a5","5c05413a0db834001c390617","5c6d450c2e221600114c997d","5c6d42cb2e2216000e69d7d1","59c1383d86f774290a37e0ca","5aaa5e60e5b5b000140293d6","5448c1d04bdc2dff2f8b4569","5aaa5dfee5b5b000140293d3","5d1340b3d7ad1a0b52682ed7","544a378f4bdc2d30388b4567","5d1340bdd7ad1a0e8d245aab","55802d5f4bdc2dac148b458e","5d1340cad7ad1a0b0b249869","6241c2c2117ad530666a5108","5c6d46132e221601da357d56","6761765f1f08ed5e8800b7a6","6828b1226ef8b54f3f63a678","682b91f64347b3787a632960","682b90d74ce95cc49a6e369b","682b90a1bb914d953d95c7fd","682b88530f05e7746693f920","682b861888721c164979159f"]}]},"_proto":"55d30c394bdc2dae468b4577","_required":false},{"_id":"66aa583a91470d93a7970ebd","_mergeSlotWithChildren":false,"_name":"mod_stock","_parent":"6671ebcdd32bd95eb398e920","_props":{"filters":[{"Filter":["6671ecb42225b07c8afc4ce3","682ba92584d56dc5db9a3685","682baa522feb8daa643b92ca","682babc3560778885a2d946a"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"66aa583e401f337622871e96","_mergeSlotWithChildren":false,"_name":"mod_handguard","_parent":"6671ebcdd32bd95eb398e920","_props":{"filters":[{"Filter":["6671ece3365d10b3362eb40f","682cfc17f7e9b13d49029312","682cfe84aa392e42d1cb5882"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"66aa5842f062e7f15d7df9ef","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"6671ebcdd32bd95eb398e920","_props":{"filters":[{"Filter":["59bffc1f86f77435b128b872","5a9fbb84a2750c00137fa685","6671ed5805ef46250c47e46a","682b9953603e1510278c750b","682b9bdc170bdea2c25d6cb2"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"TacticalReloadFixation":0.95,"TacticalReloadStiffnes":{"x":0.95,"y":0.33,"z":0.95},"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UseAltMountBone":false,"UsePrefab":{"path":"","rcid":""},"Velocity":0,"WeaponRecoilSettings":{"Enable":true,"Values":[{"Enable":true,"Process":{"ComponentType":"Y","CurveAimingValueMultiply":0.4,"CurveTimeMultiply":2,"CurveValueMultiply":0.7,"TransformationCurve":{"Keys":[{"inTangent":0,"outTangent":0,"time":0,"value":0},{"inTangent":0,"outTangent":0,"time":0.1,"value":2},{"inTangent":0,"outTangent":0,"time":0.3,"value":-0.75},{"inTangent":0,"outTangent":0,"time":1,"value":0}]}},"Target":"HandsRotation"},{"Enable":true,"Process":{"ComponentType":"Y","CurveAimingValueMultiply":0.002,"CurveTimeMultiply":4,"CurveValueMultiply":0.003,"TransformationCurve":{"Keys":[{"inTangent":0,"outTangent":0,"time":0,"value":0},{"inTangent":0,"outTangent":0,"time":0.1,"value":2},{"inTangent":0,"outTangent":0,"time":0.3,"value":-0.75},{"inTangent":0,"outTangent":0,"time":1,"value":0}]}},"Target":"HandsPosition"},{"Enable":true,"Process":{"ComponentType":"Z","CurveAimingValueMultiply":0.09,"CurveTimeMultiply":1,"CurveValueMultiply":0.15,"TransformationCurve":{"Keys":[{"inTangent":0,"outTangent":0,"time":0,"value":0},{"inTangent":0,"outTangent":0,"time":0.1,"value":2},{"inTangent":0,"outTangent":0,"time":0.3,"value":-0.75},{"inTangent":0,"outTangent":0,"time":1,"value":0}]}},"Target":"CameraRotation"}]},"Weight":2.74,"Width":4,"WithAnimatorAiming":false,"ammoCaliber":"Caliber556x45NATO","bEffDist":500,"bFirerate":650,"bHearDist":80,"blockLeftStance":false,"chamberAmmoCount":1,"defAmmo":"54527a984bdc2d4e668b4567","defMagType":"6828b1226ef8b54f3f63a678","durabSpawnMax":75,"durabSpawnMin":25,"isBoltCatch":true,"isChamberLoad":true,"isFastReload":true,"shotgunDispersion":0,"weapClass":"assaultRifle","weapFireType":["single","fullauto"],"weapUseType":"primary"},"weapon":{"caliber":"556x45NATO","defaultAmmo":"54527a984bdc2d4e668b4567","fireRate":650,"effectiveRange":500,"sightingRange":100,"ergonomics":50,"recoilForceUp":102,"recoilForceBack":310,"recoilAngle":90,"recoilDispersion":8,"recoilCamera":0.045,"cameraSnap":3.5,"recoilStableAngleIncreaseStep":2.3,"recoilStableIndexShot":5,"deviationMax":23,"deviationCurve":1.35,"malfunctionChance":0.15,"durabilityBurnRatio":1.13,"operatingResource":4000,"heatFactorByShot":1.15,"heatFactorGun":1,"coolFactorGun":3.168,"coolFactorGunMods":1,"hipAccuracyRestorationSpeed":7,"hipAccuracyRestorationDelay":0.2,"hipInnaccuracyGain":0.16,"singleFireRate":450,"shotgunDispersion":0,"bHearDist":80,"mountVerticalRecoilMultiplier":0.85,"mountHorizontalRecoilMultiplier":0.6,"durability":100,"maxDurability":100,"fireModes":["single","fullauto"],"weapClass":"assaultRifle","weapFireType":"single, fullauto"},"mod":{"ergonomics":50,"recoilForceUp":102,"recoilForceBack":310,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":100,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":true,"retractable":false}},"slots":[{"name":"mod_pistol_grip","id":"66aa5828f1bb45a15173a9ec","required":true,"filter":["6671ec6e0bebf6ee2d5abf61","682b93398666a4746cd08575","682b9369a66773ee54219101","682b9415c5e1bc01f034f7ad","682b94a07dd1fd93a60d0054","682b94e1362393814780df6f","682cfb5d01263131c5c1b1de"]},{"name":"mod_scope","id":"6827a9a8f7acdf5f4a506b1b","required":false,"filter":["57ac965c24597706be5f975c","57aca93d2459771f2c7e26db","544a3f024bdc2d1d388b4568","544a3a774bdc2d3a388b4567","5d2dc3e548f035404a1a4798","57adff4f24597737f373b6e6","5c0517910db83400232ffee5","591c4efa86f7741030027726","570fd79bd2720bc7458b4583","570fd6c2d2720bc6458b457f","558022b54bdc2dac148b458d","5c07dd120db834001c39092d","5c0a2cec0db834001b7ce47d","58491f3324597764bc48fa02","584924ec24597768f12ae244","5b30b0dc5acfc400153b7124","6165ac8c290d254f5e6b2f6c","60a23797a37c940de7062d02","5d2da1e948f035477b1ce2ba","5c0505e00db834001b735073","609a63b6e2ff132951242d09","584984812459776a704a82a6","59f9d81586f7744c7506ee62","570fd721d2720bc5458b4596","57ae0171245977343c27bfcf","5dfe6104585a0c3e995c7b82","544a3d0a4bdc2d1b388b4567","5d1b5e94d7ad1a2b865a96b0","609bab8b455afd752b2e6138","58d39d3d86f77445bb794ae7","616554fe50224f204c1da2aa","5c7d55f52e221644f31bff6a","616584766ef05c2ce828ef57","5b3b6dc75acfc47a8773fb1e","615d8d878004cc50514c3233","5b2389515acfc4771e1be0c0","577d128124597739d65d0e56","618b9643526131765025ab35","618bab21526131765025ab3f","5c86592b2e2216000e69e77c","5a37ca54c4a282000d72296a","5d0a29fed7ad1a002769ad08","5c064c400db834001d23f468","58d2664f86f7747fec5834f6","57c69dd424597774c03b7bbc","5b3b99265acfc4704b4a1afb","5aa66a9be5b5b0214e506e89","5aa66c72e5b5b00016327c93","5c1cdd302e221602b3137250","61714b2467085e45ef140b2c","6171407e50224f204c1da3c5","61713cc4d8e3106d9806c109","5b31163c5acfc400153b71cb","5a33b652c4a28232996e407c","5a33b2c9c4a282000c5a9511","59db7eed86f77461f8380365","5a1ead28fcdbcb001912fa9f","5dff77c759400025ea5150cf","626bb8532c923541184624b4","62811f461d5df4475f46a332","63fc449f5bd61c6cf3784a88","6477772ea8a38bb2050ed4db","6478641c19d732620e045e17","64785e7c19d732620e045e15","65392f611406374f82152ba5","653931da5db71d30ab1d6296","655f13e0a246670fb0373245","6567e751a715f85433025998","6761759e7ee06333f108bf86","67641a851b2899700609901a","03f6c86c56945862820e1006","2322ee962f6c77a1284abc1e","5ae3d18efa17cbd51e898ced","682be7bf16812803987c3715"]},{"name":"mod_magazine","id":"66aa58376646595e762f9975","required":false,"filter":["55d4887d4bdc2d962f8b4570","61840bedd92c473c77021635","61840d85568c120fdd2962a5","5c05413a0db834001c390617","5c6d450c2e221600114c997d","5c6d42cb2e2216000e69d7d1","59c1383d86f774290a37e0ca","5aaa5e60e5b5b000140293d6","5448c1d04bdc2dff2f8b4569","5aaa5dfee5b5b000140293d3","5d1340b3d7ad1a0b52682ed7","544a378f4bdc2d30388b4567","5d1340bdd7ad1a0e8d245aab","55802d5f4bdc2dac148b458e","5d1340cad7ad1a0b0b249869","6241c2c2117ad530666a5108","5c6d46132e221601da357d56","6761765f1f08ed5e8800b7a6","6828b1226ef8b54f3f63a678","682b91f64347b3787a632960","682b90d74ce95cc49a6e369b","682b90a1bb914d953d95c7fd","682b88530f05e7746693f920","682b861888721c164979159f"]},{"name":"mod_stock","id":"66aa583a91470d93a7970ebd","required":false,"filter":["6671ecb42225b07c8afc4ce3","682ba92584d56dc5db9a3685","682baa522feb8daa643b92ca","682babc3560778885a2d946a"]},{"name":"mod_handguard","id":"66aa583e401f337622871e96","required":true,"filter":["6671ece3365d10b3362eb40f","682cfc17f7e9b13d49029312","682cfe84aa392e42d1cb5882"]},{"name":"mod_muzzle","id":"66aa5842f062e7f15d7df9ef","required":false,"filter":["59bffc1f86f77435b128b872","5a9fbb84a2750c00137fa685","6671ed5805ef46250c47e46a","682b9953603e1510278c750b","682b9bdc170bdea2c25d6cb2"]}],"image":null,"isMod":true}
+{
+  "id": "6671ebcdd32bd95eb398e920",
+  "typeName": "AssaultRifle",
+  "category": "weapon",
+  "parentTypeChain": [
+    "AssaultRifle",
+    "Weapon",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "博福斯Ak5C 5.56x45毫米突击步枪",
+      "en": "Bofors Ak5C 5.56x45 assault rifle"
+    },
+    "shortName": {
+      "zh": "Ak5C",
+      "en": "Ak5C"
+    },
+    "description": {
+      "zh": "Ak5C是原版Ak5的现代化版本，即比利时FN FNC突击步枪的瑞典授权型号。该枪由萨博博福斯动力公司为瑞典军方特许生产，采用5.56×45毫米北约标准弹，射速650发/分钟，后坐力较低。",
+      "en": "The Ak5C is the modernized version of the original Ak 5, the Swedish version of the Belgian FN FNC assault rifle. Manufactured under license from FN by Saab Bofors Dynamics for the Swedish military, it fires at a cyclic rate of 650 rpm and has low recoil. It uses the standard 5.56x45mm NATO round."
+    },
+    "weight": 3.927,
+    "width": 4,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "black"
+  },
+  "properties": {
+    "_raw": {
+      "AdjustCollimatorsToTrajectory": false,
+      "AimPlane": 0.16,
+      "AimSensitivity": 0.65,
+      "AllowFeed": true,
+      "AllowJam": true,
+      "AllowMisfire": true,
+      "AllowOverheat": true,
+      "AllowSlide": true,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "black",
+      "BaseMalfunctionChance": 0.15,
+      "BoltAction": false,
+      "BurstShotsCount": 3,
+      "CameraSnap": 3.5,
+      "CameraToWeaponAngleSpeedRange": {
+        "x": 0.1,
+        "y": 0.2,
+        "z": 0
+      },
+      "CameraToWeaponAngleStep": 0.1,
+      "CanPutIntoDuringTheRaid": true,
+      "CanQueueSecondShot": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CanUnloadAmmoByPlayer": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.044,
+      "Chambers": [
+        {
+          "_id": "56eaa85ad2720b69698b456c",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "5447a9cd4bdc2dbd208b4567",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e6920f86f77411d82aa167",
+                  "59e6927d86f77411da468256",
+                  "54527a984bdc2d4e668b4567",
+                  "54527ac44bdc2d36668b4567",
+                  "59e68f6f86f7746c9f75e846",
+                  "59e6906286f7746c9f75e847",
+                  "59e690b686f7746c9f75e848",
+                  "59e6918f86f7746c9f75e849",
+                  "60194943740c5d77f6705eea",
+                  "601949593ae8f707c4608daa",
+                  "5c0d5ae286f7741e46554302"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "CompactHandling": true,
+      "ConflictingItems": [],
+      "CoolFactorGun": 3.168,
+      "CoolFactorGunMods": 1,
+      "Description": "Colt M4A1- штурмовая винтовка (карабин) созданная в США на базе платформы AR-15 под патрон 5.56x45 NATO. Планировалась к вооружению экипажей боевых машин и расчетов техники, которым было необходимо иметь оружие меньших габаритов чем штатное вооружение но использующее стандартный боеприпас. Однако вскоре US SOCOM (Командование Сил Специальных Операций США) приняло на вооружение M4A1 для всех входящих в его состав подразделений. Затем последовало полное принятие M4A1 на вооружение в армии и морской пехоте США.",
+      "DeviationCurve": 1.35,
+      "DeviationMax": 23,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenalty": 1.5,
+      "DropSoundType": "Rifle",
+      "Durability": 100,
+      "DurabilityBurnRatio": 1.13,
+      "Ergonomics": 50,
+      "ExamineExperience": 8,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Foldable": true,
+      "FoldedSlot": "mod_stock",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HeatFactorByShot": 1.15,
+      "HeatFactorGun": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "HipAccuracyRestorationDelay": 0.2,
+      "HipAccuracyRestorationSpeed": 7,
+      "HipInnaccuracyGain": 0.16,
+      "InsuranceDisabled": false,
+      "IronSightRange": 100,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsBeltMachineGun": false,
+      "IsFlareGun": false,
+      "IsGrenadeLauncher": false,
+      "IsLockedafterEquip": false,
+      "IsMountable": true,
+      "IsOneoff": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsStationaryWeapon": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "weap_ar",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "ManualBoltCatch": false,
+      "MaxDurability": 100,
+      "MaxRepairDegradation": 0.03,
+      "MaxRepairKitDegradation": 0.025,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "MinRepairDegradation": 0,
+      "MinRepairKitDegradation": 0,
+      "MountCameraSnapMultiplier": 3,
+      "MountHorizontalRecoilMultiplier": 0.6,
+      "MountReturnSpeedHandMultiplier": 1,
+      "MountVerticalRecoilMultiplier": 0.85,
+      "MountingHorizontalOutOfBreathMultiplier": 0.4,
+      "MountingPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "MountingVerticalOutOfBreathMultiplier": 0.8,
+      "MustBoltBeOpennedForExternalReload": false,
+      "MustBoltBeOpennedForInternalReload": false,
+      "Name": "Штурмовая винтовка Colt M4A1 5.56x45",
+      "NoFiremodeOnBoltcatch": false,
+      "NotShownInSlot": false,
+      "OperatingResource": 4000,
+      "PostRecoilHorizontalRangeHandRotation": {
+        "x": -1.5,
+        "y": 1.5,
+        "z": 0
+      },
+      "PostRecoilVerticalRangeHandRotation": {
+        "x": -1.5,
+        "y": 0,
+        "z": 0
+      },
+      "Prefab": {
+        "path": "WeaponAK5C/weapon_ak5c_container.bundle",
+        "rcid": ""
+      },
+      "ProgressRecoilAngleOnStable": {
+        "x": 0,
+        "y": 28,
+        "z": 0
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "RecoilAngle": 90,
+      "RecoilCamera": 0.045,
+      "RecoilCategoryMultiplierHandRotation": 0.19,
+      "RecoilCenter": {
+        "x": 0,
+        "y": -0.24,
+        "z": 0
+      },
+      "RecoilDampingHandRotation": 0.78,
+      "RecoilForceBack": 310,
+      "RecoilForceUp": 102,
+      "RecoilPosZMult": 1,
+      "RecoilReturnPathDampingHandRotation": 0.48,
+      "RecoilReturnPathOffsetHandRotation": 0.01,
+      "RecoilReturnSpeedHandRotation": 2.5,
+      "RecoilStableAngleIncreaseStep": 2.3,
+      "RecoilStableIndexShot": 5,
+      "RecolDispersion": 8,
+      "ReloadMode": "ExternalMagazine",
+      "RepairComplexity": 0,
+      "RepairCost": 173,
+      "RepairSpeed": 15,
+      "ResetAfterShot": false,
+      "Retractable": false,
+      "RotationCenter": {
+        "x": 0,
+        "y": -0.1,
+        "z": 0
+      },
+      "RotationCenterNoStock": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ShortName": "M4A1 5.56x45",
+      "ShotsGroupSettings": [
+        {
+          "EndShotIndex": 200,
+          "ShotRecoilPositionStrength": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ShotRecoilRadianRange": {
+            "x": 6,
+            "y": -6,
+            "z": 0
+          },
+          "ShotRecoilRotationStrength": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "StartShotIndex": 1
+        }
+      ],
+      "SightingRange": 100,
+      "SingleFireRate": 450,
+      "SizeReduceRight": 0,
+      "Slots": [
+        {
+          "_id": "66aa5828f1bb45a15173a9ec",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "6671ebcdd32bd95eb398e920",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6671ec6e0bebf6ee2d5abf61",
+                  "682b93398666a4746cd08575",
+                  "682b9369a66773ee54219101",
+                  "682b9415c5e1bc01f034f7ad",
+                  "682b94a07dd1fd93a60d0054",
+                  "682b94e1362393814780df6f",
+                  "682cfb5d01263131c5c1b1de"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "6827a9a8f7acdf5f4a506b1b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "6671ebcdd32bd95eb398e920",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ac965c24597706be5f975c",
+                  "57aca93d2459771f2c7e26db",
+                  "544a3f024bdc2d1d388b4568",
+                  "544a3a774bdc2d3a388b4567",
+                  "5d2dc3e548f035404a1a4798",
+                  "57adff4f24597737f373b6e6",
+                  "5c0517910db83400232ffee5",
+                  "591c4efa86f7741030027726",
+                  "570fd79bd2720bc7458b4583",
+                  "570fd6c2d2720bc6458b457f",
+                  "558022b54bdc2dac148b458d",
+                  "5c07dd120db834001c39092d",
+                  "5c0a2cec0db834001b7ce47d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "6165ac8c290d254f5e6b2f6c",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "5c0505e00db834001b735073",
+                  "609a63b6e2ff132951242d09",
+                  "584984812459776a704a82a6",
+                  "59f9d81586f7744c7506ee62",
+                  "570fd721d2720bc5458b4596",
+                  "57ae0171245977343c27bfcf",
+                  "5dfe6104585a0c3e995c7b82",
+                  "544a3d0a4bdc2d1b388b4567",
+                  "5d1b5e94d7ad1a2b865a96b0",
+                  "609bab8b455afd752b2e6138",
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "5b3b6dc75acfc47a8773fb1e",
+                  "615d8d878004cc50514c3233",
+                  "5b2389515acfc4771e1be0c0",
+                  "577d128124597739d65d0e56",
+                  "618b9643526131765025ab35",
+                  "618bab21526131765025ab3f",
+                  "5c86592b2e2216000e69e77c",
+                  "5a37ca54c4a282000d72296a",
+                  "5d0a29fed7ad1a002769ad08",
+                  "5c064c400db834001d23f468",
+                  "58d2664f86f7747fec5834f6",
+                  "57c69dd424597774c03b7bbc",
+                  "5b3b99265acfc4704b4a1afb",
+                  "5aa66a9be5b5b0214e506e89",
+                  "5aa66c72e5b5b00016327c93",
+                  "5c1cdd302e221602b3137250",
+                  "61714b2467085e45ef140b2c",
+                  "6171407e50224f204c1da3c5",
+                  "61713cc4d8e3106d9806c109",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "59db7eed86f77461f8380365",
+                  "5a1ead28fcdbcb001912fa9f",
+                  "5dff77c759400025ea5150cf",
+                  "626bb8532c923541184624b4",
+                  "62811f461d5df4475f46a332",
+                  "63fc449f5bd61c6cf3784a88",
+                  "6477772ea8a38bb2050ed4db",
+                  "6478641c19d732620e045e17",
+                  "64785e7c19d732620e045e15",
+                  "65392f611406374f82152ba5",
+                  "653931da5db71d30ab1d6296",
+                  "655f13e0a246670fb0373245",
+                  "6567e751a715f85433025998",
+                  "6761759e7ee06333f108bf86",
+                  "67641a851b2899700609901a",
+                  "03f6c86c56945862820e1006",
+                  "2322ee962f6c77a1284abc1e",
+                  "5ae3d18efa17cbd51e898ced",
+                  "682be7bf16812803987c3715"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "66aa58376646595e762f9975",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "6671ebcdd32bd95eb398e920",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "55d4887d4bdc2d962f8b4570",
+                  "61840bedd92c473c77021635",
+                  "61840d85568c120fdd2962a5",
+                  "5c05413a0db834001c390617",
+                  "5c6d450c2e221600114c997d",
+                  "5c6d42cb2e2216000e69d7d1",
+                  "59c1383d86f774290a37e0ca",
+                  "5aaa5e60e5b5b000140293d6",
+                  "5448c1d04bdc2dff2f8b4569",
+                  "5aaa5dfee5b5b000140293d3",
+                  "5d1340b3d7ad1a0b52682ed7",
+                  "544a378f4bdc2d30388b4567",
+                  "5d1340bdd7ad1a0e8d245aab",
+                  "55802d5f4bdc2dac148b458e",
+                  "5d1340cad7ad1a0b0b249869",
+                  "6241c2c2117ad530666a5108",
+                  "5c6d46132e221601da357d56",
+                  "6761765f1f08ed5e8800b7a6",
+                  "6828b1226ef8b54f3f63a678",
+                  "682b91f64347b3787a632960",
+                  "682b90d74ce95cc49a6e369b",
+                  "682b90a1bb914d953d95c7fd",
+                  "682b88530f05e7746693f920",
+                  "682b861888721c164979159f"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "66aa583a91470d93a7970ebd",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "6671ebcdd32bd95eb398e920",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6671ecb42225b07c8afc4ce3",
+                  "682ba92584d56dc5db9a3685",
+                  "682baa522feb8daa643b92ca",
+                  "682babc3560778885a2d946a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "66aa583e401f337622871e96",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "6671ebcdd32bd95eb398e920",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6671ece3365d10b3362eb40f",
+                  "682cfc17f7e9b13d49029312",
+                  "682cfe84aa392e42d1cb5882"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "66aa5842f062e7f15d7df9ef",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "6671ebcdd32bd95eb398e920",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59bffc1f86f77435b128b872",
+                  "5a9fbb84a2750c00137fa685",
+                  "6671ed5805ef46250c47e46a",
+                  "682b9953603e1510278c750b",
+                  "682b9bdc170bdea2c25d6cb2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "TacticalReloadFixation": 0.95,
+      "TacticalReloadStiffnes": {
+        "x": 0.95,
+        "y": 0.33,
+        "z": 0.95
+      },
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UseAltMountBone": false,
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "WeaponRecoilSettings": {
+        "Enable": true,
+        "Values": [
+          {
+            "Enable": true,
+            "Process": {
+              "ComponentType": "Y",
+              "CurveAimingValueMultiply": 0.4,
+              "CurveTimeMultiply": 2,
+              "CurveValueMultiply": 0.7,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0,
+                    "value": 0
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.1,
+                    "value": 2
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.3,
+                    "value": -0.75
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "Target": "HandsRotation"
+          },
+          {
+            "Enable": true,
+            "Process": {
+              "ComponentType": "Y",
+              "CurveAimingValueMultiply": 0.002,
+              "CurveTimeMultiply": 4,
+              "CurveValueMultiply": 0.003,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0,
+                    "value": 0
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.1,
+                    "value": 2
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.3,
+                    "value": -0.75
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "Target": "HandsPosition"
+          },
+          {
+            "Enable": true,
+            "Process": {
+              "ComponentType": "Z",
+              "CurveAimingValueMultiply": 0.09,
+              "CurveTimeMultiply": 1,
+              "CurveValueMultiply": 0.15,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0,
+                    "value": 0
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.1,
+                    "value": 2
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.3,
+                    "value": -0.75
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "Target": "CameraRotation"
+          }
+        ]
+      },
+      "Weight": 2.74,
+      "Width": 4,
+      "WithAnimatorAiming": false,
+      "ammoCaliber": "Caliber556x45NATO",
+      "bEffDist": 500,
+      "bFirerate": 650,
+      "bHearDist": 80,
+      "blockLeftStance": false,
+      "chamberAmmoCount": 1,
+      "defAmmo": "54527a984bdc2d4e668b4567",
+      "defMagType": "6828b1226ef8b54f3f63a678",
+      "durabSpawnMax": 75,
+      "durabSpawnMin": 25,
+      "isBoltCatch": true,
+      "isChamberLoad": true,
+      "isFastReload": true,
+      "shotgunDispersion": 0,
+      "weapClass": "assaultRifle",
+      "weapFireType": [
+        "single",
+        "fullauto"
+      ],
+      "weapUseType": "primary"
+    },
+    "weapon": {
+      "caliber": "556x45NATO",
+      "defaultAmmo": "54527a984bdc2d4e668b4567",
+      "fireRate": 650,
+      "effectiveRange": 500,
+      "sightingRange": 100,
+      "ergonomics": 50,
+      "recoilForceUp": 102,
+      "recoilForceBack": 310,
+      "recoilAngle": 90,
+      "recoilDispersion": 8,
+      "recoilCamera": 0.045,
+      "cameraSnap": 3.5,
+      "recoilStableAngleIncreaseStep": 2.3,
+      "recoilStableIndexShot": 5,
+      "deviationMax": 23,
+      "deviationCurve": 1.35,
+      "malfunctionChance": 0.15,
+      "durabilityBurnRatio": 1.13,
+      "operatingResource": 4000,
+      "heatFactorByShot": 1.15,
+      "heatFactorGun": 1,
+      "coolFactorGun": 3.168,
+      "coolFactorGunMods": 1,
+      "hipAccuracyRestorationSpeed": 7,
+      "hipAccuracyRestorationDelay": 0.2,
+      "hipInnaccuracyGain": 0.16,
+      "singleFireRate": 450,
+      "shotgunDispersion": 0,
+      "bHearDist": 80,
+      "mountVerticalRecoilMultiplier": 0.85,
+      "mountHorizontalRecoilMultiplier": 0.6,
+      "durability": 100,
+      "maxDurability": 100,
+      "fireModes": [
+        "single",
+        "fullauto"
+      ],
+      "weapClass": "assaultRifle",
+      "weapFireType": "single, fullauto"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 100,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "57ac965c24597706be5f975c",
+          "name": {
+            "zh": "ELCAN SpecterDR 1x/4x瞄准镜",
+            "en": "ELCAN SpecterDR 1x/4x scope"
+          },
+          "armorClass": 0,
+          "weight": 0.64,
+          "count": 1
+        },
+        {
+          "id": "55d4887d4bdc2d962f8b4570",
+          "name": {
+            "zh": "柯尔特AR-15 5.56x45 30发STANAG弹匣",
+            "en": "AR-15 5.56x45 Colt STANAG 30-round magazine"
+          },
+          "armorClass": 0,
+          "weight": 0.117,
+          "count": 1
+        },
+        {
+          "id": "6671ecb42225b07c8afc4ce3",
+          "name": {
+            "zh": "AK5C 折叠枪托",
+            "en": "Ak5C foldable stock"
+          },
+          "armorClass": 0,
+          "weight": 0.29,
+          "count": 1
+        },
+        {
+          "id": "59bffc1f86f77435b128b872",
+          "name": {
+            "zh": "Silencerco Hybrid 46直接螺纹转接器",
+            "en": "SilencerCo Hybrid 46 Direct Thread Mount adapter"
+          },
+          "armorClass": 0,
+          "weight": 0.14,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 3.927
+    },
+    "mod": {
+      "ergonomics": 50,
+      "recoilForceUp": 102,
+      "recoilForceBack": 310,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 100,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": true,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_pistol_grip",
+      "id": "66aa5828f1bb45a15173a9ec",
+      "required": true,
+      "filter": [
+        "6671ec6e0bebf6ee2d5abf61",
+        "682b93398666a4746cd08575",
+        "682b9369a66773ee54219101",
+        "682b9415c5e1bc01f034f7ad",
+        "682b94a07dd1fd93a60d0054",
+        "682b94e1362393814780df6f",
+        "682cfb5d01263131c5c1b1de"
+      ]
+    },
+    {
+      "name": "mod_scope",
+      "id": "6827a9a8f7acdf5f4a506b1b",
+      "required": false,
+      "filter": [
+        "57ac965c24597706be5f975c",
+        "57aca93d2459771f2c7e26db",
+        "544a3f024bdc2d1d388b4568",
+        "544a3a774bdc2d3a388b4567",
+        "5d2dc3e548f035404a1a4798",
+        "57adff4f24597737f373b6e6",
+        "5c0517910db83400232ffee5",
+        "591c4efa86f7741030027726",
+        "570fd79bd2720bc7458b4583",
+        "570fd6c2d2720bc6458b457f",
+        "558022b54bdc2dac148b458d",
+        "5c07dd120db834001c39092d",
+        "5c0a2cec0db834001b7ce47d",
+        "58491f3324597764bc48fa02",
+        "584924ec24597768f12ae244",
+        "5b30b0dc5acfc400153b7124",
+        "6165ac8c290d254f5e6b2f6c",
+        "60a23797a37c940de7062d02",
+        "5d2da1e948f035477b1ce2ba",
+        "5c0505e00db834001b735073",
+        "609a63b6e2ff132951242d09",
+        "584984812459776a704a82a6",
+        "59f9d81586f7744c7506ee62",
+        "570fd721d2720bc5458b4596",
+        "57ae0171245977343c27bfcf",
+        "5dfe6104585a0c3e995c7b82",
+        "544a3d0a4bdc2d1b388b4567",
+        "5d1b5e94d7ad1a2b865a96b0",
+        "609bab8b455afd752b2e6138",
+        "58d39d3d86f77445bb794ae7",
+        "616554fe50224f204c1da2aa",
+        "5c7d55f52e221644f31bff6a",
+        "616584766ef05c2ce828ef57",
+        "5b3b6dc75acfc47a8773fb1e",
+        "615d8d878004cc50514c3233",
+        "5b2389515acfc4771e1be0c0",
+        "577d128124597739d65d0e56",
+        "618b9643526131765025ab35",
+        "618bab21526131765025ab3f",
+        "5c86592b2e2216000e69e77c",
+        "5a37ca54c4a282000d72296a",
+        "5d0a29fed7ad1a002769ad08",
+        "5c064c400db834001d23f468",
+        "58d2664f86f7747fec5834f6",
+        "57c69dd424597774c03b7bbc",
+        "5b3b99265acfc4704b4a1afb",
+        "5aa66a9be5b5b0214e506e89",
+        "5aa66c72e5b5b00016327c93",
+        "5c1cdd302e221602b3137250",
+        "61714b2467085e45ef140b2c",
+        "6171407e50224f204c1da3c5",
+        "61713cc4d8e3106d9806c109",
+        "5b31163c5acfc400153b71cb",
+        "5a33b652c4a28232996e407c",
+        "5a33b2c9c4a282000c5a9511",
+        "59db7eed86f77461f8380365",
+        "5a1ead28fcdbcb001912fa9f",
+        "5dff77c759400025ea5150cf",
+        "626bb8532c923541184624b4",
+        "62811f461d5df4475f46a332",
+        "63fc449f5bd61c6cf3784a88",
+        "6477772ea8a38bb2050ed4db",
+        "6478641c19d732620e045e17",
+        "64785e7c19d732620e045e15",
+        "65392f611406374f82152ba5",
+        "653931da5db71d30ab1d6296",
+        "655f13e0a246670fb0373245",
+        "6567e751a715f85433025998",
+        "6761759e7ee06333f108bf86",
+        "67641a851b2899700609901a",
+        "03f6c86c56945862820e1006",
+        "2322ee962f6c77a1284abc1e",
+        "5ae3d18efa17cbd51e898ced",
+        "682be7bf16812803987c3715"
+      ]
+    },
+    {
+      "name": "mod_magazine",
+      "id": "66aa58376646595e762f9975",
+      "required": false,
+      "filter": [
+        "55d4887d4bdc2d962f8b4570",
+        "61840bedd92c473c77021635",
+        "61840d85568c120fdd2962a5",
+        "5c05413a0db834001c390617",
+        "5c6d450c2e221600114c997d",
+        "5c6d42cb2e2216000e69d7d1",
+        "59c1383d86f774290a37e0ca",
+        "5aaa5e60e5b5b000140293d6",
+        "5448c1d04bdc2dff2f8b4569",
+        "5aaa5dfee5b5b000140293d3",
+        "5d1340b3d7ad1a0b52682ed7",
+        "544a378f4bdc2d30388b4567",
+        "5d1340bdd7ad1a0e8d245aab",
+        "55802d5f4bdc2dac148b458e",
+        "5d1340cad7ad1a0b0b249869",
+        "6241c2c2117ad530666a5108",
+        "5c6d46132e221601da357d56",
+        "6761765f1f08ed5e8800b7a6",
+        "6828b1226ef8b54f3f63a678",
+        "682b91f64347b3787a632960",
+        "682b90d74ce95cc49a6e369b",
+        "682b90a1bb914d953d95c7fd",
+        "682b88530f05e7746693f920",
+        "682b861888721c164979159f"
+      ]
+    },
+    {
+      "name": "mod_stock",
+      "id": "66aa583a91470d93a7970ebd",
+      "required": false,
+      "filter": [
+        "6671ecb42225b07c8afc4ce3",
+        "682ba92584d56dc5db9a3685",
+        "682baa522feb8daa643b92ca",
+        "682babc3560778885a2d946a"
+      ]
+    },
+    {
+      "name": "mod_handguard",
+      "id": "66aa583e401f337622871e96",
+      "required": true,
+      "filter": [
+        "6671ece3365d10b3362eb40f",
+        "682cfc17f7e9b13d49029312",
+        "682cfe84aa392e42d1cb5882"
+      ]
+    },
+    {
+      "name": "mod_muzzle",
+      "id": "66aa5842f062e7f15d7df9ef",
+      "required": false,
+      "filter": [
+        "59bffc1f86f77435b128b872",
+        "5a9fbb84a2750c00137fa685",
+        "6671ed5805ef46250c47e46a",
+        "682b9953603e1510278c750b",
+        "682b9bdc170bdea2c25d6cb2"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

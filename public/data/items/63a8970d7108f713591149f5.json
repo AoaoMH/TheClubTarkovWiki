@@ -1,1 +1,129 @@
-{"id":"63a8970d7108f713591149f5","typeName":"RandomLootContainer","category":"container","parentTypeChain":["RandomLootContainer","SearchableItem","CompoundItem","Item"],"handbook":{"categoryId":"5b5f6fa186f77409407a7eb7","price":25000},"common":{"name":{"zh":"小号圣诞礼物","en":"Small Christmas gift"},"shortName":{"zh":"礼物","en":"Gift"},"description":{"zh":"一个小号的，包装精美的圣诞礼物。看起来圣诞老人对你很好。快来打开它吧！","en":"A small neatly wrapped Christmas gift. Looks like Santa is kind to you. Come on, open it up!"},"weight":2,"width":2,"height":2,"rarity":"Not_exist","backgroundColor":"red"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"red","BlocksArmorVest":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"new_year_gift_small","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":100,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[{"_id":"63a8970d7108f713591149f6","_name":"main","_parent":"63a8970d7108f713591149f5","_props":{"cellsH":2,"cellsV":2,"filters":[{"ExcludedFilter":["54009119af1c881c07000029"],"Filter":[]}],"isSortingTable":false,"maxCount":5,"maxWeight":3,"minCount":3},"_proto":"55d329c24bdc2d892f8b4567"}],"Height":2,"HideEntrails":true,"InsuranceDisabled":true,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"container_plastic","LeftHandItem":false,"LootExperience":20,"MergesWithChildren":false,"Name":"new_year_gift_small","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/containers/item_container_cristmas_prize_01-02/item_container_cristmas_prize_01.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"SearchSound":"drawer_metal_looting","ShortName":"new_year_gift_small","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":2,"Width":2}},"slots":[],"image":"/images/items/63a8970d7108f713591149f5.jpg","isMod":false}
+{
+  "id": "63a8970d7108f713591149f5",
+  "typeName": "RandomLootContainer",
+  "category": "container",
+  "parentTypeChain": [
+    "RandomLootContainer",
+    "SearchableItem",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f6fa186f77409407a7eb7",
+    "price": 25000
+  },
+  "common": {
+    "name": {
+      "zh": "小号圣诞礼物",
+      "en": "Small Christmas gift"
+    },
+    "shortName": {
+      "zh": "礼物",
+      "en": "Gift"
+    },
+    "description": {
+      "zh": "一个小号的，包装精美的圣诞礼物。看起来圣诞老人对你很好。快来打开它吧！",
+      "en": "A small neatly wrapped Christmas gift. Looks like Santa is kind to you. Come on, open it up!"
+    },
+    "weight": 2,
+    "width": 2,
+    "height": 2,
+    "rarity": "Not_exist",
+    "backgroundColor": "red"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "red",
+      "BlocksArmorVest": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "new_year_gift_small",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 100,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [
+        {
+          "_id": "63a8970d7108f713591149f6",
+          "_name": "main",
+          "_parent": "63a8970d7108f713591149f5",
+          "_props": {
+            "cellsH": 2,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "54009119af1c881c07000029"
+                ],
+                "Filter": []
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 5,
+            "maxWeight": 3,
+            "minCount": 3
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Height": 2,
+      "HideEntrails": true,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "container_plastic",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MergesWithChildren": false,
+      "Name": "new_year_gift_small",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/containers/item_container_cristmas_prize_01-02/item_container_cristmas_prize_01.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SearchSound": "drawer_metal_looting",
+      "ShortName": "new_year_gift_small",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 2,
+      "Width": 2
+    }
+  },
+  "slots": [],
+  "image": "/images/items/63a8970d7108f713591149f5.jpg",
+  "isMod": false
+}

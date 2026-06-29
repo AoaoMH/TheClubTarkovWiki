@@ -63,6 +63,30 @@ interface ItemSummary {
 - 惩罚值（负=坏）：红色 `text-red-400`
 - 反向属性（如后坐力，负=好）：使用 `ColoredStatRow` 的 `invertColor` prop
 
+### 翻译映射表维护规范
+
+前端使用多层翻译机制：
+
+1. **i18n JSON 文件**（`src/i18n/zh.json` + `en.json`）：通用 UI 文案和类型名
+2. **组件内映射表**（`ItemDetail.tsx` 中的 `*_ZH` 常量）：游戏内枚举值的翻译
+
+#### 组件内映射表清单
+
+| 常量名 | 用途 | 数据源 |
+|---------|------|--------|
+| `ARMOR_ZONE_ZH` | 防护区域 collider 名 | 游戏 locale `Armor Zone *` |
+| `ARMOR_MATERIAL_ZH` | 护甲材质 | 游戏枚举 `ArmorMaterial` |
+| `ARMOR_TYPE_ZH` | 护甲类型 | 游戏枚举 `ArmorType` |
+| `DEAF_STRENGTH_ZH` | 听力减弱等级 | 游戏枚举 `DeafStrength` |
+| `FIRE_MODE_ZH` | 射击模式 | 游戏枚举 `weapFireType` |
+
+#### 维护原则
+
+- **同一属性全局统一翻译**：如「移动速度」不能在不同模块翻译为「移速惩罚」
+- **新增游戏枚举值时**：同时检查映射表是否需要新增翻译
+- **材质翻译必须完整**：包括 `UHMWPE` → 「超高分子量聚乙烯」、`ArmoredSteel` → 「装甲钢」等
+- **区域翻译去重**：`translateArmorZones()` 自动对翻译结果去重（多个 collider 可能翻译为同一中文）
+
 ### 组件结构
 - `components/layout/` — 布局组件（AppLayout, Sidebar, Header）
 - `components/item/` — 道具展示组件（ItemCard, ItemGrid, ItemDetail, AmmoPage）

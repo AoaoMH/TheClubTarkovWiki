@@ -1,1 +1,261 @@
-{"id":"6920a93320601fc76c8de492","typeName":"Handguard","category":"mod_other","parentTypeChain":["Handguard","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"HK XM8 步枪长度护木","en":"HK XM8 rifle length handguard"},"shortName":{"zh":"XM8","en":"XM8 Rifle"},"description":{"zh":"HK XM8 5.56x45mm突击步枪的标准步枪长度聚合物护木。","en":"A standard rifle length polymer handguard for the HK XM8 5.56x45mm assault rifle."},"weight":0.17,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.13,"Description":"handguard_ar15_stngr_vypr_m_lok_10_inch","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":8,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":2,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.97,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"handguard_ar15_stngr_vypr_m_lok_10_inch","NotShownInSlot":false,"Prefab":{"path":"WeaponXM8/xm8_hg_std.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":-3,"RepairCost":0,"RepairSpeed":0,"ShortName":"handguard_ar15_stngr_vypr_m_lok_10_inch","SightingRange":0,"Slots":[{"_name":"mod_foregrip","_id":"6920a92fd25f5d2304b7fb3f","_parent":"6920a93320601fc76c8de492","_props":{"filters":[{"Shift":0,"Filter":["6920ac1bdf89f86bd80a7fab"]}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"},{"_name":"mod_tactical_000","_id":"6920a93bc7a3a1ee5fb98fab","_parent":"6920a93320601fc76c8de492","_props":{"filters":[{"Shift":0,"Filter":["6920ab11d0871a1e648537a2"]}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"},{"_name":"mod_tactical_001","_id":"6920a938284505f07bc70e37","_parent":"6920a93320601fc76c8de492","_props":{"filters":[{"Shift":0,"Filter":["6920ab11d0871a1e648537a2"]}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.17,"Width":2},"mod":{"ergonomics":8,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_foregrip","id":"6920a92fd25f5d2304b7fb3f","required":false,"filter":["6920ac1bdf89f86bd80a7fab"]},{"name":"mod_tactical_000","id":"6920a93bc7a3a1ee5fb98fab","required":false,"filter":["6920ab11d0871a1e648537a2"]},{"name":"mod_tactical_001","id":"6920a938284505f07bc70e37","required":false,"filter":["6920ab11d0871a1e648537a2"]}],"image":null,"isMod":true}
+{
+  "id": "6920a93320601fc76c8de492",
+  "typeName": "Handguard",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Handguard",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "HK XM8 步枪长度护木",
+      "en": "HK XM8 rifle length handguard"
+    },
+    "shortName": {
+      "zh": "XM8",
+      "en": "XM8 Rifle"
+    },
+    "description": {
+      "zh": "HK XM8 5.56x45mm突击步枪的标准步枪长度聚合物护木。",
+      "en": "A standard rifle length polymer handguard for the HK XM8 5.56x45mm assault rifle."
+    },
+    "weight": 0.2,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.13,
+      "Description": "handguard_ar15_stngr_vypr_m_lok_10_inch",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 8,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.97,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "handguard_ar15_stngr_vypr_m_lok_10_inch",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponXM8/xm8_hg_std.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": -3,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "handguard_ar15_stngr_vypr_m_lok_10_inch",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_name": "mod_foregrip",
+          "_id": "6920a92fd25f5d2304b7fb3f",
+          "_parent": "6920a93320601fc76c8de492",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "6920ac1bdf89f86bd80a7fab"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical_000",
+          "_id": "6920a93bc7a3a1ee5fb98fab",
+          "_parent": "6920a93320601fc76c8de492",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "6920ab11d0871a1e648537a2"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical_001",
+          "_id": "6920a938284505f07bc70e37",
+          "_parent": "6920a93320601fc76c8de492",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "6920ab11d0871a1e648537a2"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.17,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "6920ac1bdf89f86bd80a7fab",
+          "name": {
+            "zh": "HK XM8 PCAP-皮卡汀尼适配器（前握把）",
+            "en": "HK XM8 PCAP-picatinny adapter (Foregrip)"
+          },
+          "armorClass": 0,
+          "weight": 0.01,
+          "count": 1
+        },
+        {
+          "id": "6920ab11d0871a1e648537a2",
+          "name": {
+            "zh": "HK XM8 PCAP-皮卡汀尼适配器（侧面）",
+            "en": "HK XM8 PCAP-picatinny adapter (Side)"
+          },
+          "armorClass": 0,
+          "weight": 0.01,
+          "count": 2
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.2
+    },
+    "mod": {
+      "ergonomics": 8,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_foregrip",
+      "id": "6920a92fd25f5d2304b7fb3f",
+      "required": false,
+      "filter": [
+        "6920ac1bdf89f86bd80a7fab"
+      ]
+    },
+    {
+      "name": "mod_tactical_000",
+      "id": "6920a93bc7a3a1ee5fb98fab",
+      "required": false,
+      "filter": [
+        "6920ab11d0871a1e648537a2"
+      ]
+    },
+    {
+      "name": "mod_tactical_001",
+      "id": "6920a938284505f07bc70e37",
+      "required": false,
+      "filter": [
+        "6920ab11d0871a1e648537a2"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

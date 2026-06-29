@@ -1,1 +1,221 @@
-{"id":"675cea42c3b11186fbf69b52","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"春田 DS Prodigy 4.50英寸螺纹枪管","en":"Springfield DS Prodigy 4.50\" Threaded Barrel"},"shortName":{"zh":"Prodigy","en":"Prodigy"},"description":{"zh":"为Springfield DS Prodigy 9x19毫米手枪配备的螺纹4.50英寸公牛枪管。","en":"Threaded 4.50\" bull barrel for the Springfield DS Prodigy 9x19mm handgun."},"weight":0.111,"width":1,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.295,"ConflictingItems":[],"CoolFactor":1.04,"Description":"barrel_m1911a1_127mm_national_match_1143x23","DeviationCurve":2.25,"DeviationMax":11,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-2,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_m1911a1_127mm_national_match_1143x23","NotShownInSlot":false,"Prefab":{"path":"WeaponProdigy/prodigy_barrel_threaded.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-4.5,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_m1911a1_127mm_national_match_1143x23","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_name":"mod_muzzle","_id":"675ceaf7c5bddb4bc8311bba","_parent":"675cea42c3b11186fbf69b52","_props":{"filters":[{"Shift":0,"Filter":["5a70366c8dc32e001207fb06","5a7ad1fb51dfba0013379715","5c6beec32e221601da3578f2","5c7e8fab2e22165df16b889b","5a33a8ebc4a282000c5a950d","5c6165902e22160010261b28","5a32a064c4a28200741e22de","666102ef2d367ec85ddd2030","59bffc1f86f77435b128b872"]}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":2.5,"Weight":0.111,"Width":1},"mod":{"ergonomics":-2,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":2.5,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"675ceaf7c5bddb4bc8311bba","required":false,"filter":["5a70366c8dc32e001207fb06","5a7ad1fb51dfba0013379715","5c6beec32e221601da3578f2","5c7e8fab2e22165df16b889b","5a33a8ebc4a282000c5a950d","5c6165902e22160010261b28","5a32a064c4a28200741e22de","666102ef2d367ec85ddd2030","59bffc1f86f77435b128b872"]}],"image":null,"isMod":true}
+{
+  "id": "675cea42c3b11186fbf69b52",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "春田 DS Prodigy 4.50英寸螺纹枪管",
+      "en": "Springfield DS Prodigy 4.50\" Threaded Barrel"
+    },
+    "shortName": {
+      "zh": "Prodigy",
+      "en": "Prodigy"
+    },
+    "description": {
+      "zh": "为Springfield DS Prodigy 9x19毫米手枪配备的螺纹4.50英寸公牛枪管。",
+      "en": "Threaded 4.50\" bull barrel for the Springfield DS Prodigy 9x19mm handgun."
+    },
+    "weight": 0.174,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.295,
+      "ConflictingItems": [],
+      "CoolFactor": 1.04,
+      "Description": "barrel_m1911a1_127mm_national_match_1143x23",
+      "DeviationCurve": 2.25,
+      "DeviationMax": 11,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -2,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_m1911a1_127mm_national_match_1143x23",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponProdigy/prodigy_barrel_threaded.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -4.5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_m1911a1_127mm_national_match_1143x23",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_name": "mod_muzzle",
+          "_id": "675ceaf7c5bddb4bc8311bba",
+          "_parent": "675cea42c3b11186fbf69b52",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a70366c8dc32e001207fb06",
+                  "5a7ad1fb51dfba0013379715",
+                  "5c6beec32e221601da3578f2",
+                  "5c7e8fab2e22165df16b889b",
+                  "5a33a8ebc4a282000c5a950d",
+                  "5c6165902e22160010261b28",
+                  "5a32a064c4a28200741e22de",
+                  "666102ef2d367ec85ddd2030",
+                  "59bffc1f86f77435b128b872"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 2.5,
+      "Weight": 0.111,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5a70366c8dc32e001207fb06",
+          "name": {
+            "zh": "Glock 9x19 Double Diamond消焰器",
+            "en": "Glock 9x19 Double Diamond flash hider"
+          },
+          "armorClass": 0,
+          "weight": 0.063,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.174
+    },
+    "mod": {
+      "ergonomics": -2,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 2.5,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "675ceaf7c5bddb4bc8311bba",
+      "required": false,
+      "filter": [
+        "5a70366c8dc32e001207fb06",
+        "5a7ad1fb51dfba0013379715",
+        "5c6beec32e221601da3578f2",
+        "5c7e8fab2e22165df16b889b",
+        "5a33a8ebc4a282000c5a950d",
+        "5c6165902e22160010261b28",
+        "5a32a064c4a28200741e22de",
+        "666102ef2d367ec85ddd2030",
+        "59bffc1f86f77435b128b872"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

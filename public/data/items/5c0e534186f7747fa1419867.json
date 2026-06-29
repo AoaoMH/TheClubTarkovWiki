@@ -1,1 +1,186 @@
-{"id":"5c0e534186f7747fa1419867","typeName":"Stimulator","category":"stimulator","parentTypeChain":["Stimulator","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b33a","price":37830},"common":{"name":{"zh":"eTG-change再生兴奋剂注射器","en":"eTG-change regenerative stimulant injector"},"shortName":{"zh":"eTG-c","en":"eTG-c"},"description":{"zh":"强大的再生过程促进剂。用于伤员受伤后或重伤员运输过程中的快速恢复，只允许专业医师和护理人员使用。有强副作用。","en":"A powerful stimulant for regeneration processes. It is used for rapid recovery of a soldier after injury, or during transportation of heavily wounded personnel. Allowed to be used only by medical officers and paramedics. Has strong side effects."},"weight":0.05,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"","DiscardLimit":2,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":8,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_stimulator","LeftHandItem":false,"LootExperience":10,"MaxHpResource":0,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"eTG-change","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_etg-change_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"eTG-change","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"BuffseTGchange","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_etg-change_container.bundle","rcid":""},"Weight":0.05,"Width":1,"effects_damage":{"Contusion":{"delay":0,"duration":0,"fadeOut":0}},"effects_health":[],"hpResourceRate":0,"medEffectType":"duringUse","medUseTime":2},"medical":{"medEffectType":"duringUse","medUseTime":2,"maxHpResource":0,"hpResourceRate":0,"effects":{"healthEffects":[],"damageEffects":[{"type":"Contusion","delay":0,"duration":0}],"stimBuffs":[{"buffType":"HealthRate","skillName":"","value":6.5,"delay":1,"duration":60,"chance":1},{"buffType":"EnergyRate","skillName":"","value":0.5,"delay":1,"duration":60,"chance":1},{"buffType":"SkillRate","skillName":"Metabolism","value":20,"delay":1,"duration":90,"chance":1},{"buffType":"SkillRate","skillName":"Immunity","value":20,"delay":1,"duration":90,"chance":1},{"buffType":"EnergyRate","skillName":"","value":-3,"delay":65,"duration":20,"chance":1},{"buffType":"SkillRate","skillName":"Endurance","value":-5,"delay":65,"duration":60,"chance":1},{"buffType":"SkillRate","skillName":"Health","value":-5,"delay":65,"duration":60,"chance":1}]}}},"slots":[],"image":"/images/items/5c0e534186f7747fa1419867.jpg","isMod":false}
+{
+  "id": "5c0e534186f7747fa1419867",
+  "typeName": "Stimulator",
+  "category": "stimulator",
+  "parentTypeChain": [
+    "Stimulator",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b33a",
+    "price": 37830
+  },
+  "common": {
+    "name": {
+      "zh": "eTG-change再生兴奋剂注射器",
+      "en": "eTG-change regenerative stimulant injector"
+    },
+    "shortName": {
+      "zh": "eTG-c",
+      "en": "eTG-c"
+    },
+    "description": {
+      "zh": "强大的再生过程促进剂。用于伤员受伤后或重伤员运输过程中的快速恢复，只允许专业医师和护理人员使用。有强副作用。",
+      "en": "A powerful stimulant for regeneration processes. It is used for rapid recovery of a soldier after injury, or during transportation of heavily wounded personnel. Allowed to be used only by medical officers and paramedics. Has strong side effects."
+    },
+    "weight": 0.05,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "",
+      "DiscardLimit": 2,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 8,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_stimulator",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "eTG-change",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_etg-change_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "eTG-change",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "BuffseTGchange",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_etg-change_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.05,
+      "Width": 1,
+      "effects_damage": {
+        "Contusion": {
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0
+        }
+      },
+      "effects_health": [],
+      "hpResourceRate": 0,
+      "medEffectType": "duringUse",
+      "medUseTime": 2
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 2,
+      "maxHpResource": 0,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [
+          {
+            "type": "Contusion",
+            "delay": 0,
+            "duration": 0
+          }
+        ],
+        "stimBuffs": [
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": 6.5,
+            "delay": 1,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": 0.5,
+            "delay": 1,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Metabolism",
+            "value": 20,
+            "delay": 1,
+            "duration": 90,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Immunity",
+            "value": 20,
+            "delay": 1,
+            "duration": 90,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -3,
+            "delay": 65,
+            "duration": 20,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": -5,
+            "delay": 65,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -5,
+            "delay": 65,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5c0e534186f7747fa1419867.jpg",
+  "isMod": false
+}

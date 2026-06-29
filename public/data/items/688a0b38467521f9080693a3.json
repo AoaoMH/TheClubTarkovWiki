@@ -1,1 +1,183 @@
-{"id":"688a0b38467521f9080693a3","typeName":"Collimator","category":"mod_scope","parentTypeChain":["Collimator","Sights","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"MeproLight Mepro M21 反射式瞄具","en":"MeproLight Mepro M21 reflex sight"},"shortName":{"zh":"Mepro M21","en":"Mepro M21"},"description":{"zh":"以色列 MeproLight 公司设计制造的红点瞄准镜，顶部带有补光光纤。需要加装在专用基座上。","en":"A fiber optic red dot sight manufactured by MeproLight. Installed on a proprietary mount."},"weight":0.24,"width":1,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AdjustableOpticSensitivity":0,"AdjustableOpticSensitivityMax":0,"AimSensitivity":[[0.7]],"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CalibrationDistances":[[50,100,150,200]],"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CustomAimPlane":"","Description":"scope_base_meprolight_mepro_m21","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAdjustableOptic":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","MinMaxFov":{"x":0,"y":0,"z":0},"ModesCount":[1],"Name":"scope_base_meprolight_mepro_m21","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/scopes/scope_base_meprolight_mepro_m21.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ScopesCount":1,"ShortName":"scope_base_meprolight_mepro_m21","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.24,"Width":1,"ZoomSensitivity":0,"Zooms":[[1]],"sightModType":"reflex","IsNotDeletableFromQuestStashAfterQuestComplete":false,"RagfairLevelToTrade":0,"CategoryAnimationModId":0},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"1x","sightingRange":0,"sightModType":"reflex","calibrationDistances":[50,100,150,200],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[],"image":null,"isMod":true}
+{
+  "id": "688a0b38467521f9080693a3",
+  "typeName": "Collimator",
+  "category": "mod_scope",
+  "parentTypeChain": [
+    "Collimator",
+    "Sights",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "MeproLight Mepro M21 反射式瞄具",
+      "en": "MeproLight Mepro M21 reflex sight"
+    },
+    "shortName": {
+      "zh": "Mepro M21",
+      "en": "Mepro M21"
+    },
+    "description": {
+      "zh": "以色列 MeproLight 公司设计制造的红点瞄准镜，顶部带有补光光纤。需要加装在专用基座上。",
+      "en": "A fiber optic red dot sight manufactured by MeproLight. Installed on a proprietary mount."
+    },
+    "weight": 0.24,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0,
+      "AimSensitivity": [
+        [
+          0.7
+        ]
+      ],
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200
+        ]
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CustomAimPlane": "",
+      "Description": "scope_base_meprolight_mepro_m21",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAdjustableOptic": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ModesCount": [
+        1
+      ],
+      "Name": "scope_base_meprolight_mepro_m21",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/scopes/scope_base_meprolight_mepro_m21.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ScopesCount": 1,
+      "ShortName": "scope_base_meprolight_mepro_m21",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.24,
+      "Width": 1,
+      "ZoomSensitivity": 0,
+      "Zooms": [
+        [
+          1
+        ]
+      ],
+      "sightModType": "reflex",
+      "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+      "RagfairLevelToTrade": 0,
+      "CategoryAnimationModId": 0
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "1x",
+      "sightingRange": 0,
+      "sightModType": "reflex",
+      "calibrationDistances": [
+        50,
+        100,
+        150,
+        200
+      ],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [],
+  "image": null,
+  "isMod": true
+}

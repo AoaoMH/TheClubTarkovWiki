@@ -1,1 +1,253 @@
-{"id":"66ffc903fe9b382596065304","typeName":"Mount","category":"mod_mount","parentTypeChain":["Mount","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f755f86f77447ec5d770e","price":1395},"common":{"name":{"zh":"FN SCAR PMM M-LOK 下导轨 (FDE)","en":"FN SCAR PMM M-LOK lower rail (FDE)"},"shortName":{"zh":"PMM 下导轨","en":"PMM low"},"description":{"zh":"为 SCAR 系列步枪打造的 M-LOK 接口下导轨，由 Parker Mountain Machine 公司设计制造，沙土褐色 (FDE) 版本。","en":"A bottom rail with an M-LOK interface designed for SCAR series rifles. Manufactured by Parker Mountain Machine. Flat Dark Earth version."},"weight":0.045,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"mount_mk16_pmm_bottom_rail_m_lok_fde","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":0,"ExamineExperience":5,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mount_mk16_pmm_bottom_rail_m_lok_fde","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/mounts/mount_mk16_pmm_bottom_rail_m_lok_fde.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"mount_mk16_pmm_bottom_rail_m_lok_fde","SightingRange":0,"Slots":[{"_id":"66ffc903fe9b382596065306","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"66ffc903fe9b382596065304","_props":{"filters":[{"Filter":["66ffe2fbab3336cc0106382b","66ffe5edfe9b38259606530d"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"66ffc903fe9b382596065307","_mergeSlotWithChildren":false,"_name":"mod_foregrip","_parent":"66ffc903fe9b382596065304","_props":{"filters":[{"Filter":["5b7be4895acfc400170e2dd5","57cffb66245977632f391a99","57cffcd624597763133760c5","57cffcdd24597763f5110006","57cffce524597763b31685d8","651a8e529829226ceb67c319","651a8bf3a8520e48047bf708","665d5d9e338229cfd6078da1","665edce564fb556f940ab32a"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.045,"Width":1},"mod":{"ergonomics":0,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_mount","id":"66ffc903fe9b382596065306","required":false,"filter":["66ffe2fbab3336cc0106382b","66ffe5edfe9b38259606530d"]},{"name":"mod_foregrip","id":"66ffc903fe9b382596065307","required":false,"filter":["5b7be4895acfc400170e2dd5","57cffb66245977632f391a99","57cffcd624597763133760c5","57cffcdd24597763f5110006","57cffce524597763b31685d8","651a8e529829226ceb67c319","651a8bf3a8520e48047bf708","665d5d9e338229cfd6078da1","665edce564fb556f940ab32a"]}],"image":"/images/items/66ffc903fe9b382596065304.webp","isMod":false}
+{
+  "id": "66ffc903fe9b382596065304",
+  "typeName": "Mount",
+  "category": "mod_mount",
+  "parentTypeChain": [
+    "Mount",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f755f86f77447ec5d770e",
+    "price": 1395
+  },
+  "common": {
+    "name": {
+      "zh": "FN SCAR PMM M-LOK 下导轨 (FDE)",
+      "en": "FN SCAR PMM M-LOK lower rail (FDE)"
+    },
+    "shortName": {
+      "zh": "PMM 下导轨",
+      "en": "PMM low"
+    },
+    "description": {
+      "zh": "为 SCAR 系列步枪打造的 M-LOK 接口下导轨，由 Parker Mountain Machine 公司设计制造，沙土褐色 (FDE) 版本。",
+      "en": "A bottom rail with an M-LOK interface designed for SCAR series rifles. Manufactured by Parker Mountain Machine. Flat Dark Earth version."
+    },
+    "weight": 0.24,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "mount_mk16_pmm_bottom_rail_m_lok_fde",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mount_mk16_pmm_bottom_rail_m_lok_fde",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/mounts/mount_mk16_pmm_bottom_rail_m_lok_fde.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mount_mk16_pmm_bottom_rail_m_lok_fde",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "66ffc903fe9b382596065306",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "66ffc903fe9b382596065304",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "66ffe2fbab3336cc0106382b",
+                  "66ffe5edfe9b38259606530d"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "66ffc903fe9b382596065307",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "66ffc903fe9b382596065304",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b7be4895acfc400170e2dd5",
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "651a8e529829226ceb67c319",
+                  "651a8bf3a8520e48047bf708",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.045,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "66ffe2fbab3336cc0106382b",
+          "name": {
+            "zh": "FN SCAR PMM MRE XL 延长导轨",
+            "en": "FN SCAR PMM MRE XL rail extension"
+          },
+          "armorClass": 0,
+          "weight": 0.125,
+          "count": 1
+        },
+        {
+          "id": "5b7be4895acfc400170e2dd5",
+          "name": {
+            "zh": "Magpul M-LOK 4.1英寸导轨",
+            "en": "Magpul M-LOK 4.1 inch rail"
+          },
+          "armorClass": 0,
+          "weight": 0.07,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.24
+    },
+    "mod": {
+      "ergonomics": 0,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_mount",
+      "id": "66ffc903fe9b382596065306",
+      "required": false,
+      "filter": [
+        "66ffe2fbab3336cc0106382b",
+        "66ffe5edfe9b38259606530d"
+      ]
+    },
+    {
+      "name": "mod_foregrip",
+      "id": "66ffc903fe9b382596065307",
+      "required": false,
+      "filter": [
+        "5b7be4895acfc400170e2dd5",
+        "57cffb66245977632f391a99",
+        "57cffcd624597763133760c5",
+        "57cffcdd24597763f5110006",
+        "57cffce524597763b31685d8",
+        "651a8e529829226ceb67c319",
+        "651a8bf3a8520e48047bf708",
+        "665d5d9e338229cfd6078da1",
+        "665edce564fb556f940ab32a"
+      ]
+    }
+  ],
+  "image": "/images/items/66ffc903fe9b382596065304.webp",
+  "isMod": false
+}

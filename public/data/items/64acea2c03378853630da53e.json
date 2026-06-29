@@ -1,1 +1,123 @@
-{"id":"64acea2c03378853630da53e","typeName":"AmmoBox","category":"ammobox","parentTypeChain":["AmmoBox","StackableItem","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b33c","price":1000},"common":{"name":{"zh":"7.62x39mm HP弹药包（20发装）","en":"7.62x39mm HP ammo pack (20 pcs)"},"shortName":{"zh":"HP","en":"HP"},"description":{"zh":"一盒7.62x39 HP弹药，20发装。","en":"A 20-round package of 7.62x39 HP cartridges."},"weight":0.01,"width":1,"height":1,"rarity":"Common","backgroundColor":"yellow"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"yellow","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"ammo_box_762x39_20_PS","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":true,"InsuranceDisabled":true,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"ammo_pack_generic","LeftHandItem":false,"LootExperience":0,"MergesWithChildren":false,"Name":"ammo_box_762x39_20_PS","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/ammo/boxes/item_ammo_box_7_62x39mm.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Common","RepairCost":0,"RepairSpeed":0,"ShortName":"ammo_box_762x39_20_PS","StackMaxRandom":20,"StackMaxSize":1,"StackMinRandom":20,"StackObjectsCount":1,"StackSlots":[{"_id":"64acea2c03378853630da53f","_max_count":20,"_name":"cartridges","_parent":"64acea2c03378853630da53e","_props":{"filters":[{"Filter":["59e4d3d286f774176a36250a"]}]},"_proto":"5748538b2459770af276a261"}],"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":0.01,"Width":1,"ammoCaliber":"Caliber762x39"},"ammoBox":{"ammoId":"59e4d3d286f774176a36250a","caliber":"762x39","count":20}},"slots":[],"image":"/images/items/64acea2c03378853630da53e.webp","isMod":false}
+{
+  "id": "64acea2c03378853630da53e",
+  "typeName": "AmmoBox",
+  "category": "ammobox",
+  "parentTypeChain": [
+    "AmmoBox",
+    "StackableItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b33c",
+    "price": 1000
+  },
+  "common": {
+    "name": {
+      "zh": "7.62x39mm HP弹药包（20发装）",
+      "en": "7.62x39mm HP ammo pack (20 pcs)"
+    },
+    "shortName": {
+      "zh": "HP",
+      "en": "HP"
+    },
+    "description": {
+      "zh": "一盒7.62x39 HP弹药，20发装。",
+      "en": "A 20-round package of 7.62x39 HP cartridges."
+    },
+    "weight": 0.01,
+    "width": 1,
+    "height": 1,
+    "rarity": "Common",
+    "backgroundColor": "yellow"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "ammo_box_762x39_20_PS",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": true,
+      "InsuranceDisabled": true,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "ammo_pack_generic",
+      "LeftHandItem": false,
+      "LootExperience": 0,
+      "MergesWithChildren": false,
+      "Name": "ammo_box_762x39_20_PS",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/ammo/boxes/item_ammo_box_7_62x39mm.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Common",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "ammo_box_762x39_20_PS",
+      "StackMaxRandom": 20,
+      "StackMaxSize": 1,
+      "StackMinRandom": 20,
+      "StackObjectsCount": 1,
+      "StackSlots": [
+        {
+          "_id": "64acea2c03378853630da53f",
+          "_max_count": 20,
+          "_name": "cartridges",
+          "_parent": "64acea2c03378853630da53e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59e4d3d286f774176a36250a"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.01,
+      "Width": 1,
+      "ammoCaliber": "Caliber762x39"
+    },
+    "ammoBox": {
+      "ammoId": "59e4d3d286f774176a36250a",
+      "caliber": "762x39",
+      "count": 20
+    }
+  },
+  "slots": [],
+  "image": "/images/items/64acea2c03378853630da53e.webp",
+  "isMod": false
+}

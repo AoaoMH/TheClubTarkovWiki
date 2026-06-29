@@ -1,1 +1,197 @@
-{"id":"5e848d99865c0f329958c83b","typeName":"PistolGrip","category":"mod_other","parentTypeChain":["PistolGrip","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f761f86f774094242f1a1","price":2608},"common":{"name":{"zh":"KS-23M聚合物手枪式握把","en":"KS-23M pistol grip"},"shortName":{"zh":"KS23M聚合物握把","en":"KS23M"},"description":{"zh":"TOZ生产的KS-23M聚合物手枪式握把。","en":"A polymer pistol grip for the KS-23M shotgun, manufactured by TOZ."},"weight":0.15,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"pistolgrip_ks23_toz_ks23_plastic","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":8,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"pistolgrip_ks23_toz_ks23_plastic","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/pistol grips/pistolgrip_ks23_toz_ks23_plastic.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"pistolgrip_ks23_toz_ks23_plastic","SightingRange":0,"Slots":[{"_id":"5e848d99865c0f329958c83d","_mergeSlotWithChildren":false,"_name":"mod_stock","_parent":"5e848d99865c0f329958c83b","_props":{"filters":[{"Filter":["5e848dc4e4dbc5266a4ec63d"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.15,"Width":1},"mod":{"ergonomics":8,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_stock","id":"5e848d99865c0f329958c83d","required":false,"filter":["5e848dc4e4dbc5266a4ec63d"]}],"image":"/images/items/5e848d99865c0f329958c83b.jpg","isMod":false}
+{
+  "id": "5e848d99865c0f329958c83b",
+  "typeName": "PistolGrip",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "PistolGrip",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f761f86f774094242f1a1",
+    "price": 2608
+  },
+  "common": {
+    "name": {
+      "zh": "KS-23M聚合物手枪式握把",
+      "en": "KS-23M pistol grip"
+    },
+    "shortName": {
+      "zh": "KS23M聚合物握把",
+      "en": "KS23M"
+    },
+    "description": {
+      "zh": "TOZ生产的KS-23M聚合物手枪式握把。",
+      "en": "A polymer pistol grip for the KS-23M shotgun, manufactured by TOZ."
+    },
+    "weight": 0.41000000000000003,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "pistolgrip_ks23_toz_ks23_plastic",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 8,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "pistolgrip_ks23_toz_ks23_plastic",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/pistol grips/pistolgrip_ks23_toz_ks23_plastic.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "pistolgrip_ks23_toz_ks23_plastic",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5e848d99865c0f329958c83d",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "5e848d99865c0f329958c83b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5e848dc4e4dbc5266a4ec63d"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.15,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5e848dc4e4dbc5266a4ec63d",
+          "name": {
+            "zh": "KS-23金属枪托",
+            "en": "KS-23M wire stock"
+          },
+          "armorClass": 0,
+          "weight": 0.26,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.41000000000000003
+    },
+    "mod": {
+      "ergonomics": 8,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_stock",
+      "id": "5e848d99865c0f329958c83d",
+      "required": false,
+      "filter": [
+        "5e848dc4e4dbc5266a4ec63d"
+      ]
+    }
+  ],
+  "image": "/images/items/5e848d99865c0f329958c83b.jpg",
+  "isMod": false
+}

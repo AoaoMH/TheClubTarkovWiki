@@ -1,1 +1,251 @@
-{"id":"6086b5731246154cad35d6c7","typeName":"Handguard","category":"mod_other","parentTypeChain":["Handguard","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75e486f77447ec5d7712","price":15800},"common":{"name":{"zh":"SOK-12 Custom Guns Type 340护木","en":"SOK-12 Custom Guns Type-340 handguard"},"shortName":{"zh":"Type340","en":"Type-340"},"description":{"zh":"Custom Guns Type 340是一种轻型航空铝护木，设计用于安装在Saiga卡宾枪上。","en":"Type-340 is a lightweight aircraft grade aluminium handguard, designed for installation on Saiga carbines. Manufactured by Custom Guns."},"weight":0.24,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"handguard_saiga12_custom_guns_type_340","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":10,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.021,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"handguard_saiga12_custom_guns_type_340","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/handguards/handguard_saiga12_custom_guns_type_340.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-2,"RepairCost":0,"RepairSpeed":0,"ShortName":"handguard_saiga12_custom_guns_type_340","SightingRange":0,"Slots":[{"_id":"60acc2771a425a107168ef64","_mergeSlotWithChildren":false,"_name":"mod_mount_001","_parent":"6086b5731246154cad35d6c7","_props":{"filters":[{"Filter":["6086b5392535c57a13424d70"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"60acc2835e7d98225b738655","_mergeSlotWithChildren":false,"_name":"mod_mount_002","_parent":"6086b5731246154cad35d6c7","_props":{"filters":[{"Filter":["6086b5392535c57a13424d70"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"60acc28fab5d1052a56d9c10","_mergeSlotWithChildren":false,"_name":"mod_mount_003","_parent":"6086b5731246154cad35d6c7","_props":{"filters":[{"Filter":["6086b5392535c57a13424d70"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.24,"Width":2},"mod":{"ergonomics":10,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_mount_001","id":"60acc2771a425a107168ef64","required":false,"filter":["6086b5392535c57a13424d70"]},{"name":"mod_mount_002","id":"60acc2835e7d98225b738655","required":false,"filter":["6086b5392535c57a13424d70"]},{"name":"mod_mount_003","id":"60acc28fab5d1052a56d9c10","required":false,"filter":["6086b5392535c57a13424d70"]}],"image":"/images/items/6086b5731246154cad35d6c7.jpg","isMod":false}
+{
+  "id": "6086b5731246154cad35d6c7",
+  "typeName": "Handguard",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Handguard",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75e486f77447ec5d7712",
+    "price": 15800
+  },
+  "common": {
+    "name": {
+      "zh": "SOK-12 Custom Guns Type 340护木",
+      "en": "SOK-12 Custom Guns Type-340 handguard"
+    },
+    "shortName": {
+      "zh": "Type340",
+      "en": "Type-340"
+    },
+    "description": {
+      "zh": "Custom Guns Type 340是一种轻型航空铝护木，设计用于安装在Saiga卡宾枪上。",
+      "en": "Type-340 is a lightweight aircraft grade aluminium handguard, designed for installation on Saiga carbines. Manufactured by Custom Guns."
+    },
+    "weight": 0.39,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "handguard_saiga12_custom_guns_type_340",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 10,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.021,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "handguard_saiga12_custom_guns_type_340",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/handguards/handguard_saiga12_custom_guns_type_340.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -2,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "handguard_saiga12_custom_guns_type_340",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "60acc2771a425a107168ef64",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "6086b5731246154cad35d6c7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6086b5392535c57a13424d70"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "60acc2835e7d98225b738655",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "6086b5731246154cad35d6c7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6086b5392535c57a13424d70"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "60acc28fab5d1052a56d9c10",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_003",
+          "_parent": "6086b5731246154cad35d6c7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6086b5392535c57a13424d70"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.24,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "6086b5392535c57a13424d70",
+          "name": {
+            "zh": "Custom Guns导轨",
+            "en": "Custom Guns handguard rail"
+          },
+          "armorClass": 0,
+          "weight": 0.05,
+          "count": 3
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.39
+    },
+    "mod": {
+      "ergonomics": 10,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_mount_001",
+      "id": "60acc2771a425a107168ef64",
+      "required": false,
+      "filter": [
+        "6086b5392535c57a13424d70"
+      ]
+    },
+    {
+      "name": "mod_mount_002",
+      "id": "60acc2835e7d98225b738655",
+      "required": false,
+      "filter": [
+        "6086b5392535c57a13424d70"
+      ]
+    },
+    {
+      "name": "mod_mount_003",
+      "id": "60acc28fab5d1052a56d9c10",
+      "required": false,
+      "filter": [
+        "6086b5392535c57a13424d70"
+      ]
+    }
+  ],
+  "image": "/images/items/6086b5731246154cad35d6c7.jpg",
+  "isMod": false
+}

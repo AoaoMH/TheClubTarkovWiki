@@ -1,1 +1,203 @@
-{"id":"5888956924597752983e182d","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":37600},"common":{"name":{"zh":"660毫米DVL-10 M2枪管 .308","en":"DVL-10 M2 7.62x51 660mm barrel"},"shortName":{"zh":"660毫米DVL-10 M2 .308","en":"DVL-10 M2 660mm"},"description":{"zh":"LOBAEV Hummer Barrels生产的DVL-10 M2狙击步枪用.308 660毫米竞赛级不锈钢枪管。\n","en":"A 660mm long 7.62x51 match-grade stainless steel barrel manufactured by LOBAEV Hummer Barrels for the DVL-10 M2 sniper rifle."},"weight":2.88,"width":4,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.013,"ConflictingItems":[],"CoolFactor":0.86,"Description":"barrel_dvl-10_m2_660mm","DeviationCurve":1,"DeviationMax":33,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.05,"EffectiveDistance":0,"Ergonomics":-13,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":3,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.82,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":20,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_dvl-10_m2_660mm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_dvl-10_m2_660mm.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-5,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_dvl-10_m2_660mm","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"5888956924597752983e182e","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"5888956924597752983e182d","_props":{"filters":[{"Filter":["5888996c24597754281f9419"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"5888958d24597752fe43a6f2","_mergeSlotWithChildren":false,"_name":"mod_handguard","_parent":"5888956924597752983e182d","_props":{"filters":[{"Filter":["5888976c24597754281f93f5"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":11.5,"Weight":2.88,"Width":4},"mod":{"ergonomics":-13,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":11.5,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"5888956924597752983e182e","required":true,"filter":["5888996c24597754281f9419"]},{"name":"mod_handguard","id":"5888958d24597752fe43a6f2","required":true,"filter":["5888976c24597754281f93f5"]}],"image":"/images/items/5888956924597752983e182d.jpg","isMod":false}
+{
+  "id": "5888956924597752983e182d",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 37600
+  },
+  "common": {
+    "name": {
+      "zh": "660毫米DVL-10 M2枪管 .308",
+      "en": "DVL-10 M2 7.62x51 660mm barrel"
+    },
+    "shortName": {
+      "zh": "660毫米DVL-10 M2 .308",
+      "en": "DVL-10 M2 660mm"
+    },
+    "description": {
+      "zh": "LOBAEV Hummer Barrels生产的DVL-10 M2狙击步枪用.308 660毫米竞赛级不锈钢枪管。\n",
+      "en": "A 660mm long 7.62x51 match-grade stainless steel barrel manufactured by LOBAEV Hummer Barrels for the DVL-10 M2 sniper rifle."
+    },
+    "weight": 2.88,
+    "width": 4,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.013,
+      "ConflictingItems": [],
+      "CoolFactor": 0.86,
+      "Description": "barrel_dvl-10_m2_660mm",
+      "DeviationCurve": 1,
+      "DeviationMax": 33,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.05,
+      "EffectiveDistance": 0,
+      "Ergonomics": -13,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 3,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.82,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_dvl-10_m2_660mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_dvl-10_m2_660mm.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_dvl-10_m2_660mm",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5888956924597752983e182e",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "5888956924597752983e182d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5888996c24597754281f9419"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "5888958d24597752fe43a6f2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "5888956924597752983e182d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5888976c24597754281f93f5"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 11.5,
+      "Weight": 2.88,
+      "Width": 4
+    },
+    "mod": {
+      "ergonomics": -13,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 11.5,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "5888956924597752983e182e",
+      "required": true,
+      "filter": [
+        "5888996c24597754281f9419"
+      ]
+    },
+    {
+      "name": "mod_handguard",
+      "id": "5888958d24597752fe43a6f2",
+      "required": true,
+      "filter": [
+        "5888976c24597754281f93f5"
+      ]
+    }
+  ],
+  "image": "/images/items/5888956924597752983e182d.jpg",
+  "isMod": false
+}

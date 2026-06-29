@@ -1,1 +1,200 @@
-{"id":"669fa5019aa2a422600442f6","typeName":"Receiver","category":"mod_other","parentTypeChain":["Receiver","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f764186f77447ec5d7714","price":3109},"common":{"name":{"zh":"沙漠之鹰L5 AE手枪套筒","en":"Desert Eagle L5 .50 AE pistol slide"},"shortName":{"zh":"L5 .50套筒","en":"L5 .50"},"description":{"zh":"沙漠之鹰手枪的标准套筒。由Magnum Research制造。","en":"An L5 slide for the Desert Eagle pistol chambered in .50 AE, manufactured by Magnum Research."},"weight":0.31,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.055,"Description":"reciever_m1911_colt_m1911a1_std","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":3,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.952,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":true,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"reciever_m1911_colt_m1911a1_std","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/recievers/reciever_deagle_magnum_research_l5_std_127x33.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"reciever_m1911_colt_m1911a1_std","SightingRange":0,"Slots":[{"_id":"669fa5019aa2a422600442f8","_mergeSlotWithChildren":false,"_name":"mod_sight_rear","_parent":"669fa5019aa2a422600442f6","_props":{"filters":[{"Filter":["668fe5e1800f0244f9036e46"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.31,"Width":2},"mod":{"ergonomics":3,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_sight_rear","id":"669fa5019aa2a422600442f8","required":false,"filter":["668fe5e1800f0244f9036e46"]}],"image":"/images/items/669fa5019aa2a422600442f6.webp","isMod":false}
+{
+  "id": "669fa5019aa2a422600442f6",
+  "typeName": "Receiver",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Receiver",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f764186f77447ec5d7714",
+    "price": 3109
+  },
+  "common": {
+    "name": {
+      "zh": "沙漠之鹰L5 AE手枪套筒",
+      "en": "Desert Eagle L5 .50 AE pistol slide"
+    },
+    "shortName": {
+      "zh": "L5 .50套筒",
+      "en": "L5 .50"
+    },
+    "description": {
+      "zh": "沙漠之鹰手枪的标准套筒。由Magnum Research制造。",
+      "en": "An L5 slide for the Desert Eagle pistol chambered in .50 AE, manufactured by Magnum Research."
+    },
+    "weight": 0.316,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.055,
+      "Description": "reciever_m1911_colt_m1911a1_std",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 3,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.952,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": true,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "reciever_m1911_colt_m1911a1_std",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/recievers/reciever_deagle_magnum_research_l5_std_127x33.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "reciever_m1911_colt_m1911a1_std",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "669fa5019aa2a422600442f8",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "669fa5019aa2a422600442f6",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "668fe5e1800f0244f9036e46"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.31,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "668fe5e1800f0244f9036e46",
+          "name": {
+            "zh": "沙漠之鹰照门",
+            "en": "Desert Eagle rear sight"
+          },
+          "armorClass": 0,
+          "weight": 0.006,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.316
+    },
+    "mod": {
+      "ergonomics": 3,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_sight_rear",
+      "id": "669fa5019aa2a422600442f8",
+      "required": false,
+      "filter": [
+        "668fe5e1800f0244f9036e46"
+      ]
+    }
+  ],
+  "image": "/images/items/669fa5019aa2a422600442f6.webp",
+  "isMod": false
+}

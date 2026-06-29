@@ -1,1 +1,130 @@
-{"id":"590c5f0d86f77413997acfab","typeName":"Food","category":"food","parentTypeChain":["Food","FoodDrink","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b336","price":17061},"common":{"name":{"zh":"MRE个人即食口粮","en":"MRE ration pack"},"shortName":{"zh":"MRE","en":"MRE"},"description":{"zh":"MRE（Meal, Ready-to-Eat 个人即食口粮）为美国陆军量身打造的单兵作战口粮。MRE 包装的特殊设计，使它在极端的天气环境下依然可以完好的储存。包含了各种口味，即使身处战场也能享用美食。","en":"MRE (Meal, Ready-to-Eat) is an individual daily food ration developed for the United States Army. MRE packaging is designed for harsh operating conditions and protection from weather exposure, which allows not to worry about storage conditions. Contains a lot of different products to quench your hunger in the field conditions."},"weight":0.74,"width":1,"height":2,"rarity":"Rare","backgroundColor":"default"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"default","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"MRE","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":2,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"food_snack","LeftHandItem":false,"LootExperience":10,"MaxResource":1,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"MRE","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_mre/item_mre_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Rare","RepairCost":0,"RepairSpeed":0,"ShortName":"MRE","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_food_mre","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_mre/item_mre_container.bundle","rcid":""},"Weight":0.74,"Width":1,"effects_damage":[],"effects_health":{"Energy":{"value":70}},"foodEffectType":"afterUse","foodUseTime":5},"foodDrink":{"useTime":5,"effects":{"healthEffects":[{"type":"Energy","value":70}],"damageEffects":[],"stimBuffs":[{"buffType":"EnergyRate","skillName":"","value":0.1,"delay":1,"duration":300,"chance":1}]}}},"slots":[],"image":"/images/items/590c5f0d86f77413997acfab.jpg","isMod":false}
+{
+  "id": "590c5f0d86f77413997acfab",
+  "typeName": "Food",
+  "category": "food",
+  "parentTypeChain": [
+    "Food",
+    "FoodDrink",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b336",
+    "price": 17061
+  },
+  "common": {
+    "name": {
+      "zh": "MRE个人即食口粮",
+      "en": "MRE ration pack"
+    },
+    "shortName": {
+      "zh": "MRE",
+      "en": "MRE"
+    },
+    "description": {
+      "zh": "MRE（Meal, Ready-to-Eat 个人即食口粮）为美国陆军量身打造的单兵作战口粮。MRE 包装的特殊设计，使它在极端的天气环境下依然可以完好的储存。包含了各种口味，即使身处战场也能享用美食。",
+      "en": "MRE (Meal, Ready-to-Eat) is an individual daily food ration developed for the United States Army. MRE packaging is designed for harsh operating conditions and protection from weather exposure, which allows not to worry about storage conditions. Contains a lot of different products to quench your hunger in the field conditions."
+    },
+    "weight": 0.74,
+    "width": 1,
+    "height": 2,
+    "rarity": "Rare",
+    "backgroundColor": "default"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "default",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "MRE",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "food_snack",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxResource": 1,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "MRE",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_mre/item_mre_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "MRE",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_food_mre",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_mre/item_mre_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.74,
+      "Width": 1,
+      "effects_damage": [],
+      "effects_health": {
+        "Energy": {
+          "value": 70
+        }
+      },
+      "foodEffectType": "afterUse",
+      "foodUseTime": 5
+    },
+    "foodDrink": {
+      "useTime": 5,
+      "effects": {
+        "healthEffects": [
+          {
+            "type": "Energy",
+            "value": 70
+          }
+        ],
+        "damageEffects": [],
+        "stimBuffs": [
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": 0.1,
+            "delay": 1,
+            "duration": 300,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/590c5f0d86f77413997acfab.jpg",
+  "isMod": false
+}

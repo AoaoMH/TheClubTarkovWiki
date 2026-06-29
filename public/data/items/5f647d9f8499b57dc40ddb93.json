@@ -1,1 +1,179 @@
-{"id":"5f647d9f8499b57dc40ddb93","typeName":"Magazine","category":"mod_magazine","parentTypeChain":["Magazine","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f754a86f774094242f19b","price":2200},"common":{"name":{"zh":"KS-23M 23mm 3发弹舱","en":"KS-23M 23x75 3-shell magazine cap"},"shortName":{"zh":"KS-23Mx3","en":"KS-23Mx3"},"description":{"zh":"KS-23M 23mm弹的3发弹舱。","en":"A 3-shell capacity magazine cap for KS-23M 23x75mm shells."},"weight":0.1,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"yellow"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"yellow","BeltMagazineRefreshCount":0,"BlocksCollapsible":false,"BlocksFolding":false,"CanAdmin":false,"CanFast":false,"CanHit":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"Cartridges":[{"_id":"5f647d9f8499b57dc40ddb95","_max_count":3,"_name":"cartridges","_parent":"5f647d9f8499b57dc40ddb93","_props":{"filters":[{"Filter":["5e85aa1a988a8701445df1f5","5e85aac65505fa48730d8af2","5e85a9a6eacf8c039e4e2ac1","5f647f31b6238e5dd066e196","5e85a9f4add9fe03027d9bf1","5f647fd3f6e4ab66c82faed6"]}]},"_proto":"5748538b2459770af276a261"}],"CheckOverride":0,"CheckTimeModifier":0,"ConflictingItems":[],"Description":"mag_ks23_toz_ks23_std_23x75_3","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-6,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsMagazineForStationaryWeapon":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"magazine_metal","LeftHandItem":false,"LoadUnloadModifier":0,"LootExperience":5,"Loudness":0,"MagazineWithBelt":false,"MalfunctionChance":0.05,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mag_ks23_toz_ks23_std_23x75_3","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/magazines/mag_ks23_toz_ks23_std_23x75_3.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"ReloadMagType":"InternalMagazine","RepairCost":0,"RepairSpeed":0,"ShortName":"mag_ks23_toz_ks23_std_23x75_3","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"TagColor":0,"TagName":"","ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"VisibleAmmoRangesString":"","Weight":0.1,"Width":1,"magAnimationIndex":0},"mod":{"ergonomics":-6,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0.05,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[],"image":"/images/items/5f647d9f8499b57dc40ddb93.jpg","isMod":false}
+{
+  "id": "5f647d9f8499b57dc40ddb93",
+  "typeName": "Magazine",
+  "category": "mod_magazine",
+  "parentTypeChain": [
+    "Magazine",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f754a86f774094242f19b",
+    "price": 2200
+  },
+  "common": {
+    "name": {
+      "zh": "KS-23M 23mm 3发弹舱",
+      "en": "KS-23M 23x75 3-shell magazine cap"
+    },
+    "shortName": {
+      "zh": "KS-23Mx3",
+      "en": "KS-23Mx3"
+    },
+    "description": {
+      "zh": "KS-23M 23mm弹的3发弹舱。",
+      "en": "A 3-shell capacity magazine cap for KS-23M 23x75mm shells."
+    },
+    "weight": 0.1,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "yellow"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "BeltMagazineRefreshCount": 0,
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanAdmin": false,
+      "CanFast": false,
+      "CanHit": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Cartridges": [
+        {
+          "_id": "5f647d9f8499b57dc40ddb95",
+          "_max_count": 3,
+          "_name": "cartridges",
+          "_parent": "5f647d9f8499b57dc40ddb93",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5e85aa1a988a8701445df1f5",
+                  "5e85aac65505fa48730d8af2",
+                  "5e85a9a6eacf8c039e4e2ac1",
+                  "5f647f31b6238e5dd066e196",
+                  "5e85a9f4add9fe03027d9bf1",
+                  "5f647fd3f6e4ab66c82faed6"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "CheckOverride": 0,
+      "CheckTimeModifier": 0,
+      "ConflictingItems": [],
+      "Description": "mag_ks23_toz_ks23_std_23x75_3",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -6,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsMagazineForStationaryWeapon": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "magazine_metal",
+      "LeftHandItem": false,
+      "LoadUnloadModifier": 0,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MagazineWithBelt": false,
+      "MalfunctionChance": 0.05,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mag_ks23_toz_ks23_std_23x75_3",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/magazines/mag_ks23_toz_ks23_std_23x75_3.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "ReloadMagType": "InternalMagazine",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mag_ks23_toz_ks23_std_23x75_3",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "TagColor": 0,
+      "TagName": "",
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "VisibleAmmoRangesString": "",
+      "Weight": 0.1,
+      "Width": 1,
+      "magAnimationIndex": 0
+    },
+    "mod": {
+      "ergonomics": -6,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0.05,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5f647d9f8499b57dc40ddb93.jpg",
+  "isMod": false
+}

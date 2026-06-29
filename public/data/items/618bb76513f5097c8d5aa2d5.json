@@ -1,1 +1,146 @@
-{"id":"618bb76513f5097c8d5aa2d5","typeName":"Backpack","category":"backpack","parentTypeChain":["Backpack","SearchableItem","CompoundItem","Item"],"handbook":{"categoryId":"5b5f6f6c86f774093f2ecf0b","price":29410},"common":{"name":{"zh":"Gruppa 99 T20背包（茶褐色）","en":"Gruppa 99 T20 backpack (Umber Brown)"},"shortName":{"zh":"T20","en":"T20"},"description":{"zh":"拥有 22 升大容量的背包，设计经过人体工学优化，适合背着去做限时任务。这款背包既适合在执行任务时携带装备，在城市环境下也不会违和。倘若合理分配空间，背包的容量甚至可以拓展至 25-27 升之多，其极简设计风格与迎合军事人员的多功能性在城市作战环境下十分有用。由 Gruppa 99 设计制造，茶褐色版本。","en":"A backpack with a volume of 22 liters with an ergonomic harness for time-limited tasks. The backpack can be used for both operational tasks and urban carry. With proper packing, the inner volume of the backpack can be 25-27 liters. The minimalistic design and military functionality will be useful in urban environments. Manufactured by Gruppa 99. Umber Brown version."},"weight":1.25,"width":5,"height":5,"rarity":"Rare","backgroundColor":"violet"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"violet","BlocksArmorVest":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"Very Wild Backpack","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"GridLayoutName":"","Grids":[{"_id":"618bb76513f5097c8d5aa2d7","_name":"main","_parent":"618bb76513f5097c8d5aa2d5","_props":{"cellsH":5,"cellsV":5,"filters":[{"ExcludedFilter":["5448bf274bdc2dfc2f8b456a","5c093db286f7740a1b2617e3","5e2af55f86f7746d4159f07c","5c0a840b86f7742ffa4f2482","5b7c710788a4506dec015957","5c127c4486f7745625356c13","5aafbcd986f7745e590fff23","59fb016586f7746d0d4b423a","59fb042886f7746c5005a7b2","59fb023c86f7746d0d4b423c","5b6d9ce188a4501afc1b2b25"],"Filter":["54009119af1c881c07000029"]}],"isSortingTable":false,"maxCount":0,"maxWeight":0,"minCount":0},"_proto":"55d329c24bdc2d892f8b4567"}],"Height":5,"HideEntrails":true,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_backpack","LeanWeaponAgainstBody":false,"LeftHandItem":false,"LootExperience":20,"MergesWithChildren":false,"Name":"Very Wild Backpack","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/backpack_gr99t20/item_equipment_backpack_gr99t20_olive.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Rare","RepairCost":0,"RepairSpeed":0,"SearchSound":"looting_body_extended","ShortName":"VWB","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":1.25,"Width":5,"mousePenalty":0,"speedPenaltyPercent":-1,"weaponErgonomicPenalty":-1}},"slots":[],"image":"/images/items/618bb76513f5097c8d5aa2d5.jpg","isMod":false}
+{
+  "id": "618bb76513f5097c8d5aa2d5",
+  "typeName": "Backpack",
+  "category": "backpack",
+  "parentTypeChain": [
+    "Backpack",
+    "SearchableItem",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f6f6c86f774093f2ecf0b",
+    "price": 29410
+  },
+  "common": {
+    "name": {
+      "zh": "Gruppa 99 T20背包（茶褐色）",
+      "en": "Gruppa 99 T20 backpack (Umber Brown)"
+    },
+    "shortName": {
+      "zh": "T20",
+      "en": "T20"
+    },
+    "description": {
+      "zh": "拥有 22 升大容量的背包，设计经过人体工学优化，适合背着去做限时任务。这款背包既适合在执行任务时携带装备，在城市环境下也不会违和。倘若合理分配空间，背包的容量甚至可以拓展至 25-27 升之多，其极简设计风格与迎合军事人员的多功能性在城市作战环境下十分有用。由 Gruppa 99 设计制造，茶褐色版本。",
+      "en": "A backpack with a volume of 22 liters with an ergonomic harness for time-limited tasks. The backpack can be used for both operational tasks and urban carry. With proper packing, the inner volume of the backpack can be 25-27 liters. The minimalistic design and military functionality will be useful in urban environments. Manufactured by Gruppa 99. Umber Brown version."
+    },
+    "weight": 1.25,
+    "width": 5,
+    "height": 5,
+    "rarity": "Rare",
+    "backgroundColor": "violet"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "violet",
+      "BlocksArmorVest": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "Very Wild Backpack",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "GridLayoutName": "",
+      "Grids": [
+        {
+          "_id": "618bb76513f5097c8d5aa2d7",
+          "_name": "main",
+          "_parent": "618bb76513f5097c8d5aa2d5",
+          "_props": {
+            "cellsH": 5,
+            "cellsV": 5,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a",
+                  "5c093db286f7740a1b2617e3",
+                  "5e2af55f86f7746d4159f07c",
+                  "5c0a840b86f7742ffa4f2482",
+                  "5b7c710788a4506dec015957",
+                  "5c127c4486f7745625356c13",
+                  "5aafbcd986f7745e590fff23",
+                  "59fb016586f7746d0d4b423a",
+                  "59fb042886f7746c5005a7b2",
+                  "59fb023c86f7746d0d4b423c",
+                  "5b6d9ce188a4501afc1b2b25"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Height": 5,
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_backpack",
+      "LeanWeaponAgainstBody": false,
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MergesWithChildren": false,
+      "Name": "Very Wild Backpack",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/backpack_gr99t20/item_equipment_backpack_gr99t20_olive.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SearchSound": "looting_body_extended",
+      "ShortName": "VWB",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 1.25,
+      "Width": 5,
+      "mousePenalty": 0,
+      "speedPenaltyPercent": -1,
+      "weaponErgonomicPenalty": -1
+    }
+  },
+  "slots": [],
+  "image": "/images/items/618bb76513f5097c8d5aa2d5.jpg",
+  "isMod": false
+}

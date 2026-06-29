@@ -1,1 +1,296 @@
-{"id":"62e7c72df68e7a0676050c77","typeName":"Receiver","category":"mod_other","parentTypeChain":["Receiver","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f764186f77447ec5d7714","price":3800},"common":{"name":{"zh":"Steyr AUG A3 5.56x45机匣","en":"Steyr AUG A3 5.56x45 receiver"},"shortName":{"zh":"AUG A3","en":"AUG A3"},"description":{"zh":"AUG A3所使用的低轮廓机匣，带有内置战术装置。由Steyr-Daimler-Puch生产。","en":"A low-profile receiver with built-in tactical equipment rail for AUG A3. Manufactured by Steyr-Daimler-Puch."},"weight":0.794,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.048,"Description":"Штатная крышка ствольной коробки АК-74 производства Ижмаш.","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":true,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.96,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":true,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Крышка ствольной коробки Ижмаш для АК-74","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/recievers/reciever_aug_steyr_aug_a3.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"Кск АК74","SightingRange":0,"Slots":[{"_id":"62e7c79cda5b3b57e805e2cb","_mergeSlotWithChildren":false,"_name":"mod_barrel","_parent":"62e7c72df68e7a0676050c77","_props":{"filters":[{"Filter":["62e7c7f3c34ea971710c32fc","630e39c3bd357927e4007c15","6333f05d1bc0e6217a0e9d34"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"62e7c79cda5b3b57e805e2cc","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"62e7c72df68e7a0676050c77","_props":{"filters":[{"Filter":["62e7c8f91cd3fde4d503d690","62ebba1fb658e07ef9082b5a","62ebd290c427473eff0baafb"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"62e7c79cda5b3b57e805e2cd","_mergeSlotWithChildren":false,"_name":"mod_tactical","_parent":"62e7c72df68e7a0676050c77","_props":{"filters":[{"Filter":["5a800961159bd4315e3a1657","57fd23e32459772d0805bcf1","626becf9582c3e319310b837","5cc9c20cd7f00c001336c65d","6272370ee4013c5d7e31f418","6272379924e29f06af4d5ecb","5d2369418abbc306c62e0c80","5b07dd285acfc4001754240d","56def37dd2720bec348b456a","5a7b483fe899ef0016170d15","5a5f1ce64f39f90b401987bc","560d657b4bdc2da74d8b4572","57d17e212459775a1179a0f5","644a3df63b0b6f03e101e065"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.794,"Width":2},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_barrel","id":"62e7c79cda5b3b57e805e2cb","required":true,"filter":["62e7c7f3c34ea971710c32fc","630e39c3bd357927e4007c15","6333f05d1bc0e6217a0e9d34"]},{"name":"mod_mount","id":"62e7c79cda5b3b57e805e2cc","required":false,"filter":["62e7c8f91cd3fde4d503d690","62ebba1fb658e07ef9082b5a","62ebd290c427473eff0baafb"]},{"name":"mod_tactical","id":"62e7c79cda5b3b57e805e2cd","required":false,"filter":["5a800961159bd4315e3a1657","57fd23e32459772d0805bcf1","626becf9582c3e319310b837","5cc9c20cd7f00c001336c65d","6272370ee4013c5d7e31f418","6272379924e29f06af4d5ecb","5d2369418abbc306c62e0c80","5b07dd285acfc4001754240d","56def37dd2720bec348b456a","5a7b483fe899ef0016170d15","5a5f1ce64f39f90b401987bc","560d657b4bdc2da74d8b4572","57d17e212459775a1179a0f5","644a3df63b0b6f03e101e065"]}],"image":"/images/items/62e7c72df68e7a0676050c77.jpg","isMod":false}
+{
+  "id": "62e7c72df68e7a0676050c77",
+  "typeName": "Receiver",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Receiver",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f764186f77447ec5d7714",
+    "price": 3800
+  },
+  "common": {
+    "name": {
+      "zh": "Steyr AUG A3 5.56x45机匣",
+      "en": "Steyr AUG A3 5.56x45 receiver"
+    },
+    "shortName": {
+      "zh": "AUG A3",
+      "en": "AUG A3"
+    },
+    "description": {
+      "zh": "AUG A3所使用的低轮廓机匣，带有内置战术装置。由Steyr-Daimler-Puch生产。",
+      "en": "A low-profile receiver with built-in tactical equipment rail for AUG A3. Manufactured by Steyr-Daimler-Puch."
+    },
+    "weight": 1.034,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.048,
+      "Description": "Штатная крышка ствольной коробки АК-74 производства Ижмаш.",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": true,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.96,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": true,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Крышка ствольной коробки Ижмаш для АК-74",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/recievers/reciever_aug_steyr_aug_a3.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "Кск АК74",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "62e7c79cda5b3b57e805e2cb",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "62e7c72df68e7a0676050c77",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "62e7c7f3c34ea971710c32fc",
+                  "630e39c3bd357927e4007c15",
+                  "6333f05d1bc0e6217a0e9d34"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "62e7c79cda5b3b57e805e2cc",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "62e7c72df68e7a0676050c77",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "62e7c8f91cd3fde4d503d690",
+                  "62ebba1fb658e07ef9082b5a",
+                  "62ebd290c427473eff0baafb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "62e7c79cda5b3b57e805e2cd",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "62e7c72df68e7a0676050c77",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a800961159bd4315e3a1657",
+                  "57fd23e32459772d0805bcf1",
+                  "626becf9582c3e319310b837",
+                  "5cc9c20cd7f00c001336c65d",
+                  "6272370ee4013c5d7e31f418",
+                  "6272379924e29f06af4d5ecb",
+                  "5d2369418abbc306c62e0c80",
+                  "5b07dd285acfc4001754240d",
+                  "56def37dd2720bec348b456a",
+                  "5a7b483fe899ef0016170d15",
+                  "5a5f1ce64f39f90b401987bc",
+                  "560d657b4bdc2da74d8b4572",
+                  "57d17e212459775a1179a0f5",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.794,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "62e7c8f91cd3fde4d503d690",
+          "name": {
+            "zh": "Steyr AUG A3 M1高基座",
+            "en": "Steyr AUG A3 M1 high sight mount"
+          },
+          "armorClass": 0,
+          "weight": 0.154,
+          "count": 1
+        },
+        {
+          "id": "5a800961159bd4315e3a1657",
+          "name": {
+            "zh": "Glock Tactical GL21手电激光组合",
+            "en": "Glock GTL 21 tactical flashlight with laser"
+          },
+          "armorClass": 0,
+          "weight": 0.086,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.034
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_barrel",
+      "id": "62e7c79cda5b3b57e805e2cb",
+      "required": true,
+      "filter": [
+        "62e7c7f3c34ea971710c32fc",
+        "630e39c3bd357927e4007c15",
+        "6333f05d1bc0e6217a0e9d34"
+      ]
+    },
+    {
+      "name": "mod_mount",
+      "id": "62e7c79cda5b3b57e805e2cc",
+      "required": false,
+      "filter": [
+        "62e7c8f91cd3fde4d503d690",
+        "62ebba1fb658e07ef9082b5a",
+        "62ebd290c427473eff0baafb"
+      ]
+    },
+    {
+      "name": "mod_tactical",
+      "id": "62e7c79cda5b3b57e805e2cd",
+      "required": false,
+      "filter": [
+        "5a800961159bd4315e3a1657",
+        "57fd23e32459772d0805bcf1",
+        "626becf9582c3e319310b837",
+        "5cc9c20cd7f00c001336c65d",
+        "6272370ee4013c5d7e31f418",
+        "6272379924e29f06af4d5ecb",
+        "5d2369418abbc306c62e0c80",
+        "5b07dd285acfc4001754240d",
+        "56def37dd2720bec348b456a",
+        "5a7b483fe899ef0016170d15",
+        "5a5f1ce64f39f90b401987bc",
+        "560d657b4bdc2da74d8b4572",
+        "57d17e212459775a1179a0f5",
+        "644a3df63b0b6f03e101e065"
+      ]
+    }
+  ],
+  "image": "/images/items/62e7c72df68e7a0676050c77.jpg",
+  "isMod": false
+}

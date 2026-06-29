@@ -1,1 +1,176 @@
-{"id":"615d8f8567085e45ef1409ca","typeName":"Silencer","category":"mod_muzzle","parentTypeChain":["Silencer","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f731a86f774093e6cb4f9","price":95000},"common":{"name":{"zh":"AK Hexagon \"Wafflemaker\" 5.45x39声音抑制器","en":"AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor"},"shortName":{"zh":"Waffle","en":"Waffle"},"description":{"zh":"由Hexagon生产的\"Wafflemaker\"声音抑制器，安装在Hexagon \"Reactor\"枪口制退器上。","en":"The \"Wafflemaker\" prototype sound suppressor manufactured by Hexagon, designed for installation on the Hexagon \"Reactor\" muzzle brake."},"weight":0.29,"width":2,"height":1,"rarity":"Superrare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["5b800e9286f7747a8b04f3ff","5b80242286f77429445e0b47","5d15ce51d7ad1a1eff619092"],"CoolFactor":1.11,"Description":"silencer_akm_hexagon_akm_762x39","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.75,"EffectiveDistance":0,"Ergonomics":-19,"ExamineExperience":4,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":true,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.14,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":-25,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"silencer_akm_hexagon_akm_762x39","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/silencers/silencer_hex_hexagon_wafflemaker_suppressor_545x39.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Superrare","Recoil":-5,"RepairCost":0,"RepairSpeed":0,"ShortName":"silencer_akm_hexagon_akm_762x39","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0.8,"Weight":0.29,"Width":2,"muzzleModType":"pms"},"mod":{"ergonomics":-19,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":-25,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0.8,"muzzleModType":"pms","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"5b800e9286f7747a8b04f3ff","name":{"zh":"Hexagon AK护木","en":"AK Hexagon tubular handguard"},"isWikiItem":true},{"id":"5b80242286f77429445e0b47","name":{"zh":"Hexagon AK护木（Anodized Red）","en":"AK Hexagon tubular handguard (Anodized Red)"},"isWikiItem":true},{"id":"5d15ce51d7ad1a1eff619092","name":{"zh":"Alfa Arms Goliaf AKS-74U护木","en":"AKS-74U Alfa Arms Goliaf handguard"},"isWikiItem":true}]},"slots":[],"image":"/images/items/615d8f8567085e45ef1409ca.jpg","isMod":false}
+{
+  "id": "615d8f8567085e45ef1409ca",
+  "typeName": "Silencer",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "Silencer",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f731a86f774093e6cb4f9",
+    "price": 95000
+  },
+  "common": {
+    "name": {
+      "zh": "AK Hexagon \"Wafflemaker\" 5.45x39声音抑制器",
+      "en": "AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor"
+    },
+    "shortName": {
+      "zh": "Waffle",
+      "en": "Waffle"
+    },
+    "description": {
+      "zh": "由Hexagon生产的\"Wafflemaker\"声音抑制器，安装在Hexagon \"Reactor\"枪口制退器上。",
+      "en": "The \"Wafflemaker\" prototype sound suppressor manufactured by Hexagon, designed for installation on the Hexagon \"Reactor\" muzzle brake."
+    },
+    "weight": 0.29,
+    "width": 2,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "5b800e9286f7747a8b04f3ff",
+        "5b80242286f77429445e0b47",
+        "5d15ce51d7ad1a1eff619092"
+      ],
+      "CoolFactor": 1.11,
+      "Description": "silencer_akm_hexagon_akm_762x39",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.75,
+      "EffectiveDistance": 0,
+      "Ergonomics": -19,
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": true,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.14,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": -25,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "silencer_akm_hexagon_akm_762x39",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/silencers/silencer_hex_hexagon_wafflemaker_suppressor_545x39.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Superrare",
+      "Recoil": -5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "silencer_akm_hexagon_akm_762x39",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0.8,
+      "Weight": 0.29,
+      "Width": 2,
+      "muzzleModType": "pms"
+    },
+    "mod": {
+      "ergonomics": -19,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": -25,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0.8,
+      "muzzleModType": "pms",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "5b800e9286f7747a8b04f3ff",
+        "name": {
+          "zh": "Hexagon AK护木",
+          "en": "AK Hexagon tubular handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5b80242286f77429445e0b47",
+        "name": {
+          "zh": "Hexagon AK护木（Anodized Red）",
+          "en": "AK Hexagon tubular handguard (Anodized Red)"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5d15ce51d7ad1a1eff619092",
+        "name": {
+          "zh": "Alfa Arms Goliaf AKS-74U护木",
+          "en": "AKS-74U Alfa Arms Goliaf handguard"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [],
+  "image": "/images/items/615d8f8567085e45ef1409ca.jpg",
+  "isMod": false
+}

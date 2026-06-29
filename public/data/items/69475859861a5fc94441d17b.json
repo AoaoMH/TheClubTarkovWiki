@@ -1,1 +1,273 @@
-{"id":"69475859861a5fc94441d17b","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"巴雷特 XM109 25英寸凹槽枪管","en":"Barrett XM109 25 inch fluted barrel "},"shortName":{"zh":"XM109 25英寸","en":"XM109 25\""},"description":{"zh":"巴雷特XM109反器材有效载荷步枪专用25英寸加长凹槽枪管。","en":"Extended 25 inch fluted barrel for the Barrett XM109 anti-material payload rifle."},"weight":5.05,"width":5,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.0115,"ConflictingItems":["5c0e2f5cd174af02a012cfc9","5ae30db85acfc408fb139a05","55d459824bdc2d892f8b4573","5c78f2792e221600106f4683","5c78f26f2e221601da3581d1","5d00e0cbd7ad1a6c6566a42d","5d00f63bd7ad1a59283b1c1e"],"CoolFactor":0.926,"Description":"barrel_ak50_theakguy_std_612mm_127x99","DeviationCurve":1.1,"DeviationMax":30,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-7,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":2,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.78,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":20,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_ak50_theakguy_std_612mm_127x99","NotShownInSlot":false,"Prefab":{"path":"WeaponXM109/xm109_barrel_long.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-6,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_ak50_theakguy_std_612mm_127x99","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"6947585ee8f1c9dac40e7520","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"69475859861a5fc94441d17b","_props":{"filters":[{"AnimationIndex":-1,"Filter":["694755c06cb8cad0abfba87f","694756c1c61e561e10ddc6f0"]}]},"_proto":"55d30c394bdc2dae468b4577","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":5.05,"Width":5},"mod":{"ergonomics":-7,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"5c0e2f5cd174af02a012cfc9","name":{"zh":"ADAR 2-15 AR-15兼容木质枪托","en":"AR-15 ADAR 2-15 wooden handguard"},"isWikiItem":true},{"id":"5ae30db85acfc408fb139a05","name":{"zh":"柯尔特 M4 Length AR-15兼容护木","en":"AR-15 Colt M4 Carbine Length handguard"},"isWikiItem":true},{"id":"55d459824bdc2d892f8b4573","name":{"zh":"Knight's Armament KAC RIS AR-15兼容护木","en":"AR-15 KAC RIS handguard"},"isWikiItem":true},{"id":"5c78f2792e221600106f4683","name":{"zh":"Magpul MOE SL卡宾枪长度M-LOK AR15护木","en":"AR-15 Magpul MOE SL carbine length M-LOK handguard"},"isWikiItem":true},{"id":"5c78f26f2e221601da3581d1","name":{"zh":"Magpul MOE SL中等长度M-LOK AR15护木","en":"AR-15 Magpul MOE SL medium length M-LOK handguard"},"isWikiItem":true},{"id":"5d00e0cbd7ad1a6c6566a42d","name":{"zh":"Strike Industries Viper M-LOK中 AR-15卡宾护木","en":"AR-15 Strike Industries Viper carbine length M-LOK handguard"},"isWikiItem":true},{"id":"5d00f63bd7ad1a59283b1c1e","name":{"zh":"Strike Industries Viper M-LOK长 AR-15卡宾护木","en":"AR-15 Strike Industries Viper carbine length M-LOK handguard (FDE)"},"isWikiItem":true}]},"slots":[{"name":"mod_muzzle","id":"6947585ee8f1c9dac40e7520","required":false,"filter":["694755c06cb8cad0abfba87f","694756c1c61e561e10ddc6f0"]}],"image":null,"isMod":true}
+{
+  "id": "69475859861a5fc94441d17b",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "巴雷特 XM109 25英寸凹槽枪管",
+      "en": "Barrett XM109 25 inch fluted barrel "
+    },
+    "shortName": {
+      "zh": "XM109 25英寸",
+      "en": "XM109 25\""
+    },
+    "description": {
+      "zh": "巴雷特XM109反器材有效载荷步枪专用25英寸加长凹槽枪管。",
+      "en": "Extended 25 inch fluted barrel for the Barrett XM109 anti-material payload rifle."
+    },
+    "weight": 5.79,
+    "width": 5,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.0115,
+      "ConflictingItems": [
+        "5c0e2f5cd174af02a012cfc9",
+        "5ae30db85acfc408fb139a05",
+        "55d459824bdc2d892f8b4573",
+        "5c78f2792e221600106f4683",
+        "5c78f26f2e221601da3581d1",
+        "5d00e0cbd7ad1a6c6566a42d",
+        "5d00f63bd7ad1a59283b1c1e"
+      ],
+      "CoolFactor": 0.926,
+      "Description": "barrel_ak50_theakguy_std_612mm_127x99",
+      "DeviationCurve": 1.1,
+      "DeviationMax": 30,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -7,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.78,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_ak50_theakguy_std_612mm_127x99",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponXM109/xm109_barrel_long.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -6,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_ak50_theakguy_std_612mm_127x99",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "6947585ee8f1c9dac40e7520",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "69475859861a5fc94441d17b",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "694755c06cb8cad0abfba87f",
+                  "694756c1c61e561e10ddc6f0"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 5.05,
+      "Width": 5
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "694755c06cb8cad0abfba87f",
+          "name": {
+            "zh": "巴雷特 XM109 QDL枪口制退器",
+            "en": "Barrett XM109 QDL muzzle brake"
+          },
+          "armorClass": 0,
+          "weight": 0.74,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 5.79
+    },
+    "mod": {
+      "ergonomics": -7,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "5c0e2f5cd174af02a012cfc9",
+        "name": {
+          "zh": "ADAR 2-15 AR-15兼容木质枪托",
+          "en": "AR-15 ADAR 2-15 wooden handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5ae30db85acfc408fb139a05",
+        "name": {
+          "zh": "柯尔特 M4 Length AR-15兼容护木",
+          "en": "AR-15 Colt M4 Carbine Length handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "55d459824bdc2d892f8b4573",
+        "name": {
+          "zh": "Knight's Armament KAC RIS AR-15兼容护木",
+          "en": "AR-15 KAC RIS handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5c78f2792e221600106f4683",
+        "name": {
+          "zh": "Magpul MOE SL卡宾枪长度M-LOK AR15护木",
+          "en": "AR-15 Magpul MOE SL carbine length M-LOK handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5c78f26f2e221601da3581d1",
+        "name": {
+          "zh": "Magpul MOE SL中等长度M-LOK AR15护木",
+          "en": "AR-15 Magpul MOE SL medium length M-LOK handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5d00e0cbd7ad1a6c6566a42d",
+        "name": {
+          "zh": "Strike Industries Viper M-LOK中 AR-15卡宾护木",
+          "en": "AR-15 Strike Industries Viper carbine length M-LOK handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5d00f63bd7ad1a59283b1c1e",
+        "name": {
+          "zh": "Strike Industries Viper M-LOK长 AR-15卡宾护木",
+          "en": "AR-15 Strike Industries Viper carbine length M-LOK handguard (FDE)"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "6947585ee8f1c9dac40e7520",
+      "required": false,
+      "filter": [
+        "694755c06cb8cad0abfba87f",
+        "694756c1c61e561e10ddc6f0"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

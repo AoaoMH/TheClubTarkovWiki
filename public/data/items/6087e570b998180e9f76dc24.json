@@ -1,1 +1,139 @@
-{"id":"6087e570b998180e9f76dc24","typeName":"Knife","category":"knife","parentTypeChain":["Knife","Item"],"handbook":{"categoryId":"5b5f7a0886f77409407a7f96","price":45000},"common":{"name":{"zh":"Superfors DB 2020 Dead Blow锤","en":"Superfors DB 2020 Dead Blow Hammer"},"shortName":{"zh":"Dead Blow","en":"Dead Blow"},"description":{"zh":"这把大锤涂有聚氨酯材料，可以在敲击时产生“砰砰”的响声，同时能够减缓使用时的冲击力，使手柄稳定。","en":"The hammer is coated with urethane which provides a \"thud\" using steel balls to cushion the impact and reduce the vibration recoil to the handle."},"weight":1.4,"width":1,"height":3,"rarity":"Not_exist","backgroundColor":"grey"},"properties":{"_raw":{"AdditionalAnimationLayer":12,"AnimationVariantsNumber":0,"AppliedHeadRotation":{"x":4,"y":8,"z":0},"AppliedTrunkRotation":{"x":15,"y":30,"z":0},"BackgroundColor":"grey","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ColliderScaleMultiplier":{"x":1.15,"y":1.35,"z":1.15},"ConflictingItems":[],"DeflectionConsumption":3,"Description":"weapon_hultafors_db5000\n","DiscardLimit":-1,"DiscardingBlock":false,"DisplayOnModel":true,"DropSoundType":"None","Durability":90,"ExamineExperience":100,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":3,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"knife_generic","LeftHandItem":false,"LootExperience":15,"MaxDurability":90,"MaxRepairDegradation":0.01,"MaxResource":0,"MergesWithChildren":false,"MetascoreGroup":"Firepower","MinRepairDegradation":0,"Name":"weapon_hultafors_db5000","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/hultafors/weapon_hultafors_db5000_container.bundle","rcid":""},"PrimaryConsumption":10,"PrimaryDistance":0.8,"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"SecondryConsumption":13,"SecondryDistance":0.8,"ShortName":"weapon_hultafors_db5000","SlashPenetration":1,"StabPenetration":1,"StackMaxSize":1,"StackObjectsCount":1,"StaminaBurnRate":1,"StimulatorBuffs":"Buffs_hultafors","Unlootable":true,"UnlootableFromSide":["Bear","Usec","Savage"],"UnlootableFromSlot":"Scabbard","UsePrefab":{"path":"","rcid":""},"Weight":1.4,"Width":1,"knifeDurab":90,"knifeHitDelay":0,"knifeHitRadius":0.8,"knifeHitSlashDam":103,"knifeHitSlashRate":0,"knifeHitStabDam":125,"knifeHitStabRate":1}},"slots":[],"image":"/images/items/6087e570b998180e9f76dc24.jpg","isMod":false}
+{
+  "id": "6087e570b998180e9f76dc24",
+  "typeName": "Knife",
+  "category": "knife",
+  "parentTypeChain": [
+    "Knife",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f7a0886f77409407a7f96",
+    "price": 45000
+  },
+  "common": {
+    "name": {
+      "zh": "Superfors DB 2020 Dead Blow锤",
+      "en": "Superfors DB 2020 Dead Blow Hammer"
+    },
+    "shortName": {
+      "zh": "Dead Blow",
+      "en": "Dead Blow"
+    },
+    "description": {
+      "zh": "这把大锤涂有聚氨酯材料，可以在敲击时产生“砰砰”的响声，同时能够减缓使用时的冲击力，使手柄稳定。",
+      "en": "The hammer is coated with urethane which provides a \"thud\" using steel balls to cushion the impact and reduce the vibration recoil to the handle."
+    },
+    "weight": 1.4,
+    "width": 1,
+    "height": 3,
+    "rarity": "Not_exist",
+    "backgroundColor": "grey"
+  },
+  "properties": {
+    "_raw": {
+      "AdditionalAnimationLayer": 12,
+      "AnimationVariantsNumber": 0,
+      "AppliedHeadRotation": {
+        "x": 4,
+        "y": 8,
+        "z": 0
+      },
+      "AppliedTrunkRotation": {
+        "x": 15,
+        "y": 30,
+        "z": 0
+      },
+      "BackgroundColor": "grey",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ColliderScaleMultiplier": {
+        "x": 1.15,
+        "y": 1.35,
+        "z": 1.15
+      },
+      "ConflictingItems": [],
+      "DeflectionConsumption": 3,
+      "Description": "weapon_hultafors_db5000\n",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DisplayOnModel": true,
+      "DropSoundType": "None",
+      "Durability": 90,
+      "ExamineExperience": 100,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 3,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "knife_generic",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "MaxDurability": 90,
+      "MaxRepairDegradation": 0.01,
+      "MaxResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Firepower",
+      "MinRepairDegradation": 0,
+      "Name": "weapon_hultafors_db5000",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/hultafors/weapon_hultafors_db5000_container.bundle",
+        "rcid": ""
+      },
+      "PrimaryConsumption": 10,
+      "PrimaryDistance": 0.8,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SecondryConsumption": 13,
+      "SecondryDistance": 0.8,
+      "ShortName": "weapon_hultafors_db5000",
+      "SlashPenetration": 1,
+      "StabPenetration": 1,
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StaminaBurnRate": 1,
+      "StimulatorBuffs": "Buffs_hultafors",
+      "Unlootable": true,
+      "UnlootableFromSide": [
+        "Bear",
+        "Usec",
+        "Savage"
+      ],
+      "UnlootableFromSlot": "Scabbard",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 1.4,
+      "Width": 1,
+      "knifeDurab": 90,
+      "knifeHitDelay": 0,
+      "knifeHitRadius": 0.8,
+      "knifeHitSlashDam": 103,
+      "knifeHitSlashRate": 0,
+      "knifeHitStabDam": 125,
+      "knifeHitStabRate": 1
+    }
+  },
+  "slots": [],
+  "image": "/images/items/6087e570b998180e9f76dc24.jpg",
+  "isMod": false
+}

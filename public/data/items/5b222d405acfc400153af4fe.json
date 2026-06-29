@@ -1,1 +1,204 @@
-{"id":"5b222d405acfc400153af4fe","typeName":"Stock","category":"mod_stock","parentTypeChain":["Stock","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f757486f774093e6cb507","price":11758},"common":{"name":{"zh":"Zenit PT-1 \"Klassika\"枪托","en":"AK Zenit PT-1 \"Klassika\" stock"},"shortName":{"zh":"PT-1","en":"PT-1"},"description":{"zh":"伸缩式的PT-1枪托安装在AK103、104、105、74M、AKS74U和PP Vityaz的标准枪托位置上，具有长度调节机构和可调托腮板。需要专门的锁扣以安装在武器上。","en":"The telescopic PT-1 stock is mounted on the standard place of the stock AK 103, 104, 105, 74M, AKS74U and PP Vityaz, has a length adjustment mechanism and an adjustable cheek. A special lock is required for installation. Manufactured by Zenit."},"weight":0.29,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"stock_ak_zenit_pt_1","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":9,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":1,"ExtraSizeUp":0,"Foldable":false,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":true,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsShoulderContact":true,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"stock_ak_zenit_pt_1","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/stocks/stock_ak_zenit_pt_1.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-26,"RepairCost":0,"RepairSpeed":0,"Retractable":false,"ShortName":"stock_ak_zenit_pt_1","SightingRange":0,"SizeReduceRight":0,"Slots":[{"_id":"6572d76bf1a7570edd43dc17","_mergeSlotWithChildren":false,"_name":"mod_stock_000","_parent":"5b222d405acfc400153af4fe","_props":{"filters":[{"Filter":["5a0c59791526d8dba737bba7"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.29,"Width":2},"mod":{"ergonomics":9,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_stock_000","id":"6572d76bf1a7570edd43dc17","required":false,"filter":["5a0c59791526d8dba737bba7"]}],"image":"/images/items/5b222d405acfc400153af4fe.jpg","isMod":false}
+{
+  "id": "5b222d405acfc400153af4fe",
+  "typeName": "Stock",
+  "category": "mod_stock",
+  "parentTypeChain": [
+    "Stock",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f757486f774093e6cb507",
+    "price": 11758
+  },
+  "common": {
+    "name": {
+      "zh": "Zenit PT-1 \"Klassika\"枪托",
+      "en": "AK Zenit PT-1 \"Klassika\" stock"
+    },
+    "shortName": {
+      "zh": "PT-1",
+      "en": "PT-1"
+    },
+    "description": {
+      "zh": "伸缩式的PT-1枪托安装在AK103、104、105、74M、AKS74U和PP Vityaz的标准枪托位置上，具有长度调节机构和可调托腮板。需要专门的锁扣以安装在武器上。",
+      "en": "The telescopic PT-1 stock is mounted on the standard place of the stock AK 103, 104, 105, 74M, AKS74U and PP Vityaz, has a length adjustment mechanism and an adjustable cheek. A special lock is required for installation. Manufactured by Zenit."
+    },
+    "weight": 0.44499999999999995,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "stock_ak_zenit_pt_1",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 9,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 1,
+      "ExtraSizeUp": 0,
+      "Foldable": false,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": true,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsShoulderContact": true,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "stock_ak_zenit_pt_1",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/stocks/stock_ak_zenit_pt_1.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -26,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "Retractable": false,
+      "ShortName": "stock_ak_zenit_pt_1",
+      "SightingRange": 0,
+      "SizeReduceRight": 0,
+      "Slots": [
+        {
+          "_id": "6572d76bf1a7570edd43dc17",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock_000",
+          "_parent": "5b222d405acfc400153af4fe",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a0c59791526d8dba737bba7"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.29,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5a0c59791526d8dba737bba7",
+          "name": {
+            "zh": "AK GP-25附件包 后座力缓冲垫",
+            "en": "AK GP-25 accessory kit recoil pad"
+          },
+          "armorClass": 0,
+          "weight": 0.155,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.44499999999999995
+    },
+    "mod": {
+      "ergonomics": 9,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_stock_000",
+      "id": "6572d76bf1a7570edd43dc17",
+      "required": false,
+      "filter": [
+        "5a0c59791526d8dba737bba7"
+      ]
+    }
+  ],
+  "image": "/images/items/5b222d405acfc400153af4fe.jpg",
+  "isMod": false
+}

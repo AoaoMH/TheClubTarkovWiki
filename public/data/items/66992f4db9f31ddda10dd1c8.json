@@ -1,1 +1,216 @@
-{"id":"66992f4db9f31ddda10dd1c8","typeName":"Stock","category":"mod_stock","parentTypeChain":["Stock","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f757486f774093e6cb507","price":1847},"common":{"name":{"zh":"UZI StormWerkz枪托转接器","en":"UZI StormWerkz stock adapter"},"shortName":{"zh":"UZI枪托转换器","en":"UZI SW"},"description":{"zh":"用于为UZI PRO冲锋枪安装各种枪托的皮卡汀尼转换器。由StormWerkz制造。","en":"A Picatinny adapter designed for installation of various buttstocks on the UZI submachine gun. Manufactured by StormWerkz."},"weight":0.062,"width":1,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":true,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"stock_ak74_izhmash_ak74_std_wood","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Foldable":false,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":true,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsShoulderContact":true,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"stock_ak74_izhmash_ak74_std_wood","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/stocks/stock_uzi_stormwerkz_ris_adapter.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":0,"RepairCost":0,"RepairSpeed":0,"Retractable":false,"ShortName":"stock_ak74_izhmash_ak74_std_wood","SightingRange":0,"SizeReduceRight":0,"Slots":[{"_id":"66992f4db9f31ddda10dd1c9","_mergeSlotWithChildren":false,"_name":"mod_stock","_parent":"66992f4db9f31ddda10dd1c8","_props":{"filters":[{"Filter":["58ac1bf086f77420ed183f9f","5894a13e86f7742405482982","6529348224cbe3c74a05e5c4","5fbcc429900b1d5091531dd7","5fbcc437d724d907e2077d5c","6686717ffb75ee4a5e02eb19","6761496fe2cf1419500357e9"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.062,"Width":1},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_stock","id":"66992f4db9f31ddda10dd1c9","required":false,"filter":["58ac1bf086f77420ed183f9f","5894a13e86f7742405482982","6529348224cbe3c74a05e5c4","5fbcc429900b1d5091531dd7","5fbcc437d724d907e2077d5c","6686717ffb75ee4a5e02eb19","6761496fe2cf1419500357e9"]}],"image":"/images/items/66992f4db9f31ddda10dd1c8.webp","isMod":false}
+{
+  "id": "66992f4db9f31ddda10dd1c8",
+  "typeName": "Stock",
+  "category": "mod_stock",
+  "parentTypeChain": [
+    "Stock",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f757486f774093e6cb507",
+    "price": 1847
+  },
+  "common": {
+    "name": {
+      "zh": "UZI StormWerkz枪托转接器",
+      "en": "UZI StormWerkz stock adapter"
+    },
+    "shortName": {
+      "zh": "UZI枪托转换器",
+      "en": "UZI SW"
+    },
+    "description": {
+      "zh": "用于为UZI PRO冲锋枪安装各种枪托的皮卡汀尼转换器。由StormWerkz制造。",
+      "en": "A Picatinny adapter designed for installation of various buttstocks on the UZI submachine gun. Manufactured by StormWerkz."
+    },
+    "weight": 0.262,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": true,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "stock_ak74_izhmash_ak74_std_wood",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Foldable": false,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": true,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsShoulderContact": true,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "stock_ak74_izhmash_ak74_std_wood",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/stocks/stock_uzi_stormwerkz_ris_adapter.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "Retractable": false,
+      "ShortName": "stock_ak74_izhmash_ak74_std_wood",
+      "SightingRange": 0,
+      "SizeReduceRight": 0,
+      "Slots": [
+        {
+          "_id": "66992f4db9f31ddda10dd1c9",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "66992f4db9f31ddda10dd1c8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58ac1bf086f77420ed183f9f",
+                  "5894a13e86f7742405482982",
+                  "6529348224cbe3c74a05e5c4",
+                  "5fbcc429900b1d5091531dd7",
+                  "5fbcc437d724d907e2077d5c",
+                  "6686717ffb75ee4a5e02eb19",
+                  "6761496fe2cf1419500357e9"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.062,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "58ac1bf086f77420ed183f9f",
+          "name": {
+            "zh": "SIG枪托伸缩管转接器",
+            "en": "SIG Sauer Folding Knuckle Stock Adapter"
+          },
+          "armorClass": 0,
+          "weight": 0.2,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.262
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_stock",
+      "id": "66992f4db9f31ddda10dd1c9",
+      "required": false,
+      "filter": [
+        "58ac1bf086f77420ed183f9f",
+        "5894a13e86f7742405482982",
+        "6529348224cbe3c74a05e5c4",
+        "5fbcc429900b1d5091531dd7",
+        "5fbcc437d724d907e2077d5c",
+        "6686717ffb75ee4a5e02eb19",
+        "6761496fe2cf1419500357e9"
+      ]
+    }
+  ],
+  "image": "/images/items/66992f4db9f31ddda10dd1c8.webp",
+  "isMod": false
+}

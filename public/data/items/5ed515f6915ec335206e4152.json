@@ -1,1 +1,164 @@
-{"id":"5ed515f6915ec335206e4152","typeName":"Stimulator","category":"stimulator","parentTypeChain":["Stimulator","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b33a","price":45500},"common":{"name":{"zh":"AHF1-M 兴奋剂注射器","en":"AHF1-M stimulant injector"},"shortName":{"zh":"AHF1-M","en":"AHF1-M"},"description":{"zh":"基于人类抗血友病因子的军用药物。由 TerraGroup 实验室开发，作为一种强大的凝结剂，专门用于 USEC 行动人员。可以暂时止血，并增强对流血的抵抗力。轻微改善健康指标，会导致脱水。","en":"A military drug based on human antihemophilic factor. Developed by TerraGroup Labs as a powerful coagulant specifically for USEC operatives. Temporarily stops bleeding and increases resistance to new ones. Slightly improves health indicators, leads to dehydration."},"weight":0.05,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"","DiscardLimit":2,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":8,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_stimulator","LeftHandItem":false,"LootExperience":10,"MaxHpResource":0,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"AHF1-M","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_ahf1-m_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"AHF1-M","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_AHF1M","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_ahf1-m_container.bundle","rcid":""},"Weight":0.05,"Width":1,"effects_damage":{"HeavyBleeding":{"delay":0,"duration":60,"fadeOut":0},"LightBleeding":{"delay":0,"duration":60,"fadeOut":0}},"effects_health":[],"hpResourceRate":0,"medEffectType":"duringUse","medUseTime":2},"medical":{"medEffectType":"duringUse","medUseTime":2,"maxHpResource":0,"hpResourceRate":0,"effects":{"healthEffects":[],"damageEffects":[{"type":"HeavyBleeding","delay":0,"duration":60},{"type":"LightBleeding","delay":0,"duration":60}],"stimBuffs":[{"buffType":"SkillRate","skillName":"Health","value":5,"delay":1,"duration":60,"chance":1},{"buffType":"RemoveAllBloodLosses","skillName":"","value":0,"delay":1,"duration":60,"chance":1},{"buffType":"HydrationRate","skillName":"","value":-0.3,"delay":1,"duration":120,"chance":1}]}}},"slots":[],"image":"/images/items/5ed515f6915ec335206e4152.jpg","isMod":false}
+{
+  "id": "5ed515f6915ec335206e4152",
+  "typeName": "Stimulator",
+  "category": "stimulator",
+  "parentTypeChain": [
+    "Stimulator",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b33a",
+    "price": 45500
+  },
+  "common": {
+    "name": {
+      "zh": "AHF1-M 兴奋剂注射器",
+      "en": "AHF1-M stimulant injector"
+    },
+    "shortName": {
+      "zh": "AHF1-M",
+      "en": "AHF1-M"
+    },
+    "description": {
+      "zh": "基于人类抗血友病因子的军用药物。由 TerraGroup 实验室开发，作为一种强大的凝结剂，专门用于 USEC 行动人员。可以暂时止血，并增强对流血的抵抗力。轻微改善健康指标，会导致脱水。",
+      "en": "A military drug based on human antihemophilic factor. Developed by TerraGroup Labs as a powerful coagulant specifically for USEC operatives. Temporarily stops bleeding and increases resistance to new ones. Slightly improves health indicators, leads to dehydration."
+    },
+    "weight": 0.05,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "",
+      "DiscardLimit": 2,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 8,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_stimulator",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "AHF1-M",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_ahf1-m_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "AHF1-M",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_AHF1M",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_ahf1-m_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.05,
+      "Width": 1,
+      "effects_damage": {
+        "HeavyBleeding": {
+          "delay": 0,
+          "duration": 60,
+          "fadeOut": 0
+        },
+        "LightBleeding": {
+          "delay": 0,
+          "duration": 60,
+          "fadeOut": 0
+        }
+      },
+      "effects_health": [],
+      "hpResourceRate": 0,
+      "medEffectType": "duringUse",
+      "medUseTime": 2
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 2,
+      "maxHpResource": 0,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [
+          {
+            "type": "HeavyBleeding",
+            "delay": 0,
+            "duration": 60
+          },
+          {
+            "type": "LightBleeding",
+            "delay": 0,
+            "duration": 60
+          }
+        ],
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": 5,
+            "delay": 1,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "RemoveAllBloodLosses",
+            "skillName": "",
+            "value": 0,
+            "delay": 1,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HydrationRate",
+            "skillName": "",
+            "value": -0.3,
+            "delay": 1,
+            "duration": 120,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5ed515f6915ec335206e4152.jpg",
+  "isMod": false
+}

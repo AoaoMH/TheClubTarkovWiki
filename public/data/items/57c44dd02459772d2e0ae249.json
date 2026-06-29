@@ -1,1 +1,244 @@
-{"id":"57c44dd02459772d2e0ae249","typeName":"Silencer","category":"mod_muzzle","parentTypeChain":["Silencer","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f731a86f774093e6cb4f9","price":23346},"common":{"name":{"zh":"AS VAL 9x39枪管整体式抑制器","en":"AS VAL 9x39 integral barrel-suppressor"},"shortName":{"zh":"VAL抑制器","en":"VAL"},"description":{"zh":"TSNIITochMash生产的整体式枪管抑制器组件，用于AS VAL。","en":"A TsNIITochMash-manufactured integral barrel-suppressor module for AS VAL."},"weight":0.496,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.05,"Description":"silencer_val_tochmash_std_9x39","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.52,"EffectiveDistance":0,"Ergonomics":-5,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":2,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.24,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":-39,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"silencer_val_tochmash_std_9x39","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/silencers/silencer_vss_tochmash_std_9x39.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":-14,"RepairCost":0,"RepairSpeed":0,"ShortName":"silencer_val_tochmash_std_9x39","SightingRange":0,"Slots":[{"_id":"57c44e9a2459772d303d89a3","_mergeSlotWithChildren":false,"_name":"mod_sight_rear","_parent":"57c44dd02459772d2e0ae249","_props":{"filters":[{"Filter":["57c44e7b2459772d28133248","57838e1b2459774a256959b1"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"58246acc24597753c0717aa2","_mergeSlotWithChildren":false,"_name":"mod_mount_000","_parent":"57c44dd02459772d2e0ae249","_props":{"filters":[{"Filter":["59eb7ebe86f7740b373438ce","57a3459f245977764a01f703","5a9fc7e6a2750c0032157184"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":1.1,"Weight":0.496,"Width":2,"muzzleModType":"silencer"},"mod":{"ergonomics":-5,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":-39,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":1.1,"muzzleModType":"silencer","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_sight_rear","id":"57c44e9a2459772d303d89a3","required":false,"filter":["57c44e7b2459772d28133248","57838e1b2459774a256959b1"]},{"name":"mod_mount_000","id":"58246acc24597753c0717aa2","required":false,"filter":["59eb7ebe86f7740b373438ce","57a3459f245977764a01f703","5a9fc7e6a2750c0032157184"]}],"image":"/images/items/57c44dd02459772d2e0ae249.jpg","isMod":false}
+{
+  "id": "57c44dd02459772d2e0ae249",
+  "typeName": "Silencer",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "Silencer",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f731a86f774093e6cb4f9",
+    "price": 23346
+  },
+  "common": {
+    "name": {
+      "zh": "AS VAL 9x39枪管整体式抑制器",
+      "en": "AS VAL 9x39 integral barrel-suppressor"
+    },
+    "shortName": {
+      "zh": "VAL抑制器",
+      "en": "VAL"
+    },
+    "description": {
+      "zh": "TSNIITochMash生产的整体式枪管抑制器组件，用于AS VAL。",
+      "en": "A TsNIITochMash-manufactured integral barrel-suppressor module for AS VAL."
+    },
+    "weight": 0.616,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.05,
+      "Description": "silencer_val_tochmash_std_9x39",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.52,
+      "EffectiveDistance": 0,
+      "Ergonomics": -5,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.24,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": -39,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "silencer_val_tochmash_std_9x39",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/silencers/silencer_vss_tochmash_std_9x39.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": -14,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "silencer_val_tochmash_std_9x39",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "57c44e9a2459772d303d89a3",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "57c44dd02459772d2e0ae249",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57c44e7b2459772d28133248",
+                  "57838e1b2459774a256959b1"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "58246acc24597753c0717aa2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "57c44dd02459772d2e0ae249",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59eb7ebe86f7740b373438ce",
+                  "57a3459f245977764a01f703",
+                  "5a9fc7e6a2750c0032157184"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 1.1,
+      "Weight": 0.496,
+      "Width": 2,
+      "muzzleModType": "silencer"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "57c44e7b2459772d28133248",
+          "name": {
+            "zh": "AS VAL标准照门",
+            "en": "AS VAL rear sight"
+          },
+          "armorClass": 0,
+          "weight": 0.025,
+          "count": 1
+        },
+        {
+          "id": "59eb7ebe86f7740b373438ce",
+          "name": {
+            "zh": "VSS/VAL TOZ 6P29M 基座",
+            "en": "VSS/VAL TOZ 6P29M mount"
+          },
+          "armorClass": 0,
+          "weight": 0.095,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.616
+    },
+    "mod": {
+      "ergonomics": -5,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": -39,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 1.1,
+      "muzzleModType": "silencer",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_sight_rear",
+      "id": "57c44e9a2459772d303d89a3",
+      "required": false,
+      "filter": [
+        "57c44e7b2459772d28133248",
+        "57838e1b2459774a256959b1"
+      ]
+    },
+    {
+      "name": "mod_mount_000",
+      "id": "58246acc24597753c0717aa2",
+      "required": false,
+      "filter": [
+        "59eb7ebe86f7740b373438ce",
+        "57a3459f245977764a01f703",
+        "5a9fc7e6a2750c0032157184"
+      ]
+    }
+  ],
+  "image": "/images/items/57c44dd02459772d2e0ae249.jpg",
+  "isMod": false
+}

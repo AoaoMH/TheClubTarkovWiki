@@ -1,1 +1,134 @@
-{"id":"5fca138c2a7b221b2852a5c6","typeName":"Stimulator","category":"stimulator","parentTypeChain":["Stimulator","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b33a","price":80600},"common":{"name":{"zh":"xTG-12解毒剂","en":"xTG-12 antidote injector"},"shortName":{"zh":"xTG-12","en":"xTG-12"},"description":{"zh":"它能够中和战争中使用过的大多数已知毒素。也能够用于解除一些自然毒素。其成分在血液中时，可提供对毒素的免疫效果。它会导致健康状况下降。","en":"Removes most of the known poisons and toxins used in the combat industry. Can be used to relieve the effects of natural poisons. Gives immunity to poisoning while the components are in the blood system. Can reduce health status."},"weight":0.05,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"","DiscardLimit":2,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":8,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_stimulator","LeftHandItem":false,"LootExperience":10,"MaxHpResource":0,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"x-TG-12 antidote","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_x-tg-12_antidote_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"x-TG-12 antidote","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_Antidote","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_x-tg-12_antidote_container.bundle","rcid":""},"Weight":0.05,"Width":1,"effects_damage":[],"effects_health":[],"hpResourceRate":0,"medEffectType":"duringUse","medUseTime":2},"medical":{"medEffectType":"duringUse","medUseTime":2,"maxHpResource":0,"hpResourceRate":0,"effects":{"healthEffects":[],"damageEffects":[],"stimBuffs":[{"buffType":"Antidote","skillName":"","value":0,"delay":6,"duration":60,"chance":1},{"buffType":"SkillRate","skillName":"Health","value":-5,"delay":6,"duration":60,"chance":1}]}}},"slots":[],"image":"/images/items/5fca138c2a7b221b2852a5c6.jpg","isMod":false}
+{
+  "id": "5fca138c2a7b221b2852a5c6",
+  "typeName": "Stimulator",
+  "category": "stimulator",
+  "parentTypeChain": [
+    "Stimulator",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b33a",
+    "price": 80600
+  },
+  "common": {
+    "name": {
+      "zh": "xTG-12解毒剂",
+      "en": "xTG-12 antidote injector"
+    },
+    "shortName": {
+      "zh": "xTG-12",
+      "en": "xTG-12"
+    },
+    "description": {
+      "zh": "它能够中和战争中使用过的大多数已知毒素。也能够用于解除一些自然毒素。其成分在血液中时，可提供对毒素的免疫效果。它会导致健康状况下降。",
+      "en": "Removes most of the known poisons and toxins used in the combat industry. Can be used to relieve the effects of natural poisons. Gives immunity to poisoning while the components are in the blood system. Can reduce health status."
+    },
+    "weight": 0.05,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "",
+      "DiscardLimit": 2,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 8,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_stimulator",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "x-TG-12 antidote",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_x-tg-12_antidote_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "x-TG-12 antidote",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_Antidote",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_x-tg-12_antidote_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.05,
+      "Width": 1,
+      "effects_damage": [],
+      "effects_health": [],
+      "hpResourceRate": 0,
+      "medEffectType": "duringUse",
+      "medUseTime": 2
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 2,
+      "maxHpResource": 0,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [],
+        "stimBuffs": [
+          {
+            "buffType": "Antidote",
+            "skillName": "",
+            "value": 0,
+            "delay": 6,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -5,
+            "delay": 6,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5fca138c2a7b221b2852a5c6.jpg",
+  "isMod": false
+}

@@ -1,1 +1,231 @@
-{"id":"652910565ae2ae97b80fdf35","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":24272},"common":{"name":{"zh":"MCX SPEAR 6.8x51 330毫米枪管","en":"MCX-SPEAR 6.8x51 13 inch barrel"},"shortName":{"zh":"SPEAR 330毫米","en":"SPEAR 13\""},"description":{"zh":"MCX SPEAR 6.8x51 330毫米（13英寸）枪管。","en":"A 13 inch (330mm) barrel for the MCX-SPEAR assault rifle chambered in 6.8x51 (.277 FURY) ammo. Manufactured by SIG Sauer."},"weight":0.479,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.043,"ConflictingItems":[],"CoolFactor":0.971,"Description":"barrel_mcx_229mm_762x35","DeviationCurve":1.35,"DeviationMax":23,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-6,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":true,"ExtraSizeLeft":2,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.968,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_mcx_229mm_762x35","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_mcx_sig_spear_330mm_68x51.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-5,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_mcx_229mm_762x35","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"652910565ae2ae97b80fdf36","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"652910565ae2ae97b80fdf35","_props":{"filters":[{"Filter":["6529113b5ae2ae97b80fdf39"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"652910565ae2ae97b80fdf37","_mergeSlotWithChildren":false,"_name":"mod_gas_block","_parent":"652910565ae2ae97b80fdf35","_props":{"filters":[{"Filter":["652910bc24cbe3c74a05e5b9"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":-12.31,"Weight":0.479,"Width":2},"mod":{"ergonomics":-6,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":-12.31,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"652910565ae2ae97b80fdf36","required":false,"filter":["6529113b5ae2ae97b80fdf39"]},{"name":"mod_gas_block","id":"652910565ae2ae97b80fdf37","required":true,"filter":["652910bc24cbe3c74a05e5b9"]}],"image":"/images/items/652910565ae2ae97b80fdf35.webp","isMod":false}
+{
+  "id": "652910565ae2ae97b80fdf35",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 24272
+  },
+  "common": {
+    "name": {
+      "zh": "MCX SPEAR 6.8x51 330毫米枪管",
+      "en": "MCX-SPEAR 6.8x51 13 inch barrel"
+    },
+    "shortName": {
+      "zh": "SPEAR 330毫米",
+      "en": "SPEAR 13\""
+    },
+    "description": {
+      "zh": "MCX SPEAR 6.8x51 330毫米（13英寸）枪管。",
+      "en": "A 13 inch (330mm) barrel for the MCX-SPEAR assault rifle chambered in 6.8x51 (.277 FURY) ammo. Manufactured by SIG Sauer."
+    },
+    "weight": 0.601,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.043,
+      "ConflictingItems": [],
+      "CoolFactor": 0.971,
+      "Description": "barrel_mcx_229mm_762x35",
+      "DeviationCurve": 1.35,
+      "DeviationMax": 23,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -6,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": true,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.968,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_mcx_229mm_762x35",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_mcx_sig_spear_330mm_68x51.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_mcx_229mm_762x35",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "652910565ae2ae97b80fdf36",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "652910565ae2ae97b80fdf35",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6529113b5ae2ae97b80fdf39"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "652910565ae2ae97b80fdf37",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_gas_block",
+          "_parent": "652910565ae2ae97b80fdf35",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "652910bc24cbe3c74a05e5b9"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": -12.31,
+      "Weight": 0.479,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "6529113b5ae2ae97b80fdf39",
+          "name": {
+            "zh": "MCX SPEAR Clutch-Lok QD 6.8x51消焰器",
+            "en": "MCX-SPEAR Clutch-Lok QD 6.8x51 Shouldered Flash Hider"
+          },
+          "armorClass": 0,
+          "weight": 0.122,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.601
+    },
+    "mod": {
+      "ergonomics": -6,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": -12.31,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "652910565ae2ae97b80fdf36",
+      "required": false,
+      "filter": [
+        "6529113b5ae2ae97b80fdf39"
+      ]
+    },
+    {
+      "name": "mod_gas_block",
+      "id": "652910565ae2ae97b80fdf37",
+      "required": true,
+      "filter": [
+        "652910bc24cbe3c74a05e5b9"
+      ]
+    }
+  ],
+  "image": "/images/items/652910565ae2ae97b80fdf35.webp",
+  "isMod": false
+}

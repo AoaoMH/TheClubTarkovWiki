@@ -1,1 +1,170 @@
-{"id":"637b6179104668754b72f8f5","typeName":"Stimulator","category":"stimulator","parentTypeChain":["Stimulator","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b33a","price":65300},"common":{"name":{"zh":"PNB (16 号化合物) 兴奋剂注射器","en":"PNB (Product 16) stimulant injector"},"shortName":{"zh":"PNB","en":"PNB"},"description":{"zh":"战斗兴奋剂。由TerraGroup实验室开发，代号PNB。其能短期激活内部肌肉，让它们变为高渗透状态，以此降低人体受到的伤害。它还能同时提高蛋白质的合成速度，加快组织恢复。它被用于在战斗的关键时刻提高机能。仅供特种部队使用。具有一定副作用。","en":"A combat stimulant. Developed by TerraGroup Labs, labeled PNB. Allows a short-term activation of the inner muscles, bringing them into a state of hypertonicity, which in turn reduces the received damage. At the same time there is an active synthesis of proteins for accelerated tissue regeneration. Used for the expansion of the organism abilities at the key moment of the combat. Allowed for use by Special Forces. Has some side effects."},"weight":0.05,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"","DiscardLimit":2,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":100,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_stimulator","LeftHandItem":false,"LootExperience":10,"MaxHpResource":0,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"P22","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_simulator_pnb_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"P22","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_PNB","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_simulator_pnb_container.bundle","rcid":""},"Weight":0.05,"Width":1,"effects_damage":{"Contusion":{"delay":0,"duration":40,"fadeOut":0}},"effects_health":[],"hpResourceRate":0,"medEffectType":"duringUse","medUseTime":2},"medical":{"medEffectType":"duringUse","medUseTime":2,"maxHpResource":0,"hpResourceRate":0,"effects":{"healthEffects":[],"damageEffects":[{"type":"Contusion","delay":0,"duration":40}],"stimBuffs":[{"buffType":"HealthRate","skillName":"","value":3,"delay":1,"duration":40,"chance":1},{"buffType":"SkillRate","skillName":"Strength","value":20,"delay":1,"duration":40,"chance":1},{"buffType":"SkillRate","skillName":"Health","value":-20,"delay":41,"duration":180,"chance":1},{"buffType":"SkillRate","skillName":"Vitality","value":-20,"delay":41,"duration":180,"chance":1},{"buffType":"HandsTremor","skillName":"","value":0,"delay":41,"duration":20,"chance":1}]}}},"slots":[],"image":"/images/items/637b6179104668754b72f8f5.jpg","isMod":false}
+{
+  "id": "637b6179104668754b72f8f5",
+  "typeName": "Stimulator",
+  "category": "stimulator",
+  "parentTypeChain": [
+    "Stimulator",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b33a",
+    "price": 65300
+  },
+  "common": {
+    "name": {
+      "zh": "PNB (16 号化合物) 兴奋剂注射器",
+      "en": "PNB (Product 16) stimulant injector"
+    },
+    "shortName": {
+      "zh": "PNB",
+      "en": "PNB"
+    },
+    "description": {
+      "zh": "战斗兴奋剂。由TerraGroup实验室开发，代号PNB。其能短期激活内部肌肉，让它们变为高渗透状态，以此降低人体受到的伤害。它还能同时提高蛋白质的合成速度，加快组织恢复。它被用于在战斗的关键时刻提高机能。仅供特种部队使用。具有一定副作用。",
+      "en": "A combat stimulant. Developed by TerraGroup Labs, labeled PNB. Allows a short-term activation of the inner muscles, bringing them into a state of hypertonicity, which in turn reduces the received damage. At the same time there is an active synthesis of proteins for accelerated tissue regeneration. Used for the expansion of the organism abilities at the key moment of the combat. Allowed for use by Special Forces. Has some side effects."
+    },
+    "weight": 0.05,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "",
+      "DiscardLimit": 2,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 100,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_stimulator",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "P22",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_simulator_pnb_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "P22",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_PNB",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_simulator_pnb_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.05,
+      "Width": 1,
+      "effects_damage": {
+        "Contusion": {
+          "delay": 0,
+          "duration": 40,
+          "fadeOut": 0
+        }
+      },
+      "effects_health": [],
+      "hpResourceRate": 0,
+      "medEffectType": "duringUse",
+      "medUseTime": 2
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 2,
+      "maxHpResource": 0,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [
+          {
+            "type": "Contusion",
+            "delay": 0,
+            "duration": 40
+          }
+        ],
+        "stimBuffs": [
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": 3,
+            "delay": 1,
+            "duration": 40,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 20,
+            "delay": 1,
+            "duration": 40,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -20,
+            "delay": 41,
+            "duration": 180,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Vitality",
+            "value": -20,
+            "delay": 41,
+            "duration": 180,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 41,
+            "duration": 20,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/637b6179104668754b72f8f5.jpg",
+  "isMod": false
+}

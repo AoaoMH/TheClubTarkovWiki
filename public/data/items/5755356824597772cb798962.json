@@ -1,1 +1,130 @@
-{"id":"5755356824597772cb798962","typeName":"MedKit","category":"medical","parentTypeChain":["MedKit","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b338","price":5200},"common":{"name":{"zh":"AI-2急救组合","en":"AI-2 medkit"},"shortName":{"zh":"AI-2","en":"AI-2"},"description":{"zh":"作为标准制式急救组合，AI-2被苏联的各种防务、执法部门和民防部队广泛使用。倘若爆发大规模杀伤性武器的全面冲突，它能够很快地被分配到受影响地区及其周边地区的居民手中。","en":"The AI-2 medkit was developed as a standard service first aid kit for various defense and law enforcement agencies and civil defense forces of USSR. In case of all-out conflict with the use of weapons of mass destruction it should have been distributed to the population of the affected and surrounding areas."},"weight":0.135,"width":1,"height":1,"rarity":"Common","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":2,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"Medkit","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_medkit","LeftHandItem":false,"LootExperience":10,"MaxHpResource":100,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"Medkit","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_medkit/item_medkit_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Common","RepairCost":0,"RepairSpeed":0,"ShortName":"Medkit","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_medkit/item_medkit_container.bundle","rcid":""},"Weight":0.135,"Width":1,"effects_damage":{"RadExposure":{"cost":0,"delay":0,"duration":0,"fadeOut":0}},"effects_health":[],"hpResourceRate":50,"medEffectType":"duringUse","medUseTime":2},"medical":{"medEffectType":"duringUse","medUseTime":2,"maxHpResource":100,"hpResourceRate":50,"effects":{"healthEffects":[],"damageEffects":[{"type":"RadExposure","delay":0,"duration":0}],"stimBuffs":[]}}},"slots":[],"image":"/images/items/5755356824597772cb798962.jpg","isMod":false}
+{
+  "id": "5755356824597772cb798962",
+  "typeName": "MedKit",
+  "category": "medical",
+  "parentTypeChain": [
+    "MedKit",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b338",
+    "price": 5200
+  },
+  "common": {
+    "name": {
+      "zh": "AI-2急救组合",
+      "en": "AI-2 medkit"
+    },
+    "shortName": {
+      "zh": "AI-2",
+      "en": "AI-2"
+    },
+    "description": {
+      "zh": "作为标准制式急救组合，AI-2被苏联的各种防务、执法部门和民防部队广泛使用。倘若爆发大规模杀伤性武器的全面冲突，它能够很快地被分配到受影响地区及其周边地区的居民手中。",
+      "en": "The AI-2 medkit was developed as a standard service first aid kit for various defense and law enforcement agencies and civil defense forces of USSR. In case of all-out conflict with the use of weapons of mass destruction it should have been distributed to the population of the affected and surrounding areas."
+    },
+    "weight": 0.135,
+    "width": 1,
+    "height": 1,
+    "rarity": "Common",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 2,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "Medkit",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_medkit",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 100,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "Medkit",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_medkit/item_medkit_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Common",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "Medkit",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_medkit/item_medkit_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.135,
+      "Width": 1,
+      "effects_damage": {
+        "RadExposure": {
+          "cost": 0,
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0
+        }
+      },
+      "effects_health": [],
+      "hpResourceRate": 50,
+      "medEffectType": "duringUse",
+      "medUseTime": 2
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 2,
+      "maxHpResource": 100,
+      "hpResourceRate": 50,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [
+          {
+            "type": "RadExposure",
+            "delay": 0,
+            "duration": 0
+          }
+        ],
+        "stimBuffs": []
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5755356824597772cb798962.jpg",
+  "isMod": false
+}

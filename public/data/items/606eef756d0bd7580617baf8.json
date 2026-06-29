@@ -1,1 +1,234 @@
-{"id":"606eef756d0bd7580617baf8","typeName":"Stock","category":"mod_stock","parentTypeChain":["Stock","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f757486f774093e6cb507","price":3286},"common":{"name":{"zh":"Ultima МP-155 聚乙烯枪托","en":"MP-155 Ultima polymer stock"},"shortName":{"zh":"Ultima枪托","en":"Ultima"},"description":{"zh":"MP-155 Ultima 聚乙烯枪托。","en":"The \"Ultima\" modification polymer stock for the MP-155 shotgun. Manufactured by Kalashnikov Group."},"weight":0.51,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"stock_870_remington_sps_12g\n","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":9,"ExamineExperience":1,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":1,"ExtraSizeUp":0,"Foldable":false,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":true,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsShoulderContact":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"stock_870_remington_sps_12g","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/stocks/stock_mp155_kalshnikov_ultima_stock.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-25,"RepairCost":0,"RepairSpeed":0,"Retractable":false,"ShortName":"stock_870_remington_sps_12g","SightingRange":0,"SizeReduceRight":0,"Slots":[{"_id":"607d7b99f2cb2e02a42acf45","_mergeSlotWithChildren":false,"_name":"mod_stock","_parent":"606eef756d0bd7580617baf8","_props":{"filters":[{"Filter":["606f263a8900dc2d9a55b68d","606f262c6d0bd7580617bafa","606ef0812535c57a13424d20"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"607d7be26d0bd7580617bb3b","_mergeSlotWithChildren":false,"_name":"mod_tactical","_parent":"606eef756d0bd7580617baf8","_props":{"filters":[{"Filter":["606f2696f2cb2e02a42aceb1"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.51,"Width":2},"mod":{"ergonomics":9,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_stock","id":"607d7b99f2cb2e02a42acf45","required":true,"filter":["606f263a8900dc2d9a55b68d","606f262c6d0bd7580617bafa","606ef0812535c57a13424d20"]},{"name":"mod_tactical","id":"607d7be26d0bd7580617bb3b","required":false,"filter":["606f2696f2cb2e02a42aceb1"]}],"image":"/images/items/606eef756d0bd7580617baf8.jpg","isMod":false}
+{
+  "id": "606eef756d0bd7580617baf8",
+  "typeName": "Stock",
+  "category": "mod_stock",
+  "parentTypeChain": [
+    "Stock",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f757486f774093e6cb507",
+    "price": 3286
+  },
+  "common": {
+    "name": {
+      "zh": "Ultima МP-155 聚乙烯枪托",
+      "en": "MP-155 Ultima polymer stock"
+    },
+    "shortName": {
+      "zh": "Ultima枪托",
+      "en": "Ultima"
+    },
+    "description": {
+      "zh": "MP-155 Ultima 聚乙烯枪托。",
+      "en": "The \"Ultima\" modification polymer stock for the MP-155 shotgun. Manufactured by Kalashnikov Group."
+    },
+    "weight": 0.72,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "stock_870_remington_sps_12g\n",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 9,
+      "ExamineExperience": 1,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 1,
+      "ExtraSizeUp": 0,
+      "Foldable": false,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": true,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsShoulderContact": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "stock_870_remington_sps_12g",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/stocks/stock_mp155_kalshnikov_ultima_stock.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -25,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "Retractable": false,
+      "ShortName": "stock_870_remington_sps_12g",
+      "SightingRange": 0,
+      "SizeReduceRight": 0,
+      "Slots": [
+        {
+          "_id": "607d7b99f2cb2e02a42acf45",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "606eef756d0bd7580617baf8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "606f263a8900dc2d9a55b68d",
+                  "606f262c6d0bd7580617bafa",
+                  "606ef0812535c57a13424d20"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "607d7be26d0bd7580617bb3b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "606eef756d0bd7580617baf8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "606f2696f2cb2e02a42aceb1"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.51,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "606f2696f2cb2e02a42aceb1",
+          "name": {
+            "zh": "MP-155 \"Ultima\"热成像摄像头",
+            "en": "MP-155 Ultima thermal camera"
+          },
+          "armorClass": 0,
+          "weight": 0.21,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.72
+    },
+    "mod": {
+      "ergonomics": 9,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_stock",
+      "id": "607d7b99f2cb2e02a42acf45",
+      "required": true,
+      "filter": [
+        "606f263a8900dc2d9a55b68d",
+        "606f262c6d0bd7580617bafa",
+        "606ef0812535c57a13424d20"
+      ]
+    },
+    {
+      "name": "mod_tactical",
+      "id": "607d7be26d0bd7580617bb3b",
+      "required": false,
+      "filter": [
+        "606f2696f2cb2e02a42aceb1"
+      ]
+    }
+  ],
+  "image": "/images/items/606eef756d0bd7580617baf8.jpg",
+  "isMod": false
+}

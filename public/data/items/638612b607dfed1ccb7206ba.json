@@ -1,1 +1,158 @@
-{"id":"638612b607dfed1ccb7206ba","typeName":"Silencer","category":"mod_muzzle","parentTypeChain":["Silencer","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f731a86f774093e6cb4f9","price":77000},"common":{"name":{"zh":"AR-15 Griffin Armament M4SD-K 5.56x45消音器","en":"AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor"},"shortName":{"zh":"M4SD-K","en":"M4SD-K"},"description":{"zh":"M4SD-K消音器专为5.56x45口径武器设计。只能安装在SDQD基座消焰器上。由Griffin Armament生产。","en":"The M4SD-K sound suppressor, designed for use with 5.56x45 caliber weapon systems. Can only be installed on the SDQD mounting interface flash hiders. Manufactured by Griffin Armament."},"weight":0.397,"width":2,"height":1,"rarity":"Superrare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["5c6d85e02e22165df16b81f4"],"CoolFactor":1.2,"Description":"silencer_asr_silencerco_saker_556_556x45","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.54,"EffectiveDistance":0,"Ergonomics":-19,"ExamineExperience":4,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":true,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.06,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":-35,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"silencer_asr_silencerco_saker_556_556x45","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/silencers/silencer_sdqd_griffin_m4sd_k_silencer_556x45.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Superrare","Recoil":-10,"RepairCost":0,"RepairSpeed":0,"ShortName":"silencer_asr_silencerco_saker_556_556x45","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0.6,"Weight":0.397,"Width":2,"muzzleModType":"silencer"},"mod":{"ergonomics":-19,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":-35,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0.6,"muzzleModType":"silencer","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"5c6d85e02e22165df16b81f4","name":{"zh":"10.6英寸416A5兼容枪管 5.56x45","en":"HK 416 5.56x45 10.6 inch barrel"},"isWikiItem":true}]},"slots":[],"image":"/images/items/638612b607dfed1ccb7206ba.jpg","isMod":false}
+{
+  "id": "638612b607dfed1ccb7206ba",
+  "typeName": "Silencer",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "Silencer",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f731a86f774093e6cb4f9",
+    "price": 77000
+  },
+  "common": {
+    "name": {
+      "zh": "AR-15 Griffin Armament M4SD-K 5.56x45消音器",
+      "en": "AR-15 Griffin Armament M4SD-K 5.56x45 sound suppressor"
+    },
+    "shortName": {
+      "zh": "M4SD-K",
+      "en": "M4SD-K"
+    },
+    "description": {
+      "zh": "M4SD-K消音器专为5.56x45口径武器设计。只能安装在SDQD基座消焰器上。由Griffin Armament生产。",
+      "en": "The M4SD-K sound suppressor, designed for use with 5.56x45 caliber weapon systems. Can only be installed on the SDQD mounting interface flash hiders. Manufactured by Griffin Armament."
+    },
+    "weight": 0.397,
+    "width": 2,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "5c6d85e02e22165df16b81f4"
+      ],
+      "CoolFactor": 1.2,
+      "Description": "silencer_asr_silencerco_saker_556_556x45",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.54,
+      "EffectiveDistance": 0,
+      "Ergonomics": -19,
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": true,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.06,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": -35,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "silencer_asr_silencerco_saker_556_556x45",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/silencers/silencer_sdqd_griffin_m4sd_k_silencer_556x45.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Superrare",
+      "Recoil": -10,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "silencer_asr_silencerco_saker_556_556x45",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0.6,
+      "Weight": 0.397,
+      "Width": 2,
+      "muzzleModType": "silencer"
+    },
+    "mod": {
+      "ergonomics": -19,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": -35,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0.6,
+      "muzzleModType": "silencer",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "5c6d85e02e22165df16b81f4",
+        "name": {
+          "zh": "10.6英寸416A5兼容枪管 5.56x45",
+          "en": "HK 416 5.56x45 10.6 inch barrel"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [],
+  "image": "/images/items/638612b607dfed1ccb7206ba.jpg",
+  "isMod": false
+}

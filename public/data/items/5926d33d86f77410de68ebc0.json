@@ -1,1 +1,202 @@
-{"id":"5926d33d86f77410de68ebc0","typeName":"Silencer","category":"mod_muzzle","parentTypeChain":["Silencer","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f731a86f774093e6cb4f9","price":26709},"common":{"name":{"zh":"MP5SD 9x19消音器","en":"HK MP5SD 9x19 sound suppressor"},"shortName":{"zh":"MP5SD抑制器","en":"MP5SD supp."},"description":{"zh":"HK制造的MP5SD消音器。","en":"A standard MP5SD sound suppressor manufactured by Heckler & Koch."},"weight":0.496,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.08,"Description":"silencer_hk_mp5_sd_std_9x19","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.4,"EffectiveDistance":0,"Ergonomics":-5,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":true,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.13,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":-34,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"silencer_hk_mp5_sd_std_9x19","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/silencers/silencer_hk_mp5_sd_std_9x19.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":-15,"RepairCost":0,"RepairSpeed":0,"ShortName":"silencer_hk_mp5_sd_std_9x19","SightingRange":0,"Slots":[{"_id":"59c63cf786f7747afe54e68b","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"5926d33d86f77410de68ebc0","_props":{"filters":[{"Filter":["59c63b4486f7747afb151c1c"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":1.2,"Weight":0.496,"Width":2,"muzzleModType":"silencer"},"mod":{"ergonomics":-5,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":-34,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":1.2,"muzzleModType":"silencer","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_mount","id":"59c63cf786f7747afe54e68b","required":false,"filter":["59c63b4486f7747afb151c1c"]}],"image":"/images/items/5926d33d86f77410de68ebc0.jpg","isMod":false}
+{
+  "id": "5926d33d86f77410de68ebc0",
+  "typeName": "Silencer",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "Silencer",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f731a86f774093e6cb4f9",
+    "price": 26709
+  },
+  "common": {
+    "name": {
+      "zh": "MP5SD 9x19消音器",
+      "en": "HK MP5SD 9x19 sound suppressor"
+    },
+    "shortName": {
+      "zh": "MP5SD抑制器",
+      "en": "MP5SD supp."
+    },
+    "description": {
+      "zh": "HK制造的MP5SD消音器。",
+      "en": "A standard MP5SD sound suppressor manufactured by Heckler & Koch."
+    },
+    "weight": 0.578,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.08,
+      "Description": "silencer_hk_mp5_sd_std_9x19",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.4,
+      "EffectiveDistance": 0,
+      "Ergonomics": -5,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": true,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.13,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": -34,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "silencer_hk_mp5_sd_std_9x19",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/silencers/silencer_hk_mp5_sd_std_9x19.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": -15,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "silencer_hk_mp5_sd_std_9x19",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "59c63cf786f7747afe54e68b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "5926d33d86f77410de68ebc0",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59c63b4486f7747afb151c1c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 1.2,
+      "Weight": 0.496,
+      "Width": 2,
+      "muzzleModType": "silencer"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "59c63b4486f7747afb151c1c",
+          "name": {
+            "zh": "B&T MP5 SD三导轨基座环",
+            "en": "HK MP5SD B&T tri-rail ring mount"
+          },
+          "armorClass": 0,
+          "weight": 0.082,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.578
+    },
+    "mod": {
+      "ergonomics": -5,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": -34,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 1.2,
+      "muzzleModType": "silencer",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_mount",
+      "id": "59c63cf786f7747afe54e68b",
+      "required": false,
+      "filter": [
+        "59c63b4486f7747afb151c1c"
+      ]
+    }
+  ],
+  "image": "/images/items/5926d33d86f77410de68ebc0.jpg",
+  "isMod": false
+}

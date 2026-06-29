@@ -1,1 +1,202 @@
-{"id":"6884465f8615db2a21955aa1","typeName":"Silencer","category":"mod_muzzle","parentTypeChain":["Silencer","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"创新武器 IA-SC9 内置消音器","en":"Innovative Arms IA-SC9 integral suppressor"},"shortName":{"zh":"IA-SC9","en":"IA-SC9"},"description":{"zh":"专为CZ Scorpion EVO 3平台设计的整体式消音器。其功能类似于MP5-SD或其他整体式消音系统，能将标准弹药的初速降至亚音速，从而显著降低射击的整体声响特征。","en":"Integral suppressor designed specifically for the CZ Scorpion EVO 3 platform.  Functioning similarly to an MP5-SD or other integral suppressor systems, the suppressor reduces velocity of standard cartridges to subsonic speeds to reduce overall sound signature."},"weight":0.35,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":1,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.08,"Description":"silencer_hk_mp5_sd_std_9x19","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.4,"EffectiveDistance":0,"Ergonomics":-13,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":true,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.13,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":-34,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"silencer_hk_mp5_sd_std_9x19","NotShownInSlot":false,"Prefab":{"path":"WeaponCZScorpion/cz_scorpion_ia_sc9.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":-6.5,"RepairCost":0,"RepairSpeed":0,"ShortName":"silencer_hk_mp5_sd_std_9x19","SightingRange":0,"Slots":[{"_id":"59c63cf786f7747afe54e68b","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"5926d33d86f77410de68ebc0","_props":{"filters":[{"Filter":["59c63b4486f7747afb151c1c"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":1.2,"Weight":0.35,"Width":2,"muzzleModType":"silencer"},"mod":{"ergonomics":-13,"recoilForceUp":0,"recoilForceBack":0,"accuracy":1,"loudness":-34,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":1.2,"muzzleModType":"silencer","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_mount","id":"59c63cf786f7747afe54e68b","required":false,"filter":["59c63b4486f7747afb151c1c"]}],"image":null,"isMod":true}
+{
+  "id": "6884465f8615db2a21955aa1",
+  "typeName": "Silencer",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "Silencer",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "创新武器 IA-SC9 内置消音器",
+      "en": "Innovative Arms IA-SC9 integral suppressor"
+    },
+    "shortName": {
+      "zh": "IA-SC9",
+      "en": "IA-SC9"
+    },
+    "description": {
+      "zh": "专为CZ Scorpion EVO 3平台设计的整体式消音器。其功能类似于MP5-SD或其他整体式消音系统，能将标准弹药的初速降至亚音速，从而显著降低射击的整体声响特征。",
+      "en": "Integral suppressor designed specifically for the CZ Scorpion EVO 3 platform.  Functioning similarly to an MP5-SD or other integral suppressor systems, the suppressor reduces velocity of standard cartridges to subsonic speeds to reduce overall sound signature."
+    },
+    "weight": 0.432,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 1,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.08,
+      "Description": "silencer_hk_mp5_sd_std_9x19",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.4,
+      "EffectiveDistance": 0,
+      "Ergonomics": -13,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": true,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.13,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": -34,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "silencer_hk_mp5_sd_std_9x19",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponCZScorpion/cz_scorpion_ia_sc9.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": -6.5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "silencer_hk_mp5_sd_std_9x19",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "59c63cf786f7747afe54e68b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "5926d33d86f77410de68ebc0",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59c63b4486f7747afb151c1c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 1.2,
+      "Weight": 0.35,
+      "Width": 2,
+      "muzzleModType": "silencer"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "59c63b4486f7747afb151c1c",
+          "name": {
+            "zh": "B&T MP5 SD三导轨基座环",
+            "en": "HK MP5SD B&T tri-rail ring mount"
+          },
+          "armorClass": 0,
+          "weight": 0.082,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.432
+    },
+    "mod": {
+      "ergonomics": -13,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 1,
+      "loudness": -34,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 1.2,
+      "muzzleModType": "silencer",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_mount",
+      "id": "59c63cf786f7747afe54e68b",
+      "required": false,
+      "filter": [
+        "59c63b4486f7747afb151c1c"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

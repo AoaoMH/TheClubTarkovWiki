@@ -104,14 +104,14 @@ export function writeOutput(
   // Write per-category summaries
   for (const [catId, summaries] of groupedSummaries) {
     const filePath = path.join(summariesDir, `${catId}.json`)
-    fs.writeFileSync(filePath, JSON.stringify(summaries), 'utf-8')
+    fs.writeFileSync(filePath, JSON.stringify(summaries, null, 2), 'utf-8')
   }
   console.log(`[output] summaries/: ${groupedSummaries.size} category files`)
 
   // Write individual item files
   for (const item of items) {
     const filePath = path.join(itemsDir, `${item.id}.json`)
-    fs.writeFileSync(filePath, JSON.stringify(item), 'utf-8')
+    fs.writeFileSync(filePath, JSON.stringify(item, null, 2), 'utf-8')
   }
   console.log(`[output] items/: ${items.length} individual files`)
 
@@ -127,7 +127,7 @@ export function writeOutput(
 
   // Write item-names.json (name lookup for non-wiki items)
   const itemNamesPath = path.join(OUTPUT_DATA_PATH, 'item-names.json')
-  fs.writeFileSync(itemNamesPath, JSON.stringify(itemNames), 'utf-8')
+  fs.writeFileSync(itemNamesPath, JSON.stringify(itemNames, null, 2), 'utf-8')
   console.log(`[output] item-names.json: ${Object.keys(itemNames).length} entries (${(fs.statSync(itemNamesPath).size / 1024).toFixed(0)} KB)`)
 
   // Write stats

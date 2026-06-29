@@ -1,1 +1,289 @@
-{"id":"5648a7494bdc2d9d488b4583","typeName":"Armor","category":"armor","parentTypeChain":["Armor","ArmoredEquipment","Equipment","CompoundItem","Item"],"handbook":{"categoryId":"5b5f701386f774093f2ecf0f","price":1313},"common":{"name":{"zh":"PACA 软质防弹背心","en":"PACA Soft Armor"},"shortName":{"zh":"PACA","en":"PACA"},"description":{"zh":"虽然轻便但可靠耐用的防弹衣，只覆盖躯体的重要部位。","en":"A light but durable and reliable body armor protecting only the vital areas."},"weight":3.5,"width":3,"height":3,"rarity":"Common","backgroundColor":"blue"},"properties":{"_raw":{"AnimationVariantsNumber":0,"ArmorMaterial":"Aramid","ArmorType":"Light","BackgroundColor":"blue","BlindnessProtection":0,"BlocksEarpiece":false,"BlocksEyewear":false,"BlocksFaceCover":false,"BlocksHeadwear":false,"BluntThroughput":0.3564,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"DeafStrength":"None","Description":"PACA","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","Durability":0,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"FaceShieldComponent":false,"FaceShieldMask":"NoMask","ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasHinge":false,"Height":3,"HideEntrails":false,"Indestructibility":0.9,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_armor","LeftHandItem":false,"LootExperience":45,"MaterialType":"BodyArmor","MaxDurability":0,"MergesWithChildren":false,"MetascoreGroup":"Defence","Name":"PACA","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/armor_paca/item_equipment_armor_paca.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Common","RepairCost":106,"RepairSpeed":8,"RicochetParams":{"x":0,"y":0,"z":80},"ShortName":"PACA","Slots":[{"_id":"65539be98dd65babad098050","_mergeSlotWithChildren":true,"_name":"Soft_armor_front","_parent":"5648a7494bdc2d9d488b4583","_props":{"filters":[{"Filter":["65703d866584602f7d057a8a"],"Plate":"65703d866584602f7d057a8a","armorColliders":["RibcageLow","RibcageUp"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_proto":"64479fdf9731c8fadc0642c1","_required":true},{"_id":"657040eced97862163088e30","_mergeSlotWithChildren":true,"_name":"Soft_armor_back","_parent":"5648a7494bdc2d9d488b4583","_props":{"filters":[{"Filter":["65703fa06584602f7d057a8e"],"Plate":"65703fa06584602f7d057a8e","armorColliders":["SpineDown","SpineTop"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_proto":"64479fdf9731c8fadc0642c1","_required":true},{"_id":"657041154e67e8ec7a0d266f","_mergeSlotWithChildren":true,"_name":"Soft_armor_left","_parent":"5648a7494bdc2d9d488b4583","_props":{"filters":[{"Filter":["65703fe46a912c8b5c03468b"],"Plate":"65703fe46a912c8b5c03468b","armorColliders":["LeftSideChestDown"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_proto":"64479fdf9731c8fadc0642c1","_required":true},{"_id":"6570413e6584602f7d057ace","_mergeSlotWithChildren":true,"_name":"soft_armor_right","_parent":"5648a7494bdc2d9d488b4583","_props":{"filters":[{"Filter":["657040374e67e8ec7a0d261c"],"Plate":"657040374e67e8ec7a0d261c","armorColliders":["RightSideChestDown"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_proto":"64479fdf9731c8fadc0642c1","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":3.5,"Width":3,"armorClass":"0","armorColliders":[],"armorPlateColliders":[],"mousePenalty":0,"speedPenaltyPercent":-1,"weaponErgonomicPenalty":-1},"armor":{"armorClass":0,"durability":0,"maxDurability":0,"material":"Aramid","zones":[],"speedPenalty":0,"ergonomicsPenalty":0,"bluntThroughput":0.3564,"armorType":"Light","mousePenalty":0}},"slots":[{"name":"Soft_armor_front","id":"65539be98dd65babad098050","required":true,"filter":["65703d866584602f7d057a8a"]},{"name":"Soft_armor_back","id":"657040eced97862163088e30","required":true,"filter":["65703fa06584602f7d057a8e"]},{"name":"Soft_armor_left","id":"657041154e67e8ec7a0d266f","required":true,"filter":["65703fe46a912c8b5c03468b"]},{"name":"soft_armor_right","id":"6570413e6584602f7d057ace","required":true,"filter":["657040374e67e8ec7a0d261c"]}],"image":"/images/items/5648a7494bdc2d9d488b4583.jpg","isMod":false}
+{
+  "id": "5648a7494bdc2d9d488b4583",
+  "typeName": "Armor",
+  "category": "armor",
+  "parentTypeChain": [
+    "Armor",
+    "ArmoredEquipment",
+    "Equipment",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f701386f774093f2ecf0f",
+    "price": 1313
+  },
+  "common": {
+    "name": {
+      "zh": "PACA 软质防弹背心",
+      "en": "PACA Soft Armor"
+    },
+    "shortName": {
+      "zh": "PACA",
+      "en": "PACA"
+    },
+    "description": {
+      "zh": "虽然轻便但可靠耐用的防弹衣，只覆盖躯体的重要部位。",
+      "en": "A light but durable and reliable body armor protecting only the vital areas."
+    },
+    "weight": 3.5,
+    "width": 3,
+    "height": 3,
+    "rarity": "Common",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "ArmorMaterial": "Aramid",
+      "ArmorType": "Light",
+      "BackgroundColor": "blue",
+      "BlindnessProtection": 0,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksFaceCover": false,
+      "BlocksHeadwear": false,
+      "BluntThroughput": 0.3564,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "DeafStrength": "None",
+      "Description": "PACA",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "Durability": 0,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasHinge": false,
+      "Height": 3,
+      "HideEntrails": false,
+      "Indestructibility": 0.9,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_armor",
+      "LeftHandItem": false,
+      "LootExperience": 45,
+      "MaterialType": "BodyArmor",
+      "MaxDurability": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Defence",
+      "Name": "PACA",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/armor_paca/item_equipment_armor_paca.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Common",
+      "RepairCost": 106,
+      "RepairSpeed": 8,
+      "RicochetParams": {
+        "x": 0,
+        "y": 0,
+        "z": 80
+      },
+      "ShortName": "PACA",
+      "Slots": [
+        {
+          "_id": "65539be98dd65babad098050",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "5648a7494bdc2d9d488b4583",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "65703d866584602f7d057a8a"
+                ],
+                "Plate": "65703d866584602f7d057a8a",
+                "armorColliders": [
+                  "RibcageLow",
+                  "RibcageUp"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "657040eced97862163088e30",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "5648a7494bdc2d9d488b4583",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "65703fa06584602f7d057a8e"
+                ],
+                "Plate": "65703fa06584602f7d057a8e",
+                "armorColliders": [
+                  "SpineDown",
+                  "SpineTop"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "657041154e67e8ec7a0d266f",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_left",
+          "_parent": "5648a7494bdc2d9d488b4583",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "65703fe46a912c8b5c03468b"
+                ],
+                "Plate": "65703fe46a912c8b5c03468b",
+                "armorColliders": [
+                  "LeftSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6570413e6584602f7d057ace",
+          "_mergeSlotWithChildren": true,
+          "_name": "soft_armor_right",
+          "_parent": "5648a7494bdc2d9d488b4583",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657040374e67e8ec7a0d261c"
+                ],
+                "Plate": "657040374e67e8ec7a0d261c",
+                "armorColliders": [
+                  "RightSideChestDown"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 3.5,
+      "Width": 3,
+      "armorClass": "0",
+      "armorColliders": [],
+      "armorPlateColliders": [],
+      "mousePenalty": 0,
+      "speedPenaltyPercent": -1,
+      "weaponErgonomicPenalty": -1
+    },
+    "armor": {
+      "armorClass": 2,
+      "baseArmorClass": 2,
+      "durability": 40,
+      "maxDurability": 40,
+      "material": "Aramid",
+      "zones": [
+        "RibcageUp",
+        "RibcageLow",
+        "SpineDown",
+        "SpineTop",
+        "LeftSideChestDown",
+        "RightSideChestDown"
+      ],
+      "speedPenalty": -1,
+      "ergonomicsPenalty": -1,
+      "bluntThroughput": 0.3564,
+      "armorType": "Light",
+      "mousePenalty": 0,
+      "defaultPlates": [],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 3.5
+    }
+  },
+  "slots": [
+    {
+      "name": "Soft_armor_front",
+      "id": "65539be98dd65babad098050",
+      "required": true,
+      "filter": [
+        "65703d866584602f7d057a8a"
+      ]
+    },
+    {
+      "name": "Soft_armor_back",
+      "id": "657040eced97862163088e30",
+      "required": true,
+      "filter": [
+        "65703fa06584602f7d057a8e"
+      ]
+    },
+    {
+      "name": "Soft_armor_left",
+      "id": "657041154e67e8ec7a0d266f",
+      "required": true,
+      "filter": [
+        "65703fe46a912c8b5c03468b"
+      ]
+    },
+    {
+      "name": "soft_armor_right",
+      "id": "6570413e6584602f7d057ace",
+      "required": true,
+      "filter": [
+        "657040374e67e8ec7a0d261c"
+      ]
+    }
+  ],
+  "image": "/images/items/5648a7494bdc2d9d488b4583.jpg",
+  "isMod": false
+}

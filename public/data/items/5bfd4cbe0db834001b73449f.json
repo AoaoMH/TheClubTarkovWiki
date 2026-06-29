@@ -1,1 +1,289 @@
-{"id":"5bfd4cbe0db834001b73449f","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":3920},"common":{"name":{"zh":"514毫米莫辛卡宾枪标准枪管","en":"Mosin Carbine 7.62x54R 514mm barrel"},"shortName":{"zh":"514毫米莫辛枪管","en":"Mosin 514mm"},"description":{"zh":"莫辛卡宾枪用标准514毫米枪管。","en":"A regular 514mm barrel for the Mosin carbine."},"weight":1.5,"width":3,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.07,"ConflictingItems":[],"CoolFactor":0.9,"Description":"barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm","DeviationCurve":1,"DeviationMax":33,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-8,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":3,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.85,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_mosin_izhmash_mosin_carabine_514mm.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-8,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm","ShotgunDispersion":1.9,"SightingRange":0,"Slots":[{"_id":"5bfd4cbe0db834001b7344a1","_mergeSlotWithChildren":false,"_name":"mod_sight_front","_parent":"5bfd4cbe0db834001b73449f","_props":{"filters":[{"Filter":["5ae099875acfc4001714e593"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"5bfd4cbe0db834001b7344a2","_mergeSlotWithChildren":false,"_name":"mod_sight_rear","_parent":"5bfd4cbe0db834001b73449f","_props":{"filters":[{"Filter":["5bfd4c980db834001b73449d"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"5bfd4cbe0db834001b7344a3","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"5bfd4cbe0db834001b73449f","_props":{"filters":[{"Filter":["5bbdb83fd4351e44f824c44b","5bc5a351d4351e003477a414","5bc5a35cd4351e450201232f","5cf79389d7f00c10941a0c4d","5cf79599d7f00c10875d9212","5cf67a1bd7f00c06585fb6f3","5b86a0e586f7745b600ccb23"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":8.2,"Weight":1.5,"Width":3},"mod":{"ergonomics":-8,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":8.2,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_sight_front","id":"5bfd4cbe0db834001b7344a1","required":false,"filter":["5ae099875acfc4001714e593"]},{"name":"mod_sight_rear","id":"5bfd4cbe0db834001b7344a2","required":false,"filter":["5bfd4c980db834001b73449d"]},{"name":"mod_muzzle","id":"5bfd4cbe0db834001b7344a3","required":false,"filter":["5bbdb83fd4351e44f824c44b","5bc5a351d4351e003477a414","5bc5a35cd4351e450201232f","5cf79389d7f00c10941a0c4d","5cf79599d7f00c10875d9212","5cf67a1bd7f00c06585fb6f3","5b86a0e586f7745b600ccb23"]}],"image":"/images/items/5bfd4cbe0db834001b73449f.jpg","isMod":false}
+{
+  "id": "5bfd4cbe0db834001b73449f",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 3920
+  },
+  "common": {
+    "name": {
+      "zh": "514毫米莫辛卡宾枪标准枪管",
+      "en": "Mosin Carbine 7.62x54R 514mm barrel"
+    },
+    "shortName": {
+      "zh": "514毫米莫辛枪管",
+      "en": "Mosin 514mm"
+    },
+    "description": {
+      "zh": "莫辛卡宾枪用标准514毫米枪管。",
+      "en": "A regular 514mm barrel for the Mosin carbine."
+    },
+    "weight": 1.98,
+    "width": 3,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.07,
+      "ConflictingItems": [],
+      "CoolFactor": 0.9,
+      "Description": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
+      "DeviationCurve": 1,
+      "DeviationMax": 33,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -8,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 3,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.85,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_mosin_izhmash_mosin_carabine_514mm.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -8,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
+      "ShotgunDispersion": 1.9,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5bfd4cbe0db834001b7344a1",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "5bfd4cbe0db834001b73449f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ae099875acfc4001714e593"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5bfd4cbe0db834001b7344a2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "5bfd4cbe0db834001b73449f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bfd4c980db834001b73449d"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5bfd4cbe0db834001b7344a3",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "5bfd4cbe0db834001b73449f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5bbdb83fd4351e44f824c44b",
+                  "5bc5a351d4351e003477a414",
+                  "5bc5a35cd4351e450201232f",
+                  "5cf79389d7f00c10941a0c4d",
+                  "5cf79599d7f00c10875d9212",
+                  "5cf67a1bd7f00c06585fb6f3",
+                  "5b86a0e586f7745b600ccb23"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 8.2,
+      "Weight": 1.5,
+      "Width": 3
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5ae099875acfc4001714e593",
+          "name": {
+            "zh": "莫辛准星",
+            "en": "Mosin Rifle front sight"
+          },
+          "armorClass": 0,
+          "weight": 0.08,
+          "count": 1
+        },
+        {
+          "id": "5bfd4c980db834001b73449d",
+          "name": {
+            "zh": "莫辛卡宾枪照门",
+            "en": "Mosin Rifle carbine rear sight"
+          },
+          "armorClass": 0,
+          "weight": 0.15,
+          "count": 1
+        },
+        {
+          "id": "5bbdb83fd4351e44f824c44b",
+          "name": {
+            "zh": "莫辛步枪Tacfire坦克手型7.62x54R膛口制退器",
+            "en": "Mosin Rifle Tacfire Tanker Style 7.62x54R muzzle brake"
+          },
+          "armorClass": 0,
+          "weight": 0.25,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.98
+    },
+    "mod": {
+      "ergonomics": -8,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 8.2,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_sight_front",
+      "id": "5bfd4cbe0db834001b7344a1",
+      "required": false,
+      "filter": [
+        "5ae099875acfc4001714e593"
+      ]
+    },
+    {
+      "name": "mod_sight_rear",
+      "id": "5bfd4cbe0db834001b7344a2",
+      "required": false,
+      "filter": [
+        "5bfd4c980db834001b73449d"
+      ]
+    },
+    {
+      "name": "mod_muzzle",
+      "id": "5bfd4cbe0db834001b7344a3",
+      "required": false,
+      "filter": [
+        "5bbdb83fd4351e44f824c44b",
+        "5bc5a351d4351e003477a414",
+        "5bc5a35cd4351e450201232f",
+        "5cf79389d7f00c10941a0c4d",
+        "5cf79599d7f00c10875d9212",
+        "5cf67a1bd7f00c06585fb6f3",
+        "5b86a0e586f7745b600ccb23"
+      ]
+    }
+  ],
+  "image": "/images/items/5bfd4cbe0db834001b73449f.jpg",
+  "isMod": false
+}

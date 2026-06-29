@@ -1,1 +1,199 @@
-{"id":"577d128124597739d65d0e56","typeName":"Mount","category":"mod_mount","parentTypeChain":["Mount","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f755f86f77447ec5d770e","price":1582},"common":{"name":{"zh":"Burris FastFire韦弗式基座","en":"Burris FastFire Weaver Base"},"shortName":{"zh":"FFWB","en":"FFWB"},"description":{"zh":"这款Burris生产的基座能让紧凑型的Fastfire系列瞄准镜安装到韦弗导轨或是皮卡汀尼导轨上。","en":"This base from Burris allows to mount the compact FastFire Series Sights to Weaver or Picatinny-style rails."},"weight":0.017,"width":1,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"mount_all_burris_fast_fire_weaver","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":0,"ExamineExperience":5,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mount_all_burris_fast_fire_weaver","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/mounts/mount_all_burris_fast_fire_weaver.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"mount_all_burris_fast_fire_weaver","SightingRange":0,"Slots":[{"_id":"577d13f724597739ba176c31","_mergeSlotWithChildren":false,"_name":"mod_scope","_parent":"577d128124597739d65d0e56","_props":{"filters":[{"Filter":["577d141e24597739c5255e01"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.017,"Width":1},"mod":{"ergonomics":0,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_scope","id":"577d13f724597739ba176c31","required":false,"filter":["577d141e24597739c5255e01"]}],"image":"/images/items/577d128124597739d65d0e56.jpg","isMod":false}
+{
+  "id": "577d128124597739d65d0e56",
+  "typeName": "Mount",
+  "category": "mod_mount",
+  "parentTypeChain": [
+    "Mount",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f755f86f77447ec5d770e",
+    "price": 1582
+  },
+  "common": {
+    "name": {
+      "zh": "Burris FastFire韦弗式基座",
+      "en": "Burris FastFire Weaver Base"
+    },
+    "shortName": {
+      "zh": "FFWB",
+      "en": "FFWB"
+    },
+    "description": {
+      "zh": "这款Burris生产的基座能让紧凑型的Fastfire系列瞄准镜安装到韦弗导轨或是皮卡汀尼导轨上。",
+      "en": "This base from Burris allows to mount the compact FastFire Series Sights to Weaver or Picatinny-style rails."
+    },
+    "weight": 0.042,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "mount_all_burris_fast_fire_weaver",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mount_all_burris_fast_fire_weaver",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/mounts/mount_all_burris_fast_fire_weaver.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mount_all_burris_fast_fire_weaver",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "577d13f724597739ba176c31",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "577d128124597739d65d0e56",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "577d141e24597739c5255e01"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.017,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "577d141e24597739c5255e01",
+          "name": {
+            "zh": "Burris FastFire 3反射式瞄具",
+            "en": "Burris FastFire 3 reflex sight"
+          },
+          "armorClass": 0,
+          "weight": 0.025,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.042
+    },
+    "mod": {
+      "ergonomics": 0,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_scope",
+      "id": "577d13f724597739ba176c31",
+      "required": false,
+      "filter": [
+        "577d141e24597739c5255e01"
+      ]
+    }
+  ],
+  "image": "/images/items/577d128124597739d65d0e56.jpg",
+  "isMod": false
+}

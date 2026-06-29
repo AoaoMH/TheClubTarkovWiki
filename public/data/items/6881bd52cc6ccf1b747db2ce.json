@@ -1,1 +1,260 @@
-{"id":"6881bd52cc6ccf1b747db2ce","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"CZ EVO 3 \"蝎式\" PDW 5英寸枪管","en":"CZ Scorpion EVO 3 PDW 5 inch barrel"},"shortName":{"zh":"EVO 3 5英寸","en":"EVO 3 5\""},"description":{"zh":"CZ EVO 3 A1 \"蝎式\" 9x19毫米冲锋枪专用5英寸枪管PDW短管版本。","en":"PDW length 5 inch barrel for the CZ Scorpion EVO 3 A1 9x19 submachine gun."},"weight":0.24,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.25,"ConflictingItems":["687fb46ac2f7551f2ce2e4b1","68827b0e8586d3f82920066a","6881c17e9ece0d7057d4347a","687b02e550e15d9a28c5681e"],"CoolFactor":1.09,"Description":"barrel_mpx_203mm","DeviationCurve":2.25,"DeviationMax":11,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":0.78,"EffectiveDistance":0,"Ergonomics":-3,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.06,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_mpx_203mm","NotShownInSlot":false,"Prefab":{"path":"WeaponCZScorpion/cz_scorpion_barrel_5.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-1,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_mpx_203mm","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"6881bd4bb991d01a9a81582c","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"6881bd52cc6ccf1b747db2ce","_props":{"filters":[{"AnimationIndex":-1,"Filter":["687b03bc8b8590063f73f01c","687fb49322e3cb02683967bf","5cf6935bd7f00c06585fb791","5fbbc3324e8a554c40648348","5c6165902e22160010261b28","5c7e8fab2e22165df16b889b","5b3a16655acfc40016387a2a","666102ef2d367ec85ddd2030","58949dea86f77409483e16a8"]}]},"_proto":"55d30c394bdc2dae468b4577","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":-16,"Weight":0.24,"Width":1},"mod":{"ergonomics":-3,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":-16,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"687fb46ac2f7551f2ce2e4b1","name":{"zh":"CZ EVO 3 A1 \"蝎式\"聚合物护木","en":"CZ Scorpion EVO 3 A1 polymer handguard"},"isWikiItem":true},{"id":"68827b0e8586d3f82920066a","name":{"zh":"CZ EVO 3 A1 \"蝎式\" 加长战术护木","en":"CZ Scorpion EVO 3 A1 extended tactical handguard"},"isWikiItem":true},{"id":"6881c17e9ece0d7057d4347a","name":{"zh":"CZ EVO 3 A1 \"蝎式\" 战术中长导轨护木","en":"CZ Scorpion EVO 3 A1 tactical mid-length railed handguard"},"isWikiItem":true},{"id":"687b02e550e15d9a28c5681e","name":{"zh":"CZ EVO 3 A1 \"蝎式\" 卡宾枪护木","en":"CZ Scorpion EVO 3 A1 carbine handguard"},"isWikiItem":true}]},"slots":[{"name":"mod_muzzle","id":"6881bd4bb991d01a9a81582c","required":false,"filter":["687b03bc8b8590063f73f01c","687fb49322e3cb02683967bf","5cf6935bd7f00c06585fb791","5fbbc3324e8a554c40648348","5c6165902e22160010261b28","5c7e8fab2e22165df16b889b","5b3a16655acfc40016387a2a","666102ef2d367ec85ddd2030","58949dea86f77409483e16a8"]}],"image":null,"isMod":true}
+{
+  "id": "6881bd52cc6ccf1b747db2ce",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "CZ EVO 3 \"蝎式\" PDW 5英寸枪管",
+      "en": "CZ Scorpion EVO 3 PDW 5 inch barrel"
+    },
+    "shortName": {
+      "zh": "EVO 3 5英寸",
+      "en": "EVO 3 5\""
+    },
+    "description": {
+      "zh": "CZ EVO 3 A1 \"蝎式\" 9x19毫米冲锋枪专用5英寸枪管PDW短管版本。",
+      "en": "PDW length 5 inch barrel for the CZ Scorpion EVO 3 A1 9x19 submachine gun."
+    },
+    "weight": 0.307,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.25,
+      "ConflictingItems": [
+        "687fb46ac2f7551f2ce2e4b1",
+        "68827b0e8586d3f82920066a",
+        "6881c17e9ece0d7057d4347a",
+        "687b02e550e15d9a28c5681e"
+      ],
+      "CoolFactor": 1.09,
+      "Description": "barrel_mpx_203mm",
+      "DeviationCurve": 2.25,
+      "DeviationMax": 11,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 0.78,
+      "EffectiveDistance": 0,
+      "Ergonomics": -3,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.06,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_mpx_203mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponCZScorpion/cz_scorpion_barrel_5.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -1,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_mpx_203mm",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "6881bd4bb991d01a9a81582c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "6881bd52cc6ccf1b747db2ce",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "687b03bc8b8590063f73f01c",
+                  "687fb49322e3cb02683967bf",
+                  "5cf6935bd7f00c06585fb791",
+                  "5fbbc3324e8a554c40648348",
+                  "5c6165902e22160010261b28",
+                  "5c7e8fab2e22165df16b889b",
+                  "5b3a16655acfc40016387a2a",
+                  "666102ef2d367ec85ddd2030",
+                  "58949dea86f77409483e16a8"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": -16,
+      "Weight": 0.24,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "687b03bc8b8590063f73f01c",
+          "name": {
+            "zh": "CZ EVO 3 A1 \"蝎式\" 卡宾枪补偿器",
+            "en": "CZ Scorpion EVO 3 A1 carbine compensator"
+          },
+          "armorClass": 0,
+          "weight": 0.067,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.307
+    },
+    "mod": {
+      "ergonomics": -3,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": -16,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "687fb46ac2f7551f2ce2e4b1",
+        "name": {
+          "zh": "CZ EVO 3 A1 \"蝎式\"聚合物护木",
+          "en": "CZ Scorpion EVO 3 A1 polymer handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68827b0e8586d3f82920066a",
+        "name": {
+          "zh": "CZ EVO 3 A1 \"蝎式\" 加长战术护木",
+          "en": "CZ Scorpion EVO 3 A1 extended tactical handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "6881c17e9ece0d7057d4347a",
+        "name": {
+          "zh": "CZ EVO 3 A1 \"蝎式\" 战术中长导轨护木",
+          "en": "CZ Scorpion EVO 3 A1 tactical mid-length railed handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "687b02e550e15d9a28c5681e",
+        "name": {
+          "zh": "CZ EVO 3 A1 \"蝎式\" 卡宾枪护木",
+          "en": "CZ Scorpion EVO 3 A1 carbine handguard"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "6881bd4bb991d01a9a81582c",
+      "required": false,
+      "filter": [
+        "687b03bc8b8590063f73f01c",
+        "687fb49322e3cb02683967bf",
+        "5cf6935bd7f00c06585fb791",
+        "5fbbc3324e8a554c40648348",
+        "5c6165902e22160010261b28",
+        "5c7e8fab2e22165df16b889b",
+        "5b3a16655acfc40016387a2a",
+        "666102ef2d367ec85ddd2030",
+        "58949dea86f77409483e16a8"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

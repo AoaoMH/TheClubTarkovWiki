@@ -1,1 +1,181 @@
-{"id":"5d403f9186f7743cac3f229b","typeName":"Drink","category":"drink","parentTypeChain":["Drink","FoodDrink","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b335","price":50000},"common":{"name":{"zh":"Dan Jackiel瓶装威士忌","en":"Bottle of Dan Jackiel whiskey"},"shortName":{"zh":"威士忌","en":"Whiskey"},"description":{"zh":"PMC中最为流行的威士忌。这种饮料的独特过滤方式是通过燃烧取得萨马拉糖白桦获得的木炭来实现的。饮料看上去像是含有酒精的，而酒精是有害的。特别是对像你这样的战士来说。","en":"The most popular whiskey among the PMCs. The unique filtration of the drink occurs through charcoal obtained from the burning of Samara sugar birch. This is an alcohol drink, and alcohol is harmful. Especially for such a warrior like you."},"weight":1.4,"width":1,"height":2,"rarity":"Superrare","backgroundColor":"default"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"default","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"item_food_jack","DiscardLimit":1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":2,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"food_bottle","LeftHandItem":false,"LootExperience":10,"MaxResource":1,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"item_food_jack","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/food/bottles_with_alcohol/item_food_jack.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"item_food_jack","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_drink_jack","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_alcohol_whiskey/item_alcohol_whiskey_container.bundle","rcid":""},"Weight":1.4,"Width":1,"effects_damage":{"Pain":{"delay":0,"duration":210},"RadExposure":{"delay":0,"duration":0}},"effects_health":{"Energy":{"value":10},"Hydration":{"value":-35}},"foodEffectType":"afterUse","foodUseTime":4},"foodDrink":{"useTime":4,"effects":{"healthEffects":[{"type":"Energy","value":10},{"type":"Hydration","value":-35}],"damageEffects":[{"type":"Pain","delay":0,"duration":210},{"type":"RadExposure","delay":0,"duration":0}],"stimBuffs":[{"buffType":"SkillRate","skillName":"StressResistance","value":2,"delay":1,"duration":210,"chance":1},{"buffType":"SkillRate","skillName":"Memory","value":-3,"delay":1,"duration":210,"chance":1},{"buffType":"SkillRate","skillName":"Health","value":-2,"delay":1,"duration":210,"chance":1},{"buffType":"HandsTremor","skillName":"","value":0,"delay":220,"duration":60,"chance":1}]}}},"slots":[],"image":"/images/items/5d403f9186f7743cac3f229b.jpg","isMod":false}
+{
+  "id": "5d403f9186f7743cac3f229b",
+  "typeName": "Drink",
+  "category": "drink",
+  "parentTypeChain": [
+    "Drink",
+    "FoodDrink",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 50000
+  },
+  "common": {
+    "name": {
+      "zh": "Dan Jackiel瓶装威士忌",
+      "en": "Bottle of Dan Jackiel whiskey"
+    },
+    "shortName": {
+      "zh": "威士忌",
+      "en": "Whiskey"
+    },
+    "description": {
+      "zh": "PMC中最为流行的威士忌。这种饮料的独特过滤方式是通过燃烧取得萨马拉糖白桦获得的木炭来实现的。饮料看上去像是含有酒精的，而酒精是有害的。特别是对像你这样的战士来说。",
+      "en": "The most popular whiskey among the PMCs. The unique filtration of the drink occurs through charcoal obtained from the burning of Samara sugar birch. This is an alcohol drink, and alcohol is harmful. Especially for such a warrior like you."
+    },
+    "weight": 1.4,
+    "width": 1,
+    "height": 2,
+    "rarity": "Superrare",
+    "backgroundColor": "default"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "default",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "item_food_jack",
+      "DiscardLimit": 1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "food_bottle",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxResource": 1,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "item_food_jack",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/food/bottles_with_alcohol/item_food_jack.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "item_food_jack",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_drink_jack",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_alcohol_whiskey/item_alcohol_whiskey_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 1.4,
+      "Width": 1,
+      "effects_damage": {
+        "Pain": {
+          "delay": 0,
+          "duration": 210
+        },
+        "RadExposure": {
+          "delay": 0,
+          "duration": 0
+        }
+      },
+      "effects_health": {
+        "Energy": {
+          "value": 10
+        },
+        "Hydration": {
+          "value": -35
+        }
+      },
+      "foodEffectType": "afterUse",
+      "foodUseTime": 4
+    },
+    "foodDrink": {
+      "useTime": 4,
+      "effects": {
+        "healthEffects": [
+          {
+            "type": "Energy",
+            "value": 10
+          },
+          {
+            "type": "Hydration",
+            "value": -35
+          }
+        ],
+        "damageEffects": [
+          {
+            "type": "Pain",
+            "delay": 0,
+            "duration": 210
+          },
+          {
+            "type": "RadExposure",
+            "delay": 0,
+            "duration": 0
+          }
+        ],
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "StressResistance",
+            "value": 2,
+            "delay": 1,
+            "duration": 210,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Memory",
+            "value": -3,
+            "delay": 1,
+            "duration": 210,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -2,
+            "delay": 1,
+            "duration": 210,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 220,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5d403f9186f7743cac3f229b.jpg",
+  "isMod": false
+}

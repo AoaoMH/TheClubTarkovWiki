@@ -1,1 +1,99 @@
-{"id":"669fac549b0ce3feae01a137","typeName":"MedicalSupplies","category":"barter","parentTypeChain":["MedicalSupplies","BarterItem","Item"],"handbook":{"categoryId":"5b619f1a86f77450a702a6f3","price":0},"common":{"name":{"zh":"化学药剂样品","en":"Chemical sample"},"shortName":{"zh":"样品","en":"Sample"},"description":{"zh":"没人知道这个容器里装的到底是什么。看起来不像是安全的东西，闻起来也很恶心。TerraGroup使用这样的容器来存放研究材料。","en":"There's no telling what was in the tank container. It looks nasty, and smells even worse. TerraGroup must have used these tanks to store precursors for their research."},"weight":0.1,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"yellow"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"yellow","CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"quest_blood","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"generic","LeftHandItem":false,"LootExperience":20,"MaxResource":0,"MergesWithChildren":false,"Name":"quest_blood","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/quest/item_quest_chimicalsample/item_quest_chimicalsample.bundle","rcid":""},"QuestItem":true,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"Resource":0,"ShortName":"quest_blood","StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":0.1,"Width":1}},"slots":[],"image":null,"isMod":false}
+{
+  "id": "669fac549b0ce3feae01a137",
+  "typeName": "MedicalSupplies",
+  "category": "barter",
+  "parentTypeChain": [
+    "MedicalSupplies",
+    "BarterItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b619f1a86f77450a702a6f3",
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "化学药剂样品",
+      "en": "Chemical sample"
+    },
+    "shortName": {
+      "zh": "样品",
+      "en": "Sample"
+    },
+    "description": {
+      "zh": "没人知道这个容器里装的到底是什么。看起来不像是安全的东西，闻起来也很恶心。TerraGroup使用这样的容器来存放研究材料。",
+      "en": "There's no telling what was in the tank container. It looks nasty, and smells even worse. TerraGroup must have used these tanks to store precursors for their research."
+    },
+    "weight": 0.1,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "yellow"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "quest_blood",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "generic",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MaxResource": 0,
+      "MergesWithChildren": false,
+      "Name": "quest_blood",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/quest/item_quest_chimicalsample/item_quest_chimicalsample.bundle",
+        "rcid": ""
+      },
+      "QuestItem": true,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "Resource": 0,
+      "ShortName": "quest_blood",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.1,
+      "Width": 1
+    }
+  },
+  "slots": [],
+  "image": null,
+  "isMod": false
+}

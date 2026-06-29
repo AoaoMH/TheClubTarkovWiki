@@ -1,1 +1,277 @@
-{"id":"6711107e1ad01bb88705347e","typeName":"Mount","category":"mod_mount","parentTypeChain":["Mount","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f755f86f77447ec5d770e","price":1542},"common":{"name":{"zh":"Steyr AUG Corvus Defensio KeyMod 前端附件导轨","en":"Steyr AUG Corvus Defensio KeyMod Forward Accessory Rail"},"shortName":{"zh":"CD KM","en":"CD KM"},"description":{"zh":"用于替代 AUG 突击步枪标配前握把的 KeyMod 接口基座，在此基础上可安装各类附件设备。由 Corvus Defensio 公司设计制造。","en":"A KeyMod interface mount that replaces the standard front grip and allows installation of various accessories, designed for the AUG assault rifle. Manufactured by Corvus Defensio."},"weight":0.057,"width":1,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"mount_aug_corvus_defencio_forward_accessory_rail_keymod","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":5,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mount_aug_corvus_defencio_forward_accessory_rail_keymod","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/mounts/mount_aug_corvus_defencio_forward_accessory_rail_keymod.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"mount_aug_corvus_defencio_forward_accessory_rail_keymod","SightingRange":0,"Slots":[{"_id":"6711130fb9f1b98e3e031ea5","_mergeSlotWithChildren":false,"_name":"mod_mount_000","_parent":"6711107e1ad01bb88705347e","_props":{"filters":[{"Filter":["67111094d1758189fc0bd223"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"6711130fb9f1b98e3e031ea6","_mergeSlotWithChildren":false,"_name":"mod_mount_001","_parent":"6711107e1ad01bb88705347e","_props":{"filters":[{"Filter":["67111094d1758189fc0bd223"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"6711130fb9f1b98e3e031ea7","_mergeSlotWithChildren":false,"_name":"mod_mount_002","_parent":"6711107e1ad01bb88705347e","_props":{"filters":[{"Filter":["623c2f4242aee3103f1c44b7","623c2f652febb22c2777d8d7","67111094d1758189fc0bd223","6711109e723c2733410161eb","5a9d6d00a2750c5c985b5305","5a9d6d13a2750c00164f6b03","59e0bdb186f774156f04ce82","59e0be5d86f7742d48765bd2","59e0bed186f774156f04ce84"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.057,"Width":1},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_mount_000","id":"6711130fb9f1b98e3e031ea5","required":false,"filter":["67111094d1758189fc0bd223"]},{"name":"mod_mount_001","id":"6711130fb9f1b98e3e031ea6","required":false,"filter":["67111094d1758189fc0bd223"]},{"name":"mod_mount_002","id":"6711130fb9f1b98e3e031ea7","required":false,"filter":["623c2f4242aee3103f1c44b7","623c2f652febb22c2777d8d7","67111094d1758189fc0bd223","6711109e723c2733410161eb","5a9d6d00a2750c5c985b5305","5a9d6d13a2750c00164f6b03","59e0bdb186f774156f04ce82","59e0be5d86f7742d48765bd2","59e0bed186f774156f04ce84"]}],"image":"/images/items/6711107e1ad01bb88705347e.webp","isMod":false}
+{
+  "id": "6711107e1ad01bb88705347e",
+  "typeName": "Mount",
+  "category": "mod_mount",
+  "parentTypeChain": [
+    "Mount",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f755f86f77447ec5d770e",
+    "price": 1542
+  },
+  "common": {
+    "name": {
+      "zh": "Steyr AUG Corvus Defensio KeyMod 前端附件导轨",
+      "en": "Steyr AUG Corvus Defensio KeyMod Forward Accessory Rail"
+    },
+    "shortName": {
+      "zh": "CD KM",
+      "en": "CD KM"
+    },
+    "description": {
+      "zh": "用于替代 AUG 突击步枪标配前握把的 KeyMod 接口基座，在此基础上可安装各类附件设备。由 Corvus Defensio 公司设计制造。",
+      "en": "A KeyMod interface mount that replaces the standard front grip and allows installation of various accessories, designed for the AUG assault rifle. Manufactured by Corvus Defensio."
+    },
+    "weight": 0.547,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "mount_aug_corvus_defencio_forward_accessory_rail_keymod",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mount_aug_corvus_defencio_forward_accessory_rail_keymod",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/mounts/mount_aug_corvus_defencio_forward_accessory_rail_keymod.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mount_aug_corvus_defencio_forward_accessory_rail_keymod",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "6711130fb9f1b98e3e031ea5",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "6711107e1ad01bb88705347e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "67111094d1758189fc0bd223"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6711130fb9f1b98e3e031ea6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "6711107e1ad01bb88705347e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "67111094d1758189fc0bd223"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "6711130fb9f1b98e3e031ea7",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "6711107e1ad01bb88705347e",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "623c2f4242aee3103f1c44b7",
+                  "623c2f652febb22c2777d8d7",
+                  "67111094d1758189fc0bd223",
+                  "6711109e723c2733410161eb",
+                  "5a9d6d00a2750c5c985b5305",
+                  "5a9d6d13a2750c00164f6b03",
+                  "59e0bdb186f774156f04ce82",
+                  "59e0be5d86f7742d48765bd2",
+                  "59e0bed186f774156f04ce84"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.057,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "67111094d1758189fc0bd223",
+          "name": {
+            "zh": "Corvus Defensio KeyMod 1.8 英寸导轨",
+            "en": "Corvus Defensio KeyMod 1.8 inch rail section"
+          },
+          "armorClass": 0,
+          "weight": 0.21,
+          "count": 2
+        },
+        {
+          "id": "623c2f4242aee3103f1c44b7",
+          "name": {
+            "zh": "CNC Guns KeyMod 4英寸导轨",
+            "en": "CNC Guns KeyMod 4 inch rail"
+          },
+          "armorClass": 0,
+          "weight": 0.07,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.547
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_mount_000",
+      "id": "6711130fb9f1b98e3e031ea5",
+      "required": false,
+      "filter": [
+        "67111094d1758189fc0bd223"
+      ]
+    },
+    {
+      "name": "mod_mount_001",
+      "id": "6711130fb9f1b98e3e031ea6",
+      "required": false,
+      "filter": [
+        "67111094d1758189fc0bd223"
+      ]
+    },
+    {
+      "name": "mod_mount_002",
+      "id": "6711130fb9f1b98e3e031ea7",
+      "required": false,
+      "filter": [
+        "623c2f4242aee3103f1c44b7",
+        "623c2f652febb22c2777d8d7",
+        "67111094d1758189fc0bd223",
+        "6711109e723c2733410161eb",
+        "5a9d6d00a2750c5c985b5305",
+        "5a9d6d13a2750c00164f6b03",
+        "59e0bdb186f774156f04ce82",
+        "59e0be5d86f7742d48765bd2",
+        "59e0bed186f774156f04ce84"
+      ]
+    }
+  ],
+  "image": "/images/items/6711107e1ad01bb88705347e.webp",
+  "isMod": false
+}

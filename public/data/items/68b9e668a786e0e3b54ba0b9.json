@@ -1,1 +1,158 @@
-{"id":"68b9e668a786e0e3b54ba0b9","typeName":"Silencer","category":"mod_muzzle","parentTypeChain":["Silencer","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"KAC MK23 .45 ACP消音器","en":"Knight's Armament Company MK23 .45 ACP sound suppressor"},"shortName":{"zh":"KAC MK23","en":"KAC MK23"},"description":{"zh":"由Knight's Armament公司专为USSOCOM MARK 23开发的消音器。","en":"Sound suppressor developed specifically for the USSOCOM MARK 23 by Knight's Armament Company."},"weight":0.45,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["68b9cc3737f7a7e5da9e41cf"],"CoolFactor":1,"Description":"silencer_base_silencerco_omega_45k_1143x23","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.7,"EffectiveDistance":0,"Ergonomics":-16.5,"ExamineExperience":4,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":true,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.13,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":-28,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"silencer_base_silencerco_omega_45k_1143x23","NotShownInSlot":false,"Prefab":{"path":"WeaponMK23/mk23_suppressor.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":-6.5,"RepairCost":0,"RepairSpeed":0,"ShortName":"silencer_base_silencerco_omega_45k_1143x23","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0.6,"Weight":0.45,"Width":2,"muzzleModType":"silencer"},"mod":{"ergonomics":-16.5,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":-28,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0.6,"muzzleModType":"silencer","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"68b9cc3737f7a7e5da9e41cf","name":{"zh":"HK MK23 加重枪口制退器","en":"HK MK23 weighted muzzle brake"},"isWikiItem":true}]},"slots":[],"image":null,"isMod":true}
+{
+  "id": "68b9e668a786e0e3b54ba0b9",
+  "typeName": "Silencer",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "Silencer",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "KAC MK23 .45 ACP消音器",
+      "en": "Knight's Armament Company MK23 .45 ACP sound suppressor"
+    },
+    "shortName": {
+      "zh": "KAC MK23",
+      "en": "KAC MK23"
+    },
+    "description": {
+      "zh": "由Knight's Armament公司专为USSOCOM MARK 23开发的消音器。",
+      "en": "Sound suppressor developed specifically for the USSOCOM MARK 23 by Knight's Armament Company."
+    },
+    "weight": 0.45,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "68b9cc3737f7a7e5da9e41cf"
+      ],
+      "CoolFactor": 1,
+      "Description": "silencer_base_silencerco_omega_45k_1143x23",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.7,
+      "EffectiveDistance": 0,
+      "Ergonomics": -16.5,
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": true,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.13,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": -28,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "silencer_base_silencerco_omega_45k_1143x23",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponMK23/mk23_suppressor.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": -6.5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "silencer_base_silencerco_omega_45k_1143x23",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0.6,
+      "Weight": 0.45,
+      "Width": 2,
+      "muzzleModType": "silencer"
+    },
+    "mod": {
+      "ergonomics": -16.5,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": -28,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0.6,
+      "muzzleModType": "silencer",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "68b9cc3737f7a7e5da9e41cf",
+        "name": {
+          "zh": "HK MK23 加重枪口制退器",
+          "en": "HK MK23 weighted muzzle brake"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [],
+  "image": null,
+  "isMod": true
+}

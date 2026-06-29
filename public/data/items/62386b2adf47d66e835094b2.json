@@ -1,1 +1,327 @@
-{"id":"62386b2adf47d66e835094b2","typeName":"Handguard","category":"mod_other","parentTypeChain":["Handguard","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75e486f77447ec5d7712","price":2500},"common":{"name":{"zh":"HK G36 2 孔护木","en":"HK G36 2-vent handguard"},"shortName":{"zh":"G36 2孔","en":"G36 2-vent"},"description":{"zh":"HK 公司生产的 G36 突击步枪标准聚合物护木，侧面开有 2 处散热孔，确保枪管充分散热。","en":"A standard polymer 2-vent handguard with a heatshield for the G36 assault rifle. Manufactured by Heckler & Koch."},"weight":0.23,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["5a7dbfc1159bd40016548fde","622b3858034a3e17ad0b81f5","622b38c56762c718e457e246"],"CoolFactor":1,"Description":"handguard_ar15_stngr_vypr_m_lok_10_inch","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":12,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.07,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"handguard_ar15_stngr_vypr_m_lok_10_inch","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/handguards/handguard_g36_hk_c.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"handguard_ar15_stngr_vypr_m_lok_10_inch","SightingRange":0,"Slots":[{"_id":"62444de49f47004c781903ee","_mergeSlotWithChildren":false,"_name":"mod_mount_000","_parent":"62386b2adf47d66e835094b2","_props":{"filters":[{"Filter":["62444cb99f47004c781903eb"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"62444e307ba9d00d6d62b17a","_mergeSlotWithChildren":false,"_name":"mod_mount_001","_parent":"62386b2adf47d66e835094b2","_props":{"filters":[{"Filter":["62444cd3674028188b052799"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"62444e4fd9d6d1219f41bbca","_mergeSlotWithChildren":false,"_name":"mod_mount_002","_parent":"62386b2adf47d66e835094b2","_props":{"filters":[{"Filter":["62444cd3674028188b052799"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"62444e6dfce68a1dc533dacb","_mergeSlotWithChildren":false,"_name":"mod_tactical","_parent":"62386b2adf47d66e835094b2","_props":{"filters":[{"Filter":["622f16a1a5958f63c67f1737"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.23,"Width":2},"mod":{"ergonomics":12,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"5a7dbfc1159bd40016548fde","name":{"zh":"Hera Arms CQR战术握把","en":"Hera Arms CQR tactical foregrip"},"isWikiItem":true},{"id":"622b3858034a3e17ad0b81f5","name":{"zh":"HK G36 5.56x45 318毫米枪管","en":"HK G36 5.56x45 318mm barrel"},"isWikiItem":true},{"id":"622b38c56762c718e457e246","name":{"zh":"HK G36 5.56x45 480毫米枪管","en":"HK G36 5.56x45 480mm barrel"},"isWikiItem":true}]},"slots":[{"name":"mod_mount_000","id":"62444de49f47004c781903ee","required":false,"filter":["62444cb99f47004c781903eb"]},{"name":"mod_mount_001","id":"62444e307ba9d00d6d62b17a","required":false,"filter":["62444cd3674028188b052799"]},{"name":"mod_mount_002","id":"62444e4fd9d6d1219f41bbca","required":false,"filter":["62444cd3674028188b052799"]},{"name":"mod_tactical","id":"62444e6dfce68a1dc533dacb","required":false,"filter":["622f16a1a5958f63c67f1737"]}],"image":"/images/items/62386b2adf47d66e835094b2.jpg","isMod":false}
+{
+  "id": "62386b2adf47d66e835094b2",
+  "typeName": "Handguard",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Handguard",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75e486f77447ec5d7712",
+    "price": 2500
+  },
+  "common": {
+    "name": {
+      "zh": "HK G36 2 孔护木",
+      "en": "HK G36 2-vent handguard"
+    },
+    "shortName": {
+      "zh": "G36 2孔",
+      "en": "G36 2-vent"
+    },
+    "description": {
+      "zh": "HK 公司生产的 G36 突击步枪标准聚合物护木，侧面开有 2 处散热孔，确保枪管充分散热。",
+      "en": "A standard polymer 2-vent handguard with a heatshield for the G36 assault rifle. Manufactured by Heckler & Koch."
+    },
+    "weight": 0.405,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "5a7dbfc1159bd40016548fde",
+        "622b3858034a3e17ad0b81f5",
+        "622b38c56762c718e457e246"
+      ],
+      "CoolFactor": 1,
+      "Description": "handguard_ar15_stngr_vypr_m_lok_10_inch",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 12,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.07,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "handguard_ar15_stngr_vypr_m_lok_10_inch",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/handguards/handguard_g36_hk_c.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "handguard_ar15_stngr_vypr_m_lok_10_inch",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "62444de49f47004c781903ee",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "62386b2adf47d66e835094b2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "62444cb99f47004c781903eb"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "62444e307ba9d00d6d62b17a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_001",
+          "_parent": "62386b2adf47d66e835094b2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "62444cd3674028188b052799"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "62444e4fd9d6d1219f41bbca",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_002",
+          "_parent": "62386b2adf47d66e835094b2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "62444cd3674028188b052799"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "62444e6dfce68a1dc533dacb",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "62386b2adf47d66e835094b2",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "622f16a1a5958f63c67f1737"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.23,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "62444cb99f47004c781903eb",
+          "name": {
+            "zh": "HK G36 底导轨",
+            "en": "HK G36 bottom handguard rail"
+          },
+          "armorClass": 0,
+          "weight": 0.07,
+          "count": 1
+        },
+        {
+          "id": "62444cd3674028188b052799",
+          "name": {
+            "zh": "HK G36侧导轨",
+            "en": "HK G36 side handguard rail"
+          },
+          "armorClass": 0,
+          "weight": 0.05,
+          "count": 2
+        },
+        {
+          "id": "622f16a1a5958f63c67f1737",
+          "name": {
+            "zh": "HK G36手扶握把",
+            "en": "HK G36 hand stop"
+          },
+          "armorClass": 0,
+          "weight": 0.005,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.405
+    },
+    "mod": {
+      "ergonomics": 12,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "5a7dbfc1159bd40016548fde",
+        "name": {
+          "zh": "Hera Arms CQR战术握把",
+          "en": "Hera Arms CQR tactical foregrip"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "622b3858034a3e17ad0b81f5",
+        "name": {
+          "zh": "HK G36 5.56x45 318毫米枪管",
+          "en": "HK G36 5.56x45 318mm barrel"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "622b38c56762c718e457e246",
+        "name": {
+          "zh": "HK G36 5.56x45 480毫米枪管",
+          "en": "HK G36 5.56x45 480mm barrel"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_mount_000",
+      "id": "62444de49f47004c781903ee",
+      "required": false,
+      "filter": [
+        "62444cb99f47004c781903eb"
+      ]
+    },
+    {
+      "name": "mod_mount_001",
+      "id": "62444e307ba9d00d6d62b17a",
+      "required": false,
+      "filter": [
+        "62444cd3674028188b052799"
+      ]
+    },
+    {
+      "name": "mod_mount_002",
+      "id": "62444e4fd9d6d1219f41bbca",
+      "required": false,
+      "filter": [
+        "62444cd3674028188b052799"
+      ]
+    },
+    {
+      "name": "mod_tactical",
+      "id": "62444e6dfce68a1dc533dacb",
+      "required": false,
+      "filter": [
+        "622f16a1a5958f63c67f1737"
+      ]
+    }
+  ],
+  "image": "/images/items/62386b2adf47d66e835094b2.jpg",
+  "isMod": false
+}

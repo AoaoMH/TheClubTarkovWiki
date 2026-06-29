@@ -1,1 +1,279 @@
-{"id":"628121434fa03b6b6c35dc6a","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":58000},"common":{"name":{"zh":"AI AXMC .338 LM 28英寸枪管","en":"AI AXMC .338 LM 28 inch barrel"},"shortName":{"zh":"AXMC .338LM 28寸","en":"AXMC .338LM 28\""},"description":{"zh":"28英寸（686毫米）的AI AXMC .338 Lapua Magnum枪管。","en":"A 28 inch (686mm) barrel for the AI AXMC chambered in .338 Lapua Magnum ammo."},"weight":1.93,"width":4,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.011,"ConflictingItems":["5a6086ea4f39f99cd479502f","5a608bf24f39f98ffc77720e","58dd3ad986f77403051cba8f","5e023e53d4353e3302577c4c","5efb0c1bd79ff02a1f5e68d9","5e023e6e34d52a55c3304f71","5e023e88277cce2b522ff2b1"],"CoolFactor":0.94,"Description":"barrel_m700_remington_heavy_660mm","DeviationCurve":1,"DeviationMax":33,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-18,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":4,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.05,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":20,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_m700_remington_heavy_660mm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_ax_accuracy_international_686mm_86x70_pb.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-5,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_m700_remington_heavy_660mm","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"62820e07f779fc31497d1445","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"628121434fa03b6b6c35dc6a","_props":{"filters":[{"Filter":["62812081d23f207deb0ab216","612e0d81290d254f5e6b291a","5fc23636016cce60e8341b05","673f3ef1259f5945d70e43a8","673f0b36536d64240f01acd6"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":5.6,"Weight":1.93,"Width":4},"mod":{"ergonomics":-18,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":5.6,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"5a6086ea4f39f99cd479502f","name":{"zh":"7.62x51毫米 M61","en":"7.62x51mm M61"},"isWikiItem":true},{"id":"5a608bf24f39f98ffc77720e","name":{"zh":"7.62x51毫米 M62","en":"7.62x51mm M62 Tracer"},"isWikiItem":true},{"id":"58dd3ad986f77403051cba8f","name":{"zh":"7.62x51毫米 M80","en":"7.62x51mm M80"},"isWikiItem":true},{"id":"5e023e53d4353e3302577c4c","name":{"zh":"7.62x51毫米 BPZ FMJ","en":"7.62x51mm BCP FMJ"},"isWikiItem":true},{"id":"5efb0c1bd79ff02a1f5e68d9","name":{"zh":"7.62x51 毫米 M993","en":"7.62x51mm M993"},"isWikiItem":true},{"id":"5e023e6e34d52a55c3304f71","name":{"zh":"7.62x51毫米 TCW SP","en":"7.62x51mm TCW SP"},"isWikiItem":true},{"id":"5e023e88277cce2b522ff2b1","name":{"zh":"7.62x51毫米 Ultra Nosler","en":"7.62x51mm Ultra Nosler"},"isWikiItem":true}]},"slots":[{"name":"mod_muzzle","id":"62820e07f779fc31497d1445","required":false,"filter":["62812081d23f207deb0ab216","612e0d81290d254f5e6b291a","5fc23636016cce60e8341b05","673f3ef1259f5945d70e43a8","673f0b36536d64240f01acd6"]}],"image":"/images/items/628121434fa03b6b6c35dc6a.jpg","isMod":false}
+{
+  "id": "628121434fa03b6b6c35dc6a",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 58000
+  },
+  "common": {
+    "name": {
+      "zh": "AI AXMC .338 LM 28英寸枪管",
+      "en": "AI AXMC .338 LM 28 inch barrel"
+    },
+    "shortName": {
+      "zh": "AXMC .338LM 28寸",
+      "en": "AXMC .338LM 28\""
+    },
+    "description": {
+      "zh": "28英寸（686毫米）的AI AXMC .338 Lapua Magnum枪管。",
+      "en": "A 28 inch (686mm) barrel for the AI AXMC chambered in .338 Lapua Magnum ammo."
+    },
+    "weight": 2.16,
+    "width": 4,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.011,
+      "ConflictingItems": [
+        "5a6086ea4f39f99cd479502f",
+        "5a608bf24f39f98ffc77720e",
+        "58dd3ad986f77403051cba8f",
+        "5e023e53d4353e3302577c4c",
+        "5efb0c1bd79ff02a1f5e68d9",
+        "5e023e6e34d52a55c3304f71",
+        "5e023e88277cce2b522ff2b1"
+      ],
+      "CoolFactor": 0.94,
+      "Description": "barrel_m700_remington_heavy_660mm",
+      "DeviationCurve": 1,
+      "DeviationMax": 33,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -18,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 4,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.05,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_m700_remington_heavy_660mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_ax_accuracy_international_686mm_86x70_pb.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_m700_remington_heavy_660mm",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "62820e07f779fc31497d1445",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "628121434fa03b6b6c35dc6a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "62812081d23f207deb0ab216",
+                  "612e0d81290d254f5e6b291a",
+                  "5fc23636016cce60e8341b05",
+                  "673f3ef1259f5945d70e43a8",
+                  "673f0b36536d64240f01acd6"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 5.6,
+      "Weight": 1.93,
+      "Width": 4
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "62812081d23f207deb0ab216",
+          "name": {
+            "zh": "AI .338 LM战术型枪口制退器 ",
+            "en": "AI .338 LM Tactical Muzzle Brake "
+          },
+          "armorClass": 0,
+          "weight": 0.23,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 2.16
+    },
+    "mod": {
+      "ergonomics": -18,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 5.6,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "5a6086ea4f39f99cd479502f",
+        "name": {
+          "zh": "7.62x51毫米 M61",
+          "en": "7.62x51mm M61"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5a608bf24f39f98ffc77720e",
+        "name": {
+          "zh": "7.62x51毫米 M62",
+          "en": "7.62x51mm M62 Tracer"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "58dd3ad986f77403051cba8f",
+        "name": {
+          "zh": "7.62x51毫米 M80",
+          "en": "7.62x51mm M80"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5e023e53d4353e3302577c4c",
+        "name": {
+          "zh": "7.62x51毫米 BPZ FMJ",
+          "en": "7.62x51mm BCP FMJ"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5efb0c1bd79ff02a1f5e68d9",
+        "name": {
+          "zh": "7.62x51 毫米 M993",
+          "en": "7.62x51mm M993"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5e023e6e34d52a55c3304f71",
+        "name": {
+          "zh": "7.62x51毫米 TCW SP",
+          "en": "7.62x51mm TCW SP"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5e023e88277cce2b522ff2b1",
+        "name": {
+          "zh": "7.62x51毫米 Ultra Nosler",
+          "en": "7.62x51mm Ultra Nosler"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "62820e07f779fc31497d1445",
+      "required": false,
+      "filter": [
+        "62812081d23f207deb0ab216",
+        "612e0d81290d254f5e6b291a",
+        "5fc23636016cce60e8341b05",
+        "673f3ef1259f5945d70e43a8",
+        "673f0b36536d64240f01acd6"
+      ]
+    }
+  ],
+  "image": "/images/items/628121434fa03b6b6c35dc6a.jpg",
+  "isMod": false
+}

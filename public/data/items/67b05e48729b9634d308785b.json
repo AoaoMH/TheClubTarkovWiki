@@ -1,1 +1,182 @@
-{"id":"67b05e48729b9634d308785b","typeName":"Magazine","category":"mod_magazine","parentTypeChain":["Magazine","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"HK UMP 9 9x19毫米 30发弹匣","en":"HK UMP 9 9x19mm 30-round magazine"},"shortName":{"zh":"UMP 9","en":"UMP 9"},"description":{"zh":"适用于UMP 9的30发9x19毫米弹匣。","en":"30-round 9x19mm magazine for UMP 9."},"weight":0.17,"width":1,"height":2,"rarity":"Rare","backgroundColor":"yellow"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"yellow","BeltMagazineRefreshCount":0,"BlocksCollapsible":false,"BlocksFolding":false,"CanAdmin":false,"CanFast":true,"CanHit":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"Cartridges":[{"_id":"67b0619aa5a809d14f7c241b","_max_count":30,"_name":"cartridges","_parent":"67b05e48729b9634d308785b","_props":{"filters":[{"Filter":["5efb0da7a29a85116f6ea05f","5c3df7d588a4501f290594e5","58864a4f2459770fcc257101","56d59d3ad2720bdb418b4577","5c925fa22e221601da359b7b","5a3c16fe86f77452b62de32a","5efb0e16aeb21837e749c7ff","5c0d56a986f774449d5de529","64b7bbb74b75259c590fa897"]}]},"_proto":"5748538b2459770af276a261"}],"CheckOverride":1,"CheckTimeModifier":0,"ConflictingItems":[],"Description":"mag_ump_hk_ump_1143x23_25","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-3,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":2,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsMagazineForStationaryWeapon":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mag_plastic","LeftHandItem":false,"LoadUnloadModifier":0,"LootExperience":10,"Loudness":0,"MagazineWithBelt":false,"MalfunctionChance":0.015,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mag_ump_hk_ump_1143x23_25","NotShownInSlot":false,"Prefab":{"path":"WeaponUMP9/ump9_mag.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":0,"ReloadMagType":"ExternalMagazine","RepairCost":0,"RepairSpeed":0,"ShortName":"mag_ump_hk_ump_1143x23_25","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"TagColor":0,"TagName":"","ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"VisibleAmmoRangesString":"1-25","Weight":0.17,"Width":1,"magAnimationIndex":0},"mod":{"ergonomics":-3,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0.015,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[],"image":null,"isMod":true}
+{
+  "id": "67b05e48729b9634d308785b",
+  "typeName": "Magazine",
+  "category": "mod_magazine",
+  "parentTypeChain": [
+    "Magazine",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "HK UMP 9 9x19毫米 30发弹匣",
+      "en": "HK UMP 9 9x19mm 30-round magazine"
+    },
+    "shortName": {
+      "zh": "UMP 9",
+      "en": "UMP 9"
+    },
+    "description": {
+      "zh": "适用于UMP 9的30发9x19毫米弹匣。",
+      "en": "30-round 9x19mm magazine for UMP 9."
+    },
+    "weight": 0.17,
+    "width": 1,
+    "height": 2,
+    "rarity": "Rare",
+    "backgroundColor": "yellow"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "BeltMagazineRefreshCount": 0,
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanAdmin": false,
+      "CanFast": true,
+      "CanHit": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Cartridges": [
+        {
+          "_id": "67b0619aa5a809d14f7c241b",
+          "_max_count": 30,
+          "_name": "cartridges",
+          "_parent": "67b05e48729b9634d308785b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5efb0da7a29a85116f6ea05f",
+                  "5c3df7d588a4501f290594e5",
+                  "58864a4f2459770fcc257101",
+                  "56d59d3ad2720bdb418b4577",
+                  "5c925fa22e221601da359b7b",
+                  "5a3c16fe86f77452b62de32a",
+                  "5efb0e16aeb21837e749c7ff",
+                  "5c0d56a986f774449d5de529",
+                  "64b7bbb74b75259c590fa897"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "CheckOverride": 1,
+      "CheckTimeModifier": 0,
+      "ConflictingItems": [],
+      "Description": "mag_ump_hk_ump_1143x23_25",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -3,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsMagazineForStationaryWeapon": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mag_plastic",
+      "LeftHandItem": false,
+      "LoadUnloadModifier": 0,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MagazineWithBelt": false,
+      "MalfunctionChance": 0.015,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mag_ump_hk_ump_1143x23_25",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponUMP9/ump9_mag.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": 0,
+      "ReloadMagType": "ExternalMagazine",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mag_ump_hk_ump_1143x23_25",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "TagColor": 0,
+      "TagName": "",
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "VisibleAmmoRangesString": "1-25",
+      "Weight": 0.17,
+      "Width": 1,
+      "magAnimationIndex": 0
+    },
+    "mod": {
+      "ergonomics": -3,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0.015,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [],
+  "image": null,
+  "isMod": true
+}

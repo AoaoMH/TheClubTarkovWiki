@@ -1,1 +1,256 @@
-{"id":"68cae1561e2d372b839a3fed","typeName":"Silencer","category":"mod_muzzle","parentTypeChain":["Silencer","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"VSS-M \"Ublyudok\" 9x39毫米一体式消音器","en":"VSS-M \"Ublyudok\" 9x39 integral barrel-suppressor"},"shortName":{"zh":"VSS-M","en":"VSS-M"},"description":{"zh":"一款独特的第三方消音器设计，基于VSS一体式枪管消音器，但为近战用途缩短了长度，这或许违背了其最初消音的设计初衷。很可能由其同名制造商生产。","en":"A unique, third party suppressor design based off of the VSS integral barrel-suppressor, but shortened for CQB purposes, likely defeating the point of it being suppressed in the first place. Likely manufactured by it's namesake."},"weight":0.158,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["5a9fc7e6a2750c0032157184"],"CoolFactor":1.06,"Description":"silencer_vss_tochmash_std_9x39","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.2,"EffectiveDistance":0,"Ergonomics":-2,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.21,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":-5,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"silencer_vss_tochmash_std_9x39","NotShownInSlot":false,"Prefab":{"path":"Attachment_VSSM/silencer_vssm_bastard.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":-8,"RepairCost":0,"RepairSpeed":0,"ShortName":"silencer_vss_tochmash_std_9x39","SightingRange":0,"Slots":[{"_id":"57838d2f2459774a256959b0","_mergeSlotWithChildren":false,"_name":"mod_sight_rear","_parent":"57838c962459774a1651ec63","_props":{"filters":[{"Filter":["57c44e7b2459772d28133248","57838e1b2459774a256959b1"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"57e02a3824597706777d7ec7","_mergeSlotWithChildren":false,"_name":"mod_mount_000","_parent":"57838c962459774a1651ec63","_props":{"filters":[{"Filter":["59eb7ebe86f7740b373438ce","57a3459f245977764a01f703","5a9fc7e6a2750c0032157184"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0.98,"Weight":0.158,"Width":2,"muzzleModType":"silencer"},"mod":{"ergonomics":-2,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":-5,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0.98,"muzzleModType":"silencer","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"5a9fc7e6a2750c0032157184","name":{"zh":"B-3组合基座","en":"VSS/VAL Zenit B-3 mount combo"},"isWikiItem":true}]},"slots":[{"name":"mod_sight_rear","id":"57838d2f2459774a256959b0","required":false,"filter":["57c44e7b2459772d28133248","57838e1b2459774a256959b1"]},{"name":"mod_mount_000","id":"57e02a3824597706777d7ec7","required":false,"filter":["59eb7ebe86f7740b373438ce","57a3459f245977764a01f703","5a9fc7e6a2750c0032157184"]}],"image":null,"isMod":true}
+{
+  "id": "68cae1561e2d372b839a3fed",
+  "typeName": "Silencer",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "Silencer",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "VSS-M \"Ublyudok\" 9x39毫米一体式消音器",
+      "en": "VSS-M \"Ublyudok\" 9x39 integral barrel-suppressor"
+    },
+    "shortName": {
+      "zh": "VSS-M",
+      "en": "VSS-M"
+    },
+    "description": {
+      "zh": "一款独特的第三方消音器设计，基于VSS一体式枪管消音器，但为近战用途缩短了长度，这或许违背了其最初消音的设计初衷。很可能由其同名制造商生产。",
+      "en": "A unique, third party suppressor design based off of the VSS integral barrel-suppressor, but shortened for CQB purposes, likely defeating the point of it being suppressed in the first place. Likely manufactured by it's namesake."
+    },
+    "weight": 0.278,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "5a9fc7e6a2750c0032157184"
+      ],
+      "CoolFactor": 1.06,
+      "Description": "silencer_vss_tochmash_std_9x39",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.2,
+      "EffectiveDistance": 0,
+      "Ergonomics": -2,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.21,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": -5,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "silencer_vss_tochmash_std_9x39",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "Attachment_VSSM/silencer_vssm_bastard.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": -8,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "silencer_vss_tochmash_std_9x39",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "57838d2f2459774a256959b0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "57838c962459774a1651ec63",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57c44e7b2459772d28133248",
+                  "57838e1b2459774a256959b1"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "57e02a3824597706777d7ec7",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount_000",
+          "_parent": "57838c962459774a1651ec63",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "59eb7ebe86f7740b373438ce",
+                  "57a3459f245977764a01f703",
+                  "5a9fc7e6a2750c0032157184"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0.98,
+      "Weight": 0.158,
+      "Width": 2,
+      "muzzleModType": "silencer"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "57c44e7b2459772d28133248",
+          "name": {
+            "zh": "AS VAL标准照门",
+            "en": "AS VAL rear sight"
+          },
+          "armorClass": 0,
+          "weight": 0.025,
+          "count": 1
+        },
+        {
+          "id": "59eb7ebe86f7740b373438ce",
+          "name": {
+            "zh": "VSS/VAL TOZ 6P29M 基座",
+            "en": "VSS/VAL TOZ 6P29M mount"
+          },
+          "armorClass": 0,
+          "weight": 0.095,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.278
+    },
+    "mod": {
+      "ergonomics": -2,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": -5,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0.98,
+      "muzzleModType": "silencer",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "5a9fc7e6a2750c0032157184",
+        "name": {
+          "zh": "B-3组合基座",
+          "en": "VSS/VAL Zenit B-3 mount combo"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_sight_rear",
+      "id": "57838d2f2459774a256959b0",
+      "required": false,
+      "filter": [
+        "57c44e7b2459772d28133248",
+        "57838e1b2459774a256959b1"
+      ]
+    },
+    {
+      "name": "mod_mount_000",
+      "id": "57e02a3824597706777d7ec7",
+      "required": false,
+      "filter": [
+        "59eb7ebe86f7740b373438ce",
+        "57a3459f245977764a01f703",
+        "5a9fc7e6a2750c0032157184"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

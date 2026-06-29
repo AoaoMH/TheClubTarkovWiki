@@ -1,1 +1,135 @@
-{"id":"68bedee076e02b9e340ef111","typeName":"Visors","category":"visors","parentTypeChain":["Visors","ArmoredEquipment","Equipment","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"斐格力太阳镜 (绿色)","en":"Figley sunglasses (Green)"},"shortName":{"zh":"斐格力","en":"Figley"},"description":{"zh":"限量发售绿色镜片太阳镜。曾经人们需要排长队，甚至露宿街头等商店开门才能抢到这种时尚潮物，但你却轻松就搞到了。","en":"Limited edition sunglasses with green lenses. People used to camp in lines for those, but you got them easy."},"weight":0.027,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"default"},"properties":{"_raw":{"AnimationVariantsNumber":0,"ArmorMaterial":"UHMWPE","ArmorType":"None","BackgroundColor":"default","BlindnessProtection":0.25,"BlocksEarpiece":false,"BlocksEyewear":false,"BlocksFaceCover":false,"BlocksHeadwear":false,"BluntThroughput":0,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":false,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"DeafStrength":"None","Description":"item_equipment_glasses_aviator","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","Durability":0,"ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"FaceShieldComponent":false,"FaceShieldMask":"NoMask","ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasHinge":false,"Height":1,"HideEntrails":false,"Indestructibility":0.9,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_goggles","LeftHandItem":false,"LootExperience":10,"MaterialType":"BodyArmor","MaxDurability":0,"MergesWithChildren":false,"MetascoreGroup":"Defence","Name":"item_equipment_glasses_aviator","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/glasses_oakley_x/item_equipment_glasses_oakley_x_bp2_grn.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"RicochetParams":{"x":0,"y":0,"z":80},"ShortName":"item_equipment_glasses_aviator","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":0.027,"Width":2,"armorClass":"0","armorColliders":[],"armorPlateColliders":[],"mousePenalty":0,"speedPenaltyPercent":0,"weaponErgonomicPenalty":-5,"IsNotDeletableFromQuestStashAfterQuestComplete":false,"RagfairLevelToTrade":0},"armor":{"armorClass":0,"durability":0,"maxDurability":0,"material":"UHMWPE","zones":[],"speedPenalty":0,"ergonomicsPenalty":0,"bluntThroughput":0,"armorType":"None","mousePenalty":0}},"slots":[],"image":null,"isMod":true}
+{
+  "id": "68bedee076e02b9e340ef111",
+  "typeName": "Visors",
+  "category": "visors",
+  "parentTypeChain": [
+    "Visors",
+    "ArmoredEquipment",
+    "Equipment",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "斐格力太阳镜 (绿色)",
+      "en": "Figley sunglasses (Green)"
+    },
+    "shortName": {
+      "zh": "斐格力",
+      "en": "Figley"
+    },
+    "description": {
+      "zh": "限量发售绿色镜片太阳镜。曾经人们需要排长队，甚至露宿街头等商店开门才能抢到这种时尚潮物，但你却轻松就搞到了。",
+      "en": "Limited edition sunglasses with green lenses. People used to camp in lines for those, but you got them easy."
+    },
+    "weight": 0.027,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "default"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "ArmorMaterial": "UHMWPE",
+      "ArmorType": "None",
+      "BackgroundColor": "default",
+      "BlindnessProtection": 0.25,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksFaceCover": false,
+      "BlocksHeadwear": false,
+      "BluntThroughput": 0,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "DeafStrength": "None",
+      "Description": "item_equipment_glasses_aviator",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "Durability": 0,
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasHinge": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "Indestructibility": 0.9,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_goggles",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaterialType": "BodyArmor",
+      "MaxDurability": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Defence",
+      "Name": "item_equipment_glasses_aviator",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/glasses_oakley_x/item_equipment_glasses_oakley_x_bp2_grn.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "RicochetParams": {
+        "x": 0,
+        "y": 0,
+        "z": 80
+      },
+      "ShortName": "item_equipment_glasses_aviator",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.027,
+      "Width": 2,
+      "armorClass": "0",
+      "armorColliders": [],
+      "armorPlateColliders": [],
+      "mousePenalty": 0,
+      "speedPenaltyPercent": 0,
+      "weaponErgonomicPenalty": -5,
+      "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+      "RagfairLevelToTrade": 0
+    }
+  },
+  "slots": [],
+  "image": null,
+  "isMod": true
+}

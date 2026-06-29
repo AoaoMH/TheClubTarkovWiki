@@ -1,1 +1,646 @@
-{"id":"643ea5b23db6f9f57107d9fd","typeName":"AssaultCarbine","category":"weapon","parentTypeChain":["AssaultCarbine","Weapon","CompoundItem","Item"],"handbook":{"categoryId":"5b5f78e986f77447ed5636b1","price":19331},"common":{"name":{"zh":"Tokarev SVT-40 7.62x54R步枪","en":"Tokarev SVT-40 7.62x54R rifle"},"shortName":{"zh":"SVT-40","en":"SVT-40"},"description":{"zh":"在冲锋枪的大批量生产之前，SVT-40是二战初期唯一得到量产的个人武器。士兵们亲切地称它为“Sveta”。当这款武器被发往部队后，大家发现并不是每一位红军士兵都能真正地掌握它。海军陆战步兵和狙击手最常使用这款武器。SVT-40的生产直到二战结束才停止，这款半自动步枪对最终的胜利来说功不可没。","en":"The SVT-40 was the only mass-produced personal weapon in the early years of WW2, before the mass production of submachine guns began. The soldiers affectionately called this rifle \"Sveta\". When \"Sveta\" went to the troops, it turned out that not all Red Army soldiers were able to truly master this weapon. The SVT was best used by marine infantry units and snipers. The production of SVT-40 continued until the end of the war, and this semi-automatic rifle made an important contribution to the overall victory."},"weight":1.075,"width":2,"height":1,"rarity":"Rare","backgroundColor":"black"},"properties":{"_raw":{"AdjustCollimatorsToTrajectory":false,"AimPlane":0.25,"AimSensitivity":0.65,"AllowFeed":true,"AllowJam":true,"AllowMisfire":true,"AllowOverheat":true,"AllowSlide":true,"AnimationVariantsNumber":0,"BackgroundColor":"black","BaseMalfunctionChance":0.3036,"BoltAction":false,"BurstShotsCount":3,"CameraSnap":3.5,"CameraToWeaponAngleSpeedRange":{"x":0.1,"y":0.2,"z":0},"CameraToWeaponAngleStep":0.1,"CanPutIntoDuringTheRaid":true,"CanQueueSecondShot":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CanUnloadAmmoByPlayer":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0,"Chambers":[{"_id":"643ea5b23db6f9f57107da03","_mergeSlotWithChildren":false,"_name":"patron_in_weapon","_parent":"643ea5b23db6f9f57107d9fd","_props":{"filters":[{"Filter":["5e023d34e8a400319a28ed44","5e023d48186a883be655e551","5e023cf8186a883be655e54f","59e77a2386f7742ee578960a","5887431f2459777e1612938f","560d61e84bdc2da74d8b4571","64b8f7b5389d7ffd620ccba2","64b8f7968532cf95ee0a0dbf","64b8f7c241772715af0f9c3d"]}]},"_proto":"55d4af244bdc2d962f8b4571","_required":false}],"CompactHandling":true,"ConflictingItems":[],"CoolFactorGun":2.592,"CoolFactorGunMods":1,"Description":"weapon_toz_svt_40_762x54r","DeviationCurve":1.35,"DeviationMax":23,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenalty":1.5,"DropSoundType":"Rifle","Durability":100,"DurabilityBurnRatio":1.15,"Ergonomics":20,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Foldable":false,"FoldedSlot":"","ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HeatFactorByShot":2.8,"HeatFactorGun":1,"Height":1,"HideEntrails":false,"HipAccuracyRestorationDelay":0.2,"HipAccuracyRestorationSpeed":7,"HipInnaccuracyGain":0.16,"InsuranceDisabled":false,"IronSightRange":100,"IsAlwaysAvailableForInsurance":false,"IsBeltMachineGun":false,"IsFlareGun":false,"IsGrenadeLauncher":false,"IsLockedafterEquip":false,"IsMountable":true,"IsOneoff":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsStationaryWeapon":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"weap_dmr","LeftHandItem":false,"LootExperience":20,"ManualBoltCatch":false,"MaxDurability":100,"MaxRepairDegradation":0.04,"MaxRepairKitDegradation":0.035,"MergesWithChildren":true,"MetascoreGroup":"Firepower","MinRepairDegradation":0,"MinRepairKitDegradation":0,"MountCameraSnapMultiplier":3,"MountHorizontalRecoilMultiplier":0.6,"MountReturnSpeedHandMultiplier":1,"MountVerticalRecoilMultiplier":0.85,"MountingHorizontalOutOfBreathMultiplier":0.4,"MountingPosition":{"x":0,"y":0,"z":0},"MountingVerticalOutOfBreathMultiplier":0.8,"MustBoltBeOpennedForExternalReload":false,"MustBoltBeOpennedForInternalReload":true,"Name":"weapon_toz_svt_40_762x54r","NoFiremodeOnBoltcatch":false,"NotShownInSlot":false,"OperatingResource":1500,"PostRecoilHorizontalRangeHandRotation":{"x":-1.5,"y":1.5,"z":0},"PostRecoilVerticalRangeHandRotation":{"x":-1.5,"y":0,"z":0},"Prefab":{"path":"assets/content/weapons/avt40/weapon_toz_svt_40_762x54r_container.bundle","rcid":""},"ProgressRecoilAngleOnStable":{"x":0,"y":30,"z":0},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Rare","RecoilAngle":90,"RecoilCamera":0.07,"RecoilCategoryMultiplierHandRotation":0.19,"RecoilCenter":{"x":0,"y":-0.3,"z":0.03},"RecoilDampingHandRotation":0.875,"RecoilForceBack":675,"RecoilForceUp":175,"RecoilPosZMult":1,"RecoilReturnPathDampingHandRotation":0.45,"RecoilReturnPathOffsetHandRotation":0.01,"RecoilReturnSpeedHandRotation":1.8,"RecoilStableAngleIncreaseStep":3,"RecoilStableIndexShot":4,"RecolDispersion":15,"ReloadMode":"InternalMagazine","RepairComplexity":0,"RepairCost":98,"RepairSpeed":0,"ResetAfterShot":false,"Retractable":false,"RotationCenter":{"x":0,"y":-0.1,"z":-0.03},"RotationCenterNoStock":{"x":0,"y":-0.25,"z":-0.03},"ShortName":"weapon_toz_svt_40_762x54r","ShotsGroupSettings":[{"EndShotIndex":200,"ShotRecoilPositionStrength":{"x":0,"y":0,"z":0},"ShotRecoilRadianRange":{"x":6,"y":-6,"z":0},"ShotRecoilRotationStrength":{"x":0,"y":0,"z":0},"StartShotIndex":1}],"SightingRange":100,"SingleFireRate":450,"SizeReduceRight":0,"Slots":[{"_id":"643ea5b23db6f9f57107d9fe","_mergeSlotWithChildren":false,"_name":"mod_stock","_parent":"643ea5b23db6f9f57107d9fd","_props":{"filters":[{"Filter":["6410745d5dd49d77bd078485"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"643ea5b23db6f9f57107d9ff","_mergeSlotWithChildren":false,"_name":"mod_barrel","_parent":"643ea5b23db6f9f57107d9fd","_props":{"filters":[{"Filter":["6410758c857473525b08bb77"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"643ea5b23db6f9f57107da00","_mergeSlotWithChildren":false,"_name":"mod_magazine","_parent":"643ea5b23db6f9f57107d9fd","_props":{"filters":[{"AnimationIndex":-1,"Filter":["641074a07fd350b98c0b3f96","6422e1ea3c0f06190302161a"]}]},"_proto":"55d30c394bdc2dae468b4577","_required":false},{"_id":"643ea5b23db6f9f57107da01","_mergeSlotWithChildren":false,"_name":"mod_reciever","_parent":"643ea5b23db6f9f57107d9fd","_props":{"filters":[{"Filter":["64119cdbdcf48d656f0aa272"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"643ea5b23db6f9f57107da02","_mergeSlotWithChildren":false,"_name":"mod_scope","_parent":"643ea5b23db6f9f57107d9fd","_props":{"filters":[{"Filter":["641dc35e19604f20c800be18"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"TacticalReloadFixation":0.95,"TacticalReloadStiffnes":{"x":0.95,"y":0.33,"z":0.95},"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UseAltMountBone":false,"UsePrefab":{"path":"","rcid":""},"Velocity":0,"WeaponRecoilSettings":{"Enable":true,"Values":[{"Enable":true,"Process":{"ComponentType":"Y","CurveAimingValueMultiply":0.5,"CurveTimeMultiply":2,"CurveValueMultiply":1,"TransformationCurve":{"Keys":[{"inTangent":0,"outTangent":0,"time":0,"value":0},{"inTangent":0,"outTangent":0,"time":0.1,"value":2},{"inTangent":0,"outTangent":0,"time":0.3,"value":-0.75},{"inTangent":0,"outTangent":0,"time":1,"value":0}]}},"Target":"HandsRotation"},{"Enable":true,"Process":{"ComponentType":"Y","CurveAimingValueMultiply":0,"CurveTimeMultiply":2,"CurveValueMultiply":0.001,"TransformationCurve":{"Keys":[{"inTangent":0,"outTangent":0,"time":0,"value":0},{"inTangent":0,"outTangent":0,"time":0.1,"value":2},{"inTangent":0,"outTangent":0,"time":0.3,"value":-0.75},{"inTangent":0,"outTangent":0,"time":1,"value":0}]}},"Target":"HandsPosition"},{"Enable":true,"Process":{"ComponentType":"Z","CurveAimingValueMultiply":0.19,"CurveTimeMultiply":1,"CurveValueMultiply":0.25,"TransformationCurve":{"Keys":[{"inTangent":0,"outTangent":0,"time":0,"value":0},{"inTangent":0,"outTangent":0,"time":0.1,"value":2},{"inTangent":0,"outTangent":0,"time":0.3,"value":-0.75},{"inTangent":0,"outTangent":0,"time":1,"value":0}]}},"Target":"CameraRotation"}]},"Weight":1.075,"Width":2,"WithAnimatorAiming":false,"ammoCaliber":"Caliber762x54R","bEffDist":400,"bFirerate":50,"bHearDist":80,"blockLeftStance":false,"chamberAmmoCount":1,"defAmmo":"5887431f2459777e1612938f","defMagType":"6422e1ea3c0f06190302161a","durabSpawnMax":75,"durabSpawnMin":25,"isBoltCatch":true,"isChamberLoad":true,"isFastReload":true,"shotgunDispersion":10,"weapClass":"assaultCarbine","weapFireType":["single"],"weapUseType":"primary"},"weapon":{"caliber":"762x54R","defaultAmmo":"5887431f2459777e1612938f","fireRate":50,"effectiveRange":400,"sightingRange":100,"ergonomics":20,"recoilForceUp":175,"recoilForceBack":675,"recoilAngle":90,"recoilDispersion":15,"recoilCamera":0.07,"cameraSnap":3.5,"recoilStableAngleIncreaseStep":3,"recoilStableIndexShot":4,"deviationMax":23,"deviationCurve":1.35,"malfunctionChance":0.3036,"durabilityBurnRatio":1.15,"operatingResource":1500,"heatFactorByShot":2.8,"heatFactorGun":1,"coolFactorGun":2.592,"coolFactorGunMods":1,"hipAccuracyRestorationSpeed":7,"hipAccuracyRestorationDelay":0.2,"hipInnaccuracyGain":0.16,"singleFireRate":450,"shotgunDispersion":10,"bHearDist":80,"mountVerticalRecoilMultiplier":0.85,"mountHorizontalRecoilMultiplier":0.6,"durability":100,"maxDurability":100,"fireModes":["single"],"weapClass":"assaultCarbine","weapFireType":"single"},"mod":{"ergonomics":20,"recoilForceUp":175,"recoilForceBack":675,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":100,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_stock","id":"643ea5b23db6f9f57107d9fe","required":true,"filter":["6410745d5dd49d77bd078485"]},{"name":"mod_barrel","id":"643ea5b23db6f9f57107d9ff","required":true,"filter":["6410758c857473525b08bb77"]},{"name":"mod_magazine","id":"643ea5b23db6f9f57107da00","required":false,"filter":["641074a07fd350b98c0b3f96","6422e1ea3c0f06190302161a"]},{"name":"mod_reciever","id":"643ea5b23db6f9f57107da01","required":true,"filter":["64119cdbdcf48d656f0aa272"]},{"name":"mod_scope","id":"643ea5b23db6f9f57107da02","required":false,"filter":["641dc35e19604f20c800be18"]}],"image":"/images/items/643ea5b23db6f9f57107d9fd.webp","isMod":false}
+{
+  "id": "643ea5b23db6f9f57107d9fd",
+  "typeName": "AssaultCarbine",
+  "category": "weapon",
+  "parentTypeChain": [
+    "AssaultCarbine",
+    "Weapon",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f78e986f77447ed5636b1",
+    "price": 19331
+  },
+  "common": {
+    "name": {
+      "zh": "Tokarev SVT-40 7.62x54R步枪",
+      "en": "Tokarev SVT-40 7.62x54R rifle"
+    },
+    "shortName": {
+      "zh": "SVT-40",
+      "en": "SVT-40"
+    },
+    "description": {
+      "zh": "在冲锋枪的大批量生产之前，SVT-40是二战初期唯一得到量产的个人武器。士兵们亲切地称它为“Sveta”。当这款武器被发往部队后，大家发现并不是每一位红军士兵都能真正地掌握它。海军陆战步兵和狙击手最常使用这款武器。SVT-40的生产直到二战结束才停止，这款半自动步枪对最终的胜利来说功不可没。",
+      "en": "The SVT-40 was the only mass-produced personal weapon in the early years of WW2, before the mass production of submachine guns began. The soldiers affectionately called this rifle \"Sveta\". When \"Sveta\" went to the troops, it turned out that not all Red Army soldiers were able to truly master this weapon. The SVT was best used by marine infantry units and snipers. The production of SVT-40 continued until the end of the war, and this semi-automatic rifle made an important contribution to the overall victory."
+    },
+    "weight": 1.4449999999999998,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "black"
+  },
+  "properties": {
+    "_raw": {
+      "AdjustCollimatorsToTrajectory": false,
+      "AimPlane": 0.25,
+      "AimSensitivity": 0.65,
+      "AllowFeed": true,
+      "AllowJam": true,
+      "AllowMisfire": true,
+      "AllowOverheat": true,
+      "AllowSlide": true,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "black",
+      "BaseMalfunctionChance": 0.3036,
+      "BoltAction": false,
+      "BurstShotsCount": 3,
+      "CameraSnap": 3.5,
+      "CameraToWeaponAngleSpeedRange": {
+        "x": 0.1,
+        "y": 0.2,
+        "z": 0
+      },
+      "CameraToWeaponAngleStep": 0.1,
+      "CanPutIntoDuringTheRaid": true,
+      "CanQueueSecondShot": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CanUnloadAmmoByPlayer": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0,
+      "Chambers": [
+        {
+          "_id": "643ea5b23db6f9f57107da03",
+          "_mergeSlotWithChildren": false,
+          "_name": "patron_in_weapon",
+          "_parent": "643ea5b23db6f9f57107d9fd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5e023d34e8a400319a28ed44",
+                  "5e023d48186a883be655e551",
+                  "5e023cf8186a883be655e54f",
+                  "59e77a2386f7742ee578960a",
+                  "5887431f2459777e1612938f",
+                  "560d61e84bdc2da74d8b4571",
+                  "64b8f7b5389d7ffd620ccba2",
+                  "64b8f7968532cf95ee0a0dbf",
+                  "64b8f7c241772715af0f9c3d"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d4af244bdc2d962f8b4571",
+          "_required": false
+        }
+      ],
+      "CompactHandling": true,
+      "ConflictingItems": [],
+      "CoolFactorGun": 2.592,
+      "CoolFactorGunMods": 1,
+      "Description": "weapon_toz_svt_40_762x54r",
+      "DeviationCurve": 1.35,
+      "DeviationMax": 23,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenalty": 1.5,
+      "DropSoundType": "Rifle",
+      "Durability": 100,
+      "DurabilityBurnRatio": 1.15,
+      "Ergonomics": 20,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Foldable": false,
+      "FoldedSlot": "",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HeatFactorByShot": 2.8,
+      "HeatFactorGun": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "HipAccuracyRestorationDelay": 0.2,
+      "HipAccuracyRestorationSpeed": 7,
+      "HipInnaccuracyGain": 0.16,
+      "InsuranceDisabled": false,
+      "IronSightRange": 100,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsBeltMachineGun": false,
+      "IsFlareGun": false,
+      "IsGrenadeLauncher": false,
+      "IsLockedafterEquip": false,
+      "IsMountable": true,
+      "IsOneoff": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsStationaryWeapon": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "weap_dmr",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "ManualBoltCatch": false,
+      "MaxDurability": 100,
+      "MaxRepairDegradation": 0.04,
+      "MaxRepairKitDegradation": 0.035,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "MinRepairDegradation": 0,
+      "MinRepairKitDegradation": 0,
+      "MountCameraSnapMultiplier": 3,
+      "MountHorizontalRecoilMultiplier": 0.6,
+      "MountReturnSpeedHandMultiplier": 1,
+      "MountVerticalRecoilMultiplier": 0.85,
+      "MountingHorizontalOutOfBreathMultiplier": 0.4,
+      "MountingPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "MountingVerticalOutOfBreathMultiplier": 0.8,
+      "MustBoltBeOpennedForExternalReload": false,
+      "MustBoltBeOpennedForInternalReload": true,
+      "Name": "weapon_toz_svt_40_762x54r",
+      "NoFiremodeOnBoltcatch": false,
+      "NotShownInSlot": false,
+      "OperatingResource": 1500,
+      "PostRecoilHorizontalRangeHandRotation": {
+        "x": -1.5,
+        "y": 1.5,
+        "z": 0
+      },
+      "PostRecoilVerticalRangeHandRotation": {
+        "x": -1.5,
+        "y": 0,
+        "z": 0
+      },
+      "Prefab": {
+        "path": "assets/content/weapons/avt40/weapon_toz_svt_40_762x54r_container.bundle",
+        "rcid": ""
+      },
+      "ProgressRecoilAngleOnStable": {
+        "x": 0,
+        "y": 30,
+        "z": 0
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "RecoilAngle": 90,
+      "RecoilCamera": 0.07,
+      "RecoilCategoryMultiplierHandRotation": 0.19,
+      "RecoilCenter": {
+        "x": 0,
+        "y": -0.3,
+        "z": 0.03
+      },
+      "RecoilDampingHandRotation": 0.875,
+      "RecoilForceBack": 675,
+      "RecoilForceUp": 175,
+      "RecoilPosZMult": 1,
+      "RecoilReturnPathDampingHandRotation": 0.45,
+      "RecoilReturnPathOffsetHandRotation": 0.01,
+      "RecoilReturnSpeedHandRotation": 1.8,
+      "RecoilStableAngleIncreaseStep": 3,
+      "RecoilStableIndexShot": 4,
+      "RecolDispersion": 15,
+      "ReloadMode": "InternalMagazine",
+      "RepairComplexity": 0,
+      "RepairCost": 98,
+      "RepairSpeed": 0,
+      "ResetAfterShot": false,
+      "Retractable": false,
+      "RotationCenter": {
+        "x": 0,
+        "y": -0.1,
+        "z": -0.03
+      },
+      "RotationCenterNoStock": {
+        "x": 0,
+        "y": -0.25,
+        "z": -0.03
+      },
+      "ShortName": "weapon_toz_svt_40_762x54r",
+      "ShotsGroupSettings": [
+        {
+          "EndShotIndex": 200,
+          "ShotRecoilPositionStrength": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ShotRecoilRadianRange": {
+            "x": 6,
+            "y": -6,
+            "z": 0
+          },
+          "ShotRecoilRotationStrength": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "StartShotIndex": 1
+        }
+      ],
+      "SightingRange": 100,
+      "SingleFireRate": 450,
+      "SizeReduceRight": 0,
+      "Slots": [
+        {
+          "_id": "643ea5b23db6f9f57107d9fe",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock",
+          "_parent": "643ea5b23db6f9f57107d9fd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6410745d5dd49d77bd078485"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "643ea5b23db6f9f57107d9ff",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_barrel",
+          "_parent": "643ea5b23db6f9f57107d9fd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6410758c857473525b08bb77"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "643ea5b23db6f9f57107da00",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_magazine",
+          "_parent": "643ea5b23db6f9f57107d9fd",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "641074a07fd350b98c0b3f96",
+                  "6422e1ea3c0f06190302161a"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": false
+        },
+        {
+          "_id": "643ea5b23db6f9f57107da01",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "643ea5b23db6f9f57107d9fd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "64119cdbdcf48d656f0aa272"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "643ea5b23db6f9f57107da02",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "643ea5b23db6f9f57107d9fd",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "641dc35e19604f20c800be18"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "TacticalReloadFixation": 0.95,
+      "TacticalReloadStiffnes": {
+        "x": 0.95,
+        "y": 0.33,
+        "z": 0.95
+      },
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UseAltMountBone": false,
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "WeaponRecoilSettings": {
+        "Enable": true,
+        "Values": [
+          {
+            "Enable": true,
+            "Process": {
+              "ComponentType": "Y",
+              "CurveAimingValueMultiply": 0.5,
+              "CurveTimeMultiply": 2,
+              "CurveValueMultiply": 1,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0,
+                    "value": 0
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.1,
+                    "value": 2
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.3,
+                    "value": -0.75
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "Target": "HandsRotation"
+          },
+          {
+            "Enable": true,
+            "Process": {
+              "ComponentType": "Y",
+              "CurveAimingValueMultiply": 0,
+              "CurveTimeMultiply": 2,
+              "CurveValueMultiply": 0.001,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0,
+                    "value": 0
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.1,
+                    "value": 2
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.3,
+                    "value": -0.75
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "Target": "HandsPosition"
+          },
+          {
+            "Enable": true,
+            "Process": {
+              "ComponentType": "Z",
+              "CurveAimingValueMultiply": 0.19,
+              "CurveTimeMultiply": 1,
+              "CurveValueMultiply": 0.25,
+              "TransformationCurve": {
+                "Keys": [
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0,
+                    "value": 0
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.1,
+                    "value": 2
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 0.3,
+                    "value": -0.75
+                  },
+                  {
+                    "inTangent": 0,
+                    "outTangent": 0,
+                    "time": 1,
+                    "value": 0
+                  }
+                ]
+              }
+            },
+            "Target": "CameraRotation"
+          }
+        ]
+      },
+      "Weight": 1.075,
+      "Width": 2,
+      "WithAnimatorAiming": false,
+      "ammoCaliber": "Caliber762x54R",
+      "bEffDist": 400,
+      "bFirerate": 50,
+      "bHearDist": 80,
+      "blockLeftStance": false,
+      "chamberAmmoCount": 1,
+      "defAmmo": "5887431f2459777e1612938f",
+      "defMagType": "6422e1ea3c0f06190302161a",
+      "durabSpawnMax": 75,
+      "durabSpawnMin": 25,
+      "isBoltCatch": true,
+      "isChamberLoad": true,
+      "isFastReload": true,
+      "shotgunDispersion": 10,
+      "weapClass": "assaultCarbine",
+      "weapFireType": [
+        "single"
+      ],
+      "weapUseType": "primary"
+    },
+    "weapon": {
+      "caliber": "762x54R",
+      "defaultAmmo": "5887431f2459777e1612938f",
+      "fireRate": 50,
+      "effectiveRange": 400,
+      "sightingRange": 100,
+      "ergonomics": 20,
+      "recoilForceUp": 175,
+      "recoilForceBack": 675,
+      "recoilAngle": 90,
+      "recoilDispersion": 15,
+      "recoilCamera": 0.07,
+      "cameraSnap": 3.5,
+      "recoilStableAngleIncreaseStep": 3,
+      "recoilStableIndexShot": 4,
+      "deviationMax": 23,
+      "deviationCurve": 1.35,
+      "malfunctionChance": 0.3036,
+      "durabilityBurnRatio": 1.15,
+      "operatingResource": 1500,
+      "heatFactorByShot": 2.8,
+      "heatFactorGun": 1,
+      "coolFactorGun": 2.592,
+      "coolFactorGunMods": 1,
+      "hipAccuracyRestorationSpeed": 7,
+      "hipAccuracyRestorationDelay": 0.2,
+      "hipInnaccuracyGain": 0.16,
+      "singleFireRate": 450,
+      "shotgunDispersion": 10,
+      "bHearDist": 80,
+      "mountVerticalRecoilMultiplier": 0.85,
+      "mountHorizontalRecoilMultiplier": 0.6,
+      "durability": 100,
+      "maxDurability": 100,
+      "fireModes": [
+        "single"
+      ],
+      "weapClass": "assaultCarbine",
+      "weapFireType": "single"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 100,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "641074a07fd350b98c0b3f96",
+          "name": {
+            "zh": "AVT-40 7.62x54R 15发弹匣",
+            "en": "AVT-40 7.62x54R 15-round magazine"
+          },
+          "armorClass": 0,
+          "weight": 0.35,
+          "count": 1
+        },
+        {
+          "id": "641dc35e19604f20c800be18",
+          "name": {
+            "zh": "SVT-40 Tokarev PU基座",
+            "en": "SVT-40 Tokarev PU mount"
+          },
+          "armorClass": 0,
+          "weight": 0.02,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.4449999999999998
+    },
+    "mod": {
+      "ergonomics": 20,
+      "recoilForceUp": 175,
+      "recoilForceBack": 675,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 100,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_stock",
+      "id": "643ea5b23db6f9f57107d9fe",
+      "required": true,
+      "filter": [
+        "6410745d5dd49d77bd078485"
+      ]
+    },
+    {
+      "name": "mod_barrel",
+      "id": "643ea5b23db6f9f57107d9ff",
+      "required": true,
+      "filter": [
+        "6410758c857473525b08bb77"
+      ]
+    },
+    {
+      "name": "mod_magazine",
+      "id": "643ea5b23db6f9f57107da00",
+      "required": false,
+      "filter": [
+        "641074a07fd350b98c0b3f96",
+        "6422e1ea3c0f06190302161a"
+      ]
+    },
+    {
+      "name": "mod_reciever",
+      "id": "643ea5b23db6f9f57107da01",
+      "required": true,
+      "filter": [
+        "64119cdbdcf48d656f0aa272"
+      ]
+    },
+    {
+      "name": "mod_scope",
+      "id": "643ea5b23db6f9f57107da02",
+      "required": false,
+      "filter": [
+        "641dc35e19604f20c800be18"
+      ]
+    }
+  ],
+  "image": "/images/items/643ea5b23db6f9f57107d9fd.webp",
+  "isMod": false
+}

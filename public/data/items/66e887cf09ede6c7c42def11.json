@@ -1,1 +1,195 @@
-{"id":"66e887cf09ede6c7c42def11","typeName":"IronSight","category":"mod_scope","parentTypeChain":["IronSight","Sights","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"Zastava M76 照门","en":"Zastava M76 rear sight"},"shortName":{"zh":"M76 RS","en":"M76 RS"},"description":{"zh":"Zastava M76 7.92x57毫米狙击步枪标准机械瞄具后照门","en":"Standard rear sight for the Zastava M76 7.92x57mm marksman rifle."},"weight":0.025,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AdjustableOpticSensitivity":0,"AdjustableOpticSensitivityMax":0,"AimSensitivity":[[0.65]],"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CalibrationDistances":[[100]],"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["63d114019e35b334d82302f7","5c61a40d2e2216001403158d"],"CustomAimPlane":"","Description":"sight_rear_ak_izhmash_akm_std","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":0,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAdjustableOptic":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","MinMaxFov":{"x":0,"y":0,"z":0},"ModesCount":[1],"Name":"sight_rear_ak_izhmash_akm_std","NotShownInSlot":false,"Prefab":{"path":"WeaponM76/m76rs.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ScopesCount":1,"ShortName":"sight_rear_ak_izhmash_akm_std","SightingRange":500,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.025,"Width":1,"ZoomSensitivity":0,"Zooms":[[1]],"sightModType":"iron"},"mod":{"ergonomics":0,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"1x","sightingRange":500,"sightModType":"iron","calibrationDistances":[100],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"63d114019e35b334d82302f7","name":{"zh":"SAG AK燕尾侧基座","en":"SAG AK dovetail sidemount"},"isWikiItem":true},{"id":"5c61a40d2e2216001403158d","name":{"zh":"B-13导轨平台","en":"Zenit B-13 \"Klassika\" dovetail rail platform"},"isWikiItem":true}]},"slots":[],"image":null,"isMod":true}
+{
+  "id": "66e887cf09ede6c7c42def11",
+  "typeName": "IronSight",
+  "category": "mod_scope",
+  "parentTypeChain": [
+    "IronSight",
+    "Sights",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "Zastava M76 照门",
+      "en": "Zastava M76 rear sight"
+    },
+    "shortName": {
+      "zh": "M76 RS",
+      "en": "M76 RS"
+    },
+    "description": {
+      "zh": "Zastava M76 7.92x57毫米狙击步枪标准机械瞄具后照门",
+      "en": "Standard rear sight for the Zastava M76 7.92x57mm marksman rifle."
+    },
+    "weight": 0.025,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0,
+      "AimSensitivity": [
+        [
+          0.65
+        ]
+      ],
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CalibrationDistances": [
+        [
+          100
+        ]
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "63d114019e35b334d82302f7",
+        "5c61a40d2e2216001403158d"
+      ],
+      "CustomAimPlane": "",
+      "Description": "sight_rear_ak_izhmash_akm_std",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAdjustableOptic": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ModesCount": [
+        1
+      ],
+      "Name": "sight_rear_ak_izhmash_akm_std",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponM76/m76rs.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ScopesCount": 1,
+      "ShortName": "sight_rear_ak_izhmash_akm_std",
+      "SightingRange": 500,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.025,
+      "Width": 1,
+      "ZoomSensitivity": 0,
+      "Zooms": [
+        [
+          1
+        ]
+      ],
+      "sightModType": "iron"
+    },
+    "mod": {
+      "ergonomics": 0,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "1x",
+      "sightingRange": 500,
+      "sightModType": "iron",
+      "calibrationDistances": [
+        100
+      ],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "63d114019e35b334d82302f7",
+        "name": {
+          "zh": "SAG AK燕尾侧基座",
+          "en": "SAG AK dovetail sidemount"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5c61a40d2e2216001403158d",
+        "name": {
+          "zh": "B-13导轨平台",
+          "en": "Zenit B-13 \"Klassika\" dovetail rail platform"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [],
+  "image": null,
+  "isMod": true
+}

@@ -1,1 +1,243 @@
-{"id":"612368f58b401f4f51239b33","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":6280},"common":{"name":{"zh":"755毫米MTs-255-12霰弹枪肋条枪管 12铅径","en":"MTs-255-12 12ga 755mm barrel with rib"},"shortName":{"zh":"МTs-255 755毫米肋条枪管","en":"MTs-255 755mm rib"},"description":{"zh":"适用于MTs-255 12铅径的755毫米标准产量型枪管，有宽肋条。","en":"A standard factory-produced 755mm barrel with a wide upper rib for MTs-255 12 gauge shotguns."},"weight":1.55,"width":5,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.28,"ConflictingItems":[],"CoolFactor":0.86,"Description":"Стандартный заводской ствол для ружья МР-133 длинной 750мм под патрон 12-го калибра, с широкой прицельной планкой.","DeviationCurve":2.25,"DeviationMax":11,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.08,"EffectiveDistance":0,"Ergonomics":-18,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":3,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.82,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":25,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Ствол 750мм для ружья МР-133 12к с прицельной планкой","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_mc255_755mm_12g.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-10,"RepairCost":0,"RepairSpeed":0,"ShortName":"750мм МР-133 12к","ShotgunDispersion":1.05,"SightingRange":0,"Slots":[{"_id":"612368f58b401f4f51239b35","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"612368f58b401f4f51239b33","_props":{"filters":[{"Filter":["619d36da53b4d42ee724fae4"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"619d3a31142be829c6730450","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"612368f58b401f4f51239b33","_props":{"filters":[{"Filter":["609b9e31506cf869cf3eaf41","5dfe14f30b92095fd441edaf"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":18.9,"Weight":1.55,"Width":5},"mod":{"ergonomics":-18,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":18.9,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"612368f58b401f4f51239b35","required":false,"filter":["619d36da53b4d42ee724fae4"]},{"name":"mod_mount","id":"619d3a31142be829c6730450","required":false,"filter":["609b9e31506cf869cf3eaf41","5dfe14f30b92095fd441edaf"]}],"image":"/images/items/612368f58b401f4f51239b33.jpg","isMod":false}
+{
+  "id": "612368f58b401f4f51239b33",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 6280
+  },
+  "common": {
+    "name": {
+      "zh": "755毫米MTs-255-12霰弹枪肋条枪管 12铅径",
+      "en": "MTs-255-12 12ga 755mm barrel with rib"
+    },
+    "shortName": {
+      "zh": "МTs-255 755毫米肋条枪管",
+      "en": "MTs-255 755mm rib"
+    },
+    "description": {
+      "zh": "适用于MTs-255 12铅径的755毫米标准产量型枪管，有宽肋条。",
+      "en": "A standard factory-produced 755mm barrel with a wide upper rib for MTs-255 12 gauge shotguns."
+    },
+    "weight": 1.86,
+    "width": 5,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.28,
+      "ConflictingItems": [],
+      "CoolFactor": 0.86,
+      "Description": "Стандартный заводской ствол для ружья МР-133 длинной 750мм под патрон 12-го калибра, с широкой прицельной планкой.",
+      "DeviationCurve": 2.25,
+      "DeviationMax": 11,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.08,
+      "EffectiveDistance": 0,
+      "Ergonomics": -18,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 3,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.82,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 25,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Ствол 750мм для ружья МР-133 12к с прицельной планкой",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_mc255_755mm_12g.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -10,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "750мм МР-133 12к",
+      "ShotgunDispersion": 1.05,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "612368f58b401f4f51239b35",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "612368f58b401f4f51239b33",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "619d36da53b4d42ee724fae4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "619d3a31142be829c6730450",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "612368f58b401f4f51239b33",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "609b9e31506cf869cf3eaf41",
+                  "5dfe14f30b92095fd441edaf"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 18.9,
+      "Weight": 1.55,
+      "Width": 5
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "619d36da53b4d42ee724fae4",
+          "name": {
+            "zh": "Mts-255-12 12铅径收束器",
+            "en": "MTs-255-12 12ga choke"
+          },
+          "armorClass": 0,
+          "weight": 0.1,
+          "count": 1
+        },
+        {
+          "id": "609b9e31506cf869cf3eaf41",
+          "name": {
+            "zh": "VOMZ PILAD Target Ring反射式瞄具",
+            "en": "VOMZ Pilad TargetRing reflex sight"
+          },
+          "armorClass": 0,
+          "weight": 0.21,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.86
+    },
+    "mod": {
+      "ergonomics": -18,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 18.9,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "612368f58b401f4f51239b35",
+      "required": false,
+      "filter": [
+        "619d36da53b4d42ee724fae4"
+      ]
+    },
+    {
+      "name": "mod_mount",
+      "id": "619d3a31142be829c6730450",
+      "required": false,
+      "filter": [
+        "609b9e31506cf869cf3eaf41",
+        "5dfe14f30b92095fd441edaf"
+      ]
+    }
+  ],
+  "image": "/images/items/612368f58b401f4f51239b33.jpg",
+  "isMod": false
+}

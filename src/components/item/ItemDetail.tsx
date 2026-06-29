@@ -16,9 +16,9 @@ function StatRow({ label, value, unit, showZero }: { label: string; value: strin
   if (value === undefined || value === null || value === '') return null
   if (!showZero && value === 0) return null
   return (
-    <div className="flex justify-between py-1.5 border-b border-border/50 last:border-0">
-      <span className="text-sm text-muted-foreground">{label}</span>
-      <span className="text-sm font-medium">
+    <div className="flex justify-between items-baseline py-1.5 border-b border-border/50 last:border-0 gap-3">
+      <span className="text-sm text-muted-foreground shrink-0">{label}</span>
+      <span className="text-sm font-medium text-right">
         {value}{unit && <span className="text-muted-foreground ml-0.5">{unit}</span>}
       </span>
     </div>
@@ -31,8 +31,8 @@ function StatRowWithTip({ label, tip, value, unit, showZero }: {
   if (value === undefined || value === null || value === '') return null
   if (!showZero && value === 0) return null
   return (
-    <div className="flex justify-between py-1.5 border-b border-border/50 last:border-0">
-      <span className="text-sm text-muted-foreground inline-flex items-center gap-1">
+    <div className="flex justify-between items-baseline py-1.5 border-b border-border/50 last:border-0 gap-3">
+      <span className="text-sm text-muted-foreground shrink-0 inline-flex items-center gap-1">
         {label}
         <span className="relative group inline-block">
           <HelpCircle size={13} className="text-muted-foreground/60 hover:text-primary cursor-help transition-colors" />
@@ -58,9 +58,9 @@ function ColoredStatRow({ label, value, unit, invertColor, showZero }: {
   const isGood = invertColor ? value < 0 : value > 0
   const color = isGood ? 'text-blue-400' : value < 0 ? 'text-red-400' : value > 0 ? 'text-red-400' : ''
   return (
-    <div className="flex justify-between py-1.5 border-b border-border/50 last:border-0">
-      <span className="text-sm text-muted-foreground">{label}</span>
-      <span className={`text-sm font-medium ${color}`}>
+    <div className="flex justify-between items-baseline py-1.5 border-b border-border/50 last:border-0 gap-3">
+      <span className="text-sm text-muted-foreground shrink-0">{label}</span>
+      <span className={`text-sm font-medium text-right ${color}`}>
         {sign}{value}{unit && unit}
       </span>
     </div>
@@ -85,9 +85,9 @@ const ARMOR_TYPE_ZH: Record<string, string> = {
 
 // ArmorMaterial translation (from game locale)
 const ARMOR_MATERIAL_ZH: Record<string, string> = {
-  UHMWPE: 'UHMWPE', Aramid: '芳纶', Combined: '复合材料',
-  Titanium: '钛合金', Steel: '钢', Ceramic: '陶瓷',
-  Aluminium: '铝合金', Glass: '玻璃',
+  UHMWPE: '超高分子量聚乙烯', Aramid: '芳纶', Combined: '复合材料',
+  Titanium: '钛合金', Titan: '钛合金', Steel: '钢', ArmoredSteel: '装甲钢',
+  Ceramic: '陶瓷', Aluminium: '铝合金', Glass: '玻璃',
 }
 
 // DeafStrength translation
@@ -95,14 +95,38 @@ const DEAF_STRENGTH_ZH: Record<string, string> = {
   None: '无', Low: '低', Medium: '中', High: '高',
 }
 
-// ArmorZone translation (from game locale)
+// ArmorZone translation (from game locale collider names)
 const ARMOR_ZONE_ZH: Record<string, string> = {
-  HeadTop: '头顶', HeadBack: '后脑', HeadSides: '侧面',
-  HeadFront: '正面', HeadEars: '耳朵', HeadJaw: '下巴',
+  // Head zones
+  ParietalHead: '头顶', BackHead: '后颈', Ears: '耳部', Eyes: '眼部',
+  HeadCommon: '脸部', Jaw: '下颚',
+  // Body zones
+  RibcageUp: '胸腔', RibcageLow: '胃部',
+  SpineTop: '上后背', SpineDown: '下后背',
+  LeftSideChestDown: '左下身', RightSideChestDown: '右下身',
+  LeftSideChestUp: '左腋下', RightSideChestUp: '右腋下',
+  NeckFront: '喉部', NeckBack: '脖颈',
+  Pelvis: '股沟', PelvisBack: '臀部',
+  LeftUpperArm: '左肩', RightUpperArm: '右肩',
+  LeftForearm: '左前臂', RightForearm: '右前臂',
+  LeftThigh: '左大腿', RightThigh: '右大腿',
+  LeftCalf: '左小腿', RightCalf: '右小腿',
+  // Plate zone names
+  Plate_Granit_SAPI_chest: '前插板', Plate_Granit_SAPI_back: '后插板',
+  Plate_Korund_chest: '前插板',
+  Plate_Granit_SSAPI_side_left_high: '左插板', Plate_Granit_SSAPI_side_left_low: '左插板',
+  Plate_Granit_SSAPI_side_right_high: '右插板', Plate_Granit_SSAPI_side_right_low: '右插板',
+  Plate_Korund_side_left_high: '左插板', Plate_Korund_side_left_low: '左插板',
+  Plate_Korund_side_right_high: '右插板', Plate_Korund_side_right_low: '右插板',
+  Plate_6B13_back: '后插板',
+  // Legacy fallbacks
+  HeadTop: '头顶', HeadBack: '后脑', HeadSides: '耳部',
+  HeadFront: '正面', HeadEars: '耳部', HeadJaw: '下颚',
   HeadEyes: '眼部', HeadNeck: '颈部',
   Chest: '胸部', Back: '背部', Sides: '侧面',
   Stomach: '腹部', LeftArm: '左臂', RightArm: '右臂',
   LeftLeg: '左腿', RightLeg: '右腿',
+  Face: '脸部',
 }
 
 function translateArmorType(v: string, lang: 'zh' | 'en'): string {
@@ -119,7 +143,10 @@ function translateDeafStrength(v: string, lang: 'zh' | 'en'): string {
 
 function translateArmorZones(zones: string[], lang: 'zh' | 'en'): string {
   if (!Array.isArray(zones) || zones.length === 0) return ''
-  return zones.map(z => lang === 'zh' ? (ARMOR_ZONE_ZH[z] || z) : z).join(', ')
+  const translated = zones.map(z => lang === 'zh' ? (ARMOR_ZONE_ZH[z] || z) : z)
+  // Deduplicate translated zone names
+  const unique = [...new Set(translated)]
+  return unique.join(' · ')
 }
 
 // Fire mode translation (from game locale)
@@ -564,18 +591,38 @@ export function ItemDetail() {
           </Section>
         )}
 
-        {/* Armor - not for headwear */}
-        {properties.armor && item.category !== 'headwear' && (
-          <Section title={t('armor')}>
-            <StatRow label={t('armorClass')} value={properties.armor.armorClass as number} />
-            <StatRow label={t('durability')} value={(properties.armor.maxDurability || properties.armor.durability) as number} />
+        {/* Armor - not for headwear/facecover */}
+        {properties.armor && item.category !== 'headwear' && item.category !== 'facecover' && (
+          <Section title={t('performance')}>
+            {(properties.armor.armorType as string) && (properties.armor.armorType as string) !== 'None' && (
+              <StatRow label={t('armorType')} value={t(`armorType_${properties.armor.armorType}` as 'armorType_Light')} />
+            )}
             <StatRow label={t('material')} value={translateArmorMaterial(properties.armor.material as string, lang)} />
+            <StatRow label={t('linerClass')} value={properties.armor.baseArmorClass as number} />
             <StatRow label={t('zones')} value={translateArmorZones(properties.armor.zones as string[], lang)} />
-            <ColoredStatRow label={t('speedPenalty')} value={properties.armor.speedPenalty as number} unit="%" />
-            <ColoredStatRow label={t('ergoPenalty')} value={properties.armor.ergonomicsPenalty as number} unit="%" />
-            <ColoredStatRow label={t('turnPenalty')} value={properties.armor.mousePenalty as number} unit="%" showZero />
+            <StatRow label={t('durability')} value={(properties.armor.maxDurability || properties.armor.durability) as number} />
+            {(properties.armor.defaultPlateClass as number) > 0 && (
+              <StatRow label={t('defaultPlateClass')} value={properties.armor.defaultPlateClass as number} />
+            )}
+            {Array.isArray(properties.armor.plateZones) && (properties.armor.plateZones as string[]).length > 0 && (
+              <StatRow label={t('defaultPlateZones')} value={translateArmorZones(properties.armor.plateZones as string[], lang)} />
+            )}
+            {Array.isArray(properties.armor.defaultPlates) && (properties.armor.defaultPlates as Array<{id: string; name: {zh: string; en: string}; count: number}>).length > 0 && (
+              <div className="flex justify-between items-start py-1.5 border-b border-border/50 gap-3">
+                <span className="text-sm text-muted-foreground shrink-0">{t('defaultPlates')}</span>
+                <div className="space-y-0.5 text-right">
+                  {(properties.armor.defaultPlates as Array<{id: string; name: {zh: string; en: string}; count: number}>).map((p, i) => (
+                    <Link key={i} to={`/item/${p.id}`} className="block text-sm font-medium text-primary hover:underline">
+                      {p.name.zh} × {p.count}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+            <ColoredStatRow label={t('movementSpeed')} value={properties.armor.speedPenalty as number} unit="%" />
+            <ColoredStatRow label={t('ergonomics')} value={properties.armor.ergonomicsPenalty as number} unit="%" />
+            <ColoredStatRow label={t('turnSpeed')} value={properties.armor.mousePenalty as number} unit="%" showZero />
             <StatRow label={t('bluntThroughput')} value={((properties.armor.bluntThroughput as number) * 100).toFixed(1)} unit="%" />
-            <StatRow label={t('armorType')} value={t(`armorType_${properties.armor.armorType}` as 'armorType_Light')} />
           </Section>
         )}
 
@@ -601,9 +648,14 @@ export function ItemDetail() {
                 <ColoredStatRow label={t('recoilUp')} value={properties.mod.recoilForceUp as number} invertColor />
                 <ColoredStatRow label={t('recoilBack')} value={properties.mod.recoilForceBack as number} invertColor />
                 <ColoredStatRow label={t('accuracy')} value={properties.mod.accuracy as number} />
+                <ColoredStatRow label={t('velocity')} value={properties.mod.velocity as number} unit="%" showZero />
                 {/* Common mod fields */}
                 <StatRow label={t('loudness')} value={properties.mod.loudness as number} unit="dB" showZero />
                 <StatRow label={t('effectiveDistance')} value={properties.mod.effectiveDistance as number} unit={t('meters')} showZero />
+                {properties.mod.muzzleModType && (
+                  <StatRow label={t('muzzleModType')} value={t(`muzzleModType_${properties.mod.muzzleModType}` as 'muzzleModType_silencer')} />
+                )}
+                <StatRow label={t('magMalfunctionChance')} value={properties.mod.malfunctionChance as number} unit="%" showZero />
                 {/* Scope */}
                 {item.category === 'mod_scope' && (
                   <>
@@ -615,19 +667,9 @@ export function ItemDetail() {
                     )}
                   </>
                 )}
-                {/* Muzzle */}
-                {item.category === 'mod_muzzle' && (
-                  <>
-                    <StatRow label={t('velocity')} value={properties.mod.velocity as number} showZero />
-                    {properties.mod.muzzleModType && (
-                      <StatRow label={t('muzzleModType')} value={t(`muzzleModType_${properties.mod.muzzleModType}` as 'muzzleModType_silencer')} />
-                    )}
-                  </>
-                )}
                 {/* Magazine */}
                 {item.category === 'mod_magazine' && (
                   <>
-                    <StatRow label={t('magMalfunctionChance')} value={properties.mod.malfunctionChance as number} unit="%" showZero />
                     <StatRow label={t('loadUnloadModifier')} value={properties.mod.loadUnloadModifier as number} unit="%" showZero />
                     <StatRow label={t('checkTimeModifier')} value={properties.mod.checkTimeModifier as number} unit="%" showZero />
                   </>
@@ -686,9 +728,11 @@ export function ItemDetail() {
         {/* Headwear/Facecover Performance */}
         {(item.category === 'headwear' || item.category === 'facecover') && !!(properties.headwear || raw.ArmorType || raw.ArmorMaterial) && (
           <Section title={t('performance')}>
-            <StatRow label={t('armorClass')} value={(properties.headwear?.armorClass ?? raw.armorClass) as number} showZero />
-            <StatRow label={t('type')} value={translateArmorType((properties.headwear?.armorType ?? raw.ArmorType) as string, lang)} />
+            {((properties.headwear?.armorType ?? raw.ArmorType) as string) && ((properties.headwear?.armorType ?? raw.ArmorType) as string) !== 'None' && (
+              <StatRow label={t('armorType')} value={translateArmorType((properties.headwear?.armorType ?? raw.ArmorType) as string, lang)} />
+            )}
             <StatRow label={t('material')} value={translateArmorMaterial((properties.headwear?.armorMaterial ?? raw.ArmorMaterial) as string, lang)} />
+            <StatRow label={t('linerClass')} value={(properties.headwear?.armorClass ?? raw.armorClass) as number} showZero />
             <StatRow label={t('durability')} value={(properties.headwear?.maxDurability ?? raw.MaxDurability) as number} showZero />
             <StatRow label={t('zones')} value={translateArmorZones((properties.headwear?.zones ?? []) as string[], lang)} />
             <StatRow label={t('ricochet')} value={(properties.headwear?.ricochetChance ?? ((raw.RicochetParams as Record<string, unknown>)?.z)) as number} unit="%" showZero />
@@ -697,6 +741,9 @@ export function ItemDetail() {
             <ColoredStatRow label={t('turnSpeed')} value={(properties.headwear?.turnSpeed ?? raw.mousePenalty) as number} unit="%" showZero />
             <ColoredStatRow label={t('ergonomics')} value={(properties.headwear?.ergonomicsPenalty ?? raw.weaponErgonomicPenalty) as number} unit="%" showZero />
             <StatRow label={t('deafness')} value={translateDeafStrength((properties.headwear?.deafStrength ?? raw.DeafStrength) as string, lang)} />
+            {raw.BluntThroughput != null && (
+              <StatRow label={t('bluntThroughput')} value={((raw.BluntThroughput as number) * 100).toFixed(1)} unit="%" />
+            )}
           </Section>
         )}
 

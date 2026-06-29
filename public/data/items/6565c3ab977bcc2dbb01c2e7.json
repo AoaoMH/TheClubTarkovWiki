@@ -1,1 +1,201 @@
-{"id":"6565c3ab977bcc2dbb01c2e7","typeName":"Handguard","category":"mod_other","parentTypeChain":["Handguard","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75e486f77447ec5d7712","price":1623},"common":{"name":{"zh":"SR-3M 聚合物护木（黑红色）","en":"SR-3M polymer handguard (Plum)"},"shortName":{"zh":"SR-3M","en":"SR-3M"},"description":{"zh":"SR-3M 突击步枪标配的聚合物材质护木。其采用的聚合物材料呈现与李子相似的黑红色泽，因此被冠以“Sliva”（李子）的外号。","en":"A standard-issue polymer handguard for the SR-3M assault rifle. Made out of plum-colored polymer, earning the nickname \"Sliva\" (Plum)."},"weight":0.07,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":0.965,"Description":"Полимерное цевье для автомата АК-74 производства Ижмаш, пришедшее на смену классическому деревянному.","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":7,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.044,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Цевье пполимерное для AK-74","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/handguards/handguard_sr3m_tochmash_std_plum.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":-1,"RepairCost":0,"RepairSpeed":0,"ShortName":"AK-74 пл.ц.","SightingRange":0,"Slots":[{"_id":"6706a28474152fb7c209a68c","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"6565c3ab977bcc2dbb01c2e7","_props":{"filters":[{"Filter":["67069cf1af4890b09f0006e8","67069d02ad91f3a63c0bc2b0"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.07,"Width":1},"mod":{"ergonomics":7,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_mount","id":"6706a28474152fb7c209a68c","required":false,"filter":["67069cf1af4890b09f0006e8","67069d02ad91f3a63c0bc2b0"]}],"image":"/images/items/6565c3ab977bcc2dbb01c2e7.webp","isMod":false}
+{
+  "id": "6565c3ab977bcc2dbb01c2e7",
+  "typeName": "Handguard",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Handguard",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75e486f77447ec5d7712",
+    "price": 1623
+  },
+  "common": {
+    "name": {
+      "zh": "SR-3M 聚合物护木（黑红色）",
+      "en": "SR-3M polymer handguard (Plum)"
+    },
+    "shortName": {
+      "zh": "SR-3M",
+      "en": "SR-3M"
+    },
+    "description": {
+      "zh": "SR-3M 突击步枪标配的聚合物材质护木。其采用的聚合物材料呈现与李子相似的黑红色泽，因此被冠以“Sliva”（李子）的外号。",
+      "en": "A standard-issue polymer handguard for the SR-3M assault rifle. Made out of plum-colored polymer, earning the nickname \"Sliva\" (Plum)."
+    },
+    "weight": 0.12000000000000001,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 0.965,
+      "Description": "Полимерное цевье для автомата АК-74 производства Ижмаш, пришедшее на смену классическому деревянному.",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 7,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.044,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Цевье пполимерное для AK-74",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/handguards/handguard_sr3m_tochmash_std_plum.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": -1,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "AK-74 пл.ц.",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "6706a28474152fb7c209a68c",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "6565c3ab977bcc2dbb01c2e7",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "67069cf1af4890b09f0006e8",
+                  "67069d02ad91f3a63c0bc2b0"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.07,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "67069cf1af4890b09f0006e8",
+          "name": {
+            "zh": "SR-3MP 侧导轨（黑色）",
+            "en": "SR-3MP side rails (Black)"
+          },
+          "armorClass": 0,
+          "weight": 0.05,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.12000000000000001
+    },
+    "mod": {
+      "ergonomics": 7,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_mount",
+      "id": "6706a28474152fb7c209a68c",
+      "required": false,
+      "filter": [
+        "67069cf1af4890b09f0006e8",
+        "67069d02ad91f3a63c0bc2b0"
+      ]
+    }
+  ],
+  "image": "/images/items/6565c3ab977bcc2dbb01c2e7.webp",
+  "isMod": false
+}

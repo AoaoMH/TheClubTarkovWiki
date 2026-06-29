@@ -1,1 +1,362 @@
-{"id":"6038b4ca92ec1c3103795a0d","typeName":"Armor","category":"armor","parentTypeChain":["Armor","ArmoredEquipment","Equipment","CompoundItem","Item"],"handbook":{"categoryId":"5b5f701386f774093f2ecf0f","price":16455},"common":{"name":{"zh":"LBT 6094A Slick 插板背心（橄榄绿）","en":"LBT-6094A Slick Plate Carrier (Olive Drab)"},"shortName":{"zh":"Slick","en":"Slick"},"description":{"zh":"LBT 公司设计的极简型防弹插板背心，最大限度简化了本体结构，橄榄绿版本。","en":"A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Olive Drab version."},"weight":1.3,"width":3,"height":3,"rarity":"Superrare","backgroundColor":"blue"},"properties":{"_raw":{"AnimationVariantsNumber":0,"ArmorMaterial":"Aramid","ArmorType":"Light","BackgroundColor":"blue","BlindnessProtection":0,"BlocksEarpiece":false,"BlocksEyewear":false,"BlocksFaceCover":false,"BlocksHeadwear":false,"BluntThroughput":0.2259,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"DeafStrength":"None","Description":"gjel","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","Durability":0,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"FaceShieldComponent":false,"FaceShieldMask":"NoMask","ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasHinge":false,"Height":3,"HideEntrails":false,"Indestructibility":0.9,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_armor","LeftHandItem":false,"LootExperience":45,"MaterialType":"BodyArmor","MaxDurability":0,"MergesWithChildren":false,"MetascoreGroup":"Defence","Name":"gjel","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/armor_slick/item_equipment_armor_slick_olive.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":1063,"RepairSpeed":8,"RicochetParams":{"x":0,"y":0,"z":80},"ShortName":"gjel","Slots":[{"_id":"657640e5bc8a93150303a638","_mergeSlotWithChildren":true,"_name":"Front_plate","_parent":"6038b4ca92ec1c3103795a0d","_props":{"filters":[{"Filter":["656f9d5900d62bcd2e02407c","656fa8d700d62bcd2e024084","656fa99800d62bcd2e024088","656fae5f7c2d57afe200c0d7","656faf0ca0dce000a2020f77","656fafe3498d1b7e3e071da4","656fa0fb498d1b7e3e071d9c","656fa76500d62bcd2e024080","656fa25e94b480b8a500c0e0","656fa61e94b480b8a500c0e8","656fad8c498d1b7e3e071da0","656fac30c6baea13cd07e10c","656fb0bd7c2d57afe200c0dc","656f9fa0498d1b7e3e071d98","656fa53d94b480b8a500c0e4","656fb21fa0dce000a2020f7c","64afdcb83efdfea28601d041","655746010177119f4a097ff7"],"Plate":"656fa76500d62bcd2e024080","armorColliders":[],"armorPlateColliders":["Plate_Granit_SAPI_chest"],"bluntDamageReduceFromSoftArmor":true,"locked":false}]},"_proto":"64479fdf9731c8fadc0642c1","_required":false},{"_id":"657640e5bc8a93150303a639","_mergeSlotWithChildren":true,"_name":"Back_plate","_parent":"6038b4ca92ec1c3103795a0d","_props":{"filters":[{"Filter":["656f9d5900d62bcd2e02407c","656fa8d700d62bcd2e024084","656fa99800d62bcd2e024088","656fae5f7c2d57afe200c0d7","656faf0ca0dce000a2020f77","656fa0fb498d1b7e3e071d9c","656fa76500d62bcd2e024080","656fafe3498d1b7e3e071da4","656fa25e94b480b8a500c0e0","656fad8c498d1b7e3e071da0","656fb0bd7c2d57afe200c0dc","656fac30c6baea13cd07e10c","656fb21fa0dce000a2020f7c","656fa61e94b480b8a500c0e8","656f9fa0498d1b7e3e071d98","656fa53d94b480b8a500c0e4","64afdcb83efdfea28601d041","655746010177119f4a097ff7"],"Plate":"656fa76500d62bcd2e024080","armorColliders":[],"armorPlateColliders":["Plate_Granit_SAPI_back"],"bluntDamageReduceFromSoftArmor":true,"locked":false}]},"_proto":"64479fdf9731c8fadc0642c1","_required":false},{"_id":"657640e5bc8a93150303a63a","_mergeSlotWithChildren":true,"_name":"Soft_armor_front","_parent":"6038b4ca92ec1c3103795a0d","_props":{"filters":[{"Filter":["6575e71760703324250610c3"],"Plate":"6575e71760703324250610c3","armorColliders":[],"armorPlateColliders":["Plate_Granit_SAPI_chest"],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_proto":"64479fdf9731c8fadc0642c1","_required":true},{"_id":"657640e5bc8a93150303a63b","_mergeSlotWithChildren":true,"_name":"Soft_armor_back","_parent":"6038b4ca92ec1c3103795a0d","_props":{"filters":[{"Filter":["6575e72660703324250610c7"],"Plate":"6575e72660703324250610c7","armorColliders":[],"armorPlateColliders":["Plate_Granit_SAPI_back"],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_proto":"64479fdf9731c8fadc0642c1","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":1.3,"Width":3,"armorClass":"0","armorColliders":[],"armorPlateColliders":[],"mousePenalty":0,"speedPenaltyPercent":0,"weaponErgonomicPenalty":0},"armor":{"armorClass":0,"durability":0,"maxDurability":0,"material":"Aramid","zones":[],"speedPenalty":0,"ergonomicsPenalty":0,"bluntThroughput":0.2259,"armorType":"Light","mousePenalty":0}},"slots":[{"name":"Front_plate","id":"657640e5bc8a93150303a638","required":false,"filter":["656f9d5900d62bcd2e02407c","656fa8d700d62bcd2e024084","656fa99800d62bcd2e024088","656fae5f7c2d57afe200c0d7","656faf0ca0dce000a2020f77","656fafe3498d1b7e3e071da4","656fa0fb498d1b7e3e071d9c","656fa76500d62bcd2e024080","656fa25e94b480b8a500c0e0","656fa61e94b480b8a500c0e8","656fad8c498d1b7e3e071da0","656fac30c6baea13cd07e10c","656fb0bd7c2d57afe200c0dc","656f9fa0498d1b7e3e071d98","656fa53d94b480b8a500c0e4","656fb21fa0dce000a2020f7c","64afdcb83efdfea28601d041","655746010177119f4a097ff7"]},{"name":"Back_plate","id":"657640e5bc8a93150303a639","required":false,"filter":["656f9d5900d62bcd2e02407c","656fa8d700d62bcd2e024084","656fa99800d62bcd2e024088","656fae5f7c2d57afe200c0d7","656faf0ca0dce000a2020f77","656fa0fb498d1b7e3e071d9c","656fa76500d62bcd2e024080","656fafe3498d1b7e3e071da4","656fa25e94b480b8a500c0e0","656fad8c498d1b7e3e071da0","656fb0bd7c2d57afe200c0dc","656fac30c6baea13cd07e10c","656fb21fa0dce000a2020f7c","656fa61e94b480b8a500c0e8","656f9fa0498d1b7e3e071d98","656fa53d94b480b8a500c0e4","64afdcb83efdfea28601d041","655746010177119f4a097ff7"]},{"name":"Soft_armor_front","id":"657640e5bc8a93150303a63a","required":true,"filter":["6575e71760703324250610c3"]},{"name":"Soft_armor_back","id":"657640e5bc8a93150303a63b","required":true,"filter":["6575e72660703324250610c7"]}],"image":"/images/items/6038b4ca92ec1c3103795a0d.jpg","isMod":false}
+{
+  "id": "6038b4ca92ec1c3103795a0d",
+  "typeName": "Armor",
+  "category": "armor",
+  "parentTypeChain": [
+    "Armor",
+    "ArmoredEquipment",
+    "Equipment",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f701386f774093f2ecf0f",
+    "price": 16455
+  },
+  "common": {
+    "name": {
+      "zh": "LBT 6094A Slick 插板背心（橄榄绿）",
+      "en": "LBT-6094A Slick Plate Carrier (Olive Drab)"
+    },
+    "shortName": {
+      "zh": "Slick",
+      "en": "Slick"
+    },
+    "description": {
+      "zh": "LBT 公司设计的极简型防弹插板背心，最大限度简化了本体结构，橄榄绿版本。",
+      "en": "A simple yet effective plate carrier by London Bridge Trading company. The most minimalistic design intended for use with chest rigs. Olive Drab version."
+    },
+    "weight": 9,
+    "width": 3,
+    "height": 3,
+    "rarity": "Superrare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "ArmorMaterial": "Aramid",
+      "ArmorType": "Light",
+      "BackgroundColor": "blue",
+      "BlindnessProtection": 0,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksFaceCover": false,
+      "BlocksHeadwear": false,
+      "BluntThroughput": 0.2259,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "DeafStrength": "None",
+      "Description": "gjel",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "Durability": 0,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasHinge": false,
+      "Height": 3,
+      "HideEntrails": false,
+      "Indestructibility": 0.9,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_armor",
+      "LeftHandItem": false,
+      "LootExperience": 45,
+      "MaterialType": "BodyArmor",
+      "MaxDurability": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Defence",
+      "Name": "gjel",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/armor_slick/item_equipment_armor_slick_olive.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 1063,
+      "RepairSpeed": 8,
+      "RicochetParams": {
+        "x": 0,
+        "y": 0,
+        "z": 80
+      },
+      "ShortName": "gjel",
+      "Slots": [
+        {
+          "_id": "657640e5bc8a93150303a638",
+          "_mergeSlotWithChildren": true,
+          "_name": "Front_plate",
+          "_parent": "6038b4ca92ec1c3103795a0d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "656fb21fa0dce000a2020f7c",
+                  "64afdcb83efdfea28601d041",
+                  "655746010177119f4a097ff7"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "657640e5bc8a93150303a639",
+          "_mergeSlotWithChildren": true,
+          "_name": "Back_plate",
+          "_parent": "6038b4ca92ec1c3103795a0d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fa76500d62bcd2e024080",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fa61e94b480b8a500c0e8",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "64afdcb83efdfea28601d041",
+                  "655746010177119f4a097ff7"
+                ],
+                "Plate": "656fa76500d62bcd2e024080",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": true,
+                "locked": false
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": false
+        },
+        {
+          "_id": "657640e5bc8a93150303a63a",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_front",
+          "_parent": "6038b4ca92ec1c3103795a0d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575e71760703324250610c3"
+                ],
+                "Plate": "6575e71760703324250610c3",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_chest"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "657640e5bc8a93150303a63b",
+          "_mergeSlotWithChildren": true,
+          "_name": "Soft_armor_back",
+          "_parent": "6038b4ca92ec1c3103795a0d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6575e72660703324250610c7"
+                ],
+                "Plate": "6575e72660703324250610c7",
+                "armorColliders": [],
+                "armorPlateColliders": [
+                  "Plate_Granit_SAPI_back"
+                ],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 1.3,
+      "Width": 3,
+      "armorClass": "0",
+      "armorColliders": [],
+      "armorPlateColliders": [],
+      "mousePenalty": 0,
+      "speedPenaltyPercent": 0,
+      "weaponErgonomicPenalty": 0
+    },
+    "armor": {
+      "armorClass": 3,
+      "baseArmorClass": 3,
+      "durability": 50,
+      "maxDurability": 50,
+      "material": "Aramid",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0.2259,
+      "armorType": "Light",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "656f9d5900d62bcd2e02407c",
+          "name": {
+            "zh": "AR500 Legacy Plate防弹插板",
+            "en": "AR500 Legacy Plate ballistic plate"
+          },
+          "armorClass": 3,
+          "weight": 3.85,
+          "count": 2
+        }
+      ],
+      "defaultPlateClass": 3,
+      "plateZones": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
+      ],
+      "totalWeight": 9
+    }
+  },
+  "slots": [
+    {
+      "name": "Front_plate",
+      "id": "657640e5bc8a93150303a638",
+      "required": false,
+      "filter": [
+        "656f9d5900d62bcd2e02407c",
+        "656fa8d700d62bcd2e024084",
+        "656fa99800d62bcd2e024088",
+        "656fae5f7c2d57afe200c0d7",
+        "656faf0ca0dce000a2020f77",
+        "656fafe3498d1b7e3e071da4",
+        "656fa0fb498d1b7e3e071d9c",
+        "656fa76500d62bcd2e024080",
+        "656fa25e94b480b8a500c0e0",
+        "656fa61e94b480b8a500c0e8",
+        "656fad8c498d1b7e3e071da0",
+        "656fac30c6baea13cd07e10c",
+        "656fb0bd7c2d57afe200c0dc",
+        "656f9fa0498d1b7e3e071d98",
+        "656fa53d94b480b8a500c0e4",
+        "656fb21fa0dce000a2020f7c",
+        "64afdcb83efdfea28601d041",
+        "655746010177119f4a097ff7"
+      ]
+    },
+    {
+      "name": "Back_plate",
+      "id": "657640e5bc8a93150303a639",
+      "required": false,
+      "filter": [
+        "656f9d5900d62bcd2e02407c",
+        "656fa8d700d62bcd2e024084",
+        "656fa99800d62bcd2e024088",
+        "656fae5f7c2d57afe200c0d7",
+        "656faf0ca0dce000a2020f77",
+        "656fa0fb498d1b7e3e071d9c",
+        "656fa76500d62bcd2e024080",
+        "656fafe3498d1b7e3e071da4",
+        "656fa25e94b480b8a500c0e0",
+        "656fad8c498d1b7e3e071da0",
+        "656fb0bd7c2d57afe200c0dc",
+        "656fac30c6baea13cd07e10c",
+        "656fb21fa0dce000a2020f7c",
+        "656fa61e94b480b8a500c0e8",
+        "656f9fa0498d1b7e3e071d98",
+        "656fa53d94b480b8a500c0e4",
+        "64afdcb83efdfea28601d041",
+        "655746010177119f4a097ff7"
+      ]
+    },
+    {
+      "name": "Soft_armor_front",
+      "id": "657640e5bc8a93150303a63a",
+      "required": true,
+      "filter": [
+        "6575e71760703324250610c3"
+      ]
+    },
+    {
+      "name": "Soft_armor_back",
+      "id": "657640e5bc8a93150303a63b",
+      "required": true,
+      "filter": [
+        "6575e72660703324250610c7"
+      ]
+    }
+  ],
+  "image": "/images/items/6038b4ca92ec1c3103795a0d.jpg",
+  "isMod": false
+}

@@ -1,1 +1,267 @@
-{"id":"5df35e59c41b2312ea3334d5","typeName":"Stock","category":"mod_stock","parentTypeChain":["Stock","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f757486f774093e6cb507","price":13200},"common":{"name":{"zh":"Orsis T-5000 铝枪体","en":"ORSIS T-5000M aluminium body"},"shortName":{"zh":"T-5000枪托","en":"T-5000M body"},"description":{"zh":"Orsis T-5000的铝枪体。","en":"A standard aluminum body for the T-5000M bolt-action sniper rifle, manufactured by ORSIS."},"weight":0.64,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["5d25af8f8abbc3055079fec5","5cf12a15d7f00c05464b293f","5bfeaa0f0db834001b734927","5bfea7ad0db834001c38f1ee"],"CoolFactor":1,"Description":"stock_870_remington_sps_12g\n","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":16,"ExamineExperience":1,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":1,"ExtraSizeUp":0,"Foldable":true,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":true,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":true,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsShoulderContact":true,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"stock_870_remington_sps_12g","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/stocks/stock_t5000_orsis_t5000_se_chassis.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-1,"RepairCost":0,"RepairSpeed":0,"Retractable":false,"ShortName":"stock_870_remington_sps_12g","SightingRange":0,"SizeReduceRight":1,"Slots":[{"_id":"5df389abdfc58d14537c203a","_mergeSlotWithChildren":false,"_name":"mod_handguard","_parent":"5df35e59c41b2312ea3334d5","_props":{"filters":[{"Filter":["5df25d3bfd6b4e6e2276dc9a"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"5df389bdfd6b4e6e2276dcb2","_mergeSlotWithChildren":false,"_name":"mod_pistol_grip","_parent":"5df35e59c41b2312ea3334d5","_props":{"filters":[{"Filter":["5df38a5fb74cd90030650cb6"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"5df389c823295c755a015895","_mergeSlotWithChildren":false,"_name":"mod_stock_axis","_parent":"5df35e59c41b2312ea3334d5","_props":{"filters":[{"Filter":["5df35ddddfc58d14537c2036"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.64,"Width":2},"mod":{"ergonomics":16,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":true,"retractable":false},"resolvedConflicts":[{"id":"5d25af8f8abbc3055079fec5","name":{"zh":"M700 7.62x51 ProMag AA-70 10发容量弹匣","en":"M700 7.62x51 ProMag AA-70 10-round magazine"},"isWikiItem":true},{"id":"5cf12a15d7f00c05464b293f","name":{"zh":"M700 7.62x51 ProMag AA-70 20发容量弹匣","en":"M700 7.62x51 ProMag AA-70 20-round magazine"},"isWikiItem":true},{"id":"5bfeaa0f0db834001b734927","name":{"zh":"M700 7.62x51 Wyatt's Outdoor 10发容量弹匣","en":"M700 7.62x51 Wyatt's Outdoor 10-round magazine"},"isWikiItem":true},{"id":"5bfea7ad0db834001c38f1ee","name":{"zh":"M700 7.62x51 Wyatt's Outdoor 5发容量弹匣","en":"M700 7.62x51 Wyatt's Outdoor 5-round magazine"},"isWikiItem":true}]},"slots":[{"name":"mod_handguard","id":"5df389abdfc58d14537c203a","required":true,"filter":["5df25d3bfd6b4e6e2276dc9a"]},{"name":"mod_pistol_grip","id":"5df389bdfd6b4e6e2276dcb2","required":true,"filter":["5df38a5fb74cd90030650cb6"]},{"name":"mod_stock_axis","id":"5df389c823295c755a015895","required":true,"filter":["5df35ddddfc58d14537c2036"]}],"image":"/images/items/5df35e59c41b2312ea3334d5.jpg","isMod":false}
+{
+  "id": "5df35e59c41b2312ea3334d5",
+  "typeName": "Stock",
+  "category": "mod_stock",
+  "parentTypeChain": [
+    "Stock",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f757486f774093e6cb507",
+    "price": 13200
+  },
+  "common": {
+    "name": {
+      "zh": "Orsis T-5000 铝枪体",
+      "en": "ORSIS T-5000M aluminium body"
+    },
+    "shortName": {
+      "zh": "T-5000枪托",
+      "en": "T-5000M body"
+    },
+    "description": {
+      "zh": "Orsis T-5000的铝枪体。",
+      "en": "A standard aluminum body for the T-5000M bolt-action sniper rifle, manufactured by ORSIS."
+    },
+    "weight": 0.64,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "5d25af8f8abbc3055079fec5",
+        "5cf12a15d7f00c05464b293f",
+        "5bfeaa0f0db834001b734927",
+        "5bfea7ad0db834001c38f1ee"
+      ],
+      "CoolFactor": 1,
+      "Description": "stock_870_remington_sps_12g\n",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 16,
+      "ExamineExperience": 1,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 1,
+      "ExtraSizeUp": 0,
+      "Foldable": true,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": true,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": true,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsShoulderContact": true,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "stock_870_remington_sps_12g",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/stocks/stock_t5000_orsis_t5000_se_chassis.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -1,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "Retractable": false,
+      "ShortName": "stock_870_remington_sps_12g",
+      "SightingRange": 0,
+      "SizeReduceRight": 1,
+      "Slots": [
+        {
+          "_id": "5df389abdfc58d14537c203a",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "5df35e59c41b2312ea3334d5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5df25d3bfd6b4e6e2276dc9a"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "5df389bdfd6b4e6e2276dcb2",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistol_grip",
+          "_parent": "5df35e59c41b2312ea3334d5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5df38a5fb74cd90030650cb6"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "5df389c823295c755a015895",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_stock_axis",
+          "_parent": "5df35e59c41b2312ea3334d5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5df35ddddfc58d14537c2036"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.64,
+      "Width": 2
+    },
+    "mod": {
+      "ergonomics": 16,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": true,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "5d25af8f8abbc3055079fec5",
+        "name": {
+          "zh": "M700 7.62x51 ProMag AA-70 10发容量弹匣",
+          "en": "M700 7.62x51 ProMag AA-70 10-round magazine"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5cf12a15d7f00c05464b293f",
+        "name": {
+          "zh": "M700 7.62x51 ProMag AA-70 20发容量弹匣",
+          "en": "M700 7.62x51 ProMag AA-70 20-round magazine"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5bfeaa0f0db834001b734927",
+        "name": {
+          "zh": "M700 7.62x51 Wyatt's Outdoor 10发容量弹匣",
+          "en": "M700 7.62x51 Wyatt's Outdoor 10-round magazine"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "5bfea7ad0db834001c38f1ee",
+        "name": {
+          "zh": "M700 7.62x51 Wyatt's Outdoor 5发容量弹匣",
+          "en": "M700 7.62x51 Wyatt's Outdoor 5-round magazine"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_handguard",
+      "id": "5df389abdfc58d14537c203a",
+      "required": true,
+      "filter": [
+        "5df25d3bfd6b4e6e2276dc9a"
+      ]
+    },
+    {
+      "name": "mod_pistol_grip",
+      "id": "5df389bdfd6b4e6e2276dcb2",
+      "required": true,
+      "filter": [
+        "5df38a5fb74cd90030650cb6"
+      ]
+    },
+    {
+      "name": "mod_stock_axis",
+      "id": "5df389c823295c755a015895",
+      "required": true,
+      "filter": [
+        "5df35ddddfc58d14537c2036"
+      ]
+    }
+  ],
+  "image": "/images/items/5df35e59c41b2312ea3334d5.jpg",
+  "isMod": false
+}

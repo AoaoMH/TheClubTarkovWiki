@@ -1,1 +1,221 @@
-{"id":"5beec2820db834001b095426","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":17300},"common":{"name":{"zh":"22英寸RPK-16兼容枪管 5.45x39","en":"RPK-16 5.45x39 22 inch barrel"},"shortName":{"zh":"22英寸 RPK-16 5.45x39","en":"RPK-16 22\""},"description":{"zh":"适用于RPK-16，发射5.45x39弹的550毫米枪管","en":"A 22 inch (550mm) long barrel for RPK-16 light machine gun, chambered in 5.45x39 ammo."},"weight":0.65,"width":3,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.032,"ConflictingItems":[],"CoolFactor":0.93,"Description":"barrel_rpk16_izhmash_550mm","DeviationCurve":1.35,"DeviationMax":23,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.1,"EffectiveDistance":0,"Ergonomics":-11,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":3,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.92,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_rpk16_izhmash_550mm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_rpk16_izhmash_550mm.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-7,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_rpk16_izhmash_550mm","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"5beec2820db834001b095428","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"5beec2820db834001b095426","_props":{"filters":[{"Filter":["5ac72e945acfc43f3b691116","5ac7655e5acfc40016339a19","5649aa744bdc2ded0b8b457e","5943eeeb86f77412d6384f6b","5cc9a96cd7f00c011c04e04a","5649ab884bdc2ded0b8b457f","5beec3420db834001b095429","593d493f86f7745e6b2ceb22","564caa3d4bdc2d17108b458e"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":-5,"Weight":0.65,"Width":3},"mod":{"ergonomics":-11,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":-5,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"5beec2820db834001b095428","required":false,"filter":["5ac72e945acfc43f3b691116","5ac7655e5acfc40016339a19","5649aa744bdc2ded0b8b457e","5943eeeb86f77412d6384f6b","5cc9a96cd7f00c011c04e04a","5649ab884bdc2ded0b8b457f","5beec3420db834001b095429","593d493f86f7745e6b2ceb22","564caa3d4bdc2d17108b458e"]}],"image":"/images/items/5beec2820db834001b095426.jpg","isMod":false}
+{
+  "id": "5beec2820db834001b095426",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 17300
+  },
+  "common": {
+    "name": {
+      "zh": "22英寸RPK-16兼容枪管 5.45x39",
+      "en": "RPK-16 5.45x39 22 inch barrel"
+    },
+    "shortName": {
+      "zh": "22英寸 RPK-16 5.45x39",
+      "en": "RPK-16 22\""
+    },
+    "description": {
+      "zh": "适用于RPK-16，发射5.45x39弹的550毫米枪管",
+      "en": "A 22 inch (550mm) long barrel for RPK-16 light machine gun, chambered in 5.45x39 ammo."
+    },
+    "weight": 0.75,
+    "width": 3,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.032,
+      "ConflictingItems": [],
+      "CoolFactor": 0.93,
+      "Description": "barrel_rpk16_izhmash_550mm",
+      "DeviationCurve": 1.35,
+      "DeviationMax": 23,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -11,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 3,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.92,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_rpk16_izhmash_550mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_rpk16_izhmash_550mm.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -7,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_rpk16_izhmash_550mm",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5beec2820db834001b095428",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "5beec2820db834001b095426",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ac72e945acfc43f3b691116",
+                  "5ac7655e5acfc40016339a19",
+                  "5649aa744bdc2ded0b8b457e",
+                  "5943eeeb86f77412d6384f6b",
+                  "5cc9a96cd7f00c011c04e04a",
+                  "5649ab884bdc2ded0b8b457f",
+                  "5beec3420db834001b095429",
+                  "593d493f86f7745e6b2ceb22",
+                  "564caa3d4bdc2d17108b458e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": -5,
+      "Weight": 0.65,
+      "Width": 3
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5ac72e945acfc43f3b691116",
+          "name": {
+            "zh": "Izhmash 5.45x39 AK-105膛口制退补偿器（6P44 0-20）",
+            "en": "AK-105 5.45x39 muzzle brake-compensator"
+          },
+          "armorClass": 0,
+          "weight": 0.1,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.75
+    },
+    "mod": {
+      "ergonomics": -11,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": -5,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "5beec2820db834001b095428",
+      "required": false,
+      "filter": [
+        "5ac72e945acfc43f3b691116",
+        "5ac7655e5acfc40016339a19",
+        "5649aa744bdc2ded0b8b457e",
+        "5943eeeb86f77412d6384f6b",
+        "5cc9a96cd7f00c011c04e04a",
+        "5649ab884bdc2ded0b8b457f",
+        "5beec3420db834001b095429",
+        "593d493f86f7745e6b2ceb22",
+        "564caa3d4bdc2d17108b458e"
+      ]
+    }
+  ],
+  "image": "/images/items/5beec2820db834001b095426.jpg",
+  "isMod": false
+}

@@ -1,1 +1,218 @@
-{"id":"688445ff01082f16b3c42d50","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"CZ EVO 3 A1 \"蝎式\"5英寸卡宾枪枪管","en":"CZ Scorpion EVO 3 A1 5 inch integral barrel"},"shortName":{"zh":"EVO 3 5英寸","en":"EVO 3 5\" Int"},"description":{"zh":"专为CZ EVO 3 \"蝎式\" S1型9x19毫米冲锋枪整体式消音系统设计的5英寸开槽枪管。","en":"Ported 5 inch barrel designed to be used with an integral suppressor system for the CZ Scorpion EVO 3 S1 9x19 submachine gun."},"weight":0.22,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.045,"ConflictingItems":["687fb46ac2f7551f2ce2e4b1","68827b0e8586d3f82920066a","6881c17e9ece0d7057d4347a","687b02e550e15d9a28c5681e"],"CoolFactor":0.96,"Description":"Ствол для оружия на базе AR-15 под патрон 5.56х45 NATO длинной 370мм. Соответствует стандартному стволу для M4A1.\n","DeviationCurve":1.75,"DeviationMax":17,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.07,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.92,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Ствол 370мм для AR-15 и совместимых 5.56х45","NotShownInSlot":false,"Prefab":{"path":"WeaponCZScorpion/cz_scorpion_barrel_integral.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-1,"RepairCost":0,"RepairSpeed":0,"ShortName":"370мм AR-15 5.56х45","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"688446032404a1a7b983f877","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"688445ff01082f16b3c42d50","_props":{"filters":[{"AnimationIndex":-1,"Filter":["6884464a25d2c3593b5ae0e4","6884465f8615db2a21955aa1"]}]},"_proto":"55d30c394bdc2dae468b4577","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":4.48,"Weight":0.22,"Width":1},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":4.48,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"687fb46ac2f7551f2ce2e4b1","name":{"zh":"CZ EVO 3 A1 \"蝎式\"聚合物护木","en":"CZ Scorpion EVO 3 A1 polymer handguard"},"isWikiItem":true},{"id":"68827b0e8586d3f82920066a","name":{"zh":"CZ EVO 3 A1 \"蝎式\" 加长战术护木","en":"CZ Scorpion EVO 3 A1 extended tactical handguard"},"isWikiItem":true},{"id":"6881c17e9ece0d7057d4347a","name":{"zh":"CZ EVO 3 A1 \"蝎式\" 战术中长导轨护木","en":"CZ Scorpion EVO 3 A1 tactical mid-length railed handguard"},"isWikiItem":true},{"id":"687b02e550e15d9a28c5681e","name":{"zh":"CZ EVO 3 A1 \"蝎式\" 卡宾枪护木","en":"CZ Scorpion EVO 3 A1 carbine handguard"},"isWikiItem":true}]},"slots":[{"name":"mod_muzzle","id":"688446032404a1a7b983f877","required":true,"filter":["6884464a25d2c3593b5ae0e4","6884465f8615db2a21955aa1"]}],"image":null,"isMod":true}
+{
+  "id": "688445ff01082f16b3c42d50",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "CZ EVO 3 A1 \"蝎式\"5英寸卡宾枪枪管",
+      "en": "CZ Scorpion EVO 3 A1 5 inch integral barrel"
+    },
+    "shortName": {
+      "zh": "EVO 3 5英寸",
+      "en": "EVO 3 5\" Int"
+    },
+    "description": {
+      "zh": "专为CZ EVO 3 \"蝎式\" S1型9x19毫米冲锋枪整体式消音系统设计的5英寸开槽枪管。",
+      "en": "Ported 5 inch barrel designed to be used with an integral suppressor system for the CZ Scorpion EVO 3 S1 9x19 submachine gun."
+    },
+    "weight": 0.22,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.045,
+      "ConflictingItems": [
+        "687fb46ac2f7551f2ce2e4b1",
+        "68827b0e8586d3f82920066a",
+        "6881c17e9ece0d7057d4347a",
+        "687b02e550e15d9a28c5681e"
+      ],
+      "CoolFactor": 0.96,
+      "Description": "Ствол для оружия на базе AR-15 под патрон 5.56х45 NATO длинной 370мм. Соответствует стандартному стволу для M4A1.\n",
+      "DeviationCurve": 1.75,
+      "DeviationMax": 17,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.07,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.92,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Ствол 370мм для AR-15 и совместимых 5.56х45",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponCZScorpion/cz_scorpion_barrel_integral.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -1,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "370мм AR-15 5.56х45",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "688446032404a1a7b983f877",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "688445ff01082f16b3c42d50",
+          "_props": {
+            "filters": [
+              {
+                "AnimationIndex": -1,
+                "Filter": [
+                  "6884464a25d2c3593b5ae0e4",
+                  "6884465f8615db2a21955aa1"
+                ]
+              }
+            ]
+          },
+          "_proto": "55d30c394bdc2dae468b4577",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 4.48,
+      "Weight": 0.22,
+      "Width": 1
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 4.48,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "687fb46ac2f7551f2ce2e4b1",
+        "name": {
+          "zh": "CZ EVO 3 A1 \"蝎式\"聚合物护木",
+          "en": "CZ Scorpion EVO 3 A1 polymer handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68827b0e8586d3f82920066a",
+        "name": {
+          "zh": "CZ EVO 3 A1 \"蝎式\" 加长战术护木",
+          "en": "CZ Scorpion EVO 3 A1 extended tactical handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "6881c17e9ece0d7057d4347a",
+        "name": {
+          "zh": "CZ EVO 3 A1 \"蝎式\" 战术中长导轨护木",
+          "en": "CZ Scorpion EVO 3 A1 tactical mid-length railed handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "687b02e550e15d9a28c5681e",
+        "name": {
+          "zh": "CZ EVO 3 A1 \"蝎式\" 卡宾枪护木",
+          "en": "CZ Scorpion EVO 3 A1 carbine handguard"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "688446032404a1a7b983f877",
+      "required": true,
+      "filter": [
+        "6884464a25d2c3593b5ae0e4",
+        "6884465f8615db2a21955aa1"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

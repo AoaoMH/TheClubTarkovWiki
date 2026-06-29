@@ -1,1 +1,187 @@
-{"id":"5a17fb03fcdbcbcae668728f","typeName":"Magazine","category":"mod_magazine","parentTypeChain":["Magazine","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f754a86f774094242f19b","price":849},"common":{"name":{"zh":"APS 9x18PM 20发标准弹匣","en":"APS 9x18PM 20-round magazine"},"shortName":{"zh":"APS标准","en":"APS"},"description":{"zh":"Molot-produced生产的APS手枪用标准20发弹匣，侧面还有余弹量观察窗。","en":"A standard 20-round magazine for Molot-produced APS pistols. It features a side observation slot for faster capacity checking."},"weight":0.044,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"yellow"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"yellow","BeltMagazineRefreshCount":0,"BlocksCollapsible":false,"BlocksFolding":false,"CanAdmin":false,"CanFast":true,"CanHit":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"Cartridges":[{"_id":"5a17fb03fcdbcbcae6687290","_max_count":20,"_name":"cartridges","_parent":"5a17fb03fcdbcbcae668728f","_props":{"filters":[{"Filter":["573718ba2459775a75491131","573719df2459775a626ccbc2","57371aab2459775a77142f22","57371b192459775a9f58a5e0","57371e4124597760ff7b25f1","57371eb62459776125652ac1","57371f8d24597761006c6a81","5737201124597760fc4431f1","5737207f24597760ff7b25f2","57371f2b24597761224311f1","573719762459775a626ccbc1","573720e02459776143012541","57372140245977611f70ee91","5737218f245977612125ba51"]}]},"_proto":"5748538b2459770af276a261"}],"CheckOverride":1,"CheckTimeModifier":-30,"ConflictingItems":[],"Description":"mag_aps_molot_aps_apb_std_9x18pm_20","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-3,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsMagazineForStationaryWeapon":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"magazine_metal","LeftHandItem":false,"LoadUnloadModifier":0,"LootExperience":5,"Loudness":0,"MagazineWithBelt":false,"MalfunctionChance":0.088,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mag_aps_molot_aps_apb_std_9x18pm_20","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/magazines/mag_aps_molot_aps_apb_std_9x18pm_20.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"ReloadMagType":"ExternalMagazine","RepairCost":0,"RepairSpeed":0,"ShortName":"mag_aps_molot_aps_apb_std_9x18pm_20","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"TagColor":0,"TagName":"","ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"VisibleAmmoRangesString":"1-1;4-4;6-6;8-8;10-10;12-12;14-14;16-16;18-18;20-20","Weight":0.044,"Width":1,"magAnimationIndex":0},"mod":{"ergonomics":-3,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0.088,"loadUnloadModifier":0,"checkTimeModifier":-30,"foldable":false,"retractable":false}},"slots":[],"image":"/images/items/5a17fb03fcdbcbcae668728f.jpg","isMod":false}
+{
+  "id": "5a17fb03fcdbcbcae668728f",
+  "typeName": "Magazine",
+  "category": "mod_magazine",
+  "parentTypeChain": [
+    "Magazine",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f754a86f774094242f19b",
+    "price": 849
+  },
+  "common": {
+    "name": {
+      "zh": "APS 9x18PM 20发标准弹匣",
+      "en": "APS 9x18PM 20-round magazine"
+    },
+    "shortName": {
+      "zh": "APS标准",
+      "en": "APS"
+    },
+    "description": {
+      "zh": "Molot-produced生产的APS手枪用标准20发弹匣，侧面还有余弹量观察窗。",
+      "en": "A standard 20-round magazine for Molot-produced APS pistols. It features a side observation slot for faster capacity checking."
+    },
+    "weight": 0.044,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "yellow"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "BeltMagazineRefreshCount": 0,
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanAdmin": false,
+      "CanFast": true,
+      "CanHit": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Cartridges": [
+        {
+          "_id": "5a17fb03fcdbcbcae6687290",
+          "_max_count": 20,
+          "_name": "cartridges",
+          "_parent": "5a17fb03fcdbcbcae668728f",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "573718ba2459775a75491131",
+                  "573719df2459775a626ccbc2",
+                  "57371aab2459775a77142f22",
+                  "57371b192459775a9f58a5e0",
+                  "57371e4124597760ff7b25f1",
+                  "57371eb62459776125652ac1",
+                  "57371f8d24597761006c6a81",
+                  "5737201124597760fc4431f1",
+                  "5737207f24597760ff7b25f2",
+                  "57371f2b24597761224311f1",
+                  "573719762459775a626ccbc1",
+                  "573720e02459776143012541",
+                  "57372140245977611f70ee91",
+                  "5737218f245977612125ba51"
+                ]
+              }
+            ]
+          },
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "CheckOverride": 1,
+      "CheckTimeModifier": -30,
+      "ConflictingItems": [],
+      "Description": "mag_aps_molot_aps_apb_std_9x18pm_20",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -3,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsMagazineForStationaryWeapon": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "magazine_metal",
+      "LeftHandItem": false,
+      "LoadUnloadModifier": 0,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MagazineWithBelt": false,
+      "MalfunctionChance": 0.088,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mag_aps_molot_aps_apb_std_9x18pm_20",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/magazines/mag_aps_molot_aps_apb_std_9x18pm_20.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "ReloadMagType": "ExternalMagazine",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mag_aps_molot_aps_apb_std_9x18pm_20",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "TagColor": 0,
+      "TagName": "",
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "VisibleAmmoRangesString": "1-1;4-4;6-6;8-8;10-10;12-12;14-14;16-16;18-18;20-20",
+      "Weight": 0.044,
+      "Width": 1,
+      "magAnimationIndex": 0
+    },
+    "mod": {
+      "ergonomics": -3,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0.088,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": -30,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5a17fb03fcdbcbcae668728f.jpg",
+  "isMod": false
+}

@@ -1,1 +1,243 @@
-{"id":"5a787fadc5856700155a6ca1","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":14215},"common":{"name":{"zh":"660毫米M870枪管 12铅径","en":"M870 12ga 660mm vent rib barrel"},"shortName":{"zh":"660毫米 M870","en":"M870 660mm"},"description":{"zh":"雷明顿M870霰弹枪的带散热肋条的枪管，长660毫米，12铅径。","en":"A 660mm 12 gauge barrel with a vent rib for the Remington Model 870 shotgun."},"weight":1.1,"width":4,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.32,"ConflictingItems":[],"CoolFactor":0.9,"Description":"barrel_870_vent_rib_barrel_660mm","DeviationCurve":2.5,"DeviationMax":10,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.08,"EffectiveDistance":0,"Ergonomics":-12,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":2,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.86,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":true,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":20,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_870_vent_rib_barrel_660mm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_870_vent_rib_barrel_660mm.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-9,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_870_vent_rib_barrel_660mm","ShotgunDispersion":1.2,"SightingRange":0,"Slots":[{"_id":"5a79c57951dfba001454f112","_mergeSlotWithChildren":false,"_name":"mod_mount","_parent":"5a787fadc5856700155a6ca1","_props":{"filters":[{"Filter":["5a789261c5856700186c65d3","676177b09cfcc4c25b027446"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"60accec7ab5d1052a56d9c18","_mergeSlotWithChildren":false,"_name":"mod_scope","_parent":"5a787fadc5856700155a6ca1","_props":{"filters":[{"Filter":["609b9e31506cf869cf3eaf41"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":5.4,"Weight":1.1,"Width":4},"mod":{"ergonomics":-12,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":5.4,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_mount","id":"5a79c57951dfba001454f112","required":false,"filter":["5a789261c5856700186c65d3","676177b09cfcc4c25b027446"]},{"name":"mod_scope","id":"60accec7ab5d1052a56d9c18","required":false,"filter":["609b9e31506cf869cf3eaf41"]}],"image":"/images/items/5a787fadc5856700155a6ca1.jpg","isMod":false}
+{
+  "id": "5a787fadc5856700155a6ca1",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 14215
+  },
+  "common": {
+    "name": {
+      "zh": "660毫米M870枪管 12铅径",
+      "en": "M870 12ga 660mm vent rib barrel"
+    },
+    "shortName": {
+      "zh": "660毫米 M870",
+      "en": "M870 660mm"
+    },
+    "description": {
+      "zh": "雷明顿M870霰弹枪的带散热肋条的枪管，长660毫米，12铅径。",
+      "en": "A 660mm 12 gauge barrel with a vent rib for the Remington Model 870 shotgun."
+    },
+    "weight": 1.397,
+    "width": 4,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.32,
+      "ConflictingItems": [],
+      "CoolFactor": 0.9,
+      "Description": "barrel_870_vent_rib_barrel_660mm",
+      "DeviationCurve": 2.5,
+      "DeviationMax": 10,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.08,
+      "EffectiveDistance": 0,
+      "Ergonomics": -12,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.86,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": true,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_870_vent_rib_barrel_660mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_870_vent_rib_barrel_660mm.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -9,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_870_vent_rib_barrel_660mm",
+      "ShotgunDispersion": 1.2,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5a79c57951dfba001454f112",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_mount",
+          "_parent": "5a787fadc5856700155a6ca1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5a789261c5856700186c65d3",
+                  "676177b09cfcc4c25b027446"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "60accec7ab5d1052a56d9c18",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "5a787fadc5856700155a6ca1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "609b9e31506cf869cf3eaf41"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 5.4,
+      "Weight": 1.1,
+      "Width": 4
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5a789261c5856700186c65d3",
+          "name": {
+            "zh": "Mesa Tactical M870弹仓夹",
+            "en": "M870 Mesa Tactical magazine clamp"
+          },
+          "armorClass": 0,
+          "weight": 0.087,
+          "count": 1
+        },
+        {
+          "id": "609b9e31506cf869cf3eaf41",
+          "name": {
+            "zh": "VOMZ PILAD Target Ring反射式瞄具",
+            "en": "VOMZ Pilad TargetRing reflex sight"
+          },
+          "armorClass": 0,
+          "weight": 0.21,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.397
+    },
+    "mod": {
+      "ergonomics": -12,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 5.4,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_mount",
+      "id": "5a79c57951dfba001454f112",
+      "required": false,
+      "filter": [
+        "5a789261c5856700186c65d3",
+        "676177b09cfcc4c25b027446"
+      ]
+    },
+    {
+      "name": "mod_scope",
+      "id": "60accec7ab5d1052a56d9c18",
+      "required": false,
+      "filter": [
+        "609b9e31506cf869cf3eaf41"
+      ]
+    }
+  ],
+  "image": "/images/items/5a787fadc5856700155a6ca1.jpg",
+  "isMod": false
+}

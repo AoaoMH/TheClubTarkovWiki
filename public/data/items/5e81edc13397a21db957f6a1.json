@@ -1,1 +1,272 @@
-{"id":"5e81edc13397a21db957f6a1","typeName":"Receiver","category":"mod_other","parentTypeChain":["Receiver","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f764186f77447ec5d7714","price":3109},"common":{"name":{"zh":"M1911A1 .45 ACP 套筒","en":"M1911A1 pistol slide"},"shortName":{"zh":"M1911A1 套筒","en":"1911 slide"},"description":{"zh":"柯尔特生产的标准 M1911A1 套筒。","en":"A standard-issue slide for the M1911A1 pistol, manufactured by Colt."},"weight":0.41,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.06,"Description":"reciever_m1911_colt_m1911a1_std","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":3,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.958,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"reciever_m1911_colt_m1911a1_std","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/recievers/reciever_m1911_colt_m1911a1_std.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"reciever_m1911_colt_m1911a1_std","SightingRange":0,"Slots":[{"_id":"5e81edc13397a21db957f6a3","_mergeSlotWithChildren":false,"_name":"mod_sight_rear","_parent":"5e81edc13397a21db957f6a1","_props":{"filters":[{"Filter":["5e81ee4dcb2b95385c177582"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"5e81edc13397a21db957f6a4","_mergeSlotWithChildren":false,"_name":"mod_sight_front","_parent":"5e81edc13397a21db957f6a1","_props":{"filters":[{"Filter":["5e81ee213397a21db957f6a6"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"5ef621945974e145cf763b38","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"5e81edc13397a21db957f6a1","_props":{"filters":[{"Filter":["5ef61964ec7f42238c31e0c1"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.41,"Width":2},"mod":{"ergonomics":3,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_sight_rear","id":"5e81edc13397a21db957f6a3","required":false,"filter":["5e81ee4dcb2b95385c177582"]},{"name":"mod_sight_front","id":"5e81edc13397a21db957f6a4","required":false,"filter":["5e81ee213397a21db957f6a6"]},{"name":"mod_muzzle","id":"5ef621945974e145cf763b38","required":false,"filter":["5ef61964ec7f42238c31e0c1"]}],"image":"/images/items/5e81edc13397a21db957f6a1.jpg","isMod":false}
+{
+  "id": "5e81edc13397a21db957f6a1",
+  "typeName": "Receiver",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Receiver",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f764186f77447ec5d7714",
+    "price": 3109
+  },
+  "common": {
+    "name": {
+      "zh": "M1911A1 .45 ACP 套筒",
+      "en": "M1911A1 pistol slide"
+    },
+    "shortName": {
+      "zh": "M1911A1 套筒",
+      "en": "1911 slide"
+    },
+    "description": {
+      "zh": "柯尔特生产的标准 M1911A1 套筒。",
+      "en": "A standard-issue slide for the M1911A1 pistol, manufactured by Colt."
+    },
+    "weight": 0.522,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.06,
+      "Description": "reciever_m1911_colt_m1911a1_std",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 3,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.958,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "reciever_m1911_colt_m1911a1_std",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/recievers/reciever_m1911_colt_m1911a1_std.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "reciever_m1911_colt_m1911a1_std",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5e81edc13397a21db957f6a3",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_rear",
+          "_parent": "5e81edc13397a21db957f6a1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5e81ee4dcb2b95385c177582"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5e81edc13397a21db957f6a4",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_sight_front",
+          "_parent": "5e81edc13397a21db957f6a1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5e81ee213397a21db957f6a6"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5ef621945974e145cf763b38",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "5e81edc13397a21db957f6a1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5ef61964ec7f42238c31e0c1"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.41,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5e81ee4dcb2b95385c177582",
+          "name": {
+            "zh": "M1911A1 照门",
+            "en": "M1911A1 rear sight"
+          },
+          "armorClass": 0,
+          "weight": 0.004,
+          "count": 1
+        },
+        {
+          "id": "5e81ee213397a21db957f6a6",
+          "name": {
+            "zh": "M1911A1 准星",
+            "en": "M1911A1 front sight"
+          },
+          "armorClass": 0,
+          "weight": 0.003,
+          "count": 1
+        },
+        {
+          "id": "5ef61964ec7f42238c31e0c1",
+          "name": {
+            "zh": "M1911 Anarchy Outdoors .45 ACP膛口制退器",
+            "en": "M1911 Anarchy Outdoors .45 ACP muzzle brake"
+          },
+          "armorClass": 0,
+          "weight": 0.105,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.522
+    },
+    "mod": {
+      "ergonomics": 3,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_sight_rear",
+      "id": "5e81edc13397a21db957f6a3",
+      "required": false,
+      "filter": [
+        "5e81ee4dcb2b95385c177582"
+      ]
+    },
+    {
+      "name": "mod_sight_front",
+      "id": "5e81edc13397a21db957f6a4",
+      "required": false,
+      "filter": [
+        "5e81ee213397a21db957f6a6"
+      ]
+    },
+    {
+      "name": "mod_muzzle",
+      "id": "5ef621945974e145cf763b38",
+      "required": false,
+      "filter": [
+        "5ef61964ec7f42238c31e0c1"
+      ]
+    }
+  ],
+  "image": "/images/items/5e81edc13397a21db957f6a1.jpg",
+  "isMod": false
+}

@@ -1,1 +1,236 @@
-{"id":"544a3a774bdc2d3a388b4567","typeName":"AssaultScope","category":"mod_scope","parentTypeChain":["AssaultScope","Sights","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f740a86f77447ec5d7706","price":42902},"common":{"name":{"zh":"勒波德 Mark 4 HAMR 4x24 DeltaPoint混合式突击瞄准镜","en":"Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope"},"shortName":{"zh":"HAMR","en":"HAMR"},"description":{"zh":"这款由Leupold生产的混合式瞄准镜包含Mark 4 HAMR 4x24毫米光学瞄准镜和安装于上方的DeltaPoint反射式瞄准镜。这种瞄准镜可通过4倍光学瞄准镜提供精准的中距离瞄准，并在必要时通过更紧凑的反射式瞄准镜提供更有效的近距离瞄准。","en":"The Hybrid Leupold-produced scope comprises of the Mark 4 HAMR 4x24mm optical sight with the DeltaPoint reflex sight installed on top of it. It was developed for precision mid-range carbine fire using the 4x optics while being equally effective in close quarters thanks to use of compact reflex sight when necessary."},"weight":0.411,"width":2,"height":1,"rarity":"Superrare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AdjustableOpticSensitivity":0,"AdjustableOpticSensitivityMax":0,"AimSensitivity":[[0.1138]],"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CalibrationDistances":[[50,100,150,200]],"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CustomAimPlane":"","Description":"scope_all_leupold_mark4_hamr","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-3.5,"ExamineExperience":4,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAdjustableOptic":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","MinMaxFov":{"x":0,"y":0,"z":0},"ModesCount":[1],"Name":"scope_all_leupold_mark4_hamr","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/scopes/scope_all_leupold_mark4_hamr.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Superrare","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ScopesCount":1,"ShortName":"scope_all_leupold_mark4_hamr","SightingRange":800,"Slots":[{"_id":"58d25ebc86f7746f06698c2b","_mergeSlotWithChildren":false,"_name":"mod_scope","_parent":"544a3a774bdc2d3a388b4567","_props":{"filters":[{"Filter":["58d268fc86f774111273f8c2"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.411,"Width":2,"ZoomSensitivity":0,"Zooms":[[4]],"sightModType":"hybrid"},"mod":{"ergonomics":-3.5,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"4x","sightingRange":800,"sightModType":"hybrid","calibrationDistances":[50,100,150,200],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_scope","id":"58d25ebc86f7746f06698c2b","required":false,"filter":["58d268fc86f774111273f8c2"]}],"image":"/images/items/544a3a774bdc2d3a388b4567.jpg","isMod":false}
+{
+  "id": "544a3a774bdc2d3a388b4567",
+  "typeName": "AssaultScope",
+  "category": "mod_scope",
+  "parentTypeChain": [
+    "AssaultScope",
+    "Sights",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f740a86f77447ec5d7706",
+    "price": 42902
+  },
+  "common": {
+    "name": {
+      "zh": "勒波德 Mark 4 HAMR 4x24 DeltaPoint混合式突击瞄准镜",
+      "en": "Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope"
+    },
+    "shortName": {
+      "zh": "HAMR",
+      "en": "HAMR"
+    },
+    "description": {
+      "zh": "这款由Leupold生产的混合式瞄准镜包含Mark 4 HAMR 4x24毫米光学瞄准镜和安装于上方的DeltaPoint反射式瞄准镜。这种瞄准镜可通过4倍光学瞄准镜提供精准的中距离瞄准，并在必要时通过更紧凑的反射式瞄准镜提供更有效的近距离瞄准。",
+      "en": "The Hybrid Leupold-produced scope comprises of the Mark 4 HAMR 4x24mm optical sight with the DeltaPoint reflex sight installed on top of it. It was developed for precision mid-range carbine fire using the 4x optics while being equally effective in close quarters thanks to use of compact reflex sight when necessary."
+    },
+    "weight": 0.46399999999999997,
+    "width": 2,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0,
+      "AimSensitivity": [
+        [
+          0.1138
+        ]
+      ],
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200
+        ]
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CustomAimPlane": "",
+      "Description": "scope_all_leupold_mark4_hamr",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -3.5,
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAdjustableOptic": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ModesCount": [
+        1
+      ],
+      "Name": "scope_all_leupold_mark4_hamr",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/scopes/scope_all_leupold_mark4_hamr.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Superrare",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ScopesCount": 1,
+      "ShortName": "scope_all_leupold_mark4_hamr",
+      "SightingRange": 800,
+      "Slots": [
+        {
+          "_id": "58d25ebc86f7746f06698c2b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "544a3a774bdc2d3a388b4567",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58d268fc86f774111273f8c2"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.411,
+      "Width": 2,
+      "ZoomSensitivity": 0,
+      "Zooms": [
+        [
+          4
+        ]
+      ],
+      "sightModType": "hybrid"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "58d268fc86f774111273f8c2",
+          "name": {
+            "zh": "Leupold DeltaPoint反射式瞄具",
+            "en": "Leupold DeltaPoint Reflex Sight"
+          },
+          "armorClass": 0,
+          "weight": 0.053,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.46399999999999997
+    },
+    "mod": {
+      "ergonomics": -3.5,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "4x",
+      "sightingRange": 800,
+      "sightModType": "hybrid",
+      "calibrationDistances": [
+        50,
+        100,
+        150,
+        200
+      ],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_scope",
+      "id": "58d25ebc86f7746f06698c2b",
+      "required": false,
+      "filter": [
+        "58d268fc86f774111273f8c2"
+      ]
+    }
+  ],
+  "image": "/images/items/544a3a774bdc2d3a388b4567.jpg",
+  "isMod": false
+}

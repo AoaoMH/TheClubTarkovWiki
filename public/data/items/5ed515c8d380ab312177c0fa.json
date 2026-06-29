@@ -1,1 +1,166 @@
-{"id":"5ed515c8d380ab312177c0fa","typeName":"Stimulator","category":"stimulator","parentTypeChain":["Stimulator","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b33a","price":30693},"common":{"name":{"zh":"3-(b-TG) 兴奋剂注射器","en":"3-(b-TG) stimulant injector"},"shortName":{"zh":"3-(b-TG)","en":"3-(b-TG)"},"description":{"zh":"战斗药物。它对中枢神经系统有刺激作用，可增加感知和注意力。它可以通过给肌肉传递更多更强的信号，来稍微改善肌肉力量。活性物质 3-（b-苯基异丙基）是正二苯胺盐酸盐类化合物。只有军医和医护人员才允许使用。","en":"Combat drug. It has a stimulating effect on the Central nervous system. Increases perception and attention. It can slightly improve strength indicators, due to more powerful signals to the muscles. The active substance is 3-(b-Phenylisopropyl)-sydnonimine hydrochloride. Allowed for use only by military doctors and paramedics."},"weight":0.05,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"","DiscardLimit":2,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":8,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_stimulator","LeftHandItem":false,"LootExperience":10,"MaxHpResource":0,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"3-(b-TG)","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_3btg_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"3-(b-TG)","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_3bTG","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_3btg_container.bundle","rcid":""},"Weight":0.05,"Width":1,"effects_damage":[],"effects_health":[],"hpResourceRate":0,"medEffectType":"duringUse","medUseTime":2},"medical":{"medEffectType":"duringUse","medUseTime":2,"maxHpResource":0,"hpResourceRate":0,"effects":{"healthEffects":[],"damageEffects":[],"stimBuffs":[{"buffType":"SkillRate","skillName":"Attention","value":30,"delay":1,"duration":240,"chance":1},{"buffType":"SkillRate","skillName":"Perception","value":30,"delay":1,"duration":240,"chance":1},{"buffType":"SkillRate","skillName":"Strength","value":10,"delay":1,"duration":240,"chance":1},{"buffType":"StaminaRate","skillName":"","value":1,"delay":1,"duration":240,"chance":1},{"buffType":"HandsTremor","skillName":"","value":0,"delay":220,"duration":45,"chance":1},{"buffType":"EnergyRate","skillName":"","value":-0.25,"delay":120,"duration":120,"chance":1}]}}},"slots":[],"image":"/images/items/5ed515c8d380ab312177c0fa.jpg","isMod":false}
+{
+  "id": "5ed515c8d380ab312177c0fa",
+  "typeName": "Stimulator",
+  "category": "stimulator",
+  "parentTypeChain": [
+    "Stimulator",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b33a",
+    "price": 30693
+  },
+  "common": {
+    "name": {
+      "zh": "3-(b-TG) 兴奋剂注射器",
+      "en": "3-(b-TG) stimulant injector"
+    },
+    "shortName": {
+      "zh": "3-(b-TG)",
+      "en": "3-(b-TG)"
+    },
+    "description": {
+      "zh": "战斗药物。它对中枢神经系统有刺激作用，可增加感知和注意力。它可以通过给肌肉传递更多更强的信号，来稍微改善肌肉力量。活性物质 3-（b-苯基异丙基）是正二苯胺盐酸盐类化合物。只有军医和医护人员才允许使用。",
+      "en": "Combat drug. It has a stimulating effect on the Central nervous system. Increases perception and attention. It can slightly improve strength indicators, due to more powerful signals to the muscles. The active substance is 3-(b-Phenylisopropyl)-sydnonimine hydrochloride. Allowed for use only by military doctors and paramedics."
+    },
+    "weight": 0.05,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "",
+      "DiscardLimit": 2,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 8,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_stimulator",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "3-(b-TG)",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_3btg_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "3-(b-TG)",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_3bTG",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_3btg_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.05,
+      "Width": 1,
+      "effects_damage": [],
+      "effects_health": [],
+      "hpResourceRate": 0,
+      "medEffectType": "duringUse",
+      "medUseTime": 2
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 2,
+      "maxHpResource": 0,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [],
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "Attention",
+            "value": 30,
+            "delay": 1,
+            "duration": 240,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Perception",
+            "value": 30,
+            "delay": 1,
+            "duration": 240,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 10,
+            "delay": 1,
+            "duration": 240,
+            "chance": 1
+          },
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 1,
+            "delay": 1,
+            "duration": 240,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 220,
+            "duration": 45,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -0.25,
+            "delay": 120,
+            "duration": 120,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5ed515c8d380ab312177c0fa.jpg",
+  "isMod": false
+}

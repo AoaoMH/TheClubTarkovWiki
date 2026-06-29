@@ -1,1 +1,217 @@
-{"id":"5fbbc366ca32ed67276c1557","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":8200},"common":{"name":{"zh":"Vector 9x19 5英寸枪管","en":"KRISS Vector 9x19 5 inch barrel"},"shortName":{"zh":"5英寸 Vector 9x19","en":"Vector 9x19 5\""},"description":{"zh":"KRISS生产的5英寸 Vector 9x19 螺纹枪管。","en":"A 5 inch (140mm) threaded barrel for the KRISS Vector 9x19 submachine gun."},"weight":0.16,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.19,"ConflictingItems":[],"CoolFactor":1.08,"Description":"barrel_vector_140mm_1143x23\n","DeviationCurve":2.25,"DeviationMax":11,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":0.95,"EffectiveDistance":0,"Ergonomics":0,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.05,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_vector_140mm_1143x23","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_vector_140mm_9x19.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":-3,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_vector_140mm_1143x23","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"5fbbc366ca32ed67276c1559","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"5fbbc366ca32ed67276c1557","_props":{"filters":[{"Filter":["5cf6935bd7f00c06585fb791","5fbbc3324e8a554c40648348","5c7954d52e221600106f4cc7","5fbbc34106bde7524f03cbe9","5a9fb739a2750c003215717f","5c6165902e22160010261b28","5a32a064c4a28200741e22de"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":-2.48,"Weight":0.16,"Width":2},"mod":{"ergonomics":0,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":-2.48,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"5fbbc366ca32ed67276c1559","required":false,"filter":["5cf6935bd7f00c06585fb791","5fbbc3324e8a554c40648348","5c7954d52e221600106f4cc7","5fbbc34106bde7524f03cbe9","5a9fb739a2750c003215717f","5c6165902e22160010261b28","5a32a064c4a28200741e22de"]}],"image":"/images/items/5fbbc366ca32ed67276c1557.jpg","isMod":false}
+{
+  "id": "5fbbc366ca32ed67276c1557",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 8200
+  },
+  "common": {
+    "name": {
+      "zh": "Vector 9x19 5英寸枪管",
+      "en": "KRISS Vector 9x19 5 inch barrel"
+    },
+    "shortName": {
+      "zh": "5英寸 Vector 9x19",
+      "en": "Vector 9x19 5\""
+    },
+    "description": {
+      "zh": "KRISS生产的5英寸 Vector 9x19 螺纹枪管。",
+      "en": "A 5 inch (140mm) threaded barrel for the KRISS Vector 9x19 submachine gun."
+    },
+    "weight": 0.239,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.19,
+      "ConflictingItems": [],
+      "CoolFactor": 1.08,
+      "Description": "barrel_vector_140mm_1143x23\n",
+      "DeviationCurve": 2.25,
+      "DeviationMax": 11,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 0.95,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.05,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_vector_140mm_1143x23",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_vector_140mm_9x19.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": -3,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_vector_140mm_1143x23",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5fbbc366ca32ed67276c1559",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "5fbbc366ca32ed67276c1557",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cf6935bd7f00c06585fb791",
+                  "5fbbc3324e8a554c40648348",
+                  "5c7954d52e221600106f4cc7",
+                  "5fbbc34106bde7524f03cbe9",
+                  "5a9fb739a2750c003215717f",
+                  "5c6165902e22160010261b28",
+                  "5a32a064c4a28200741e22de"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": -2.48,
+      "Weight": 0.16,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5cf6935bd7f00c06585fb791",
+          "name": {
+            "zh": "TACCOM Carbine Brake 9x19制退器",
+            "en": "TACCOM Carbine Brake 9x19 muzzle brake"
+          },
+          "armorClass": 0,
+          "weight": 0.079,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.239
+    },
+    "mod": {
+      "ergonomics": 0,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": -2.48,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "5fbbc366ca32ed67276c1559",
+      "required": false,
+      "filter": [
+        "5cf6935bd7f00c06585fb791",
+        "5fbbc3324e8a554c40648348",
+        "5c7954d52e221600106f4cc7",
+        "5fbbc34106bde7524f03cbe9",
+        "5a9fb739a2750c003215717f",
+        "5c6165902e22160010261b28",
+        "5a32a064c4a28200741e22de"
+      ]
+    }
+  ],
+  "image": "/images/items/5fbbc366ca32ed67276c1557.jpg",
+  "isMod": false
+}

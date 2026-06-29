@@ -1,1 +1,150 @@
-{"id":"66507eabf5ddb0818b085b68","typeName":"Stimulator","category":"stimulator","parentTypeChain":["Stimulator","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b33a","price":87460},"common":{"name":{"zh":"2A2-(b-TG)兴奋剂注射器","en":"2A2-(b-TG) stimulant injector"},"shortName":{"zh":"2A2-(b-TG)","en":"2A2-(b-TG)"},"description":{"zh":"TerraGroup继3-(b-TG)之后的又一款新产品。此产品项目旨在创造一种能在远离物资供应点进行侦查或转移时，依然提供战斗支撑的药物。同时，这款产品需要能够进行手工生产。它可以使中枢神经系统长期保持稳定，帮助战斗人员接触不同环境，并提高负重能力。使用此产品时，脱水速度将会提高。","en":"TerraGroup's next development after the 3-(b-TG) stimulant. The goal of the project was to obtain a drug that would give an advantage in reconnaissance and crossing combat zones far away from supply points. At the same time, the drug is required to be manufacturable in handicraft conditions. The obtained substance allows to keep the CNS in tone for a long period of time, which positively affects the fighter's efficiency to assess the environment, and also enhances their ability to carry equipment. The stimulant’s effective duration is accompanied by increased loss of hydration."},"weight":0.05,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"","DiscardLimit":0,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":8,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_stimulator","LeftHandItem":false,"LootExperience":10,"MaxHpResource":0,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"2A2-(b-TG)","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_2a2_b_tg_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"ShortName":"2A2-(b-TG)","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"Buffs_2A2bTG","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_syringe/item_stimulator_2a2_b_tg_container.bundle","rcid":""},"Weight":0.05,"Width":1,"effects_damage":[],"effects_health":[],"hpResourceRate":0,"medEffectType":"duringUse","medUseTime":2},"medical":{"medEffectType":"duringUse","medUseTime":2,"maxHpResource":0,"hpResourceRate":0,"effects":{"healthEffects":[],"damageEffects":[],"stimBuffs":[{"buffType":"SkillRate","skillName":"Attention","value":10,"delay":1,"duration":900,"chance":1},{"buffType":"SkillRate","skillName":"Perception","value":10,"delay":1,"duration":900,"chance":1},{"buffType":"WeightLimit","skillName":"","value":0.15,"delay":1,"duration":900,"chance":1},{"buffType":"HydrationRate","skillName":"","value":-0.1,"delay":1,"duration":900,"chance":1}]}}},"slots":[],"image":"/images/items/66507eabf5ddb0818b085b68.webp","isMod":false}
+{
+  "id": "66507eabf5ddb0818b085b68",
+  "typeName": "Stimulator",
+  "category": "stimulator",
+  "parentTypeChain": [
+    "Stimulator",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b33a",
+    "price": 87460
+  },
+  "common": {
+    "name": {
+      "zh": "2A2-(b-TG)兴奋剂注射器",
+      "en": "2A2-(b-TG) stimulant injector"
+    },
+    "shortName": {
+      "zh": "2A2-(b-TG)",
+      "en": "2A2-(b-TG)"
+    },
+    "description": {
+      "zh": "TerraGroup继3-(b-TG)之后的又一款新产品。此产品项目旨在创造一种能在远离物资供应点进行侦查或转移时，依然提供战斗支撑的药物。同时，这款产品需要能够进行手工生产。它可以使中枢神经系统长期保持稳定，帮助战斗人员接触不同环境，并提高负重能力。使用此产品时，脱水速度将会提高。",
+      "en": "TerraGroup's next development after the 3-(b-TG) stimulant. The goal of the project was to obtain a drug that would give an advantage in reconnaissance and crossing combat zones far away from supply points. At the same time, the drug is required to be manufacturable in handicraft conditions. The obtained substance allows to keep the CNS in tone for a long period of time, which positively affects the fighter's efficiency to assess the environment, and also enhances their ability to carry equipment. The stimulant’s effective duration is accompanied by increased loss of hydration."
+    },
+    "weight": 0.05,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "",
+      "DiscardLimit": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 8,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_stimulator",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "2A2-(b-TG)",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_2a2_b_tg_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "2A2-(b-TG)",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "Buffs_2A2bTG",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_2a2_b_tg_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.05,
+      "Width": 1,
+      "effects_damage": [],
+      "effects_health": [],
+      "hpResourceRate": 0,
+      "medEffectType": "duringUse",
+      "medUseTime": 2
+    },
+    "medical": {
+      "medEffectType": "duringUse",
+      "medUseTime": 2,
+      "maxHpResource": 0,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [],
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "Attention",
+            "value": 10,
+            "delay": 1,
+            "duration": 900,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Perception",
+            "value": 10,
+            "delay": 1,
+            "duration": 900,
+            "chance": 1
+          },
+          {
+            "buffType": "WeightLimit",
+            "skillName": "",
+            "value": 0.15,
+            "delay": 1,
+            "duration": 900,
+            "chance": 1
+          },
+          {
+            "buffType": "HydrationRate",
+            "skillName": "",
+            "value": -0.1,
+            "delay": 1,
+            "duration": 900,
+            "chance": 1
+          }
+        ]
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/66507eabf5ddb0818b085b68.webp",
+  "isMod": false
+}

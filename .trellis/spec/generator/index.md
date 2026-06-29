@@ -82,6 +82,70 @@ Mod 道具使用 `itemTplToClone` + `overrideProperties` 模式：
 游戏数据中口径为紧凑格式（无点无空格）：`545x39`、`762x39`、`556x45NATO`。
 分类映射和显示名映射在前端 `AmmoPage.tsx` 中维护。
 
+## 护甲数据提取
+
+### 防护区域来源：`armorColliders`
+
+> **Warning**: SPT 数据中 `armorZone` 字段始终为空数组，实际防护区域必须从子组件的 `armorColliders` 读取。
+
+护甲/头盔的防护区域通过 `readChildArmorData()` 从子槽位组件聚合：
+
+| 槽位类型 | `_required` | 数据来源 | 区域字段 |
+|----------|------------|----------|----------|
+| 软甲（内置） | `true` | `armorColliders` | 身体区域（如 `RibcageUp`、`SpineTop`） |
+| 插板（可选） | `false` | `armorPlateColliders` | 插板区域（如 `Plate_Granit_SAPI_chest`） |
+| 头盔组件 | `true` | `armorColliders` | 头部区域（如 `ParietalHead`、`Ears`） |
+
+区域名使用游戏内 collider 标识符，翻译映射在前端 `ARMOR_ZONE_ZH` 维护。
+
+### 内衬等级 vs 有效护甲等级
+
+```typescript
+// softArmorClass: 仅来自必填槽位（软甲组件）→ 显示为「内衬等级」
+// armorClass (effectiveAC): base 和所有子组件的最大值 → 含插板加成
+baseArmorClass = Math.max(p.armorClass, childData.softArmorClass)
+armorClass = Math.max(p.armorClass, childData.maxArmorClass)
+```
+
+### 默认插板提取
+
+可选槽位的第一个 `Filter` 项视为默认插板，提取为 `DefaultPlate`：
+
+```typescript
+interface DefaultPlate {
+  id: string                          // 插板物品 ID（前端跳转用）
+  name: { zh: string; en: string }    // 翻译名称
+  armorClass: number                  // 插板护甲等级
+  weight: number                      // 插板重量
+  count: number                       // 使用数量（同名合并）
+}
+```
+
+同名插板自动合并 count（如前后用同一插板 → count=2）。
+
+### 总重量计算
+
+插板类护甲的总重 = 基础重量 + 所有默认插板重量：
+```typescript
+totalWeight = baseWeight + childData.plateWeight
+```
+前端通用信息中的 weight 使用 `armor.totalWeight || item.common.weight`。
+
+### 惩罚字段双名称
+
+护甲道具的惩罚字段有两种命名，提取时必须兼容：
+
+| 用途 | 字段 A | 字段 B |
+|------|--------|--------|
+| 移速惩罚 | `SpeedPenalty` | `speedPenaltyPercent` |
+| 人机惩罚 | `ErgonomicsPenalty` | `weaponErgonomicPenalty` |
+| 转向惩罚 | `mousePenalty` | — |
+
+## JSON 输出格式
+
+所有 JSON 文件使用 `JSON.stringify(data, null, 2)` 格式化输出，保证 git diff 可读。
+`search-index.json` 除外（体积大，保持紧凑）。
+
 ## 效果数据
 
 - `effects_health` → 属性变化（能量/水分/治疗状态）

@@ -1,1 +1,185 @@
-{"id":"68e00daaa838761ebcba47cb","typeName":"Bipod","category":"mod_foregrip","parentTypeChain":["Bipod","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"Valmet M78 两脚架","en":"Valmet M78 Bipod"},"shortName":{"zh":"M78","en":"M78 Bipod"},"description":{"zh":"M78型7.62x51毫米轻机枪的标准配置两脚架。","en":"Standard issue bipod for the M78 7.62x51 light machinegun."},"weight":0.47,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BipodCameraSnapMultiplier":1,"BipodOutOfStaminaBreathMultiplier":0.1,"BipodRecoilMultiplier":0.2,"BipodReturnHandSpeedMultiplier":1,"BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["68e03bc3709d4e16c56555ce","68e00e6f68065099baaf5791","68e00e6f68065099baaf5791"],"Description":"Написать","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-7,"ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"generic","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Сошки Ижмаш СВ-98","NotShownInSlot":false,"PitchLimitProneBipod":{"x":-4,"y":6,"z":0},"Prefab":{"path":"WeaponM78/bipod_m78.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-3.5,"RepairCost":0,"RepairSpeed":0,"ShortName":"Сошки СВ-98","SightingRange":0,"Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.47,"Width":2,"YawLimitProneBipod":{"x":-15,"y":15,"z":0}},"mod":{"ergonomics":-7,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"68e03bc3709d4e16c56555ce","name":{"zh":"Valmet M78 四轨护木","en":"Valmet M78 quad rail handguard"},"isWikiItem":true},{"id":"68e00e6f68065099baaf5791","name":{"zh":"Valmet M78 基座","en":"Valmet M78 tactical barrel mount"},"isWikiItem":true},{"id":"68e00e6f68065099baaf5791","name":{"zh":"Valmet M78 基座","en":"Valmet M78 tactical barrel mount"},"isWikiItem":true}]},"slots":[],"image":null,"isMod":true}
+{
+  "id": "68e00daaa838761ebcba47cb",
+  "typeName": "Bipod",
+  "category": "mod_foregrip",
+  "parentTypeChain": [
+    "Bipod",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "Valmet M78 两脚架",
+      "en": "Valmet M78 Bipod"
+    },
+    "shortName": {
+      "zh": "M78",
+      "en": "M78 Bipod"
+    },
+    "description": {
+      "zh": "M78型7.62x51毫米轻机枪的标准配置两脚架。",
+      "en": "Standard issue bipod for the M78 7.62x51 light machinegun."
+    },
+    "weight": 0.47,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BipodCameraSnapMultiplier": 1,
+      "BipodOutOfStaminaBreathMultiplier": 0.1,
+      "BipodRecoilMultiplier": 0.2,
+      "BipodReturnHandSpeedMultiplier": 1,
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "68e03bc3709d4e16c56555ce",
+        "68e00e6f68065099baaf5791",
+        "68e00e6f68065099baaf5791"
+      ],
+      "Description": "Написать",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -7,
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "generic",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Сошки Ижмаш СВ-98",
+      "NotShownInSlot": false,
+      "PitchLimitProneBipod": {
+        "x": -4,
+        "y": 6,
+        "z": 0
+      },
+      "Prefab": {
+        "path": "WeaponM78/bipod_m78.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -3.5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "Сошки СВ-98",
+      "SightingRange": 0,
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.47,
+      "Width": 2,
+      "YawLimitProneBipod": {
+        "x": -15,
+        "y": 15,
+        "z": 0
+      }
+    },
+    "mod": {
+      "ergonomics": -7,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "68e03bc3709d4e16c56555ce",
+        "name": {
+          "zh": "Valmet M78 四轨护木",
+          "en": "Valmet M78 quad rail handguard"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68e00e6f68065099baaf5791",
+        "name": {
+          "zh": "Valmet M78 基座",
+          "en": "Valmet M78 tactical barrel mount"
+        },
+        "isWikiItem": true
+      },
+      {
+        "id": "68e00e6f68065099baaf5791",
+        "name": {
+          "zh": "Valmet M78 基座",
+          "en": "Valmet M78 tactical barrel mount"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [],
+  "image": null,
+  "isMod": true
+}

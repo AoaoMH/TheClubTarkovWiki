@@ -1,1 +1,250 @@
-{"id":"68540a100103119fd00e115a","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"MP-155 12 铅径 750 毫米枪管","en":"MP-155 12ga 750mm barrel"},"shortName":{"zh":"MP155 750mm","en":"MP155 750mm"},"description":{"zh":"适用于 12 铅径 MP-155 霰弹枪的标准量产型 750 毫米枪管，上方带有肋状基座，可安装导轨或其他配件。","en":"A standard serially produced 750mm barrel with a vent rib for MP-155 12 gauge shotguns."},"weight":0.8,"width":5,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.44,"ConflictingItems":[],"CoolFactor":0.9,"Description":"barrel_mp155_vent_rib_750mm_12g","DeviationCurve":2.6,"DeviationMax":9.8,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.02,"EffectiveDistance":0,"Ergonomics":-12,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":3,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.86,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_mp155_vent_rib_750mm_12g","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_mp155_vent_rib_750mm_12g.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-9,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_mp155_vent_rib_750mm_12g","ShotgunDispersion":1.26,"SightingRange":0,"Slots":[{"_name":"mod_muzzle","_id":"68540a100103119fd00e115c","_parent":"68540a100103119fd00e115a","_props":{"filters":[{"Filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"],"Shift":0}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"},{"_name":"mod_mount","_id":"68540a680103119fd00e115d","_parent":"68540a100103119fd00e115a","_props":{"filters":[{"Filter":["609b9e31506cf869cf3eaf41","5dfe14f30b92095fd441edaf"],"Shift":0}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":15.6,"Weight":0.8,"Width":5,"IsNotDeletableFromQuestStashAfterQuestComplete":false,"RagfairLevelToTrade":0,"CategoryAnimationModId":0},"mod":{"ergonomics":-12,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":15.6,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"68540a100103119fd00e115c","required":false,"filter":["5c0111ab0db834001966914d","560838c94bdc2d77798b4569","5b363dea5acfc4771e1c5e7e"]},{"name":"mod_mount","id":"68540a680103119fd00e115d","required":false,"filter":["609b9e31506cf869cf3eaf41","5dfe14f30b92095fd441edaf"]}],"image":null,"isMod":true}
+{
+  "id": "68540a100103119fd00e115a",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "MP-155 12 铅径 750 毫米枪管",
+      "en": "MP-155 12ga 750mm barrel"
+    },
+    "shortName": {
+      "zh": "MP155 750mm",
+      "en": "MP155 750mm"
+    },
+    "description": {
+      "zh": "适用于 12 铅径 MP-155 霰弹枪的标准量产型 750 毫米枪管，上方带有肋状基座，可安装导轨或其他配件。",
+      "en": "A standard serially produced 750mm barrel with a vent rib for MP-155 12 gauge shotguns."
+    },
+    "weight": 1.13,
+    "width": 5,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.44,
+      "ConflictingItems": [],
+      "CoolFactor": 0.9,
+      "Description": "barrel_mp155_vent_rib_750mm_12g",
+      "DeviationCurve": 2.6,
+      "DeviationMax": 9.8,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.02,
+      "EffectiveDistance": 0,
+      "Ergonomics": -12,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 3,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.86,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_mp155_vent_rib_750mm_12g",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_mp155_vent_rib_750mm_12g.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -9,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_mp155_vent_rib_750mm_12g",
+      "ShotgunDispersion": 1.26,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_name": "mod_muzzle",
+          "_id": "68540a100103119fd00e115c",
+          "_parent": "68540a100103119fd00e115a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0111ab0db834001966914d",
+                  "560838c94bdc2d77798b4569",
+                  "5b363dea5acfc4771e1c5e7e"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount",
+          "_id": "68540a680103119fd00e115d",
+          "_parent": "68540a100103119fd00e115a",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "609b9e31506cf869cf3eaf41",
+                  "5dfe14f30b92095fd441edaf"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 15.6,
+      "Weight": 0.8,
+      "Width": 5,
+      "IsNotDeletableFromQuestStashAfterQuestComplete": false,
+      "RagfairLevelToTrade": 0,
+      "CategoryAnimationModId": 0
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5c0111ab0db834001966914d",
+          "name": {
+            "zh": "ME Cylinder 12铅径膛口转接器",
+            "en": "ME Cylinder 12ga muzzle adapter"
+          },
+          "armorClass": 0,
+          "weight": 0.12,
+          "count": 1
+        },
+        {
+          "id": "609b9e31506cf869cf3eaf41",
+          "name": {
+            "zh": "VOMZ PILAD Target Ring反射式瞄具",
+            "en": "VOMZ Pilad TargetRing reflex sight"
+          },
+          "armorClass": 0,
+          "weight": 0.21,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.13
+    },
+    "mod": {
+      "ergonomics": -12,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 15.6,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "68540a100103119fd00e115c",
+      "required": false,
+      "filter": [
+        "5c0111ab0db834001966914d",
+        "560838c94bdc2d77798b4569",
+        "5b363dea5acfc4771e1c5e7e"
+      ]
+    },
+    {
+      "name": "mod_mount",
+      "id": "68540a680103119fd00e115d",
+      "required": false,
+      "filter": [
+        "609b9e31506cf869cf3eaf41",
+        "5dfe14f30b92095fd441edaf"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

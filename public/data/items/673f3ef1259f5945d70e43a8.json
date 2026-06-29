@@ -1,1 +1,204 @@
-{"id":"673f3ef1259f5945d70e43a8","typeName":"FlashHider","category":"mod_muzzle","parentTypeChain":["FlashHider","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f724c86f774093f2ecf15","price":19500},"common":{"name":{"zh":"Ase Utra BoreLock .338 LM 膛口制退器","en":"Ase Utra BoreLock .338 LM muzzle brake"},"shortName":{"zh":"BoreLock .338","en":"BoreLock .338"},"description":{"zh":"由 Ase Utra 针对 .338 LM (8.6x70) 口径的大口径枪械人而打造的膛口制退器。可有效降低后坐力，补偿枪口上跳。该制退器与 BoreLock 样式的消音器相兼容。","en":"A muzzle brake manufactured by Ase Utra for .338 LM (8.6x70). Reduces recoil and counters the muzzle rise. The brake is threaded and compatible with BoreLock-type sound suppressors."},"weight":0.192,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":1,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"muzzle_all_aseutra_borelock_muzzle_brake_86x70","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":5,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.98,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":25,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"muzzle_all_aseutra_borelock_muzzle_brake_86x70","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/muzzle/muzzle_all_aseutra_borelock_muzzle_brake_86x70.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Superrare","Recoil":-5,"RepairCost":0,"RepairSpeed":0,"ShortName":"muzzle_all_aseutra_borelock_muzzle_brake_86x70","SightingRange":0,"Slots":[{"_id":"673f3ef1259f5945d70e43aa","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"673f3ef1259f5945d70e43a8","_props":{"filters":[{"Filter":["673f3f2f40aeca974e0b5c66","673f0a38259f5945d70e43a6"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.192,"Width":1,"muzzleModType":"brake"},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":1,"loudness":25,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"brake","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"673f3ef1259f5945d70e43aa","required":false,"filter":["673f3f2f40aeca974e0b5c66","673f0a38259f5945d70e43a6"]}],"image":"/images/items/673f3ef1259f5945d70e43a8.webp","isMod":false}
+{
+  "id": "673f3ef1259f5945d70e43a8",
+  "typeName": "FlashHider",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "FlashHider",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f724c86f774093f2ecf15",
+    "price": 19500
+  },
+  "common": {
+    "name": {
+      "zh": "Ase Utra BoreLock .338 LM 膛口制退器",
+      "en": "Ase Utra BoreLock .338 LM muzzle brake"
+    },
+    "shortName": {
+      "zh": "BoreLock .338",
+      "en": "BoreLock .338"
+    },
+    "description": {
+      "zh": "由 Ase Utra 针对 .338 LM (8.6x70) 口径的大口径枪械人而打造的膛口制退器。可有效降低后坐力，补偿枪口上跳。该制退器与 BoreLock 样式的消音器相兼容。",
+      "en": "A muzzle brake manufactured by Ase Utra for .338 LM (8.6x70). Reduces recoil and counters the muzzle rise. The brake is threaded and compatible with BoreLock-type sound suppressors."
+    },
+    "weight": 0.28400000000000003,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 1,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "muzzle_all_aseutra_borelock_muzzle_brake_86x70",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 5,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.98,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 25,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "muzzle_all_aseutra_borelock_muzzle_brake_86x70",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/muzzle/muzzle_all_aseutra_borelock_muzzle_brake_86x70.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Superrare",
+      "Recoil": -5,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "muzzle_all_aseutra_borelock_muzzle_brake_86x70",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "673f3ef1259f5945d70e43aa",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "673f3ef1259f5945d70e43a8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "673f3f2f40aeca974e0b5c66",
+                  "673f0a38259f5945d70e43a6"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.192,
+      "Width": 1,
+      "muzzleModType": "brake"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "673f3f2f40aeca974e0b5c66",
+          "name": {
+            "zh": "Ase Utra BoreLock 螺纹保护帽",
+            "en": "Ase Utra BoreLock thread protector"
+          },
+          "armorClass": 0,
+          "weight": 0.092,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.28400000000000003
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 1,
+      "loudness": 25,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "brake",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "673f3ef1259f5945d70e43aa",
+      "required": false,
+      "filter": [
+        "673f3f2f40aeca974e0b5c66",
+        "673f0a38259f5945d70e43a6"
+      ]
+    }
+  ],
+  "image": "/images/items/673f3ef1259f5945d70e43a8.webp",
+  "isMod": false
+}

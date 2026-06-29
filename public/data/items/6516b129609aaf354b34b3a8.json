@@ -1,1 +1,213 @@
-{"id":"6516b129609aaf354b34b3a8","typeName":"PistolGrip","category":"mod_other","parentTypeChain":["PistolGrip","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f761f86f774094242f1a1","price":1240},"common":{"name":{"zh":"SVDS Lynx Arms AK手枪式握把转接器","en":"SVDS Lynx Arms AK-series pistol grip adapter"},"shortName":{"zh":"P-SVD-S","en":"P-SVD-S"},"description":{"zh":"能将AK系列手枪式握把安装在SVDS上的转接器。","en":"An adapter that allows installation of AK-series pistol grips on SVDS. Manufactured by Lynx Arms."},"weight":0.033,"width":1,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"pistolgrip_ak_izhmash_ak74_bakelit","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-1,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"pistolgrip_ak_izhmash_ak74_bakelit","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/pistol grips/pistolgrip_svd_s_lynxarms_svd_s_to_ak_adapter.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"pistolgrip_ak_izhmash_ak74_bakelit","SightingRange":0,"Slots":[{"_id":"6516b176caa50259d91deb76","_mergeSlotWithChildren":false,"_name":"mod_pistolgrip","_parent":"6516b129609aaf354b34b3a8","_props":{"filters":[{"Filter":["5f6341043ada5942720e2dc5","6087e663132d4d12c81fd96b","5649ad3f4bdc2df8348b4585","5649ade84bdc2d1b2b8b4587","59e62cc886f77440d40b52a1","5a0071d486f77404e23a12b2","57e3dba62459770f0c32322b","5cf54404d7f00c108840b2ef","5e2192a498a36665e8337386","5b30ac585acfc433000eb79c","59e6318286f77444dd62c4cc","5cf50850d7f00c056e24104c","5cf508bfd7f00c056e24104e","5947f92f86f77427344a76b1","5947fa2486f77425b47c1a9b","5c6bf4aa2e2216001219b0ae","5649ae4a4bdc2d1b2b8b4588","628a664bccaab13006640e47","628c9ab845c59e5b80768a81","63f4da90f31d4a33b87bd054","648ae3e356c6310a830fc291","651580dc71a4f10aec4b6056","623c3be0484b5003161840dc"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.033,"Width":1},"mod":{"ergonomics":-1,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_pistolgrip","id":"6516b176caa50259d91deb76","required":true,"filter":["5f6341043ada5942720e2dc5","6087e663132d4d12c81fd96b","5649ad3f4bdc2df8348b4585","5649ade84bdc2d1b2b8b4587","59e62cc886f77440d40b52a1","5a0071d486f77404e23a12b2","57e3dba62459770f0c32322b","5cf54404d7f00c108840b2ef","5e2192a498a36665e8337386","5b30ac585acfc433000eb79c","59e6318286f77444dd62c4cc","5cf50850d7f00c056e24104c","5cf508bfd7f00c056e24104e","5947f92f86f77427344a76b1","5947fa2486f77425b47c1a9b","5c6bf4aa2e2216001219b0ae","5649ae4a4bdc2d1b2b8b4588","628a664bccaab13006640e47","628c9ab845c59e5b80768a81","63f4da90f31d4a33b87bd054","648ae3e356c6310a830fc291","651580dc71a4f10aec4b6056","623c3be0484b5003161840dc"]}],"image":"/images/items/6516b129609aaf354b34b3a8.webp","isMod":false}
+{
+  "id": "6516b129609aaf354b34b3a8",
+  "typeName": "PistolGrip",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "PistolGrip",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f761f86f774094242f1a1",
+    "price": 1240
+  },
+  "common": {
+    "name": {
+      "zh": "SVDS Lynx Arms AK手枪式握把转接器",
+      "en": "SVDS Lynx Arms AK-series pistol grip adapter"
+    },
+    "shortName": {
+      "zh": "P-SVD-S",
+      "en": "P-SVD-S"
+    },
+    "description": {
+      "zh": "能将AK系列手枪式握把安装在SVDS上的转接器。",
+      "en": "An adapter that allows installation of AK-series pistol grips on SVDS. Manufactured by Lynx Arms."
+    },
+    "weight": 0.033,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "pistolgrip_ak_izhmash_ak74_bakelit",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "pistolgrip_ak_izhmash_ak74_bakelit",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/pistol grips/pistolgrip_svd_s_lynxarms_svd_s_to_ak_adapter.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "pistolgrip_ak_izhmash_ak74_bakelit",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "6516b176caa50259d91deb76",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_pistolgrip",
+          "_parent": "6516b129609aaf354b34b3a8",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5f6341043ada5942720e2dc5",
+                  "6087e663132d4d12c81fd96b",
+                  "5649ad3f4bdc2df8348b4585",
+                  "5649ade84bdc2d1b2b8b4587",
+                  "59e62cc886f77440d40b52a1",
+                  "5a0071d486f77404e23a12b2",
+                  "57e3dba62459770f0c32322b",
+                  "5cf54404d7f00c108840b2ef",
+                  "5e2192a498a36665e8337386",
+                  "5b30ac585acfc433000eb79c",
+                  "59e6318286f77444dd62c4cc",
+                  "5cf50850d7f00c056e24104c",
+                  "5cf508bfd7f00c056e24104e",
+                  "5947f92f86f77427344a76b1",
+                  "5947fa2486f77425b47c1a9b",
+                  "5c6bf4aa2e2216001219b0ae",
+                  "5649ae4a4bdc2d1b2b8b4588",
+                  "628a664bccaab13006640e47",
+                  "628c9ab845c59e5b80768a81",
+                  "63f4da90f31d4a33b87bd054",
+                  "648ae3e356c6310a830fc291",
+                  "651580dc71a4f10aec4b6056",
+                  "623c3be0484b5003161840dc"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.033,
+      "Width": 1
+    },
+    "mod": {
+      "ergonomics": -1,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_pistolgrip",
+      "id": "6516b176caa50259d91deb76",
+      "required": true,
+      "filter": [
+        "5f6341043ada5942720e2dc5",
+        "6087e663132d4d12c81fd96b",
+        "5649ad3f4bdc2df8348b4585",
+        "5649ade84bdc2d1b2b8b4587",
+        "59e62cc886f77440d40b52a1",
+        "5a0071d486f77404e23a12b2",
+        "57e3dba62459770f0c32322b",
+        "5cf54404d7f00c108840b2ef",
+        "5e2192a498a36665e8337386",
+        "5b30ac585acfc433000eb79c",
+        "59e6318286f77444dd62c4cc",
+        "5cf50850d7f00c056e24104c",
+        "5cf508bfd7f00c056e24104e",
+        "5947f92f86f77427344a76b1",
+        "5947fa2486f77425b47c1a9b",
+        "5c6bf4aa2e2216001219b0ae",
+        "5649ae4a4bdc2d1b2b8b4588",
+        "628a664bccaab13006640e47",
+        "628c9ab845c59e5b80768a81",
+        "63f4da90f31d4a33b87bd054",
+        "648ae3e356c6310a830fc291",
+        "651580dc71a4f10aec4b6056",
+        "623c3be0484b5003161840dc"
+      ]
+    }
+  ],
+  "image": "/images/items/6516b129609aaf354b34b3a8.webp",
+  "isMod": false
+}

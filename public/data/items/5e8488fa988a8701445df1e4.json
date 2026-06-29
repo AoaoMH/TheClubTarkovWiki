@@ -1,1 +1,129 @@
-{"id":"5e8488fa988a8701445df1e4","typeName":"Medical","category":"medical","parentTypeChain":["Medical","Meds","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b339","price":5712},"common":{"name":{"zh":"CALOK-B止血剂","en":"CALOK-B hemostatic applicator"},"shortName":{"zh":"止血剂","en":"CALOK-B"},"description":{"zh":"CALOK-B止血剂，让您能在几秒钟内通过开放伤口直接向出血源注射止血颗粒。","en":"The CALOK-B applicator hemostatic agent allows you to inject hemostatic granules through a wound opening directly to the source of bleeding in just a few seconds."},"weight":0.043,"width":1,"height":1,"rarity":"Rare","backgroundColor":"orange"},"properties":{"_raw":{"AnimationVariantsNumber":2,"BackgroundColor":"orange","BodyPartPriority":[],"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"ConflictingItems":[],"Description":"item_meds_hemostatic","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"med_bandage","LeftHandItem":false,"LootExperience":10,"MaxHpResource":3,"MergesWithChildren":false,"MetascoreGroup":"Utility","Name":"item_meds_hemostatic","NotShownInSlot":false,"Prefab":{"path":"assets/content/weapons/usable_items/item_meds_hemostatic/item_meds_hemostatic_loot.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Rare","RepairCost":0,"RepairSpeed":0,"ShortName":"item_meds_hemostatic","StackMaxSize":1,"StackObjectsCount":1,"StimulatorBuffs":"","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"assets/content/weapons/usable_items/item_meds_hemostatic/item_meds_hemostatic_container.bundle","rcid":""},"Weight":0.043,"Width":1,"effects_damage":{"HeavyBleeding":{"delay":0,"duration":0,"fadeOut":0}},"effects_health":[],"hpResourceRate":0,"medEffectType":"afterUse","medUseTime":3},"medical":{"medEffectType":"afterUse","medUseTime":3,"maxHpResource":3,"hpResourceRate":0,"effects":{"healthEffects":[],"damageEffects":[{"type":"HeavyBleeding","delay":0,"duration":0}],"stimBuffs":[]}}},"slots":[],"image":"/images/items/5e8488fa988a8701445df1e4.jpg","isMod":false}
+{
+  "id": "5e8488fa988a8701445df1e4",
+  "typeName": "Medical",
+  "category": "medical",
+  "parentTypeChain": [
+    "Medical",
+    "Meds",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b339",
+    "price": 5712
+  },
+  "common": {
+    "name": {
+      "zh": "CALOK-B止血剂",
+      "en": "CALOK-B hemostatic applicator"
+    },
+    "shortName": {
+      "zh": "止血剂",
+      "en": "CALOK-B"
+    },
+    "description": {
+      "zh": "CALOK-B止血剂，让您能在几秒钟内通过开放伤口直接向出血源注射止血颗粒。",
+      "en": "The CALOK-B applicator hemostatic agent allows you to inject hemostatic granules through a wound opening directly to the source of bleeding in just a few seconds."
+    },
+    "weight": 0.043,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 2,
+      "BackgroundColor": "orange",
+      "BodyPartPriority": [],
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "ConflictingItems": [],
+      "Description": "item_meds_hemostatic",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "med_bandage",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "MaxHpResource": 3,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "Name": "item_meds_hemostatic",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/weapons/usable_items/item_meds_hemostatic/item_meds_hemostatic_loot.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "item_meds_hemostatic",
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "StimulatorBuffs": "",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "assets/content/weapons/usable_items/item_meds_hemostatic/item_meds_hemostatic_container.bundle",
+        "rcid": ""
+      },
+      "Weight": 0.043,
+      "Width": 1,
+      "effects_damage": {
+        "HeavyBleeding": {
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0
+        }
+      },
+      "effects_health": [],
+      "hpResourceRate": 0,
+      "medEffectType": "afterUse",
+      "medUseTime": 3
+    },
+    "medical": {
+      "medEffectType": "afterUse",
+      "medUseTime": 3,
+      "maxHpResource": 3,
+      "hpResourceRate": 0,
+      "effects": {
+        "healthEffects": [],
+        "damageEffects": [
+          {
+            "type": "HeavyBleeding",
+            "delay": 0,
+            "duration": 0
+          }
+        ],
+        "stimBuffs": []
+      }
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5e8488fa988a8701445df1e4.jpg",
+  "isMod": false
+}

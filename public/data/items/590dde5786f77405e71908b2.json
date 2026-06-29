@@ -1,1 +1,131 @@
-{"id":"590dde5786f77405e71908b2","typeName":"LockableContainer","category":"container","parentTypeChain":["LockableContainer","CompoundItem","Item"],"handbook":{"categoryId":"5b619f1a86f77450a702a6f3","price":0},"common":{"name":{"zh":"银行手提箱","en":"Bank case"},"shortName":{"zh":"手提箱","en":"Case"},"description":{"zh":"加固过的的银行手提箱。显然包含某些贵重的东西，并且挺过了数次暴力开启的尝试。","en":"An armored bank case. It clearly hides something valuable, and thus survived many attempts of breaking it open."},"weight":7,"width":4,"height":4,"rarity":"Not_exist","backgroundColor":"yellow"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"yellow","CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"Bank case","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":50,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[{"_id":"590dde5786f77405e71908b3","_name":"main","_parent":"590dde5786f77405e71908b2","_props":{"cellsH":4,"cellsV":4,"filters":[{"ExcludedFilter":[],"Filter":["543be5dd4bdc2deb348b4569"]}],"isSortingTable":false,"maxCount":0,"maxWeight":0,"minCount":0},"_proto":"55d329c24bdc2d892f8b4567"}],"Height":4,"HideEntrails":true,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"container_case","KeyIds":["5751961824597720a31c09ac"],"LeftHandItem":false,"LootExperience":100,"MergesWithChildren":false,"Name":"Bank case","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/quest/item_quest_container_case_bank/item_quest_container_case_bank.bundle","rcid":""},"QuestItem":true,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"ShortName":"Bank case","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"TagColor":0,"TagName":"","Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":7,"Width":4}},"slots":[],"image":"/images/items/590dde5786f77405e71908b2.jpg","isMod":false}
+{
+  "id": "590dde5786f77405e71908b2",
+  "typeName": "LockableContainer",
+  "category": "container",
+  "parentTypeChain": [
+    "LockableContainer",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b619f1a86f77450a702a6f3",
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "银行手提箱",
+      "en": "Bank case"
+    },
+    "shortName": {
+      "zh": "手提箱",
+      "en": "Case"
+    },
+    "description": {
+      "zh": "加固过的的银行手提箱。显然包含某些贵重的东西，并且挺过了数次暴力开启的尝试。",
+      "en": "An armored bank case. It clearly hides something valuable, and thus survived many attempts of breaking it open."
+    },
+    "weight": 7,
+    "width": 4,
+    "height": 4,
+    "rarity": "Not_exist",
+    "backgroundColor": "yellow"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "yellow",
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "Bank case",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 50,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [
+        {
+          "_id": "590dde5786f77405e71908b3",
+          "_name": "main",
+          "_parent": "590dde5786f77405e71908b2",
+          "_props": {
+            "cellsH": 4,
+            "cellsV": 4,
+            "filters": [
+              {
+                "ExcludedFilter": [],
+                "Filter": [
+                  "543be5dd4bdc2deb348b4569"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Height": 4,
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "container_case",
+      "KeyIds": [
+        "5751961824597720a31c09ac"
+      ],
+      "LeftHandItem": false,
+      "LootExperience": 100,
+      "MergesWithChildren": false,
+      "Name": "Bank case",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/quest/item_quest_container_case_bank/item_quest_container_case_bank.bundle",
+        "rcid": ""
+      },
+      "QuestItem": true,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "Bank case",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "TagColor": 0,
+      "TagName": "",
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 7,
+      "Width": 4
+    }
+  },
+  "slots": [],
+  "image": "/images/items/590dde5786f77405e71908b2.jpg",
+  "isMod": false
+}

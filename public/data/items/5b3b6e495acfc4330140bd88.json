@@ -1,1 +1,280 @@
-{"id":"5b3b6e495acfc4330140bd88","typeName":"SpecialScope","category":"mod_scope","parentTypeChain":["SpecialScope","Sights","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f749986f774094242f199","price":46950},"common":{"name":{"zh":"Vulcan MG 3.5x夜视瞄准镜","en":"Armasight Vulcan MG 3.5x Bravo night vision scope"},"shortName":{"zh":"Vulcan MG 3.5x","en":"Vulcan MG 3.5x"},"description":{"zh":"由Armasight制造的Vulcan MG是第三代夜视瞄准镜，拥有3.5x倍率。 ","en":"Vulcan MG is a 3rd generation night vision scope with a 3.5x magnification manufactured by Armasight."},"weight":0.9,"width":2,"height":1,"rarity":"Superrare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AdjustableOpticSensitivity":0,"AdjustableOpticSensitivityMax":0,"AimSensitivity":[[0.13]],"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CalibrationDistances":[[50,100,150,200]],"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CustomAimPlane":"","Description":"scope_base_armasight_vulcan_gen3_bravo_mg_3,5x","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-15,"ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAdjustableOptic":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","MinMaxFov":{"x":0,"y":0,"z":0},"ModesCount":[1],"Name":"scope_base_armasight_vulcan_gen3_bravo_mg_3,5x","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/scopes/scope_base_armasight_vulcan_gen3_bravo_mg_3,5x.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Superrare","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ScopesCount":1,"ShortName":"scope_base_armasight_vulcan_gen3_bravo_mg_3,5x","SightingRange":500,"Slots":[{"_id":"5b3b7b205acfc4001638810b","_mergeSlotWithChildren":false,"_name":"mod_scope","_parent":"5b3b6e495acfc4330140bd88","_props":{"filters":[{"Filter":["57ae0171245977343c27bfcf","58d39d3d86f77445bb794ae7","577d128124597739d65d0e56","58d2664f86f7747fec5834f6","5a33b2c9c4a282000c5a9511"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"5b3cbcaf5acfc400194776a3","_mergeSlotWithChildren":false,"_name":"mod_tactical","_parent":"5b3b6e495acfc4330140bd88","_props":{"filters":[{"Filter":["5b3cbc235acfc4001863ac44"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.9,"Width":2,"ZoomSensitivity":0,"Zooms":[[3.5]],"sightModType":"optic"},"mod":{"ergonomics":-15,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"3.5x","sightingRange":500,"sightModType":"optic","calibrationDistances":[50,100,150,200],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_scope","id":"5b3b7b205acfc4001638810b","required":false,"filter":["57ae0171245977343c27bfcf","58d39d3d86f77445bb794ae7","577d128124597739d65d0e56","58d2664f86f7747fec5834f6","5a33b2c9c4a282000c5a9511"]},{"name":"mod_tactical","id":"5b3cbcaf5acfc400194776a3","required":false,"filter":["5b3cbc235acfc4001863ac44"]}],"image":"/images/items/5b3b6e495acfc4330140bd88.jpg","isMod":false}
+{
+  "id": "5b3b6e495acfc4330140bd88",
+  "typeName": "SpecialScope",
+  "category": "mod_scope",
+  "parentTypeChain": [
+    "SpecialScope",
+    "Sights",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f749986f774094242f199",
+    "price": 46950
+  },
+  "common": {
+    "name": {
+      "zh": "Vulcan MG 3.5x夜视瞄准镜",
+      "en": "Armasight Vulcan MG 3.5x Bravo night vision scope"
+    },
+    "shortName": {
+      "zh": "Vulcan MG 3.5x",
+      "en": "Vulcan MG 3.5x"
+    },
+    "description": {
+      "zh": "由Armasight制造的Vulcan MG是第三代夜视瞄准镜，拥有3.5x倍率。 ",
+      "en": "Vulcan MG is a 3rd generation night vision scope with a 3.5x magnification manufactured by Armasight."
+    },
+    "weight": 0.995,
+    "width": 2,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0,
+      "AimSensitivity": [
+        [
+          0.13
+        ]
+      ],
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200
+        ]
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CustomAimPlane": "",
+      "Description": "scope_base_armasight_vulcan_gen3_bravo_mg_3,5x",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -15,
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAdjustableOptic": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "ModesCount": [
+        1
+      ],
+      "Name": "scope_base_armasight_vulcan_gen3_bravo_mg_3,5x",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/scopes/scope_base_armasight_vulcan_gen3_bravo_mg_3,5x.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Superrare",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ScopesCount": 1,
+      "ShortName": "scope_base_armasight_vulcan_gen3_bravo_mg_3,5x",
+      "SightingRange": 500,
+      "Slots": [
+        {
+          "_id": "5b3b7b205acfc4001638810b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "5b3b6e495acfc4330140bd88",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57ae0171245977343c27bfcf",
+                  "58d39d3d86f77445bb794ae7",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5a33b2c9c4a282000c5a9511"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "5b3cbcaf5acfc400194776a3",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "5b3b6e495acfc4330140bd88",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5b3cbc235acfc4001863ac44"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.9,
+      "Width": 2,
+      "ZoomSensitivity": 0,
+      "Zooms": [
+        [
+          3.5
+        ]
+      ],
+      "sightModType": "optic"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "57ae0171245977343c27bfcf",
+          "name": {
+            "zh": "Belomo PK-06反射式瞄具",
+            "en": "BelOMO PK-06 reflex sight"
+          },
+          "armorClass": 0,
+          "weight": 0.09,
+          "count": 1
+        },
+        {
+          "id": "5b3cbc235acfc4001863ac44",
+          "name": {
+            "zh": "Vulcan MG瞄准镜眼罩",
+            "en": "Armasight Vulcan MG scope eyecup"
+          },
+          "armorClass": 0,
+          "weight": 0.005,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.995
+    },
+    "mod": {
+      "ergonomics": -15,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "3.5x",
+      "sightingRange": 500,
+      "sightModType": "optic",
+      "calibrationDistances": [
+        50,
+        100,
+        150,
+        200
+      ],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_scope",
+      "id": "5b3b7b205acfc4001638810b",
+      "required": false,
+      "filter": [
+        "57ae0171245977343c27bfcf",
+        "58d39d3d86f77445bb794ae7",
+        "577d128124597739d65d0e56",
+        "58d2664f86f7747fec5834f6",
+        "5a33b2c9c4a282000c5a9511"
+      ]
+    },
+    {
+      "name": "mod_tactical",
+      "id": "5b3cbcaf5acfc400194776a3",
+      "required": false,
+      "filter": [
+        "5b3cbc235acfc4001863ac44"
+      ]
+    }
+  ],
+  "image": "/images/items/5b3b6e495acfc4330140bd88.jpg",
+  "isMod": false
+}

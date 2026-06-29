@@ -1,1 +1,212 @@
-{"id":"5a33a8ebc4a282000c5a950d","typeName":"Silencer","category":"mod_muzzle","parentTypeChain":["Silencer","Muzzle","FunctionalMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f731a86f774093e6cb4f9","price":36659},"common":{"name":{"zh":"Alpha Dog Alpha 9 9x19声音抑制器","en":"Alpha Dog Alpha 9 9x19 sound suppressor"},"shortName":{"zh":"Alpha 9","en":"Alpha 9"},"description":{"zh":"配有韦弗式导轨的手枪声音抑制器可以额外安装另一个瞄具。","en":"A pistol sound suppressor with a Weaver rail made for mounting an alternative sight. Manufactured by Alpha Dog."},"weight":0.29,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"silencer_all_alpha_dog_alpha_9_9x19","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1.6,"EffectiveDistance":0,"Ergonomics":-13,"ExamineExperience":4,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":true,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.13,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":15,"Loudness":-25,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"silencer_all_alpha_dog_alpha_9_9x19","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/silencers/silencer_all_alpha_dog_alpha_9_9x19.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":-6,"RepairCost":0,"RepairSpeed":0,"ShortName":"silencer_all_alpha_dog_alpha_9_9x19","SightingRange":0,"Slots":[{"_id":"5a33a9fdc4a282329a73b4af","_mergeSlotWithChildren":false,"_name":"mod_scope","_parent":"5a33a8ebc4a282000c5a950d","_props":{"filters":[{"Filter":["58d39d3d86f77445bb794ae7","616554fe50224f204c1da2aa","615d8d878004cc50514c3233","577d128124597739d65d0e56","58d2664f86f7747fec5834f6","5a33b2c9c4a282000c5a9511"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":false,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0.7,"Weight":0.29,"Width":2,"muzzleModType":"silencer"},"mod":{"ergonomics":-13,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":-25,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0.7,"muzzleModType":"silencer","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_scope","id":"5a33a9fdc4a282329a73b4af","required":false,"filter":["58d39d3d86f77445bb794ae7","616554fe50224f204c1da2aa","615d8d878004cc50514c3233","577d128124597739d65d0e56","58d2664f86f7747fec5834f6","5a33b2c9c4a282000c5a9511"]}],"image":"/images/items/5a33a8ebc4a282000c5a950d.jpg","isMod":false}
+{
+  "id": "5a33a8ebc4a282000c5a950d",
+  "typeName": "Silencer",
+  "category": "mod_muzzle",
+  "parentTypeChain": [
+    "Silencer",
+    "Muzzle",
+    "FunctionalMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f731a86f774093e6cb4f9",
+    "price": 36659
+  },
+  "common": {
+    "name": {
+      "zh": "Alpha Dog Alpha 9 9x19声音抑制器",
+      "en": "Alpha Dog Alpha 9 9x19 sound suppressor"
+    },
+    "shortName": {
+      "zh": "Alpha 9",
+      "en": "Alpha 9"
+    },
+    "description": {
+      "zh": "配有韦弗式导轨的手枪声音抑制器可以额外安装另一个瞄具。",
+      "en": "A pistol sound suppressor with a Weaver rail made for mounting an alternative sight. Manufactured by Alpha Dog."
+    },
+    "weight": 0.305,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "silencer_all_alpha_dog_alpha_9_9x19",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1.6,
+      "EffectiveDistance": 0,
+      "Ergonomics": -13,
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": true,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.13,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 15,
+      "Loudness": -25,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "silencer_all_alpha_dog_alpha_9_9x19",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/silencers/silencer_all_alpha_dog_alpha_9_9x19.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": -6,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "silencer_all_alpha_dog_alpha_9_9x19",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "5a33a9fdc4a282329a73b4af",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "5a33a8ebc4a282000c5a950d",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "615d8d878004cc50514c3233",
+                  "577d128124597739d65d0e56",
+                  "58d2664f86f7747fec5834f6",
+                  "5a33b2c9c4a282000c5a9511"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0.7,
+      "Weight": 0.29,
+      "Width": 2,
+      "muzzleModType": "silencer"
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "58d39d3d86f77445bb794ae7",
+          "name": {
+            "zh": "Aimpoint Micro瞄具基座",
+            "en": "Aimpoint Micro Standard Mount"
+          },
+          "armorClass": 0,
+          "weight": 0.015,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.305
+    },
+    "mod": {
+      "ergonomics": -13,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": -25,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0.7,
+      "muzzleModType": "silencer",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_scope",
+      "id": "5a33a9fdc4a282329a73b4af",
+      "required": false,
+      "filter": [
+        "58d39d3d86f77445bb794ae7",
+        "616554fe50224f204c1da2aa",
+        "615d8d878004cc50514c3233",
+        "577d128124597739d65d0e56",
+        "58d2664f86f7747fec5834f6",
+        "5a33b2c9c4a282000c5a9511"
+      ]
+    }
+  ],
+  "image": "/images/items/5a33a8ebc4a282000c5a950d.jpg",
+  "isMod": false
+}

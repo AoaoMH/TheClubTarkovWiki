@@ -1,1 +1,230 @@
-{"id":"68a395a145790fc8225720d3","typeName":"Receiver","category":"mod_other","parentTypeChain":["Receiver","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"AI AXMC 多口径框架系统（黑色）","en":"AI AXMC Multi-Caliber chassis (Black)"},"shortName":{"zh":"AXMC","en":"AXMC"},"description":{"zh":"AXMC狙击步枪原厂适配的多口径框架，由Accuracy International制造。","en":"The factory fitted Multi-Caliber chassis for the AXMC sniper rifle, manufactured by Accuracy International."},"weight":0.31,"width":2,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1.01,"Description":"Верхний ресивер для M4A1 производства компании Colt. Имеет направляющую для крепления дополнительного оборудования.","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":4,"ExamineExperience":2,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.989,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"Верхний ресивер Colt M4A1 5.56х45 для штурмовой винтовки M4A1","NotShownInSlot":false,"Prefab":{"path":"WeaponAXMC/reciever_axmc_std_blk.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Not_exist","Recoil":-1,"RepairCost":0,"RepairSpeed":0,"ShortName":"M4A1 Upper","SightingRange":0,"Slots":[{"_id":"68a395e022995a65d38cd3e6","_mergeSlotWithChildren":false,"_name":"mod_handguard","_parent":"68a395a145790fc8225720d3","_props":{"filters":[{"Filter":["6281209662cba23f6c4d7a19","68a39f96b225dcbbc8387d2c"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"68a395dcd4b875714bf23cfd","_mergeSlotWithChildren":false,"_name":"mod_foregrip","_parent":"68a395a145790fc8225720d3","_props":{"filters":[{"Filter":["6281212a09427b40ab14e770","68a39ecf2120cea9dcf3f1df"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true},{"_id":"68a395dae163209a8465c0e0","_mergeSlotWithChildren":false,"_name":"mod_reciever","_parent":"68a395a145790fc8225720d3","_props":{"filters":[{"Filter":["68a397372b4bebb5474a0bb2","62811fbf09427b40ab14e767"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.31,"Width":2},"mod":{"ergonomics":4,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_handguard","id":"68a395e022995a65d38cd3e6","required":true,"filter":["6281209662cba23f6c4d7a19","68a39f96b225dcbbc8387d2c"]},{"name":"mod_foregrip","id":"68a395dcd4b875714bf23cfd","required":true,"filter":["6281212a09427b40ab14e770","68a39ecf2120cea9dcf3f1df"]},{"name":"mod_reciever","id":"68a395dae163209a8465c0e0","required":true,"filter":["68a397372b4bebb5474a0bb2","62811fbf09427b40ab14e767"]}],"image":null,"isMod":true}
+{
+  "id": "68a395a145790fc8225720d3",
+  "typeName": "Receiver",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Receiver",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "AI AXMC 多口径框架系统（黑色）",
+      "en": "AI AXMC Multi-Caliber chassis (Black)"
+    },
+    "shortName": {
+      "zh": "AXMC",
+      "en": "AXMC"
+    },
+    "description": {
+      "zh": "AXMC狙击步枪原厂适配的多口径框架，由Accuracy International制造。",
+      "en": "The factory fitted Multi-Caliber chassis for the AXMC sniper rifle, manufactured by Accuracy International."
+    },
+    "weight": 0.31,
+    "width": 2,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1.01,
+      "Description": "Верхний ресивер для M4A1 производства компании Colt. Имеет направляющую для крепления дополнительного оборудования.",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": 4,
+      "ExamineExperience": 2,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.989,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "Верхний ресивер Colt M4A1 5.56х45 для штурмовой винтовки M4A1",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponAXMC/reciever_axmc_std_blk.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Not_exist",
+      "Recoil": -1,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "M4A1 Upper",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "68a395e022995a65d38cd3e6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_handguard",
+          "_parent": "68a395a145790fc8225720d3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6281209662cba23f6c4d7a19",
+                  "68a39f96b225dcbbc8387d2c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "68a395dcd4b875714bf23cfd",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_foregrip",
+          "_parent": "68a395a145790fc8225720d3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "6281212a09427b40ab14e770",
+                  "68a39ecf2120cea9dcf3f1df"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        },
+        {
+          "_id": "68a395dae163209a8465c0e0",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_reciever",
+          "_parent": "68a395a145790fc8225720d3",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "68a397372b4bebb5474a0bb2",
+                  "62811fbf09427b40ab14e767"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.31,
+      "Width": 2
+    },
+    "mod": {
+      "ergonomics": 4,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_handguard",
+      "id": "68a395e022995a65d38cd3e6",
+      "required": true,
+      "filter": [
+        "6281209662cba23f6c4d7a19",
+        "68a39f96b225dcbbc8387d2c"
+      ]
+    },
+    {
+      "name": "mod_foregrip",
+      "id": "68a395dcd4b875714bf23cfd",
+      "required": true,
+      "filter": [
+        "6281212a09427b40ab14e770",
+        "68a39ecf2120cea9dcf3f1df"
+      ]
+    },
+    {
+      "name": "mod_reciever",
+      "id": "68a395dae163209a8465c0e0",
+      "required": true,
+      "filter": [
+        "68a397372b4bebb5474a0bb2",
+        "62811fbf09427b40ab14e767"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

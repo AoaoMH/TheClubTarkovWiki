@@ -1,1 +1,132 @@
-{"id":"5909d36d86f774660f0bb900","typeName":"LootContainer","category":"container","parentTypeChain":["LootContainer","SearchableItem","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"手榴弹箱","en":"Grenade box"},"shortName":{"zh":"手榴弹箱","en":"Grenade box"},"description":{"zh":"手榴弹箱","en":"Grenade box"},"weight":1,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksArmorVest":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"Гранатный ящик","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[{"_id":"5909d36d86f774660f0bb901","_name":"main","_parent":"5909d36d86f774660f0bb900","_props":{"cellsH":3,"cellsV":2,"filters":[{"ExcludedFilter":["5448bf274bdc2dfc2f8b456a"],"Filter":["54009119af1c881c07000029"]}],"isSortingTable":false,"maxCount":3,"maxWeight":0,"minCount":1},"_proto":"55d329c24bdc2d892f8b4567"}],"Height":1,"HideEntrails":true,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"generic","LeftHandItem":false,"LootExperience":20,"MergesWithChildren":false,"Name":"Гранатный ящик","NotShownInSlot":false,"Prefab":{"path":"","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Not_exist","RepairCost":0,"RepairSpeed":0,"SearchSound":"drawer_wood_looting","ShortName":"Гранатный ящик","Slots":[],"SpawnFilter":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":1,"Width":1}},"slots":[],"image":null,"isMod":false}
+{
+  "id": "5909d36d86f774660f0bb900",
+  "typeName": "LootContainer",
+  "category": "container",
+  "parentTypeChain": [
+    "LootContainer",
+    "SearchableItem",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "手榴弹箱",
+      "en": "Grenade box"
+    },
+    "shortName": {
+      "zh": "手榴弹箱",
+      "en": "Grenade box"
+    },
+    "description": {
+      "zh": "手榴弹箱",
+      "en": "Grenade box"
+    },
+    "weight": 1,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksArmorVest": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "Гранатный ящик",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [
+        {
+          "_id": "5909d36d86f774660f0bb901",
+          "_name": "main",
+          "_parent": "5909d36d86f774660f0bb900",
+          "_props": {
+            "cellsH": 3,
+            "cellsV": 2,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 3,
+            "maxWeight": 0,
+            "minCount": 1
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Height": 1,
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "generic",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MergesWithChildren": false,
+      "Name": "Гранатный ящик",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SearchSound": "drawer_wood_looting",
+      "ShortName": "Гранатный ящик",
+      "Slots": [],
+      "SpawnFilter": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 1,
+      "Width": 1
+    }
+  },
+  "slots": [],
+  "image": null,
+  "isMod": false
+}

@@ -1,1 +1,237 @@
-{"id":"6698c90829e062525d0ad8ad","typeName":"Mount","category":"mod_mount","parentTypeChain":["Mount","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f755f86f77447ec5d770e","price":3298},"common":{"name":{"zh":"UZI StormWerkz瞄具基座","en":"UZI StormWerkz Scope Mount"},"shortName":{"zh":"UZI瞄具基座","en":"UZI SW"},"description":{"zh":"UZI冲锋枪的瞄具基座。由StormWerkz制造。","en":"A rail mount for installing various optics on the UZI submachine gun. Manufactured by StormWerkz."},"weight":0.05,"width":1,"height":1,"rarity":"Not_exist","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":1,"Description":"mount_all_zenit_b18","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":0,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mount_all_zenit_b18","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/mounts/mount_uzi_stormwerkz_top_cover_rail.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Not_exist","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"mount_all_zenit_b18","SightingRange":0,"Slots":[{"_id":"6698c90829e062525d0ad8ae","_mergeSlotWithChildren":false,"_name":"mod_scope","_parent":"6698c90829e062525d0ad8ad","_props":{"filters":[{"Filter":["58d39d3d86f77445bb794ae7","616554fe50224f204c1da2aa","5c7d55f52e221644f31bff6a","616584766ef05c2ce828ef57","577d128124597739d65d0e56","615d8d878004cc50514c3233","5b31163c5acfc400153b71cb","5a33b652c4a28232996e407c","5a33b2c9c4a282000c5a9511","58d2664f86f7747fec5834f6","57ae0171245977343c27bfcf","558022b54bdc2dac148b458d","58491f3324597764bc48fa02","584924ec24597768f12ae244","5b30b0dc5acfc400153b7124","60a23797a37c940de7062d02","5d2da1e948f035477b1ce2ba","584984812459776a704a82a6","570fd721d2720bc5458b4596","64785e7c19d732620e045e15"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.05,"Width":1},"mod":{"ergonomics":0,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_scope","id":"6698c90829e062525d0ad8ae","required":false,"filter":["58d39d3d86f77445bb794ae7","616554fe50224f204c1da2aa","5c7d55f52e221644f31bff6a","616584766ef05c2ce828ef57","577d128124597739d65d0e56","615d8d878004cc50514c3233","5b31163c5acfc400153b71cb","5a33b652c4a28232996e407c","5a33b2c9c4a282000c5a9511","58d2664f86f7747fec5834f6","57ae0171245977343c27bfcf","558022b54bdc2dac148b458d","58491f3324597764bc48fa02","584924ec24597768f12ae244","5b30b0dc5acfc400153b7124","60a23797a37c940de7062d02","5d2da1e948f035477b1ce2ba","584984812459776a704a82a6","570fd721d2720bc5458b4596","64785e7c19d732620e045e15"]}],"image":"/images/items/6698c90829e062525d0ad8ad.webp","isMod":false}
+{
+  "id": "6698c90829e062525d0ad8ad",
+  "typeName": "Mount",
+  "category": "mod_mount",
+  "parentTypeChain": [
+    "Mount",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f755f86f77447ec5d770e",
+    "price": 3298
+  },
+  "common": {
+    "name": {
+      "zh": "UZI StormWerkz瞄具基座",
+      "en": "UZI StormWerkz Scope Mount"
+    },
+    "shortName": {
+      "zh": "UZI瞄具基座",
+      "en": "UZI SW"
+    },
+    "description": {
+      "zh": "UZI冲锋枪的瞄具基座。由StormWerkz制造。",
+      "en": "A rail mount for installing various optics on the UZI submachine gun. Manufactured by StormWerkz."
+    },
+    "weight": 0.065,
+    "width": 1,
+    "height": 1,
+    "rarity": "Not_exist",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 1,
+      "Description": "mount_all_zenit_b18",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 0,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mount_all_zenit_b18",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/mounts/mount_uzi_stormwerkz_top_cover_rail.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Not_exist",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mount_all_zenit_b18",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "6698c90829e062525d0ad8ae",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "6698c90829e062525d0ad8ad",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "58d39d3d86f77445bb794ae7",
+                  "616554fe50224f204c1da2aa",
+                  "5c7d55f52e221644f31bff6a",
+                  "616584766ef05c2ce828ef57",
+                  "577d128124597739d65d0e56",
+                  "615d8d878004cc50514c3233",
+                  "5b31163c5acfc400153b71cb",
+                  "5a33b652c4a28232996e407c",
+                  "5a33b2c9c4a282000c5a9511",
+                  "58d2664f86f7747fec5834f6",
+                  "57ae0171245977343c27bfcf",
+                  "558022b54bdc2dac148b458d",
+                  "58491f3324597764bc48fa02",
+                  "584924ec24597768f12ae244",
+                  "5b30b0dc5acfc400153b7124",
+                  "60a23797a37c940de7062d02",
+                  "5d2da1e948f035477b1ce2ba",
+                  "584984812459776a704a82a6",
+                  "570fd721d2720bc5458b4596",
+                  "64785e7c19d732620e045e15"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.05,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "58d39d3d86f77445bb794ae7",
+          "name": {
+            "zh": "Aimpoint Micro瞄具基座",
+            "en": "Aimpoint Micro Standard Mount"
+          },
+          "armorClass": 0,
+          "weight": 0.015,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.065
+    },
+    "mod": {
+      "ergonomics": 0,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_scope",
+      "id": "6698c90829e062525d0ad8ae",
+      "required": false,
+      "filter": [
+        "58d39d3d86f77445bb794ae7",
+        "616554fe50224f204c1da2aa",
+        "5c7d55f52e221644f31bff6a",
+        "616584766ef05c2ce828ef57",
+        "577d128124597739d65d0e56",
+        "615d8d878004cc50514c3233",
+        "5b31163c5acfc400153b71cb",
+        "5a33b652c4a28232996e407c",
+        "5a33b2c9c4a282000c5a9511",
+        "58d2664f86f7747fec5834f6",
+        "57ae0171245977343c27bfcf",
+        "558022b54bdc2dac148b458d",
+        "58491f3324597764bc48fa02",
+        "584924ec24597768f12ae244",
+        "5b30b0dc5acfc400153b7124",
+        "60a23797a37c940de7062d02",
+        "5d2da1e948f035477b1ce2ba",
+        "584984812459776a704a82a6",
+        "570fd721d2720bc5458b4596",
+        "64785e7c19d732620e045e15"
+      ]
+    }
+  ],
+  "image": "/images/items/6698c90829e062525d0ad8ad.webp",
+  "isMod": false
+}

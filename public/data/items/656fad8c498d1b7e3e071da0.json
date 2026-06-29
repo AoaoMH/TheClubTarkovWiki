@@ -1,1 +1,159 @@
-{"id":"656fad8c498d1b7e3e071da0","typeName":"ArmorPlate","category":"armorplate","parentTypeChain":["ArmorPlate","ArmoredEquipment","Equipment","CompoundItem","Item"],"handbook":{"categoryId":"5b5f704686f77447ec5d76d7","price":18620},"common":{"name":{"zh":"Monoclete三级PE防弹插板","en":"Monoclete level III PE ballistic plate"},"shortName":{"zh":"Monoclete PE","en":"Monoclete PE"},"description":{"zh":"超高分子聚乙烯材质的防弹插板，对兼容的防弹胸挂可前后栏位通用。","en":"A UHMWPE plate for torso front and back pouches of plate carrier."},"weight":1.35,"width":2,"height":2,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"AnimationVariantsNumber":0,"ArmorMaterial":"UHMWPE","ArmorType":"Light","BackgroundColor":"blue","BlindnessProtection":0,"BlocksEarpiece":false,"BlocksEyewear":false,"BlocksFaceCover":false,"BlocksHeadwear":false,"BluntThroughput":0.26,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"DeafStrength":"None","Description":"item_equipment_plate_SAPI_Monoclete_PE_4class_frontback","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","Durability":40,"ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"FaceShieldComponent":false,"FaceShieldMask":"NoMask","ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasHinge":false,"Height":2,"HideEntrails":false,"Indestructibility":0.9,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_armor","LeftHandItem":false,"LootExperience":5,"Lower75Prefab":{"path":"assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium_damaged.bundle","rcid":""},"MaterialType":"BodyArmor","MaxDurability":40,"MergesWithChildren":false,"MetascoreGroup":"Defence","Name":"item_equipment_plate_SAPI_Monoclete_PE_4class_frontback","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Rare","RepairCost":122,"RepairSpeed":0,"RicochetParams":{"x":0,"y":0,"z":80},"ShortName":"item_equipment_plate_SAPI_Monoclete_PE_4class_frontback","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":1.35,"Width":2,"armorClass":"4","armorColliders":[],"armorPlateColliders":["Plate_Granit_SAPI_chest","Plate_Granit_SAPI_back"],"effects_damage":[],"effects_health":[],"mousePenalty":0,"speedPenaltyPercent":-1,"weaponErgonomicPenalty":-1},"armor":{"armorClass":4,"durability":40,"maxDurability":40,"material":"UHMWPE","zones":[],"speedPenalty":0,"ergonomicsPenalty":0,"bluntThroughput":0.26,"armorType":"Light","mousePenalty":0}},"slots":[],"image":"/images/items/656fad8c498d1b7e3e071da0.webp","isMod":false}
+{
+  "id": "656fad8c498d1b7e3e071da0",
+  "typeName": "ArmorPlate",
+  "category": "armorplate",
+  "parentTypeChain": [
+    "ArmorPlate",
+    "ArmoredEquipment",
+    "Equipment",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f704686f77447ec5d76d7",
+    "price": 18620
+  },
+  "common": {
+    "name": {
+      "zh": "Monoclete三级PE防弹插板",
+      "en": "Monoclete level III PE ballistic plate"
+    },
+    "shortName": {
+      "zh": "Monoclete PE",
+      "en": "Monoclete PE"
+    },
+    "description": {
+      "zh": "超高分子聚乙烯材质的防弹插板，对兼容的防弹胸挂可前后栏位通用。",
+      "en": "A UHMWPE plate for torso front and back pouches of plate carrier."
+    },
+    "weight": 1.35,
+    "width": 2,
+    "height": 2,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "ArmorMaterial": "UHMWPE",
+      "ArmorType": "Light",
+      "BackgroundColor": "blue",
+      "BlindnessProtection": 0,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksFaceCover": false,
+      "BlocksHeadwear": false,
+      "BluntThroughput": 0.26,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "DeafStrength": "None",
+      "Description": "item_equipment_plate_SAPI_Monoclete_PE_4class_frontback",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "Durability": 40,
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasHinge": false,
+      "Height": 2,
+      "HideEntrails": false,
+      "Indestructibility": 0.9,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_armor",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Lower75Prefab": {
+        "path": "assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium_damaged.bundle",
+        "rcid": ""
+      },
+      "MaterialType": "BodyArmor",
+      "MaxDurability": 40,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Defence",
+      "Name": "item_equipment_plate_SAPI_Monoclete_PE_4class_frontback",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/plate_pgd_esapi_iv_sa_medium/item_equipment_plate_pgd_esapi_iv_sa_medium.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "RepairCost": 122,
+      "RepairSpeed": 0,
+      "RicochetParams": {
+        "x": 0,
+        "y": 0,
+        "z": 80
+      },
+      "ShortName": "item_equipment_plate_SAPI_Monoclete_PE_4class_frontback",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 1.35,
+      "Width": 2,
+      "armorClass": "4",
+      "armorColliders": [],
+      "armorPlateColliders": [
+        "Plate_Granit_SAPI_chest",
+        "Plate_Granit_SAPI_back"
+      ],
+      "effects_damage": [],
+      "effects_health": [],
+      "mousePenalty": 0,
+      "speedPenaltyPercent": -1,
+      "weaponErgonomicPenalty": -1
+    },
+    "armor": {
+      "armorClass": 4,
+      "baseArmorClass": 4,
+      "durability": 40,
+      "maxDurability": 40,
+      "material": "UHMWPE",
+      "zones": [],
+      "speedPenalty": -1,
+      "ergonomicsPenalty": -1,
+      "bluntThroughput": 0.26,
+      "armorType": "Light",
+      "mousePenalty": 0,
+      "defaultPlates": [],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.35
+    }
+  },
+  "slots": [],
+  "image": "/images/items/656fad8c498d1b7e3e071da0.webp",
+  "isMod": false
+}

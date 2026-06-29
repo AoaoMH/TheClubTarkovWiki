@@ -1,1 +1,146 @@
-{"id":"639346cc1c8f182ad90c8972","typeName":"Backpack","category":"backpack","parentTypeChain":["Backpack","SearchableItem","CompoundItem","Item"],"handbook":{"categoryId":"5b5f6f6c86f774093f2ecf0b","price":82765},"common":{"name":{"zh":"Tasmanian Tiger Trooper 35背包","en":"Tasmanian Tiger Trooper 35 backpack (Khaki)"},"shortName":{"zh":"Trooper 35","en":"Trooper 35"},"description":{"zh":"TT Trooper Light Pack 35是由Tasmanian Tiger生产的轻量化35升容量背包，其拥有舒适的人体工学设计。","en":"The TT Trooper Light Pack 35 is a lightweight and functional 35 liter backpack from Tasmanian Tiger with a comfortable and ergonomic PaddenBack suspension system and anatomical shoulder straps."},"weight":1.004,"width":5,"height":7,"rarity":"Rare","backgroundColor":"violet"},"properties":{"_raw":{"AnimationVariantsNumber":0,"BackgroundColor":"violet","BlocksArmorVest":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":false,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"Description":"Pilgrim","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","ExamineExperience":10,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"GridLayoutName":"","Grids":[{"_id":"639346cc1c8f182ad90c8973","_name":"main","_parent":"639346cc1c8f182ad90c8972","_props":{"cellsH":5,"cellsV":7,"filters":[{"ExcludedFilter":["5448bf274bdc2dfc2f8b456a","5c093db286f7740a1b2617e3","5e2af55f86f7746d4159f07c","5c0a840b86f7742ffa4f2482","5b7c710788a4506dec015957","5c127c4486f7745625356c13","5aafbcd986f7745e590fff23","59fb016586f7746d0d4b423a","59fb042886f7746c5005a7b2","59fb023c86f7746d0d4b423c","5b6d9ce188a4501afc1b2b25"],"Filter":["54009119af1c881c07000029"]}],"isSortingTable":false,"maxCount":0,"maxWeight":0,"minCount":0},"_proto":"55d329c24bdc2d892f8b4567"}],"Height":7,"HideEntrails":true,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_backpack","LeanWeaponAgainstBody":false,"LeftHandItem":false,"LootExperience":20,"MergesWithChildren":false,"Name":"Pilgrim","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/backpack_trooper_35/item_equipment_backpack_trooper_35.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Rare","RepairCost":0,"RepairSpeed":0,"SearchSound":"looting_body_extended","ShortName":"Pilgrim","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":1.004,"Width":5,"mousePenalty":-1,"speedPenaltyPercent":-4,"weaponErgonomicPenalty":-5}},"slots":[],"image":"/images/items/639346cc1c8f182ad90c8972.jpg","isMod":false}
+{
+  "id": "639346cc1c8f182ad90c8972",
+  "typeName": "Backpack",
+  "category": "backpack",
+  "parentTypeChain": [
+    "Backpack",
+    "SearchableItem",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f6f6c86f774093f2ecf0b",
+    "price": 82765
+  },
+  "common": {
+    "name": {
+      "zh": "Tasmanian Tiger Trooper 35背包",
+      "en": "Tasmanian Tiger Trooper 35 backpack (Khaki)"
+    },
+    "shortName": {
+      "zh": "Trooper 35",
+      "en": "Trooper 35"
+    },
+    "description": {
+      "zh": "TT Trooper Light Pack 35是由Tasmanian Tiger生产的轻量化35升容量背包，其拥有舒适的人体工学设计。",
+      "en": "The TT Trooper Light Pack 35 is a lightweight and functional 35 liter backpack from Tasmanian Tiger with a comfortable and ergonomic PaddenBack suspension system and anatomical shoulder straps."
+    },
+    "weight": 1.004,
+    "width": 5,
+    "height": 7,
+    "rarity": "Rare",
+    "backgroundColor": "violet"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "violet",
+      "BlocksArmorVest": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": false,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "Description": "Pilgrim",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "ExamineExperience": 10,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "GridLayoutName": "",
+      "Grids": [
+        {
+          "_id": "639346cc1c8f182ad90c8973",
+          "_name": "main",
+          "_parent": "639346cc1c8f182ad90c8972",
+          "_props": {
+            "cellsH": 5,
+            "cellsV": 7,
+            "filters": [
+              {
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a",
+                  "5c093db286f7740a1b2617e3",
+                  "5e2af55f86f7746d4159f07c",
+                  "5c0a840b86f7742ffa4f2482",
+                  "5b7c710788a4506dec015957",
+                  "5c127c4486f7745625356c13",
+                  "5aafbcd986f7745e590fff23",
+                  "59fb016586f7746d0d4b423a",
+                  "59fb042886f7746c5005a7b2",
+                  "59fb023c86f7746d0d4b423c",
+                  "5b6d9ce188a4501afc1b2b25"
+                ],
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "isSortingTable": false,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "minCount": 0
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Height": 7,
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_backpack",
+      "LeanWeaponAgainstBody": false,
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MergesWithChildren": false,
+      "Name": "Pilgrim",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/backpack_trooper_35/item_equipment_backpack_trooper_35.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "SearchSound": "looting_body_extended",
+      "ShortName": "Pilgrim",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 1.004,
+      "Width": 5,
+      "mousePenalty": -1,
+      "speedPenaltyPercent": -4,
+      "weaponErgonomicPenalty": -5
+    }
+  },
+  "slots": [],
+  "image": "/images/items/639346cc1c8f182ad90c8972.jpg",
+  "isMod": false
+}

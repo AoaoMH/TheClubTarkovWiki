@@ -1,1 +1,263 @@
-{"id":"65392f611406374f82152ba5","typeName":"Mount","category":"mod_mount","parentTypeChain":["Mount","GearMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f755f86f77447ec5d770e","price":4587},"common":{"name":{"zh":"GBRS Aimpoint Hydra基座套组（黑色）","en":"GBRS Aimpoint Hydra Mount Kit (Black)"},"shortName":{"zh":"Hydra","en":"Hydra"},"description":{"zh":"适用于impoint Micro T-1及H-1系列瞄具和战术装备的基座。","en":"The Hydra Mount Kit for Aimpoint Micro T-1 and H-1 series sights and tactical equipment. Manufactured by GBRS Group."},"weight":0.141,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":["5ae30bad5acfc400185c2dc4"],"CoolFactor":1,"Description":"mount_all_jp_enterprises_ftsm_30mm","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":-2,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"mount_all_jp_enterprises_ftsm_30mm","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/mounts/mount_all_gbrs_hydra_micro_kit.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":true,"RarityPvE":"Rare","Recoil":0,"RepairCost":0,"RepairSpeed":0,"ShortName":"mount_all_jp_enterprises_ftsm_30mm","SightingRange":0,"Slots":[{"_id":"6539301abf39af1cea1f1326","_mergeSlotWithChildren":false,"_name":"mod_tactical","_parent":"65392f611406374f82152ba5","_props":{"filters":[{"Filter":["57fd23e32459772d0805bcf1","544909bb4bdc2d6f028b4577","5c06595c0db834001a66af6c","61605d88ffa6e502ac5e7eeb","5c5952732e2216398b5abda2","644a3df63b0b6f03e101e065"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false},{"_id":"65393038e5e89511d0676bf6","_mergeSlotWithChildren":false,"_name":"mod_scope","_parent":"65392f611406374f82152ba5","_props":{"filters":[{"Filter":["61657230d92c473c770213d7","58d399e486f77442e0016fe7","5b3116595acfc40019476364","58d39b0386f77443380bf13c"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.141,"Width":2},"mod":{"ergonomics":-2,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false},"resolvedConflicts":[{"id":"5ae30bad5acfc400185c2dc4","name":{"zh":" AR-15提把式照门","en":"AR-15 rear sight carry handle"},"isWikiItem":true}]},"slots":[{"name":"mod_tactical","id":"6539301abf39af1cea1f1326","required":false,"filter":["57fd23e32459772d0805bcf1","544909bb4bdc2d6f028b4577","5c06595c0db834001a66af6c","61605d88ffa6e502ac5e7eeb","5c5952732e2216398b5abda2","644a3df63b0b6f03e101e065"]},{"name":"mod_scope","id":"65393038e5e89511d0676bf6","required":false,"filter":["61657230d92c473c770213d7","58d399e486f77442e0016fe7","5b3116595acfc40019476364","58d39b0386f77443380bf13c"]}],"image":"/images/items/65392f611406374f82152ba5.webp","isMod":false}
+{
+  "id": "65392f611406374f82152ba5",
+  "typeName": "Mount",
+  "category": "mod_mount",
+  "parentTypeChain": [
+    "Mount",
+    "GearMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f755f86f77447ec5d770e",
+    "price": 4587
+  },
+  "common": {
+    "name": {
+      "zh": "GBRS Aimpoint Hydra基座套组（黑色）",
+      "en": "GBRS Aimpoint Hydra Mount Kit (Black)"
+    },
+    "shortName": {
+      "zh": "Hydra",
+      "en": "Hydra"
+    },
+    "description": {
+      "zh": "适用于impoint Micro T-1及H-1系列瞄具和战术装备的基座。",
+      "en": "The Hydra Mount Kit for Aimpoint Micro T-1 and H-1 series sights and tactical equipment. Manufactured by GBRS Group."
+    },
+    "weight": 0.42500000000000004,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "CoolFactor": 1,
+      "Description": "mount_all_jp_enterprises_ftsm_30mm",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": -2,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "mount_all_jp_enterprises_ftsm_30mm",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/mounts/mount_all_gbrs_hydra_micro_kit.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": true,
+      "RarityPvE": "Rare",
+      "Recoil": 0,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "mount_all_jp_enterprises_ftsm_30mm",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "6539301abf39af1cea1f1326",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_tactical",
+          "_parent": "65392f611406374f82152ba5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "644a3df63b0b6f03e101e065"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        },
+        {
+          "_id": "65393038e5e89511d0676bf6",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_scope",
+          "_parent": "65392f611406374f82152ba5",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "61657230d92c473c770213d7",
+                  "58d399e486f77442e0016fe7",
+                  "5b3116595acfc40019476364",
+                  "58d39b0386f77443380bf13c"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.141,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "57fd23e32459772d0805bcf1",
+          "name": {
+            "zh": "Holosun LS321战术设备",
+            "en": "Holosun LS321 Tactical device"
+          },
+          "armorClass": 0,
+          "weight": 0.19,
+          "count": 1
+        },
+        {
+          "id": "61657230d92c473c770213d7",
+          "name": {
+            "zh": "Aimpoint Micro H-2反射式瞄准镜",
+            "en": "Aimpoint Micro H-2 reflex sight"
+          },
+          "armorClass": 0,
+          "weight": 0.094,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.42500000000000004
+    },
+    "mod": {
+      "ergonomics": -2,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    },
+    "resolvedConflicts": [
+      {
+        "id": "5ae30bad5acfc400185c2dc4",
+        "name": {
+          "zh": " AR-15提把式照门",
+          "en": "AR-15 rear sight carry handle"
+        },
+        "isWikiItem": true
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "mod_tactical",
+      "id": "6539301abf39af1cea1f1326",
+      "required": false,
+      "filter": [
+        "57fd23e32459772d0805bcf1",
+        "544909bb4bdc2d6f028b4577",
+        "5c06595c0db834001a66af6c",
+        "61605d88ffa6e502ac5e7eeb",
+        "5c5952732e2216398b5abda2",
+        "644a3df63b0b6f03e101e065"
+      ]
+    },
+    {
+      "name": "mod_scope",
+      "id": "65393038e5e89511d0676bf6",
+      "required": false,
+      "filter": [
+        "61657230d92c473c770213d7",
+        "58d399e486f77442e0016fe7",
+        "5b3116595acfc40019476364",
+        "58d39b0386f77443380bf13c"
+      ]
+    }
+  ],
+  "image": "/images/items/65392f611406374f82152ba5.webp",
+  "isMod": false
+}

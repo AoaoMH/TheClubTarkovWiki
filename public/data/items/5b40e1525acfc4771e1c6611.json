@@ -1,1 +1,311 @@
-{"id":"5b40e1525acfc4771e1c6611","typeName":"Headwear","category":"headwear","parentTypeChain":["Headwear","ArmoredEquipment","Equipment","CompoundItem","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b330","price":10524},"common":{"name":{"zh":"HighCom Striker ULACH IIIA 头盔（黑色）","en":"HighCom Striker ULACH IIIA helmet (Black)"},"shortName":{"zh":"ULACH","en":"ULACH"},"description":{"zh":"Highcom 公司生产的战术头盔，防护区域覆盖耳部与后脑。未配备任何接口基座。黑色。","en":"A combat helmet with the ears and back of the head protection, manufactured by HighCom. Does not feature any additional mounts. Black version."},"weight":1.9,"width":2,"height":2,"rarity":"Superrare","backgroundColor":"default"},"properties":{"_raw":{"AnimationVariantsNumber":0,"ArmorMaterial":"UHMWPE","ArmorType":"Light","BackgroundColor":"default","BlindnessProtection":0,"BlocksEarpiece":false,"BlocksEyewear":false,"BlocksFaceCover":false,"BlocksHeadwear":false,"BluntThroughput":0.208,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"DeafStrength":"Low","Description":"item_equipment_helmet_ULACH_black","DiscardLimit":-1,"DiscardingBlock":false,"DropSoundType":"None","Durability":0,"ExamineExperience":4,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"FaceShieldComponent":false,"FaceShieldMask":"NoMask","ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasHinge":false,"Height":2,"HideEntrails":false,"Indestructibility":0.9,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_helmet","LeftHandItem":false,"LootExperience":20,"MaterialType":"Helmet","MaxDurability":0,"MergesWithChildren":false,"MetascoreGroup":"Defence","Name":"item_equipment_helmet_ULACH_black","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/helmet_ulach/item_equipment_helmet_ulach_black.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":803,"RepairSpeed":10,"RicochetParams":{"x":0.9,"y":0.4,"z":75},"ShortName":"item_equipment_helmet_ULACH_black","Slots":[{"_id":"6571161922996eaf1108820a","_mergeSlotWithChildren":true,"_name":"Helmet_top","_parent":"5b40e1525acfc4771e1c6611","_props":{"filters":[{"Filter":["657112234269e9a568089eac"],"Plate":"657112234269e9a568089eac","armorColliders":["ParietalHead"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_proto":"64479fdf9731c8fadc0642c1","_required":true},{"_id":"6571161922996eaf1108820b","_mergeSlotWithChildren":true,"_name":"Helmet_back","_parent":"5b40e1525acfc4771e1c6611","_props":{"filters":[{"Filter":["657112a4818110db4600aa66"],"Plate":"657112a4818110db4600aa66","armorColliders":["BackHead"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_proto":"64479fdf9731c8fadc0642c1","_required":true},{"_id":"6571161922996eaf1108820c","_mergeSlotWithChildren":true,"_name":"Helmet_ears","_parent":"5b40e1525acfc4771e1c6611","_props":{"filters":[{"Filter":["657112ce22996eaf110881fb"],"Plate":"657112ce22996eaf110881fb","armorColliders":["Ears"],"armorPlateColliders":[],"bluntDamageReduceFromSoftArmor":false,"locked":true}]},"_proto":"64479fdf9731c8fadc0642c1","_required":true}],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":1.9,"Width":2,"armorClass":"0","armorColliders":[],"armorPlateColliders":[],"mousePenalty":-2,"speedPenaltyPercent":0,"weaponErgonomicPenalty":-1},"armor":{"armorClass":0,"durability":0,"maxDurability":0,"material":"UHMWPE","zones":[],"speedPenalty":0,"ergonomicsPenalty":0,"bluntThroughput":0.208,"armorType":"Light","mousePenalty":-2},"headwear":{"armorClass":4,"durability":22,"maxDurability":22,"armorType":"Light","armorMaterial":"UHMWPE","zones":[],"ricochetChance":75,"blindnessProtection":0,"speedPenalty":0,"turnSpeed":-2,"ergonomicsPenalty":-1,"deafStrength":"Low"},"resolvedSlots":[{"name":"Helmet_top","filters":[{"id":"657112234269e9a568089eac","name":{"zh":"超聚乙烯层","en":"Layer of UHMWPE"},"isWikiItem":false}]},{"name":"Helmet_back","filters":[{"id":"657112a4818110db4600aa66","name":{"zh":"超聚乙烯层","en":"Layer of UHMWPE"},"isWikiItem":false}]},{"name":"Helmet_ears","filters":[{"id":"657112ce22996eaf110881fb","name":{"zh":"超聚乙烯层","en":"Layer of UHMWPE"},"isWikiItem":false}]}]},"slots":[{"name":"Helmet_top","id":"6571161922996eaf1108820a","required":true,"filter":["657112234269e9a568089eac"]},{"name":"Helmet_back","id":"6571161922996eaf1108820b","required":true,"filter":["657112a4818110db4600aa66"]},{"name":"Helmet_ears","id":"6571161922996eaf1108820c","required":true,"filter":["657112ce22996eaf110881fb"]}],"image":"/images/items/5b40e1525acfc4771e1c6611.jpg","isMod":false}
+{
+  "id": "5b40e1525acfc4771e1c6611",
+  "typeName": "Headwear",
+  "category": "headwear",
+  "parentTypeChain": [
+    "Headwear",
+    "ArmoredEquipment",
+    "Equipment",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b330",
+    "price": 10524
+  },
+  "common": {
+    "name": {
+      "zh": "HighCom Striker ULACH IIIA 头盔（黑色）",
+      "en": "HighCom Striker ULACH IIIA helmet (Black)"
+    },
+    "shortName": {
+      "zh": "ULACH",
+      "en": "ULACH"
+    },
+    "description": {
+      "zh": "Highcom 公司生产的战术头盔，防护区域覆盖耳部与后脑。未配备任何接口基座。黑色。",
+      "en": "A combat helmet with the ears and back of the head protection, manufactured by HighCom. Does not feature any additional mounts. Black version."
+    },
+    "weight": 1.9,
+    "width": 2,
+    "height": 2,
+    "rarity": "Superrare",
+    "backgroundColor": "default"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "ArmorMaterial": "UHMWPE",
+      "ArmorType": "Light",
+      "BackgroundColor": "default",
+      "BlindnessProtection": 0,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksFaceCover": false,
+      "BlocksHeadwear": false,
+      "BluntThroughput": 0.208,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "DeafStrength": "Low",
+      "Description": "item_equipment_helmet_ULACH_black",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "Durability": 0,
+      "ExamineExperience": 4,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasHinge": false,
+      "Height": 2,
+      "HideEntrails": false,
+      "Indestructibility": 0.9,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_helmet",
+      "LeftHandItem": false,
+      "LootExperience": 20,
+      "MaterialType": "Helmet",
+      "MaxDurability": 0,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Defence",
+      "Name": "item_equipment_helmet_ULACH_black",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/helmet_ulach/item_equipment_helmet_ulach_black.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 803,
+      "RepairSpeed": 10,
+      "RicochetParams": {
+        "x": 0.9,
+        "y": 0.4,
+        "z": 75
+      },
+      "ShortName": "item_equipment_helmet_ULACH_black",
+      "Slots": [
+        {
+          "_id": "6571161922996eaf1108820a",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_top",
+          "_parent": "5b40e1525acfc4771e1c6611",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657112234269e9a568089eac"
+                ],
+                "Plate": "657112234269e9a568089eac",
+                "armorColliders": [
+                  "ParietalHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6571161922996eaf1108820b",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_back",
+          "_parent": "5b40e1525acfc4771e1c6611",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657112a4818110db4600aa66"
+                ],
+                "Plate": "657112a4818110db4600aa66",
+                "armorColliders": [
+                  "BackHead"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        },
+        {
+          "_id": "6571161922996eaf1108820c",
+          "_mergeSlotWithChildren": true,
+          "_name": "Helmet_ears",
+          "_parent": "5b40e1525acfc4771e1c6611",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "657112ce22996eaf110881fb"
+                ],
+                "Plate": "657112ce22996eaf110881fb",
+                "armorColliders": [
+                  "Ears"
+                ],
+                "armorPlateColliders": [],
+                "bluntDamageReduceFromSoftArmor": false,
+                "locked": true
+              }
+            ]
+          },
+          "_proto": "64479fdf9731c8fadc0642c1",
+          "_required": true
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 1.9,
+      "Width": 2,
+      "armorClass": "0",
+      "armorColliders": [],
+      "armorPlateColliders": [],
+      "mousePenalty": -2,
+      "speedPenaltyPercent": 0,
+      "weaponErgonomicPenalty": -1
+    },
+    "armor": {
+      "armorClass": 4,
+      "baseArmorClass": 4,
+      "durability": 22,
+      "maxDurability": 22,
+      "material": "UHMWPE",
+      "zones": [
+        "ParietalHead",
+        "BackHead",
+        "Ears"
+      ],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": -1,
+      "bluntThroughput": 0.208,
+      "armorType": "Light",
+      "mousePenalty": -2,
+      "defaultPlates": [],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 1.9
+    },
+    "headwear": {
+      "armorClass": 4,
+      "durability": 22,
+      "maxDurability": 22,
+      "armorType": "Light",
+      "armorMaterial": "UHMWPE",
+      "zones": [
+        "ParietalHead",
+        "BackHead",
+        "Ears"
+      ],
+      "ricochetChance": 75,
+      "blindnessProtection": 0,
+      "speedPenalty": 0,
+      "turnSpeed": -2,
+      "ergonomicsPenalty": -1,
+      "deafStrength": "Low"
+    },
+    "resolvedSlots": [
+      {
+        "name": "Helmet_top",
+        "filters": [
+          {
+            "id": "657112234269e9a568089eac",
+            "name": {
+              "zh": "超聚乙烯层",
+              "en": "Layer of UHMWPE"
+            },
+            "isWikiItem": false
+          }
+        ]
+      },
+      {
+        "name": "Helmet_back",
+        "filters": [
+          {
+            "id": "657112a4818110db4600aa66",
+            "name": {
+              "zh": "超聚乙烯层",
+              "en": "Layer of UHMWPE"
+            },
+            "isWikiItem": false
+          }
+        ]
+      },
+      {
+        "name": "Helmet_ears",
+        "filters": [
+          {
+            "id": "657112ce22996eaf110881fb",
+            "name": {
+              "zh": "超聚乙烯层",
+              "en": "Layer of UHMWPE"
+            },
+            "isWikiItem": false
+          }
+        ]
+      }
+    ]
+  },
+  "slots": [
+    {
+      "name": "Helmet_top",
+      "id": "6571161922996eaf1108820a",
+      "required": true,
+      "filter": [
+        "657112234269e9a568089eac"
+      ]
+    },
+    {
+      "name": "Helmet_back",
+      "id": "6571161922996eaf1108820b",
+      "required": true,
+      "filter": [
+        "657112a4818110db4600aa66"
+      ]
+    },
+    {
+      "name": "Helmet_ears",
+      "id": "6571161922996eaf1108820c",
+      "required": true,
+      "filter": [
+        "657112ce22996eaf110881fb"
+      ]
+    }
+  ],
+  "image": "/images/items/5b40e1525acfc4771e1c6611.jpg",
+  "isMod": false
+}

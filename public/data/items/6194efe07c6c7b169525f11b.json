@@ -1,1 +1,207 @@
-{"id":"6194efe07c6c7b169525f11b","typeName":"Barrel","category":"mod_other","parentTypeChain":["Barrel","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":"5b5f75c686f774094242f19f","price":2900},"common":{"name":{"zh":"HK USP 战术型 .45 ACP螺纹枪管","en":"HK USP Tactical .45 ACP 129mm threaded barrel"},"shortName":{"zh":"USP45T","en":"USP45T"},"description":{"zh":"为特制版USP——USP战术型设计的129毫米螺纹枪管。由Heckler & Koch制造。","en":"A 129mm threaded barrel for the special version of the USP pistol - USP Tactical, chambered in .45 ACP. Manufactured by Heckler & Koch."},"weight":0.122,"width":1,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"CenterOfImpact":0.27,"ConflictingItems":[],"CoolFactor":1.15,"Description":"barrel_glock_glock_114mm_9x19_std\n","DeviationCurve":2.25,"DeviationMax":11,"DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"DurabilityBurnModificator":1,"EffectiveDistance":0,"Ergonomics":-3,"ExamineExperience":6,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":1.1,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSilencer":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":5,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"barrel_glock_glock_114mm_9x19_std","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/mods/barrels/barrel_hk_usp_129mm_1143x23_tactical.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-2,"RepairCost":0,"RepairSpeed":0,"ShortName":"barrel_glock_glock_114mm_9x19_std","ShotgunDispersion":1,"SightingRange":0,"Slots":[{"_id":"6194f644de3cdf1d2614a76b","_mergeSlotWithChildren":false,"_name":"mod_muzzle","_parent":"6194efe07c6c7b169525f11b","_props":{"filters":[{"Filter":["5fc4b97bab884124df0cd5e3","6194f1f918a3974e5e7421e4"],"Shift":0}]},"_proto":"55d30c4c4bdc2db4468b457e","_required":false}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":-2.18,"Weight":0.122,"Width":1},"mod":{"ergonomics":-3,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":-2.18,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_muzzle","id":"6194f644de3cdf1d2614a76b","required":false,"filter":["5fc4b97bab884124df0cd5e3","6194f1f918a3974e5e7421e4"]}],"image":"/images/items/6194efe07c6c7b169525f11b.jpg","isMod":false}
+{
+  "id": "6194efe07c6c7b169525f11b",
+  "typeName": "Barrel",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Barrel",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b5f75c686f774094242f19f",
+    "price": 2900
+  },
+  "common": {
+    "name": {
+      "zh": "HK USP 战术型 .45 ACP螺纹枪管",
+      "en": "HK USP Tactical .45 ACP 129mm threaded barrel"
+    },
+    "shortName": {
+      "zh": "USP45T",
+      "en": "USP45T"
+    },
+    "description": {
+      "zh": "为特制版USP——USP战术型设计的129毫米螺纹枪管。由Heckler & Koch制造。",
+      "en": "A 129mm threaded barrel for the special version of the USP pistol - USP Tactical, chambered in .45 ACP. Manufactured by Heckler & Koch."
+    },
+    "weight": 0.263,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "CenterOfImpact": 0.27,
+      "ConflictingItems": [],
+      "CoolFactor": 1.15,
+      "Description": "barrel_glock_glock_114mm_9x19_std\n",
+      "DeviationCurve": 2.25,
+      "DeviationMax": 11,
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "DurabilityBurnModificator": 1,
+      "EffectiveDistance": 0,
+      "Ergonomics": -3,
+      "ExamineExperience": 6,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 1.1,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSilencer": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "barrel_glock_glock_114mm_9x19_std",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/barrels/barrel_hk_usp_129mm_1143x23_tactical.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -2,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "barrel_glock_glock_114mm_9x19_std",
+      "ShotgunDispersion": 1,
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_id": "6194f644de3cdf1d2614a76b",
+          "_mergeSlotWithChildren": false,
+          "_name": "mod_muzzle",
+          "_parent": "6194efe07c6c7b169525f11b",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5fc4b97bab884124df0cd5e3",
+                  "6194f1f918a3974e5e7421e4"
+                ],
+                "Shift": 0
+              }
+            ]
+          },
+          "_proto": "55d30c4c4bdc2db4468b457e",
+          "_required": false
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": -2.18,
+      "Weight": 0.122,
+      "Width": 1
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "5fc4b97bab884124df0cd5e3",
+          "name": {
+            "zh": "SilencerCo Omega 45k Piston转接器",
+            "en": "SilencerCo Omega 45k Piston Mount adapter"
+          },
+          "armorClass": 0,
+          "weight": 0.141,
+          "count": 1
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.263
+    },
+    "mod": {
+      "ergonomics": -3,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": -2.18,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_muzzle",
+      "id": "6194f644de3cdf1d2614a76b",
+      "required": false,
+      "filter": [
+        "5fc4b97bab884124df0cd5e3",
+        "6194f1f918a3974e5e7421e4"
+      ]
+    }
+  ],
+  "image": "/images/items/6194efe07c6c7b169525f11b.jpg",
+  "isMod": false
+}

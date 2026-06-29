@@ -1,1 +1,289 @@
-{"id":"69161926101e09f9a44a334a","typeName":"Handguard","category":"mod_other","parentTypeChain":["Handguard","MasterMod","Mod","CompoundItem","Item"],"handbook":{"categoryId":null,"price":0},"common":{"name":{"zh":"Magpul Masada 倾斜式RAHG护木","en":"Magpul Masada angled M-LOK handguard"},"shortName":{"zh":"RAHG-A","en":"Masada M-LOK Angled"},"description":{"zh":"适用于Magpul Masada 5.56x45毫米突击步枪的倾斜RAHG护木。","en":"Angled RAHG handguard for the Magpul Masada 5.56x45mm assault rifle."},"weight":0.355,"width":2,"height":1,"rarity":"Rare","backgroundColor":"blue"},"properties":{"_raw":{"Accuracy":0,"AnimationVariantsNumber":0,"BackgroundColor":"blue","BlocksCollapsible":false,"BlocksFolding":false,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"CoolFactor":0.98,"Description":"handguard_g36_kac_quad_rail_k","DiscardLimit":-1,"DiscardingBlock":false,"DoubleActionAccuracyPenaltyMult":1,"DropSoundType":"None","Durability":100,"EffectiveDistance":0,"Ergonomics":10,"ExamineExperience":3,"ExamineTime":1,"ExaminedByDefault":true,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":1,"ExtraSizeRight":0,"ExtraSizeUp":0,"ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasShoulderContact":false,"HeatFactor":0.97,"Height":1,"HideEntrails":false,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":false,"IsAnimated":false,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"mod","LeftHandItem":false,"LootExperience":10,"Loudness":0,"MergesWithChildren":true,"MetascoreGroup":"Firepower","Name":"handguard_g36_kac_quad_rail_k","NotShownInSlot":false,"Prefab":{"path":"WeaponMasada/masada_handguard_rahg_angled.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RaidModdable":false,"RarityPvE":"Rare","Recoil":-3,"RepairCost":0,"RepairSpeed":0,"ShortName":"handguard_g36_kac_quad_rail_k","SightingRange":0,"Slots":[{"_name":"mod_foregrip","_id":"691619472ed7be28b78c8a46","_parent":"69161926101e09f9a44a334a","_props":{"filters":[{"Shift":0,"Filter":["57cffb66245977632f391a99","57cffcd624597763133760c5","57cffcdd24597763f5110006","57cffce524597763b31685d8","5b7be4895acfc400170e2dd5","651a8bf3a8520e48047bf708","651a8e529829226ceb67c319","665d5d9e338229cfd6078da1","665edce564fb556f940ab32a"]}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"},{"_name":"mod_tactical_000","_id":"6916194a1b033f59699e3f1b","_parent":"69161926101e09f9a44a334a","_props":{"filters":[{"Shift":0,"Filter":["5b7be47f5acfc400170e2dd2","6269220d70b6c02e665f2635","6269545d0e57f218e4548ca2","669a6a4a525be1d2d004b8eb"]}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"},{"_name":"mod_tactical_001","_id":"6916194df6d909a043a81f3f","_parent":"69161926101e09f9a44a334a","_props":{"filters":[{"Shift":0,"Filter":["5b7be47f5acfc400170e2dd2","6269220d70b6c02e665f2635","6269545d0e57f218e4548ca2","669a6a4a525be1d2d004b8eb"]}]},"_required":false,"_mergeSlotWithChildren":false,"_proto":"55d30c4c4bdc2db4468b457e"}],"StackMaxSize":1,"StackObjectsCount":1,"ToolModdable":true,"UniqueAnimationModID":0,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Velocity":0,"Weight":0.355,"Width":2},"mod":{"ergonomics":10,"recoilForceUp":0,"recoilForceBack":0,"accuracy":0,"loudness":0,"effectiveDistance":0,"zooms":"","sightingRange":0,"sightModType":"","calibrationDistances":[],"velocity":0,"muzzleModType":"","malfunctionChance":0,"loadUnloadModifier":0,"checkTimeModifier":0,"foldable":false,"retractable":false}},"slots":[{"name":"mod_foregrip","id":"691619472ed7be28b78c8a46","required":false,"filter":["57cffb66245977632f391a99","57cffcd624597763133760c5","57cffcdd24597763f5110006","57cffce524597763b31685d8","5b7be4895acfc400170e2dd5","651a8bf3a8520e48047bf708","651a8e529829226ceb67c319","665d5d9e338229cfd6078da1","665edce564fb556f940ab32a"]},{"name":"mod_tactical_000","id":"6916194a1b033f59699e3f1b","required":false,"filter":["5b7be47f5acfc400170e2dd2","6269220d70b6c02e665f2635","6269545d0e57f218e4548ca2","669a6a4a525be1d2d004b8eb"]},{"name":"mod_tactical_001","id":"6916194df6d909a043a81f3f","required":false,"filter":["5b7be47f5acfc400170e2dd2","6269220d70b6c02e665f2635","6269545d0e57f218e4548ca2","669a6a4a525be1d2d004b8eb"]}],"image":null,"isMod":true}
+{
+  "id": "69161926101e09f9a44a334a",
+  "typeName": "Handguard",
+  "category": "mod_other",
+  "parentTypeChain": [
+    "Handguard",
+    "MasterMod",
+    "Mod",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "Magpul Masada 倾斜式RAHG护木",
+      "en": "Magpul Masada angled M-LOK handguard"
+    },
+    "shortName": {
+      "zh": "RAHG-A",
+      "en": "Masada M-LOK Angled"
+    },
+    "description": {
+      "zh": "适用于Magpul Masada 5.56x45毫米突击步枪的倾斜RAHG护木。",
+      "en": "Angled RAHG handguard for the Magpul Masada 5.56x45mm assault rifle."
+    },
+    "weight": 0.497,
+    "width": 2,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "blue"
+  },
+  "properties": {
+    "_raw": {
+      "Accuracy": 0,
+      "AnimationVariantsNumber": 0,
+      "BackgroundColor": "blue",
+      "BlocksCollapsible": false,
+      "BlocksFolding": false,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "CoolFactor": 0.98,
+      "Description": "handguard_g36_kac_quad_rail_k",
+      "DiscardLimit": -1,
+      "DiscardingBlock": false,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "EffectiveDistance": 0,
+      "Ergonomics": 10,
+      "ExamineExperience": 3,
+      "ExamineTime": 1,
+      "ExaminedByDefault": true,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasShoulderContact": false,
+      "HeatFactor": 0.97,
+      "Height": 1,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": false,
+      "IsAnimated": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "LootExperience": 10,
+      "Loudness": 0,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "Name": "handguard_g36_kac_quad_rail_k",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "WeaponMasada/masada_handguard_rahg_angled.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RaidModdable": false,
+      "RarityPvE": "Rare",
+      "Recoil": -3,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ShortName": "handguard_g36_kac_quad_rail_k",
+      "SightingRange": 0,
+      "Slots": [
+        {
+          "_name": "mod_foregrip",
+          "_id": "691619472ed7be28b78c8a46",
+          "_parent": "69161926101e09f9a44a334a",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "57cffb66245977632f391a99",
+                  "57cffcd624597763133760c5",
+                  "57cffcdd24597763f5110006",
+                  "57cffce524597763b31685d8",
+                  "5b7be4895acfc400170e2dd5",
+                  "651a8bf3a8520e48047bf708",
+                  "651a8e529829226ceb67c319",
+                  "665d5d9e338229cfd6078da1",
+                  "665edce564fb556f940ab32a"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical_000",
+          "_id": "6916194a1b033f59699e3f1b",
+          "_parent": "69161926101e09f9a44a334a",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical_001",
+          "_id": "6916194df6d909a043a81f3f",
+          "_parent": "69161926101e09f9a44a334a",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5b7be47f5acfc400170e2dd2",
+                  "6269220d70b6c02e665f2635",
+                  "6269545d0e57f218e4548ca2",
+                  "669a6a4a525be1d2d004b8eb"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Velocity": 0,
+      "Weight": 0.355,
+      "Width": 2
+    },
+    "armor": {
+      "armorClass": 0,
+      "baseArmorClass": 0,
+      "durability": 100,
+      "maxDurability": 0,
+      "material": "",
+      "zones": [],
+      "speedPenalty": 0,
+      "ergonomicsPenalty": 0,
+      "bluntThroughput": 0,
+      "armorType": "",
+      "mousePenalty": 0,
+      "defaultPlates": [
+        {
+          "id": "57cffb66245977632f391a99",
+          "name": {
+            "zh": "Magpul M-LOK AFG战术握把",
+            "en": "Magpul M-LOK AFG tactical foregrip (Black)"
+          },
+          "armorClass": 0,
+          "weight": 0.042,
+          "count": 1
+        },
+        {
+          "id": "5b7be47f5acfc400170e2dd2",
+          "name": {
+            "zh": "Magpul M-LOK 2.5英寸导轨",
+            "en": "Magpul M-LOK 2.5 inch rail"
+          },
+          "armorClass": 0,
+          "weight": 0.05,
+          "count": 2
+        }
+      ],
+      "defaultPlateClass": 0,
+      "plateZones": [],
+      "totalWeight": 0.497
+    },
+    "mod": {
+      "ergonomics": 10,
+      "recoilForceUp": 0,
+      "recoilForceBack": 0,
+      "accuracy": 0,
+      "loudness": 0,
+      "effectiveDistance": 0,
+      "zooms": "",
+      "sightingRange": 0,
+      "sightModType": "",
+      "calibrationDistances": [],
+      "velocity": 0,
+      "muzzleModType": "",
+      "malfunctionChance": 0,
+      "loadUnloadModifier": 0,
+      "checkTimeModifier": 0,
+      "foldable": false,
+      "retractable": false
+    }
+  },
+  "slots": [
+    {
+      "name": "mod_foregrip",
+      "id": "691619472ed7be28b78c8a46",
+      "required": false,
+      "filter": [
+        "57cffb66245977632f391a99",
+        "57cffcd624597763133760c5",
+        "57cffcdd24597763f5110006",
+        "57cffce524597763b31685d8",
+        "5b7be4895acfc400170e2dd5",
+        "651a8bf3a8520e48047bf708",
+        "651a8e529829226ceb67c319",
+        "665d5d9e338229cfd6078da1",
+        "665edce564fb556f940ab32a"
+      ]
+    },
+    {
+      "name": "mod_tactical_000",
+      "id": "6916194a1b033f59699e3f1b",
+      "required": false,
+      "filter": [
+        "5b7be47f5acfc400170e2dd2",
+        "6269220d70b6c02e665f2635",
+        "6269545d0e57f218e4548ca2",
+        "669a6a4a525be1d2d004b8eb"
+      ]
+    },
+    {
+      "name": "mod_tactical_001",
+      "id": "6916194df6d909a043a81f3f",
+      "required": false,
+      "filter": [
+        "5b7be47f5acfc400170e2dd2",
+        "6269220d70b6c02e665f2635",
+        "6269545d0e57f218e4548ca2",
+        "669a6a4a525be1d2d004b8eb"
+      ]
+    }
+  ],
+  "image": null,
+  "isMod": true
+}

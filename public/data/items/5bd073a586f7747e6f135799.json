@@ -1,1 +1,147 @@
-{"id":"5bd073a586f7747e6f135799","typeName":"FaceCover","category":"facecover","parentTypeChain":["FaceCover","ArmoredEquipment","Equipment","CompoundItem","Item"],"handbook":{"categoryId":"5b47574386f77428ca22b32f","price":22689},"common":{"name":{"zh":"假胡子","en":"Fake mustache"},"shortName":{"zh":"胡子","en":"Mustache"},"description":{"zh":"对现在这个时代来说这玩意有点古怪。不过，不管咋说，它都能让你获得80到90年代特工的战术范儿。就像Sequisha那样！","en":"Quite a strange item for current events, but, nevertheless, will allow you to get a real tactical look of a 80-90s spec-ops operator. Sequisha style!"},"weight":0.07,"width":1,"height":1,"rarity":"Superrare","backgroundColor":"violet"},"properties":{"_raw":{"AnimationVariantsNumber":0,"ArmorMaterial":"UHMWPE","ArmorType":"None","BackgroundColor":"violet","BlindnessProtection":0,"BlocksEarpiece":false,"BlocksEyewear":false,"BlocksFaceCover":false,"BlocksHeadwear":false,"BluntThroughput":0,"CanPutIntoDuringTheRaid":true,"CanRequireOnRagfair":false,"CanSellOnRagfair":true,"CantRemoveFromSlotsDuringRaid":[],"ConflictingItems":[],"DeafStrength":"None","Description":"item_equipment_mustache","DiscardLimit":1,"DiscardingBlock":false,"DropSoundType":"None","Durability":100,"ExamineExperience":100,"ExamineTime":1,"ExaminedByDefault":false,"ExtraSizeDown":0,"ExtraSizeForceAdd":false,"ExtraSizeLeft":0,"ExtraSizeRight":0,"ExtraSizeUp":0,"FaceShieldComponent":false,"FaceShieldMask":"NoMask","ForbidMissingVitalParts":false,"ForbidNonEmptyContainers":false,"Grids":[],"HasHinge":false,"Height":1,"HideEntrails":false,"Indestructibility":0.9,"InsuranceDisabled":false,"IsAlwaysAvailableForInsurance":true,"IsLockedafterEquip":false,"IsSecretExitRequirement":false,"IsSpecialSlotOnly":false,"IsUnbuyable":false,"IsUndiscardable":false,"IsUngivable":false,"IsUnremovable":false,"IsUnsaleable":false,"ItemSound":"gear_generic","LeftHandItem":false,"LootExperience":5,"MaterialType":"BodyArmor","MaxDurability":100,"MergesWithChildren":false,"MetascoreGroup":"Defence","Name":"item_equipment_mustache","NotShownInSlot":false,"Prefab":{"path":"assets/content/items/equipment/mustache/item_equipment_mustache.bundle","rcid":""},"QuestItem":false,"QuestStashMaxCount":0,"RagFairCommissionModifier":1,"RarityPvE":"Superrare","RepairCost":0,"RepairSpeed":0,"RicochetParams":{"x":0,"y":0,"z":80},"ShortName":"item_equipment_mustache","Slots":[],"StackMaxSize":1,"StackObjectsCount":1,"Unlootable":false,"UnlootableFromSide":[],"UnlootableFromSlot":"FirstPrimaryWeapon","UsePrefab":{"path":"","rcid":""},"Weight":0.07,"Width":1,"armorClass":"0","armorColliders":[],"armorPlateColliders":[],"mousePenalty":0,"speedPenaltyPercent":0,"weaponErgonomicPenalty":0},"armor":{"armorClass":0,"durability":100,"maxDurability":100,"material":"UHMWPE","zones":[],"speedPenalty":0,"ergonomicsPenalty":0,"bluntThroughput":0,"armorType":"None","mousePenalty":0}},"slots":[],"image":"/images/items/5bd073a586f7747e6f135799.jpg","isMod":false}
+{
+  "id": "5bd073a586f7747e6f135799",
+  "typeName": "FaceCover",
+  "category": "facecover",
+  "parentTypeChain": [
+    "FaceCover",
+    "ArmoredEquipment",
+    "Equipment",
+    "CompoundItem",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": "5b47574386f77428ca22b32f",
+    "price": 22689
+  },
+  "common": {
+    "name": {
+      "zh": "假胡子",
+      "en": "Fake mustache"
+    },
+    "shortName": {
+      "zh": "胡子",
+      "en": "Mustache"
+    },
+    "description": {
+      "zh": "对现在这个时代来说这玩意有点古怪。不过，不管咋说，它都能让你获得80到90年代特工的战术范儿。就像Sequisha那样！",
+      "en": "Quite a strange item for current events, but, nevertheless, will allow you to get a real tactical look of a 80-90s spec-ops operator. Sequisha style!"
+    },
+    "weight": 0.07,
+    "width": 1,
+    "height": 1,
+    "rarity": "Superrare",
+    "backgroundColor": "violet"
+  },
+  "properties": {
+    "_raw": {
+      "AnimationVariantsNumber": 0,
+      "ArmorMaterial": "UHMWPE",
+      "ArmorType": "None",
+      "BackgroundColor": "violet",
+      "BlindnessProtection": 0,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksFaceCover": false,
+      "BlocksHeadwear": false,
+      "BluntThroughput": 0,
+      "CanPutIntoDuringTheRaid": true,
+      "CanRequireOnRagfair": false,
+      "CanSellOnRagfair": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "ConflictingItems": [],
+      "DeafStrength": "None",
+      "Description": "item_equipment_mustache",
+      "DiscardLimit": 1,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "Durability": 100,
+      "ExamineExperience": 100,
+      "ExamineTime": 1,
+      "ExaminedByDefault": false,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "Grids": [],
+      "HasHinge": false,
+      "Height": 1,
+      "HideEntrails": false,
+      "Indestructibility": 0.9,
+      "InsuranceDisabled": false,
+      "IsAlwaysAvailableForInsurance": true,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsUnbuyable": false,
+      "IsUndiscardable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsUnsaleable": false,
+      "ItemSound": "gear_generic",
+      "LeftHandItem": false,
+      "LootExperience": 5,
+      "MaterialType": "BodyArmor",
+      "MaxDurability": 100,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Defence",
+      "Name": "item_equipment_mustache",
+      "NotShownInSlot": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/mustache/item_equipment_mustache.bundle",
+        "rcid": ""
+      },
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "RicochetParams": {
+        "x": 0,
+        "y": 0,
+        "z": 80
+      },
+      "ShortName": "item_equipment_mustache",
+      "Slots": [],
+      "StackMaxSize": 1,
+      "StackObjectsCount": 1,
+      "Unlootable": false,
+      "UnlootableFromSide": [],
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "Weight": 0.07,
+      "Width": 1,
+      "armorClass": "0",
+      "armorColliders": [],
+      "armorPlateColliders": [],
+      "mousePenalty": 0,
+      "speedPenaltyPercent": 0,
+      "weaponErgonomicPenalty": 0
+    },
+    "headwear": {
+      "armorClass": 0,
+      "durability": 100,
+      "maxDurability": 100,
+      "armorType": "None",
+      "armorMaterial": "UHMWPE",
+      "zones": [],
+      "ricochetChance": 80,
+      "blindnessProtection": 0,
+      "speedPenalty": 0,
+      "turnSpeed": 0,
+      "ergonomicsPenalty": 0,
+      "deafStrength": "None"
+    }
+  },
+  "slots": [],
+  "image": "/images/items/5bd073a586f7747e6f135799.jpg",
+  "isMod": false
+}
