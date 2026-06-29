@@ -125,6 +125,26 @@ function extractWeaponProps(item: SPTItem): WeaponProps | undefined {
     recoilStableIndexShot: (p.RecoilStableIndexShot as number) || 0,
     deviationMax: (p.DeviationMax as number) || 0,
     deviationCurve: (p.DeviationCurve as number) || 0,
+    // Reliability
+    malfunctionChance: (p.BaseMalfunctionChance as number) || 0,
+    durabilityBurnRatio: (p.DurabilityBurnRatio as number) || 0,
+    operatingResource: (p.OperatingResource as number) || 0,
+    // Overheat
+    heatFactorByShot: (p.HeatFactorByShot as number) || 0,
+    heatFactorGun: (p.HeatFactorGun as number) || 0,
+    coolFactorGun: (p.CoolFactorGun as number) || 0,
+    coolFactorGunMods: (p.CoolFactorGunMods as number) || 0,
+    // Hip fire
+    hipAccuracyRestorationSpeed: (p.HipAccuracyRestorationSpeed as number) || 0,
+    hipAccuracyRestorationDelay: (p.HipAccuracyRestorationDelay as number) || 0,
+    hipInnaccuracyGain: (p.HipInnaccuracyGain as number) || 0,
+    // Extra weapon stats
+    singleFireRate: (p.SingleFireRate as number) || 0,
+    shotgunDispersion: (p.shotgunDispersion as number) || 0,
+    bHearDist: (p.bHearDist as number) || 0,
+    // Mounting
+    mountVerticalRecoilMultiplier: (p.MountVerticalRecoilMultiplier as number) || 0,
+    mountHorizontalRecoilMultiplier: (p.MountHorizontalRecoilMultiplier as number) || 0,
     durability: (p.Durability as number) || 0,
     maxDurability: (p.MaxDurability as number) || 0,
     fireModes: Array.isArray(p.weapFireType) ? p.weapFireType as string[] : [],
@@ -145,9 +165,11 @@ function extractAmmoProps(item: SPTItem): AmmoProps | undefined {
     recoil: (p.Recoil as number) || 0,
     fragmentationChance: (p.FragmentationChance as number) || 0,
     ricochetChance: (p.RicochetChance as number) || 0,
-    lightBleedChance: (p.LightBleedingModifier as number) || 0,
-    heavyBleedChance: (p.HeavyBleedingModifier as number) || 0,
+    lightBleedChance: ((p.LightBleedingModifier as number) || (p.LightBleedingDelta as number)) || 0,
+    heavyBleedChance: ((p.HeavyBleedingModifier as number) || (p.HeavyBleedingDelta as number)) || 0,
     initialSpeed: (p.InitialSpeed as number) || 0,
+    ballisticCoeficient: (p.BallisticCoeficient as number) || 0,
+    projectileCount: (p.ProjectileCount as number) || 0,
   }
 }
 
@@ -181,6 +203,9 @@ function extractArmorProps(item: SPTItem): ArmorProps | undefined {
     zones: Array.isArray(p.armorZone) ? p.armorZone as string[] : [],
     speedPenalty: (p.SpeedPenalty as number) || 0,
     ergonomicsPenalty: (p.ErgonomicsPenalty as number) || 0,
+    bluntThroughput: (p.BluntThroughput as number) || 0,
+    armorType: (p.ArmorType as string) || '',
+    mousePenalty: (p.mousePenalty as number) || 0,
   }
 }
 
@@ -268,11 +293,45 @@ function extractModProps(item: SPTItem): ModProps | undefined {
   const recoilBack = p.RecoilForceBack ?? p.recoilForceBack
   const acc = p.Accuracy ?? p.accuracy
   if (ergo === undefined && recoilUp === undefined && acc === undefined) return undefined
+
+  // Serialize Zooms: [[1,4]] → "1-4x", [[1],[4]] → "1x,4x"
+  const rawZooms = p.Zooms as number[][] | undefined
+  let zooms = ''
+  if (Array.isArray(rawZooms) && rawZooms.length > 0) {
+    zooms = rawZooms.map((z: number[]) => {
+      if (z.length === 2) return `${z[0]}-${z[1]}x`
+      return `${z[0]}x`
+    }).join(', ')
+  }
+
+  // CalibrationDistances (raw is nested like [[50,100,150,200]], flatten it)
+  const calDist = Array.isArray(p.CalibrationDistances)
+    ? (p.CalibrationDistances as unknown[]).flat() as number[]
+    : []
+
   return {
     ergonomics: (ergo as number) || 0,
     recoilForceUp: (recoilUp as number) || 0,
     recoilForceBack: (recoilBack as number) || 0,
     accuracy: (acc as number) || 0,
+    // Common
+    loudness: (p.Loudness as number) || 0,
+    effectiveDistance: (p.EffectiveDistance as number) || 0,
+    // Scope
+    zooms,
+    sightingRange: (p.SightingRange as number) || 0,
+    sightModType: (p.sightModType as string) || '',
+    calibrationDistances: calDist,
+    // Muzzle
+    velocity: (p.Velocity as number) || 0,
+    muzzleModType: (p.muzzleModType as string) || '',
+    // Magazine
+    malfunctionChance: (p.MalfunctionChance as number) || 0,
+    loadUnloadModifier: (p.LoadUnloadModifier as number) || 0,
+    checkTimeModifier: (p.CheckTimeModifier as number) || 0,
+    // Stock
+    foldable: p.Foldable === true,
+    retractable: p.Retractable === true,
   }
 }
 

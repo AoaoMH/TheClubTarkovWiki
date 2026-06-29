@@ -452,6 +452,9 @@ export function ItemDetail() {
             <StatRow label={t('ergonomics')} value={properties.weapon.ergonomics as number} />
             <StatRow label={t('recoilUp')} value={properties.weapon.recoilForceUp as number} />
             <StatRow label={t('recoilBack')} value={properties.weapon.recoilForceBack as number} />
+            <StatRow label={t('singleFireRate')} value={properties.weapon.singleFireRate as number} unit={t('rpm')} />
+            <StatRow label={t('shotgunDispersion')} value={properties.weapon.shotgunDispersion as number} unit="°" />
+            <StatRow label={t('hearDist')} value={properties.weapon.bHearDist as number} unit={t('meters')} />
             <StatRow label={t('durability')} value={(properties.weapon.maxDurability || properties.weapon.durability) as number} />
             <StatRow label={t('fireModes')} value={translateFireModes(Array.isArray(properties.weapon.fireModes) ? properties.weapon.fireModes as string[] : [], lang)} />
             {/* Weapon ammo info */}
@@ -489,6 +492,42 @@ export function ItemDetail() {
           </Section>
         )}
 
+        {/* Reliability */}
+        {properties.weapon && !!(properties.weapon.malfunctionChance || properties.weapon.operatingResource) && (
+          <Section title={t('reliability')}>
+            <StatRow label={t('malfunctionChance')} value={(properties.weapon.malfunctionChance as number * 100).toFixed(1)} unit="%" showZero />
+            <StatRow label={t('durabilityBurnRatio')} value={properties.weapon.durabilityBurnRatio as number} showZero />
+            <StatRow label={t('operatingResource')} value={properties.weapon.operatingResource as number} showZero />
+          </Section>
+        )}
+
+        {/* Overheat */}
+        {properties.weapon && !!(properties.weapon.heatFactorByShot || properties.weapon.coolFactorGun) && (
+          <Section title={t('overheat')}>
+            <StatRow label={t('heatFactorByShot')} value={properties.weapon.heatFactorByShot as number} showZero />
+            <StatRow label={t('heatFactorGun')} value={properties.weapon.heatFactorGun as number} showZero />
+            <StatRow label={t('coolFactorGun')} value={properties.weapon.coolFactorGun as number} showZero />
+            <StatRow label={t('coolFactorGunMods')} value={properties.weapon.coolFactorGunMods as number} showZero />
+          </Section>
+        )}
+
+        {/* Hip Fire */}
+        {properties.weapon && !!(properties.weapon.hipAccuracyRestorationSpeed || properties.weapon.hipInnaccuracyGain) && (
+          <Section title={t('hipFire')}>
+            <StatRow label={t('hipAccuracyRestorationSpeed')} value={properties.weapon.hipAccuracyRestorationSpeed as number} showZero />
+            <StatRow label={t('hipAccuracyRestorationDelay')} value={properties.weapon.hipAccuracyRestorationDelay as number} unit={t('seconds')} showZero />
+            <StatRow label={t('hipInnaccuracyGain')} value={properties.weapon.hipInnaccuracyGain as number} showZero />
+          </Section>
+        )}
+
+        {/* Mounting */}
+        {properties.weapon && !!(properties.weapon.mountVerticalRecoilMultiplier || properties.weapon.mountHorizontalRecoilMultiplier) && (
+          <Section title={t('mounting')}>
+            <StatRow label={t('mountVerticalRecoilMultiplier')} value={(properties.weapon.mountVerticalRecoilMultiplier as number * 100).toFixed(0)} unit="%" showZero />
+            <StatRow label={t('mountHorizontalRecoilMultiplier')} value={(properties.weapon.mountHorizontalRecoilMultiplier as number * 100).toFixed(0)} unit="%" showZero />
+          </Section>
+        )}
+
         {/* Ammo Box Content */}
         {isAmmoBox && properties.ammoBox && (
           <Section title={t('ammoBoxContent')}>
@@ -516,7 +555,12 @@ export function ItemDetail() {
             <StatRow label={t('accuracy')} value={properties.ammo.accuracy as number} />
             <StatRow label={t('recoil')} value={properties.ammo.recoil as number} />
             <StatRow label={t('fragmentation')} value={properties.ammo.fragmentationChance as number} unit="%" />
+            <StatRow label={t('ricochetChance')} value={properties.ammo.ricochetChance as number} unit="%" />
+            <StatRow label={t('lightBleedChance')} value={properties.ammo.lightBleedChance as number} unit="%" showZero />
+            <StatRow label={t('heavyBleedChance')} value={properties.ammo.heavyBleedChance as number} unit="%" showZero />
             <StatRow label={t('initialSpeed')} value={properties.ammo.initialSpeed as number} unit="m/s" />
+            <StatRow label={t('ballisticCoeficient')} value={properties.ammo.ballisticCoeficient as number} />
+            <StatRow label={t('projectileCount')} value={properties.ammo.projectileCount as number} showZero />
           </Section>
         )}
 
@@ -529,6 +573,9 @@ export function ItemDetail() {
             <StatRow label={t('zones')} value={translateArmorZones(properties.armor.zones as string[], lang)} />
             <ColoredStatRow label={t('speedPenalty')} value={properties.armor.speedPenalty as number} unit="%" />
             <ColoredStatRow label={t('ergoPenalty')} value={properties.armor.ergonomicsPenalty as number} unit="%" />
+            <ColoredStatRow label={t('turnPenalty')} value={properties.armor.mousePenalty as number} unit="%" showZero />
+            <StatRow label={t('bluntThroughput')} value={((properties.armor.bluntThroughput as number) * 100).toFixed(1)} unit="%" />
+            <StatRow label={t('armorType')} value={t(`armorType_${properties.armor.armorType}` as 'armorType_Light')} />
           </Section>
         )}
 
@@ -546,7 +593,7 @@ export function ItemDetail() {
         {/* Mod - only show for non-weapon items */}
         {properties.mod && !isWeapon && (
           <Section title={t('mod')}>
-            {modAllZero ? (
+            {modAllZero && !properties.mod.zooms && !properties.mod.velocity && !properties.mod.malfunctionChance ? (
               <p className="text-sm text-muted-foreground text-center py-2">{t('noEffect')}</p>
             ) : (
               <>
@@ -554,6 +601,44 @@ export function ItemDetail() {
                 <ColoredStatRow label={t('recoilUp')} value={properties.mod.recoilForceUp as number} invertColor />
                 <ColoredStatRow label={t('recoilBack')} value={properties.mod.recoilForceBack as number} invertColor />
                 <ColoredStatRow label={t('accuracy')} value={properties.mod.accuracy as number} />
+                {/* Common mod fields */}
+                <StatRow label={t('loudness')} value={properties.mod.loudness as number} unit="dB" showZero />
+                <StatRow label={t('effectiveDistance')} value={properties.mod.effectiveDistance as number} unit={t('meters')} showZero />
+                {/* Scope */}
+                {item.category === 'mod_scope' && (
+                  <>
+                    <StatRow label={t('zooms')} value={properties.mod.zooms as string} />
+                    <StatRow label={t('sightingRange')} value={properties.mod.sightingRange as number} unit={t('meters')} showZero />
+                    <StatRow label={t('sightModType')} value={properties.mod.sightModType ? t(`sightModType_${properties.mod.sightModType}` as 'sightModType_optic') : ''} />
+                    {Array.isArray(properties.mod.calibrationDistances) && (properties.mod.calibrationDistances as number[]).length > 0 && (
+                      <StatRow label={t('calibrationDistances')} value={(properties.mod.calibrationDistances as number[]).join(', ') + ' m'} />
+                    )}
+                  </>
+                )}
+                {/* Muzzle */}
+                {item.category === 'mod_muzzle' && (
+                  <>
+                    <StatRow label={t('velocity')} value={properties.mod.velocity as number} showZero />
+                    {properties.mod.muzzleModType && (
+                      <StatRow label={t('muzzleModType')} value={t(`muzzleModType_${properties.mod.muzzleModType}` as 'muzzleModType_silencer')} />
+                    )}
+                  </>
+                )}
+                {/* Magazine */}
+                {item.category === 'mod_magazine' && (
+                  <>
+                    <StatRow label={t('magMalfunctionChance')} value={properties.mod.malfunctionChance as number} unit="%" showZero />
+                    <StatRow label={t('loadUnloadModifier')} value={properties.mod.loadUnloadModifier as number} unit="%" showZero />
+                    <StatRow label={t('checkTimeModifier')} value={properties.mod.checkTimeModifier as number} unit="%" showZero />
+                  </>
+                )}
+                {/* Stock */}
+                {item.category === 'mod_stock' && (
+                  <>
+                    <StatRow label={t('foldable')} value={properties.mod.foldable ? t('yes') : t('no')} />
+                    <StatRow label={t('retractable')} value={properties.mod.retractable ? t('yes') : t('no')} />
+                  </>
+                )}
               </>
             )}
           </Section>
@@ -577,11 +662,29 @@ export function ItemDetail() {
             <StatRow label={lang === 'zh' ? '刺击伤害' : 'Stab Damage'} value={raw.knifeHitStabDam as number} />
             <StatRow label={lang === 'zh' ? '挥砍穿透' : 'Slash Penetration'} value={raw.SlashPenetration as number} />
             <StatRow label={lang === 'zh' ? '刺击穿透' : 'Stab Penetration'} value={raw.StabPenetration as number} />
+            <StatRow label={t('slashConsumption')} value={raw.PrimaryConsumption as number} />
+            <StatRow label={t('stabConsumption')} value={raw.SecondryConsumption as number} />
+            <StatRow label={t('deflectionConsumption')} value={raw.DeflectionConsumption as number} />
+            <StatRow label={t('slashDistance')} value={raw.PrimaryDistance as number} unit="m" />
+            <StatRow label={t('stabDistance')} value={raw.SecondryDistance as number} unit="m" />
+            <StatRow label={t('slashRate')} value={((raw.knifeHitSlashRate as number || 0) * 100)} unit="%" />
+            <StatRow label={t('stabRate')} value={((raw.knifeHitStabRate as number || 0) * 100)} unit="%" />
           </Section>
         )}
 
-        {/* Headwear Performance */}
-        {item.category === 'headwear' && !!(properties.headwear || raw.ArmorType || raw.ArmorMaterial) && (
+        {/* Grenade Performance */}
+        {item.category === 'grenade' && (
+          <Section title={t('performance')}>
+            <StatRow label={t('throwType')} value={t(`throwType_${raw.ThrowType}` as 'throwType_frag_grenade')} />
+            <StatRow label={t('strength')} value={raw.Strength as number} showZero />
+            <StatRow label={t('contusionDistance')} value={raw.ContusionDistance as number} unit={t('meters')} showZero />
+            <StatRow label={t('explDelay')} value={((raw.ExplDelay as number) || (raw.explDelay as number) || 0)} unit={t('seconds')} />
+            <StatRow label={t('emitTime')} value={raw.EmitTime as number} unit={t('seconds')} />
+          </Section>
+        )}
+
+        {/* Headwear/Facecover Performance */}
+        {(item.category === 'headwear' || item.category === 'facecover') && !!(properties.headwear || raw.ArmorType || raw.ArmorMaterial) && (
           <Section title={t('performance')}>
             <StatRow label={t('armorClass')} value={(properties.headwear?.armorClass ?? raw.armorClass) as number} showZero />
             <StatRow label={t('type')} value={translateArmorType((properties.headwear?.armorType ?? raw.ArmorType) as string, lang)} />
@@ -604,6 +707,27 @@ export function ItemDetail() {
             <StatRow label={lang === 'zh' ? '环境音量' : 'Ambient Volume'} value={raw.AmbientVolume as number} unit="dB" />
             <StatRow label={lang === 'zh' ? '压缩器增益' : 'Compressor Gain'} value={raw.CompressorGain as number} unit="dB" />
             <StatRow label={lang === 'zh' ? '压缩器阈值' : 'Compressor Threshold'} value={raw.CompressorThreshold as number} unit="dB" />
+            <StatRow label={t('compressorAttack')} value={raw.CompressorAttack as number} unit="ms" />
+            <StatRow label={t('compressorRelease')} value={raw.CompressorRelease as number} unit="ms" />
+            <StatRow label={t('highpassFreq')} value={raw.HighpassFreq as number} unit="Hz" />
+            <StatRow label={t('lowpassFreq')} value={raw.LowpassFreq as number} unit="Hz" />
+            {/* EQ Bands */}
+            {[1, 2, 3].map(band => {
+              const freq = raw[`EQBand${band}Frequency`] as number | undefined
+              const gain = raw[`EQBand${band}Gain`] as number | undefined
+              const q = raw[`EQBand${band}Q`] as number | undefined
+              if (freq === undefined) return null
+              return (
+                <div key={band} className="py-1.5 border-b border-border/50">
+                  <p className="text-xs font-medium text-muted-foreground mb-0.5">{t('eqBand')} {band}</p>
+                  <div className="flex gap-3 text-sm">
+                    <span>{t('frequency')}: <span className="font-medium">{freq}Hz</span></span>
+                    <span>{t('gain')}: <span className="font-medium">{gain}dB</span></span>
+                    <span>{t('qFactor')}: <span className="font-medium">{q}</span></span>
+                  </div>
+                </div>
+              )
+            })}
           </Section>
         )}
 
@@ -619,8 +743,8 @@ export function ItemDetail() {
 
       {/* Full-width sections below the grid */}
       <div className="mt-4 space-y-4">
-        {/* Headwear Compatible Mods */}
-        {item.category === 'headwear' && resolvedSlots.length > 0 && (
+        {/* Headwear/Facecover Compatible Mods */}
+        {(item.category === 'headwear' || item.category === 'facecover') && resolvedSlots.length > 0 && (
           <Section title={lang === 'zh' ? '兼容配件' : 'Compatible Mods'}>
             {resolvedSlots.map((slot, i) => (
               <div key={i} className="mb-3 last:mb-0">

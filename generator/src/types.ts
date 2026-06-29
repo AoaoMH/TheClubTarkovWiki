@@ -141,6 +141,26 @@ export interface WeaponProps {
   recoilStableIndexShot: number
   deviationMax: number
   deviationCurve: number
+  // Reliability
+  malfunctionChance: number
+  durabilityBurnRatio: number
+  operatingResource: number
+  // Overheat
+  heatFactorByShot: number
+  heatFactorGun: number
+  coolFactorGun: number
+  coolFactorGunMods: number
+  // Hip fire
+  hipAccuracyRestorationSpeed: number
+  hipAccuracyRestorationDelay: number
+  hipInnaccuracyGain: number
+  // Extra weapon stats
+  singleFireRate: number
+  shotgunDispersion: number
+  bHearDist: number
+  // Mounting
+  mountVerticalRecoilMultiplier: number
+  mountHorizontalRecoilMultiplier: number
   durability: number
   maxDurability: number
   fireModes: string[]
@@ -160,6 +180,8 @@ export interface AmmoProps {
   lightBleedChance: number
   heavyBleedChance: number
   initialSpeed: number
+  ballisticCoeficient: number
+  projectileCount: number
 }
 
 export interface AmmoBoxProps {
@@ -176,6 +198,9 @@ export interface ArmorProps {
   zones: string[]
   speedPenalty: number
   ergonomicsPenalty: number
+  bluntThroughput: number
+  armorType: string
+  mousePenalty: number
 }
 
 export interface MedicalProps {
@@ -191,6 +216,24 @@ export interface ModProps {
   recoilForceUp: number
   recoilForceBack: number
   accuracy: number
+  // Common mod fields
+  loudness: number
+  effectiveDistance: number
+  // Scope
+  zooms: string
+  sightingRange: number
+  sightModType: string
+  calibrationDistances: number[]
+  // Muzzle
+  velocity: number
+  muzzleModType: string
+  // Magazine
+  malfunctionChance: number
+  loadUnloadModifier: number
+  checkTimeModifier: number
+  // Stock
+  foldable: boolean
+  retractable: boolean
 }
 
 export interface FoodDrinkProps {
