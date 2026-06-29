@@ -2,6 +2,7 @@
 
 塔科夫 SPT 私服个人道具百科网站。基于本地 SPT 客户端数据（含 mod）生成，部署为纯静态站点。
 
+
 ## 技术栈
 
 - **前端**: React 19 + TypeScript + Vite 6 + TailwindCSS 4
