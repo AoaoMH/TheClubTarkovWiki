@@ -198,6 +198,21 @@ export interface SlotInfo {
   filter: string[] // compatible item IDs
 }
 
+export interface ResolvedSlot {
+  name: string  // original slot name (e.g. Helmet_ears)
+  filters: Array<{
+    id: string
+    name: { zh: string; en: string }
+    isWikiItem: boolean
+  }>
+}
+
+/** Name lookup entry for non-wiki items referenced by slots/conflicts */
+export interface ItemNameEntry {
+  zh: string
+  en: string
+}
+
 export interface WikiItem {
   id: string
   typeName: string // original _name from SPT (e.g. AssaultRifle, Ammo, etc.)
@@ -216,6 +231,12 @@ export interface WikiItem {
     medical?: MedicalProps
     mod?: ModProps
     foodDrink?: FoodDrinkProps
+    resolvedSlots?: ResolvedSlot[]
+    resolvedConflicts?: Array<{
+      id: string
+      name: { zh: string; en: string }
+      isWikiItem: boolean
+    }>
     _raw?: Record<string, unknown>
   }
   slots: SlotInfo[]

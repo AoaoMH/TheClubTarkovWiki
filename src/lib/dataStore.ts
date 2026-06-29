@@ -39,3 +39,7 @@ export function fetchItemDetail(itemId: string) {
 export function fetchSearchIndex() {
   return fetchOnce<import('@/hooks/useItems').ItemSummary[]>('search-index', '/data/search-index.json')
 }
+
+export function fetchItemNames() {
+  return fetchOnce<Record<string, { zh: string; en: string }>>('item-names', '/data/item-names.json')
+}

@@ -1,10 +1,15 @@
 import { EXCLUDED_TYPES } from '../config.js'
 import type {
   SPTItemsMap, SPTItem, Handbook, Locales,
-  WikiItem, ItemCategory, SlotInfo,
+  WikiItem, ItemCategory, SlotInfo, ResolvedSlot, ItemNameEntry,
   WeaponProps, AmmoProps, AmmoBoxProps, ArmorProps, MedicalProps, ModProps, FoodDrinkProps,
   HealthEffect, StimBuff, ItemEffects, StimulatorBuffsMap
 } from '../types.js'
+
+export interface NormalizeResult {
+  wikiItems: WikiItem[]
+  itemNames: Record<string, ItemNameEntry>
+}
 
 interface NormalizeContext {
   items: SPTItemsMap
@@ -277,13 +282,22 @@ function extractFoodDrinkProps(item: SPTItem, stimBuffsMap: StimulatorBuffsMap):
 /**
  * Normalize all items into wiki output format.
  */
-export function normalizeItems(ctx: NormalizeContext): WikiItem[] {
+export function normalizeItems(ctx: NormalizeContext): NormalizeResult {
   const { items, handbook, locales, itemTypeMap, typeChain, modItemIds, stimBuffsMap } = ctx
 
   // Build handbook item lookup
   const handbookItemMap = new Map<string, { categoryId: string; price: number }>()
   for (const hi of handbook.Items) {
     handbookItemMap.set(hi.Id, { categoryId: hi.ParentId, price: hi.Price })
+  }
+
+  // Build name lookup for ALL SPT items (including excluded ones) - use full Name
+  function getItemName(id: string): { zh: string; en: string } {
+    const item = items[id]
+    if (!item) return { zh: id.slice(0, 8), en: id.slice(0, 8) }
+    const zh = getLocale(id, 'Name', locales.zh, (item._props.Name as string) || item._name)
+    const en = getLocale(id, 'Name', locales.en, (item._props.Name as string) || item._name)
+    return { zh, en }
   }
 
   // Collect all Node IDs (abstract types)
@@ -293,23 +307,24 @@ export function normalizeItems(ctx: NormalizeContext): WikiItem[] {
   }
 
   const wikiItems: WikiItem[] = []
+  const wikiItemIds = new Set<string>()
   let skipped = 0
 
+  // First pass: build wiki items and collect wiki item IDs
   for (const [id, item] of Object.entries(items)) {
-    // Skip Node entries (abstract type definitions)
-    if (nodeIds.has(id)) {
-      skipped++
-      continue
-    }
-
+    if (nodeIds.has(id)) { skipped++; continue }
     const typeName = itemTypeMap.get(id) || 'Unknown'
     const chain = typeChain(id)
+    if (EXCLUDED_TYPES.has(typeName)) { skipped++; continue }
+    wikiItemIds.add(id)
+  }
 
-    // Skip excluded abstract/system types
-    if (EXCLUDED_TYPES.has(typeName)) {
-      skipped++
-      continue
-    }
+  // Second pass: build wiki items with resolved slots
+  for (const [id, item] of Object.entries(items)) {
+    if (nodeIds.has(id)) continue
+    const typeName = itemTypeMap.get(id) || 'Unknown'
+    const chain = typeChain(id)
+    if (EXCLUDED_TYPES.has(typeName)) continue
 
     const category = getCategory(typeName, chain)
     const handbookInfo = handbookItemMap.get(id)
@@ -344,6 +359,31 @@ export function normalizeItems(ctx: NormalizeContext): WikiItem[] {
     const slots = extractSlots(item)
     const isMod = modItemIds.has(id)
 
+    // Resolve headwear slots with translated names
+    if (category === 'headwear' && slots.length > 0) {
+      properties.resolvedSlots = slots.map(slot => ({
+        name: slot.name,
+        filters: slot.filter.map(filterId => ({
+          id: filterId,
+          name: getItemName(filterId),
+          isWikiItem: wikiItemIds.has(filterId),
+        })),
+      }))
+    }
+
+    // Resolve conflicting items with translated names
+    const rawConflicts = item._props.ConflictingItems as string[] | undefined
+    if (Array.isArray(rawConflicts) && rawConflicts.length > 0) {
+      properties.resolvedConflicts = rawConflicts
+        .map((cid: string) => cid.trim())
+        .filter((cid: string) => cid.length > 0)
+        .map((cid: string) => ({
+          id: cid,
+          name: getItemName(cid),
+          isWikiItem: wikiItemIds.has(cid),
+        }))
+    }
+
     wikiItems.push({
       id,
       typeName,
@@ -370,6 +410,26 @@ export function normalizeItems(ctx: NormalizeContext): WikiItem[] {
     })
   }
 
+  // Collect all referenced non-wiki IDs and build name lookup
+  const referencedNonWikiIds = new Set<string>()
+  for (const wi of wikiItems) {
+    // From resolvedSlots (non-wiki filter items)
+    if (wi.properties.resolvedSlots) {
+      for (const slot of wi.properties.resolvedSlots) {
+        for (const f of slot.filters) {
+          if (!f.isWikiItem) referencedNonWikiIds.add(f.id)
+        }
+      }
+    }
+  }
+
+  const itemNames: Record<string, ItemNameEntry> = {}
+  for (const id of referencedNonWikiIds) {
+    const name = getItemName(id)
+    itemNames[id] = { zh: name.zh, en: name.en }
+  }
+
   console.log(`[normalize] ${wikiItems.length} wiki items (${skipped} skipped nodes/excluded)`)
-  return wikiItems
+  console.log(`[normalize] ${Object.keys(itemNames).length} non-wiki item names resolved`)
+  return { wikiItems, itemNames }
 }

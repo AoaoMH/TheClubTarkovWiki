@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo, useCallback } from 'react'
-import { fetchCategories, fetchCategorySummaries, fetchItemDetail, fetchSearchIndex } from '@/lib/dataStore'
+import { fetchCategories, fetchCategorySummaries, fetchItemDetail, fetchSearchIndex, fetchItemNames } from '@/lib/dataStore'
 
 // ==================== Types ====================
 
@@ -71,6 +71,19 @@ export interface WikiItem {
       useTime: number
       effects: ItemEffects
     }
+    resolvedSlots?: Array<{
+      name: string
+      filters: Array<{
+        id: string
+        name: { zh: string; en: string }
+        isWikiItem: boolean
+      }>
+    }>
+    resolvedConflicts?: Array<{
+      id: string
+      name: { zh: string; en: string }
+      isWikiItem: boolean
+    }>
     _raw?: Record<string, unknown>
   }
   slots: Array<{
@@ -218,6 +231,30 @@ export function useSearch(items: ItemSummary[], lang: 'zh' | 'en') {
   }, [query, items, lang])
 
   return { query, setQuery, results }
+}
+
+/** Load name lookup for non-wiki items (for slot filters and conflicting items) */
+export function useItemNames() {
+  const [state, setState] = useState<AsyncState<Record<string, { zh: string; en: string }>>>({
+    data: null, loading: false, error: null
+  })
+  const [loaded, setLoaded] = useState(false)
+
+  const triggerLoad = useCallback(() => {
+    if (loaded) return
+    setLoaded(true)
+    setState({ data: null, loading: true, error: null })
+    fetchItemNames()
+      .then(data => setState({ data, loading: false, error: null }))
+      .catch(err => setState({ data: null, loading: false, error: String(err) }))
+  }, [loaded])
+
+  const getName = useCallback((id: string, lang: 'zh' | 'en'): string | null => {
+    const entry = state.data?.[id]
+    return entry ? entry[lang] : null
+  }, [state.data])
+
+  return { getName, triggerLoad, loading: state.loading }
 }
 
 // ==================== Utility Hooks ====================

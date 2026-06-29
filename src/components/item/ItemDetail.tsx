@@ -284,20 +284,23 @@ export function ItemDetail() {
   // Raw data for special items
   const raw = properties._raw || {}
 
-  // Headwear slots for compatible mods
-  const headwearSlots = item.category === 'headwear' && Array.isArray(raw.Slots)
-    ? (raw.Slots as Array<{ _name: string; _props?: { filters?: Array<{ Filter?: string[] }> } }>)
-        .filter(s => s._name && s._props?.filters)
-        .map(s => ({
-          name: s._name,
-          filter: (s._props?.filters || []).flatMap(f => f.Filter || []),
-        }))
-    : []
+  // Headwear resolved slots (pre-resolved by generator with names)
+  const resolvedSlots = properties.resolvedSlots || []
 
-  // Conflicting items for headphones
-  const conflictingItems = Array.isArray(raw.ConflictingItems)
-    ? raw.ConflictingItems as string[]
-    : []
+  // Slot name translation helper (normalize case: lowercase first char for i18n key)
+  const getSlotName = (slotName: string): string => {
+    // Try exact match first, then with lowercase first char
+    const key = `slot_${slotName}` as const
+    const lowerKey = `slot_${slotName.charAt(0).toLowerCase()}${slotName.slice(1)}` as const
+    const translated = t(key)
+    if (translated !== key) return translated
+    const translatedLower = t(lowerKey)
+    if (translatedLower !== lowerKey) return translatedLower
+    return slotName
+  }
+
+  // Conflicting items (pre-resolved by generator with names)
+  const resolvedConflicts = properties.resolvedConflicts || []
 
   // Backpack grids
   const backpackGrids = item.category === 'backpack' && Array.isArray(raw.Grids)
@@ -517,40 +520,60 @@ export function ItemDetail() {
       {/* Full-width sections below the grid */}
       <div className="mt-4 space-y-4">
         {/* Headwear Compatible Mods */}
-        {item.category === 'headwear' && headwearSlots.length > 0 && (
+        {item.category === 'headwear' && resolvedSlots.length > 0 && (
           <Section title={lang === 'zh' ? '兼容配件' : 'Compatible Mods'}>
-            {headwearSlots.map((slot, i) => (
+            {resolvedSlots.map((slot, i) => (
               <div key={i} className="mb-3 last:mb-0">
-                <p className="text-xs text-muted-foreground mb-1">{slot.name}</p>
+                <p className="text-xs font-medium text-muted-foreground mb-1">{getSlotName(slot.name)}</p>
                 <div className="flex flex-wrap gap-1">
-                  {slot.filter.slice(0, 20).map(filterId => (
-                    <Link
-                      key={filterId}
-                      to={`/item/${filterId}`}
-                      className="text-xs text-primary hover:underline px-1.5 py-0.5 bg-secondary rounded"
-                    >
-                      {filterId.slice(0, 8)}
-                    </Link>
-                  ))}
+                  {slot.filters.map(f => {
+                    const displayName = lang === 'zh' ? f.name.zh : f.name.en
+                    return f.isWikiItem ? (
+                      <Link
+                        key={f.id}
+                        to={`/item/${f.id}`}
+                        className="text-xs text-primary hover:underline px-1.5 py-0.5 bg-secondary rounded"
+                      >
+                        {displayName}
+                      </Link>
+                    ) : (
+                      <span
+                        key={f.id}
+                        className="text-xs text-muted-foreground px-1.5 py-0.5 bg-secondary/50 rounded"
+                      >
+                        {displayName}
+                      </span>
+                    )
+                  })}
                 </div>
               </div>
             ))}
           </Section>
         )}
 
-        {/* Headphones Conflicting Items */}
-        {item.typeName === 'Headphones' && conflictingItems.length > 0 && (
+        {/* Conflicting Items */}
+        {resolvedConflicts.length > 0 && (
           <Section title={lang === 'zh' ? '冲突道具' : 'Conflicting Items'}>
             <div className="flex flex-wrap gap-1">
-              {conflictingItems.map(cid => (
-                <Link
-                  key={cid}
-                  to={`/item/${cid.trim()}`}
-                  className="text-xs text-destructive hover:underline px-1.5 py-0.5 bg-secondary rounded"
-                >
-                  {cid.trim().slice(0, 8)}
-                </Link>
-              ))}
+              {resolvedConflicts.map(f => {
+                const displayName = lang === 'zh' ? f.name.zh : f.name.en
+                return f.isWikiItem ? (
+                  <Link
+                    key={f.id}
+                    to={`/item/${f.id}`}
+                    className="text-xs text-destructive hover:underline px-1.5 py-0.5 bg-secondary rounded"
+                  >
+                    {displayName}
+                  </Link>
+                ) : (
+                  <span
+                    key={f.id}
+                    className="text-xs text-muted-foreground px-1.5 py-0.5 bg-secondary/50 rounded"
+                  >
+                    {displayName}
+                  </span>
+                )
+              })}
             </div>
           </Section>
         )}

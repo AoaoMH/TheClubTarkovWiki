@@ -39,7 +39,7 @@ async function main() {
 
   // Step 5: Normalize items to wiki format
   console.log('\n--- Step 5: Normalizing items ---')
-  const wikiItems = normalizeItems({
+  const { wikiItems, itemNames } = normalizeItems({
     items: mergedItems,
     handbook,
     locales: mergedLocales,
@@ -73,7 +73,7 @@ async function main() {
       await downloadImages(wikiItems)
       // Re-write output with updated image paths
       console.log('[images] Updating data files with image paths')
-      writeOutput(wikiItems, wikiCategories, types, modItemIds.size)
+      writeOutput(wikiItems, wikiCategories, types, modItemIds.size, itemNames)
     } else {
       console.log('[images] tarkov.dev API not available. Check network connection.')
       process.exit(1)
@@ -95,7 +95,7 @@ async function main() {
     }
 
     console.log('\n--- Writing output ---')
-    writeOutput(wikiItems, wikiCategories, types, modItemIds.size)
+    writeOutput(wikiItems, wikiCategories, types, modItemIds.size, itemNames)
   }
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(2)

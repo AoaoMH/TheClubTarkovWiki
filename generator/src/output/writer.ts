@@ -1,7 +1,7 @@
 import fs from 'fs'
 import path from 'path'
 import { OUTPUT_DATA_PATH } from '../config.js'
-import type { WikiItem, WikiCategory, WikiTypeNode, ItemSummary } from '../types.js'
+import type { WikiItem, WikiCategory, WikiTypeNode, ItemSummary, ItemNameEntry } from '../types.js'
 
 /**
  * Extract a lightweight summary from a WikiItem for list views and search.
@@ -45,7 +45,8 @@ export function writeOutput(
   items: WikiItem[],
   categories: WikiCategory[],
   types: WikiTypeNode[],
-  modItemCount: number
+  modItemCount: number,
+  itemNames: Record<string, ItemNameEntry>
 ): void {
   console.log(`[output] Writing data to ${OUTPUT_DATA_PATH}`)
 
@@ -123,6 +124,11 @@ export function writeOutput(
   const typesPath = path.join(OUTPUT_DATA_PATH, 'types.json')
   fs.writeFileSync(typesPath, JSON.stringify(types, null, 2), 'utf-8')
   console.log(`[output] types.json: ${types.length} type nodes`)
+
+  // Write item-names.json (name lookup for non-wiki items)
+  const itemNamesPath = path.join(OUTPUT_DATA_PATH, 'item-names.json')
+  fs.writeFileSync(itemNamesPath, JSON.stringify(itemNames), 'utf-8')
+  console.log(`[output] item-names.json: ${Object.keys(itemNames).length} entries (${(fs.statSync(itemNamesPath).size / 1024).toFixed(0)} KB)`)
 
   // Write stats
   const stats = {
