@@ -19,6 +19,8 @@ public/data/
 ├── summaries/{catId}.json   # 分类道具摘要（列表用）~100KB/分类
 ├── items/{itemId}.json      # 单道具完整数据（详情用）~10-25KB/个
 ├── search-index.json        # 搜索索引（全部摘要）~1.7MB
+├── quests.json              # 任务摘要列表（558个）~50KB
+├── quests/{questId}.json    # 单任务完整数据（详情用）
 ├── types.json               # 类型层级
 └── stats.json               # 生成统计
 ```
@@ -117,6 +119,7 @@ This directory contains guidelines for frontend development. Fill in each file w
 |-------|-------------|--------|
 | [Directory Structure](./directory-structure.md) | Module organization and file layout | To fill |
 | [Component Guidelines](./component-guidelines.md) | Component patterns, props, composition | To fill |
+| [Quest System](./quest-system.md) | Quest data contracts, CounterCreator rules, display patterns | ✅ Active |
 | [Hook Guidelines](./hook-guidelines.md) | Custom hooks, data fetching patterns | To fill |
 | [State Management](./state-management.md) | Local state, global state, server state | To fill |
 | [Quality Guidelines](./quality-guidelines.md) | Code standards, forbidden patterns | To fill |

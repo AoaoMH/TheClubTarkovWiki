@@ -27,6 +27,8 @@ public/data/
 ├── summaries/{catId}.json   # 分类道具摘要（ItemSummary 数组，列表用）
 ├── items/{itemId}.json      # 单道具完整数据（WikiItem，详情用）
 ├── search-index.json        # 搜索索引（全部 ItemSummary 数组）
+├── quests.json              # 任务摘要列表（558个）
+├── quests/{questId}.json    # 单任务完整数据
 ├── types.json               # 类型层级树
 └── stats.json               # 生成统计信息
 ```
@@ -62,10 +64,12 @@ interface ItemSummary {
 | `readers/handbook.ts` | 读取 handbook.json |
 | `readers/locales.ts` | 读取 ch.json + en.json |
 | `readers/mods.ts` | 扫描 mods/*/db/CustomItems + CustomLocales |
+| `readers/quests.ts` | 读取 quests.json + traders (base + questassort) |
 | `processors/types.ts` | 构建类型继承树 |
 | `processors/merge.ts` | 合并 base + mod 数据（clone+override） |
 | `processors/normalize.ts` | 属性归一化、类型分类、效果解析 |
 | `processors/categories.ts` | 手册分类树 + 硬编码分类名翻译 |
+| `processors/quests.ts` | 任务数据解析、CounterCreator合并、名称解析 |
 | `images/downloader.ts` | tarkov.dev CDN 图片下载 + 缓存复用 |
 | `output/writer.ts` | 写入 JSON 到 public/data/ |
 
@@ -76,6 +80,21 @@ Mod 道具使用 `itemTplToClone` + `overrideProperties` 模式：
 2. 应用 overrideProperties 覆盖
 3. 合并 CustomLocales 翻译
 4. 标记 `isMod: true`，图片下载时跳过
+
+## 任务数据提取
+
+详见 [Quest System Contract](../frontend/quest-system.md)
+
+### CounterCreator 合并规则
+
+每个 `CounterCreator` 条件必须合并为 1 个 objective，不能拆分内部条件：
+- `Kills` 内部条件 → target + weapons + bodyParts + distance 等主数据
+- `Location` 内部条件 → `location` 字段
+- `Equipment` 内部条件 → 标记需要装备
+
+### 名称解析
+
+任务目标中的物品 ID 通过 `resolveNamesMap()` 解析为名称，输出到 `targetNames` / `weaponNames` / `requiredItemNames` / `requiredCategoryNames` 字段。
 
 ## 口径格式
 
