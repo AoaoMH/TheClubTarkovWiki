@@ -93,6 +93,12 @@ interface ItemSummary {
 - `lib/` — 工具函数（cn class合并）
 - `i18n/` — 国际化配置和翻译文件
 - `hooks/` — 自定义 hooks（useItems）
+
+## 跨层开发实践
+
+- 不主动运行测试（除非任务明确要求）→ [Development Workflow](../development-workflow.md)
+- 不擅自开启新端口运行项目（除非用户明确要求）→ [Development Workflow](../development-workflow.md)
+
 # Frontend Development Guidelines
 
 > Best practices for frontend development in this project.
