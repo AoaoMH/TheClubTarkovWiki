@@ -1,0 +1,92 @@
+{
+  "id": "5d25bfd086f77442734d3007",
+  "name": {
+    "zh": "生存者之路 - Zhivchik",
+    "en": "The Survivalist Path - Zhivchik"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Experience",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0fa877d174af02a012e1cf",
+      "itemName": {
+        "zh": "Aquamari带滤嘴水瓶",
+        "en": "Aquamari water bottle with filter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b385e86f774252167b98a",
+      "itemName": {
+        "zh": "滤水器",
+        "en": "Water filter"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好勇士！狩猎已按计划进行。你知道吗，你给我准备的水真的派上用场了。顺便问一下，你在处理脱水这方面的能力有多好？让我看看一个缺水的PMC到底能撑多久。",
+    "en": "Hello there, warrior! My hunt went as planned. You know, the water you prepared for me did really come in handy. By the way, how good are you at handling dehydration? Show me how long PMCs can stay without water."
+  },
+  "objectives": [
+    {
+      "type": "Experience",
+      "description": "Experience: HealthEffect",
+      "value": 1,
+      "location": "laboratory,bigmap,Sandbox,RezervBase,Interchange,Shoreline,Woods,TarkovStreets,Lighthouse"
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25b6be86f77444001e1b89",
+      "name": {
+        "zh": "生存者之路 - 省吃俭用",
+        "en": "The Survivalist Path - Thrifty"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5d25c81b86f77443e625dd71",
+      "name": {
+        "zh": "生存者之路 - 受伤的野兽",
+        "en": "The Survivalist Path - Wounded Beast"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d67b3ed86f7744a2e70f15c.jpg",
+  "isKey": false
+}

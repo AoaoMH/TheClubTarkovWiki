@@ -1,0 +1,104 @@
+{
+  "id": "59689fbd86f7740d137ebfc4",
+  "name": {
+    "zh": "水瓶座行动 - 1",
+    "en": "Operation Aquarius - Part 1"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 14000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 14000
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5448fee04bdc2dbc018b4567",
+      "itemName": {
+        "zh": "0.6升瓶装水",
+        "en": "Bottle of water (0.6L)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b385e86f774252167b98a",
+      "itemName": {
+        "zh": "滤水器",
+        "en": "Water filter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": -0.02
+    }
+  ],
+  "description": {
+    "zh": "很高兴见到你，年轻人，我有一份高薪的工作要交给你。我们这里当前面临的饮水难题及其罪魁祸首，你应该已经知道了，现在我得委托你来解决一些事情。我们发现了污染饮水的源头，也找到了如何阻止的办法，只是想要彻底解决还需要几天时间。工程师已经在着手此事，但水源恢复正常之前, 我们不得不依靠稀少的剩余储备水来维生，日子过的实在是太艰难了。然而我了解到，有些人在污染之前设法储备了干粮和纯净水，就是住在工厂宿舍的那帮人。有几个人看见他们带着满满几个塑料桶的净水。每个人都有生存下去的权利，但他们没必要储备那么多，因为他们不知道，在几天内这一切问题都会恢复的。而由于缺水，我们这里许多人却可能活不到那一天了。请找到他们储存水的地方，并告诉我。",
+    "en": "Nice to meet you, young man. I have a well-paying job for you. Since you are already aware of the problems with the drinking water in this region and the origin of these problems, I know that I can entrust you with the following information. We found out what the source of contamination is, and we know how to stop it. We need a bit more time, but we will get it done. Qualified engineers are already on it, but until then we will have to live on the remaining reserves, which are very scarce, indeed. However, to my knowledge, some people managed to make hay and stock up on clean water before the contamination. These people are part of the gang which inhabits the dorms next to the factory. Several people saw them carrying large plastic barrels full of clean water to that location. Though I can't blame them for surviving any way they can, we need that water more than they do. Besides, the contamination issue will be solved very soon, so they won't be needing that water anyway. Acquiring this water will save many lives, so get out there and find where they store that water. We will all be indebted to you..."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "room206_water",
+      "targetNames": {
+        "room206_water": {
+          "zh": "room206_water",
+          "en": "room206_water"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "bigmap"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5967733e86f774602332fc84",
+      "name": {
+        "zh": "短缺",
+        "en": "Shortage"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5968eb3186f7741dde183a4d",
+      "name": {
+        "zh": "水瓶座行动 - 2",
+        "en": "Operation Aquarius - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5968a09a86f7740d137ebfc5.jpg",
+  "isKey": false
+}

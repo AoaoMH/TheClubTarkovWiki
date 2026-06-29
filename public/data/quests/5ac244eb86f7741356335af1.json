@@ -1,0 +1,150 @@
+{
+  "id": "5ac244eb86f7741356335af1",
+  "name": {
+    "zh": "枪匠 - 7",
+    "en": "Gunsmith - Part 7"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5af04b6486f774195a3ebb49",
+      "itemName": {
+        "zh": "Elite钳子",
+        "en": "Pliers Elite"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e35de086f7741778269d84",
+      "itemName": {
+        "zh": "电钻",
+        "en": "Electric drill"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "56eabcd4d2720b66698b4574",
+      "itemName": {
+        "zh": "AR-15 Daniel Defense MK12低轮廓型导气箍",
+        "en": "AR-15 Daniel Defense MK12 Low Profile Gas Block"
+      }
+    }
+  ],
+  "description": {
+    "zh": "有时候我觉得被困在塔科夫是一件好事。整个世界感觉掉进了一个深渊，一个幽邃寒冷的深渊。一切都失去了意义。人、人的价值、他们的想法和他们的目标，都没了意义。他们不知道为什么要享受乐趣，为什么要工作，为什么要生小孩。每个人都很疲倦，因为他们一直以来都被赋予了一种可以选择的幻觉——从工作的选择到究竟是买红盒子香烟还是蓝盒子的。这种疲惫到处都在发生，同样的烂事哪里都有。而在塔科夫这里，我们对自己很诚实。我们看到的所有事情都已经很夸张了，没有任何虚构的价值评判。你不再需要选择哪种洗涤剂更容易去除污渍，只用想方设法在夜里取暖，只用找到足够的弹药以应付那些想要杀了你的卑鄙小人。只有在这样一个诚实的社会之中，人们才会展示出真实的自我。你怎么想？好吧，谢谢你的倾听。有些家伙需要一把全副武装的M4。他们需要消音器，60发扩容弹匣，人机工效大于47还有后座力总和不高于300。注意重量，不能超过3.8公斤，瞄具有效射程800或以上。",
+    "en": "Sometimes I think it's good that I got stuck here in Tarkov. The whole world feels like it’s descending into an abyss, a gaping, cold abyss. Everything has lost its meaning. People, their values, their thoughts, and their goals. They don't know anymore why they should take joy, work, have children. Everyone is tired from the illusion of choice they were offered all this time, from having to work and buy either blue or red cigarettes. It’s happening everywhere, in every corner of the world. But here in Tarkov, we are honest with ourselves. We see it all in an already exaggerated way, without false values, when you don't just decide what laundry detergent is better at removing stains, but how to keep warm at night and where to find ammo to deal with the next lowlife who wants to kill you. Only in such an honest society, people show their true selves. What do you think? Okay, thanks for hearing me out. Some folks requested a fully packed M4. They need a silencer, 60-round extended mag, ergonomics above 47, and recoil sum less than 300. And mind the weight, no more than 3.8 kg, with a sighting range of 800 or beyond."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5447a9cd4bdc2dbd208b4567"
+      ],
+      "targetNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 47
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 300
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 800
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 3.8
+        }
+      ],
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae3270f86f77445ba41d4dd",
+      "name": {
+        "zh": "枪匠 - 6",
+        "en": "Gunsmith - Part 6"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae3277186f7745973054106",
+      "name": {
+        "zh": "枪匠 - 8",
+        "en": "Gunsmith - Part 8"
+      }
+    },
+    {
+      "id": "676529af9c90953d090882e7",
+      "name": {
+        "zh": "枪匠 - 旧友之约",
+        "en": "Gunsmith - Old Friend's Request"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4e02986f774617a185ef2.jpg",
+  "isKey": false
+}

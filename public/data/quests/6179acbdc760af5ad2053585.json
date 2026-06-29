@@ -1,0 +1,84 @@
+{
+  "id": "6179acbdc760af5ad2053585",
+  "name": {
+    "zh": "小菜一碟 - 2",
+    "en": "Easy Job - Part 2"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 155000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 155000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cbdc23eae9215001136a407",
+      "itemName": {
+        "zh": "Molot 75发AK兼容弹鼓",
+        "en": "AK 7.62x39 Molot Arms 75-round drum magazine"
+      }
+    },
+    {
+      "type": "CustomizationDirect"
+    }
+  ],
+  "description": {
+    "zh": "欢迎回来。我现在告诉你，到底发生了什么。传言说，那座污水处理厂是一些野心很强的西方特工的老巢。你告诉我的东西让我想到，要么这些人现在不在家，要么你对我瞒着了些什么。总之，不管怎么样，我的侦察队说他们在停机坪发现了Scav——看起来他们已经找到了货物。那些直升机里的玩意儿非常值钱，但我觉得没必要派伙计们去挨枪子儿。回去清理掉直升机周围的所有脏东西，这样就不会有坏人顺走货物了。",
+    "en": "Welcome back. Alright, I'll tell you what's going on. According to rumors, that water treatment plant is a home base of some aggressive western spec ops guys. The fact that you returned tells me that either those guys aren't home at the moment, or there's something you're not telling me. Well, in any case, my scouts said they've spotted Scavs at the helipad - looks like they found out about the supplies. The cargo from that heli is very valuable, but there's no point in sending in my people for a gunfight. Return to the helicopter and clean everything up there so that no bastard would slip away with the cargo."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 20,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6179ac7511973d018217d0b9",
+      "name": {
+        "zh": "小菜一碟 - 1",
+        "en": "Easy Job - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61ab48bc5c890e40ca1a30f8.jpg",
+  "isKey": false
+}

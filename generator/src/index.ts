@@ -2,10 +2,12 @@ import { readItems, readStimulatorBuffs } from './readers/items.js'
 import { readHandbook } from './readers/handbook.js'
 import { readLocales } from './readers/locales.js'
 import { readMods } from './readers/mods.js'
+import { readQuests, readTraders } from './readers/quests.js'
 import { buildTypeHierarchy } from './processors/types.js'
 import { mergeModItems, mergeModLocales } from './processors/merge.js'
 import { normalizeItems } from './processors/normalize.js'
 import { buildCategories } from './processors/categories.js'
+import { processQuests } from './processors/quests.js'
 import { downloadImages, checkServerAvailability, populateCachedImages } from './images/downloader.js'
 import { writeOutput } from './output/writer.js'
 
@@ -27,6 +29,11 @@ async function main() {
   // Step 2: Read mod data
   console.log('\n--- Step 2: Reading mod data ---')
   const mods = readMods()
+
+  // Step 2b: Read quest & trader data
+  console.log('\n--- Step 2b: Reading quest data ---')
+  const rawQuests = readQuests()
+  const { bases: traderBases } = readTraders()
 
   // Step 3: Merge mod data into base
   console.log('\n--- Step 3: Merging mod data ---')
@@ -94,8 +101,14 @@ async function main() {
       }
     }
 
+    // Process quests
+    console.log('\n--- Processing quests ---')
+    const { summaries: questSummaries, details: questDetails } = processQuests(
+      rawQuests, traderBases, { zh: mergedLocales.zh, en: mergedLocales.en }, itemNames
+    )
+
     console.log('\n--- Writing output ---')
-    writeOutput(wikiItems, wikiCategories, types, modItemIds.size, itemNames)
+    writeOutput(wikiItems, wikiCategories, types, modItemIds.size, itemNames, questSummaries, questDetails)
   }
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(2)

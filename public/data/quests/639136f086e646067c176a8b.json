@@ -1,0 +1,77 @@
+{
+  "id": "639136f086e646067c176a8b",
+  "name": {
+    "zh": "屋顶战神",
+    "en": "Kings of the Rooftops"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 77000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 77000
+    }
+  ],
+  "description": {
+    "zh": "你好。你愿意帮一个老兵脱困吗？这些烦人的狙击手就像打兔子一样不停地朝我的送货员们开火。坐在屋顶上大开杀戒。解决掉他们，我会让你感觉值当的。",
+    "en": "Oh, howdy. Help an old soldier out, will you? Those damn snipers are shooting my couriers like rabbits in an open field. Sitting on the rooftops and blasting non-stop. Take them out and I'll make it worth your while."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "marksman"
+      ],
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59ca264786f77445a80ed044",
+      "name": {
+        "zh": "惩罚者 - 4",
+        "en": "The Punisher - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "63a9ae24009ffc6a551631a5",
+      "name": {
+        "zh": "最好的差事",
+        "en": "Best Job in the World"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a9300d64b9631d91782720.jpg",
+  "isKey": false
+}

@@ -1,0 +1,101 @@
+{
+  "id": "675c1570526ff496850895d9",
+  "name": {
+    "zh": "工欲善其事",
+    "en": "Passion for Ergonomics"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7200
+    },
+    {
+      "type": "Item",
+      "value": 25000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 25000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b2fa286f77425227d1674",
+      "itemName": {
+        "zh": "电动马达",
+        "en": "Electric motor"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，你有没有经历过这样的事情：当你微调手头工具的构造之后，那些看似微不足道的改变却让操作便利了许多，你有过那种体验吗？\n\n帕累托法则，没错。我有一个朋友就是这个概念的缩影。他总是在不断微调他的工具，打磨零件，花上巨大精力只为赢得几毫米的精度优势……\n\n正是他让我认识到到人体工学的重要性。尽管我已经很久没有他的消息了，但我知道他的一个据点，不是汽车服务就是车间，就在车库群里。他一直很喜欢汽车，尤其是美国车。\n\n你能去看看吗？他可能很久以前就搬走了，但车库里可能还留着几套精调后的工具，或者制造工具的蓝图。",
+    "en": "Hello. Do you know the feeling when you change the layout of your instrument in a seemingly insignificant way and it fundamentally changes the working comfort?\n\nThe Pareto principle, right. I had a friend who was the epitome of that concept. He was always tweaking something, filing, sanding a part to win a few millimeters....\n\nHis experience made me realize how important ergonomics is in any job. I have not heard from him in a while, but I know one of his outlets, it was either a sort of car service or a workshop, right in the garage complex. He always loved cars, especially the American ones.\n\nCan you come and check the place out? He probably moved somewhere else a long time ago, but his garage might still contain some of his tools or blueprints."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "675f80d4fe1b59cf490d3527"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "675f80d4fe1b59cf490d3527": {
+          "zh": "升级工具箱",
+          "en": "Box with upgraded tools"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "675f80d4fe1b59cf490d3527"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "675f80d4fe1b59cf490d3527": {
+          "zh": "升级工具箱",
+          "en": "Box with upgraded tools"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3460c86f7742880308185",
+      "name": {
+        "zh": "挖矿 - 2",
+        "en": "Farming - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6762fe26d4bdaabb7a02b683.jpg",
+  "isKey": false
+}

@@ -1,0 +1,92 @@
+{
+  "id": "666314bafd5ca9577902e03a",
+  "name": {
+    "zh": "往昔时光 - 2",
+    "en": "The Good Times - Part 2"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 62400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 226000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 226000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5aafbde786f774389d0cbc0f",
+      "itemName": {
+        "zh": "弹药箱",
+        "en": "Ammunition case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你在工厂干的那一票真不错，我止不住回忆起当初的美好时刻了！枪战固然是一回事，但是要论将氛围推向高潮，还有什么能比匪帮头目亲自现身更拉风呢？ \n\nReshala 就是首先出场的那个，这人老是吹嘘他那把黄金 TT 手枪。搁以前那会，所有人都想在枪套里整上一把拉风的黄金武器。 \n\n但是现在，不知道怎么搞的，对 TT 手枪的需求正在一路下跌。现在你来出马打个样告诉他们，什么枪才是真男人的选择！",
+    "en": "The factory run was amazing, your stories made my memory come flooding back! The gunfights are one thing, but when the bandits' leaders showed up, that's when it got real hot. \n\nReshala was the first to show up, always bragging about his gold TT. Back then, everyone wanted one of these in their holster. \n\nBut now, for some reason, the demand for TTs is going down. Can you remind everyone what kind of weapons real men fight with?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5b3b713c5acfc4330140bd8d"
+      ],
+      "weaponNames": {
+        "5b3b713c5acfc4330140bd8d": {
+          "zh": "托卡列夫 TT-33 7.62x25 黄金手枪",
+          "en": "TT-33 7.62x25 TT pistol (Golden)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "666314b8312343839d032d24",
+      "name": {
+        "zh": "航空包裹",
+        "en": "Airmail"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "666314bc1d3ec95634095e77",
+      "name": {
+        "zh": "高光时刻",
+        "en": "Minute of Fame"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6682a74575d2dfc8330a07de.png",
+  "isKey": false
+}

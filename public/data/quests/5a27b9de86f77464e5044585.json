@@ -1,0 +1,96 @@
+{
+  "id": "5a27b9de86f77464e5044585",
+  "name": {
+    "zh": "邪教 - 1",
+    "en": "The Cult - Part 1"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Exploration",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 700,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 700
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5734758f24597738025ee253",
+      "itemName": {
+        "zh": "金项链",
+        "en": "Golden neck chain"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "最近我有种奇怪的感觉，你知道，在我这儿干活的不止你一个人，还有其他人为我效力。有个特别灵光的线人已经失联有一段时间了，他给出的最后一个信息是关于旧村子里面诡异的光芒和他听到的声音。显然他之后决定去那边看看发生了什么，然后他就失踪了。那个村子很久以前就被废弃了，主要由木屋组成。试着找到那个线人，或者至少尽你所能调查一下。",
+    "en": "I’m having this strange feeling lately. You know, you’re not the only person I work with, other people provide me with some other services. One particularly sharp informant has been out of touch for a while. The last message from him was about some strange glowing in the area of the old village and voices he heard there. Apparently, he then decided to have a look at what is going on there and went missing. The village was abandoned long ago and mainly consists of wooden huts. Try to find the informant or at least investigate what you can."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_007_1_N1",
+      "targetNames": {
+        "place_peacemaker_007_1_N1": {
+          "zh": "place_peacemaker_007_1_N1",
+          "en": "place_peacemaker_007_1_N1"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27b87686f77460de0252a8",
+      "name": {
+        "zh": "人道主义援助",
+        "en": "Humanitarian Supplies"
+      }
+    },
+    {
+      "id": "5a27d2af86f7744e1115b323",
+      "name": {
+        "zh": "西方来客 - 2",
+        "en": "Friend From the West - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27ba1c86f77461ea5a3c56",
+      "name": {
+        "zh": "邪教 - 2",
+        "en": "The Cult - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a29222486f77456f50d09e7.jpg",
+  "isKey": false
+}

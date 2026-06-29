@@ -1,0 +1,143 @@
+{
+  "id": "675031e1f300496cc4104450",
+  "name": {
+    "zh": "大隐于市",
+    "en": "Hide in Plain Sight"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 64000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 64000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b5f693acff495a294927e3",
+      "itemName": {
+        "zh": "Peltor ComTac V耳机（橄榄绿）",
+        "en": "Peltor ComTac V headset (OD Green)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你看到城市的变化了吗？到处都是灯饰和集市。\n\n就好像没有战争一样，到处都在卖明年的日历。但所有这些喜庆气氛对我们是有利的。\n\n集市被设在显眼的地方，我想利用它们运输我的商品。为了在我的路线上增加新点，我需要精确坐标。\n\n你能帮我一下吗？你帮我，我帮你，像兄弟一样！找集市很简单——跟着最多节日灯光的地方走就行。",
+    "en": "Have you seen how the city's changed? Lights, fairs everywhere.\n\nIt's like there was no war and they're selling next year's calendars everywhere. But all this cheerfullness is to our advantage. \n\nThe fairs have been put in prominent places, and I'd like to use them to traffic my merchandise. And in order to add new spots to my itineraries, I need the exact coordinates. \n\nCan you lend me a hand with that? You help me, I help you, like brother to brother! Finding fairs is easy - just follow wherever you see the most holiday lights."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "new_year_2024_market_lighthouse",
+      "targetNames": {
+        "new_year_2024_market_lighthouse": {
+          "zh": "new_year_2024_market_lighthouse",
+          "en": "new_year_2024_market_lighthouse"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "new_year_2024_market_customs",
+      "targetNames": {
+        "new_year_2024_market_customs": {
+          "zh": "new_year_2024_market_customs",
+          "en": "new_year_2024_market_customs"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "new_year_2024_market_reservee",
+      "targetNames": {
+        "new_year_2024_market_reservee": {
+          "zh": "new_year_2024_market_reservee",
+          "en": "new_year_2024_market_reservee"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "new_year_2024_market_interchange",
+      "targetNames": {
+        "new_year_2024_market_interchange": {
+          "zh": "new_year_2024_market_interchange",
+          "en": "new_year_2024_market_interchange"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "new_year_2024_market_shoreline",
+      "targetNames": {
+        "new_year_2024_market_shoreline": {
+          "zh": "new_year_2024_market_shoreline",
+          "en": "new_year_2024_market_shoreline"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "new_year_2024_market_woods",
+      "targetNames": {
+        "new_year_2024_market_woods": {
+          "zh": "new_year_2024_market_woods",
+          "en": "new_year_2024_market_woods"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315df034d76585f032e01",
+      "name": {
+        "zh": "打靶训练",
+        "en": "Shooting Cans"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67503260899713ccad00060e",
+      "name": {
+        "zh": "苦酒入喉心作痛",
+        "en": "Enough Drinks for That One"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/67698caa2332edb6520ec437.jpg",
+  "isKey": false
+}

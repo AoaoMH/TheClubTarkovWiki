@@ -1,0 +1,204 @@
+{
+  "id": "5c0d190cd09282029f5390d8",
+  "name": {
+    "zh": "掷弹兵",
+    "en": "Grenadier"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "648983d6b5a2df1c815a04ec",
+      "itemName": {
+        "zh": "12.7x55mm PS12B（10发装）",
+        "en": "12.7x55mm PS12B (10 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5710c24ad2720bc3458b45a3",
+      "itemName": {
+        "zh": "F-1手榴弹",
+        "en": "F-1 hand grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5e32f56fcb6d5863cc5e5ee4",
+      "itemName": {
+        "zh": "VOG-17 Khattabka 简易手榴弹",
+        "en": "VOG-17 Khattabka improvised hand grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5e340dcdcb6d5863cc5e5efb",
+      "itemName": {
+        "zh": "VOG-25 Khattabka 简易手榴弹",
+        "en": "VOG-25 Khattabka improvised hand grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "617fd91e5539a84ec44ce155",
+      "itemName": {
+        "zh": "RGN手榴弹",
+        "en": "RGN hand grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5e32f56fcb6d5863cc5e5ee4",
+      "itemName": {
+        "zh": "VOG-17 Khattabka 简易手榴弹",
+        "en": "VOG-17 Khattabka improvised hand grenade"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊，战士。前线有战事吗？我听说你枪用的很溜，也亲眼见证过你高超的射击技巧。但是如果换成手榴弹呢？你将需要依靠战斗直觉和大脑判断才能避免自己意外挂彩。所以，我想看看你手榴弹玩得怎么样，现在就去让塔科夫躁动起来吧。",
+    "en": "Hello, warrior. How are things on the front line? People say you're a good shot, I've even tested you myself too. But what if you have to use a grenade? You will need intuition and brains to not get flogged accidently. So, I want to see how you handle grenades, go make some noise in Tarkov."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 8,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "5a2a57cfc4a2826c6e06d44a",
+        "5a0c27731526d80618476ac4",
+        "58d3db5386f77426186285a0",
+        "5e340dcdcb6d5863cc5e5efb",
+        "5e32f56fcb6d5863cc5e5ee4",
+        "5448be9a4bdc2dfd2f8b456a",
+        "5710c24ad2720bc3458b45a3",
+        "618a431df1eb8e24b8741deb",
+        "617fd91e5539a84ec44ce155",
+        "639c3fbbd0446708ee622ee9",
+        "639af924d0446708ee62294e",
+        "5648b62b4bdc2d9d488b4585",
+        "66dae7cbeb28f0f96809f325",
+        "67b49e7335dec48e3e05e057"
+      ],
+      "weaponNames": {
+        "5a2a57cfc4a2826c6e06d44a": {
+          "zh": "RDG-2B烟雾弹",
+          "en": "RDG-2B smoke grenade"
+        },
+        "5a0c27731526d80618476ac4": {
+          "zh": "Zarya震撼手榴弹",
+          "en": "Zarya stun grenade"
+        },
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        },
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        },
+        "5e32f56fcb6d5863cc5e5ee4": {
+          "zh": "VOG-17 Khattabka 简易手榴弹",
+          "en": "VOG-17 Khattabka improvised hand grenade"
+        },
+        "5448be9a4bdc2dfd2f8b456a": {
+          "zh": "RGD-5手榴弹",
+          "en": "RGD-5 hand grenade"
+        },
+        "5710c24ad2720bc3458b45a3": {
+          "zh": "F-1手榴弹",
+          "en": "F-1 hand grenade"
+        },
+        "618a431df1eb8e24b8741deb": {
+          "zh": "RGO手榴弹",
+          "en": "RGO hand grenade"
+        },
+        "617fd91e5539a84ec44ce155": {
+          "zh": "RGN手榴弹",
+          "en": "RGN hand grenade"
+        },
+        "639c3fbbd0446708ee622ee9": {
+          "zh": "FN40GL Mk2 榴弹发射器",
+          "en": "FN40GL Mk2 grenade launcher"
+        },
+        "639af924d0446708ee62294e": {
+          "zh": "FN40GL Mk2 榴弹发射器",
+          "en": "FN40GL Mk2 grenade launcher"
+        },
+        "5648b62b4bdc2d9d488b4585": {
+          "zh": "GP-34 40毫米下挂式榴弹发射器",
+          "en": "GP-34 40mm underbarrel grenade launcher"
+        },
+        "66dae7cbeb28f0f96809f325": {
+          "zh": "V40 微型手榴弹",
+          "en": "V40 Mini-Grenade"
+        },
+        "67b49e7335dec48e3e05e057": {
+          "zh": "F-1 手榴弹（短引信）",
+          "en": "F-1 hand grenade (Reduced delay)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [
+    {
+      "id": "5c0bd94186f7747a727f09b2",
+      "name": {
+        "zh": "试驾 - 1",
+        "en": "Test Drive - Part 1"
+      }
+    },
+    {
+      "id": "67b45467814ab0ffa000c7e7",
+      "name": {
+        "zh": "艺术就是爆炸",
+        "en": "The Art of Explosion"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5c1e35cf86f7743b6242fe05.jpg",
+  "isKey": false
+}

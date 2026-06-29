@@ -1,0 +1,222 @@
+{
+  "id": "5a27bafb86f7741c73584017",
+  "name": {
+    "zh": "疗养之旅 - 7",
+    "en": "Spa Tour - Part 7"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d9f1fa686f774726974a992",
+      "itemName": {
+        "zh": "RB-ST钥匙",
+        "en": "RB-ST key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c17a7ed2e2216152142459c",
+      "itemName": {
+        "zh": "Crye Precision AirFrame 头盔（黄褐色）",
+        "en": "Crye Precision AirFrame helmet (Tan)"
+      }
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": -0.01
+    }
+  ],
+  "description": {
+    "zh": "一队USEC曾经在疗养院驻扎，在混乱爆发之后，他们遗留下了大量的物资，特别是在上锁的房间里。我的朋友觉得这儿很适合用来生产某些化合物......毕竟，让人们过得轻松惬意点儿是蓝盔们的本职工作，不是么？不过话说回来，我只负责提供必要的补给物资，怎么分配是其他人的事情，到时候我会把你介绍给他们。我希望这些事只有你知我知。那么现在，去把我朋友需要的东西都找来。",
+    "en": "Let's continue our work on the shoreline. A USEC group used to be stationed in the resort. After this mess broke out, they left behind a lot of goods, especially in locked premises. My friends have decided that this is a great place for the production of some compounds... After all, isn't it a Blue Helmets’ job to make people's lives easier? However, I only help with necessary supplies, distribution is handled by other people. I'll introduce you to them when the time comes. I hope all you have learned will stay between us. Now go and bring me what my friends need."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 4,
+      "target": [
+        "544fb3f34bdc2d03748b456a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb3f34bdc2d03748b456a": {
+          "zh": "吗啡注射器",
+          "en": "Morphine injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "544fb3f34bdc2d03748b456a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb3f34bdc2d03748b456a": {
+          "zh": "吗啡注射器",
+          "en": "Morphine injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "59faf98186f774067b6be103"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59faf98186f774067b6be103": {
+          "zh": "碱性换热器表面洗涤剂",
+          "en": "Alkaline cleaner for heat exchangers"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59faf98186f774067b6be103"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59faf98186f774067b6be103": {
+          "zh": "碱性换热器表面洗涤剂",
+          "en": "Alkaline cleaner for heat exchangers"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "59e35cbb86f7741778269d83"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e35cbb86f7741778269d83": {
+          "zh": "波纹软管",
+          "en": "Corrugated hose"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59e35cbb86f7741778269d83"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e35cbb86f7741778269d83": {
+          "zh": "波纹软管",
+          "en": "Corrugated hose"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "59fafb5d86f774067a6f2084"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59fafb5d86f774067a6f2084": {
+          "zh": "5升丙烷罐",
+          "en": "Propane tank (5L)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59fafb5d86f774067a6f2084"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59fafb5d86f774067a6f2084": {
+          "zh": "5升丙烷罐",
+          "en": "Propane tank (5L)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27ba9586f7741b543d8e85",
+      "name": {
+        "zh": "疗养之旅 - 6",
+        "en": "Spa Tour - Part 6"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27bb1e86f7741f27621b7e",
+      "name": {
+        "zh": "神秘货物 - 1",
+        "en": "Cargo X - Part 1"
+      }
+    },
+    {
+      "id": "5a27bb8386f7741c770d2d0a",
+      "name": {
+        "zh": "湿活 - 1",
+        "en": "Wet Job - Part 1"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "639136d68ba6894d155e77cf",
+      "name": {
+        "zh": "绿色通道",
+        "en": "Green Corridor"
+      }
+    },
+    {
+      "id": "639282134ed9512be67647ed",
+      "name": {
+        "zh": "此路不通",
+        "en": "Road Closed"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+  "isKey": false
+}

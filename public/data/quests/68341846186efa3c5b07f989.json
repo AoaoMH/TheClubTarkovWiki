@@ -1,0 +1,145 @@
+{
+  "id": "68341846186efa3c5b07f989",
+  "name": {
+    "zh": "平衡之力 - 1 [PVE ZONE]",
+    "en": "Balancing - Part 1 [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 45,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 45
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62e7c4fba689e8c9c50dfc38",
+      "itemName": {
+        "zh": "Steyr AUG A1 5.56x45突击步枪",
+        "en": "Steyr AUG A1 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657024e8cfc010a0f5006a0d",
+      "itemName": {
+        "zh": "50发5.56x45 M856盒装弹药",
+        "en": "5.56x45mm M856 ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "62e7c98b550c8218d602cbb4",
+      "itemName": {
+        "zh": "Steyr AUG 5.56x45 30发容量弹匣",
+        "en": "Steyr AUG 5.56x45 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6570aead4d84f81fd002a033",
+      "itemName": {
+        "zh": "Death Shadow轻量化防弹面罩",
+        "en": "Death Shadow lightweight armored mask"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "WebPromoCode"
+    },
+    {
+      "type": "NotificationPopup"
+    }
+  ],
+  "description": {
+    "zh": "你在我给的任务上做得很好。我也在数据库里查了你……只是预防措施。不是什么人都能雇用的，你懂我的意思吧，兄弟？我晋升你为测试员！你将测试竞技场的装备。\n\n我刚以实惠价收到一批不错的无托枪。去拿一些流浪汉试试。之后，我再决定这些步枪是给清理队还是角斗士。",
+    "en": "You did a great job on my assignments. I also ran you through my databases... Just a precaution. You don't hire just anybody, you know what I mean, brother? I'm promoting you to a tester! You're gonna be testing equipment for the Arena.\n\nI've just received a good batch of bullpups for a delicious price. Go ahead and try them out on some hobos. After that, I'll decide if these rifles will go to my cleanup guys or the gladiators."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "62e7c4fba689e8c9c50dfc38",
+        "63171672192e68c5460cebc5",
+        "6718817435e3cfd9550d2c27"
+      ],
+      "weaponNames": {
+        "62e7c4fba689e8c9c50dfc38": {
+          "zh": "Steyr AUG A1 5.56x45突击步枪",
+          "en": "Steyr AUG A1 5.56x45 assault rifle"
+        },
+        "63171672192e68c5460cebc5": {
+          "zh": "Steyr AUG A3 5.56x45突击步枪",
+          "en": "Steyr AUG A3 5.56x45 assault rifle"
+        },
+        "6718817435e3cfd9550d2c27": {
+          "zh": "Steyr AUG A3 5.56x45 突击步枪（黑色）",
+          "en": "Steyr AUG A3 5.56x45 assault rifle (Black)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6834158f2f0e2a7eb90b62c8",
+      "name": {
+        "zh": "轻松钱 - 第二部分 [PVE区]",
+        "en": "Easy Money - Part 2 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68341a0b2f0e2a7eb90b62d4",
+      "name": {
+        "zh": "平衡之力 - 2 [PVE ZONE]",
+        "en": "Balancing - Part 2 [PVE ZONE]"
+      }
+    },
+    {
+      "id": "68341eb25619c8e2a9031501",
+      "name": {
+        "zh": "登高望远 - 第一部分 [PVE区]",
+        "en": "To Great Heights! - Part 1 [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562aaaa636bd24a654f416.png",
+  "isKey": false
+}

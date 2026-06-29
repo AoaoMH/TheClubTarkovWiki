@@ -1,0 +1,69 @@
+{
+  "id": "59ca1a6286f774509a270942",
+  "name": {
+    "zh": "无意冒犯",
+    "en": "No Offence"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.25
+    }
+  ],
+  "description": {
+    "zh": "上次化学品那件事着实损害了我对你的信任。虽然我不是什么记仇的人，但是你耍的那个花招实在很卑鄙，我很不喜欢这样的行为。如果你想弥补你的所作所为，挽回我的信任，就帮我个忙吧。那些期待这批化学品订单的顾客就这么尴尬的离开了，更重要的是，我连这之前的一批手雷订单都还没有完成。买家想要的手雷是外国货，绿色的，我这儿正好没有这样的货。给我弄些来，之后我们就当做什么也没发生过，互不相欠。",
+    "en": "That last chemical deal damaged my trust in you. I’m not the type to hold grudges, but that trick you pulled was very dirty, and I don't like dirty tricks. If you want to straighten things up with me and regain my trust - do one favor for me. The customer who expected these chemicals was left in a tight spot, and on top of that, I haven’t even delivered the grenades from the previous order yet. The grenades he needs are foreign-made, the green round ones, and I don’t have anything like that. Get me some of these - and we’ll call it even as if nothing happened."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 10,
+      "target": [
+        "58d3db5386f77426186285a0"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 10,
+      "target": [
+        "58d3db5386f77426186285a0"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "597a171586f77405ba6887d3",
+      "name": {
+        "zh": "大客户",
+        "en": "Big Customer"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+  "isKey": false
+}

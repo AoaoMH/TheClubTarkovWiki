@@ -1,0 +1,156 @@
+{
+  "id": "5ae4495086f77443c122bc40",
+  "name": {
+    "zh": "临行密密缝 - 1",
+    "en": "Sew it Good - Part 1"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 25000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 25000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e4abb5086f77406975c9342",
+      "itemName": {
+        "zh": "LBT-6094A Slick 插板背心（黑色）",
+        "en": "LBT-6094A Slick Plate Carrier (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f60cd6cf2bcbb675b00dac6",
+      "itemName": {
+        "zh": " Walker's XCEL 500BT 数字耳机",
+        "en": "Walker's XCEL 500BT Digital headset"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5c0e57ba86f7747fa141986d",
+      "itemName": {
+        "zh": "6B23-2 防弹衣（山地丛林迷彩）",
+        "en": "6B23-2 body armor (Mountain Flora)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，浪子，我有一个可靠的工作给你。别担心，我不是在骗你。现在还不好说，不过如果起步不错的话，我一定会告诉你的。我需要几个大型背包，蓝色的Pilgrim牌，还有一些面罩，就是那种有忍者式开口的。",
+    "en": "Hi there homie, I have a solid business proposal for you. Don't you worry, I’m not bullshitting you, it's the real deal. Can’t say what it is right now, but if it starts off good, I’ll be sure to tell you. I need a big backpack, the purple \"Pilgrim\" one, and a ski hat, you know, with ninja-type slits. Look for them yourself though, no traders, brother. I need to keep this in secret, don't want anyone to find out about our little thing, you know?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ab8f20c86f7745cdb629fb2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ab8f20c86f7745cdb629fb2": {
+          "zh": "带眼洞滑雪头套",
+          "en": "Ski hat with holes for eyes"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ab8f20c86f7745cdb629fb2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ab8f20c86f7745cdb629fb2": {
+          "zh": "带眼洞滑雪头套",
+          "en": "Ski hat with holes for eyes"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "59e763f286f7742ee57895da"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e763f286f7742ee57895da": {
+          "zh": "Pilgrim旅行包",
+          "en": "Pilgrim tourist backpack"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "59e763f286f7742ee57895da"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e763f286f7742ee57895da": {
+          "zh": "Pilgrim旅行包",
+          "en": "Pilgrim tourist backpack"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae4493d86f7744b8e15aa8f",
+      "name": {
+        "zh": "数据库 - 2",
+        "en": "Database - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae4495c86f7744e87761355",
+      "name": {
+        "zh": "临行密密缝 - 2",
+        "en": "Sew it Good - Part 2"
+      }
+    },
+    {
+      "id": "5b47876e86f7744d1c353205",
+      "name": {
+        "zh": "战争之血 - 2",
+        "en": "The Blood of War - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a7d986f7743fee0a75b2.jpg",
+  "isKey": false
+}

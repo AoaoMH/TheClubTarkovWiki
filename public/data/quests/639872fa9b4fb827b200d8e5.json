@@ -1,0 +1,150 @@
+{
+  "id": "639872fa9b4fb827b200d8e5",
+  "name": {
+    "zh": "枪匠 - 9",
+    "en": "Gunsmith - Part 9"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 300,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 300
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d6fc87386f77449db3db94e",
+      "itemName": {
+        "zh": "“Hawk”火药",
+        "en": "Gunpowder \"Hawk\""
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cc86832d7f00c000d3a6e6c",
+      "itemName": {
+        "zh": "5.7x28毫米 R37.F",
+        "en": "5.7x28mm R37.F"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿。怪事情发生了。我一般不会收到手枪订单，但是这次出现了特殊情况。我们需要一把SIG P226R，配备Stainless Elite木制握把，Stainless Elite套筒，加长弹匣和战术手电。人机功效不能低于80，后坐力综合不能高于610。看起来像是死忠粉的武器。",
+    "en": "Oh, hey. There's an unusual matter that has come up. I don't often get orders for pistols, but this is a special occasion. We need a SIG P226R, Stainless Elite Wooden grip, Stainless Elite slide, extended magazine and a flashlight. Ergonomics not below 80, recoil sum not above 610. A weapon for true enthusiasts."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "56d59856d2720bd8418b456a"
+      ],
+      "targetNames": {
+        "56d59856d2720bd8418b456a": {
+          "zh": "P226R 9x19手枪",
+          "en": "SIG P226R 9x19 pistol"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 80
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 610
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 20
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 1.5
+        }
+      ],
+      "requiredItems": [
+        "5c00076d0db834001d23ee1f",
+        "5c0009510db834001966907f"
+      ],
+      "requiredItemNames": {
+        "5c00076d0db834001d23ee1f": {
+          "zh": "西格-绍尔Elite P226木制手枪握把",
+          "en": "P226 Stainless Elite Wooden pistol grip"
+        },
+        "5c0009510db834001966907f": {
+          "zh": "Sig P226 Stainless Elite手枪套筒",
+          "en": "P226 Stainless Elite pistol slide"
+        }
+      },
+      "requiredCategories": [
+        "55818b164bdc2ddc698b456c"
+      ],
+      "requiredCategoryNames": {
+        "55818b164bdc2ddc698b456c": {
+          "zh": "组合式战术设备",
+          "en": "Comb. tact. device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae3277186f7745973054106",
+      "name": {
+        "zh": "枪匠 - 8",
+        "en": "Gunsmith - Part 8"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae327c886f7745c7b3f2f3f",
+      "name": {
+        "zh": "枪匠 - 10",
+        "en": "Gunsmith - Part 10"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63aae950f83fd6083938904c.jpg",
+  "isKey": false
+}

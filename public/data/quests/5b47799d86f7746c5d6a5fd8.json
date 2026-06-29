@@ -1,0 +1,160 @@
+{
+  "id": "5b47799d86f7746c5d6a5fd8",
+  "name": {
+    "zh": "枪匠 - 12",
+    "en": "Gunsmith - Part 12"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a7c147ce899ef00150bd8b8",
+      "itemName": {
+        "zh": "AR-15 Vendetta precision VP-09 Interceptor 5.56x45膛口制退器",
+        "en": "AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5cebec00d7f00c065c53522a",
+      "itemName": {
+        "zh": "FN P90 Attenuator 5.7x28消音器",
+        "en": "FN P90 Attenuator 5.7x28 sound suppressor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c6592372e221600133e47d7",
+      "itemName": {
+        "zh": "MAG5-100 5.56x45 STANAG 100发弹匣",
+        "en": "AR-15 5.56x45 SureFire MAG5-100 STANAG 100-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a7c147ce899ef00150bd8b8",
+      "itemName": {
+        "zh": "AR-15 Vendetta precision VP-09 Interceptor 5.56x45膛口制退器",
+        "en": "AR-15 Vendetta Precision VP-09 Interceptor 5.56x45 muzzle brake"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "剩下的时间不多了，一些人想跟Dealmaker谈谈，就是和工厂区的人一起在宿舍楼附近搞事儿的。给他组装一把MPX，带有镂空设计的Tactical Dynamics手枪式握把，Annihilator生产的消焰器，和Steiner生产的LAS/TAC 2战术手电。有效射击距离为300或更远，人机工效大于52，重量小于4千克，总体后坐力低于225。记得别告诉任何人为什么你需要这个，Reshala听到可不会高兴的。他的人可厉害的很，而且在工厂干活前还都服过役。",
+    "en": "Okay, we have an urgent order here, don't have much time. Some guy stopped by, said wants to sort it out with Reshala, who is operating somewhere around dorms together with folks from the factory. Build him an MPX, with the Tactical Dynamics Skeletonized pistol grip, Annihilator flash hider, and Steiner LAS/TAC 2 tactical flashlight. Aim for a sighting range of 300 or more, ergonomics above 52, weight less than 4 kg, the less than 225 recoil sum. And don't tell anyone why you need this gun. If Reshala hears about it, he won’t be too happy, and his guys are quite a mean bunch, all served in the military before working at the factory."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "58948c8e86f77409493f7266"
+      ],
+      "targetNames": {
+        "58948c8e86f77409493f7266": {
+          "zh": "SIG MPX 9x19 冲锋枪",
+          "en": "SIG MPX 9x19 submachine gun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 52
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 225
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 300
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4
+        }
+      ],
+      "requiredItems": [
+        "5b07db875acfc40dc528a5f6",
+        "5b3a16655acfc40016387a2a",
+        "5b07dd285acfc4001754240d"
+      ],
+      "requiredItemNames": {
+        "5b07db875acfc40dc528a5f6": {
+          "zh": "AR-15手枪式镂空握把",
+          "en": "AR-15 Tactical Dynamics Skeletonized pistol grip"
+        },
+        "5b3a16655acfc40016387a2a": {
+          "zh": "Annihilator 7.62x39、5.56x45、9毫米 AR15消焰器",
+          "en": "Yankee Hill Annihilator multi-caliber flash hider"
+        },
+        "5b07dd285acfc4001754240d": {
+          "zh": "LAS/TAC 2战术手电",
+          "en": "Steiner LAS/TAC 2 tactical flashlight"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639872fc93ae507d5858c3a6",
+      "name": {
+        "zh": "枪匠 - 11",
+        "en": "Gunsmith - Part 11"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ac244c486f77413e12cf945",
+      "name": {
+        "zh": "枪匠 - 13",
+        "en": "Gunsmith - Part 13"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5b4785f586f77470315db7ed.jpg",
+  "isKey": false
+}

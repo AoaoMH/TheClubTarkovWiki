@@ -1,0 +1,105 @@
+{
+  "id": "639135f286e646067c176a87",
+  "name": {
+    "zh": "无中生有 - 塔科夫街区",
+    "en": "Revision - Streets of Tarkov"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 450,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 450
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "618428466ef05c2ce828f218",
+      "itemName": {
+        "zh": "FN SCAR-L 5.56x45突击步枪 （FDE）",
+        "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f60b34a41e30a4ab12a6947",
+      "itemName": {
+        "zh": "Galvion 凯门鳄 复合防弹头盔（灰色）",
+        "en": "Galvion Caiman Hybrid helmet (Grey)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "早上好！你能找到那些军车真是太好了。根据我的情报来源，城市里至少有三辆Strykers装甲车。你应该明白，把这样的装备晾在大街上不是什么好事。我需要他们的位置。你知道要怎么做了吧。",
+    "en": "Good morning! You're doing a great job with finding valuable military vehicles. According to my sources, there were at least three Stryker type vehicles in the city. You know, it's not a good idea to leave that kind of equipment out in the open in these conditions. I need a lead on them. You know what to do."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6086c852c945025d41566124",
+      "name": {
+        "zh": "无中生有 - 储备站",
+        "en": "Revision - Reserve"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "63a9b229813bba58a50c9ee5",
+      "name": {
+        "zh": "最烂的差事",
+        "en": "Worst Job in the World"
+      }
+    },
+    {
+      "id": "66aa58245ab22944110db6e9",
+      "name": {
+        "zh": "新路线，新机遇",
+        "en": "New Day, New Paths"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a94151655ec5555b4aa9af.jpg",
+  "isKey": false
+}

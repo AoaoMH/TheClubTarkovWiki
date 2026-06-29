@@ -1,0 +1,91 @@
+{
+  "id": "60e71c11d54b755a3b53eb65",
+  "name": {
+    "zh": "夜间扫荡",
+    "en": "Night Sweep"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 107000
+    },
+    {
+      "type": "Item",
+      "value": 6000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 6000
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5fca138c2a7b221b2852a5c6",
+      "itemName": {
+        "zh": "xTG-12解毒剂",
+        "en": "xTG-12 antidote injector"
+      }
+    },
+    {
+      "type": "Skill",
+      "target": "Shotgun",
+      "value": 200
+    }
+  ],
+  "description": {
+    "zh": "过来过来，我要跟你说个事儿。我给你找了个活儿干，你要问的话，那就是个苦活。我的人最近在夜间寻找物资，但是撞上了一群戴着面具的混蛋，然后就消失了。我的伙计们成功撤离了，甚至还干掉了几个神经病，但是还剩下了接近一打的敌人。欸，这不重要。我的手下们在其中一人的身上找到了一种匕首，而且很显然，有些人会出高价收购。总之，我接到了订单，需要一些匕首。如果你找到了，就送过来。",
+    "en": "Oi, come here, need to talk to you. Got a job for you, a dry one, if you ask me. My folks were looking for loot at night recently and ran into some hooded morons, and, well, shit went south. Naturally, my dudes managed to retreat in the end and even smoked some of those psychos, though we still lost around a dozen of ours. Eh, that's not the point. The guys found some kind of a dagger on one of those psychos, and apparently, some serious people are willing to pay a fortune for those. Anyway, I've got an order for those daggers. If you find any, bring'em here."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 12,
+      "target": [
+        "5fc64ea372b0dd78d51159dc"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 12,
+      "target": [
+        "5fc64ea372b0dd78d51159dc"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5edabd13218d181e29451442",
+      "name": {
+        "zh": "肮脏游戏",
+        "en": "Rigged Game"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5d67b5ca86f7744dcc5e2f88.jpg",
+  "isKey": false
+}

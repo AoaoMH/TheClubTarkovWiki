@@ -1,0 +1,99 @@
+{
+  "id": "671a49f77d49aea42c029b5f",
+  "name": {
+    "zh": "诱人新货",
+    "en": "Irresistible"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Exploration",
+  "location": "5714dbc024597771384a510d",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 32000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 80000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 80000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66ffa9b66e19cc902401c5e8",
+      "itemName": {
+        "zh": "MPS Auto Assault-12 Gen 1 12铅径自动霰弹枪",
+        "en": "MPS Auto Assault-12 Gen 1 12ga automatic shotgun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我的伙伴给我捎了个信，马上就要有一批新货送到城里了。你是个电影迷吗？那你肯定能认出这种枪！\n\n只是出了个小插曲，第一批货在 Ultra 商场附近失踪了，我猜大概是有人手脚不干净把它藏了起来。天啊，我真的需要那批货，我可是有他妈的专属授权的，知道我在说什么吗？嗯？\n\n总之，为什么不去趟 Ultra 帮我跑个腿，替我把那个武器箱找回来呢？只要你能把它给我带回来，报酬绝对不会让你失望的。",
+    "en": "I got word from my buddy that there's a special merchandise in town. You like movies? Then you'll certainly recognize this gun!\n\nThere's only one little issue. The cargo went missing near the Ultra mall, I think somebody snatched it up. But man do I need these shotguns. It's a damn exclusive, you know what I'm saying?\n\nAnyway, why don't you take a little trip to Ultra and find this weapon crate there? If you get it, I'll pay you real good."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "671a406a6d315b526708f103"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "671a406a6d315b526708f103": {
+          "zh": "失窃的武器箱",
+          "en": "Stolen weapon case"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "671a406a6d315b526708f103"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "671a406a6d315b526708f103": {
+          "zh": "失窃的武器箱",
+          "en": "Stolen weapon case"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5c0bdb5286f774166e38eed4",
+      "name": {
+        "zh": "坚如燧石",
+        "en": "Flint"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "671a59e43d73dac1360765cc",
+      "name": {
+        "zh": "致命道具",
+        "en": "Dangerous Props"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+  "isKey": false
+}

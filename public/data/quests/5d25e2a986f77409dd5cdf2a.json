@@ -1,0 +1,79 @@
+{
+  "id": "5d25e2a986f77409dd5cdf2a",
+  "name": {
+    "zh": "生存者之路 - 战地军医",
+    "en": "The Survivalist Path - Combat Medic"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Skill",
+      "target": "Surgery",
+      "value": 200
+    }
+  ],
+  "description": {
+    "zh": "我已经数不清在当猎场看守的时候，见过多少狗娘养的。有茫茫多的人在森林中迷过路，这其中有些人能脱离困境，活的好好的，而有些人就惨了。要想活着走出森林，你他妈得足够混蛋才行。你得自己会成为一个真正的生存者。准备好了再来找我。",
+    "en": "I just can't count how much shit have I seen while working as a gamekeeper, friend. So many different people used to get lost in these woods. Some of them made it out alive and well, some of them didn't. You have to be one hell of a tough asshole to get out of the woods alive. Let's make a real survivalist out of you. Come to me when you're ready."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Vitality",
+      "value": 5,
+      "target": "Vitality"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e29d86f7740a22516326",
+      "name": {
+        "zh": "生存者之路 -  雕鸮",
+        "en": "The Survivalist Path - Eagle-Owl"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5eaaaa7c93afa0558f3b5a1c",
+      "name": {
+        "zh": "生存者之路 - Junkie",
+        "en": "The Survivalist Path - Junkie"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d67b7ba86f774131e206c0c.jpg",
+  "isKey": false
+}

@@ -1,0 +1,148 @@
+{
+  "id": "5e4d4ac186f774264f758336",
+  "name": {
+    "zh": "纺织业 - 2",
+    "en": "Textile - Part 2"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 34300
+    },
+    {
+      "type": "Item",
+      "value": 100000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 100000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e774286f77468413cc5b2",
+      "itemName": {
+        "zh": "Mystery Ranch Blackjack 50背包（组合迷彩）",
+        "en": "Mystery Ranch Blackjack 50 backpack (MultiCam)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "所以，这是我需要的另一份物品清单。你一拿到它——就带这里来，还要确保质量是好的。不要直接从别人那里买，你懂的。我想给你搞些新衣服，一定是自制的，能暖俄罗斯人的心。我不清楚你和美国佬之间有什么业务往来，但这里的生活并不比他们海外国家差。",
+    "en": "So, here's another list of the stuff I need. As soon as you have it - bring it here, and make sure it's in good condition. No traders and all, well, you know the deal. I'm thinking about some new outfits for you, something recognizable, warming the Russian heart. I have no idea what's the business between you and the yanks, but these days your life is as shitty as theirs. Shit happens. Anyway, good luck to you."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 10,
+      "target": [
+        "5e2af47786f7746d404f3aaa"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af47786f7746d404f3aaa": {
+          "zh": "绒布布料",
+          "en": "Fleece fabric"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 10,
+      "target": [
+        "5e2af47786f7746d404f3aaa"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af47786f7746d404f3aaa": {
+          "zh": "绒布布料",
+          "en": "Fleece fabric"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 10,
+      "target": [
+        "5e2af41e86f774755a234b67"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af41e86f774755a234b67": {
+          "zh": "Cordura聚酰胺面料",
+          "en": "Cordura polyamide fabric"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 10,
+      "target": [
+        "5e2af41e86f774755a234b67"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af41e86f774755a234b67": {
+          "zh": "Cordura聚酰胺面料",
+          "en": "Cordura polyamide fabric"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "5e2af29386f7746d4159f077"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af29386f7746d4159f077": {
+          "zh": "KEKTAPE管道胶带",
+          "en": "KEKTAPE duct tape"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5e2af29386f7746d4159f077"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af29386f7746d4159f077": {
+          "zh": "KEKTAPE管道胶带",
+          "en": "KEKTAPE duct tape"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5e381b0286f77420e3417a74",
+      "name": {
+        "zh": "纺织业 - 1",
+        "en": "Textile - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5e4d3a5186f77464185227f3.jpg",
+  "isKey": false
+}

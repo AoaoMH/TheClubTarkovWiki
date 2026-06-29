@@ -1,0 +1,101 @@
+{
+  "id": "5d25e45e86f77408251c4bfa",
+  "name": {
+    "zh": "猎人之路 - 蒸发密令 - 2",
+    "en": "The Huntsman Path - Eraser - Part 2"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 22500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 80000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 80000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b5e94d7ad1a2b865a96b0",
+      "itemName": {
+        "zh": "FLIR RS-32 2.25-9x 35毫米 60Hz热成像步枪瞄准镜",
+        "en": "FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "606f2696f2cb2e02a42aceb1",
+      "itemName": {
+        "zh": "MP-155 \"Ultima\"热成像摄像头",
+        "en": "MP-155 Ultima thermal camera"
+      }
+    }
+  ],
+  "description": {
+    "zh": "像这样的极端事件揭漏了真实的人性，展现出孰是孰非。有些人和以前一样，有些人就变了。最近我听到了关于这个地区新势力的传言。那些人，那些变成怪物的人。人们称之为“掠夺者”。它们不知从哪里冒出来，把到处撕个粉碎，拿走它们需要的东西，然后消失，仿佛它们从来就没在那出现过。人们说，他们大多是曾经的军人和竞争对手的私营军事公司。我还听说他们背后有一个有权势的人，这个人正在从国外牵线搭桥。找到他们，告诉他们他们在食物链中的位置。",
+    "en": "The most shitty situations usually quickly make it clear on who is who. Some people stay the same, some people don't. And recently I've heard the rumors about the new forces in the area. They come out of nowhere, tear places apart, take whatever they want and vanish as if they never were there. They call themselves Raiders. People say that they are mostly ex-military and ex-PMCs, they are gathering into gangs and \"protect\" big facilities. I've also heard that they have someone really powerful behind them, pulling the strings from abroad. Calm down those bandits."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2b486f77409de05bba0",
+      "name": {
+        "zh": "猎人之路 - 周边安全",
+        "en": "The Huntsman Path - Secured Perimeter"
+      }
+    },
+    {
+      "id": "5d25e44f86f77443e625e385",
+      "name": {
+        "zh": "猎人之路 - 蒸发密令",
+        "en": "The Huntsman Path - Eraser - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d69483686f77414077d1cca.jpg",
+  "isKey": false
+}

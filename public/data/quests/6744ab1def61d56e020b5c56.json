@@ -1,0 +1,101 @@
+{
+  "id": "6744ab1def61d56e020b5c56",
+  "name": {
+    "zh": "对空遮断",
+    "en": "Protect the Sky"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "Discover",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 25400
+    },
+    {
+      "type": "Item",
+      "value": 96000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 96000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "657023a9126cc4a57d0e17a6",
+      "itemName": {
+        "zh": ".300 Blackout CBJ弹药包（50发装）",
+        "en": ".300 Blackout CBJ ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "674d6121c09f69dfb201a888",
+      "itemName": {
+        "zh": "Aklys Defense 迅猛龙 .300 Blackout 突击步枪",
+        "en": "Aklys Defense Velociraptor .300 Blackout assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你身后没跟着探子吧？Skier 肯定在谋划些什么东西。现在我在 BTR 里都睡不安稳了！但是现在还不能退缩，我已经着手建造新的营地，这一回我要把它打造得固若金汤。\n\n有人愿意为我提供一套像样的电子干扰系统。我已经付清了货款，只差把包裹交给我了。他们选了一个不寻常的地方交货：森林里的墓地。虽然不大，但你会找到的。附近到处都是担架和尸体\n\n你能从交货点帮我把包裹拿来吗？但不要从这里直接过去，会被其他人发现的。回你的藏身处喘口气，然后再去那个地方。我担不起货物被人发现的风险。",
+    "en": "You weren't being tailed, were you? Skier is definitely up to something. I'm even afraid to sleep in the BTR now! But I can't back down now. I've started setting up a new base, and this time I want to build a solid defense.\n\nSomeone's willing to provide me with a decent electronic jamming system. We've already settled the payment, it's just a matter of delivering the package to me. They picked an unusual place for the transfer: a cemetery in the forest. It's not big, but you'll find it no problem. There's a stretcher and bodies lying around near it.\n\nCan you get the package from the stash? Oh, but don't go straight there from here. Go to your base, take a breather, and then go to the stash from there. Can't let anyone find out about my new purchase."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "67499d4deca8acb2d206163b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67499d4deca8acb2d206163b": {
+          "zh": "KOSA 无人机电子干扰设备",
+          "en": "KOSA UAV electronic jamming device"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "67499d4deca8acb2d206163b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67499d4deca8acb2d206163b": {
+          "zh": "KOSA 无人机电子干扰设备",
+          "en": "KOSA UAV electronic jamming device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [
+    {
+      "id": "6744aca8d3346c216702c583",
+      "name": {
+        "zh": "暗度陈仓",
+        "en": "Discombobulate"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/675b0854eaef91cffa0f04fe.jpg",
+  "isKey": false
+}

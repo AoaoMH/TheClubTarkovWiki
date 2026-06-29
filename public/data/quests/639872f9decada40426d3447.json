@@ -1,0 +1,160 @@
+{
+  "id": "639872f9decada40426d3447",
+  "name": {
+    "zh": "枪匠 - 4",
+    "en": "Gunsmith - Part 4"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 25000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 25000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c5a7286f7747884343aea",
+      "itemName": {
+        "zh": "“Kite”火药",
+        "en": "Gunpowder \"Kite\""
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5733279d245977289b77ec24",
+      "itemName": {
+        "zh": "汽车蓄电池",
+        "en": "Car battery"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b2fa286f77425227d1674",
+      "itemName": {
+        "zh": "电动马达",
+        "en": "Electric motor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59984ab886f7743e98271174",
+      "itemName": {
+        "zh": "PP-19-01 勇士 9x19 冲锋枪",
+        "en": "PP-19-01 Vityaz 9x19 submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊。你喜欢狩猎吗？鹿之类的...我一直对猎枪没什么兴趣，尽管我深爱着我的这些加工器材。总之，不管怎么说，我现在就要这个。来了个新单子，我希望你能帮个忙。我需要一把升级过的西蒙诺夫卡宾枪，装上消音器和光学瞄具。要有20发或者更大容量的弹匣，人机功效高于35，后坐力综合不能超过350。",
+    "en": "Oh, hello there. Do you like hunting? Elk, deer... I've always been somewhat neutral about hunting, even though I love my gunsmithing craft. Well, anyway, that's what I'm getting at. There's a new order, and I wanted to ask you to help with it. I need an upgraded Simonov carbine, with a silencer and optic scope. 20-round or larger mag, ergonomics over 35, recoil sum no more than 350."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "587e02ff24597743df3deaeb"
+      ],
+      "targetNames": {
+        "587e02ff24597743df3deaeb": {
+          "zh": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪",
+          "en": "Molot Arms Simonov OP-SKS 7.62x39 carbine"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 35
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 350
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 600
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 20
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 6
+        }
+      ],
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac2426c86f774138762edfe",
+      "name": {
+        "zh": "枪匠 - 2",
+        "en": "Gunsmith - Part 2"
+      }
+    },
+    {
+      "id": "5ac2428686f77412450b42bf",
+      "name": {
+        "zh": "枪匠 - 3",
+        "en": "Gunsmith - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae3267986f7742a413592fe",
+      "name": {
+        "zh": "枪匠 - 5",
+        "en": "Gunsmith - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63aae970f83fd6083938904e.jpg",
+  "isKey": false
+}

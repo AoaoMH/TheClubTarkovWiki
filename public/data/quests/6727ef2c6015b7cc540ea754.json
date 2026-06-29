@@ -1,0 +1,83 @@
+{
+  "id": "6727ef2c6015b7cc540ea754",
+  "name": {
+    "zh": "传染野兽",
+    "en": "Contagious Beast"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 65000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 100000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 100000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1d0c5f86f7744bb2683cf0",
+      "itemName": {
+        "zh": "实验室钥匙卡·蓝",
+        "en": "TerraGroup Labs keycard (Blue)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我没想到我们要处理这么多事。你听说感染者已经感染了Tagilla吗？他之前就已经很狂暴了，现在更甚。有这么一个活跃的传染源，我们很快就没有健康的人了。\n\n必须阻止他。当然，现在到处都有成吨的感染者，但没有一个像Tagilla那样危险。所以我请你搁置一切，找到那个混蛋。在他身体停止抽搐之前不要离开。\n\n经历了一切之后，如果Tagilla挨了好几个弹匣后像没事人一样站起来，我也不会惊讶……嘿，小心点。",
+    "en": "I never thought we'd have so much on our plate. Did you hear that the infected have gotten to Tagilla? He was already furious before, and now even more so. With such an active carrier of contagion, we'll soon run out of healthy people.\n\nHe must be stopped. Sure, there are tons of infected everywhere now, but none of them are as dangerous as Tagilla. So I'm asking you to put everything on hold and find the bastard. And don't leave until his body stops twitching.\n\nAfter everything that's happened, it wouldn't surprise me if Tagilla survives several magazines and then gets up as if nothing had happened... And hey, be careful out there."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "infectedTagilla"
+      ]
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67040c92bf4be8a4ef041a6c",
+      "name": {
+        "zh": "黎明前的黑暗",
+        "en": "Darkest Hour Is Just Before Dawn"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/60cb3814f09d61072d6cf211.jpg",
+  "isKey": false
+}

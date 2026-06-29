@@ -1,0 +1,97 @@
+{
+  "id": "666314a31cd52e3d040a2e76",
+  "name": {
+    "zh": "实战考验",
+    "en": "Combat Proven"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 92000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 340000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 340000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "628d0618d1ba6e4fa07ce5a4",
+      "itemName": {
+        "zh": "NPP KlASS Bagariy 防弹胸挂（数码丛林迷彩）",
+        "en": "NPP KlASS Bagariy plate carrier (EMR)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "CustomizationDirect"
+    }
+  ],
+  "description": {
+    "zh": "来看看我的人复刻的装备！这胸挂在外观上已经和原版相差无几了，但还没有经过实战考验。如果你能穿着它把本地帮派收拾一遍，那应该能证明这玩意的实用性。",
+    "en": "Look what my guys made! The rigs look like a perfect match, but they still need to be tested. If you can beat the local hotshots with them, then it's a good product."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossBoar",
+        "bossBully",
+        "bossGluhar",
+        "bossKilla",
+        "bossKojaniy",
+        "bossKolontay",
+        "bossSanitar",
+        "bossTagilla",
+        "bossZryachiy"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "666314a1920800278d0f6746",
+      "name": {
+        "zh": "特殊提议",
+        "en": "Special Offer"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "666314a50aa5c7436c00908a",
+      "name": {
+        "zh": "旧情难却",
+        "en": "Old Patterns"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6682a79f3d914aa3b20e13cb.png",
+  "isKey": false
+}

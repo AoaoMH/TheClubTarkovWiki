@@ -1,0 +1,151 @@
+{
+  "id": "675c15fbf7da9792a4059871",
+  "name": {
+    "zh": "收视灵药",
+    "en": "Provide Viewership"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Elimination",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 32000
+    },
+    {
+      "type": "Item",
+      "value": 45,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 45
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d43021ca4b9362eab4b5e25",
+      "itemName": {
+        "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪",
+        "en": "Lone Star TX-15 DML 5.56x45 carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c6d42cb2e2216000e69d7d1",
+      "itemName": {
+        "zh": "HK 5.56x45 mag 30 STANAG 30发聚合物弹匣",
+        "en": "AR-15 5.56x45 HK 30 STANAG polymer 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657024e3c5d7d4cb4d07856a",
+      "itemName": {
+        "zh": "50发5.56x45 M855A1盒装弹药",
+        "en": "5.56x45mm M855A1 ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，角斗士！看到你全身零件都在我就放心了，显然你并没有荒废自己的技术，这正是我所希望看到的。\n\n竞技场的战斗非常惊心动魄没错，但你得明白，人的天性就是喜新厌旧。当观众习惯现状后，自然就赶着索求新的刺激！所以我想出了点新花样。\n\n我想为一群非常特殊的客户直播塔科夫战斗情况，实景的那种。你需要设置好摄像头，然后在镜头面前施展身手，让他们见识见识。至于具体地点，安在海关建筑工地旁的那座厂房里就不错。\n\n我不关心你的目标是谁，最重要的是让你自己成为舞台中心的焦点！到时候全场观众都会为你起立欢呼，出大价钱只为一睹你的风采。当然了，你的辛劳不会白费，只要能办成，你的好处自然少不了。",
+    "en": "Greetings, gladiator! Judging by the fact that you're still in one piece, you've developed a good skill set. That's exactly what I need.\n\nArena fights are thriving, but you know the human nature. The audience gets used to everything and will always ask for more! So I've come up with something more interesting.\n\nI want to broadcast the fights in real Tarkov conditions for a group of special customers. You need to set up a camera and then show them what you're made of. You can put the camera on some building near the construction site at customs.\n\nI don't care who's in your crosshairs. You yourself are the centerpiece of this show! People will cheer for you and pay good money for it. Of course, I've taken your commitment into account, so expect a reward."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 1,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6834158f2f0e2a7eb90b62c8",
+      "name": {
+        "zh": "轻松钱 - 第二部分 [PVE区]",
+        "en": "Easy Money - Part 2 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/664088150e8c3b39563f2b73.png",
+  "isKey": false
+}

@@ -1,0 +1,93 @@
+{
+  "id": "5a03173786f77451cb427172",
+  "name": {
+    "zh": "疗养之旅 - 2",
+    "en": "Spa Tour - Part 2"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Exploration",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 900,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 900
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59faff1d86f7746c51718c9c",
+      "itemName": {
+        "zh": "实体比特币",
+        "en": "Physical Bitcoin"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "58d3db5386f77426186285a0",
+      "itemName": {
+        "zh": "M67手榴弹",
+        "en": "M67 hand grenade"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，我的朋友。当你在伸张正义的时候，一定注意到了在疗养胜地的停机坪上的直升机了。我们需要尽快的带走里面一切有价值的物资。现在它就停在那个开阔且危险的地方，你的任务是标记这架直升机。此外，最重要的是，找到一条安全的能开车过去的路，最好可以穿过森林。标记它，我的意思是这条路线也用信标标记，之后就是蓝盔的事了。",
+    "en": "Good day, my friend. While you were bringing justice, you surely noticed the helicopter standing at the health resort pad. We need to hurry and pick up everything of value that is left in it. For now, it's wide open and dangerous in there. Your task is to mark the helicopter with a beacon and, most importantly, find the safe path to access it with a vehicle, preferably through the woods. Mark it, I mean the path, with a beacon as well. After that, it’s Blue Helmets’ job."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a03153686f77442d90e2171",
+      "name": {
+        "zh": "疗养之旅 - 1",
+        "en": "Spa Tour - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a0327ba86f77456b9154236",
+      "name": {
+        "zh": "疗养之旅 - 3",
+        "en": "Spa Tour - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+  "isKey": false
+}

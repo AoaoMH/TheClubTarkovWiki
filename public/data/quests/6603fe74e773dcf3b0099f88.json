@@ -1,0 +1,113 @@
+{
+  "id": "6603fe74e773dcf3b0099f88",
+  "name": {
+    "zh": "塔科夫之迷",
+    "en": "The Tarkov Mystery"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 28000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 28000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657023a9126cc4a57d0e17a6",
+      "itemName": {
+        "zh": ".300 Blackout CBJ弹药包（50发装）",
+        "en": ".300 Blackout CBJ ammo pack (50 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5aaa5dfee5b5b000140293d3",
+      "itemName": {
+        "zh": "PMAG GEN M3 30 5.56x45 STANAG 30发弹匣",
+        "en": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 STANAG 30-round magazine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5fbcc1d9016cce60e8341ab3",
+      "itemName": {
+        "zh": "SIG MCX .300 AAC Blackout 突击步枪",
+        "en": "SIG MCX .300 Blackout assault rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，有意思的来了。你注意到最近突然冒出来的那些 U 盘没？感觉就像哪个混蛋有意在散布这些东西一样。给我弄一个这种 U 盘来，我们来瞧瞧里面都有些什么好东西。总之，这些 U 盘应该和电子元件混在一起，所以你知道该上哪去找的。明白的干活？",
+    "en": "Hey. Something interesting came up. You see all these flash drives popping up all of a sudden? It's like some wanker's been dumping them on purpose. Get me one. Let's see what's so interesting about them. Anyway, these thumb drives are lying around with all the electronics. Roger-roger?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "660bbc47c38b837877075e47"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "660bbc47c38b837877075e47": {
+          "zh": "加密U盘",
+          "en": "Encrypted flash drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "660bbc47c38b837877075e47"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "660bbc47c38b837877075e47": {
+          "zh": "加密U盘",
+          "en": "Encrypted flash drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315e270bb0b8dba00cc48",
+      "name": {
+        "zh": "快车初体验",
+        "en": "Burning Rubber"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/6640881e76f836210934d7cf.png",
+  "isKey": false
+}

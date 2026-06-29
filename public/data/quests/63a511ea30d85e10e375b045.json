@@ -1,0 +1,87 @@
+{
+  "id": "63a511ea30d85e10e375b045",
+  "name": {
+    "zh": "直播 - 3",
+    "en": "Broadcast - Part 3"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 68000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 68000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d02797c86f774203f38e30a",
+      "itemName": {
+        "zh": "Surv12野战手术包",
+        "en": "Surv12 field surgical kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，Mechanic把情况告诉我了。这真的太可怕了，把我都给吓坏了。但是我们还是要查明真相。你知道更可怕的事情是什么吗？Mechanic那的相机里不仅有我们已经看过的视频，还有更多其他的地方。看起来有人在和我们玩猫鼠游戏，故意让我们看到那些录像。有一间老房子，里面的桌子上有一些尸首，就像圣经里的故事画面那样。那地方不太对劲，去找找具体位置。",
+    "en": "Hello, Mechanic gave me the gist of the situation. It's horrible, gives me the creeps. But we have to get to the truth. And you know what's even worse? The camera that Mechanic's techs looked at contained not only the recordings we knew of, but also even more at different places. As if someone is playing with us and wants us to see these recordings. There was an old house, with corpses at the table, like in a biblical story. Find this place, something's not right about this."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c25_cinem2",
+      "targetNames": {
+        "quest_zone_c25_cinem2": {
+          "zh": "quest_zone_c25_cinem2",
+          "en": "quest_zone_c25_cinem2"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63913715f8e5dd32bf4e3aaa",
+      "name": {
+        "zh": "直播 - 2",
+        "en": "Broadcast - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6391372c8ba6894d155e77d7",
+      "name": {
+        "zh": "直播 - 4",
+        "en": "Broadcast - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/628b805544430c635d52a888.jpg",
+  "isKey": false
+}

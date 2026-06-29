@@ -1,0 +1,162 @@
+{
+  "id": "5bc4856986f77454c317bea7",
+  "name": {
+    "zh": "塔科夫神射手 - 7",
+    "en": "The Tarkov Shooter - Part 7"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 85000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 85000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bc5a35cd4351e450201232f",
+      "itemName": {
+        "zh": "莫辛步枪Witt Machine 7.62x54R膛口制退器",
+        "en": "Mosin Rifle Witt Machine 7.62x54R muzzle brake"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b86a0e586f7745b600ccb23",
+      "itemName": {
+        "zh": "Bramit莫辛步枪消音器",
+        "en": "Mosin Rifle Bramit 7.62x54R sound suppressor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bc5a35cd4351e450201232f",
+      "itemName": {
+        "zh": "莫辛步枪Witt Machine 7.62x54R膛口制退器",
+        "en": "Mosin Rifle Witt Machine 7.62x54R muzzle brake"
+      }
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5e023d34e8a400319a28ed44",
+      "itemName": {
+        "zh": "7.62x54R 7BT1",
+        "en": "7.62x54mm R BT gzh"
+      }
+    }
+  ],
+  "description": {
+    "zh": "无声击杀永远是最有效的手段，当然，你得保持一个安全距离。神枪手安排的下一个任务可就是真的难题了。你需要装上消音器，然后在中距离狙杀一些老练的敌人。",
+    "en": "Neutralizing your target is more effective without any noise, from a safe distance. The next test from Sniper is a practice in this kind of business. Get a suppressor and shoot experienced enemies from medium distances."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "55801eed4bdc2d89578b4588",
+        "5de652c31b7e3716273428be",
+        "588892092459774ac91d4b11",
+        "5bfd297f0db834001a669119",
+        "5bfea6e90db834001b7347f3",
+        "5ae08f0a5acfc408fb1398a1",
+        "5df24cf80dee1b22f862e9bc",
+        "627e14b21713922ded6f2c15",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        },
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      },
+      "distance": {
+        "compareMethod": ">=",
+        "value": 45
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5bc4836986f7740c0152911c",
+      "name": {
+        "zh": "塔科夫神射手 - 6",
+        "en": "The Tarkov Shooter - Part 6"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5bc4893c86f774626f5ebf3e",
+      "name": {
+        "zh": "塔科夫神射手 - 8",
+        "en": "The Tarkov Shooter - Part 8"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5bc481ec86f7740c8649a4f1.jpg",
+  "isKey": false
+}

@@ -1,0 +1,59 @@
+{
+  "id": "6672d9def1c88688a707d042",
+  "name": {
+    "zh": "建立联系",
+    "en": "Establish Contact"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Loyalty",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 600,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 600
+    }
+  ],
+  "description": {
+    "zh": "你好，雇佣兵。我听说你想要增进关系，让我们的合作更深一层？你应该知道责任越大，信任越重的道理吧？那么，向我证明你的可靠程度。",
+    "en": "Hello, mercenary. You want to take our cooperation to the next level? You know the greater the responsibility, the more important the trust. Prove your dependability."
+  },
+  "objectives": [
+    {
+      "type": "TraderStanding",
+      "description": "TraderStanding",
+      "value": 5,
+      "target": "579dc571d53a0658a154fbec"
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [
+    {
+      "id": "66631489acf8442f8b05319f",
+      "name": {
+        "zh": "陌路相交",
+        "en": "Friend Among Strangers"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61374f53857735719f2f0ca2.jpg",
+  "isKey": false
+}

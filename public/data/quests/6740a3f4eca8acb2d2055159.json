@@ -1,0 +1,103 @@
+{
+  "id": "6740a3f4eca8acb2d2055159",
+  "name": {
+    "zh": "横插一杠",
+    "en": "Stick in the Wheel"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21500
+    },
+    {
+      "type": "Item",
+      "value": 112000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 112000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57c44b372459772d2b39b8ce",
+      "itemName": {
+        "zh": "AS “巨浪” 9x39 特种突击步枪",
+        "en": "AS VAL 9x39 special assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "57838f9f2459774a150289a0",
+      "itemName": {
+        "zh": "VSS/VAL 9x39 6L25 20发弹匣（黑红色）",
+        "en": "VSS/VAL 9x39 6L25 20-round magazine (Plum)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "657025cfbfc87b3a34093253",
+      "itemName": {
+        "zh": "20发9x39 PAB-9 gs盒装弹药",
+        "en": "9x39mm PAB-9 gs ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "又是为 BTR 司机的事情来的吗？听着，这事没那么简单，但是事情在你的帮助下已经开始慢慢推进了。顺便一提，我的士兵最面对的 Scav 压力骤然上升。 \n\n我不知道到底是 Skier 听说了我们之间合作的风声，或者又是有什么新的帮派在招募混混，但是现在这样子没法做生意。如果你想要你的司机同志和我合作，你得先把这块绊脚石挪开才行。",
+    "en": "Here about the BTR driver again? Listen, it's not that simple. But things are slowly progressing, thanks to you. By the way, the Scavs are really coming down on my soldiers right now. \n\nI don't know if it's Skier who has learned something about our plans, or if someone is actively recruiting new bandits, but it's impossible to do business like this, that's for sure. If you want your comrade and I to work together, you have to remove this hindrance."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 30,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6740a2c17e3818d5bb0648b6",
+      "name": {
+        "zh": "半满半空",
+        "en": "Half-Empty"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6744a728352b4da8e003eda9",
+      "name": {
+        "zh": "电池换新",
+        "en": "Battery Change"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+  "isKey": false
+}

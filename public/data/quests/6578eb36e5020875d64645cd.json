@@ -1,0 +1,129 @@
+{
+  "id": "6578eb36e5020875d64645cd",
+  "name": {
+    "zh": "猎人之路 - 坏警察",
+    "en": "The Huntsman Path - Crooked Cop"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 36000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 150000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 150000
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c12613b86f7743bbe2c3f76",
+      "itemName": {
+        "zh": "情报文件夹",
+        "en": "Intelligence folder"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "627e14b21713922ded6f2c15",
+      "itemName": {
+        "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+        "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "快进来，请坐。我有事跟你谈。\n\n我们需要保持塔科夫的清洁。有一个之前的警察叫做Kollontay。他在和平时期只会搞出麻烦，现在更是如此。找到并且干掉他。据说他一直躲在内务部学院里。",
+    "en": "Come on in, have a seat. I need to talk to you.\n\nWe need to keep cleaning up Tarkov. Next up is an ex-cop named Kollontay. He's been nothing but trouble in peacetime, and he's even more so now. Find him and deal with him. They say he's holed up at the MVD academy in the city."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKolontay"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerKolontayAssault",
+        "followerKolontaySecurity"
+      ]
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6540d2162ae6d96b540afcaf"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "6540d2162ae6d96b540afcaf": {
+          "zh": "PR-Taran警棍",
+          "en": "PR-Taran police baton"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639136df4b15ca31f76bc31f",
+      "name": {
+        "zh": "猎人之路 - 管理者",
+        "en": "The Huntsman Path - Administrator"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/658afe8fface133e6b66a6e4.jpg",
+  "isKey": false
+}

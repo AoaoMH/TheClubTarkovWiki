@@ -1,0 +1,129 @@
+{
+  "id": "64f5e20652fc01298e2c61e3",
+  "name": {
+    "zh": "好吃到上瘾 - 1",
+    "en": "Beyond the Red Meat - Part 1"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 80000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 80000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "628b5638ad252a16da6dd245",
+      "itemName": {
+        "zh": "SAG AK-545 5.45x39卡宾枪",
+        "en": "SAG AK-545 5.45x39 carbine"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "55d480c04bdc2d1d4e8b456a",
+      "itemName": {
+        "zh": "6L23 5.45x39 30发AK-74兼容弹匣",
+        "en": "AK-74 5.45x39 6L23 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "57372c89245977685d4159b1",
+      "itemName": {
+        "zh": "5.45x39mm BT弹药包（30发装）",
+        "en": "5.45x39mm BT gs ammo pack (30 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6130ca3fd92c473c77020dbd",
+      "itemName": {
+        "zh": "CSS AK 凸缘拉机柄",
+        "en": "AK CSS knurled charging handle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊，士兵！既然你没有什么事情做，那我就找点事情给你吧。有一位大厨，给我们做了上好的菜肴，所以我想要送他一份礼物作为回报。Klimov大街有一家华丽的餐馆，那里有最好的厨师。去那里看一看，说不定你能找到一些秘密配方之类的东西。",
+    "en": "Opa, soldier boy! Since you're here and doing jack shit right now, we're gonna put you to work. Our gang has a great cook who makes divine dishes for us all, so I want to give him a present to thank him for his service to the boys. There's a fancy restaurant in the city on Klimov street, best chefs in town, all that shit. Go there, check it out, see if you can find a secret recipe or shit like that."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "64f69b4267e11a7c6206e010"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "64f69b4267e11a7c6206e010": {
+          "zh": "主厨的日记本",
+          "en": "Chef's diary"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "64f69b4267e11a7c6206e010"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "64f69b4267e11a7c6206e010": {
+          "zh": "主厨的日记本",
+          "en": "Chef's diary"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b478ff486f7744d184ecbbf",
+      "name": {
+        "zh": "维他命 - 2",
+        "en": "Vitamins - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "64f6aafd67e11a7c6206e0d0",
+      "name": {
+        "zh": "好吃到上瘾 - 2",
+        "en": "Beyond the Red Meat - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/64f8b78cb4918f39d363e1bf.jpg",
+  "isKey": false
+}

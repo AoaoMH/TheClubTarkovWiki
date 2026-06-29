@@ -1,0 +1,128 @@
+{
+  "id": "5967733e86f774602332fc84",
+  "name": {
+    "zh": "短缺",
+    "en": "Shortage"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 15000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 15000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c661e86f7741e566b646a",
+      "itemName": {
+        "zh": "车载急救包",
+        "en": "Car first aid kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "544fb37f4bdc2dee738b4567",
+      "itemName": {
+        "zh": "安乃近止痛药",
+        "en": "Analgin painkillers"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "544fb3364bdc2d34748b456a",
+      "itemName": {
+        "zh": "固定夹板",
+        "en": "Immobilizing splint"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，雇佣兵。我有一份小小的兼职工作，你感兴趣吗？不是什么难题，但是做了有好处。别忘了，我这里能管你吃喝，还能提供专业的医疗服务。但是在这之前，先和你聊聊这份工作。\n\n我需要三个急救包。它们叫做“Salewa” —— 是西方那边的红色急救包。我需要你自己找到它们，而不是随便找个地方买来。毕竟，我们对待这件事情很严肃的。我们已经互相认识了，但我还没法那么信任你。你愿意接下这个活吗？",
+    "en": "Hello, mercenary. Are you interested in a little part-time work? It's not a difficult task, but it's quite lucrative. Don't forget, you can get both food and drink from me, as well as expert medical care. But first, let's talk about the job.\n\nI require three emergency medical kits. They're called Salewa - the red western ones. I need you to obtain them yourself, not buy them off someone else. Just to prove that we're serious about this. We may know each other, but not enough for me to trust you yet. Are you up for the job?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "544fb45d4bdc2dee738b4568"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb45d4bdc2dee738b4568": {
+          "zh": "Salewa急救包",
+          "en": "Salewa first aid kit"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "544fb45d4bdc2dee738b4568"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb45d4bdc2dee738b4568": {
+          "zh": "Salewa急救包",
+          "en": "Salewa first aid kit"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315ddab5a49b71f098853",
+      "name": {
+        "zh": "新手上路",
+        "en": "First in Line"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "59689ee586f7740d1570bbd5",
+      "name": {
+        "zh": "卫生标准 - 1",
+        "en": "Sanitary Standards - Part 1"
+      }
+    },
+    {
+      "id": "59689fbd86f7740d137ebfc4",
+      "name": {
+        "zh": "水瓶座行动 - 1",
+        "en": "Operation Aquarius - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59689e1c86f7740d14064725.jpg",
+  "isKey": false
+}

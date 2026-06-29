@@ -1,0 +1,115 @@
+{
+  "id": "63966fbeea19ac7ed845db2e",
+  "name": {
+    "zh": "失踪的线人",
+    "en": "Missing Informant"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c7750ef44505c87f5996",
+      "itemName": {
+        "zh": "微控制器电路板",
+        "en": "Microcontroller board"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5c052f6886f7746b1e3db148",
+      "itemName": {
+        "zh": "军用COFDM无线信号发射器",
+        "en": "Military COFDM Wireless Signal Transmitter"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6389c7750ef44505c87f5996",
+      "itemName": {
+        "zh": "微控制器电路板",
+        "en": "Microcontroller board"
+      }
+    }
+  ],
+  "description": {
+    "zh": "有一个线人在车贩子那里开了个会，那是个秘密的地点。所以你他妈为什么还在这里待着？要是他已经被发现了，那你就去找一个藏身处，那里的钥匙也会在附近。找到所有他发现的情报。不要辜负我。",
+    "en": "The informant set up a meeting near the car dealership, at a hidden spot? So why the hell are you still here? If he gets busted while you're still here, look for a hidden hideout, a spare key for it must be somewhere in there too. Find everything he's dug up. Don't let me down."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_keeper99",
+      "targetNames": {
+        "quest_zone_keeper99": {
+          "zh": "quest_zone_keeper99",
+          "en": "quest_zone_keeper99"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "63989ced706b793c7d60cfef"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "63989ced706b793c7d60cfef": {
+          "zh": "线人的记录",
+          "en": "Informant's journal"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "63989ced706b793c7d60cfef"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "63989ced706b793c7d60cfef": {
+          "zh": "线人的记录",
+          "en": "Informant's journal"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63966faeea19ac7ed845db2c",
+      "name": {
+        "zh": "情报之源",
+        "en": "Information Source"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "63966fccac6f8f3c677b9d89",
+      "name": {
+        "zh": "抢夺先机",
+        "en": "Snatch"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

@@ -1,0 +1,218 @@
+{
+  "id": "6086c852c945025d41566124",
+  "name": {
+    "zh": "无中生有 - 储备站",
+    "en": "Revision - Reserve"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Completion",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 800,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 800
+    },
+    {
+      "type": "Item",
+      "value": 15,
+      "itemId": "5c11279ad174af029d64592b",
+      "itemName": {
+        "zh": "5.56x45mm Warmageddon子弹（20发装）",
+        "en": "5.56x45mm Warmageddon ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好。众所周知，蓝盔部队来到这里是为了缓和冲突。这就是我来找你评估风险水平的原因。替我潜入军事基地，然后搜寻任何可以表明军事风险的东西。毕竟，维护和平是我们的职责，对吧？知情人士给我提供了一份储备站的军械清单，上面甚至还有北约装备。也许他们会打算安全地处置这些东西，也许他们会做些别的事儿，反正我不清楚。总之，你要找到这些军械，然后用指示器标记好。报酬丰厚，千万别辜负我，雇佣兵！",
+    "en": "Good day. As you know, the blue helmets are here to lower the level of aggression in the region. That is why I want you to assess the danger levels. Infiltrate the military base and search it for anything that could present military danger. After all, the blue helmets are supposed to keep the peace. Some knowledgeable people have provided me with a list of military machinery located in the military base area, which also includes NATO units. I think they want to safely dispose of it, or something else, I don't know. Anyway, you have to find the machinery and mark it with beacons. The clients offer good money for this, so don't let me down, mercenary."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "tadeush_bmp2_area_check_2",
+      "targetNames": {
+        "tadeush_bmp2_area_check_2": {
+          "zh": "tadeush_bmp2_area_check_2",
+          "en": "tadeush_bmp2_area_check_2"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "tadeush_bmp2_area_check_11",
+      "targetNames": {
+        "tadeush_bmp2_area_check_11": {
+          "zh": "tadeush_bmp2_area_check_11",
+          "en": "tadeush_bmp2_area_check_11"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "tadeush_bmp2_area_check_12",
+      "targetNames": {
+        "tadeush_bmp2_area_check_12": {
+          "zh": "tadeush_bmp2_area_check_12",
+          "en": "tadeush_bmp2_area_check_12"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "tadeush_bmp2_area_check_13",
+      "targetNames": {
+        "tadeush_bmp2_area_check_13": {
+          "zh": "tadeush_bmp2_area_check_13",
+          "en": "tadeush_bmp2_area_check_13"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "tadeush_stryker_area_check_3",
+      "targetNames": {
+        "tadeush_stryker_area_check_3": {
+          "zh": "tadeush_stryker_area_check_3",
+          "en": "tadeush_stryker_area_check_3"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "tadeush_stryker_area_check_4",
+      "targetNames": {
+        "tadeush_stryker_area_check_4": {
+          "zh": "tadeush_stryker_area_check_4",
+          "en": "tadeush_stryker_area_check_4"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "tadeush_t90_area_check_1",
+      "targetNames": {
+        "tadeush_t90_area_check_1": {
+          "zh": "tadeush_t90_area_check_1",
+          "en": "tadeush_t90_area_check_1"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27b87686f77460de0252a8",
+      "name": {
+        "zh": "人道主义援助",
+        "en": "Humanitarian Supplies"
+      }
+    },
+    {
+      "id": "5a27d2af86f7744e1115b323",
+      "name": {
+        "zh": "西方来客 - 2",
+        "en": "Friend From the West - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "60896888e4a85c72ef3fa300",
+      "name": {
+        "zh": "绝密技术",
+        "en": "Classified Technologies"
+      }
+    },
+    {
+      "id": "6179b4d1bca27a099552e04e",
+      "name": {
+        "zh": "无中生有 - 灯塔",
+        "en": "Revision - Lighthouse"
+      }
+    },
+    {
+      "id": "639135f286e646067c176a87",
+      "name": {
+        "zh": "无中生有 - 塔科夫街区",
+        "en": "Revision - Streets of Tarkov"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a29221d86f77457303da9fa.jpg",
+  "isKey": false
+}

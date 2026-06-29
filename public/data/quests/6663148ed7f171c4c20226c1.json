@@ -1,0 +1,341 @@
+{
+  "id": "6663148ed7f171c4c20226c1",
+  "name": {
+    "zh": "小本生意 - 1",
+    "en": "Small Business - Part 1"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 22800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1800,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1800
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c05308086f7746b2101e90b",
+      "itemName": {
+        "zh": "Virtex可编程处理器",
+        "en": "Virtex programmable processor"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嗯，我有一份差事要交给你。有一位手下似乎认为我的分销管路可以为他所用，而这位“创业者”最近正在向邪教徒推销他的纪念玩偶。给我找一些这种玩偶回来，我要看看里面到底有什么名堂。",
+    "en": "Hello. I have an errand for you. One of our people decided he could use my distribution lines on his own. It looks like our \"entrepreneur\" is marketing to cultists with souvenir figurines. Find them and bring them back, and I'll examine their insides."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "655c67ab0d37ca5135388f4b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "655c67ab0d37ca5135388f4b": {
+          "zh": "“圣诞老人”小人",
+          "en": "Ded Moroz figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "655c67ab0d37ca5135388f4b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "655c67ab0d37ca5135388f4b": {
+          "zh": "“圣诞老人”小人",
+          "en": "Ded Moroz figurine"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "655c66e40b2de553b618d4b8"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "655c66e40b2de553b618d4b8": {
+          "zh": "Mutkevich政客小人",
+          "en": "Politician Mutkevich figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "655c66e40b2de553b618d4b8"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "655c66e40b2de553b618d4b8": {
+          "zh": "Mutkevich政客小人",
+          "en": "Politician Mutkevich figurine"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66572c82ad599021091c6118"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66572c82ad599021091c6118": {
+          "zh": "Killa 小人",
+          "en": "Killa figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66572c82ad599021091c6118"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66572c82ad599021091c6118": {
+          "zh": "Killa 小人",
+          "en": "Killa figurine"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66572be36a723f7f005a066e"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66572be36a723f7f005a066e": {
+          "zh": "Reshala 小人",
+          "en": "Reshala figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66572be36a723f7f005a066e"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66572be36a723f7f005a066e": {
+          "zh": "Reshala 小人",
+          "en": "Reshala figurine"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "655c67782a1356436041c9c5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "655c67782a1356436041c9c5": {
+          "zh": "Ryzhy小人",
+          "en": "Ryzhy figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "655c67782a1356436041c9c5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "655c67782a1356436041c9c5": {
+          "zh": "Ryzhy小人",
+          "en": "Ryzhy figurine"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "655c673673a43e23e857aebd"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "655c673673a43e23e857aebd": {
+          "zh": "Scav小人",
+          "en": "Scav figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "655c673673a43e23e857aebd"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "655c673673a43e23e857aebd": {
+          "zh": "Scav小人",
+          "en": "Scav figurine"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66572cbdad599021091c611a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66572cbdad599021091c611a": {
+          "zh": "Tagilla 小人",
+          "en": "Tagilla figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66572cbdad599021091c611a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66572cbdad599021091c611a": {
+          "zh": "Tagilla 小人",
+          "en": "Tagilla figurine"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "655c669103999d3c810c025b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "655c669103999d3c810c025b": {
+          "zh": "邪教徒小人",
+          "en": "Cultist figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "655c669103999d3c810c025b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "655c669103999d3c810c025b": {
+          "zh": "邪教徒小人",
+          "en": "Cultist figurine"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66572b8d80b1cd4b6a67847f"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66572b8d80b1cd4b6a67847f": {
+          "zh": "Den 小人",
+          "en": "Den figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66572b8d80b1cd4b6a67847f"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66572b8d80b1cd4b6a67847f": {
+          "zh": "Den 小人",
+          "en": "Den figurine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6663148ca9290f9e0806cca1",
+      "name": {
+        "zh": "免疫力",
+        "en": "Immunity"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6663149196a9349baa021baa",
+      "name": {
+        "zh": "小本生意 - 2",
+        "en": "Small Business - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6682a78f75d2dfc8330a07e2.png",
+  "isKey": false
+}

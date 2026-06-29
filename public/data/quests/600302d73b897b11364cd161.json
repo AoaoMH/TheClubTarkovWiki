@@ -1,0 +1,87 @@
+{
+  "id": "600302d73b897b11364cd161",
+  "name": {
+    "zh": "猎人",
+    "en": "Hunter"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Item",
+      "value": 100000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 100000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1267ee86f77416ec610f72",
+      "itemName": {
+        "zh": "Prokill带链奖章",
+        "en": "Chain with Prokill medallion"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59fb023c86f7746d0d4b423c",
+      "itemName": {
+        "zh": "武器箱",
+        "en": "Weapon case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fc22d7c187fea44d52eda44",
+      "itemName": {
+        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪",
+        "en": "SWORD International Mk-18 .338 LM marksman rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "欢迎！快进来！我有个活给你。我这刚到了一批进口武器，很大的那种，远程狙击用，点338口径。你知道，我是这东西的粉丝。这还有另一位狙击手叫Shturman，做掉他，他已经是个大麻烦了，之后我会给你买这些大炮仗的机会。现在去吧，我等着听你的好消息。",
+    "en": "Hey there, kid! Come on in. I've got a job for you, an important one. Remember when I asked you to rid the sawmill of scum? Well, it seems that they returned for good now. Shturman and his friends are once again bringing fear into people all around the area, however, I can't deal with them myself. Please, help me get rid of those bandits, and I won't disappoint with the reward. Mechanic introduced me to a new supplier, they're selling me some good and powerful western rifles, the .338 caliber ones. If you help me, you can get some of those for yourself, for shooting elephants, you know. A proper weapon for a good hunt! Well, boy, I'll be waiting for news from you."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 20,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKojaniy"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2ee86f77443e35162ea",
+      "name": {
+        "zh": "猎人之路 - 森林管理员",
+        "en": "The Huntsman Path - Woods Keeper"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5d69470786f774238a38d844.jpg",
+  "isKey": false
+}

@@ -1,0 +1,113 @@
+{
+  "id": "666314b2a9290f9e0806cca3",
+  "name": {
+    "zh": "人间地狱 - 2",
+    "en": "Hell on Earth - Part 2"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 98000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 324000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 324000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e340dcdcb6d5863cc5e5efb",
+      "itemName": {
+        "zh": "VOG-25 Khattabka 简易手榴弹",
+        "en": "VOG-25 Khattabka improvised hand grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "617fd91e5539a84ec44ce155",
+      "itemName": {
+        "zh": "RGN手榴弹",
+        "en": "RGN hand grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "618a431df1eb8e24b8741deb",
+      "itemName": {
+        "zh": "RGO手榴弹",
+        "en": "RGO hand grenade"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "大兵！还记得上次我让你改的那把双管喷吗？我没找到把枪夹带过封锁线的法子，糟糕透了！那把枪看起来还是很不错的。转念一想，塔科夫这篇地盘上欠收拾的牛鬼蛇神也不少。 \n\n有那群神神叨叨的恶魔在外面出没，晚上在森林里拉屎都不安生！为啥不带着这把枪出去转一圈，打点真正的恶魔玩玩呢？",
+    "en": "Warrior! Remember the DB you were building? I couldn't deliver it past the border. That's a bummer, the shotty is gorgeous. Speaking of, we've got plenty of demons of our own in Tarkov. \n\nCan't even take a shit in the woods at night! Why don't you take this gun out for a spin and deal with those devils?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5580223e4bdc2d1c128b457f",
+        "64748cb8de82c85eaf0a273a"
+      ],
+      "weaponNames": {
+        "5580223e4bdc2d1c128b457f": {
+          "zh": "MP-43-1C双管霰弹枪",
+          "en": "MP-43-1C 12ga double-barrel shotgun"
+        },
+        "64748cb8de82c85eaf0a273a": {
+          "zh": "MP-43 12铅径截短双管霰弹枪",
+          "en": "MP-43 12ga sawed-off double-barrel shotgun"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest",
+        "sectantWarrior"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "666314b0acf8442f8b0531a1",
+      "name": {
+        "zh": "人间地狱 - 1",
+        "en": "Hell on Earth - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/6682a71075d2dfc8330a07d8.png",
+  "isKey": false
+}

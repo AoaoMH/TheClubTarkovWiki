@@ -1,0 +1,81 @@
+{
+  "id": "625d7005a4eb80027c4f2e09",
+  "name": {
+    "zh": "咚咚咚",
+    "en": "Knock-Knock"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 31300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "现在，我庄严地把应答机交付于你！说起来，你有听说过Peacekeeper有多想联系上Lightkeeper吗？他把一个会议连着推迟了几个月，但还是被拒绝了。他甚至还找谁买了个通行证，但那就是张没有用的废纸，虽然我不知道这说的是真的还是假的。但是，你是被他亲自邀请到灯塔的人！这得多带劲啊？这可真是屌炸天了。记得代我向Lightkeeper问好。祝你一路顺风。",
+    "en": "I solemnly present you with an assembled transponder! By the way, did you hear how Peacekeeper tried contacting with Lightkeeper? He's been pushing for a meeting for months, and he's still getting turned away. He even paid someone for a pass, but got a worthless piece of paper, though I don't know if it's true or not. But you were personally invited to the Lighthouse! How cool is that? Sic itur ad astra. So say hello to Lightkeeper for me. And good luck to you."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "meh_48_transponder_area_check_1",
+      "targetNames": {
+        "meh_48_transponder_area_check_1": {
+          "zh": "meh_48_transponder_area_check_1",
+          "en": "meh_48_transponder_area_check_1"
+        }
+      }
+    },
+    {
+      "type": "Experience",
+      "description": "Experience: ExitStatus",
+      "value": 1,
+      "location": "Lighthouse"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "625d70031ed3bb5bcc5bd9e5",
+      "name": {
+        "zh": "灯塔之匙",
+        "en": "Key to the Tower"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "625d700cc48e6c62a440fab5",
+      "name": {
+        "zh": "邂逅",
+        "en": "Getting Acquainted"
+      }
+    },
+    {
+      "id": "63966faeea19ac7ed845db2c",
+      "name": {
+        "zh": "情报之源",
+        "en": "Information Source"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61ab4381e4bbb01db226bce5.jpg",
+  "isKey": false
+}

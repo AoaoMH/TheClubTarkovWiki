@@ -1,0 +1,123 @@
+{
+  "id": "64ee9df4496db64f9b7a4432",
+  "name": {
+    "zh": "神秘的门",
+    "en": "The Door"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 30200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 500,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5cadc190ae921500103bb3b6",
+      "itemName": {
+        "zh": "伯莱塔M9A3 9x19手枪",
+        "en": "Beretta M9A3 9x19 pistol"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a7828548dc32e5a9c28b516",
+      "itemName": {
+        "zh": "雷明顿Model 870 12铅径 霰弹枪",
+        "en": "Remington Model 870 12ga pump-action shotgun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "64d4b23dc1b37504b41ac2b6",
+      "itemName": {
+        "zh": "生锈的带血钥匙",
+        "en": "Rusted bloody key"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嗨，我这里有一项细活。我是奉守科学之人，所有事情都要究其原理。你应该知道，我对这座城市里的所有信号都很感兴趣。不过有一个地方，我在那里做的所有扫描都被屏蔽了，就好像什么也没有一样，完全空白，这从科学角度上来说是不可能的。信号源在某栋建筑的二楼或是三楼里。为什么不派你去那里看看呢，说不定有什么设备在那？在那里帮我架设几个监控相机。就是那栋有着宇航员画像的房子。",
+    "en": "Hi, I have a delicate matter. I'm a man of science and I'm used to always find an explanation for everything. As you know, I'm interested in all sorts of signals coming from the territory of our beautiful city. There is a strange place where all my scans are strangely muffled, as if there is nothing there, empty, which is impossible from a scientific point of view. The source itself is in the second or third floor of a certain building. Why don't you go check it out, see if there's some kind of equipment? Set up a couple cameras for me for surveillance. The reference point will be the house with the astronaut mural on the wall."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_find_sillent",
+      "targetNames": {
+        "quest_zone_find_sillent": {
+          "zh": "quest_zone_find_sillent",
+          "en": "quest_zone_find_sillent"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac346cf86f7741d63233a02",
+      "name": {
+        "zh": "信号 - 3",
+        "en": "Signal - Part 3"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5ac4dbb086f7743e7c61ca09.jpg",
+  "isKey": false
+}

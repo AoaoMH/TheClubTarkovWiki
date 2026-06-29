@@ -1,0 +1,75 @@
+{
+  "id": "675c1d6d59b0575973008fc7",
+  "name": {
+    "zh": "抢夺先机",
+    "en": "Seizing the Initiative"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6300
+    },
+    {
+      "type": "Item",
+      "value": 600,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f60b34a41e30a4ab12a6947",
+      "itemName": {
+        "zh": "Galvion 凯门鳄 复合防弹头盔（灰色）",
+        "en": "Galvion Caiman Hybrid helmet (Grey)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "塔科夫市的行动形势瞬息万变，这意味着我必须时刻掌握最新情况。\n\n我的人报告说，一些 PMC 行动人员已经开辟了一条从海关到海岸线的新通道。\n\n以前那里是无法通行的，但已经有两个目标在那一带躲过了我的士兵逃之夭夭了。我必须知道那条通道到底是什么情况。\n\n如果你接受了这个任务，你就必须从海关一路前往海岸线，然后从那里撤离。当然，奖励也会和你所冒的风险相称！",
+    "en": "The operational situation in the city is ever-changing, meaning I always have to stay on top of what is happening.\n\nMy people have reported that some operatives have started using the new path from the customs terminal to the gulf coast.\n\nPreviously the passage was inaccessible there, but I've already had two targets evade my groups in that area. I have to see what is going on at that passage.\n\nIf you accept this task, you will have to travel all the way from the customs terminal to the coast and extract from there. You can count on an appropriate reward!"
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "bigmap"
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27b87686f77460de0252a8",
+      "name": {
+        "zh": "人道主义援助",
+        "en": "Humanitarian Supplies"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/6762fe2d00f370c67c043e19.jpg",
+  "isKey": false
+}

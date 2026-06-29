@@ -1,0 +1,166 @@
+{
+  "id": "67f3ea873daf3aaf3e0e7ff5",
+  "name": {
+    "zh": "备选方案",
+    "en": "An Alternative"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8600
+    },
+    {
+      "type": "Item",
+      "value": 68000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 68000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e530286f7747fa1419862",
+      "itemName": {
+        "zh": "丙泊酚",
+        "en": "Propital regenerative stimulant injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e531d86f7747fa23f4d42",
+      "itemName": {
+        "zh": "SJ6 TGLabs战斗兴奋剂注射器",
+        "en": "SJ6 TGLabs combat stimulant injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我已经研究了你提供的记录。Skier即将展开一场全规模的“志愿者”招募行动，他愿意投入大量资源。 他想通过欺骗那些犹豫不决的居民让他们加入他的帮派，然后在他的行动中利用他们。而且他绝对不会对未经训练、精疲力尽的招募者手下留情。\n\n即便在此刻，Skier的手下仍然忙于准备集合点，声称会分发食物和衣物。然而，没有什么能阻止他们强行把当地人塞进卡车，带到他们的领地。我们必须拯救这些居民，避免他们遭遇这样的命运。\n\n我有一些衣物供应，甚至还有空房间可以暂时安置新来的人。不过，物资短缺仍然是一个严重问题，这正是我需要你帮忙的地方。干粮和干净的水最好。\n\n显然，我们无法为当地人提供最舒适的住宿。但如果潜在的“志愿者”能在我这里而不是那家伙的监狱营房里，那肯定要好得多。",
+    "en": "I have studied the records you provided. Skier is about to launch a full-fledged recruitment drive for “volunteers”, and he is willing to invest a considerable amount of resources in it. He wants to trick hesitant residents into joining his gang and then use them in his operations. And he certainly will not spare untrained and exhausted recruits.\n\nEven at this moment, Skier's men are busy preparing assembly points where food and clothing will supposedly be distributed. However, nothing prevents them from forcing the locals into trucks and forcibly taking them to their territory. We must save the inhabitants from this fate.\n\nI have supplies of clothing and even spare rooms where I can temporarily house the newcomers. The shortage of provisions, though, remains a serious problem, and this is where I need your help. Dry provisions and clean water would be best. \n\nObviously, we cannot offer the locals the most comfortable accommodations. Yet it would be much better if potential “volunteers” were under my roof instead of this crook's prison barracks."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "57347da92459774491567cf5",
+        "57347d3d245977448f7b7f61",
+        "57347d7224597744596b4e72",
+        "5751487e245977207e26a315",
+        "590c5f0d86f77413997acfab",
+        "590c5d4b86f774784e1b9c45",
+        "635a758bfefc88a93f021b8a",
+        "65815f0e647e3d7246384e14",
+        "5448ff904bdc2d6f028b456e"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347da92459774491567cf5": {
+          "zh": "炖美味牛肉罐头（大）",
+          "en": "Can of beef stew (Large)"
+        },
+        "57347d3d245977448f7b7f61": {
+          "zh": "黑麦面包块",
+          "en": "Rye croutons"
+        },
+        "57347d7224597744596b4e72": {
+          "zh": "炖牛肉罐头",
+          "en": "Can of beef stew (Small)"
+        },
+        "5751487e245977207e26a315": {
+          "zh": "Emelya黑麦面包块",
+          "en": "Emelya rye croutons"
+        },
+        "590c5f0d86f77413997acfab": {
+          "zh": "MRE个人即食口粮",
+          "en": "MRE ration pack"
+        },
+        "590c5d4b86f774784e1b9c45": {
+          "zh": "Iskra个人配给口粮",
+          "en": "Iskra ration pack"
+        },
+        "635a758bfefc88a93f021b8a": {
+          "zh": "咸狗牛肉肠",
+          "en": "Salty Dog beef sausage"
+        },
+        "65815f0e647e3d7246384e14": {
+          "zh": "塔克肉干",
+          "en": "Pack of Tarker dried meat"
+        },
+        "5448ff904bdc2d6f028b456e": {
+          "zh": "军用饼干",
+          "en": "Army crackers"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "60098b1705871270cd5352a1",
+        "5d1b33a686f7742523398398",
+        "5448fee04bdc2dbc018b4567",
+        "5c0fa877d174af02a012e1cf"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "60098b1705871270cd5352a1": {
+          "zh": "应急用水",
+          "en": "Emergency Water Ration"
+        },
+        "5d1b33a686f7742523398398": {
+          "zh": "纯净水",
+          "en": "Canister with purified water"
+        },
+        "5448fee04bdc2dbc018b4567": {
+          "zh": "0.6升瓶装水",
+          "en": "Bottle of water (0.6L)"
+        },
+        "5c0fa877d174af02a012e1cf": {
+          "zh": "Aquamari带滤嘴水瓶",
+          "en": "Aquamari water bottle with filter"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67f3ea78c54fde6cc2004855",
+      "name": {
+        "zh": "隐秘的资助人",
+        "en": "Secret Benefactor"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67f3eaa3a7799274d50a8b66",
+      "name": {
+        "zh": "先发制人",
+        "en": "Preemptive Strike"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979d3da86f774719f309082.jpg",
+  "isKey": false
+}

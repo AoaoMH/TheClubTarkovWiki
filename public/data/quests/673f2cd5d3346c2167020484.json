@@ -1,0 +1,109 @@
+{
+  "id": "673f2cd5d3346c2167020484",
+  "name": {
+    "zh": "货运延误 - 2",
+    "en": "Shipping Delay - Part 2"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "Discover",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11500
+    },
+    {
+      "type": "Item",
+      "value": 84000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 84000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "66d98233302686954b0c6f81",
+      "itemName": {
+        "zh": "RSP-30 反应式信号弹（蓝色）",
+        "en": "RSP-30 reactive signal cartridge (Blue)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c12620d86f7743f8b198b72",
+      "itemName": {
+        "zh": "Tetriz便携式游戏机",
+        "en": "Tetriz portable game console"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "所以 Mechanic 派了你过来，是吗？可以，所以事情是这样的：我之前找了个地方当窝，里面车库、零部件什么的全都有，连放货的地方都齐了。结果突然冒出来一帮混混觉得他们能为所欲为，直接把整个地方洗劫一空！总有一天我得报这个仇，但在此之前，所有的送货订单都乱了套！ \n\n其中的顶头大事是 Prapor 那一单，他已经开始等得不耐烦了，那个货箱还在 Priozersk 保护区的伐木场附近。如果你真的打算帮我的话，先去那附近找到包裹，然后把它带给 Prapor。我能在路上捎你一程，但是我打死也不出 BTR。外面的世界麻烦实在太多了，有这层铁皮盖着我还安心点。",
+    "en": "So Mechanic sent you, huh? Cool. So I used to have a base, with a hangar, spare parts, cargo shipments even. Then some assholes thought they could just clean the place out! I'm gonna find those bastards. But while I'm at it, all the deliveries are messing up! \n\nThe most important one is a package for Prapor, he's really anxious for it, and the box is still at the depot near the sawmill in Priozersk. If you're down to help me, look for this package and deliver it to Prapor. I can give you a ride to the depot, but I ain't leaving the BTR. I don't like it outside, it's more comforting inside this armor."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Depo_Zone_1",
+      "targetNames": {
+        "Depo_Zone_1": {
+          "zh": "Depo_Zone_1",
+          "en": "Depo_Zone_1"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Depo_Zone_2",
+      "targetNames": {
+        "Depo_Zone_2": {
+          "zh": "Depo_Zone_2",
+          "en": "Depo_Zone_2"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Depo_Zone_3",
+      "targetNames": {
+        "Depo_Zone_3": {
+          "zh": "Depo_Zone_3",
+          "en": "Depo_Zone_3"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6752f6d83038f7df520c83e8",
+      "name": {
+        "zh": "一臂之力",
+        "en": "A Helping Hand"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/675b07caf85f28ef74022702.jpg",
+  "isKey": false
+}

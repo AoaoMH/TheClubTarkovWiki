@@ -1,0 +1,130 @@
+{
+  "id": "639135e0fa894f0a866afde6",
+  "name": {
+    "zh": "城市的解药",
+    "en": "Urban Medicine"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 51000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 51000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c10c8fd86f7743d7d706df3",
+      "itemName": {
+        "zh": "肾上腺素注射器",
+        "en": "Adrenaline injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e533786f7747fa23f4d47",
+      "itemName": {
+        "zh": "Zagustin止血剂",
+        "en": "Zagustin hemostatic drug injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，雇佣兵。医院现在每天都在接收越来越多的瘾君子。每天新增的人数都在增加，这是我所担心的一点。感觉就像是你帮一个人戒掉了毒瘾，然后马上就会出现两个新的病人。我们需要另辟蹊径，想办法治疗这些已经上瘾的人。我需要毒品的样本来完成分析。",
+    "en": "Greetings, mercenary. The hospital continues to receive more intoxicated patients. Each day there are more and more of them, and that worries me. It feels like if you destroy one drug den, two new ones appear. We should go another route, try to cure those who are already addicted. In order to do that, I need a sample of the drug for analysis."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c11_gmed",
+      "targetNames": {
+        "quest_zone_c11_gmed": {
+          "zh": "quest_zone_c11_gmed",
+          "en": "quest_zone_c11_gmed"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "63927b29c115f907b14700b9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "63927b29c115f907b14700b9": {
+          "zh": "装有样本的化学品容器",
+          "en": "Chemical container with samples"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "63927b29c115f907b14700b9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "63927b29c115f907b14700b9": {
+          "zh": "装有样本的化学品容器",
+          "en": "Chemical container with samples"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639135d89444fb141f4e6eea",
+      "name": {
+        "zh": "人口普查",
+        "en": "Population Census"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "64e7b971f9d6fa49d6769b44",
+      "name": {
+        "zh": "猎人之路 - 大动作",
+        "en": "The Huntsman Path - Big Game"
+      }
+    },
+    {
+      "id": "64f3176921045e77405d63b5",
+      "name": {
+        "zh": "再寻救护车",
+        "en": "Ambulances Again"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63ab063eb4313a7bac606703.jpg",
+  "isKey": false
+}

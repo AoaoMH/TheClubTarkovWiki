@@ -1,0 +1,148 @@
+{
+  "id": "5edac63b930f5454f51e128b",
+  "name": {
+    "zh": "TerraGroup 雇员",
+    "en": "TerraGroup Employee"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "5b0fc42d86f7744a585f9105",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 5000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 5000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5dcbd56fdbd3d91b3e5468d5",
+      "itemName": {
+        "zh": "沙漠科技 MDR 7.62x51 突击步枪",
+        "en": "Desert Tech MDR 7.62x51 assault rifle"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5a3501acc4a282000d72293a",
+      "itemName": {
+        "zh": "PMAG SR/LR GEN M3 20 7.62x51 20发",
+        "en": "AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装）",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ef1ba28c64c5d0dfc0571a5",
+      "itemName": {
+        "zh": "Mesa Tactical Crosshair Hydraulic 缓冲管",
+        "en": "Mesa Tactical Crosshair Hydraulic buffer tube"
+      }
+    }
+  ],
+  "description": {
+    "zh": "祝你有个好日子。因为今日真的很棒。我是对的，新的兴奋剂与 Terra集团 有关。Mechanic 发现了一点关于 Sanitar 的信息，对我们来说有点贵，但总比什么都没有好。Sanitar 曾为 TerraGroup 工作，他可不是普通员工，接受过医学教育，是个传染病专家，离过婚......就是这样。再给我弄点信息，我的朋友，我很感兴趣他从哪里得到这些资源。找到他的工作场所，再挖点信息出来。",
+    "en": "Good day to you, mercenary. Because the day is actually good. I was right, the new stimulants are connected to TerraGroup. Mechanic found information about Sanitar. Not too much, and it was very expensive for us, but it's better than nothing. Sanitar worked for TerraGroup, and not as an ordinary employee. Graduated in medicine, specialist in infectious diseases, divorced... Well, that's all the information we have on him. Give me more, my friend, I'm very interested in where he got access to such resources. Find his workplace and find out more."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "peace_027_area",
+      "targetNames": {
+        "peace_027_area": {
+          "zh": "peace_027_area",
+          "en": "peace_027_area"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5eff135be0d3331e9d282b7b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5eff135be0d3331e9d282b7b": {
+          "zh": "带有胶带记号的U盘",
+          "en": "Flash drive marked with blue tape"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5eff135be0d3331e9d282b7b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5eff135be0d3331e9d282b7b": {
+          "zh": "带有胶带记号的U盘",
+          "en": "Flash drive marked with blue tape"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5edac020218d181e29451446",
+      "name": {
+        "zh": "样品",
+        "en": "Samples"
+      }
+    },
+    {
+      "id": "5edac34d0bb72a50635c2bfa",
+      "name": {
+        "zh": "同事 - 3",
+        "en": "Colleagues - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d694c9086f77468c86a6ada.jpg",
+  "isKey": false
+}

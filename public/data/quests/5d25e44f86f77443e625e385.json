@@ -1,0 +1,103 @@
+{
+  "id": "5d25e44f86f77443e625e385",
+  "name": {
+    "zh": "猎人之路 - 蒸发密令",
+    "en": "The Huntsman Path - Eraser - Part 1"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 200000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 200000
+    },
+    {
+      "type": "Item",
+      "value": 5000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 5000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59fb023c86f7746d0d4b423c",
+      "itemName": {
+        "zh": "武器箱",
+        "en": "Weapon case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "请进，坐。这有个特别的任务要给你做。你知道海关北面的军事基地吗？一个特别的人把他自己关在了哪里，一个能做事的生意人，一个曾经的海军陆战队员。甚至在塔科夫的麻烦发生之前，他就发现了自己对犯罪行业的兴趣。他们曾把一切都控制了，保安，海关服务员，以及其他的一切。但是后来，大部分的帮派都逃跑了，但这个人没有......他召集了最亲近他的人，他曾经身边的士兵，他们在基地的某个地方驻守。他有仓库储备，不喜欢任何访客，他还在和外国做生意，真是混蛋。这必须被阻止，但这条路走起来可不容易。他的打手们可是训练有素的，所以得动动脑子，想办法干掉他们。",
+    "en": "Come on in, sit down, there is a special task for you. Do you know the military base south of customs? One character set up there, a former marine. Even before the trouble in Tarkov occurred, he found himself interested in the crime business. They got everything under control back then: the security, customs services, everything. Then most of the gang fled, but not him... He gathered the most loyal of his men, also former soldiers, and they dug in somewhere at the base. He fumbles with warehouse reserves and sells them abroad, that bastard. Doesn't like uninvited guests either. He must be stopped, but this one will not be an easy walk. His fighters are well-trained, so think with your head how to deal with them."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossGluhar"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "608a768d82e40b3c727fd17d",
+      "name": {
+        "zh": "害虫防治",
+        "en": "Pest Control"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5d25e45e86f77408251c4bfa",
+      "name": {
+        "zh": "猎人之路 - 蒸发密令 - 2",
+        "en": "The Huntsman Path - Eraser - Part 2"
+      }
+    },
+    {
+      "id": "60e71e8ed54b755a3b53eb67",
+      "name": {
+        "zh": "猎人之路 - 无情杀手",
+        "en": "The Huntsman Path - Relentless"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d6947c686f77452ac614b4b.jpg",
+  "isKey": false
+}

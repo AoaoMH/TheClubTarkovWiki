@@ -1,0 +1,179 @@
+{
+  "id": "5ac3475486f7741d6224abd3",
+  "name": {
+    "zh": "不良嗜好",
+    "en": "Bad Habit"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 300,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 300
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b1fa9b25acfc40018633c01",
+      "itemName": {
+        "zh": "GLOCK 18C 9x19 冲锋手枪",
+        "en": "Glock 18C 9x19 machine pistol"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "657025961419851aef03e721",
+      "itemName": {
+        "zh": "50发9x19 绿色曳光弹弹药包",
+        "en": "9x19mm Green Tracer ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "62a0a043cf4a99369e2624a5",
+      "itemName": {
+        "zh": "OLOLO瓶装复合维生素",
+        "en": "Bottle of OLOLO Multivitamins"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嗨，进来聊聊。我今天需要把线路布置好，还得按计划储备大量的电力，尤其是还要考虑到电网的持续负荷。但这不是现在的问题，给我找些烟来，我需要在不分心的情况下努力工作直至结束。我知道，吸烟在折我的寿，但是谁会在乎呢。总之，给我20包烟，最好是不同种类的。哦对了，一定要是没拆封的那种，所以你得自己找，不要去找别人买。我等着你回来。",
+    "en": "Hello, come here a minute. I need to lay the wiring today, and plan for high power capacity, especially considering the continuous load on the grid. But that’s not the issue now, bring me some cigarettes. I want to work it hard until it’s done, and don't want to get distracted with searching. I know, smoking’s going to kill me. But is it really important though? Well, anyway, I need around 20 packs, preferably different ones. Oh, and make sure you get the new sealed ones, so look for them yourself. Was good seeing you."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "573476d324597737da2adc13"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "573476d324597737da2adc13": {
+          "zh": "马宝路香烟",
+          "en": "Malboro Cigarettes"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "573476d324597737da2adc13"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "573476d324597737da2adc13": {
+          "zh": "马宝路香烟",
+          "en": "Malboro Cigarettes"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "5734770f24597738025ee254"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5734770f24597738025ee254": {
+          "zh": "无彩香烟",
+          "en": "Strike Cigarettes"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5734770f24597738025ee254"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5734770f24597738025ee254": {
+          "zh": "无彩香烟",
+          "en": "Strike Cigarettes"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "573476f124597737e04bf328"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "573476f124597737e04bf328": {
+          "zh": "云尔斯顿香烟",
+          "en": "Wilston cigarettes"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "573476f124597737e04bf328"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "573476f124597737e04bf328": {
+          "zh": "云尔斯顿香烟",
+          "en": "Wilston cigarettes"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3460c86f7742880308185",
+      "name": {
+        "zh": "挖矿 - 2",
+        "en": "Farming - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4d9aa86f7744784484abf.jpg",
+  "isKey": false
+}

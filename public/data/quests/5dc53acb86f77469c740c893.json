@@ -1,0 +1,61 @@
+{
+  "id": "5dc53acb86f77469c740c893",
+  "name": {
+    "zh": "那个时髦的人",
+    "en": "The Stylish One"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Elimination",
+  "location": "5714dbc024597771384a510d",
+  "rewards": [
+    {
+      "type": "Skill",
+      "target": "Charisma",
+      "value": 100
+    }
+  ],
+  "description": {
+    "zh": "好吧，现在有这么个事。我们的超级市场里有位时髦的混蛋潜伏在周围，清空补给并当场枪杀所有他发现的人。所以我需要你去把他一劳永逸的处理掉。外面的人都很害怕他，他的特征周围人轻轻松松就能认出来。我就这么跟你说吧，你要是能搞定他，我就给你搞一套又好又牛皮的衣服，想怎么穿就怎么穿。记得提高警惕，这家伙危险得很。",
+    "en": "So there's this dandy asshole in Ultra mall. Lurking around, cleaning the supplies, gunning everyone down right on spot. Folks out there are hella scared of him. I tell you what, you punish him properly, and I will get you a nice stylish jacket just like his one so you could give it a proper use. Could cosplay as him and shit. Just be careful, the dude is hella dangerous."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 50,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKilla"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae4498786f7744bde357695",
+      "name": {
+        "zh": "成功的关键",
+        "en": "The Key to Success"
+      }
+    },
+    {
+      "id": "5d25e2e286f77444001e2e48",
+      "name": {
+        "zh": "猎人之路 - 脱销",
+        "en": "The Huntsman Path - Sellout"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+  "isKey": false
+}

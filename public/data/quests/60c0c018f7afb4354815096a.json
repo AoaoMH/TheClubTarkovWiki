@@ -1,0 +1,141 @@
+{
+  "id": "60c0c018f7afb4354815096a",
+  "name": {
+    "zh": "猎人之路 - 工厂头目",
+    "en": "The Huntsman Path - Factory Chief"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 700000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 700000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5448ba0b4bdc2d02308b456c",
+      "itemName": {
+        "zh": "工厂出口钥匙",
+        "en": "Factory emergency exit key"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "别来无恙啊，猎人。旧化工厂现在有了新的威胁。这里来了个新的疯子，掠夺者们叫他Tagilla。根据有关他的消息，我之前在那里工作时应该还认识过他。Tagilla在化工厂里上班，总是效仿自己的哥哥，还企图在各方各面上超过他。据说他还抄袭了哥哥的头盔创意，找了些专家定做防弹面罩。不过，很显然，子弹已经把他的脑子打烂掉了，现在他拿着一把大锤在工厂里乱跑，不分青红皂白地送所有人上西天。做件好事儿，帮他一劳永逸地脱离苦海吧。我们的地盘可容不下他这样的人。猎人，你应该明白要怎么做了。作为证明，我要见到他的棒球帽。",
+    "en": "Good day to you. There's a special task for you today. A new individual dug in the old chemical plant, the one TerraGroup used for their shady business, locals call this man Tagilla. Either breathed in some chemicals or got hit in the head - the fellow went completely off the rails. Murdering both his own people and the others. He uses a sledgehammer, and he's good with it, even a professional shooter would begrudge him. He's finished many people in that factory's corridors. Scavs respect him and don't get in his way. There's no place for such as him on this earth... You know what to do, hunter."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossTagilla",
+        "followerTagilla"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "60a7acf20c5cb24b01346648",
+        "675aae1c26dc64e17800fee6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "60a7acf20c5cb24b01346648": {
+          "zh": "BOSS鸭舌帽",
+          "en": "BOSS cap"
+        },
+        "675aae1c26dc64e17800fee6": {
+          "zh": "鹿角帽",
+          "en": "Hat with horns"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "60a7acf20c5cb24b01346648",
+        "675aae1c26dc64e17800fee6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "60a7acf20c5cb24b01346648": {
+          "zh": "BOSS鸭舌帽",
+          "en": "BOSS cap"
+        },
+        "675aae1c26dc64e17800fee6": {
+          "zh": "鹿角帽",
+          "en": "Hat with horns"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2cc86f77443e47ae019",
+      "name": {
+        "zh": "猎人之路 - 杀戮森林",
+        "en": "The Huntsman Path - Forest Cleaning"
+      }
+    },
+    {
+      "id": "5ac3477486f7741d651d6885",
+      "name": {
+        "zh": "侦查",
+        "en": "Scout"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "60e71e8ed54b755a3b53eb67",
+      "name": {
+        "zh": "猎人之路 - 无情杀手",
+        "en": "The Huntsman Path - Relentless"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60cb3814f09d61072d6cf211.jpg",
+  "isKey": false
+}

@@ -1,0 +1,170 @@
+{
+  "id": "5967530a86f77462ba22226b",
+  "name": {
+    "zh": "罪证",
+    "en": "Bad Rep Evidence"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57f3c6bd24597738e730fa2f",
+      "itemName": {
+        "zh": "PP-91-01 Kedr-B 9x18PM冲锋枪",
+        "en": "PP-91-01 Kedr-B 9x18PM submachine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "57d1519e24597714373db79d",
+      "itemName": {
+        "zh": "PP-91 9x18PM 30发标准弹匣",
+        "en": "PP-91 Kedr 9x18PM 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65702621cfc010a0f5006a44",
+      "itemName": {
+        "zh": "50发9x18 PM PS gs PPO盒装弹药",
+        "en": "9x18mm PM PS gs PPO ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "576fd4ec2459777f0b518431",
+      "itemName": {
+        "zh": "Zenit-Belomo PSO 1M2-1 4x24瞄准镜",
+        "en": "BelOMO PSO-1M2-1 4x24 scope"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5aa7d193e5b5b000171d063f",
+      "itemName": {
+        "zh": "SSSh-94 SFERA-S 头盔",
+        "en": "SSSh-94 SFERA-S helmet"
+      }
+    }
+  ],
+  "description": {
+    "zh": "别来无恙，我亲爱的同志，来借一步说话，如果你有兴趣的话我这有件活儿给你整。我正在为找一个东西而绞尽脑汁，长话短说，有个在他妈的Polikim干活的工头搞到了一批非常重要的文件。你也知道，多少人都在为Terra集团和它们同党的相关罪证而疯狂火拼。之后的展开你也猜到了，但是那些试图把东西搞到手的人又蠢又猴急，工头还没来得及开口就被他们弄死了。你能想象吗？太不专业太没水平了！跟这些智障真是没法做生意。好了，回到主题。工头把那些文件藏在了某个地方，我已经把他周围的人都盘问个遍。总的来说，恐怕是找不到了，但是运气这事儿谁又说得准呢？一句话，这工头之前是在化学车间干活的。看看，真是屎上添屎。在工厂厂区的某个地方肯定有供他和他的狐朋狗友藏身的地儿。他们在里面吃喝拉撒，没准还会喊几个婊子进去嗨翻天。我估摸着我要的东西就在那儿。如果这还找不到，那我也没辙了。",
+    "en": "Good day to you, warrior. Step inside. There’s a job to do if you’re interested. Need to find one piece of crap, and I’m at my wits’ end how. Briefly - one of the foremen who worked on that fucking Polikhim has just in time laid his hands on some pretty important documents. You know, of course, how hard is everyone still gunning for any evidence on TerraGroup and its associates? Exactly. But the folks who tried to get the info out of that foreman happened to be more edgy than smart. The dude’s ticker stopped ticking before his tongue started wagging. Can you imagine? What dimwits! How do you do business with the likes of them? Okay, back to the point. So he grabbed the docs and stashed them somewhere. Asked around a bit, those who worked with him before. In general, chances don’t look too good, but who knows how lucky you can get? In a word, that foreman worked in the chemo shop. The shitmost shit, see. And somewhere on the Customs premises he and his homies had their bunkhouses. Eating there, chilling, most certainly inviting girl over, well, you get it. I figure it’s holed up there somewhere, most likely. If it’s not there, then we won’t find crap at all. So, I want you to search the shacks on Customs and bring me these documents. I think it's best to search for the locked ones."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "locked_office",
+      "targetNames": {
+        "locked_office": {
+          "zh": "locked_office",
+          "en": "locked_office"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5938144586f77473c2087145"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5938144586f77473c2087145": {
+          "zh": "海关工厂区简易工棚钥匙",
+          "en": "Portable bunkhouse key"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5938188786f77474f723e87f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5938188786f77474f723e87f": {
+          "zh": "0031号保险文件夹",
+          "en": "Secure Folder 0031"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5938188786f77474f723e87f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5938188786f77474f723e87f": {
+          "zh": "0031号保险文件夹",
+          "en": "Secure Folder 0031"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "bigmap"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59c124d686f774189b3c843f",
+      "name": {
+        "zh": "石油存储",
+        "en": "BP Depot"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "59675d6c86f7740a842fc482",
+      "name": {
+        "zh": "蛋卷冰淇淋",
+        "en": "Ice Cream Cones"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/596a108786f7741ddc2d31b1.jpg",
+  "isKey": false
+}

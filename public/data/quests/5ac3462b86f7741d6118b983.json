@@ -1,0 +1,127 @@
+{
+  "id": "5ac3462b86f7741d6118b983",
+  "name": {
+    "zh": "挖矿 - 3",
+    "en": "Farming - Part 3"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 20000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 20000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c052fb986f7746b2101e909",
+      "itemName": {
+        "zh": "UHF RFID固定式读取器 ",
+        "en": "UHF RFID Reader"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "在冲突发生之前，我经常在网上订购东西。以前都是定期送来的，我甚至还用零件组装过一架无人机。我最后的订单是四套电脑配件，只有两件进了城，但被堵在了海关那边的某个地方。现在，如你所见，这些东西现在会非常有用。去海关搜查一下罚没货物仓库，在混乱中，他们可能把货丢在那里了。",
+    "en": "Before the conflict, I frequently ordered stuff online. Used to come regularly, I even put together a drone from parts once. The last order was 4 sets of computer components. Only 2 have made it to the city, and those are stuck somewhere in the Customs area. Now, as you can perceive, they would really come in handy. Try to search the seized goods warehouse, it's a big red hangar building. There was a big confusion there, so the cargo could still be there."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_SADOVOD_03",
+      "targetNames": {
+        "place_SADOVOD_03": {
+          "zh": "place_SADOVOD_03",
+          "en": "place_SADOVOD_03"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ac620eb86f7743a8e6e0da0"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ac620eb86f7743a8e6e0da0": {
+          "zh": "显卡包裹",
+          "en": "Package of graphics cards"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ac620eb86f7743a8e6e0da0"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ac620eb86f7743a8e6e0da0": {
+          "zh": "显卡包裹",
+          "en": "Package of graphics cards"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3460c86f7742880308185",
+      "name": {
+        "zh": "挖矿 - 2",
+        "en": "Farming - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ac3464c86f7741d651d6877",
+      "name": {
+        "zh": "挖矿 - 4",
+        "en": "Farming - Part 4"
+      }
+    },
+    {
+      "id": "5c0bde0986f77479cf22c2f8",
+      "name": {
+        "zh": "天神射手",
+        "en": "A Shooter Born in Heaven"
+      }
+    },
+    {
+      "id": "6179b3bdc7560e13d23eeb8d",
+      "name": {
+        "zh": "商业机密",
+        "en": "Corporate Secrets"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4db0986f77442000164dd.jpg",
+  "isKey": false
+}

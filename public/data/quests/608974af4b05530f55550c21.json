@@ -1,0 +1,153 @@
+{
+  "id": "608974af4b05530f55550c21",
+  "name": {
+    "zh": "清点库存",
+    "en": "Inventory Check"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Exploration",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aa7e454e5b5b0214e506fa2",
+      "itemName": {
+        "zh": "ZSh-1-2M头盔",
+        "en": "ZSh-1-2M helmet (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "545cdae64bdc2d39198b4568",
+      "itemName": {
+        "zh": "Camelbak Tri-Zip背包",
+        "en": "Camelbak Tri-Zip assault backpack (Foliage)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66b5f22b78bbc0200425f904",
+      "itemName": {
+        "zh": "Camelbak Tri-Zip背包（多地形迷彩）",
+        "en": "Camelbak Tri-Zip assault backpack (MultiCam)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "别来无恙啊，老兄！快请进！我给你揽了个活儿。储备站里有好几个军营，而且每个军营里通常都会有军械库和储藏室。我想知道那里还有没有东西留下，还是说已经被搬空了。要不要去那边溜达溜达，顺便帮我看看？我这有一个清单，上面有可能留有物资的地方，去这些地方找找。",
+    "en": "Salam, brother! Come in! Got a task for you. The reserve base's got several soldier barracks, and usually, they're supposed to have an arsenal and a storage room in them. I wanna know if there's anything left there so I could gather a group for it, or if everything's already looted. Wanna stroll there and check it out? Need to search some specific places, I've even got a list of where there could still be unlooted stuff."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "baraholshik_arsenal_area_1",
+      "targetNames": {
+        "baraholshik_arsenal_area_1": {
+          "zh": "baraholshik_arsenal_area_1",
+          "en": "baraholshik_arsenal_area_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "baraholshik_dejurniy_area_2",
+      "targetNames": {
+        "baraholshik_dejurniy_area_2": {
+          "zh": "baraholshik_dejurniy_area_2",
+          "en": "baraholshik_dejurniy_area_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "baraholshik_arsenal_area_3",
+      "targetNames": {
+        "baraholshik_arsenal_area_3": {
+          "zh": "baraholshik_arsenal_area_3",
+          "en": "baraholshik_arsenal_area_3"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "baraholshik_arsenal_area_4",
+      "targetNames": {
+        "baraholshik_arsenal_area_4": {
+          "zh": "baraholshik_arsenal_area_4",
+          "en": "baraholshik_arsenal_area_4"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "baraholshik_arsenal_area_5",
+      "targetNames": {
+        "baraholshik_arsenal_area_5": {
+          "zh": "baraholshik_arsenal_area_5",
+          "en": "baraholshik_arsenal_area_5"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "RezervBase"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "608974d01a66564e74191fc0",
+      "name": {
+        "zh": "雪中送炭",
+        "en": "A Fuel Matter"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c37416898b57521260e12a.jpg",
+  "isKey": false
+}

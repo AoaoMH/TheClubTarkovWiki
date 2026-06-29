@@ -1,0 +1,101 @@
+{
+  "id": "6391d90f4ed9512be67647df",
+  "name": {
+    "zh": "破镜重圆",
+    "en": "Make Amends"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Multi",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "TraderStandingRestore",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0
+    }
+  ],
+  "description": {
+    "zh": "Lightkeeper说他已经准备好接待你了。但是旧的那个U盘已经失效了，你需要去找一个新的，然后重置一下信号发射器，再把它交给我。我会正确地更新它。",
+    "en": "Lightkeeper said he's ready to accept you in again. But the old flash drive doesn't work anymore, so you'll have to find a new one, reflash the transmitter, and give it to me. I'll update your transmitter properly."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6331bb0d1aa9f42b804997a6"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6331bb0d1aa9f42b804997a6": {
+          "zh": "V3加密U盘",
+          "en": "Secure Flash drive V3"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "62e910aaf957f2915e0a5e36"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "62e910aaf957f2915e0a5e36": {
+          "zh": "Digital secure DSP无线电收发器",
+          "en": "Digital secure DSP radio transmitter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6331bb0d1aa9f42b804997a6"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6331bb0d1aa9f42b804997a6": {
+          "zh": "V3加密U盘",
+          "en": "Secure Flash drive V3"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "meh_50_visit_area_check_1",
+      "targetNames": {
+        "meh_50_visit_area_check_1": {
+          "zh": "meh_50_visit_area_check_1",
+          "en": "meh_50_visit_area_check_1"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6261482fa4eb80027c4f2e11",
+      "name": {
+        "zh": "破镜重圆 - 装备",
+        "en": "Make Amends - Equipment"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5ac4dbb086f7743e7c61ca09.jpg",
+  "isKey": false
+}

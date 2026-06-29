@@ -1,0 +1,191 @@
+{
+  "id": "60896b7bfa70fc097863b8f5",
+  "name": {
+    "zh": "多鱼之漏",
+    "en": "Documents"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 45000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a7c74b3e899ef0014332c29",
+      "itemName": {
+        "zh": "NSPU-M 3.5 倍 燕尾槽夜视瞄准镜",
+        "en": "NSPU-M 3.5x dovetail night vision scope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "560d657b4bdc2da74d8b4572",
+      "itemName": {
+        "zh": "Zenit 2P Klesch 手电激光指示器",
+        "en": "Zenit Klesch-2P flashlight with laser"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0d63621526d8dba31fe3bf",
+      "itemName": {
+        "zh": "AKM PBS-1 7.62x39消音器",
+        "en": "AKM PBS-1 7.62x39 sound suppressor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "CustomizationDirect"
+    }
+  ],
+  "description": {
+    "zh": "你好啊，勇士。我这有个新活儿，不过你得再去一次储备站，你之前干翻掠夺者的地方。很显然你之前的收获还不够丰富，因为掠夺者们深入了地堡，不让任何人接近。然而，我还是对那个地方有强烈的好奇心。有可靠的消息说，那里有一些机密文件。不过信息全部被加密了，我想掠夺者们不会对它们感兴趣。帮我找到这些文件，我的忠实客户需要它们。",
+    "en": "Hey there, fighter. There's a new task, but you'll have to go to the same place you whacked those Raiders on the state reserve base. Your previous efforts weren't fruitful enough, apparently: the Raiders dug in deep in that bunker, not letting anyone near it. However, I still do have quite an interest in that place. There's a piece of information from trusted sources that there are some classified documents there in the offices. The info is encrypted, so Raiders don't really care about it. Find me those documents, I've got serious clients for them."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "60915994c49cf53e4772cc38"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60915994c49cf53e4772cc38": {
+          "zh": "军事机密#1",
+          "en": "Military documents #1"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "60a3b6359c427533db36cf84"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60a3b6359c427533db36cf84": {
+          "zh": "军事机密#2",
+          "en": "Military documents #2"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "60a3b65c27adf161da7b6e14"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60a3b65c27adf161da7b6e14": {
+          "zh": "军事机密#3",
+          "en": "Military documents #3"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "60915994c49cf53e4772cc38"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60915994c49cf53e4772cc38": {
+          "zh": "军事机密#1",
+          "en": "Military documents #1"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "60a3b6359c427533db36cf84"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60a3b6359c427533db36cf84": {
+          "zh": "军事机密#2",
+          "en": "Military documents #2"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "60a3b65c27adf161da7b6e14"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60a3b65c27adf161da7b6e14": {
+          "zh": "军事机密#3",
+          "en": "Military documents #3"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "60896bca6ee58f38c417d4f2",
+      "name": {
+        "zh": "叛无所依",
+        "en": "No Place for Renegades"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "66ab970848ddbe9d4a0c49a8",
+      "name": {
+        "zh": "特别联络",
+        "en": "Special Comms"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c37700869a2f761e41b35b.jpg",
+  "isKey": false
+}

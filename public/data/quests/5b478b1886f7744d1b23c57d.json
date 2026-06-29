@@ -1,0 +1,128 @@
+{
+  "id": "5b478b1886f7744d1b23c57d",
+  "name": {
+    "zh": "火线速递",
+    "en": "Hot Delivery"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5714dbc024597771384a510d",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 20300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 55000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 55000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b44cd8b86f774503d30cba2",
+      "itemName": {
+        "zh": "IOTV Gen4 防弹衣（全面防护型，复合迷彩）",
+        "en": "IOTV Gen4 body armor (Full Protection Kit, MultiCam)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e774286f77468413cc5b2",
+      "itemName": {
+        "zh": "Mystery Ranch Blackjack 50背包（组合迷彩）",
+        "en": "Mystery Ranch Blackjack 50 backpack (MultiCam)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿。我的工作一直都是充满了风险的，你能安全地来见我真是太好了。但并不是我所有的客户都能承受得起高端服务的代价，有个被人发现时已经躺在加油站的血泊中了。看来很多主顾都被监视着，这些下手的杂碎知道他们都是大款。因此，我的客户不希望在公开场合出现，免得招来不必要的关注。但这不应该妨碍做生意，对吧？如果没人来跟我提货，那就让我们自己送上门。先完成第一笔订单，把给Proper伙计们的货藏到立交桥区去。你需要准备头盔和耳机，藏到Avokado的某个地方。至于这件最精致的Gzhel护甲，就把他们埋在立交桥区的舞台附近的垃圾堆里。",
+    "en": "Hey, I have a task for you. Not complicated, everything's gonna go smooth, don't worry. My business is quite dangerous, as you have probably understood already. You, friend, are a good fighter, that's why you can safely come to visit me whenever you want, but not all my clients can afford such luxury: one was already found in a pool of blood at the gas station, for example. It appears that many are being watched, motherfuckers know they have thick wads. So clients don't want to drop by in the open, attracting more undesired attention. But that doesn't really hinder the business: If people do not come for goods, goods come to people, ha-ha. Help a brother out, get the required items and stash them for proper folks to pick up on Interchange. They need two sets of helmets and headwear (6B47 and Peltor ComTac 2) stashed in a trash pile in the Avokado store - you've already been there, you know the place, and they also need two grey Gzhel body armors, stash them in the garbage heap near the stage on the outside, it's near the Ultra main entrance. I'll make it up to you, believe me."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "5645bcc04bdc2d363b8b4572"
+      ],
+      "targetNames": {
+        "5645bcc04bdc2d363b8b4572": {
+          "zh": "Peltor ComTac 2 耳机（橄榄绿）",
+          "en": "Peltor ComTac II headset (OD Green)"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "5a7c4850e899ef00150be885"
+      ],
+      "targetNames": {
+        "5a7c4850e899ef00150be885": {
+          "zh": "6B47 Ratnik-BSh 头盔（橄榄绿）",
+          "en": "6B47 Ratnik-BSh helmet (Olive Drab)"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "5ab8e79e86f7742d8b372e78"
+      ],
+      "targetNames": {
+        "5ab8e79e86f7742d8b372e78": {
+          "zh": "BNTI Gzhel-K 防弹衣",
+          "en": "BNTI Gzhel-K body armor"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae449b386f77446d8741719",
+      "name": {
+        "zh": "感恩的心",
+        "en": "Gratitude"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c112d7e86f7740d6f647486",
+      "name": {
+        "zh": "垃圾佬",
+        "en": "Scavenger"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

@@ -1,0 +1,129 @@
+{
+  "id": "66aba85403e0ee3101042877",
+  "name": {
+    "zh": "街区之下",
+    "en": "Beneath The Streets"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Discover",
+  "location": "marathon",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 46700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 165000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 165000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aafbcd986f7745e590fff23",
+      "itemName": {
+        "zh": "医疗物品箱",
+        "en": "Medicine case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "下午好。我接到情报，街区的地下有一处可以前往实验室的废弃秘密通道。\n\n很显然，TerraGroup将一处旧的防空洞改成了实验室的应急出口。这让我们有了以最小风险取得那些宝贵物资的机遇！\n\n然而，我没法在尚未探明的情况下，派手下们去那里，毕竟实验室还是太过危险。最好有一位经验丰富的专业人士，去检查一下那条通道是否畅通，通往的区域是否安全。你会帮我们的吧？",
+    "en": "Good afternoon. I have received information that somewhere under the city there is an abandoned entrance to the Laboratory. \n\nApparently, TerraGroup has converted one of the old bomb shelters into an emergency exit from their lab. This presents us with a unique opportunity to acquire all the precious equipment we need with minimal risk! \n\nHowever, I cannot send my people out without reconnaissance, it would be too dangerous. It's better to have someone experienced check this passage first and make sure the areas of interest are secure. Will you help us?"
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Labs_transits",
+      "targetNames": {
+        "Labs_transits": {
+          "zh": "Labs_transits",
+          "en": "Labs_transits"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Server_room",
+      "targetNames": {
+        "Server_room": {
+          "zh": "Server_room",
+          "en": "Server_room"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Dome",
+      "targetNames": {
+        "Dome": {
+          "zh": "Dome",
+          "en": "Dome"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Control_room",
+      "targetNames": {
+        "Control_room": {
+          "zh": "Control_room",
+          "en": "Control_room"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Transits_streets",
+      "targetNames": {
+        "Transits_streets": {
+          "zh": "Transits_streets",
+          "en": "Transits_streets"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6573387d0b26ed4fde798de3",
+      "name": {
+        "zh": "兽医也是医 - 2",
+        "en": "Pets Won't Need It - Part 2"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5d694c9086f77468c86a6ada.jpg",
+  "isKey": false
+}

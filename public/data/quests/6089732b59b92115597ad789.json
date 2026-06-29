@@ -1,0 +1,111 @@
+{
+  "id": "6089732b59b92115597ad789",
+  "name": {
+    "zh": "物尽其用",
+    "en": "Surplus Goods"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 40000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 40000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590a3d9c86f774385926e510",
+      "itemName": {
+        "zh": "紫外线灯泡",
+        "en": "Ultraviolet lamp"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590a3cd386f77436f20848cb",
+      "itemName": {
+        "zh": "节能灯泡",
+        "en": "Energy-saving lamp"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好。我准备做一些军用电子元件的交易，这活儿来钱快，同时我还有些客户。而且，你知道的，军队拥有最安全的通讯方式：数字加密系统、GPS、格洛纳斯以及各种其他的玩意儿。总而言之，我得到的消息说储备站里有一些设备，经常能在车间里找到。我觉得这是用来制造某种机械的控制导航模块。我要你找到这个模块，然后带给我。我挺想弄明白里面到底是什么。会给你报酬的。",
+    "en": "Hello. I've decided to get involved with military electronics, it's quite a promising business, and I've got interested people for that. And the army, as you know, has the most secure communication: digital encryptions, GPS, GLONASS and all kinds of other things. So anyway, I've got info about some device on Reserve, usually seen in workshops in the service and repair centers, I think it's used in machinery, it's some kind of control and navigation block. I want you to find this block and bring it to me. Would be interesting to see what it has inside of it. I'll reward you of course."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "60c080eb991ac167ad1c3ad4"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60c080eb991ac167ad1c3ad4": {
+          "zh": "MBT导航模块",
+          "en": "MBT Integrated Navigation System"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "60c080eb991ac167ad1c3ad4"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60c080eb991ac167ad1c3ad4": {
+          "zh": "MBT导航模块",
+          "en": "MBT Integrated Navigation System"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6089736efa70fc097863b8f6",
+      "name": {
+        "zh": "后门",
+        "en": "Back Door"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c3752d78280c17952e1e69.jpg",
+  "isKey": false
+}

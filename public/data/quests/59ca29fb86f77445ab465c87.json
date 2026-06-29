@@ -1,0 +1,250 @@
+{
+  "id": "59ca29fb86f77445ab465c87",
+  "name": {
+    "zh": "惩罚者 - 5",
+    "en": "The Punisher - Part 5"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 5000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 5000
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "64acea16c4eda9354b0226b0",
+      "itemName": {
+        "zh": "7.62x39mm BP gzh弹药包（20发装）",
+        "en": "7.62x39mm BP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "567143bf4bdc2d1a0f8b4567",
+      "itemName": {
+        "zh": "手枪收纳箱",
+        "en": "Pistol case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c60fc86f77412b13fddcf",
+      "itemName": {
+        "zh": "文件包",
+        "en": "Documents case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "\"我的那些朋友们开始自称大佬了，他们又有新动作，现在他们要给角斗士项目再整点花样。实话说，我对这些事情不太上心，因为我不喜欢他们把各地搞得一团糟。所以啊，你来找他们需要的东西，再交给我，我会替你转交。啊，这里还有件事，大佬们需要你做事时表明一下自己的立场，给塔科夫的郊区整点动静出来。不仅如此，还得穿上PACA防弹衣，戴着6B47头盔。我不明白为什么他们要搞这种化妆舞会，但这群鬼鬼祟祟的人喜欢搞这种特别的装扮肯定别有目的。\n",
+    "en": "Masters - as my friends started calling themselves - are moving forward. Now they need the stuff for developing this whole gladiator thing further. Honestly, I’m not too hot on all these moves - I don't like how this keeps spreading chaos. So come on - find everything they need and just hand it over to me, I’ll pass it on to them on your behalf. Well, here's another thing, as proof that you didn't just find it somewhere, the Masters want you to make some noise on the Tarkov outskirts. And not however you like, but dressed in a PACA vest and 6B47 helmet. I do not understand why they need all this masquerade... These people are very shady, but I guess they have their reasons for your appearance."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5644bd2b4bdc2d3b4c8b4572",
+        "5ac4cd105acfc40016339859",
+        "5ab8e9fcd8ce870019439434",
+        "5bf3e03b0db834001d2c4a9c",
+        "5bf3e0490db83400196199af"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5644bd2b4bdc2d3b4c8b4572": {
+          "zh": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74N 5.45x39 assault rifle"
+        },
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        },
+        "5ab8e9fcd8ce870019439434": {
+          "zh": "AKS-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74N 5.45x39 assault rifle"
+        },
+        "5bf3e03b0db834001d2c4a9c": {
+          "zh": "AK-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74 5.45x39 assault rifle"
+        },
+        "5bf3e0490db83400196199af": {
+          "zh": "AKS-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74 5.45x39 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5644bd2b4bdc2d3b4c8b4572",
+        "5bf3e03b0db834001d2c4a9c",
+        "5ac4cd105acfc40016339859",
+        "5ab8e9fcd8ce870019439434",
+        "5bf3e0490db83400196199af"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5644bd2b4bdc2d3b4c8b4572": {
+          "zh": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74N 5.45x39 assault rifle"
+        },
+        "5bf3e03b0db834001d2c4a9c": {
+          "zh": "AK-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74 5.45x39 assault rifle"
+        },
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        },
+        "5ab8e9fcd8ce870019439434": {
+          "zh": "AKS-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74N 5.45x39 assault rifle"
+        },
+        "5bf3e0490db83400196199af": {
+          "zh": "AKS-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74 5.45x39 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5447a9cd4bdc2dbd208b4567"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5447a9cd4bdc2dbd208b4567"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "5448bd6b4bdc2dfc2f8b4569",
+        "579204f224597773d619e051"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5448bd6b4bdc2dfc2f8b4569": {
+          "zh": "马卡洛夫9x18PM 手枪",
+          "en": "Makarov PM 9x18PM pistol"
+        },
+        "579204f224597773d619e051": {
+          "zh": "马卡洛夫 PM(t) 9x18PM 手枪",
+          "en": "Makarov PM (t) 9x18PM pistol"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5448bd6b4bdc2dfc2f8b4569",
+        "579204f224597773d619e051"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5448bd6b4bdc2dfc2f8b4569": {
+          "zh": "马卡洛夫9x18PM 手枪",
+          "en": "Makarov PM 9x18PM pistol"
+        },
+        "579204f224597773d619e051": {
+          "zh": "马卡洛夫 PM(t) 9x18PM 手枪",
+          "en": "Makarov PM (t) 9x18PM pistol"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 10,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59ca264786f77445a80ed044",
+      "name": {
+        "zh": "惩罚者 - 4",
+        "en": "The Punisher - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "59ca2eb686f77445a80ed049",
+      "name": {
+        "zh": "惩罚者 - 6",
+        "en": "The Punisher - Part 6"
+      }
+    },
+    {
+      "id": "6179b5b06e9dd54ac275e409",
+      "name": {
+        "zh": "占山为王",
+        "en": "Our Own Land"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59ca2e4186f77445e4732b22.jpg",
+  "isKey": false
+}

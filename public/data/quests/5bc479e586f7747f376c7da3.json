@@ -1,0 +1,113 @@
+{
+  "id": "5bc479e586f7747f376c7da3",
+  "name": {
+    "zh": "塔科夫神射手 - 2",
+    "en": "The Tarkov Shooter - Part 2"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 65000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 65000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bc5a372d4351e44f824d17f",
+      "itemName": {
+        "zh": "Aim Sports莫辛步枪MNG导轨",
+        "en": "Mosin Rifle AIM Sports MNG rail mount"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6034cf5fffd42c541047f72e",
+      "itemName": {
+        "zh": "Umka М33-SET1 猎人背心",
+        "en": "Umka M33-SET1 hunter vest (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bc5a372d4351e44f824d17f",
+      "itemName": {
+        "zh": "Aim Sports莫辛步枪MNG导轨",
+        "en": "Mosin Rifle AIM Sports MNG rail mount"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我的一个朋友——他叫沙贝尔斯基，他过去常常写关于战争的故事，甚至我都时常读他的书。最近他把自己书的版权全卖了，他们拿着版权在西方拍了一部电影。但是现在他想从电影公司得到更多的钱，显然，他现在有些进退维谷。他甚至给我发消息要我帮他从塔科夫里找一些像样的战士。看起来全世界都遗忘了我们的城市……只有当他们需要雇佣枪手时才能想起我们，然后当一切都变好的时候他们又会忽视我们的处境。你准备好接受神枪手先生的第二个考验了吗？在40米开外命中目标的头部和腿部。",
+    "en": "My friend, Shabelsky was his last name, used to write stories about the war. Even I had a fun time reading them sometimes. So recently he sold the rights to the entire series of books, and they made a movie after them in the West. But now he wants more money from the movie company, he hit the hard times, apparently. Even messaged me to look up some decent fighters here in Tarkov. It seems the whole world has forgotten about our city... They only remember us when they need a hired gun, and while things are going good they prefer to not notice our situation at all. Anyway, I digress. Are you ready for the second task from Sniper? You have to shoot at heads and legs from the same distance, 40 meters."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Shots",
+      "value": 3,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Shots",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5bc4776586f774512d07cf05",
+      "name": {
+        "zh": "塔科夫神射手 - 1",
+        "en": "The Tarkov Shooter - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5bc47dbf86f7741ee74e93b9",
+      "name": {
+        "zh": "塔科夫神射手 - 3",
+        "en": "The Tarkov Shooter - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5bc9fab686f7742a90020769.jpg",
+  "isKey": false
+}

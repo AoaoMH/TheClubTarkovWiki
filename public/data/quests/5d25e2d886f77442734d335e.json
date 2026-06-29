@@ -1,0 +1,83 @@
+{
+  "id": "5d25e2d886f77442734d335e",
+  "name": {
+    "zh": "猎人之路 - 控制者",
+    "en": "The Huntsman Path - Controller"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5dfe6104585a0c3e995c7b82",
+      "itemName": {
+        "zh": "NcSTAR ADO P4 Sniper 3-9x42步枪瞄准镜",
+        "en": "NcSTAR ADO P4 Sniper 3-9x42 riflescope"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "请进。作为一名猎人，我可以很确信地告诉你保持对目标的控制是非常重要的。很多时候一旦你设法致盲了猎物，那么即使是最危险的猎物，也会变得不那么危险。这对人来说也一样。如果一个人像鼹鼠一样瞎，那谁还会在乎他使的什么枪？那就向我证明，你有办法弄瞎你的敌人。",
+    "en": "Come on in. As a hunter, I can tell you for sure that holding control over the target is really important. Sometimes if you manage to blind the animal, even the most dangerous one, it stops being dangerous to you. This works with humans as well. Who cares how pimped out their guns are if they're as blind as moles? I want you to show me if you're able to properly blind your enemy."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2cc86f77443e47ae019",
+      "name": {
+        "zh": "猎人之路 - 杀戮森林",
+        "en": "The Huntsman Path - Forest Cleaning"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d67c1e486f774131e206c3a.jpg",
+  "isKey": false
+}

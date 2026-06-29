@@ -1,0 +1,135 @@
+{
+  "id": "668bcd1b194be70f18427a00",
+  "name": {
+    "zh": "当场抓获",
+    "en": "Caught Red-Handed"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 52400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b44cd8b86f774503d30cba2",
+      "itemName": {
+        "zh": "IOTV Gen4 防弹衣（全面防护型，复合迷彩）",
+        "en": "IOTV Gen4 body armor (Full Protection Kit, MultiCam)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "65290f395ae2ae97b80fdf2d",
+      "itemName": {
+        "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+        "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65293c38fc460e50a509cb25",
+      "itemName": {
+        "zh": "AR-10 7.62x51 Lancer L7AWM 20发容量弹匣",
+        "en": "AR-10 7.62x51 Lancer L7AWM 20-round magazine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 80,
+      "itemId": "6529243824cbe3c74a05e5c1",
+      "itemName": {
+        "zh": "6.8x51毫米 SIG Hybrid",
+        "en": "6.8x51mm SIG Hybrid"
+      },
+      "quantity": 80
+    }
+  ],
+  "description": {
+    "zh": "哦对对，我的朋友，你来得正是时候！我做了调查，找到了劣质武器的来源。原来Prapor跟这事毫无关系。这种状态和数量的进口枪只有那些前USEC土匪能拿到。看来他们决定自己进入市场了。\n\n然而，出于显而易见的原因，他们无法自己卖货，这意味着他们一定有同伙……你需要在他们基地设置监控，这样我们就能找到他们的经销商。",
+    "en": "Oh yes yes my friend, you are just in time! I conducted an investigation and found the source of the faulty weapons. Turns out Prapor had nothing to do with this. The imported guns in this condition and quantity are only available to those ex-USEC bandits. It seems they've decided to join the market themselves. \n\nHowever, they can't sell their goods on their own for obvious reasons, meaning they must have accomplices... You need to set up surveillance at their base so we can find their dealers."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "668bccf963acb16d63707043",
+      "name": {
+        "zh": "What’s Your Evidence?",
+        "en": "What’s Your Evidence?"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/61ab421079c3a477d0121e46.jpg",
+  "isKey": false
+}

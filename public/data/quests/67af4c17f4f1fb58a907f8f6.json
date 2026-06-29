@@ -1,0 +1,107 @@
+{
+  "id": "67af4c17f4f1fb58a907f8f6",
+  "name": {
+    "zh": "学无止境",
+    "en": "Never Too Late To Learn"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "MagDrills",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Crafting",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "HideoutManagement",
+      "value": 100
+    }
+  ],
+  "description": {
+    "zh": "那么，你的训练进行得怎么样？我还真没想到你在战争方面还有那么多要学的。那句老话可不是胡扯，对吧？\n\nLuka 和他的小队可能需要上一课。他说他们在远处被打得很惨，不得不撤退。现在基地那帮家伙知道有人跟他们抢地盘，已经加强了防御。他们不可能再被偷袭了。\n\n这就是为什么 Luka 说只要给他们合适的武器他们就能把别人干爆。他们需要的一切都在这张清单上了。要是那些混账连军方都不怕，那这批藏匿点肯定不简单。也许他们背后有大陆来的靠山在罩着。\n\n但那层保护罩罩不到我们头上。我们这边最关键的是给 Luka 的小队配齐装备，并从他们那边到塔科夫建立一条补给线。后果就让 Luka 自己承担吧，他可不是小孩子了。",
+    "en": "So, how's your training going? I didn't think you still had so much to learn about warfare. That old saying ain't bullshit, ye? \n\nLuka and his squad could use a lesson. He said they got burned on the far side, had to retreat. Now the buggers at the base know they got competition, and they've tightened their defenses. They won't be able to take the base by surprise. \n\nThat's why Luka asked to throw them some proper weapons to kill the cunts for sure. Everything they need is on the list right here. The cache must be real tough if those pricks aren't scared of even the military. Perhaps they got protection watching over them from the big land. \n\nBut that protection ain't gonna reach us. From our side, the main thing is to equip Luka's squad and set up a supply line from them to Tarkov. I'll let Luka deal with the consequences himself, he's not a kid."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 15,
+      "target": [
+        "5bb2475ed4351e00853264e3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5bb2475ed4351e00853264e3": {
+          "zh": "HK 416A5 5.56x45 突击步枪",
+          "en": "HK 416A5 5.56x45 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4500,
+      "target": [
+        "60194943740c5d77f6705eea"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60194943740c5d77f6705eea": {
+          "zh": "5.56x45毫米 Mk 318 Mod 0 (SOST)",
+          "en": "5.56x45mm MK 318 Mod 0 (SOST)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 8,
+      "target": [
+        "601948682627df266209af05"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "601948682627df266209af05": {
+          "zh": "UVSR“针叶林-1”求生砍刀",
+          "en": "UVSR Taiga-1 survival machete"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67af4c169d95ad16e004fd86",
+      "name": {
+        "zh": "安全保障",
+        "en": "Safety Guarantee"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67af4c1991ee75c6d7060a16",
+      "name": {
+        "zh": "站稳脚跟",
+        "en": "Get a Foothold"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/67dabe9b577af00877075624.png",
+  "isKey": false
+}

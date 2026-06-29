@@ -1,0 +1,132 @@
+{
+  "id": "5ae3267986f7742a413592fe",
+  "name": {
+    "zh": "枪匠 - 5",
+    "en": "Gunsmith - Part 5"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 300,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 300
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d1c819a86f774771b0acd6c",
+      "itemName": {
+        "zh": "武器零件",
+        "en": "Weapon parts"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5aafbde786f774389d0cbc0f",
+      "itemName": {
+        "zh": "弹药箱",
+        "en": "Ammunition case"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我前脚刚把网络链接稳定，供电问题解决，后脚政府就踏入了这场游戏。他们封锁了一半掌管塔科夫大部分数据流的IP地址。据称这些都是因为TerraGroup使用了“Ebambium” ISP来进一步制造混乱，破坏城里的局势导致的。你不觉得“世界毁灭”听起来像胡言乱语吗？顺便说说他们和他们使用的武器，其中一个脸上带着闪电纹身的，要了一把雷明顿870霰弹枪。要有一个战术设备，Magpul MOE护木，和一个战术前握把。人机工效大于60，后座力总和小于500。",
+    "en": "Just when I finally sorted out the stable Internet connection and power supply for it, the Government stepped up the game and started blocking half the IP addresses that handled most of the data flow in Tarkov. All that because TerraGroup allegedly uses \"Ebambium\" ISP to further destabilize the situation in the city and wreak havoc. Sounds like some gibberish about the Ragnarok coming, don't you think? By the way about gibberish and weapons — some weirdo with a lightning symbol tattooed on his face asked for a Remington 870 shotgun. Equipped with a tactical device, Magpul MOE handguard, and a tactical foregrip. Ergonomics above 60 and recoil sum less than 500."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5a7828548dc32e5a9c28b516"
+      ],
+      "targetNames": {
+        "5a7828548dc32e5a9c28b516": {
+          "zh": "雷明顿Model 870 12铅径 霰弹枪",
+          "en": "Remington Model 870 12ga pump-action shotgun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 500
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        }
+      ],
+      "requiredItems": [
+        "5a788068c5856700137e4c8f"
+      ],
+      "requiredItemNames": {
+        "5a788068c5856700137e4c8f": {
+          "zh": "Magpul MOE M870下护木",
+          "en": "M870 Magpul MOE handguard"
+        }
+      },
+      "requiredCategories": [
+        "55818b164bdc2ddc698b456c",
+        "55818af64bdc2d5b648b4570"
+      ],
+      "requiredCategoryNames": {
+        "55818b164bdc2ddc698b456c": {
+          "zh": "组合式战术设备",
+          "en": "Comb. tact. device"
+        },
+        "55818af64bdc2d5b648b4570": {
+          "zh": "前握把",
+          "en": "Foregrip"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639872f9decada40426d3447",
+      "name": {
+        "zh": "枪匠 - 4",
+        "en": "Gunsmith - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae3270f86f77445ba41d4dd",
+      "name": {
+        "zh": "枪匠 - 6",
+        "en": "Gunsmith - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae326a086f77444fd36f5d8.jpg",
+  "isKey": false
+}

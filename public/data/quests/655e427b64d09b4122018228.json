@@ -1,0 +1,126 @@
+{
+  "id": "655e427b64d09b4122018228",
+  "name": {
+    "zh": "惩罚者 - 大丰收",
+    "en": "The Punisher. Harvest"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0a840b86f7742ffa4f2482",
+      "itemName": {
+        "zh": "T H I C C物品箱",
+        "en": "T H I C C item case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 15000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 15000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "61962b617c6c7b169525f168",
+      "itemName": {
+        "zh": "5.45x39毫米 7N40 gs",
+        "en": "5.45x39mm 7N40"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "601949593ae8f707c4608daa",
+      "itemName": {
+        "zh": "5.56x45毫米 SSA AP",
+        "en": "5.56x45mm SSA AP"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "601aa3d2b2bcb34913271e6d",
+      "itemName": {
+        "zh": "7.62x39毫米 MAI AP",
+        "en": "7.62x39mm MAI AP"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5efb0c1bd79ff02a1f5e68d9",
+      "itemName": {
+        "zh": "7.62x51 毫米 M993",
+        "en": "7.62x51mm M993"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5efb0da7a29a85116f6ea05f",
+      "itemName": {
+        "zh": "9x19 毫米 7N31",
+        "en": "9x19mm PBP gzh"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ba26835d4351e0035628ff5",
+      "itemName": {
+        "zh": "4.6x30毫米 AP SX",
+        "en": "4.6x30mm AP SX"
+      }
+    }
+  ],
+  "description": {
+    "zh": "终于联系上你了，雇佣兵。之前有一个自称大师的人找过我。他说他想找你，因为听起来你明白他们的事情，他们也十分尊重你。\n那个人让我告诉你，有一个新的工作提供给你。现在需要在塔科夫消灭掉你那些经验丰富的同行了。我会给你完成任务所必需的装备。\n说实话，朋友。我不同意这位大师的手段，但是报酬十分丰厚。我没法都告诉你，但是我可以给你一些建议：特殊时期要来了，如果想活着，就得省着点子弹。我们的工作有着很高的产出，我可不想让你白白死掉。",
+    "en": "You're finally in touch, mercenary. I was just approached by a man who calls himself a Master. He asked to find you, because from his words you understand the essence of the matter and deserve Their respect.\nThe master asked me to tell you that there is a new job for you. It is necessary to eliminate experienced colleagues throughout Tarkov. I will give you the necessary equipment to complete the task.\nLet me be honest with you, my friend. I do not approve Master's methods, but the benefits offered are very attractive. I can't tell you everything, but I can give you some advice: special times are coming, save your ammunition if you want to survive. Our work with you is very productive, and I would not like you to die in this massacre."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 50,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 50,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "59f32c3b86f77472a31742f0"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/59ca2e4186f77445e4732b22.jpg",
+  "isKey": false
+}

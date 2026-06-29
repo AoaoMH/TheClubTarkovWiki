@@ -1,0 +1,90 @@
+{
+  "id": "6744a4717e3818d5bb0680bb",
+  "name": {
+    "zh": "稳定业务",
+    "en": "Stabilize Business"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Elimination",
+  "location": "653e6760052c01c1c805532f",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 24100
+    },
+    {
+      "type": "Item",
+      "value": 124000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 124000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b44cf1486f77431723e3d05",
+      "itemName": {
+        "zh": "IOTV Gen4 防弹衣（突击型，复合迷彩）",
+        "en": "IOTV Gen4 body armor (Assault Kit, MultiCam)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我就说吧，那个司机知道哪条路才是对的！我之后会按照那条路安排送货的，但是现在我还腾不出手。首先，我得处理那些乱杀我的送货员的人。我已经找到了罪魁祸首，现在就等向他们送上 Ragman 的问候了。\n\n在这件事处理好之前，我帮不了司机什么忙。所以我建议你去处理这件事。快进快出，早点完事。",
+    "en": "I told you the driver knows the right paths! That's where I'll send the shipment, although I don't have time for that at present. First I have to deal with those who killed my couriers. I already found the culprits, so now it's for Ragman to send his regards.\n\nI can't do anything to help the driver until this matter is handled. That's why I suggest you take care of it. Quicker you start, quicker you finish."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 7,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "Sandbox_high,Sandbox"
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Sandbox_high,Sandbox"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674492b6909d2013670a347a",
+      "name": {
+        "zh": "投石问路",
+        "en": "Ask for Directions"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6744a9dfef61d56e020b5c4a",
+      "name": {
+        "zh": "电池换新",
+        "en": "Battery Change"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

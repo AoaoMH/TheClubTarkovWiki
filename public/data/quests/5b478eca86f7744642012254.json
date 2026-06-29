@@ -1,0 +1,176 @@
+{
+  "id": "5b478eca86f7744642012254",
+  "name": {
+    "zh": "维他命 - 1",
+    "en": "Vitamins - Part 1"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 40000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 40000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5b30b0dc5acfc400153b7124",
+      "itemName": {
+        "zh": "Holosun HS401G5反射式瞄具",
+        "en": "Holosun HS401G5 reflex sight"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d2da1e948f035477b1ce2ba",
+      "itemName": {
+        "zh": "Trijicon SRS-02反射式瞄具",
+        "en": "Trijicon SRS-02 reflex sight"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": -0.01
+    }
+  ],
+  "description": {
+    "zh": "啊，是你... 好久不见了。我还以为你已经挂了。但事实证明，你生命力还挺顽强的。管他呢，还活着就好。有些事我得跟你讲讲。\n\n有人说市场上有一批新货，一些里面有某种东西的花哨化学容器。它长得就像你的消音器，但是更大些。\n\n至于里面到底是什么，新药或者维他命B，我也他妈的不知道。那就是我们需要搞清楚的东西，我打赌这一定和Polikhim那些该死的蓝桶有某种联系，虽然我还并不了解事情的真相。这些容器是在疗养院被发现的，我的一个伙计声称在立交桥看到这些玩意儿和EMERCOM的人在一起，但是那会儿他已经神志不清了，也许他只是产生了什么幻觉也说不定。长话短说，给我弄几个容器来，我这有两个书呆子没准能弄清楚里面到底是什么鬼东西。",
+    "en": "Ah, it's you... Long time no see. I thought maybe you got whacked, but, as it turns out, you’re a bit of a diehard. Whatever, you're alive and that's good, so listen here. People say there’s a new product on the market, some stuff in fancy chemical containers, like your gun silencer, but a bit larger. What’s inside them, whether it’s new drugs or just some vitamin B, no fucking idea whatsoever. And that’s what we need to find out, I bet that the blue-barrel shit from Polikhim is somehow connected to this, but I don’t know for a fact. These containers were seen at the Health Resort in the west wing first-floor offices, and one pal of mine claims to have seen them with EMERCOM people in the ULTRA mall, but he was in delirium at that time, so maybe it's just his imagination... To cut the long story short, find me a few of those containers, I have a couple of eggheads who might figure out what the fuck is inside."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5b43237186f7742f3a4ab252"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b43237186f7742f3a4ab252": {
+          "zh": "化学品容器1",
+          "en": "Chemical container #1"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5b43237186f7742f3a4ab252"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b43237186f7742f3a4ab252": {
+          "zh": "化学品容器1",
+          "en": "Chemical container #1"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5b4c81a086f77417d26be63f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b4c81a086f77417d26be63f": {
+          "zh": "化学品容器2",
+          "en": "Chemical container #2"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5b4c81a086f77417d26be63f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b4c81a086f77417d26be63f": {
+          "zh": "化学品容器2",
+          "en": "Chemical container #2"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5b4c81bd86f77418a75ae159"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b4c81bd86f77418a75ae159": {
+          "zh": "化学品容器3",
+          "en": "Chemical container #3"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5b4c81bd86f77418a75ae159"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b4c81bd86f77418a75ae159": {
+          "zh": "化学品容器3",
+          "en": "Chemical container #3"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "597a0e5786f77426d66c0636",
+      "name": {
+        "zh": "化学品 - 3",
+        "en": "Chemical - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5b478ff486f7744d184ecbbf",
+      "name": {
+        "zh": "维他命 - 2",
+        "en": "Vitamins - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5b478eda86f77470315db899.jpg",
+  "isKey": false
+}

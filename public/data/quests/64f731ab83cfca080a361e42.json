@@ -1,0 +1,121 @@
+{
+  "id": "64f731ab83cfca080a361e42",
+  "name": {
+    "zh": "兽医也是医 - 1",
+    "en": "Pets Won't Need It - Part 1"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Exploration",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 43000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 43000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5c10c8fd86f7743d7d706df3",
+      "itemName": {
+        "zh": "肾上腺素注射器",
+        "en": "Adrenaline injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b4335ba86f7744d2837a264",
+      "itemName": {
+        "zh": "医用输血工具",
+        "en": "Medical bloodset"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e3606886f77417674759a5",
+      "itemName": {
+        "zh": "盐水溶液",
+        "en": "Bottle of saline solution"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "在这种困难时期，找到合适的药物十分困难。你也知道，这里不乏能够巧妙使用药物的专家。请到本地的兽医诊所看看，说不定那里还剩了一些药品，我可不觉得还有人需要这些东西。记得也看看X光技术员的地方，据说冲突开始前他参加了一些实验。",
+    "en": "It is very problematic to find the right drugs in these difficult times. As you know, there are skilled professionals in the region who can find a good solution to seemingly unsuitable drugs. Please scout the local vet clinic, maybe there are still some drugs left, I don't think they will be useful to anyone anymore. Also, check the place of work of the local x-ray technician, I heard he was engaged in some experiments before the conflict."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_find_2st_med_invent1",
+      "targetNames": {
+        "quest_zone_find_2st_med_invent1": {
+          "zh": "quest_zone_find_2st_med_invent1",
+          "en": "quest_zone_find_2st_med_invent1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_find_2st_med_invent2",
+      "targetNames": {
+        "quest_zone_find_2st_med_invent2": {
+          "zh": "quest_zone_find_2st_med_invent2",
+          "en": "quest_zone_find_2st_med_invent2"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639135d89444fb141f4e6eea",
+      "name": {
+        "zh": "人口普查",
+        "en": "Population Census"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6573387d0b26ed4fde798de3",
+      "name": {
+        "zh": "兽医也是医 - 2",
+        "en": "Pets Won't Need It - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/64f8b6f3b4918f39d363e0ff.jpg",
+  "isKey": false
+}

@@ -1,0 +1,112 @@
+{
+  "id": "5a68669a86f774255929b4d4",
+  "name": {
+    "zh": "医疗隐私 - 5",
+    "en": "Health Care Privacy - Part 5"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Multi",
+  "location": "59fc81d786f774390775787e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aafbcd986f7745e590fff23",
+      "itemName": {
+        "zh": "医疗物品箱",
+        "en": "Medicine case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "血液是一个很好的信息来源。虽然不如文献研究，但已经很不错了。距离我进行的最后一项研究已经过了很长时间了，我还记得我当时在协助一名常驻病毒学家完成他的论文，真是恍如隔世啊。互联网的普及使我们与其他国家同行的信息交流更加轻松了，现在我没机会通过Scopus数据库来筛选样本，但我非常确定数据库里有血液样本研究留下的线索。你可能会问，现在要从哪里才能接入网络呢？有人建议我联系一名叫做Mechanic的人。事实证明，他不但能访问互联网，而且网速相对来说还挺快。我已经让他寻找一些必要的文献了。他要求收取一点小小的服务费——无论出于何种原因，他需要一些发射药。看来他一直在做军火供应或者类似的生意，我对这些不怎么感兴趣。重要的是，他有我们想要的信息。满足他的要求，并把它留在工厂的指定地点。白天那边Scav人头攒动，所以还是尽量在夜间行动吧。",
+    "en": "Blood is a good source of information. Not as good as proper paperwork of course, but still good enough. It’s been a while since I did my last research. I was assisting an intern virologist with his thesis. Feels like it was yesterday, and at the same time so long ago. When the Internet was invented, it made it much easier to exchange information, even with colleagues from other countries. I miss this opportunity now to sift through the Scopus database, I am pretty sure that it has the answers to my questions, emerged after that blood sample research. Where could one possibly find access to the web now, you ask? To address this issue, I was advised to contact the one going by the name of Mechanic. As it turned out, he has access to the Internet, and it’s even relatively fast. I’ve asked him to look up the necessary articles for me. He asked for a small fee for his services, in the form of gunpowder, for whatever reason. It looks like he’s supplying someone with ammunition or something like that, but I am not really interested in that. Most importantly, he will provide the information we need. Find what he asks for, and leave it at the specified spot in the Factory. He asked to stash the cargo on the third floor in one of the locked doors. The door is quite fragile, as he said, so you can break it open without a key. The place is swarmed with Scavs in the daytime, so it’s best to do it at night."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "ter_017_area_1",
+      "targetNames": {
+        "ter_017_area_1": {
+          "zh": "ter_017_area_1",
+          "en": "ter_017_area_1"
+        }
+      },
+      "location": "factory4_night"
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 3,
+      "target": [
+        "590c5a7286f7747884343aea"
+      ],
+      "targetNames": {
+        "590c5a7286f7747884343aea": {
+          "zh": "“Kite”火药",
+          "en": "Gunpowder \"Kite\""
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a68667486f7742607157d28",
+      "name": {
+        "zh": "医疗隐私 - 4",
+        "en": "Health Care Privacy - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c0d1c4cd0928202a02a6f5c",
+      "name": {
+        "zh": "灭虫服务",
+        "en": "Decontamination Service"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "669fa3a3ad7f1eac2607ed48",
+      "name": {
+        "zh": "医疗隐私 - 6",
+        "en": "Health Care Privacy - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

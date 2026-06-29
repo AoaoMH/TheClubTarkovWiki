@@ -1,0 +1,88 @@
+{
+  "id": "6179aff8f57fb279792c60a1",
+  "name": {
+    "zh": "人口过剩",
+    "en": "Overpopulation"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1100,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b0bbe4e5acfc40dc528a72d",
+      "itemName": {
+        "zh": "DS Arms SA-58 7.62x51 突击步枪",
+        "en": "DS Arms SA58 7.62x51 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，我给你找了个事儿做。根据情报，自从最开始的冲突以后，你们的那些USEC老兵们被抛弃在了Cape Dalniy的房屋区域，和他们一起的，还有很多高价值设备以及情报，这些对蓝盔部队来说很有帮助。不过问题是，现在整块区域都在Scav的控制之下，我想把他们清除掉，或者最起码把他们都赶走，这样我的人才能像无事发生一样把东西都转运掉。这就是给你的任务，朋友。毋庸置疑，你刚才听到的所有话，都只是我们俩的交易。我期待你的反馈。",
+    "en": "Mercenary, there is work for you. According to our intelligence, after the initial conflict, the former base of your USEC comrades, in the cottage area at Cape Dalniy, was abandoned with a lot of valuable equipment and information that could sponsor the Blue Helmets operations. The only problem is that the entire territory is currently under the control of the Scavs, and I would like to get rid of them, or at least scare them out of this zone so that my people can extract all the necessary resources without combat. This is your task, my friend. Naturally, everything that you have just heard will remain strictly between us. I look forward to your report."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 12,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a03153686f77442d90e2171",
+      "name": {
+        "zh": "疗养之旅 - 1",
+        "en": "Spa Tour - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "669fa38fad7f1eac2607ed46",
+      "name": {
+        "zh": "最后的细枝末节",
+        "en": "One Less Loose End"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61ab4f090330382cea7bad57.jpg",
+  "isKey": false
+}

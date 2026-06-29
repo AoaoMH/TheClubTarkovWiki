@@ -1,0 +1,96 @@
+{
+  "id": "5a27bb5986f7741dfb660900",
+  "name": {
+    "zh": "神秘货物 - 3",
+    "en": "Cargo X - Part 3"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Multi",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 900,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 900
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ba26383d4351e00334c93d9",
+      "itemName": {
+        "zh": "HK MP7A1 4.6x30 微型冲锋枪",
+        "en": "HK MP7A1 4.6x30 submachine gun"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "很好，如清单所述，第二部分货物是在地下室的某个地方，而且锁的很牢靠。搜索疗养院，找到了就联系我。",
+    "en": "We have studied the documents you brought, mercenary. Well, the manifest said that the second part of the cargo is somewhere in the Health Resort's basement, and locked tight. Search the basements of the west wing and notify me if you find the cargo we need."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_009_3_N1",
+      "targetNames": {
+        "place_peacemaker_009_3_N1": {
+          "zh": "place_peacemaker_009_3_N1",
+          "en": "place_peacemaker_009_3_N1"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bb3d86f77411ea361a21",
+      "name": {
+        "zh": "神秘货物 - 2",
+        "en": "Cargo X - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "61958c366726521dd96828ec",
+      "name": {
+        "zh": "神秘货物 - 4",
+        "en": "Cargo X - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/597a172486f774799e5cd153.jpg",
+  "isKey": false
+}

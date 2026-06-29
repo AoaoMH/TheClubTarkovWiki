@@ -1,0 +1,168 @@
+{
+  "id": "5c0d0f1886f77457b8210226",
+  "name": {
+    "zh": "租借法案 - 2",
+    "en": "Lend-Lease - Part 2"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 2000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 2000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5bb2475ed4351e00853264e3",
+      "itemName": {
+        "zh": "HK 416A5 5.56x45 突击步枪",
+        "en": "HK 416A5 5.56x45 assault rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "6570265f1419851aef03e739",
+      "itemName": {
+        "zh": "100发5.56x45 M995盒装弹药",
+        "en": "5.56x45mm M995 ammo pack (100 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59c1383d86f774290a37e0ca",
+      "itemName": {
+        "zh": "Magpul PMAG D-60 5.56x45 60发弹匣",
+        "en": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "544a37c44bdc2d25388b4567",
+      "itemName": {
+        "zh": "MAG5-60 5.56x45 60发STANAG弹匣",
+        "en": "AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊。你应该知道，在塔科夫这地界，有很多设施，秘密的和“不那么秘密”的。一部分隐藏的很好，有些却已经被强盗们闯入了。我的主顾们对此很不满。他们非常希望那些高科技玩意儿不会落入某些......不受欢迎的人之手。因此，我们需要把这些不受欢迎的人从禁区中清理出去。这可不能出什么差错，我只需要原始材料，所以不要相信任何中间商和第三方。当然了，这些客户都是些大咖，付得起一大笔钱。我会给你一个需要你找到的物品清单。",
+    "en": "Hello. As you know, there were different facilities, secret and not-so-secret, within Tarkov boundaries. Many of them are hidden, and many of them have already been ransacked by scavengers. My customers are very unhappy about this. It is in their best interest that technology does not fall into the hands of... undesired persons. Therefore, we need to take that technology outside of the exclusion zone. There can be no mistakes, I need original materials only, so don't trust any resellers or third parties. Of course, those people are serious and will pay serious cash. I'll give you a list of what you need to find."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "5c05308086f7746b2101e90b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c05308086f7746b2101e90b": {
+          "zh": "Virtex可编程处理器",
+          "en": "Virtex programmable processor"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c052f6886f7746b1e3db148"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052f6886f7746b1e3db148": {
+          "zh": "军用COFDM无线信号发射器",
+          "en": "Military COFDM Wireless Signal Transmitter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5c05308086f7746b2101e90b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c05308086f7746b2101e90b": {
+          "zh": "Virtex可编程处理器",
+          "en": "Virtex programmable processor"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c052f6886f7746b1e3db148"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052f6886f7746b1e3db148": {
+          "zh": "军用COFDM无线信号发射器",
+          "en": "Military COFDM Wireless Signal Transmitter"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b4794cb86f774598100d5d4",
+      "name": {
+        "zh": "租借法案 - 1",
+        "en": "Lend-Lease - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c0d4c12d09282029f539173",
+      "name": {
+        "zh": "维和任务",
+        "en": "Peacekeeping Mission"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+  "isKey": false
+}

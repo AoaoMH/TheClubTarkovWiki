@@ -1,0 +1,96 @@
+{
+  "id": "66631489acf8442f8b05319f",
+  "name": {
+    "zh": "陌路相交",
+    "en": "Friend Among Strangers"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 25600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1200,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1200
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a0a16d0b9d3c46de5b6e97",
+      "itemName": {
+        "zh": "军用闪存装置",
+        "en": "Military flash drive"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "看起来，你在这里闯荡出了不小的名堂。我有份差事可以考虑给你这样的狠角色做。但在这之前，我需要考察你明辨是非的能力——哪些人是可以利用的资产，而哪些人只能构成威胁。很简单，只许对 PMC 开枪，不许碰我的人，懂了吗？",
+    "en": "You've made a name for yourself, and I may have an assignment for someone like you. But before I do, I want to make sure you can tell who's an asset and who's a threat. It's simple, shoot the PMCs, but don't hurt my people. Understood?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 7,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Elimination",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6672d9def1c88688a707d042",
+      "name": {
+        "zh": "建立联系",
+        "en": "Establish Contact"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6663148ca9290f9e0806cca1",
+      "name": {
+        "zh": "免疫力",
+        "en": "Immunity"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6682a78f75d2dfc8330a07e2.png",
+  "isKey": false
+}

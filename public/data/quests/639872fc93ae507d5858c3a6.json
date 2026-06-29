@@ -1,0 +1,147 @@
+{
+  "id": "639872fc93ae507d5858c3a6",
+  "name": {
+    "zh": "枪匠 - 11",
+    "en": "Gunsmith - Part 11"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "55d6190f4bdc2d87028b4567",
+      "itemName": {
+        "zh": "Surefire SOCOM556-MINI MONSTER 5.56x45消音器",
+        "en": "SureFire SOCOM556-MINI MONSTER 5.56x45 sound suppressor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "来得真是时候，我的朋友。你有时间的话，帮我组一把枪吧。我的一个大客户要了把KRISS Vecto 9x19冲锋枪。他想要Mk.5 模块化导轨，Tactical Dynamics镂空前握把，你再给他配一个有效射程至少300米的瞄具，还要有至少33发容量的弹匣，以及一个消音器。人机功效高于50，后坐力低于230。谢谢！",
+    "en": "Perfect timing, friend. If you have time, help me out with some gun customization. A major customer has placed an order for a KRISS Vector 9x19 submachine gun. He wants it to be equipped with an Mk.5 Modular Rail mount, Tactical Dynamics Skeletonized Foregrip, some iron sights or a scope with at least 300 meter sighting range, magazine with at least 33 rounds, and a silencer. Ergonomics over 50 and recoil under 230. Thanks!"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5fc3f2d5900b1d5091531e57"
+      ],
+      "targetNames": {
+        "5fc3f2d5900b1d5091531e57": {
+          "zh": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+          "en": "TDI KRISS Vector Gen.2 9x19 submachine gun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 50
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 230
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 300
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 31
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.5
+        }
+      ],
+      "requiredItems": [
+        "5fbb978207e8a97d1f0902d3",
+        "5f6340d3ca442212f4047eb2"
+      ],
+      "requiredItemNames": {
+        "5fbb978207e8a97d1f0902d3": {
+          "zh": "KRISS Vector Mk.5 模块化导轨",
+          "en": "KRISS Vector Mk.5 modular rail"
+        },
+        "5f6340d3ca442212f4047eb2": {
+          "zh": "TD铝合金垂直握把",
+          "en": "Tactical Dynamics Skeletonized Foregrip"
+        }
+      },
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae327c886f7745c7b3f2f3f",
+      "name": {
+        "zh": "枪匠 - 10",
+        "en": "Gunsmith - Part 10"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5b47799d86f7746c5d6a5fd8",
+      "name": {
+        "zh": "枪匠 - 12",
+        "en": "Gunsmith - Part 12"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63aae95961d7b024e808cc5c.jpg",
+  "isKey": false
+}

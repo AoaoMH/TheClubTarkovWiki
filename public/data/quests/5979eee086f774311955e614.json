@@ -1,0 +1,135 @@
+{
+  "id": "5979eee086f774311955e614",
+  "name": {
+    "zh": "金色失物",
+    "en": "Golden Swag"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Completion",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 17000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 17000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60339954d62c9b14ed777c06",
+      "itemName": {
+        "zh": "联盟-TM STM-9 Gen.2 9x19 卡宾枪",
+        "en": "Soyuz-TM STM-9 Gen.2 9x19 carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657025961419851aef03e721",
+      "itemName": {
+        "zh": "50发9x19 绿色曳光弹弹药包",
+        "en": "9x19mm Green Tracer ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5a7ad2e851dfba0016153692",
+      "itemName": {
+        "zh": "“Big Stick” Glock 9x19加长弹匣",
+        "en": "Glock 9x19 \"Big Stick\" 33-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "584984812459776a704a82a6",
+      "itemName": {
+        "zh": "VOMZ Pilad P1X42 \"WEAVER\"反射式瞄具",
+        "en": "VOMZ Pilad P1x42 Weaver reflex sight"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，街溜子！来和我讲讲，为什么这个世界变得如此虚伪，嗯？那些一辈子没做过正经事的人却在教我该怎么办事！有个混蛋觉得我开出的价太低了，所以他想耍我。我已经教训过他一次了，但他还是牛气冲天。\n\n这活很简单。在 Polikhim 盘踞着一群拾荒的，他们的头头之一管自己叫 Uruguay——这外号真蠢，太丢脸了，谁生了这么个弱智玩意儿？对不起我跑题了。 \n我们应该联手做掉他，但是别急，那是美妙复仇的后半段，先听我说完：他有个打火机，那是他的幸运护身符。一个镀金的 Zibbo 打火机，他总是焦躁不安地的用爪子不停把玩那个打火机。有一次他到了我这里还在不停弄的卡卡直响。\n\n顺带一提，他就住在海关宿舍楼的 303 房间。好了，我要你小心翼翼的把那个打火机弄到我的安全屋里，目的就是要让某个人被吓得屁滚尿流，或许这能让他明白我的暗示。明白了吗？那就行动吧。安全屋在海关，在拖车停车场附近的一个关着门的工棚里。这是开门的钥匙。祝你好运。",
+    "en": "Oi, street thug! Tell me, why has the world become so hypocritical, eh? People who haven't done a single proper thing in their lives are teaching me how to get shit done! One prick didn't like my business conditions, so he tried to pull a fast one on me. I taught him a lesson once, but he got all bullish.\n\nSo, it's a simple job. There's a group of Scavs at Polikhim. One of their top dogs is a certain Uruguay. He chose his nickname himself, the moron. \nWe should end him. But that's only half of the story. He's got a lighter, sort of lucky charm. A gold-plated Zibbo. He fidgets it all the time in his claws. Dropped by my place too, and kept fucking clicking it. \n\nI think he lived in the dorms, room 303. So, you gotta slip this thing into one of the special places so that someone gets a bit flabbergasted and gets the message. You feel me? Good. So the place is at the customs area, in a locked shed next to the trailer park. Here's the key to it."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5939a00786f7742fe8132936"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5939a00786f7742fe8132936": {
+          "zh": "金质 Zibbo 打火机",
+          "en": "Golden Zibbo lighter"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5939a00786f7742fe8132936"
+      ],
+      "targetNames": {
+        "5939a00786f7742fe8132936": {
+          "zh": "金质 Zibbo 打火机",
+          "en": "Golden Zibbo lighter"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5979ed3886f77431307dc512",
+      "name": {
+        "zh": "U盘里有什么？",
+        "en": "What’s on the Flash Drive?"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5979f9ba86f7740f6c3fe9f2",
+      "name": {
+        "zh": "化学品 - 1",
+        "en": "Chemical - Part 1"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979ef2a86f77431185415c3.jpg",
+  "isKey": false
+}

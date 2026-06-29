@@ -1,0 +1,100 @@
+{
+  "id": "6750320e23fc8fd9cc087d14",
+  "name": {
+    "zh": "超支的节日",
+    "en": "Holiday Beyond the Means"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1300,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1300
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "590c621186f774138d11ea29",
+      "itemName": {
+        "zh": "加密U盘",
+        "en": "Secure Flash drive"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57347ca924597744596b4e71",
+      "itemName": {
+        "zh": "显示卡",
+        "en": "Graphics card"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好伙计。你看到他们开始为庆祝活动装饰整座城市了吗？\n\n好像那些漂亮彩带值得用来点亮花环和灯饰的燃料似的。人们愚蠢到把所有资源花在上面。而且显然不只是他们自己的。\n\n前几天，几个蠢货试图抢劫我几个燃料仓库。我的人正在击退攻击，但我不会因为一些愚蠢的庆祝活动冒货物被抢的风险！\n\n你必须清楚地向那些雇佣兵表明，在节日期间对Skier动手和平常任何时间一样危险。\n\n为了确保我的信息不被误认为是随机伤亡，穿上合适的衣服，显眼一点的。",
+    "en": "Hello mate. Have you seen that they've started decorating the whole town for the celebrations?\n\nAs if all that pretty tinsel is worth the fuel that gives light to their garlands and lights. People are fucking stupid enough to spend all their resources on it. And apparently not just their own.\n\nThe other day, some wankers tried to rob a couple of my fuel depots. My guys are repelling the attacks alright, but I'm not going to risk the goods because of some dumb celebration!\n\nYou have to clearly show all those mercs that raising a hand on Skier during festivities is as dangerous as at any other time. \n\nAnd to make sure my message doesn't get confused with random casualties, take the appropriate outfit, something flashy."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 10,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "675031be899713ccad00060c",
+      "name": {
+        "zh": "圣诞晚餐",
+        "en": "Christmas Dinner"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "676c243577f0257dd50239e6",
+      "name": {
+        "zh": "节庆的代价",
+        "en": "The Price of Celebration"
+      }
+    },
+    {
+      "id": "676c243fb16f4b14b905e7f4",
+      "name": {
+        "zh": "我的派对我做主",
+        "en": "This Is My Party"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/676985c6ab40a3e4de05e248.jpg",
+  "isKey": false
+}

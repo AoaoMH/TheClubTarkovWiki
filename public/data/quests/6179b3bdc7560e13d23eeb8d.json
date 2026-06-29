@@ -1,0 +1,144 @@
+{
+  "id": "6179b3bdc7560e13d23eeb8d",
+  "name": {
+    "zh": "商业机密",
+    "en": "Corporate Secrets"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 40000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 40000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d725acfc43b321d4b60",
+      "itemName": {
+        "zh": "AK-104 7.62x39 突击步枪",
+        "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66bdc28a0b603c26902b2011",
+      "itemName": {
+        "zh": "Devtac 浪人防弹头盔",
+        "en": "DevTac Ronin ballistic helmet"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你有没有想过，我们生活在一个独一无二的时代？如果一切机密都可以轻易地泄露，那么大家只需要打开暗盒相机就行了...让我解释解释，我的朋友。你已经走遍了公司、实验室、办公室和其他的各个地方。这些区域的地皮都快被翻过来了。但是你知不知道，这里可能还会有一些有意思的东西？就在污水处理厂里。对，那座曾经也属于TerraGroup的设施。至于我想要什么？说老实话，我自己也不知道。我们就从调查TerraGroup到底在这里干了什么开始。超出平常十倍的污水和化学废料？我想都不敢想了呀。记得充分准备——我听说这块区域最近有频繁的活动。估计有人整在巡逻厂区，以防其他人安插眼线。",
+    "en": "Did it ever occur to you that we are living in unique times? As if any secret can easily be revealed, the camera obscura will open up, all you need to do is put in some effort ... Let me explain, my friend. You have already poked around corporate territories, laboratories, offices, and all else. Those places have already been looted to the ground. But do you know where there still might be something interesting? In the offices of the wastewater treatment plant. Yes, that facility was also under TerraGroup. What do I want to find? Fact is, I don't even know myself yet. To begin with, let's try to find out what exactly TerraGroup was doing there. Contaminated water, chemical dump ten times over normal? Anything can open up. Prepare well - I hear there is unusually high activity in that area. Perhaps someone is guarding the territory against prying eyes."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "619268de2be33f2604340159"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "619268de2be33f2604340159": {
+          "zh": "水泵数据",
+          "en": "Water pump operation data"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "619268de2be33f2604340159"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "619268de2be33f2604340159": {
+          "zh": "水泵数据",
+          "en": "Water pump operation data"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "619268ad78f4fa33f173dbe5"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "619268ad78f4fa33f173dbe5": {
+          "zh": "泵站运行报告",
+          "en": "Pumping station operation report"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "619268ad78f4fa33f173dbe5"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "619268ad78f4fa33f173dbe5": {
+          "zh": "泵站运行报告",
+          "en": "Pumping station operation report"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3462b86f7741d6118b983",
+      "name": {
+        "zh": "挖矿 - 3",
+        "en": "Farming - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "639135e8c115f907b14700aa",
+      "name": {
+        "zh": "探望",
+        "en": "Surveillance"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61ab421079c3a477d0121e46.jpg",
+  "isKey": false
+}

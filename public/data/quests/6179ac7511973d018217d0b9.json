@@ -1,0 +1,107 @@
+{
+  "id": "6179ac7511973d018217d0b9",
+  "name": {
+    "zh": "小菜一碟 - 1",
+    "en": "Easy Job - Part 1"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Discover",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 120000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 120000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5df8a4d786f77412672a1e3b",
+      "itemName": {
+        "zh": "6SH118突击背包",
+        "en": "6Sh118 raid backpack (EMR)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6499849fc93611967b034949",
+      "itemName": {
+        "zh": "AK-12 5.45x39突击步枪",
+        "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "下午好，大兵。我给你安排了一个任务，我建议你一刻也不要拖延。你听说过海边的污水处理厂了吗？不，不是疗养院的那个，那是个水电站。我们说的是Cape Dalniy的那个。总之，污水厂区域的某个地方，停着一架米-8，甚至可能还能用。如果混蛋们都消失了，你就可以想办法开着它逃走了。我需要它，有很多原因：它的附近有一堆军用物资箱。我猜它们的主人在撤退时没能把它们全部带走。我不知道那是谁，也不知道为什么他撤离了直升机，但是我的消息说，那里面有数不尽的好东西。带上一个指示器，然后标记上那只大鸟，我的狗腿们会去处理的。任务很简单，但也很重要。你可以先走了。",
+    "en": "Good afternoon, soldier. I've got a task for you, I advise you not to postpone it. You've heard about the water treatment plant at the coast? No, not the one at the health resort, that one is a power station. I'm talking about the one at Cape Dalniy. So, somewhere on the treatment plant's territory, there is a military MI-8, might even be working. If shit goes south in the city, you could try to start it and get the hell out of here. Anyway, I need it for different reasons: there's a gold mine of army supply crates next to it. I guess the owners didn't have time to load it all before leaving. I don't know who and why left that heli there, but my sources say that there's a craplot of valuable goods. Bring a signal marker and mark the bird, my people will deal with it after. The job is simple but important. Off you go then."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "qlight_pr1_heli1_find",
+      "targetNames": {
+        "qlight_pr1_heli1_find": {
+          "zh": "qlight_pr1_heli1_find",
+          "en": "qlight_pr1_heli1_find"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59c50c8886f7745fed3193bf",
+      "name": {
+        "zh": "惩罚者 - 2",
+        "en": "The Punisher - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6179acbdc760af5ad2053585",
+      "name": {
+        "zh": "小菜一碟 - 2",
+        "en": "Easy Job - Part 2"
+      }
+    },
+    {
+      "id": "626bd75c71bd851e971b82a5",
+      "name": {
+        "zh": "踩点行动",
+        "en": "Reconnaissance"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61abcd4c3b7a0b53f515c5e6.jpg",
+  "isKey": false
+}

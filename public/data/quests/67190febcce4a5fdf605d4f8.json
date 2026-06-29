@@ -1,0 +1,102 @@
+{
+  "id": "67190febcce4a5fdf605d4f8",
+  "name": {
+    "zh": "一步不退！",
+    "en": "Not a Step Back!"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 42000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 150000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 150000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "591094e086f7747caa7bb2ef",
+      "itemName": {
+        "zh": "防弹衣维修套件",
+        "en": "Body armor repair kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5910968f86f77425cf569c32",
+      "itemName": {
+        "zh": "武器维修套件",
+        "en": "Weapon repair kit"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "时局艰难，但你是个真正的战士！除了你还有谁能保卫我们的国家免受这些怪物的侵害？\n\n我不断收到大量敌人突破的报告，防守最薄弱的地方是自然保护区。你得到那区域去，尽量多杀那些怪物。\n\n是的，带足弹药，守在高地上，你会需要的。\n\n记住保持距离，在远处射杀它们！别让它们靠你太近。",
+    "en": "Times are hard, but you are a real warrior! Who else but you to defend our country from these monsters?\n\nI keep receiving reports of numerous enemy breakthroughs, and the least defended location is the nature reserve. You'll have to move into the area and kill as many of those freaks as you can.\n\nAnd yes, bring tons of ammo and stay on the high ground, you'll need it.\n\nAnd remember to stay at a distance, shoot them on the approach! Don't let them get too close to you."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 35,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "infectedAssault",
+        "infectedCivil",
+        "infectedLaborant",
+        "infectedPmc",
+        "infectedTagilla"
+      ],
+      "distance": {
+        "compareMethod": ">=",
+        "value": 70
+      },
+      "location": "RezervBase"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "670404a2ea1caa8f2e0be106",
+      "name": {
+        "zh": "Don’t Believe Your Eyes",
+        "en": "Don’t Believe Your Eyes"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/671f917adcb78e551e06b63a.jpg",
+  "isKey": false
+}

@@ -1,0 +1,85 @@
+{
+  "id": "675031d3884e1da4a90b3bc9",
+  "name": {
+    "zh": "寒风刺骨",
+    "en": "Chilly"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 72000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 72000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "544fb45d4bdc2dee738b4568",
+      "itemName": {
+        "zh": "Salewa急救包",
+        "en": "Salewa first aid kit"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "进来吧，坐下。茶快好了，能让你暖和起来。1873年以来就没这么冷过了。那个冬天和这个一样冷，我甚至在这里暖过一只流浪狐狸！\n\n这在战斗情况下差别很大。你能把手指冻得连扳机都扣不了。冻得要死的时候也埋伏不了。\n\n如果你想活下去，你得把身体练硬。试试在寒冷中干掉几个敌人。",
+    "en": "Come on in, sit down. Tea's almost ready, it'll warm you up. We haven't had such temperatures since 1873. That winter was as tough as this one, I even warmed up a stray fox here!\n\nIt makes a big difference in a combat situation. You can freeze your fingers so cold that you can't even pull the trigger. Can't sit in an ambush either when you're freezing cold.\n\nIf you want to survive, you gotta toughen up your body. Try to take out a few enemies when you're cold."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: HealthBuff",
+      "value": 10,
+      "target": [
+        "Buffs_Frostbite"
+      ],
+      "targetNames": {
+        "Buffs_Frostbite": {
+          "zh": "Buffs_Frostbite",
+          "en": "Buffs_Frostbite"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d24b81486f77439c92d6ba8",
+      "name": {
+        "zh": "熟人",
+        "en": "Acquaintance"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67503219527c9a38e80496ae",
+      "name": {
+        "zh": "非法伐木",
+        "en": "Illegal Logging"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/676985ca623506dc1c0432ee.jpg",
+  "isKey": false
+}

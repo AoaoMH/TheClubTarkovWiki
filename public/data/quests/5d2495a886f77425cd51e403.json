@@ -1,0 +1,117 @@
+{
+  "id": "5d2495a886f77425cd51e403",
+  "name": {
+    "zh": "介绍",
+    "en": "Introduction"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Completion",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "TraderUnlock",
+      "target": "5c0647fdd443bc2504c2d371"
+    },
+    {
+      "type": "NotificationPopup"
+    }
+  ],
+  "description": {
+    "zh": "你来啦，我一直在等你。就在几小时前，我的老伙计Jaeger联系了我，告诉我他有很多有价值的情报。情报文件们被打包并加密了，就在Priozersky保护区里。至于具体的位置，Jaeger并没有明说，但是留下了一个线索：“去看看猎人会蹲守猎物的地方。”把那个包裹带给我。你会喜欢我给你的报酬的。",
+    "en": "Mercenary, come here, I've been waiting for you. Just a couple of hours ago, my old friend Jaeger got in touch with me and informed me that he had quite useful information for me. The package with the information I need is encrypted and is located in the Priozersk Natural Reserve area. Where exactly - Jaeger did not specify, but he left a clue: “Look where the hunter would wait for his prey. Where the iron bird has fallen”. Bring me this package and I'll introduce you to Jaeger, he'll definitely have work for you."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "huntsman_001",
+      "targetNames": {
+        "huntsman_001": {
+          "zh": "huntsman_001",
+          "en": "huntsman_001"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d3ec50586f774183a607442"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d3ec50586f774183a607442": {
+          "zh": "秘密信息包裹",
+          "en": "Encrypted message"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d3ec50586f774183a607442"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d3ec50586f774183a607442": {
+          "zh": "秘密信息包裹",
+          "en": "Encrypted message"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac23c6186f7741247042bad",
+      "name": {
+        "zh": "枪匠 - 1",
+        "en": "Gunsmith - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5d24b81486f77439c92d6ba8",
+      "name": {
+        "zh": "熟人",
+        "en": "Acquaintance"
+      }
+    },
+    {
+      "id": "6863cf925eaeb676d50a9651",
+      "name": {
+        "zh": "诺文斯克的朋友 - 第一部分",
+        "en": "Friend from Norvinsk - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d67b2a086f774131e206c05.jpg",
+  "isKey": false
+}

@@ -1,0 +1,83 @@
+{
+  "id": "68341a0b2f0e2a7eb90b62d4",
+  "name": {
+    "zh": "平衡之力 - 2 [PVE ZONE]",
+    "en": "Balancing - Part 2 [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 45,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 45
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6570aead4d84f81fd002a033",
+      "itemName": {
+        "zh": "Death Shadow轻量化防弹面罩",
+        "en": "Death Shadow lightweight armored mask"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "好了，现在是时候测试防弹衣了。这仅供清理队使用。让我们看看它在真正的雇佣兵面前表现如何。穿着这件PACA防弹衣去杀几个PMC。然后，我再看还能想出什么。",
+    "en": "Right, now it's time to test some body armor. This is for the cleanup crew only. Let's see how it holds up against real mercs. Try killing a few PMCs while wearing this PACA armor. After that, I'll see what else I can come up with."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 2,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68341846186efa3c5b07f989",
+      "name": {
+        "zh": "平衡之力 - 1 [PVE ZONE]",
+        "en": "Balancing - Part 1 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68341b407559f4e6d50bc0ce",
+      "name": {
+        "zh": "惊喜 [PVE区]",
+        "en": "Surprise [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562aaaa636bd24a654f416.png",
+  "isKey": false
+}

@@ -1,0 +1,125 @@
+{
+  "id": "669fa3a40c828825de06d6a1",
+  "name": {
+    "zh": "试驾 - 5",
+    "en": "Test Drive - Part 5"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 50000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 520000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 520000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57c44b372459772d2b39b8ce",
+      "itemName": {
+        "zh": "AS “巨浪” 9x39 特种突击步枪",
+        "en": "AS VAL 9x39 special assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65118f531b90b4fc77015083",
+      "itemName": {
+        "zh": "VSS/VAL 9x39 30发弹匣",
+        "en": "VSS/VAL 9x39 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "6489854673c462723909a14e",
+      "itemName": {
+        "zh": "9x39mm BP弹药包（20发装）",
+        "en": "9x39mm BP ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你来了，勇士！距离我们上一次测试枪械已经有好一阵了吧？\n\n我搞到了一把新枪，进口的家伙。轻量化、上手简单。这就是我们武器所缺少的优点。\n\n我们需要在近距离的场景下测试这位野兽，哈哈。说的就是工厂。让我知道结果如何。",
+    "en": "Here you are, warrior! It's been a while since you and I did some good old gun testing, huh?\n\nI got a new one, albeit imported. Lightweight, easy to handle. That's something our guns sometimes lack.\n\nWe need to test this beast in close quarters within kissing distance, hehe. Factory would be perfect for this. Let me know how it goes."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 50,
+      "location": "factory4_night,factory4_day",
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "6680304edadb7aa61d00cef0",
+        "668e71a8dadf42204c032ce1"
+      ],
+      "weaponNames": {
+        "6680304edadb7aa61d00cef0": {
+          "zh": "IWI UZI PRO Pistol 9x19冲锋枪",
+          "en": "IWI UZI PRO Pistol 9x19 submachine gun"
+        },
+        "668e71a8dadf42204c032ce1": {
+          "zh": "IWI UZI PRO SMG 9x19冲锋枪",
+          "en": "IWI UZI PRO SMG 9x19 submachine gun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6574e0dedc0d635f633a5805",
+      "name": {
+        "zh": "试驾 - 4",
+        "en": "Test Drive - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "675c1ff1a757ddd00404f0aa",
+      "name": {
+        "zh": "试驾 - 6",
+        "en": "Test Drive - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66acecef66265b5f5e0248fb.png",
+  "isKey": false
+}

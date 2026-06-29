@@ -1,0 +1,142 @@
+{
+  "id": "5d25e2b486f77409de05bba0",
+  "name": {
+    "zh": "猎人之路 - 周边安全",
+    "en": "The Huntsman Path - Secured Perimeter"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 37000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 37000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5af04b6486f774195a3ebb49",
+      "itemName": {
+        "zh": "Elite钳子",
+        "en": "Pliers Elite"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c2e1186f77425357b6124",
+      "itemName": {
+        "zh": "一套工具",
+        "en": "Toolset"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d40425986f7743185265461",
+      "itemName": {
+        "zh": "剪线钳",
+        "en": "Nippers"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e35cbb86f7741778269d83",
+      "itemName": {
+        "zh": "波纹软管",
+        "en": "Corrugated hose"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "好了，战士，现在是时候把塔科夫里的那些垃圾清扫出去了。你已经和我经历了不少事情，但是你还有很多东西要学。那么，就让我们从化学厂区开始吧？很多有用的东西都是从那里生产出来的，我曾在哪里做了半年的安保队长，直到Terragroup到来。自那以后，很多莫名其妙的屎尿屁相继迸出，我跟你说，他们放弃了生产清洁剂转而开始生产其他的某些东西，某些见不得人的东西。当秩序开始崩坏时，他们就离开了，然后那些掠夺者们就把工厂大卸八块，但是我依旧记得那里的每一个角落和缝隙。长话短说，这是个错误。所以我们得去教训一下这帮强盗。如果那里还有什么有用的东西，那一定就是在办公区里，你肯定能找到。让那些掠夺者不要再打那个地方的主意，至少暂时不要。",
+    "en": "Well, fighter, it's time to start cleaning Tarkov from all this trash. You and I have come a long way and you still have a lot to learn. Well then, let's start with the area of ​​the chemical plant? A lot of useful things were being produced there, I had been working there for half a year as the security chief until the TerraGroup arrived. Since then, weird shit started happening there, I'm telling you, they gave up on producing cleaners and went on for something different, something dark. And as the lawlessness began and they left, the marauders began tearing the factory apart. It's sad to see it like this, I still remember every nook and cranny there. Long story short, it’s wrong. So go teach the bandits a lesson. If something useful still remains there, it would definitely be in the office area, you won’t miss it. Make the looters forget the way there, at least for a while."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 6,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "location": "factory4_day,factory4_night"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5bc47dbf86f7741ee74e93b9",
+      "name": {
+        "zh": "塔科夫神射手 - 3",
+        "en": "The Tarkov Shooter - Part 3"
+      }
+    },
+    {
+      "id": "5d25cf2686f77443e75488d4",
+      "name": {
+        "zh": "生存者之路 - 硬汉",
+        "en": "The Survivalist Path - Tough Guy"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5d25e2c386f77443e7549029",
+      "name": {
+        "zh": "猎人之路 - 物资",
+        "en": "The Huntsman Path - Trophy"
+      }
+    },
+    {
+      "id": "5d25e2cc86f77443e47ae019",
+      "name": {
+        "zh": "猎人之路 - 杀戮森林",
+        "en": "The Huntsman Path - Forest Cleaning"
+      }
+    },
+    {
+      "id": "5d25e2ee86f77443e35162ea",
+      "name": {
+        "zh": "猎人之路 - 森林管理员",
+        "en": "The Huntsman Path - Woods Keeper"
+      }
+    },
+    {
+      "id": "5d25e45e86f77408251c4bfa",
+      "name": {
+        "zh": "猎人之路 - 蒸发密令 - 2",
+        "en": "The Huntsman Path - Eraser - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d763d4886f774454e50d06d.jpg",
+  "isKey": false
+}

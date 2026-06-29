@@ -1,0 +1,120 @@
+{
+  "id": "683425dd8f5b18d29a05d9d1",
+  "name": {
+    "zh": "夹缝求生 [PVE区]",
+    "en": "Between Two Fires [PVE ZONE]"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Completion",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.2
+    },
+    {
+      "type": "Item",
+      "value": 165000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 165000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "664a55d84a90fc2c8a6305c9",
+      "itemName": {
+        "zh": "Theta安全箱",
+        "en": "Secure container Theta"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "所以你看到了一具尸体。你搜了吗？你检查周围了吗？我只是指出你眼瞎了。那个冠军，据我所知，是写日记的。对，像个青少年似的，但这其实对你有好处。\n\n为什么不再去一次仔细看看呢？日记里肯定有更多关于Ref的信息，一些他的黑料。如果你想在竞技场停止被当作可牺牲品，就去做。\n\n还有一件事：如果你给我带来任何值得我花时间的Ref的信息，我会付你好价钱。",
+    "en": "So you saw a dead body. Did you search it? Did you check around it? I'm just pointing out that you're blind. The champion, as far as I know, kept a journal. Yeah, like some teenager, but that's actually working in your favor.\n\nWhy don't you go over there again and take a closer look? There's got to be more information in the journal about Ref, some dirt on him. Do that if you want to stop being expendable in the Arena.\n\nAnd one more thing: if you bring me any info on Ref that'll be worthy of my time, I'll pay you well."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "arena_champ_room",
+      "targetNames": {
+        "arena_champ_room": {
+          "zh": "arena_champ_room",
+          "en": "arena_champ_room"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "664fce7a90294949fe2d81cb"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "664fce7a90294949fe2d81cb": {
+          "zh": "裁判的黑料",
+          "en": "Ref dirt"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "664fce7a90294949fe2d81cb"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "664fce7a90294949fe2d81cb": {
+          "zh": "裁判的黑料",
+          "en": "Ref dirt"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68342446a8d674b5740b31fc",
+      "name": {
+        "zh": "违背良心 - 第二部分 [PVE区]",
+        "en": "Against the Conscience - Part 2 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6834254f2f0e2a7eb90b62ef",
+      "name": {
+        "zh": "两难抉择 [PVE区]",
+        "en": "Decisions, Decisions [PVE ZONE]"
+      }
+    },
+    {
+      "id": "683427418f5b18d29a05d9e3",
+      "name": {
+        "zh": "惊喜礼物",
+        "en": "Surprise Gift [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562bd4119b2147a07d0b37.png",
+  "isKey": false
+}

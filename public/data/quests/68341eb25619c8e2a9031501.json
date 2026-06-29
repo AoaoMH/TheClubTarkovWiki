@@ -1,0 +1,120 @@
+{
+  "id": "68341eb25619c8e2a9031501",
+  "name": {
+    "zh": "登高望远 - 第一部分 [PVE区]",
+    "en": "To Great Heights! - Part 1 [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Item",
+      "value": 75,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 75
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Experience",
+      "value": 5600
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章",
+        "en": "Lega Medal"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ce69cbad7f00c00b61c5098",
+      "itemName": {
+        "zh": "M700 7.62x51 Magpul PMAG AC 5发容量弹匣",
+        "en": "M700 7.62x51 Magpul PMAG AC 5-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "65702566bfc87b3a3409324d",
+      "itemName": {
+        "zh": "7.62x51TCW SP弹药包（20发装）",
+        "en": "7.62x51mm TCW SP ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "好好，你完成了你的第一次评估。我觉得差不多是时候一个新的竞技场冠军崛起了。那就是你。当然，是自愿的。我们这里不搞残酷，哈哈！\n\n我能帮你达到你无法想象的高度和财富。你只需要接受我的提议。但是，你知道的，行动胜于言语。所以去吧，进入竞技场并获胜。这样我就知道你准备好了继续向前。",
+    "en": "Well-well, you've finished your first assessment. I think it's right about time for a new champion of the Arena to rise. And it's going to be you. By consent, of course. We don't practice cruelty here, haha!\n\nI can help you reach heights and riches beyond your wildest dreams. You just have to take me up on my offer. But, you know, actions always trump words. So go ahead, enter the Arena and win. That's how I will know you're ready to push forward."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ArenaMatchPlace",
+      "value": 1,
+      "target": [
+        "CheckPoint",
+        "LastHero"
+      ],
+      "targetNames": {
+        "CheckPoint": {
+          "zh": "CheckPoint",
+          "en": "CheckPoint"
+        },
+        "LastHero": {
+          "zh": "LastHero",
+          "en": "LastHero"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68341846186efa3c5b07f989",
+      "name": {
+        "zh": "平衡之力 - 1 [PVE ZONE]",
+        "en": "Balancing - Part 1 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68341f6fe2e7ef70a3060a0a",
+      "name": {
+        "zh": "登高望远 - 第二部分 [PVE区]",
+        "en": "To Great Heights! - Part 2 [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562bb83e8d4075e2354446.png",
+  "isKey": false
+}

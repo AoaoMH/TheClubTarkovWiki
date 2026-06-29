@@ -1,0 +1,181 @@
+{
+  "id": "60e71dc67fcf9c556f325056",
+  "name": {
+    "zh": "酒瘾",
+    "en": "Booze"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 107000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c12688486f77426843c7d32",
+      "itemName": {
+        "zh": "尼龙绳索",
+        "en": "Paracord"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "59e366c186f7741778269d85",
+      "itemName": {
+        "zh": "有机玻璃片",
+        "en": "Piece of plexiglass"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "CustomizationDirect"
+    }
+  ],
+  "description": {
+    "zh": "老兄，欢迎回来！你说说，你觉得酒是个什么东西？我现在打算收集一些酒，但是我的伙计们到处翻遍了也找不到一滴酒。但是，你，长了个金手指，每次都能找到我需要的东西。总之，你愿不愿意帮我找点酒？事成之后我们畅饮一把！先从伏特加和威士忌开始吧。",
+    "en": "Welcome, brother! Say, how do you feel about booze? I've got an order for a large batch of alcohol. Just imagine, there's war going around, but people still drink... Anyway, I need it to be fresh, so make sure you find only the good stuff. You've got golden hands, always find everything I need. So what do you think, can you find me some grog? We'll have a good drink to success after! Some vodka and whiskey would be great for a start. Oh, and get some water canisters too. For the eventual hangover, you know."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 10,
+      "target": [
+        "5d40407c86f774318526545a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d40407c86f774318526545a": {
+          "zh": "Tarkovskaya瓶装伏特加",
+          "en": "Bottle of Tarkovskaya vodka"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 10,
+      "target": [
+        "5d403f9186f7743cac3f229b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d403f9186f7743cac3f229b": {
+          "zh": "Dan Jackiel瓶装威士忌",
+          "en": "Bottle of Dan Jackiel whiskey"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "5d1b33a686f7742523398398"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d1b33a686f7742523398398": {
+          "zh": "纯净水",
+          "en": "Canister with purified water"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 20,
+      "target": [
+        "62a09f32621468534a797acb"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "62a09f32621468534a797acb": {
+          "zh": "瓶装 Pevko 淡啤酒",
+          "en": "Bottle of Pevko Light beer"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 10,
+      "target": [
+        "5d40407c86f774318526545a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d40407c86f774318526545a": {
+          "zh": "Tarkovskaya瓶装伏特加",
+          "en": "Bottle of Tarkovskaya vodka"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 10,
+      "target": [
+        "5d403f9186f7743cac3f229b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d403f9186f7743cac3f229b": {
+          "zh": "Dan Jackiel瓶装威士忌",
+          "en": "Bottle of Dan Jackiel whiskey"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "5d1b33a686f7742523398398"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d1b33a686f7742523398398": {
+          "zh": "纯净水",
+          "en": "Canister with purified water"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 20,
+      "target": [
+        "62a09f32621468534a797acb"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "62a09f32621468534a797acb": {
+          "zh": "瓶装 Pevko 淡啤酒",
+          "en": "Bottle of Pevko Light beer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "60e71dc0a94be721b065bbfc",
+      "name": {
+        "zh": "长期合作",
+        "en": "Long Line"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/59c1285d86f77415042983dd.jpg",
+  "isKey": false
+}

@@ -1,0 +1,118 @@
+{
+  "id": "597a0f5686f774273b74f676",
+  "name": {
+    "zh": "化学品 - 4",
+    "en": "Chemical - Part 4"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e2af55f86f7746d4159f07c",
+      "itemName": {
+        "zh": "手榴弹箱",
+        "en": "Grenade case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "事情是这样的。这桩化学品交易实在是太神奇了，我们一下就弄明白了应该交给谁。现在接收方已经准备好了，只剩下一个问题要解决：找到更多的这种黄色化学物质。这个问题的关键在之前已经部分解决了——有人已经尝试过了。不知道他们是有意还是无意，但是如果你觉得从同一份文档里找到的寄售票据可信，那么这表明已经有人试过把一整箱的那玩意从工厂里带出来。但是这些货物没有在任何一个检查站登记过，所以我觉得还值得在工厂里继续找找。不只是一个破注射器，那可是一整箱。找找某种标记，也许箱子上应该有。明白了吗？还有一件事。我的小甜甜Prapor和Therapist好像也察觉到了，他们一直在到处打探，拜托你千万别在这时候跟我耍两面派。就这一点活，干完之后，我们就能掌管这个地方了。祝你好运，兄弟。我会向Ragman提起你的——他会给你搞些头盔给你买，很不错的那种。",
+    "en": "Here’s the thing. This whole chemical stuff worked like a charm, and it immediately became clear who do we push it to. And the receiving party is ready. Only one issue left to resolve. Find more of these yellow chemicals. The crux of the issue was partly resolved before us - someone has already tried. Don't know, intentionally or not, but if you believe the consignment notes from the same docs, the whole box of that stuff was already tried to be taken out from the factory. But this cargo was not logged on any of the checkpoints, so I figure it’s worth looking for somewhere in the warehouses on Customs. If they tried to transport it, then it's most likely still in the car, probably a van. And not just one lousy syringe, but a whole crate. Look out for some markings maybe, the crate has them. Got it? Ah, one more thing. My sweet friends Prapor and Therapist popped up, poking around. So come on, better not turncoat now. Just a bit more and we’ll be running this place. Good luck, bruv. I'll tell about you to Ragman - he'll get some good helmets for you to buy."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "gazel",
+      "targetNames": {
+        "gazel": {
+          "zh": "gazel",
+          "en": "gazel"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "597a0e5786f77426d66c0636",
+      "name": {
+        "zh": "化学品 - 3",
+        "en": "Chemical - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "597a160786f77477531d39d2",
+      "name": {
+        "zh": "出于好奇",
+        "en": "Out of Curiosity"
+      }
+    },
+    {
+      "id": "597a171586f77405ba6887d3",
+      "name": {
+        "zh": "大客户",
+        "en": "Big Customer"
+      }
+    },
+    {
+      "id": "59c93e8e86f7742a406989c4",
+      "name": {
+        "zh": "收买人心",
+        "en": "Loyalty Buyout"
+      }
+    },
+    {
+      "id": "6089743983426423753cd58a",
+      "name": {
+        "zh": "安全通道",
+        "en": "Safe Corridor"
+      }
+    },
+    {
+      "id": "625d6ff5ddc94657c21a1625",
+      "name": {
+        "zh": "网络供应商 - 1",
+        "en": "Network Provider - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5998365786f7745cb22fea42.jpg",
+  "isKey": false
+}

@@ -1,0 +1,96 @@
+{
+  "id": "6740b60c60a98cad1b0e0aa0",
+  "name": {
+    "zh": "再次延误",
+    "en": "Another Shipping Delay"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Discover",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12800
+    },
+    {
+      "type": "Item",
+      "value": 67000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 67000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b5f693acff495a294927e3",
+      "itemName": {
+        "zh": "Peltor ComTac V耳机（橄榄绿）",
+        "en": "Peltor ComTac V headset (OD Green)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，好兄弟！你是说那个 BTR 司机想要脱离 Skier 的帮派档案？太棒了，这样的运力来多少都不嫌多。但你肯定也知道 Skier 不会对我们撬他的墙角感到太开心，对吧？如果冒冒失失的去当好人，搞不好我的生意也要被搞砸的。无论如何，我得仔细权衡一下、考虑对策。\n\n不过你可以让这份交易更有说服力一点。现在我有点要紧的事情得处理：我派出去的送货的一组人失踪了，他们早就该回来了，却莫名其妙地音信全无了。帮我出去打探打探，找到任何消息记得第一时间回来告诉我。",
+    "en": "Hey, brother! You say the BTR driver wants to leave Skier's gang? You know, that kind of transport would be good for my trade. But you do realize Skier won't appreciate such a move, and it's a risk to my business. Anyway, it's a lot to think about and weigh.\n\nThough, you can make the driver's offer more convincing. I got some urgent business to take care of. I lost contact with one of my crews. The guys were running a delivery and they were supposed to be back by now. Return to me if you find any sign of them."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: VisitPlace",
+      "value": 1,
+      "target": "Lost_caravan",
+      "targetNames": {
+        "Lost_caravan": {
+          "zh": "Lost_caravan",
+          "en": "Lost_caravan"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Woods"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6740a02a69a58fceba0ff399",
+      "name": {
+        "zh": "自然交换",
+        "en": "Natural Exchange"
+      }
+    },
+    {
+      "id": "673f6027352b4da8e00322d2",
+      "name": {
+        "zh": "必然回应",
+        "en": "Inevitable Response"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674492b6909d2013670a347a",
+      "name": {
+        "zh": "投石问路",
+        "en": "Ask for Directions"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

@@ -1,0 +1,122 @@
+{
+  "id": "64ee99639878a0569d6ec8c9",
+  "name": {
+    "zh": "直播 - 5",
+    "en": "Broadcast - Part 5"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 24000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c501a4d2e221602b412b540",
+      "itemName": {
+        "zh": "Vepr Hunter/VPO-101 7.62x51卡宾枪",
+        "en": "Molot Arms VPO-101 Vepr-Hunter 7.62x51 carbine"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6570254fcfc010a0f5006a22",
+      "itemName": {
+        "zh": "7.62x51 M61弹药包（20发装）",
+        "en": "7.62x51mm M61 ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "63fc44e2429a8a166c7f61e6",
+      "itemName": {
+        "zh": "Armasight Zeus-Pro 640 2-16x50热成像瞄准镜",
+        "en": "Armasight Zeus-Pro 640 2-8x50 30Hz thermal scope"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好了，是时候开展下一步了。现在我们知道，邪教徒和这件事有关系。你要让他们开口说话！让他们揭开自己的面纱，做点什么让他们知道我们想要干什么。杀掉其中一个人，比如说他们的头头之一。可别想着在城区里找到他们，不可能的。但是我们要把战利品放在那里，让他们明白我们的意思。我听说这些人有了新的仪式地点。去这里看看。",
+    "en": "All right, it's time to take the next step. We now know the Hoods are involved in this case. You get them talking! Force them to reveal themselves, you gotta do something that lets them know we're not messing around. Kill one of them, maybe one of their higher-ups. Don't even try finding them in the city though, it's impossible. But we do need to hide the trophy there, so that they get the hint. I hear these nutcases have a new ritual point. Try there, kid."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest"
+      ]
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_find_2st_mech",
+      "targetNames": {
+        "quest_zone_find_2st_mech": {
+          "zh": "quest_zone_find_2st_mech",
+          "en": "quest_zone_find_2st_mech"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5fc64ea372b0dd78d51159dc"
+      ],
+      "targetNames": {
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6391372c8ba6894d155e77d7",
+      "name": {
+        "zh": "直播 - 4",
+        "en": "Broadcast - Part 4"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/64f8b9f657e97a76237203b1.jpg",
+  "isKey": false
+}

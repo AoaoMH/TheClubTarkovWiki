@@ -1,0 +1,96 @@
+{
+  "id": "665eeca92f7aedcc900b0437",
+  "name": {
+    "zh": "口干舌燥 - 秘密配方",
+    "en": "Thirsty - Secrets"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "66507eabf5ddb0818b085b68",
+      "itemName": {
+        "zh": "2A2-(b-TG)兴奋剂注射器",
+        "en": "2A2-(b-TG) stimulant injector"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊。我设法从你之前带来的日志中提炼出了一些只言片语，是关于某种药物的配方。笔记的前主人经常使用它，应该是某种战斗用兴奋剂，你可能会感兴趣的。\n\n如果你能找来制造原料、帮我测试一下它的效用的话，我可以提供几份样品。这里是所需材料的清单。",
+    "en": "Hello again. I was able to extract some scraps of information about a certain drug from the diary you brought. The owner of the diary used it frequently. It's some sort of combat stimulant, I think you might be interested in it.\n\nI can provide you with samples if you help me reproduce and test it. Here's a list of the items you'll need."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5c10c8fd86f7743d7d706df3"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c10c8fd86f7743d7d706df3": {
+          "zh": "肾上腺素注射器",
+          "en": "Adrenaline injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "62a0a043cf4a99369e2624a5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "62a0a043cf4a99369e2624a5": {
+          "zh": "OLOLO瓶装复合维生素",
+          "en": "Bottle of OLOLO Multivitamins"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "59e3606886f77417674759a5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e3606886f77417674759a5": {
+          "zh": "盐水溶液",
+          "en": "Bottle of saline solution"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "665eeca45d86b6c8aa03c79d",
+      "name": {
+        "zh": "口干舌燥 - 往日回响",
+        "en": "Thirsty - Echo"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/66697bad697860104100080b.png",
+  "isKey": false
+}

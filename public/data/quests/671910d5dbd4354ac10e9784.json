@@ -1,0 +1,87 @@
+{
+  "id": "671910d5dbd4354ac10e9784",
+  "name": {
+    "zh": "保护区",
+    "en": "Conservation Area"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 40000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 200000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 200000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d1b33a686f7742523398398",
+      "itemName": {
+        "zh": "纯净水",
+        "en": "Canister with purified water"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "又见面了。还壮实吗？好吧，保持住。我们短期内不会有太多休息。\n\n不管这病的治疗进展如何，全城还有很多病患！这就是为什么我再次请求你的支援。\n\n我们的森林里看到了感染者，我们不能视而不见。如果病毒残留在土壤里怎么办？我们就留下这个吗？\n\n我们不能让它们在自然保护区游荡，必须赶走它们。试试在夜间狩猎，看看它们的行为……这可能让事情变得容易些。",
+    "en": "Hello again. Still feeling strong? Well, keep it that way. We're not going to get much rest any time soon.\n\nWhatever's going on with the treatment of this disease, there's still a lot of sick people all over the city! That's why I once again ask for your support.\n\nThe infected have been seen in our forest, and we can't let that go unnoticed. What if this virus stays in the soil? Is this what we'd leave behind?\n\nWe can't let them roam the nature reserve, we have to drive them away. Try hunting them at night and see how they behave... It might make things easier."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 40,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "infectedAssault",
+        "infectedCivil",
+        "infectedLaborant",
+        "infectedPmc",
+        "infectedTagilla"
+      ],
+      "daytime": {
+        "from": 21,
+        "to": 4
+      },
+      "location": "Woods"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "670404a2ea1caa8f2e0be106",
+      "name": {
+        "zh": "Don’t Believe Your Eyes",
+        "en": "Don’t Believe Your Eyes"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/671f917adcb78e551e06b63a.jpg",
+  "isKey": false
+}

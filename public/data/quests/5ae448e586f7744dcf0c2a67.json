@@ -1,0 +1,158 @@
+{
+  "id": "5ae448e586f7744dcf0c2a67",
+  "name": {
+    "zh": "大甩卖",
+    "en": "Big Sale"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Exploration",
+  "location": "5714dbc024597771384a510d",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d5d940f86f7742797262046",
+      "itemName": {
+        "zh": "Oakley Mechanism重型背包 Black",
+        "en": "Oakley Mechanism heavy duty backpack (Black)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你知道么，兄弟，我跟你说，针头线脑总是有价值的。不管在没在打仗，人们还是会买这些的。Ultra有很多品牌店，曾经被大家疯狂追捧的，我觉得我可以借用一下那儿的东西。去那里快速搜一圈，看看还是不是还有没被席卷一空的。记住不要搞些垃圾货色回来，我这儿只要名牌货。",
+    "en": "You know, brother, I'll tell you what, clothes will always be of value. War or no war, people still buy that stuff. Ultra had a bunch of brand outlets, the ones folks used to hype on, and I could use the things from there now. Do a quick sweep, check if there is anything left if they’re not thrashed yet. Don't worry, I'm not asking you to loot any clothes, I just want you to check if there's anything left in the stores, we will figure everything out later. Just don’t go about rummaging through trash, remember, brand stuff only."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_SALE_03_AVOKADO",
+      "targetNames": {
+        "place_SALE_03_AVOKADO": {
+          "zh": "place_SALE_03_AVOKADO",
+          "en": "place_SALE_03_AVOKADO"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_SALE_03_KOSTIN",
+      "targetNames": {
+        "place_SALE_03_KOSTIN": {
+          "zh": "place_SALE_03_KOSTIN",
+          "en": "place_SALE_03_KOSTIN"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_SALE_03_TREND",
+      "targetNames": {
+        "place_SALE_03_TREND": {
+          "zh": "place_SALE_03_TREND",
+          "en": "place_SALE_03_TREND"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_SALE_03_DINO",
+      "targetNames": {
+        "place_SALE_03_DINO": {
+          "zh": "place_SALE_03_DINO",
+          "en": "place_SALE_03_DINO"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_SALE_03_TOPBRAND",
+      "targetNames": {
+        "place_SALE_03_TOPBRAND": {
+          "zh": "place_SALE_03_TOPBRAND",
+          "en": "place_SALE_03_TOPBRAND"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Interchange"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae448a386f7744d3730fff0",
+      "name": {
+        "zh": "生意至上",
+        "en": "Only Business"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae448f286f77448d73c0131",
+      "name": {
+        "zh": "战争之血 - 1",
+        "en": "The Blood of War - Part 1"
+      }
+    },
+    {
+      "id": "5ae4493486f7744efa289417",
+      "name": {
+        "zh": "数据库 - 1",
+        "en": "Database - Part 1"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "65802b627b44fa5e14638899",
+      "name": {
+        "zh": "绝不上当",
+        "en": "Nothing Fishy About This"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a76086f774455f7d62d2.jpg",
+  "isKey": false
+}

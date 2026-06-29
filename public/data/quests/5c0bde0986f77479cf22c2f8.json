@@ -1,0 +1,682 @@
+{
+  "id": "5c0bde0986f77479cf22c2f8",
+  "name": {
+    "zh": "天神射手",
+    "en": "A Shooter Born in Heaven"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 150000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 150000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6176aca650224f204c1da3fb",
+      "itemName": {
+        "zh": "HK G28 7.62x51 精确射手步枪",
+        "en": "HK G28 7.62x51 marksman rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "617131a4568c120fdd29482d",
+      "itemName": {
+        "zh": "HK417/G28 7.62x51 20发弹匣",
+        "en": "HK417/G28 7.62x51 20-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "648984e3f09d032aa9399d53",
+      "itemName": {
+        "zh": "7.62x51mm M993弹药包（20发装）",
+        "en": "7.62x51mm M993 ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6176aca650224f204c1da3fb",
+      "itemName": {
+        "zh": "HK G28 7.62x51 精确射手步枪",
+        "en": "HK G28 7.62x51 marksman rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c127c4486f7745625356c13",
+      "itemName": {
+        "zh": "弹匣箱",
+        "en": "Magazine case"
+      }
+    },
+    {
+      "type": "Skill",
+      "target": "Sniper",
+      "value": 500
+    }
+  ],
+  "description": {
+    "zh": "你知道专家和业余爱好者的区别在哪里吗？以正确的方式达成目标的能力。举个例子，在不常见的情况下，在一个常人不能及的距离上做掉几个能干的战士……重要的不只是枪械和配件的选择，还有其他因素。就这样，我想看看你到底有多少能耐。",
+    "en": "Do you know what is the difference between a professional and an amateur? It is the ability to approach the task from the right angle. For example, taking out a few capable fighters in non-standard situations... What's important here is not only the right weapons and mods but other factors too. So, Dima and I want to see who you really are."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "627e14b21713922ded6f2c15",
+        "5ae08f0a5acfc408fb1398a1",
+        "55801eed4bdc2d89578b4588",
+        "588892092459774ac91d4b11",
+        "5df24cf80dee1b22f862e9bc",
+        "5bfea6e90db834001b7347f3",
+        "61f7c9e189e6fb1a5e3ea78d",
+        "5bfd297f0db834001a669119",
+        "5de652c31b7e3716273428be",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        },
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        },
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "61f7c9e189e6fb1a5e3ea78d": {
+          "zh": "MP-18 7.62x54R单发步枪",
+          "en": "MP-18 7.62x54R single-shot rifle"
+        },
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      },
+      "bodyParts": [
+        "Head"
+      ],
+      "location": "Woods"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "627e14b21713922ded6f2c15",
+        "5ae08f0a5acfc408fb1398a1",
+        "55801eed4bdc2d89578b4588",
+        "588892092459774ac91d4b11",
+        "5df24cf80dee1b22f862e9bc",
+        "5bfea6e90db834001b7347f3",
+        "61f7c9e189e6fb1a5e3ea78d",
+        "5bfd297f0db834001a669119",
+        "5de652c31b7e3716273428be",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        },
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        },
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "61f7c9e189e6fb1a5e3ea78d": {
+          "zh": "MP-18 7.62x54R单发步枪",
+          "en": "MP-18 7.62x54R single-shot rifle"
+        },
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      },
+      "bodyParts": [
+        "Head"
+      ],
+      "location": "RezervBase"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "627e14b21713922ded6f2c15",
+        "5ae08f0a5acfc408fb1398a1",
+        "55801eed4bdc2d89578b4588",
+        "588892092459774ac91d4b11",
+        "5df24cf80dee1b22f862e9bc",
+        "5bfea6e90db834001b7347f3",
+        "61f7c9e189e6fb1a5e3ea78d",
+        "5bfd297f0db834001a669119",
+        "5de652c31b7e3716273428be",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        },
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        },
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "61f7c9e189e6fb1a5e3ea78d": {
+          "zh": "MP-18 7.62x54R单发步枪",
+          "en": "MP-18 7.62x54R single-shot rifle"
+        },
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      },
+      "bodyParts": [
+        "Head"
+      ],
+      "location": "Shoreline"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "627e14b21713922ded6f2c15",
+        "5ae08f0a5acfc408fb1398a1",
+        "55801eed4bdc2d89578b4588",
+        "588892092459774ac91d4b11",
+        "5df24cf80dee1b22f862e9bc",
+        "5bfea6e90db834001b7347f3",
+        "61f7c9e189e6fb1a5e3ea78d",
+        "5bfd297f0db834001a669119",
+        "5de652c31b7e3716273428be",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        },
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        },
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "61f7c9e189e6fb1a5e3ea78d": {
+          "zh": "MP-18 7.62x54R单发步枪",
+          "en": "MP-18 7.62x54R single-shot rifle"
+        },
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      },
+      "bodyParts": [
+        "Head"
+      ],
+      "location": "bigmap"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "627e14b21713922ded6f2c15",
+        "5ae08f0a5acfc408fb1398a1",
+        "55801eed4bdc2d89578b4588",
+        "588892092459774ac91d4b11",
+        "5df24cf80dee1b22f862e9bc",
+        "5bfea6e90db834001b7347f3",
+        "61f7c9e189e6fb1a5e3ea78d",
+        "5bfd297f0db834001a669119",
+        "5de652c31b7e3716273428be",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        },
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        },
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "61f7c9e189e6fb1a5e3ea78d": {
+          "zh": "MP-18 7.62x54R单发步枪",
+          "en": "MP-18 7.62x54R single-shot rifle"
+        },
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      },
+      "bodyParts": [
+        "Head"
+      ],
+      "location": "Lighthouse"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "627e14b21713922ded6f2c15",
+        "5ae08f0a5acfc408fb1398a1",
+        "55801eed4bdc2d89578b4588",
+        "588892092459774ac91d4b11",
+        "5df24cf80dee1b22f862e9bc",
+        "5bfea6e90db834001b7347f3",
+        "61f7c9e189e6fb1a5e3ea78d",
+        "5bfd297f0db834001a669119",
+        "5de652c31b7e3716273428be",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        },
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        },
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "61f7c9e189e6fb1a5e3ea78d": {
+          "zh": "MP-18 7.62x54R单发步枪",
+          "en": "MP-18 7.62x54R single-shot rifle"
+        },
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      },
+      "bodyParts": [
+        "Head"
+      ],
+      "location": "TarkovStreets"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "627e14b21713922ded6f2c15",
+        "5ae08f0a5acfc408fb1398a1",
+        "55801eed4bdc2d89578b4588",
+        "588892092459774ac91d4b11",
+        "5df24cf80dee1b22f862e9bc",
+        "5bfea6e90db834001b7347f3",
+        "61f7c9e189e6fb1a5e3ea78d",
+        "5bfd297f0db834001a669119",
+        "5de652c31b7e3716273428be",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        },
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        },
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "61f7c9e189e6fb1a5e3ea78d": {
+          "zh": "MP-18 7.62x54R单发步枪",
+          "en": "MP-18 7.62x54R single-shot rifle"
+        },
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      },
+      "bodyParts": [
+        "Head"
+      ],
+      "location": "Interchange"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "627e14b21713922ded6f2c15",
+        "5ae08f0a5acfc408fb1398a1",
+        "588892092459774ac91d4b11",
+        "5df24cf80dee1b22f862e9bc",
+        "5bfea6e90db834001b7347f3",
+        "61f7c9e189e6fb1a5e3ea78d",
+        "5bfd297f0db834001a669119",
+        "5de652c31b7e3716273428be",
+        "55801eed4bdc2d89578b4588",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        },
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "61f7c9e189e6fb1a5e3ea78d": {
+          "zh": "MP-18 7.62x54R单发步枪",
+          "en": "MP-18 7.62x54R single-shot rifle"
+        },
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      },
+      "bodyParts": [
+        "Head"
+      ],
+      "location": "Sandbox,Sandbox_high"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3462b86f7741d6118b983",
+      "name": {
+        "zh": "挖矿 - 3",
+        "en": "Farming - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27cafa86f77424e20615d6.jpg",
+  "isKey": false
+}

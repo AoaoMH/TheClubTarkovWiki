@@ -1,0 +1,236 @@
+{
+  "id": "5b4794cb86f774598100d5d4",
+  "name": {
+    "zh": "租借法案 - 1",
+    "en": "Lend-Lease - Part 1"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 3000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 3000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c066e3a0db834001b7353f0",
+      "itemName": {
+        "zh": "Armasight N-15夜视仪",
+        "en": "Armasight N-15 night vision goggles"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5df24cf80dee1b22f862e9bc",
+      "itemName": {
+        "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+        "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，你，过来，有一笔大买卖给你！你大概已经听说了有一对外国的无人机坠落在这片区域了？有买家叫我从上面回收点东西，控制器什么的。我不知道那是什么，说实话我也根本不他妈在乎，只知道他们会付给我一大笔花花绿绿的钞票就行了，显然他们很不希望我们国内的科技储备有所增长。这些无人机可能已经摔地四分五裂了，但是仍然值得一看。\n\n记住，在USEC们失去和上级的联系之前，他们就已经接到命令要去检查这些无人机，并且从被遗弃的俄罗斯车辆上回收陀螺仪。你需要去搜索那些他们曾经逗留过的地方。他妈的为资本家工作真是让人良心不安，但是他们付的钱足够遮住我的一颗爱国心。",
+    "en": "Hey, get over here, I have a big deal! You have probably heard already that there are a couple of foreign drones downed in the area? Good people have asked me to salvage something for them, controllers or whatnot. I don’t know what that is, I, frankly, I don’t give a fuck, all I know is that they’re paying some good crispy green and obviously don’t want our domestic tech pool expansion. These drones are most likely already pulled apart, but it’s still worth a look. Keep in mind, that before they lost contact with command, USECs received an order to check up the drones and fetch the gyros from the abandoned Russian military vehicles. You need to search the places where they used to hang out. I know it’s fucked up to work for them capitalists, but such a pile of cash is stronger than my patriotism. I know the USECs were hanging around Shoreline in that Health Resort - they had a base there in both wings, so they most likely stashed the cargo there. Just in case, check the areas around the UAVs, they might've forgot something there. People have also seen USECs in the natural reserve, they were driving black SUVs near the sawmill. Well, you've got the overall idea, so figure it out yourself."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5af04c0b86f774138708f78e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5af04c0b86f774138708f78e": {
+          "zh": "电机控制器1",
+          "en": "Motor Controller #1"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5af04c0b86f774138708f78e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5af04c0b86f774138708f78e": {
+          "zh": "电机控制器1",
+          "en": "Motor Controller #1"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5b4c72b386f7745b453af9c0"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b4c72b386f7745b453af9c0": {
+          "zh": "电机控制器2",
+          "en": "Motor Controller #2"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5b4c72b386f7745b453af9c0"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b4c72b386f7745b453af9c0": {
+          "zh": "电机控制器2",
+          "en": "Motor Controller #2"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5b4c72c686f77462ac37e907"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b4c72c686f77462ac37e907": {
+          "zh": "电机控制器3",
+          "en": "Motor Controller #3"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5b4c72c686f77462ac37e907"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b4c72c686f77462ac37e907": {
+          "zh": "电机控制器3",
+          "en": "Motor Controller #3"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5af04e0a86f7743a532b79e2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5af04e0a86f7743a532b79e2": {
+          "zh": "单轴光纤陀螺仪1",
+          "en": "Single-axis Fiber Optic Gyroscope #1"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5af04e0a86f7743a532b79e2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5af04e0a86f7743a532b79e2": {
+          "zh": "单轴光纤陀螺仪1",
+          "en": "Single-axis Fiber Optic Gyroscope #1"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5b4c72fb86f7745cef1cffc5"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b4c72fb86f7745cef1cffc5": {
+          "zh": "单轴光纤陀螺仪2",
+          "en": "Single-axis Fiber Optic Gyroscope #2"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5b4c72fb86f7745cef1cffc5"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5b4c72fb86f7745cef1cffc5": {
+          "zh": "单轴光纤陀螺仪2",
+          "en": "Single-axis Fiber Optic Gyroscope #2"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27d2af86f7744e1115b323",
+      "name": {
+        "zh": "西方来客 - 2",
+        "en": "Friend From the West - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c0d0f1886f77457b8210226",
+      "name": {
+        "zh": "租借法案 - 2",
+        "en": "Lend-Lease - Part 2"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+  "isKey": false
+}

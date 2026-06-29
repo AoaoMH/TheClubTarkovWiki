@@ -1,0 +1,162 @@
+{
+  "id": "67a09724972c11a3f5077324",
+  "name": {
+    "zh": "机密情报",
+    "en": "Confidential Info"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "6733700029c367a3d40b02af",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1600,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1600
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c05300686f7746dce784e5d",
+      "itemName": {
+        "zh": "VPX闪存模块",
+        "en": "VPX Flash Storage Module"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c392f86f77444754deb29",
+      "itemName": {
+        "zh": "固态硬盘",
+        "en": "SSD drive"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c37d286f77443be3d7827",
+      "itemName": {
+        "zh": "串口硬盘",
+        "en": "SAS drive"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "679b946f90622daf9708da6d",
+      "itemName": {
+        "zh": "“最后时刻”海报",
+        "en": "Final Moment poster"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，朋友。根据我掌握的情况，你进入了 TerraGroup 的一处废弃设施。我们曾多次目睹危险技术落入错误之人手中所造成的灾难，而我的合作伙伴对于实验室危机爆发后塔科夫的现状深感担忧。\n\n我们绝不能让这样的危机再次发生。因此我给你安排了一项高优先级任务。我需要从那个设施里取出一个装有敏感信息的存储设备。具体细节是绝密内容，你不需要知道。客户能够截获到任何尝试私下读取数据的行为并立刻取消合同，所以请不要尝试。\n\n除了存储设备，我还被告知设施内有一间维修室，根据客户的描述，那个地方看起来就像是一个组装车间。维修室内的设备必须被彻底摧毁或至少造成不可逆损坏。但请谨慎使用爆炸物，我们不希望你带着那个宝贵的储存设备一起被埋在地底。",
+    "en": "Greetings, my friend. According to my information, you've gained access to one of TerraGroup's abandoned facilities. We've witnessed many times what happens when dangerous developments fall into the hands of unqualified people. Our partners are very concerned about what happened in Tarkov after that outbreak in the Laboratory.\n\nThere's no way we're going to let this crisis happen again. That's why I have a high-priority assignment for you. I need to retrieve a storage device containing sensitive information from that facility. The details are highly classified. The client can trace an independent attempt to read the data and cancel the contract, so please do not even attempt it.\n\nIn addition to the storage device, I was told that there is also a maintenance room on the site, the client has said that it should look like a workshop. It must be destroyed or at least damaged. But be careful with the explosives: we don't want you perishing with the storage device."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "679b9aa490622daf9708da73"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679b9aa490622daf9708da73": {
+          "zh": "标有 #3 组的 VPX 闪存模块",
+          "en": "VPX Flash Storage Module marked Group #3"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "66dae7cbeb28f0f96809f325",
+        "5e340dcdcb6d5863cc5e5efb",
+        "5e32f56fcb6d5863cc5e5ee4",
+        "58d3db5386f77426186285a0",
+        "5710c24ad2720bc3458b45a3",
+        "5448be9a4bdc2dfd2f8b456a"
+      ],
+      "targetNames": {
+        "66dae7cbeb28f0f96809f325": {
+          "zh": "V40 微型手榴弹",
+          "en": "V40 Mini-Grenade"
+        },
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        },
+        "5e32f56fcb6d5863cc5e5ee4": {
+          "zh": "VOG-17 Khattabka 简易手榴弹",
+          "en": "VOG-17 Khattabka improvised hand grenade"
+        },
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        },
+        "5710c24ad2720bc3458b45a3": {
+          "zh": "F-1手榴弹",
+          "en": "F-1 hand grenade"
+        },
+        "5448be9a4bdc2dfd2f8b456a": {
+          "zh": "RGD-5手榴弹",
+          "en": "RGD-5 hand grenade"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "679b9aa490622daf9708da73"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679b9aa490622daf9708da73": {
+          "zh": "标有 #3 组的 VPX 闪存模块",
+          "en": "VPX Flash Storage Module marked Group #3"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a0970744893b9f3f0d9b68",
+      "name": {
+        "zh": "武装侦察",
+        "en": "Offensive Reconnaissance"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/67e3d47ab844364504003c4e.jpg",
+  "isKey": false
+}

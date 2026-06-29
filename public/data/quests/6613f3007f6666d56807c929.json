@@ -1,0 +1,83 @@
+{
+  "id": "6613f3007f6666d56807c929",
+  "name": {
+    "zh": "涓滴效应 - 1",
+    "en": "Drip-Out - Part 1"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [],
+  "description": {
+    "zh": "嘿哟，兄弟。我有件事要请你帮忙。所以是这样，我找到机会开了一条全新的生产线，但总有些疯狗在不该把狗鼻子伸进去的地方疯狂狗叫，结果就是我本来要拿去卖的商品全被这些刺头抢走了，现在已经散遍整个塔科夫根本没法追回来了。大兄弟，帮我这一把好吗？",
+    "en": "Heyo, brother. Got a new job for you. So, I've got an opportunity to open a new production line, but the problem is that some hustlers are hustling where they shouldn't hustle, and all the supplies I wanted to put into circulation have been scattered all over the city because of those pricks. Help me out, big guy?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 100,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ]
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 50,
+      "target": [
+        "64a536392d2c4e6e970f4121",
+        "5ca20d5986f774331e7c9602",
+        "5c0e746986f7741453628fe5",
+        "5ab8dab586f77441cd04f2a2",
+        "59e7643b86f7742cbf2c109a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "64a536392d2c4e6e970f4121": {
+          "zh": "WARTECH TV-115 插板胸挂（橄榄绿）",
+          "en": "WARTECH TV-115 plate carrier (Olive Drab)"
+        },
+        "5ca20d5986f774331e7c9602": {
+          "zh": "WARTECH 金雕 BB-102 背包 (A-TACS FG 迷彩)",
+          "en": "WARTECH Berkut BB-102 backpack (A-TACS FG)"
+        },
+        "5c0e746986f7741453628fe5": {
+          "zh": "WARTECH TV-110 插板胸挂（灰褐色）",
+          "en": "WARTECH TV-110 plate carrier (Coyote)"
+        },
+        "5ab8dab586f77441cd04f2a2": {
+          "zh": "Wartech MK3胸挂（TV-104）",
+          "en": "WARTECH MK3 TV-104 chest rig (MultiCam)"
+        },
+        "59e7643b86f7742cbf2c109a": {
+          "zh": "WARTECH TV-109 + TV-106 胸挂（A-TACS 橄榄绿迷彩）",
+          "en": "WARTECH TV-109 + TV-106 chest rig (A-TACS FG)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b478d0f86f7744d190d91b5",
+      "name": {
+        "zh": "微型客车",
+        "en": "Minibus"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

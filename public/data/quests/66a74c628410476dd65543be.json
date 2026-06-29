@@ -1,0 +1,106 @@
+{
+  "id": "66a74c628410476dd65543be",
+  "name": {
+    "zh": "枪匠 - 特殊订单",
+    "en": "Gunsmith - Special Order"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6570265f1419851aef03e739",
+      "itemName": {
+        "zh": "100发5.56x45 M995盒装弹药",
+        "en": "5.56x45mm M995 ammo pack (100 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59faff1d86f7746c51718c9c",
+      "itemName": {
+        "zh": "实体比特币",
+        "en": "Physical Bitcoin"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "你好啊，朋友。最近的事情有点棘手。我今天起需要临时对商品涨价，直到一些情况得到解决。我的一位雇佣兵朋友打算组织一个突袭实验室的队伍，他需要可靠的武器。你能帮我吗？我知道你和我一样精通AR系统，这件事情非你莫属了。我需要一把后坐力之和不超过300的M4A1，人机功效也不能低于70。我知道这不容易。对了，还要有EOTech XPS 3-0全系瞄具，我的这位客户不接受任何其他的瞄具。",
+    "en": "Hello, friend. Things have been a little bumpy for me lately. I will be temporarily raising the prices of my products and services from today until I can solve some pressing matters. A mercenary friend of mine is putting together a team to raid the underground lab, and he needs reliable firepower. Can you help? I see you know as much about the ARs as I do, so I thought I'd entrust this to you. I need an M4A1 with no more than 300 total recoil and ergonomics no less than 70. Not easy, I know. Now, be sure to put an EOTech XPS 3-0 on it, since the client refuses to use any other scope."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5447a9cd4bdc2dbd208b4567"
+      ],
+      "targetNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 70
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 300
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        }
+      ],
+      "requiredItems": [
+        "58491f3324597764bc48fa02"
+      ],
+      "requiredItemNames": {
+        "58491f3324597764bc48fa02": {
+          "zh": "EOTech XPS3-0 全息瞄具",
+          "en": "EOTech XPS3-0 holographic sight"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315e4a6af4ab4b50f3459",
+      "name": {
+        "zh": "救援行动",
+        "en": "Saving the Mole"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66a75b44243a6548ff5e5ff9",
+      "name": {
+        "zh": "武器大师",
+        "en": "Gun Connoisseur"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59ca2e4186f77445e4732b22.jpg",
+  "isKey": false
+}

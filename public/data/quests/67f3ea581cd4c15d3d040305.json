@@ -1,0 +1,120 @@
+{
+  "id": "67f3ea581cd4c15d3d040305",
+  "name": {
+    "zh": "反击",
+    "en": "Fight Back"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7200
+    },
+    {
+      "type": "Item",
+      "value": 62000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 62000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "676175789dcee773150c6925",
+      "itemName": {
+        "zh": "Leupold Mark 5HD 5-25x56mm 35毫米步枪瞄准镜 (FDE)",
+        "en": "Leupold Mark 5HD 5-25x56mm 35mm riflescope (FDE)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6761759e7ee06333f108bf86",
+      "itemName": {
+        "zh": "Leupold Mark IMS 35毫米瞄准镜固定基座",
+        "en": "Leupold Mark IMS 35mm ring scope mount"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我一直不明白塔科夫这些土匪败类是怎么还能一遍又一遍地招到新打手的。看起来，自从冲突开始以来，当地人就一直过得很苦，而那些被留在这里的人如今也无路可走。可是当土匪这条路，是一条不归路，走上去就不会有什么好结果。\n\n但这并不会改变我们的目标。那些败类必须被清除，而我们就是要动手的人。我听说 Scav 最近在沿海地带、海关区和 Priozersk 闹得最凶。出去一趟，把那些土匪赶回去。我们绝不能让他们继续扩张地盘。",
+    "en": "One thing I don't understand about all this bandit scum in Tarkov is how they still manage to recruit new thugs over and over again. Seems the locals have had a hard time since the start of the conflict, and now there's nowhere else to go for those who were left behind. Banditry, however, is a one way road that won't lead to any good.\n\nThat doesn't change our goal. The filth has to be cleaned out, and we're the ones who'll do it. I hear the Scavs have made the most noise on the coast, at the customs district and in Priozersk. Get out there and drive the bandits back. We can't let them expand their territory."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 7,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "Shoreline"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 7,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "bigmap"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 7,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "Woods"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d24b81486f77439c92d6ba8",
+      "name": {
+        "zh": "熟人",
+        "en": "Acquaintance"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67f3ea78c54fde6cc2004855",
+      "name": {
+        "zh": "隐秘的资助人",
+        "en": "Secret Benefactor"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d66701986f7744a2e70f025.jpg",
+  "isKey": false
+}

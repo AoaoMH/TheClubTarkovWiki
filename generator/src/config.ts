@@ -17,6 +17,8 @@ export const HANDBOOK_FILE = path.join(TEMPLATES_PATH, 'handbook.json')
 export const LOCALE_CH_FILE = path.join(LOCALES_PATH, 'ch.json')
 export const LOCALE_EN_FILE = path.join(LOCALES_PATH, 'en.json')
 export const GLOBALS_FILE = path.join(DATABASE_PATH, 'globals.json')
+export const QUESTS_FILE = path.join(TEMPLATES_PATH, 'quests.json')
+export const TRADERS_PATH = path.join(DATABASE_PATH, 'traders')
 
 // SPT Server (for image download)
 export const SPT_SERVER_URL = 'https://127.0.0.1:6969'

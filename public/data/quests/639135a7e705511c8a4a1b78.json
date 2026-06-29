@@ -1,0 +1,104 @@
+{
+  "id": "639135a7e705511c8a4a1b78",
+  "name": {
+    "zh": "芭蕾舞者",
+    "en": "Ballet Lover"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 66000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 66000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "61bc85697113f767765c7fe7",
+      "itemName": {
+        "zh": "Eagle Industries MMAC 插板胸挂 （丛林绿）",
+        "en": "Eagle Industries MMAC plate carrier (Ranger Green)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e446786f7742013381639",
+      "itemName": {
+        "zh": "6B5-15 Zh-86 Uley 防弹胸挂（丛林迷彩）",
+        "en": "6B5-15 Zh-86 Uley armored rig (Flora)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "听好了，老兄，你能帮我从一个人身上找到正确的情报吗？那个人已经离开城市了。为什么我不自己去找他？因为他操蛋的名字叫做伊万诺夫。真的，我没骗你。这个国家有整整二十万人叫这名字。如果我们可以找到他在塔科夫用过的地址，就有可能在数据库里找到他。让我看看，我能从他身上找到什么。我记得他以前开了一间酒吧，叫什么名字我忘了...听好了，我也不知道你要怎么确定，哪间酒吧是他的。哦对了，我想起来了，他喜欢芭蕾舞。没骗你，他每个季节都会去一次马林斯基歌剧院。他甚至想过在我们本地的剧院办点什么，但是人们对这些东西并不感兴趣。还要更多细节？老兄，我已经说得够详细了！我相信你，发挥你的第六感吧。",
+    "en": "Listen, brother, can you help me find proper info on a guy? He's already left the city. Why can't I find him myself? Because his fucking name is Ivan Ivanov. Seriously, I'm not kidding. There are two hundred thousand of them all over the country with that name. If we could find his former address in Tarkov, we might be able to run him through the database. Let me see what I can find on him. I think he used to run a bar, right. I don't know the name of the bar though... Listen, I don't know how you're gonna know which bar is his. Oh, that reminds me, he was into ballet. No kidding. He went to the Mariinsky every season. Even tried to host something at our local theater, but people weren't really crazy about chicks in tutus. More specific? Brother, I'm already fucking specific! I believe in you, use your intuition."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c5_mar",
+      "targetNames": {
+        "quest_zone_c5_mar": {
+          "zh": "quest_zone_c5_mar",
+          "en": "quest_zone_c5_mar"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "638fcd23dc65553116701d33",
+      "name": {
+        "zh": "审计",
+        "en": "Audit"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "639135bbc115f907b14700a6",
+      "name": {
+        "zh": "高保真",
+        "en": "Audiophile"
+      }
+    },
+    {
+      "id": "65734c186dc1e402c80dc19e",
+      "name": {
+        "zh": "花花公子",
+        "en": "Dandies"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63ab032d435ab5742b4e40aa.jpg",
+  "isKey": false
+}

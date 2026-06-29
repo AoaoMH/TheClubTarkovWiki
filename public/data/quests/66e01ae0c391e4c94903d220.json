@@ -1,0 +1,125 @@
+{
+  "id": "66e01ae0c391e4c94903d220",
+  "name": {
+    "zh": "百里挑一",
+    "en": "Cream of the Crop"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 52600
+    },
+    {
+      "type": "Item",
+      "value": 194000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 194000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "66d98233302686954b0c6f81",
+      "itemName": {
+        "zh": "RSP-30 反应式信号弹（蓝色）",
+        "en": "RSP-30 reactive signal cartridge (Blue)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d1b376e86f774252519444e",
+      "itemName": {
+        "zh": "“凶狠跑刀崽”私酒",
+        "en": "Bottle of Fierce Hatchling moonshine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "62a09f32621468534a797acb",
+      "itemName": {
+        "zh": "瓶装 Pevko 淡啤酒",
+        "en": "Bottle of Pevko Light beer"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Achievement",
+      "target": "66e2a7e5919bad697104f4b3"
+    }
+  ],
+  "description": {
+    "zh": "你来的正是时候！我有一件事情想要拜托你，还是关于那些货物的。看起来有人已经明白，物资流入了坏人之手。但是问题并不是出在这里。\n\n我们得到消息，有一批重要物资即将到来，一旦落地就会被盯上。我们需要想办法搞到东西。一定要悄咪咪的。你要是被发现带着那批物资就完蛋了。\n\n去岸边找一个特殊的黄色信号弹。他们把它藏匿在了高处，可能是房顶或者塔顶。然后，找到一处必经之路，发射信号弹。\n\n接头的人会在看到信号之后，开始运送货物。等货物到达之后，无论是什么都直接带走，然后把它们藏匿在灯塔指定的位置。最好直接从岸边走，这样省时间。\n\n这个委托必须一次性完成，可别在完成之前被干掉了，也不要提前回你的藏身处。哦对了，千万要小心炮击。这些装备不能有闪失。已经有大人物开始关注这件事情了，Lightkeeper先生也在等待任务完成的消息。",
+    "en": "Good of you to drop by! Got a job for you, cargos again. It seems someone has figured out that some of the equipment has fallen into the wrong hands. But that is not the problem. \n\nWe got word of an important airdrop they will target immediately if they see it. We're gonna have to work hard to get it. Keep it as confidential as possible. The key is to make sure you don't get spotted with the package. \n\nGet a special yellow RSP flare at the coast. They're stashed at high elevations, like roofs and towers. Then find a spot somewhere out of the way and shoot it.\n\nThe necessary people will recognize it and send the package. Wait for it and take whatever's in it. Then, run to stash the devices at the designated spots at the Lighthouse. Go straight from the coast, it'll be quicker.\n\nDo it all in one go, don't get killed or go back to your bunker until you've finished the job. Oh, and avoid shelling, obviously. This equipment can't be wasted. Serious people are interested in this matter, and mister Lightkeeper expects to hear from me when the task is completed."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66d9f7e7099cf6adcc07a369"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66d9f7e7099cf6adcc07a369": {
+          "zh": "KOSA无人机电子反制装置",
+          "en": "KOSA UAV electronic jamming device"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "66d9f7e7099cf6adcc07a369"
+      ],
+      "targetNames": {
+        "66d9f7e7099cf6adcc07a369": {
+          "zh": "KOSA无人机电子反制装置",
+          "en": "KOSA UAV electronic jamming device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66e01adbd3d014f3ae061c12",
+      "name": {
+        "zh": "暗中掩护",
+        "en": "Provide Cover"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66e01c4c475acf7e0102d296",
+      "name": {
+        "zh": "未雨绸缪",
+        "en": "Before the Rain"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66eaf150daf127599c0c1a2f.png",
+  "isKey": false
+}

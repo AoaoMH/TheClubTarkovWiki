@@ -1,0 +1,132 @@
+{
+  "id": "60e71b9bbd90872cb85440f3",
+  "name": {
+    "zh": "掠地攻城",
+    "en": "Capturing Outposts"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 69999
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57a0e5022459774d1673f889",
+      "itemName": {
+        "zh": "9x39毫米 SP-6",
+        "en": "9x39mm SP-6 gs"
+      }
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "619bdeb986e01e16f839a99e",
+      "itemName": {
+        "zh": "俄军臂带",
+        "en": "Armband (RFARMY)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "619bdfd4c9546643a67df6fa",
+      "itemName": {
+        "zh": "\"USEC\" 臂带",
+        "en": "Armband (USEC)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f60c74e3b85f6263c145586",
+      "itemName": {
+        "zh": "Rys-T 防弹头盔（黑色）",
+        "en": "Rys-T bulletproof helmet (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5f60c85b58eff926626a60f7",
+      "itemName": {
+        "zh": "Rys-T 面罩",
+        "en": "Rys-T face shield"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "545cdb794bdc2d3a198b456a",
+      "itemName": {
+        "zh": "6B43 Zabralo-Sh 防弹衣（数码丛林迷彩）",
+        "en": "6B43 Zabralo-Sh body armor (EMR)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "过来，战士。听好了，我给你安排了一个任务。有一天有人告诉我说，PMC们占领了几个Scav基地，那里有数不尽的好东西。你能帮帮那些老兵么？杀掉这些PMC，这样狗腿们就能安心地带走战利品了。一共有三个基地：海关建筑工地的防御工事、森林的前EMERCOM医疗部，以及海岸线的疗养院。清理干净这些地方，事成之后告诉我。",
+    "en": "Hey there, warrior. Listen, I have a mission for you. The other day I was informed that PMCs have captured several Scav bases in the region, and they say there are tons of goods there. Can you help the old soldier? Kill those PMCs so that my dogs could grab the loot without any issues. There are three bases in total: the big fortified construction site building on Customs, the former EMERCOM medical unit in Priozersky forest, and the Azure Coast health resort. Clear the places out and let me know when it's done."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 8,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 8,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 8,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59ca2eb686f77445a80ed049",
+      "name": {
+        "zh": "惩罚者 - 6",
+        "en": "The Punisher - Part 6"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5979f91c86f77402996bf9c2.jpg",
+  "isKey": false
+}

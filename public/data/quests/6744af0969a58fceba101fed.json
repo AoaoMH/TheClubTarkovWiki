@@ -1,0 +1,182 @@
+{
+  "id": "6744af0969a58fceba101fed",
+  "name": {
+    "zh": "独立的代价",
+    "en": "The Price of Independence"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "Multi",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 85400
+    },
+    {
+      "type": "Item",
+      "value": 300000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 300000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.5
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66d98233302686954b0c6f81",
+      "itemName": {
+        "zh": "RSP-30 反应式信号弹（蓝色）",
+        "en": "RSP-30 reactive signal cartridge (Blue)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57347ca924597744596b4e71",
+      "itemName": {
+        "zh": "显示卡",
+        "en": "Graphics card"
+      }
+    },
+    {
+      "type": "Achievement",
+      "target": "675709bef4e2a2ce0f058f56"
+    }
+  ],
+  "description": {
+    "zh": "我们挫败了 Skier 的阴谋，但我告诉你，现在是我们唯一的机会，不能错失良机。等到他重新恢复实力后，他绝对会把我盯得死死的，到时候我们再想出什么招数都寸步难行了。所以我们现在就得想出一个反击的法子——现在我们都是同一根绳上的蚂蚱了！听着，我已经想好计划了。只是整个方案实在是太复杂了，我不放心拜托给别人去做。 \n\n我之前偶然深挖了一下 Skier 的背景，找到了不少劲爆黑料。这些消息如果落到对的人手里，那他就翻不了盘了。所有的东西都在那封信里，这是我们扳倒他的唯一希望。你需要到海关去取，信就在建筑工地旁边那栋楼的顶层，就是紧靠铁路那边的楼，你一眼就能看到它，希望你不会找错地方。\n\n然后从海关直接去储备基地，把信放在军队总部办公楼三楼，那个沙袋堆得像个堡垒一样的的窗口边上。 整个计划的重中之重是要确保 Skier 的人不会截获这封信。因此，在你藏好那封信之后，你还得跑到 Priozersk 自然保护区大吵大闹一番。\n\n在干掉几个拾荒的制造足够多的动静之后，再去灯塔海边发射信号弹，来一个声东击西——注意得是黄色的，千万别弄混了！最好在海边度假别墅的码头上和火车站的月台上分别打一颗，这样附近 Skier 据点里的人就会被吸引过来。在这一切搞完之后，快跑！ \n\n我把所有事项都写在了一张纸上，防止你中途搞砸。你要一气呵成搞定所有步骤，明白了吗？",
+    "en": "We foiled Skier's plans, and I'll tell you this - we can't let this opportunity slip away. When he recovers, he will never let me out of his sight. That's why we need to think of a defensive plan now, because you and I are both going to get nailed! So listen, I've got a plan all worked out. Except I don't have anybody else I'd trust to do something this complex. \n\nI was able to dig up some background intel on Skier. The kind of information that could compromise him real bad if it fell into the right hands. It's all in this letter, and it's our guarantee. You need to pick it up at the customs area. The letter will be on the top floor of the building by the construction site. You know, the one near the railroad platform, you'll see it. Hopefully.\n\nFrom there, go straight to the reserve base and leave it in the headquarters on the third floor, at the fortified point with windows. The key is to make sure that Skier's men don't intercept the letter. That is why after stashing the letter, run to Priozersk and make some noise. \n\nAfter you kill a couple of Scavs, go to the lighthouse peninsula and shoot a flare. You need a yellow one, don't get it mixed up! The best place to do it is on the pier at the vacation houses and on the platform at the train station, it'll distract the guys from Skier's nearest base. After that, you run out of there! \n\nI've written all the instructions on a piece of paper to make sure you don't fuck it up. You gotta do it all at once, you understand?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "67499d0eeca8acb2d2061639"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67499d0eeca8acb2d2061639": {
+          "zh": "控告信",
+          "en": "Incriminating letter"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "bigmap"
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "67499d0eeca8acb2d2061639"
+      ],
+      "targetNames": {
+        "67499d0eeca8acb2d2061639": {
+          "zh": "控告信",
+          "en": "Incriminating letter"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "RezervBase"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "location": "Woods"
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Woods"
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: LaunchFlare",
+      "value": 1,
+      "target": "Final_flare_btr_2",
+      "targetNames": {
+        "Final_flare_btr_2": {
+          "zh": "Final_flare_btr_2",
+          "en": "Final_flare_btr_2"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: LaunchFlare",
+      "value": 1,
+      "target": "Final_flare_btr",
+      "targetNames": {
+        "Final_flare_btr": {
+          "zh": "Final_flare_btr",
+          "en": "Final_flare_btr"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Lighthouse"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6744aca8d3346c216702c583",
+      "name": {
+        "zh": "暗度陈仓",
+        "en": "Discombobulate"
+      }
+    },
+    {
+      "id": "6744a728352b4da8e003eda9",
+      "name": {
+        "zh": "电池换新",
+        "en": "Battery Change"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/675b0b503bb837e8470f723e.jpg",
+  "isKey": false
+}

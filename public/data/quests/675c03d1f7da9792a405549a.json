@@ -1,0 +1,127 @@
+{
+  "id": "675c03d1f7da9792a405549a",
+  "name": {
+    "zh": "无主货物",
+    "en": "Abandoned Cargo"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Exploration",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9400
+    },
+    {
+      "type": "Item",
+      "value": 45000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c0e530286f7747fa1419862",
+      "itemName": {
+        "zh": "丙泊酚",
+        "en": "Propital regenerative stimulant injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "下午好，小伙子。我接到消息说最近又有一批神秘的 TerraGroup 货物被挖了出来。情报显示里面应该装有不少珍贵的数据记录，甚至医疗样本也有可能。\n\n理论上来说，这些货物的优先级相当高，本该在他们撤离时一起带走的，但不知道为什么这批货物却被丢在海关办公区无人过问。我需要知道这批货物都有什么，但是在此之前，我需要知道它们都在什么地方。\n\n你会帮我找到这些货物吗？货箱包装上都有 TerraGroup 的标志，很容易就能辨别出来。",
+    "en": "Good afternoon, young man. I have received information about a recent suspicious shipment of TerraGroup cargo. According to the description, it could contain valuable records and even medical samples.\n\nEvery such shipment should have been prioritized for extraction, yet for some reason this shipment was left near the customs terminal. I have to know what's inside the cargo, and to do that, I need the exact location of the shipments.\n\nWill you be able to assist with this? You will recognize the necessary shipments by the boxes with the TerraGroup logo."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6179ad56c760af5ad2053587",
+      "name": {
+        "zh": "海边假期",
+        "en": "Seaside Vacation"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "675c047fa46173572a0bd878",
+      "name": {
+        "zh": "货运追踪",
+        "en": "Shipment Tracking"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6762fe1e6470bf1c0f048b96.jpg",
+  "isKey": false
+}

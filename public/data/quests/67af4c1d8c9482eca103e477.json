@@ -1,0 +1,136 @@
+{
+  "id": "67af4c1d8c9482eca103e477",
+  "name": {
+    "zh": "安慰奖",
+    "en": "Consolation Prize"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Exploration",
+  "location": "5b0fc42d86f7744a585f9105",
+  "rewards": [
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Sniping",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "WeaponTreatment",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "DMR",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "HMG",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "LMG",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Melee",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Pistol",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Revolver",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Launcher",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Shotgun",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "SMG",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Throwing",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "AttachedLauncher",
+      "value": 100
+    }
+  ],
+  "description": {
+    "zh": "哦，你来了。我把所有的办法都想了一遍，那帮混蛋是真的难搞。但咱俩在这件事上已经砸了那么多钱，不能就这么认栽。这次不靠什么狗屁 Luka，就你和我，一起把局面扳回来。\n\n我从实验室内部得到了一条线索。喂，先听我说完，你这个傻逼！我的人发现有几个掠夺者在搬东西。他们肯定是把外部某个藏点撤了，然后暂时藏进了实验室，等找到更安全的地方再转移。你一个人是找不到的，但我这边有专门干这个的专家。你只需要确保他们的安全。\n\n我们得把实验室清理干净。我的人需要几天时间才能把那地方翻遍，把藏匿点找出来。那批东西里可能没什么对你有用的，不过我会想办法补偿你的。",
+    "en": "Oh, hello there. I've gone through all my options, those fuckers are really hard to get. But we both spent a shitload of money on this whole thing. We gotta salvage our situation, this time without any fucking Lukas. Just you and me.\n\nI got a lead from inside the lab. Hey just listen to me first, you fuckhead! My lads spotted Raiders moving some junk. They must have evacuated one of their outside stashes and hid it somewhere in the lab until they can find a better place. You won't be able to find it alone, but I've got experts in this field. Just make sure they're safe.\n\nWe need to clean up the lab. It'll take my fellas several days to search the place and find the stash. I don't think there'll be anything useful for you in that stash, but I'll think of something to reward you with."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 15,
+      "location": "laboratory"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 100,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ],
+      "location": "laboratory"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67af4c1cc0e59d55e2010b97",
+      "name": {
+        "zh": "人生之课",
+        "en": "A Life Lesson"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/67dabeb0d77f8c40aa026d61.png",
+  "isKey": false
+}

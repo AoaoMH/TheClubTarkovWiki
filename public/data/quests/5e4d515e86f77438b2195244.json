@@ -1,0 +1,148 @@
+{
+  "id": "5e4d515e86f77438b2195244",
+  "name": {
+    "zh": "纺织业 - 2",
+    "en": "Textile - Part 2"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 34300
+    },
+    {
+      "type": "Item",
+      "value": 100000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 100000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e774286f77468413cc5b2",
+      "itemName": {
+        "zh": "Mystery Ranch Blackjack 50背包（组合迷彩）",
+        "en": "Mystery Ranch Blackjack 50 backpack (MultiCam)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "快进来，我刚刚还在想你呢。那么，仔细听好喽，我需要这个物品清单上的东西，要全新的。别嘛，别这么早就这个表情了。这些材料我会好好用的，一定能给你搞个堪萨斯州的衣服或者别的什么。想象一下！在国外你可以买到和自己家做的几乎一样的东西！总之，我急需列表里的这些东西，奖励会很丰厚！",
+    "en": "Come on in, I was just thinking about you. Alright, so listen, I need more of these items listed here, and they have to be brand new, no traders. Come on, don't make faces too early! I'll get you some cool news clothes for this, the Kansas spirit and all or whatever. Just imagine that, running and gunning here in a foreign country in clothes like from the ranch! Well anyway, I'm waiting for the listed items, the reward is generous."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 10,
+      "target": [
+        "5e2af47786f7746d404f3aaa"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af47786f7746d404f3aaa": {
+          "zh": "绒布布料",
+          "en": "Fleece fabric"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 10,
+      "target": [
+        "5e2af47786f7746d404f3aaa"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af47786f7746d404f3aaa": {
+          "zh": "绒布布料",
+          "en": "Fleece fabric"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 10,
+      "target": [
+        "5e2af41e86f774755a234b67"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af41e86f774755a234b67": {
+          "zh": "Cordura聚酰胺面料",
+          "en": "Cordura polyamide fabric"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 10,
+      "target": [
+        "5e2af41e86f774755a234b67"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af41e86f774755a234b67": {
+          "zh": "Cordura聚酰胺面料",
+          "en": "Cordura polyamide fabric"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "5e2af29386f7746d4159f077"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af29386f7746d4159f077": {
+          "zh": "KEKTAPE管道胶带",
+          "en": "KEKTAPE duct tape"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5e2af29386f7746d4159f077"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af29386f7746d4159f077": {
+          "zh": "KEKTAPE管道胶带",
+          "en": "KEKTAPE duct tape"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5e383a6386f77465910ce1f3",
+      "name": {
+        "zh": "纺织业 - 1",
+        "en": "Textile - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5e4d3a5186f77464185227f3.jpg",
+  "isKey": false
+}

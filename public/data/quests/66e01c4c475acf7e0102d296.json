@@ -1,0 +1,128 @@
+{
+  "id": "66e01c4c475acf7e0102d296",
+  "name": {
+    "zh": "未雨绸缪",
+    "en": "Before the Rain"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 108600
+    },
+    {
+      "type": "Item",
+      "value": 207000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 207000
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "66d98233302686954b0c6f81",
+      "itemName": {
+        "zh": "RSP-30 反应式信号弹（蓝色）",
+        "en": "RSP-30 reactive signal cartridge (Blue)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "545cdb794bdc2d3a198b456a",
+      "itemName": {
+        "zh": "6B43 Zabralo-Sh 防弹衣（数码丛林迷彩）",
+        "en": "6B43 Zabralo-Sh body armor (EMR)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ca20ee186f774799474abc2",
+      "itemName": {
+        "zh": "Vulkan-5（LShZ-5）重型头盔",
+        "en": "Vulkan-5 LShZ-5 bulletproof helmet (Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ca2113f86f7740b2547e1d2",
+      "itemName": {
+        "zh": "Vulkan-5面罩",
+        "en": "Vulkan-5 helmet face shield"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "64ca3d3954fc657e230529cc",
+      "itemName": {
+        "zh": "卡拉什尼科夫 PKP 7.62x54R 步兵机枪",
+        "en": "Kalashnikov PKP 7.62x54R infantry machine gun"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "过来，过来。最近不断有空投物资送来，我们的任务是尽可能把它们截胡。如果那群混蛋把迫击炮玩明白了，事态就难以控制了。\n\n尽你所能，把能找到的东西都带给我。我会给你丰厚的报酬。",
+    "en": "Come on in. The airdrops keep coming in, and our job is to hold on to whatever we can intercept. If these assholes have mastered mortars, they'll be unstoppable with EWs and spare parts for them.\n\nBring me everything you can get. I'll prepare a good reward."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 25,
+      "target": [
+        "66d9f7256916142b3b02276e"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66d9f7256916142b3b02276e": {
+          "zh": "雷达站备用零件",
+          "en": "Radar station spare parts"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 15,
+      "target": [
+        "66d9f8744827a77e870ecaf1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66d9f8744827a77e870ecaf1": {
+          "zh": "GARY ZONT “保护伞”便携式电子战装置",
+          "en": "GARY ZONT portable electronic warfare device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66e01ae0c391e4c94903d220",
+      "name": {
+        "zh": "百里挑一",
+        "en": "Cream of the Crop"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/66eaf150daf127599c0c1a2f.png",
+  "isKey": false
+}

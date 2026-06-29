@@ -1,0 +1,93 @@
+{
+  "id": "66b38e144f2ab7cc530c3fe7",
+  "name": {
+    "zh": "猎人必修课",
+    "en": "Every Hunter Knows This"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 32000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 32000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "666b11055a706400b717cfa5",
+      "itemName": {
+        "zh": "绊线布设装置",
+        "en": "Tripwire installation kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "请进。你的绊线搞得怎么样了？不太行？这和朝别人瞎突突区别大了。你需要拥有正确的直觉，知道他们会往哪走。如果你是一名合格的猎人，你现在已经明白我的意思了。\n\n试着观察观察，那些混蛋经常在哪里出没。然后动动脑思考，把绊线放在哪里可以完美干掉他们。心急吃不了热豆腐，用你最好的判断力来完成这件事儿吧。 \n\n只有这样，你的狩猎才能有所收获。等你找到一些好的点位了，再来找我。我不会很快布下绊线，否则你的队友们一不小心就要死翘翘了。",
+    "en": "Come on in. So, how's your tripwire business going? No luck? Figures. This isn't like mindlessly shooting everyone. You've got to have a sense of intuition and know where the prey's gonna be. If you were a hunter, you'd understand.\n\nTry watching where the bandits hang out. Think about where your wire would catch the bastard off guard and how to conceal it. Take your time, use your best judgment. \n\nOnly then will your hunt be fruitful. Come back when you find at least a couple good spots. I wouldn't be so quick to set these tripwires around, otherwise you'll kill some of your teammates by accident."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Check_mine_zone_factory",
+      "targetNames": {
+        "Check_mine_zone_factory": {
+          "zh": "Check_mine_zone_factory",
+          "en": "Check_mine_zone_factory"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Check_mine_zone_custom",
+      "targetNames": {
+        "Check_mine_zone_custom": {
+          "zh": "Check_mine_zone_custom",
+          "en": "Check_mine_zone_custom"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66b38c7bf85b8bf7250f9cb6",
+      "name": {
+        "zh": "危机四伏塔科夫",
+        "en": "Rough Tarkov"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d66701986f7744a2e70f025.jpg",
+  "isKey": false
+}

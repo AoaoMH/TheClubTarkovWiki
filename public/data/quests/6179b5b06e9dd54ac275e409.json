@@ -1,0 +1,129 @@
+{
+  "id": "6179b5b06e9dd54ac275e409",
+  "name": {
+    "zh": "占山为王",
+    "en": "Our Own Land"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 22000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 300000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 300000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e848cc2988a8701445df1e8",
+      "itemName": {
+        "zh": "TOZ KS-23M 23x75 毫米泵动式霰弹枪",
+        "en": "TOZ KS-23M 23x75mm pump-action shotgun"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e85a9f4add9fe03027d9bf1",
+      "itemName": {
+        "zh": "23x75 毫米“红星”闪光弹",
+        "en": "23x75mm Zvezda flashbang round"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊，同志。进来，快请进。然后锁上你后面的门。我们得聊点严肃的事情...现在是时候让所有人明白，这里是谁的地盘，这里的老大是谁了。最近这里“游客”们都已经比我们的人多了——塔科夫剩下的所有东西都被抢光了。他们把诺文斯克变成了垃圾堆，你说是吧？这可不是钱的问题，我们得把这些混蛋赶出我们的土地！不过无论如何，我还是会像往常一样，给你应得的报酬。先去灯塔附近的区域肃清他们，这样我们就能把他们赶到其他地方了。所以，你愿意加入吗？",
+    "en": "Greetings, comrade. Come on in, come on in. And lock the door behind you. Gonna have a serious talk... It's time to show everyone whose land we're standing on and who's the boss around here. Because there are already more of these tourists than us - everything that's left in Tarkov has been plundered. They turned Norvinsk region into some garbage lot. You agree, right? It's not even about the money, it's about driving those fuckers out from our own land! Although I will make it worth your while anyway, as always. Start by clearing the area near the Lighthouse, and then we will throw them out of our other territories. So, are you in?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 20,
+      "target": "Usec",
+      "targetNames": {
+        "Usec": {
+          "zh": "Usec",
+          "en": "Usec"
+        }
+      },
+      "location": "Lighthouse"
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 20,
+      "target": [
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "684180ee9b6d80d840042e8a",
+        "68418091b5b0c9e4c60f0e7a",
+        "6764207f2fa5e32733055c4a",
+        "6764202ae307804338014c1a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "684180ee9b6d80d840042e8a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "68418091b5b0c9e4c60f0e7a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764207f2fa5e32733055c4a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764202ae307804338014c1a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59ca29fb86f77445ab465c87",
+      "name": {
+        "zh": "惩罚者 - 5",
+        "en": "The Punisher - Part 5"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+  "isKey": false
+}

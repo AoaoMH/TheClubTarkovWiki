@@ -1,0 +1,142 @@
+{
+  "id": "64f1cc571a5f313cb144bf90",
+  "name": {
+    "zh": "外部信任 - 1",
+    "en": "Overseas Trust - Part 1"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 100000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.05
+    }
+  ],
+  "description": {
+    "zh": "我的同事想让我帮个忙，尽管这很奇怪，但是他们点名要你来，雇佣兵。很显然，我并不是唯一知道你所作所为的人。听好了：你需要干掉所有驻扎在塔科夫这里的帮派头目。细节就不必让你知道了。作为回报，他们说会给你一件极其珍贵的纪念品。开始行动把。我等着你回来。",
+    "en": "My colleagues are asking for a favor, and strangely enough, they recommend you, mercenary. Apparently, I'm not the only one who's heard of your deeds. So here's the deal: you're going to eliminate the local leaders of all the primitive gangs that have set sails all over Tarkov. The details aren't important for you to know. As a reward, they say they'll leave a valuable souvenir for you. Now, go on, soldier. I'll be waiting for your return."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossBully"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossGluhar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKilla"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKojaniy"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossSanitar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossTagilla",
+        "followerTagilla"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63967028c4a91c5cb76abd81",
+      "name": {
+        "zh": "大都会之谜",
+        "en": "Trouble in the Big City"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "64f1d6e732bed22c3e0c7423",
+      "name": {
+        "zh": "外部信任 - 2",
+        "en": "Overseas Trust - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/64a2c8e0e4c3b3082302e5bd.jpg",
+  "isKey": false
+}

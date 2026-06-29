@@ -1,0 +1,79 @@
+{
+  "id": "63ab180c87413d64ae0ac20a",
+  "name": {
+    "zh": "危险之路",
+    "en": "Dangerous Road"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Exploration",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 45000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5af0454c86f7746bf20992e8",
+      "itemName": {
+        "zh": "铝固定夹板",
+        "en": "Aluminum splint"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e8488fa988a8701445df1e4",
+      "itemName": {
+        "zh": "CALOK-B止血剂",
+        "en": "CALOK-B hemostatic applicator"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，小伙子！近来身体如何？有什么烦心事儿吗？情况是这样，我的一个转运穷人的联络人担心路上的安全。你能和他碰头并且护送他一趟吗？我保证你不会被亏待的！他会在Primorsky大道的一辆黑色SUV里等你。",
+    "en": "Young man, hello! How is your health? Nothing bothering you? The thing is, one of my messengers who transports the poor stranded people in the city is worried about the lack of an escort on the next route. Could you meet with him and go for a ride with him? I promise you won't be shortchanged! He'll be waiting for you on Primorsky Avenue, in a black SUV."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitName",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "596a0e1686f7741ddf17dbee",
+      "name": {
+        "zh": "供给计划",
+        "en": "Supply Plans"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63ab182c87413d64ae0ac20c.jpg",
+  "isKey": false
+}

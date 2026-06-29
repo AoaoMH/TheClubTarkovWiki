@@ -1,0 +1,134 @@
+{
+  "id": "6179b4f16e9dd54ac275e407",
+  "name": {
+    "zh": "失踪货物",
+    "en": "Missing Cargo"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 68000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 68000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "56eabf3bd2720b75698b4569",
+      "itemName": {
+        "zh": "MOE卡宾枪托",
+        "en": "AR-15 Magpul MOE Carbine stock (Black)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5649ae4a4bdc2d1b2b8b4588",
+      "itemName": {
+        "zh": "Zenit RK-3 AK手枪式握把",
+        "en": "AK Zenit RK-3 pistol grip"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "58d2912286f7744e27117493",
+      "itemName": {
+        "zh": "Magpul卡宾枪枪托系列橡胶枪托垫",
+        "en": "Magpul MOE Carbine rubber buttpad"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，战士，快进来！你记不记得，传言说有一架被击落的直升机，就在灯塔的某处？让人头疼的事情是，飞机上的人是某一位带着情报文件夹的线人，不过他很暴露——有人出高价要他的东西。总之，有人说直升机在去汇合点的半路被击落了。你的任务是：确认飞机的位置，和传言的真实性。然后帮我找到那份情报文件夹，那玩意儿非常重要。我不知道汇合点在哪里，但是我估计就在直升机坠毁的地方附近。",
+    "en": "Hey, tactical, come on in! Do you remember that civilian helicopter that was shot down somewhere by the Lighthouse, according to rumors? So, the headache is that on that helicopter was a certain man with an inconspicuous folder, but it, in fact, was very much conspicuous - a lot of money was paid for it. Well, a birdie said the helicopter got shot down somewhere on the way to our meeting point. So here's your task: confirm the helicopter's whereabouts and that the rumors are true. Then find that folder for me, it's extremely important. I've got no idea who could've shot it down, honestly. Who's got the resources for that?.. USECs? I did hear that they took a liking to those cottages near the mountains, so it might be worth checking that area out. Hope those stray westerners didn't nick my goodie."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "qlight_find_crushed_heli",
+      "targetNames": {
+        "qlight_find_crushed_heli": {
+          "zh": "qlight_find_crushed_heli",
+          "en": "qlight_find_crushed_heli"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "61a00bcb177fb945751bbe6a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "61a00bcb177fb945751bbe6a": {
+          "zh": "失窃的军事档案",
+          "en": "Stolen military documents"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "61a00bcb177fb945751bbe6a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "61a00bcb177fb945751bbe6a": {
+          "zh": "失窃的军事档案",
+          "en": "Stolen military documents"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6193850f60b34236ee0483de",
+      "name": {
+        "zh": "长路漫漫",
+        "en": "Long Road"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "626bd75d5bef5d7d590bd415",
+      "name": {
+        "zh": "头号机密",
+        "en": "Top Secret"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61ab41d128f39305480d0916.jpg",
+  "isKey": false
+}

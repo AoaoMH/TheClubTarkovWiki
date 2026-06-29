@@ -1,0 +1,109 @@
+{
+  "id": "675c3582f6ddc329a90f9c6d",
+  "name": {
+    "zh": "私人俱乐部",
+    "en": "Private Club"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 23000
+    },
+    {
+      "type": "Item",
+      "value": 104000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 104000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5f60cd6cf2bcbb675b00dac6",
+      "itemName": {
+        "zh": " Walker's XCEL 500BT 数字耳机",
+        "en": "Walker's XCEL 500BT Digital headset"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "674fe9a75e51f1c47c04ec23",
+      "itemName": {
+        "zh": "Saiga-12K 12 铅径自动霰弹枪",
+        "en": "Saiga-12K 12ga automatic shotgun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嗨嗨嗨，我和你说话呢，小人物。身上带布洛芬了没？我的头要痛死了。\n\n怎么了，你又犯什么公主病了？对，我昨晚是在牌桌上被痛宰了一顿，那又怎么样？这可是本地头面人物出场的大手笔牌局！你这种傻子连上桌资格都没有。\n\n有时候我们会像这样聚一桌看看运气，但我昨天肯定是不在状态。我不仅输了一大笔钱，还把钱包给丢了！\n\n你是来我这找活干的，对吧？来，我这就给你安排个该死的差事——把我的钱包找回来。别想着耍花招，我闭着眼睛都能认出我的钱包。你可能还年轻，不懂得生命的可贵，你不会想为了一点钱就把自己断送掉的。",
+    "en": "Opachki, would you look at this little character. You got any ibuprofen? My noggin's fucking killing me.\n\nWhat, something wrong, princess? Yes, I got hammered last night, so what? It was a major league game! They wouldn't let a twat like you anywhere near that table.\n\nSometimes we get together to test our luck, but yesterday clearly wasn't my day. Not only did I lose a shitload of money, but also my fucking wallet.\n\nYou're here for work, ye? Here, I'll give you a fucking job. Find my wallet. And don't even try any bullshit, I'd recognize mine with my eyes closed. You may still be young and don't realize it, but there are things in life worth more than cash."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "675f7f224076a741a3061568"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "675f7f224076a741a3061568": {
+          "zh": "Skier的钱包",
+          "en": "Skier's wallet"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "675f7f224076a741a3061568"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "675f7f224076a741a3061568": {
+          "zh": "Skier的钱包",
+          "en": "Skier's wallet"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b4795fb86f7745876267770",
+      "name": {
+        "zh": "愿者上钩",
+        "en": "Chumming"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+  "isKey": false
+}

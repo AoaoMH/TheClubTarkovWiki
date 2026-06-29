@@ -1,0 +1,161 @@
+{
+  "id": "60896e28e4a85c72ef3fa301",
+  "name": {
+    "zh": "病历",
+    "en": "Disease History"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Completion",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c657e86f77412b013051d",
+      "itemName": {
+        "zh": "Grizzly急救包",
+        "en": "Grizzly medical kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5af0548586f7743a532b7e99",
+      "itemName": {
+        "zh": "布洛芬止痛药",
+        "en": "Ibuprofen painkillers"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5e8488fa988a8701445df1e4",
+      "itemName": {
+        "zh": "CALOK-B止血剂",
+        "en": "CALOK-B hemostatic applicator"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "CustomizationDirect"
+    }
+  ],
+  "description": {
+    "zh": "下午好，小伙子。刚才我还在寻找像你一样的伙计呢。消息说储备站的基地里正在测试一种针对罕见流感病毒的疫苗，那是...我没法告诉你具体的测试对象，但TerraGroup不知为何参与了这场实验。这些测试的结果对人类很有价值...对我的西方客户来说也很重要。我需要找到这些实验数据。你得去一趟储备站，然后找到受试者的医学观察报告。这份文件应该在一个上锁的医疗室里。你要接这个活儿吗？当然，你会拿到应得的奖励。",
+    "en": "Good afternoon, young man. I have been looking for someone like you just now. I have received information about a new vaccine against a rare strain of flu virus that was being tested at the Reserve base, officially... I cannot tell you what was actually tested there, but TerraGroup is somehow involved in this. The results of these tests could prove extremely valuable for humanity... and the group of my western clients. I need to find those tests, so you have to travel to the Reserve base and find the medical observation journals for patients. This documentation should be somewhere in the locked rooms of the headquarters medical unit. Will you take on this task? Of course, you will be rewarded for your work."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "608c22a003292f4ba43f8a1a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "608c22a003292f4ba43f8a1a": {
+          "zh": "医学报告#1",
+          "en": "Medical record #1"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "60a3b5b05f84d429b732e934"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60a3b5b05f84d429b732e934": {
+          "zh": "医学报告#2",
+          "en": "Medical record #2"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "608c22a003292f4ba43f8a1a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "608c22a003292f4ba43f8a1a": {
+          "zh": "医学报告#1",
+          "en": "Medical record #1"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "60a3b5b05f84d429b732e934"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60a3b5b05f84d429b732e934": {
+          "zh": "医学报告#2",
+          "en": "Medical record #2"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5969f9e986f7741dde183a50",
+      "name": {
+        "zh": "药剂师",
+        "en": "Pharmacist"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "6179ad56c760af5ad2053587",
+      "name": {
+        "zh": "海边假期",
+        "en": "Seaside Vacation"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

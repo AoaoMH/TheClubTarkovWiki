@@ -1,0 +1,79 @@
+{
+  "id": "625d6ffaf7308432be1d44c5",
+  "name": {
+    "zh": "网络供应商 - 2",
+    "en": "Network Provider - Part 2"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Completion",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 19100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "我组装好发射器了，现在我们需要把它们安装到灯塔那里。我已经找到了合适的地方。第一个地方：污水厂的直升机里面。第二个地方：一座被遗弃的USEC营房，里面应该有一套设备，你可以用它来增强信号转发的强度。第三个地方：灯塔旁边比较高的地方。最后一个地方在海滩上。记得小心点，不要太靠近灯塔了。有个客户告诉我说，那里有个狙击手。",
+    "en": "So, I assembled the transmitters. Now we need to install them in the Lighthouse area. I figured out where a good place might be. Number one: inside the helicopter at the water treatment plant. Another one: an abandoned USEC cottage, it should have the right equipment, and you can tap into it to boost the retransmitter's output. And number three and four: somewhere high up, closer to the Lighthouse itself, and another one by the beach. And be careful. Don't get too close to the lighthouse itself just yet. A customer told me there was a sniper up there."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "625d6ff5ddc94657c21a1625",
+      "name": {
+        "zh": "网络供应商 - 1",
+        "en": "Network Provider - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "625d6ffcaa168e51321d69d7",
+      "name": {
+        "zh": "试探 - 1",
+        "en": "Assessment - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61ab3ad15c890e40ca1a30f5.jpg",
+  "isKey": false
+}

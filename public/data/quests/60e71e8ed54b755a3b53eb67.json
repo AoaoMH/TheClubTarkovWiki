@@ -1,0 +1,211 @@
+{
+  "id": "60e71e8ed54b755a3b53eb67",
+  "name": {
+    "zh": "猎人之路 - 无情杀手",
+    "en": "The Huntsman Path - Relentless"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 280000
+    },
+    {
+      "type": "Item",
+      "value": 20,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 20
+    },
+    {
+      "type": "Skill",
+      "target": "Crafting",
+      "value": 200
+    },
+    {
+      "type": "Skill",
+      "target": "Immunity",
+      "value": 100
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b5e94d7ad1a2b865a96b0",
+      "itemName": {
+        "zh": "FLIR RS-32 2.25-9x 35毫米 60Hz热成像步枪瞄准镜",
+        "en": "FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5d1b371186f774253763a656",
+      "itemName": {
+        "zh": "野营燃料桶",
+        "en": "Expeditionary fuel tank"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "孩子，请进。有啥趣事想分享吗？呃，别说了，我不想听这些战争故事。我已经受够了。我已经没什么可以教你的了，你已经学会了自力更生，也懂得了正义。你也见过了本地的混混头子们。但是你有试过一次性把他们都拿下吗？这个任务可不简单，但是奖励非常丰厚。最重要的是，我们留下了一些印记。",
+    "en": "Come on in, kid. Got anything interesting to tell? Eh, forget it, don't want to listen about your war. Got enough of it here. I don't have much to teach you anymore, you know how to stand up for yourself, and you know of justice well. Met the local bandit leaders too. But have you tried getting them all at once? The task in not an easy one, but the goal is worth it. The most important thing is what mark we leave behind us."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossTagilla",
+        "followerTagilla",
+        "infectedTagilla"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKilla"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossBully"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKojaniy"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossGluhar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossSanitar"
+      ]
+    },
+    {
+      "type": "Exploration",
+      "description": "Avoid: ExitStatus",
+      "value": 1,
+      "isFailCondition": true
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2c386f77443e7549029",
+      "name": {
+        "zh": "猎人之路 - 物资",
+        "en": "The Huntsman Path - Trophy"
+      }
+    },
+    {
+      "id": "5d25e2ee86f77443e35162ea",
+      "name": {
+        "zh": "猎人之路 - 森林管理员",
+        "en": "The Huntsman Path - Woods Keeper"
+      }
+    },
+    {
+      "id": "5d25e44f86f77443e625e385",
+      "name": {
+        "zh": "猎人之路 - 蒸发密令",
+        "en": "The Huntsman Path - Eraser - Part 1"
+      }
+    },
+    {
+      "id": "5d25e2e286f77444001e2e48",
+      "name": {
+        "zh": "猎人之路 - 脱销",
+        "en": "The Huntsman Path - Sellout"
+      }
+    },
+    {
+      "id": "60c0c018f7afb4354815096a",
+      "name": {
+        "zh": "猎人之路 - 工厂头目",
+        "en": "The Huntsman Path - Factory Chief"
+      }
+    },
+    {
+      "id": "5edab4b1218d181e29451435",
+      "name": {
+        "zh": "猎人之路 - 虐待狂",
+        "en": "The Huntsman Path - Sadist"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5d67b41686f774368e1b78df.jpg",
+  "isKey": false
+}

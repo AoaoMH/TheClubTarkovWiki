@@ -1,0 +1,121 @@
+{
+  "id": "64f6aafd67e11a7c6206e0d0",
+  "name": {
+    "zh": "好吃到上瘾 - 2",
+    "en": "Beyond the Red Meat - Part 2"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 120000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 120000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5fbcc1d9016cce60e8341ab3",
+      "itemName": {
+        "zh": "SIG MCX .300 AAC Blackout 突击步枪",
+        "en": "SIG MCX .300 Blackout assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "55d4887d4bdc2d962f8b4570",
+      "itemName": {
+        "zh": "柯尔特AR-15 5.56x45 30发STANAG弹匣",
+        "en": "AR-15 5.56x45 Colt STANAG 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657023a9126cc4a57d0e17a6",
+      "itemName": {
+        "zh": ".300 Blackout CBJ弹药包（50发装）",
+        "en": ".300 Blackout CBJ ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c1cd46f2e22164bef5cfedb",
+      "itemName": {
+        "zh": "Zenit RK-1 B-25U基座前握把",
+        "en": "Zenit RK-1 tactical foregrip on B-25U mount"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我们看了你带来的日记本。看起来像是从TerraGroup办公室送来了一些东西。总之，这些混蛋为了做出好吃的十五，往里面加了一些从实验室里制取的玩意儿。这些东西成瘾性非常强，使得人们心甘情愿地掏钱去买，然后他们就更加上瘾了。太不要脸了。你要不要去看看，他们究竟运了些什么？说不定那里还有余货。这上面有提到，好像是一些红瓶子。",
+    "en": "We took a look at that diary you found. Addresses, shipments of some bullshit from the TerraGroup offices. Anyway, to make good food, these assholes were adding some obscure lab-grade ingredient. It was made to be extremely addictive, so more people would come to give these pricks money. And to make them more compliant. It's some murky shit. Why don't you check to see what they were shipping from the offices? Maybe some of it is still there. There's a mention of some kind of red vial in the notes."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "64f5b4f71a5f313cb144c06c"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "64f5b4f71a5f313cb144c06c": {
+          "zh": "神秘物质",
+          "en": "Secret component"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "64f5b4f71a5f313cb144c06c"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "64f5b4f71a5f313cb144c06c": {
+          "zh": "神秘物质",
+          "en": "Secret component"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "64f5e20652fc01298e2c61e3",
+      "name": {
+        "zh": "好吃到上瘾 - 1",
+        "en": "Beyond the Red Meat - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/64f8b6c4a9c59f365c4ea82d.jpg",
+  "isKey": false
+}

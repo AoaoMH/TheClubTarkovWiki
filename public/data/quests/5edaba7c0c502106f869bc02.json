@@ -1,0 +1,148 @@
+{
+  "id": "5edaba7c0c502106f869bc02",
+  "name": {
+    "zh": "同事 - 2",
+    "en": "Colleagues - Part 2"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 60000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 60000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d02797c86f774203f38e30a",
+      "itemName": {
+        "zh": "Surv12野战手术包",
+        "en": "Surv12 field surgical kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ed515ece452db0eb56fc028",
+      "itemName": {
+        "zh": "P22 (22 号化合物) 兴奋剂注射器",
+        "en": "P22 (Product 22) stimulant injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我在海岸线上失去了人手，这无疑是一件非常不愉快的事情，但新的医药来源更为重要。我们只需要一个不同的方法来处理这个事情。我的助手设法从海岸线贿赂了一个当地人告诉我们我们要找的医生。他有一个小秘密，海岸线上的几个地点。但他很奇怪，直接在大街上做手术，经常把工具藏在这些地方附近的建筑物里。把这些工具拿来。如果他意识到我们可以随时阻止他的贸易并控制他的领地，他会更加合作。",
+    "en": "The loss of my people on the Shoreline is certainly a very unpleasant event, but a new source of medicine is more important. We just need a different approach to this case. My assistant managed to bribe a local from the Shoreline to tell us about Sanitar, the medic we're looking for. He has a small security detail, a few spots on the shoreline, but what's strange is that he performs surgery right on the street, and often hides his tools near such places, in buildings nearby. Get me these tools. Sanitar will be more cooperative if he realizes that we can stop his trade at any time and take control of the territory."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5efdafc1e70b5e33f86de058"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5efdafc1e70b5e33f86de058": {
+          "zh": "标有蓝色记号的手术套装",
+          "en": "Surgery kit marked with a blue symbol"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5efdafc1e70b5e33f86de058"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5efdafc1e70b5e33f86de058": {
+          "zh": "标有蓝色记号的手术套装",
+          "en": "Surgery kit marked with a blue symbol"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5efdaf6de6a30218ed211a48"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5efdaf6de6a30218ed211a48": {
+          "zh": "有记号的检眼镜",
+          "en": "Marked Ophthalmoscope"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5efdaf6de6a30218ed211a48"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5efdaf6de6a30218ed211a48": {
+          "zh": "有记号的检眼镜",
+          "en": "Marked Ophthalmoscope"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5edab736cc183c769d778bc2",
+      "name": {
+        "zh": "同事 - 1",
+        "en": "Colleagues - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5edab4b1218d181e29451435",
+      "name": {
+        "zh": "猎人之路 - 虐待狂",
+        "en": "The Huntsman Path - Sadist"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

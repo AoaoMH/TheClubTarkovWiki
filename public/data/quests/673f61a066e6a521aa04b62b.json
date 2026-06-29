@@ -1,0 +1,112 @@
+{
+  "id": "673f61a066e6a521aa04b62b",
+  "name": {
+    "zh": "外部订单",
+    "en": "Order From Outside"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 46700
+    },
+    {
+      "type": "Item",
+      "value": 4000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 4000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c052f6886f7746b1e3db148",
+      "itemName": {
+        "zh": "军用COFDM无线信号发射器",
+        "en": "Military COFDM Wireless Signal Transmitter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c052fb986f7746b2101e909",
+      "itemName": {
+        "zh": "UHF RFID固定式读取器 ",
+        "en": "UHF RFID Reader"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c05308086f7746b2101e90b",
+      "itemName": {
+        "zh": "Virtex可编程处理器",
+        "en": "Virtex programmable processor"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你应该也知道，我对本地混混之间的小打小闹一点都不感兴趣。真正要紧的事情还在等着我，自然，我是不会出手去帮助冲突的任意一方的。既然说到干活，我需要有人帮我把一件货物从藏匿点带到另一个地方。 \n\n那件货物就藏在军事基地空域控制中心的电子设备仓库里，目的地则是 Priozersk 自然保护区。交货点地标是一处乱葬岗——你看到那些担架和横七竖八的尸体就明白了，不是所有人都能有幸入土为安的。 \n\n考虑到货物性质的特殊性，可能会有其他人对它下手。因此我需要一个能够保障运输期间货物绝对安全的人来做这件事。",
+    "en": "Surely you don't think I would be interested in petty local conflicts? I have much more important matters to attend to, and I am not going to help either of the parties. Speaking of which. I need to move an item from point A to point B. \n\nIt is hidden at the electromechanical warehouse in the airspace control center at the military base. It's to be delivered to the Priozersk nature reserve. The landmark will be a small cemetery. You'll recognize it by the stretchers and the bodies around it -- not everyone has been buried in time. \n\nSince my cargo is very specific, some people may have a particular interest in it. That is why I need someone who can guarantee the safety of the cargo during transportation."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "67499b9b909d2013670a5029"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67499b9b909d2013670a5029": {
+          "zh": "KOSA 无人机电子干扰设备",
+          "en": "KOSA UAV electronic jamming device"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "67499b9b909d2013670a5029"
+      ],
+      "targetNames": {
+        "67499b9b909d2013670a5029": {
+          "zh": "KOSA 无人机电子干扰设备",
+          "en": "KOSA UAV electronic jamming device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "673f6027352b4da8e00322d2",
+      "name": {
+        "zh": "必然回应",
+        "en": "Inevitable Response"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

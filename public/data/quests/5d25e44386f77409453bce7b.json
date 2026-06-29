@@ -1,0 +1,94 @@
+{
+  "id": "5d25e44386f77409453bce7b",
+  "name": {
+    "zh": "猎人之路 - 邪恶守望者",
+    "en": "The Huntsman Path - Evil Watchman"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c12613b86f7743bbe2c3f76",
+      "itemName": {
+        "zh": "情报文件夹",
+        "en": "Intelligence folder"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a0a16d0b9d3c46de5b6e97",
+      "itemName": {
+        "zh": "军用闪存装置",
+        "en": "Military flash drive"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "好啊。这儿有个工作给你。在这一切发生之前，海关和工厂的工作人员都住在海关的宿舍里，但现在那只有抢劫犯了。好吧，傻瓜Scav们的脑袋都被彻底踩瘪了。但是BEAR和USEC也经常去那里，这可一点也不好，他们只是抢劫这个地方，我讨厌抢劫犯！无论什么时候，你都必须把保持人性放在第一位。",
+    "en": "Good afternoon. I have a task for you. Before all this, customs and factory personnel lived in the dormitories on Customs, but now there are only looters. The Scavs are one thing, these fools have their brains completely beaten off, but your mercenary colleagues often go there too, and this is not good at all. They just rob the place, I hate those damn looters! Whatever times are, you must always remain human. Clear the dorms area, let the place breathe in peace again."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "location": "bigmap"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2cc86f77443e47ae019",
+      "name": {
+        "zh": "猎人之路 - 杀戮森林",
+        "en": "The Huntsman Path - Forest Cleaning"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d69474486f77414077d1cc8.jpg",
+  "isKey": false
+}

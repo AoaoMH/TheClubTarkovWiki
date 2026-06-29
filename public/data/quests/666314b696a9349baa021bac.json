@@ -1,0 +1,111 @@
+{
+  "id": "666314b696a9349baa021bac",
+  "name": {
+    "zh": "质量标准",
+    "en": "Quality Standard"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "5b0fc42d86f7744a585f9105",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 42000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 164000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 164000
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5c0e530286f7747fa1419862",
+      "itemName": {
+        "zh": "丙泊酚",
+        "en": "Propital regenerative stimulant injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5c0e534186f7747fa1419867",
+      "itemName": {
+        "zh": "eTG-change再生兴奋剂注射器",
+        "en": "eTG-change regenerative stimulant injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "下午好。我听说 Prapor 同志最近心生不少怀旧之情。尽管我每天忙得没时间想这种事情，你和 Prapor 之间的交易倒是给了我一个好主意。 \n\n当地人意外发现 TerraGroup 的地下实验室那会，可是搅得满城风雨！我的人从实验室里搜刮来的各种特殊设备让生意一下子突飞猛进。\n\n实验室里可能还剩下几部美国原产的 LEDX 皮肤透照仪，你能为我弄一个来吗？这对我们的事业会很有帮助。",
+    "en": "Good afternoon. I've learned that сomrade Prapor has become nostalgic lately. Although I can't find time for such things myself, your and Prapor's affairs have brought me to a good idea. \n\nWhen the locals found out about TerraGroup's underground laboratory, there was quite a stir! It was a breakthrough for my business, the lab is where I got my unique equipment from. \n\nWell, there may still be some original American leftover LEDX from back then. Can you get me one of those? It would really help our cause."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "666879d498b97e3a8f09f1ae"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "666879d498b97e3a8f09f1ae": {
+          "zh": "LEDX皮肤透照仪（美国版）",
+          "en": "LEDX Skin Transilluminator (US Version)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "666879d498b97e3a8f09f1ae"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "666879d498b97e3a8f09f1ae": {
+          "zh": "LEDX皮肤透照仪（美国版）",
+          "en": "LEDX Skin Transilluminator (US Version)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "666314b4d7f171c4c20226c3",
+      "name": {
+        "zh": "往昔时光 - 1",
+        "en": "The Good Times - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "666314b8312343839d032d24",
+      "name": {
+        "zh": "航空包裹",
+        "en": "Airmail"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d694c9086f77468c86a6ada.jpg",
+  "isKey": false
+}

@@ -1,0 +1,91 @@
+{
+  "id": "639135534b15ca31f76bc317",
+  "name": {
+    "zh": "你的车该洗了",
+    "en": "Your Car Needs a Service"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 31400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1000
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "54527ac44bdc2d36668b4567",
+      "itemName": {
+        "zh": "5.56x45毫米 M855A1",
+        "en": "5.56x45mm M855A1"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊，大兵！情报在谁手上，谁就是赢家。你想要和平使者成为赢家，不是吗？所以，现在是时候给你的好人朋友们搞点情报了。有一家公司通过旗下的汽车交易进行洗钱活动。去找找任何有用的信息。我的人想办法复制出了一把他们办公室的钥匙。拿着。但是问题在于，那个地方的入口还是锁着的，但是我们找不到另外一把钥匙了。",
+    "en": "Hello, soldier! He who has the information is the victor. You want peace to win, don't you? So it's time to find some information for the good guys. A company was laundering money in the car dealership. Find any data on them that might be useful. My man managed to get a copy of the key to the office. Here you go. The problem, though, is that the entrance to the section itself is also locked, and we haven't been able to find that second key."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "638cbb3ba63f1b49be6a300e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638cbb3ba63f1b49be6a300e": {
+          "zh": "加密U盘",
+          "en": "Secure Flash drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "638cbb3ba63f1b49be6a300e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638cbb3ba63f1b49be6a300e": {
+          "zh": "加密U盘",
+          "en": "Secure Flash drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "61958c366726521dd96828ec",
+      "name": {
+        "zh": "神秘货物 - 4",
+        "en": "Cargo X - Part 4"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63a93845813bba58a50c9e95.jpg",
+  "isKey": false
+}

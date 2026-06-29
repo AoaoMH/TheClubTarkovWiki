@@ -1,0 +1,91 @@
+{
+  "id": "6573382e557ff128bf3da536",
+  "name": {
+    "zh": "开发者之谜 - 2",
+    "en": "Developer's Secrets - Part 2"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Discover",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 25400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 174000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 174000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b327086f7742525194449",
+      "itemName": {
+        "zh": "压力表",
+        "en": "Pressure gauge"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d1b39a386f774252339976f",
+      "itemName": {
+        "zh": "硅胶管",
+        "en": "Silicone tube"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，雇佣兵。我一直在想你找到的那个酷刑室。我没法相信，只凭借这个东西他们就能成功。这肯定还不够，我们还要找到别的。\n\n我很肯定的是，那些员工有一种特别的办法来鼓舞士气、释放压力。去找找还有什么东西，说不定你能得到更多信息。",
+    "en": "Hello, merc. I've been thinking about that torture room you found. I can't believe it was the only thing that kept that thing going. The stick isn't enough, we need a carrot.\n\nI'm sure the employees had a way to cheer themselves up and relieve stress. See what else you can find out, maybe you'll find some more info."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Hookah_quest",
+      "targetNames": {
+        "Hookah_quest": {
+          "zh": "Hookah_quest",
+          "en": "Hookah_quest"
+        }
+      },
+      "location": "TarkovStreets"
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "65733403eefc2c312a759ddb",
+      "name": {
+        "zh": "开发者之谜 - 1",
+        "en": "Developer's Secrets - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/65899d1fd4523b429f73e0f1.jpg",
+  "isKey": false
+}

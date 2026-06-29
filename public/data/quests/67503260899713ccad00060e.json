@@ -1,0 +1,115 @@
+{
+  "id": "67503260899713ccad00060e",
+  "name": {
+    "zh": "苦酒入喉心作痛",
+    "en": "Enough Drinks for That One"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 190000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 190000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6570aead4d84f81fd002a033",
+      "itemName": {
+        "zh": "Death Shadow轻量化防弹面罩",
+        "en": "Death Shadow lightweight armored mask"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "657089638db3adca1009f4ca",
+      "itemName": {
+        "zh": "Atomic Defense CQCM防弹面罩（黑色）",
+        "en": "Atomic Defense CQCM up armored ballistic mask (Black)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊！集市办得很成功，生意一下子就起飞了！\n\n我本来要给你准备一份小礼物的，但我的人被 Killa 和他手下的帮派给截住了。\n\n我之前听说那帮混蛋都穿上了圣诞节的衣服大肆庆祝，所以我打算趁他们忙着过节的时候安排一批货从 ULTRA 商场过，但显然事情并没有按照计划来。\n\n我在这条路线上投了一大笔钱，就因为那个 Killa，一堆生意要黄了！你能出手帮帮兄弟吗？\n\n如果可以的话，帮我干掉那个精神病，顺带再搞死几个蠢小弟以儆效尤。不过我劝你晚上再动手，显然白天他们根本不可能放你进门。",
+    "en": "Hello again! The fairs worked well, business is booming!\n\nI was gonna make a little gift for you, but my men were intercepted by Killa and his gang.\n\nI heard they're all dressed up in Christmas clothes and partying, so I organized a new route through Ultra while they're busy, but things didn't really go according to plan.\n\nI put a lot of money into this, and a lot of deals might go south because of Killa. So, you down to help me out?\n\nIf you can get rid of that psycho and his stupid friends, I'll owe you big! Just make sure you do this at night, cause they're not gonna let you anywhere near them in the daytime."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKilla"
+      ],
+      "daytime": {
+        "from": 22,
+        "to": 10
+      },
+      "location": "Interchange"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "assault",
+        "savage",
+        "marksman"
+      ],
+      "daytime": {
+        "from": 22,
+        "to": 10
+      },
+      "location": "Interchange"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "675031e1f300496cc4104450",
+      "name": {
+        "zh": "大隐于市",
+        "en": "Hide in Plain Sight"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/676985df81c1a738620a3853.jpg",
+  "isKey": false
+}

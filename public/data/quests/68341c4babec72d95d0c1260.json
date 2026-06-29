@@ -1,0 +1,112 @@
+{
+  "id": "68341c4babec72d95d0c1260",
+  "name": {
+    "zh": "声东击西 - 第一部分 [PVE区]",
+    "en": "Create a Distraction - Part 1 [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Completion",
+  "location": "653e6760052c01c1c805532f",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 28,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 28
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c488a752e221602b412af63",
+      "itemName": {
+        "zh": "DT MDR 5.56x45 突击步枪",
+        "en": "Desert Tech MDR 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5448c1d04bdc2dff2f8b4569",
+      "itemName": {
+        "zh": "PMAG GEN M3 20 5.56x45 20发STANAG弹匣",
+        "en": "AR-15 5.56x45 Magpul PMAG 20 GEN M3 STANAG 20-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "65702656c5d7d4cb4d078591",
+      "itemName": {
+        "zh": "100发5.56x45 M856盒装弹药",
+        "en": "5.56x45mm M856 ammo pack (100 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "听着，你开始让我感觉像家人了。像兄弟！我想我可以给你牵线一些大活。\n\n我在竞技场有一些共同创始人，Kaban和Kolontay，也许你认识他们。本来以为他们是好人，但现在他们决定玩政治了。他们想把他们的冠军放进竞技场，你能想象吗？一个好冠军能带来多少钱，你知道的。重建业务需要大量时间和金钱。\n\n我们得吓吓这些家伙，让他们意识到他们越界了。拿一些炸药砖放在市中心咖啡馆里。不带引信。我们不会炸任何东西，只是让它看起来像大事。让他们火烧屁股到处跑。",
+    "en": "Look, you're starting to feel like family to me. Like a brother! I think I can hook you up with some serious work.\n\nI've got some co-founders in the Arena, Kaban and Kollontay, maybe you know them. Thought they were cool guys, but now they decided to play politics. They want to put their champion in the Arena, can you imagine? And a good champion brings in so much money, you'd know. It's gonna take a lot of time and money to rebuild the business.\n\nWe need to put a scare into these guys so they realize they're crossing the line. Take some explosive bricks and plant them inside the cafe in the city center. Without detonators. We're not gonna blow anything up, but just make it look like a big deal. Let them run around with their asses on fire."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 3,
+      "target": [
+        "60391b0fb847c71012789415"
+      ],
+      "targetNames": {
+        "60391b0fb847c71012789415": {
+          "zh": "TP-200 砖型TNT",
+          "en": "TP-200 TNT brick"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68341b407559f4e6d50bc0ce",
+      "name": {
+        "zh": "惊喜 [PVE区]",
+        "en": "Surprise [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68341d7d7559f4e6d50bc0db",
+      "name": {
+        "zh": "声东击西 - 第二部分 [PVE区]",
+        "en": "Create a Distraction - Part 2 [PVE ZONE]"
+      }
+    },
+    {
+      "id": "6834233fecd5cf3a440d855b",
+      "name": {
+        "zh": "违背良心 - 第一部分 [PVE区]",
+        "en": "Against the Conscience - Part 1 [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562b7f53eaaa7a23349c76.png",
+  "isKey": false
+}

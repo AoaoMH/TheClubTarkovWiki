@@ -1,0 +1,95 @@
+{
+  "id": "6089736efa70fc097863b8f6",
+  "name": {
+    "zh": "后门",
+    "en": "Back Door"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Completion",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1000,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "55801eed4bdc2d89578b4588",
+      "itemName": {
+        "zh": "SV-98 7.62x54 狙击步枪",
+        "en": "SV-98 7.62x54R bolt-action sniper rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好呀。你对复杂的机械感兴趣么？我呢，经常被这些相互联动，甚至不需要人工操作的东西吸引，对，不需要人的。有人告诉我，储备站的某处地方有个地下出口，它能从另外的某个的地方开启。但是究竟在哪里呢？天知道。不管怎样，如果你能找出来就再好不过了。军事基地就像地狱之洞一样，你明白的。我会出重金悬赏从那里撤离的方法，因为我准备派人去那边找些装备，但是又怕他们找不到秘密出口，死在里面。",
+    "en": "Hey there, what do you think of complex technology? I, for example, was always fascinated by this stuff, when one part depends on another, and even works without human participation, well, almost without it. So, I've been told that somewhere on Reserve there is some underground exit, which is activated from somewhere else, but from where exactly - hell knows. Anyhow, It would be great if you sniffed that place out. The base is quite a hell hole as you know, and I am willing to pay generously for any information on how to get out of there safely. I want to send people there to gather military equipment, but I'm afraid they'll just get killed if they don't find that secret exit."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "mechanik_exit_area_1",
+      "targetNames": {
+        "mechanik_exit_area_1": {
+          "zh": "mechanik_exit_area_1",
+          "en": "mechanik_exit_area_1"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: InZone",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3477486f7741d651d6885",
+      "name": {
+        "zh": "侦查",
+        "en": "Scout"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "6089732b59b92115597ad789",
+      "name": {
+        "zh": "物尽其用",
+        "en": "Surplus Goods"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c37481c2d86b57700e3169.jpg",
+  "isKey": false
+}

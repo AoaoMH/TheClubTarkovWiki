@@ -1,0 +1,84 @@
+{
+  "id": "5ac3479086f7742880308199",
+  "name": {
+    "zh": "圈内人",
+    "en": "Insider"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Standing",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 800,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 800
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5a32a064c4a28200741e22de",
+      "itemName": {
+        "zh": "SilencerCo Osprey 9 9x19毫米抑制器",
+        "en": "SilencerCo Osprey 9 9x19 sound suppressor"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我不喜欢装模做样，虽然我们所有人都这样做。有时是为了生存，有的时候只是因为我们害怕。你知道，我根本不是个健谈的人，特别是在面对陌生人的时候，不过你看起来还像是个好人。我认为，如果你能赢得我的信任，那你在谁那里都能聊得开。毕竟，要生存下来，能依靠的就只有人际关系了。说到 Pavel Yegorovich，如果你能赢得他的信任，我也许能为你提供一些火药。",
+    "en": "I don't like to pretend, although we all do. Sometimes in order to survive, and sometimes because we’re just afraid. You know, I'm not exactly much of a talker, especially with strangers, but you seem like a nice guy. If you managed to earn my trust, I think you'll come to terms with just about anyone. After all, only personal relationships will help us survive now. Speak with Pavel Yegorovich. When he starts to trust you, perhaps I will be able to set up the supply of gunpowder. I know, he's not a saint, but his gunpowder is essential for me."
+  },
+  "objectives": [
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 3,
+      "target": "54cb50c76803fa8b248b4571"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3467986f7741d6224abc2",
+      "name": {
+        "zh": "信号 - 1",
+        "en": "Signal - Part 1"
+      }
+    },
+    {
+      "id": "5ac2428686f77412450b42bf",
+      "name": {
+        "zh": "枪匠 - 3",
+        "en": "Gunsmith - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4dbb086f7743e7c61ca09.jpg",
+  "isKey": false
+}

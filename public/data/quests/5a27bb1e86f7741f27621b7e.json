@@ -1,0 +1,121 @@
+{
+  "id": "5a27bb1e86f7741f27621b7e",
+  "name": {
+    "zh": "神秘货物 - 1",
+    "en": "Cargo X - Part 1"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 700,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 700
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5f36a0e5fbf956000b716b65",
+      "itemName": {
+        "zh": "柯尔特 M45A1 .45 ACP 手枪",
+        "en": "Colt M45A1 .45 ACP pistol"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5f3e77b26cda304dcc634057",
+      "itemName": {
+        "zh": "M45A1 .45 ACP 7发弹匣",
+        "en": "M1911A1 .45 ACP Wilson Combat 7-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "567143bf4bdc2d1a0f8b4567",
+      "itemName": {
+        "zh": "手枪收纳箱",
+        "en": "Pistol case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，今天我很高兴的了解到，我们的运营很稳定，这离不开你的帮忙。蓝盔们现在与当地所有的生意都有紧密的合作关系，利润也是滚滚而来。不管怎样，我们先谈生意。你已经去过海岸线那边坍塌的隧道了吧，TerraGroup试图通过它运输一些货物，但失败了。现在这批货物被存放某个临时仓库里，但是具体下落不明。在冲突开始时，为了协调的公司的活动临时总部转移到了疗养院，但显然，他们早就跑了。不过我认为可以肯定的是，他们没法把所有东西都运出去，我们可以在那里找到一些蛛丝马迹——他们的计算机协调中心就在疗养院的三楼。",
+    "en": "Good day, today I had the joy of understanding that we have a solid operation running, and it was not without your help. Blue Helmets now have a tight ongoing partnership with locals in all areas of business, and profits keep flowing in. Anyway, business comes first, as your people say. You have already been by the caved tunnel on the Shoreline. TerraGroup attempted to move some cargo through it but failed, and now this cargo is temporarily stored somewhere, whereabouts unknown. Provisional headquarters for coordinating the company’s activities were moved to the resort when the conflict started, but, obviously, they are long gone now. However, I think it’s safe to assume that they couldn’t move out everything, and we can try to get some information there. The computer coordination center was based somewhere on the third floor in the east wing of the resort building. Find any information, if it is there."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5a29284f86f77463ef3db363"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a29284f86f77463ef3db363": {
+          "zh": "Toughbook加固型笔记本电脑",
+          "en": "Toughbook reinforced laptop"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5a29284f86f77463ef3db363"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a29284f86f77463ef3db363": {
+          "zh": "Toughbook加固型笔记本电脑",
+          "en": "Toughbook reinforced laptop"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bafb86f7741c73584017",
+      "name": {
+        "zh": "疗养之旅 - 7",
+        "en": "Spa Tour - Part 7"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27bb3d86f77411ea361a21",
+      "name": {
+        "zh": "神秘货物 - 2",
+        "en": "Cargo X - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/597a172486f774799e5cd153.jpg",
+  "isKey": false
+}

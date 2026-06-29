@@ -1,0 +1,131 @@
+{
+  "id": "59c50c8886f7745fed3193bf",
+  "name": {
+    "zh": "惩罚者 - 2",
+    "en": "The Punisher - Part 2"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d0375ff86f774186372f685",
+      "itemName": {
+        "zh": "军用电缆",
+        "en": "Military cable"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ac66d725acfc43b321d4b60",
+      "itemName": {
+        "zh": "AK-104 7.62x39 突击步枪",
+        "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我的伙计们对你的工作很满意，他们一定要你再帮一些忙。当然报酬会更多，还能再送点装备。你还等什么呢？继续干你的好人好事吧。嗷，差点忘了。他们需要半面巾，你知道的，就是那些Scav们用来遮脸的东西。不知道他们需要它做什么，也许是表面立场什么的。还有，这次最好做的低调点，最好让他们连是谁杀的他们都不知道，所以你最好用一下消音器。",
+    "en": "My friends were mighty pleased with what you did on Shoreline. And they definitely want some more. More profit in it for you, too. Some extra gear too, so go on, keep doing good things for good people. Ah, almost forgot. They are asking for half-masks, you know, those that Scavs hide their faces with. Grab them from the bodies, they won't need them anymore, but my friends do. No idea what they need them for, probably to make a point or something. One more thing, this time it should be done silently, with a suppressor, so that they don't even know what killed them. To work, soldier."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 12,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "RezervBase"
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 7,
+      "target": [
+        "572b7fa524597762b747ce82"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "572b7fa524597762b747ce82": {
+          "zh": "半面巾",
+          "en": "Lower half-mask"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 7,
+      "target": [
+        "572b7fa524597762b747ce82"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "572b7fa524597762b747ce82": {
+          "zh": "半面巾",
+          "en": "Lower half-mask"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59c50a9e86f7745fef66f4ff",
+      "name": {
+        "zh": "惩罚者 - 1",
+        "en": "The Punisher - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "59c512ad86f7741f0d09de9b",
+      "name": {
+        "zh": "惩罚者 - 3",
+        "en": "The Punisher - Part 3"
+      }
+    },
+    {
+      "id": "6179ac7511973d018217d0b9",
+      "name": {
+        "zh": "小菜一碟 - 1",
+        "en": "Easy Job - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5981c96e86f77477920d1a04.jpg",
+  "isKey": false
+}

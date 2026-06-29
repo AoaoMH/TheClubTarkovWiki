@@ -1,0 +1,91 @@
+{
+  "id": "60e729cf5698ee7b05057439",
+  "name": {
+    "zh": "快枪手",
+    "en": "Swift One"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 107000
+    },
+    {
+      "type": "Skill",
+      "target": "StressResistance",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Endurance",
+      "value": 100
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "619bddffc9546643a67df6f0",
+      "itemName": {
+        "zh": "\"特训\" 臂带",
+        "en": "Armband (Train Hard)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6489848173c462723909a14b",
+      "itemName": {
+        "zh": ".338 Lapua Magnum AP弹药包（20发装）",
+        "en": ".338 Lapua Magnum AP ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "6489851fc827d4637f01791b",
+      "itemName": {
+        "zh": "7.62x39mm MAI AP弹药包（20发装）",
+        "en": "7.62x39mm MAI AP ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "孩子，我听说你喜欢接受挑战。我给你想到了一个挑战，它能锻炼你的速度和灵敏度。向我展示展示，你能不能脱下防弹衣和头盔直面敌人。",
+    "en": "We've come a long way together, you've learned a lot. Now prove to me that it doesn't matter how much armor you wear, what's important is experience, agility, and intellect, the hunter spirit. How can an enemy harm you if they don't even see you? They'll be tricked by a more experienced warrior. When you realize this truth, you'll be harder than steel."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 15,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "location": "Woods"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5edab4b1218d181e29451435",
+      "name": {
+        "zh": "猎人之路 - 虐待狂",
+        "en": "The Huntsman Path - Sadist"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5979d3ea86f7746d0b3e3fdc.jpg",
+  "isKey": false
+}

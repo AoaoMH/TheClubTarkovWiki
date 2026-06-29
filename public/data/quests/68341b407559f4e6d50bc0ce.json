@@ -1,0 +1,241 @@
+{
+  "id": "68341b407559f4e6d50bc0ce",
+  "name": {
+    "zh": "惊喜 [PVE区]",
+    "en": "Surprise [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 55,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 55
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e874186f7745dc7616606",
+      "itemName": {
+        "zh": "Maska-1SCh 防弹头盔（Killa 版）",
+        "en": "Maska-1SCh bulletproof helmet (Killa Edition)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我想出了一个好主意让竞技场更精彩，我需要你的帮助。\n\n我需要给一个家伙找一些装甲板。他是经常表演的，所以是时候给他升级让观众兴奋起来了。表演就是这样，不及时添柴火就灭了。\n\n好，现在去给我弄些装甲板来。\n\n观众看到他的时候会尖叫的！",
+    "en": "I came up with a great idea to make the Arena even better. And I need your help.\n\nI need to find some armor plates for a guy. He's a frequent performer, so it's time to give him an upgrade to get the crowd excited. That's the thing about shows, you don't add wood in time, the fire goes out.\n\nWell, now go get me some armor plates. \n\nThe crowd's gonna squeal when they see him!"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "656f664200d62bcd2e024077",
+        "64afdb577bb3bfe8fe03fd1d",
+        "656efaf54772930db4031ff5",
+        "656f611f94b480b8a500c0db",
+        "654a4a964b446df1ad03f192",
+        "656f63c027aed95beb08f62c",
+        "65573fa5655447403702a816",
+        "656fafe3498d1b7e3e071da4",
+        "656fa61e94b480b8a500c0e8",
+        "64afc71497cf3a403c01ff38",
+        "64afdcb83efdfea28601d041",
+        "656fad8c498d1b7e3e071da0",
+        "656fb0bd7c2d57afe200c0dc",
+        "656fa25e94b480b8a500c0e0",
+        "656fb21fa0dce000a2020f7c",
+        "656f9fa0498d1b7e3e071d98",
+        "656fa0fb498d1b7e3e071d9c",
+        "655746010177119f4a097ff7",
+        "656fa53d94b480b8a500c0e4",
+        "656faf0ca0dce000a2020f77",
+        "656fa99800d62bcd2e024088",
+        "656fa8d700d62bcd2e024084",
+        "656fa76500d62bcd2e024080",
+        "656fae5f7c2d57afe200c0d7",
+        "6557458f83942d705f0c4962",
+        "656f603f94b480b8a500c0d6",
+        "657b22485f444d6dff0c6c2f",
+        "64afd81707e2cf40e903a316",
+        "654a4f8bc721968a4404ef18",
+        "657b2797c3dbcb01d60c35ea",
+        "657b28d25f444d6dff0c6c77",
+        "656f66b5c6baea13cd07e108"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "656f664200d62bcd2e024077": {
+          "zh": "Korund-VM防弹插板（前部）",
+          "en": "Korund-VM ballistic plates (Front)"
+        },
+        "64afdb577bb3bfe8fe03fd1d": {
+          "zh": "ESBI IV 级防弹插板（侧边）",
+          "en": "ESBI level IV ballistic plate (Side)"
+        },
+        "656efaf54772930db4031ff5": {
+          "zh": "Granit 4防弹插板（背部）",
+          "en": "Granit 4 ballistic plates (Back)"
+        },
+        "656f611f94b480b8a500c0db": {
+          "zh": "Granit 4防弹插板（前部）",
+          "en": "Granit 4 ballistic plate (Front)"
+        },
+        "654a4a964b446df1ad03f192": {
+          "zh": "Granit 4RS防弹插板（背部）",
+          "en": "Granit 4RS ballistic plates (Back)"
+        },
+        "656f63c027aed95beb08f62c": {
+          "zh": "Granit 4RS防弹插板（前部）",
+          "en": "Granit 4RS ballistic plate (Front)"
+        },
+        "65573fa5655447403702a816": {
+          "zh": "Granit Br4防弹插板",
+          "en": "Granit Br4 ballistic plate"
+        },
+        "656fafe3498d1b7e3e071da4": {
+          "zh": "KITECO SC-IV SA防弹插板",
+          "en": "KITECO SC-IV SA ballistic plate"
+        },
+        "656fa61e94b480b8a500c0e8": {
+          "zh": "NESCO 4400-SA-MC防弹插板",
+          "en": "NESCO 4400-SA-MC ballistic plate"
+        },
+        "64afc71497cf3a403c01ff38": {
+          "zh": "Granit Br5防弹插板",
+          "en": "Granit Br5 ballistic plate"
+        },
+        "64afdcb83efdfea28601d041": {
+          "zh": "ESAPI IV 级防弹插板",
+          "en": "ESAPI level IV ballistic plate"
+        },
+        "656fad8c498d1b7e3e071da0": {
+          "zh": "Monoclete三级PE防弹插板",
+          "en": "Monoclete level III PE ballistic plate"
+        },
+        "656fb0bd7c2d57afe200c0dc": {
+          "zh": "SPRTN Elaphros防弹插板",
+          "en": "SPRTN Elaphros ballistic plate"
+        },
+        "656fa25e94b480b8a500c0e0": {
+          "zh": "Kiba Arms Titan防弹插板",
+          "en": "Kiba Arms Titan ballistic plate"
+        },
+        "656fb21fa0dce000a2020f7c": {
+          "zh": "NewSphereTech三级防弹插板",
+          "en": "NewSphereTech level III ballistic plate"
+        },
+        "656f9fa0498d1b7e3e071d98": {
+          "zh": "SPRTN Omega防弹插板",
+          "en": "SPRTN Omega ballistic plate"
+        },
+        "656fa0fb498d1b7e3e071d9c": {
+          "zh": "Global Armor’s Steel防弹插板",
+          "en": "Global Armor’s Steel ballistic plate"
+        },
+        "655746010177119f4a097ff7": {
+          "zh": "SAPI三级+防弹插板",
+          "en": "SAPI level III+ ballistic plate"
+        },
+        "656fa53d94b480b8a500c0e4": {
+          "zh": "TallCom Guardian防弹插板",
+          "en": "TallCom Guardian ballistic plate"
+        },
+        "656faf0ca0dce000a2020f77": {
+          "zh": "GAC 4sss2防弹插板",
+          "en": "GAC 4sss2 ballistic plate"
+        },
+        "656fa99800d62bcd2e024088": {
+          "zh": "Cult Termite防弹插板",
+          "en": "Cult Termite ballistic plate"
+        },
+        "656fa8d700d62bcd2e024084": {
+          "zh": "Cult Locust防弹插板",
+          "en": "Cult Locust ballistic plate"
+        },
+        "656fa76500d62bcd2e024080": {
+          "zh": "Kiba Arms Steel防弹插板",
+          "en": "Kiba Arms Steel ballistic plate"
+        },
+        "656fae5f7c2d57afe200c0d7": {
+          "zh": "GAC 3s15m防弹插板",
+          "en": "GAC 3s15m ballistic plate"
+        },
+        "6557458f83942d705f0c4962": {
+          "zh": "SSAPI level III+ 防弹插板（侧边）",
+          "en": "SSAPI level III+ ballistic plate (Side)"
+        },
+        "656f603f94b480b8a500c0d6": {
+          "zh": "6B33防弹插板（前部）",
+          "en": "6B33 ballistic plate (Front)"
+        },
+        "657b22485f444d6dff0c6c2f": {
+          "zh": "6B23-2防弹插板（黑色）",
+          "en": "6B23-2 ballistic plate (Back)"
+        },
+        "64afd81707e2cf40e903a316": {
+          "zh": "Granit 防弹插板（侧边）",
+          "en": "Granit ballistic plate (Side)"
+        },
+        "654a4f8bc721968a4404ef18": {
+          "zh": "Korund-VM防弹插板（侧边）",
+          "en": "Korund-VM ballistic plate (Side)"
+        },
+        "657b2797c3dbcb01d60c35ea": {
+          "zh": "Korund-VM防弹插板（背部）",
+          "en": "Korund-VM ballistic plate (Back)"
+        },
+        "657b28d25f444d6dff0c6c77": {
+          "zh": "Korund-VM-K防弹插板（背部）",
+          "en": "Korund-VM-K ballistic plate (Back)"
+        },
+        "656f66b5c6baea13cd07e108": {
+          "zh": "Korund-VM-K防弹插板（前部）",
+          "en": "Korund-VM-K ballistic plates (Front)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68341a0b2f0e2a7eb90b62d4",
+      "name": {
+        "zh": "平衡之力 - 2 [PVE ZONE]",
+        "en": "Balancing - Part 2 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68341c4babec72d95d0c1260",
+      "name": {
+        "zh": "声东击西 - 第一部分 [PVE区]",
+        "en": "Create a Distraction - Part 1 [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562b72f73d7f0be65de3d6.png",
+  "isKey": false
+}

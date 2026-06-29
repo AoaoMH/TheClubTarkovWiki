@@ -1,0 +1,117 @@
+{
+  "id": "5a27bc8586f7741b543d8ea4",
+  "name": {
+    "zh": "湿活 - 6",
+    "en": "Wet Job - Part 6"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Skill",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 3500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 3500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "588892092459774ac91d4b11",
+      "itemName": {
+        "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+        "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "6570254fcfc010a0f5006a22",
+      "itemName": {
+        "zh": "7.62x51 M61弹药包（20发装）",
+        "en": "7.62x51mm M61 ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e81ebcd8e146c7080625e15",
+      "itemName": {
+        "zh": "FN GL-40 Mk.2 榴弹发射器",
+        "en": "FN40GL Mk2 40mm grenade launcher"
+      }
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5a6086ea4f39f99cd479502f",
+      "itemName": {
+        "zh": "7.62x51毫米 M61",
+        "en": "7.62x51mm M61"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊，我亲爱的朋友，看来我们很快就要做成一笔有趣的生意了。在那个存储盘里，我们找到了一部分有关导弹引擎的蓝图，这绝对能让西方感兴趣，因为这东西是部署在台风级潜艇上的——虽然大概已经不能运作了。此外，还有一份详实的文件，是关于一名曾服役于波罗的海舰队的水手的，一名充满海盐味的老水手，他现在就在塔科夫的某处。而看上去他现在依旧和海军指挥部有所联系，他就是我们需要搞定的人。根据我的情报网，有时他会秘密的和Scav进行一些交易，要找到他并不容易。你必须得小心谨慎，别中了埋伏。机会只有一次，决不允许失败，否则我们这笔大买卖就彻底砸了，我的朋友。光是和你谈这些我的手就激动地抖个不停，这笔买卖重要到你难以想象的程度，绝对不能错过。你是一名优秀的战士，但是我想确保你在隐秘行动中也能如鱼得水。我需要一个狙击手，而且得是个狙击精英，所以等你准备好了再来找我。",
+    "en": "Hello, my dear friend, it looks like we are really close to an interesting deal. On that drive, we’ve discovered a partial blueprint of a missile engine that will be exceptionally interesting to the West, because it's deployed on the Typhoon class submarines -- which supposedly are not functional anymore. Also, there has been quite a detailed file on a sailor who served in the Baltic Fleet, a real salty dog, who is now in Tarkov somewhere, and it looks like he has connections to the Navy command. He’s the one we need to get. According to my intel, he sometimes secretly deals with the Scavs, and getting to him won’t be easy. You’ll have to work discreetly, from an ambush. There is only one chance of success, and it is very important not to fail and not to lose such a tidbit for our interests, my friend. My hands are even shaking a bit as we speak, you have no idea how important this is, and missing the shot is not an option. You're a great fighter, but I want to be sure that you are also good at covert operations. I need a sniper, and an experienced one, so come back when you’re ready."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Sniper",
+      "value": 7,
+      "target": "Sniper"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bc6986f7741c7358402b",
+      "name": {
+        "zh": "湿活 - 5",
+        "en": "Wet Job - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c0be13186f7746f016734aa",
+      "name": {
+        "zh": "狙击疯魔\n",
+        "en": "Psycho Sniper"
+      }
+    },
+    {
+      "id": "5c0d4e61d09282029f53920e",
+      "name": {
+        "zh": "向导",
+        "en": "The Guide"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5967532b86f77461fb2f333a.jpg",
+  "isKey": false
+}

@@ -1,0 +1,160 @@
+{
+  "id": "5d25e2c386f77443e7549029",
+  "name": {
+    "zh": "猎人之路 - 物资",
+    "en": "The Huntsman Path - Trophy"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 90000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 90000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c127c4486f7745625356c13",
+      "itemName": {
+        "zh": "弹匣箱",
+        "en": "Magazine case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5734758f24597738025ee253",
+      "itemName": {
+        "zh": "金项链",
+        "en": "Golden neck chain"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d235a5986f77443f6329bc6",
+      "itemName": {
+        "zh": "黄金骷髅指环",
+        "en": "Gold skull ring"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59faf7ca86f7740dbe19f6c2",
+      "itemName": {
+        "zh": "劳力土潜水金腕表",
+        "en": "Roler Submariner gold wrist watch"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "喔，是你啊？今天我有份特别的活儿给你。这有个混蛋，当地人叫他Reshala。这个傻逼和他的那帮子人已经在这儿有些日子了，抢劫杀人无恶不作。干掉他，并且把他的枪带来证明自己。这把枪作为Mechanic的藏品很合适。你一定要保持高度警惕，他们已经杀掉了很多精兵。祝你好运，猎人。",
+    "en": "Oh, it's you? I have something special for you today, a new hunt. There is this bastard, folks call him Reshala. You've definitely heard of him. He's got that golden pistol, one of a kind. This moron with the gang of his has been there for a while - robbing and killing people. He himself is just a coward, always hiding behind his guards. Help people get rid of him, the whole Tarkov will breathe easier. And take his pistol, It will be a good gift for Mechanic and his collection. But be extremely careful, many good fighters have already been killed by his gang. Good luck, hunter."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossBully"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5b3b713c5acfc4330140bd8d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5b3b713c5acfc4330140bd8d": {
+          "zh": "托卡列夫 TT-33 7.62x25 黄金手枪",
+          "en": "TT-33 7.62x25 TT pistol (Golden)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5b3b713c5acfc4330140bd8d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5b3b713c5acfc4330140bd8d": {
+          "zh": "托卡列夫 TT-33 7.62x25 黄金手枪",
+          "en": "TT-33 7.62x25 TT pistol (Golden)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2b486f77409de05bba0",
+      "name": {
+        "zh": "猎人之路 - 周边安全",
+        "en": "The Huntsman Path - Secured Perimeter"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5d25e43786f7740a212217fa",
+      "name": {
+        "zh": "猎人之路 - 正义",
+        "en": "The Huntsman Path - Justice"
+      }
+    },
+    {
+      "id": "60e71e8ed54b755a3b53eb67",
+      "name": {
+        "zh": "猎人之路 - 无情杀手",
+        "en": "The Huntsman Path - Relentless"
+      }
+    },
+    {
+      "id": "626bdcc3a371ee3a7a3514c5",
+      "name": {
+        "zh": "流浪狗",
+        "en": "Stray Dogs"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d67bb8486f7744dcc5e2fb1.jpg",
+  "isKey": false
+}

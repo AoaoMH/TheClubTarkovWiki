@@ -1,0 +1,100 @@
+{
+  "id": "5a68661a86f774500f48afb0",
+  "name": {
+    "zh": "医疗隐私 - 1",
+    "en": "Health Care Privacy - Part 1"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Discover",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 22000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 22000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c678286f77426c9660122",
+      "itemName": {
+        "zh": "IFAK单兵战术急救包",
+        "en": "IFAK individual first aid kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "590c678286f77426c9660122",
+      "itemName": {
+        "zh": "IFAK单兵战术急救包",
+        "en": "IFAK individual first aid kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，小伙子。许多人试图摆脱目前的困境，因此其中一些人的行为已经不再像人类了。但对于我们，作为一名医生，是不会有任何改变的。不管情况什么样，我们的工作都是拯救生命。海岸线隧道坍塌时，不少幸存者受伤，救护车立即出动响应呼救。但是，我想你应该知道那里发生了什么。长话短说，那就是车滞留的位置。我知道那里有三四辆面包车，大部分设备和药品很可能还在里面，如果你碰巧找到了它们，用指示器标记他们，我的人会去处理接下来的事。",
+    "en": "Good day, young man. Many people have tried to escape the current predicament, and some of them behaved like they were not human beings anymore, but for us, medics, nothing has changed. Our job is to save lives, no matter what the circumstances could be. When the shoreline tunnel collapsed, quite several survivors were injured. The ambulances were immediately dispatched to a distress call, but, well, I assume you know what has broken out there. Long story short, that’s where they stayed. I know that there were three or four vans, and the chances are high that most of the equipment and medicine is still inside... If you happen to find them, just mark them with beacons and my people will take care of the rest."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5969f9e986f7741dde183a50",
+      "name": {
+        "zh": "药剂师",
+        "en": "Pharmacist"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a68663e86f774501078f78a",
+      "name": {
+        "zh": "医疗隐私 - 2",
+        "en": "Health Care Privacy - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

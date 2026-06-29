@@ -1,0 +1,73 @@
+{
+  "id": "5d25d2c186f77443e35162e5",
+  "name": {
+    "zh": "生存者之路 - 冷血",
+    "en": "The Survivalist Path - Cold Blooded"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "Skill",
+      "target": "StressResistance",
+      "value": 100
+    }
+  ],
+  "description": {
+    "zh": "在任何情况下。如果你失去控制或惊慌失措了，哪你就死定了。不管发生了什么，不管你是被子弹击中还是喝醉了。你都必须始终保持自制。跟我证明你能做到它。",
+    "en": "Come here, I've got a test for you. You must always maintain your composure, in every situation. You lose control or panic - you die. And no matter what happened - whether you've caught a bullet or just got drunk. But even with shaky hands, you have to shoot sharp. Prove to me that you can do this."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: HealthEffect",
+      "value": 2,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "bodyParts": [
+        "Head"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25c81b86f77443e625dd71",
+      "name": {
+        "zh": "生存者之路 - 受伤的野兽",
+        "en": "The Survivalist Path - Wounded Beast"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5ae4a7dd86f77448464ed2b2.jpg",
+  "isKey": false
+}

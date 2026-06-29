@@ -1,0 +1,168 @@
+{
+  "id": "639872fe8871e1272b10ccf6",
+  "name": {
+    "zh": "枪匠 - 14",
+    "en": "Gunsmith - Part 14"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "609bab8b455afd752b2e6138",
+      "itemName": {
+        "zh": "Torrey Pines Logic T12W热成像反射式瞄具",
+        "en": "Torrey Pines Logic T12W 30Hz thermal reflex sight"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d6fc78386f77449d825f9dc",
+      "itemName": {
+        "zh": "“Eagle”火药",
+        "en": "Gunpowder \"Eagle\""
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d44069ca4b9361ebd26fc37",
+      "itemName": {
+        "zh": "Magpul PRS GEN3枪托",
+        "en": "AR-15 Magpul PRS GEN3 stock (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好。来了个西洋佬HK 416A5步枪的单子。所有配件都得是棕褐色（Tan）：SureFire SOCOM556-RC2消音器，Magpul RVG战术握把，EOTech EXPS3瞄准镜，Magpul MOE手枪式握把，Magpul UBR GEN2枪托以及LA-5B/PEQ战术模块，还要有不少于30发容量的弹匣。人机功效高于60，后坐力总和低于300，重量小于4千克。就像是特种部队的武器，行吗？哦对了，想办法找一把新一点的枪，枪械状况不能低于80%。",
+    "en": "Hello. There is a new order for a Western HK 416A5 rifle. Requires tan-colored attachments: SureFire SOCOM556-RC2 silencer, Magpul RVG tactical grip, EOTech EXPS3 holographic sight, Magpul MOE pistol grip, Magpul UBR GEN2 stock, LA-5B/PEQ tactical module, and a mag with at least 30 round capacity. Ergonomics over 60, recoil sum under 300, weight 4 kilos or lower. Just like in Special Forces, right? Oh, and try to find a rifle that isn't thrashed, technical condition must be at least 80%."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5bb2475ed4351e00853264e3"
+      ],
+      "targetNames": {
+        "5bb2475ed4351e00853264e3": {
+          "zh": "HK 416A5 5.56x45 突击步枪",
+          "en": "HK 416A5 5.56x45 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 300
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 300
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 80
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4
+        }
+      ],
+      "requiredItems": [
+        "5ea17bbc09aa976f2e7a51cd",
+        "5fce0cf655375d18a253eff0",
+        "558022b54bdc2dac148b458d",
+        "5d15cf3bd7ad1a67e71518b2",
+        "5947eab886f77475961d96c5",
+        "5c06595c0db834001a66af6c"
+      ],
+      "requiredItemNames": {
+        "5ea17bbc09aa976f2e7a51cd": {
+          "zh": "Surefire SOCOM556-RC2 5.56x45消音器",
+          "en": "SureFire SOCOM556-RC2 5.56x45 sound suppressor"
+        },
+        "5fce0cf655375d18a253eff0": {
+          "zh": "Magpul RVG握把 FDE",
+          "en": "Magpul RVG foregrip (FDE)"
+        },
+        "558022b54bdc2dac148b458d": {
+          "zh": "EOTech EXPS3-0 全息瞄具（黄褐色）",
+          "en": "EOTech EXPS3-0 holographic sight (Tan)"
+        },
+        "5d15cf3bd7ad1a67e71518b2": {
+          "zh": "Magpul MOE AR-15手枪式握把 FDE",
+          "en": "AR-15 Magpul MOE pistol grip (FDE)"
+        },
+        "5947eab886f77475961d96c5": {
+          "zh": "UBR GEN2 FDE枪托",
+          "en": "AR-15 Magpul UBR GEN2 stock (FDE)"
+        },
+        "5c06595c0db834001a66af6c": {
+          "zh": "LA-5战术设备",
+          "en": "L3Harris LA-5B/PEQ tactical device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac244c486f77413e12cf945",
+      "name": {
+        "zh": "枪匠 - 13",
+        "en": "Gunsmith - Part 13"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae3280386f7742a41359364",
+      "name": {
+        "zh": "枪匠 - 15",
+        "en": "Gunsmith - Part 15"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63aae9613606f31cf40e5a7b.jpg",
+  "isKey": false
+}

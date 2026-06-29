@@ -1,0 +1,87 @@
+{
+  "id": "671a59e43d73dac1360765cc",
+  "name": {
+    "zh": "致命道具",
+    "en": "Dangerous Props"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 39900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 130000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 130000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "67124dcfa3541f2a1f0e788b",
+      "itemName": {
+        "zh": "MPS Auto Assault-12 Gen 2 12铅径自动霰弹枪",
+        "en": "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你来得正是时候。我猜之前的期望值实在是给得太高了，现在的形势都这么糟糕了，那帮人还是不愿意买我的霰弹枪。有个人甚至放话说，别想让他买这些“破烂电影道具”。简直难以置信！\n\n我们得让所有人看看，这些霰弹枪可是物超所值。既然他们胡扯什么道具，那我们就在塔科夫演一场真的，让这帮乡巴佬瞧瞧我卖的霰弹枪可不只是在电影里拉风！",
+    "en": "You're just in time. My expectations were too high, I guess. Things are so brutal around here, and people still won't buy these shotguns. One guy even told me he would never buy this \"janky movie prop\". Unbelievable!\n\nWe gotta show everybody that this gun is well worth the money. Let's put on a real show in Tarkov, so that everyone knows that my shotguns aren't just for movies!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 20,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "66ffa9b66e19cc902401c5e8",
+        "67124dcfa3541f2a1f0e788b"
+      ],
+      "weaponNames": {
+        "66ffa9b66e19cc902401c5e8": {
+          "zh": "MPS Auto Assault-12 Gen 1 12铅径自动霰弹枪",
+          "en": "MPS Auto Assault-12 Gen 1 12ga automatic shotgun"
+        },
+        "67124dcfa3541f2a1f0e788b": {
+          "zh": "MPS Auto Assault-12 Gen 2 12铅径自动霰弹枪",
+          "en": "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "671a49f77d49aea42c029b5f",
+      "name": {
+        "zh": "诱人新货",
+        "en": "Irresistible"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/671f916cc05619cdf408bc6c.jpg",
+  "isKey": false
+}

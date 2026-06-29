@@ -1,0 +1,109 @@
+{
+  "id": "5eaaaa7c93afa0558f3b5a1c",
+  "name": {
+    "zh": "生存者之路 - Junkie",
+    "en": "The Survivalist Path - Junkie"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5c1127d0d174af29be75cf68",
+      "itemName": {
+        "zh": "12/70 RIP子弹（5发装）",
+        "en": "12/70 RIP ammo pack (5 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5c11279ad174af029d64592b",
+      "itemName": {
+        "zh": "5.56x45mm Warmageddon子弹（20发装）",
+        "en": "5.56x45mm Warmageddon ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57372c21245977670937c6c2",
+      "itemName": {
+        "zh": "5.45x39mm BT弹药包（120发装）",
+        "en": "5.45x39mm BT gs ammo pack (120 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Metabolism",
+      "value": 200
+    }
+  ],
+  "description": {
+    "zh": "现在的日子很艰难，你知道的。只要能活下去，一切手段都是有利的，即使那些对你的健康不是最安全的东西。例如，那些兴奋剂。人们在该地区更频繁地看到它们。事实上，这是某种麻醉剂，我觉得 Terragroup 肯定参与了进来。但无论如何，你必须学会如何在战斗中使用它们，这些药物不是只能致人死地，还能帮助你活下去。",
+    "en": "Times are harsh these days, you know it well. You have to survive by all means, even if those means are not the safest for your health. For example, those stimulants, folks started seeing them more frequently in the region. In reality, it's a narcotic of some sort, I feel that TerraGroup is involved here for sure. But anyway, want it or not, but you will have to learn how to use them in combat, these drugs do not only kill, but sometimes help you survive."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: HealthEffect",
+      "value": 15,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "Woods"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2a986f77409dd5cdf2a",
+      "name": {
+        "zh": "生存者之路 - 战地军医",
+        "en": "The Survivalist Path - Combat Medic"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5969f96786f7741dde183a4f.jpg",
+  "isKey": false
+}

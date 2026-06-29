@@ -1,0 +1,99 @@
+{
+  "id": "638fcd23dc65553116701d33",
+  "name": {
+    "zh": "审计",
+    "en": "Audit"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 200000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 200000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e51be86f774598e797894",
+      "itemName": {
+        "zh": "6B13 突击甲（丛林迷彩）",
+        "en": "6B13 assault armor (Flora)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你知道吗，你看起来很愿意帮我清理一间银行啊！老兄，你怎么这么紧张啊，我说的可不是这个，我就是个老老实实做生意的！但是当你看过那种抢劫题材的电影之后，脑袋里就会浮现各种各样的想法了...总之，说正事儿吧。我收到一条情报，说是掌控塔科夫银行的机构里有个人，他的手里有着一本日志，记录着所有的事情...他持有的数据都来自于官方的秘密文件。所以，无论如何，你应该明白，虽然事情都这么操蛋了，他还是没能把信息交出来。你觉得他那里究竟会有些什么呢？去搜索那片区域，帮我找到那本日志。",
+    "en": "You know, you look like someone who'd help clean out a bank! Why are you so uptight, bro, that's not what I'm talking about, I'm an honest businessman! But sometimes you watch a heist movie and get so many ideas in your head... Anyway, to the point. I have information that a man from a financial institution that controls the banking sector of Tarkov kept a journal, you know, for when everything goes to shit... The data he kept was from classified official reports. So anyway, as you know, everything did go to shit, but he couldn't manage to pass the info on. Do you have any idea what kind of juice there might be in his doodles? Search the place, find me that journal."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "63a943cead5cc12f22161ff7"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "63a943cead5cc12f22161ff7": {
+          "zh": "会计的笔记本",
+          "en": "Accountant's notes"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "63a943cead5cc12f22161ff7"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "63a943cead5cc12f22161ff7": {
+          "zh": "会计的笔记本",
+          "en": "Accountant's notes"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae448a386f7744d3730fff0",
+      "name": {
+        "zh": "生意至上",
+        "en": "Only Business"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "639135a7e705511c8a4a1b78",
+      "name": {
+        "zh": "芭蕾舞者",
+        "en": "Ballet Lover"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a944c0c593cc01b3713331.jpg",
+  "isKey": false
+}

@@ -1,0 +1,113 @@
+{
+  "id": "67040c43ce929d6ee506c7c7",
+  "name": {
+    "zh": "找到源头",
+    "en": "Find the Source"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Exploration",
+  "location": "5b0fc42d86f7744a585f9105",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 30000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 140000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 140000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1e495a86f7743109743dfb",
+      "itemName": {
+        "zh": "实验室钥匙卡·紫",
+        "en": "TerraGroup Labs keycard (Violet)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你回来了真好。TerraGroup的信息很有用，但仍不足以制造出有效的解药。不过，我确实找到了一条重要线索。\n\n制造这种病毒的项目是高度机密的，但Mechanic把病毒代码和TerraGroup内部部门索引进行了匹配。我们发现了一个重合。\n\n一位未被正式分配到任何公开项目的关键员工，是一个叫Vladimir O.的人。我确信如此重要的专家会把所有重要信息带在身上，以防信息扩散。\n\n你需要彻底搜查实验室区域，特别是病毒开发区块附近。如果我的直觉没错，你可能会在那里找到Vladimir的记录。",
+    "en": "It's good you're back. The TerraGroup information was useful, but still not enough to create a working antidote. However, I did find an important lead.\n\nThe project to create this virus was highly classified, but Mechanic matched the virus codes with TerraGroup's internal division indexes. And we found an overlap.\n\nOne of the key employees, not officially assigned to any open project, was a certain Vladimir O. I'm sure that a specialist of such importance kept everything important on his person, so as not to risk the spread of information.\n\nYou need to thoroughly check the territory of the Laboratory, especially in the area of the block where the virus was developed. If my hunch is correct, you may find Vladimir's records there."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Halloween_closed_places",
+      "targetNames": {
+        "Halloween_closed_places": {
+          "zh": "Halloween_closed_places",
+          "en": "Halloween_closed_places"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6707cef3571b50abc703b64f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6707cef3571b50abc703b64f": {
+          "zh": "V.O.签名日记本",
+          "en": "V.O. signed diary"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6707cef3571b50abc703b64f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6707cef3571b50abc703b64f": {
+          "zh": "V.O.签名日记本",
+          "en": "V.O. signed diary"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67040c22cc1f3752720376e9",
+      "name": {
+        "zh": "技术问题",
+        "en": "Matter of Technique"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67040c5b4ac6d9c18c0ade26",
+      "name": {
+        "zh": "不择手段",
+        "en": "Gloves Off"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/671f89bfab3a1278b204cc33.png",
+  "isKey": false
+}

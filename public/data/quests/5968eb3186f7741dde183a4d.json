@@ -1,0 +1,99 @@
+{
+  "id": "5968eb3186f7741dde183a4d",
+  "name": {
+    "zh": "水瓶座行动 - 2",
+    "en": "Operation Aquarius - Part 2"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Elimination",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 20000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 20000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e831507ea0a7c419c2f9bd9",
+      "itemName": {
+        "zh": "Esmarch止血带",
+        "en": "Esmarch tourniquet"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5af0454c86f7746bf20992e8",
+      "itemName": {
+        "zh": "铝固定夹板",
+        "en": "Aluminum splint"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5751a25924597722c463c472",
+      "itemName": {
+        "zh": "军用绷带",
+        "en": "Army bandage"
+      }
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "很高兴咱们又见面了。我的人已经搞清楚究竟是哪些人参与了这些不法行动来储存净水。根据你的准确情报，我们确定了是海关的那伙Scav搞的鬼。我提这种要求时真的很不舒服，可是生命危在旦夕的关头，这些无耻混蛋却依然继续着他们的肮脏生意。我们需要稍微吓唬一下，吓跑他们。所以让他们在痛苦中死去，这样他们就能明白他们所作的一切和被惩罚的原因。你能做这件事吗？",
+    "en": "Glad to see you once again. My people found out who was involved in all of these illegal operations with clean water. Thanks to your information, of course. In short, it’s a gang of Scavs operating in the Customs area. I’m really not comfortable with this kind of request, but there are lives at stake, and these scoundrels still go on with their dirty business. We need to properly scare them off, so let them die in suffering so they would feel what they've done and what are being punished for. Will you do it?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "bigmap"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59689fbd86f7740d137ebfc4",
+      "name": {
+        "zh": "水瓶座行动 - 1",
+        "en": "Operation Aquarius - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5968ec2986f7741ddf17db83.jpg",
+  "isKey": false
+}

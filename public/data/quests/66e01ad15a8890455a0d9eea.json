@@ -1,0 +1,94 @@
+{
+  "id": "66e01ad15a8890455a0d9eea",
+  "name": {
+    "zh": "来去匆匆",
+    "en": "In and Out"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 22700
+    },
+    {
+      "type": "Item",
+      "value": 78900,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 78900
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d0378d486f77420421a5ff4",
+      "itemName": {
+        "zh": "军用电源滤波器",
+        "en": "Military power filter"
+      },
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "zh": "新的任务来了，大兵。不管箱子里的东西是啥，都给我带过来。情报说那些东西是珍贵的军用装置。啊对了，别忘了你的竞争者们，不要让他们偷走这些重要物资哦。\n\n我搞到了一份你可能需要的东西。这是我们的一位共同好友送来的。别这样看着我，我说的是那个四眼仔。",
+    "en": "New mission, soldier. I want whatever it is that comes in those crates. According to the intel, there's valuable military equipment inside. Oh and yeah, don't forget to take out the competition to make sure they don't steal anything important.\n\nBy the way, I got a package I thought you might need. It's a gift from a mutual friend of ours. Don't look at me like that, I'm talking about the four-eyes."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "66d9f7256916142b3b02276e"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66d9f7256916142b3b02276e": {
+          "zh": "雷达站备用零件",
+          "en": "Radar station spare parts"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "location": "Shoreline,Woods,RezervBase,bigmap"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66e01aca214f88109006a4b5",
+      "name": {
+        "zh": "赴汤蹈火",
+        "en": "Into the Inferno"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66e01ad6835f78499f049180",
+      "name": {
+        "zh": "“理所应得”",
+        "en": "Ours by Right"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66eaf150daf127599c0c1a2f.png",
+  "isKey": false
+}

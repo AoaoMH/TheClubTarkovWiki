@@ -1,0 +1,251 @@
+{
+  "id": "666314c10aa5c7436c00908c",
+  "name": {
+    "zh": "镜头就位，开拍！",
+    "en": "Camera, Action!"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 32000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 205000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 205000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c94bbff86f7747ee735c08f",
+      "itemName": {
+        "zh": "TerraGroup实验室访问钥匙卡",
+        "en": "TerraGroup Labs access keycard"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，我最近认识了一帮人，是一个纪录片摄制组。他们想要在塔科夫拍点东西制作一部影片。不用我说你也知道这很冒险，但我没法劝他们回心转意。因此我觉得最好能帮他们快点拍完，这样出事的概率也小点。 \n\n他们的摄制设备是从你叫来的运输机上用空投包裹扔下来的，但很显然，摄影装备相当脆弱，在落地的时候摔坏了一部分。你能帮我找些替换部件来吗？",
+    "en": "Hello there. I know some people, a documentary crew. They want to make a movie about Tarkov. They're risk-takers, but I can't change their minds. So I figured I'd better help them get it done quickly and stay alive. \n\nEquipment for them was also dropped from the airplane you called in, but the hardware is fragile and was partially damaged during the landing. Can you help me find replacement parts?"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "590c392f86f77444754deb29"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590c392f86f77444754deb29": {
+          "zh": "固态硬盘",
+          "en": "SSD drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5909e99886f7740c983b9984"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5909e99886f7740c983b9984": {
+          "zh": "USB适配器",
+          "en": "USB Adapter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5af0561e86f7745f5f3ad6ac"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5af0561e86f7745f5f3ad6ac": {
+          "zh": "充电宝",
+          "en": "Portable Powerbank"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "590a358486f77429692b2790"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a358486f77429692b2790": {
+          "zh": "可充电电池",
+          "en": "Rechargeable battery"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "573477e124597737dd42e191"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "573477e124597737dd42e191": {
+          "zh": "电脑CPU",
+          "en": "PC CPU"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6389c70ca33d8c4cdf4932c6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "6389c70ca33d8c4cdf4932c6": {
+          "zh": "电子元件",
+          "en": "Electronic components"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c06779c86f77426e00dd782"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c06779c86f77426e00dd782": {
+          "zh": "电线",
+          "en": "Bundle of wires"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c06782b86f77426df5407d2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c06782b86f77426df5407d2": {
+          "zh": "电容",
+          "en": "Capacitors"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d1b2ffd86f77425243e8d17"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d1b2ffd86f77425243e8d17": {
+          "zh": "NIXXOR镜头",
+          "en": "NIXXOR lens"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "57347baf24597738002c6178"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347baf24597738002c6178": {
+          "zh": "内存条",
+          "en": "RAM stick"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d1b304286f774253763a528"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d1b304286f774253763a528": {
+          "zh": "完好的液晶显示屏",
+          "en": "Working LCD"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d1b392c86f77425243e98fe"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d1b392c86f77425243e98fe": {
+          "zh": "电灯泡",
+          "en": "Light bulb"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "666314bf1cd52e3d040a2e78",
+      "name": {
+        "zh": "严词指控",
+        "en": "Serious Allegations"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "666314c3acf8442f8b0531a3",
+      "name": {
+        "zh": "一报还一报",
+        "en": "Proper Comeback"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/628b805544430c635d52a888.jpg",
+  "isKey": false
+}

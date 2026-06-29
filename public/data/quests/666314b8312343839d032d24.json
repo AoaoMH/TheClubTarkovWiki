@@ -1,0 +1,93 @@
+{
+  "id": "666314b8312343839d032d24",
+  "name": {
+    "zh": "航空包裹",
+    "en": "Airmail"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Completion",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 42000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 42000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5cc9c20cd7f00c001336c65d",
+      "itemName": {
+        "zh": "NcSTAR Tactical LAM模块 蓝色激光",
+        "en": "NcSTAR Tactical Blue Laser"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5a5f1ce64f39f90b401987bc",
+      "itemName": {
+        "zh": "Zenit Klesch-2IKS 红外补光/激光指示器",
+        "en": "Zenit Klesch-2IKS IR illuminator with laser"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，朋友。你一定明白在塔科夫这片由封锁线围成的孤岛上，任何微小的变化都能引起相当程度的影响。从飞机上投下的人道主义物资就是一个有趣的案例。 \n\n在这之前，我工作的时候总有那么几个零部件没法搞到，但自从有了空投物资这回事之后，紧缺的东西会自己从天上掉下来了！ \n\n顺便一提，我想安排一批新的空投包裹。为了确保一切顺利，我需要确定飞行员仍然在按照先前的约定行事，也就是看到红色信号弹后就立刻投下物资。你能帮我确认吗？",
+    "en": "Hello, friend! You know how even small changes affect our isolated Tarkov world. Take, for example, the arrival of the humanitarian aid that's being dropped from airplanes. \n\nEven I couldn't get some of the components for my work before. But now you can find real treasures in these crates! \n\nBy the way, I'd like to arrange for a new package. To do this, I need to make sure that the pilots work as instructed, give a drop right after the launch of the red flare. Can you help me with that?"
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: LaunchFlare",
+      "value": 1,
+      "target": "NosQuests_5_Flaer",
+      "targetNames": {
+        "NosQuests_5_Flaer": {
+          "zh": "NosQuests_5_Flaer",
+          "en": "NosQuests_5_Flaer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "666314b696a9349baa021bac",
+      "name": {
+        "zh": "质量标准",
+        "en": "Quality Standard"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "666314bafd5ca9577902e03a",
+      "name": {
+        "zh": "往昔时光 - 2",
+        "en": "The Good Times - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6682a73b75d2dfc8330a07dc.png",
+  "isKey": false
+}

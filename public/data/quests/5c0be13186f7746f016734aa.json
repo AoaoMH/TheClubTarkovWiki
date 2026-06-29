@@ -1,0 +1,167 @@
+{
+  "id": "5c0be13186f7746f016734aa",
+  "name": {
+    "zh": "狙击疯魔\n",
+    "en": "Psycho Sniper"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 26700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 150000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 150000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d725acfc43b321d4b60",
+      "itemName": {
+        "zh": "AK-104 7.62x39 突击步枪",
+        "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+      }
+    },
+    {
+      "type": "Skill",
+      "target": "Sniper",
+      "value": 300
+    },
+    {
+      "type": "Skill",
+      "target": "Intellect",
+      "value": 200
+    },
+    {
+      "type": "Skill",
+      "target": "StressResistance",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 200
+    }
+  ],
+  "description": {
+    "zh": "别来无恙啊，雇佣兵。我听说你正在努力成为一名神枪手。想要干好神枪手先生的活儿自然是需要坚毅、耐心和使命感，但是还有其他很多重要的因素。你知道神枪手先生曾近对我说过什么吗？每个人都能开枪，但是只有极少数人能成为真正的狙击手。",
+    "en": "Greetings, mercenary. I've heard you're trying to become a sniper. Being in sniper business surely takes tenacity, patience, and a sense of purpose, but there are a lot of other important factors too. You know what Dima told me once? \"Everyone can shoot, but only a few can become real Snipers\"."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Sniper",
+      "value": 10,
+      "target": "Sniper"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "627e14b21713922ded6f2c15",
+        "5bfd297f0db834001a669119",
+        "5ae08f0a5acfc408fb1398a1",
+        "55801eed4bdc2d89578b4588",
+        "588892092459774ac91d4b11",
+        "5de652c31b7e3716273428be",
+        "5df24cf80dee1b22f862e9bc",
+        "5bfea6e90db834001b7347f3",
+        "61f7c9e189e6fb1a5e3ea78d",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        },
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        },
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "61f7c9e189e6fb1a5e3ea78d": {
+          "zh": "MP-18 7.62x54R单发步枪",
+          "en": "MP-18 7.62x54R single-shot rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: ExitStatus",
+      "value": 1,
+      "isFailCondition": true
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bc8586f7741b543d8ea4",
+      "name": {
+        "zh": "湿活 - 6",
+        "en": "Wet Job - Part 6"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27cafa86f77424e20615d6.jpg",
+  "isKey": false
+}

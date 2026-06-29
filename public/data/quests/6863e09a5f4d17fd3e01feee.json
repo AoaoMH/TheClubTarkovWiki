@@ -1,0 +1,175 @@
+{
+  "id": "6863e09a5f4d17fd3e01feee",
+  "name": {
+    "zh": "诺文斯克的朋友 - 第三部分",
+    "en": "Friend from Norvinsk - Part 3"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6000
+    },
+    {
+      "type": "Item",
+      "value": 21800,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 21800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590a391c86f774385a33c404",
+      "itemName": {
+        "zh": "电磁铁",
+        "en": "Magnet"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5c06779c86f77426e00dd782",
+      "itemName": {
+        "zh": "电线",
+        "en": "Bundle of wires"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a0a124de7ac81993580542",
+      "itemName": {
+        "zh": "地形调查地图",
+        "en": "Topographic survey maps"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5d1b392c86f77425243e98fe",
+      "itemName": {
+        "zh": "电灯泡",
+        "en": "Light bulb"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e3596386f774176c10a2a2",
+      "itemName": {
+        "zh": "Paid杀蟑剂",
+        "en": "PAID AntiRoach spray"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，我正在翻他的手机。这事不简单——他专攻加密，知道自己该怎么做。但我可能找到了一条线索。我在他的笔记里发现了日记的提及。看来我朋友隐约预感会出事。一本Moleskine日记，他总随身带着。我们得找到它。\n\n如果在疗养院找不到，那说明Scav大概已经抢走了。我建议你沿着海岸走走，\"问问\"当地人。说不定有人手里有。你知道塔科夫这地方什么样。",
+    "en": "Hey, so I'm going through his phone now. It's not a walk in the park — he specializes in encryption, he knows what he's doing. But I might have a clue. I found mention of a diary in his notes. Seems like my friend had a hunch something was gonna happen. A Moleskine diary, he always carried it with him. We need to find it.\n\nIf you don't find it at the resort, that means the Scavs have probably snatched it already. I suggest you walk along the shore and \"ask\" the locals. Maybe someone will have it. You know how it is in Tarkov."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "686665484c6f39163e076c3d"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "686665484c6f39163e076c3d": {
+          "zh": "地图碎片",
+          "en": "Map piece"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6866663e022740fabd074ef2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6866663e022740fabd074ef2": {
+          "zh": "程序员的日记",
+          "en": "Programmer's diary"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6866663e022740fabd074ef2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6866663e022740fabd074ef2": {
+          "zh": "程序员的日记",
+          "en": "Programmer's diary"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6863d9bcd3bfdcb2bc075956",
+      "name": {
+        "zh": "诺文斯克的朋友 - 第二部分",
+        "en": "Friend from Norvinsk - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "686403eeb4aaef121c0f0f06",
+      "name": {
+        "zh": "诺文斯克的朋友 - 第四部分",
+        "en": "Friend from Norvinsk - Part 4"
+      }
+    },
+    {
+      "id": "6894bc838bbdab4ab109929c",
+      "name": {
+        "zh": "诺文斯克的朋友 - 替代方案",
+        "en": "Friend from Norvinsk - Alternative Solution"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6882259b4d3fc2e4c00b1d7f.jpg",
+  "isKey": false
+}

@@ -1,0 +1,192 @@
+{
+  "id": "5d25e2e286f77444001e2e48",
+  "name": {
+    "zh": "猎人之路 - 脱销",
+    "en": "The Huntsman Path - Sellout"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "5714dbc024597771384a510d",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 20000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 150000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 150000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5beed0f50db834001c062b12",
+      "itemName": {
+        "zh": "RPK-16 5.45x39 轻机枪",
+        "en": "RPK-16 5.45x39 light machine gun"
+      }
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ad7242b86f7740a6a3abd43",
+      "itemName": {
+        "zh": "IDEA收银机钥匙",
+        "en": "IDEA cash register key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ad7217186f7746744498875",
+      "itemName": {
+        "zh": "OLI收银机钥匙",
+        "en": "OLI cash register key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ad7247386f7747487619dc3",
+      "itemName": {
+        "zh": "Goshan收银机钥匙",
+        "en": "Goshan cash register key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c12613b86f7743bbe2c3f76",
+      "itemName": {
+        "zh": "情报文件夹",
+        "en": "Intelligence folder"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "一切安好，士兵。你喜欢购物吗？我以前非常喜欢，我们这儿有个购物中心。那里非常适合消磨时光，但是当一切都变糟糕时，就没有那么多闲工夫娱乐了，那些商店很快都遭到了掠夺，而那些没被掠夺的商店都被人渣们当成了自己的窝点。我听说他在那里独自坐镇，他是一个前运动员，在战前曾被敲诈勒索过，如今他品尝到了权利的滋味，比以往任何时候更加无可比拟的权利。他杀人从不需要理由。人们叫他Killa。他有个很特别的头盔... 你看到了就知道了。干掉他，人们一定会感激你的。记得戴上他的头盔，小心半路被截胡。",
+    "en": "Be well, soldier. Do you like shopping? I used to love it too, we had a shopping center here. It was nice to spend time there, but as everything collapsed, there was no time for entertainment anymore, the stores quickly got looted, and what didn’t get looted got taken over by all kinds of scum as their mainstays. I heard that there was that one person - a former athlete, he's already been racketing before the war, and now as he has felt more power than ever, he's killing everyone indiscriminately. People call him Killa, and his helmet... you won’t miss it. Get rid of him, everybody will say thank you. And take his helmet with you, just in case."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKilla"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c0e874186f7745dc7616606",
+        "6759af0f9c8a538dd70bfae6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e874186f7745dc7616606": {
+          "zh": "Maska-1SCh 防弹头盔（Killa 版）",
+          "en": "Maska-1SCh bulletproof helmet (Killa Edition)"
+        },
+        "6759af0f9c8a538dd70bfae6": {
+          "zh": "Maska-1SCh 防弹头盔（圣诞特装版）",
+          "en": "Maska-1SCh bulletproof helmet (Christmas Edition)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c0e874186f7745dc7616606",
+        "6759af0f9c8a538dd70bfae6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e874186f7745dc7616606": {
+          "zh": "Maska-1SCh 防弹头盔（Killa 版）",
+          "en": "Maska-1SCh bulletproof helmet (Killa Edition)"
+        },
+        "6759af0f9c8a538dd70bfae6": {
+          "zh": "Maska-1SCh 防弹头盔（圣诞特装版）",
+          "en": "Maska-1SCh bulletproof helmet (Christmas Edition)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2cc86f77443e47ae019",
+      "name": {
+        "zh": "猎人之路 - 杀戮森林",
+        "en": "The Huntsman Path - Forest Cleaning"
+      }
+    },
+    {
+      "id": "5ae449c386f7744bde357697",
+      "name": {
+        "zh": "大放送之夜",
+        "en": "Sales Night"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5dc53acb86f77469c740c893",
+      "name": {
+        "zh": "那个时髦的人",
+        "en": "The Stylish One"
+      }
+    },
+    {
+      "id": "60e71e8ed54b755a3b53eb67",
+      "name": {
+        "zh": "猎人之路 - 无情杀手",
+        "en": "The Huntsman Path - Relentless"
+      }
+    },
+    {
+      "id": "626bdcc3a371ee3a7a3514c5",
+      "name": {
+        "zh": "流浪狗",
+        "en": "Stray Dogs"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d69468a86f77452aa51d79d.jpg",
+  "isKey": false
+}

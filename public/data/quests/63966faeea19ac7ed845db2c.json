@@ -1,0 +1,104 @@
+{
+  "id": "63966faeea19ac7ed845db2c",
+  "name": {
+    "zh": "情报之源",
+    "en": "Information Source"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c92d52123d5dd17f8876",
+      "itemName": {
+        "zh": "先进电子材料教材",
+        "en": "Advanced Electronic Materials textbook"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5c05308086f7746b2101e90b",
+      "itemName": {
+        "zh": "Virtex可编程处理器",
+        "en": "Virtex programmable processor"
+      }
+    }
+  ],
+  "description": {
+    "zh": "让我们开门见山吧。我听说有一群人铁了心想要插手我的生意。你应该能明白，这种行为我肯定看不下去。你的任务是，从像你一样的雇佣兵那里打探消息，搞明白那些人究竟是谁。你要不惜一切代价，明白吗？去找那些撤离点的司机们套套话，他们肯定知道这些事情。我很确定，你只说一句谢谢的话，他们肯定啥也不会告诉你，所以你得努努力。懂了吗？快去吧。",
+    "en": "Now, let's begin. I have heard rumors that a certain group of people have decided to stick their noses into my business. I, as you can imagine, am not satisfied with that kind of activity. Your job is to gather information from someone who's always hanging around mercenaries like you, and find out who these people are. You got to figure it out at all costs, okay? Talk to the car evac drivers, they certainly know about this kind of business. I'm sure they won't give you anything for just a hearty thanks, so you'll have to work hard. Understood? Go on, then."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "625d7005a4eb80027c4f2e09",
+      "name": {
+        "zh": "咚咚咚",
+        "en": "Knock-Knock"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "63966fbeea19ac7ed845db2e",
+      "name": {
+        "zh": "失踪的线人",
+        "en": "Missing Informant"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

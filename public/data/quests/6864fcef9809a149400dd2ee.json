@@ -1,0 +1,125 @@
+{
+  "id": "6864fcef9809a149400dd2ee",
+  "name": {
+    "zh": "喘息之机",
+    "en": "Breathing Room"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3000
+    },
+    {
+      "type": "Item",
+      "value": 12300,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 12300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e2aedd986f7746d404f3aa4",
+      "itemName": {
+        "zh": "GreenBat锂电池",
+        "en": "GreenBat lithium battery"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590a3c0a86f774385a33c450",
+      "itemName": {
+        "zh": "火花塞",
+        "en": "Spark plug"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你来得正好。我看了看磁盘。是一个文字游戏的构建版本。但我现在没时间管它，手头武器订单太多了。\n\n我跟你做个交易。你帮我组装一把枪，我就把磁盘给你。你自己去摸索。然后告诉我里面有没有什么有趣的东西。有时间的话我可能也会看看。\n\n我需要一把IWI UZI，具体要求：人机工效超过60，后坐力总和不超过220，瞄准距离超过200，再装个消音器。",
+    "en": "You got here just in time. I've had a look at the disk. It's a build of some text game. I don't have time for it right now though, I've got too many weapon orders at hand.\n\nI'll make you a deal. You help me build one gun, and I'll give you the disk. You'll figure it out on your own. Then tell me if there's anything interesting on it. Maybe I'll take a look at it when I have time.\n\nI need an IWI UZI with specific adjustments: ergonomics over 60, recoil sum no more than 220, sighting range over 200, and slap a suppressor on that thing as well."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "66992b349950f5f4cd06029f"
+      ],
+      "targetNames": {
+        "66992b349950f5f4cd06029f": {
+          "zh": "IWI UZI 9x19冲锋枪",
+          "en": "IWI UZI 9x19 submachine gun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 220
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 200
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 100
+        }
+      ],
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "686404d348e7bb4146002cac",
+      "name": {
+        "zh": "诺文斯克的朋友 - 第五部分",
+        "en": "Friend from Norvinsk - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "689610e431dc963a7205a121",
+      "name": {
+        "zh": "游戏评测 - 第一部分",
+        "en": "Game Review - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/68822594ef61b084eb0015a6.jpg",
+  "isKey": false
+}

@@ -1,0 +1,123 @@
+{
+  "id": "64f3176921045e77405d63b5",
+  "name": {
+    "zh": "再寻救护车",
+    "en": "Ambulances Again"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 100000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 100000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c657e86f77412b013051d",
+      "itemName": {
+        "zh": "Grizzly急救包",
+        "en": "Grizzly medical kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d02797c86f774203f38e30a",
+      "itemName": {
+        "zh": "Surv12野战手术包",
+        "en": "Surv12 field surgical kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e530286f7747fa1419862",
+      "itemName": {
+        "zh": "丙泊酚",
+        "en": "Propital regenerative stimulant injector"
+      }
+    }
+  ],
+  "description": {
+    "zh": "小伙子，又有工作机会来了。最近有一个年轻的救护车急救员来过我这里，讲了一个有点可怕的故事。在灾难开始之前，他接手了一些有着奇怪症状的病人，就像是有一种新的疾病爆发的样子。这些人在医院里被一些神秘人围住，送进了私人病房里。这个孩子在新收入患者时拍到了他们的观察日志。但是，在混乱中他弄丢了手机，所有的信息都在里面。他说那些人开着救护车去接了一个新的患者，其他的就不清楚了。雇佣兵，找到那个手机，就当是行善了！那个急救员正在Primorsky区域，我手下人的SUV里等着，他会确认手机是不是他的。绝对不能出差错，我对你抱以厚望，小伙子。",
+    "en": "Young man, a job opportunity in your line of work has come up. A young ambulance paramedic I know came by recently and told me a rather frightening story. Right before the disaster, he was taking patients with vague symptoms, as if a new disease had broken out. In hospitals they were seized by unfamiliar faces and taken to private wards. The boy managed to photograph their observation journals as they picked up yet another patient. However, in the midst of chaos, he dropped his smartphone with all the data. He says they were driving their ambulance to pick up another patient and the rest is a blur. For God's sake, find me that phone, mercenary! The paramedic will be waiting for you under the protection of my men in an SUV at Primorsky and will confirm the phone is his. There can be no mistake, I have high hopes for you, young man."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "64f09c02b63b74469b6c149f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "64f09c02b63b74469b6c149f": {
+          "zh": "急救员的GPhone X",
+          "en": "Paramedic's GPhone X"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "64f09c02b63b74469b6c149f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "64f09c02b63b74469b6c149f": {
+          "zh": "急救员的GPhone X",
+          "en": "Paramedic's GPhone X"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639136e84ed9512be67647db",
+      "name": {
+        "zh": "别开枪！",
+        "en": "Cease Fire!"
+      }
+    },
+    {
+      "id": "639135e0fa894f0a866afde6",
+      "name": {
+        "zh": "城市的解药",
+        "en": "Urban Medicine"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63ab02b8972364554162a22e.jpg",
+  "isKey": false
+}

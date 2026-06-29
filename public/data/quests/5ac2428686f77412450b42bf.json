@@ -1,0 +1,155 @@
+{
+  "id": "5ac2428686f77412450b42bf",
+  "name": {
+    "zh": "枪匠 - 3",
+    "en": "Gunsmith - Part 3"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 250,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 250
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "626bb8532c923541184624b4",
+      "itemName": {
+        "zh": "SwampFox Trihawk Prism瞄准镜3x30",
+        "en": "SwampFox Trihawk Prism Scope 3x30"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5fce0cf655375d18a253eff0",
+      "itemName": {
+        "zh": "Magpul RVG握把 FDE",
+        "en": "Magpul RVG foregrip (FDE)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a7ae0c351dfba0017554310",
+      "itemName": {
+        "zh": "GLOCK 17 9x19手枪",
+        "en": "Glock 17 9x19 pistol"
+      }
+    }
+  ],
+  "description": {
+    "zh": "当我还是个孩子的时候，人们常说，重要的不是目的地，而是路上的风景。不过话又说回来，如果终点就是你本身，你还会不会这么想呢，你怎么利用你得反应本能、弹匣里究竟还有多少发子弹？特别是那些你九死一生，命悬一线的生死关头，这种紧紧抓住救命稻草的感觉就越发真实。我需要一把MP5，配有50发扩容弹匣，要有消音器、战术灯，瞄具有效射程还要至少200。人机工效高于45，后座力总和低于210，重量不能超过4公斤。你自己决定什么样的选择更重要，究竟是目的地还是风景。",
+    "en": "When I was a child, people used to say that it is not the destination that matters, but the journey itself. But what if the destination is yourself, what you know, how good you use your reflexes, and how many rounds you have in the magazine? This feels particularly true when you're supposed to survive, clinging to this world with your teeth. Well, to the point: I need an MP5. With a 50-round extended mag, silencer, tactical flashlight, and sighting range of more than 200. Ergonomics above 45, recoil sum less than 210. Maximum weight of 4 kg. And decide for yourself what is more important to you, the journey or the destination."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5926bb2186f7744b1c6c6e60"
+      ],
+      "targetNames": {
+        "5926bb2186f7744b1c6c6e60": {
+          "zh": "HK MP5N 9x19 冲锋枪（海军型）",
+          "en": "HK MP5 9x19 submachine gun (Navy 3 Round Burst)"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 45
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 210
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 200
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 50
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4
+        }
+      ],
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c",
+        "55818b164bdc2ddc698b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        },
+        "55818b164bdc2ddc698b456c": {
+          "zh": "组合式战术设备",
+          "en": "Comb. tact. device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac23c6186f7741247042bad",
+      "name": {
+        "zh": "枪匠 - 1",
+        "en": "Gunsmith - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ac3479086f7742880308199",
+      "name": {
+        "zh": "圈内人",
+        "en": "Insider"
+      }
+    },
+    {
+      "id": "639872f9decada40426d3447",
+      "name": {
+        "zh": "枪匠 - 4",
+        "en": "Gunsmith - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae325c586f77444fa45d0de.jpg",
+  "isKey": false
+}

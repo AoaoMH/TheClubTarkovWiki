@@ -1,0 +1,201 @@
+{
+  "id": "675031be899713ccad00060c",
+  "name": {
+    "zh": "圣诞晚餐",
+    "en": "Christmas Dinner"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18800
+    },
+    {
+      "type": "Item",
+      "value": 200000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 200000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "55d482194bdc2d1d4e8b456b",
+      "itemName": {
+        "zh": "6L31 5.45x39 60发AK-74兼容弹匣",
+        "en": "AK-74 5.45x39 6L31 60-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5648b4534bdc2d3d1c8b4580",
+      "itemName": {
+        "zh": "AK Zenit B-10M 导轨护木+ B-19 上导轨组合",
+        "en": "AK Zenit B-10M handguard with B-19 upper mount"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5bed61680db834001d2c45ab",
+      "itemName": {
+        "zh": "30发АК-12 5.45x39兼容弹匣",
+        "en": "AK-12 5.45x39 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5649ae4a4bdc2d1b2b8b4588",
+      "itemName": {
+        "zh": "Zenit RK-3 AK手枪式握把",
+        "en": "AK Zenit RK-3 pistol grip"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "593d490386f7745ee97a1555",
+      "itemName": {
+        "zh": "Hexagon SKS 7.62x39声音抑制器",
+        "en": "SKS Hexagon 7.62x39 sound suppressor"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "最近怎么样我的朋友！不冷吧？好的，事情是这样的……我们准备在基地和战友们搞个宴会，毕竟是圣诞节！\n\n但你知道后勤仓库是什么情况。根据记录什么都有，但实际上只有炖肉罐头和一大堆土豆。我们想做奥利维尔沙拉，也许做两盆。而且我们也需要些酒。\n\n你能搞到吗？别带土豆了，我们够多了。",
+    "en": "How's it going my friend! Not cold, are you? Well, here's the thing... We're going to arrange a feast with our comrades-in-arms at the base, it's Christmas after all!\n\nBut you know how it is in inventory warehouses. According to the records everything is there, but in reality there's only tushonka and a shitload of potatoes. We wanted to make olivier salad, maybe two bowls. Amd we need some booze, too. \n\nCan you get it? Just don't bring the potatoes, we have enough of it."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "635a758bfefc88a93f021b8a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "635a758bfefc88a93f021b8a": {
+          "zh": "咸狗牛肉肠",
+          "en": "Salty Dog beef sausage"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "57347d692459774491567cf1"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "57347d692459774491567cf1": {
+          "zh": "豌豆罐头",
+          "en": "Can of green peas"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5bc9b156d4351e00367fbce9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5bc9b156d4351e00367fbce9": {
+          "zh": "DevilDog蛋黄酱",
+          "en": "Jar of DevilDog mayo"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d40407c86f774318526545a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d40407c86f774318526545a": {
+          "zh": "Tarkovskaya瓶装伏特加",
+          "en": "Bottle of Tarkovskaya vodka"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d403f9186f7743cac3f229b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d403f9186f7743cac3f229b": {
+          "zh": "Dan Jackiel瓶装威士忌",
+          "en": "Bottle of Dan Jackiel whiskey"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "67586af7036d7f3da60c3612"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67586af7036d7f3da60c3612": {
+          "zh": "一罐酸黄瓜",
+          "en": "Jar of pickles"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315df034d76585f032e01",
+      "name": {
+        "zh": "打靶训练",
+        "en": "Shooting Cans"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6750320e23fc8fd9cc087d14",
+      "name": {
+        "zh": "超支的节日",
+        "en": "Holiday Beyond the Means"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/676985e2623506dc1c0432ef.jpg",
+  "isKey": false
+}

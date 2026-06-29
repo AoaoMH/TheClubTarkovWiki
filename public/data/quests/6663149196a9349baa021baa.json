@@ -1,0 +1,127 @@
+{
+  "id": "6663149196a9349baa021baa",
+  "name": {
+    "zh": "小本生意 - 2",
+    "en": "Small Business - Part 2"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 36800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 2200,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 2200
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59faff1d86f7746c51718c9c",
+      "itemName": {
+        "zh": "实体比特币",
+        "en": "Physical Bitcoin"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "还记得我的那位“创业者”吗？我追查到他了，事实证明他是本地帮派的老大，具体是谁就不需要你来过问了。你的任务是上门拜访每一位匪帮头目，警告他们我的交易路线不容插手。不过不需要你出手消灭那些大人物，他们的命留着更有用。但警卫就不一样了，你需要下点狠手段，展现武力警告他们。",
+    "en": "You remember my \"entrepreneur\"? I found him, he's one of the local gang bosses. Who? You don't need to know that. Your job is to go to each of them and remind them that my trade routes are mine alone. Don't touch the chiefs themselves, they're more useful alive. But their guards should be cut down for a clear show of force."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBoar",
+        "followerBoarClose1",
+        "followerBoarClose2",
+        "followerGluharAssault",
+        "followerGluharScout",
+        "followerBully",
+        "followerGluharSecurity",
+        "followerGluharSnipe",
+        "followerKojaniy",
+        "followerKolontayAssault",
+        "followerKolontaySecurity",
+        "followerSanitar",
+        "followerStormtrooper",
+        "bossBoarSniper"
+      ]
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Elimination",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossBoar",
+        "bossBully",
+        "bossGluhar",
+        "bossKilla",
+        "bossKnight",
+        "bossKojaniy",
+        "bossKolontay",
+        "bossSanitar",
+        "bossTagilla",
+        "bossZryachiy",
+        "followerBigPipe",
+        "followerBirdEye",
+        "bossPartisan"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6663148ed7f171c4c20226c1",
+      "name": {
+        "zh": "小本生意 - 1",
+        "en": "Small Business - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66631493312343839d032d22",
+      "name": {
+        "zh": "小本生意 - 3",
+        "en": "Small Business - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6682a78f75d2dfc8330a07e2.png",
+  "isKey": false
+}

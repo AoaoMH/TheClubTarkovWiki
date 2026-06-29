@@ -1,0 +1,129 @@
+{
+  "id": "5ede55112c95834b583f052a",
+  "name": {
+    "zh": "地堡 - 1",
+    "en": "The Bunker - Part 1"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Completion",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 20000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 20000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62e14904c2699c0ec93adc47",
+      "itemName": {
+        "zh": "SR-2M 石楠 9x21 毫米冲锋枪",
+        "en": "SR-2M Veresk 9x21 submachine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "633a98eab8b0506e48497c1a",
+      "itemName": {
+        "zh": "SR-2M 9x21 20发弹匣",
+        "en": "SR-2M 9x21 20-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "6489875745f9ca4ba51c4808",
+      "itemName": {
+        "zh": "9x21mm BT弹药包（30发装）",
+        "en": "9x21mm BT ammo pack (30 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a269f97c4a282000b151807",
+      "itemName": {
+        "zh": "9x21毫米 SP10",
+        "en": "9x21mm PS gzh"
+      }
+    }
+  ],
+  "description": {
+    "zh": "勇士你好啊，这里有个活。小小鸟告诉我，那些看守储备站基地的前军人挖了一些通往地堡的通道。当然，他们不是自己动手挖的，他们强迫 Scav 来做这件事。而且似乎没有哪个可怜的混蛋成功溜出来过。不管怎样，我不知道那是什么样的地堡。我有消息说这可能是指挥地堡，但我不确定这就是那种地堡，或者只是基地人员的防空洞。现在派一个救援小组去救他们是没用的，他们会死在那些袭击者的手里。去看看那个地牢，告诉我是否值得派一个小组去那里。报酬很不错。愿意试一试吗？",
+    "en": "Greetings, warrior. So here's the deal, a birdy told me that those ex-army guys who secured Reserve base dug out some pass to the underground bunker. Of course, they didn't do it with their own hands, they forced the Scavs to do the job, and most likely none of the poor bastards made it back out. So anyway, I've got no idea what sort of bunker that is. I've had some information that it could be the command bunker. But I'm not sure if it's exactly that bunker or just a bomb shelter for the base personnel. For now, there's no use to send a big group there for them to just die to those raiders. Check those catacombs out and let me know if it's worth sending a group there. The pay is good. You in?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "prapor_024_area_2",
+      "targetNames": {
+        "prapor_024_area_2": {
+          "zh": "prapor_024_area_2",
+          "en": "prapor_024_area_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "prapor_024_area_1",
+      "targetNames": {
+        "prapor_024_area_1": {
+          "zh": "prapor_024_area_1",
+          "en": "prapor_024_area_1"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "RezervBase"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59c124d686f774189b3c843f",
+      "name": {
+        "zh": "石油存储",
+        "en": "BP Depot"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ede567cfa6dc072ce15d6e3",
+      "name": {
+        "zh": "地堡 - 2",
+        "en": "The Bunker - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ee234c386f77447ee650e32.jpg",
+  "isKey": false
+}

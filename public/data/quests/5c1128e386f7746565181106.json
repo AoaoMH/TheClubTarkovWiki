@@ -1,0 +1,139 @@
+{
+  "id": "5c1128e386f7746565181106",
+  "name": {
+    "zh": "肥料",
+    "en": "Fertilizers"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 40000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 40000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59faff1d86f7746c51718c9c",
+      "itemName": {
+        "zh": "实体比特币",
+        "en": "Physical Bitcoin"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6193a720f8ee7e52e42109ed",
+      "itemName": {
+        "zh": "HK USP .45 ACP手枪",
+        "en": "HK USP .45 ACP pistol"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，伙计。知道最近发生了什么吗？比特币暴跌到谷底了。我不知道这是一场人为阴谋亦或是有内在因果的，这整件事从一开始就很不对劲，但是，除了尽我们所能挽救之外，没有别的选择了。长话短说，我的比特币农场最近开始闹脾气了——bug、卡顿，还有其他一堆毛病频发。给我弄些电线和电容来，我有一个点子可以提高系统稳定性。对了，它们得是全新的！",
+    "en": "Hey there. See what’s going on? Bitcoin plunges into the abyss. I don’t know if that’s a conspiracy or a logical pattern. This whole business was shady from the start, but well, there’s nothing left to do but to salvage what we can. To cut the long story short, my farm is acting up lately - bugs, freezes, and everything. Fix me up with some wires and capacitors. I have a little idea on how to improve the system stability. And make sure it's all new and untouched!"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "5c06779c86f77426e00dd782"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c06779c86f77426e00dd782": {
+          "zh": "电线",
+          "en": "Bundle of wires"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "5c06782b86f77426df5407d2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c06782b86f77426df5407d2": {
+          "zh": "电容",
+          "en": "Capacitors"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5c06779c86f77426e00dd782"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c06779c86f77426e00dd782": {
+          "zh": "电线",
+          "en": "Bundle of wires"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5c06782b86f77426df5407d2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c06782b86f77426df5407d2": {
+          "zh": "电容",
+          "en": "Capacitors"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3464c86f7741d651d6877",
+      "name": {
+        "zh": "挖矿 - 4",
+        "en": "Farming - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4db0986f77442000164dd.jpg",
+  "isKey": false
+}

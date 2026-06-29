@@ -1,0 +1,130 @@
+{
+  "id": "597a0e5786f77426d66c0636",
+  "name": {
+    "zh": "化学品 - 3",
+    "en": "Chemical - Part 3"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 22000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 22000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "576fd4ec2459777f0b518431",
+      "itemName": {
+        "zh": "Zenit-Belomo PSO 1M2-1 4x24瞄准镜",
+        "en": "BelOMO PSO-1M2-1 4x24 scope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5a0c27731526d80618476ac4",
+      "itemName": {
+        "zh": "Zarya震撼手榴弹",
+        "en": "Zarya stun grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": -0.01
+    }
+  ],
+  "description": {
+    "zh": "宿舍的那个信封里有一些化学式，U盘里的文件描述了一些反应过程。我们找到了这方面的专家，他觉得他们在Polikhim那边调制一些东西，加了些不明蓝色液体，还有其他杂七杂八的东西。我在学校的时候可不太擅长化学这些东西！各种各样的化学物质，化合价，见鬼的化学键！啊，该死！你想笑就笑吧。但你得知道，我还记得一些东西，书上有的！记忆颇深啊。不管怎样，有必要对这个实验进行确认，然后我们就能明白一些缘由了。这个蓝色的鬼东西是装在桶里的，遍地都是，但是没人知道这是什么玩意儿，也没有人急于想弄清楚。不过我们得抓住机会搞明白，从中大捞一笔。但这需要另一件东西，它应该在工厂的某处。那里有一间满是垃圾的房间，里面有一个实验室。找一个亮亮的黄色注射器，看起来像一支笔，就像吗啡注射器。好了，出发去看看吧。",
+    "en": "That envelope from the dorm contained some chemical formula. And the flash drive described the reaction process. We found a guy here who’s good with the subject. So he said that they cooked up something like this at Polikhim, experimenting with some blue liquid shit, adding some other shit into it. Sorry, I wasn’t into chemistry at school! All these chemicals, valences, indecent bonds! Fuck that! Hehe. See, I even still remember some words. That was some teaching in schools back then! But whatever. It is necessary to confirm the experiment described there. And then this matter will shine upon us with new colors. This blue shit is abundantly scattered in barrels throughout the region, but nobody knows what it is. And nobody is too eager to figure that out either. But we will take our chance and find out. And make some profits with it. But this requires another stuff, It should be somewhere in the factory. There was a room filled with garbage - they had a laboratory there. Look for a bright yellow sort of syringe, looks like a pen, like a morphine syringe. Well, you get the idea."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "593a87af86f774122f54a951"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "593a87af86f774122f54a951": {
+          "zh": "化学品注射器",
+          "en": "Syringe with a chemical"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "593a87af86f774122f54a951"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "593a87af86f774122f54a951": {
+          "zh": "化学品注射器",
+          "en": "Syringe with a chemical"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "597a0b2986f77426d66c0633",
+      "name": {
+        "zh": "化学品 - 2",
+        "en": "Chemical - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "597a0f5686f774273b74f676",
+      "name": {
+        "zh": "化学品 - 4",
+        "en": "Chemical - Part 4"
+      }
+    },
+    {
+      "id": "5b478eca86f7744642012254",
+      "name": {
+        "zh": "维他命 - 1",
+        "en": "Vitamins - Part 1"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/594d247486f77426ad2fd20b.jpg",
+  "isKey": false
+}

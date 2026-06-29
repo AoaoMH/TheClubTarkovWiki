@@ -1,0 +1,161 @@
+{
+  "id": "66a77394243a6548ff5e601d",
+  "name": {
+    "zh": "客户沟通",
+    "en": "Customer Communication"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 250000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 250000
+    },
+    {
+      "type": "Experience",
+      "value": 25000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.05
+    }
+  ],
+  "description": {
+    "zh": "我和其他的雇佣兵交流了一下，大概有了未来的销售规划。当然，你的建议也帮了大忙。不过，问题还没有解决... 就在几天之前，一些人切断了我的远距离通讯渠道，我和供应商因此失去联络了。我需要一些线缆，主要是电缆。我需要马上从你这里获取这些物资。",
+    "en": "I've talked to other mercs and sketched out the general picture for future sales. Thanks for your opinion, too. Unfortunately, the problems aren't diminishing. Just a couple days ago, some drifters cut off my long distance communication channels to my suppliers. I'm gonna need some wire, mainly power cables. I'm willing to buy them from you right away."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d0375ff86f774186372f685"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d0375ff86f774186372f685": {
+          "zh": "军用电缆",
+          "en": "Military cable"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "5d1b304286f774253763a528"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d1b304286f774253763a528": {
+          "zh": "完好的液晶显示屏",
+          "en": "Working LCD"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "59e36c6f86f774176c10a2a7"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e36c6f86f774176c10a2a7": {
+          "zh": "电源线",
+          "en": "Power cord"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d0375ff86f774186372f685"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d0375ff86f774186372f685": {
+          "zh": "军用电缆",
+          "en": "Military cable"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5d1b304286f774253763a528"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d1b304286f774253763a528": {
+          "zh": "完好的液晶显示屏",
+          "en": "Working LCD"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59e36c6f86f774176c10a2a7"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e36c6f86f774176c10a2a7": {
+          "zh": "电源线",
+          "en": "Power cord"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66a75b44243a6548ff5e5ff9",
+      "name": {
+        "zh": "武器大师",
+        "en": "Gun Connoisseur"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66a78dada472ad7f845b71f7",
+      "name": {
+        "zh": "供需关系",
+        "en": "Supply and Demand"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4db0986f77442000164dd.jpg",
+  "isKey": false
+}

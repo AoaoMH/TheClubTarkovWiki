@@ -1,0 +1,57 @@
+{
+  "id": "666314a50aa5c7436c00908a",
+  "name": {
+    "zh": "旧情难却",
+    "en": "Old Patterns"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Loyalty",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.01
+    },
+    {
+      "type": "Pockets"
+    }
+  ],
+  "description": {
+    "zh": "之前和你一起开创全新装备产品线的合作真是愉快！仿佛回到了之前生意一天比一天火热、利润滚滚而来的时候，那会算得上是塔科夫的黄金时代。顺便一提，我突然想到，如果能改进一下剪裁方式，应该能让口袋装下更多东西。想让我先用你的裤子试试吗？那你要给钱的，兄弟。这套服装纸样已经很老了，我花了大价钱才搞来的。光凭回忆可是缝不出像样的衣服的！",
+    "en": "We did a great work together with the new gear line! Just like back in the old days when business was booming and cash was rolling in. By the way, I got an idea for a special cut to make pants pockets bigger. You want me to try it out on yours? Then you'll have to pay for them. The patterns are pretty old and expensive. You can't do that from memory!"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 15,
+      "target": [
+        "59faff1d86f7746c51718c9c"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59faff1d86f7746c51718c9c": {
+          "zh": "实体比特币",
+          "en": "Physical Bitcoin"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "666314a31cd52e3d040a2e76",
+      "name": {
+        "zh": "实战考验",
+        "en": "Combat Proven"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

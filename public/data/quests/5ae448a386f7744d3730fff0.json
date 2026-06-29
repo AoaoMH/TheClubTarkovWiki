@@ -1,0 +1,97 @@
+{
+  "id": "5ae448a386f7744d3730fff0",
+  "name": {
+    "zh": "生意至上",
+    "en": "Only Business"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Merchant",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 10000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 10000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b44c8ea86f7742d1627baf1",
+      "itemName": {
+        "zh": "Blackhawk! Commando胸挂（Desert Tan）",
+        "en": "BlackHawk! Commando chest harness (Desert Tan)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "真是适合去冒险的一天！瞧你这细皮嫩肉的，兄弟，你是谁来着？卖鞋的？还是军队的人？不管你是谁，我都不关心。别以为我存心和私人武装公司或者是雇佣兵过不去，只不过处境使然，在我们这儿日子过的跟屎一样糟。哦我明白了，你想跟我做买卖？那首先我得知道你是谁，起码要混个脸熟，你明白吧？先从一些小活开始，让我看看你能不能搞定，然后我们再谈生意。",
+    "en": "Good day to you, friend! That's one crazy getup you got there bro, who are you hailing from, nikes? Or military? Well, whatever, doesn't matter. No pressure man, I'm not against PMCs or even mercenaries, it’s just that the situation we have on our hands, in our city, is total shit. So I figured you want to do business with me? Well, first I have to figure out who you are, get used to you around, you know? Let’s start with some trading and see how it goes from there before we talk business."
+  },
+  "objectives": [
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 2,
+      "target": "5ac3b934156ae10c4430e83c"
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [
+    {
+      "id": "5ae448bf86f7744d733e55ee",
+      "name": {
+        "zh": "让 ULTRA 再次伟大",
+        "en": "Make ULTRA Great Again"
+      }
+    },
+    {
+      "id": "5ae448e586f7744dcf0c2a67",
+      "name": {
+        "zh": "大甩卖",
+        "en": "Big Sale"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "638fcd23dc65553116701d33",
+      "name": {
+        "zh": "审计",
+        "en": "Audit"
+      }
+    },
+    {
+      "id": "6663149cfd5ca9577902e037",
+      "name": {
+        "zh": "看不见的大手",
+        "en": "The Invisible Hand"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

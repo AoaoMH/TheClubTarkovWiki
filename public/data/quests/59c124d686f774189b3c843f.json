@@ -1,0 +1,133 @@
+{
+  "id": "59c124d686f774189b3c843f",
+  "name": {
+    "zh": "石油存储",
+    "en": "BP Depot"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Discover",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b371186f774253763a656",
+      "itemName": {
+        "zh": "野营燃料桶",
+        "en": "Expeditionary fuel tank"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57f4c844245977379d5c14d1",
+      "itemName": {
+        "zh": "PP-9 “楔子” 9x18PMM 微型冲锋枪",
+        "en": "PP-9 Klin 9x18PMM submachine gun"
+      }
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": -0.01
+    }
+  ],
+  "description": {
+    "zh": "这张丑脸有点眼熟啊！哦浪子你来得正好，我正为一桩生意犯愁呢。有只小小鸟请我去检查那些可能存着燃料的地方。那些地方很热门，你懂的，不是随便什么人都办得成这事。不过算我运气好，正愁着呢，你就来了！咱们长话短说，你以前用过这种信标对吧？这东西不复杂——把它黏在隐蔽点的地方，按一下按钮，跑路。明白吗？好得很，你要做的就是把所有的油罐标记出来。来，拿着信标。就把它们当成咱们合伙关系的信物好了。",
+    "en": "This mug looks familiar! Hello there, drifter. Good timing, I’ve been pondering on some business here. A little bird asked me to check out the area where there might still be some fuel remaining. Hot topic, you understand, not for just anybody to charge with. And here you step in! Lucky me. Cutting it short, you’ve handled beacons before, right? No rocket science - stick it somewhere out of sight, press the button, get out. Got it? Excellent, all that’s left is to find and mark the tank trucks. There must be four of them total. Here, take those beacons, consider it a token of appreciation for our successful partnership. Don't lose them though, any extra ones will cost you money."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59674eb386f774539f14813a",
+      "name": {
+        "zh": "往事速递",
+        "en": "Delivery From the Past"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5967530a86f77462ba22226b",
+      "name": {
+        "zh": "罪证",
+        "en": "Bad Rep Evidence"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5ede55112c95834b583f052a",
+      "name": {
+        "zh": "地堡 - 1",
+        "en": "The Bunker - Part 1"
+      }
+    },
+    {
+      "id": "675c3507a06634b5110e3c18",
+      "name": {
+        "zh": "引路先驱",
+        "en": "Belka and Strelka"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c133eb86f7740e7b544c71.jpg",
+  "isKey": false
+}

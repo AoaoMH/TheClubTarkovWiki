@@ -1,0 +1,98 @@
+{
+  "id": "64916da7ad4e722c106f2345",
+  "name": {
+    "zh": "东窗事发",
+    "en": "Failed Setup"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "62e7e7bbe6da9612f743f1e0",
+      "itemName": {
+        "zh": "GP-25“篝火”40 毫米下挂式榴弹发射器",
+        "en": "GP-25 Kostyor 40mm underbarrel grenade launcher"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5656eb674bdc2d35148b457c",
+      "itemName": {
+        "zh": "40毫米VOG-25榴弹",
+        "en": "40mm VOG-25 grenade"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6357c98711fb55120211f7e1",
+      "itemName": {
+        "zh": "M203 40毫米下挂式榴弹发射器",
+        "en": "M203 40mm underbarrel grenade launcher"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ede475b549eed7c6d5c18fb",
+      "itemName": {
+        "zh": "40x46毫米 M386(HE)",
+        "en": "40x46mm M386 (HE) grenade"
+      }
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.15
+    }
+  ],
+  "description": {
+    "zh": "进来吧，我有些事情需要你来做。\n最近发生了一件烦人的事情。你应该知道，我的这些小生意需要依赖城市里留下的居民们。但是现在出岔子了，一把我组装的步枪流到了那些到处画符号的人手上。Scav在符号圈里找到了那把枪，然后认为是我在为那些人提供武器。我接受不了这样的诬陷。帮我做事，解决掉那些“画家”。我会给你丰厚的报酬。另外，不要伤害Scav，已经出了很多岔子了。",
+    "en": "Well, hello there. Come in, there's something I need you to do. An unpleasant situation has arisen. As you know, my little hobby is in demand among the remaining residents of this great city. But here's the trouble, one of the rifles I assembled fell into the wrong hands and ended up in the hands of those who draw their circles around town. Scavs found it in one of the circles and accused me of supplying the creeps with weapons. I don't need that kind of complaint. Do the job, cut through the ranks of these artists. And I'll make sure to find a decent reward. And another thing, try not to harm Scavs. Enough trouble with them as it is."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 30,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest",
+        "sectantWarrior"
+      ]
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Elimination",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "assault",
+        "cursedAssault",
+        "marksman",
+        "savage"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/6499ae386e932425bb03fb2f.png",
+  "isKey": false
+}

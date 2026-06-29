@@ -1,0 +1,147 @@
+{
+  "id": "5edabd13218d181e29451442",
+  "name": {
+    "zh": "肮脏游戏",
+    "en": "Rigged Game"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Discover",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 150000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 150000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5926bb2186f7744b1c6c6e60",
+      "itemName": {
+        "zh": "HK MP5N 9x19 冲锋枪（海军型）",
+        "en": "HK MP5 9x19 submachine gun (Navy 3 Round Burst)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5926c3b286f774640d189b6b",
+      "itemName": {
+        "zh": "MP5 9x19标准30发弹匣",
+        "en": "HK MP5 9x19 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "6570259bc5d7d4cb4d07857f",
+      "itemName": {
+        "zh": "50发9x19 Luger CCI弹药包",
+        "en": "9x19mm Luger CCI ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿你！硬汉！快过来，这里有个活正适合你。我听说 Parpor 派你去一些医生那里去弄药。别先急着表态！我对那些药品不感兴趣，让 Prapor 去收集起来放在他屁股上吧。他拿到东西就能给你好处，不是吗？你只需要把这些有意思的东西放在 Sanitar 藏起来的容器里。Prapor 不会听到任何风声，这是几分钟的自由交易，但利润不错。动作要快，在他们转运货物之前就要办好。",
+    "en": "Hey you, tough guy! C'mere, I have a job for you. I've heard Prapor sent you to get a supply of drugs from some Sanitar dude. Don't make that face! I ain't got no interest in those drugs, let Prapor collect it and put it up his ass, you have already received profit from him anyway, haven't you? You just need to put these smart little things in containers that are in Sanitar's stashes. Prapor won't get wind of anything, it's a two-minute job, but the profit is good. Just gotta do it fast, before they move those containers."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5eda19f0edce541157209cee",
+      "name": {
+        "zh": "麻醉",
+        "en": "Anesthesia"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5edab4b1218d181e29451435",
+      "name": {
+        "zh": "猎人之路 - 虐待狂",
+        "en": "The Huntsman Path - Sadist"
+      }
+    },
+    {
+      "id": "60e71c11d54b755a3b53eb65",
+      "name": {
+        "zh": "夜间扫荡",
+        "en": "Night Sweep"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+  "isKey": false
+}

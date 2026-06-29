@@ -1,0 +1,117 @@
+{
+  "id": "67040c22cc1f3752720376e9",
+  "name": {
+    "zh": "技术问题",
+    "en": "Matter of Technique"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Discover",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 20500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 105000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 105000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657024cecfc010a0f5006a0a",
+      "itemName": {
+        "zh": "4.6x30 FMJ SX弹药包（40发装）",
+        "en": "4.6x30mm FMJ SX ammo pack (40 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5ba26586d4351e44f824b340",
+      "itemName": {
+        "zh": "MP7 4.6x30 40发标准弹匣",
+        "en": "HK MP7 4.6x30 40-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bd70322209c4d00d7167b8f",
+      "itemName": {
+        "zh": "HK MP7A2 4.6x30 微型冲锋枪",
+        "en": "HK MP7A2 4.6x30 submachine gun"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "艰难时期来了，是吧？TerraGroup就是一个巨大的谜盒。\n\n还有什么比把人变成活死人更疯狂的事？如果我们撑不住，我不认为塔科夫能承受这打击。\n\n应Therapist的请求，我做了一些研究，找到了一台可能还有有用数据的电脑。但现在需要你了。\n\n严格按照指示准备U盘，去城里TerraGroup办公室找到他们的电脑，把U盘插上。你必须在电脑旁确保连接建立。\n\n一旦你做完你那份，我们共同的朋友和我会做剩下的事——纯粹是技术活。",
+    "en": "Tough times are upon us, huh? TerraGroup is one big box of mysteries.\n\nWhat could be crazier than turning a man into the living dead? I doubt Tarkov will survive this blow if we can't stand up to it.\n\nAt Therapist's request, I did some research and found a working computer that might have some useful data left on it. But now we need you.\n\nPrepare the thumb drive exactly as instructed, get to TerraGroup's computer in their office in the city, and leave it there. You'll have to stay at the PC to make sure the connection is established. \n\nOnce you've done your part, our mutual acquaintance and I will do the rest - all a matter of technique."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: VisitPlace",
+      "value": 1,
+      "target": "halloween_unlock_pc",
+      "targetNames": {
+        "halloween_unlock_pc": {
+          "zh": "halloween_unlock_pc",
+          "en": "halloween_unlock_pc"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6707d13e4e617ec94f0e5631"
+      ],
+      "targetNames": {
+        "6707d13e4e617ec94f0e5631": {
+          "zh": "装有特殊程序的U盘",
+          "en": "Flash drive with special software"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67040ba4578a46e44a05c0a8",
+      "name": {
+        "zh": "根本原因",
+        "en": "The Root Cause"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67040c43ce929d6ee506c7c7",
+      "name": {
+        "zh": "找到源头",
+        "en": "Find the Source"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/671f89bfab3a1278b204cc33.png",
+  "isKey": false
+}

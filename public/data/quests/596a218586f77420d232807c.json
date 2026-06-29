@@ -1,0 +1,151 @@
+{
+  "id": "596a218586f77420d232807c",
+  "name": {
+    "zh": "汽车修理",
+    "en": "Car Repair"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c657e86f77412b013051d",
+      "itemName": {
+        "zh": "Grizzly急救包",
+        "en": "Grizzly medical kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e534186f7747fa1419867",
+      "itemName": {
+        "zh": "eTG-change再生兴奋剂注射器",
+        "en": "eTG-change regenerative stimulant injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c10c8fd86f7743d7d706df3",
+      "itemName": {
+        "zh": "肾上腺素注射器",
+        "en": "Adrenaline injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "下午好，小伙子。我们的公益事业需要帮助，我想你早就猜到了，我一直在收集食品，药品和其它必需品来帮助人们撤离。我不骗你，这是真的，现在他们有足够的贮备出发了。最重要的是，我已经和外界的人协商成功，他们允许我们通过。你能想象到吗？但这次只允许平民撤离，不准60岁以下的男性通过。因此，第一批主要是带着孩子的妈妈和几位老人。现在几乎一切都准备就绪了，只有一个问题，我们需要运输工具。我们有几辆车，刚刚好够第一批撤离的人用，但它们都没法发动了。这些车已经闲置了太久，但据我所知，只需要更换电池和火花塞，连汽油不用加。4个电池和8个火花塞，你能搞定吗？",
+    "en": "Good afternoon, young man. I need help for a good cause. As you have long guessed, I collect food, medicine, and other necessities in order to evacuate the people. I don't want to deceive you, this is true. And now they have enough reserves for the road. And most importantly, I’ve managed to negotiate through my channels that these people would be met and let through to the other side. Can you imagine? But only the civilian population, no men under 60. Therefore, the first wave will mostly be children with mothers and a few elderly people. Almost everything is ready, except for one little detail - we need transportation. We have several vehicles, just enough to carry everyone from the first wave, but they are not running. As I was told, they have been idle for too long and need batteries and spark plugs. Even fuel is not necessary. I will make a proper list of the items we need. Can you bring them?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 4,
+      "target": [
+        "5733279d245977289b77ec24"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5733279d245977289b77ec24": {
+          "zh": "汽车蓄电池",
+          "en": "Car battery"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 8,
+      "target": [
+        "590a3c0a86f774385a33c450"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3c0a86f774385a33c450": {
+          "zh": "火花塞",
+          "en": "Spark plug"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "5733279d245977289b77ec24"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5733279d245977289b77ec24": {
+          "zh": "汽车蓄电池",
+          "en": "Car battery"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 8,
+      "target": [
+        "590a3c0a86f774385a33c450"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3c0a86f774385a33c450": {
+          "zh": "火花塞",
+          "en": "Spark plug"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5969f9e986f7741dde183a50",
+      "name": {
+        "zh": "药剂师",
+        "en": "Pharmacist"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979d3f986f7746d08051ce0.jpg",
+  "isKey": false
+}

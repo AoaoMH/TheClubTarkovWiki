@@ -1,0 +1,76 @@
+{
+  "id": "596760e186f7741e11214d58",
+  "name": {
+    "zh": "邮递员派特 - 2",
+    "en": "Postman Pat - Part 2"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 5000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 5000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "544fb45d4bdc2dee738b4568",
+      "itemName": {
+        "zh": "Salewa急救包",
+        "en": "Salewa first aid kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "下午好。Prapor告诉我，你就是那个愿意帮我们重新建立联系的小伙子，能帮我们找回丢失的信真是太棒了！我会静待佳音。",
+    "en": "Good afternoon. Prapor told me that you are the one who will help us to reconnect and find the lost letter. Great! I will be waiting."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "591093bb86f7747caa7bb2ee"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591093bb86f7747caa7bb2ee": {
+          "zh": "封口信件",
+          "en": "Sealed letter"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59675ea386f77414b32bded2",
+      "name": {
+        "zh": "邮递员派特 - 1",
+        "en": "Postman Pat - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5967611386f7741dfe4f46fb.jpg",
+  "isKey": false
+}

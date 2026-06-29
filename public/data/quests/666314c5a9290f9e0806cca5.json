@@ -1,0 +1,93 @@
+{
+  "id": "666314c5a9290f9e0806cca5",
+  "name": {
+    "zh": "城市之匙",
+    "en": "Key to the City"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 55000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 145000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 145000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d1b376e86f774252519444e",
+      "itemName": {
+        "zh": "“凶狠跑刀崽”私酒",
+        "en": "Bottle of Fierce Hatchling moonshine"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "过得怎么样啊，兄弟？我听说最近城市里又风波四起，似乎有不少人在搜集纪念品，就是那些之前留下来的老玩意。我刚刚得到了一条线索，能帮我搞到类似的东西。这种东西一般保存在城市博物馆里。 \n\n从前每座城市都有自己的纪念钥匙，一般是在建城的时候由首任市长找人定做的。我在小时候去博物馆玩还看到过那种东西呢！\n\n放在现在，没人会费那个心思定做什么纪念钥匙了，但显然塔科夫那把肯定还在！早在城市规划阶段，当时的建设者们就打造了一把，让后人铭记这座城市的历史。而我知道该上哪去找它！如果你能把钥匙给我带来，我们可以一起把它卖个好价钱。",
+    "en": "How's it going, brother? I heard the city's stirring up, collecting souvenirs, reminiscing over old times. And I just got a lead on something like this. They keep these things in museums. \n\nIn the old days, each city had its own key, which the governor received at the time of establishment. I even saw one on a tour when I was a kid!\n\nThey don't do that anymore, but Tarkov does have its own key, apparently! When the city was laid out, they made one for historical reference. And I know where to find it! If you bring it back, we'll make a fortune."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66687bc89111279d600b5062"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66687bc89111279d600b5062": {
+          "zh": "塔科夫纪念品钥匙",
+          "en": "Tarkov City souvenir key"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66687bc89111279d600b5062"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66687bc89111279d600b5062": {
+          "zh": "塔科夫纪念品钥匙",
+          "en": "Tarkov City souvenir key"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "666314c3acf8442f8b0531a3",
+      "name": {
+        "zh": "一报还一报",
+        "en": "Proper Comeback"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/6682a77f75d2dfc8330a07e0.png",
+  "isKey": false
+}

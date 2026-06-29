@@ -1,0 +1,112 @@
+{
+  "id": "67af4c1cc0e59d55e2010b97",
+  "name": {
+    "zh": "人生之课",
+    "en": "A Life Lesson"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Skill",
+      "target": "Endurance",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Strength",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Metabolism",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Charisma",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Intellect",
+      "value": 100
+    }
+  ],
+  "description": {
+    "zh": "什——哦，是你啊。进来吧，别傻站着……我们的分红好像打水漂了……Luka 那个混蛋一直联系不上！我们甚至查不到封锁区外的情况……我在那边一点眼线都没有。\n\n要是根本就没有什么 USEC 基地呢？也许那个狗娘养的 Luka 根本就没带什么小队……看看我们，竟然一点都没怀疑。还有你，狗屁鹰眼……他妈的，真是见鬼了。\n\n好吧……我们根本他妈的不可能从这儿对付那帮王八蛋。等我先发完火再清醒过来之前，别指望我想出什么新计划。怎么，你想帮忙？那就先去弄点酒来吧……",
+    "en": "Wha-- Oh, it's you. Come in, don't just stand there... We've lost our dividends, it seems... Luka's not getting in touch, the fucking bastard! We can't even check what's going on outside the cordon... I \ndon't have any eyes there.\n\nWhat if there was no USEC base in the first place? Maybe this fucker Luka doesn't even have a squad... And look at us, we didn't suspect a goddamn thing. And you, fucking eagle eye... Fuck's sake.\n\nOkay... There's no fucking way we're gonna get these cocksuckers from here. Until I'm pissed and then sober again, don't count on a new plan. What, you want to help? Bring some more booze, then..."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 8,
+      "target": [
+        "5d40407c86f774318526545a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d40407c86f774318526545a": {
+          "zh": "Tarkovskaya瓶装伏特加",
+          "en": "Bottle of Tarkovskaya vodka"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 15,
+      "target": [
+        "5d403f9186f7743cac3f229b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d403f9186f7743cac3f229b": {
+          "zh": "Dan Jackiel瓶装威士忌",
+          "en": "Bottle of Dan Jackiel whiskey"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 15,
+      "target": [
+        "5d1b376e86f774252519444e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d1b376e86f774252519444e": {
+          "zh": "“凶狠跑刀崽”私酒",
+          "en": "Bottle of Fierce Hatchling moonshine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67af4c1a6c3ebfd8e6034916",
+      "name": {
+        "zh": "利润保留",
+        "en": "Profit Retention"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67af4c1d8c9482eca103e477",
+      "name": {
+        "zh": "安慰奖",
+        "en": "Consolation Prize"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/67dabeaceec5372724076730.png",
+  "isKey": false
+}

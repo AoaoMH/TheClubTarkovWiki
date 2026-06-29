@@ -1,0 +1,125 @@
+{
+  "id": "5a27b7d686f77460d847e6a6",
+  "name": {
+    "zh": "破铜烂铁",
+    "en": "Scrap Metal"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Discover",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 900,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 900
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5926bb2186f7744b1c6c6e60",
+      "itemName": {
+        "zh": "HK MP5N 9x19 冲锋枪（海军型）",
+        "en": "HK MP5 9x19 submachine gun (Navy 3 Round Burst)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657025a81419851aef03e724",
+      "itemName": {
+        "zh": "50发9x19 Pst Gzh盒装弹药",
+        "en": "9x19mm Pst gzh ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5926bb2186f7744b1c6c6e60",
+      "itemName": {
+        "zh": "HK MP5N 9x19 冲锋枪（海军型）",
+        "en": "HK MP5 9x19 submachine gun (Navy 3 Round Burst)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cc80f8fe4a949033b0224a2",
+      "itemName": {
+        "zh": "5.7x28毫米 SS197SR",
+        "en": "5.7x28mm SS197SR"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好！你应该明白，这里的冲突一度很严重，现在有一些重武器被留在了海岸线。我想这里至少有3辆T90，而且我很确定它们上面的很多军事设备都还在，比如激光测距仪什么的。这些型号不但不出口，还都装备了国内专用光学设备。我的客户们对它们很感兴趣，想拿来跟自己用的比较比较。用指示器标记这些坦克，我的人会处理接下来的事。",
+    "en": "Good day! As you can understand, the conflict here was rather serious and there is some heavy machinery left on the Shoreline. There are at least three T-90 of which I am aware, and I am sure there are many  military devices remaining on them, such as laser rangefinders for example. Those models are not for export, and equipped with optics for domestic use. My customers would be very interested in comparing it to the samples owned by them. From the recon data, one of the tanks was left left on the small land bridge between the weather station and the hydroelectric power station, the other one must be somewhere near the north-west bunker at the Health Resort, and the last tank should be in the village on the dirt road at the collapsed tunnel. Mark the tanks with beacons, and my people will do the rest."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27b7a786f774579c3eb376",
+      "name": {
+        "zh": "猎虎行动",
+        "en": "Tigr Safari"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27b80086f774429a5d7e20",
+      "name": {
+        "zh": "鹰眼",
+        "en": "Eagle Eye"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a29221d86f77457303da9fa.jpg",
+  "isKey": false
+}

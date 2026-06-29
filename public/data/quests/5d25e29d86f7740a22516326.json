@@ -1,0 +1,93 @@
+{
+  "id": "5d25e29d86f7740a22516326",
+  "name": {
+    "zh": "生存者之路 -  雕鸮",
+    "en": "The Survivalist Path - Eagle-Owl"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 40000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 40000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5b3b6e495acfc4330140bd88",
+      "itemName": {
+        "zh": "Vulcan MG 3.5x夜视瞄准镜",
+        "en": "Armasight Vulcan MG 3.5x Bravo night vision scope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 50
+    }
+  ],
+  "description": {
+    "zh": "根据我读过的一篇文章所说，人类的眼睛是能够适应黑暗的。你知道的，我去试过，结果我差点在一片防风林里把自己的腿摔成两截。显然，我已经过了这种蜕变的年纪了。但我想，这应该是你的黄金时期。经过良好训练的夜间视觉是可以在那些艰难的任务中极大地帮助我们的。认真对待吧。可不要作弊啊！不能用夜视仪或热成像！",
+    "en": "As I've read in one article, the human eye can get used to the darkness. You know, I wanted to check, and I almost broke my leg in a deadfall. Guess I'm a little old for such a metamorphosis. But you, I think, are in the prime of life. A well-trained night eyesight can help us very much in our difficult tasks. So take care of this. You're a tough guy, you can take a punch. But what if you can't see anything at night and suddenly get ambushed by some scum? Those things happen quite often, not everyone can take NVGs into their raids. So, show me how you see in the dark, without any gadgets."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 6,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "daytime": {
+        "from": 21,
+        "to": 4
+      },
+      "location": "Lighthouse,Sandbox,bigmap,Interchange,laboratory,Shoreline,Woods,RezervBase,TarkovStreets,Sandbox_high"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25cf2686f77443e75488d4",
+      "name": {
+        "zh": "生存者之路 - 硬汉",
+        "en": "The Survivalist Path - Tough Guy"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5d25e2a986f77409dd5cdf2a",
+      "name": {
+        "zh": "生存者之路 - 战地军医",
+        "en": "The Survivalist Path - Combat Medic"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d67b5ca86f7744dcc5e2f88.jpg",
+  "isKey": false
+}

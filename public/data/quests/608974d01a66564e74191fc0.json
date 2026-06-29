@@ -1,0 +1,99 @@
+{
+  "id": "608974d01a66564e74191fc0",
+  "name": {
+    "zh": "雪中送炭",
+    "en": "A Fuel Matter"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59fafb5d86f774067a6f2084",
+      "itemName": {
+        "zh": "5升丙烷罐",
+        "en": "Propane tank (5L)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嗨！我派了一些人去储备站寻找燃油。他们说那里有一些油罐和油罐车，但没有找到具体位置。我可不想让弟兄们在枪林弹雨中找油。要不你自己去一趟，然后悄悄地用指示器标记那些油罐？这能解我的燃眉之急。",
+    "en": "Hey there! I'm gathering my guys to search the reserve base for fuel. They say there are stationary fuel tanks and tank cars, but I don't know where they are exactly, so I don't wanna send my guys to search for them while they're getting shot at by snipers and shit, so why not you go there yourself and quietly mark the fuel tanks with beacons? Look for the big groups of fuel cisterns."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae448f286f77448d73c0131",
+      "name": {
+        "zh": "战争之血 - 1",
+        "en": "The Blood of War - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "608974af4b05530f55550c21",
+      "name": {
+        "zh": "清点库存",
+        "en": "Inventory Check"
+      }
+    },
+    {
+      "id": "625d6ff5ddc94657c21a1625",
+      "name": {
+        "zh": "网络供应商 - 1",
+        "en": "Network Provider - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c373e753bc0f18316351fe.jpg",
+  "isKey": false
+}

@@ -4,6 +4,8 @@ import { AppLayout } from '@/components/layout/AppLayout'
 import { ItemGrid } from '@/components/item/ItemCard'
 import { ItemDetail } from '@/components/item/ItemDetail'
 import { AmmoView } from '@/components/item/AmmoPage'
+import { QuestList } from '@/components/quest/QuestList'
+import { QuestDetail } from '@/components/quest/QuestDetail'
 import { Skeleton } from '@/components/ui/skeleton'
 import { useCategories, useCategorySummaries } from '@/hooks/useItems'
 
@@ -127,6 +129,8 @@ function App() {
     <AppLayout>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/quests" element={<QuestList />} />
+        <Route path="/quest/:id" element={<QuestDetail />} />
         <Route path="/category/:id" element={<CategoryPage />} />
         <Route path="/item/:id" element={<ItemPage />} />
       </Routes>

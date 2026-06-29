@@ -1,0 +1,106 @@
+{
+  "id": "67040c78bf4be8a4ef041a65",
+  "name": {
+    "zh": "样本 IV - 新的希望",
+    "en": "Sample IV - A New Hope"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 26000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 126000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 126000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aafbcd986f7745e590fff23",
+      "itemName": {
+        "zh": "医疗物品箱",
+        "en": "Medicine case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我们成功破译了日记！这个Vladimir是真正的科学人，及时意识到他们在制造某种可怕的东西。\n\n他秘密地独自开始开发解药。工作已进入最后阶段，他甚至合成了好几个原型！\n\n看起来他犯了一个错误，低估了病毒的潜伏期……这可能就是让他成为自己参与项目第一个受害者的原因。\n\n我们有理由相信密封区里有4号解药样本。有了它，我们就可以重建疫苗配方并合成更多。\n\n我们不能失去那个样本。这就是为什么我不得不和那个汽修厂黑帮安排交易，把样本交给我的人。你需要从实验室穿越到城区，然后把疫苗放在他的，呃，工作站。",
+    "en": "We have managed to decipher the diary! This Vladimir was a true man of science, and realized in time that they were creating something terrifying.\n\nHe secretly began to develop an antidote all by himself. The work was in its final stages, he even synthesized several prototypes!\n\nIt seems he made one mistake in estimating the length of the virus' incubation period... That is what probably made him the first victim of a project he himself had been involved in.\n\nWe have reason to believe there's a sample of antidote number 4 in the sealed section. With it, we can recreate the vaccine formula and synthesize more.\n\nWe can't lose that sample. That's why I had to arrange a deal with that car service mobster to deliver the sample to my group. You'll need to cross from the Lab to the city, and then leave the vaccine at his, uh, workstation."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6707cf827d279daad80fa95f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6707cf827d279daad80fa95f": {
+          "zh": "四号疫苗样本",
+          "en": "Vaccine sample IV"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "laboratory"
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6707cf827d279daad80fa95f"
+      ],
+      "targetNames": {
+        "6707cf827d279daad80fa95f": {
+          "zh": "四号疫苗样本",
+          "en": "Vaccine sample IV"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67040c5b4ac6d9c18c0ade26",
+      "name": {
+        "zh": "不择手段",
+        "en": "Gloves Off"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67040c92bf4be8a4ef041a6c",
+      "name": {
+        "zh": "黎明前的黑暗",
+        "en": "Darkest Hour Is Just Before Dawn"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/671f89bfab3a1278b204cc33.png",
+  "isKey": false
+}

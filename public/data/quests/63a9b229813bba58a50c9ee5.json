@@ -1,0 +1,101 @@
+{
+  "id": "63a9b229813bba58a50c9ee5",
+  "name": {
+    "zh": "最烂的差事",
+    "en": "Worst Job in the World"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6357c98711fb55120211f7e1",
+      "itemName": {
+        "zh": "M203 40毫米下挂式榴弹发射器",
+        "en": "M203 40mm underbarrel grenade launcher"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ede475b549eed7c6d5c18fb",
+      "itemName": {
+        "zh": "40x46毫米 M386(HE)",
+        "en": "40x46mm M386 (HE) grenade"
+      }
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，你好啊！你应该知道，维和是一件难事儿。维和部队需要在交战双方之间保持严格的平衡，很多时候我们发现自己的处境不能再糟糕了。总的来说，联合国和当地政府一样，都希望快速结束冲突。但是地方上的犯罪分子一直在搅浑水。因此，我的上级要求我从那些拾荒者身上取得一些战果。但是我要怎样做才能不费维和部队一兵一卒呢？你知道我打算怎么办了吧？",
+    "en": "Hello mercenary! You know, the job of a peacekeeper is a very difficult one. Peacekeepers are expected to strike a strict balance between the warring parties, and often we find ourselves in the worst kinds of situations. In general, the UN is as interested in a speedy resolution of the conflict as the local authorities. But the local criminal elements are making it difficult. So my superiors require me to achieve new results in the fight against the looters. But how can I do it without casualties among the UN forces? Do you see where I'm going with this?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 30,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5447a9cd4bdc2dbd208b4567",
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25"
+      ],
+      "weaponNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        },
+        "5c07c60e0db834002330051f": {
+          "zh": "ADAR 2-15 .223 卡宾枪",
+          "en": "ADAR 2-15 5.56x45 carbine"
+        },
+        "5d43021ca4b9362eab4b5e25": {
+          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪",
+          "en": "Lone Star TX-15 DML 5.56x45 carbine"
+        }
+      },
+      "distance": {
+        "compareMethod": ">=",
+        "value": 100
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639135f286e646067c176a87",
+      "name": {
+        "zh": "无中生有 - 塔科夫街区",
+        "en": "Revision - Streets of Tarkov"
+      }
+    },
+    {
+      "id": "5a27bc6986f7741c7358402b",
+      "name": {
+        "zh": "湿活 - 5",
+        "en": "Wet Job - Part 5"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+  "isKey": false
+}

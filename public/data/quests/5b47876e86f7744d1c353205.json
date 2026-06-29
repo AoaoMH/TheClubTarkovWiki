@@ -1,0 +1,133 @@
+{
+  "id": "5b47876e86f7744d1c353205",
+  "name": {
+    "zh": "战争之血 - 2",
+    "en": "The Blood of War - Part 2"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 20000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 20000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b40e3f35acfc40016388218",
+      "itemName": {
+        "zh": "HighCom Striker ACHHC IIIA 头盔（黑色）",
+        "en": "HighCom Striker ACHHC IIIA helmet (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f5f41476bdad616ad46d631",
+      "itemName": {
+        "zh": "NPP KlASS 刚玉-VM护甲（黑色）",
+        "en": "NPP KlASS Korund-VM body armor (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5d5d87f786f77427997cfaef",
+      "itemName": {
+        "zh": "Ars Arma A18 Skanda 插板胸挂（复合迷彩）",
+        "en": "Ars Arma A18 Skanda plate carrier (MultiCam)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嗨，兄弟，最近怎么样？至少身体很健康啊，这才是最重要的。除了装备，我还对柴油燃料之类的很感兴趣。你可以给我带几罐燃料添加剂么？它们一般用来提高便携式发电机的燃料质量。已经有买家想要马上购买它们了。待会儿见，老兄。",
+    "en": "Hi brother, how are you? At least you're in good health, that’s what’s really important. Besides the gear, my customers are taking interest in diesel fuel and all that stuff. Can you bring a few cans of fuel conditioners? They are usually used to improve the quality of fuel for the portable generators. I already have the buyers ready to take it off our hands immediately. I need new unused ones, so look for them yourself. See you around, brother."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 4,
+      "target": [
+        "5b43575a86f77424f443fe62"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5b43575a86f77424f443fe62": {
+          "zh": "燃油添加剂",
+          "en": "Fuel conditioner"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "5b43575a86f77424f443fe62"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5b43575a86f77424f443fe62": {
+          "zh": "燃油添加剂",
+          "en": "Fuel conditioner"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae448f286f77448d73c0131",
+      "name": {
+        "zh": "战争之血 - 1",
+        "en": "The Blood of War - Part 1"
+      }
+    },
+    {
+      "id": "5ae4495086f77443c122bc40",
+      "name": {
+        "zh": "临行密密缝 - 1",
+        "en": "Sew it Good - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c10f94386f774227172c572",
+      "name": {
+        "zh": "战争之血 - 3",
+        "en": "The Blood of War - Part 3"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5b4787d086f7744d184ecb35.jpg",
+  "isKey": false
+}

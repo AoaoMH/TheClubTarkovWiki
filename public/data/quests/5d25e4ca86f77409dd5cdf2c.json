@@ -1,0 +1,137 @@
+{
+  "id": "5d25e4ca86f77409dd5cdf2c",
+  "name": {
+    "zh": "狩猎之旅",
+    "en": "Hunting Trip"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 100000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 100000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c05300686f7746dce784e5d",
+      "itemName": {
+        "zh": "VPX闪存模块",
+        "en": "VPX Flash Storage Module"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d0377ce86f774186372f689",
+      "itemName": {
+        "zh": "Iridium军用热成像模块",
+        "en": "Iridium military thermal vision module"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d03775b86f774203e7e0c4b",
+      "itemName": {
+        "zh": "相控阵单元",
+        "en": "Phased array element"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "627e14b21713922ded6f2c15",
+      "itemName": {
+        "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+        "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "进来吧，来点茶吗？嗯，随便了。听我说，事情是这样的。不久之后我要招待我的几个朋友，我想和他们一起去打猎，但那几支MP霰弹枪可上不了台面。我要你给我们搞来几支好枪，在打猎之后还能把它们作为我的个人珍藏的那种。你一定喜欢远距离射击，但首先，你得保证步枪归零是准确的，我们这正好有个能“帮”你校准归零的“客户”。他叫Shturman，总是潜伏在森林的伐木厂周围，是个讨厌的混蛋。别担心报酬，不会让你失望的。所以，用我的试验品（雷明顿 M700，装上FullField TAC30 1-4x24 瞄准镜）测试测试。这个瞄准镜的倍率很高，连脸上的毛都能数清楚，所以你最好离远点瞄准。别担心，我会给你丰厚的报酬，老兄。",
+    "en": "Come on in. Want some tea? Well, whatever. So listen, here's the deal. Soon I will be hosting a few friends of mine. I want to go hunting with them, but there's just no way I can take them hunting with these MP shotguns, right? I have a couple of nice western rifles here, but I need them to be zeroed properly first. And we have just the client for that, his name is Shturman. So, test my build (Remington M700 sniper rifle with a FullField TAC30 1-4x24 scope) on this scum. Find a long-range position and make a precise shot to the head, so that the bastard wouldn't even have a chance. Don't worry, I won't disappoint you with the reward, kid."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5bfea6e90db834001b7347f3"
+      ],
+      "weaponNames": {
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        }
+      },
+      "bodyParts": [
+        "Head"
+      ],
+      "enemyRoles": [
+        "bossKojaniy"
+      ],
+      "distance": {
+        "compareMethod": ">=",
+        "value": 75
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2ee86f77443e35162ea",
+      "name": {
+        "zh": "猎人之路 - 森林管理员",
+        "en": "The Huntsman Path - Woods Keeper"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "6764174c86addd02bc033d68",
+      "name": {
+        "zh": "北国新秀",
+        "en": "Connections Up North"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d694cd886f77468c86a6adc.jpg",
+  "isKey": false
+}

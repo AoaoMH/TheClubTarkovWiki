@@ -1,0 +1,154 @@
+{
+  "id": "5e381b0286f77420e3417a74",
+  "name": {
+    "zh": "纺织业 - 1",
+    "en": "Textile - Part 1"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 32000
+    },
+    {
+      "type": "Item",
+      "value": 100000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 100000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b44cf1486f77431723e3d05",
+      "itemName": {
+        "zh": "IOTV Gen4 防弹衣（突击型，复合迷彩）",
+        "en": "IOTV Gen4 body armor (Assault Kit, MultiCam)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "哦，兄弟，快进来。你想来点酷酷的？我有一个新线索要告诉你，但它很少见而且不便宜。把这些东西给我拿来，不要让它们有磨损，我的存货全用完了，我的订单多得应接不暇。试着在商场找到它，他们以前在那里卖过这种材料，但抢劫犯可能把它抢的塔科夫到处都是。让我给你写个清单，我需要的东西很多。",
+    "en": "Oh, brother, come in. Wanna get something cool? I have some new clothes in store for you, but it's rare and not cheap. Bring me these things, and make sure they're pristine, no traders. My supplies are completely out and I'm overwhelmed with orders. You can check Ultra, they used to sell those materials there back in the day, but the looters probably took it all over Tarkov. Let me make a list for you, I need a lot of stuff."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "5e2af4d286f7746d4159f07a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af4d286f7746d4159f07a": {
+          "zh": "芳纶纤维布料",
+          "en": "Aramid fiber fabric"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5e2af4d286f7746d4159f07a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af4d286f7746d4159f07a": {
+          "zh": "芳纶纤维布料",
+          "en": "Aramid fiber fabric"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 10,
+      "target": [
+        "5e2af4a786f7746d3f3c3400"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af4a786f7746d3f3c3400": {
+          "zh": "防撕布料",
+          "en": "Ripstop fabric"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 10,
+      "target": [
+        "5e2af4a786f7746d3f3c3400"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e2af4a786f7746d3f3c3400": {
+          "zh": "防撕布料",
+          "en": "Ripstop fabric"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "5c12688486f77426843c7d32"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c12688486f77426843c7d32": {
+          "zh": "尼龙绳索",
+          "en": "Paracord"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "5c12688486f77426843c7d32"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c12688486f77426843c7d32": {
+          "zh": "尼龙绳索",
+          "en": "Paracord"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae4497b86f7744cf402ed00",
+      "name": {
+        "zh": "临行密密缝 - 4",
+        "en": "Sew it Good - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5e4d4ac186f774264f758336",
+      "name": {
+        "zh": "纺织业 - 2",
+        "en": "Textile - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5e4d3a5886f77438b1632d82.jpg",
+  "isKey": false
+}

@@ -1,0 +1,78 @@
+{
+  "id": "665eeacf5d86b6c8aa03c79b",
+  "name": {
+    "zh": "口干舌燥 - 猎犬行动",
+    "en": "Thirsty - Hounds"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c1127d0d174af29be75cf68",
+      "itemName": {
+        "zh": "12/70 RIP子弹（5发装）",
+        "en": "12/70 RIP ammo pack (5 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我们得聊聊了：Sanitar 手下的混混一直趁着夜色出动，在海岸线大肆劫掠。他们显然是在搜寻什么东西。这种程度的骚动当然值得好好调查一番。我会去试着查查看他们到底在搞什么名堂，在此之前，帮我吓吓他们。",
+    "en": "We need to talk. Sanitar's goons have been prowling the shore area at nights. Obviously looking for something. Can't let it go unchecked. Scare them off while I try to find out what they're up to."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 12,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "daytime": {
+        "from": 22,
+        "to": 7
+      },
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63a88045abf76d719f42d715",
+      "name": {
+        "zh": "美味香肠",
+        "en": "The Delicious Sausage"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "665eec1f5e47a79f8605565a",
+      "name": {
+        "zh": "口干舌燥 - 养家糊口",
+        "en": "Thirsty - Breadwinner"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66697b99134bc4a35c0017fb.png",
+  "isKey": false
+}

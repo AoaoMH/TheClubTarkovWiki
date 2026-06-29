@@ -1,0 +1,152 @@
+{
+  "id": "686404d348e7bb4146002cac",
+  "name": {
+    "zh": "诺文斯克的朋友 - 第五部分",
+    "en": "Friend from Norvinsk - Part 5"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2000
+    },
+    {
+      "type": "Item",
+      "value": 10200,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 10200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5734781f24597737e04bf32a",
+      "itemName": {
+        "zh": "DVD光驱",
+        "en": "DVD drive"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c06782b86f77426df5407d2",
+      "itemName": {
+        "zh": "电容",
+        "en": "Capacitors"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c2c9c86f774245b1f03f2",
+      "itemName": {
+        "zh": "施工用测量卷尺",
+        "en": "Construction measuring tape"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c12613b86f7743bbe2c3f76",
+      "itemName": {
+        "zh": "情报文件夹",
+        "en": "Intelligence folder"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c46fbd72e2216398b5a8c9c",
+      "itemName": {
+        "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+        "en": "SVDS 7.62x54R sniper rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "多亏你的帮助，我解密的速度快了很多——手机和日记都是。只剩最后一个问题了。\n\n我设法提取出一段奇怪的短语：\"Diary. wvyglv. oiphxifq: sbb onfz qulve. rgx: ssemddvyl\"。这显然是维吉尼亚密码。需要密钥，但我朋友没在任何笔记里留下。我们得自己想办法。\n\n这里有几份日记的副本。原件我先留着。如果你弄丢了，可以再从我这里拿一份。但别滥用我的慷慨。",
+    "en": "With your help, I figured out the decryption way quicker — both in the phone and the diary. Just one last issue.\n\nI managed to extract a strange phrase: \"Diary. wvyglv. oiphxifq: sbb onfz qulve. rgx: ssemddvyl\". This is clearly a Vigenère cipher. It needs a key, but my friend didn't leave it anywhere in his notes. We'll have to figure it out ourselves.\n\nHere are some copies of the diary. I'll keep the original for now. If you lose it, you can have another one from me. Just don't overdo my generosity."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "686666db646d47fec3018925"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "686666db646d47fec3018925": {
+          "zh": "未知数据磁盘",
+          "en": "Disk with unknown data"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "1",
+      "targetNames": {
+        "1": {
+          "zh": "1",
+          "en": "1"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "591093bb86f7747caa7bb2ee"
+      ],
+      "targetNames": {
+        "591093bb86f7747caa7bb2ee": {
+          "zh": "封口信件",
+          "en": "Sealed letter"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "686403eeb4aaef121c0f0f06",
+      "name": {
+        "zh": "诺文斯克的朋友 - 第四部分",
+        "en": "Friend from Norvinsk - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6864fcef9809a149400dd2ee",
+      "name": {
+        "zh": "喘息之机",
+        "en": "Breathing Room"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/68822594ef61b084eb0015a6.jpg",
+  "isKey": false
+}

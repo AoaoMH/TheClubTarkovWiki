@@ -1,0 +1,105 @@
+{
+  "id": "63966fe7ea74a47c2d3fc0e6",
+  "name": {
+    "zh": "归还人情",
+    "en": "Return the Favor"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c8fb46b54c634724d847",
+      "itemName": {
+        "zh": "硅基光电集成电路教材",
+        "en": "Silicon Optoelectronic Integrated Circuits textbook"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5c05300686f7746dce784e5d",
+      "itemName": {
+        "zh": "VPX闪存模块",
+        "en": "VPX Flash Storage Module"
+      }
+    }
+  ],
+  "description": {
+    "zh": "整个事情都变得更加清楚了。和我设想的一样，客户不是这里附近的人。订单全部是从禁区外面来的。我这里有愿意帮忙的线人，但是他们开了条件。他们在Priozersky自然保护区有一处设施。你在任何地方都能看到那个设施，但是没人知道山底下藏了什么。如果你去过那里，你一定见到过整个森林里最高的那座山。有一些好奇的游客一直在山附近晃悠，而且他们手痒痒得想要打开每一扇门。你应该知道，好奇杀死猫。做个正事儿，解决掉那些“好奇猫”。你到那里之后，把给USEC的文件放在他们的营地里。记住，这些文件不能给错人。",
+    "en": "The whole thing is starting to become clearer. It seems that the customer is not from around here, as I initially assumed. The order came from the beyond the border. I have contacts who are willing to assist, but they will need a favor in return. They own a certain, shall we say, facility, located in the Priozersky Natural Reserve. You can see the facility from everywhere, but nobody has a clue what is hiding under the mountain. If you've been in those places, you must have seen the hill that towers over the entire forest. So, some curious tourists began to flock around that hill, and they are itching to open all the doors they see. As you know, curiosity killed the cat. Do the right thing and get rid of those cats. And while you're there, leave the documents for the USECs in their camp. Remember, these documents must not fall into the wrong hands."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 15,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6389c8c5dbfd5e4b95197e6b"
+      ],
+      "targetNames": {
+        "6389c8c5dbfd5e4b95197e6b": {
+          "zh": "TerraGroup \"蓝色文件夹\" 材料",
+          "en": "TerraGroup \"Blue Folders\" materials"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6389c8c5dbfd5e4b95197e6b"
+      ],
+      "targetNames": {
+        "6389c8c5dbfd5e4b95197e6b": {
+          "zh": "TerraGroup \"蓝色文件夹\" 材料",
+          "en": "TerraGroup \"Blue Folders\" materials"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63966fccac6f8f3c677b9d89",
+      "name": {
+        "zh": "抢夺先机",
+        "en": "Snatch"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "63966fd9ea19ac7ed845db30",
+      "name": {
+        "zh": "以牙还牙",
+        "en": "Payback"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

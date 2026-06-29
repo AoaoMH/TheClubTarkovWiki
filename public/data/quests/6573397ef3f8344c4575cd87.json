@@ -1,0 +1,125 @@
+{
+  "id": "6573397ef3f8344c4575cd87",
+  "name": {
+    "zh": "财不外露",
+    "en": "Properties All Around"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 84000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 84000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62e14904c2699c0ec93adc47",
+      "itemName": {
+        "zh": "SR-2M 石楠 9x21 毫米冲锋枪",
+        "en": "SR-2M Veresk 9x21 submachine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "657025c4c5d7d4cb4d078582",
+      "itemName": {
+        "zh": "30发9x21 PS gzh盒装弹药",
+        "en": "9x21mm PS gzh ammo pack (30 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "62e153bcdb1a5c41971c1b5b",
+      "itemName": {
+        "zh": "SR-2M 9x21 30发弹匣",
+        "en": "SR-2M 9x21 30-round magazine"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，大兵！我有个小事情拜托你，很简单的。\n\n你应该知道，TerraGroup最开始备受尊重：他们有正式的申请文件，完成的档案，还按时交税。之后他们才露出马脚。我觉得这里的不动产管理处记录了这个操蛋公司的购置和租用记录。如果你去转转，可能会发现一些有意思的东西。我打赌，这肯定会揭露很多隐形资产的。你准备好了吗？",
+    "en": "Heyo, soldier! I've got a little job for you, easy as always.\n\nYou probably know that TerraGroup acted honorably at first: they filed official requests, compiled documents, paid taxes, all this crap. It's only later that they went off the motherfucking rails. I have a feeling that the city's real estate fund may have kept records of the facilities bought or leased by those fucks. If you poke around, you might find something interesting. I'll bet it'll uncover a lot of hidden assets. You up for it?"
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "fond_quest",
+      "targetNames": {
+        "fond_quest": {
+          "zh": "fond_quest",
+          "en": "fond_quest"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "657acb2ac900be5902191ac9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "657acb2ac900be5902191ac9": {
+          "zh": "土地登记记录",
+          "en": "Cadastral registry records"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "657acb2ac900be5902191ac9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "657acb2ac900be5902191ac9": {
+          "zh": "土地登记记录",
+          "en": "Cadastral registry records"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "64f5aac4b63b74469b6c14c2",
+      "name": {
+        "zh": "苏共之辉 - 2",
+        "en": "Glory to CPSU - Part 2"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/65899ca16a2e1b55682ab961.jpg",
+  "isKey": false
+}

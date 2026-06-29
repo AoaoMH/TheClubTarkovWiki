@@ -1,0 +1,113 @@
+{
+  "id": "64f5deac39e45b527a7c4232",
+  "name": {
+    "zh": "试驾 - 3",
+    "en": "Test Drive - Part 3"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 35300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 400000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 400000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5beed0f50db834001c062b12",
+      "itemName": {
+        "zh": "RPK-16 5.45x39 轻机枪",
+        "en": "RPK-16 5.45x39 light machine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "55d482194bdc2d1d4e8b456b",
+      "itemName": {
+        "zh": "6L31 5.45x39 60发AK-74兼容弹匣",
+        "en": "AK-74 5.45x39 6L31 60-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 8,
+      "itemId": "64898602f09d032aa9399d56",
+      "itemName": {
+        "zh": "5.45x39mm 7N40盒装弹药（30发装）",
+        "en": "5.45x39mm 7N40 ammo pack (30 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "爱国者前仆后继……我之前和一些BEAR谈过俄国国产武器的事情。总之，一批新的AK到货了，我需要找个地方做测试……Dalniy海角怎么样？嗯，肯定有效果。好了，给你这个，去测试吧！",
+    "en": "No shortage of patriots... I had a conversation with a group of BEARs the other day, we chatted about domestic weapons. Anyway, a new AK has arrived in stock, I need to test it somewhere... How about Dalniy? Yeah, that'll work. Alrighty, here's your build, go operate!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 20,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "6499849fc93611967b034949"
+      ],
+      "weaponNames": {
+        "6499849fc93611967b034949": {
+          "zh": "AK-12 5.45x39突击步枪",
+          "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+        }
+      },
+      "location": "Lighthouse"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63a5cf262964a7488f5243ce",
+      "name": {
+        "zh": "试驾 - 2",
+        "en": "Test Drive - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6574e0dedc0d635f633a5805",
+      "name": {
+        "zh": "试驾 - 4",
+        "en": "Test Drive - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+  "isKey": false
+}

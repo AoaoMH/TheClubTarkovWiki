@@ -1,0 +1,113 @@
+{
+  "id": "686524fe9809a149400dd301",
+  "name": {
+    "zh": "进展困境 - 第二部分",
+    "en": "Progression Difficulties - Part 2"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 29000
+    },
+    {
+      "type": "Item",
+      "value": 112000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 112000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ac66c5d5acfc4001718d314",
+      "itemName": {
+        "zh": "6L29 5.56x45 30发AK-101兼容武器弹匣",
+        "en": "AK-101 5.56x45 6L29 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "65702652cfc010a0f5006a53",
+      "itemName": {
+        "zh": "100发5.56x45 M855A1盒装弹药",
+        "en": "5.56x45mm M855A1 ammo pack (100 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ac66cb05acfc40198510a10",
+      "itemName": {
+        "zh": "AK-101 5.56x45 突击步枪",
+        "en": "Kalashnikov AK-101 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我打到了你之前卡住的那个阶段。说实话？感觉很奇怪。像是故意设计成这样的。就像有一层隐藏的东西，你懂吧？\n\n我朋友显然不是无缘无故失踪的。而且看起来有些相当有权势的人参与其中。我觉得他知道将要发生什么，所以在游戏里设了这些愚人陷阱。\n\n看起来他们试图把游戏连同军事记录一起偷运出塔科夫。这些数据被转存到U盘上并加密了。\n\n找几个那样的U盘，解密数据。里面会有你要找的那个词。以及对我来说很重要的东西。",
+    "en": "So, I progressed to the same stage you did. Honestly? It feels weird. It's like it's all done on purpose. Like there's a hidden layer, you know?\n\nMy friend clearly went missing for a reason. And it seems like some pretty powerful people had a hand in it. I think he knew what was coming, so he set up these fool traps in his game.\n\nLooks like they tried to smuggle it out of Tarkov along with the military records. They were transferred to flash drives and encrypted.\n\nFind a few of those flash drives, and decrypt the data. It'll have the word you're looking for. And something important to me."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "68666887df54e1190902df57"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "68666887df54e1190902df57": {
+          "zh": "解密情报文件夹",
+          "en": "Decrypted intelligence folder"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68650d08a1f188f84d0f5993",
+      "name": {
+        "zh": "进展困境 - 第一部分",
+        "en": "Progression Difficulties - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "686530ba9ed06113720e2c37",
+      "name": {
+        "zh": "外部关注",
+        "en": "External Interest"
+      }
+    },
+    {
+      "id": "68973efb9e616ec3130d2c69",
+      "name": {
+        "zh": "游戏评测 - 第二部分",
+        "en": "Game Review - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6882259010dca38920041b81.jpg",
+  "isKey": false
+}

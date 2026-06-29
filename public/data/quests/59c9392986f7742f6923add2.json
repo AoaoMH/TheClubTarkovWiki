@@ -1,0 +1,159 @@
+{
+  "id": "59c9392986f7742f6923add2",
+  "name": {
+    "zh": "重获信任",
+    "en": "Trust Regain"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.25
+    }
+  ],
+  "description": {
+    "zh": "你懂吗，我想不明白为什么你要与Skier这种卑鄙小人合作！我都想请你吃闭门羹了，小伙子。但是看起来你还是想把咱这儿的弯弯道捋直了，很好...... 我有个任务给你，只要你愿意接受，我们就可以把过去抛诸脑后。但人民是不会原谅你的，天知道那些化学品现在在谁手上。目前我的同事们要在这片区域搜索所有有意义的物资，为苦难中的人民谋福利。 然而，他们没法进入某些地方。去给我找几把特殊的钥匙来帮助我们的行动。 让Skier见鬼去吧，我要你帮助我的人民。",
+    "en": "You know, I wonder why are you working with such a scumbag as Skier! Even though I close my doors for you, young man. But I see that you want to set this unpleasant situation straight. Good... I have a task for you - do it and we’ll put the past behind us. Although people will hardly forget - God only knows whose hands got these chemicals now.  Basically, my colleagues are going to search all the more or less significant objects in the district, looking for supplies for the suffering people. However, they failed to gain access to some places. Find particular keys and hand them over to me, thus helping our operation. To hell with the Skier, let's help people."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "593aa4be86f77457f56379f8"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "593aa4be86f77457f56379f8": {
+          "zh": "宿舍303房间钥匙",
+          "en": "Dorm room 303 key"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "591afe0186f77431bd616a11"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591afe0186f77431bd616a11": {
+          "zh": "ZB-014钥匙",
+          "en": "ZB-014 key"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5913915886f774123603c392"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5913915886f774123603c392": {
+          "zh": "军事基地检查站钥匙",
+          "en": "Military checkpoint key"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5913877a86f774432f15d444"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5913877a86f774432f15d444": {
+          "zh": "加油站储藏室钥匙",
+          "en": "Gas station storage room key"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "593aa4be86f77457f56379f8"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "593aa4be86f77457f56379f8": {
+          "zh": "宿舍303房间钥匙",
+          "en": "Dorm room 303 key"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "591afe0186f77431bd616a11"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591afe0186f77431bd616a11": {
+          "zh": "ZB-014钥匙",
+          "en": "ZB-014 key"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5913915886f774123603c392"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5913915886f774123603c392": {
+          "zh": "军事基地检查站钥匙",
+          "en": "Military checkpoint key"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5913877a86f774432f15d444"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5913877a86f774432f15d444": {
+          "zh": "加油站储藏室钥匙",
+          "en": "Gas station storage room key"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "597a160786f77477531d39d2",
+      "name": {
+        "zh": "出于好奇",
+        "en": "Out of Curiosity"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

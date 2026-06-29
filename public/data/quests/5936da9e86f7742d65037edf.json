@@ -1,0 +1,140 @@
+{
+  "id": "5936da9e86f7742d65037edf",
+  "name": {
+    "zh": "背景调查",
+    "en": "Background Check"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 15000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 15000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "574d967124597745970e7c94",
+      "itemName": {
+        "zh": "西蒙诺夫 SKS 7.62x39 卡宾枪",
+        "en": "TOZ Simonov SKS 7.62x39 carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "64ace9d9b5bf5e95f50a4c1d",
+      "itemName": {
+        "zh": "7.62x39mm FMJ弹药包（20发装）",
+        "en": "7.62x39mm FMJ ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "最近过的咋样，我的勇士？我有个差事要交给你。我的好伙计Arseny之前在工厂当油罐车司机。他的家人在大撤离期间离开了，而他为了多赚些钱选择留在塔科夫，不过现在不见了。他住在加油站附近的三层宿舍楼里，我不记得具体是哪间房了。\n\n总之，他有一块怀表，那可是个传家宝。他见到人就会提到这东西。找到那块怀表，然后带给我，我打算把它交给他的孩子。总给得孩子留个父亲的念想。那块怀表要么是在他的房间里，要么就是在建筑工地那边的某个油罐车上。Arseny一般会把钥匙放在夹克里。所以，开始干活吧！回见！",
+    "en": "How's it going, warrior? I have an errand for you. My comrade Arseny worked at the factory as a tanker driver. His family left during the evacuation while he stayed behind to make some extra money, and perished here. He lived in a three-story dormitory near Polikhim, I don't remember the room.\n\nAnyway, he had a chain watch, a family heirloom. Bragged about it to everyone. Find that watch and bring it to me, I want to send it to his kid. I want the kid to have something to remember his old man by. The watch must be either in his room or in the tanker truck somewhere at the construction site. Arseny always kept the keys in his jacket. Anyway, do the job. So long!"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5937fd0086f7742bf33fc198"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5937fd0086f7742bf33fc198": {
+          "zh": "带链青铜怀表",
+          "en": "Bronze pocket watch on a chain"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5937fd0086f7742bf33fc198"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5937fd0086f7742bf33fc198": {
+          "zh": "带链青铜怀表",
+          "en": "Bronze pocket watch on a chain"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5937ee6486f77408994ba448"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5937ee6486f77408994ba448": {
+          "zh": "机械钥匙",
+          "en": "Machinery key"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315e1dccd301f1301416a",
+      "name": {
+        "zh": "奢靡人生",
+        "en": "Luxurious Life"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "59674cd986f7744ab26e32f2",
+      "name": {
+        "zh": "硝烟野餐",
+        "en": "Shootout Picnic"
+      }
+    },
+    {
+      "id": "59674eb386f774539f14813a",
+      "name": {
+        "zh": "往事速递",
+        "en": "Delivery From the Past"
+      }
+    },
+    {
+      "id": "66e01aca214f88109006a4b5",
+      "name": {
+        "zh": "赴汤蹈火",
+        "en": "Into the Inferno"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c26dd986f77427033c3e83.jpg",
+  "isKey": false
+}

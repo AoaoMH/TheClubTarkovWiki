@@ -1,0 +1,54 @@
+{
+  "id": "5d6fbc2886f77449d825f9d3",
+  "name": {
+    "zh": "导师",
+    "en": "Mentor"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Skill",
+      "target": "Sniper",
+      "value": 300
+    }
+  ],
+  "description": {
+    "zh": "你准备的如何了？我有一个伙计精通狙击步枪的射击技巧，也许你会对他有兴趣。他曾是PMC的一员，但现在他已经退休了，如今付钱就可以接受他的训练。如果你下定决心，我想我可以为你们安排一次会面。",
+    "en": "How's life treating you, mercenary? Maybe you will be interested, a friend of mine is exceptionally skilled at shooting sniper rifles. He worked as a PMC, but now he has retired and is mentoring people for cash. But I'm afraid that his services are not cheap. If you decide, I think I could arrange a meeting for you."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 50000,
+      "target": [
+        "569668774bdc2da2298b4568"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "569668774bdc2da2298b4568": {
+          "zh": "欧元",
+          "en": "Euros"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bc6986f7741c7358402b",
+      "name": {
+        "zh": "湿活 - 5",
+        "en": "Wet Job - Part 5"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5a27cafa86f77424e20615d6.jpg",
+  "isKey": false
+}

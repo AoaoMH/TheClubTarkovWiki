@@ -1,0 +1,138 @@
+{
+  "id": "5ac244c486f77413e12cf945",
+  "name": {
+    "zh": "枪匠 - 13",
+    "en": "Gunsmith - Part 13"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e35cbb86f7741778269d83",
+      "itemName": {
+        "zh": "波纹软管",
+        "en": "Corrugated hose"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c31c586f774245e3141b2",
+      "itemName": {
+        "zh": "一包钉子",
+        "en": "Pack of nails"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5dfa3d2b0dee1b22f862eade",
+      "itemName": {
+        "zh": "KAC PRS/QDC 7.62x51 消音器",
+        "en": "KAC PRS/QDC 7.62x51 sound suppressor"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你擅长隐蔽吗？我猜你藏得还不够好，至少神射手先生还是找到了你。我都有些同情那家伙了，他叫啥来着？我记得好像是Brendan。有趣，我们过去所有的英雄都是如此令人钦佩，现在他们都去了哪里？ 为什么要说是非成败转头空？为什么在当下的混乱局势中，“神枪手先生”这样的家伙倒变成了我们的英雄？为什么我们一直无视他们这些战争猎犬，而现在又开始想和他们搞好关系？你又怎么看呢？我又有一份R11 RSASS的订单。有效射程至少1500，重量低于6.7公斤。还要有消音器，人机工效高于26，后座力总和少于300。",
+    "en": "Are you good at hiding? Not good enough for Sniper not to find you, I think. I don't envy the guy, what’s his name, Brendan I think. Interesting, all those heroes of the past who we admired so much, where have they all gone? Why has everybody become so empty? Why now, with this chaos around, such folk as Sniper became heroes for us? Why have we been ignoring such war dogs, and now we’re looking forward to being friends with them? What do you think? I have another order, for an R11 RSASS. With a sighting range of 1500 or above. Weight 6.7 kg or less. Also needs a silencer, ergonomics more than 26, and recoil sum less than 300."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5a367e5dc4a282000e49738f"
+      ],
+      "targetNames": {
+        "5a367e5dc4a282000e49738f": {
+          "zh": "雷明顿 R11 RSASS 7.62x51 精确射手步枪",
+          "en": "Remington R11 RSASS 7.62x51 marksman rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 26
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 300
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 1500
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 6.7
+        }
+      ],
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b47799d86f7746c5d6a5fd8",
+      "name": {
+        "zh": "枪匠 - 12",
+        "en": "Gunsmith - Part 12"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "639872fe8871e1272b10ccf6",
+      "name": {
+        "zh": "枪匠 - 14",
+        "en": "Gunsmith - Part 14"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4e08086f774623122ae44.jpg",
+  "isKey": false
+}

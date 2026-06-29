@@ -1,0 +1,131 @@
+{
+  "id": "5a27bc6986f7741c7358402b",
+  "name": {
+    "zh": "湿活 - 5",
+    "en": "Wet Job - Part 5"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1700,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1700
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e655586f774045612eeb2",
+      "itemName": {
+        "zh": "HighCom Trooper TFO 防弹背心（复合迷彩）",
+        "en": "HighCom Trooper TFO body armor (MultiCam)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a367e5dc4a282000e49738f",
+      "itemName": {
+        "zh": "雷明顿 R11 RSASS 7.62x51 精确射手步枪",
+        "en": "Remington R11 RSASS 7.62x51 marksman rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60098ad7c2240c0fe85c570a",
+      "itemName": {
+        "zh": "AFAK单兵战术急救包",
+        "en": "AFAK tactical individual first aid kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "活干到位了，酬劳自然给的到位。从文件里我们查出来Artyom就住在328房间，我推测他也是在同一个房间工作的。找到进入他房间的方法，看看有没有什么相关记录留下，然后带给我。",
+    "en": "A job well done gets well rewarded. From the documents we've learned that Artyom lived in room 328. I presume, he worked there as well. Find a way to get into his room and if there’s anything left of his records, bring it to me. I'm waiting to hear from you, mercenary."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5a29276886f77435ed1b117c"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a29276886f77435ed1b117c": {
+          "zh": "完好的硬盘驱动器",
+          "en": "Working hard drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5a29276886f77435ed1b117c"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a29276886f77435ed1b117c": {
+          "zh": "完好的硬盘驱动器",
+          "en": "Working hard drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bc3686f7741c73584026",
+      "name": {
+        "zh": "湿活 - 4",
+        "en": "Wet Job - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27bc8586f7741b543d8ea4",
+      "name": {
+        "zh": "湿活 - 6",
+        "en": "Wet Job - Part 6"
+      }
+    },
+    {
+      "id": "5d6fbc2886f77449d825f9d3",
+      "name": {
+        "zh": "导师",
+        "en": "Mentor"
+      }
+    },
+    {
+      "id": "63a9b229813bba58a50c9ee5",
+      "name": {
+        "zh": "最烂的差事",
+        "en": "Worst Job in the World"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5967532b86f77461fb2f333a.jpg",
+  "isKey": false
+}

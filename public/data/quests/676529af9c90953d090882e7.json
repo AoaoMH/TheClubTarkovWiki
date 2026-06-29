@@ -1,0 +1,257 @@
+{
+  "id": "676529af9c90953d090882e7",
+  "name": {
+    "zh": "枪匠 - 旧友之约",
+    "en": "Gunsmith - Old Friend's Request"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21930
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 155000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 155000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "67600929bd0a0549d70993f6",
+      "itemName": {
+        "zh": "防弹插板箱",
+        "en": "Ballistic plate case"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊，你说这世上真有毕业十几年后连老同学都认不出来的事吗？虽然这么说，不过要是那帮人见到现在的我，估计眼珠子都得瞪出来了。\n\n前些日子，有个同校的朋友突然联系上我。那人在毕业后就报名参军了，说是要当特种兵……当年就看得出，他对这种差事有种，呃，异于常人的天赋。\n\n结果不知道他从哪打听到我的下落，非要我帮他重温新兵营训练那会的青葱岁月。我这人最烦叙旧，别提手头还堆着一大堆工作要搞定。但我这样说好了，那家伙和缠上我了一样，我可不想惹麻烦上身，所以这活儿就拜托你了。\n\n据说他当初受训时候的标准装备是这些：ORSIS T-5000、PP-19-01“勇士”以及一把 Glock 17；当然都是特别改装过的，不是白板枪。\n\n狙击步枪要配上 ATACR 7-35x56 34 毫米瞄准镜，Harris 脚架以及一个消音器，消音器的具体型号我不记得了……不过大概无关紧要。找个合适的型号装上就行。\n\n至于 PP-19-01，我需要带增高基座的 Micro T-1 红点，Zenit RK-6 前握把和 RK-3 手枪式握把，PT-3 Klassika 枪托……此外还需要 PEQ-15 和 Klesch-2P 战术灯——你大概也猜到了，这个也要装消音器，标配的 Vityaz 那种就行。\n\n格洛克就简单了，把枪管换成带枪口螺纹保护帽的 Double Diamond 款式，握把加个 Pachmayr 防滑垫，此外还要 Klesch-2P 战术灯和一个 21 发扩容弹匣。应该就是这些了。",
+    "en": "Hello. Do you ever find yourself crossing paths with a classmate decades after high school and hardly recognizing them? Although, I'd likely shock some of the folks from my class myself.\n\nRecently, a certain guy from my school days reached out to me. After school, he went into the army, wanting to join the special forces... It was clear even then that he had a peculiar, uh, aptitude for that job.\n\nSomehow he found me here and asked me for a favor. He wants to remember his early years in basic training. I'm not a big fan of that sort of hospitality, plus I've got heaps of work to do. But let me put it this way: he was, um, very insistent. I don't need any more trouble, so I agreed to his deal, hoping you'd help me sort it all out.\n\nPeople say this kind of equipment used to be somewhat standard issue at his job: ORSIS T-5000, Vityaz and a Glock 17. All with the special mods, of course.\n\nThe rifle was equipped with an ATACR 7-35x56 34mm scope, Harris bipod, and a suppressor, I can't recall which exact one... Well, probably doesn't matter. Just get any suitable silencer, that'll work.\n\nFor Vityaz I need the Micro T-1 red dot with a spacer, Zenit RK-6 front grip and RK-3 pistol grip, PT-3 Klassika buttstock... I also need a PEQ-15, Klesch-2P flashlight, and, as you probably guessed, a suppressor, the standard Vityaz one.\n\nThe Glock is simple. You need to replace the barrel with the Double Diamond with their thread protector, add a Pachmayr Grip Glove, Klesch-2P flashlight, and a 21-round extendo mag. I think that's everything."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5df24cf80dee1b22f862e9bc"
+      ],
+      "targetNames": {
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 18
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 500
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 5
+        }
+      ],
+      "requiredItems": [
+        "5aa66be6e5b5b0214e506e97",
+        "5888961624597754281f93f3"
+      ],
+      "requiredItemNames": {
+        "5aa66be6e5b5b0214e506e97": {
+          "zh": "Nightforce ATACR 7-35x56步枪瞄准镜",
+          "en": "Nightforce ATACR 7-35x56 34mm riflescope"
+        },
+        "5888961624597754281f93f3": {
+          "zh": "Harris S-BRM 6-9\" 脚架",
+          "en": "Harris S-BRM 6-9\" Bipod"
+        }
+      },
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "59984ab886f7743e98271174"
+      ],
+      "targetNames": {
+        "59984ab886f7743e98271174": {
+          "zh": "PP-19-01 勇士 9x19 冲锋枪",
+          "en": "PP-19-01 Vityaz 9x19 submachine gun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 57
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 400
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        }
+      ],
+      "requiredItems": [
+        "58d399e486f77442e0016fe7",
+        "58d39b0386f77443380bf13c",
+        "5c1bc7752e221602b1779b34",
+        "5649ae4a4bdc2d1b2b8b4588",
+        "544909bb4bdc2d6f028b4577",
+        "59bfc5c886f7743bf6794e62",
+        "59ecc3dd86f7746dc827481c",
+        "560d657b4bdc2da74d8b4572"
+      ],
+      "requiredItemNames": {
+        "58d399e486f77442e0016fe7": {
+          "zh": "Aimpoint Micro T-1反射式瞄具",
+          "en": "Aimpoint Micro T-1 reflex sight"
+        },
+        "58d39b0386f77443380bf13c": {
+          "zh": "Aimpoint Micro瞄具垫高器",
+          "en": "Aimpoint Micro Spacer High"
+        },
+        "5c1bc7752e221602b1779b34": {
+          "zh": "Zenit RK-6前握把",
+          "en": "Zenit RK-6 tactical foregrip"
+        },
+        "5649ae4a4bdc2d1b2b8b4588": {
+          "zh": "Zenit RK-3 AK手枪式握把",
+          "en": "AK Zenit RK-3 pistol grip"
+        },
+        "544909bb4bdc2d6f028b4577": {
+          "zh": "L3Harris AN/PEQ-15 战术设备",
+          "en": "L3Harris AN/PEQ-15 tactical device"
+        },
+        "59bfc5c886f7743bf6794e62": {
+          "zh": "Vityaz 9x19声音抑制器",
+          "en": "PP-19-01 Vityaz 9x19 sound suppressor"
+        },
+        "59ecc3dd86f7746dc827481c": {
+          "zh": "Zenit PT-3 \"Klassika\"枪托",
+          "en": "AK Zenit PT-3 \"Klassika\" stock"
+        },
+        "560d657b4bdc2da74d8b4572": {
+          "zh": "Zenit 2P Klesch 手电激光指示器",
+          "en": "Zenit Klesch-2P flashlight with laser"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5a7ae0c351dfba0017554310"
+      ],
+      "targetNames": {
+        "5a7ae0c351dfba0017554310": {
+          "zh": "GLOCK 17 9x19手枪",
+          "en": "Glock 17 9x19 pistol"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 90
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 21
+        }
+      ],
+      "requiredItems": [
+        "560d657b4bdc2da74d8b4572",
+        "5a7b4960e899ef197b331a2d",
+        "5a6b5e468dc32e001207faf5",
+        "5a6b592c8dc32e00094b97bf",
+        "5a718da68dc32e000d46d264"
+      ],
+      "requiredItemNames": {
+        "560d657b4bdc2da74d8b4572": {
+          "zh": "Zenit 2P Klesch 手电激光指示器",
+          "en": "Zenit Klesch-2P flashlight with laser"
+        },
+        "5a7b4960e899ef197b331a2d": {
+          "zh": "Pachmayr战术橡胶握把",
+          "en": "Glock Pachmayr Tactical Grip Glove"
+        },
+        "5a6b5e468dc32e001207faf5": {
+          "zh": "Double Diamond Glock 9x19螺纹枪管",
+          "en": "Glock 9x19 Double Diamond 114mm threaded barrel"
+        },
+        "5a6b592c8dc32e00094b97bf": {
+          "zh": "Double Diamond Glock螺纹保护帽",
+          "en": "Glock 9x19 Double Diamond thread protector"
+        },
+        "5a718da68dc32e000d46d264": {
+          "zh": "Pmag GL9聚合物弹匣",
+          "en": "Glock 9x19 Magpul PMAG GL9 21-round magazine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac244eb86f7741356335af1",
+      "name": {
+        "zh": "枪匠 - 7",
+        "en": "Gunsmith - Part 7"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5ac4dbb086f7743e7c61ca09.jpg",
+  "isKey": false
+}

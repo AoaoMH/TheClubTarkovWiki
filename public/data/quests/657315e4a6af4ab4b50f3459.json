@@ -1,0 +1,174 @@
+{
+  "id": "657315e4a6af4ab4b50f3459",
+  "name": {
+    "zh": "救援行动",
+    "en": "Saving the Mole"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "653e6760052c01c1c805532f",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 15000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 15000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e2af22086f7746d3f3c33fa",
+      "itemName": {
+        "zh": "Poxeram冷焊膏",
+        "en": "Tube of Poxeram cold welding"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "61bf7b6302b3924be92fa8c3",
+      "itemName": {
+        "zh": "金属零件",
+        "en": "Metal spare parts"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，雇佣兵。我是Mechanic。有人说你想见我。我可以见你，但是你得先替我做件事。\n\nTerraGroup派了一支USEC小队追捕一名他们的员工。他被指控泄露信息，公司希望他消失。我不知道那些人有没有抓到那个家伙，这也是为什么我要你去调查这件事。去市中心的TerraGroup大楼看看，寻找小队和那个员工的踪迹。我曾经和他共事过，所以我想知道最后怎么样了。他很有可能带了一块有着重要数据的硬盘，如果你找到了，把它带给我。",
+    "en": "Hello, mercenary. I'm Mechanic. I was told you wanted to meet me. We could arrange that, but there's a matter to be settled first.\n\nTerraGroup sent a USEC task force after one of their employees. He was accused of leaking information and they wanted him removed. I don't know if they succeeded or not, which is why you need to investigate this. Check the TerraGroup complex in the city center, look for traces of both the squad and the employee. I used to work with him, so I'm interested in what eventually happened. He almost always carried a drive with his important data on it, so if you find it, bring it to me."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Sandbox_5_DeadGroup_exploration",
+      "targetNames": {
+        "Sandbox_5_DeadGroup_exploration": {
+          "zh": "Sandbox_5_DeadGroup_exploration",
+          "en": "Sandbox_5_DeadGroup_exploration"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Sandbox_5_Laborant_exploration",
+      "targetNames": {
+        "Sandbox_5_Laborant_exploration": {
+          "zh": "Sandbox_5_Laborant_exploration",
+          "en": "Sandbox_5_Laborant_exploration"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Sandbox_5_Office_exploration",
+      "targetNames": {
+        "Sandbox_5_Office_exploration": {
+          "zh": "Sandbox_5_Office_exploration",
+          "en": "Sandbox_5_Office_exploration"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6575a6ca8778e96ded05a802"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6575a6ca8778e96ded05a802": {
+          "zh": "TerraGroup科学家的硬盘",
+          "en": "TerraGroup scientist's hard drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6575a6ca8778e96ded05a802"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6575a6ca8778e96ded05a802": {
+          "zh": "TerraGroup科学家的硬盘",
+          "en": "TerraGroup scientist's hard drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [
+    {
+      "id": "5ac23c6186f7741247042bad",
+      "name": {
+        "zh": "枪匠 - 1",
+        "en": "Gunsmith - Part 1"
+      }
+    },
+    {
+      "id": "668bcccc167d507eb01a268b",
+      "name": {
+        "zh": "进口管制",
+        "en": "Import Сontrol"
+      }
+    },
+    {
+      "id": "66a74c628410476dd65543be",
+      "name": {
+        "zh": "枪匠 - 特殊订单",
+        "en": "Gunsmith - Special Order"
+      }
+    },
+    {
+      "id": "6752f6d83038f7df520c83e8",
+      "name": {
+        "zh": "一臂之力",
+        "en": "A Helping Hand"
+      }
+    },
+    {
+      "id": "67a09636b8725511260bc421",
+      "name": {
+        "zh": "影子雇员",
+        "en": "Shady Contractor"
+      }
+    },
+    {
+      "id": "684009026ceedc792c09b2a7",
+      "name": {
+        "zh": "同好俱乐部",
+        "en": "Hobby Club"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/65899c7b6f65fb099516b25d.jpg",
+  "isKey": false
+}

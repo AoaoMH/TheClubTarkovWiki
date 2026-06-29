@@ -1,0 +1,98 @@
+{
+  "id": "6834254f2f0e2a7eb90b62ef",
+  "name": {
+    "zh": "两难抉择 [PVE区]",
+    "en": "Decisions, Decisions [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.15
+    },
+    {
+      "type": "Item",
+      "value": 72,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 72
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "664a55d84a90fc2c8a6305c9",
+      "itemName": {
+        "zh": "Theta安全箱",
+        "en": "Secure container Theta"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": -0.15
+    }
+  ],
+  "description": {
+    "zh": "我听到了一些流言蜚语……非常不愉快的流言。他们说你试图挖我生意的底细。\n\n听着，我们认识一段时间了。你就像我兄弟一样！别做会让自己后悔的事。知道得越少睡得越香，听到了吗？\n\n在我完全信任你之前，我会让我的人看着你。我不希望你搞什么小动作，冠军。如果你在探索老冠军的事时发现了什么，拿来给我。然后我们就可以忘记这愉快的小意外。",
+    "en": "I've been hearing rumors... Very unpleasant rumors. They say you're trying to dig my business up.\n\nLook, we've known each other for a while. You're like a brother to me! Don't do something you'll regret later. The less you know, the better you sleep, you hear that?\n\nUntil I'm absolutely confident in you, I'm gonna have my men watching you. I don't want you pulling any stunts, champ. And if you find anything during your little date with the old champion, bring it to me. Then we can forget about this happy little accident."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "664fce7a90294949fe2d81cb"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "664fce7a90294949fe2d81cb": {
+          "zh": "裁判的黑料",
+          "en": "Ref dirt"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "664fce7a90294949fe2d81cb"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "664fce7a90294949fe2d81cb": {
+          "zh": "裁判的黑料",
+          "en": "Ref dirt"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "683425dd8f5b18d29a05d9d1",
+      "name": {
+        "zh": "夹缝求生 [PVE区]",
+        "en": "Between Two Fires [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/66562bdca636bd24a654f418.png",
+  "isKey": false
+}

@@ -1,0 +1,101 @@
+{
+  "id": "669fa39ee749756c920d02c8",
+  "name": {
+    "zh": "刨根问底",
+    "en": "All Is Revealed"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Discover",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 63000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 63000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c60fc86f77412b13fddcf",
+      "itemName": {
+        "zh": "文件包",
+        "en": "Documents case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，小伙子。我得到消息，化工厂的一个化学品容器发生了罐体破损。里面的液体看起来不像是任何记录在册的物质。\n\n我觉得那些一定是有害物质，所以我需要你来帮我尽快提取到样本。只有这样，我们才可以评估塔科夫的生化安全性。",
+    "en": "Hello, young man. I've received information that one of the tank containers at the Polikhim chemical plant has been damaged. Judging by the description of the liquid inside, it doesn't look like any of the emulsions declared in the official documents.\n\nI think the substance in the tank could be hazardous, so I'm asking you to get me a sample as soon as possible. This is the only way we can be sure of our assessment of chemical safety in Tarkov."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "669fac549b0ce3feae01a137"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "669fac549b0ce3feae01a137": {
+          "zh": "化学药剂样品",
+          "en": "Chemical sample"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "669fac549b0ce3feae01a137"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "669fac549b0ce3feae01a137": {
+          "zh": "化学药剂样品",
+          "en": "Chemical sample"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "669fa3a1c26f13bd04030f37",
+      "name": {
+        "zh": "设施维护",
+        "en": "Capacity Check"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66acec97ec21e102040a047d.png",
+  "isKey": false
+}

@@ -1,0 +1,101 @@
+{
+  "id": "67a0970744893b9f3f0d9b68",
+  "name": {
+    "zh": "武装侦察",
+    "en": "Offensive Reconnaissance"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4500
+    }
+  ],
+  "description": {
+    "zh": "你拿到那些钥匙卡了吗？完美。从所有人对地牢感兴趣的样子，你我肯定是抓到一条重要线索了。那里可能是 TerraGroup 的一处重要仓库，或者是从撤离以来就一直没有启封过的秘密实验室！留给我们的时间已经不多了。\n\n首先我们需要侦察周边环境，看看这个设施到底是用来干什么的。如果里面发生的事情真的和 TerraGroup 塑造的公众形象一样完美无缺，那么他们也不会大费周章地把它藏起来了。试着记住你在里面所看到的一切：建筑构造、设备、工具、标记或其他符号...... 每个细节都很重要。\n\n我会等你回来后在周边建立监视系统，追踪有关疗养院的任何信息。如果有人掌握的消息比我们还多，我会追查到他的。",
+    "en": "You got the keycard? Perfect. Judging by how much everyone's interested in these cellars, you and I are on a truly important trail. There could be a TerraGroup warehouse or another lab that's been sealed there ever since the evacuation! We don't have time to waste.\n\nFirst we need to search these premises and figure out what the purpose of the facility is. TerraGroup would not be so eager to hide it if what is going on inside corresponds to their company's public profile. Try to memorize everything you see: the structure of the premises, equipment, tools, markings or other symbols... Every detail counts.\n\nI'll wait for your return and set up my surveillance system to track any information about the health resort. If anyone finds more than we do, I'll see it."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_05_mech_place_01",
+      "targetNames": {
+        "event_labyrinth_05_mech_place_01": {
+          "zh": "event_labyrinth_05_mech_place_01",
+          "en": "event_labyrinth_05_mech_place_01"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "679b9819a2f2dd4da9023512"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679b9819a2f2dd4da9023512": {
+          "zh": "Labrys 访问钥匙卡",
+          "en": "Labrys access keycard"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a0966817e34930e500754c",
+      "name": {
+        "zh": "强制结盟",
+        "en": "Forced Alliance"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67a0970f05d1611ed90be75d",
+      "name": {
+        "zh": "检验假说",
+        "en": "Hypotheses Testing"
+      }
+    },
+    {
+      "id": "67a09724972c11a3f5077324",
+      "name": {
+        "zh": "机密情报",
+        "en": "Confidential Info"
+      }
+    },
+    {
+      "id": "67a0972e77dd677f600804bd",
+      "name": {
+        "zh": "这带子糟透了",
+        "en": "This Tape Sucks"
+      }
+    },
+    {
+      "id": "67a097379f2068e74603c6ac",
+      "name": {
+        "zh": "绝对威信",
+        "en": "Indisputable Authority"
+      }
+    },
+    {
+      "id": "67d03be712fb5f8fd2096332",
+      "name": {
+        "zh": "清空外围",
+        "en": "Vacate the Premises"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/67e3d474aa9c9449d10fd198.jpg",
+  "isKey": false
+}

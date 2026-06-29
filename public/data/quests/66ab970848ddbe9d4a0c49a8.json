@@ -1,0 +1,145 @@
+{
+  "id": "66ab970848ddbe9d4a0c49a8",
+  "name": {
+    "zh": "特别联络",
+    "en": "Special Comms"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Discover",
+  "location": "marathon",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 32000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 32000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "588892092459774ac91d4b11",
+      "itemName": {
+        "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+        "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5888988e24597752fe43a6fa",
+      "itemName": {
+        "zh": ".308 10发DVL-10弹匣",
+        "en": "DVL-10 7.62x51 10-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65702561cfc010a0f5006a28",
+      "itemName": {
+        "zh": "7.62x51 BCP FMJ弹药包（20发装）",
+        "en": "7.62x51mm BCP FMJ ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "有情况！上面给我下达了一份重要指示。最高优先级。森林到储备站之间有一条小路，我们的人需要在这些地方建立联系。\n\n什么路？嗯，我会告诉你的，但是一定要关注嘴巴！契约战争的时候，一些工匠修建了一条和我们的大路平行的小路。我们跟踪调查了这件事情，想挖出背后的人，以及他的目的，你知道该怎么做了吧。\n\n我们之前抓获了一名间谍！他一直声称自己只是个采蘑菇的人，还一直像个傻瓜一样笑。我们希望把他送到总部去。但是晚上他就消失了，再也没人见过他。\n\n所以，我们需要你的帮助，来重建这条小路，就由你来负责相关的设备了。你需要把它们运送到指定的地方，然后到储备站安放第二批物资。",
+    "en": "Salutations! An important assignment has just come from the high-ups. Top priority and all that jazz. There's a path from Priozersk to the Reserve base, and our guys need communication in those parts urgently.\n\nThe path? Ah well, I'll share it with you, but make sure nobody else knows about it! When the Contract Wars were in full swing, some artisan managed to lay a path parallel to our road. We tracked the guy down and started interrogating him on who he was working for, what kind of mission he was on, you know the drill. \n\nWe thought we'd captured a spy! Yet he kept calling himself a mushroom picker and grinning like a moron. We wanted to send him to headquarters. But at night our mushroom picker disappeared, no one saw him again after that.\n\nSo, with your help, we'll build a communication line along this path, and you'll be responsible for the equipment. You'll deliver a part of it to the place, go to the Reserve base, and leave the second part there."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5d0375ff86f774186372f685"
+      ],
+      "targetNames": {
+        "5d0375ff86f774186372f685": {
+          "zh": "军用电缆",
+          "en": "Military cable"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "619cbfeb6b8a1b37a54eebfa"
+      ],
+      "targetNames": {
+        "619cbfeb6b8a1b37a54eebfa": {
+          "zh": "Bulbex剪线器",
+          "en": "Bulbex cable cutter"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Woods"
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5d0375ff86f774186372f685"
+      ],
+      "targetNames": {
+        "5d0375ff86f774186372f685": {
+          "zh": "军用电缆",
+          "en": "Military cable"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "619cbfeb6b8a1b37a54eebfa"
+      ],
+      "targetNames": {
+        "619cbfeb6b8a1b37a54eebfa": {
+          "zh": "Bulbex剪线器",
+          "en": "Bulbex cable cutter"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "60896b7bfa70fc097863b8f5",
+      "name": {
+        "zh": "多鱼之漏",
+        "en": "Documents"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5d77a10586f7745041358b41.jpg",
+  "isKey": false
+}

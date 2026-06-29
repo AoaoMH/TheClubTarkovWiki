@@ -1,0 +1,87 @@
+{
+  "id": "60e71c9ad54b755a3b53eb66",
+  "name": {
+    "zh": "清洁工",
+    "en": "The Cleaner"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 84000
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5fd20ff893a8961fc660a954",
+      "itemName": {
+        "zh": ".300 AAC 黑弹 AP",
+        "en": ".300 Blackout AP"
+      }
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 200
+    },
+    {
+      "type": "Skill",
+      "target": "SMG",
+      "value": 200
+    },
+    {
+      "type": "Skill",
+      "target": "DMR",
+      "value": 100
+    },
+    {
+      "type": "Item",
+      "value": 3000,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 3000
+    }
+  ],
+  "description": {
+    "zh": "啊，我一直在等你来呢，雇佣兵。我想，你已经知道有些前PMC行动人员变成了拾荒者，然后占领了军事基地吧？我的西方伙伴们想要撤出那里的高价值设备，但是为这些曾经的雇佣兵们所困。我相信，清除掉这些混混对你我都有好处。你明白我的意思吗？",
+    "en": "Ah, I have been waiting for your arrival, mercenary. I presume you already know about the group of ex-PMC scavengers that pillage the reserve base? My western partners, who are conducting an evacuation of the remaining valuable equipment, are very troubled by those former mercenaries. I think it is in our mutual interest to decrease those bandits' numbers. Do you get what I am getting at?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 40,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ],
+      "location": "RezervBase"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5c0d4e61d09282029f53920e",
+      "name": {
+        "zh": "向导",
+        "en": "The Guide"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5d69483686f77414077d1cca.jpg",
+  "isKey": false
+}

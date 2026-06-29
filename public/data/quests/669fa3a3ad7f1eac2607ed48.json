@@ -1,0 +1,101 @@
+{
+  "id": "669fa3a3ad7f1eac2607ed48",
+  "name": {
+    "zh": "医疗隐私 - 6",
+    "en": "Health Care Privacy - Part 6"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Discover",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 32000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 32000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5af0548586f7743a532b7e99",
+      "itemName": {
+        "zh": "布洛芬止痛药",
+        "en": "Ibuprofen painkillers"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我们离揭露塔科夫人口骤降之谜，还有很远一段路。\n不过现在我有了新的情报。\n\n我们在工厂找到了一些工人的尸体，奇怪的是，没有打斗痕迹。只能是中毒，或者更糟糕的情况... 血样可以帮助我们查清他们的死因。我们不能错过这次机会。\n\n你已经是个血样采集熟手了，这件事就交给你吧。",
+    "en": "Together with you we have come a long way on the trail of the mysteriously deceased inhabitants of Tarkov. \nNow I have new information.\n\nThe bodies of workers at the factory were found without signs of violence. It could be a symptom of poisoning or worse... Blood samples would help shed light on the mystery of these workers' deaths. We can't take that chance.\n\nYou already have good experience in collecting samples, so I'd like to entrust this case to you. "
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66a0f0926fee20fa70036da6"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66a0f0926fee20fa70036da6": {
+          "zh": "血液样本",
+          "en": "Blood sample"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66a0f0926fee20fa70036da6"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66a0f0926fee20fa70036da6": {
+          "zh": "血液样本",
+          "en": "Blood sample"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a68669a86f774255929b4d4",
+      "name": {
+        "zh": "医疗隐私 - 5",
+        "en": "Health Care Privacy - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66acecda66265b5f5e0248f9.png",
+  "isKey": false
+}

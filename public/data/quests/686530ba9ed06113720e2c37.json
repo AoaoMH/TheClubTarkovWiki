@@ -1,0 +1,78 @@
+{
+  "id": "686530ba9ed06113720e2c37",
+  "name": {
+    "zh": "外部关注",
+    "en": "External Interest"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3500
+    },
+    {
+      "type": "Item",
+      "value": 14300,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 14300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b376e86f774252519444e",
+      "itemName": {
+        "zh": "“凶狠跑刀崽”私酒",
+        "en": "Bottle of Fierce Hatchling moonshine"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好。有些有趣的传言在流传……是的，关于你和储备基地某个程序员的事。真是巧了：我们也对他感兴趣。准确地说，不是对他，而是对他在塔科夫留下的东西感兴趣。我们需要你手里的所有东西。全部。所以能麻烦你全部交出来吗？",
+    "en": "Hello. There are some interesting rumors going around... Yes, about you and some programmer from the reserve base. And what a coincidence: we're interested in him too. Not him, to be specific, but what he left behind in Tarkov. We need everything you've got. Everything. So would you be so kind as to pass it all along?"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6866665cdf54e1190902df55"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6866665cdf54e1190902df55": {
+          "zh": "程序员的日记（副本）",
+          "en": "Programmer's diary (Copy)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "686524fe9809a149400dd301",
+      "name": {
+        "zh": "进展困境 - 第二部分",
+        "en": "Progression Difficulties - Part 2"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/6882265472eddff99c0b4db5.jpg",
+  "isKey": false
+}

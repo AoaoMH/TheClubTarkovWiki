@@ -1,0 +1,130 @@
+{
+  "id": "5a27d2af86f7744e1115b323",
+  "name": {
+    "zh": "西方来客 - 2",
+    "en": "Friend From the West - Part 2"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Merchant",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fb64bc92b1b027b1f50bcf2",
+      "itemName": {
+        "zh": "TDI KRISS Vector Gen.2 .45 ACP 冲锋枪",
+        "en": "TDI KRISS Vector Gen.2 .45 ACP submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "既然你我永远是最铁的铁哥们了，我想有必要让你入伙，来一场只有真正的硬茬才敢接的硬活。上次那笔装备订单来自一个信得过的人。他叫Peacekeeper——我想你认识他。他自称来自联合国维和部队，来这里是来阻止暴力的，大概吧。我忍不住笑了，啊哈哈哈！塔科夫这儿刚乱起来的时候我就和他一起干了。我们一起做事，倒买倒卖，当当搅屎棍，偶尔生产那么一两具尸体。说真的，他生意忙得团团转，真心需要一个像你这样靠得住的伙计搭把手。你也清楚，我有我的难处，恐怕你也猜得到，直接和这样一个进口主销合作的机会可不是免费的。好了，好了，别一副流鼻涕的穷酸样了，只需要给我几千美元，你就能享受到西方文明带来的一切好处。",
+    "en": "Well, since we’re now best pals forever and shit, I think it makes sense to let you in on a real business that real folks are running.\n\nThere are orders from a certain dude. Peacekeeper is the name - I think you know who he is. Man himself is from the UN force, which is here to prevent violence, supposedly. Can’t help laughing, ha-ha! I roll with him from the very beginning of all this fuck-up here. Working here, peddling stuff, stirring shit up, and occasionally dropping a body or two. So to the point, he’s snowed under with work and needs a  tough reliable guy, just like you. \n\nObviously, I have my cut. And, as it is easy for you to guess, the opportunity to work directly with an imported kingpin is not free. Yeah, yeah, off with that sour snot. Roll a several thousand bucks my way, and you’ll be doing business with all the benefits of Western civilization."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5000,
+      "target": [
+        "5696686a4bdc2da3298b456a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5696686a4bdc2da3298b456a": {
+          "zh": "美元",
+          "en": "Dollars"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27c99a86f7747d2c6bdd8e",
+      "name": {
+        "zh": "西方来客 - 1",
+        "en": "Friend From the West - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a03153686f77442d90e2171",
+      "name": {
+        "zh": "疗养之旅 - 1",
+        "en": "Spa Tour - Part 1"
+      }
+    },
+    {
+      "id": "5a27b75b86f7742e97191958",
+      "name": {
+        "zh": "渔具",
+        "en": "Fishing Gear"
+      }
+    },
+    {
+      "id": "5a27b9de86f77464e5044585",
+      "name": {
+        "zh": "邪教 - 1",
+        "en": "The Cult - Part 1"
+      }
+    },
+    {
+      "id": "5b4794cb86f774598100d5d4",
+      "name": {
+        "zh": "租借法案 - 1",
+        "en": "Lend-Lease - Part 1"
+      }
+    },
+    {
+      "id": "5c1234c286f77406fa13baeb",
+      "name": {
+        "zh": "借刀杀人",
+        "en": "Setup"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5edac020218d181e29451446",
+      "name": {
+        "zh": "样品",
+        "en": "Samples"
+      }
+    },
+    {
+      "id": "6086c852c945025d41566124",
+      "name": {
+        "zh": "无中生有 - 储备站",
+        "en": "Revision - Reserve"
+      }
+    },
+    {
+      "id": "6193850f60b34236ee0483de",
+      "name": {
+        "zh": "长路漫漫",
+        "en": "Long Road"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+  "isKey": false
+}

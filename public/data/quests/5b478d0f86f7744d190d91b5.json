@@ -1,0 +1,129 @@
+{
+  "id": "5b478d0f86f7744d190d91b5",
+  "name": {
+    "zh": "微型客车",
+    "en": "Minibus"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5714dbc024597771384a510d",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b44c6ae86f7742d1627baea",
+      "itemName": {
+        "zh": "Ana tactical Beta 2战斗背包 ",
+        "en": "ANA Tactical Beta 2 Battle backpack (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "61bcc89aef0f505f0c6cd0fc",
+      "itemName": {
+        "zh": "FirstSpear Strandhogg 插板胸挂（丛林绿）",
+        "en": "First Spear Strandhogg plate carrier (Ranger Green)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64abd93857958b4249003418",
+      "itemName": {
+        "zh": "Interceptor OTV防弹衣（通用迷彩）",
+        "en": "Interceptor OTV body armor (UCP)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "噢，很高兴见到你，我们直接谈正事吧。最近我得频繁地去取货送货，像骡子一样驮东西，没有别的办法。冲突爆发时，所有的车辆都在EMP袭击中抛锚了。不论你如何尝试都没法让汽车启动，即使你把车子拆解再装回去。也只有那些从外面来的车辆还能跑。在立交桥的停车场有很多微型客车，用信标标记其中三辆，我的维修伙计们会详细地检查它们。如果我能从外面采购一批电子设备，没准我就有机会把它们成功修复。好好干，可别找一些垃圾废铁给我。",
+    "en": "Oh, so glad to see you. Let’s go straight to business, I have to deliver stuff quite frequently, and carrying everything as a mule is hardly an option anymore. All vehicles are dead after some kind of EMP strike during the conflict. Nothing starts no matter how hard you try, even if you take them apart and put them back together, only cars that came from outside can still run. There are bound to be some minibusses at the parking lot at the Interchange, mark at least three of them with beacons. My mechanics will examine them in detail, maybe there is a chance of success if I procure some electronics from the outside. Just do it right, don't need no pieces of trash. Look for the yellow ones, you'll figure it out."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae4493d86f7744b8e15aa8f",
+      "name": {
+        "zh": "数据库 - 2",
+        "en": "Database - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "639135bbc115f907b14700a6",
+      "name": {
+        "zh": "高保真",
+        "en": "Audiophile"
+      }
+    },
+    {
+      "id": "6613f3007f6666d56807c929",
+      "name": {
+        "zh": "涓滴效应 - 1",
+        "en": "Drip-Out - Part 1"
+      }
+    },
+    {
+      "id": "66151401efb0539ae10875ae",
+      "name": {
+        "zh": "涓滴效应 - 1",
+        "en": "Drip-Out - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5b478d1b86f7744d1b23c60b.jpg",
+  "isKey": false
+}

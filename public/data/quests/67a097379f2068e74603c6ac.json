@@ -1,0 +1,114 @@
+{
+  "id": "67a097379f2068e74603c6ac",
+  "name": {
+    "zh": "绝对威信",
+    "en": "Indisputable Authority"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Elimination",
+  "location": "6733700029c367a3d40b02af",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 25500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 2900,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 2900
+    },
+    {
+      "type": "Item",
+      "value": 8,
+      "itemId": "6489851fc827d4637f01791b",
+      "itemName": {
+        "zh": "7.62x39mm MAI AP弹药包（20发装）",
+        "en": "7.62x39mm MAI AP ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 8,
+      "itemId": "64acea16c4eda9354b0226b0",
+      "itemName": {
+        "zh": "7.62x39mm BP gzh弹药包（20发装）",
+        "en": "7.62x39mm BP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "679b9477708cfcb2060b9ade",
+      "itemName": {
+        "zh": "塔科夫之魂海报",
+        "en": "Tark Souls poster"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "喂，当兵的！我有活要给你干，我可不想随便找几个傻子去送死。最近所有人都在往疗养院下面的地牢里冲，都这会了，你肯定也已经知道这个地方了。他们说在那个地堡里有个恶棍镇守着整个地方，看到人就像疯子一样大喊大叫把人撵出去，搞得好像那地方是他的领地似的！ \n最可怕的还是，没人能把他放倒！\n\n我的一些合作伙伴已经开始提出问题，试图因为这种情况压低我的服务价格。但我得告诉你：如果你真的想要在塔科夫扬名立威，关键就在于不要搞砸机会。我们现在就得行动起来，我们要让每个找事的都知道自己有几斤几两。所以我们得把这个牛头混蛋干掉，如果你以我的名义去做掉他，所有人都会明白背后的意思。\n\n你是真正的好手，所以这个傻逼“米诺陶”对你来说应该不成问题。不过最好还是当心点，这个混蛋也不是好惹的。",
+    "en": "Oi, operator! There's a job for you, I don't want no tosser for this. Everyone's been checking out the dungeons under the resort, you ought to know about it by now. They say there's a bogeyman sitting there, safeguarding the whole territory, yelling like a madman and chasing everyone outta there. \nNobody can put him down!\n\nSome partners of mine have started asking questions, trying to drive down prices because of this situation. But let me tell you this: the key to authority is not to fuck up the opportunity. We need to act now, and we need to do it in a way that every little prick knows his place. So we gotta take this fucker down. If you do it in my name, so to speak, everyone will understand.\n\nYou've got the skills, so this \"Minotaur\" idiot won't be a problem for you. But still, better be careful, this bastard is no joke either."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossTagillaAgro"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "tagillaHelperAgro",
+        "bossKillaAgro"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a0970744893b9f3f0d9b68",
+      "name": {
+        "zh": "武装侦察",
+        "en": "Offensive Reconnaissance"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/67e3d47fab7770f72902761d.jpg",
+  "isKey": false
+}

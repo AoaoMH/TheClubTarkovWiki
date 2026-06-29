@@ -1,0 +1,201 @@
+{
+  "id": "66e01ad6835f78499f049180",
+  "name": {
+    "zh": "“理所应得”",
+    "en": "Ours by Right"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 60400
+    },
+    {
+      "type": "Item",
+      "value": 198000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 198000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "618a431df1eb8e24b8741deb",
+      "itemName": {
+        "zh": "RGO手榴弹",
+        "en": "RGO hand grenade"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "617fd91e5539a84ec44ce155",
+      "itemName": {
+        "zh": "RGN手榴弹",
+        "en": "RGN hand grenade"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "65268d8ecb944ff1e90ea385",
+      "itemName": {
+        "zh": "捷格加廖夫 RPDN 7.62x39 毫米轻机枪",
+        "en": "Degtyarev RPDN 7.62x39 machine gun"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6513f0a194c72326990a3868",
+      "itemName": {
+        "zh": "RPD 7.62x39“圆木”100 发弹链盒",
+        "en": "RPD 7.62x39 Buben 100-round box"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "64ace9f9c4eda9354b0226aa",
+      "itemName": {
+        "zh": "7.62x39mm PP gzh弹药包（20发装）",
+        "en": "7.62x39mm PP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "5649ed104bdc2d3d1c8b458b",
+      "itemName": {
+        "zh": "7.62x39mm PS弹药包（20发装）",
+        "en": "7.62x39mm PS gzh ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "64acea09c4eda9354b0226ad",
+      "itemName": {
+        "zh": "7.62x39mm T-45M1 gzh弹药包（20发装）",
+        "en": "7.62x39mm T-45M1 gzh ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "zh": "我得知了一件很烦人的事情。和你没有什么关系，这不重要。那群污水处理厂的混蛋截获了物资箱，并且搞到了电子战报装置。\n\n现在这些装置没什么作用，但是我可不能容忍他们像这样窃取政府财产。\n\n对于像你这样的勇士而言，这件委托不是难事儿。去污水处理厂把东西夺回来。没错，人也要教训教训。\n\n那些装置很有可能已经被上交给老大们了，所以你一定可以从头目们那里拿到东西。当然，我假设的前提是你活着回来。",
+    "en": "Okay, I got word of a major fuck-up. It may not be your fault, but that's beside the point. The assholes at the water treatment plant intercepted a bunch of these crates with portable EW equipment in them. \n\nThey're obviously useless at this point, but I'm not gonna let them steal government property like this. \n\nFor a warrior like you, the task is feasible. Go to the WTP and get me those EW thingies. And yes, those rats need to be put down. \n\nThe EWs themselves have probably already been handed over to their commanders, so you're guaranteed to get this equipment from them. Assuming you don't die, I suppose."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "66d9f8744827a77e870ecaf1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66d9f8744827a77e870ecaf1": {
+          "zh": "GARY ZONT “保护伞”便携式电子战装置",
+          "en": "GARY ZONT portable electronic warfare device"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "exUsec"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBigPipe"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBirdEye"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKnight"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66e01ad15a8890455a0d9eea",
+      "name": {
+        "zh": "来去匆匆",
+        "en": "In and Out"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66e01adbd3d014f3ae061c12",
+      "name": {
+        "zh": "暗中掩护",
+        "en": "Provide Cover"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66eaf150daf127599c0c1a2f.png",
+  "isKey": false
+}

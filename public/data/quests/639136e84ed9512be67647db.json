@@ -1,0 +1,86 @@
+{
+  "id": "639136e84ed9512be67647db",
+  "name": {
+    "zh": "别开枪！",
+    "en": "Cease Fire!"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 27000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 27000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "620109578d82e67e7911abf2",
+      "itemName": {
+        "zh": "ZiD SP-81 26x75信号枪",
+        "en": "ZiD SP-81 26x75 signal pistol"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "62389aaba63f32501b1b444f",
+      "itemName": {
+        "zh": "26x75燃烧照明信号弹（绿色）",
+        "en": "26x75mm flare cartridge (Green)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "可愁死我了，勇士。有一些好人想要离开这座城市。最近的路线是走那条死亡大道，但是那里有狙击手。有个家伙告诉我说，如果你在那里发射一个信号弹，狙击手就会让你通行了，仅限于那一块区域。谁知道他是不是在骗人呢？有可能他是想让我们去送死。我们要怎么知道，狙击手看到信号会不会停火呢...我这有一些信号弹，要不你去试试？",
+    "en": "I'm stumped today, warrior. There are good people who need to escape the city. The closest they can get is through Avenue of Death, but there are snipers overlooking the whole area. One kid told me that if you shoot a signal flare there, the snipers should let you pass through, in that particular spot. But who knows if the kid was lying? Maybe he's trying to lead us to death. How do we find out if it's true that the snipers will stop firing after the signal... I got a couple flares lying around, why don't you go check it out, eh?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63a88045abf76d719f42d715",
+      "name": {
+        "zh": "美味香肠",
+        "en": "The Delicious Sausage"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "64f3176921045e77405d63b5",
+      "name": {
+        "zh": "再寻救护车",
+        "en": "Ambulances Again"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c37481c2d86b57700e3169.jpg",
+  "isKey": false
+}

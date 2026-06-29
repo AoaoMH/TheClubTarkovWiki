@@ -1,0 +1,113 @@
+{
+  "id": "639282134ed9512be67647ed",
+  "name": {
+    "zh": "此路不通",
+    "en": "Road Closed"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 64000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 64000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ba26383d4351e00334c93d9",
+      "itemName": {
+        "zh": "HK MP7A1 4.6x30 微型冲锋枪",
+        "en": "HK MP7A1 4.6x30 submachine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5ba264f6d4351e0034777d52",
+      "itemName": {
+        "zh": "MP7 4.6x30 20发标准弹匣",
+        "en": "HK MP7 4.6x30 20-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "657024c81419851aef03e712",
+      "itemName": {
+        "zh": "4.6x30 Action SX弹药包（40发装）",
+        "en": "4.6x30mm Action SX ammo pack (40 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，我有一份任务要交给你做。这座城市里曾经有过一次大规模战斗。有人袭击了护送极其重要货物的车队。我很肯定，这就是那些狡猾的BEAR干的，但是我们需要证据。因此，比起杀掉那些罪犯更重要的是，确保货物还是完整的。去那里检查一下，然后回来告诉我。",
+    "en": "Mercenary, there is a task for you. There's been a large firefight in the city. Someone ambushed a convoy carrying critical cargo. I'm sure it's the treacherous BEARs, but we'll have to make sure. At this point, it's not as critical to eliminate these war criminals as it is to make sure the cargo is still intact. Go there and report back."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c16_koll_1",
+      "targetNames": {
+        "quest_zone_c16_koll_1": {
+          "zh": "quest_zone_c16_koll_1",
+          "en": "quest_zone_c16_koll_1"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c16_koll_2",
+      "targetNames": {
+        "quest_zone_c16_koll_2": {
+          "zh": "quest_zone_c16_koll_2",
+          "en": "quest_zone_c16_koll_2"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bafb86f7741c73584017",
+      "name": {
+        "zh": "疗养之旅 - 7",
+        "en": "Spa Tour - Part 7"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63a92732813bba58a50c9e93.jpg",
+  "isKey": false
+}

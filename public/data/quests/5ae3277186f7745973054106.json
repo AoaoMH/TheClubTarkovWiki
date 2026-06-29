@@ -1,0 +1,180 @@
+{
+  "id": "5ae3277186f7745973054106",
+  "name": {
+    "zh": "枪匠 - 8",
+    "en": "Gunsmith - Part 8"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5a957c3fa2750c00137fa5f7",
+      "itemName": {
+        "zh": "XRSU47SU AKS-74U战术护木",
+        "en": "AKS-74U CAA XRSU47SU tactical handguard"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5f633f791b231926f2329f13",
+      "itemName": {
+        "zh": "JMAC RRD-4C AK-74膛口制退器",
+        "en": "AK-74 thread type JMac Customs RRD-4C multi-caliber muzzle brake"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57372bd3245977670b7cd243",
+      "itemName": {
+        "zh": "5.45x39mm BS弹药包（30发装）",
+        "en": "5.45x39mm BS gs ammo pack (30 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我有两套神经网络，一套通过摄像机进行人脸识别，另一个监控加密货币交易并对其做出反应。今天我决定再创造一个，它将监测温度，湿度，大气压和我的藏身处的其他参数，以及其它的东西，来根据我的心情作出反应，搞定之后来看看效果如何吧。\n\n这里有一份要求用Zenit配件改装的AKS-74N订单。人机工效应在65以上，后座力总和小于275，不超过10个格子。\n\n现在重头戏来了——也就是配件部分，要有B-30护木、RK-0握把、B-33防尘盖、RK-3手枪式握把、PT-3枪托、Klesch-2IKS手电、DTK-1膛口制退器，以及新版AK-12弹匣；基本上就是Zenit全套了。也许是给前圣彼得堡市民的一份礼物。",
+    "en": "I have two neural networks, one scans the faces on the cameras and compares them with the database, and the other one monitors cryptocurrency trading and reacts to it. Today I’ve decided to create one more, which will monitor the temperature, humidity, pressure, and other parameters of my hideout, and among other things — respond to my mood. Let's see how it turns out when I’m done.\n\nThere is an order for AKS-74N with Zenit parts. Ergonomics should be over 65, recoil sum less than 275, and the gun should be taking up no more than 10 slots.\n\nNow for the most important part — the kit itself. We need a B-30 handguard, RK-0 foregrip, B-33 dust cover, RK-3 pistol grip, PT-3 stock, Klesch-2IKS illuminator, DTK-1 brake, and the newer AK-12 magazine, basically Zenit all around. Perhaps this is a gift for a former Saint Petersburg resident."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5ab8e9fcd8ce870019439434"
+      ],
+      "targetNames": {
+        "5ab8e9fcd8ce870019439434": {
+          "zh": "AKS-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74N 5.45x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 65
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 275
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        },
+        {
+          "stat": "height",
+          "compare": ">=",
+          "value": 2
+        },
+        {
+          "stat": "width",
+          "compare": ">=",
+          "value": 5
+        }
+      ],
+      "requiredItems": [
+        "5649ab884bdc2ded0b8b457f",
+        "5649af884bdc2d1b2b8b4589",
+        "5649ae4a4bdc2d1b2b8b4588",
+        "59ecc3dd86f7746dc827481c",
+        "5bed61680db834001d2c45ab",
+        "5efaf417aeb21837e749c7f2",
+        "5c1bc4812e22164bef5cfde7",
+        "5a5f1ce64f39f90b401987bc"
+      ],
+      "requiredItemNames": {
+        "5649ab884bdc2ded0b8b457f": {
+          "zh": "Zenit DTK-1 7.62x39 & 5.45x39 AK膛口制退补偿器 ",
+          "en": "AK Zenit DTK-1 7.62x39/5.45x39 muzzle brake-compensator"
+        },
+        "5649af884bdc2d1b2b8b4589": {
+          "zh": "Zenit B-33 AK-74防尘盖",
+          "en": "AK Zenit B-33 dust cover"
+        },
+        "5649ae4a4bdc2d1b2b8b4588": {
+          "zh": "Zenit RK-3 AK手枪式握把",
+          "en": "AK Zenit RK-3 pistol grip"
+        },
+        "59ecc3dd86f7746dc827481c": {
+          "zh": "Zenit PT-3 \"Klassika\"枪托",
+          "en": "AK Zenit PT-3 \"Klassika\" stock"
+        },
+        "5bed61680db834001d2c45ab": {
+          "zh": "30发АК-12 5.45x39兼容弹匣",
+          "en": "AK-12 5.45x39 30-round magazine"
+        },
+        "5efaf417aeb21837e749c7f2": {
+          "zh": "Zenit B-30 护木 + B-31S 上导轨",
+          "en": "AK Zenit B-30 handguard with B-31S upper handguard rail"
+        },
+        "5c1bc4812e22164bef5cfde7": {
+          "zh": "Zenit RK-0前握把",
+          "en": "Zenit RK-0 tactical foregrip"
+        },
+        "5a5f1ce64f39f90b401987bc": {
+          "zh": "Zenit Klesch-2IKS 红外补光/激光指示器",
+          "en": "Zenit Klesch-2IKS IR illuminator with laser"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac244eb86f7741356335af1",
+      "name": {
+        "zh": "枪匠 - 7",
+        "en": "Gunsmith - Part 7"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "639872fa9b4fb827b200d8e5",
+      "name": {
+        "zh": "枪匠 - 9",
+        "en": "Gunsmith - Part 9"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae327a086f7745c7b3f2f38.jpg",
+  "isKey": false
+}

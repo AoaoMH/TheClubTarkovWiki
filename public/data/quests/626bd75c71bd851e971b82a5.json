@@ -1,0 +1,131 @@
+{
+  "id": "626bd75c71bd851e971b82a5",
+  "name": {
+    "zh": "踩点行动",
+    "en": "Reconnaissance"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 155000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 155000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f5f41476bdad616ad46d631",
+      "itemName": {
+        "zh": "NPP KlASS 刚玉-VM护甲（黑色）",
+        "en": "NPP KlASS Korund-VM body armor (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "603409c80ca681766b6a0fb2",
+      "itemName": {
+        "zh": "NPP KIASS Condor 护目镜",
+        "en": "NPP KlASS Condor glasses"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656f664200d62bcd2e024077",
+      "itemName": {
+        "zh": "Korund-VM防弹插板（前部）",
+        "en": "Korund-VM ballistic plates (Front)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，勇士，我这里有个重要的任务给你。我也不说客套话，这个任务非常危险。不是所有人都愿意在游荡者的眼皮子底下冒险。啊哈，这不就是战斗精神嘛！你是个硬汉，我知道的。总之，听好了。我需要了解游荡者们的防御情况。到污水处理厂去，爬上厂房屋顶，检查一下那些定点武器。一定要记录每一个细节，即使是那些看起来不太重要的东西。我说得够明白吗？",
+    "en": "Hey there, warrior, I've got an important assignment for you. I won't sugarcoat it, it's pretty dangerous. Not everyone is willing to risk their skin under the noses of the Rogues. Ah, here's the fighting spirit! Yeah, I know, you're a tough guy. Alright, so listen. I want to know the situation on Rogues' defenses. Go to the water treatment plant, climb the roofs, check the mounted weapons. Note every little detail, even things that don't seem that important. Is the task clear, war dog?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "qlight_extension_prapor1_exploration1",
+      "targetNames": {
+        "qlight_extension_prapor1_exploration1": {
+          "zh": "qlight_extension_prapor1_exploration1",
+          "en": "qlight_extension_prapor1_exploration1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "qlight_extension_prapor1_exploration2",
+      "targetNames": {
+        "qlight_extension_prapor1_exploration2": {
+          "zh": "qlight_extension_prapor1_exploration2",
+          "en": "qlight_extension_prapor1_exploration2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "qlight_extension_prapor1_exploration3",
+      "targetNames": {
+        "qlight_extension_prapor1_exploration3": {
+          "zh": "qlight_extension_prapor1_exploration3",
+          "en": "qlight_extension_prapor1_exploration3"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Lighthouse"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6179ac7511973d018217d0b9",
+      "name": {
+        "zh": "小菜一碟 - 1",
+        "en": "Easy Job - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/628b7e7891064964577fa849.jpg",
+  "isKey": false
+}

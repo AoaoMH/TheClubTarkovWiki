@@ -1,0 +1,94 @@
+{
+  "id": "6089743983426423753cd58a",
+  "name": {
+    "zh": "安全通道",
+    "en": "Safe Corridor"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Elimination",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5737292724597765e5728562",
+      "itemName": {
+        "zh": "5.45x39mm BP弹药包（120发装）",
+        "en": "5.45x39mm BP gs ammo pack (120 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b371186f774253763a656",
+      "itemName": {
+        "zh": "野营燃料桶",
+        "en": "Expeditionary fuel tank"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "啊哈，你来的真及时！帮我个忙。我的人本来想去储备站的仓库里“借”点供给品，但是事儿没成。有些不怀好意的家伙去了那里，他们可不像普通人一样好对付。我想只有让你去干翻他们，我的人才能去那边偷东西...我对军事基地没那么在乎了，但是那里的地下仓库可是有好东西的。你会伸出援手的，对吧？好，到那里去掩护我的兄弟们。",
+    "en": "Oh, here you are, just in time! I could use your help. My dudes tried to borrow some supplies from the warehouses on the reserve base, but no luck. Some serious guys dug in there, and these reserve fellas are tough as fuck, not just regular smartasses. And I feel that unless you fuck them up, my guys can't steal any supplies from there... I don't give a shit about the whole base, but the underground warehouses are where the good stuff is. You'll help us, won't you? Yeah, go there and back up my guys while they search the place."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "RezervBase,develop"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "597a0f5686f774273b74f676",
+      "name": {
+        "zh": "化学品 - 4",
+        "en": "Chemical - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c37450de6b0b44cc320e9a.jpg",
+  "isKey": false
+}

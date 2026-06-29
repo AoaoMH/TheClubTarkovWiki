@@ -1,0 +1,130 @@
+{
+  "id": "5edab736cc183c769d778bc2",
+  "name": {
+    "zh": "同事 - 1",
+    "en": "Colleagues - Part 1"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Discover",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 45000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e531286f7747fa54205c2",
+      "itemName": {
+        "zh": "SJ1 TGLabs战斗兴奋剂注射器",
+        "en": "SJ1 TGLabs combat stimulant injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e531d86f7747fa23f4d42",
+      "itemName": {
+        "zh": "SJ6 TGLabs战斗兴奋剂注射器",
+        "en": "SJ6 TGLabs combat stimulant injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "下午好。很明显，在当前的困难形势下，每一个有医学知识的人都是举足轻重的，更不用说执业医生了。看起来这样的医生似乎出现了。有人跟我说海岸线上有人给当地人治病，卖药品给他们。我雇的几个小组去了那里。他们需要找到这位医生，进行谈判并提出最好的条件。但今天，所有的小组都联系不上了。我们需要这些药品......真的需要。找到我的人，看看究竟发生了什么。",
+    "en": "Good afternoon. It is obvious that in the current difficult situation, everyone who has medical knowledge is worth gold, not to mention actual working doctors. And it looks like such a doctor has appeared. I was told that someone on the Shoreline is treating the locals and selling them medicine. I have hired several groups to go there. They had to find this doctor, enter into negotiations and offer the best terms. But today, none of the groups got in touch. We need these medications, I've got clients... ahem, people in need to worry about. Find my people and find out what happened."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "ter_023_area_1_1",
+      "targetNames": {
+        "ter_023_area_1_1": {
+          "zh": "ter_023_area_1_1",
+          "en": "ter_023_area_1_1"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "ter_023_area_3_1",
+      "targetNames": {
+        "ter_023_area_3_1": {
+          "zh": "ter_023_area_3_1",
+          "en": "ter_023_area_3_1"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "ter_023_area_2_1",
+      "targetNames": {
+        "ter_023_area_2_1": {
+          "zh": "ter_023_area_2_1",
+          "en": "ter_023_area_2_1"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "596a1e6c86f7741ddc2d3206",
+      "name": {
+        "zh": "一般储备",
+        "en": "General Wares"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5edaba7c0c502106f869bc02",
+      "name": {
+        "zh": "同事 - 2",
+        "en": "Colleagues - Part 2"
+      }
+    },
+    {
+      "id": "5f04886a3937dc337a6b8238",
+      "name": {
+        "zh": "化学橱柜",
+        "en": "Chemistry Closet"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

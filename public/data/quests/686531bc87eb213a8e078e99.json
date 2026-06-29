@@ -1,0 +1,136 @@
+{
+  "id": "686531bc87eb213a8e078e99",
+  "name": {
+    "zh": "最后冲刺 - 先驱者",
+    "en": "Last Spurt - Pioneer"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12300
+    },
+    {
+      "type": "Item",
+      "value": 142300,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 142300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6183d53f1cb55961fa0fdcda",
+      "itemName": {
+        "zh": "FN SCAR-H 7.62x51 20发弹匣 （FDE）",
+        "en": "FN SCAR-H 7.62x51 20-round magazine (FDE)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装）",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6165ac306ef05c2ce828ef74",
+      "itemName": {
+        "zh": "FN SCAR-H 7.62x51 突击步枪 (FDE)",
+        "en": "FN SCAR-H 7.62x51 assault rifle (FDE)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "Fence和他背后的人不想让任何人知道这事？看来很多事情都变得清晰了。现在我明白为什么我朋友想让这些东西公之于众了。可惜他没来得及。\n\n你想继续吗？另一张磁盘？它可能在塔科夫的某个地方，但我不知道在哪。我能给你的信息都已经给你了。\n\n再去储备基地看看，说不定能找到那张磁盘。也可能找不到。如果找到了，带给我，我会复制并分发出去。让他们的计划见鬼去吧。",
+    "en": "Fence and those behind him don't want anyone to know about it? Seems like many things are becoming clear. Now I understand why my friend wanted these things out in the open. Too bad he couldn't make it in time.\n\nYou want to keep going? Another disk? It might be somewhere in Tarkov, but I don't know where. I've already given you all the information I can.\n\nGo to the reserve base again, maybe you'll find the disk there. Or maybe you won't. If you do, bring it to me, I'll copy it and distribute it. Let their plans go to hell."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "68406efe068a2d99940c1ce3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "68406efe068a2d99940c1ce3": {
+          "zh": "固态硬盘",
+          "en": "Disk drive 1"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "687502c4660d147e2502a94f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "687502c4660d147e2502a94f": {
+          "zh": "正式版磁盘",
+          "en": "Disk with release version"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "687502c4660d147e2502a94f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "687502c4660d147e2502a94f": {
+          "zh": "正式版磁盘",
+          "en": "Disk with release version"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68973efb9e616ec3130d2c69",
+      "name": {
+        "zh": "游戏评测 - 第二部分",
+        "en": "Game Review - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6897401030d0c0235c051b2c",
+      "name": {
+        "zh": "游戏评测 - 第三部分",
+        "en": "Game Review - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6882265472eddff99c0b4db5.jpg",
+  "isKey": false
+}

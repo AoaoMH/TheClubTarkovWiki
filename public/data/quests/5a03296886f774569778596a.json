@@ -1,0 +1,101 @@
+{
+  "id": "5a03296886f774569778596a",
+  "name": {
+    "zh": "疗养之旅 - 4",
+    "en": "Spa Tour - Part 4"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Discover",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1100,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1100
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5733279d245977289b77ec24",
+      "itemName": {
+        "zh": "汽车蓄电池",
+        "en": "Car battery"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "这样的事情不断发生，你还能指望什么，去他妈的！我们完全忘记了电力供应这种事，而且我们当地的发电机故障了。我的人现在遭受着电力短缺危机，这可一点也不妥，因为时间就是金钱。现在有人已经抢先去疗养院实施他们的计划了，我需要你去寻找那些还能用的发电机，它们最有可能被锁在二楼的客房里。我们需要好一些发电机，你一旦找到它们房间的位置就赶紧通知我。",
+    "en": "What can you expect when stuff like that keeps happening, kurwa! We completely forgot about the power supply: our local generators are out of order. My people suffer power shortages and it is totally not okay, because time is money. Many have carried out their activities in the resort before us. Search for generators that are still functional, they are most likely in locked rooms on the second floor of both buildings, we’ll need a bunch of them. Just inform me when you locate the rooms."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_008_4_N1",
+      "targetNames": {
+        "place_peacemaker_008_4_N1": {
+          "zh": "place_peacemaker_008_4_N1",
+          "en": "place_peacemaker_008_4_N1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_008_4_N2",
+      "targetNames": {
+        "place_peacemaker_008_4_N2": {
+          "zh": "place_peacemaker_008_4_N2",
+          "en": "place_peacemaker_008_4_N2"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a0327ba86f77456b9154236",
+      "name": {
+        "zh": "疗养之旅 - 3",
+        "en": "Spa Tour - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a0449d586f77474e66227b7",
+      "name": {
+        "zh": "疗养之旅 - 5",
+        "en": "Spa Tour - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+  "isKey": false
+}

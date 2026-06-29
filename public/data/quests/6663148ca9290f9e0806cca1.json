@@ -1,0 +1,76 @@
+{
+  "id": "6663148ca9290f9e0806cca1",
+  "name": {
+    "zh": "免疫力",
+    "en": "Immunity"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 28000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1150,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1150
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5fca138c2a7b221b2852a5c6",
+      "itemName": {
+        "zh": "xTG-12解毒剂",
+        "en": "xTG-12 antidote injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "既然你已经证明了自己不会无缘无故地开枪伤人，现在该直入正题了。最近我有个手下在行动的时候中了毒，没来得及撑到撤离就毒发身亡了。因此我们没法搞明白到底是什么毒素把他害死了。出事之前，我的人在那些白色的粉笔圈周围打探动静。为了搞清楚到底出了什么事，我需要一份更新鲜的活体样本——简单来说，这人的身体素质得足够过硬，在中毒之后能活着回来才行。",
+    "en": "Well, you've proven you won't shoot indiscriminately. Recently, one of my men was poisoned on a mission and didn't even make it to the extraction point. We couldn't figure out what toxin caused his death. The guy went on a scouting trip to the white chalk circles. I need a more fresh sample and a tough employee who can survive the poisoning and make it back from the raid."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: HealthEffect",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66631489acf8442f8b05319f",
+      "name": {
+        "zh": "陌路相交",
+        "en": "Friend Among Strangers"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6663148ed7f171c4c20226c1",
+      "name": {
+        "zh": "小本生意 - 1",
+        "en": "Small Business - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6682a78f75d2dfc8330a07e2.png",
+  "isKey": false
+}

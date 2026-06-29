@@ -1,0 +1,130 @@
+{
+  "id": "675c1ec7a46173572a0bf20a",
+  "name": {
+    "zh": "试炼之路",
+    "en": "Rite of Passage"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 43000
+    },
+    {
+      "type": "Item",
+      "value": 202000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 202000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5bfeaa0f0db834001b734927",
+      "itemName": {
+        "zh": "M700 7.62x51 Wyatt's Outdoor 10发容量弹匣",
+        "en": "M700 7.62x51 Wyatt's Outdoor 10-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装）",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，雇佣兵。我有一份新的任务要交给你，不过我还不确定这到底能不能算一项差事。\n\n不过既然你总是乐意帮忙，那我就给你个大显身手的机会好了。\n\n那些为城市的利益而战的资深战士们需要补充他们的燃油储备。\n\n所以这回你可以帮帮他们，顺道向我展示一下你能轻松解决外边游荡的那些醉鬼。 \n\n给我带两桶燃料来，但不要逃避战斗。要想彻底清除这座城市的污点，你们必得时刻准备好和敌人硬碰硬才行。",
+    "en": "Hello, merc. I have a new task, though I cannot tell yet if you are fit for a real job.\n\nBut you seem eager to help, so I might give you a chance to prove yourself.\n\nThe more experienced warriors who are already working for the good of Tarkov need to replenish their fuel reserves.\n\nSo you have a chance to do a good deed and prove to me that some drunken thug won't be a problem for you. \n\nBring me two cans of fuel. But don't run from the fight. To clean the city of filth, you must be ready to face the enemy head-on."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5d1b36a186f7742523398433"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d1b36a186f7742523398433": {
+          "zh": "金属燃料桶",
+          "en": "Metal fuel tank"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "675c1cf4a757ddd00404f0a3",
+      "name": {
+        "zh": "事倍功半",
+        "en": "Work Smarter"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6762fe34da151a3f120440c6.jpg",
+  "isKey": false
+}

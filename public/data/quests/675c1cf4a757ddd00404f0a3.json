@@ -1,0 +1,105 @@
+{
+  "id": "675c1cf4a757ddd00404f0a3",
+  "name": {
+    "zh": "事倍功半",
+    "en": "Work Smarter"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6600
+    },
+    {
+      "type": "Item",
+      "value": 32000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 32000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d02778e86f774203e7dedbe",
+      "itemName": {
+        "zh": "CMS手术包",
+        "en": "CMS surgical kit"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你也明白，塔科夫周边算得上安全的逃生路线都挤满了人。无功而返死在了回程路上的好人要远多于丧命在路途中的。\n\n这就是为什么对于一个真正的猎人来说，必须时刻做好准备，个人逃生计划就很重要。现在时局艰难，所以我不建议冒不必要的风险。\n\n以海关为例。我听说有些撤离点已经被人控制了，他们只允许自己人进入。也就是说，外人没法随心所欲进入这些地方了。你最好能想办法打通这些撤离路径。 \n\n这可能需要一些技巧，但对于真正的勇士来说，这点麻烦应该不成问题。",
+    "en": "You know how heated it can be at the safe exits around here. Many die on the road back, not on the actual trip.\n\nThat's why for a true hunter, it's important to always have something prepared, like a personal escape plan. Times are tough right now, so I don't advise taking unnecessary risks.\n\nTake customs for example. I heard that some of the exits are now under someone's control, and they're only letting in their own kind. Which means no more outsiders will be allowed in. You might want to find a way to secure those exits for yourself. \n\nIt may take some finesse, but for a true warrior, such obstacles shouldn't be a problem."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "675aaab74bca0b001d02f356"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "675aaab74bca0b001d02f356": {
+          "zh": "写有暗号“Voron”的纸条",
+          "en": "Note with code word Voron"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: VisitPlace",
+      "value": 1,
+      "target": "exit777",
+      "targetNames": {
+        "exit777": {
+          "zh": "exit777",
+          "en": "exit777"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d24b81486f77439c92d6ba8",
+      "name": {
+        "zh": "熟人",
+        "en": "Acquaintance"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "675c1ec7a46173572a0bf20a",
+      "name": {
+        "zh": "试炼之路",
+        "en": "Rite of Passage"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c37481c2d86b57700e3169.jpg",
+  "isKey": false
+}

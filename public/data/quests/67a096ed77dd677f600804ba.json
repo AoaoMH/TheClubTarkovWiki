@@ -1,0 +1,83 @@
+{
+  "id": "67a096ed77dd677f600804ba",
+  "name": {
+    "zh": "感官分析 - 2",
+    "en": "Sensory Analysis - Part 2"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 32000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 32000
+    }
+  ],
+  "description": {
+    "zh": "我昨天在一场友好的碰头会上高估了自己的酒量。别担心，之前更糟的情况我也挺过来了。有一次我实在是喝废了，连挡位都找不到在哪。然后我想了个法子，用绷带把手困在档把上，不就能继续开了吗？哈哈！发明精神可是和机器打交道的必备美德！\n\nRagman 要检查货物质量，在这方面我可是见多识广。不过这可是我有生以来头一回记不得最后有没有尝他的样品了。不管怎么样，我和他总是可以再聚一次。放着这么好的夜景不喝大酒可是太浪费了，我觉得你也会喜欢这种感觉的！\n\n不过还是得说一句，你碰到 Ragman 的时候最好还是和他提一嘴私酒的事情，我之前答应过要帮他的，但喝大了之后也没搞清楚帮没帮成。",
+    "en": "I miscalculated my abilities yesterday at a friendly get-together. Don't worry, we've sailed in worse storms than this. One time I was so wasted I couldn't find the gearbox in this thing. So I tied my hand to the lever with a bandage! Inventiveness is the main principle for a machinist!\n\nRagman needed to check some goods, and I'm a veteran in this field. Except I can't remember, for the life of me, whether we finally got to his test sample or not. Well, whatever. If it's so important, we can get together again. Such an evening is a sin not to do again, I know you'd like it too!\n\nBut still, if you need to visit Ragman, ask him about the moonshine, I promised I'd help him. And now I don't even know if I did help him or not."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d1b376e86f774252519444e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d1b376e86f774252519444e": {
+          "zh": "“凶狠跑刀崽”私酒",
+          "en": "Bottle of Fierce Hatchling moonshine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d1b376e86f774252519444e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d1b376e86f774252519444e": {
+          "zh": "“凶狠跑刀崽”私酒",
+          "en": "Bottle of Fierce Hatchling moonshine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a0967c003a9986cb0f5ac1",
+      "name": {
+        "zh": "感官分析 - 1",
+        "en": "Sensory Analysis - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/675b0854eaef91cffa0f04fe.jpg",
+  "isKey": false
+}

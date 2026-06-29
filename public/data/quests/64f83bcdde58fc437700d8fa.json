@@ -1,0 +1,181 @@
+{
+  "id": "64f83bcdde58fc437700d8fa",
+  "name": {
+    "zh": "枪匠 - 24",
+    "en": "Gunsmith - Part 24"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 31250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1500,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1500
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "619cbfccbedcde2f5b3f7bdd",
+      "itemName": {
+        "zh": "管道扳手",
+        "en": "Pipe grip wrench"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b2f3f86f774252167a52c",
+      "itemName": {
+        "zh": "FP-100过滤吸收器",
+        "en": "FP-100 filter absorber"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b057b4f5acfc4771e1bd3e9",
+      "itemName": {
+        "zh": "SE-5 Express握把",
+        "en": "Stark SE-5 Express Forward foregrip"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "655df24fdf80b12750626d0a",
+      "itemName": {
+        "zh": "Stark SE-5 Express Forward握把（FDE）",
+        "en": "Stark SE-5 Express Forward foregrip (FDE)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "给你找了个新订单。我需要一把KAC SR-25步枪。CMMG Mk3护木，KAC PRS/QDC消音器，SE-5握把，PRS GEN3枪托，HK Ergo PSG-1手枪式握把，DBAL-PL战术装置，FastFire3红点安装在45度导轨上，10发弹匣，还要有FLIR热成像瞄准镜。对，我知道这些东西不好找，但是订单是死的。对了，人机工效不能低于25，重量不能大于6kg。",
+    "en": "Got a new order for you. I need a KAC SR-25 rifle. CMMG Mk3 handguard, KAC PRS/QDC silencer, SE-5 grip, PRS GEN3 buttstock, HK Ergo PSG-1 style pistol grip, DBAL-PL tactical unit, FastFire 3 red dot on a 45 degree rail, 10 round magazine, and a FLIR thermal scope. Yeah, I know it's rare nowadays, but order is an order. Oh, also you need ergonomics no lower than 25 and weight no higher than 6 kg."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5df8ce05b11454561e39243b"
+      ],
+      "targetNames": {
+        "5df8ce05b11454561e39243b": {
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪",
+          "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 25
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 350
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 500
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 10
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 6
+        }
+      ],
+      "requiredItems": [
+        "5b057b4f5acfc4771e1bd3e9",
+        "5d025cc1d7ad1a53845279ef",
+        "5d1b5e94d7ad1a2b865a96b0",
+        "5d2369418abbc306c62e0c80",
+        "577d141e24597739c5255e01",
+        "5649a2464bdc2d91118b45a8",
+        "5dfa3d2b0dee1b22f862eade"
+      ],
+      "requiredItemNames": {
+        "5b057b4f5acfc4771e1bd3e9": {
+          "zh": "SE-5 Express握把",
+          "en": "Stark SE-5 Express Forward foregrip"
+        },
+        "5d025cc1d7ad1a53845279ef": {
+          "zh": "HK Ergo PSG-1 样式 AR-15 兼容系统手枪式握把",
+          "en": "AR-15 HK Ergo PSG-1 style pistol grip"
+        },
+        "5d1b5e94d7ad1a2b865a96b0": {
+          "zh": "FLIR RS-32 2.25-9x 35毫米 60Hz热成像步枪瞄准镜",
+          "en": "FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope"
+        },
+        "5d2369418abbc306c62e0c80": {
+          "zh": "Steiner Dbal PL战术装置",
+          "en": "Steiner DBAL-PL tactical device"
+        },
+        "577d141e24597739c5255e01": {
+          "zh": "Burris FastFire 3反射式瞄具",
+          "en": "Burris FastFire 3 reflex sight"
+        },
+        "5649a2464bdc2d91118b45a8": {
+          "zh": "NcStar MPR45备用导轨",
+          "en": "NcSTAR MPR45 Backup mount"
+        },
+        "5dfa3d2b0dee1b22f862eade": {
+          "zh": "KAC PRS/QDC 7.62x51 消音器",
+          "en": "KAC PRS/QDC 7.62x51 sound suppressor"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "64f83bb69878a0569d6ecfbe",
+      "name": {
+        "zh": "枪匠 - 23",
+        "en": "Gunsmith - Part 23"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "64f83bd983cfca080a362c82",
+      "name": {
+        "zh": "枪匠 - 25",
+        "en": "Gunsmith - Part 25"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/64f8b675b997eb4f42755cf9.jpg",
+  "isKey": false
+}

@@ -1,0 +1,95 @@
+{
+  "id": "683427418f5b18d29a05d9e3",
+  "name": {
+    "zh": "惊喜礼物",
+    "en": "Surprise Gift [PVE ZONE]"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 25500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1000
+    }
+  ],
+  "description": {
+    "zh": "我听说你卷入了Fence和Ref的这件事。所以你当然决定来找我。你想搞Ref？嗯，这对我有利。把他的把柄给我，我会找到利用它的方法。",
+    "en": "I heard you got involved in this affair with Fence and Ref. So of course you decided to come to me. You want to mess with Ref? Hmm, that would be beneficial to me. Bring me the dirt on him, and I'll find a way to use it."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "arena_champ_room",
+      "targetNames": {
+        "arena_champ_room": {
+          "zh": "arena_champ_room",
+          "en": "arena_champ_room"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "664fce7a90294949fe2d81cb"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "664fce7a90294949fe2d81cb": {
+          "zh": "裁判的黑料",
+          "en": "Ref dirt"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "664fce7a90294949fe2d81cb"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "664fce7a90294949fe2d81cb": {
+          "zh": "裁判的黑料",
+          "en": "Ref dirt"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "683425dd8f5b18d29a05d9d1",
+      "name": {
+        "zh": "夹缝求生 [PVE区]",
+        "en": "Between Two Fires [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

@@ -1,0 +1,195 @@
+{
+  "id": "625d6ff5ddc94657c21a1625",
+  "name": {
+    "zh": "网络供应商 - 1",
+    "en": "Network Provider - Part 1"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "你好，我的朋友。我想，你已经听说过灯塔的那位商人了吧。我想做点什么，怎么说呢...我想亲自和他接触一下。不，现在还不是我们面对面接触的时候。而且，说实在话，我也不想离开我的老窝。但这样会有一个问题：对讲机信号根本没法从这里发射到灯塔去。你能找一些元件，让我组装一个信号发射器吗？",
+    "en": "Hello, friend. I guess you've heard about the trader at the Lighthouse. I've got a little ambition, so to speak... I want to get in touch with him personally. No, it's still a long way to go before we meet face to face. And I don't like to leave my lair, honestly. There's a problem: the radio signal can't reach the lighthouse from here. Can you find the parts so I can put together a signal transmitter?"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "6389c70ca33d8c4cdf4932c6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "6389c70ca33d8c4cdf4932c6": {
+          "zh": "电子元件",
+          "en": "Electronic components"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "5c052f6886f7746b1e3db148"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052f6886f7746b1e3db148": {
+          "zh": "军用COFDM无线信号发射器",
+          "en": "Military COFDM Wireless Signal Transmitter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "590a3efd86f77437d351a25b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3efd86f77437d351a25b": {
+          "zh": "气体分析仪",
+          "en": "Gas analyzer"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "56742c324bdc2d150f8b456d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "56742c324bdc2d150f8b456d": {
+          "zh": "损坏的GPhone",
+          "en": "Broken GPhone smartphone"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59ca264786f77445a80ed044",
+      "name": {
+        "zh": "惩罚者 - 4",
+        "en": "The Punisher - Part 4"
+      }
+    },
+    {
+      "id": "597a0f5686f774273b74f676",
+      "name": {
+        "zh": "化学品 - 4",
+        "en": "Chemical - Part 4"
+      }
+    },
+    {
+      "id": "639135c3744e452011470807",
+      "name": {
+        "zh": "软禁 - 1",
+        "en": "House Arrest - Part 1"
+      }
+    },
+    {
+      "id": "61958c366726521dd96828ec",
+      "name": {
+        "zh": "神秘货物 - 4",
+        "en": "Cargo X - Part 4"
+      }
+    },
+    {
+      "id": "5a27ba1c86f77461ea5a3c56",
+      "name": {
+        "zh": "邪教 - 2",
+        "en": "The Cult - Part 2"
+      }
+    },
+    {
+      "id": "608974d01a66564e74191fc0",
+      "name": {
+        "zh": "雪中送炭",
+        "en": "A Fuel Matter"
+      }
+    },
+    {
+      "id": "5ae4493d86f7744b8e15aa8f",
+      "name": {
+        "zh": "数据库 - 2",
+        "en": "Database - Part 2"
+      }
+    },
+    {
+      "id": "5d25e48186f77443e625e386",
+      "name": {
+        "zh": "礼节性拜访",
+        "en": "Courtesy Visit"
+      }
+    },
+    {
+      "id": "5ae327c886f7745c7b3f2f3f",
+      "name": {
+        "zh": "枪匠 - 10",
+        "en": "Gunsmith - Part 10"
+      }
+    },
+    {
+      "id": "63913715f8e5dd32bf4e3aaa",
+      "name": {
+        "zh": "直播 - 2",
+        "en": "Broadcast - Part 2"
+      }
+    },
+    {
+      "id": "6179ad56c760af5ad2053587",
+      "name": {
+        "zh": "海边假期",
+        "en": "Seaside Vacation"
+      }
+    },
+    {
+      "id": "6179afd0bca27a099552e040",
+      "name": {
+        "zh": "消失的线人",
+        "en": "Lost Contact"
+      }
+    },
+    {
+      "id": "5d25e2cc86f77443e47ae019",
+      "name": {
+        "zh": "猎人之路 - 杀戮森林",
+        "en": "The Huntsman Path - Forest Cleaning"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "625d6ffaf7308432be1d44c5",
+      "name": {
+        "zh": "网络供应商 - 2",
+        "en": "Network Provider - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4dbb086f7743e7c61ca09.jpg",
+  "isKey": false
+}

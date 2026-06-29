@@ -1,0 +1,97 @@
+{
+  "id": "5a27bc1586f7741f6d40fa2f",
+  "name": {
+    "zh": "湿活 - 3",
+    "en": "Wet Job - Part 3"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Exploration",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5dfe6104585a0c3e995c7b82",
+      "itemName": {
+        "zh": "NcSTAR ADO P4 Sniper 3-9x42步枪瞄准镜",
+        "en": "NcSTAR ADO P4 Sniper 3-9x42 riflescope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bb2475ed4351e00853264e3",
+      "itemName": {
+        "zh": "HK 416A5 5.56x45 突击步枪",
+        "en": "HK 416A5 5.56x45 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "干得好，朋友。我的合作伙伴都非常感兴趣这能给我们带来什么。蓝盔们检查了你放置信标的地方，并发现某个渔民在那里生活了一段时间。不过，这人似乎已经死了很久了，摄像机拍到的是他朋友。但是谁都知道他和当地一个叫Artyom的人很亲近，这人经常开着黄色Daihyn车。他们的生意与俄罗斯军方有某种联系，现在你明白我们为什么感兴趣了吧？最有可能的是，在冲突爆发之后，Artyom的汽车仍然在海岸线，他很有可能把车开走了。根据我的描述找到这辆车，记下车牌号，依据这个我们可以找出Artyom的详细信息。",
+    "en": "You hit the spot there, my friend. My partners are very interested in what this affair could bring us. The Helmets inspected the place you marked and found out that some fisherman lived there for a while. It seems, though, he is long dead, and people on cameras are his friends. However, we know that he was friends with a certain person called Artyom, who was often seen driving a yellow Daihyn. Their shared business was somehow linked to the Russian military, now you understand why it could prove interesting? Artyom’s car is most likely still on the Shoreline's main road, I doubt he could've driven off on it after the conflict. Use the provided description to find it and write down the plate number, this will help us find this Artyom through the database."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_010_3",
+      "targetNames": {
+        "place_peacemaker_010_3": {
+          "zh": "place_peacemaker_010_3",
+          "en": "place_peacemaker_010_3"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bbf886f774333a418eeb",
+      "name": {
+        "zh": "湿活 - 2",
+        "en": "Wet Job - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27bc3686f7741c73584026",
+      "name": {
+        "zh": "湿活 - 4",
+        "en": "Wet Job - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5967532b86f77461fb2f333a.jpg",
+  "isKey": false
+}

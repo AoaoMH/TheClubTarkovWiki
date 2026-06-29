@@ -1,0 +1,114 @@
+{
+  "id": "60896bca6ee58f38c417d4f2",
+  "name": {
+    "zh": "叛无所依",
+    "en": "No Place for Renegades"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 40000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 40000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ac66d2e5acfc43b321d4b53",
+      "itemName": {
+        "zh": "AK-103 7.62x39 突击步枪",
+        "en": "Kalashnikov AK-103 7.62x39 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5ac66bea5acfc43b321d4aec",
+      "itemName": {
+        "zh": "7.62x39 30发AK103兼容武器弹匣",
+        "en": "AK-103 7.62x39 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 7,
+      "itemId": "64ace9f9c4eda9354b0226aa",
+      "itemName": {
+        "zh": "7.62x39mm PP gzh弹药包（20发装）",
+        "en": "7.62x39mm PP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "别来无恙啊，勇士。我给你找了个事儿做，去一趟军事基地，那个之前我让你过去的地方。长话短说，我的人在地堡里白白牺牲了，这让我很不高兴。这可不是个好事儿。我想让这些掠夺者们明白这么做的后果。以牙还牙，你懂吧？再去一次地堡，找到控制室，然后在那里干掉一些他们的人。我就是想让他们明白，自己惹到的是谁，然后最好收手。",
+    "en": "Greetings, warrior. I've got a new assignment for you, regarding that military base, the one you were checking out for me some time ago. In short, I'm not happy that my boys got killed in vain in that bunker. That's just not right. I'd like to let those Raiders know the consequences of their actions. An eye, for an eye, you know? Return to that bunker and fuck up some of them in that command offices area you found. Just so they know who they're messing with and that they better stop."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ],
+      "location": "RezervBase,develop"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ede567cfa6dc072ce15d6e3",
+      "name": {
+        "zh": "地堡 - 2",
+        "en": "The Bunker - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "60896b7bfa70fc097863b8f5",
+      "name": {
+        "zh": "多鱼之漏",
+        "en": "Documents"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c375a0c2d86b57700e316b.jpg",
+  "isKey": false
+}

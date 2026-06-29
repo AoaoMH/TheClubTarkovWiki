@@ -1,0 +1,147 @@
+{
+  "id": "6744aca8d3346c216702c583",
+  "name": {
+    "zh": "暗度陈仓",
+    "en": "Discombobulate"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "Discover",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 23400
+    },
+    {
+      "type": "Item",
+      "value": 175000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 175000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a0a16d0b9d3c46de5b6e97",
+      "itemName": {
+        "zh": "军用闪存装置",
+        "en": "Military flash drive"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a0a16d0b9d3c46de5b6e97",
+      "itemName": {
+        "zh": "军用闪存装置",
+        "en": "Military flash drive"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a0a16d0b9d3c46de5b6e97",
+      "itemName": {
+        "zh": "军用闪存装置",
+        "en": "Military flash drive"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我对 Skier 的猜想果然是对的。这个家伙不只是想要插手我的生意，他甚至想把我的 BTR 给炸毁！看样子他已经从别的地方搞来了一大批 RPG 火箭筒。 \n\n就算 Skier 帮派里的那些蠢货大字都不识一个，只能抱着火箭筒乱打，那我们的处境还是好不到哪去。只要他们准备的弹药足够多，就算第一发打不中，难道第十发还能让我们给躲过去吗？不过，我可能真猜到了 Skier 那帮人存放火箭弹的地点。既然时间已经过去了这么久，那他们一定已经走到设置埋伏阵地那一步了。\n\n在城市里，他们也许能做到神出鬼没，但森林可是我们的主场。直接跟着我的常规路线一路排查，看看哪里最有可能用来发动伏击就行。\n\n找到那些装着火箭弹的箱子，给那些混蛋留点意外之喜。等他们来取弹药的时候，就有这帮人好受的了。",
+    "en": "I was right about Skier. He's not just trying to interrupt my work, he's trying to fucking destroy the BTR! Looks like somebody supplied him with a big load of RPG rockets. \n\nThose knuckle-dragging idiots can't even shoot it properly, but so what? With enough ammo, they'll take me down if not on the first, then on the tenth attempt. However, I might have an idea where Skier is storing these rockets. Plenty of time's passed, they've already organized their firing positions, I'm sure of it.\n\nThey could be anywhere in the city, but in the forest we may be able to find all of their positions. Just follow my usual driving route and check all the places they might use to ambush me.\n\nFind the rocket crates and leave some presents for those fuckers. Let them have an explosive surprise when they come for their ammo."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5e340dcdcb6d5863cc5e5efb"
+      ],
+      "targetNames": {
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5e340dcdcb6d5863cc5e5efb"
+      ],
+      "targetNames": {
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5e340dcdcb6d5863cc5e5efb"
+      ],
+      "targetNames": {
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6744ab1def61d56e020b5c56",
+      "name": {
+        "zh": "对空遮断",
+        "en": "Protect the Sky"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6744af0969a58fceba101fed",
+      "name": {
+        "zh": "独立的代价",
+        "en": "The Price of Independence"
+      }
+    },
+    {
+      "id": "6745cbee909d2013670a4a55",
+      "name": {
+        "zh": "独立的代价",
+        "en": "The Price of Independence"
+      }
+    },
+    {
+      "id": "67460662d0fbbc74ca0f7229",
+      "name": {
+        "zh": "识时务者为俊杰",
+        "en": "Choose Your Friends Wisely"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/675b0854eaef91cffa0f04fe.jpg",
+  "isKey": false
+}

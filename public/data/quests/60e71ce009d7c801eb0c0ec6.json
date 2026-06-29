@@ -1,0 +1,226 @@
+{
+  "id": "60e71ce009d7c801eb0c0ec6",
+  "name": {
+    "zh": "特殊装备",
+    "en": "Special Equipment"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 177000
+    },
+    {
+      "type": "Item",
+      "value": 7,
+      "itemId": "5c94bbff86f7747ee735c08f",
+      "itemName": {
+        "zh": "TerraGroup实验室访问钥匙卡",
+        "en": "TerraGroup Labs access keycard"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5d0377ce86f774186372f689",
+      "itemName": {
+        "zh": "Iridium军用热成像模块",
+        "en": "Iridium military thermal vision module"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59fb023c86f7746d0d4b423c",
+      "itemName": {
+        "zh": "武器箱",
+        "en": "Weapon case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0a840b86f7742ffa4f2482",
+      "itemName": {
+        "zh": "T H I C C物品箱",
+        "en": "T H I C C item case"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊，雇佣兵。我的线人们需要大量的军用装备。你肯定能帮我们解决这个问题。你能帮我们找到需要的东西吗？我会准备一个清单。",
+    "en": "Greetings, mercenary. My contacts are in need of a large supply of military equipment. You could definitely help us in this matter. Will you find the required items for us? I will make a list of the needed equipment."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "5c05300686f7746dce784e5d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c05300686f7746dce784e5d": {
+          "zh": "VPX闪存模块",
+          "en": "VPX Flash Storage Module"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "5c052fb986f7746b2101e909"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052fb986f7746b2101e909": {
+          "zh": "UHF RFID固定式读取器 ",
+          "en": "UHF RFID Reader"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "5c05308086f7746b2101e90b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c05308086f7746b2101e90b": {
+          "zh": "Virtex可编程处理器",
+          "en": "Virtex programmable processor"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "5c052f6886f7746b1e3db148"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052f6886f7746b1e3db148": {
+          "zh": "军用COFDM无线信号发射器",
+          "en": "Military COFDM Wireless Signal Transmitter"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 4,
+      "target": [
+        "62a0a16d0b9d3c46de5b6e97"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "62a0a16d0b9d3c46de5b6e97": {
+          "zh": "军用闪存装置",
+          "en": "Military flash drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5c05300686f7746dce784e5d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c05300686f7746dce784e5d": {
+          "zh": "VPX闪存模块",
+          "en": "VPX Flash Storage Module"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5c052fb986f7746b2101e909"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052fb986f7746b2101e909": {
+          "zh": "UHF RFID固定式读取器 ",
+          "en": "UHF RFID Reader"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5c05308086f7746b2101e90b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c05308086f7746b2101e90b": {
+          "zh": "Virtex可编程处理器",
+          "en": "Virtex programmable processor"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5c052f6886f7746b1e3db148"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052f6886f7746b1e3db148": {
+          "zh": "军用COFDM无线信号发射器",
+          "en": "Military COFDM Wireless Signal Transmitter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "62a0a16d0b9d3c46de5b6e97"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "62a0a16d0b9d3c46de5b6e97": {
+          "zh": "军用闪存装置",
+          "en": "Military flash drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "60e71ccb5688f6424c7bfec4",
+      "name": {
+        "zh": "战利品",
+        "en": "Trophies"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/60c3752d78280c17952e1e69.jpg",
+  "isKey": false
+}

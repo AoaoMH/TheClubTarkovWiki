@@ -1,0 +1,109 @@
+{
+  "id": "67a0967c003a9986cb0f5ac1",
+  "name": {
+    "zh": "感官分析 - 1",
+    "en": "Sensory Analysis - Part 1"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 20300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 112000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 112000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b5f68de98be930d701c00e",
+      "itemName": {
+        "zh": "Safariland Liberator HP 2.0听力保护耳机（泥土色）",
+        "en": "Safariland Liberator HP 2.0 Hearing Protection Headset (FDE)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "628dc750b910320f4c27a732",
+      "itemName": {
+        "zh": "ECLiPSE RBAV-AF 插板胸挂（丛林绿）",
+        "en": "ECLiPSE RBAV-AF plate carrier (Ranger Green)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊——我的兄弟！好，好，我会小声点的，只是因为宿醉有点难受罢了。鬼知道那个 BTR 司机昨晚喝完之后要怎么开车，那个破引擎嚎得比他娘的发电机还响！\n\n顺便这次你可真是赶巧了，我刚刚想要不要请你帮忙跑个腿。那就来说说我昨天和那个司机碰面的事情好了。最近我和一个酿私酒的接上了头，他酿的可都是一等一的好货！我们已经合作了大概六个月了，一切都很顺利。结果现在顾客开始四处投诉我卖的是假酒，那么我自然要看看这酒的质量如何。要说喝酒，这片地盘上应该没几个人的经验能比得过 BTR 司机了。\n\n所以我把他请来……呃，就当是样本测试好了，呵呵。然后那个家伙鬼扯什么没人一上来就喝高度数烈酒的，要喝点其他东西热热身。我陪着他喝了一杯又一杯……结果等我们胡混完的第二天早上，要让他尝的那瓶私酒根本就没动过！\n\n长话短说，那个司机根本没把活干完。但要是再来上一轮品酒会，我估摸着我的肝就得爆了，所以这回就让他去毒害自己吧。你能帮我把这瓶酒带给他吗？别搞丢了行吗？",
+    "en": "Hello my brother! Okay, okay, not so loud, I'm hung over as shit. Don't know how the BTR guy's still driving after last night. The engine is surely screeching louder than fucking generators!\n\nBy the way, you came at a really good time, almost like you knew I'm gonna need help. So, about the meeting we had yesterday. I have a moonshine supplier, he makes legit good stuff! We've been working together for six months now, everything was fine. And now, customers started complaining that I was selling them fake stuff. So, I had to check the product quality, and no one in our region knows as much about liquor as the BTR driver.\n\nSo I invited him over for... let's call it sampling, hehe. And there he was, saying that no one starts with hard hitters right off the bat, he needed a warm-up. Then another. Then another... So after all that, I checked the moonshine in the morning, and we didn't even open it!\n\nLong story short, the driver didn't finish the job. I'm not gonna live through this kind of sampling party a second time, so I'll let him taste everything by himself. Can you pass him this bottle? Don't lose it, alright?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d1b376e86f774252519444e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d1b376e86f774252519444e": {
+          "zh": "“凶狠跑刀崽”私酒",
+          "en": "Bottle of Fierce Hatchling moonshine"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: Time",
+      "value": 1,
+      "location": "TarkovStreets,Woods"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a096577e86e067eb045733",
+      "name": {
+        "zh": "暗藏玄机",
+        "en": "Hidden Layer"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67a096ed77dd677f600804ba",
+      "name": {
+        "zh": "感官分析 - 2",
+        "en": "Sensory Analysis - Part 2"
+      }
+    },
+    {
+      "id": "67a096f605d1611ed90be75a",
+      "name": {
+        "zh": "热点地带",
+        "en": "Hot Zone"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/675b0854eaef91cffa0f04fe.jpg",
+  "isKey": false
+}

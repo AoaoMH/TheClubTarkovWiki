@@ -1,0 +1,138 @@
+{
+  "id": "64f83bb69878a0569d6ecfbe",
+  "name": {
+    "zh": "枪匠 - 23",
+    "en": "Gunsmith - Part 23"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 29500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1300,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1300
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6478641c19d732620e045e17",
+      "itemName": {
+        "zh": "SIG Sauer ECHO1 1-2x30毫米 30赫兹反射式热成像瞄准镜",
+        "en": "SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6065878ac9cf8012264142fd",
+      "itemName": {
+        "zh": "409毫米Mk47枪管",
+        "en": "Mk47 409mm barrel"
+      }
+    }
+  ],
+  "description": {
+    "zh": "一个非常严肃的客户下了个7.62x39的步枪订单。需要SWS N6 Split护木，409毫米枪管，ATLAS-7制退器，镂空握把，GTL 21战术手电，Vortex UH-1瞄准镜，HK E1尾托，镂空Style 2手枪式握把和73发弹鼓。人机工效不能低于30，重量不能超过5kg。",
+    "en": "A very serious individual has placed an order for an AR on 7.62x39s . Needs an SWS N6 Split handguard, 409mm barrel, ATLAS-7 muzzle, Skeletonized Foregrip, GTL 21 flashlight, Vortex UH-1 sight, HK E1 buttstock, Skeletonized Style 2 pistol grip and a 73-round drum. Ergonomics no lower than 30, weight no higher than 5 kg."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "606587252535c57a13424cfd"
+      ],
+      "targetNames": {
+        "606587252535c57a13424cfd": {
+          "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪",
+          "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 30
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 350
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 300
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 73
+        }
+      ],
+      "requiredItems": [
+        "5d00ef6dd7ad1a0940739b16",
+        "59f9d81586f7744c7506ee62",
+        "5a800961159bd4315e3a1657"
+      ],
+      "requiredItemNames": {
+        "5d00ef6dd7ad1a0940739b16": {
+          "zh": "Noveske SWS N6 AR-10兼容系统分体式护木",
+          "en": "AR-10 Noveske SWS N6 Split handguard"
+        },
+        "59f9d81586f7744c7506ee62": {
+          "zh": "Vortex Razor AMG UH-1全息瞄具",
+          "en": "Vortex Razor AMG UH-1 holographic sight"
+        },
+        "5a800961159bd4315e3a1657": {
+          "zh": "Glock Tactical GL21手电激光组合",
+          "en": "Glock GTL 21 tactical flashlight with laser"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b47825886f77468074618d3",
+      "name": {
+        "zh": "枪匠 - 22",
+        "en": "Gunsmith - Part 22"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "64f83bcdde58fc437700d8fa",
+      "name": {
+        "zh": "枪匠 - 24",
+        "en": "Gunsmith - Part 24"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/64f8b5fb7d39ff0e7624c6b4.jpg",
+  "isKey": false
+}

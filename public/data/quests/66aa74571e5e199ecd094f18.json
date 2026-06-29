@@ -1,0 +1,131 @@
+{
+  "id": "66aa74571e5e199ecd094f18",
+  "name": {
+    "zh": "化工厂的秘密",
+    "en": "Secrets of Polikhim"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Elimination",
+  "location": "marathon",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 19400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 72000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 72000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b2fa286f77425227d1674",
+      "itemName": {
+        "zh": "电动马达",
+        "en": "Electric motor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57347c2e24597744902c94a1",
+      "itemName": {
+        "zh": "供电单元",
+        "en": "Power supply unit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "59e36c6f86f774176c10a2a7",
+      "itemName": {
+        "zh": "电源线",
+        "en": "Power cord"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我一直在等你呢，朋友。我的人在海关的仓库找到了十分稀有的超声波厚度计，还有一些一样有用的设备。没有什么测量工具比它们更精准了！\n\n我不敢冒险，但我相信你可以胜任这个任务。去海关找到这些工具，然后送到化工厂的指定位置。那里有我一直想要测量的一些东西... 等下，你不知道有捷径？\n\n我在化工厂上班的时候走过这条路。要么通过它来把这些东西运去工厂，要么只能让它们再在海关呆上好几个月。\n\n我的一个好朋友告诉的我这条路。他说人们不敢在工厂附近采摘蘑菇，所以那里一直是很好的采集点。",
+    "en": "Been waiting for you, friend. My workers found a rare ultrasonic thickness gauge at the customs warehouse, along with some equally useful equipment. There's nothing better that can give me that kind of precision in my measurements!\n\nI can't risk it, so I'm trusting you with this recovery mission. Pick up the package at Customs and deliver it to the designated point at Polikhim. There's something I've been wanting to test for a while... Wait, you didn't know about the industrial area shortcut?\n\nI used it back when I worked at Polikhim. It was the only way to get equipment to the plant that would otherwise be stuck in customs for months. \n\nA fellow forester showed me this path. He said that people were afraid to pick mushrooms near the plant, so it was always full of good pickings."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66b22630a6b4e5ec7c02cdb7"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66b22630a6b4e5ec7c02cdb7": {
+          "zh": "精密工具盒",
+          "en": "Case with precision tools"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "bigmap"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "location": "factory4_night,factory4_day",
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "66b22630a6b4e5ec7c02cdb7"
+      ],
+      "targetNames": {
+        "66b22630a6b4e5ec7c02cdb7": {
+          "zh": "精密工具盒",
+          "en": "Case with precision tools"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "669fa3a1c26f13bd04030f37",
+      "name": {
+        "zh": "设施维护",
+        "en": "Capacity Check"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5979d36d86f7746d093ddd7a.jpg",
+  "isKey": false
+}

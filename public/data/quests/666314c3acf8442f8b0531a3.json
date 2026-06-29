@@ -1,0 +1,123 @@
+{
+  "id": "666314c3acf8442f8b0531a3",
+  "name": {
+    "zh": "一报还一报",
+    "en": "Proper Comeback"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 78000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1900,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1900
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a09cfe4f842e1bd12da3e4",
+      "itemName": {
+        "zh": "金蛋",
+        "en": "Golden egg"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c12620d86f7743f8b198b72",
+      "itemName": {
+        "zh": "Tetriz便携式游戏机",
+        "en": "Tetriz portable game console"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你是个靠得住的好人。我就这么说吧，这活我不放心交给其他人去办，但你不一样——你替我干黑活的经验足够多，肯定知道我是什么意思。我听说 Prapor 迷上了现代科技，他到处安满了摄像头，坐在他的狗窝里就能把外面发生的事情看得一清二楚。 \n\n他刚刚搞砸了我的一笔生意，找上门来嚎得和个他妈的公鸡一样，又是交易规则了，又是军法规定了……我们得让 Prapor 知道，自己最近狂成什么傻逼样了！哦，抱歉没忍住说藏话了，希望你没变得和他一样喜欢拿条条框框管人。",
+    "en": "You're a good guy, I'll tell you that. I wouldn't trust another man to do this, but you're an experienced fellow, you understand what I'm saying. I heard that Prapor is now into modern technology, and he's got cameras everywhere, watching everything from his man cave. \n\nAnd recently he ruined one of my deals, started yelling like a damn rooster, something about the rules of trade and military order... We have to show him what a motherfucker he's become. Oops, sorry for the offensive language. Hope it doesn't disrespect your community guidelines."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5bc9bc53d4351e00367fbcee"
+      ],
+      "targetNames": {
+        "5bc9bc53d4351e00367fbcee": {
+          "zh": "金公鸡",
+          "en": "Golden rooster figurine"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5bc9bc53d4351e00367fbcee"
+      ],
+      "targetNames": {
+        "5bc9bc53d4351e00367fbcee": {
+          "zh": "金公鸡",
+          "en": "Golden rooster figurine"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5bc9bc53d4351e00367fbcee"
+      ],
+      "targetNames": {
+        "5bc9bc53d4351e00367fbcee": {
+          "zh": "金公鸡",
+          "en": "Golden rooster figurine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "666314c10aa5c7436c00908c",
+      "name": {
+        "zh": "镜头就位，开拍！",
+        "en": "Camera, Action!"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "666314c5a9290f9e0806cca5",
+      "name": {
+        "zh": "城市之匙",
+        "en": "Key to the City"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/664088150e8c3b39563f2b73.png",
+  "isKey": false
+}

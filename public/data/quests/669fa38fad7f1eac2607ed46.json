@@ -1,0 +1,127 @@
+{
+  "id": "669fa38fad7f1eac2607ed46",
+  "name": {
+    "zh": "最后的细枝末节",
+    "en": "One Less Loose End"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Discover",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1200,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1200
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "668fe5a998b5ad715703ddd6",
+      "itemName": {
+        "zh": "Magnum Research “沙漠之鹰”Mk XIX .50 AE手枪",
+        "en": "Magnum Research Desert Eagle Mk XIX .50 AE pistol"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "668fe5c5f35310705d02b696",
+      "itemName": {
+        "zh": "沙漠之鹰.50 AE 7发弹匣",
+        "en": "Desert Eagle .50 AE 7-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 28,
+      "itemId": "66a0d1e0ed648d72fe064d06",
+      "itemName": {
+        "zh": ".50 AE实心铜弹",
+        "en": ".50 AE Copper Solid"
+      },
+      "quantity": 28
+    }
+  ],
+  "description": {
+    "zh": "你好啊，亲爱的朋友。有一件非常重要的委托，非你莫属。你需要去化工厂寻找一份TerraGroup的实验室日志，然后放到指定的地方去。那是在森林保护区的旧锯木厂里。把东西放在有变压器的房间里。\n\n我不想辜负客户，所以不能随便找个人去办这事儿。",
+    "en": "Hello, dear friend. There's an important job just for someone like you. You need to pick up a journal from the TerraGroup field lab at the Polikhim factory and drop it off at a specified location. It's at an old sawmill in Priozersk nature reserve. Leave the package at the house with transformers. \n\nI don't want to upset my influential customer, so I can't trust a random person with the job."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66c0b39ca1f68fcc1d0c0cc3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66c0b39ca1f68fcc1d0c0cc3": {
+          "zh": "实验室日志",
+          "en": "Lab journal"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "66c0b39ca1f68fcc1d0c0cc3"
+      ],
+      "targetNames": {
+        "66c0b39ca1f68fcc1d0c0cc3": {
+          "zh": "实验室日志",
+          "en": "Lab journal"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6179aff8f57fb279792c60a1",
+      "name": {
+        "zh": "人口过剩",
+        "en": "Overpopulation"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "669fa3910c828825de06d69f",
+      "name": {
+        "zh": "左右为难",
+        "en": "A Healthy Alternative"
+      }
+    },
+    {
+      "id": "669fa3a08b4a64b332041ff7",
+      "name": {
+        "zh": "妥善保管",
+        "en": "Dragnet"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66acebc9f85b8bf7250f9cab.png",
+  "isKey": false
+}

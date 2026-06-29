@@ -1,0 +1,145 @@
+{
+  "id": "63966fd9ea19ac7ed845db30",
+  "name": {
+    "zh": "以牙还牙",
+    "en": "Payback"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Completion",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c7750ef44505c87f5996",
+      "itemName": {
+        "zh": "微控制器电路板",
+        "en": "Microcontroller board"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0530ee86f774697952d952",
+      "itemName": {
+        "zh": "LEDX皮肤透照仪",
+        "en": "LEDX Skin Transilluminator"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0530ee86f774697952d952",
+      "itemName": {
+        "zh": "LEDX皮肤透照仪",
+        "en": "LEDX Skin Transilluminator"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0530ee86f774697952d952",
+      "itemName": {
+        "zh": "LEDX皮肤透照仪",
+        "en": "LEDX Skin Transilluminator"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b4329f05acfc47a86086aa1",
+      "itemName": {
+        "zh": "DevTac浪人面罩",
+        "en": "DevTac Ronin Respirator"
+      }
+    }
+  ],
+  "description": {
+    "zh": "事情已经水落石出了。这些胆大包天的人，看起来，是Glukhar安排的，就是那个带着一群小弟在储备站驻扎着的前海军陆战队员。他就是在那里拿到你放好的文件的。谁想过他有那胆子来搞我？总之，他算是已经承认来自己的罪行。做掉他们，把这事儿解决了。事成之后，用信号弹给我个标记，然后我会派人去他们的老窝里抄家。我们得知道，他们到底发现了些啥。你发射信号之后，抄最近的路来找我。",
+    "en": "Well, the situation became plain enough. This group of hotshots is, as it turns out, run by Glukhar, an ex-marine who settled at the Reserve base with his crew. That's where he took the documents you planted. Who'd have thought he'd have the nerve to undermine me? Well, he signed his own sentence. Hunt them down and settle the matter. When it's done, give a signal with a flare rocket from high ground, and I'll send men to their lair to sort out their junk. We need to find out what else they've been digging up. As soon as you've fired the signal, you take the shortest possible route straight to me."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossGluhar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerGluharAssault",
+        "followerGluharScout",
+        "followerGluharSecurity",
+        "followerGluharSnipe"
+      ]
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: LaunchFlare",
+      "value": 1,
+      "target": "quest_zone_keeper4_flare",
+      "targetNames": {
+        "quest_zone_keeper4_flare": {
+          "zh": "quest_zone_keeper4_flare",
+          "en": "quest_zone_keeper4_flare"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63966fe7ea74a47c2d3fc0e6",
+      "name": {
+        "zh": "归还人情",
+        "en": "Return the Favor"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "63966ff54c3ef01b6f3ffad8",
+      "name": {
+        "zh": "挑衅",
+        "en": "Provocation"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

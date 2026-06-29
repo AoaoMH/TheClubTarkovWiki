@@ -1,0 +1,100 @@
+{
+  "id": "6396701b9113f06a7c3b2379",
+  "name": {
+    "zh": "大显身手",
+    "en": "Make an Impression"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d03775b86f774203e7e0c4b",
+      "itemName": {
+        "zh": "相控阵单元",
+        "en": "Phased array element"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d03775b86f774203e7e0c4b",
+      "itemName": {
+        "zh": "相控阵单元",
+        "en": "Phased array element"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5a1eaa87fcdbcb001865f75e",
+      "itemName": {
+        "zh": "Trijicon REAP-IR热成像步枪瞄准镜",
+        "en": "Trijicon REAP-IR thermal scope"
+      }
+    }
+  ],
+  "description": {
+    "zh": "看起来，我的神枪手想在你找到的狙击点里顶着风险办事儿之前，让你证明自己的能力。这听起来还是有点道理的。谢天谢地，时间很充足。咱就是说，市区里到处都有狙击手。提升一下你的反狙击技巧，然后我的人就会信任你了。知己知彼百战不殆。",
+    "en": "It seems that before my marksman decides to take risks at your prepared positions, he needs proof of your skill as an experienced spotter. Which makes sense. Time allows, thankfully. Let's just say there are snipers in and around the city who are operating out of their positions. Improve your counter-sniper skills, and then my man will trust you. Go on then, seven feet under the keel."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Sniper",
+      "value": 10,
+      "target": "Sniper"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "marksman"
+      ],
+      "distance": {
+        "compareMethod": ">=",
+        "value": 350
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6396700fea19ac7ed845db32",
+      "name": {
+        "zh": "观察员",
+        "en": "Spotter"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "63967028c4a91c5cb76abd81",
+      "name": {
+        "zh": "大都会之谜",
+        "en": "Trouble in the Big City"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

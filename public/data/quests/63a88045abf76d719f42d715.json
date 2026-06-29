@@ -1,0 +1,168 @@
+{
+  "id": "63a88045abf76d719f42d715",
+  "name": {
+    "zh": "美味香肠",
+    "en": "The Delicious Sausage"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Discover",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 10000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 10000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57347c77245977448d35f6e2",
+      "itemName": {
+        "zh": "螺母",
+        "en": "Screw nuts"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57347c5b245977448d35f6e1",
+      "itemName": {
+        "zh": "螺栓",
+        "en": "Bolts"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e35cbb86f7741778269d83",
+      "itemName": {
+        "zh": "波纹软管",
+        "en": "Corrugated hose"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "请进，我想托你办一件事儿！听好了，你来到城里多久了？嗯，我有事儿需要你帮忙。过来点，尊重老年人嘛。城市里肯定还有一些咸狗香肠之类的东西。Mechanic告诉我有这玩意儿，我现在很想吃到它。我想疯了！",
+    "en": "Оh! Come on in, I've got a job for you! Listen, how long ago have you been in town? Well, I got a job for you. Run through the supermarkets, see if they've been looted. And do the old man a favor and look for the Salt Dog sausage or something like that. Mechanic kindly introduced it to me, and now I'm craving it. It's killing me!"
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_produkt1",
+      "targetNames": {
+        "quest_produkt1": {
+          "zh": "quest_produkt1",
+          "en": "quest_produkt1"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_produkt2",
+      "targetNames": {
+        "quest_produkt2": {
+          "zh": "quest_produkt2",
+          "en": "quest_produkt2"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_produkt3",
+      "targetNames": {
+        "quest_produkt3": {
+          "zh": "quest_produkt3",
+          "en": "quest_produkt3"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_produkt4",
+      "targetNames": {
+        "quest_produkt4": {
+          "zh": "quest_produkt4",
+          "en": "quest_produkt4"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "635a758bfefc88a93f021b8a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "635a758bfefc88a93f021b8a": {
+          "zh": "咸狗牛肉肠",
+          "en": "Salty Dog beef sausage"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25b6be86f77444001e1b89",
+      "name": {
+        "zh": "生存者之路 - 省吃俭用",
+        "en": "The Survivalist Path - Thrifty"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5d25e4d586f77443e625e388",
+      "name": {
+        "zh": "储备",
+        "en": "Reserve"
+      }
+    },
+    {
+      "id": "639136e84ed9512be67647db",
+      "name": {
+        "zh": "别开枪！",
+        "en": "Cease Fire!"
+      }
+    },
+    {
+      "id": "665eeacf5d86b6c8aa03c79b",
+      "name": {
+        "zh": "口干舌燥 - 猎犬行动",
+        "en": "Thirsty - Hounds"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/default.jpg",
+  "isKey": false
+}

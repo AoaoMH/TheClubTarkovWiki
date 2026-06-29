@@ -1,0 +1,131 @@
+{
+  "id": "657315df034d76585f032e01",
+  "name": {
+    "zh": "打靶训练",
+    "en": "Shooting Cans"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "653e6760052c01c1c805532f",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 13000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 13000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bfd297f0db834001a669119",
+      "itemName": {
+        "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+        "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "64aceac0c4eda9354b0226b3",
+      "itemName": {
+        "zh": "7.62x54mm R FMJ弹药包（20发装）",
+        "en": "7.62x54mm R FMJ ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好！我听说你正在寻找赚钱的路子，刚好我也在寻找新人。当然，现在我不会给你安排大单。我们先从简单的开始，帮助你快速上手。\n\n在战斗最激烈的时期，市中心安装了一些AGS和KORD重机枪。帮我分别找到一个，然后回来报告。当然，还需要清理这些区域，确保没人抢在我的手下之前去到那里。我觉得干掉五个人就够了。Scav，PMC，什么都算。少一些插手的人，就更不会被偷袭，你懂吧？这也是对你射击技巧的考验。",
+    "en": "Greetings! I hear you're looking for a little extra cash. I'm looking for new people around here. I won't take you on any big jobs right away, of course. We'll start with something simple to get you up to speed.\n\nI know that the city center is where AGSs and KORDs were deployed during the hottest fights. Find me one of each and report back. Also, sweep the area around them, make sure no one gets to the firing positions before my guys do. I think five bodies will be enough. Scavs, PMCs, whatever. Less trespassers, less chance of an ambush, you know? That'll test your shooting skills, too."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Sandbox_2_Kord_exploration",
+      "targetNames": {
+        "Sandbox_2_Kord_exploration": {
+          "zh": "Sandbox_2_Kord_exploration",
+          "en": "Sandbox_2_Kord_exploration"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Sandbox_2_AGS_exploration",
+      "targetNames": {
+        "Sandbox_2_AGS_exploration": {
+          "zh": "Sandbox_2_AGS_exploration",
+          "en": "Sandbox_2_AGS_exploration"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "location": "Sandbox,Sandbox_high"
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [
+    {
+      "id": "5936d90786f7742b1420ba5b",
+      "name": {
+        "zh": "首秀",
+        "en": "Debut"
+      }
+    },
+    {
+      "id": "666314b4d7f171c4c20226c3",
+      "name": {
+        "zh": "往昔时光 - 1",
+        "en": "The Good Times - Part 1"
+      }
+    },
+    {
+      "id": "675031be899713ccad00060c",
+      "name": {
+        "zh": "圣诞晚餐",
+        "en": "Christmas Dinner"
+      }
+    },
+    {
+      "id": "675031e1f300496cc4104450",
+      "name": {
+        "zh": "大隐于市",
+        "en": "Hide in Plain Sight"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/65899d03adeac0191c51e880.jpg",
+  "isKey": false
+}

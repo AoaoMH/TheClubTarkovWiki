@@ -1,0 +1,123 @@
+{
+  "id": "665eec4a4dfc83b0ed0a9dca",
+  "name": {
+    "zh": "口干舌燥 - 送货服务",
+    "en": "Thirsty - Delivery"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 55000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 55000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "57505f6224597709a92585a9",
+      "itemName": {
+        "zh": "Alyonka 巧克力",
+        "en": "Alyonka chocolate bar"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "那我也不食言。在你来之前，Sanitar 也在到处打听那个家伙的事情，不过那个疯子开出的价码糟透了，所以我一点消息都没给他漏。之后我当然会告诉你的，但先帮我把活干完。\n\n来，拿上这几个丙烷罐——没错，就是你刚刚搞来的。既然你都把它们背到这来了，干脆好事做到底、帮我把它们送到交货点得了。其中一个在森林，那个有无线电塔的 Scav 地堡里；另一个在海关，就是十字路口的小杂货店里，埋完之后别发疯开枪打这些气罐，行吗？帮我干成这件事，我就会给你更多消息。",
+    "en": "So, I keep my word. Before you, Sanitar was sniffing around that guy, too. But his business proposition was shite, so I didn't tell him anything. I'll tell you, but a bit later.\n\nHere are some nice propane tanks for you. Yeah, the ones you brought. Now you have to stash them. One in the nature reserve, in the Scav bunker with the radio tower. The other at the Customs area, in the little store by the crossroads. Just make sure to not shoot the tanks, okay? If you finish the job, you'll get more info."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_2A2_unlock_3_woods",
+      "targetNames": {
+        "place_2A2_unlock_3_woods": {
+          "zh": "place_2A2_unlock_3_woods",
+          "en": "place_2A2_unlock_3_woods"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "59fafb5d86f774067a6f2084"
+      ],
+      "targetNames": {
+        "59fafb5d86f774067a6f2084": {
+          "zh": "5升丙烷罐",
+          "en": "Propane tank (5L)"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_2A2_unlock_3_customs",
+      "targetNames": {
+        "place_2A2_unlock_3_customs": {
+          "zh": "place_2A2_unlock_3_customs",
+          "en": "place_2A2_unlock_3_customs"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "59fafb5d86f774067a6f2084"
+      ],
+      "targetNames": {
+        "59fafb5d86f774067a6f2084": {
+          "zh": "5升丙烷罐",
+          "en": "Propane tank (5L)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "665eec1f5e47a79f8605565a",
+      "name": {
+        "zh": "口干舌燥 - 养家糊口",
+        "en": "Thirsty - Breadwinner"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "665eeca45d86b6c8aa03c79d",
+      "name": {
+        "zh": "口干舌燥 - 往日回响",
+        "en": "Thirsty - Echo"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66697ba352260cae8d0b035a.png",
+  "isKey": false
+}

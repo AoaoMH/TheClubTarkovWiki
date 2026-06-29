@@ -1,0 +1,113 @@
+{
+  "id": "67a09636b8725511260bc421",
+  "name": {
+    "zh": "影子雇员",
+    "en": "Shady Contractor"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "653e6760052c01c1c805532f",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 52000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 52000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "619cbf476b8a1b37a54eebf8",
+      "itemName": {
+        "zh": "军用波纹软管",
+        "en": "Military corrugated tube"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿。你应该知道，当年 TerraGroup 在塔科夫的积极扩张的同时也引发了不少问题。那会他们在诺文斯克特区四处收购资产、吞并其他公司，其中有不少买卖显然是见不得人的那种……\n\n在 TerraGroup 的一众承包商里，有一家叫 Knossos 的公司很有意思。公开消息称，这家公司承接儿童乐园、游乐场之类合家欢设施的建设工程。但是认真想想，TerraGroup 的那些研究到底有什么是能和儿童乐园沾边的？\n\n因此在我看来这家公司格外可疑。Knossos 很有可能在给 TerraGroup 的机密文件和设备打掩护。但是为了确定这一点，我们需要逐个检查他们名下的设施，这就需要你去搞来某种记录文件……像这样的公司肯定会有主管定期巡视设施，你应该去市中心的车里找找，看看他们在仓皇逃命的时候有没有留下什么内部记录。",
+    "en": "Hey. You may be aware that TerraGroup's aggressive expansion in Tarkov has raised quite a few questions in its time, no doubt? Back then, they were buying out properties and companies left and right in the Norvinsk region, and some of the deals were clearly shady in nature...\n\nTerraGroup has had a particularly interesting contractor, a company called Knossos. Officially they build amusement parks, playgrounds, and other family entertainment venues. But tell me, what possible connection can TerraGroup's scientific research and playgrounds have?\n\nThat's exactly why this smells fishy to me. Knossos could be hiding TerraGroup documents or equipment. Yet to know for certain, we'd have to examine their facilities. And to do that, we'd have to find some kind of record... Knossos definitely had managers overseeing the facilities. You should check out the vehicles in the city center and look for any internal records there."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_01_mech_place_01",
+      "targetNames": {
+        "event_labyrinth_01_mech_place_01": {
+          "zh": "event_labyrinth_01_mech_place_01",
+          "en": "event_labyrinth_01_mech_place_01"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "679b9a1a4e4ed4b3b40ae5c2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679b9a1a4e4ed4b3b40ae5c2": {
+          "zh": "Knossos 高级经理日志",
+          "en": "Knossos senior manager's diary"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "679b9a1a4e4ed4b3b40ae5c2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679b9a1a4e4ed4b3b40ae5c2": {
+          "zh": "Knossos 高级经理日志",
+          "en": "Knossos senior manager's diary"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315e4a6af4ab4b50f3459",
+      "name": {
+        "zh": "救援行动",
+        "en": "Saving the Mole"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67a0964e972c11a3f507731b",
+      "name": {
+        "zh": "大海捞针",
+        "en": "Needle in a Haystack"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/67e407aabbf507ac3b068a52.jpg",
+  "isKey": false
+}

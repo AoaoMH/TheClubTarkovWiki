@@ -1,0 +1,77 @@
+{
+  "id": "5ae449a586f7744bde357696",
+  "name": {
+    "zh": "暗度陈仓",
+    "en": "No Fuss Needed"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Skill",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 32000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 32000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aa7e276e5b5b000171d0647",
+      "itemName": {
+        "zh": "Altyn 防弹头盔（橄榄褐色）",
+        "en": "Altyn bulletproof helmet (Olive Drab)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "这个是给那个医生女士的纸条。里面没什么，只是写了几行有关生意的事。但是蛋疼的地方就在这儿，如果她知道这个纸条是我写的，她一定会立马撕掉。所以先获得她的好感，赢得一些信任再把纸条给她。千万别丢了，我不会再写一张了。",
+    "en": "Alright, so here's the deal. Here's the note I was talking about, bring it to the doc lady. Nothing criminal in there, just a few lines about our business. But here's the pain in the ass: if she knows that the note is from me, she’ll just tear it up on the spot. Try to gain her favor first, earn some trust, and only then pass the note over. And don’t lose it, I’m not writing another one."
+  },
+  "objectives": [
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 3,
+      "target": "54cb57776803fa99248b456e"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae4498786f7744bde357695",
+      "name": {
+        "zh": "成功的关键",
+        "en": "The Key to Success"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a7dd86f77448464ed2b2.jpg",
+  "isKey": false
+}

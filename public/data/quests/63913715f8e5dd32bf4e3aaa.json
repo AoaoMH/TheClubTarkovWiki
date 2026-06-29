@@ -1,0 +1,130 @@
+{
+  "id": "63913715f8e5dd32bf4e3aaa",
+  "name": {
+    "zh": "直播 - 2",
+    "en": "Broadcast - Part 2"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 44000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 44000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62e7c4fba689e8c9c50dfc38",
+      "itemName": {
+        "zh": "Steyr AUG A1 5.56x45突击步枪",
+        "en": "Steyr AUG A1 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "630e1adbbd357927e4007c09",
+      "itemName": {
+        "zh": "Steyr AUG 5.56x45 10发容量弹匣",
+        "en": "Steyr AUG 5.56x45 10-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "65702652cfc010a0f5006a53",
+      "itemName": {
+        "zh": "100发5.56x45 M855A1盒装弹药",
+        "en": "5.56x45mm M855A1 ammo pack (100 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "朋友，你还记得我们在灯塔用干扰器搞掉的那个直播间吗？那些人又开始了。有人向我展示了现场画面的录像带，怎么说呢...我看完已经后悔了。你能找到新的直播信号源吗？看起来像是哪个杂货店。",
+    "en": "Friend, remember when you and I shut down that broadcast with the jammer at the Lighthouse? These people started it up again. The guys showed me the tape, it's just... I'm speechless. I regret watching it. Can you find a new location where the broadcast is coming from? From the surroundings, it looks like some kind of grocery store."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c25_cinem",
+      "targetNames": {
+        "quest_zone_c25_cinem": {
+          "zh": "quest_zone_c25_cinem",
+          "en": "quest_zone_c25_cinem"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "626bd75e47ea7f506e5493c5",
+      "name": {
+        "zh": "直播 - 1",
+        "en": "Broadcast - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "625d6ff5ddc94657c21a1625",
+      "name": {
+        "zh": "网络供应商 - 1",
+        "en": "Network Provider - Part 1"
+      }
+    },
+    {
+      "id": "639135e8c115f907b14700aa",
+      "name": {
+        "zh": "探望",
+        "en": "Surveillance"
+      }
+    },
+    {
+      "id": "639136fa9444fb141f4e6eee",
+      "name": {
+        "zh": "你被盯上了",
+        "en": "Watching You"
+      }
+    },
+    {
+      "id": "63a511ea30d85e10e375b045",
+      "name": {
+        "zh": "直播 - 3",
+        "en": "Broadcast - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/628b805544430c635d52a888.jpg",
+  "isKey": false
+}

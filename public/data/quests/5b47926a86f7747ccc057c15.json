@@ -1,0 +1,140 @@
+{
+  "id": "5b47926a86f7747ccc057c15",
+  "name": {
+    "zh": "情报就是力量",
+    "en": "Informed Means Armed"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 45000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b04473a5acfc40018632f70",
+      "itemName": {
+        "zh": "Fab Defense UAS AK枪托",
+        "en": "AKM/AK-74 FAB Defense UAS stock"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5e21ca18e4d47f0da15e77dd",
+      "itemName": {
+        "zh": "AK CNC Warrior 5.56x45膛口转换器",
+        "en": "AK CNC Warrior 5.56x45 muzzle device adapter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b3b99475acfc432ff4dcbee",
+      "itemName": {
+        "zh": "EOTech Vudu 1-6x24 30 毫米 步枪瞄准镜",
+        "en": "EOTech Vudu 1-6x24 30mm riflescope"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "噢，怎么着！我有些事要跟你说。现在我在这附近安顿下来了，但总觉得有些不对劲。我的意思是，我对明天会发生什么毫无自信！唉算了，我可能只是有些杞人忧天……无论如何，我总想要掌控身边的邻居的动态，好让自己更有安全感。\n\n我会偷偷告诉你几个隐蔽的地方，你去安装一些智能摄像头。我对这些高科技玩意儿不怎么擅长，所以我的人会向你解释更多细节。这些摄像头可以从Mechanic那里弄到，他经常卖这些东西。当然了，关于你我之间的生意，一个字也不要跟他提。",
+    "en": "Whassup. Let me tell you something. I settled in around here nicely, but something just doesn’t feel right anyway. I mean, there’s no confidence about what tomorrow may bring! Forget it, I just caught some sads... Anyhow, I’d like to stay well-informed about what is happening in the area to feel more at peace. I’ll give you a hint of some shady spots where I’d like you to install some smart cams.\n\nSo, I want surveillance over three areas: the road to port on Customs - stash it somewhere in the bushes near the blue containers, the other cam should be placed near the pier at the sawmill in the Woods - stash it right onto the wooden planks, and the last cam has to watch the Kiba store entrance, it's in the ULTRA mall. I’m not good at this camera planting stuff, so my boys will explain the details. The cameras can be found at Mechanic’s, he used to sell them, I think. Obviously, not a word to him about our business."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5c1234c286f77406fa13baeb",
+      "name": {
+        "zh": "借刀杀人",
+        "en": "Setup"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5b4795fb86f7745876267770",
+      "name": {
+        "zh": "愿者上钩",
+        "en": "Chumming"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+  "isKey": false
+}

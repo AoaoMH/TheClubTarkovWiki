@@ -1,0 +1,114 @@
+{
+  "id": "626bd75e47ea7f506e5493c5",
+  "name": {
+    "zh": "直播 - 1",
+    "en": "Broadcast - Part 1"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 650,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 650
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60391a8b3364dc22b04d0ce5",
+      "itemName": {
+        "zh": "罐装铝热剂",
+        "en": "Can of thermite"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c31c586f774245e3141b2",
+      "itemName": {
+        "zh": "一包钉子",
+        "en": "Pack of nails"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，我的朋友。我最近在思考一些事情。我感觉，我现在对生活里的东西不怎么了解。进来吧，请坐...人们说这座城市里有个人在做直播。他们说，某人会在那里直播做手术。我情愿那是一位想要帮助他人的好医生。我甚至愿意相信，这是器官交易，尽管这听起来很恶心。天知道，为什么要直播这个？这是哪个堕落者的情结吗？说实话，我不知道。但是我能确定的是，直播必须被关掉。你能在那里放一个干扰器吗？",
+    "en": "Hello, friend. I've been thinking about something. It's starting to seem to me that I don't really understand anything in life. Come, sit down... People are saying there's a live broadcast going somewhere in the city. They say that someone is performing surgeries and filming it on their camera. I'd understand if it was an actually good willed doctor helping people. I would even understand if there was an organ trade, although that in itself is disgusting. But tell me, why stream this? Is this a kink for some perverted oligarchs? I honestly don't have an answer. But I do know that this broadcast must be shut down. Can you put a jammer near them?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "qlight_extension_mechanik1_exploration1",
+      "targetNames": {
+        "qlight_extension_mechanik1_exploration1": {
+          "zh": "qlight_extension_mechanik1_exploration1",
+          "en": "qlight_extension_mechanik1_exploration1"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5ac78a9b86f7741cca0bbd8d"
+      ],
+      "targetNames": {
+        "5ac78a9b86f7741cca0bbd8d": {
+          "zh": "信号干扰器",
+          "en": "Signal Jammer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3460c86f7742880308185",
+      "name": {
+        "zh": "挖矿 - 2",
+        "en": "Farming - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "63913715f8e5dd32bf4e3aaa",
+      "name": {
+        "zh": "直播 - 2",
+        "en": "Broadcast - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/628b805544430c635d52a888.jpg",
+  "isKey": false
+}

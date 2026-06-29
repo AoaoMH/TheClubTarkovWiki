@@ -1,0 +1,93 @@
+{
+  "id": "68342265a8d674b5740b31f0",
+  "name": {
+    "zh": "登高望远 - 第五部分 [PVE区]",
+    "en": "To Great Heights! - Part 5 [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 40,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 40
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "664a5428d5e33a713b622379",
+      "itemName": {
+        "zh": "APOK ”荒原之地“ 战术短剑",
+        "en": "APOK Tactical Wasteland Gladius"
+      }
+    }
+  ],
+  "description": {
+    "zh": "有好消息！事实上是好得不能再好的消息！我希望你已经选好了塔科夫精英社区的小公寓，因为有了这些钱你很快就住得起了！开玩笑的。那些社区的房子很快都会倒塌的。\n\n总之，一些来自境外的权势人物对你感兴趣。有权有势。我不能告诉你名字，这是商业机密，我不想违反我签的协议。所以，这些人准备罩着你，大力赞助你，但首先他们想要保证。\n\n你需要成为冠军。高高飞起，超越众人。你得多花时间在竞技场。我从你眼中看得出你准备好了。",
+    "en": "I have good news! Excellent news, in fact! I hope you've already picked out a little apartment in Tarkov's elite neighborhood, because you'll have it soon with all this money! Kidding. All the houses in those neighborhoods are soon gonna collapse anyway.\n\nAnyway, some very powerful people from across the border are interested in you. Powerful and wealthy. I can't tell you their names, it's a business secret, and I'm not violating what I signed. So, these people are ready to take you under their wing and sponsor you heavily, but first they want guarantees.\n\nYou need to become the champion. Fly high, soar above the rest. You're gonna have to spend more time in the Arena. I can see it in your eyes that you're ready."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ArenaGameMode",
+      "value": 2,
+      "target": [
+        "TeamFight",
+        "BlastGang",
+        "CheckPoint"
+      ],
+      "targetNames": {
+        "TeamFight": {
+          "zh": "TeamFight",
+          "en": "TeamFight"
+        },
+        "BlastGang": {
+          "zh": "BlastGang",
+          "en": "BlastGang"
+        },
+        "CheckPoint": {
+          "zh": "CheckPoint",
+          "en": "CheckPoint"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "683421515619c8e2a9031511",
+      "name": {
+        "zh": "登高望远 - 第四部分 [PVE区]",
+        "en": "To Great Heights! - Part 4 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6834233fecd5cf3a440d855b",
+      "name": {
+        "zh": "违背良心 - 第一部分 [PVE区]",
+        "en": "Against the Conscience - Part 1 [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562bc0dadbac1a541f6391.png",
+  "isKey": false
+}

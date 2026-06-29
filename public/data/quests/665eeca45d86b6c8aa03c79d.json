@@ -1,0 +1,123 @@
+{
+  "id": "665eeca45d86b6c8aa03c79d",
+  "name": {
+    "zh": "口干舌燥 - 往日回响",
+    "en": "Thirsty - Echo"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 185000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 185000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5c0fa877d174af02a012e1cf",
+      "itemName": {
+        "zh": "Aquamari带滤嘴水瓶",
+        "en": "Aquamari water bottle with filter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ed51652f6c34d2cc26336a1",
+      "itemName": {
+        "zh": "M.U.L.E. 兴奋剂",
+        "en": "M.U.L.E. stimulant injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "很高兴你能联系我，小伙子。我知道你在调查那个叫“渴死鬼”的人。出于某种原因，Sanitar 也在展开行动。他一直在搜集 TerraGroup 在塔科夫非法活动的情报，这一切都能对上了。\n\n如果你能提前截下那份数据的话，请把它交给我，我的报酬不会让你失望的。此外，至少这些数据不会引发另一场灾难了。",
+    "en": "Thank you for reaching out. I know you're investigating a certain person called Thirsty. Sanitar is investigating him as well, for a specific reason. He's always hunting for any information on TerraGroup's activities. Surely it's all connected.\n\nIf you can intercept the data first, bring it to me, I'll pay you handsomely. Besides, in my hands, it won't cause another disaster."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "2A2_unlock_4_discover",
+      "targetNames": {
+        "2A2_unlock_4_discover": {
+          "zh": "2A2_unlock_4_discover",
+          "en": "2A2_unlock_4_discover"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "666073159916667083033cb9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "666073159916667083033cb9": {
+          "zh": "破损的日记本",
+          "en": "Battered diary"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "666073159916667083033cb9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "666073159916667083033cb9": {
+          "zh": "破损的日记本",
+          "en": "Battered diary"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "665eec4a4dfc83b0ed0a9dca",
+      "name": {
+        "zh": "口干舌燥 - 送货服务",
+        "en": "Thirsty - Delivery"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "665eeca92f7aedcc900b0437",
+      "name": {
+        "zh": "口干舌燥 - 秘密配方",
+        "en": "Thirsty - Secrets"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66697ba8134bc4a35c0017fd.png",
+  "isKey": false
+}

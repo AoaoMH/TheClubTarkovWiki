@@ -1,0 +1,148 @@
+{
+  "id": "5ac242ab86f77412464f68b4",
+  "name": {
+    "zh": "枪匠 - 16",
+    "en": "Gunsmith - Part 16"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 20400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 200000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 200000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e35ef086f7741777737012",
+      "itemName": {
+        "zh": "一包螺钉",
+        "en": "Pack of screws"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e35de086f7741778269d84",
+      "itemName": {
+        "zh": "电钻",
+        "en": "Electric drill"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b36a186f7742523398433",
+      "itemName": {
+        "zh": "金属燃料桶",
+        "en": "Metal fuel tank"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d43021ca4b9362eab4b5e25",
+      "itemName": {
+        "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪",
+        "en": "Lone Star TX-15 DML 5.56x45 carbine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "上次我的话有点多。我自己一个人呆久了想太多，就会这样。当我坐在这里调校瞄具的时候，各种各样的东西就会从我脑袋里滑过。那把M4装的不错，刚到我手里就卖出去了。一个BEAR最近来过我这，他叫“神枪手先生”或者别的什么。他需要一把狙击枪，一把Lobaev公司的DVL “Saboteur”步枪，要有瞄准镜和多功能激光指示器。后座力总和要小于450，人机工效大于40，重量低于6.7公斤。他说射程要达2000米。这家伙很厉害，所以你得尽力弄得靠谱点。",
+    "en": "I’ve said too much last time. It happens when I’m alone with my thoughts for a while. A lot of stuff comes to mind while I sit here calibrating the sights. That M4 turned out splendid, got taken off my hands in a moment. A BEAR dropped by recently, goes by the name of Sniper or something. He needs a Lobaev DVL sniper rifle, with a scope and multi-laser device. With recoil sum less than 450, ergonomics above 40, and weight below 6.7 kg. He said it needs to be a 2000m shot. The guy is serious, so do your best to make a solid build."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "588892092459774ac91d4b11"
+      ],
+      "targetNames": {
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 40
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 450
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 2000
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 6.7
+        }
+      ],
+      "requiredCategories": [
+        "55818b164bdc2ddc698b456c"
+      ],
+      "requiredCategoryNames": {
+        "55818b164bdc2ddc698b456c": {
+          "zh": "组合式战术设备",
+          "en": "Comb. tact. device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae3280386f7742a41359364",
+      "name": {
+        "zh": "枪匠 - 15",
+        "en": "Gunsmith - Part 15"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5b47749f86f7746c5d6a5fd4",
+      "name": {
+        "zh": "枪匠 - 17",
+        "en": "Gunsmith - Part 17"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4e06086f774623122ae42.jpg",
+  "isKey": false
+}

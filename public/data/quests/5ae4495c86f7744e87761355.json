@@ -1,0 +1,148 @@
+{
+  "id": "5ae4495c86f7744e87761355",
+  "name": {
+    "zh": "临行密密缝 - 2",
+    "en": "Sew it Good - Part 2"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aa7e3abe5b5b000171d064d",
+      "itemName": {
+        "zh": "ZSh-1-2M面罩",
+        "en": "ZSh-1-2M face shield"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0919b50db834001b7ce3b9",
+      "itemName": {
+        "zh": "Maska-1SCh 面罩（橄榄绿）",
+        "en": "Maska-1SCh face shield (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aa7e373e5b5b000137b76f0",
+      "itemName": {
+        "zh": "Altyn面罩",
+        "en": "Altyn helmet face shield"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你已经干净利落地解决了帽子订单。现在让我们谈一些严肃的事情吧，你这回可能要像007一样。我需要一些Gzhel护甲，其中一件需要破得很，另一件状况稍微好一点，你能搞定么？",
+    "en": "Hey, what's up. You’ve dealt with hats quick and clean, good stuff. Now let’s move onto some serious things, you’ve got to be agent 007 for this one. I need a couple of Gzhel body armor pieces for my thing, and the trick is that I need one to be fucked up badly, and another one in a mint condition. Get them however you want, it doesn't really matter now. Can you do it?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ab8e79e86f7742d8b372e78"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ab8e79e86f7742d8b372e78": {
+          "zh": "BNTI Gzhel-K 防弹衣",
+          "en": "BNTI Gzhel-K body armor"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ab8e79e86f7742d8b372e78"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ab8e79e86f7742d8b372e78": {
+          "zh": "BNTI Gzhel-K 防弹衣",
+          "en": "BNTI Gzhel-K body armor"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ab8e79e86f7742d8b372e78"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ab8e79e86f7742d8b372e78": {
+          "zh": "BNTI Gzhel-K 防弹衣",
+          "en": "BNTI Gzhel-K body armor"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ab8e79e86f7742d8b372e78"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ab8e79e86f7742d8b372e78": {
+          "zh": "BNTI Gzhel-K 防弹衣",
+          "en": "BNTI Gzhel-K body armor"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae4495086f77443c122bc40",
+      "name": {
+        "zh": "临行密密缝 - 1",
+        "en": "Sew it Good - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae4496986f774459e77beb6",
+      "name": {
+        "zh": "临行密密缝 - 3",
+        "en": "Sew it Good - Part 3"
+      }
+    },
+    {
+      "id": "5ae4498786f7744bde357695",
+      "name": {
+        "zh": "成功的关键",
+        "en": "The Key to Success"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a7d986f7743fee0a75b2.jpg",
+  "isKey": false
+}

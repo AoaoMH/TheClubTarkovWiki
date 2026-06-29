@@ -1,0 +1,131 @@
+{
+  "id": "5a27bb3d86f77411ea361a21",
+  "name": {
+    "zh": "神秘货物 - 2",
+    "en": "Cargo X - Part 2"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Exploration",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 850,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 850
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "55802d5f4bdc2dac148b458e",
+      "itemName": {
+        "zh": "PMAG GEN M3 W 30 5.56x45 STANAG 30发弹匣",
+        "en": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57da93632459771cb65bf83f",
+      "itemName": {
+        "zh": "KAC QDSS NT-4 Black 5.56x45消音器",
+        "en": "KAC QDSS NT4 5.56x45 sound suppressor (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "硬盘里的数据比我的想象中的还要多。这批货物就在疗养院，但最重要的是，它是在被转移的路上到达那里的。由于西边的隧道被摧毁了，TerraGroup的那些家伙就试图在USEC的掩护下，把这批货物带回港口，但是他们在路上被T-90拦住了。所以他们匆忙地存放了它，就像精明的资本家一样，哈哈。我们知道，这批货物由两部分组成，第一部分里有蓝桶，位于楼东侧的某个地方，第二部分下落不明。去找到这批货。",
+    "en": "The drives contained even more data than I expected. The cargo is in the resort, but the most important thing is that it got there after an evacuation attempt. Since the West tunnel was destroyed, the TerraGroup folks, covered by USEC, tried to take it back to the port, but it was already roadblocked with the T-90. Hence, they scurried to stow it away, like wise capitalists, ha-ha. We got to know that the cargo consisted of two parts. The first one - the blue barrels - is located somewhere on the first floor of the East Wing, the whereabouts of the second one is unknown yet. Find that cargo for me, mercenary."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_009_2",
+      "targetNames": {
+        "place_peacemaker_009_2": {
+          "zh": "place_peacemaker_009_2",
+          "en": "place_peacemaker_009_2"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5939e5a786f77461f11c0098"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5939e5a786f77461f11c0098": {
+          "zh": "0013号保险文件夹",
+          "en": "Secure Folder 0013"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5939e5a786f77461f11c0098"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5939e5a786f77461f11c0098": {
+          "zh": "0013号保险文件夹",
+          "en": "Secure Folder 0013"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bb1e86f7741f27621b7e",
+      "name": {
+        "zh": "神秘货物 - 1",
+        "en": "Cargo X - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27bb5986f7741dfb660900",
+      "name": {
+        "zh": "神秘货物 - 3",
+        "en": "Cargo X - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/597a172486f774799e5cd153.jpg",
+  "isKey": false
+}

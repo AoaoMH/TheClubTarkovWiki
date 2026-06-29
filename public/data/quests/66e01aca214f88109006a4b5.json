@@ -1,0 +1,71 @@
+{
+  "id": "66e01aca214f88109006a4b5",
+  "name": {
+    "zh": "赴汤蹈火",
+    "en": "Into the Inferno"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c091a4e0db834001d5addc8",
+      "itemName": {
+        "zh": "Maska-1SCh 防弹头盔（橄榄绿）",
+        "en": "Maska-1SCh bulletproof helmet (Olive Drab)"
+      },
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "zh": "幸运的士兵迎来了他的新任务！传言说塔科夫现在愈加危险了。有人开始用迫击炮瞄准某些地方了。\n\n你最好去看看，到底发生了什么。没错，我的意思就是冲进轰炸区的中心。我们在自然保护区、军事基地、海关办公区和海岸线都观测到了轰炸事件。路上小心。",
+    "en": "The soldier of fortune has come for his new task! Rumors have it that Tarkov has become even more dangerous. Who would've thought, right? Someone's started targeting certain areas with mortar fire. \n\nYou better go and see what's going on. And yes, this means going right into the middle of those mortar strike areas. Yup. Alright, so we've noticed the bombardments in the nature reserve, the military base, the customs office, and the coast line. Off you go then."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: UnderArtilleryFire",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5936da9e86f7742d65037edf",
+      "name": {
+        "zh": "背景调查",
+        "en": "Background Check"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66e01ad15a8890455a0d9eea",
+      "name": {
+        "zh": "来去匆匆",
+        "en": "In and Out"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66eaf150daf127599c0c1a2f.png",
+  "isKey": false
+}

@@ -1,0 +1,149 @@
+{
+  "id": "6179b5eabca27a099552e052",
+  "name": {
+    "zh": "反抗",
+    "en": "Counteraction"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 22000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 2300,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 2300
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c12613b86f7743bbe2c3f76",
+      "itemName": {
+        "zh": "情报文件夹",
+        "en": "Intelligence folder"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c392f86f77444754deb29",
+      "itemName": {
+        "zh": "固态硬盘",
+        "en": "SSD drive"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a0a124de7ac81993580542",
+      "itemName": {
+        "zh": "地形调查地图",
+        "en": "Topographic survey maps"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e85a9f4add9fe03027d9bf1",
+      "itemName": {
+        "zh": "23x75 毫米“红星”闪光弹",
+        "en": "23x75mm Zvezda flashbang round"
+      }
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，你准备好应对一份严肃的工作了吗？这次行动非常重要，你需要好好准备一下。所以，听好了：最近BEAR PMC行动人员一直在干扰我们在灯塔附近海岸区域的行动。我相信你已经遭遇过这种情况了，而且你应该能够发现，他们的数量在不断增加。你的任务是，帮助我们维护UN在这座城市的地位...你准备好了吗？消灭BEAR可不像干掉几个小混混那样容易。",
+    "en": "Mercenary, are you ready for some serious work? The matter is quite significant and requires high preparation. So, listen: the BEAR PMC operatives have been radically interfering with operations on the coast near the Lighthouse lately. I think you have already encountered them there and may have noticed their increased activity. Your task is to help us to maintain the position of the UN in this city ... Are you well prepared? Eliminating BEAR is not the same as scaring off regular bandits."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 20,
+      "target": "Bear",
+      "targetNames": {
+        "Bear": {
+          "zh": "Bear",
+          "en": "Bear"
+        }
+      },
+      "location": "Lighthouse"
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 20,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "6662e9cda7e0b43baa3d5f76",
+        "6662e9aca7e0b43baa3d5f74",
+        "684181208d035f60230f63f9",
+        "684180bc51bf8645f7067bc8",
+        "675dcb0545b1a2d108011b2b",
+        "675dc9d37ae1a8792107ca96"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9cda7e0b43baa3d5f76": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9aca7e0b43baa3d5f74": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "684181208d035f60230f63f9": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "684180bc51bf8645f7067bc8": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dcb0545b1a2d108011b2b": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dc9d37ae1a8792107ca96": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a0327ba86f77456b9154236",
+      "name": {
+        "zh": "疗养之旅 - 3",
+        "en": "Spa Tour - Part 3"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+  "isKey": false
+}

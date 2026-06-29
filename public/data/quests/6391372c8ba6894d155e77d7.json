@@ -1,0 +1,104 @@
+{
+  "id": "6391372c8ba6894d155e77d7",
+  "name": {
+    "zh": "直播 - 4",
+    "en": "Broadcast - Part 4"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 22600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 94000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 94000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b371186f774253763a656",
+      "itemName": {
+        "zh": "野营燃料桶",
+        "en": "Expeditionary fuel tank"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ea2a8e200685063ec28c05a",
+      "itemName": {
+        "zh": ".45 RIP",
+        "en": ".45 ACP RIP"
+      }
+    }
+  ],
+  "description": {
+    "zh": "同样的情节又一次发生了，一段新的录像，这次里面有一个奇怪的符号。到底发生了什么？人们就这白白死掉了。这是做给谁看的？为什么这么多问题都无法得到答案。我一直以为我们每次看到的都是最糟糕的，但是下一次我又知道我错了。我们已经击败了图财害命的那些人，还有那些只杀人的家伙。不过，最起码我已经理解他们的动机了，这个野兽击溃了人类的灵魂。但是人们是出于什么目的才会这样做呢...这就我不能理解了。所以，大兵，我会在森林里寻找他们，你去街区里做同样的事情。他们的藏身处一定就在某个地方。去找相同的符号，我相信我们会在哪里找到的。",
+    "en": "It's the same story again, a new recording, now with a strange symbol. What the hell is going on? People are being sacrificed. To whom? Why? So many questions, yet no answers. I keep thinking it's the worst we'll ever see, but every time I'm proven wrong. We've fought looters with only money on their minds. Murderers who just want to shoot innocents, too. But at least I understand the motivation there, the beast has defeated the human in their soul. But with what purpose do people become these... I cannot understand this. So, soldier, I'll look for them in the woods, you do the same in the city. Somewhere there must be their hideout. Look for the same symbol, I'm sure we'll see it again."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c27_sect",
+      "targetNames": {
+        "quest_zone_c27_sect": {
+          "zh": "quest_zone_c27_sect",
+          "en": "quest_zone_c27_sect"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63a511ea30d85e10e375b045",
+      "name": {
+        "zh": "直播 - 3",
+        "en": "Broadcast - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "63a9b36cc31b00242d28a99f",
+      "name": {
+        "zh": "屠宰场",
+        "en": "Slaughterhouse"
+      }
+    },
+    {
+      "id": "64ee99639878a0569d6ec8c9",
+      "name": {
+        "zh": "直播 - 5",
+        "en": "Broadcast - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a98e8bc593cc01b37133a9.jpg",
+  "isKey": false
+}

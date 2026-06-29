@@ -1,0 +1,127 @@
+{
+  "id": "658027799634223183395339",
+  "name": {
+    "zh": "禁止打劫",
+    "en": "No Swiping"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 26000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 280000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 280000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59fafb5d86f774067a6f2084",
+      "itemName": {
+        "zh": "5升丙烷罐",
+        "en": "Propane tank (5L)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5733279d245977289b77ec24",
+      "itemName": {
+        "zh": "汽车蓄电池",
+        "en": "Car battery"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b39a386f774252339976f",
+      "itemName": {
+        "zh": "硅胶管",
+        "en": "Silicone tube"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59faf98186f774067b6be103",
+      "itemName": {
+        "zh": "碱性换热器表面洗涤剂",
+        "en": "Alkaline cleaner for heat exchangers"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5af0484c86f7740f02001f7f",
+      "itemName": {
+        "zh": "Majaica咖啡",
+        "en": "Can of Majaica coffee beans"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "让我们直切正题。\n\n我有一群人在海岸线走私各种违禁品。他们前几天离开了驻地，把货物全都留下了。我不知道到底发生了什么，我们也还不是最好的朋友，所以就不告诉你细节了。总之，现在他们的驻地里有很多拾荒者，竭尽所能地搬走那些东西。\n\n去教训一下那群人，让他们知道为什么不该动我的东西。",
+    "en": "Let's cut the chitchat and get straight to business.\n\nI got some buddies on Shoreline, smuggling all kinds of contraband. Useful fellas. They had to leave the base a couple days ago, left all their goods behind. I don't know what the fuck happened, plus we're not some best of buddies, so I won't tell you the details anyway. Anyway, there's a bunch of looters at the base now, taking everything they can get their hands on. \n\nGo down there and explain to them why they shouldn't steal from my boys."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "q14_10_point_area",
+      "targetNames": {
+        "q14_10_point_area": {
+          "zh": "q14_10_point_area",
+          "en": "q14_10_point_area"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: InZone",
+      "value": 25,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b4795fb86f7745876267770",
+      "name": {
+        "zh": "愿者上钩",
+        "en": "Chumming"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/658991921af57867a167fc0f.jpg",
+  "isKey": false
+}

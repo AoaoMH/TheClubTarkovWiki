@@ -1,0 +1,46 @@
+{
+  "id": "61e6e621bfeab00251576265",
+  "name": {
+    "zh": "亡羊补牢 - 收藏",
+    "en": "Compensation for Damage - Collection"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 1
+    }
+  ],
+  "description": {
+    "zh": "怎么，你又来了，是被罪恶感干碎了吗？雇佣兵，你知道的，我可不是你的前景规划师或者公关之类的...行了，我帮你一次吧。我的一个顾客是美制武器的收集狂。嗯，其实他可以直接从工厂订新枪的。但是他想要的是已经被用过的枪，还有火药味的那种。这也是他所有收藏都来自交战区的原因。阿富汗、伊拉克...他克服。我想要送他一些本地的M4，不过这个人很精明，所以你必须亲自找到这些枪械，而不能直接找商人购买。帮我这个忙，我也会帮你一个忙。我可以让人们忘记你手上Scav的血。",
+    "en": "What, came to bow again, tormented by guilt? You know, merc, I'm not your image-maker or a PR manager... Alright, I can help you. One of my contacts is a big shot who collects US weaponry. Yes, he could just order fresh ones from the factory. But he needs an already used weapon, the one that still smells of gunpowder. That's why his whole collection is guns from conflict zones. Afghanistan, Iraq,... Tarkov. I want to gift him some of the local M4s, but the guy is smart, so you'll need to find the guns yourself, not from some trader. Help me, and I'll help you in return. I'll make people forget the Scav blood on your hands."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5447a9cd4bdc2dbd208b4567"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/6137505384aedf00fa17b651.jpg",
+  "isKey": false
+}

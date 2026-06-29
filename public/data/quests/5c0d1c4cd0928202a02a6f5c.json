@@ -1,0 +1,120 @@
+{
+  "id": "5c0d1c4cd0928202a02a6f5c",
+  "name": {
+    "zh": "灭虫服务",
+    "en": "Decontamination Service"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Elimination",
+  "location": "5714dbc024597771384a510d",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 30500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 300000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 300000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "544fb3f34bdc2d03748b456a",
+      "itemName": {
+        "zh": "吗啡注射器",
+        "en": "Morphine injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "590c678286f77426c9660122",
+      "itemName": {
+        "zh": "IFAK单兵战术急救包",
+        "en": "IFAK individual first aid kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "60363c0c92ec1c31037959f5",
+      "itemName": {
+        "zh": "GP-7防毒面具",
+        "en": "GP-7 gas mask"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "我有件棘手的活儿要交给你。一帮Scav正在控制着立交桥，我跟你说，他们可都是一群心狠手辣的恶棍，我想这个世界如果没有他们会安全不少。但是这活儿有一个条件——你必须穿着防化面罩或防毒面具。把这当做教训的一部分，也许这些废物还能走上正轨。不论如何，必须得让他们清楚的知道是谁在制裁他们，所以你得靠的够近。",
+    "en": "I have a delicate business to offer you. A gang of Scavs is operating at the Interchange, and let me tell you, they are quite an evil bunch. I suppose the world without them will become a safer place. Think of it as a certain element of education. Perhaps these useless people could still return to the decent ways. But there is one condition - you must be wearing a chemical respirator or a gas mask. They should understand who is eliminating their people, so you have to work in close quarters. Leave one of them alive, let him tell his leaders who they are dealing with."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 40,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "distance": {
+        "compareMethod": "<=",
+        "value": 60
+      },
+      "location": "Interchange"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5c0be5fc86f774467a116593",
+      "name": {
+        "zh": "私人诊所",
+        "en": "Private Clinic"
+      }
+    },
+    {
+      "id": "5a68669a86f774255929b4d4",
+      "name": {
+        "zh": "医疗隐私 - 5",
+        "en": "Health Care Privacy - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5c1e358f86f77408017f539f.jpg",
+  "isKey": false
+}

@@ -1,0 +1,157 @@
+{
+  "id": "5ae3270f86f77445ba41d4dd",
+  "name": {
+    "zh": "枪匠 - 6",
+    "en": "Gunsmith - Part 6"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e35ef086f7741777737012",
+      "itemName": {
+        "zh": "一包螺钉",
+        "en": "Pack of screws"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b313086f77425227d1678",
+      "itemName": {
+        "zh": "相位控制继电器",
+        "en": "Phase control relay"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "64acea16c4eda9354b0226b0",
+      "itemName": {
+        "zh": "7.62x39mm BP gzh弹药包（20发装）",
+        "en": "7.62x39mm BP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a0c59791526d8dba737bba7",
+      "itemName": {
+        "zh": "AK GP-25附件包 后座力缓冲垫",
+        "en": "AK GP-25 accessory kit recoil pad"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你认为，我们城市的居民所受的苦难是社会行为的必然结果，还是一个人为控制过程的开始？我一直在思考，那家伙搞出了电之后的时代。我认为即便真的有一只无形的手在操控着这些，那我们的社会也是罪有应得。我们通过自己的行动，购买运动鞋，又或是甜菜沙拉，支持那些建立实验室和企业，然后用它们把我们投入深渊的人。算了，我又在自言自语了，还是言归正传。给我找一把AKM，要有Fortis Shift握把，一个消音器，和30发弹容量的Magpul弹匣。人体工效大于40，总后坐力低于400，有效射程800米或更远。",
+    "en": "How do you think, is all the suffering that befell the inhabitants of our city the result of the actions of the society, or a controlled process, and this is just the beginning? I've been thinking about this all the time after that guy with the lightning tattoo. Although I decided for myself that even if it’s someone's invisible hand, our society has deserved it. We have, by our actions, by buying sneakers or even beet salad, supported those who build laboratories and manufacturers, and then use them to plunge us into the abyss. Okay, I’m rambling again, back to business. Get me an AKM with a Fortis Shift grip, silencer, and 30-round Magpul mag. Ergonomics over 40, recoil sum less than 400, sighting range of 800 meters or more."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "59d6088586f774275f37482f"
+      ],
+      "targetNames": {
+        "59d6088586f774275f37482f": {
+          "zh": "AKM 7.62×39 突击步枪",
+          "en": "Kalashnikov AKM 7.62x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 40
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 400
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 800
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        }
+      ],
+      "requiredItems": [
+        "59f8a37386f7747af3328f06",
+        "59d6272486f77466146386ff"
+      ],
+      "requiredItemNames": {
+        "59f8a37386f7747af3328f06": {
+          "zh": "Fortis Shift战术握把",
+          "en": "Fortis Shift tactical foregrip"
+        },
+        "59d6272486f77466146386ff": {
+          "zh": "Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣",
+          "en": "AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine"
+        }
+      },
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae3267986f7742a413592fe",
+      "name": {
+        "zh": "枪匠 - 5",
+        "en": "Gunsmith - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ac244eb86f7741356335af1",
+      "name": {
+        "zh": "枪匠 - 7",
+        "en": "Gunsmith - Part 7"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae3274386f7745b4246b387.jpg",
+  "isKey": false
+}

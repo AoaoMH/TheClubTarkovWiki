@@ -1,0 +1,154 @@
+{
+  "id": "669fa3a1c26f13bd04030f37",
+  "name": {
+    "zh": "设施维护",
+    "en": "Capacity Check"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Completion",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 58000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 58000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "618428466ef05c2ce828f218",
+      "itemName": {
+        "zh": "FN SCAR-L 5.56x45突击步枪 （FDE）",
+        "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "61840d85568c120fdd2962a5",
+      "itemName": {
+        "zh": "FN SCAR-L 5.56x45 30发弹匣 （FDE）",
+        "en": "FN SCAR-L 5.56x45 30-round magazine (FDE)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5447ac644bdc2d6c208b4567",
+      "itemName": {
+        "zh": "5.56x45mm M855弹药包（50发装）",
+        "en": "5.56x45mm M855 ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿。我的合作伙伴对工厂那些大家伙的可用情况很感兴趣。不是TerraGroup的设备，而是那些常见的混合反应器。估计那家伙找到了用途。我信任他，所以想要帮忙。让我们至少试一试他们的方案。\n\n根据我掌握的信息，这些设施本身是完好无损的，但引擎可能坏掉了。我知道你很擅长修东西，也经常能帮我大忙。所以，再来一次？",
+    "en": "Hey. I have partners who are interested in the condition of the equipment at the Factory. Not just any TerraGroup equipment, but ordinary reactor mixers, of all things! Guess the guys have found some use for them. I trust them and would like to help them. Let them at least try to carry out their plan. \n\nAccording to my information, the mixers themselves are intact, but the engines above are probably out of service. I know you're capable of doing this, and you've come to my rescue many times. So will you help me again?"
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c2e1186f77425357b6124"
+      ],
+      "targetNames": {
+        "590c2e1186f77425357b6124": {
+          "zh": "一套工具",
+          "en": "Toolset"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c2e1186f77425357b6124"
+      ],
+      "targetNames": {
+        "590c2e1186f77425357b6124": {
+          "zh": "一套工具",
+          "en": "Toolset"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c2e1186f77425357b6124"
+      ],
+      "targetNames": {
+        "590c2e1186f77425357b6124": {
+          "zh": "一套工具",
+          "en": "Toolset"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "669fa394e0c9f9fafa082897",
+      "name": {
+        "zh": "叉车拼多多",
+        "en": "Forklift Certified"
+      }
+    },
+    {
+      "id": "5ac345dc86f774288030817f",
+      "name": {
+        "zh": "挖矿 - 1",
+        "en": "Farming - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "669fa39ee749756c920d02c8",
+      "name": {
+        "zh": "刨根问底",
+        "en": "All Is Revealed"
+      }
+    },
+    {
+      "id": "66aa74571e5e199ecd094f18",
+      "name": {
+        "zh": "化工厂的秘密",
+        "en": "Secrets of Polikhim"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66acecc4ec21e102040a047f.png",
+  "isKey": false
+}

@@ -1,0 +1,121 @@
+{
+  "id": "596a0e1686f7741ddf17dbee",
+  "name": {
+    "zh": "供给计划",
+    "en": "Supply Plans"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d02778e86f774203e7dedbe",
+      "itemName": {
+        "zh": "CMS手术包",
+        "en": "CMS surgical kit"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，小伙子，真的很高兴见到你。我有一个非常重要的任务，一般人我不会找的，你干不干？那么听着。你知道森林的伐木场吧？在“契约战争”时期，那里是TerraGroup的简易备品补给基地。我对这个地区的TerraGroup补给计划很感兴趣，我想它们应该还在这片区域的某个地方。试着搜搜工人们的临时宿舍，应该是一个带有特殊标记的保险文件盒。",
+    "en": "Hello, young man. Truly glad to see you. I have a very important assignment, not for everybody to take on. Will you take it? Then listen. Do you know the sawmill in the Woods? So, during the Contract Wars period, it was used as one of the makeshift backup supply bases for TerraGroup. And I am very interested in TerraGroup supply plans in this region. I think they should be somewhere on the territory as well. Try to search for the temporary quarters for workers - there should be a secure case for documents with a special symbol."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5938878586f7741b797c562f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5938878586f7741b797c562f": {
+          "zh": "0052号保险文件夹",
+          "en": "Secure Folder 0052"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Woods"
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5938878586f7741b797c562f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5938878586f7741b797c562f": {
+          "zh": "0052号保险文件夹",
+          "en": "Secure Folder 0052"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5969f9e986f7741dde183a50",
+      "name": {
+        "zh": "药剂师",
+        "en": "Pharmacist"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "596a101f86f7741ddb481582",
+      "name": {
+        "zh": "暗中破坏",
+        "en": "Kind of Sabotage"
+      }
+    },
+    {
+      "id": "5d25e2ee86f77443e35162ea",
+      "name": {
+        "zh": "猎人之路 - 森林管理员",
+        "en": "The Huntsman Path - Woods Keeper"
+      }
+    },
+    {
+      "id": "63ab180c87413d64ae0ac20a",
+      "name": {
+        "zh": "危险之路",
+        "en": "Dangerous Road"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979d37886f7746d0b3e3fdb.jpg",
+  "isKey": false
+}

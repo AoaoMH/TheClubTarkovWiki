@@ -1,0 +1,74 @@
+{
+  "id": "64764abcd125ab430a14ccb5",
+  "name": {
+    "zh": "寻血猎犬",
+    "en": "Bloodhounds"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5580223e4bdc2d1c128b457f",
+      "itemName": {
+        "zh": "MP-43-1C双管霰弹枪",
+        "en": "MP-43-1C 12ga double-barrel shotgun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 120,
+      "itemId": "5d6e6911a4b9361bd5780d52",
+      "itemName": {
+        "zh": "12/70 箭形弹",
+        "en": "12/70 flechette"
+      },
+      "quantity": 120
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.15
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59e0d99486f7744a32234762",
+      "itemName": {
+        "zh": "7.62x39毫米 BP",
+        "en": "7.62x39mm BP gzh"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我有一份重要的差事给你。非常危险。不过我会让你收获满满的。\n\n竞技场的所有者派出了一批赏金猎人，寻找那两个逃跑的人。这里面有一个人之前是PMC，也是我倍加信任的老相识。另外一个是Scav，叫Ryzhy，他的名字现在可是人尽皆知了。他们知道很多事情，并且算是好人。所以，他们绝对不能被抓住。\n\n我们必须得拿下那些竞技场来的追杀者。但是，这次一定要小心，这些人比平常的那些小混混危险太多了。你能接这活吗？",
+    "en": "I have serious work for you. Something very dangerous. But I'll make it worth your while. The owner of a well-known Arena in the region let out his hounds, looking for two fugitives from the cleanup crew. One of them is a former PMC, my old trusted friend. The other one is a Scav, Ryzhy, the kid's name is famous now. They know a lot and are generally for the good cause. That is why they mustn't be captured. We must calm these Arena men down. But be careful, they're more dangerous than regular bandits. Can you handle it?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 30,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "arenaFighterEvent"
+      ]
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/6477022b8777780aaf4b50c5.jpg",
+  "isKey": false
+}

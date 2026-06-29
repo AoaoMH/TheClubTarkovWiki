@@ -1,0 +1,370 @@
+{
+  "id": "64e7b9bffd30422ed03dad38",
+  "name": {
+    "zh": "出警 - 巡逻",
+    "en": "Gendarmerie - District Patrol"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 25000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 185000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 185000
+    },
+    {
+      "type": "Item",
+      "value": 16,
+      "itemId": "5d40407c86f774318526545a",
+      "itemName": {
+        "zh": "Tarkovskaya瓶装伏特加",
+        "en": "Bottle of Tarkovskaya vodka"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e625a86f7742d77340f62",
+      "itemName": {
+        "zh": "BNTI Zhuk 防弹衣（数码丛林迷彩）",
+        "en": "BNTI Zhuk body armor (EMR)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "56dfef82d2720bbd668b4567",
+      "itemName": {
+        "zh": "5.45x39毫米 BP",
+        "en": "5.45x39mm BP gs"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6499849fc93611967b034949",
+      "itemName": {
+        "zh": "AK-12 5.45x39突击步枪",
+        "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "警队的最后一项任务，至少是目前的最后一项。我们的目的地是Cardinal公寓区。 我的人需要到那边去一趟，但是那里的拾荒者肯定不会高兴。所以需要你先去清理一下，明白吗？行动！",
+    "en": "One last mission for our gendarmerie division, at least for now. Our target is the Cardinal apartment complex. My men have to get into that neighborhood, but the looters won't be very pleased. So you go there first and do some tidy-up, understand? Move then!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 30,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5c07c60e0db834002330051f",
+        "5cadfbf7ae92152ac412eeef",
+        "606587252535c57a13424cfd",
+        "5447a9cd4bdc2dbd208b4567",
+        "5b0bbe4e5acfc40dc528a72d",
+        "5c488a752e221602b412af63",
+        "5dcbd56fdbd3d91b3e5468d5",
+        "6184055050224f204c1da540",
+        "618428466ef05c2ce828f218",
+        "6183afd850224f204c1da514",
+        "6165ac306ef05c2ce828ef74",
+        "5bb2475ed4351e00853264e3",
+        "623063e994fc3f7b302a9696",
+        "5ac66cb05acfc40198510a10",
+        "5ac66d015acfc400180ae6e4",
+        "5ac66d2e5acfc43b321d4b53",
+        "5ac66d725acfc43b321d4b60",
+        "5ac66d9b5acfc4001633997a",
+        "6499849fc93611967b034949",
+        "5bf3e03b0db834001d2c4a9c",
+        "5ac4cd105acfc40016339859",
+        "5644bd2b4bdc2d3b4c8b4572",
+        "59d6088586f774275f37482f",
+        "5a0ec13bfcdbcb00165aa685",
+        "59ff346386f77477562ff5e2",
+        "5abcbc27d8ce8700182eceeb",
+        "5bf3e0490db83400196199af",
+        "5ab8e9fcd8ce870019439434",
+        "57dc2fa62459775949412633",
+        "5839a40f24597726f856b511",
+        "583990e32459771419544dd2",
+        "5d43021ca4b9362eab4b5e25",
+        "59e6687d86f77411d949b251",
+        "59e6152586f77473dc057aa1",
+        "628a60ae6b1d481ff772e9c8",
+        "628b5638ad252a16da6dd245",
+        "628b9c37a733087d0d7fe84b",
+        "5fbcc1d9016cce60e8341ab3",
+        "62e7c4fba689e8c9c50dfc38",
+        "63171672192e68c5460cebc5",
+        "5ae083b25acfc4001a5fc702",
+        "587e02ff24597743df3deaeb",
+        "5c501a4d2e221602b412b540",
+        "57c44b372459772d2b39b8ce",
+        "6410733d5dd49d77bd07847e",
+        "574d967124597745970e7c94",
+        "643ea5b23db6f9f57107d9fd",
+        "65290f395ae2ae97b80fdf2d",
+        "644674a13d52156624001fbc",
+        "645e0c6b3b381ede770e1cc9",
+        "651450ce0e00edc794068371",
+        "676176d362e0497044079f4c",
+        "6718817435e3cfd9550d2c27"
+      ],
+      "weaponNames": {
+        "5c07c60e0db834002330051f": {
+          "zh": "ADAR 2-15 .223 卡宾枪",
+          "en": "ADAR 2-15 5.56x45 carbine"
+        },
+        "5cadfbf7ae92152ac412eeef": {
+          "zh": "ASh-12 12.7x55 突击步枪",
+          "en": "ASh-12 12.7x55 assault rifle"
+        },
+        "606587252535c57a13424cfd": {
+          "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪",
+          "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
+        },
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        },
+        "5b0bbe4e5acfc40dc528a72d": {
+          "zh": "DS Arms SA-58 7.62x51 突击步枪",
+          "en": "DS Arms SA58 7.62x51 assault rifle"
+        },
+        "5c488a752e221602b412af63": {
+          "zh": "DT MDR 5.56x45 突击步枪",
+          "en": "Desert Tech MDR 5.56x45 assault rifle"
+        },
+        "5dcbd56fdbd3d91b3e5468d5": {
+          "zh": "沙漠科技 MDR 7.62x51 突击步枪",
+          "en": "Desert Tech MDR 7.62x51 assault rifle"
+        },
+        "6184055050224f204c1da540": {
+          "zh": "FN SCAR-L 5.56x45突击步枪",
+          "en": "FN SCAR-L 5.56x45 assault rifle"
+        },
+        "618428466ef05c2ce828f218": {
+          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE）",
+          "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
+        },
+        "6183afd850224f204c1da514": {
+          "zh": "FN SCAR-H 7.62x51突击步枪",
+          "en": "FN SCAR-H 7.62x51 assault rifle"
+        },
+        "6165ac306ef05c2ce828ef74": {
+          "zh": "FN SCAR-H 7.62x51 突击步枪 (FDE)",
+          "en": "FN SCAR-H 7.62x51 assault rifle (FDE)"
+        },
+        "5bb2475ed4351e00853264e3": {
+          "zh": "HK 416A5 5.56x45 突击步枪",
+          "en": "HK 416A5 5.56x45 assault rifle"
+        },
+        "623063e994fc3f7b302a9696": {
+          "zh": "HK G36 5.56x45 突击步枪",
+          "en": "HK G36 5.56x45 assault rifle"
+        },
+        "5ac66cb05acfc40198510a10": {
+          "zh": "AK-101 5.56x45 突击步枪",
+          "en": "Kalashnikov AK-101 5.56x45 assault rifle"
+        },
+        "5ac66d015acfc400180ae6e4": {
+          "zh": "AK-102 5.56x45 突击步枪",
+          "en": "Kalashnikov AK-102 5.56x45 assault rifle"
+        },
+        "5ac66d2e5acfc43b321d4b53": {
+          "zh": "AK-103 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-103 7.62x39 assault rifle"
+        },
+        "5ac66d725acfc43b321d4b60": {
+          "zh": "AK-104 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+        },
+        "5ac66d9b5acfc4001633997a": {
+          "zh": "AK-105 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+        },
+        "6499849fc93611967b034949": {
+          "zh": "AK-12 5.45x39突击步枪",
+          "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+        },
+        "5bf3e03b0db834001d2c4a9c": {
+          "zh": "AK-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74 5.45x39 assault rifle"
+        },
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        },
+        "5644bd2b4bdc2d3b4c8b4572": {
+          "zh": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74N 5.45x39 assault rifle"
+        },
+        "59d6088586f774275f37482f": {
+          "zh": "AKM 7.62×39 突击步枪",
+          "en": "Kalashnikov AKM 7.62x39 assault rifle"
+        },
+        "5a0ec13bfcdbcb00165aa685": {
+          "zh": "AKMN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMN 7.62x39 assault rifle"
+        },
+        "59ff346386f77477562ff5e2": {
+          "zh": "AKMS 7.62×39 突击步枪",
+          "en": "Kalashnikov AKMS 7.62x39 assault rifle"
+        },
+        "5abcbc27d8ce8700182eceeb": {
+          "zh": "AKMSN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMSN 7.62x39 assault rifle"
+        },
+        "5bf3e0490db83400196199af": {
+          "zh": "AKS-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74 5.45x39 assault rifle"
+        },
+        "5ab8e9fcd8ce870019439434": {
+          "zh": "AKS-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74N 5.45x39 assault rifle"
+        },
+        "57dc2fa62459775949412633": {
+          "zh": "AKS-74U 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74U 5.45x39 assault rifle"
+        },
+        "5839a40f24597726f856b511": {
+          "zh": "AKS-74UB 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UB 5.45x39 assault rifle"
+        },
+        "583990e32459771419544dd2": {
+          "zh": "AKS-74UN 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UN 5.45x39 assault rifle"
+        },
+        "5d43021ca4b9362eab4b5e25": {
+          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪",
+          "en": "Lone Star TX-15 DML 5.56x45 carbine"
+        },
+        "59e6687d86f77411d949b251": {
+          "zh": "Vepr AKM / VPO-209 .366TKM 卡宾枪",
+          "en": "Molot Arms VPO-209 .366 TKM carbine"
+        },
+        "59e6152586f77473dc057aa1": {
+          "zh": "Vepr KM / VPO-136 7.62x39 卡宾枪",
+          "en": "Molot Arms VPO-136 Vepr-KM 7.62x39 carbine"
+        },
+        "628a60ae6b1d481ff772e9c8": {
+          "zh": "Rifle Dynamics RD-704 7.62x39突击步枪",
+          "en": "Rifle Dynamics RD-704 7.62x39 assault rifle"
+        },
+        "628b5638ad252a16da6dd245": {
+          "zh": "SAG AK-545 5.45x39卡宾枪",
+          "en": "SAG AK-545 5.45x39 carbine"
+        },
+        "628b9c37a733087d0d7fe84b": {
+          "zh": "SAG AK-545 5.45x39截短卡宾枪",
+          "en": "SAG AK-545 Short 5.45x39 carbine"
+        },
+        "5fbcc1d9016cce60e8341ab3": {
+          "zh": "SIG MCX .300 AAC Blackout 突击步枪",
+          "en": "SIG MCX .300 Blackout assault rifle"
+        },
+        "62e7c4fba689e8c9c50dfc38": {
+          "zh": "Steyr AUG A1 5.56x45突击步枪",
+          "en": "Steyr AUG A1 5.56x45 assault rifle"
+        },
+        "63171672192e68c5460cebc5": {
+          "zh": "Steyr AUG A3 5.56x45突击步枪",
+          "en": "Steyr AUG A3 5.56x45 assault rifle"
+        },
+        "5ae083b25acfc4001a5fc702": {
+          "zh": "大师之手",
+          "en": "Master Hand"
+        },
+        "587e02ff24597743df3deaeb": {
+          "zh": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪",
+          "en": "Molot Arms Simonov OP-SKS 7.62x39 carbine"
+        },
+        "5c501a4d2e221602b412b540": {
+          "zh": "Vepr Hunter/VPO-101 7.62x51卡宾枪",
+          "en": "Molot Arms VPO-101 Vepr-Hunter 7.62x51 carbine"
+        },
+        "57c44b372459772d2b39b8ce": {
+          "zh": "AS “巨浪” 9x39 特种突击步枪",
+          "en": "AS VAL 9x39 special assault rifle"
+        },
+        "6410733d5dd49d77bd07847e": {
+          "zh": "Tokarev AVT-40 7.62x54R自动步枪",
+          "en": "Tokarev AVT-40 7.62x54R automatic rifle"
+        },
+        "574d967124597745970e7c94": {
+          "zh": "西蒙诺夫 SKS 7.62x39 卡宾枪",
+          "en": "TOZ Simonov SKS 7.62x39 carbine"
+        },
+        "643ea5b23db6f9f57107d9fd": {
+          "zh": "Tokarev SVT-40 7.62x54R步枪",
+          "en": "Tokarev SVT-40 7.62x54R rifle"
+        },
+        "65290f395ae2ae97b80fdf2d": {
+          "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+          "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+        },
+        "644674a13d52156624001fbc": {
+          "zh": "KBP 9A-91 9x39紧凑型突击步枪",
+          "en": "KBP 9A-91 9x39 compact assault rifle"
+        },
+        "645e0c6b3b381ede770e1cc9": {
+          "zh": "KBP VSK-94 9x39步枪",
+          "en": "KBP VSK-94 9x39 rifle"
+        },
+        "651450ce0e00edc794068371": {
+          "zh": "SR-3M 9x39紧凑型突击步枪",
+          "en": "SR-3M 9x39 compact assault rifle"
+        },
+        "676176d362e0497044079f4c": {
+          "zh": "FN SCAR-H X-17 7.62x51突击步枪",
+          "en": "FN SCAR-H X-17 7.62x51 assault rifle"
+        },
+        "6718817435e3cfd9550d2c27": {
+          "zh": "Steyr AUG A3 5.56x45 突击步枪（黑色）",
+          "en": "Steyr AUG A3 5.56x45 assault rifle (Black)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "64e7b9a4aac4cd0a726562cb",
+      "name": {
+        "zh": "出警 - 检票",
+        "en": "Gendarmerie - Tickets, Please"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/64f8c8297e981f7f0110d501.jpg",
+  "isKey": false
+}

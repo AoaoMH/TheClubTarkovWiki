@@ -1,0 +1,68 @@
+{
+  "id": "596a101f86f7741ddb481582",
+  "name": {
+    "zh": "暗中破坏",
+    "en": "Kind of Sabotage"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 180000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 180000
+    }
+  ],
+  "description": {
+    "zh": "一只小小鸟告诉我，说你想要帮医师找一些文件夹。你也知道我们在这一块儿也是有生意做的，让她吃瘪的事儿我都开心。所以来搞点破坏如何？来吧，把这个文件夹给我，我不会亏待你，你也会赢得我更多的信任。我要这该死的玩意干什么？不骗你，你好好琢磨吧。我开了个分部，组织策划行动，那些预先储备好的好货经过加工，通过我的渠道肯定能炒的炙手可热。但我现在打不开局面，来吧，赶紧的下定决心，我会在这儿给你准备好你的钱的。",
+    "en": "A little bird told me that you want to find some folder and pass it on to the medic girl. We have a business here, and I have my own interest in disrupting her operations, you know. A kind of sabotage, eh? Come on, bring this folder to me, and I’ll treat you right, send some proper cash your way, and there will be more trust for you. The hell do I need it for? Don’t play dumb, take a guess. I’m opening branches here, building up the operation, and quality grub from those who’ve been preparing for all this crap in advance will sell like hotcakes through my channels. But I’m rambling, come on, go on your way, I'll be here packing your cash. Oh, and don't you be gullible to think that this woman is doing all this shit for the good of the people, I'm familiar with her business."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5938878586f7741b797c562f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5938878586f7741b797c562f": {
+          "zh": "0052号保险文件夹",
+          "en": "Secure Folder 0052"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "596a0e1686f7741ddf17dbee",
+      "name": {
+        "zh": "供给计划",
+        "en": "Supply Plans"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+  "isKey": false
+}

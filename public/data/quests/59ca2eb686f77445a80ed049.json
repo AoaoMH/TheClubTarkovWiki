@@ -1,0 +1,243 @@
+{
+  "id": "59ca2eb686f77445a80ed049",
+  "name": {
+    "zh": "惩罚者 - 6",
+    "en": "The Punisher - Part 6"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 19400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 250000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 250000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59db794186f77448bc595262",
+      "itemName": {
+        "zh": "Epsilon安全箱",
+        "en": "Secure container Epsilon"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.01
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59e77a2386f7742ee578960a",
+      "itemName": {
+        "zh": "7.62x54R 7N1狙击弹",
+        "en": "7.62x54mm R PS gzh"
+      }
+    }
+  ],
+  "description": {
+    "zh": "哎呀！我很困恼……我现在真想从这些大佬的生意里脱身，那些PMC们已经快踢到他们屁股了。令人惊讶的是，他们并不想停下来，而是想取而代之！我本来还以为他们算是自己人，不过现在看来……有点靠不住。现在这种时期，好像所有人都有那么一点儿神经质，每个人都觉得末日即将来临。长话短说，这是我和他们的最后一笔交易，以后不会再为他们做任何事了。大体说来，他们希望大量减少这一带的PMC数量，而且要快。他们会放出一些假消息来促使他们行动。没人知道谁是那个狡猾的人，所以你就把他们都做掉吧。这个事需要你用SVD来做，这样感兴趣的人就会知道是谁在干活儿。我一点也不喜欢这个，不过至少报酬非常非常诱人，你自己选吧。",
+    "en": "Hello, soldier. I don't know... I want out from these Masters deals. The PMCs are getting closer up their ass... And the thing is, they don’t want to shut them down, but take over instead! In times like these everybody goes a little bonkers, everybody feels the end is nigh. Anyway, that’s my last deal with them, won’t be doing anything for them anymore. Basically, they want the number of PMCs to be heavily reduced throughout the area. Gotta kill everyone indiscriminately: no info on who exactly is trying to be the smartass. The job should be done with an SVD so that the interested people would see who did the job... I don’t like it at all. However, the bounty is very fucking tempting. So it’s up to you. And another thing, these men have their own operation at the chemical plant, so don't go there to do the job, so that there would be no misunderstandings."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "5c46fbd72e2216398b5a8c9c"
+      ],
+      "weaponNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        }
+      },
+      "location": "TarkovStreets,bigmap,Sandbox_high,Interchange,RezervBase,Shoreline,laboratory,Woods,Lighthouse"
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 7,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "6662e9aca7e0b43baa3d5f74",
+        "6662e9cda7e0b43baa3d5f76",
+        "675dc9d37ae1a8792107ca96",
+        "675dcb0545b1a2d108011b2b",
+        "684181208d035f60230f63f9",
+        "684180bc51bf8645f7067bc8"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9aca7e0b43baa3d5f74": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9cda7e0b43baa3d5f76": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dc9d37ae1a8792107ca96": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dcb0545b1a2d108011b2b": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "684181208d035f60230f63f9": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "684180bc51bf8645f7067bc8": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 7,
+      "target": [
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "6764207f2fa5e32733055c4a",
+        "6764202ae307804338014c1a",
+        "684180ee9b6d80d840042e8a",
+        "68418091b5b0c9e4c60f0e7a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764207f2fa5e32733055c4a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764202ae307804338014c1a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "684180ee9b6d80d840042e8a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "68418091b5b0c9e4c60f0e7a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59ca29fb86f77445ab465c87",
+      "name": {
+        "zh": "惩罚者 - 5",
+        "en": "The Punisher - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "60e71b62a0beca400d69efc4",
+      "name": {
+        "zh": "护送",
+        "en": "Escort"
+      }
+    },
+    {
+      "id": "60e71b9bbd90872cb85440f3",
+      "name": {
+        "zh": "掠地攻城",
+        "en": "Capturing Outposts"
+      }
+    },
+    {
+      "id": "60e71bb4e456d449cd47ca75",
+      "name": {
+        "zh": "恐吓者",
+        "en": "Intimidator"
+      }
+    },
+    {
+      "id": "60effd818b669d08a35bfad5",
+      "name": {
+        "zh": "抉择",
+        "en": "The Choice"
+      }
+    },
+    {
+      "id": "63a9ae24009ffc6a551631a5",
+      "name": {
+        "zh": "最好的差事",
+        "en": "Best Job in the World"
+      }
+    },
+    {
+      "id": "64e7b99017ab941a6f7bf9d7",
+      "name": {
+        "zh": "出警 - 商场",
+        "en": "Gendarmerie - Mall Cop"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/594d246986f77427fc3b2fb4.jpg",
+  "isKey": false
+}

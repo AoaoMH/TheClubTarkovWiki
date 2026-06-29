@@ -1,0 +1,130 @@
+{
+  "id": "66aa58245ab22944110db6e9",
+  "name": {
+    "zh": "新路线，新机遇",
+    "en": "New Day, New Paths"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Exploration",
+  "location": "marathon",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 900,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 900
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c621186f774138d11ea29",
+      "itemName": {
+        "zh": "加密U盘",
+        "en": "Secure Flash drive"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c37d286f77443be3d7827",
+      "itemName": {
+        "zh": "串口硬盘",
+        "en": "SAS drive"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c392f86f77444754deb29",
+      "itemName": {
+        "zh": "固态硬盘",
+        "en": "SSD drive"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，雇佣兵。我的合作伙伴急切地需要将一批重要物资运出市区。你知道那里的人有多不好惹，那条主路有多危险。你需要找到一条TerraGroup总部到Rodina电影院之间的路线。\n\n我的手下最近发现，有Scav找到了一条捷径。看起来这是契约战争期间USEC曾经使用的路线。它被用来输送大部分的物资，USEC们甚至说他是塔科夫的苏伊士运河。\n\n你可以通过这条道路来一次性前往多个地方。找到这条路，然后确认它是安全的。",
+    "en": "Greetings, mercenary. My partners desperately need to transport something important through the center of the city. You know how isolated the neighborhoods are and how dangerous the main roads are. You'll need to scout the route from the TerraGroup headquarters to the Rodina movie theater.\n\nMy men have recently seen the Scavs who found a shortcut between the neighborhoods. It appears to be an old route used by USEC units during the Contract Wars. It was used for most of the supply runs, the soldiers even called it the Suez Canal amongst each other.\n\nThis path will allow you to visit several different locations in one raid. Find it and make sure it's safe."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: VisitPlace",
+      "value": 1,
+      "target": "Prospect_mira",
+      "targetNames": {
+        "Prospect_mira": {
+          "zh": "Prospect_mira",
+          "en": "Prospect_mira"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: VisitPlace",
+      "value": 1,
+      "target": "Transits_to_streets",
+      "targetNames": {
+        "Transits_to_streets": {
+          "zh": "Transits_to_streets",
+          "en": "Transits_to_streets"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Sandbox_high,Sandbox"
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: VisitPlace",
+      "value": 1,
+      "target": "Check_cinema",
+      "targetNames": {
+        "Check_cinema": {
+          "zh": "Check_cinema",
+          "en": "Check_cinema"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639135f286e646067c176a87",
+      "name": {
+        "zh": "无中生有 - 塔科夫街区",
+        "en": "Revision - Streets of Tarkov"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63aaec53e842787ad21356a3.jpg",
+  "isKey": false
+}

@@ -1,0 +1,196 @@
+{
+  "id": "5a27b87686f77460de0252a8",
+  "name": {
+    "zh": "人道主义援助",
+    "en": "Humanitarian Supplies"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Discover",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 800,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 800
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1c819a86f774771b0acd6c",
+      "itemName": {
+        "zh": "武器零件",
+        "en": "Weapon parts"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0d5ae286f7741e46554302",
+      "itemName": {
+        "zh": "5.56x45毫米 Warmage",
+        "en": "5.56x45mm Warmageddon"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "593d493f86f7745e6b2ceb22",
+      "itemName": {
+        "zh": "Hexagon AK-74 5.45x39声音抑制器",
+        "en": "AK-74 Hexagon 5.45x39 sound suppressor"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我们的团队总是为人民的利益而干活，或者至少我们会让它看上去是这么回事儿。蓝盔们在向我们这个地区和平地运输救援物资，但是有时候，我们也会遭受袭击。我们的两辆装有UN标记木箱的乌拉尔卡车就这么被袭击了。如果不是因为货物太金贵，我们也不会不高兴的。这批的货物所包含的那点帮助不止是用于人民，也用于USEC公司。你知道，我们不能让联合国的名誉有什么污点。找到并穿上UN制服（UN头盔，MF-UN防弹背心），给这些地头杂种好好上一课。同时，给那些被袭击的卡车进行定位，使用指示器标记它们，再给我带一些MRE口粮包这样我就能出示它们当做证据，以防万一。",
+    "en": "Our team always works for the good of the people, or at least we try to make it look so. The Blue Helmets peacefully deliver relief supplies to our region, but sometimes, attacks happen on us as well. That’s what happened to two Ural trucks that were carrying UN-marked crates. We wouldn't be upset if not for the delicacy of the cargo, this time crates contained a little help not only for the people but also for the USEC company. You understand that we cannot allow casting a shadow on the United Nations' reputation. Find and wear UN uniform (UNTAR helmet, MF-UNTAR body armor) and teach local scum a lesson. Also, locate the spot where trucks were attacked, mark them with beacons, and bring me several MRE ration packs so I could present them as evidence, just in case. From the intelligence, one of those trucks has to somewhere in the Health Resort area, but there is no info about the other one. I think it's best to look somewhere near the port area, possibly at the construction site."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 5,
+      "target": [
+        "590c5f0d86f77413997acfab"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "590c5f0d86f77413997acfab": {
+          "zh": "MRE个人即食口粮",
+          "en": "MRE ration pack"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "590c5f0d86f77413997acfab"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "590c5f0d86f77413997acfab": {
+          "zh": "MRE个人即食口粮",
+          "en": "MRE ration pack"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "Shoreline"
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_005_N1",
+      "targetNames": {
+        "place_peacemaker_005_N1": {
+          "zh": "place_peacemaker_005_N1",
+          "en": "place_peacemaker_005_N1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_005_N2",
+      "targetNames": {
+        "place_peacemaker_005_N2": {
+          "zh": "place_peacemaker_005_N2",
+          "en": "place_peacemaker_005_N2"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27b80086f774429a5d7e20",
+      "name": {
+        "zh": "鹰眼",
+        "en": "Eagle Eye"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a03153686f77442d90e2171",
+      "name": {
+        "zh": "疗养之旅 - 1",
+        "en": "Spa Tour - Part 1"
+      }
+    },
+    {
+      "id": "5a27b9de86f77464e5044585",
+      "name": {
+        "zh": "邪教 - 1",
+        "en": "The Cult - Part 1"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "6086c852c945025d41566124",
+      "name": {
+        "zh": "无中生有 - 储备站",
+        "en": "Revision - Reserve"
+      }
+    },
+    {
+      "id": "675c1d6d59b0575973008fc7",
+      "name": {
+        "zh": "抢夺先机",
+        "en": "Seizing the Initiative"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979d3da86f774719f309082.jpg",
+  "isKey": false
+}

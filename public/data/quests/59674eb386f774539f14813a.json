@@ -1,0 +1,128 @@
+{
+  "id": "59674eb386f774539f14813a",
+  "name": {
+    "zh": "往事速递",
+    "en": "Delivery From the Past"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 20000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 20000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "576165642459773c7a400233",
+      "itemName": {
+        "zh": "Saiga-12K ver.10 12铅径半自动霰弹枪",
+        "en": "Saiga-12K ver.10 12ga semi-automatic shotgun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "57616a9e2459773c7a400234",
+      "itemName": {
+        "zh": "Sb.5 12/76 5发SOK-12兼容弹匣",
+        "en": "SOK-12 12ga Sb.5 5-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6570243bbfc87b3a3409321f",
+      "itemName": {
+        "zh": "25发12/70 8.5 Magnum 鹿弹盒装弹药",
+        "en": "12/70 8.5mm Magnum buckshot ammo pack (25 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "56dff0bed2720bb0668b4567",
+      "itemName": {
+        "zh": "5.45x39毫米 FMJ",
+        "en": "5.45x39mm FMJ"
+      }
+    }
+  ],
+  "description": {
+    "zh": "气色不错啊，大兵。看样子你还待在这破地儿没走？闲话不多说了。我这有件事儿，挺敏感的事情。我们现在算是互相信任了吧？所以现在我也信任你。我不能告诉你这任务的细节信息，反正和我交给你的事没啥大关系。你的任务就是去拿一样东西，再把它放到另一个地方。听起来不难吧，但是这里有点细节问题，东西在海关，你要把它放到工厂里的某个地方。有兴趣吗？",
+    "en": "Stay well, fighter. Still in our sinful world, I see? But enough of that. There is this one thing. Rather sensitive, so to say. We kind of reached mutual trust with you, right? So I’ll be trusting you with a serious task now. I won’t go into details of why, who and for what, it's not really related to the task anyway. And the task is to procure a package and move it to another place. Doesn’t sound hard, but there is a nuance. The pickup is on Customs, and the drop-off is in the Factory. Customs has a big warehouse, the red one, near the garages. The package is located there on the second floor in the office. Grab it and stash it on Factory, in a metal shack on the second floor, near the dressing room area. Interested?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "591092ef86f7747bb8703422"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591092ef86f7747bb8703422": {
+          "zh": "0022号保险文件夹",
+          "en": "Secure Folder 0022"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "591092ef86f7747bb8703422"
+      ],
+      "targetNames": {
+        "591092ef86f7747bb8703422": {
+          "zh": "0022号保险文件夹",
+          "en": "Secure Folder 0022"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5936da9e86f7742d65037edf",
+      "name": {
+        "zh": "背景调查",
+        "en": "Background Check"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "59c124d686f774189b3c843f",
+      "name": {
+        "zh": "石油存储",
+        "en": "BP Depot"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59bfebe686f7745ba3403da3.jpg",
+  "isKey": false
+}

@@ -1,0 +1,161 @@
+{
+  "id": "5b477f7686f7744d1b23c4d2",
+  "name": {
+    "zh": "枪匠 - 20",
+    "en": "Gunsmith - Part 20"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 26600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 500,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a33e75ac4a2826c6e06d759",
+      "itemName": {
+        "zh": "Hera Arms CQR手枪式握把一体化枪托",
+        "en": "AR-15 Hera Arms CQR pistol grip/buttstock"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a7dbfc1159bd40016548fde",
+      "itemName": {
+        "zh": "Hera Arms CQR战术握把",
+        "en": "Hera Arms CQR tactical foregrip"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6130c43c67085e45ef1405a1",
+      "itemName": {
+        "zh": "AR-10 KAC QDC 7.62x51膛口制退器套组",
+        "en": "AR-10 KAC QDC 7.62x51 Muzzle Brake Kit"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "58d2912286f7744e27117493",
+      "itemName": {
+        "zh": "Magpul卡宾枪枪托系列橡胶枪托垫",
+        "en": "Magpul MOE Carbine rubber buttpad"
+      }
+    }
+  ],
+  "description": {
+    "zh": "这个是给神枪手先生的，似乎他正准备到森林的某个地方去狩猎坏蛋们，要去一整个星期。这是我从他背包里那一大堆的MRE，打火石，电池和水得出的结论。到现在这些东西还留在我这儿。他需要一把M1A，装备Ultimak M8基座，Nightforce ATACR 7-35-56瞄准镜，T1反射式瞄具，HOLOsun LS321战术装置，以及20发容量的弹匣。人机工效大于20，总体后坐力低于400，总重量为7.3公斤或更低。",
+    "en": "This one is for Sniper, it seems that he’s about to set out to the woods somewhere to hunt down villains for a week. Judging from the fact that he packed one hell of a backpack with an MRE, firesteel, batteries, and water. Left it at my place for now. He needs an M1A, fitted with an UltiMAK M8 Forward Optic mount, Nightforce ATACR 7-35x56 scope, Micro T-1 reflex sight, Holosun LS321 tactical device, and a 20-round mag. Ergonomics above 20, recoil sum below 400, and a total weight of 7.3 kg or less."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5aafa857e5b5b00018480968"
+      ],
+      "targetNames": {
+        "5aafa857e5b5b00018480968": {
+          "zh": "春田 M1A 7.62x51 精确射手步枪",
+          "en": "Springfield Armory M1A 7.62x51 rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 20
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 400
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 20
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 7.3
+        }
+      ],
+      "requiredItems": [
+        "5addbfbb5acfc400194dbcf7",
+        "5aa66be6e5b5b0214e506e97",
+        "58d399e486f77442e0016fe7",
+        "57fd23e32459772d0805bcf1"
+      ],
+      "requiredItemNames": {
+        "5addbfbb5acfc400194dbcf7": {
+          "zh": "M14 Ultimak M8顶盖",
+          "en": "M14 UltiMAK M8 Forward Optic mount"
+        },
+        "5aa66be6e5b5b0214e506e97": {
+          "zh": "Nightforce ATACR 7-35x56步枪瞄准镜",
+          "en": "Nightforce ATACR 7-35x56 34mm riflescope"
+        },
+        "58d399e486f77442e0016fe7": {
+          "zh": "Aimpoint Micro T-1反射式瞄具",
+          "en": "Aimpoint Micro T-1 reflex sight"
+        },
+        "57fd23e32459772d0805bcf1": {
+          "zh": "Holosun LS321战术设备",
+          "en": "Holosun LS321 Tactical device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639873003693c63d86328f25",
+      "name": {
+        "zh": "枪匠 - 19",
+        "en": "Gunsmith - Part 19"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "63987301e11ec11ff5504036",
+      "name": {
+        "zh": "枪匠 - 21",
+        "en": "Gunsmith - Part 21"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5b47867286f7744d1a393de9.jpg",
+  "isKey": false
+}

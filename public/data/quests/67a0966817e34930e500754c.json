@@ -1,0 +1,89 @@
+{
+  "id": "67a0966817e34930e500754c",
+  "name": {
+    "zh": "强制结盟",
+    "en": "Forced Alliance"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 36000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 36000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5bc9b355d4351e6d1509862a",
+      "itemName": {
+        "zh": "#FireKlean牌枪润滑油",
+        "en": "#FireKlean gun lube"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我一直在等着你。虽然不知道你的调查都有哪些进展，但我我觉得找到了钥匙卡的获取途径。显然，Sanitar 可以随意进出疗养院地下室。这也证实了我对 Knossos 公司与 TerraGroup 之间联系的猜测。\n\n不过现在要紧的是弄到钥匙卡。我是没什么办法帮你搞来那种东西，不过 Therapist 肯定能和 Sanitar 搭上线。我已经出面联系上她了，听起来对面也愿意帮忙。我认为目前找到的线索比之前的分歧更重要。\n\n不过，要是有能不接触 Sanitar 也能搞来钥匙卡的方法，那我同样祝你顺利。",
+    "en": "Been waiting for you. I don't know about your own search, but I think I found a way to get the keycards. Apparently, Sanitar had access to the basement beneath the health resort. That alone proves my hunch about Knossos' ties to TerraGroup.\n\nBut right now, we need to find the keycards. I can't help you with that, but Therapist definitely has Sanitar's contacts. I've already reached out to her, and she's willing to help. I believe that the trail we've found is more important than our conflicting viewpoints.\n\nHowever, if you can find another way to get the keycards without having to deal with Sanitar, I'll wish you luck."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "679b9819a2f2dd4da9023512"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679b9819a2f2dd4da9023512": {
+          "zh": "Labrys 访问钥匙卡",
+          "en": "Labrys access keycard"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a096577e86e067eb045733",
+      "name": {
+        "zh": "暗藏玄机",
+        "en": "Hidden Layer"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67a09673972c11a3f507731d",
+      "name": {
+        "zh": "塔科夫屠夫",
+        "en": "The Tarkov Butcher"
+      }
+    },
+    {
+      "id": "67a0970744893b9f3f0d9b68",
+      "name": {
+        "zh": "武装侦察",
+        "en": "Offensive Reconnaissance"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

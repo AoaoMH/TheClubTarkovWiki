@@ -1,0 +1,133 @@
+{
+  "id": "669fa39c64ea11e84c0642a6",
+  "name": {
+    "zh": "隔墙有“眼”",
+    "en": "The Walls Have Eyes"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Exploration",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 550,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 550
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5fb64bc92b1b027b1f50bcf2",
+      "itemName": {
+        "zh": "TDI KRISS Vector Gen.2 .45 ACP 冲锋枪",
+        "en": "TDI KRISS Vector Gen.2 .45 ACP submachine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5fb651dc85f90547f674b6f4",
+      "itemName": {
+        "zh": "KRISS G30 MagEx Glock .45 ACP 30 发弹匣",
+        "en": "Glock .45 ACP KRISS G30 MagEx 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "6570240a1419851aef03e6f7",
+      "itemName": {
+        "zh": ".45 ACP Lasermatch FMJ弹药包（50发装）",
+        "en": ".45 ACP Lasermatch FMJ ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你来的真是时候，伙计！我记得你帮我搞定过郊区的监视项目。\n\n现在化工厂有着不小的骚动，我打赌你肯定听说了！作为真正的朋友，帮我安插一点眼线没有问题吧？\n\n我看到那里有一些起重机，那可是绝佳的监视位置。好了，行动起来吧。",
+    "en": "You got here just in time, man! I remember you helped me a hell of a lot with surveillance in the suburbs. \n\nAnd now there's all this commotion at the chemical plant, I bet you're well aware of it! Be a true pal, arrange some eyes for me there too, yea?\n\nI've seen some cranes there, they would be a perfect place for a camera. Alright, chop chop."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "669fa395c4c5c04798002497",
+      "name": {
+        "zh": "出口在此",
+        "en": "Exit Here"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66acec801d8e1083b303f5a9.png",
+  "isKey": false
+}

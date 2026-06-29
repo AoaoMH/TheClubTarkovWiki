@@ -1,0 +1,156 @@
+{
+  "id": "64f83bd983cfca080a362c82",
+  "name": {
+    "zh": "枪匠 - 25",
+    "en": "Gunsmith - Part 25"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 35000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "59faff1d86f7746c51718c9c",
+      "itemName": {
+        "zh": "实体比特币",
+        "en": "Physical Bitcoin"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59fb023c86f7746d0d4b423c",
+      "itemName": {
+        "zh": "武器箱",
+        "en": "Weapon case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c1d0f4986f7744bb01837fa",
+      "itemName": {
+        "zh": "实验室钥匙卡·黑",
+        "en": "TerraGroup Labs keycard (Black)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64637076203536ad5600c990",
+      "itemName": {
+        "zh": "PKM 7.62x54R机枪",
+        "en": "Kalashnikov PKM 7.62x54R machine gun"
+      }
+    },
+    {
+      "type": "Achievement",
+      "target": "664f23e44702fd5db50ee732"
+    }
+  ],
+  "description": {
+    "zh": "有一个离谱的订单给你。我不知道你要去哪才能整出这么个东西，但是既然你从来没让我失望过，我相信你能办到。我需要一把的PKP机枪，配件得是Zenit的，包括护木、枪托和制退器。还要有USP-1 \"Tyuplan\"瞄准镜和任意战术装置。人机工效不得低于10，弹匣盒得是100发的，后坐力之和不能超过950。",
+    "en": "An unreal order for you. I don't know where you're going to get such a beauty, but you've never let me down before, so I trust you. I need a PKP machine gun with a Zenitco kit: handguard, buttstock and a muzzle brake. With USP-1 \"Tyulpan\" sight and any tactical device. Ergonomics no lower than 10, 100-round box, recoil no higher than 950."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "64ca3d3954fc657e230529cc"
+      ],
+      "targetNames": {
+        "64ca3d3954fc657e230529cc": {
+          "zh": "卡拉什尼科夫 PKP 7.62x54R 步兵机枪",
+          "en": "Kalashnikov PKP 7.62x54R infantry machine gun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 10
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 950
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 500
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        }
+      ],
+      "requiredItems": [
+        "6491c6f6ef312a876705191b",
+        "6492d7847363b8a52206bc52",
+        "6492ef63cfcf7c89e701abf1",
+        "5cf638cbd7f00c06595bc936",
+        "646372518610c40fc20204e8"
+      ],
+      "requiredItemNames": {
+        "6491c6f6ef312a876705191b": {
+          "zh": "PK Zenit B-50护木",
+          "en": "PK Zenit B-50 handguard"
+        },
+        "6492d7847363b8a52206bc52": {
+          "zh": "PK Zenit PT-2 \"Klassika\"枪托",
+          "en": "PK Zenit PT-2 \"Klassika\" stock"
+        },
+        "6492ef63cfcf7c89e701abf1": {
+          "zh": "PK Zenit DTK-1P 7.62x54R枪口制退器",
+          "en": "PK Zenit DTK-1P 7.62x54R muzzle brake"
+        },
+        "5cf638cbd7f00c06595bc936": {
+          "zh": "NPZ USP-1 郁金香 4x 瞄准镜",
+          "en": "NPZ USP-1 Tyulpan 4x scope"
+        },
+        "646372518610c40fc20204e8": {
+          "zh": "PK 7.62x54R 100发盒式弹匣",
+          "en": "PK 7.62x54R 100-round box"
+        }
+      },
+      "requiredCategories": [
+        "55818b164bdc2ddc698b456c"
+      ],
+      "requiredCategoryNames": {
+        "55818b164bdc2ddc698b456c": {
+          "zh": "组合式战术设备",
+          "en": "Comb. tact. device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "64f83bcdde58fc437700d8fa",
+      "name": {
+        "zh": "枪匠 - 24",
+        "en": "Gunsmith - Part 24"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/64f8b692c8626c7d460401b6.jpg",
+  "isKey": false
+}

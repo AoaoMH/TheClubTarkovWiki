@@ -1,0 +1,116 @@
+{
+  "id": "5ac345dc86f774288030817f",
+  "name": {
+    "zh": "挖矿 - 1",
+    "en": "Farming - Part 1"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Completion",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 25000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 25000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b392c86f77425243e98fe",
+      "itemName": {
+        "zh": "电灯泡",
+        "en": "Light bulb"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1c774f86f7746d6620f8db",
+      "itemName": {
+        "zh": "螺旋散热器",
+        "en": "Radiator helix"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "有人刚刚决定靠抛售一大堆比特币砸盘拉低市场。抛出量实在是太大了，以至于TARGox交易所开始接受比市场价便宜10倍的报价。报价单队列不断拉长，还一直有更低的报价填进来。我趁机买了几百个币。如果没什么坏事发生的话，今天价钱就会恢复正常了。下次市场再被这样操控的时候，我们得掺一脚。你对工厂很熟悉，那里有些控制板。去找到控制面板，在红色应急灯附近找找。你带上一些工具包去修好那些面板，我先在这里搞定散热的事儿。\n",
+    "en": "The other day, someone has decided to crash the market by unloading a thick wad of bitcoins. So thick that TARGox started accepting bids 10 times cheaper than the market value. Bids queue kept going while being constantly replenished with even cheaper bids. I managed to buy a couple of hundreds by chance. And today the price is back to normal as if nothing had happened. We need to get into that action while the market is being controlled like this. You already know the Factory well, there are some control boards there. To find them, look for the red emergency lights. Take a couple of toolsets and repair the panels. I'll work on the cooling system in the meantime."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c2e1186f77425357b6124"
+      ],
+      "targetNames": {
+        "590c2e1186f77425357b6124": {
+          "zh": "一套工具",
+          "en": "Toolset"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c2e1186f77425357b6124"
+      ],
+      "targetNames": {
+        "590c2e1186f77425357b6124": {
+          "zh": "一套工具",
+          "en": "Toolset"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac23c6186f7741247042bad",
+      "name": {
+        "zh": "枪匠 - 1",
+        "en": "Gunsmith - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ac3460c86f7742880308185",
+      "name": {
+        "zh": "挖矿 - 2",
+        "en": "Farming - Part 2"
+      }
+    },
+    {
+      "id": "669fa3a1c26f13bd04030f37",
+      "name": {
+        "zh": "设施维护",
+        "en": "Capacity Check"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4db0986f77442000164dd.jpg",
+  "isKey": false
+}

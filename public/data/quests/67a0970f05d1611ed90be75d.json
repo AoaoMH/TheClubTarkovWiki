@@ -1,0 +1,110 @@
+{
+  "id": "67a0970f05d1611ed90be75d",
+  "name": {
+    "zh": "检验假说",
+    "en": "Hypotheses Testing"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "6733700029c367a3d40b02af",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 82000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 82000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "59e35de086f7741778269d84",
+      "itemName": {
+        "zh": "电钻",
+        "en": "Electric drill"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "62a0a0bb621468534a797ad5",
+      "itemName": {
+        "zh": "\"Master\"锉刀套装",
+        "en": "Set of files \"Master\""
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d0378d486f77420421a5ff4",
+      "itemName": {
+        "zh": "军用电源滤波器",
+        "en": "Military power filter"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我破译了信号。密文格式已经很旧了，信号也相当微弱。显然，在你打开门之前，信号是被掩体完全屏蔽的。出于某种原因，这段加密信息是循环播报的，但这并不意味着什么，里面的发报设备可能早就损坏了。此外，我们还是不知道 TerraGroup 的人在里面搞了什么名堂。\n\n信息中提到，有属于最高优先撤离事项的材料和数据仍然保存在设施内。此外，它还提到了在这里进行实验的报告。这太令人震惊了，这样的高价值信息居然就这样让我们给找到了！\n\n但是关于地牢的消息越传越广，这意味着很快其他商人和 PMC 也会蜂拥而至会想要闯入我们发现的这片区域。或许连 Lightkeeper 也会感兴趣...... 我需要信号里提到的那些文件。无论你你在下面找到了什么，都尽快带来给我。",
+    "en": "I was able to decipher the signal. It's old and very faint, apparently the bunker completely blocked it until you opened the doors. For some reason, the message is on loop, but this doesn't mean anything, the equipment inside could have been damaged for a while. Besides, we still don't know what the TerraGroup team was doing in there.\n\nThe message says that the facility still contains materials and data that fall under the first priority of evacuation. Moreover, it mentions reports of experiments conducted at the site. This is astonishing, we couldn't have found a better time to discover something as valuable as this!\n\nKnowing more and more people are finding out about these cellars every day, it means that soon the traders and other PMCs will want to explore the area we've discovered. Perhaps even Lightkeeper will be interested... I need those documents mentioned in the signal. Whatever you can find, please bring them to me as soon as you can."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_06_mech_place_01",
+      "targetNames": {
+        "event_labyrinth_06_mech_place_01": {
+          "zh": "event_labyrinth_06_mech_place_01",
+          "en": "event_labyrinth_06_mech_place_01"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "679b992329acd1f2f60985a5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "679b992329acd1f2f60985a5": {
+          "zh": "Labrys 研发记录",
+          "en": "Labrys research notes"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a0970744893b9f3f0d9b68",
+      "name": {
+        "zh": "武装侦察",
+        "en": "Offensive Reconnaissance"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/67e3d477ab7770f72902761c.jpg",
+  "isKey": false
+}

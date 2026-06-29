@@ -1,0 +1,123 @@
+{
+  "id": "6396700fea19ac7ed845db32",
+  "name": {
+    "zh": "观察员",
+    "en": "Spotter"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c7750ef44505c87f5996",
+      "itemName": {
+        "zh": "微控制器电路板",
+        "en": "Microcontroller board"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "6389c7750ef44505c87f5996",
+      "itemName": {
+        "zh": "微控制器电路板",
+        "en": "Microcontroller board"
+      }
+    }
+  ],
+  "description": {
+    "zh": "事情这下变得有趣了起来。你所找到的数据表明，这些间谍参与了市区里政府车队遇袭的事件，就是那个发生在Nikitskaya（Никитская）大街和Primorsky（Приморский）大道之间的事情，也就是说，他们一直潜伏在这些地方。你的任务是侦查那片区域，找到几个好的监视点，并且准备一些装备。暂时没别的事儿了。我找了个神枪手来完成后面的事情。你需要一个AI .338消音器和一个Trijicon热成像仪。",
+    "en": "The situation takes an interesting turn. The data you delivered to me suggests that these moles were involved in the attack on the government convoy in the city, at the intersection of Nikitskaya Street and Primorsky Avenue, which means that from time to time they inhabit those parts. Your job is to scout the area, prepare and equip some good positions to monitor the area. Nothing more than that for now. I already have a marksman for the job. You will need a silencer for .338 from AI and a Trijicon thermal imager."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_keeper8_1",
+      "targetNames": {
+        "quest_zone_keeper8_1": {
+          "zh": "quest_zone_keeper8_1",
+          "en": "quest_zone_keeper8_1"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "62811fa609427b40ab14e765"
+      ],
+      "targetNames": {
+        "62811fa609427b40ab14e765": {
+          "zh": "AI .338 LM战术声音抑制器",
+          "en": "AI .338 LM Tactical Sound Moderator"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_keeper8_2",
+      "targetNames": {
+        "quest_zone_keeper8_2": {
+          "zh": "quest_zone_keeper8_2",
+          "en": "quest_zone_keeper8_2"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5a1eaa87fcdbcb001865f75e"
+      ],
+      "targetNames": {
+        "5a1eaa87fcdbcb001865f75e": {
+          "zh": "Trijicon REAP-IR热成像步枪瞄准镜",
+          "en": "Trijicon REAP-IR thermal scope"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639670029113f06a7c3b2377",
+      "name": {
+        "zh": "按图索骥",
+        "en": "Following the Bread Crumbs"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6396701b9113f06a7c3b2379",
+      "name": {
+        "zh": "大显身手",
+        "en": "Make an Impression"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

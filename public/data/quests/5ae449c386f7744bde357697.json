@@ -1,0 +1,107 @@
+{
+  "id": "5ae449c386f7744bde357697",
+  "name": {
+    "zh": "大放送之夜",
+    "en": "Sales Night"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5714dbc024597771384a510d",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ab8ebf186f7742d8b372e80",
+      "itemName": {
+        "zh": "SSO \"Attack 2\"突击背包",
+        "en": "SSO Attack 2 raid backpack (Khaki)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b40e2bc5acfc40016388216",
+      "itemName": {
+        "zh": "HighCom Striker ULACH IIIA 头盔（沙漠黄）",
+        "en": "HighCom Striker ULACH IIIA helmet (Desert Tan)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "65573fa5655447403702a816",
+      "itemName": {
+        "zh": "Granit Br4防弹插板",
+        "en": "Granit Br4 ballistic plate"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你曾经在Ultra商场里把Scav吓尿过，还记得么，老兄？现在，他们说情况越来越糟糕了。据说那里到处都是那帮人渣。给你安排个任务：去检查一下立交桥的状况，至少去转一圈。找一条安全的路径。我需要事情一切顺利，明白吗？",
+    "en": "You scared off some Scavs at Ultra once, remember, brother? Now people say it’s getting worse. Word is it’s crawling with all sorts of scum. Got a task for you: check out the situation on Interchange, make sure it's clear to walk around at least. Find safe paths or something. I really need it to go smoothly, okay?"
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 7,
+      "location": "Interchange"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae449b386f77446d8741719",
+      "name": {
+        "zh": "感恩的心",
+        "en": "Gratitude"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae449d986f774453a54a7e1",
+      "name": {
+        "zh": "财务总监",
+        "en": "Supervisor"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5d25e2e286f77444001e2e48",
+      "name": {
+        "zh": "猎人之路 - 脱销",
+        "en": "The Huntsman Path - Sellout"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a76086f774455f7d62d2.jpg",
+  "isKey": false
+}

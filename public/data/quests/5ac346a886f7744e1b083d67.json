@@ -1,0 +1,188 @@
+{
+  "id": "5ac346a886f7744e1b083d67",
+  "name": {
+    "zh": "信号 - 2",
+    "en": "Signal - Part 2"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    }
+  ],
+  "description": {
+    "zh": "我答应过会告诉你“怪物”是什么。那是个没弄好的控制器，它合上了，听起来像是有人敲门一样。我们有时候也会自己吓到自己。有趣的是，如果我没有去查看情况，它也会在15分钟内被继电器关掉。如果它被自动关了，我要再去寻找那天晚上发声的原因就会变得极为困难。我猜这大概就是报纸上那些奇闻怪事的源头。我可以绕过那些信号干扰器，只要在不惊动它们的主人的情况下重新调整干扰器的频率就行了，如果那些东西还在那里的话。我需要一些电器元件来做这事，我想你能帮上忙。这些材料必须悄悄的去找，这样就没人会知道我们在做什么了。",
+    "en": "I promised to tell you about that \"monster\" from the other day. It was a failed controller, it flipped out and it sounded as if someone knocked at the door. That's how we create fears for ourselves. Interestingly, if I didn’t go and check what that was, it would be turned off in 15 minutes by the shutdown relay. After that, it would be extremely difficult to determine the source of the night sound. That’s how all those stories from newspapers are born, I assume. I can bypass the signal jammers by reconfiguring their frequency without raising suspicion of their owner as if things are still the same as they were. I need a few electronics for this and I think you can help me with this. The materials must be found silently so no one would get to know about what are we working on, only God knows, who might be involved in this. Here's the list of needed details, you probably know where to find them."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "573477e124597737dd42e191"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "573477e124597737dd42e191": {
+          "zh": "电脑CPU",
+          "en": "PC CPU"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "573477e124597737dd42e191"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "573477e124597737dd42e191": {
+          "zh": "电脑CPU",
+          "en": "PC CPU"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "590a358486f77429692b2790"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a358486f77429692b2790": {
+          "zh": "可充电电池",
+          "en": "Rechargeable battery"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "590a358486f77429692b2790"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a358486f77429692b2790": {
+          "zh": "可充电电池",
+          "en": "Rechargeable battery"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "590a3b0486f7743954552bdb"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3b0486f7743954552bdb": {
+          "zh": "印制电路板",
+          "en": "Printed circuit board"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "590a3b0486f7743954552bdb"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3b0486f7743954552bdb": {
+          "zh": "印制电路板",
+          "en": "Printed circuit board"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "56742c324bdc2d150f8b456d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "56742c324bdc2d150f8b456d": {
+          "zh": "损坏的GPhone",
+          "en": "Broken GPhone smartphone"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "56742c324bdc2d150f8b456d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "56742c324bdc2d150f8b456d": {
+          "zh": "损坏的GPhone",
+          "en": "Broken GPhone smartphone"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3467986f7741d6224abc2",
+      "name": {
+        "zh": "信号 - 1",
+        "en": "Signal - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ac346cf86f7741d63233a02",
+      "name": {
+        "zh": "信号 - 3",
+        "en": "Signal - Part 3"
+      }
+    },
+    {
+      "id": "5ac3477486f7741d651d6885",
+      "name": {
+        "zh": "侦查",
+        "en": "Scout"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4d8f186f774422237860d.jpg",
+  "isKey": false
+}

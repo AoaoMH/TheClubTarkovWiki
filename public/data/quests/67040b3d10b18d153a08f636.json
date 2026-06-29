@@ -1,0 +1,121 @@
+{
+  "id": "67040b3d10b18d153a08f636",
+  "name": {
+    "zh": "肮脏之血",
+    "en": "Dirty Blood"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Exploration",
+  "location": "5b0fc42d86f7744a585f9105",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 80000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 80000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "64898838d5b4df6140000a20",
+      "itemName": {
+        "zh": "12/70 AP-20弹药包（25发装）",
+        "en": "12/70 AP-20 ammo pack (25 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "66ffaab91f7492c901027bb8",
+      "itemName": {
+        "zh": "AA-12 12铅径 8发弹匣",
+        "en": "AA-12 12ga 8-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "67124dcfa3541f2a1f0e788b",
+      "itemName": {
+        "zh": "MPS Auto Assault-12 Gen 2 12铅径自动霰弹枪",
+        "en": "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我永远不想跟那个婊子待在同一个房间里，但看来我们没什么选择了……此时，我们的生存取决于能否战胜这场感染。\n\n收集感染者的血样带来给我。我去找Therapist告诉她情况。\n\n我认为面对这样的威胁，她愿意帮助这座城市，即使她从中挣不到钱。",
+    "en": "I don't ever want to stand in the same room with that bitch, but looks like we don't have much of a choice... At this point, our survival depends on whether or not we can defeat this infection.\n\nCollect blood samples from the infected and bring them to me. I'll go to Therapist and tell her what's going on. \n\nI think she'd be willing to help the city in the face of such a threat, even if there's no money in it for her."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6707cc67cc1667e49e0f7232"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6707cc67cc1667e49e0f7232": {
+          "zh": "感染者血液样本",
+          "en": "Infected blood sample"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6707cc67cc1667e49e0f7232"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6707cc67cc1667e49e0f7232": {
+          "zh": "感染者血液样本",
+          "en": "Infected blood sample"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "670404a2ea1caa8f2e0be106",
+      "name": {
+        "zh": "Don’t Believe Your Eyes",
+        "en": "Don’t Believe Your Eyes"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67040b6c45eaf70db10dbec6",
+      "name": {
+        "zh": "付之一炬",
+        "en": "Burn It Down"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/671f89bfab3a1278b204cc33.png",
+  "isKey": false
+}

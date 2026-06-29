@@ -1,0 +1,120 @@
+{
+  "id": "6752f6d83038f7df520c83e8",
+  "name": {
+    "zh": "一臂之力",
+    "en": "A Helping Hand"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14000
+    },
+    {
+      "type": "Item",
+      "value": 70000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 70000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6655e35b6bc645cb7b059912",
+      "itemName": {
+        "zh": "“明眼”迫击炮袭告警装置",
+        "en": "\"The Eye\" mortar strike signaling device"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊。你大概已经在塔科夫见过那个 BTR 司机和他的装甲车了。那位司机一直以向和你一样的 PMC 出售服务讨生活，不过最近他也开始和 Skier 那个滑头合作了。之前他找人修那辆 BTR 的时候我见过他一次，说实话，这活有点挑战性，挺有意思的。不过这个和我们今天要聊的话题无关。 \n\n他已经很久没联系过我了，结果现在又突然冒出来寻求帮助。很显然，他一定是有大麻烦缠身了。你能调查一下看看究竟发生了什么事吗？毕竟在塔科夫，有智慧有抱负的人算得上是稀有物种了，而我们这样的人应该团结起来彼此帮助才是。",
+    "en": "Hello. I figure you've already seen the BTR that's been driving around Tarkov. The driver used to offer his services to PMCs like you, but lately he has started working with Skier as well. The driver came to me when he was restoring the BTR. It was an quite an interesting challenge, let me tell you. But that's beside the point. \n\nHe hasn't been in touch for quite some time, and now he's suddenly asked for help. Apparently, something serious has happened. Can you check in with him and find out what's going on? There aren't many men of wit and ambition left in Tarkov. People like us should stick together."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "67499a9669a58fceba104a41"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67499a9669a58fceba104a41": {
+          "zh": "Prapor 的包裹",
+          "en": "Package for Prapor"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Woods"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315e4a6af4ab4b50f3459",
+      "name": {
+        "zh": "救援行动",
+        "en": "Saving the Mole"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "673f2cd5d3346c2167020484",
+      "name": {
+        "zh": "货运延误 - 2",
+        "en": "Shipping Delay - Part 2"
+      }
+    },
+    {
+      "id": "673f348dd3346c21670217e7",
+      "name": {
+        "zh": "货运延误 - 1",
+        "en": "Shipping Delay - Part 1"
+      }
+    },
+    {
+      "id": "673f4e956f1b89c7bc0f56ef",
+      "name": {
+        "zh": "风火轮",
+        "en": "Hot Wheels"
+      }
+    },
+    {
+      "id": "673f629c5b555b53460cf827",
+      "name": {
+        "zh": "奠定基石",
+        "en": "Building Foundations"
+      }
+    },
+    {
+      "id": "6745fae369a58fceba10343d",
+      "name": {
+        "zh": "人往高处走",
+        "en": "The Higher They Fly"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/675b07caf85f28ef74022702.jpg",
+  "isKey": false
+}

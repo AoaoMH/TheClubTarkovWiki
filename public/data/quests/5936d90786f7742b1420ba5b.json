@@ -1,0 +1,128 @@
+{
+  "id": "5936d90786f7742b1420ba5b",
+  "name": {
+    "zh": "首秀",
+    "en": "Debut"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 15000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 15000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57d14d2524597714373db789",
+      "itemName": {
+        "zh": "PP-91 “雪松” 9x18PM冲锋枪",
+        "en": "PP-91 Kedr 9x18PM submachine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "65702606cfc010a0f5006a3e",
+      "itemName": {
+        "zh": "50发9x18 PM BZHT gzh盒装弹药",
+        "en": "9x18mm PM BZhT gzh ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5839a40f24597726f856b511",
+      "itemName": {
+        "zh": "AKS-74UB 5.45x39 短突击步枪",
+        "en": "Kalashnikov AKS-74UB 5.45x39 assault rifle"
+      }
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "你好啊，大兵。我的这个活对弟兄们来说太小菜一碟了。但是挺适合你这个新来的。嘿，别在那不爽，我得跟你熟悉了才能安排正常的差事！\n\n现在街头到处都是小混混。他们没有影响到我，但怎么说都是烦人的玩意儿。干掉五个这样的混混，然后从他们身上带一些MP-133霰弹枪回来。我觉得这对你来说差不多了。大兵，出动！",
+    "en": "Hello there, soldier. I got a job that's a little too easy for my guys. But you'll do fine. Hey, don't get pissy, I don't know you that well yet to give you a normal job!\n\nThere's a lot of bandit scum roaming the streets. They don't bother me much, but they're still a nuisance. Calm down, say, five of them, and get a couple of MP-133 shotguns off them. I think that'll be enough for you. Dismissed, soldier!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "54491c4f4bdc2db1078b4568"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "54491c4f4bdc2db1078b4568": {
+          "zh": "MP-133 12铅径 霰弹枪",
+          "en": "MP-133 12ga pump-action shotgun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315df034d76585f032e01",
+      "name": {
+        "zh": "打靶训练",
+        "en": "Shooting Cans"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5fd9fad9c1ce6b1a3b486d00",
+      "name": {
+        "zh": "搜索任务",
+        "en": "Search Mission"
+      }
+    },
+    {
+      "id": "657315e1dccd301f1301416a",
+      "name": {
+        "zh": "奢靡人生",
+        "en": "Luxurious Life"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/596b465486f77457ca186188.jpg",
+  "isKey": false
+}

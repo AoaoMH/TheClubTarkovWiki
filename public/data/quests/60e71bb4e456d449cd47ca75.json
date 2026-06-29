@@ -1,0 +1,79 @@
+{
+  "id": "60e71bb4e456d449cd47ca75",
+  "name": {
+    "zh": "恐吓者",
+    "en": "Intimidator"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 84000
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "59e0d99486f7744a32234762",
+      "itemName": {
+        "zh": "7.62x39毫米 BP",
+        "en": "7.62x39mm BP gzh"
+      }
+    },
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 300
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 300
+    }
+  ],
+  "description": {
+    "zh": "你好，最近Scav的数量剧增，你注意到了吗？多到我的手下们都已经无法通过之前的安全区域了，他们被Scav干翻了，还没办法讨价还价。我们得给这些混蛋们上一课，让他们听到远远的枪声就会尿裤子。能杀掉多少蠢货就杀多少，这样他们才会明白到底做错了什么。每一枪都要正中头部，我会通过我的渠道，让大家知道是谁放出了消息。",
+    "en": "Greetings. There's quite a noticeable increase in the number of Scavs, have you noticed? Noticeable so much that my couriers can't even get through the previously safe areas, all get clapped indiscriminately, can't even make a deal with them. We need to teach those bastards a lesson so that they piss their pants with any sound of gunshots in a kilometer radius. Shoot as many of those idiots as you can, and so that they know what's going on, get them in a manner they'll realize everything clearly. The shots all have to be in the head, I'll send some info on my channels so that people know who exactly sends the message."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 40,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "bodyParts": [
+        "Head"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59ca2eb686f77445a80ed049",
+      "name": {
+        "zh": "惩罚者 - 6",
+        "en": "The Punisher - Part 6"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27cafa86f77424e20615d6.jpg",
+  "isKey": false
+}

@@ -1,0 +1,133 @@
+{
+  "id": "657315e1dccd301f1301416a",
+  "name": {
+    "zh": "奢靡人生",
+    "en": "Luxurious Life"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "653e6760052c01c1c805532f",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 14000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 14000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e6152586f77473dc057aa1",
+      "itemName": {
+        "zh": "Vepr KM / VPO-136 7.62x39 卡宾枪",
+        "en": "Molot Arms VPO-136 Vepr-KM 7.62x39 carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "64ace9d9b5bf5e95f50a4c1d",
+      "itemName": {
+        "zh": "7.62x39mm FMJ弹药包（20发装）",
+        "en": "7.62x39mm FMJ ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "59d625f086f774661516605d",
+      "itemName": {
+        "zh": "Izhmash 7.62x39 30发AK兼容弹匣（1955后装配）",
+        "en": "AK 7.62x39 30-round magazine (issued '55 or later)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿！你第一次任务做得很好，但是还不足以让我满意。大兵，你还需要做点别的。\n\n我需要一瓶酒。我自己是个酒鬼，但是我也认识一个收集酒的人。不要普通的，只要最稀有的类型！我想送他一瓶酒作为礼物。这种日子里，在塔科夫能和任何有名望的人交朋友都胜过千金，你懂吗？\n\n市中心有一家卖酒的商店。他们之前以三倍价格向那些精英人士卖酒。我敢确定，那里肯定还剩下一些。去那里看看，然后帮我搞一瓶上好的法国酒！可别给我来假货啊。",
+    "en": "Hey! You did well on the first job, but it's not enough to make me happy. You're gonna have to do a little more legwork, soldier. \n\nI need to find a bottle of wine. I myself am more of a hard drinker, but I know a man who collects wine. And not just any kind, but the rarest kind! I want to give him a bottle as a gesture of goodwill. Nowadays in Tarkov, any connections with reputable people are worth their weight in gold, you know?\n\nThere was a liquor store in the city center. They used to sell booze three times the price, for the elite folks. I'm sure there's some left. Go there and search the place and get me a good bottle of some French wine! And don't even try to slip me some fake shit."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Sandbox_3_Vino_exploration",
+      "targetNames": {
+        "Sandbox_3_Vino_exploration": {
+          "zh": "Sandbox_3_Vino_exploration",
+          "en": "Sandbox_3_Vino_exploration"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6582bd252b50c61c565828e2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6582bd252b50c61c565828e2": {
+          "zh": "瓶装Le Jean酒",
+          "en": "Bottle of Le Jean wine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6582bd252b50c61c565828e2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6582bd252b50c61c565828e2": {
+          "zh": "瓶装Le Jean酒",
+          "en": "Bottle of Le Jean wine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5936d90786f7742b1420ba5b",
+      "name": {
+        "zh": "首秀",
+        "en": "Debut"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5936da9e86f7742d65037edf",
+      "name": {
+        "zh": "背景调查",
+        "en": "Background Check"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/65899d82c5998b6e94299024.jpg",
+  "isKey": false
+}

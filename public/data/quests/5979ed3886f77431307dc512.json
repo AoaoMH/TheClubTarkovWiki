@@ -1,0 +1,128 @@
+{
+  "id": "5979ed3886f77431307dc512",
+  "name": {
+    "zh": "U盘里有什么？",
+    "en": "What’s on the Flash Drive?"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "587e02ff24597743df3deaeb",
+      "itemName": {
+        "zh": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪",
+        "en": "Molot Arms Simonov OP-SKS 7.62x39 carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "587df583245977373c4f1129",
+      "itemName": {
+        "zh": "ProMag SKS-A5 7.62x39 20发SKS弹匣",
+        "en": "SKS 7.62x39 TAPCO 6610 20-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "593d490386f7745ee97a1555",
+      "itemName": {
+        "zh": "Hexagon SKS 7.62x39声音抑制器",
+        "en": "SKS Hexagon 7.62x39 sound suppressor"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，干员先生，过来。我给你找了个活干。虽然我自己也不是很拿得准，但这里面的门门道道估计少不了。有个醉鬼老是嘟囔着之前在“契约战争”那会，他给几群 VIP 带过路——你知道的，这些人都是集团里的大人物，肯定不想被我们这的大兵或者条子给逮住。 \n\n最后那段简直对得不能再对了。当兵的里面起码还有不少好人，真要谈生意也可以安排，但是条子！他们可是烂完啦！不管怎么说，那个醉鬼应该的确当过几回向导。 \n\n当然了，他这样的蠢货当然是趁着那群人扎营休息的时候逮到机会就偷。那家伙欠了我不少，我的人给他上手段的时候，那头猪拿他妈妈的名义发誓说，他最近一次偷东西是偷了两个 U 盘。至于里面有什么——他一无所知。 \n\n那个傻逼半辈子都泡在酒里，脑子已经坏得差不多了——他想不起来到底是在什么地方、没有地标、什么都没有。但他说那些贵宾来头不小，连保安都带了，所以还是值得一去的。检查你找到的任何带帐篷的营地。我知道这些路已经被其他人给搜烂了，但万一呢？谁知道呢？",
+    "en": "Hey there, mister operator, come here. I got a little something for you. I'm not saying it's a real sure bet, but it might be interesting. One drunken punk’s been blabbing that back during the Contract Wars, he guided a few groups of some VIPs who didn't want to be caught by our soldiers or cops. \n\nAnd I agree with the latter. You can still make deals with war dogs as there are many decent people there, but cops are no damn good! Anyway, he guided several such groups. \n\nOh and a fool as he is, he managed to steal everything he could during their camping breaks. Now that deadbeat swears on his mom’s name that he snatched two thumb drives on his latest run. What was on them - if anything at all - he’s got no clue. \n\nAnd he’s been permanently shit-faced for so long that he can’t remember anything at all - no location, no landmarks, nothing. Yet he says those VIP were some big enough to even bring security with them, so this might be worth a while. Check any campsite you find. I know that these paths have been beaten through and through since, but what if, you know?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "590c621186f774138d11ea29"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590c621186f774138d11ea29": {
+          "zh": "加密U盘",
+          "en": "Secure Flash drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "590c621186f774138d11ea29"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590c621186f774138d11ea29": {
+          "zh": "加密U盘",
+          "en": "Secure Flash drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "596b43fb86f77457ca186186",
+      "name": {
+        "zh": "敲诈者",
+        "en": "The Extortionist"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5979eee086f774311955e614",
+      "name": {
+        "zh": "金色失物",
+        "en": "Golden Swag"
+      }
+    },
+    {
+      "id": "5d25e48d86f77408251c4bfb",
+      "name": {
+        "zh": "生意至上",
+        "en": "Shady Business"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979ed4c86f7742f55674442.jpg",
+  "isKey": false
+}

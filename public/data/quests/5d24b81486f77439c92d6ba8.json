@@ -1,0 +1,179 @@
+{
+  "id": "5d24b81486f77439c92d6ba8",
+  "name": {
+    "zh": "熟人",
+    "en": "Acquaintance"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e2af37686f774755a234b65",
+      "itemName": {
+        "zh": "SurvL幸存者打火机",
+        "en": "SurvL Survivor Lighter"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊！我已经观察你很久了，我听说过你做那些好事儿和坏事儿。在我们艰难的时刻，一个人想要保持自我是很难的，因为你不得不选定立场。因此我的立场就是要把那些病毒传染源，那些把我们拉进深渊的祸害，从我们的土地上清理出去。如果你想加入的话，我很乐意给你提供帮助。Mechanic已经给我看过你的“业绩”记录了，并且说你非常可靠。事已至此，而我又做不到置身事外。首先，我想我们最好远离保护区最空旷的地带。尤其是那些地痞流氓开始行动，在我们的城市里大肆屠戮、劫掠之后...... 总而言之，我需要你的服务。不过在在这之前，我需要你去弄一些补给。隐居生活已经耗尽了我的补给。",
+    "en": "Well hello there! I’ve been watching you for a long time - I’ve heard about your good and bad deeds. In our difficult time it is hard to remain the same person as you were before - you have to choose the side. So here I am on the side of those who clean our land from various scum, the ones who drag us further into the dark abyss. If you would like to join, I will be glad of any help. Mechanic let me know about your track record, says one can rely on you. Given the circumstances I have no more will power to stay away from what is happening around us. At first, I thought that it would be best to sit out in the wilderness in my reserve. But after what the local bandits started doing, after all these murders and robberies, after what they did to our city... In short, I will definitely need your services. And first of all, I need you to get me some supplies. The hermit's lifestyle really depleted my provisions."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "590c5d4b86f774784e1b9c45"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590c5d4b86f774784e1b9c45": {
+          "zh": "Iskra个人配给口粮",
+          "en": "Iskra ration pack"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "656df4fec921ad01000481a2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "656df4fec921ad01000481a2": {
+          "zh": "方便面",
+          "en": "Pack of instant noodles"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "57347da92459774491567cf5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347da92459774491567cf5": {
+          "zh": "炖美味牛肉罐头（大）",
+          "en": "Can of beef stew (Large)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d2495a886f77425cd51e403",
+      "name": {
+        "zh": "介绍",
+        "en": "Introduction"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5bc4776586f774512d07cf05",
+      "name": {
+        "zh": "塔科夫神射手 - 1",
+        "en": "The Tarkov Shooter - Part 1"
+      }
+    },
+    {
+      "id": "5d25aed386f77442734d25d2",
+      "name": {
+        "zh": "生存者之路 - 危险零距离",
+        "en": "The Survivalist Path - Unprotected but Dangerous"
+      }
+    },
+    {
+      "id": "5d25e48d86f77408251c4bfb",
+      "name": {
+        "zh": "生意至上",
+        "en": "Shady Business"
+      }
+    },
+    {
+      "id": "6658a15615cbb1b2c6014d5b",
+      "name": {
+        "zh": "满城风雨",
+        "en": "Hustle"
+      }
+    },
+    {
+      "id": "66b38c7bf85b8bf7250f9cb6",
+      "name": {
+        "zh": "危机四伏塔科夫",
+        "en": "Rough Tarkov"
+      }
+    },
+    {
+      "id": "66e3e2ee2136472d220bcb36",
+      "name": {
+        "zh": "邪教之夜",
+        "en": "Night of The Cult"
+      }
+    },
+    {
+      "id": "670404a2ea1caa8f2e0be106",
+      "name": {
+        "zh": "Don’t Believe Your Eyes",
+        "en": "Don’t Believe Your Eyes"
+      }
+    },
+    {
+      "id": "675031d3884e1da4a90b3bc9",
+      "name": {
+        "zh": "寒风刺骨",
+        "en": "Chilly"
+      }
+    },
+    {
+      "id": "675c1cf4a757ddd00404f0a3",
+      "name": {
+        "zh": "事倍功半",
+        "en": "Work Smarter"
+      }
+    },
+    {
+      "id": "67f3ea581cd4c15d3d040305",
+      "name": {
+        "zh": "反击",
+        "en": "Fight Back"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d66701986f7744a2e70f025.jpg",
+  "isKey": false
+}

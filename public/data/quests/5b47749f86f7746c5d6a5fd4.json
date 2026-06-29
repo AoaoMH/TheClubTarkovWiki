@@ -1,0 +1,187 @@
+{
+  "id": "5b47749f86f7746c5d6a5fd4",
+  "name": {
+    "zh": "枪匠 - 17",
+    "en": "Gunsmith - Part 17"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "590a3c0a86f774385a33c450",
+      "itemName": {
+        "zh": "火花塞",
+        "en": "Spark plug"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e2aedd986f7746d404f3aa4",
+      "itemName": {
+        "zh": "GreenBat锂电池",
+        "en": "GreenBat lithium battery"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "588226ef24597767af46e39c",
+      "itemName": {
+        "zh": "Magpul AFG握把 OD",
+        "en": "Magpul AFG tactical foregrip (Olive Drab)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a33e75ac4a2826c6e06d759",
+      "itemName": {
+        "zh": "Hera Arms CQR手枪式握把一体化枪托",
+        "en": "AR-15 Hera Arms CQR pistol grip/buttstock"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e21ca18e4d47f0da15e77dd",
+      "itemName": {
+        "zh": "AK CNC Warrior 5.56x45膛口转换器",
+        "en": "AK CNC Warrior 5.56x45 muzzle device adapter"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "619b69037b9de8162902673e",
+      "itemName": {
+        "zh": "AKM/AK-74 Hera Arms CQR47手枪式握把一体式枪托",
+        "en": "AKM/AK-74 Hera Arms CQR47 pistol grip/buttstock"
+      }
+    }
+  ],
+  "description": {
+    "zh": "很久以前，我曾见过Kiba Arms的老板，我俩甚至一起去蒸了桑拿，虽然我并不是特别喜欢。然而，他在跳水的时候意外摔断了腿。这个快乐的家伙一直梦想着能建个气枪场地。现在看来，他的梦想已经在塔科夫里实现了——在这个世界上最大、最残酷的战场里，实现了。虽然有点细微的差别：在这里，人被杀，就会死。一颗子弹，你就什么也没了。组装一把AK-102，带有CRD，Magpul AFG OD色的战术握把，还有Zenit产的Klesch-2U手电，RPK-16缓冲管和Circle 10弹匣。人际功效要大于70，后坐力之和小于250，有效射击范围为800或更远。确保它不会占超过8个格子。",
+    "en": "Quite long ago, I once met the owner of KIBA Arms, we even went to a sauna together then, though I’m not particularly into it. He even broke his leg trying to jump-dive from the pier that day. Jolly fellow dreamt of setting up an airsoft field all the time. It seems his wish came true in Tarkov, the best and largest airsoft field in the world, with an only minor difference: here, you die and lose everything from a single stray bullet. Put together an AK-102, with a Ferfrans CRD Concussion Reduction Device, Magpul AFG OD tactical grip, Zenit Klesch-2U flashlight, RPK-16 buffer tube, and the Circle 10 magazine. Ergonomics should be over 70, recoil sum less than 250, sighting range 800 or more. Make sure it doesn’t take up more than 8 slots."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5ac66d015acfc400180ae6e4"
+      ],
+      "targetNames": {
+        "5ac66d015acfc400180ae6e4": {
+          "zh": "AK-102 5.56x45 突击步枪",
+          "en": "Kalashnikov AK-102 5.56x45 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 70
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 250
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 800
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "height",
+          "compare": "<=",
+          "value": 2
+        },
+        {
+          "stat": "width",
+          "compare": "<=",
+          "value": 4
+        }
+      ],
+      "requiredItems": [
+        "5f6339d53ada5942720e2dc3",
+        "5c0548ae0db834001966a3c2",
+        "588226ef24597767af46e39c",
+        "5b3a337e5acfc4704b4a19a0",
+        "5beec8b20db834001961942a"
+      ],
+      "requiredItemNames": {
+        "5f6339d53ada5942720e2dc3": {
+          "zh": "Ferfrans CRD 5.56x45 后座缓冲装置",
+          "en": "Ferfrans CRD 5.56x45 Concussion Reduction Device"
+        },
+        "5c0548ae0db834001966a3c2": {
+          "zh": "Arsenal CWP 30发SLR-106 5.56x45兼容弹匣",
+          "en": "SLR-106/AK 5.56x45 Circle 10 30-round magazine"
+        },
+        "588226ef24597767af46e39c": {
+          "zh": "Magpul AFG握把 OD",
+          "en": "Magpul AFG tactical foregrip (Olive Drab)"
+        },
+        "5b3a337e5acfc4704b4a19a0": {
+          "zh": "Zenit Klesch-2U 战术手电",
+          "en": "Zenit Klesch-2U tactical flashlight"
+        },
+        "5beec8b20db834001961942a": {
+          "zh": "Izhmash RPK-16缓冲管",
+          "en": "RPK-16 buffer tube"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac242ab86f77412464f68b4",
+      "name": {
+        "zh": "枪匠 - 16",
+        "en": "Gunsmith - Part 16"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5b477b6f86f7747290681823",
+      "name": {
+        "zh": "枪匠 - 18",
+        "en": "Gunsmith - Part 18"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5b47859886f7744d1b23c4f5.jpg",
+  "isKey": false
+}

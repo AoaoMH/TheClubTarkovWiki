@@ -1,0 +1,171 @@
+{
+  "id": "5c0bbaa886f7746941031d82",
+  "name": {
+    "zh": "一派胡言",
+    "en": "Bullshit"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Discover",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 29900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.07
+    },
+    {
+      "type": "Item",
+      "value": 120000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 120000
+    },
+    {
+      "type": "Item",
+      "value": 1000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c1127d0d174af29be75cf68",
+      "itemName": {
+        "zh": "12/70 RIP子弹（5发装）",
+        "en": "12/70 RIP ammo pack (5 pcs)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "606587252535c57a13424cfd",
+      "itemName": {
+        "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪",
+        "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
+      }
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.05
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656fa25e94b480b8a500c0e0",
+      "itemName": {
+        "zh": "Kiba Arms Titan防弹插板",
+        "en": "Kiba Arms Titan ballistic plate"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我把你叫出来是有件事要跟你商量。我从我的队伍里抓了个叛徒，这人渣泄露了我的供给渠道和藏货点。我很想知道这他妈的到底是怎么一回事。我的手下从他那里逼问出了情报，原来是一个当地的团伙搞的，就是那些住在海关宿舍的人。\n事情就是这样。我会故意给他们一份关于我“下一批货”的假消息，然后我的人会在这伙渣滓集体出动时把他们一网打尽。但是你在运送消息的时候千万不要打草惊蛇，你要混入其中，知道了吗？你要把这个带有特别信息的U盘藏到指定地点，这玩意儿现在正在一辆红色被火烧过的汽车里，就在大桥附近，我的人被偷袭了，他们没能把东西放进宿舍楼。把U盘连同SV-98和Roler表一起藏在那里，作为暗号。不要去招惹SCAV。等你办妥了，也要悄悄地溜走。",
+    "en": "So, here's why I called for you. I've caught a mole in my team, this prick was leaking info about my supply channels and points of interest. Of course, I started to wonder what the fuck was going on.\n\nMy men got intel off of him and found out that he was leaking the info to one of the local crews, those that settled by the dorms at the customs area. The thing is, I want to give them some bullshit info on my \"next cargo\", and my men will cut them down when those pricks come for it. But this intel should be delivered with no fuss no muss, as if you were one of them, get it? You will need to stash the Flash drive with the special info, it's planted in the blue car, on the big bridge on Customs. My guys got ambushed at that bridge, so they couldn't hide it anywhere closer to the dorms, sorry. Stash that thumb drive along with an SV-98 and a Roler watch in the dorm, that's how we agreed to do this. And the most important thing: do not smoke any Scavs on Customs and just leave quietly when you're done."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c12301c86f77419522ba7e4"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5c12301c86f77419522ba7e4": {
+          "zh": "假U盘",
+          "en": "Flash drive with fake info"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "55801eed4bdc2d89578b4588"
+      ],
+      "targetNames": {
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "59faf7ca86f7740dbe19f6c2"
+      ],
+      "targetNames": {
+        "59faf7ca86f7740dbe19f6c2": {
+          "zh": "劳力土潜水金腕表",
+          "en": "Roler Submariner gold wrist watch"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5c12301c86f77419522ba7e4"
+      ],
+      "targetNames": {
+        "5c12301c86f77419522ba7e4": {
+          "zh": "假U盘",
+          "en": "Flash drive with fake info"
+        }
+      }
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Elimination",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "bigmap"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b4795fb86f7745876267770",
+      "name": {
+        "zh": "愿者上钩",
+        "en": "Chumming"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c0bc91486f7746ab41857a2",
+      "name": {
+        "zh": "大音希声",
+        "en": "Silent Caliber"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+  "isKey": false
+}

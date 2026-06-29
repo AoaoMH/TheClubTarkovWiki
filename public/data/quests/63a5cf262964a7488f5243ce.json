@@ -1,0 +1,131 @@
+{
+  "id": "63a5cf262964a7488f5243ce",
+  "name": {
+    "zh": "试驾 - 2",
+    "en": "Test Drive - Part 2"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 28000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 300000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 300000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5cadfbf7ae92152ac412eeef",
+      "itemName": {
+        "zh": "ASh-12 12.7x55 突击步枪",
+        "en": "ASh-12 12.7x55 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5caf1109ae9215753c44119f",
+      "itemName": {
+        "zh": "ASh-12 20发ASh-12弹匣",
+        "en": "ASh-12 12.7x55 20-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "648983d6b5a2df1c815a04ec",
+      "itemName": {
+        "zh": "12.7x55mm PS12B（10发装）",
+        "en": "12.7x55mm PS12B (10 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5734758f24597738025ee253",
+      "itemName": {
+        "zh": "金项链",
+        "en": "Golden neck chain"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a26ac0ec4a28200741e1e18",
+      "itemName": {
+        "zh": "9x21毫米 SP13",
+        "en": "9x21mm BT gzh"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好！我们就要开始了，你有感觉到激动吗？这次的任务有些特殊，我们需要测试这些俄式玩具在近距离战斗时的表现，所以情况会很接近实战。我的一些客户不相信这玩意儿的效果...你能让他们改变想法吗？",
+    "en": "Greetings! Well, let's get it going, are you excited? The task is quite specific, we need to test the Russian toy for close combat, so that the conditions were the very real combat in urban environment. I have customers who don't believe in the effectiveness of this toy... Can you change their minds?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 20,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "62e14904c2699c0ec93adc47"
+      ],
+      "weaponNames": {
+        "62e14904c2699c0ec93adc47": {
+          "zh": "SR-2M 石楠 9x21 毫米冲锋枪",
+          "en": "SR-2M Veresk 9x21 submachine gun"
+        }
+      },
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5c0bd94186f7747a727f09b2",
+      "name": {
+        "zh": "试驾 - 1",
+        "en": "Test Drive - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "64f5deac39e45b527a7c4232",
+      "name": {
+        "zh": "试驾 - 3",
+        "en": "Test Drive - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+  "isKey": false
+}

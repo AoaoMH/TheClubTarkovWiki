@@ -1,0 +1,73 @@
+{
+  "id": "67190f9c7b0991dc22064766",
+  "name": {
+    "zh": "监视监视者",
+    "en": "Watch the Watcher"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Elimination",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 45000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 250000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 250000
+    }
+  ],
+  "description": {
+    "zh": "你好。我不确定你是否很清楚塔科夫的力量格局，但目前这并不重要。\n\n这座城市的关键人物之一在灯塔。你可能不认识他，但他绝对认识你的一切。\n\n此人受到严密保护，但他的卫兵需要一些帮助。由于损失巨大，我无法提供我自己的人力资源，但这可能是你的一份肥差。\n\n谁知道呢，也许之后你会因此得到一些功劳。不管怎样，如果你不管的话，这个损失会让塔科夫付出太大代价。",
+    "en": "Greetings. I'm not sure if you have a good understanding of the balance of power in Tarkov, but currently it doesn't matter.\n\nOne of the key figures in this city is at the Lighthouse. You may not know him, but he sure knows all about you. \n\nThe person is well protected, but his guards could use some help. Due to the huge losses, I cannot provide any of my own manpower resources, but this could be a lucrative job for you.\n\nWho knows, maybe you'll get some credit for it later. Either way, this loss will cost Tarkov too much if you don't do anything about it."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 55,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "infectedAssault",
+        "infectedCivil",
+        "infectedLaborant",
+        "infectedPmc",
+        "infectedTagilla"
+      ],
+      "location": "Lighthouse"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "670404a2ea1caa8f2e0be106",
+      "name": {
+        "zh": "Don’t Believe Your Eyes",
+        "en": "Don’t Believe Your Eyes"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/671f917adcb78e551e06b63a.jpg",
+  "isKey": false
+}

@@ -1,0 +1,73 @@
+{
+  "id": "60effd818b669d08a35bfad5",
+  "name": {
+    "zh": "抉择",
+    "en": "The Choice"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Loyalty",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 433333
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 1.1
+    },
+    {
+      "type": "Item",
+      "value": 1000000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 1000000
+    },
+    {
+      "type": "Skill",
+      "target": "HideoutManagement",
+      "value": 200
+    }
+  ],
+  "description": {
+    "zh": "别来无恙呀，雇佣兵。看起来，你并没有荒废人生，甚至还在自己的道路上走出了些事业。人在一生中，有些时候需要选择牺牲一些东西，来换取更大的利益，你明白吗？不是所有人都下得了手。很多人一辈子都不像冒冒险，他们胆小如鼠，一点都不自信。那么你呢？你准备好以小博大了吗？",
+    "en": "Greetings, mercenary. As I see, you are not wasting your time and have achieved a lot on your way. Sometimes in life, you know, we have to lose something to achieve something bigger in the end? Not everyone is ready for this. Many aren't willing to take risks in their entire life, they are afraid, they don't believe in themselves. What about you, are you ready for this yourself? Are you ready to sacrifice something of value to achieve a bigger goal?"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "59db794186f77448bc595262"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59db794186f77448bc595262": {
+          "zh": "Epsilon安全箱",
+          "en": "Secure container Epsilon"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59ca2eb686f77445a80ed049",
+      "name": {
+        "zh": "惩罚者 - 6",
+        "en": "The Punisher - Part 6"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/6137505384aedf00fa17b651.jpg",
+  "isKey": false
+}

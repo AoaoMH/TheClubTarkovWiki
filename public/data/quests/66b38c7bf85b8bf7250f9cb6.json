@@ -1,0 +1,102 @@
+{
+  "id": "66b38c7bf85b8bf7250f9cb6",
+  "name": {
+    "zh": "危机四伏塔科夫",
+    "en": "Rough Tarkov"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4440
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 60000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 60000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "666b11055a706400b717cfa5",
+      "itemName": {
+        "zh": "绊线布设装置",
+        "en": "Tripwire installation kit"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我感觉你对自己的生存技巧很有自信。但是，过于自信的人反而容易丢掉小命，因为你的感知被弱化了。塔科夫不会给这样的人提供容错机会。\n\n我之前在和我的一位同志讨论。这样说吧，绊线就是对你警惕性的终极考验。Partisan已经成功让一大群混蛋人间蒸发了，而且大部分情况下，那些人毫无察觉。没错，他的手段十分极端，他从阿富汗回来就一直是这样。\n\n尽管你对我的朋友而言，算是“善茬”，但即使没有他的参与，塔科夫还是四处散落者不少“礼物”。当然不止在森林里。有些时候，甚至一件不起眼的房间也会充满“炸裂的意外”。所以我需要你克制住自己此前的爱好，而是多去看看这样的地方。\n\n知己知彼，百战不殆。",
+    "en": "Hello there. I see you've become very confident in your survival skills. That's what gets people killed. Overconfidence weakens your senses, and Tarkov doesn't tolerate it. \n\nI was talking to an old comrade of mine, and let me tell you, tripwires are the ultimate test of alertness. Partisan has driven a great many bastards out of existence, and most of the time it was only a matter of catching the enemy inattentive. Yes, his methods are extreme, he's been like that since Afghanistan.\n\nEven if you're on my friend's good side, there are still plenty of \"gifts\" in Tarkov even without him. Not just in the woods, too. Sometimes even a random room can come with an explosive surprise. That's why I advise you to cut down on your eagerness and take a closer look at such places. \n\nYou'll live longer if you learn to recognize mortal danger."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Woods_mine_quest",
+      "targetNames": {
+        "Woods_mine_quest": {
+          "zh": "Woods_mine_quest",
+          "en": "Woods_mine_quest"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Sandbox_mine_quest",
+      "targetNames": {
+        "Sandbox_mine_quest": {
+          "zh": "Sandbox_mine_quest",
+          "en": "Sandbox_mine_quest"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d24b81486f77439c92d6ba8",
+      "name": {
+        "zh": "熟人",
+        "en": "Acquaintance"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "66b38e144f2ab7cc530c3fe7",
+      "name": {
+        "zh": "猎人必修课",
+        "en": "Every Hunter Knows This"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d66701986f7744a2e70f025.jpg",
+  "isKey": false
+}

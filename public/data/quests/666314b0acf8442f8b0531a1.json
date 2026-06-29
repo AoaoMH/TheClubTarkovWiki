@@ -1,0 +1,96 @@
+{
+  "id": "666314b0acf8442f8b0531a1",
+  "name": {
+    "zh": "人间地狱 - 1",
+    "en": "Hell on Earth - Part 1"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Merchant",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 35700,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35700
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "64be79e2bf8412471d0d9bcc",
+      "itemName": {
+        "zh": "NPP KlASS Kora-Kulon防弹衣（数码迷彩）",
+        "en": "NPP KlASS Kora-Kulon body armor (EMR)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "怎么样啊，大兵？最近我和外甥一直在聊一款打恶魔的射击游戏，既然他对这个感兴趣，那我想可以给他准备一份小小的礼物。 \n\n不管怎么说，差事是这样的：给我找把游戏里那样的双管喷来，改得酷一点，看起来就不好惹的那种！哦，顺便把枪管锯短点。",
+    "en": "What's up, warrior. I've been talking to my nephew about some video game where you shoot demons. I thought I'd give him a little present. \n\nAnyway, here's the task: get me a double-barrelled shotgun like in that game, and make it look real nasty! Oh, and make the barrel shorter."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5580223e4bdc2d1c128b457f"
+      ],
+      "targetNames": {
+        "5580223e4bdc2d1c128b457f": {
+          "zh": "MP-43-1C双管霰弹枪",
+          "en": "MP-43-1C 12ga double-barrel shotgun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 42
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 80
+        }
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "666314b4d7f171c4c20226c3",
+      "name": {
+        "zh": "往昔时光 - 1",
+        "en": "The Good Times - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "666314b2a9290f9e0806cca3",
+      "name": {
+        "zh": "人间地狱 - 2",
+        "en": "Hell on Earth - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6682a71f9cf6cc15c00a0f8d.png",
+  "isKey": false
+}

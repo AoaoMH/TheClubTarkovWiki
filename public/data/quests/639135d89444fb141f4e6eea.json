@@ -1,0 +1,118 @@
+{
+  "id": "639135d89444fb141f4e6eea",
+  "name": {
+    "zh": "人口普查",
+    "en": "Population Census"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "544fb45d4bdc2dee738b4568",
+      "itemName": {
+        "zh": "Salewa急救包",
+        "en": "Salewa first aid kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "619cc01e0a7c3a1a2731940c",
+      "itemName": {
+        "zh": "医疗工具",
+        "en": "Medical tools"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "下午好，雇佣兵。你来的正是时候，我有事情要托你来做。我需要知道城市里有多少人已经失踪了。也就是说，我需要一个城市人口的名单，减去已经撤离的，死掉的，和已经在医院得到庇护的人。你的任务就是找到人口名单。去Primorsky（Приморский）区的房屋管理处把名单带给我。",
+    "en": "Good afternoon, mercenary. You're just in time, I have an errand for you. I need to determine how many people have gone missing in the city. To do this, I need a list of all the residents of the city and subtract the already evacuated, the dead, and those who found shelter in the hospital. Your task is to find that list of residents. Bring me the journal from Primorsky District's Housing Department."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "638e0057ab150a5f56238960"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638e0057ab150a5f56238960": {
+          "zh": "房管局办公室日志",
+          "en": "Housing office journal"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "638e0057ab150a5f56238960"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638e0057ab150a5f56238960": {
+          "zh": "房管局办公室日志",
+          "en": "Housing office journal"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5969f9e986f7741dde183a50",
+      "name": {
+        "zh": "药剂师",
+        "en": "Pharmacist"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "639135e0fa894f0a866afde6",
+      "name": {
+        "zh": "城市的解药",
+        "en": "Urban Medicine"
+      }
+    },
+    {
+      "id": "64f731ab83cfca080a361e42",
+      "name": {
+        "zh": "兽医也是医 - 1",
+        "en": "Pets Won't Need It - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63aaeaa987413d64ae0ac1a9.jpg",
+  "isKey": false
+}

@@ -1,0 +1,143 @@
+{
+  "id": "5a27c99a86f7747d2c6bdd8e",
+  "name": {
+    "zh": "西方来客 - 1",
+    "en": "Friend From the West - Part 1"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.06
+    },
+    {
+      "type": "Item",
+      "value": 700,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 700
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c07c60e0db834002330051f",
+      "itemName": {
+        "zh": "ADAR 2-15 .223 卡宾枪",
+        "en": "ADAR 2-15 5.56x45 carbine"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "657024e3c5d7d4cb4d07856a",
+      "itemName": {
+        "zh": "50发5.56x45 M855A1盒装弹药",
+        "en": "5.56x45mm M855A1 ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59faf7ca86f7740dbe19f6c2",
+      "itemName": {
+        "zh": "劳力土潜水金腕表",
+        "en": "Roler Submariner gold wrist watch"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "啊，你来啦？准备好面对真正的大买卖了？是，是，你可真是个狠角儿，比我吓人多了，哈哈。长话短说，最近外来的人让我有点烦，总是到处搞事，动我的人。我很不舒服，如果你能让他们下地狱的话，我会给你一大笔赏金。",
+    "en": "Ah, that you? Ready for some serious business? Yeah, yeah. You're quite a scary character, scarier than me, ha-ha. To be short, the tourists are sort of bugging me lately... Meddling everywhere, wasting my people. I don’t like it. I’ll fix you up with some top cash if you raise some hell for them."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 7,
+      "target": "Usec",
+      "targetNames": {
+        "Usec": {
+          "zh": "Usec",
+          "en": "Usec"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 7,
+      "target": [
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "6764207f2fa5e32733055c4a",
+        "6764202ae307804338014c1a",
+        "68418091b5b0c9e4c60f0e7a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764207f2fa5e32733055c4a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764202ae307804338014c1a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "68418091b5b0c9e4c60f0e7a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "596b36c586f77450d6045ad2",
+      "name": {
+        "zh": "供应商",
+        "en": "Supplier"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27d2af86f7744e1115b323",
+      "name": {
+        "zh": "西方来客 - 2",
+        "en": "Friend From the West - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27cafa86f77424e20615d6.jpg",
+  "isKey": false
+}

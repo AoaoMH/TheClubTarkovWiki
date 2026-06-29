@@ -1,0 +1,115 @@
+{
+  "id": "625d700cc48e6c62a440fab5",
+  "name": {
+    "zh": "邂逅",
+    "en": "Getting Acquainted"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 32000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "快请进！想喝点蜜茶吗？别问我这里面加了多少糖。这可是战争时期，这玩意儿的价格，你懂的...对了，我想要重置一下应答机，但是这需要特殊的软件。据我所知，这种软件可以在那些前USEC人员身上，或是从有电脑的办公室里找到。我知道这不容易，但这是值得的。我什么时候重置它？老哥，这得让你来。我这里可没有那些设备，但是你的情报中心已经能够完成这些工作了。我会写一个纸条，告诉你该怎么操作。还有一件事：商人给我发了会面规则，是这么说的。首先：你只有在带着应答机的时候才能靠近灯塔，不然他们怎么在一堆PMC里认出你来？其次：不要直接跑过去，先确认应答机工作正常。如果你听到滴的一声，那就意味着应答机被确认了，这样你才可以继续前进。就是这些了，祝你好运！我保证这次不会有问题了。",
+    "en": "Come on in! Would you like some honey tea? Don't even ask how much honey cost me. In wartime the prices are like that, you know... Also, I want to reflash the transponder, but I need special software. According to my contacts, such software can be obtained from the ex-USECs at the water treatment plant. I know it's not easy, but it's worth it. When do I reflash the transponder? Buddy, you will reflash it. I don't have enough equipment here, but your Intelligence Center should have everything you need if you set it up right. I'll write down exactly what needs to be done. One more thing: the trader sends you the rules of your visit, so to speak. First: you can get to the lighthouse only while carrying the transponder, otherwise how will they distinguish you from the other PMCs? Second: do not run straight in there, make sure that the transponder worked. You will hear a beep, it means that the transponder is authorized, and you can move on. Well, good luck! I'm sure it will work out for sure this time."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6331bb0d1aa9f42b804997a6"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6331bb0d1aa9f42b804997a6": {
+          "zh": "V3加密U盘",
+          "en": "Secure Flash drive V3"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "62e910aaf957f2915e0a5e36"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "62e910aaf957f2915e0a5e36": {
+          "zh": "Digital secure DSP无线电收发器",
+          "en": "Digital secure DSP radio transmitter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6331bb0d1aa9f42b804997a6"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6331bb0d1aa9f42b804997a6": {
+          "zh": "V3加密U盘",
+          "en": "Secure Flash drive V3"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "meh_50_visit_area_check_1",
+      "targetNames": {
+        "meh_50_visit_area_check_1": {
+          "zh": "meh_50_visit_area_check_1",
+          "en": "meh_50_visit_area_check_1"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "625d7005a4eb80027c4f2e09",
+      "name": {
+        "zh": "咚咚咚",
+        "en": "Knock-Knock"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "626148251ed3bb5bcc5bd9ed",
+      "name": {
+        "zh": "破镜重圆 - 收买人心",
+        "en": "Make Amends - Buyout"
+      }
+    },
+    {
+      "id": "626bd75d5bef5d7d590bd415",
+      "name": {
+        "zh": "头号机密",
+        "en": "Top Secret"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63ab130a160cc610ba035e08.jpg",
+  "isKey": false
+}

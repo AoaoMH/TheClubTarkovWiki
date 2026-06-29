@@ -1,0 +1,156 @@
+{
+  "id": "625d70031ed3bb5bcc5bd9e5",
+  "name": {
+    "zh": "灯塔之匙",
+    "en": "Key to the Tower"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 30500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "我这有一个好消息和一个坏消息，你想先听哪一个？那我就先说好消息吧！我们达到目的了。Lightkeeper对我们很满意，而且他希望亲自见你一面...对，他只见你一个人。那么坏消息是，想要见到他也不是那么容易的，那个地方遍布着地雷。而且，那里有一位狙击手射杀每个想要靠近灯塔的人。我们得想个办法，让他们知道来的人是你，毕竟那里到处都是藏起来的PMC。所以，我们打算在你的身上放一个应答机。他收到信号就会给狙击手打声招呼，并且关闭掉地雷，那条路对你来说就是安全的了。我写好了一个清单，这些是组装应答机所需的材料。发射器可不好找，我觉得你可以去有USEC驻扎的地方看看。",
+    "en": "I have good news and bad news, which one should I start with? I'll start with the good news! We've proved our potential. Lightkeeper is pleased with us, and wants to meet you in person... Yes, you specifically. The bad news is you can't get to him that easily, the place is rigged with land mines. Plus, a sniper shoots everyone who comes near the lighthouse. We must somehow let them know that it's you, among all the other PMCs that are sniffing around there. So we'll put together a transponder for you. He will pick up the signal, give a sign to the sniper, and disable the mines. The path will be safe. I've already written down what materials I need to assemble it. Finding the transmitter box won't be easy, but I think you could try looking somewhere where the USECs settled down."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59e366c186f7741778269d85"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e366c186f7741778269d85": {
+          "zh": "有机玻璃片",
+          "en": "Piece of plexiglass"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5734795124597738002c6176"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5734795124597738002c6176": {
+          "zh": "绝缘胶带",
+          "en": "Insulating tape"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5d0376a486f7747d8050965c"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d0376a486f7747d8050965c": {
+          "zh": "军用电路板",
+          "en": "Military circuit board"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c052f6886f7746b1e3db148"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052f6886f7746b1e3db148": {
+          "zh": "军用COFDM无线信号发射器",
+          "en": "Military COFDM Wireless Signal Transmitter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d1b304286f774253763a528"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d1b304286f774253763a528": {
+          "zh": "完好的液晶显示屏",
+          "en": "Working LCD"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6399f54b0a36db13c823ad21"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6399f54b0a36db13c823ad21": {
+          "zh": "信号发射器主机",
+          "en": "Radio transmitter body"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6399f54b0a36db13c823ad21"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6399f54b0a36db13c823ad21": {
+          "zh": "信号发射器主机",
+          "en": "Radio transmitter body"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "625d7001c4874104f230c0c5",
+      "name": {
+        "zh": "试探 - 3",
+        "en": "Assessment - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "625d7005a4eb80027c4f2e09",
+      "name": {
+        "zh": "咚咚咚",
+        "en": "Knock-Knock"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61ab4381e4bbb01db226bce5.jpg",
+  "isKey": false
+}

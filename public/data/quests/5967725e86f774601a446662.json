@@ -1,0 +1,150 @@
+{
+  "id": "5967725e86f774601a446662",
+  "name": {
+    "zh": "探囊取物",
+    "en": "Shaking Up the Teller"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5672cb724bdc2dc2088b456b",
+      "itemName": {
+        "zh": "盖革-穆勒计数器",
+        "en": "Geiger-Muller counter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57ffb0e42459777d047111c5",
+      "itemName": {
+        "zh": "AKS-74U PBS-4 5.45x39消音器",
+        "en": "AKS-74U PBS-4 5.45x39 sound suppressor"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59c0ec5b86f77435b128bfca",
+      "itemName": {
+        "zh": "Hexagon 12K声音抑制器",
+        "en": "Hexagon 12K 12ga sound suppressor"
+      }
+    }
+  ],
+  "description": {
+    "zh": "向你致敬，枪斧达人。最近涌出了很多让人好奇的消息，我能从中嗅出大把大把唾手可得的钞票，准备好了吗？听好了，最近有个爱说骚话的滑头经营着一家商店，就住在工厂附近的一栋宿舍楼里，通常这样的人都会藏匿一些现金。他住在214房间，但是这不是重点。我不认为你能从中找出什么宝贝来，尽管他发誓那儿有好东西。但是我得到了其他消息：就在同一栋楼，他还有一个房间，203，被他用作储物间，但是他对此可是只口未提啊。现在可以确定他在那里面绝对藏了什么宝贝，不止一个帮他跑腿的伙计死在那儿了。对了，他还有个车库。我不知道具体的号码，但是可以肯定是两位数的——我有一份从100号开始的车库主名单，而他的名字不在名单里。",
+    "en": "Hail, the knave of axe and gun. Some curious info came up recently. Smells like solid profit without running around too much. Ready? Look. There was that wisecrack who ran the stores, lived in a dorm by the factory. And, as usual, sidelined some cash. He lived in room 214. But that's not the point. I don’t think you will find much there if anything at all. Though he swore there’s something. Something else has surfaced: In the same dorm, he owned one more room, 203, but wasn’t babbling about it and, as a matter of fact, used it for storage. Now that’s where he had something of value for sure, more than one of his errand runners perished there. Also, he had a garage. Don’t know the number, but it was certainly two-digit - I have a listing of owners starting with 100, and his name is not there."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "590dde5786f77405e71908b2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "590dde5786f77405e71908b2": {
+          "zh": "银行手提箱",
+          "en": "Bank case"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "590dde5786f77405e71908b2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "590dde5786f77405e71908b2": {
+          "zh": "银行手提箱",
+          "en": "Bank case"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "room214",
+      "targetNames": {
+        "room214": {
+          "zh": "room214",
+          "en": "room214"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59675d6c86f7740a842fc482",
+      "name": {
+        "zh": "蛋卷冰淇淋",
+        "en": "Ice Cream Cones"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "59c50a9e86f7745fef66f4ff",
+      "name": {
+        "zh": "惩罚者 - 1",
+        "en": "The Punisher - Part 1"
+      }
+    },
+    {
+      "id": "5c12452c86f7744b83469073",
+      "name": {
+        "zh": "左右逢源",
+        "en": "Perfect Mediator"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5eda19f0edce541157209cee",
+      "name": {
+        "zh": "麻醉",
+        "en": "Anesthesia"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2729d86f77459c105de4d.jpg",
+  "isKey": false
+}

@@ -1,0 +1,115 @@
+{
+  "id": "6834202a186efa3c5b07f9a2",
+  "name": {
+    "zh": "登高望远 - 第三部分 [PVE区]",
+    "en": "To Great Heights! - Part 3 [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 38,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 38
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "588892092459774ac91d4b11",
+      "itemName": {
+        "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+        "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5888988e24597752fe43a6fa",
+      "itemName": {
+        "zh": ".308 10发DVL-10弹匣",
+        "en": "DVL-10 7.62x51 10-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "65702566bfc87b3a3409324d",
+      "itemName": {
+        "zh": "7.62x51TCW SP弹药包（20发装）",
+        "en": "7.62x51mm TCW SP ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你做得很好！但现在停下来还太早。多露脸，给观众留下深刻印象。脱颖而出。成为他们谈论的人，成为他们来看的人。然后钱就会来了，然后是其他好东西：车子、妹子……虽然塔科夫在后者方面有点匮乏。\n\n总之，竞技场现在是一个绝佳的职业机会，哈！",
+    "en": "You're doing great! But it's too early to stop. Shine your face more often, impress the audience. Stand out. Become the one they talk about, the one they come to see. Then the cash will come, and then other goodies: cars, girls... Although Tarkov is a little short on the latter.\n\nAnyway, the Arena is a great career opportunity right now, ha!"
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ArenaGameMode",
+      "value": 2,
+      "target": [
+        "TeamFight",
+        "BlastGang",
+        "CheckPoint"
+      ],
+      "targetNames": {
+        "TeamFight": {
+          "zh": "TeamFight",
+          "en": "TeamFight"
+        },
+        "BlastGang": {
+          "zh": "BlastGang",
+          "en": "BlastGang"
+        },
+        "CheckPoint": {
+          "zh": "CheckPoint",
+          "en": "CheckPoint"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68341f6fe2e7ef70a3060a0a",
+      "name": {
+        "zh": "登高望远 - 第二部分 [PVE区]",
+        "en": "To Great Heights! - Part 2 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "683421515619c8e2a9031511",
+      "name": {
+        "zh": "登高望远 - 第四部分 [PVE区]",
+        "en": "To Great Heights! - Part 4 [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562bb83e8d4075e2354446.png",
+  "isKey": false
+}

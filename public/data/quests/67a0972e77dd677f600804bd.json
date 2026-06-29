@@ -1,0 +1,135 @@
+{
+  "id": "67a0972e77dd677f600804bd",
+  "name": {
+    "zh": "这带子糟透了",
+    "en": "This Tape Sucks"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Exploration",
+  "location": "6733700029c367a3d40b02af",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 218000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 218000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "637b612fb7afa97bfc3d7005",
+      "itemName": {
+        "zh": "SJ12 TGLabs战斗兴奋剂注射器",
+        "en": "SJ12 TGLabs combat stimulant injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ed5160a87bb8443d10680b5",
+      "itemName": {
+        "zh": "Meldonin 注射器",
+        "en": "Meldonin injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ed515c8d380ab312177c0fa",
+      "itemName": {
+        "zh": "3-(b-TG) 兴奋剂注射器",
+        "en": "3-(b-TG) stimulant injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "679b94734e9ca6b3d80586a7",
+      "itemName": {
+        "zh": "“陶鲁斯”海报",
+        "en": "Taurus poster"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "很高兴见到你。我最近收治了一位从疗养院地下迷宫中逃出来的伤员，他差一点就被那个戴着牛头面具的怪物给抓住了。显然地牢里的那个怪物有着严重的二精神创伤，心理变态程度比那个屠夫还重。但除去关于米诺陶的故事，伤员还提到了地下有不少的牢房，甚至还有行刑室。\n\n你肯定明白，在人道层面上是绝不允许这样的监禁行为的，就算是战争状态下也不例外，所以我需要你的帮助。我们必须查清楚这些牢房的用途，或者至少里面发生过什么。\n\n请逐一搜寻那些牢房，尽力找到任何可能有帮助的信息，以便我们查明这一切背后的真凶。更重要的是，他们到底是出于什么目的安排了这些“实验”。",
+    "en": "Hello again. I received a patient who was recently wounded in the resort cellars and barely escaped from this monster in a bull mask... Obvious mental trauma, perhaps more than one. But besides the stories about this Minotaur, the patient also mentioned many confinement and even torture chambers.\n\nYou surely recognize the unacceptable nature of such human confinement, even under wartime conditions, so I am counting on your cooperation. We must get to the bottom of what is or was going on in these cellars. \n\nExplore those jail rooms and try to uncover any information or evidence that will help us find out who is responsible for what happened. And most importantly, what was the purpose of all these \"experiments\"."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_08_therap_place_01",
+      "targetNames": {
+        "event_labyrinth_08_therap_place_01": {
+          "zh": "event_labyrinth_08_therap_place_01",
+          "en": "event_labyrinth_08_therap_place_01"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "679b998180a165f7a40b4c2c"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679b998180a165f7a40b4c2c": {
+          "zh": "“屠杀”录像带",
+          "en": "Slaughter videotape"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "679b998180a165f7a40b4c2c"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679b998180a165f7a40b4c2c": {
+          "zh": "“屠杀”录像带",
+          "en": "Slaughter videotape"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a0970744893b9f3f0d9b68",
+      "name": {
+        "zh": "武装侦察",
+        "en": "Offensive Reconnaissance"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/67e3d47d8d33d5706d0c2ada.jpg",
+  "isKey": false
+}

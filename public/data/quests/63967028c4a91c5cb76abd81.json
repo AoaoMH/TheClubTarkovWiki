@@ -1,0 +1,139 @@
+{
+  "id": "63967028c4a91c5cb76abd81",
+  "name": {
+    "zh": "大都会之谜",
+    "en": "Trouble in the Big City"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c85357baa773a825b356",
+      "itemName": {
+        "zh": "直流变压器",
+        "en": "Advanced current converter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "65290f395ae2ae97b80fdf2d",
+      "itemName": {
+        "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+        "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "65293c7a17e14363030ad308",
+      "itemName": {
+        "zh": "AR-10 7.62x51 Lancer L7AWM 25发容量弹匣",
+        "en": "AR-10 7.62x51 Lancer L7AWM 25-round magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6529243824cbe3c74a05e5c1",
+      "itemName": {
+        "zh": "6.8x51毫米 SIG Hybrid",
+        "en": "6.8x51mm SIG Hybrid"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6389c85357baa773a825b356",
+      "itemName": {
+        "zh": "直流变压器",
+        "en": "Advanced current converter"
+      }
+    }
+  ],
+  "description": {
+    "zh": "Primorsky大道承受的太多了。这座城市还藏着怎么样的秘密？这些倒霉蛋看起来想要试探一下我的底气，毕竟我能对那些货物下手。那些头脑简单的滑头们还没有意识到，他们已经把他这些货物拱手于我了。他们真以为靠几封廉价的敲诈信就能唬住我？我？！总之，听我说，你的任务是清理那片区域，并且用指示器标记好货物。我的人会处理剩下的事情。",
+    "en": "So much for Primorsky Avenue. What other secrets does this city hold? It turns out that these wretches have decided to make an attempt on my humble person because I could get my hands on the cargo which was carried by this very convoy. The simple-minded snakes don't even realize that they're the ones who led me to this cargo with their own hands. Did they really think they could scare me with some cheap blackmail? Me?! All right, listen to me, your job is to secure the area around the intersection and mark the location of the cargo with a beacon. My men will do the rest."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c16_koll_1",
+      "targetNames": {
+        "quest_zone_c16_koll_1": {
+          "zh": "quest_zone_c16_koll_1",
+          "en": "quest_zone_c16_koll_1"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 50,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "location": "TarkovStreets"
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: LaunchFlare",
+      "value": 1,
+      "target": "quest_zone_last_flare",
+      "targetNames": {
+        "quest_zone_last_flare": {
+          "zh": "quest_zone_last_flare",
+          "en": "quest_zone_last_flare"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6396701b9113f06a7c3b2379",
+      "name": {
+        "zh": "大显身手",
+        "en": "Make an Impression"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "64f1cc571a5f313cb144bf90",
+      "name": {
+        "zh": "外部信任 - 1",
+        "en": "Overseas Trust - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

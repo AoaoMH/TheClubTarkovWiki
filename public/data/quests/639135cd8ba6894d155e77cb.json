@@ -1,0 +1,93 @@
+{
+  "id": "639135cd8ba6894d155e77cb",
+  "name": {
+    "zh": "软禁 - 2",
+    "en": "House Arrest - Part 2"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 29200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 114000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 114000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5fc3f2d5900b1d5091531e57",
+      "itemName": {
+        "zh": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+        "en": "TDI KRISS Vector Gen.2 9x19 submachine gun"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我对经营这块地方的人做了点背景调查。看守者的房间也在同一栋楼里。他应该就是在那里把东西带走的。你知道的，赎人的价格一直在上涨。我需要找到一条从监狱到公寓的线路，你得再跑一趟。我猜这些人还在这里躲着。对了，你知道要怎么处理那些人吧。所有找到的东西都任你处置。成交？",
+    "en": "I made some background checks on the guy who runs the place. The warden's condo is in the same house. That's where he was supposed to take all the loot. You know, the payment for keeping people locked up. I'd be looking for a way into the apartment straight from the jail. So go check it out again. I'm guessing the motherfucker's still in there hiding. Okay, you know what to do with him. Anything you find in the crib is all yours. Deal?"
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c8_dom2",
+      "targetNames": {
+        "quest_zone_c8_dom2": {
+          "zh": "quest_zone_c8_dom2",
+          "en": "quest_zone_c8_dom2"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c8_dom2_dead",
+      "targetNames": {
+        "quest_zone_c8_dom2_dead": {
+          "zh": "quest_zone_c8_dom2_dead",
+          "en": "quest_zone_c8_dom2_dead"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639135c3744e452011470807",
+      "name": {
+        "zh": "软禁 - 1",
+        "en": "House Arrest - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63ab1e59f83fd608393890af.jpg",
+  "isKey": false
+}

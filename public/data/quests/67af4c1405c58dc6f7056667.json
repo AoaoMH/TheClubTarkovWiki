@@ -1,0 +1,74 @@
+{
+  "id": "67af4c1405c58dc6f7056667",
+  "name": {
+    "zh": "有利可图的生意",
+    "en": "Profitable Venture"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Skill",
+      "target": "StressResistance",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Attention",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "CovertMovement",
+      "value": 100
+    }
+  ],
+  "description": {
+    "zh": "你还记得你第一次来找我讨活干的时候吗？从那以后你变得聪明多了，也帮了我好几次忙。现在我手上有个潜力巨大的生意机会，但我需要一个靠谱的合作伙伴，而你可能就是那个人。\n\n有个小队指挥最近在跟我接触，他有自己的队伍，都是些退役老兵之类的。不过，他们在战事爆发的时候刚好不在封锁区。现在他们想重新干活，而且说他们得到了一个线报，说这片区域有个被废弃的USEC基地。问题是，那地方现在已经被一些混蛋占了。\n\n如果我们计划得当，Luka和他的人能给我们提供不少装备和其他紧缺的物资。在塔科夫，没人能有这样的队伍！他们打算晚上去侦察，这样不会引起骚动。你也知道，那一带很安静，要是被发现，麻烦可就大了。\n\n不过，他们现在手头没有热成像设备，所以让我从这边搞一些过去。如果你想加入这门生意，现在就是时候了！",
+    "en": "Remember the first time you came to me looking for work? You've gotten smarter since then, and you've helped me out more than once. Now I have a potentially very lucrative business opportunity. But I need a reliable partner, and you could become that partner.\n\nThere's a squad commander guy who's been talking to me, he's got his own team, some veterans and shit. Thing is, the lads were out of the cordon when all the war shit started. They want to do work, and they say they have a tip on an abandoned USEC base in the region. The problem is, some pricks have already taken it over.\n\nIf we do everything right, Luka and his boys will be able to provide us with equipment and other goods that are in short supply here. No one in Tarkov has a force like this! They want to scout at night so they don't cause a commotion. You know, it's a quiet area, and many things could go wrong if they get spotted.\n\nHowever, the lads don't have any thermals, so they asked me to get some from here. If you want to get into this business, now's the time!"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 15,
+      "target": [
+        "5a1eaa87fcdbcb001865f75e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a1eaa87fcdbcb001865f75e": {
+          "zh": "Trijicon REAP-IR热成像步枪瞄准镜",
+          "en": "Trijicon REAP-IR thermal scope"
+        }
+      }
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [
+    {
+      "id": "67af4c169d95ad16e004fd86",
+      "name": {
+        "zh": "安全保障",
+        "en": "Safety Guarantee"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/67dabe8f61a21de932048835.png",
+  "isKey": false
+}

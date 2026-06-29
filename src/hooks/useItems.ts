@@ -258,6 +258,23 @@ export function useItemNames() {
   return { getName, triggerLoad, loading: state.loading }
 }
 
+/** Load item names map eagerly (for quest/item name resolution) */
+export function useItemNamesMap() {
+  const [state, setState] = useState<AsyncState<Record<string, { zh: string; en: string }>>>({
+    data: null, loading: true, error: null
+  })
+
+  useEffect(() => {
+    let cancelled = false
+    fetchItemNames()
+      .then(data => { if (!cancelled) setState({ data, loading: false, error: null }) })
+      .catch(err => { if (!cancelled) setState({ data: null, loading: false, error: String(err) }) })
+    return () => { cancelled = true }
+  }, [])
+
+  return { itemNames: state.data || {}, loading: state.loading }
+}
+
 // ==================== Utility Hooks ====================
 
 export function useCategoryTree(categories: WikiCategory[]) {

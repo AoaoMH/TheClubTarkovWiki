@@ -1,0 +1,94 @@
+{
+  "id": "5d25aed386f77442734d25d2",
+  "name": {
+    "zh": "生存者之路 - 危险零距离",
+    "en": "The Survivalist Path - Unprotected but Dangerous"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "64ace9d9b5bf5e95f50a4c1d",
+      "itemName": {
+        "zh": "7.62x39mm FMJ弹药包（20发装）",
+        "en": "7.62x39mm FMJ ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5abcbc27d8ce8700182eceeb",
+      "itemName": {
+        "zh": "AKMSN 7.62x39 突击步枪",
+        "en": "Kalashnikov AKMSN 7.62x39 assault rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊小伙子，快进来坐坐。我们的道路可不那么简单，一点也不平坦。你需要特别的技能才能在战斗中对抗危险的感染。比如，变得更快，更安静，更灵敏，更致命。绕到敌人侧面，在他自己的地盘上击败他。如果你把自己绑在防弹衣里可没法精通这些技能。因此，在干一些大事之前，先掌握这个技能。",
+    "en": "Hello there, come in, take a sit. The path of ours is not easy, not easy at all. Fighting scum is dangerous and requires extraordinary skills. For example, being fast, quiet, agile and deadly. Flanking the enemy, outplaying them on their own field. Your buddies chained in their body armor will never be able to master these skills. Therefore, before embarking on serious tasks, hone this skill."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "Woods"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d24b81486f77439c92d6ba8",
+      "name": {
+        "zh": "熟人",
+        "en": "Acquaintance"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5d25b6be86f77444001e1b89",
+      "name": {
+        "zh": "生存者之路 - 省吃俭用",
+        "en": "The Survivalist Path - Thrifty"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979d3ea86f7746d0b3e3fdc.jpg",
+  "isKey": false
+}

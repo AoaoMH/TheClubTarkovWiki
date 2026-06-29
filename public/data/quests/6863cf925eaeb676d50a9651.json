@@ -1,0 +1,153 @@
+{
+  "id": "6863cf925eaeb676d50a9651",
+  "name": {
+    "zh": "诺文斯克的朋友 - 第一部分",
+    "en": "Friend from Norvinsk - Part 1"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7000
+    },
+    {
+      "type": "Item",
+      "value": 24600,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 24600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57347c1124597737fb1379e3",
+      "itemName": {
+        "zh": "管道胶带",
+        "en": "Duct tape"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "57347b8b24597737dd42e192",
+      "itemName": {
+        "zh": "经典火柴",
+        "en": "Classic matches"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b4391a586f7745321235ab2",
+      "itemName": {
+        "zh": "WIFI摄像头",
+        "en": "WI-FI Camera"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "590c2c9c86f774245b1f03f2",
+      "itemName": {
+        "zh": "施工用测量卷尺",
+        "en": "Construction measuring tape"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "62a09ee4cf4a99369e262453",
+      "itemName": {
+        "zh": "罐装白盐",
+        "en": "Can of white salt"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我认识一个本地军事基地的程序员。他在网络和黑客部门服役。战争开始前我们在诺文斯克的一次黑客马拉松上见过。\n\n冲突爆发后他就消失了。根据我的消息来源，他还没有越过塔科夫边境。我有理由相信他还在城里。\n\n去储备基地附近看看。如果你发现他的任何踪迹，告诉我。他潜力巨大，我们不能失去这样的人。",
+    "en": "I had a contact with a programmer from our local military base. He served there in the network and hacking unit. We met before the war started — at a hackathon in Norvinsk.\n\nAfter the conflict begun, he disappeared. According to my sources, he hasn't crossed the Tarkov border. I have reason to believe he's still in the city.\n\nTake a look around the reserve base. If you find any sign of him, let me know. He's got serious potential. We can't afford to lose guys like him."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "tar_event_1_1_exp1",
+      "targetNames": {
+        "tar_event_1_1_exp1": {
+          "zh": "tar_event_1_1_exp1",
+          "en": "tar_event_1_1_exp1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "tar_event_1_1_exp3",
+      "targetNames": {
+        "tar_event_1_1_exp3": {
+          "zh": "tar_event_1_1_exp3",
+          "en": "tar_event_1_1_exp3"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "tar_event_1_1_exp4",
+      "targetNames": {
+        "tar_event_1_1_exp4": {
+          "zh": "tar_event_1_1_exp4",
+          "en": "tar_event_1_1_exp4"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "RezervBase"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d2495a886f77425cd51e403",
+      "name": {
+        "zh": "介绍",
+        "en": "Introduction"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6863d9bcd3bfdcb2bc075956",
+      "name": {
+        "zh": "诺文斯克的朋友 - 第二部分",
+        "en": "Friend from Norvinsk - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6882259b4d3fc2e4c00b1d7f.jpg",
+  "isKey": false
+}

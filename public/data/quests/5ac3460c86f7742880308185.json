@@ -1,0 +1,192 @@
+{
+  "id": "5ac3460c86f7742880308185",
+  "name": {
+    "zh": "挖矿 - 2",
+    "en": "Farming - Part 2"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 15000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 15000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5cadfbf7ae92152ac412eeef",
+      "itemName": {
+        "zh": "ASh-12 12.7x55 突击步枪",
+        "en": "ASh-12 12.7x55 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b2ffd86f77425243e8d17",
+      "itemName": {
+        "zh": "NIXXOR镜头",
+        "en": "NIXXOR lens"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我想你已经猜到了，我要建立一个矿场。感谢铱星系统，它可不只是用来刷论坛玩梗的。你在网上花的时间越多，你就越能认识到新的时代即将来临。数据分发速度的变化将改变一切。整个世界即将迈入一场新的工业革命，正如它已经开始从真实步入虚拟一样。我们创造了整个世界，创造了新的经济和法律。现在，你看看我们周围正在发生的一切，我几乎可以确定数字世界会更为真诚，也会比现实更好。在这里，更多的取决于你自己。在哪里出生，你的父母是谁，这些都不再重要。好了，我已经差不多完成供电部分了。只需要在细节上加点工。给我带一些电缆、T形插座和线路外设来。",
+    "en": "I think you’ve already guessed that I’m building a bitcoin farm. Thanks to the satellite \"Ebambium\", it’s not all surfing and memes. The more time you spend online, the more you realize the new age is upon us. The change in data distribution speed changed everything. The world has entered a new industrial revolution, though it has moved on from the real world into the virtual one. We create whole worlds, with their own economies and laws. And, looking at what is happening around us I'm almost sure the digital world is more honest and better than real. Much more depends on yourself here. It doesn’t matter just as much where you were born and who your parents were. Okay, I’m almost done with the power supply. Just need a few more details. Bring over some cables, tee-connectors, and line peripherals."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "59e36c6f86f774176c10a2a7"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e36c6f86f774176c10a2a7": {
+          "zh": "电源线",
+          "en": "Power cord"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59e36c6f86f774176c10a2a7"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e36c6f86f774176c10a2a7": {
+          "zh": "电源线",
+          "en": "Power cord"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 4,
+      "target": [
+        "57347cd0245977445a2d6ff1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347cd0245977445a2d6ff1": {
+          "zh": "T形插座",
+          "en": "T-Shaped plug"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "57347cd0245977445a2d6ff1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347cd0245977445a2d6ff1": {
+          "zh": "T形插座",
+          "en": "T-Shaped plug"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "590a3b0486f7743954552bdb"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3b0486f7743954552bdb": {
+          "zh": "印制电路板",
+          "en": "Printed circuit board"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "590a3b0486f7743954552bdb"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3b0486f7743954552bdb": {
+          "zh": "印制电路板",
+          "en": "Printed circuit board"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac345dc86f774288030817f",
+      "name": {
+        "zh": "挖矿 - 1",
+        "en": "Farming - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ac3462b86f7741d6118b983",
+      "name": {
+        "zh": "挖矿 - 3",
+        "en": "Farming - Part 3"
+      }
+    },
+    {
+      "id": "5ac3475486f7741d6224abd3",
+      "name": {
+        "zh": "不良嗜好",
+        "en": "Bad Habit"
+      }
+    },
+    {
+      "id": "626bd75e47ea7f506e5493c5",
+      "name": {
+        "zh": "直播 - 1",
+        "en": "Broadcast - Part 1"
+      }
+    },
+    {
+      "id": "675c1570526ff496850895d9",
+      "name": {
+        "zh": "工欲善其事",
+        "en": "Passion for Ergonomics"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4db0986f77442000164dd.jpg",
+  "isKey": false
+}

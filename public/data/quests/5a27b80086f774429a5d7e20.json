@@ -1,0 +1,180 @@
+{
+  "id": "5a27b80086f774429a5d7e20",
+  "name": {
+    "zh": "鹰眼",
+    "en": "Eagle Eye"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 900,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 900
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57aca93d2459771f2c7e26db",
+      "itemName": {
+        "zh": "ELCAN SpecterDR 1x/4x瞄准镜 FDE",
+        "en": "ELCAN SpecterDR 1x/4x scope (FDE)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "544a3a774bdc2d3a388b4567",
+      "itemName": {
+        "zh": "勒波德 Mark 4 HAMR 4x24 DeltaPoint混合式突击瞄准镜",
+        "en": "Leupold Mark 4 HAMR 4x24 DeltaPoint hybrid assault scope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "58948c8e86f77409493f7266",
+      "itemName": {
+        "zh": "SIG MPX 9x19 冲锋枪",
+        "en": "SIG MPX 9x19 submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好的，下个工作。NATO已经在蓝盔赶来之前就派出了无人机侦察，来仔细研究冲突形势。但是，当地防空系统显然是不会放过这些民主眼线的。两架无人飞机被击落并坠毁在了海岸边，现在应该可以找到他们的残骸，我们可以试着把存储模块取出来。模块里应当包含在冲突伊始的所有动向信息，我与我的合作伙伴可以靠这情报干一票大的。找到坠机点然后把存储模块带给我。",
+    "en": "Okay, next job. NATO has carefully studied the conflict even before the Blue Helmets force surge and sent several drones to recon. But local air defense was apparently against democratic eyes. Two drones were shot down over the coast, now that getting to them has become possible, we can try to pull out the memory block from these. They should contain information about all movements at the beginning of the conflict. This information can make a good deal with my partners. Find their impact locations and bring me the memory disks. We have information about the estimated crash areas: the first one has to be somewhere near the local weather station near the port zone, the other one is near the bunker in the northwest."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_004_N1",
+      "targetNames": {
+        "place_peacemaker_004_N1": {
+          "zh": "place_peacemaker_004_N1",
+          "en": "place_peacemaker_004_N1"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5a294d7c86f7740651337cf9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a294d7c86f7740651337cf9": {
+          "zh": "无人机串口硬盘1",
+          "en": "UAV SAS disk #1"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5a294d7c86f7740651337cf9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a294d7c86f7740651337cf9": {
+          "zh": "无人机串口硬盘1",
+          "en": "UAV SAS disk #1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_004_N2",
+      "targetNames": {
+        "place_peacemaker_004_N2": {
+          "zh": "place_peacemaker_004_N2",
+          "en": "place_peacemaker_004_N2"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5a294d8486f774068638cd93"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a294d8486f774068638cd93": {
+          "zh": "无人机串口硬盘2",
+          "en": "UAV SAS disk #2"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5a294d8486f774068638cd93"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a294d8486f774068638cd93": {
+          "zh": "无人机串口硬盘2",
+          "en": "UAV SAS disk #2"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27b7d686f77460d847e6a6",
+      "name": {
+        "zh": "破铜烂铁",
+        "en": "Scrap Metal"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27b87686f77460de0252a8",
+      "name": {
+        "zh": "人道主义援助",
+        "en": "Humanitarian Supplies"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59675e7b86f77414b25fb049.jpg",
+  "isKey": false
+}

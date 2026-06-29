@@ -1,0 +1,108 @@
+{
+  "id": "5a68667486f7742607157d28",
+  "name": {
+    "zh": "医疗隐私 - 4",
+    "en": "Health Care Privacy - Part 4"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Skill",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 29000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 29000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c657e86f77412b013051d",
+      "itemName": {
+        "zh": "Grizzly急救包",
+        "en": "Grizzly medical kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e3606886f77417674759a5",
+      "itemName": {
+        "zh": "盐水溶液",
+        "en": "Bottle of saline solution"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，小伙子，我真佩服你的机敏。当然，我不想你生病，健康是最重要的。我忘了提醒你要小心带来的血液样本，希望你没有什么裸露的伤口......还有别忘了洗手。话又说回来，谁知道这血样被风吹日晒多久了呢？无论如何，请务必注意身体，不然我们很可能在撤离完塔科夫民众和我们自己之前就倒下了……",
+    "en": "Good day, young man. The degree of your deftness never ceases to leave me in admiration. Naturally, I wouldn’t want you to fall ill, so health before everything. I forgot to warn you that you have to be careful with the blood samples you brought. I hope you haven't cut yourself... and have washed your hands. Although, who knows how long it has been exposed to sun, wind, and whatnot. In any case, I would still advise you to pay attention to your health, otherwise, it all might end before we evacuate the people and ourselves from Tarkov."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Health",
+      "value": 4,
+      "target": "Health"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a68665c86f774255929b4c7",
+      "name": {
+        "zh": "医疗隐私 - 3",
+        "en": "Health Care Privacy - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a68669a86f774255929b4d4",
+      "name": {
+        "zh": "医疗隐私 - 5",
+        "en": "Health Care Privacy - Part 5"
+      }
+    },
+    {
+      "id": "5c0be5fc86f774467a116593",
+      "name": {
+        "zh": "私人诊所",
+        "en": "Private Clinic"
+      }
+    },
+    {
+      "id": "5c0d0d5086f774363760aef2",
+      "name": {
+        "zh": "运动员",
+        "en": "Athlete"
+      }
+    },
+    {
+      "id": "5d6fb2c086f77449da599c24",
+      "name": {
+        "zh": "一天一个苹果 - 医生远离我",
+        "en": "An Apple a Day Keeps the Doctor Away"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

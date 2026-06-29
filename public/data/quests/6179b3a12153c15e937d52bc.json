@@ -1,0 +1,113 @@
+{
+  "id": "6179b3a12153c15e937d52bc",
+  "name": {
+    "zh": "能源危机",
+    "en": "Energy Crisis"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "618428466ef05c2ce828f218",
+      "itemName": {
+        "zh": "FN SCAR-L 5.56x45突击步枪 （FDE）",
+        "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59fb137a86f7740adb646af1",
+      "itemName": {
+        "zh": "Tromix怪爪12铅径膛口制退器",
+        "en": "Tromix Monster Claw 12ga muzzle brake"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656f611f94b480b8a500c0db",
+      "itemName": {
+        "zh": "Granit 4防弹插板（前部）",
+        "en": "Granit 4 ballistic plate (Front)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿伙计，我需要你的帮助。我需要巨量的能量来维持当前的活动，尤其是矿场，那个你曾经帮我修建的设施。通常我会找其他人订购燃料，但不幸的是，现在我联系不上供应商了。你知道现在哪里还有剩余的燃料吗？我觉得湾区会有一些东西。雇佣兵，你能帮我去检查一下吗？",
+    "en": "Hey friend, I could use some help. It takes an incredible amount of energy to sustain my current activities, especially considering my farm, the one you helped me with resources for. I usually order fuel from other sources, but unfortunately, there is no way to contact the supplier at the moment. Do you think there are still unexhausted fuel tanks left somewhere? I think there should have been something left in the cape area. Can you check it out, mercenary?"
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3464c86f7741d651d6877",
+      "name": {
+        "zh": "挖矿 - 4",
+        "en": "Farming - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c373e753bc0f18316351fe.jpg",
+  "isKey": false
+}

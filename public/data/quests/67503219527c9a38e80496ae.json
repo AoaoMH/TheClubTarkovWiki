@@ -1,0 +1,127 @@
+{
+  "id": "67503219527c9a38e80496ae",
+  "name": {
+    "zh": "非法伐木",
+    "en": "Illegal Logging"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 65000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 65000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "618ba27d9008e4636a67f61d",
+      "itemName": {
+        "zh": "Vortex Razor HD Gen.2 1-6x24步枪瞄准镜",
+        "en": "Vortex Razor HD Gen.2 1-6x24 30mm riflescope"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你知道什么从和平时期开始就没变？整个圣诞节的烂摊子。\n\n每个人都在囤积食物，好像最后一次了。甚至看起来正常的人也蠢到去森林里砍活树来庆祝。\n\n这些野蛮人连两百年树龄的杜松和后院的杂草都分不清。\n\n所以他们成群结队地在夜里闯进我的林子。我一个人打不过来。我需要帮助。你看起来是个不错的孩子，枪法也好。\n\n你能帮我保护这个自然保护区吗？",
+    "en": "You know what hasn't changed since the peace times? This whole Christmas mess.\n\nEveryone's stocking up on groceries like it's the last time. And even normal-looking people get the stupid idea of cutting down a live tree in the forest for their celebrations.\n\nThese savages can't even tell the difference between a 200-year-old juniper and the weeds in their backyards.\n\nSo they come into my woods at night in groups. I can't shoot them all by myself. I need help. You seem like an alright kid, and you're a good shot, too. \n\nCan you help me save this nature reserve?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 5,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "daytime": {
+        "from": 22,
+        "to": 10
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 5,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "daytime": {
+        "from": 22,
+        "to": 10
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 5,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "daytime": {
+        "from": 22,
+        "to": 10
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 5,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "daytime": {
+        "from": 22,
+        "to": 10
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "675031d3884e1da4a90b3bc9",
+      "name": {
+        "zh": "寒风刺骨",
+        "en": "Chilly"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/676985ce07a3126de300ae56.jpg",
+  "isKey": false
+}

@@ -1,0 +1,114 @@
+{
+  "id": "5a68663e86f774501078f78a",
+  "name": {
+    "zh": "医疗隐私 - 2",
+    "en": "Health Care Privacy - Part 2"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Discover",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 24000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 24000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "544fb45d4bdc2dee738b4568",
+      "itemName": {
+        "zh": "Salewa急救包",
+        "en": "Salewa first aid kit"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "感谢你在货车那件事的协助。我们正好赶上，就连这些拾荒者也没有时间把它们拆开。在研究隧道倒塌结果的同时，我们也遇到了Terragroup的一位高管Gelandewagen，似乎部分公司高层管理人员在试图撤离的时候丧生了。我知道，医学研究是这公司最重要的业务之一，而且我几乎可以肯定，撤离数据和材料所需的时间是根本不够的。无论他们在做什么，我认为这对我们和整个医学界都是非常有价值的。它可以帮我们从塔科夫赢一张票，甚至不止一张。我经常与Terragroup的某些员工讨论医护问题，所以我对他们的一些工作非常熟悉。我的一位熟人曾经住在疗养院的大楼里，顺带一提，他曾直接受已故的高管Gelandewagen指挥。让我看看......哦在这里，是306房间。检查可能留下的任何东西。",
+    "en": "Thanks for your assistance with the vans. We were just in time, even those Scavs didn't have time to pull them apart. While researching the aftermath of the tunnel collapse, we’ve run across a TerraGroup executive's Geländewagen. It appears that part of the company’s top managers perished there while trying to evacuate. I’m aware that medical research was one of the top priorities for the company, and I'm almost sure that they had no time to evacuate its data and materials in time. Whatever they were doing, I think it can turn out to be very valuable, both for us and for medical science in general. It can earn us a ticket from Tarkov, even more than one. I’ve regularly met up with certain TerraGroup employees to discuss health care issues, so I'm pretty familiar with some of their works. One of my acquaintances, who, by the way, directly reported to that deceased Geländewagen management, used to live in the health resort building. Let me look it up... here it is, room 306. Search it for any documents that could possibly be left behind and bring them to me."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5a6860d886f77411cd3a9e47"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a6860d886f77411cd3a9e47": {
+          "zh": "0060号保险文件夹",
+          "en": "Secure Folder 0060"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5a6860d886f77411cd3a9e47"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a6860d886f77411cd3a9e47": {
+          "zh": "0060号保险文件夹",
+          "en": "Secure Folder 0060"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a68661a86f774500f48afb0",
+      "name": {
+        "zh": "医疗隐私 - 1",
+        "en": "Health Care Privacy - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a68665c86f774255929b4c7",
+      "name": {
+        "zh": "医疗隐私 - 3",
+        "en": "Health Care Privacy - Part 3"
+      }
+    },
+    {
+      "id": "6179afd0bca27a099552e040",
+      "name": {
+        "zh": "消失的线人",
+        "en": "Lost Contact"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

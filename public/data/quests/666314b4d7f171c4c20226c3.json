@@ -1,0 +1,120 @@
+{
+  "id": "666314b4d7f171c4c20226c3",
+  "name": {
+    "zh": "往昔时光 - 1",
+    "en": "The Good Times - Part 1"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 76000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 256000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 256000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aafa857e5b5b00018480968",
+      "itemName": {
+        "zh": "春田 M1A 7.62x51 精确射手步枪",
+        "en": "Springfield Armory M1A 7.62x51 rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5aaf8a0be5b5b00015693243",
+      "itemName": {
+        "zh": "M1A 7.62x51 20发弹匣",
+        "en": "M1A 7.62x51 20-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65702554bfc87b3a34093247",
+      "itemName": {
+        "zh": "7.62x51 M62曳光弹弹药包（20发装）",
+        "en": "7.62x51mm M62 Tracer ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊！还记得以前那会，所有的大规模战斗都在 Polikhim 厂区附近开片的好日子吗？当时两边 PMC 都从我这疯狂进货，其中有一套装备卖得最好。 \n\n我有点好奇这身出装放在现在是不是还是同样好用，帮我测试一下啊，然后把结果告诉我好吗？",
+    "en": "Hello again! Remember the good old time when all the major fighting took place at Polikhim? People were buying tons of gear from me back then. There was a kit, the most popular among PMCs. \n\nI was wondering how it performs in the field nowadays. Check it out for me and tell me how it is, yea?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 10,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "5447a9cd4bdc2dbd208b4567"
+      ],
+      "weaponNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        }
+      },
+      "location": "factory4_night,factory4_day"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315df034d76585f032e01",
+      "name": {
+        "zh": "打靶训练",
+        "en": "Shooting Cans"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "666314b0acf8442f8b0531a1",
+      "name": {
+        "zh": "人间地狱 - 1",
+        "en": "Hell on Earth - Part 1"
+      }
+    },
+    {
+      "id": "666314b696a9349baa021bac",
+      "name": {
+        "zh": "质量标准",
+        "en": "Quality Standard"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6682a72975d2dfc8330a07da.png",
+  "isKey": false
+}

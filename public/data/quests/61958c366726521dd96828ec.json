@@ -1,0 +1,97 @@
+{
+  "id": "61958c366726521dd96828ec",
+  "name": {
+    "zh": "神秘货物 - 4",
+    "en": "Cargo X - Part 4"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Discover",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 800,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 800
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac8d6885acfc400180ae7b0",
+      "itemName": {
+        "zh": "Ops-Core FAST MT Super High Cut 头盔（城市褐）",
+        "en": "Ops-Core FAST MT Super High Cut helmet (Urban Tan)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "勇士，我们找到突破口了！让我们先喘口气，就几分钟的那种。说起来，你在海岸线疗养院找到的TerraGroup货物与我们的情报不太相符。我们的猜测是，这批货物已经被运出了疗养院，但现在具体信息依然是绝密的。但是，你，我们的勇士，依然对这次行动很重要。你接下来的任务是在海滩的Cape Dalniy区域找到有关TerraGroup货物的线索。我建议你最好先从垮掉的隧道那里开始搜索。保持联系，朋友。",
+    "en": "Mercenary, we made a breakthrough! Um, let's retire for a couple of minutes. So, the TerraGroup cargo that you found in a secret wall in the Azure Coast sanatorium does not fully comply with the manifests at our disposal. We guess where the cargo was delivered from the sanatorium, but the information is completely classified for now. However, you, mercenary, still play a large role in this case. Your next task in our operation is to find evidence of the TerraGroup cargo on the territory of Cape Dalniy, in the area of ​​the sandy coast. I suppose it is better to start your search from the collapsed tunnel's side. Keep in touch, my friend."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bb5986f7741dfb660900",
+      "name": {
+        "zh": "神秘货物 - 3",
+        "en": "Cargo X - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c0bd01e86f7747cdd799e56",
+      "name": {
+        "zh": "彻夜难眠",
+        "en": "Insomnia"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "625d6ff5ddc94657c21a1625",
+      "name": {
+        "zh": "网络供应商 - 1",
+        "en": "Network Provider - Part 1"
+      }
+    },
+    {
+      "id": "639135534b15ca31f76bc317",
+      "name": {
+        "zh": "你的车该洗了",
+        "en": "Your Car Needs a Service"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/597a0fad86f77426d464f995.jpg",
+  "isKey": false
+}

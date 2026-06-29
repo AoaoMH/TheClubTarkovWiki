@@ -1,0 +1,105 @@
+{
+  "id": "639136fa9444fb141f4e6eee",
+  "name": {
+    "zh": "你被盯上了",
+    "en": "Watching You"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 94000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 94000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d0375ff86f774186372f685",
+      "itemName": {
+        "zh": "军用电缆",
+        "en": "Military cable"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "朋友，还有另一个任务，这次有些不一样。我的一位客户在事情开始的时候，住在酒店的区域。他有原因怀疑，自己被人监视了。他看到了一些酒店庭院的泄漏照片。我们得找到那只耗子的房间。你很有可能需要去找一些科技产品：摄像头啥的...把你找到的所有东西交给我。然后事情就好办了。",
+    "en": "Friend, there is another task, an unusual one. One of my clients was living in the area of the hotel when the events began. And he had reason to believe he was being watched. He saw a couple of leaked photos from the hotel courtyard. We need to find the room where the rat is sitting. Most likely, you'll find something if you look for tech: cameras, bugs... Anything you find, give it to me. It'll come in handy."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c21_look",
+      "targetNames": {
+        "quest_zone_c21_look": {
+          "zh": "quest_zone_c21_look",
+          "en": "quest_zone_c21_look"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "638e9d5536b3b72c944e2fc7"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638e9d5536b3b72c944e2fc7": {
+          "zh": "装有记录的U盘",
+          "en": "Flash drive with recordings"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "638e9d5536b3b72c944e2fc7"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638e9d5536b3b72c944e2fc7": {
+          "zh": "装有记录的U盘",
+          "en": "Flash drive with recordings"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63913715f8e5dd32bf4e3aaa",
+      "name": {
+        "zh": "直播 - 2",
+        "en": "Broadcast - Part 2"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63a992c6655ec5555b4aa9ec.jpg",
+  "isKey": false
+}

@@ -1,0 +1,89 @@
+{
+  "id": "639135b04ed9512be67647d7",
+  "name": {
+    "zh": "苏共之辉 - 1",
+    "en": "Glory to CPSU - Part 1"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 42000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 42000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d40407c86f774318526545a",
+      "itemName": {
+        "zh": "Tarkovskaya瓶装伏特加",
+        "en": "Bottle of Tarkovskaya vodka"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，勇士。我有另一件私人事务要麻烦你。我在城里有一位朋友，叫 Oleg。他是一名退役上校，多么了不起的人啊！一个真正的战士，你这样的人永远也没法达到他的境界。他真的是一位爱国主义者！但问题是，我已经很久没有收到他的来信了。我现在有些担心他了，你能帮我去看看吗？",
+    "en": "Hello, warrior. I have another personal matter. I have a friend in town, Oleg. He's a retired captain, such a great man! A real fighter, you and I would never reach his greatness. And what a patriot! The problem is that I haven't heard from him for a while now. I'm worried about him. Will you check on him?"
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c6_kpss",
+      "targetNames": {
+        "quest_zone_c6_kpss": {
+          "zh": "quest_zone_c6_kpss",
+          "en": "quest_zone_c6_kpss"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6391359b9444fb141f4e6ee6",
+      "name": {
+        "zh": "一信之缘",
+        "en": "You've Got Mail"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "64f5aac4b63b74469b6c14c2",
+      "name": {
+        "zh": "苏共之辉 - 2",
+        "en": "Glory to CPSU - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a938b387c76a25c912120f.jpg",
+  "isKey": false
+}

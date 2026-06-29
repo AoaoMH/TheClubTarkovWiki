@@ -1,0 +1,110 @@
+{
+  "id": "67460662d0fbbc74ca0f7229",
+  "name": {
+    "zh": "识时务者为俊杰",
+    "en": "Choose Your Friends Wisely"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Multi",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 85200
+    },
+    {
+      "type": "Item",
+      "value": 5000,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 5000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b6d9ce188a4501afc1b2b25",
+      "itemName": {
+        "zh": "T H I C C武器箱",
+        "en": "T H I C C Weapon case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Achievement",
+      "target": "675709bef4e2a2ce0f058f56"
+    }
+  ],
+  "description": {
+    "zh": "行动取消了。有人给那个 BTR 司机走漏了弹药箱的风声，那个混蛋反过来设了陷阱，把我的人都给炸死了！现在不光是人手不够，连弹药都得从头开始找了。那个司机随时都有可能开着那辆装甲车投入反击，你得想办法阻止他才行。\n\n如果我们让他建立起自己的渠道，那他很快就会成为我们的大麻烦。那个傻逼已经成功在身边聚集起了一批雇佣兵替他打下手，但是现在是时候让他们知道和 Skier 作对的下场了！你得尽快行动，让这些刺头知道，没人能在违抗我之后还能大摇大摆地离开。我给你规划了一条路线，去那里把这帮畜生全部搞死。",
+    "en": "The assault is called off. Someone tipped off the driver about the ammo crates, so this motherfucker booby-trapped them! My lads got nailed. Now we're out of both manpower and ammo. We'll have to look for shells again. The driver's gonna start his bullshit counterattack now, you need to stop him.\n\nIf we let him build his route system now, he's gonna be a pain in the ass later. He's got some mercs around him again, but now they all know they're going against Skier! You need to do this quickly so that no one thinks they can oppose me and fucking survive. I got a route where you'll find all these shitheads."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "bigmap"
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "RezervBase"
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Woods"
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Lighthouse"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674605df60a98cad1b0ec799",
+      "name": {
+        "zh": "致命论据",
+        "en": "Killer Argument"
+      }
+    },
+    {
+      "id": "6744aca8d3346c216702c583",
+      "name": {
+        "zh": "暗度陈仓",
+        "en": "Discombobulate"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/675b0bd7eb12e9c9d003f8c3.jpg",
+  "isKey": false
+}

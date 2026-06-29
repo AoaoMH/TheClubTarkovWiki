@@ -1,0 +1,62 @@
+{
+  "id": "6261482fa4eb80027c4f2e11",
+  "name": {
+    "zh": "破镜重圆 - 装备",
+    "en": "Make Amends - Equipment"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "你好。听好了，雇佣兵，我和Lightkeepers安排了一次清单上物资运送的测试。我觉得这是一个接近他的机会。这就是我想跟你说的。传言说你们俩之间有着信任问题，那我们就互帮互助吧。你帮我找到所需的物资，而我帮你完成运输。我会替你美言几句的。行，他需要的是...啊，他需要狙击步枪，需要很多很多。",
+    "en": "Hello. Listen, mercenary, I've made arrangements with Lightkeeper for a test delivery of the supplies he needs from the list. I think I might be able to get close to him. That's what I wanted to talk to you about. There's a rumor going around that you two have trust issues. So let's help each other. You find me the supplies I need, and I'll handle the transportation. I'll put in a good word for you. Okay, he needs... Whoa. He needs sniper rifles, and lots of them."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "5c46fbd72e2216398b5a8c9c"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "626148251ed3bb5bcc5bd9ed",
+      "name": {
+        "zh": "破镜重圆 - 收买人心",
+        "en": "Make Amends - Buyout"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6391d90f4ed9512be67647df",
+      "name": {
+        "zh": "破镜重圆",
+        "en": "Make Amends"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4dbb086f7743e7c61ca09.jpg",
+  "isKey": false
+}

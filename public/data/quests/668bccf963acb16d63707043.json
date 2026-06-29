@@ -1,0 +1,151 @@
+{
+  "id": "668bccf963acb16d63707043",
+  "name": {
+    "zh": "What’s Your Evidence?",
+    "en": "What’s Your Evidence?"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 72600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d0376a486f7747d8050965c",
+      "itemName": {
+        "zh": "军用电路板",
+        "en": "Military circuit board"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a0a16d0b9d3c46de5b6e97",
+      "itemName": {
+        "zh": "军用闪存装置",
+        "en": "Military flash drive"
+      },
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "zh": "你好，我的朋友。你可能已经听说了关于我商品的谣言吧？我猜是那个俄罗斯混蛋受不了客户选择我而不选择他的事实。或者是有什么新玩家想加入竞争。\n\n无论如何，这种名誉损害必须立刻处理。带一些这种劣质商品给我，我来调查。",
+    "en": "Hello, my friend. You've likely already heard rumors about my merchandise, yes? My guess is this Russian prick just can't stand the fact that the customers are choosing me over him. Or perhaps there's a new player trying to join the competition. \n\nIn any case, this reputational damage must be dealt with immediately. Bring me some of this \"poor-quality merchandise\", and I'll look into it."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 10,
+      "target": [
+        "5447a9cd4bdc2dbd208b4567",
+        "5fbcc1d9016cce60e8341ab3",
+        "5df8ce05b11454561e39243b",
+        "5bfea6e90db834001b7347f3",
+        "5bb2475ed4351e00853264e3",
+        "62e7c4fba689e8c9c50dfc38",
+        "6184055050224f204c1da540",
+        "618428466ef05c2ce828f218",
+        "56d59856d2720bd8418b456a",
+        "5cadc190ae921500103bb3b6",
+        "5a7ae0c351dfba0017554310",
+        "6193a720f8ee7e52e42109ed"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        },
+        "5fbcc1d9016cce60e8341ab3": {
+          "zh": "SIG MCX .300 AAC Blackout 突击步枪",
+          "en": "SIG MCX .300 Blackout assault rifle"
+        },
+        "5df8ce05b11454561e39243b": {
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪",
+          "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "5bb2475ed4351e00853264e3": {
+          "zh": "HK 416A5 5.56x45 突击步枪",
+          "en": "HK 416A5 5.56x45 assault rifle"
+        },
+        "62e7c4fba689e8c9c50dfc38": {
+          "zh": "Steyr AUG A1 5.56x45突击步枪",
+          "en": "Steyr AUG A1 5.56x45 assault rifle"
+        },
+        "6184055050224f204c1da540": {
+          "zh": "FN SCAR-L 5.56x45突击步枪",
+          "en": "FN SCAR-L 5.56x45 assault rifle"
+        },
+        "618428466ef05c2ce828f218": {
+          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE）",
+          "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
+        },
+        "56d59856d2720bd8418b456a": {
+          "zh": "P226R 9x19手枪",
+          "en": "SIG P226R 9x19 pistol"
+        },
+        "5cadc190ae921500103bb3b6": {
+          "zh": "伯莱塔M9A3 9x19手枪",
+          "en": "Beretta M9A3 9x19 pistol"
+        },
+        "5a7ae0c351dfba0017554310": {
+          "zh": "GLOCK 17 9x19手枪",
+          "en": "Glock 17 9x19 pistol"
+        },
+        "6193a720f8ee7e52e42109ed": {
+          "zh": "HK USP .45 ACP手枪",
+          "en": "HK USP .45 ACP pistol"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "668bcccc167d507eb01a268b",
+      "name": {
+        "zh": "进口管制",
+        "en": "Import Сontrol"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "668bcd1b194be70f18427a00",
+      "name": {
+        "zh": "当场抓获",
+        "en": "Caught Red-Handed"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59ca2e4186f77445e4732b22.jpg",
+  "isKey": false
+}

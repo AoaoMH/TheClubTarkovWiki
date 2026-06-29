@@ -1,0 +1,90 @@
+{
+  "id": "67f3eaa3a7799274d50a8b66",
+  "name": {
+    "zh": "先发制人",
+    "en": "Preemptive Strike"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10500
+    },
+    {
+      "type": "Item",
+      "value": 72000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 72000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b36a186f7742523398433",
+      "itemName": {
+        "zh": "金属燃料桶",
+        "en": "Metal fuel tank"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我已经知道发生什么了，没必要再讲一遍。Elvira 又在重复她那套“为了群众的利益”的陈词滥调了——每当听到这种话，你就知道她心里打的是其他的主意……但那些打算为 Skier 干活的人已经漏出了破绽。在这种情况下，恐惧比施舍要管用得多。\n\n我已经拜托 Partisan 去看看那些检查站了。但是还有四个地方：军事基地的 Emercom 营地、污水处理厂附近被洪水淹没的村庄、疗养院附近的老牛场，以及海关区附近的某个建筑工地，我的战友目前还没法接近。\n\n他们要把物资和新兵运到那里。负责招募的人也已经就位了，就是一般的 Skier 手下的混混而已。\n\nPartisan 现在还有其他更重要的事情要做，因此我们需要你帮忙出手：在他们的据点把那些征兵的全部干掉。这样居民们就会三思而后行了。",
+    "en": "I already know what's going on, no need to tell me. Elvira is \"doing what's best for people\" again, obviously up to something again... But those who are thinking about working for Skier have already shown their weakness. In these situations, fear works much better than charity handouts.\n\nI've asked Partisan to look at those checkpoints. There are four places: Emercom camp at the military base, the flooded village near the water treatment plant, the old cattle farm near the health resort, and some kind of construction site near the customs district, which my comrade couldn't get to.\n\nThey are going to bring supplies and the recruited people there. The recruiters themselves are already in place, they don't differ from the usual Skier's mob.\n\nPartisan has other things to do right now, no less important. That's why we need your help: remove the recruiters at their gathering points. That way the residents will think three times before coming there for aid."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 12,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67f3ea873daf3aaf3e0e7ff5",
+      "name": {
+        "zh": "备选方案",
+        "en": "An Alternative"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67f3eab9a33cd296b20ee695",
+      "name": {
+        "zh": "人员短缺",
+        "en": "Staff Shortage"
+      }
+    },
+    {
+      "id": "67f3eacef649e7bceb0bb455",
+      "name": {
+        "zh": "无畏猛兽",
+        "en": "Fearless Beast"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979f91c86f77402996bf9c2.jpg",
+  "isKey": false
+}

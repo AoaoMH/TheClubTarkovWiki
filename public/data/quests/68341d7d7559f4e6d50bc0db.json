@@ -1,0 +1,113 @@
+{
+  "id": "68341d7d7559f4e6d50bc0db",
+  "name": {
+    "zh": "声东击西 - 第二部分 [PVE区]",
+    "en": "Create a Distraction - Part 2 [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Elimination",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.07
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "65268d8ecb944ff1e90ea385",
+      "itemName": {
+        "zh": "捷格加廖夫 RPDN 7.62x39 毫米轻机枪",
+        "en": "Degtyarev RPDN 7.62x39 machine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6513f0a194c72326990a3868",
+      "itemName": {
+        "zh": "RPD 7.62x39“圆木”100 发弹链盒",
+        "en": "RPD 7.62x39 Buben 100-round box"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "64ace9d9b5bf5e95f50a4c1d",
+      "itemName": {
+        "zh": "7.62x39mm FMJ弹药包（20发装）",
+        "en": "7.62x39mm FMJ ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章",
+        "en": "Lega Medal"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "Kaban和Kolontay确实吓尿了，但这对我来说还不够。我想彻底解决他们。你当然不必帮我，但……\n\n我已经有计划了。你得去他们的地盘，干掉他们的保镖之类的。里面的每个人都是那两人的心腹，所以是完美的目标。但是！确保Kaban和Kolontay本人毫发无伤！",
+    "en": "Kaban and Kollontay shit themselves alright, but that wasn't good enough for me. I'd like to finish them off. You don't have to help me with that, of course, but...\n\nI already have a plan. You need to go down to their places and shoot their bodyguards or whatever they're called. Everyone in there is a trusted person for those two, so they're the perfect targets. BUT! Make sure Kaban and Kollontay themselves are unharmed!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossBoarSniper",
+        "followerBoarClose1",
+        "followerBoarClose2",
+        "followerBoar",
+        "followerKolontayAssault",
+        "followerKolontaySecurity"
+      ]
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Shots",
+      "value": 1,
+      "isFailCondition": true,
+      "enemyRoles": [
+        "bossBoar",
+        "bossKolontay"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68341c4babec72d95d0c1260",
+      "name": {
+        "zh": "声东击西 - 第一部分 [PVE区]",
+        "en": "Create a Distraction - Part 1 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/66562b89f73d7f0be65de3d8.png",
+  "isKey": false
+}

@@ -1,0 +1,141 @@
+{
+  "id": "5c0be5fc86f774467a116593",
+  "name": {
+    "zh": "私人诊所",
+    "en": "Private Clinic"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 30600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 130000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 130000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a145d4786f7744cbb6f4a12",
+      "itemName": {
+        "zh": "疗养院东楼 306 房间钥匙",
+        "en": "Health Resort east wing room 306 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0a840b86f7742ffa4f2482",
+      "itemName": {
+        "zh": "T H I C C物品箱",
+        "en": "T H I C C item case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "日安，小伙子。作为一名医生，我想即使是在这样一个艰难时刻，我也应该遵守希波克拉底的誓言。所以，我想要开设一家诊所。身体健康的照顾一直都很重要，在这种情况下更是如此。但是我得去哪里弄到那些必要的设备呢？这样吧，我会给你一个我需要的物品的清单。我不需要竞争者，所以你得保证这活没有第三方参与。当然了，我会想方设法来给你弄到报酬的。\n",
+    "en": "Good day, young man. As a doctor, I think that the Hippocratic oath must be respected even in such a difficult time. So, I have got an idea to open a clinic. Health care is always important and even more so in these circumstances. But where do I get the necessary equipment?  I will give you a list of what I need you to bring. And I don't need competition, so make sure you complete the job with no third parties involved. Of course, I will find a way to reward you for your work."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5af0534a86f7743b6f354284"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5af0534a86f7743b6f354284": {
+          "zh": "检眼镜",
+          "en": "Ophthalmoscope"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c0530ee86f774697952d952"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0530ee86f774697952d952": {
+          "zh": "LEDX皮肤透照仪",
+          "en": "LEDX Skin Transilluminator"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5af0534a86f7743b6f354284"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5af0534a86f7743b6f354284": {
+          "zh": "检眼镜",
+          "en": "Ophthalmoscope"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c0530ee86f774697952d952"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0530ee86f774697952d952": {
+          "zh": "LEDX皮肤透照仪",
+          "en": "LEDX Skin Transilluminator"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a68667486f7742607157d28",
+      "name": {
+        "zh": "医疗隐私 - 4",
+        "en": "Health Care Privacy - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c0d1c4cd0928202a02a6f5c",
+      "name": {
+        "zh": "灭虫服务",
+        "en": "Decontamination Service"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

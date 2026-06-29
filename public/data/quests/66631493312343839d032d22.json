@@ -1,0 +1,119 @@
+{
+  "id": "66631493312343839d032d22",
+  "name": {
+    "zh": "小本生意 - 3",
+    "en": "Small Business - Part 3"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 30000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 2000,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 2000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "65ddcc9cfa85b9f17d0dfb07",
+      "itemName": {
+        "zh": "无名者之声",
+        "en": "Mark of The Unheard"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "那位“创业人士”已经被处理掉了，但 城市里还是有人绕开我私下串货。记得那些喜欢用毒刀捅人玩的邪教徒吗？就是他们。给这些狂热分子带个信，让他们知道整座城市只有 Fence 能说了算。替我办成这件事，我会给你准备特别的奖赏。",
+    "en": "The \"entrepreneur\" was dealt with, but there are still people in town who bought my product bypassing me. Remember the toxin cultists? That's them. Leave the fanatics a message from me. Let them know there's only one Fence in this city. You do that, and I'll make sure you receive something special."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5fc64ea372b0dd78d51159dc"
+      ],
+      "targetNames": {
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5fc64ea372b0dd78d51159dc"
+      ],
+      "targetNames": {
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5fc64ea372b0dd78d51159dc"
+      ],
+      "targetNames": {
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5fc64ea372b0dd78d51159dc"
+      ],
+      "targetNames": {
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6663149196a9349baa021baa",
+      "name": {
+        "zh": "小本生意 - 2",
+        "en": "Small Business - Part 2"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/6682a78f75d2dfc8330a07e2.png",
+  "isKey": false
+}

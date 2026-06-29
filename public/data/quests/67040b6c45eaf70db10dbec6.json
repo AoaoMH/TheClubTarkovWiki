@@ -1,0 +1,90 @@
+{
+  "id": "67040b6c45eaf70db10dbec6",
+  "name": {
+    "zh": "付之一炬",
+    "en": "Burn It Down"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 74000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 74000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "618ba27d9008e4636a67f61d",
+      "itemName": {
+        "zh": "Vortex Razor HD Gen.2 1-6x24步枪瞄准镜",
+        "en": "Vortex Razor HD Gen.2 1-6x24 30mm riflescope"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "所以我去见了我们这位\"朋友\"。她说她需要时间。但这正是我们现在没有的！感染正在迅速蔓延，地面上已经能看到病患了。\n\n我们必须暂时放下旧问题，全力以赴消灭这场灾祸。带足弹药，别被它们包围。\n\n在我们找到解药之前，唯一的选择就是尽可能多地消灭它们。",
+    "en": "So I went to see this \"friend\" of ours. She says she needs time. That's exactly what we don't have right now! The contagion is spreading quickly, the sick have already been seen above ground.\n\nWe must forget about the old problems for a while and put all our energies into killing the scourge. Take plenty of ammunition and don't let them surround you. \n\nUntil we have a cure, our only option is to kill as many as possible."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 50,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "infectedAssault",
+        "infectedCivil",
+        "infectedLaborant",
+        "infectedPmc",
+        "infectedTagilla"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67040b3d10b18d153a08f636",
+      "name": {
+        "zh": "肮脏之血",
+        "en": "Dirty Blood"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67040ba4578a46e44a05c0a8",
+      "name": {
+        "zh": "根本原因",
+        "en": "The Root Cause"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/671f89bfab3a1278b204cc33.png",
+  "isKey": false
+}

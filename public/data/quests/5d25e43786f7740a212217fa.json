@@ -1,0 +1,106 @@
+{
+  "id": "5d25e43786f7740a212217fa",
+  "name": {
+    "zh": "猎人之路 - 正义",
+    "en": "The Huntsman Path - Justice"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 80000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 80000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d1b371186f774253763a656",
+      "itemName": {
+        "zh": "野营燃料桶",
+        "en": "Expeditionary fuel tank"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59fafb5d86f774067a6f2084",
+      "itemName": {
+        "zh": "5升丙烷罐",
+        "en": "Propane tank (5L)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c5c9f86f77477c91c36e7",
+      "itemName": {
+        "zh": "400毫升WD-40",
+        "en": "WD-40 (400ml)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "啊，是你吗？见到你可太开心了。有过狩猎经历么？当塔科夫的骚乱一起，狩猎也随之开始了。兄弟阋墙，司空见惯，就连当局里那些曾经的法律守护者，都变成了没有底线甚至无法无天的野兽，有些家伙甚至连制服都没换，你能想象嘛？我跟他们有笔账要算。好吧，如果你把一些Scav送进地狱，那情况就不会变得更糟了，那些人身上早已没有人性的痕迹了。清除掉Reshala的残部，他们现在打扮成了警察，不要错过了。",
+    "en": "Ah, it's you? Glad to see you, friend. Ever tracked your prey on a hunt? When all this fuss started here in Tarkov, lots of things changed, brothers started fighting one another - it’s the usual thing now. And the same works for the authorities, those who had to protect the law before became unscrupulous creatures, some haven't even changed from uniform, can you imagine? I have a personal score with them. Well, if you send some Scavs to hell, it will be for the better, there has been nothing human left in these men for a long time anyway. Get rid of the remains of Reshala's gang, they're dressed in police uniform, can't miss them."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBully"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2c386f77443e7549029",
+      "name": {
+        "zh": "猎人之路 - 物资",
+        "en": "The Huntsman Path - Trophy"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d6946c486f77452a8292cb2.jpg",
+  "isKey": false
+}

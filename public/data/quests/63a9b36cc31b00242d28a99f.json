@@ -1,0 +1,1256 @@
+{
+  "id": "63a9b36cc31b00242d28a99f",
+  "name": {
+    "zh": "屠宰场",
+    "en": "Slaughterhouse"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 34700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 100000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 100000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "63920105a83e15700a00f168",
+      "itemName": {
+        "zh": "SOG Voodoo Hawk战术斧",
+        "en": "SOG Voodoo Hawk tactical tomahawk"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊，雇佣兵。又来看望老年人了？坐下吧，想喝点茶吗？不要？随你吧。听好了，一群拾荒者又出现在了那个地方。我们需要给这些人一点颜色看看，这样以后再来的人也会被吓到了。所以我在想，为什么不让你去拿着斧头大砍一通呢？你能做到吧？我就不信了，看哪个混蛋还敢再去淌这一条血路。",
+    "en": "Well, hello there, mercenary. Come to see the old man? Sit down, would you like some tea? No? All right, then. Listen, a gang of looters showed up in the area again. We've got to get them away from this place for good, so that even those who come after them would have a heart attack. So I'm thinking, why don't you take an axe and chop them the fuck up, eh? Can you do that? I don't think any bastard's gonna dare get into that bloodbath afterwards."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "54491bb74bdc2d09088b4567",
+        "57e26fc7245977162a14b800",
+        "57e26ea924597715ca604a09",
+        "5bffe7930db834001b734a39",
+        "5fc64ea372b0dd78d51159dc",
+        "5c07df7f0db834001b73588a",
+        "6087e570b998180e9f76dc24",
+        "5bffdc370db834001d23eca8",
+        "5bffdd7e0db834001b734a1a",
+        "5c0126f40db834002a125382",
+        "63495c500c297e20065a08b1",
+        "63920105a83e15700a00f168",
+        "5c010e350db83400232feec7",
+        "57cd379a24597778e7682ecf",
+        "601948682627df266209af05",
+        "5c012ffc0db834001d23f03f",
+        "5bc9c1e2d4351e00367fbcf0",
+        "5bead2e00db834001c062938",
+        "6540d2162ae6d96b540afcaf",
+        "664a5428d5e33a713b622379",
+        "65ca457b4aafb5d7fc0dcb5d",
+        "67609c44204d813ae30e07f7",
+        "674d90b55704568fe60bc8f5"
+      ],
+      "weaponNames": {
+        "54491bb74bdc2d09088b4567": {
+          "zh": "ER Fulcrum刺刀",
+          "en": "ER FULCRUM BAYONET"
+        },
+        "57e26fc7245977162a14b800": {
+          "zh": "A-2607-95x18匕首",
+          "en": "Bars A-2607 95Kh18 knife"
+        },
+        "57e26ea924597715ca604a09": {
+          "zh": "A-2607-大马士革匕首",
+          "en": "Bars A-2607 Damascus knife"
+        },
+        "5bffe7930db834001b734a39": {
+          "zh": "冲击斧",
+          "en": "Crash Axe"
+        },
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        },
+        "5c07df7f0db834001b73588a": {
+          "zh": "Freeman撬棍",
+          "en": "Freeman crowbar"
+        },
+        "6087e570b998180e9f76dc24": {
+          "zh": "Superfors DB 2020 Dead Blow锤",
+          "en": "Superfors DB 2020 Dead Blow Hammer"
+        },
+        "5bffdc370db834001d23eca8": {
+          "zh": "6h5刺刀",
+          "en": "6Kh5 Bayonet"
+        },
+        "5bffdd7e0db834001b734a1a": {
+          "zh": "Miller Bros. Blades M-2 战术剑 ",
+          "en": "Miller Bros. Blades M-2 Tactical Sword"
+        },
+        "5c0126f40db834002a125382": {
+          "zh": "Red Rebel冰镐",
+          "en": "Red Rebel ice pick"
+        },
+        "63495c500c297e20065a08b1": {
+          "zh": "老式手持镰刀",
+          "en": "Old hand scythe"
+        },
+        "63920105a83e15700a00f168": {
+          "zh": "SOG Voodoo Hawk战术斧",
+          "en": "SOG Voodoo Hawk tactical tomahawk"
+        },
+        "5c010e350db83400232feec7": {
+          "zh": "SP-8生存砍刀",
+          "en": "SP-8 Survival Machete"
+        },
+        "57cd379a24597778e7682ecf": {
+          "zh": "Kiba Arms Tactical战斧",
+          "en": "Kiba Arms Tactical Tomahawk"
+        },
+        "601948682627df266209af05": {
+          "zh": "UVSR“针叶林-1”求生砍刀",
+          "en": "UVSR Taiga-1 survival machete"
+        },
+        "5c012ffc0db834001d23f03f": {
+          "zh": "野营斧",
+          "en": "Camper axe"
+        },
+        "5bc9c1e2d4351e00367fbcf0": {
+          "zh": "古董斧头",
+          "en": "Antique axe"
+        },
+        "5bead2e00db834001c062938": {
+          "zh": "MPL-50挖掘工具",
+          "en": "MPL-50 entrenching tool"
+        },
+        "6540d2162ae6d96b540afcaf": {
+          "zh": "PR-Taran警棍",
+          "en": "PR-Taran police baton"
+        },
+        "664a5428d5e33a713b622379": {
+          "zh": "APOK ”荒原之地“ 战术短剑",
+          "en": "APOK Tactical Wasteland Gladius"
+        },
+        "65ca457b4aafb5d7fc0dcb5d": {
+          "zh": "United Cutlery M48战术尼泊尔军刀",
+          "en": "United Cutlery M48 Tactical Kukri"
+        },
+        "67609c44204d813ae30e07f7": {
+          "zh": "67609c44204d813ae30e07f7",
+          "en": "67609c44204d813ae30e07f7"
+        },
+        "674d90b55704568fe60bc8f5": {
+          "zh": "“鲨鱼”推刃匕首",
+          "en": "Akula push dagger"
+        }
+      },
+      "location": "factory4_day"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "54491bb74bdc2d09088b4567",
+        "57e26fc7245977162a14b800",
+        "57e26ea924597715ca604a09",
+        "5bffe7930db834001b734a39",
+        "5fc64ea372b0dd78d51159dc",
+        "5c07df7f0db834001b73588a",
+        "6087e570b998180e9f76dc24",
+        "5bffdc370db834001d23eca8",
+        "5bffdd7e0db834001b734a1a",
+        "5c0126f40db834002a125382",
+        "63495c500c297e20065a08b1",
+        "63920105a83e15700a00f168",
+        "5c010e350db83400232feec7",
+        "57cd379a24597778e7682ecf",
+        "601948682627df266209af05",
+        "5c012ffc0db834001d23f03f",
+        "5bc9c1e2d4351e00367fbcf0",
+        "5bead2e00db834001c062938",
+        "6540d2162ae6d96b540afcaf",
+        "664a5428d5e33a713b622379",
+        "65ca457b4aafb5d7fc0dcb5d",
+        "67609c44204d813ae30e07f7",
+        "674d90b55704568fe60bc8f5"
+      ],
+      "weaponNames": {
+        "54491bb74bdc2d09088b4567": {
+          "zh": "ER Fulcrum刺刀",
+          "en": "ER FULCRUM BAYONET"
+        },
+        "57e26fc7245977162a14b800": {
+          "zh": "A-2607-95x18匕首",
+          "en": "Bars A-2607 95Kh18 knife"
+        },
+        "57e26ea924597715ca604a09": {
+          "zh": "A-2607-大马士革匕首",
+          "en": "Bars A-2607 Damascus knife"
+        },
+        "5bffe7930db834001b734a39": {
+          "zh": "冲击斧",
+          "en": "Crash Axe"
+        },
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        },
+        "5c07df7f0db834001b73588a": {
+          "zh": "Freeman撬棍",
+          "en": "Freeman crowbar"
+        },
+        "6087e570b998180e9f76dc24": {
+          "zh": "Superfors DB 2020 Dead Blow锤",
+          "en": "Superfors DB 2020 Dead Blow Hammer"
+        },
+        "5bffdc370db834001d23eca8": {
+          "zh": "6h5刺刀",
+          "en": "6Kh5 Bayonet"
+        },
+        "5bffdd7e0db834001b734a1a": {
+          "zh": "Miller Bros. Blades M-2 战术剑 ",
+          "en": "Miller Bros. Blades M-2 Tactical Sword"
+        },
+        "5c0126f40db834002a125382": {
+          "zh": "Red Rebel冰镐",
+          "en": "Red Rebel ice pick"
+        },
+        "63495c500c297e20065a08b1": {
+          "zh": "老式手持镰刀",
+          "en": "Old hand scythe"
+        },
+        "63920105a83e15700a00f168": {
+          "zh": "SOG Voodoo Hawk战术斧",
+          "en": "SOG Voodoo Hawk tactical tomahawk"
+        },
+        "5c010e350db83400232feec7": {
+          "zh": "SP-8生存砍刀",
+          "en": "SP-8 Survival Machete"
+        },
+        "57cd379a24597778e7682ecf": {
+          "zh": "Kiba Arms Tactical战斧",
+          "en": "Kiba Arms Tactical Tomahawk"
+        },
+        "601948682627df266209af05": {
+          "zh": "UVSR“针叶林-1”求生砍刀",
+          "en": "UVSR Taiga-1 survival machete"
+        },
+        "5c012ffc0db834001d23f03f": {
+          "zh": "野营斧",
+          "en": "Camper axe"
+        },
+        "5bc9c1e2d4351e00367fbcf0": {
+          "zh": "古董斧头",
+          "en": "Antique axe"
+        },
+        "5bead2e00db834001c062938": {
+          "zh": "MPL-50挖掘工具",
+          "en": "MPL-50 entrenching tool"
+        },
+        "6540d2162ae6d96b540afcaf": {
+          "zh": "PR-Taran警棍",
+          "en": "PR-Taran police baton"
+        },
+        "664a5428d5e33a713b622379": {
+          "zh": "APOK ”荒原之地“ 战术短剑",
+          "en": "APOK Tactical Wasteland Gladius"
+        },
+        "65ca457b4aafb5d7fc0dcb5d": {
+          "zh": "United Cutlery M48战术尼泊尔军刀",
+          "en": "United Cutlery M48 Tactical Kukri"
+        },
+        "67609c44204d813ae30e07f7": {
+          "zh": "67609c44204d813ae30e07f7",
+          "en": "67609c44204d813ae30e07f7"
+        },
+        "674d90b55704568fe60bc8f5": {
+          "zh": "“鲨鱼”推刃匕首",
+          "en": "Akula push dagger"
+        }
+      },
+      "location": "TarkovStreets"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "54491bb74bdc2d09088b4567",
+        "57e26fc7245977162a14b800",
+        "57e26ea924597715ca604a09",
+        "5bffe7930db834001b734a39",
+        "5fc64ea372b0dd78d51159dc",
+        "5c07df7f0db834001b73588a",
+        "6087e570b998180e9f76dc24",
+        "5bffdc370db834001d23eca8",
+        "5bffdd7e0db834001b734a1a",
+        "5c0126f40db834002a125382",
+        "63495c500c297e20065a08b1",
+        "63920105a83e15700a00f168",
+        "5c010e350db83400232feec7",
+        "57cd379a24597778e7682ecf",
+        "601948682627df266209af05",
+        "5c012ffc0db834001d23f03f",
+        "5bc9c1e2d4351e00367fbcf0",
+        "5bead2e00db834001c062938",
+        "6540d2162ae6d96b540afcaf",
+        "664a5428d5e33a713b622379",
+        "65ca457b4aafb5d7fc0dcb5d",
+        "67609c44204d813ae30e07f7",
+        "674d90b55704568fe60bc8f5"
+      ],
+      "weaponNames": {
+        "54491bb74bdc2d09088b4567": {
+          "zh": "ER Fulcrum刺刀",
+          "en": "ER FULCRUM BAYONET"
+        },
+        "57e26fc7245977162a14b800": {
+          "zh": "A-2607-95x18匕首",
+          "en": "Bars A-2607 95Kh18 knife"
+        },
+        "57e26ea924597715ca604a09": {
+          "zh": "A-2607-大马士革匕首",
+          "en": "Bars A-2607 Damascus knife"
+        },
+        "5bffe7930db834001b734a39": {
+          "zh": "冲击斧",
+          "en": "Crash Axe"
+        },
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        },
+        "5c07df7f0db834001b73588a": {
+          "zh": "Freeman撬棍",
+          "en": "Freeman crowbar"
+        },
+        "6087e570b998180e9f76dc24": {
+          "zh": "Superfors DB 2020 Dead Blow锤",
+          "en": "Superfors DB 2020 Dead Blow Hammer"
+        },
+        "5bffdc370db834001d23eca8": {
+          "zh": "6h5刺刀",
+          "en": "6Kh5 Bayonet"
+        },
+        "5bffdd7e0db834001b734a1a": {
+          "zh": "Miller Bros. Blades M-2 战术剑 ",
+          "en": "Miller Bros. Blades M-2 Tactical Sword"
+        },
+        "5c0126f40db834002a125382": {
+          "zh": "Red Rebel冰镐",
+          "en": "Red Rebel ice pick"
+        },
+        "63495c500c297e20065a08b1": {
+          "zh": "老式手持镰刀",
+          "en": "Old hand scythe"
+        },
+        "63920105a83e15700a00f168": {
+          "zh": "SOG Voodoo Hawk战术斧",
+          "en": "SOG Voodoo Hawk tactical tomahawk"
+        },
+        "5c010e350db83400232feec7": {
+          "zh": "SP-8生存砍刀",
+          "en": "SP-8 Survival Machete"
+        },
+        "57cd379a24597778e7682ecf": {
+          "zh": "Kiba Arms Tactical战斧",
+          "en": "Kiba Arms Tactical Tomahawk"
+        },
+        "601948682627df266209af05": {
+          "zh": "UVSR“针叶林-1”求生砍刀",
+          "en": "UVSR Taiga-1 survival machete"
+        },
+        "5c012ffc0db834001d23f03f": {
+          "zh": "野营斧",
+          "en": "Camper axe"
+        },
+        "5bc9c1e2d4351e00367fbcf0": {
+          "zh": "古董斧头",
+          "en": "Antique axe"
+        },
+        "5bead2e00db834001c062938": {
+          "zh": "MPL-50挖掘工具",
+          "en": "MPL-50 entrenching tool"
+        },
+        "6540d2162ae6d96b540afcaf": {
+          "zh": "PR-Taran警棍",
+          "en": "PR-Taran police baton"
+        },
+        "664a5428d5e33a713b622379": {
+          "zh": "APOK ”荒原之地“ 战术短剑",
+          "en": "APOK Tactical Wasteland Gladius"
+        },
+        "65ca457b4aafb5d7fc0dcb5d": {
+          "zh": "United Cutlery M48战术尼泊尔军刀",
+          "en": "United Cutlery M48 Tactical Kukri"
+        },
+        "67609c44204d813ae30e07f7": {
+          "zh": "67609c44204d813ae30e07f7",
+          "en": "67609c44204d813ae30e07f7"
+        },
+        "674d90b55704568fe60bc8f5": {
+          "zh": "“鲨鱼”推刃匕首",
+          "en": "Akula push dagger"
+        }
+      },
+      "location": "Lighthouse"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "54491bb74bdc2d09088b4567",
+        "57e26fc7245977162a14b800",
+        "57e26ea924597715ca604a09",
+        "5bffe7930db834001b734a39",
+        "5fc64ea372b0dd78d51159dc",
+        "5c07df7f0db834001b73588a",
+        "6087e570b998180e9f76dc24",
+        "5bffdc370db834001d23eca8",
+        "5bffdd7e0db834001b734a1a",
+        "5c0126f40db834002a125382",
+        "63495c500c297e20065a08b1",
+        "63920105a83e15700a00f168",
+        "5c010e350db83400232feec7",
+        "57cd379a24597778e7682ecf",
+        "601948682627df266209af05",
+        "5c012ffc0db834001d23f03f",
+        "5bc9c1e2d4351e00367fbcf0",
+        "5bead2e00db834001c062938",
+        "6540d2162ae6d96b540afcaf",
+        "664a5428d5e33a713b622379",
+        "65ca457b4aafb5d7fc0dcb5d",
+        "67609c44204d813ae30e07f7",
+        "674d90b55704568fe60bc8f5"
+      ],
+      "weaponNames": {
+        "54491bb74bdc2d09088b4567": {
+          "zh": "ER Fulcrum刺刀",
+          "en": "ER FULCRUM BAYONET"
+        },
+        "57e26fc7245977162a14b800": {
+          "zh": "A-2607-95x18匕首",
+          "en": "Bars A-2607 95Kh18 knife"
+        },
+        "57e26ea924597715ca604a09": {
+          "zh": "A-2607-大马士革匕首",
+          "en": "Bars A-2607 Damascus knife"
+        },
+        "5bffe7930db834001b734a39": {
+          "zh": "冲击斧",
+          "en": "Crash Axe"
+        },
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        },
+        "5c07df7f0db834001b73588a": {
+          "zh": "Freeman撬棍",
+          "en": "Freeman crowbar"
+        },
+        "6087e570b998180e9f76dc24": {
+          "zh": "Superfors DB 2020 Dead Blow锤",
+          "en": "Superfors DB 2020 Dead Blow Hammer"
+        },
+        "5bffdc370db834001d23eca8": {
+          "zh": "6h5刺刀",
+          "en": "6Kh5 Bayonet"
+        },
+        "5bffdd7e0db834001b734a1a": {
+          "zh": "Miller Bros. Blades M-2 战术剑 ",
+          "en": "Miller Bros. Blades M-2 Tactical Sword"
+        },
+        "5c0126f40db834002a125382": {
+          "zh": "Red Rebel冰镐",
+          "en": "Red Rebel ice pick"
+        },
+        "63495c500c297e20065a08b1": {
+          "zh": "老式手持镰刀",
+          "en": "Old hand scythe"
+        },
+        "63920105a83e15700a00f168": {
+          "zh": "SOG Voodoo Hawk战术斧",
+          "en": "SOG Voodoo Hawk tactical tomahawk"
+        },
+        "5c010e350db83400232feec7": {
+          "zh": "SP-8生存砍刀",
+          "en": "SP-8 Survival Machete"
+        },
+        "57cd379a24597778e7682ecf": {
+          "zh": "Kiba Arms Tactical战斧",
+          "en": "Kiba Arms Tactical Tomahawk"
+        },
+        "601948682627df266209af05": {
+          "zh": "UVSR“针叶林-1”求生砍刀",
+          "en": "UVSR Taiga-1 survival machete"
+        },
+        "5c012ffc0db834001d23f03f": {
+          "zh": "野营斧",
+          "en": "Camper axe"
+        },
+        "5bc9c1e2d4351e00367fbcf0": {
+          "zh": "古董斧头",
+          "en": "Antique axe"
+        },
+        "5bead2e00db834001c062938": {
+          "zh": "MPL-50挖掘工具",
+          "en": "MPL-50 entrenching tool"
+        },
+        "6540d2162ae6d96b540afcaf": {
+          "zh": "PR-Taran警棍",
+          "en": "PR-Taran police baton"
+        },
+        "664a5428d5e33a713b622379": {
+          "zh": "APOK ”荒原之地“ 战术短剑",
+          "en": "APOK Tactical Wasteland Gladius"
+        },
+        "65ca457b4aafb5d7fc0dcb5d": {
+          "zh": "United Cutlery M48战术尼泊尔军刀",
+          "en": "United Cutlery M48 Tactical Kukri"
+        },
+        "67609c44204d813ae30e07f7": {
+          "zh": "67609c44204d813ae30e07f7",
+          "en": "67609c44204d813ae30e07f7"
+        },
+        "674d90b55704568fe60bc8f5": {
+          "zh": "“鲨鱼”推刃匕首",
+          "en": "Akula push dagger"
+        }
+      },
+      "location": "Woods"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "54491bb74bdc2d09088b4567",
+        "57e26fc7245977162a14b800",
+        "57e26ea924597715ca604a09",
+        "5bffe7930db834001b734a39",
+        "5fc64ea372b0dd78d51159dc",
+        "5c07df7f0db834001b73588a",
+        "6087e570b998180e9f76dc24",
+        "5bffdc370db834001d23eca8",
+        "5bffdd7e0db834001b734a1a",
+        "5c0126f40db834002a125382",
+        "63495c500c297e20065a08b1",
+        "63920105a83e15700a00f168",
+        "5c010e350db83400232feec7",
+        "57cd379a24597778e7682ecf",
+        "601948682627df266209af05",
+        "5c012ffc0db834001d23f03f",
+        "5bc9c1e2d4351e00367fbcf0",
+        "5bead2e00db834001c062938",
+        "664a5428d5e33a713b622379",
+        "6540d2162ae6d96b540afcaf",
+        "65ca457b4aafb5d7fc0dcb5d",
+        "67609c44204d813ae30e07f7",
+        "674d90b55704568fe60bc8f5"
+      ],
+      "weaponNames": {
+        "54491bb74bdc2d09088b4567": {
+          "zh": "ER Fulcrum刺刀",
+          "en": "ER FULCRUM BAYONET"
+        },
+        "57e26fc7245977162a14b800": {
+          "zh": "A-2607-95x18匕首",
+          "en": "Bars A-2607 95Kh18 knife"
+        },
+        "57e26ea924597715ca604a09": {
+          "zh": "A-2607-大马士革匕首",
+          "en": "Bars A-2607 Damascus knife"
+        },
+        "5bffe7930db834001b734a39": {
+          "zh": "冲击斧",
+          "en": "Crash Axe"
+        },
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        },
+        "5c07df7f0db834001b73588a": {
+          "zh": "Freeman撬棍",
+          "en": "Freeman crowbar"
+        },
+        "6087e570b998180e9f76dc24": {
+          "zh": "Superfors DB 2020 Dead Blow锤",
+          "en": "Superfors DB 2020 Dead Blow Hammer"
+        },
+        "5bffdc370db834001d23eca8": {
+          "zh": "6h5刺刀",
+          "en": "6Kh5 Bayonet"
+        },
+        "5bffdd7e0db834001b734a1a": {
+          "zh": "Miller Bros. Blades M-2 战术剑 ",
+          "en": "Miller Bros. Blades M-2 Tactical Sword"
+        },
+        "5c0126f40db834002a125382": {
+          "zh": "Red Rebel冰镐",
+          "en": "Red Rebel ice pick"
+        },
+        "63495c500c297e20065a08b1": {
+          "zh": "老式手持镰刀",
+          "en": "Old hand scythe"
+        },
+        "63920105a83e15700a00f168": {
+          "zh": "SOG Voodoo Hawk战术斧",
+          "en": "SOG Voodoo Hawk tactical tomahawk"
+        },
+        "5c010e350db83400232feec7": {
+          "zh": "SP-8生存砍刀",
+          "en": "SP-8 Survival Machete"
+        },
+        "57cd379a24597778e7682ecf": {
+          "zh": "Kiba Arms Tactical战斧",
+          "en": "Kiba Arms Tactical Tomahawk"
+        },
+        "601948682627df266209af05": {
+          "zh": "UVSR“针叶林-1”求生砍刀",
+          "en": "UVSR Taiga-1 survival machete"
+        },
+        "5c012ffc0db834001d23f03f": {
+          "zh": "野营斧",
+          "en": "Camper axe"
+        },
+        "5bc9c1e2d4351e00367fbcf0": {
+          "zh": "古董斧头",
+          "en": "Antique axe"
+        },
+        "5bead2e00db834001c062938": {
+          "zh": "MPL-50挖掘工具",
+          "en": "MPL-50 entrenching tool"
+        },
+        "664a5428d5e33a713b622379": {
+          "zh": "APOK ”荒原之地“ 战术短剑",
+          "en": "APOK Tactical Wasteland Gladius"
+        },
+        "6540d2162ae6d96b540afcaf": {
+          "zh": "PR-Taran警棍",
+          "en": "PR-Taran police baton"
+        },
+        "65ca457b4aafb5d7fc0dcb5d": {
+          "zh": "United Cutlery M48战术尼泊尔军刀",
+          "en": "United Cutlery M48 Tactical Kukri"
+        },
+        "67609c44204d813ae30e07f7": {
+          "zh": "67609c44204d813ae30e07f7",
+          "en": "67609c44204d813ae30e07f7"
+        },
+        "674d90b55704568fe60bc8f5": {
+          "zh": "“鲨鱼”推刃匕首",
+          "en": "Akula push dagger"
+        }
+      },
+      "location": "Shoreline"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "54491bb74bdc2d09088b4567",
+        "57e26fc7245977162a14b800",
+        "57e26ea924597715ca604a09",
+        "5bffe7930db834001b734a39",
+        "5fc64ea372b0dd78d51159dc",
+        "5c07df7f0db834001b73588a",
+        "6087e570b998180e9f76dc24",
+        "5bffdc370db834001d23eca8",
+        "5bffdd7e0db834001b734a1a",
+        "5c0126f40db834002a125382",
+        "63495c500c297e20065a08b1",
+        "63920105a83e15700a00f168",
+        "5c010e350db83400232feec7",
+        "57cd379a24597778e7682ecf",
+        "601948682627df266209af05",
+        "5c012ffc0db834001d23f03f",
+        "5bc9c1e2d4351e00367fbcf0",
+        "5bead2e00db834001c062938",
+        "6540d2162ae6d96b540afcaf",
+        "664a5428d5e33a713b622379",
+        "65ca457b4aafb5d7fc0dcb5d",
+        "67609c44204d813ae30e07f7",
+        "674d90b55704568fe60bc8f5"
+      ],
+      "weaponNames": {
+        "54491bb74bdc2d09088b4567": {
+          "zh": "ER Fulcrum刺刀",
+          "en": "ER FULCRUM BAYONET"
+        },
+        "57e26fc7245977162a14b800": {
+          "zh": "A-2607-95x18匕首",
+          "en": "Bars A-2607 95Kh18 knife"
+        },
+        "57e26ea924597715ca604a09": {
+          "zh": "A-2607-大马士革匕首",
+          "en": "Bars A-2607 Damascus knife"
+        },
+        "5bffe7930db834001b734a39": {
+          "zh": "冲击斧",
+          "en": "Crash Axe"
+        },
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        },
+        "5c07df7f0db834001b73588a": {
+          "zh": "Freeman撬棍",
+          "en": "Freeman crowbar"
+        },
+        "6087e570b998180e9f76dc24": {
+          "zh": "Superfors DB 2020 Dead Blow锤",
+          "en": "Superfors DB 2020 Dead Blow Hammer"
+        },
+        "5bffdc370db834001d23eca8": {
+          "zh": "6h5刺刀",
+          "en": "6Kh5 Bayonet"
+        },
+        "5bffdd7e0db834001b734a1a": {
+          "zh": "Miller Bros. Blades M-2 战术剑 ",
+          "en": "Miller Bros. Blades M-2 Tactical Sword"
+        },
+        "5c0126f40db834002a125382": {
+          "zh": "Red Rebel冰镐",
+          "en": "Red Rebel ice pick"
+        },
+        "63495c500c297e20065a08b1": {
+          "zh": "老式手持镰刀",
+          "en": "Old hand scythe"
+        },
+        "63920105a83e15700a00f168": {
+          "zh": "SOG Voodoo Hawk战术斧",
+          "en": "SOG Voodoo Hawk tactical tomahawk"
+        },
+        "5c010e350db83400232feec7": {
+          "zh": "SP-8生存砍刀",
+          "en": "SP-8 Survival Machete"
+        },
+        "57cd379a24597778e7682ecf": {
+          "zh": "Kiba Arms Tactical战斧",
+          "en": "Kiba Arms Tactical Tomahawk"
+        },
+        "601948682627df266209af05": {
+          "zh": "UVSR“针叶林-1”求生砍刀",
+          "en": "UVSR Taiga-1 survival machete"
+        },
+        "5c012ffc0db834001d23f03f": {
+          "zh": "野营斧",
+          "en": "Camper axe"
+        },
+        "5bc9c1e2d4351e00367fbcf0": {
+          "zh": "古董斧头",
+          "en": "Antique axe"
+        },
+        "5bead2e00db834001c062938": {
+          "zh": "MPL-50挖掘工具",
+          "en": "MPL-50 entrenching tool"
+        },
+        "6540d2162ae6d96b540afcaf": {
+          "zh": "PR-Taran警棍",
+          "en": "PR-Taran police baton"
+        },
+        "664a5428d5e33a713b622379": {
+          "zh": "APOK ”荒原之地“ 战术短剑",
+          "en": "APOK Tactical Wasteland Gladius"
+        },
+        "65ca457b4aafb5d7fc0dcb5d": {
+          "zh": "United Cutlery M48战术尼泊尔军刀",
+          "en": "United Cutlery M48 Tactical Kukri"
+        },
+        "67609c44204d813ae30e07f7": {
+          "zh": "67609c44204d813ae30e07f7",
+          "en": "67609c44204d813ae30e07f7"
+        },
+        "674d90b55704568fe60bc8f5": {
+          "zh": "“鲨鱼”推刃匕首",
+          "en": "Akula push dagger"
+        }
+      },
+      "location": "Interchange"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "54491bb74bdc2d09088b4567",
+        "57e26fc7245977162a14b800",
+        "57e26ea924597715ca604a09",
+        "5bffe7930db834001b734a39",
+        "5fc64ea372b0dd78d51159dc",
+        "5c07df7f0db834001b73588a",
+        "6087e570b998180e9f76dc24",
+        "5bffdc370db834001d23eca8",
+        "5bffdd7e0db834001b734a1a",
+        "5c0126f40db834002a125382",
+        "63495c500c297e20065a08b1",
+        "63920105a83e15700a00f168",
+        "5c010e350db83400232feec7",
+        "57cd379a24597778e7682ecf",
+        "601948682627df266209af05",
+        "5c012ffc0db834001d23f03f",
+        "5bc9c1e2d4351e00367fbcf0",
+        "5bead2e00db834001c062938",
+        "6540d2162ae6d96b540afcaf",
+        "664a5428d5e33a713b622379",
+        "65ca457b4aafb5d7fc0dcb5d",
+        "67609c44204d813ae30e07f7",
+        "674d90b55704568fe60bc8f5"
+      ],
+      "weaponNames": {
+        "54491bb74bdc2d09088b4567": {
+          "zh": "ER Fulcrum刺刀",
+          "en": "ER FULCRUM BAYONET"
+        },
+        "57e26fc7245977162a14b800": {
+          "zh": "A-2607-95x18匕首",
+          "en": "Bars A-2607 95Kh18 knife"
+        },
+        "57e26ea924597715ca604a09": {
+          "zh": "A-2607-大马士革匕首",
+          "en": "Bars A-2607 Damascus knife"
+        },
+        "5bffe7930db834001b734a39": {
+          "zh": "冲击斧",
+          "en": "Crash Axe"
+        },
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        },
+        "5c07df7f0db834001b73588a": {
+          "zh": "Freeman撬棍",
+          "en": "Freeman crowbar"
+        },
+        "6087e570b998180e9f76dc24": {
+          "zh": "Superfors DB 2020 Dead Blow锤",
+          "en": "Superfors DB 2020 Dead Blow Hammer"
+        },
+        "5bffdc370db834001d23eca8": {
+          "zh": "6h5刺刀",
+          "en": "6Kh5 Bayonet"
+        },
+        "5bffdd7e0db834001b734a1a": {
+          "zh": "Miller Bros. Blades M-2 战术剑 ",
+          "en": "Miller Bros. Blades M-2 Tactical Sword"
+        },
+        "5c0126f40db834002a125382": {
+          "zh": "Red Rebel冰镐",
+          "en": "Red Rebel ice pick"
+        },
+        "63495c500c297e20065a08b1": {
+          "zh": "老式手持镰刀",
+          "en": "Old hand scythe"
+        },
+        "63920105a83e15700a00f168": {
+          "zh": "SOG Voodoo Hawk战术斧",
+          "en": "SOG Voodoo Hawk tactical tomahawk"
+        },
+        "5c010e350db83400232feec7": {
+          "zh": "SP-8生存砍刀",
+          "en": "SP-8 Survival Machete"
+        },
+        "57cd379a24597778e7682ecf": {
+          "zh": "Kiba Arms Tactical战斧",
+          "en": "Kiba Arms Tactical Tomahawk"
+        },
+        "601948682627df266209af05": {
+          "zh": "UVSR“针叶林-1”求生砍刀",
+          "en": "UVSR Taiga-1 survival machete"
+        },
+        "5c012ffc0db834001d23f03f": {
+          "zh": "野营斧",
+          "en": "Camper axe"
+        },
+        "5bc9c1e2d4351e00367fbcf0": {
+          "zh": "古董斧头",
+          "en": "Antique axe"
+        },
+        "5bead2e00db834001c062938": {
+          "zh": "MPL-50挖掘工具",
+          "en": "MPL-50 entrenching tool"
+        },
+        "6540d2162ae6d96b540afcaf": {
+          "zh": "PR-Taran警棍",
+          "en": "PR-Taran police baton"
+        },
+        "664a5428d5e33a713b622379": {
+          "zh": "APOK ”荒原之地“ 战术短剑",
+          "en": "APOK Tactical Wasteland Gladius"
+        },
+        "65ca457b4aafb5d7fc0dcb5d": {
+          "zh": "United Cutlery M48战术尼泊尔军刀",
+          "en": "United Cutlery M48 Tactical Kukri"
+        },
+        "67609c44204d813ae30e07f7": {
+          "zh": "67609c44204d813ae30e07f7",
+          "en": "67609c44204d813ae30e07f7"
+        },
+        "674d90b55704568fe60bc8f5": {
+          "zh": "“鲨鱼”推刃匕首",
+          "en": "Akula push dagger"
+        }
+      },
+      "location": "bigmap"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "54491bb74bdc2d09088b4567",
+        "57e26fc7245977162a14b800",
+        "57e26ea924597715ca604a09",
+        "5bffe7930db834001b734a39",
+        "5fc64ea372b0dd78d51159dc",
+        "5c07df7f0db834001b73588a",
+        "6087e570b998180e9f76dc24",
+        "5bffdc370db834001d23eca8",
+        "5bffdd7e0db834001b734a1a",
+        "5c0126f40db834002a125382",
+        "63495c500c297e20065a08b1",
+        "63920105a83e15700a00f168",
+        "5c010e350db83400232feec7",
+        "57cd379a24597778e7682ecf",
+        "601948682627df266209af05",
+        "5c012ffc0db834001d23f03f",
+        "5bc9c1e2d4351e00367fbcf0",
+        "5bead2e00db834001c062938",
+        "6540d2162ae6d96b540afcaf",
+        "664a5428d5e33a713b622379",
+        "65ca457b4aafb5d7fc0dcb5d",
+        "67609c44204d813ae30e07f7",
+        "674d90b55704568fe60bc8f5"
+      ],
+      "weaponNames": {
+        "54491bb74bdc2d09088b4567": {
+          "zh": "ER Fulcrum刺刀",
+          "en": "ER FULCRUM BAYONET"
+        },
+        "57e26fc7245977162a14b800": {
+          "zh": "A-2607-95x18匕首",
+          "en": "Bars A-2607 95Kh18 knife"
+        },
+        "57e26ea924597715ca604a09": {
+          "zh": "A-2607-大马士革匕首",
+          "en": "Bars A-2607 Damascus knife"
+        },
+        "5bffe7930db834001b734a39": {
+          "zh": "冲击斧",
+          "en": "Crash Axe"
+        },
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        },
+        "5c07df7f0db834001b73588a": {
+          "zh": "Freeman撬棍",
+          "en": "Freeman crowbar"
+        },
+        "6087e570b998180e9f76dc24": {
+          "zh": "Superfors DB 2020 Dead Blow锤",
+          "en": "Superfors DB 2020 Dead Blow Hammer"
+        },
+        "5bffdc370db834001d23eca8": {
+          "zh": "6h5刺刀",
+          "en": "6Kh5 Bayonet"
+        },
+        "5bffdd7e0db834001b734a1a": {
+          "zh": "Miller Bros. Blades M-2 战术剑 ",
+          "en": "Miller Bros. Blades M-2 Tactical Sword"
+        },
+        "5c0126f40db834002a125382": {
+          "zh": "Red Rebel冰镐",
+          "en": "Red Rebel ice pick"
+        },
+        "63495c500c297e20065a08b1": {
+          "zh": "老式手持镰刀",
+          "en": "Old hand scythe"
+        },
+        "63920105a83e15700a00f168": {
+          "zh": "SOG Voodoo Hawk战术斧",
+          "en": "SOG Voodoo Hawk tactical tomahawk"
+        },
+        "5c010e350db83400232feec7": {
+          "zh": "SP-8生存砍刀",
+          "en": "SP-8 Survival Machete"
+        },
+        "57cd379a24597778e7682ecf": {
+          "zh": "Kiba Arms Tactical战斧",
+          "en": "Kiba Arms Tactical Tomahawk"
+        },
+        "601948682627df266209af05": {
+          "zh": "UVSR“针叶林-1”求生砍刀",
+          "en": "UVSR Taiga-1 survival machete"
+        },
+        "5c012ffc0db834001d23f03f": {
+          "zh": "野营斧",
+          "en": "Camper axe"
+        },
+        "5bc9c1e2d4351e00367fbcf0": {
+          "zh": "古董斧头",
+          "en": "Antique axe"
+        },
+        "5bead2e00db834001c062938": {
+          "zh": "MPL-50挖掘工具",
+          "en": "MPL-50 entrenching tool"
+        },
+        "6540d2162ae6d96b540afcaf": {
+          "zh": "PR-Taran警棍",
+          "en": "PR-Taran police baton"
+        },
+        "664a5428d5e33a713b622379": {
+          "zh": "APOK ”荒原之地“ 战术短剑",
+          "en": "APOK Tactical Wasteland Gladius"
+        },
+        "65ca457b4aafb5d7fc0dcb5d": {
+          "zh": "United Cutlery M48战术尼泊尔军刀",
+          "en": "United Cutlery M48 Tactical Kukri"
+        },
+        "67609c44204d813ae30e07f7": {
+          "zh": "67609c44204d813ae30e07f7",
+          "en": "67609c44204d813ae30e07f7"
+        },
+        "674d90b55704568fe60bc8f5": {
+          "zh": "“鲨鱼”推刃匕首",
+          "en": "Akula push dagger"
+        }
+      },
+      "location": "RezervBase"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "54491bb74bdc2d09088b4567",
+        "57e26fc7245977162a14b800",
+        "57e26ea924597715ca604a09",
+        "5bffe7930db834001b734a39",
+        "5fc64ea372b0dd78d51159dc",
+        "5c07df7f0db834001b73588a",
+        "6087e570b998180e9f76dc24",
+        "5bffdc370db834001d23eca8",
+        "5bffdd7e0db834001b734a1a",
+        "5c0126f40db834002a125382",
+        "63495c500c297e20065a08b1",
+        "63920105a83e15700a00f168",
+        "601948682627df266209af05",
+        "5c010e350db83400232feec7",
+        "57cd379a24597778e7682ecf",
+        "5c012ffc0db834001d23f03f",
+        "5bead2e00db834001c062938",
+        "5bc9c1e2d4351e00367fbcf0",
+        "6540d2162ae6d96b540afcaf",
+        "664a5428d5e33a713b622379",
+        "65ca457b4aafb5d7fc0dcb5d",
+        "67609c44204d813ae30e07f7",
+        "674d90b55704568fe60bc8f5"
+      ],
+      "weaponNames": {
+        "54491bb74bdc2d09088b4567": {
+          "zh": "ER Fulcrum刺刀",
+          "en": "ER FULCRUM BAYONET"
+        },
+        "57e26fc7245977162a14b800": {
+          "zh": "A-2607-95x18匕首",
+          "en": "Bars A-2607 95Kh18 knife"
+        },
+        "57e26ea924597715ca604a09": {
+          "zh": "A-2607-大马士革匕首",
+          "en": "Bars A-2607 Damascus knife"
+        },
+        "5bffe7930db834001b734a39": {
+          "zh": "冲击斧",
+          "en": "Crash Axe"
+        },
+        "5fc64ea372b0dd78d51159dc": {
+          "zh": "邪教徒之刃",
+          "en": "Cultist knife"
+        },
+        "5c07df7f0db834001b73588a": {
+          "zh": "Freeman撬棍",
+          "en": "Freeman crowbar"
+        },
+        "6087e570b998180e9f76dc24": {
+          "zh": "Superfors DB 2020 Dead Blow锤",
+          "en": "Superfors DB 2020 Dead Blow Hammer"
+        },
+        "5bffdc370db834001d23eca8": {
+          "zh": "6h5刺刀",
+          "en": "6Kh5 Bayonet"
+        },
+        "5bffdd7e0db834001b734a1a": {
+          "zh": "Miller Bros. Blades M-2 战术剑 ",
+          "en": "Miller Bros. Blades M-2 Tactical Sword"
+        },
+        "5c0126f40db834002a125382": {
+          "zh": "Red Rebel冰镐",
+          "en": "Red Rebel ice pick"
+        },
+        "63495c500c297e20065a08b1": {
+          "zh": "老式手持镰刀",
+          "en": "Old hand scythe"
+        },
+        "63920105a83e15700a00f168": {
+          "zh": "SOG Voodoo Hawk战术斧",
+          "en": "SOG Voodoo Hawk tactical tomahawk"
+        },
+        "601948682627df266209af05": {
+          "zh": "UVSR“针叶林-1”求生砍刀",
+          "en": "UVSR Taiga-1 survival machete"
+        },
+        "5c010e350db83400232feec7": {
+          "zh": "SP-8生存砍刀",
+          "en": "SP-8 Survival Machete"
+        },
+        "57cd379a24597778e7682ecf": {
+          "zh": "Kiba Arms Tactical战斧",
+          "en": "Kiba Arms Tactical Tomahawk"
+        },
+        "5c012ffc0db834001d23f03f": {
+          "zh": "野营斧",
+          "en": "Camper axe"
+        },
+        "5bead2e00db834001c062938": {
+          "zh": "MPL-50挖掘工具",
+          "en": "MPL-50 entrenching tool"
+        },
+        "5bc9c1e2d4351e00367fbcf0": {
+          "zh": "古董斧头",
+          "en": "Antique axe"
+        },
+        "6540d2162ae6d96b540afcaf": {
+          "zh": "PR-Taran警棍",
+          "en": "PR-Taran police baton"
+        },
+        "664a5428d5e33a713b622379": {
+          "zh": "APOK ”荒原之地“ 战术短剑",
+          "en": "APOK Tactical Wasteland Gladius"
+        },
+        "65ca457b4aafb5d7fc0dcb5d": {
+          "zh": "United Cutlery M48战术尼泊尔军刀",
+          "en": "United Cutlery M48 Tactical Kukri"
+        },
+        "67609c44204d813ae30e07f7": {
+          "zh": "67609c44204d813ae30e07f7",
+          "en": "67609c44204d813ae30e07f7"
+        },
+        "674d90b55704568fe60bc8f5": {
+          "zh": "“鲨鱼”推刃匕首",
+          "en": "Akula push dagger"
+        }
+      },
+      "location": "Sandbox,Sandbox_high"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639136df4b15ca31f76bc31f",
+      "name": {
+        "zh": "猎人之路 - 管理者",
+        "en": "The Huntsman Path - Administrator"
+      }
+    },
+    {
+      "id": "6391372c8ba6894d155e77d7",
+      "name": {
+        "zh": "直播 - 4",
+        "en": "Broadcast - Part 4"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5d67b41686f774368e1b78df.jpg",
+  "isKey": false
+}

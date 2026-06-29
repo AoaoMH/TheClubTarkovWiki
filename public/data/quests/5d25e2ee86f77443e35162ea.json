@@ -1,0 +1,193 @@
+{
+  "id": "5d25e2ee86f77443e35162ea",
+  "name": {
+    "zh": "猎人之路 - 森林管理员",
+    "en": "The Huntsman Path - Woods Keeper"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5d6fc87386f77449db3db94e",
+      "itemName": {
+        "zh": "“Hawk”火药",
+        "en": "Gunpowder \"Hawk\""
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c05300686f7746dce784e5d",
+      "itemName": {
+        "zh": "VPX闪存模块",
+        "en": "VPX Flash Storage Module"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c94bbff86f7747ee735c08f",
+      "itemName": {
+        "zh": "TerraGroup实验室访问钥匙卡",
+        "en": "TerraGroup Labs access keycard"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "作为一个有多年经验的猎场看守人，我知道如果森林里有感染源的话，那你就一定得立刻把感染源从森林里移除从而防止整片森林都被感染。现在这里就有一个感染源，人们叫他Shturman，他和他的成员就驻扎在锯木厂里，这样一来我的自然保护区就危险了。解决他，为了森林和人们。记得保持警惕，Shturman有好几个同伴，他们也都是神枪手。",
+    "en": "For many years working as a gamekeeper, I know that if there is an infection in the forest, then you need to get rid of it immediately before the whole forest gets infected. One such infection settled here, they call it Shturman, he and his crew set up at the sawmill, so now I don't feel safe even in my own reserve. Deal with it, it will be for the better for the forest and the people. But be careful, kid, Shturman has friends, and they all can shoot well."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKojaniy"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d08d21286f774736e7c94c3"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d08d21286f774736e7c94c3": {
+          "zh": "Shturman 的储物箱钥匙",
+          "en": "Shturman's stash key"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d08d21286f774736e7c94c3"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d08d21286f774736e7c94c3": {
+          "zh": "Shturman 的储物箱钥匙",
+          "en": "Shturman's stash key"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2b486f77409de05bba0",
+      "name": {
+        "zh": "猎人之路 - 周边安全",
+        "en": "The Huntsman Path - Secured Perimeter"
+      }
+    },
+    {
+      "id": "596a0e1686f7741ddf17dbee",
+      "name": {
+        "zh": "供给计划",
+        "en": "Supply Plans"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5d25e4ca86f77409dd5cdf2c",
+      "name": {
+        "zh": "狩猎之旅",
+        "en": "Hunting Trip"
+      }
+    },
+    {
+      "id": "600302d73b897b11364cd161",
+      "name": {
+        "zh": "猎人",
+        "en": "Hunter"
+      }
+    },
+    {
+      "id": "60e71e8ed54b755a3b53eb67",
+      "name": {
+        "zh": "猎人之路 - 无情杀手",
+        "en": "The Huntsman Path - Relentless"
+      }
+    },
+    {
+      "id": "626bdcc3a371ee3a7a3514c5",
+      "name": {
+        "zh": "流浪狗",
+        "en": "Stray Dogs"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d69470786f774238a38d844.jpg",
+  "isKey": false
+}

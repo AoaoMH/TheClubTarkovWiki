@@ -1,0 +1,75 @@
+{
+  "id": "5c112d7e86f7740d6f647486",
+  "name": {
+    "zh": "垃圾佬",
+    "en": "Scavenger"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Skill",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 65000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 65000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bffe7930db834001b734a39",
+      "itemName": {
+        "zh": "冲击斧",
+        "en": "Crash Axe"
+      }
+    }
+  ],
+  "description": {
+    "zh": "听着我的话，老兄。在交火中，每一秒都至关重要。关键不仅仅是得保全自己，还要能带走你的物资。选择正确的目标可是一门学问，选完之后如何全身而退并且还能赚一票也不是那么容易的，这需要天赋。你就是天选之人，对吗？",
+    "en": "Listen to this, brother. In combat every second counts, it's important not only to save your own hide but to carry out the loot too. Sharpshooting is science and all, but getting the fuck out after that and staying alive with some goodies is not that simple of a task either. It requires talent. You've got that talent, right?"
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Search",
+      "value": 9,
+      "target": "Search"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b478b1886f7744d1b23c57d",
+      "name": {
+        "zh": "火线速递",
+        "en": "Hot Delivery"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

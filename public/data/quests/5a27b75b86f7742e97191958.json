@@ -1,0 +1,148 @@
+{
+  "id": "5a27b75b86f7742e97191958",
+  "name": {
+    "zh": "渔具",
+    "en": "Fishing Gear"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Completion",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 700,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 700
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aa7d03ae5b5b00016327db5",
+      "itemName": {
+        "zh": "UNTAR头盔",
+        "en": "UNTAR helmet"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b3116595acfc40019476364",
+      "itemName": {
+        "zh": "西格-绍尔Romeo 4反射式瞄具",
+        "en": "SIG Sauer ROMEO4 reflex sight"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5aafa857e5b5b00018480968",
+      "itemName": {
+        "zh": "春田 M1A 7.62x51 精确射手步枪",
+        "en": "Springfield Armory M1A 7.62x51 rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "下午好。 我叫Peacekeeper，Skier向我引荐了你，他说你是一个知道自我价值和忠诚价值的人。不浪费时间了，直接谈生意吧。我需要把一些装备交给某个特定的人。我会给你所需的东西，你的活儿是把它放在海岸线一个特定的地方，放在一个叫……叫什么名字——防波堤的边上。那边有一艘船，放在那儿。都清楚了吗？",
+    "en": "Good afternoon, mercenary. My name is Peacekeeper, and you were recommended by Skier, as a man who knows his value and the value of loyalty too. Let's not waste time and get straight to business. I need to deliver certain gear to certain people. I'll give you all the stuff I need to be moved, and your job will be to leave it all in a certain spot - on the Shoreline, next to one of the - what’s it called - breakwaters. There is a boat nearby, and that is where you drop the gear. Is the task clear?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_001",
+      "targetNames": {
+        "place_peacemaker_001": {
+          "zh": "place_peacemaker_001",
+          "en": "place_peacemaker_001"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "55801eed4bdc2d89578b4588"
+      ],
+      "targetNames": {
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "544fb5454bdc2df8738b456a"
+      ],
+      "targetNames": {
+        "544fb5454bdc2df8738b456a": {
+          "zh": "Leatherman多功能工具钳",
+          "en": "Leatherman Multitool"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27d2af86f7744e1115b323",
+      "name": {
+        "zh": "西方来客 - 2",
+        "en": "Friend From the West - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27b7a786f774579c3eb376",
+      "name": {
+        "zh": "猎虎行动",
+        "en": "Tigr Safari"
+      }
+    },
+    {
+      "id": "5edac020218d181e29451446",
+      "name": {
+        "zh": "样品",
+        "en": "Samples"
+      }
+    },
+    {
+      "id": "60e71ccb5688f6424c7bfec4",
+      "name": {
+        "zh": "战利品",
+        "en": "Trophies"
+      }
+    },
+    {
+      "id": "67190f6c1b3f4964d90d71e9",
+      "name": {
+        "zh": "全球威胁",
+        "en": "Global Threat"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/594d241f86f7740d8246218d.jpg",
+  "isKey": false
+}

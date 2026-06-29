@@ -1,0 +1,66 @@
+{
+  "id": "5a27ba9586f7741b543d8e85",
+  "name": {
+    "zh": "疗养之旅 - 6",
+    "en": "Spa Tour - Part 6"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Loyalty",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.04
+    }
+  ],
+  "description": {
+    "zh": "我们的合作最近有不少成果啊，很好，我也愈发信任你了。毕竟，可靠的人总是很有价值的，在这方面我们敢为人先。是时候让你了解我在疗养院进行的一项微妙的工作了。但是首先，我想从你那边拿到一些忠诚的证明—— 一批耳朵。哈哈，要耳朵只是在开玩笑，但是其他的话可不是玩笑。如果你想参与行动，我需要你证明你的忠诚，不一定要用鲜血。",
+    "en": "Our partnership has been quite fruitful lately, it's great - and I want to trust you more. After all, reliable people are valuable. It's time I let you in on a delicate operation I'm running at the resort. However, first, I would like you to prove your loyalty to me, bring me a necklace made from the ears of your enemies. He-he, just kidding about the ears. But I am serious about loyalty - If you want in on this operation, you'll need to prove your loyalty to me, and not necessarily with blood. You know exactly what I mean."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 8000,
+      "target": [
+        "5696686a4bdc2da3298b456a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5696686a4bdc2da3298b456a": {
+          "zh": "美元",
+          "en": "Dollars"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a0449d586f77474e66227b7",
+      "name": {
+        "zh": "疗养之旅 - 5",
+        "en": "Spa Tour - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27bafb86f7741c73584017",
+      "name": {
+        "zh": "疗养之旅 - 7",
+        "en": "Spa Tour - Part 7"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+  "isKey": false
+}

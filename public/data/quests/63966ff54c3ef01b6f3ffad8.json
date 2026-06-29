@@ -1,0 +1,144 @@
+{
+  "id": "63966ff54c3ef01b6f3ffad8",
+  "name": {
+    "zh": "挑衅",
+    "en": "Provocation"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Completion",
+  "location": "5714dbc024597771384a510d",
+  "rewards": [
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c05308086f7746b2101e90b",
+      "itemName": {
+        "zh": "Virtex可编程处理器",
+        "en": "Virtex programmable processor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c05308086f7746b2101e90b",
+      "itemName": {
+        "zh": "Virtex可编程处理器",
+        "en": "Virtex programmable processor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5d1b5e94d7ad1a2b865a96b0",
+      "itemName": {
+        "zh": "FLIR RS-32 2.25-9x 35毫米 60Hz热成像步枪瞄准镜",
+        "en": "FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope"
+      }
+    },
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.03
+    }
+  ],
+  "description": {
+    "zh": "时间就是万物之根。我的清洁工们找到了Glukhar和受TerraGroup庇护的军火商的联系。你的下一个任务是，做点蠢事儿来挑衅他的联络人。他们很可能还不知道，Glukhar已经不在了。去一趟Ultra，TerraGroup在那里有一个早期的中转站。去把那个地方弄得稀烂，做做样子。记得用上你从那个家伙身上找到的东西。另外，在那里留下一条我的消息作为特别礼物。让他们知道，我的探照灯已经打到他们身上了。",
+    "en": "Time is of the essence. My cleaner crew found evidence of Glukhar's connection to the arms development that took place under the aegis of TerraGroup. The next task for you is to provoke Glukhar's contacts into doing something foolish. They probably don't know yet that Glukhar is no longer available. Go to Ultra, TerraGroup has had a staging post there since the early days. Make a mess of it, make a show of it. Use the trophy you took from the bull's body. And for the particularly savvy, leave something humiliating in place to say hello, so to speak. The mutts must know their place."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 20,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5cadfbf7ae92152ac412eeef"
+      ],
+      "weaponNames": {
+        "5cadfbf7ae92152ac412eeef": {
+          "zh": "ASh-12 12.7x55 突击步枪",
+          "en": "ASh-12 12.7x55 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "635a758bfefc88a93f021b8a"
+      ],
+      "targetNames": {
+        "635a758bfefc88a93f021b8a": {
+          "zh": "咸狗牛肉肠",
+          "en": "Salty Dog beef sausage"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5d1b376e86f774252519444e"
+      ],
+      "targetNames": {
+        "5d1b376e86f774252519444e": {
+          "zh": "“凶狠跑刀崽”私酒",
+          "en": "Bottle of Fierce Hatchling moonshine"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5c13cef886f774072e618e82"
+      ],
+      "targetNames": {
+        "5c13cef886f774072e618e82": {
+          "zh": "卫生纸",
+          "en": "Toilet paper"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Interchange"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63966fd9ea19ac7ed845db30",
+      "name": {
+        "zh": "以牙还牙",
+        "en": "Payback"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "639670029113f06a7c3b2377",
+      "name": {
+        "zh": "按图索骥",
+        "en": "Following the Bread Crumbs"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

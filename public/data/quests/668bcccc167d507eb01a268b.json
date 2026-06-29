@@ -1,0 +1,154 @@
+{
+  "id": "668bcccc167d507eb01a268b",
+  "name": {
+    "zh": "进口管制",
+    "en": "Import Сontrol"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Elimination",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 64500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 110000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 110000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d0378d486f77420421a5ff4",
+      "itemName": {
+        "zh": "军用电源滤波器",
+        "en": "Military power filter"
+      },
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "zh": "你好，我给你通报一下情况。很明显Peacekeeper和Prapor同志正在试图重新瓜分武器市场。他们都在用折扣价争取对方的客户。听起来很耳熟，对吧？历史总是在重演，而这场军备竞赛又翻开了新的一页……\n\n好吧，不管怎样，现在说这些没意义了，而且这个局面可能对我有利。我刚准备补充我的进口武器库存。我听说连Polikhim的掠夺者现在都配上西方枪了！你能帮我弄一些吗？我觉得没人会哀悼这些土匪的。",
+    "en": "Hello, I'll bring you up to speed. Apparently Peacekeeper and comrade Prapor are trying to re-divide the weapon market. They're both dumping to win customers from each other. Rings a bell, doesn't it? History always repeats itself, and we are in yet another page of the book with this arms race...\n\nWell, whatever, no point in rambling now, plus this situation could prove beneficial to me. I was just about to restock my supply of imported weapons. I heard that even the Scavs at Polikhim have tuned western guns now! Can you get me some of those? I don't think anyone will mourn these bandits."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "factory4_night,factory4_day"
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5447a9cd4bdc2dbd208b4567",
+        "5fbcc1d9016cce60e8341ab3",
+        "5df8ce05b11454561e39243b",
+        "5bfea6e90db834001b7347f3",
+        "5bb2475ed4351e00853264e3",
+        "62e7c4fba689e8c9c50dfc38",
+        "6184055050224f204c1da540",
+        "618428466ef05c2ce828f218",
+        "56d59856d2720bd8418b456a",
+        "5cadc190ae921500103bb3b6",
+        "5a7ae0c351dfba0017554310",
+        "6193a720f8ee7e52e42109ed"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        },
+        "5fbcc1d9016cce60e8341ab3": {
+          "zh": "SIG MCX .300 AAC Blackout 突击步枪",
+          "en": "SIG MCX .300 Blackout assault rifle"
+        },
+        "5df8ce05b11454561e39243b": {
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪",
+          "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "5bb2475ed4351e00853264e3": {
+          "zh": "HK 416A5 5.56x45 突击步枪",
+          "en": "HK 416A5 5.56x45 assault rifle"
+        },
+        "62e7c4fba689e8c9c50dfc38": {
+          "zh": "Steyr AUG A1 5.56x45突击步枪",
+          "en": "Steyr AUG A1 5.56x45 assault rifle"
+        },
+        "6184055050224f204c1da540": {
+          "zh": "FN SCAR-L 5.56x45突击步枪",
+          "en": "FN SCAR-L 5.56x45 assault rifle"
+        },
+        "618428466ef05c2ce828f218": {
+          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE）",
+          "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
+        },
+        "56d59856d2720bd8418b456a": {
+          "zh": "P226R 9x19手枪",
+          "en": "SIG P226R 9x19 pistol"
+        },
+        "5cadc190ae921500103bb3b6": {
+          "zh": "伯莱塔M9A3 9x19手枪",
+          "en": "Beretta M9A3 9x19 pistol"
+        },
+        "5a7ae0c351dfba0017554310": {
+          "zh": "GLOCK 17 9x19手枪",
+          "en": "Glock 17 9x19 pistol"
+        },
+        "6193a720f8ee7e52e42109ed": {
+          "zh": "HK USP .45 ACP手枪",
+          "en": "HK USP .45 ACP pistol"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315e4a6af4ab4b50f3459",
+      "name": {
+        "zh": "救援行动",
+        "en": "Saving the Mole"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "668bccf963acb16d63707043",
+      "name": {
+        "zh": "What’s Your Evidence?",
+        "en": "What’s Your Evidence?"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5981c96e86f77477920d1a04.jpg",
+  "isKey": false
+}

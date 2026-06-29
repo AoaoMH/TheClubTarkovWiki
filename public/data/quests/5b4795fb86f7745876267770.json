@@ -1,0 +1,182 @@
+{
+  "id": "5b4795fb86f7745876267770",
+  "name": {
+    "zh": "愿者上钩",
+    "en": "Chumming"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 19100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 65000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 65000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59faf7ca86f7740dbe19f6c2",
+      "itemName": {
+        "zh": "劳力土潜水金腕表",
+        "en": "Roler Submariner gold wrist watch"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "zh": "如果你想动点真格的，那就进来吧！你种下去的那些摄像头终于开花结果了。设法找到那个我们要找的人，那个和SCAV关系深厚的人。\n\n好吧，为了世界和平，我想给他们喂点东西。现在这些混蛋们太疯狂了。他们不分青红皂白地滥杀无辜，还吓跑了我的客户，狗娘养的！巧的是，这些手脚不干净的婊子来自不同的帮派，需要不同的方式去接近他们。目前为止已经给他们每一边三条金链子了，只为了能够让沟通进行下去，顺便让我顺藤摸瓜...... 我手上的货不够提供给他们所有人，但是你是个老滑头，总能想办法弄到这些链子的，我会告诉你去哪里找。同时你要确保立交桥没有PMC了，不然我们要找的那个人显然没办法到那里去。",
+    "en": "Come on in if you’re serious, got a new task for you! Those cameras you planted actually bore some fruit. Managed to find the right men, on good terms with Scavs.\n\nIn short, I want to chum them up a bit, for the sake of peace. Because nowadays they are just too fucking mental. Wasting anyone indiscriminately, scared all my customers away, those motherfuckers. The trick is, these thieving bitches are from different gangs, and all need a different approach. So far we've settled on three gold chains for each, to get the conversation going, and we’ll see where it goes... I don’t have enough chains for all of them, but you’re a smooth operator, you’ll get them in no time. I'll point you where to stash them. Also, you should make sure the Interchange is clear of PMCs at the specific time, because otherwise, the right people may not reach the stash."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 3,
+      "target": [
+        "5734758f24597738025ee253"
+      ],
+      "targetNames": {
+        "5734758f24597738025ee253": {
+          "zh": "金项链",
+          "en": "Golden neck chain"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 3,
+      "target": [
+        "5734758f24597738025ee253"
+      ],
+      "targetNames": {
+        "5734758f24597738025ee253": {
+          "zh": "金项链",
+          "en": "Golden neck chain"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 3,
+      "target": [
+        "5734758f24597738025ee253"
+      ],
+      "targetNames": {
+        "5734758f24597738025ee253": {
+          "zh": "金项链",
+          "en": "Golden neck chain"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "daytime": {
+        "from": 22,
+        "to": 10
+      },
+      "location": "Interchange"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b47926a86f7747ccc057c15",
+      "name": {
+        "zh": "情报就是力量",
+        "en": "Informed Means Armed"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c0bbaa886f7746941031d82",
+      "name": {
+        "zh": "一派胡言",
+        "en": "Bullshit"
+      }
+    },
+    {
+      "id": "5c0bc91486f7746ab41857a2",
+      "name": {
+        "zh": "大音希声",
+        "en": "Silent Caliber"
+      }
+    },
+    {
+      "id": "5c0bdb5286f774166e38eed4",
+      "name": {
+        "zh": "坚如燧石",
+        "en": "Flint"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "639dbaf17c898a131e1cffff",
+      "name": {
+        "zh": "老赖",
+        "en": "Debtor"
+      }
+    },
+    {
+      "id": "658027799634223183395339",
+      "name": {
+        "zh": "禁止打劫",
+        "en": "No Swiping"
+      }
+    },
+    {
+      "id": "675c3582f6ddc329a90f9c6d",
+      "name": {
+        "zh": "私人俱乐部",
+        "en": "Private Club"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+  "isKey": false
+}

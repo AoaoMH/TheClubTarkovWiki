@@ -1,0 +1,121 @@
+{
+  "id": "666314bf1cd52e3d040a2e78",
+  "name": {
+    "zh": "严词指控",
+    "en": "Serious Allegations"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 36000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1500,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57235b6f24597759bf5a30f1",
+      "itemName": {
+        "zh": "AN/PVS-14单筒夜视仪",
+        "en": "L3Harris AN/PVS-14 night vision monocular"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a16b93dfcdbcbcae6687261",
+      "itemName": {
+        "zh": "AN/PVS-14单目夜视仪双燕尾槽安装座",
+        "en": "AN/PVS-14 Norotos Dual Dovetail Mount"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a16b8a9fcdbcb00165aa6ca",
+      "itemName": {
+        "zh": "Norotos钛合金高级战术支架 ",
+        "en": "Norotos Titanium Advanced Tactical Mount"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿！还记得上次要找游戏杂志的那个客户吗？我又接了个新单子。这一次要找的是一个硬盘，又是和同款游戏相关的东西。有些职业诈骗犯四处散播谣言称，这款游戏的开发者窃取了 200 万个账号的个人数据！为了让整个谣言看起来有板有眼，这个骗子还四处邮寄了“证据”硬盘混淆视听。但显然那帮开发者决定严肃对待这个问题，他们不会放任这种屁话四处流传，所以我的客户希望你能找到那个硬盘，帮助他们澄清整个事件。\n\n我的人说其中一个因破案应该在疗养院附近的一座木屋里，房门左边有个厕所，进门的地方还有块破布罩着。",
+    "en": "Hey! Remember the client with the game magazine? I have a new order. I need a data disk, it's all related to the same game. Some scam artist said that the people who created the game had stolen user data from 2 million accounts! And as proof he showed a hard drive to everyone, allegedly with this leak. But the publishers are serious guys, they would not allow such bullshit. So the client is looking for the drive to clarify the situation.\n\nMy guys said the drive should be in an old wooden house near the health resort, there is a toilet on the left and a rag above the entrance."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66760b3deb51b08bd40c2b08"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66760b3deb51b08bd40c2b08": {
+          "zh": "机械硬盘",
+          "en": "Hard drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66760b3deb51b08bd40c2b08"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66760b3deb51b08bd40c2b08": {
+          "zh": "机械硬盘",
+          "en": "Hard drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "666314bd920800278d0f6748",
+      "name": {
+        "zh": "忠实观众",
+        "en": "Viewer"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "666314c10aa5c7436c00908c",
+      "name": {
+        "zh": "镜头就位，开拍！",
+        "en": "Camera, Action!"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6682a777e1471d93f20255c1.png",
+  "isKey": false
+}

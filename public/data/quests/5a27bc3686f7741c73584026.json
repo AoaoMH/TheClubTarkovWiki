@@ -1,0 +1,109 @@
+{
+  "id": "5a27bc3686f7741c73584026",
+  "name": {
+    "zh": "湿活 - 4",
+    "en": "Wet Job - Part 4"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1700,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1700
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a80a29286f7742b25692012",
+      "itemName": {
+        "zh": "海岸线疗养院平面图",
+        "en": "Shoreline Health Resort plan map"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5dcbd56fdbd3d91b3e5468d5",
+      "itemName": {
+        "zh": "沙漠科技 MDR 7.62x51 突击步枪",
+        "en": "Desert Tech MDR 7.62x51 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "看起来冲突爆发后Artyom曾经住在过疗养院一段时间，这也许和Terragroup有关...... 也可能没有，还缺乏确切信息。他们与渔民一起进行的联合行动的性质也不够明确，但是，考虑到会面的保密级别，我很确信这是某种军事技术。我们可以从客房名单中找找，前提是它没有被篡改的话，自然是能找到Artyom的确切住处的。去疗养院的管理办公室看看吧，类似的文件应该还在那里。",
+    "en": "We have run this Artyom through our database. It seems he lived in the health resort after the conflict and may have been connected to TerraGroup, but it is unconfirmed, no precise info yet. The nature of their joint operation with the fisherman is also not completely clear, but, considering how secretive their meetings were, I'm pretty sure it's some kind of military tech. We need to find where exactly Artyom’s quarters were, the info could be in the list of Health Resort tenants, which has to be in the administration office, if it is still intact, of course. Find those documents and bring them to me."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5a29357286f77409c705e025"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a29357286f77409c705e025": {
+          "zh": "Sliderkey U盘",
+          "en": "Sliderkey Flash drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5a29357286f77409c705e025"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a29357286f77409c705e025": {
+          "zh": "Sliderkey U盘",
+          "en": "Sliderkey Flash drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bc1586f7741f6d40fa2f",
+      "name": {
+        "zh": "湿活 - 3",
+        "en": "Wet Job - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27bc6986f7741c7358402b",
+      "name": {
+        "zh": "湿活 - 5",
+        "en": "Wet Job - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5967532b86f77461fb2f333a.jpg",
+  "isKey": false
+}

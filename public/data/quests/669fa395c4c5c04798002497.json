@@ -1,0 +1,83 @@
+{
+  "id": "669fa395c4c5c04798002497",
+  "name": {
+    "zh": "出口在此",
+    "en": "Exit Here"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Exploration",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 260,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 260
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "60391b0fb847c71012789415",
+      "itemName": {
+        "zh": "TP-200 砖型TNT",
+        "en": "TP-200 TNT brick"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，你发现了吗，越来越多的人在化工厂附近晃悠，对我来说这有点过于拥挤了... 所以我需要你想办法，寻找一条新的撤离路线，这样就算有意外发生，我们也可以全身而退，你懂吧。如果你帮我这个忙，报酬一定不会少，相信我！",
+    "en": "Hey, so I've noticed that more and more people are sneaking around at the chemical plant, it's getting a little crowded for my taste... That's why I need you to scout out a new exit route in case shit goes down, you know. If you do that, you can count on a magnificent reward, trust!"
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3477486f7741d651d6885",
+      "name": {
+        "zh": "侦查",
+        "en": "Scout"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "669fa39c64ea11e84c0642a6",
+      "name": {
+        "zh": "隔墙有“眼”",
+        "en": "The Walls Have Eyes"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66acec28ec21e102040a0479.png",
+  "isKey": false
+}

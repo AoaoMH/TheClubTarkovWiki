@@ -1,0 +1,112 @@
+{
+  "id": "625d7001c4874104f230c0c5",
+  "name": {
+    "zh": "试探 - 3",
+    "en": "Assessment - Part 3"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Elimination",
+  "location": "5b0fc42d86f7744a585f9105",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 24800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "嘿！你来得正是时候。Lightkeeper又给你派活儿了...我给你说点老实话，你可以保密吗？我可不知道接下来还有多少这样的任务。按计划来说，我想我现在已经和灯塔的那位商人达成合作关系了。但是不知道为什么，我们在一次又一次地证明着自己的诚意，做出一副我们很忠诚的样子。而且，把你拖下水的也正是我...这次是什么任务呢？进入实验室，解决掉一些掠夺者。这还没完。你还需要寻找一些兴奋剂。Lightkeeper看起来对这些东西非常感兴趣，因为USEC曾经出于某些原因拒绝给他提供样品。我知道这绝非易事，但我们都做到这个地步了。我不知道该怎么拒绝这个差事。",
+    "en": "Oh, hey! You're just in time. There's another job for you from Lightkeeper... Can I tell you something frankly, so that it doesn't go out the door? I don't know how many more of these missions there will be. I thought I'd get in touch with the trader at the Lighthouse and make a partnership agreement. But for some reason we have to prove our loyalty over and over again, to demonstrate the steadfastness of our intentions. And it was I who got you into this... What's the mission? Getting into the laboratory, taking out a group of Raiders. And that's not all. You need to find combat stimulants. Lightkeeper seems to have a keen interest in them, because USEC refused to give him samples for some reason. I understand that it might not be easy, but we've already come this far. I just can't refuse."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 7,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ],
+      "location": "laboratory"
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 15,
+      "target": [
+        "5c0e531286f7747fa54205c2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e531286f7747fa54205c2": {
+          "zh": "SJ1 TGLabs战斗兴奋剂注射器",
+          "en": "SJ1 TGLabs combat stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "5c0e531d86f7747fa23f4d42"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e531d86f7747fa23f4d42": {
+          "zh": "SJ6 TGLabs战斗兴奋剂注射器",
+          "en": "SJ6 TGLabs combat stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5fca13ca637ee0341a484f46"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5fca13ca637ee0341a484f46": {
+          "zh": "SJ9 TGLabs战斗兴奋剂注射器",
+          "en": "SJ9 TGLabs combat stimulant injector"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "625d6fff4149f1149b5b12c9",
+      "name": {
+        "zh": "试探 - 2",
+        "en": "Assessment - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "625d70031ed3bb5bcc5bd9e5",
+      "name": {
+        "zh": "灯塔之匙",
+        "en": "Key to the Tower"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63ab1047160cc610ba035e05.jpg",
+  "isKey": false
+}

@@ -1,0 +1,109 @@
+{
+  "id": "669fa39b91b0a8c9680fc467",
+  "name": {
+    "zh": "黑天鹅计划",
+    "en": "Black Swan"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b327086f7742525194449",
+      "itemName": {
+        "zh": "压力表",
+        "en": "Pressure gauge"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1c774f86f7746d6620f8db",
+      "itemName": {
+        "zh": "螺旋散热器",
+        "en": "Radiator helix"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我不明白，为什么没有人注意到铂金价格的剧烈波动。我们正在遭遇重大危机，但是他们竟然说我是悲观主义！那就让我们看看，他们有啥办法买入如此高价的铂金吧。\n\n话说回来，工厂地下有很多热交换器吧？那些苏联时代制造的散热管可是掺入了不少铂金。在这样的时候，你要时刻为危机做好准备。\n\n你能帮我个忙吗？只需要标记一下那些热交换器就好。",
+    "en": "I don't understand why nobody notices the obvious patterns in the platinum price change. We're facing a total crisis but I'm the one they're calling pessimistic! Well, let's see how they buy up platinum at the overprice.\n\nBy the way, we have old heat exchangers under the plant, they have those old corrugated tubes from Soviet times with platinum inserts in them. At times like this, you always want to be prepared for a possible crisis.\n\nCan you help me stock up? Just mark the heat exchangers with strobes."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3477486f7741d651d6885",
+      "name": {
+        "zh": "侦查",
+        "en": "Scout"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "669fa394e0c9f9fafa082897",
+      "name": {
+        "zh": "叉车拼多多",
+        "en": "Forklift Certified"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66acec6c34f21cc7fc076486.png",
+  "isKey": false
+}

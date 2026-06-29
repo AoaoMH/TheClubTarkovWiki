@@ -1,0 +1,119 @@
+{
+  "id": "6391359b9444fb141f4e6ee6",
+  "name": {
+    "zh": "一信之缘",
+    "en": "You've Got Mail"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 28000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 28000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a7c4850e899ef00150be885",
+      "itemName": {
+        "zh": "6B47 Ratnik-BSh 头盔（橄榄绿）",
+        "en": "6B47 Ratnik-BSh helmet (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57372ac324597767001bc261",
+      "itemName": {
+        "zh": "5.45x39mm BP弹药包（30发装）",
+        "en": "5.45x39mm BP gs ammo pack (30 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57372140245977611f70ee91",
+      "itemName": {
+        "zh": "9x18毫米PM SP7 gzh",
+        "en": "9x18mm PM SP7 gzh"
+      }
+    }
+  ],
+  "description": {
+    "zh": "请进，快请进！我给你安排个事情做。这是我的个人事情。我在塔科夫出事儿之前寄了一封信出去。现在我觉得没必要再把事情弄得一团糟了。不是时候。能帮我去邮局看看，那封信还在那里吗？",
+    "en": "Come in, come in! I've got something for you to do. It's a personal matter. I sent a letter just before all this mess started in Tarkov. And now I don't think it's worth it to stir it all up. Not the time. Would you look in the post office and see if my letter is still there?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "638cbc68a63f1b49be6a3010"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638cbc68a63f1b49be6a3010": {
+          "zh": "挂号信",
+          "en": "Registered letter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "638cbc68a63f1b49be6a3010"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638cbc68a63f1b49be6a3010": {
+          "zh": "挂号信",
+          "en": "Registered letter"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59675ea386f77414b32bded2",
+      "name": {
+        "zh": "邮递员派特 - 1",
+        "en": "Postman Pat - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "639135b04ed9512be67647d7",
+      "name": {
+        "zh": "苏共之辉 - 1",
+        "en": "Glory to CPSU - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63aaf76c435ab5742b4e4092.jpg",
+  "isKey": false
+}

@@ -1,0 +1,133 @@
+{
+  "id": "5ae3280386f7742a41359364",
+  "name": {
+    "zh": "枪匠 - 15",
+    "en": "Gunsmith - Part 15"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 19400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5addaffe86f77470b455f900",
+      "itemName": {
+        "zh": "Kiba 商店内侧格栅门钥匙",
+        "en": "Kiba Arms inner grate door key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b327086f7742525194449",
+      "itemName": {
+        "zh": "压力表",
+        "en": "Pressure gauge"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59eb7ebe86f7740b373438ce",
+      "itemName": {
+        "zh": "VSS/VAL TOZ 6P29M 基座",
+        "en": "VSS/VAL TOZ 6P29M mount"
+      }
+    }
+  ],
+  "description": {
+    "zh": "当我忙于搞网络的时候，我开始思考我们和网络究竟有什么不同，什么时候我们可以用这种系统取代我们短命的大脑呢。你觉得，这种时刻总有一天会到来吗？我认为它很快就会，我们已经不知道神经网络里发生的过程是什么了，只知道有一个输入的信号和这个行为的结果。它是如何用自己的内部规则进行学习，并把在自己的内部把神经活动串联起来，我们一概不知。它和我们有什么不同呢？你愿意生活在一个只有你的思维和想象力才能限制你的世界里吗？事实上，我认为，生活在这样一个世界里，如果没有目标，就不会比生活在我们自己的世界里更好，但如果你是不朽的，无所不能的，那么目标又从何而来……这一次，我们需要一个AS VAL。要有GL Shock枪托，AN/PEQ-15战术装置，夜视瞄准镜NSPU-M和一个30发弹匣。人机工效33以上，后坐力总和小于220。",
+    "en": "While I was busy with the network, I started to wonder how are we different from it, and when we can replace our short-lived brains with those kinds of systems. What do you think, will this time come someday? I think it will, very soon. We already don't know what processes occur inside neural networks, there is only an entry signal and the result of its actions, and how it has learned with its own internal rules, wiring up its own neural links inside itself. How is it different from us? Would you love living in a world where your actions get limited only by your mind and imagination? The truth is, I think, living in such a world would be no better than in our own if there is no goal. And where can a goal come from if you're immortal and omnipotent... This time we need an AS VAL. GL-SHOCK buttstock, AN/PEQ-15 tactical device, NSPU-M night scope, and a 30-round magazine. Ergonomics above 33 and recoil sum less than 220."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "57c44b372459772d2b39b8ce"
+      ],
+      "targetNames": {
+        "57c44b372459772d2b39b8ce": {
+          "zh": "AS “巨浪” 9x39 特种突击步枪",
+          "en": "AS VAL 9x39 special assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 33
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 220
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        }
+      ],
+      "requiredItems": [
+        "5a9eb32da2750c00171b3f9c",
+        "544909bb4bdc2d6f028b4577",
+        "5a7c74b3e899ef0014332c29"
+      ],
+      "requiredItemNames": {
+        "5a9eb32da2750c00171b3f9c": {
+          "zh": "Fab Defence GL Shock枪托",
+          "en": "AR-15 FAB Defense GL-SHOCK buttstock"
+        },
+        "544909bb4bdc2d6f028b4577": {
+          "zh": "L3Harris AN/PEQ-15 战术设备",
+          "en": "L3Harris AN/PEQ-15 tactical device"
+        },
+        "5a7c74b3e899ef0014332c29": {
+          "zh": "NSPU-M 3.5 倍 燕尾槽夜视瞄准镜",
+          "en": "NSPU-M 3.5x dovetail night vision scope"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639872fe8871e1272b10ccf6",
+      "name": {
+        "zh": "枪匠 - 14",
+        "en": "Gunsmith - Part 14"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ac242ab86f77412464f68b4",
+      "name": {
+        "zh": "枪匠 - 16",
+        "en": "Gunsmith - Part 16"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae3281c86f7745b3e3bf2d1.jpg",
+  "isKey": false
+}

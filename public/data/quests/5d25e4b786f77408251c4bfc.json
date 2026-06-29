@@ -1,0 +1,111 @@
+{
+  "id": "5d25e4b786f77408251c4bfc",
+  "name": {
+    "zh": "鱼塘",
+    "en": "Fishing Place"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 40000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 40000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ca2151486f774244a3b8d30",
+      "itemName": {
+        "zh": "FORT Redut-M护甲",
+        "en": "FORT Redut-M body armor"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，勇士！你好吗？在做好事吗？听着，我有不寻常的任务要做，机修工让我给他家做一个特别的东西，这个“东西”是如此的精巧，需要先进的电子设备才行。城市里没有地方能找到这些东西，该死的。但是有传闻说在Terragroup实验室里有很多这样的设备。那可能就是我需要的细节。现在把你送到实验室太危险了，但你应该可以帮我拿到通行证。你可以帮忙吗？是的，卡片应该是新的，而不是那些你可以从交易者那里买到的。",
+    "en": "Well hello there, warrior! How are you? Doing good? Listen, I've got an unusual task to do, Mechanic asked me to make one special thing for his home, and this \"thing\" is such a complicated one that it requires some advanced electronics. And there's no place in the city where these things could be found, damn it. However, there are rumors that somewhere around here is the TerraGroup laboratory. It might have the details we need. The Laboratory is too dangerous to send you there alone, but at least bring me the access cards. Will you help? And yes, the cards should be new, not the ones you could just buy from those shady traders."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "5c94bbff86f7747ee735c08f"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c94bbff86f7747ee735c08f": {
+          "zh": "TerraGroup实验室访问钥匙卡",
+          "en": "TerraGroup Labs access keycard"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5c94bbff86f7747ee735c08f"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c94bbff86f7747ee735c08f": {
+          "zh": "TerraGroup实验室访问钥匙卡",
+          "en": "TerraGroup Labs access keycard"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e4ad86f77443e625e387",
+      "name": {
+        "zh": "怀旧之情",
+        "en": "Nostalgia"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d694c9086f77468c86a6ada.jpg",
+  "isKey": false
+}

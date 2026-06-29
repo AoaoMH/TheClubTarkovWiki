@@ -1,0 +1,153 @@
+{
+  "id": "5ac3477486f7741d651d6885",
+  "name": {
+    "zh": "侦查",
+    "en": "Scout"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5448ba0b4bdc2d02308b456c",
+      "itemName": {
+        "zh": "工厂出口钥匙",
+        "en": "Factory emergency exit key"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "总有一天，我们会摆脱这支无形之手，它给我们打上雇员的标签，造成了所有这些混乱，还将把我们推进一场大战之中。现在发生的一切看起来都至少是它的前兆。我曾经在这里的化工厂工作，只是一名普通的领班。那时候一切看上去都很好，包括我在内，每个人都是这么想的。但是现在，这地方满是拾荒者，充斥着强盗和匪徒。我想利用一些厂房，需要你帮我找到一些仍然能使用的进出口。",
+    "en": "Someday we will get rid of the invisible hand, which used to brand us with employee badges and now has caused this mess, and I think it leads us to a great war. At least, all current events look like preconditions to it. I worked here for the chemical plant, as an ordinary foreman. It was a good time, everyone thought so, including me. Now it’s full of Scavs and swarming with brigands and outlaws. I want to make use of some of the factory premises, find out what exits can still be used. Go there and check it out."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_pacemaker_SCOUT_01",
+      "targetNames": {
+        "place_pacemaker_SCOUT_01": {
+          "zh": "place_pacemaker_SCOUT_01",
+          "en": "place_pacemaker_SCOUT_01"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_pacemaker_SCOUT_02",
+      "targetNames": {
+        "place_pacemaker_SCOUT_02": {
+          "zh": "place_pacemaker_SCOUT_02",
+          "en": "place_pacemaker_SCOUT_02"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_pacemaker_SCOUT_03",
+      "targetNames": {
+        "place_pacemaker_SCOUT_03": {
+          "zh": "place_pacemaker_SCOUT_03",
+          "en": "place_pacemaker_SCOUT_03"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_pacemaker_SCOUT_04",
+      "targetNames": {
+        "place_pacemaker_SCOUT_04": {
+          "zh": "place_pacemaker_SCOUT_04",
+          "en": "place_pacemaker_SCOUT_04"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "factory4_day,factory4_night"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac346a886f7744e1b083d67",
+      "name": {
+        "zh": "信号 - 2",
+        "en": "Signal - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "6089736efa70fc097863b8f6",
+      "name": {
+        "zh": "后门",
+        "en": "Back Door"
+      }
+    },
+    {
+      "id": "60c0c018f7afb4354815096a",
+      "name": {
+        "zh": "猎人之路 - 工厂头目",
+        "en": "The Huntsman Path - Factory Chief"
+      }
+    },
+    {
+      "id": "669fa395c4c5c04798002497",
+      "name": {
+        "zh": "出口在此",
+        "en": "Exit Here"
+      }
+    },
+    {
+      "id": "669fa39b91b0a8c9680fc467",
+      "name": {
+        "zh": "黑天鹅计划",
+        "en": "Black Swan"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4da0486f7744cc7701bdc.jpg",
+  "isKey": false
+}

@@ -1,0 +1,122 @@
+{
+  "id": "65734c186dc1e402c80dc19e",
+  "name": {
+    "zh": "花花公子",
+    "en": "Dandies"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Elimination",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 33000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 350000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 350000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ca2151486f774244a3b8d30",
+      "itemName": {
+        "zh": "FORT Redut-M护甲",
+        "en": "FORT Redut-M body armor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "CustomizationDirect"
+    }
+  ],
+  "description": {
+    "zh": "嘿，老兄！最近怎么样？还可以？好吧，坏消息是有人一直捣乱。他们整了个帮派，觉得他们就是这边最靓的仔，现在一直搞黄我的生意！\n\n我们得教训教训他们，让他们知道他们是老几。不需要去那个他们聚集的理发店。也不需要直接找他们。我们来点借刀杀人。只需要假扮成他们的一员，然后看见人就开枪。我要每个人都对他们恨之入骨。完事儿之后，把你的东西丢到理发店去，当大家都知道是谁在那里煽风点火。你能行吗？",
+    "en": "Hey, brother! What's up, how you doing? Good? Well I unfortunately have some guys messing with me. They've got a gang, they think they're the hippest guys in the neighborhood, and they're interfering with my business as well!\n\nWe gotta show them where they belong. And it ain't in that fancy barbershop they're holed up in, that's for sure. No, no need to kick anyone out. We're gonna be subtle. Pretend to be one of them and shoot pretty much anyone you see. I need everyone in the city to start hating them. When you're done, drop the outfit off at their barbershop so people know who's the maniac shooting everything. Can you do that?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 30,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "location": "TarkovStreets"
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "60bf74184a63fc79b60c57f6"
+      ],
+      "targetNames": {
+        "60bf74184a63fc79b60c57f6": {
+          "zh": "Bomber 无檐小便帽",
+          "en": "Bomber beanie"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5aa2b9aee5b5b00015693121"
+      ],
+      "targetNames": {
+        "5aa2b9aee5b5b00015693121": {
+          "zh": "Raybench Hipster Reserve太阳镜",
+          "en": "RayBench Hipster Reserve sunglasses"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639135a7e705511c8a4a1b78",
+      "name": {
+        "zh": "芭蕾舞者",
+        "en": "Ballet Lover"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6613f307fca4f2f386029409",
+      "name": {
+        "zh": "涓滴效应 - 2",
+        "en": "Drip-Out - Part 2"
+      }
+    },
+    {
+      "id": "6615141bfda04449120269a7",
+      "name": {
+        "zh": "涓滴效应 - 2",
+        "en": "Drip-Out - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/65899d5fb3613b5b1c66f4c4.jpg",
+  "isKey": false
+}

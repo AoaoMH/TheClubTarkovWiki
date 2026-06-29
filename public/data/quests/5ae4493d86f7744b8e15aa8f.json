@@ -1,0 +1,137 @@
+{
+  "id": "5ae4493d86f7744b8e15aa8f",
+  "name": {
+    "zh": "数据库 - 2",
+    "en": "Database - Part 2"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5714dbc024597771384a510d",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5733279d245977289b77ec24",
+      "itemName": {
+        "zh": "汽车蓄电池",
+        "en": "Car battery"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b313086f77425227d1678",
+      "itemName": {
+        "zh": "相位控制继电器",
+        "en": "Phase control relay"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d5d646386f7742797261fd9",
+      "itemName": {
+        "zh": "6B3TM-01 防弹胸挂（卡其色）",
+        "en": "6B3TM-01 armored rig (Khaki)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "仅仅只扫了一眼这些清单，我这双训练有素的眼睛，就看出了一个大纰漏。有一大批货物没能按时抵达目的地。\n运来的是一些电池，显然，它们被迫停留在了某个地方。\n这些事情通常是物流方面负责的，OLI的物流办公室里一定有一些关于运货路线和最后一次发货状态的记录文件。去看看，试着找到这个记录。不过那个房间应该是锁上的，所以你得先找把钥匙。反正你是个聪明人，老兄，你有办法进去的。",
+    "en": "Took a glance at those manifests, I have quite an eye for details! Spotted deficiency in one store right away: some large cargo didn’t make it to OLI and in big quantity. Looks like they carried some batteries, but, apparently, the guys got stuck somewhere. The logistics service usually keeps such things under control. There must be some records on the routes and the last status of the shipping at the OLI logistics offices. Go visit them and try to recover the records. The room is probably closed though, gotta find a key somewhere first. Well, you're a smart dude, you'll figure it out, brother."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ae9a25386f7746dd946e6d9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ae9a25386f7746dd946e6d9": {
+          "zh": "OLI货运路线文件",
+          "en": "OLI cargo route documents"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ae9a25386f7746dd946e6d9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ae9a25386f7746dd946e6d9": {
+          "zh": "OLI货运路线文件",
+          "en": "OLI cargo route documents"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae4493486f7744efa289417",
+      "name": {
+        "zh": "数据库 - 1",
+        "en": "Database - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae4495086f77443c122bc40",
+      "name": {
+        "zh": "临行密密缝 - 1",
+        "en": "Sew it Good - Part 1"
+      }
+    },
+    {
+      "id": "5ae449b386f77446d8741719",
+      "name": {
+        "zh": "感恩的心",
+        "en": "Gratitude"
+      }
+    },
+    {
+      "id": "5b478d0f86f7744d190d91b5",
+      "name": {
+        "zh": "微型客车",
+        "en": "Minibus"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "625d6ff5ddc94657c21a1625",
+      "name": {
+        "zh": "网络供应商 - 1",
+        "en": "Network Provider - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a7d286f7744748710d74.jpg",
+  "isKey": false
+}

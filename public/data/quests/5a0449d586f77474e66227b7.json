@@ -1,0 +1,101 @@
+{
+  "id": "5a0449d586f77474e66227b7",
+  "name": {
+    "zh": "疗养之旅 - 5",
+    "en": "Spa Tour - Part 5"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 980,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 980
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d80c66d86f774405611c7d6",
+      "itemName": {
+        "zh": "RB-AO钥匙",
+        "en": "RB-AO key"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，我的朋友，最近过得怎样？大家都不好混，我懂的，形势所迫。我的人在疗养院遇到了一些非常有意思的房间，但不幸的是它们都被锁得很牢靠。据我所知这些房间是USEC早些时候的驻扎地，而且我还知道它们把钥匙藏在了一个检查点的混凝土碉堡里，就在疗养院的西北边。由于他们撤离时走的很急，没准你还是能从那里找到点东西。",
+    "en": "Hello my friend, how are you doing? Not exactly amazing, I know, that’s just how the times are now. My people have run across some really interesting rooms in the health resort, which are, unfortunately, locked tight. It is known that USEC folks were stationed there earlier, and we also learned that they stored the keys at the checkpoint, in a concrete bunker, North-West of the resort. Since they packed in a hurry, there is a chance you may find something there. Bring me the key to the locked rooms."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5a0448bc86f774736f14efa8"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a0448bc86f774736f14efa8": {
+          "zh": "疗养院封闭房间的钥匙",
+          "en": "Key to the closed premises of the Health Resort"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5a0448bc86f774736f14efa8"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a0448bc86f774736f14efa8": {
+          "zh": "疗养院封闭房间的钥匙",
+          "en": "Key to the closed premises of the Health Resort"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a03296886f774569778596a",
+      "name": {
+        "zh": "疗养之旅 - 4",
+        "en": "Spa Tour - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27ba9586f7741b543d8e85",
+      "name": {
+        "zh": "疗养之旅 - 6",
+        "en": "Spa Tour - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27c50f86f7740b3d65e16a.jpg",
+  "isKey": false
+}

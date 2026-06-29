@@ -1,0 +1,108 @@
+{
+  "id": "675c047fa46173572a0bd878",
+  "name": {
+    "zh": "货运追踪",
+    "en": "Shipment Tracking"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9600
+    },
+    {
+      "type": "Item",
+      "value": 52000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 52000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a0a124de7ac81993580542",
+      "itemName": {
+        "zh": "地形调查地图",
+        "en": "Topographic survey maps"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我的人还没能把那些货物弄回来。不过如果真的有任何高价……我是说，高风险内容的话，那么显然一秒都不能浪费。\n\n这些货物肯定都留有某种形式的记录，如果能找到行程单或者货运清单的话，那么事情的进展就会容易得多了。你要找的就是那种信息。\n\n打探一下海关那些头头脑脑：主管，督察之类的人，在他们的办公室里找找。如果真的有货运记录留存，出现在那种地方的概率会很高。",
+    "en": "My people haven't been able to access the cargo yet. However, if there's anything of value-- I mean of danger, we can't waste any time.\n\nAll shipments had to be documented one way or another. Perhaps an itinerary or a cargo manifest would shed more light on the situation. You need to locate that piece of information.\n\nLook in the offices of key persons at the customs: directors, supervisors. If there is anything we might find, it should be there."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "675f7acc4076a741a3061566"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "675f7acc4076a741a3061566": {
+          "zh": "TerraGroup货运报告",
+          "en": "TerraGroup shipment report"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "675f7acc4076a741a3061566"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "675f7acc4076a741a3061566": {
+          "zh": "TerraGroup货运报告",
+          "en": "TerraGroup shipment report"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "675c03d1f7da9792a405549a",
+      "name": {
+        "zh": "无主货物",
+        "en": "Abandoned Cargo"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "675c04f4db8807b75d0f38e8",
+      "name": {
+        "zh": "平易近人",
+        "en": "Closer to the People"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6762fe1e6470bf1c0f048b96.jpg",
+  "isKey": false
+}

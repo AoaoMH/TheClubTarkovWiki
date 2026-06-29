@@ -1,0 +1,167 @@
+{
+  "id": "639873003693c63d86328f25",
+  "name": {
+    "zh": "枪匠 - 19",
+    "en": "Gunsmith - Part 19"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 25500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60391afc25aff57af81f7085",
+      "itemName": {
+        "zh": "棘轮扳手",
+        "en": "Ratchet wrench"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "619cbfeb6b8a1b37a54eebfa",
+      "itemName": {
+        "zh": "Bulbex剪线器",
+        "en": "Bulbex cable cutter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6087e663132d4d12c81fd96b",
+      "itemName": {
+        "zh": "AK Custom Arms AGS-74 PRO + Sniper Kit手枪式握把",
+        "en": "AK Custom Arms AGS-74 PRO + Sniper Kit pistol grip"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，我给你找了个事儿做。我需要一把这样的SVDS：黑色Magpul UBR GEN2底托，SAG MK1框架，黑色Magpul MOE手枪式握把，March Tactical 3-24x42 FFP瞄准镜和一个消音器。人机功效至少得有15，后坐力之和不能高于500。",
+    "en": "Hi, I have a job for you. I need an SVDS in the following config: black Magpul UBR GEN2 buttstock, SAG MK1 chassis, black Magpul MOE pistol grip, March Tactical 3-24x42 FFP scope and a suppressor. Ergonomics should be at least 15 and the recoil sum no higher than 500."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5c46fbd72e2216398b5a8c9c"
+      ],
+      "targetNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 15
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 500
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 1000
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": "<=",
+          "value": 10
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 8
+        }
+      ],
+      "requiredItems": [
+        "5947e98b86f774778f1448bc",
+        "5dfcd0e547101c39625f66f9",
+        "5b30ac585acfc433000eb79c",
+        "57c5ac0824597754771e88a9"
+      ],
+      "requiredItemNames": {
+        "5947e98b86f774778f1448bc": {
+          "zh": "UBR GEN2 Black枪托",
+          "en": "AR-15 Magpul UBR GEN2 stock (Black)"
+        },
+        "5dfcd0e547101c39625f66f9": {
+          "zh": "SAG MK1 SVD 框架平台",
+          "en": "SVD SAG MK1 chassis"
+        },
+        "5b30ac585acfc433000eb79c": {
+          "zh": "Magpul MOE AK手枪式握把",
+          "en": "AK Magpul MOE pistol grip (Black)"
+        },
+        "57c5ac0824597754771e88a9": {
+          "zh": "March Tactical 3-24x42光学瞄准镜 FFP",
+          "en": "March Tactical 3-24x42 FFP 30mm riflescope"
+        }
+      },
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b477b6f86f7747290681823",
+      "name": {
+        "zh": "枪匠 - 18",
+        "en": "Gunsmith - Part 18"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5b477f7686f7744d1b23c4d2",
+      "name": {
+        "zh": "枪匠 - 20",
+        "en": "Gunsmith - Part 20"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63aae96a435ab5742b4e407a.jpg",
+  "isKey": false
+}

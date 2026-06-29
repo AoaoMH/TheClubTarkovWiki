@@ -1,0 +1,112 @@
+{
+  "id": "5c0d0d5086f774363760aef2",
+  "name": {
+    "zh": "运动员",
+    "en": "Athlete"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Skill",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 110000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 110000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aa2b986e5b5b00014028f4c",
+      "itemName": {
+        "zh": "Dundukk运动太阳镜",
+        "en": "Dundukk sport sunglasses"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c0e533786f7747fa23f4d47",
+      "itemName": {
+        "zh": "Zagustin止血剂",
+        "en": "Zagustin hemostatic drug injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c10c8fd86f7743d7d706df3",
+      "itemName": {
+        "zh": "肾上腺素注射器",
+        "en": "Adrenaline injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c10c8fd86f7743d7d706df3",
+      "itemName": {
+        "zh": "肾上腺素注射器",
+        "en": "Adrenaline injector"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你知道，作为一个医生，我的天职就是治病救人，即使是在这样一个艰难时刻。不过因为你常常帮我跑腿做事，我必须再三确认你的健康状况良好。别多虑，只是为了感到更安心，这样我才能托付给你更多的差事。",
+    "en": "You know, as a doctor, I treat people who have illnesses, it's my job, even in our difficult situation. However, since you sometimes run errands for me, I must be sure that your health is okay. Just to feel safer, you know, so I could be sure that you can see any task through. Prove to me that illnesses and physical conditions won't stop you."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Health",
+      "value": 10,
+      "target": "Health"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a68667486f7742607157d28",
+      "name": {
+        "zh": "医疗隐私 - 4",
+        "en": "Health Care Privacy - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "60e71c48c1bfa3050473b8e5",
+      "name": {
+        "zh": "急单",
+        "en": "Crisis"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

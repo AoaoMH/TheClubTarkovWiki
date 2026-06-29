@@ -1,0 +1,128 @@
+{
+  "id": "596a1e6c86f7741ddc2d3206",
+  "name": {
+    "zh": "一般储备",
+    "en": "General Wares"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5673de654bdc2d180f8b456d",
+      "itemName": {
+        "zh": "太平洋秋刀鱼罐头",
+        "en": "Can of pacific saury"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c5d4b86f774784e1b9c45",
+      "itemName": {
+        "zh": "Iskra个人配给口粮",
+        "en": "Iskra ration pack"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5af0484c86f7740f02001f7f",
+      "itemName": {
+        "zh": "Majaica咖啡",
+        "en": "Can of Majaica coffee beans"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "又见面了，朋友，我这儿暂时少些像肉罐头这种的易保存食品。你能帮帮我吗？我需要储备15罐牛肉罐头。我知道有几个地方可以找到这些玩意，当然，我们的Scav朋友们去过工厂附近的加油站，里面有一个储藏室——那边也许还有什么遗留的东西。另一个食物储藏区在宿舍楼的某处，那里的好东西可不止罐装食品。但现在我只对罐头感兴趣，所以你可以随意留取剩下的东西。成交嘛？我知道这两伙混混是狼狈为奸的，但为了防止他们自己人盗窃仓库，他们的领导人交换了对方仓库的钥匙，所以说这对你来说应该很容易。",
+    "en": "Hello again. I have a temporary shortage of lasting foods in the form of canned meat. Can you help? I need a reserve of several cans of beef. And I know a couple of places where we could get them. From our Scav friends, of course. They used to have a storeroom at the gas station near the Factory - maybe there's still something left. Another food storage was somewhere in the dormitories, with more than canned goods there. But for now, I’m only interested in them, so you’re free to take the rest for yourself. Deal? I know that these two gangs are allied, but to prevent theft from the warehouses by their own people, their leaders have exchanged keys from each other's warehouses. So it should be pretty easy for you, I think."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 15,
+      "target": [
+        "57347d7224597744596b4e72"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347d7224597744596b4e72": {
+          "zh": "炖牛肉罐头",
+          "en": "Can of beef stew (Small)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 15,
+      "target": [
+        "57347d7224597744596b4e72"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347d7224597744596b4e72": {
+          "zh": "炖牛肉罐头",
+          "en": "Can of beef stew (Small)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5969f9e986f7741dde183a50",
+      "name": {
+        "zh": "药剂师",
+        "en": "Pharmacist"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5edab736cc183c769d778bc2",
+      "name": {
+        "zh": "同事 - 1",
+        "en": "Colleagues - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979d3da86f774719f309082.jpg",
+  "isKey": false
+}

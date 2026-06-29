@@ -1,0 +1,108 @@
+{
+  "id": "676c243fb16f4b14b905e7f4",
+  "name": {
+    "zh": "我的派对我做主",
+    "en": "This Is My Party"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 186000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 186000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b376e86f774252519444e",
+      "itemName": {
+        "zh": "“凶狠跑刀崽”私酒",
+        "en": "Bottle of Fierce Hatchling moonshine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c60fc86f77412b13fddcf",
+      "itemName": {
+        "zh": "文件包",
+        "en": "Documents case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我本来没想在年末关头打扰你的，不过我确实需要点帮助。人们爱死了我们的“圆环舞”，以后有机会可以再搞上一回。\n\n只不过有些混蛋在有意针对我们，教唆其他大兵来骚扰我们的行动。那些人也是 PMC，只不过没有戴着我们的臂带。\n\n相信你也明白我们的事业是正义的。我们需要挽救来之不易的庆祝活动，把那群捣乱的混球赶出圆环舞现场。一旦有没戴臂带的人靠近圣诞树就格杀勿论。没人能阻挠我们。",
+    "en": "I didn't think I'd call you again this year, but I need your help. People really loved our \"Khorovod\", we should do it again.\n\nExcept that some asshole is turning on us, turning our soldiers against us. They're PMCs too, but they don't wear our armbands.\n\nYou know we're doing the right thing. We need to save the celebration, and get those assholes away from our Khorovod. Shoot anyone who goes near the trees without the armband. No one's gonna get in the way of people doing good deeds."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 10,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "location": "Shoreline,Interchange,Lighthouse,bigmap,Woods,RezervBase"
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Equipment",
+      "value": 10,
+      "isFailCondition": true,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "location": "Shoreline,Interchange,Lighthouse,bigmap,Woods,RezervBase"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6750320e23fc8fd9cc087d14",
+      "name": {
+        "zh": "超支的节日",
+        "en": "Holiday Beyond the Means"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "676c243577f0257dd50239e6",
+      "name": {
+        "zh": "节庆的代价",
+        "en": "The Price of Celebration"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/676985d7f6270562e701eeac.jpg",
+  "isKey": false
+}

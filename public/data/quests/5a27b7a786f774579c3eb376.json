@@ -1,0 +1,118 @@
+{
+  "id": "5a27b7a786f774579c3eb376",
+  "name": {
+    "zh": "猎虎行动",
+    "en": "Tigr Safari"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Discover",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 900,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 900
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f5f41f56760b4138443b352",
+      "itemName": {
+        "zh": "Direct Action Thunderbolt小型胸挂",
+        "en": "Direct Action Thunderbolt compact chest rig (Shadow Grey)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "58d3db5386f77426186285a0",
+      "itemName": {
+        "zh": "M67手榴弹",
+        "en": "M67 hand grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59e6920f86f77411d82aa167",
+      "itemName": {
+        "zh": "5.56x45毫米 55 FMJ",
+        "en": "5.56x45mm FMJ"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e00903ae9dc277128008b87",
+      "itemName": {
+        "zh": "B&T MP9 9x19微型冲锋枪",
+        "en": "B&T MP9 9x19 submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "很好，这里是接下来的活。俄国人“好心”地给 UNTAR 提供过几辆 Tigr 轮式装甲车。在任务搞砸了之后，这些“虎”式就被丢在那里经受日晒雨淋。我要你在海关找到三辆被遗弃的装甲车，用指示器标记他们。里面还有许多值钱玩意儿可以倒手，比如卖给老美情报部门。我建议你从主干道开始找起。不巧的是，我现在没有指示器给你，你自己想办法搞点吧。",
+    "en": "Okay, here’s the next deal. Russia has kindly provided the UNTAR mission with several Tigr LAVs. Today the mission has virtually collapsed, and the vehicles are left to rot in the rain. I need you to locate those three abandoned armored trucks on Customs and mark them with beacons. There are still many valuables left inside that can be salvaged and sold, for example, to American intelligence. I recommend searching for the trucks on the main road. Unfortunately, I don’t have the beacons right now, so you'll need to get them yourself."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27b75b86f7742e97191958",
+      "name": {
+        "zh": "渔具",
+        "en": "Fishing Gear"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27b7d686f77460d847e6a6",
+      "name": {
+        "zh": "破铜烂铁",
+        "en": "Scrap Metal"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/57e4f1852459772a15635633.jpg",
+  "isKey": false
+}

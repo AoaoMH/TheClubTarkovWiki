@@ -1,0 +1,86 @@
+{
+  "id": "60e71d6d7fcf9c556f325055",
+  "name": {
+    "zh": "急先锋",
+    "en": "The Courier"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Multi",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 115000
+    },
+    {
+      "type": "Skill",
+      "target": "Crafting",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Intellect",
+      "value": 100
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5fc22d7c187fea44d52eda44",
+      "itemName": {
+        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪",
+        "en": "SWORD International Mk-18 .338 LM marksman rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，雇佣兵，可以帮我个忙吗？我有个客户需要向海关的两处地点派送一些物品。你要接单吗？客户需要两个REAP-IR瞄准镜：第一个藏在建筑工地的黄色起重机下面，它位于一个巨大的建筑附近；第二个藏在加油站的垃圾堆里，主路上的那个加油站。唯一的问题是，我现在没有现货。",
+    "en": "Hello, mercenary, can you help me out with something? I have a client here, they need me to deliver a couple of items to two specific drop spots on Customs. Are you down? The client needs two REAP-IR scopes: the first one has to be stashed under the yellow crane on the construction site, it's near a big fortified building, and the second one has to be stashed behind the garbage containers at the gas station, the one on the main road. The only issue is that the scopes are very rare and I don't have those on me right now."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5a1eaa87fcdbcb001865f75e"
+      ],
+      "targetNames": {
+        "5a1eaa87fcdbcb001865f75e": {
+          "zh": "Trijicon REAP-IR热成像步枪瞄准镜",
+          "en": "Trijicon REAP-IR thermal scope"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5a1eaa87fcdbcb001865f75e"
+      ],
+      "targetNames": {
+        "5a1eaa87fcdbcb001865f75e": {
+          "zh": "Trijicon REAP-IR热成像步枪瞄准镜",
+          "en": "Trijicon REAP-IR thermal scope"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "60e71d23c1bfa3050473b8e6",
+      "name": {
+        "zh": "致命校准",
+        "en": "Calibration"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5ac4dbb086f7743e7c61ca09.jpg",
+  "isKey": false
+}

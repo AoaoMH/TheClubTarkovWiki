@@ -1,0 +1,159 @@
+{
+  "id": "67a096f605d1611ed90be75a",
+  "name": {
+    "zh": "热点地带",
+    "en": "Hot Zone"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 29400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 169000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 169000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "679b9819a2f2dd4da9023512",
+      "itemName": {
+        "zh": "Labrys 访问钥匙卡",
+        "en": "Labrys access keycard"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ca20ee186f774799474abc2",
+      "itemName": {
+        "zh": "Vulkan-5（LShZ-5）重型头盔",
+        "en": "Vulkan-5 LShZ-5 bulletproof helmet (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ca2113f86f7740b2547e1d2",
+      "itemName": {
+        "zh": "Vulkan-5面罩",
+        "en": "Vulkan-5 helmet face shield"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "679b9819a2f2dd4da9023512",
+      "itemName": {
+        "zh": "Labrys 访问钥匙卡",
+        "en": "Labrys access keycard"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好-好，我花了一些时间回想那个迷宫设施，以及你对它的兴趣。现在形势已经缓和下来了，我也许能帮上你的忙。又或者我们可以顺便找到一些共同利益呢，对吧？但首先，我需要你帮我搞定一个订单。相比我能提供给你的你的信息而言，你可是占了大便宜啊老兄！\n\n现在我有两批货被搁置了。一批在海关，另一批在军事基地。我的送货员在那里遭到了相当不公正的对待。第一批货物直接人间蒸发了，第二批也只有一半回来了。那些混蛋几乎拿走了所有的货物！对我的送货员来说，那些地方简直是个杀戮地带。\n\n要么是那些 PMC 刺头们真的很喜欢在那些地方瞎胡混，要么有什么操蛋的其他原因。几次送货要么遇到蹲点狙击手，要么是拿着霰弹枪戴着苏联毛帽的不要命疯子，要么就是在地堡里遇上“掷弹兵”。问题是，这份大订单对我来说确实重要，我不能让它白白作废。\n\n你在这方面很有经验。也许不能一次性运完，但我相信你会完美达成目标的。在你出门帮我搞定订单的同时，我会把你的迷宫冒险安排得妥妥帖帖的！这是先前那批货剩下的。马上拿去，起码能让你省事点。\n\n把胸挂藏在海关公路附近的加油站，把板子藏在军事基地车间的屋顶上，就是画着黑骑士标志的那个，不管那是什么意思。",
+    "en": "Okie-dokie, so I took some time to think about the Labyrinth and your interest in it. Things have cooled off, so I might be able to help you out. Maybe we can find some mutual benefits along the way, eh? But first, I need you to help me with a specific order. For the kind of information I'm about to give you, it's a real bargain!\n\nI've got two shipments that are sitting on hold right now. One is waiting at Customs, the other at the military base. My couriers were really badly received there. I lost one group, and from the second one, only half of them came back. The fuckers took almost all the goods! Things are too hot in those areas for my courier guys.\n\nThe PMC pricks really took a liking to those places or something. It's either camping snipers, some ushanka-wearing psychos with shotguns, or fucking \"grenadiers\" in the military bunkers. Thing is, this order is big and important for me, I can't let it go to waste.\n\nYou have good experience in this kind of work. Maybe not in one go, but I'm sure you'll do everything perfectly. And while you're at it, I'll arrange everything for your Labyrinth business! Here's the gear that survived the ambushes. Take it right away, it'll be less work later.\n\nStash the rigs at the gas station near the road on Customs, and the plates on the roof of the military base's workshop with, uh, a black knight symbol, whatever that means."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 12,
+      "target": [
+        "64be7095047e826eae02b0c1"
+      ],
+      "targetNames": {
+        "64be7095047e826eae02b0c1": {
+          "zh": "Zulu Nylon Gear M4 低特征胸挂（丛林绿）",
+          "en": "Zulu Nylon Gear M4 Reduced Signature Chest Rig (Ranger Green)"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 12,
+      "target": [
+        "656efd66034e8e01c407f35c",
+        "656f603f94b480b8a500c0d6",
+        "656f9fa0498d1b7e3e071d98",
+        "656fa0fb498d1b7e3e071d9c",
+        "656fa25e94b480b8a500c0e0",
+        "656fad8c498d1b7e3e071da0",
+        "656fb0bd7c2d57afe200c0dc",
+        "656fb21fa0dce000a2020f7c",
+        "657b22485f444d6dff0c6c2f"
+      ],
+      "targetNames": {
+        "656efd66034e8e01c407f35c": {
+          "zh": "6B13定制防弹插板（黑色）",
+          "en": "6B13 custom ballistic plates (Back)"
+        },
+        "656f603f94b480b8a500c0d6": {
+          "zh": "6B33防弹插板（前部）",
+          "en": "6B33 ballistic plate (Front)"
+        },
+        "656f9fa0498d1b7e3e071d98": {
+          "zh": "SPRTN Omega防弹插板",
+          "en": "SPRTN Omega ballistic plate"
+        },
+        "656fa0fb498d1b7e3e071d9c": {
+          "zh": "Global Armor’s Steel防弹插板",
+          "en": "Global Armor’s Steel ballistic plate"
+        },
+        "656fa25e94b480b8a500c0e0": {
+          "zh": "Kiba Arms Titan防弹插板",
+          "en": "Kiba Arms Titan ballistic plate"
+        },
+        "656fad8c498d1b7e3e071da0": {
+          "zh": "Monoclete三级PE防弹插板",
+          "en": "Monoclete level III PE ballistic plate"
+        },
+        "656fb0bd7c2d57afe200c0dc": {
+          "zh": "SPRTN Elaphros防弹插板",
+          "en": "SPRTN Elaphros ballistic plate"
+        },
+        "656fb21fa0dce000a2020f7c": {
+          "zh": "NewSphereTech三级防弹插板",
+          "en": "NewSphereTech level III ballistic plate"
+        },
+        "657b22485f444d6dff0c6c2f": {
+          "zh": "6B23-2防弹插板（黑色）",
+          "en": "6B23-2 ballistic plate (Back)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a0967c003a9986cb0f5ac1",
+      "name": {
+        "zh": "感官分析 - 1",
+        "en": "Sensory Analysis - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

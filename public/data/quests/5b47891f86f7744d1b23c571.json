@@ -1,0 +1,236 @@
+{
+  "id": "5b47891f86f7744d1b23c571",
+  "name": {
+    "zh": "奢侈无罪 - 1",
+    "en": "Living High is Not a Crime - Part 1"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 19900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5734758f24597738025ee253",
+      "itemName": {
+        "zh": "金项链",
+        "en": "Golden neck chain"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ca20ee186f774799474abc2",
+      "itemName": {
+        "zh": "Vulkan-5（LShZ-5）重型头盔",
+        "en": "Vulkan-5 LShZ-5 bulletproof helmet (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b44d0de86f774503d30cba8",
+      "itemName": {
+        "zh": "IOTV Gen4 防弹衣（高机动型，复合迷彩）",
+        "en": "IOTV Gen4 body armor (High Mobility Kit, MultiCam)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "雷猴，最近一个疑似是Dealmaker的熟人来找我。真他妈时髦，穿着西装，带着一个瓶盖大的戒指。我曾在聚会上见过他一次，他常开一辆宝马。\n 他说不管是有没有战争，他都会尽量活的精致些。恩，也许并不是精致，更像是一种逃避现实。所以给我找些珠宝来，我得拿来应付他。记得再搞点劳力土手表，买一送一，质量不太好的也可以。但，相信我，兄弟。对于这种人来说，最好是完好无损的。\n",
+    "en": "Salam, there's a new sweet deal for you. Recently, I was approached by the guy who’s some sort of Reshala’s acquaintance. Posh as fuck, in a suit, and with a signet on his finger the size of a bottle cap. I’ve seen him at some gathering once, he used to drive a black BMW. He says that war or no war, his crib's gotta be all ornamented. Well, not exactly a crib, more like a hideout. Fetch me a bunch of jewelry, and I’ll hand it over to him. Look for horse statues, cats, lions, all that stuff. And look for Roler watches, the golden ones, it will be a complimentary gift: It’s best to be on good terms with such people, believe me, brother. Don't let me down, brother, or we're both in trouble."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "59e3639286f7741777737013"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e3639286f7741777737013": {
+          "zh": "青铜狮雕",
+          "en": "Bronze lion figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59e3639286f7741777737013"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e3639286f7741777737013": {
+          "zh": "青铜狮雕",
+          "en": "Bronze lion figurine"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "573478bc24597738002c6175"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "573478bc24597738002c6175": {
+          "zh": "马雕像",
+          "en": "Horse figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "573478bc24597738002c6175"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "573478bc24597738002c6175": {
+          "zh": "马雕像",
+          "en": "Horse figurine"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "59e3658a86f7741776641ac4"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e3658a86f7741776641ac4": {
+          "zh": "猫雕像",
+          "en": "Cat figurine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "59e3658a86f7741776641ac4"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e3658a86f7741776641ac4": {
+          "zh": "猫雕像",
+          "en": "Cat figurine"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "59faf7ca86f7740dbe19f6c2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59faf7ca86f7740dbe19f6c2": {
+          "zh": "劳力土潜水金腕表",
+          "en": "Roler Submariner gold wrist watch"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "59faf7ca86f7740dbe19f6c2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59faf7ca86f7740dbe19f6c2": {
+          "zh": "劳力土潜水金腕表",
+          "en": "Roler Submariner gold wrist watch"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "62a09cfe4f842e1bd12da3e4"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "62a09cfe4f842e1bd12da3e4": {
+          "zh": "金蛋",
+          "en": "Golden egg"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "62a09cfe4f842e1bd12da3e4"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "62a09cfe4f842e1bd12da3e4": {
+          "zh": "金蛋",
+          "en": "Golden egg"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae4496986f774459e77beb6",
+      "name": {
+        "zh": "临行密密缝 - 3",
+        "en": "Sew it Good - Part 3"
+      }
+    },
+    {
+      "id": "5ae448f286f77448d73c0131",
+      "name": {
+        "zh": "战争之血 - 1",
+        "en": "The Blood of War - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c1141f386f77430ff393792",
+      "name": {
+        "zh": "奢侈无罪 - 2",
+        "en": "Living High is Not a Crime - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

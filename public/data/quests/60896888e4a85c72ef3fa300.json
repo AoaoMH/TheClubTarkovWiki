@@ -1,0 +1,111 @@
+{
+  "id": "60896888e4a85c72ef3fa300",
+  "name": {
+    "zh": "绝密技术",
+    "en": "Classified Technologies"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 800,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 800
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6570251ccfc010a0f5006a13",
+      "itemName": {
+        "zh": "5.7x28 R37.F弹药包（50发装）",
+        "en": "5.7x28mm R37.F ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "65702520bfc87b3a3409323e",
+      "itemName": {
+        "zh": "5.7x28 R37.X弹药包（50发装）",
+        "en": "5.7x28mm R37.X ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，我的好伙计！冲突开始前，我的一个蓝盔同事和某位储备站信号员有过一次交易，为了借一套设备。它和坦克操控装置有关，但我不太了解那玩意儿。后来冲突发生，军事基地受到了袭击。我想那套设备应该还在基地里。如果你能把设备带给我，而且不多嘴，我一定会大方地报答你。",
+    "en": "Hi, my friend! One of my blue helmet colleagues made a deal with one of the state reserve signalmen before the big conflict, he wanted to borrow a certain device. I don't know much about this device, but it had something to do with the tank commander equipment. Then the conflict began, and the base was attacked. I think that the device is still inside the base, probably hidden somewhere in the command bunker. If you bring me this device and not ask any questions, I will generously pay you."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "609267a2bb3f46069c3e6c7d"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "609267a2bb3f46069c3e6c7d": {
+          "zh": "T-90M 车长操控面板",
+          "en": "T-90M Commander Control Panel"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "609267a2bb3f46069c3e6c7d"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "609267a2bb3f46069c3e6c7d": {
+          "zh": "T-90M 车长操控面板",
+          "en": "T-90M Commander Control Panel"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6086c852c945025d41566124",
+      "name": {
+        "zh": "无中生有 - 储备站",
+        "en": "Revision - Reserve"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c375171d348838124696ed.jpg",
+  "isKey": false
+}

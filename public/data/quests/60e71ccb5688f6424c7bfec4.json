@@ -1,0 +1,183 @@
+{
+  "id": "60e71ccb5688f6424c7bfec4",
+  "name": {
+    "zh": "战利品",
+    "en": "Trophies"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 137000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5aafbde786f774389d0cbc0f",
+      "itemName": {
+        "zh": "弹药箱",
+        "en": "Ammunition case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "619bdf9cc9546643a67df6f8",
+      "itemName": {
+        "zh": "联合国驻塔科夫特派团 (UNTAR) 臂带",
+        "en": "Armband (UNTAR)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e81ebcd8e146c7080625e15",
+      "itemName": {
+        "zh": "FN GL-40 Mk.2 榴弹发射器",
+        "en": "FN40GL Mk2 40mm grenade launcher"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "5f0c892565703e5c461894e9",
+      "itemName": {
+        "zh": "40x46 毫米 M433 (HEDP)",
+        "en": "40x46mm M433 (HEDP) grenade"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，借一步说话。我接了一个消灭不同阵营PMC的单子，需要是高等级的。让我的小弟们去做，简直就是送死，所以我建议派你去解决问题。你觉得呢？为了证明你的成果，你需要带来两个阵营PMC的狗牌。",
+    "en": "Mercenary, come here for a minute. I have an order of elimination of several groups of PMCs, the highly experienced ones. Sending my soldiers to this would be a suicide mission, so that is why I suggest you to handle this matter. What do you say? As proof of the work done, you have to bring me dogtags from both of those groups."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 20,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "6662e9cda7e0b43baa3d5f76",
+        "6662e9aca7e0b43baa3d5f74",
+        "675dc9d37ae1a8792107ca96",
+        "675dcb0545b1a2d108011b2b",
+        "684181208d035f60230f63f9",
+        "684180bc51bf8645f7067bc8"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9cda7e0b43baa3d5f76": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9aca7e0b43baa3d5f74": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dc9d37ae1a8792107ca96": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dcb0545b1a2d108011b2b": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "684181208d035f60230f63f9": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "684180bc51bf8645f7067bc8": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 20,
+      "target": [
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "6764207f2fa5e32733055c4a",
+        "6764202ae307804338014c1a",
+        "684180ee9b6d80d840042e8a",
+        "68418091b5b0c9e4c60f0e7a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764207f2fa5e32733055c4a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764202ae307804338014c1a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "684180ee9b6d80d840042e8a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "68418091b5b0c9e4c60f0e7a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2cc86f77443e47ae019",
+      "name": {
+        "zh": "猎人之路 - 杀戮森林",
+        "en": "The Huntsman Path - Forest Cleaning"
+      }
+    },
+    {
+      "id": "5a27b75b86f7742e97191958",
+      "name": {
+        "zh": "渔具",
+        "en": "Fishing Gear"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "60e71ce009d7c801eb0c0ec6",
+      "name": {
+        "zh": "特殊装备",
+        "en": "Special Equipment"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c373b71d348838124696ea.jpg",
+  "isKey": false
+}

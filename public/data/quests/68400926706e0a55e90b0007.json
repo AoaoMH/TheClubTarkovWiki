@@ -1,0 +1,66 @@
+{
+  "id": "68400926706e0a55e90b0007",
+  "name": {
+    "zh": "公道价 - 1",
+    "en": "Fair Price - Part 1"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "你好啊，伙计。外面都说你在找某样东西，就为了这件垃圾，你和 Mechanic 是不是已经急得跳脚了？怎么，觉得我对你们俩的把戏一无所知？我早就把你那点小买卖从里到外给研究了个透，这回你们两个可别想在价钱上占我便宜。\n\n如果你真的那么想要那个小玩意，你就得给够价码。两万……不，五万块才够！别想着讨价还价，那个可爱的小包裹这会正锁在一个安全的地方，我劝你趁早打消自己动手的想法。那么，你到底要不要付这个钱？",
+    "en": "Hello mate. People say you're looking for something, and that you and Mechanic desperately need this fuckin' piece of junk. What, thought I wouldn't find out? I've ran through your little project, so you two aren't gonna bullshit me with the price.\n\nIf you really want it, you'll have to pay the proper price. Twenty... No, fifty grand! And no bargaining. Your little handguard is already locked up in a safe place, you won't find it on your own. So, ready to pay for your project or not?"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 50000,
+      "target": [
+        "569668774bdc2da2298b4568"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "569668774bdc2da2298b4568": {
+          "zh": "欧元",
+          "en": "Euros"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "684009026ceedc792c09b2a7",
+      "name": {
+        "zh": "同好俱乐部",
+        "en": "Hobby Club"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68400953506db3b4db0700e7",
+      "name": {
+        "zh": "公道价 - 2",
+        "en": "Fair Price - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/68493d5591d4ec2b1402e577.jpg",
+  "isKey": false
+}

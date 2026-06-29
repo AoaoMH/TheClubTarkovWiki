@@ -1,0 +1,79 @@
+{
+  "id": "625d6fff4149f1149b5b12c9",
+  "name": {
+    "zh": "试探 - 2",
+    "en": "Assessment - Part 2"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 24200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "他对你办的事儿的路子非常满意。嗯，我告诉了Lightkeeper，我有你这样的得力助手，这都是你一手完成的。但是，我感觉他其实早就知道你了...另外，他还点名要你去做另外一件事。森林的大山附近有着一些地堡。你知道奇怪的是什么吗？有USEC想要联系我，并且一定要我们保证不去碰那些东西。我猜USEC和这些地方些联系。你自己都完全没听说过对吗？",
+    "en": "He's very satisfied with the way you handled the job. Yes, I told Lightkeeper that I had an assistant like you, and that you were the one who did all the work. But you know, it seemed to me that he had already known about you for a long time... And, by the way, he asks that you do one more thing. There are some bunkers in the woods near the mountain. Lightkeeper needs you to find these bunkers and mark them on the map. And you know what's weird? Some USECs tried to contact me and insisted that we not dig in that direction. My guess is that the USEC is connected to these sites. You haven't heard anything about this yourself? Huh."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "625d6ffcaa168e51321d69d7",
+      "name": {
+        "zh": "试探 - 1",
+        "en": "Assessment - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "625d7001c4874104f230c0c5",
+      "name": {
+        "zh": "试探 - 3",
+        "en": "Assessment - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59675e7b86f77414b25fb049.jpg",
+  "isKey": false
+}

@@ -1,0 +1,110 @@
+{
+  "id": "67a09673972c11a3f507731d",
+  "name": {
+    "zh": "塔科夫屠夫",
+    "en": "The Tarkov Butcher"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 52000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 52000
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "679b9819a2f2dd4da9023512",
+      "itemName": {
+        "zh": "Labrys 访问钥匙卡",
+        "en": "Labrys access keycard"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "67d3ed3271c17ff82e0a5b0b",
+      "itemName": {
+        "zh": "钥匙箱",
+        "en": "Key case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "679b9819a2f2dd4da9023512",
+      "itemName": {
+        "zh": "Labrys 访问钥匙卡",
+        "en": "Labrys access keycard"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好。没错，Sergei 告诉我你正在调查疗养院地下室钥匙卡的事情。虽然我不知道下面都藏着些什么，不过我的一位同事经常造访那里。那里可能是他囤积高价值器材的储藏点之一……当然，如果他同意分享钥匙卡，这一切都不成问题。但是很显然，他的开价不会低。\n\n你可能听说过城市中央发生过的一系列犯罪活动的传闻。关于塔科夫屠夫的消息最早能追溯到“契约战争”时期，然而，根据我的病人的说法，这个可怕怪物仍然阴魂不散地在城市的街道上徘徊…… \n\n我的一位同事对整个故事抱有特殊兴趣，他同时也在追查这位“屠夫”的线索。这自然是为了整座城市的福祉。但是可以想见，这样一位危险人物不会轻易走漏自己的踪迹。无论这个变态狂的心理有多扭曲，我们只有试着去理解他的动机和目标，才有希望找到更多线索。 \n\n我们设法从本地的警察部门搞来了一本犯罪记录。根据档案记载，这个“屠夫”在市区的一家肉制品包装厂担任司机。而警方在他用来运输冻肉的的冷藏货车里发现了被害人的尸体……但随着冲突升级，官方层面的调查就止步于此了。\n\n现在你已经知道了这个案子的所有细节，如果你能找到有用的线索帮助我的同事进行他的调查，他会同意把钥匙卡交给你的。",
+    "en": "Greetings. Yes, Sergei told me that you're looking for the keycards to the health resort basement. I have no idea what is down there, but one of my colleagues visits there somewhat often. Perhaps it is one of the places where he might store valuable equipment... It's hardly anything important if he agrees to give you the keycards. Obviously, it wouldn't be for free.\n\nYou may have heard stories about a certain, um, criminal operating out of the central city district? The first rumors of the Tarkov Butcher date back to the Contract Wars. However, some of my patients say that he still haunts the streets... \n\nA colleague of mine has taken an interest in this matter and is looking for traces of this “butcher”. For the greater good, naturally. Such a dangerous individual is not simple to track down, therefore we must understand his motives and goals, no matter how much they diverge from human values. \n\nWe were able to obtain a criminal case file from the local police department. According to this, the “butcher” worked as a driver for a meat packing plant here in the city limits. The bodies of the victims were found in refrigerator trucks used to transport frozen meat... But as the conflict escalated, the case was abandoned.\n\nNow, you have all the details. If you can find anything to help my colleague's research, he will hand you the keycards to that basement."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "679b98e429acd1f2f60985a3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679b98e429acd1f2f60985a3": {
+          "zh": "装有可疑物质的容器",
+          "en": "Container with suspicious substance"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "679b98e429acd1f2f60985a3"
+      ],
+      "targetNames": {
+        "679b98e429acd1f2f60985a3": {
+          "zh": "装有可疑物质的容器",
+          "en": "Container with suspicious substance"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a0966817e34930e500754c",
+      "name": {
+        "zh": "强制结盟",
+        "en": "Forced Alliance"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/67e3d6abf88ffa13890e3eb6.jpg",
+  "isKey": false
+}

@@ -1,0 +1,84 @@
+{
+  "id": "67f3eacef649e7bceb0bb455",
+  "name": {
+    "zh": "无畏猛兽",
+    "en": "Fearless Beast"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 24200
+    },
+    {
+      "type": "Item",
+      "value": 200000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 200000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "676bf44c5539167c3603e869",
+      "itemName": {
+        "zh": "RShG-2 72.5 毫米火箭发射器",
+        "en": "RShG-2 72.5mm rocket launcher"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "尽管我们已经付出了不少努力，塔科夫那帮败类却一点都没削弱。Skier 换了战术，现在那些站点都是移动的，我们根本跟不上他们的节奏。而且本地人也开始聚集到他那边去了。我们不能让无辜的平民陷入危险之中。\n\n还有很多 Scav 根本不用去证明他们有罪。我们得让人们看看掠夺和土匪行径最终会落得什么下场。他们或许已经对未来失去了希望，但恐惧，肯定还在。\n\nPartisan 刚带来几颗他实验用的手雷。他把延迟引信给拆了，说这种在阿富汗当年经常用。完全没有爆炸延迟。如果你把它做成陷阱装置……根本没人来得及反应。\n\n把这些带上，去给那些背弃人类道德的人一点教训。我们必须让所有人明白，跟 Skier 合作会有什么下场。最好连那些 PMC 也开始意识到风险，安分点。",
+    "en": "Despite our efforts, the scum in Tarkov is not getting any weaker. Skier changed his tactics, now the stations are mobile, and we won't be able to keep up with all of them. The locals are starting to gather around him. We can't put innocent civilians in danger.\n\nThere's still plenty of Scavs who don't need to be proven guilty. We need to show people what pillaging and banditry leads to. They've already lost hope, but fear is definitely still there.\n\nPartisan just came in with a couple of his experimental grenades. He took the retarder out of them, says they used to use them in Afghanistan very often. No bang delay at all. And if you make turn it into a booby trap... No one would have time to react to that.\n\nTake them and show the people what awaits those who abandon human morality. We need to make sure no one ever thinks about working with Skier. Better yet, make even the PMCs see the risks and quiet down."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "67b49e7335dec48e3e05e057"
+      ],
+      "weaponNames": {
+        "67b49e7335dec48e3e05e057": {
+          "zh": "F-1 手榴弹（短引信）",
+          "en": "F-1 hand grenade (Reduced delay)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67f3eaa3a7799274d50a8b66",
+      "name": {
+        "zh": "先发制人",
+        "en": "Preemptive Strike"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/67fcf1171b59ef89710fa6c8.png",
+  "isKey": false
+}

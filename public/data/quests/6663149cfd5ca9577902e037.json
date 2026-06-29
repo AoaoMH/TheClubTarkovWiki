@@ -1,0 +1,83 @@
+{
+  "id": "6663149cfd5ca9577902e037",
+  "name": {
+    "zh": "看不见的大手",
+    "en": "The Invisible Hand"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 86000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 86000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d235a5986f77443f6329bc6",
+      "itemName": {
+        "zh": "黄金骷髅指环",
+        "en": "Gold skull ring"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，兄弟。我那笑里藏刀的竞争对手又在偷偷撬走我的客户了。如果他们想要打一场贸易战的话，那我们在应对的时候就不能掉以轻心。我发现他们在雇人背着大包用人力转运货物。帮好兄弟一把，把这些背货的马仔干掉，行吗？",
+    "en": "Hey, bro. My friendly competitors are poaching my customers. If they want to declare a trade war on me, then my answer has to be very serious. I found out how they transport their goods. They hire guys with big backpacks. Take care of those mules, will you?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae448a386f7744d3730fff0",
+      "name": {
+        "zh": "生意至上",
+        "en": "Only Business"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6663149f1d3ec95634095e75",
+      "name": {
+        "zh": "经济流动",
+        "en": "Circulate"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6682a786b65c1b67d00bdd2c.png",
+  "isKey": false
+}

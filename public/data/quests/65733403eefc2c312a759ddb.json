@@ -1,0 +1,130 @@
+{
+  "id": "65733403eefc2c312a759ddb",
+  "name": {
+    "zh": "开发者之谜 - 1",
+    "en": "Developer's Secrets - Part 1"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Discover",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 23000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 149500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 149500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "573477e124597737dd42e191",
+      "itemName": {
+        "zh": "电脑CPU",
+        "en": "PC CPU"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5734779624597737e04bf329",
+      "itemName": {
+        "zh": "CPU风扇",
+        "en": "CPU fan"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5af04b6486f774195a3ebb49",
+      "itemName": {
+        "zh": "Elite钳子",
+        "en": "Pliers Elite"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a0a098de7ac8199358053b",
+      "itemName": {
+        "zh": "缝纫锥",
+        "en": "Awl"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，雇佣兵。在混乱发生之前，城市里有一家IT公司。我不记得名字了，只记得他们在自己的领域里开发了最厉害的软件，我现在都还在用呢。\n\n那家公司太小了，所以我都不知道他们是怎么在短时间内做出这么好的软件的。他们一定有些秘密，而且知道了对我有好处。你能帮我满足这点好奇心，找到他们的办公室然后看看吗？",
+    "en": "Hey, mercenary. Before all the chaos happened, there was an IT firm in the city. I don't recall the name, I just remember that they made the best software in their segment. I still use it now.\n\nThe company was small, so I still don't understand how they did everything so well in such a short time. They definitely had some secret and it would do me good to know it. Will you help me satisfy my curiosity, find their office and take a look around?"
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Office_enter",
+      "targetNames": {
+        "Office_enter": {
+          "zh": "Office_enter",
+          "en": "Office_enter"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Office_quest",
+      "targetNames": {
+        "Office_quest": {
+          "zh": "Office_quest",
+          "en": "Office_quest"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639135e8c115f907b14700aa",
+      "name": {
+        "zh": "探望",
+        "en": "Surveillance"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6573382e557ff128bf3da536",
+      "name": {
+        "zh": "开发者之谜 - 2",
+        "en": "Developer's Secrets - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6589939cd4523b429f73ce83.jpg",
+  "isKey": false
+}

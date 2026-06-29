@@ -1,0 +1,170 @@
+{
+  "id": "5ae4497b86f7744cf402ed00",
+  "name": {
+    "zh": "临行密密缝 - 4",
+    "en": "Sew it Good - Part 4"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d5d940f86f7742797262046",
+      "itemName": {
+        "zh": "Oakley Mechanism重型背包 Black",
+        "en": "Oakley Mechanism heavy duty backpack (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ab8dced86f774646209ec87",
+      "itemName": {
+        "zh": "ANA Tactical M2防弹胸挂",
+        "en": "ANA Tactical M2 plate carrier (EMR)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5b44cad286f77402a54ae7e5",
+      "itemName": {
+        "zh": "5.11 Tactical TacTec 插板胸挂（丛林绿）",
+        "en": "5.11 Tactical TacTec plate carrier (Ranger Green)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，看起来我在经手防弹衣，虽然稍微花了一点心思。如果我还需要一些，你会帮我的对吧？现在我很在意战术背心，有些比较难搞到，但你会搞定吧？至少拿来两套就行。",
+    "en": "Well, looks like I’m through with armor, took a bit of an effort, though. If I need some more, you’ll help me out, right? Anyway, now I have to get my hands on tactical rigs, and some of them are pretty hard to come by, but you’ll pull through, right? I need grey BlackRocks and green TVs. Bring at least a couple of each, and it'll be fine. Look for them yourself though, no traders, okay?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "59e7643b86f7742cbf2c109a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e7643b86f7742cbf2c109a": {
+          "zh": "WARTECH TV-109 + TV-106 胸挂（A-TACS 橄榄绿迷彩）",
+          "en": "WARTECH TV-109 + TV-106 chest rig (A-TACS FG)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59e7643b86f7742cbf2c109a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e7643b86f7742cbf2c109a": {
+          "zh": "WARTECH TV-109 + TV-106 胸挂（A-TACS 橄榄绿迷彩）",
+          "en": "WARTECH TV-109 + TV-106 chest rig (A-TACS FG)"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "5648a69d4bdc2ded0b8b457b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5648a69d4bdc2ded0b8b457b": {
+          "zh": "BlackRock胸挂",
+          "en": "BlackRock chest rig (Gray)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5648a69d4bdc2ded0b8b457b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5648a69d4bdc2ded0b8b457b": {
+          "zh": "BlackRock胸挂",
+          "en": "BlackRock chest rig (Gray)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae4496986f774459e77beb6",
+      "name": {
+        "zh": "临行密密缝 - 3",
+        "en": "Sew it Good - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae4499a86f77449783815db",
+      "name": {
+        "zh": "风流倜傥",
+        "en": "Charisma Brings Success"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5e381b0286f77420e3417a74",
+      "name": {
+        "zh": "纺织业 - 1",
+        "en": "Textile - Part 1"
+      }
+    },
+    {
+      "id": "5e383a6386f77465910ce1f3",
+      "name": {
+        "zh": "纺织业 - 1",
+        "en": "Textile - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a7d986f7743fee0a75b2.jpg",
+  "isKey": false
+}

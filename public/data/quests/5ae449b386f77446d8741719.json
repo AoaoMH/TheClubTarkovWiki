@@ -1,0 +1,178 @@
+{
+  "id": "5ae449b386f77446d8741719",
+  "name": {
+    "zh": "感恩的心",
+    "en": "Gratitude"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 120000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 120000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60b52e5bc7d8103275739d67",
+      "itemName": {
+        "zh": "Stich Profi Chimera 奔尼帽",
+        "en": "Stich Profi Chimera boonie hat"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "618aef6d0a5a59657e5f55ee",
+      "itemName": {
+        "zh": "Jack Pyke Hunting LLCS奔尼帽",
+        "en": "Jack Pyke Hunting LLCS boonie hat"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d96141523f0ea1b7f2aacab",
+      "itemName": {
+        "zh": "Door Kicker 奔尼帽",
+        "en": "Door Kicker boonie hat"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b4327aa5acfc400175496e0",
+      "itemName": {
+        "zh": "军用科技奔尼帽",
+        "en": "MIL-TEC boonie hat"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我想给一个家伙送个爱心包裹。给他点儿装备，这样他就会知道，阿沙维尔一直记得他。这家伙不属于军方，就是个普通人，但是有时喜欢打扮得像黑客帝国里面的角色一样。或者按照那个胸毛浓密的间谍的说法，生下来就戴着眼镜，叫Austin什么的那个家伙。把包裹放到森林的码头，他会去拿，我会让他知道的。把东西藏在桶之间就行，这样就没人看见了。",
+    "en": "Salam. Listen, I’d like to send a care package to one dude. Get him fitted with some stuff, just so he knows that Arshavir remembers. He's is not the military, just a regular dude, but he loves to dress up like he's in the Matrix sometimes. Or as that hairy-chested spy, Austin or whatever, the dude in glasses. Leave the package at the pier in the Woods, right on the wooden docks. He will pick it up, I’ll let him know. Just hide it someplace between the barrels, so that nobody sees it. Here's the list of what to stash, come back when you're done. Oh, the shemagh must be green, by the way!"
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5ab8f4ff86f77431c60d91ba"
+      ],
+      "targetNames": {
+        "5ab8f4ff86f77431c60d91ba": {
+          "zh": "幽灵头套",
+          "en": "Ghost balaclava"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5ab8f85d86f7745cd93a1cf5"
+      ],
+      "targetNames": {
+        "5ab8f85d86f7745cd93a1cf5": {
+          "zh": "提花头巾（绿色）",
+          "en": "Shemagh (Green)"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5aa2b9aee5b5b00015693121"
+      ],
+      "targetNames": {
+        "5aa2b9aee5b5b00015693121": {
+          "zh": "Raybench Hipster Reserve太阳镜",
+          "en": "RayBench Hipster Reserve sunglasses"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5aa2b923e5b5b000137b7589"
+      ],
+      "targetNames": {
+        "5aa2b923e5b5b000137b7589": {
+          "zh": "圆框太阳镜",
+          "en": "Round frame sunglasses"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae4490786f7744ca822adcc",
+      "name": {
+        "zh": "盛装杀戮",
+        "en": "Dressed to Kill"
+      }
+    },
+    {
+      "id": "5ae4493d86f7744b8e15aa8f",
+      "name": {
+        "zh": "数据库 - 2",
+        "en": "Database - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae449c386f7744bde357697",
+      "name": {
+        "zh": "大放送之夜",
+        "en": "Sales Night"
+      }
+    },
+    {
+      "id": "5b478b1886f7744d1b23c57d",
+      "name": {
+        "zh": "火线速递",
+        "en": "Hot Delivery"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

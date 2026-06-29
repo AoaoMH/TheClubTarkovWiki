@@ -1,0 +1,125 @@
+{
+  "id": "649570491bb4d158bc4d0168",
+  "name": {
+    "zh": "吹哨人",
+    "en": "Tourists"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.15
+    },
+    {
+      "type": "Item",
+      "value": 90,
+      "itemId": "5a26ac0ec4a28200741e1e18",
+      "itemName": {
+        "zh": "9x21毫米 SP13",
+        "en": "9x21mm BT gzh"
+      },
+      "quantity": 90
+    },
+    {
+      "type": "Item",
+      "value": 90,
+      "itemId": "61962b617c6c7b169525f168",
+      "itemName": {
+        "zh": "5.45x39毫米 7N40 gs",
+        "en": "5.45x39mm 7N40"
+      },
+      "quantity": 90
+    },
+    {
+      "type": "Item",
+      "value": 60,
+      "itemId": "5e023d48186a883be655e551",
+      "itemName": {
+        "zh": "7.62x54R 7N37",
+        "en": "7.62x54mm R BS gs"
+      },
+      "quantity": 60
+    },
+    {
+      "type": "Item",
+      "value": 60,
+      "itemId": "5c0d688c86f77413ae3407b2",
+      "itemName": {
+        "zh": "9x39毫米 7N12 BP",
+        "en": "9x39mm BP gs"
+      },
+      "quantity": 60
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵！听说最近灯塔的事情了吗？我的线人告诉我说，那里的混混和游荡者闹掰了，现在正在到处找人。你需要帮助一下游荡者。因为，在我的眼皮子底下，不允许有破坏和平的行为。懂？",
+    "en": "Opa, warrior! Come on in, you've got a job to do. So listen up, there's been a fight between the Western bigwigs and our locals. We can't let an opportunity like this go to waste. So come on, get your boom stick and roll out. They were last seen at Polikhim, entrenched there like a bunch of ticks. Show them hell, make them get the fuck off our land."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKnight"
+      ],
+      "location": "factory4_day,factory4_night"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBigPipe"
+      ],
+      "location": "factory4_day,factory4_night"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBirdEye"
+      ],
+      "location": "factory4_day,factory4_night"
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "factory4_day,factory4_night"
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/64a2c939d73e87e12400432b.jpg",
+  "isKey": false
+}

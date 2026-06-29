@@ -1,0 +1,140 @@
+{
+  "id": "5c1234c286f77406fa13baeb",
+  "name": {
+    "zh": "借刀杀人",
+    "en": "Setup"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Elimination",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 150000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 150000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f2a9575926fd9352339381f",
+      "itemName": {
+        "zh": "Kel-Tec RFB 7.62x51",
+        "en": "Kel-Tec RFB 7.62x51 rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "64898838d5b4df6140000a20",
+      "itemName": {
+        "zh": "12/70 AP-20弹药包（25发装）",
+        "en": "12/70 AP-20 ammo pack (25 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.05
+    }
+  ],
+  "description": {
+    "zh": "之前的计划进行地很顺利！他们想要伏击我的送货员却反被埋伏了一把，哈哈哈。不过现在，我手下的人遇到了一些大麻烦。这个团伙有他们自己的制服，他们的主力枪手都穿着苏联毛帽，带着Scav背心和MP霰弹枪，真像是一群小丑，不是么？所以你需要做的是打扮成他们的模样（Scav背心，苏联毛帽和MP系列霰弹枪）然后击杀PMC，我不关心什么立场问题，重要的是让PMC在这场战争中站在我们这边。懂了？",
+    "en": "Hello, buddy. You heard about the Scavs squaring off right now, right? It's a big mess out there. And it's all fine and dandy, but my boys are getting caught up in this as well. Though my guys are not complete nitwits, some help would still be appreciated.\n\nSo here's the plan: this gang has their own outfits, their key-fighters wear ushankas, fisherman vests, and often use shotguns. What a bunch of clowns, aren't they? So what you should do is dress up like one of them (Scav Vest, Ushanka ear flap hat, and MP-series shotguns) and smoke some PMCs. I don't care about factions, the important thing is to just get PMCs into this to fight those morons. You get what's gonna happen, yeah?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 1,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "54491c4f4bdc2db1078b4568",
+        "56dee2bdd2720bc8328b4567",
+        "606dae0ab0e443224b421bb7",
+        "5580223e4bdc2d1c128b457f",
+        "64748cb8de82c85eaf0a273a",
+        "61f7c9e189e6fb1a5e3ea78d"
+      ],
+      "weaponNames": {
+        "54491c4f4bdc2db1078b4568": {
+          "zh": "MP-133 12铅径 霰弹枪",
+          "en": "MP-133 12ga pump-action shotgun"
+        },
+        "56dee2bdd2720bc8328b4567": {
+          "zh": "MP-153 12铅径 半自动霰弹枪",
+          "en": "MP-153 12ga semi-automatic shotgun"
+        },
+        "606dae0ab0e443224b421bb7": {
+          "zh": "MP-155 12铅径 半自动霰弹枪",
+          "en": "MP-155 12ga semi-automatic shotgun"
+        },
+        "5580223e4bdc2d1c128b457f": {
+          "zh": "MP-43-1C双管霰弹枪",
+          "en": "MP-43-1C 12ga double-barrel shotgun"
+        },
+        "64748cb8de82c85eaf0a273a": {
+          "zh": "MP-43 12铅径截短双管霰弹枪",
+          "en": "MP-43 12ga sawed-off double-barrel shotgun"
+        },
+        "61f7c9e189e6fb1a5e3ea78d": {
+          "zh": "MP-18 7.62x54R单发步枪",
+          "en": "MP-18 7.62x54R single-shot rifle"
+        }
+      },
+      "location": "bigmap"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27d2af86f7744e1115b323",
+      "name": {
+        "zh": "西方来客 - 2",
+        "en": "Friend From the West - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5b47926a86f7747ccc057c15",
+      "name": {
+        "zh": "情报就是力量",
+        "en": "Informed Means Armed"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5968ec2986f7741ddf17db83.jpg",
+  "isKey": false
+}

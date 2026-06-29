@@ -1,0 +1,85 @@
+{
+  "id": "649af47d717cb30e7e4b5e26",
+  "name": {
+    "zh": "品“酒”师",
+    "en": "Cocktail Tasting"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.15
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5fc22d7c187fea44d52eda44",
+      "itemName": {
+        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪",
+        "en": "SWORD International Mk-18 .338 LM marksman rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b2388675acfc4771e1be0be",
+      "itemName": {
+        "zh": "Burris FullField TAC30 1-4x24 30 毫米 步枪瞄准镜",
+        "en": "Burris FullField TAC30 1-4x24 30mm riflescope"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "618ba27d9008e4636a67f61d",
+      "itemName": {
+        "zh": "Vortex Razor HD Gen.2 1-6x24步枪瞄准镜",
+        "en": "Vortex Razor HD Gen.2 1-6x24 30mm riflescope"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b3b99475acfc432ff4dcbee",
+      "itemName": {
+        "zh": "EOTech Vudu 1-6x24 30 毫米 步枪瞄准镜",
+        "en": "EOTech Vudu 1-6x24 30mm riflescope"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿！听着，这座城市里有个化学家。他研制了各种操蛋的药。小道消息说最近他又做出了新的药剂。说是他们看到一个人跟疯了一样到处乱跑，而且还能躲开子弹。但是没多久他就栽在石头上，上西天了，这你敢信？看起来这是用生命作为代价在实验呢。一切东西都是有代价的...去搞清楚他到底做了个什么药。",
+    "en": "Opa, hey there! So listen up, there's this big chemist guy in the city. Makes all kinds of fucked-up drugs. And there's a rumor going around that he created some new stimulant. The bums say they saw a jacked-up PMC merc running around the block like a fucking lunatic, dodging bullets Neo style. But then he tripped over a rock and gone to forever sleep, can you believe it? Looks like that chemo took a toll on his health. There's a price to pay for everything in life... Find out what kind of drugs he was stoned on and if there's any reason to peddle that shit."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: HealthBuff",
+      "value": 20,
+      "target": [
+        "Buffs_Obdolbos"
+      ],
+      "targetNames": {
+        "Buffs_Obdolbos": {
+          "zh": "Buffs_Obdolbos",
+          "en": "Buffs_Obdolbos"
+        }
+      }
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: ExitStatus",
+      "value": 1,
+      "isFailCondition": true
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/64a5b5190724bc4b981f5105.jpg",
+  "isKey": false
+}

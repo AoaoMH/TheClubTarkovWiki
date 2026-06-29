@@ -1,0 +1,131 @@
+{
+  "id": "6863d9bcd3bfdcb2bc075956",
+  "name": {
+    "zh": "诺文斯克的朋友 - 第二部分",
+    "en": "Friend from Norvinsk - Part 2"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4000
+    },
+    {
+      "type": "Item",
+      "value": 15300,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 15300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "590a3cd386f77436f20848cb",
+      "itemName": {
+        "zh": "节能灯泡",
+        "en": "Energy-saving lamp"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "59e36c6f86f774176c10a2a7",
+      "itemName": {
+        "zh": "电源线",
+        "en": "Power cord"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e2af37686f774755a234b65",
+      "itemName": {
+        "zh": "SurvL幸存者打火机",
+        "en": "SurvL Survivor Lighter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "574eb85c245977648157eec3",
+      "itemName": {
+        "zh": "工厂地图",
+        "en": "Factory plan map"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "很高兴你来了，雇佣兵。我刚想起来一件事：我那个朋友一直想去疗养院看看。他总说自己真的需要休假，但一直没时间。\n\n他还提到一个项目，一个很大的项目，一个能\"改变规则\"的项目。还要和某个重要人物会面。具体在哪，我不知道。你得去调查。",
+    "en": "Glad you came by, mercenary. I have just remembered something: that friend of mine always wanted to visit the health resort. He kept saying he really needed a vacation, but he couldn't find the time.\n\nHe also mentioned a project, something big, something that would \"change the rules\". And a meeting with someone important. Where exactly, that I don't know. You'll have to investigate."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "68666482abad2f29b00aab57"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "68666482abad2f29b00aab57": {
+          "zh": "程序员的手机",
+          "en": "Programmer's phone"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "68666482abad2f29b00aab57"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "68666482abad2f29b00aab57": {
+          "zh": "程序员的手机",
+          "en": "Programmer's phone"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6863cf925eaeb676d50a9651",
+      "name": {
+        "zh": "诺文斯克的朋友 - 第一部分",
+        "en": "Friend from Norvinsk - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6863e09a5f4d17fd3e01feee",
+      "name": {
+        "zh": "诺文斯克的朋友 - 第三部分",
+        "en": "Friend from Norvinsk - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6882259b4d3fc2e4c00b1d7f.jpg",
+  "isKey": false
+}

@@ -1,0 +1,81 @@
+{
+  "id": "65802b627b44fa5e14638899",
+  "name": {
+    "zh": "绝不上当",
+    "en": "Nothing Fishy About This"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Discover",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 25000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 25000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60a6220e953894617404b00a",
+      "itemName": {
+        "zh": "Stich Profi MK2胸挂（侦察型，A-TACS FG迷彩）",
+        "en": "Stich Profi Chest Rig MK2 (Recon, A-TACS FG)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，老兄。今天心情不太好，真的。感觉像是被人坑了一把！\n\n我花2000刀买了一辆绝对能开的SUV。一切看起来都没问题，他们把货带到了海岸线，然后司机就再也没有联系过我了。这不是什么大钱，但还是很烦。你能去看看，车子真的在那里吗？",
+    "en": "Hello, brother. Kinda in a bad mood today, not gonna lie. I feel like I've been ripped off!\n\nI bought an apparently running SUV for 2,000 bucks. And everything seemed fine, they brought it to Shoreline, but the driver never contacted me back after that. It's not a lot of money, but still sucks. Can you go see if the car's actually there?"
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "q14_11_jeep",
+      "targetNames": {
+        "q14_11_jeep": {
+          "zh": "q14_11_jeep",
+          "en": "q14_11_jeep"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae448e586f7744dcf0c2a67",
+      "name": {
+        "zh": "大甩卖",
+        "en": "Big Sale"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/658991c8c5998b6e942974ed.jpg",
+  "isKey": false
+}

@@ -1,0 +1,167 @@
+{
+  "id": "675c085d59b0575973005f52",
+  "name": {
+    "zh": "浑水摸鱼",
+    "en": "Break the Deal"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Multi",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11400
+    },
+    {
+      "type": "Item",
+      "value": 105000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 105000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b44d0de86f774503d30cba8",
+      "itemName": {
+        "zh": "IOTV Gen4 防弹衣（高机动型，复合迷彩）",
+        "en": "IOTV Gen4 body armor (High Mobility Kit, MultiCam)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "哟，还好吗？接下来我要告诉你的事情你肯定难以置信——我有份差事要给你！算了，玩笑归玩笑。那个叫 Reshala 的家伙又想开拓自己的新“事业”了。相信我，我可不想让这个混蛋来搅局。\n\n我发现这混蛋计划和我的一个合伙人会面，后者在本土有着不一般的关系。问题是，我只知道会面地点，但不知道他们具体什么时候开始谈。\n\n所以我雇了一个可靠的狙击手去搞砸这场会面。只是他现在已经就位了，你也懂狙击手这一行的，一旦进入阵地之后就只能死守在那，撒尿都只能撒在裤子上的那种。\n\n更糟糕的是，我在瞭望点上预先为他准备好的装备被 Scav 发现了，那群土匪把所有东西都洗劫一空。你能再带一套装备给他吗？就在工业区中间，外墙上有三个大管道的厂房那里。周围有金属脚手架什么的……把它藏在脚手架上，行吗？\n\n妈的，伙计，我当然会付钱给你的。多劳多得嘛，嘿嘿。",
+    "en": "Yo, you doing good? You will never believe what I'm going to tell you right now. I have a job for you! Alright, jokes aside, the Reshala guy wants to jump head first into a new business. And believe me, I don't want this fucker in there.\n\nI found out this punk's planning a meeting with one of my partners with ties to the big land. Thing is, we only know the meeting spot, but we don't know when they're gonna sort their shit out.\n\nSo I hired a trustworthy sniper to crash the meeting when it happens. Except that now he's in his position out there all the fucking time, can't even go down to take a piss.\n\nWhat's more, the stash I set up for him at the lookout spot was found by the Scavs, and they looted everything clean. You think you can drop off the rest of the gear? It's at the plant with three large pipes in the middle of the industrial zone. It's got some metal scaffolding or something around it... Hide it all over that scaffolding, alright?\n\nShit, man, of fucking course I'll pay you for it. Work hard, and you'll earn hard, hehe."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "588892092459774ac91d4b11"
+      ],
+      "targetNames": {
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5888988e24597752fe43a6fa"
+      ],
+      "targetNames": {
+        "5888988e24597752fe43a6fa": {
+          "zh": ".308 10发DVL-10弹匣",
+          "en": "DVL-10 7.62x51 10-round magazine"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "57ac965c24597706be5f975c",
+        "57aca93d2459771f2c7e26db"
+      ],
+      "targetNames": {
+        "57ac965c24597706be5f975c": {
+          "zh": "ELCAN SpecterDR 1x/4x瞄准镜",
+          "en": "ELCAN SpecterDR 1x/4x scope"
+        },
+        "57aca93d2459771f2c7e26db": {
+          "zh": "ELCAN SpecterDR 1x/4x瞄准镜 FDE",
+          "en": "ELCAN SpecterDR 1x/4x scope (FDE)"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "65702566bfc87b3a3409324d",
+        "65702561cfc010a0f5006a28",
+        "6570255dbfc87b3a3409324a",
+        "65702558cfc010a0f5006a25",
+        "65702554bfc87b3a34093247",
+        "6570254fcfc010a0f5006a22",
+        "648984e3f09d032aa9399d53",
+        "6769b8e3c1a1466c850658a8"
+      ],
+      "targetNames": {
+        "65702566bfc87b3a3409324d": {
+          "zh": "7.62x51TCW SP弹药包（20发装）",
+          "en": "7.62x51mm TCW SP ammo pack (20 pcs)"
+        },
+        "65702561cfc010a0f5006a28": {
+          "zh": "7.62x51 BCP FMJ弹药包（20发装）",
+          "en": "7.62x51mm BCP FMJ ammo pack (20 pcs)"
+        },
+        "6570255dbfc87b3a3409324a": {
+          "zh": "7.62x51 Ultra Nosler弹药包（20发装）",
+          "en": "7.62x51mm Ultra Nosler ammo pack (20 pcs)"
+        },
+        "65702558cfc010a0f5006a25": {
+          "zh": "7.62x51 M80弹药包（20发装）",
+          "en": "7.62x51mm M80 ammo pack (20 pcs)"
+        },
+        "65702554bfc87b3a34093247": {
+          "zh": "7.62x51 M62曳光弹弹药包（20发装）",
+          "en": "7.62x51mm M62 Tracer ammo pack (20 pcs)"
+        },
+        "6570254fcfc010a0f5006a22": {
+          "zh": "7.62x51 M61弹药包（20发装）",
+          "en": "7.62x51mm M61 ammo pack (20 pcs)"
+        },
+        "648984e3f09d032aa9399d53": {
+          "zh": "7.62x51mm M993弹药包（20发装）",
+          "en": "7.62x51mm M993 ammo pack (20 pcs)"
+        },
+        "6769b8e3c1a1466c850658a8": {
+          "zh": "7.62x51mm M80A1 弹药包（20发装）",
+          "en": "7.62x51mm M80A1 ammo pack (20 pcs)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae448bf86f7744d733e55ee",
+      "name": {
+        "zh": "让 ULTRA 再次伟大",
+        "en": "Make ULTRA Great Again"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6762fe23bcd7cb145f053a24.jpg",
+  "isKey": false
+}

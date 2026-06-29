@@ -1,0 +1,197 @@
+{
+  "id": "5c0d4e61d09282029f53920e",
+  "name": {
+    "zh": "向导",
+    "en": "The Guide"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 42600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 25000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 25000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0a2cec0db834001b7ce47d",
+      "itemName": {
+        "zh": "EOTech HHS-1 复合瞄具（黄褐色）",
+        "en": "EOTech HHS-1 hybrid sight (Tan)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e66e2d174af02a96252f4",
+      "itemName": {
+        "zh": "Ops-Core SLAAP 附加防弹板（黄褐色）",
+        "en": "Ops-Core SLAAP armor helmet plate (Tan)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "59bfe68886f7746004266202",
+      "itemName": {
+        "zh": "Vltor MUR-1S 5.56x45 AR系统上机匣",
+        "en": "AR-15 Vltor MUR-1S 5.56x45 upper receiver"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0a2cec0db834001b7ce47d",
+      "itemName": {
+        "zh": "EOTech HHS-1 复合瞄具（黄褐色）",
+        "en": "EOTech HHS-1 hybrid sight (Tan)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e66e2d174af02a96252f4",
+      "itemName": {
+        "zh": "Ops-Core SLAAP 附加防弹板（黄褐色）",
+        "en": "Ops-Core SLAAP armor helmet plate (Tan)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59bfe68886f7746004266202",
+      "itemName": {
+        "zh": "Vltor MUR-1S 5.56x45 AR系统上机匣",
+        "en": "AR-15 Vltor MUR-1S 5.56x45 upper receiver"
+      }
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5ba26835d4351e0035628ff5",
+      "itemName": {
+        "zh": "4.6x30毫米 AP SX",
+        "en": "4.6x30mm AP SX"
+      }
+    }
+  ],
+  "description": {
+    "zh": "啊，原来是你啊？来吧，我给你接了些活儿。一些很重要的人，可以这么说吧，刚到这座城市，需要一个非常专业的导游来带他们去该去的地方，同时还懂得不多嘴问一些不必要的问题。主顾们很乐意开个好价，你觉得你能胜任吗？等你准备好了就来找我吧，我会引荐你的。",
+    "en": "Ohh, it’s you? Come on, I have some business for you. Some serious people who are, so to speak, new to the city, need the services of a professional guide who will lead the group to the right place and won’t ask unnecessary questions. They are willing to pay good money for this. Do you think you can handle it? If I see that you are indeed ready, I would recommend you to them, mercenary."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "Woods"
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "bigmap"
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "Interchange"
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "factory4_day,factory4_night"
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "laboratory"
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "RezervBase"
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "Lighthouse"
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "Sandbox,Sandbox_high"
+    },
+    {
+      "type": "Exploration",
+      "description": "Avoid: ExitStatus",
+      "value": 1,
+      "isFailCondition": true,
+      "location": "Shoreline,factory4_night,bigmap,Sandbox,Lighthouse,RezervBase,Woods,factory4_day,TarkovStreets,laboratory,Interchange,Sandbox_high"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bc8586f7741b543d8ea4",
+      "name": {
+        "zh": "湿活 - 6",
+        "en": "Wet Job - Part 6"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "60e71c9ad54b755a3b53eb66",
+      "name": {
+        "zh": "清洁工",
+        "en": "The Cleaner"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59675e7b86f77414b25fb049.jpg",
+  "isKey": false
+}

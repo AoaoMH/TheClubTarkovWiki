@@ -1,0 +1,94 @@
+{
+  "id": "66aa61663aa37705c5024277",
+  "name": {
+    "zh": "此路是我开！",
+    "en": "Know Your Place!"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Elimination",
+  "location": "marathon",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 28800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 95000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 95000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b5f6985891c84aab75ca76",
+      "itemName": {
+        "zh": "Peltor ComTac VI 耳机（棕褐色）",
+        "en": "Peltor ComTac VI headset (Coyote Brown)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你来得真是时候！我找到了一条新的穿梭路线。也不能说是我发现的。是有人用两倍的速度把东西从市中心带到了Ultra购物中心。\n\n这些人一定是找到了一位在大停电之前就对路线知根知底的向导... 说不定甚至是个和那位游击蘑菇侠一样的人，你听说过他吗？他甚至被抓过一次。但是他经常找到逃跑的路子。\n\n不管怎样，我们都必须掌控这条路线。找到那些走私者使用的路线，然后让大家知道这是Ragman所有！对，要让市区里和购物中心附近的所有人都明白。",
+    "en": "Came here just when I needed you! I found a new delivery route across the city. Well, not exactly found it, per se. Someone moved a package from the city center to Ultra twice as fast as usual.\n\nThese guys must have found a veteran guide who's been here before all the electronics were shut down... Maybe even someone like this crazy guerilla mushroom guy, you heard of him? He'd show up out of nowhere, even been taken captive. But he always found a way to get out and lose his pursuers.\n\nEither way, we need to take control of the route. Find the place where those smugglers emerge from, and show everyone that this is now Ragman's route! So yeah, go ahead and scare everyone off in the city and near Ultra."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "location": "TarkovStreets",
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "location": "Interchange",
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5c10f94386f774227172c572",
+      "name": {
+        "zh": "战争之血 - 3",
+        "en": "The Blood of War - Part 3"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/6682a74d9cf6cc15c00a0f91.png",
+  "isKey": false
+}

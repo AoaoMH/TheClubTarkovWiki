@@ -1,0 +1,114 @@
+{
+  "id": "5c10f94386f774227172c572",
+  "name": {
+    "zh": "战争之血 - 3",
+    "en": "The Blood of War - Part 3"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e774286f77468413cc5b2",
+      "itemName": {
+        "zh": "Mystery Ranch Blackjack 50背包（组合迷彩）",
+        "en": "Mystery Ranch Blackjack 50 backpack (MultiCam)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e655586f774045612eeb2",
+      "itemName": {
+        "zh": "HighCom Trooper TFO 防弹背心（复合迷彩）",
+        "en": "HighCom Trooper TFO body armor (MultiCam)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "向你致敬。有个家伙，他卖了些从伐木场找到的货给我，还跟我说他在那里找到了一些藏匿点，里面全是燃料桶，你有见过吗？ 谁藏的这些东西？PMC还是SCAV——这无从得知。也许那些桶子已经空了，但是也值得去查看一番。我想要你帮我标记一下那些藏匿点。最近Mechanic为收集燃料开了很高的价，他需要这些燃料来维给他的比特币矿场全天候供电。总之，那个人说他在森林看到过三堆燃料，所以我派你去标记它们，怎么样？",
+    "en": "Salam, brother. So there's this guy, he was selling me some stuff he found near the lumber mill, and so he told me that he found some stashes near rocks filled with fuel barrels, can you imagine? We don't know if it was PMCs or Scavs who stashed them there, those barrels might even be empty, but it's still worth checking out. Mechanic throws some serious cash for fuel these days, he spilled that he has some kind of a farm that needs fuel 24/7. So anyway, the guy said that he's seen three of those fuel stashes on Woods, and each one also had half a dozen of green army crates. I want you to mark those stashes with beacons, alright?"
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b47876e86f7744d1c353205",
+      "name": {
+        "zh": "战争之血 - 2",
+        "en": "The Blood of War - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c1141f386f77430ff393792",
+      "name": {
+        "zh": "奢侈无罪 - 2",
+        "en": "Living High is Not a Crime - Part 2"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "66aa61663aa37705c5024277",
+      "name": {
+        "zh": "此路是我开！",
+        "en": "Know Your Place!"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5b4787d086f7744d184ecb35.jpg",
+  "isKey": false
+}

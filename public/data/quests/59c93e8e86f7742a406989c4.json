@@ -1,0 +1,54 @@
+{
+  "id": "59c93e8e86f7742a406989c4",
+  "name": {
+    "zh": "收买人心",
+    "en": "Loyalty Buyout"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Loyalty",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.25
+    }
+  ],
+  "description": {
+    "zh": "哦，你好啊，你好啊。上次你耍的把戏真是烂透了，我都想找个人送你上西天，花裤衩先生。但，既然你来了，就给你个赎罪的机会。对我来说很简单，就像从小孩子身上抢糖果一样——我的信任可以买到，100万卢布，我们就可以忘掉之前的误会。",
+    "en": "Well hello-hello, little rat. That last trick you pulled was total bullshit, that's for sure. I even thought of getting a team to get rid of you, mister fancypants. Well, since you’re here, I guess you want to amend for your sins. It’s simple to me, like taking candy from a baby - my trust can be bought. One million in rubles - and we’ll forget about past misunderstandings."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1000000,
+      "target": [
+        "5449016a4bdc2d6f028b456f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5449016a4bdc2d6f028b456f": {
+          "zh": "卢布",
+          "en": "Roubles"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "597a0f5686f774273b74f676",
+      "name": {
+        "zh": "化学品 - 4",
+        "en": "Chemical - Part 4"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+  "isKey": false
+}

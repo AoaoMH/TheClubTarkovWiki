@@ -1,0 +1,141 @@
+{
+  "id": "64f5aac4b63b74469b6c14c2",
+  "name": {
+    "zh": "苏共之辉 - 2",
+    "en": "Glory to CPSU - Part 2"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "643ea5b23db6f9f57107d9fd",
+      "itemName": {
+        "zh": "Tokarev SVT-40 7.62x54R步枪",
+        "en": "Tokarev SVT-40 7.62x54R rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6422e1ea3c0f06190302161a",
+      "itemName": {
+        "zh": "AVT-40 7.62x54R 10发弹匣",
+        "en": "SVT-40 7.62x54R 10-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6570257cc5d7d4cb4d078579",
+      "itemName": {
+        "zh": "7.62x54 R PS gzh弹药包（20发装）",
+        "en": "7.62x54mm R PS gzh ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6410733d5dd49d77bd07847e",
+      "itemName": {
+        "zh": "Tokarev AVT-40 7.62x54R自动步枪",
+        "en": "Tokarev AVT-40 7.62x54R automatic rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "不，我不相信Oleg失踪了。再找找吧。上次我和他联系的时候，他说他有了一份新工作，眼里可有神了。但是我们又聊别的去了，然后就喝醉了...总之，我不知道他在那里工作，但是既然他这么兴奋，那肯定是和什么苏联的东西有关。这就是我们的突破口。找到这样的地方，然后翻个底朝天。我可不想失去亲爱的同志。",
+    "en": "No, I don't believe Oleg's gone. So we keep looking. The last time we were in touch, he said he got a new job, eyes sparkling. But then we were distracted by another topic, and being drunk didn't help... Anyway, I don't know where he got a job, but if he was so excited, it must have had something to do with everything Soviet. That's what we'll be looking for. Find this place and search it clean. I don't want to lose my comrade."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_find_2st_kpss2",
+      "targetNames": {
+        "quest_zone_find_2st_kpss2": {
+          "zh": "quest_zone_find_2st_kpss2",
+          "en": "quest_zone_find_2st_kpss2"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "64f07f7726cfa02c506f8ac0"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "64f07f7726cfa02c506f8ac0": {
+          "zh": "日记本",
+          "en": "Journal"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "64f07f7726cfa02c506f8ac0"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "64f07f7726cfa02c506f8ac0": {
+          "zh": "日记本",
+          "en": "Journal"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639135b04ed9512be67647d7",
+      "name": {
+        "zh": "苏共之辉 - 1",
+        "en": "Glory to CPSU - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6573397ef3f8344c4575cd87",
+      "name": {
+        "zh": "财不外露",
+        "en": "Properties All Around"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a938b387c76a25c912120f.jpg",
+  "isKey": false
+}

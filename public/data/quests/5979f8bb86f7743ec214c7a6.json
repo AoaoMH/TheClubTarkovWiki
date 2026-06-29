@@ -1,0 +1,109 @@
+{
+  "id": "5979f8bb86f7743ec214c7a6",
+  "name": {
+    "zh": "Polikhim流浪汉",
+    "en": "Polikhim Hobo"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5710c24ad2720bc3458b45a3",
+      "itemName": {
+        "zh": "F-1手榴弹",
+        "en": "F-1 hand grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5448be9a4bdc2dfd2f8b456a",
+      "itemName": {
+        "zh": "RGD-5手榴弹",
+        "en": "RGD-5 hand grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0c27731526d80618476ac4",
+      "itemName": {
+        "zh": "Zarya震撼手榴弹",
+        "en": "Zarya stun grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "Polikhim厂区的流浪汉？你是说那个前安全副官？是，我认识他。这摊烂事给他造成了巨大的伤害——他开始酗酒，变成了流浪汉。但这不意味着他就是个坏人……等一下，他自己不能来说这些么？他被人干掉了？ 好吧，这已经不重要了，显然，既然你问了，这里确实有些问题。恩，我知道他住在哪里，但是我不会白白告诉你，因为我需要人帮我吓走海关里的拾荒者。如果你帮我，我就告诉你这个流浪汉原来住在哪里。",
+    "en": "Polikhim hobo? The former deputy chief of security? Yes, I knew him. All this mess caused him some massive damage - took to drinking, degraded to a hobo. He's not a bad guy... Wait a sec, can’t he say for himself? Did he get whacked or something? Well, doesn't matter, but if you're asking about him, then there are some problems. Well, I knew where he lived, but here’s the deal - I need help scaring off the Scavs from the Customs. If you help me, I’ll tell you where this hobo lived."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 25,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "bigmap"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5979f9ba86f7740f6c3fe9f2",
+      "name": {
+        "zh": "化学品 - 1",
+        "en": "Chemical - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5d4bec3486f7743cac246665",
+      "name": {
+        "zh": "管制材料",
+        "en": "Regulated Materials"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979f91c86f77402996bf9c2.jpg",
+  "isKey": false
+}

@@ -1,0 +1,131 @@
+{
+  "id": "596b36c586f77450d6045ad2",
+  "name": {
+    "zh": "供应商",
+    "en": "Supplier"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 60000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 60000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59f9cabd86f7743a10721f46",
+      "itemName": {
+        "zh": "Saiga-9 9x19卡宾枪",
+        "en": "Saiga-9 9x19 carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59f9cabd86f7743a10721f46",
+      "itemName": {
+        "zh": "Saiga-9 9x19卡宾枪",
+        "en": "Saiga-9 9x19 carbine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64b8f7b5389d7ffd620ccba2",
+      "itemName": {
+        "zh": "7.62x54毫米 R SP BT",
+        "en": "7.62x54mm R SP BT"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你想要点啥，雇佣兵？什么，工作？哈哈！想要高收入还要保证福利？行吧，我先给你派个活。 \n\n我和你还不是很熟，所以先看看你都能做些什么。我需要你找一件白色的防弹衣，就是那种看起来和纸一样的玩意儿，还要一把土炮，也就是Toz霰弹枪。我打算用这些东西来给伙计们装备一下。记得一定要成色好的，明白吗？垃圾货就算了。\n\n总之，只要你干得好，我们就能聊聊你之后工作的事儿，我的“干员”先生。",
+    "en": "What'chu want, merc? A job? Ha! Looking for a good net salary and a full social package? Alright then, I'll give you a job. \n\nI still barely know you, so let's see what you can do. I'll give you this: find me a white body armor, the one that looks like paper, and one Toz shotty. Gonna gear up my guys a little. But make sure to get the fresh ones, got it? Don't need no haggler shit.\n\nSo anyway, if you do fine, we can talk further about your employment, mister \"operator\"."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "59e7635f86f7742cbf2c1095"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e7635f86f7742cbf2c1095": {
+          "zh": "BNTI Module-3M 防弹背心",
+          "en": "BNTI Module-3M body armor"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5a38e6bac4a2826c6e06d79b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5a38e6bac4a2826c6e06d79b": {
+          "zh": "TOZ-106 20铅径 栓动霰弹枪",
+          "en": "TOZ-106 20ga bolt-action shotgun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315e270bb0b8dba00cc48",
+      "name": {
+        "zh": "快车初体验",
+        "en": "Burning Rubber"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "596b43fb86f77457ca186186",
+      "name": {
+        "zh": "敲诈者",
+        "en": "The Extortionist"
+      }
+    },
+    {
+      "id": "596b455186f77457cb50eccb",
+      "name": {
+        "zh": "风波",
+        "en": "Stirrup"
+      }
+    },
+    {
+      "id": "5a27c99a86f7747d2c6bdd8e",
+      "name": {
+        "zh": "西方来客 - 1",
+        "en": "Friend From the West - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c274ae86f77475060a9341.jpg",
+  "isKey": false
+}

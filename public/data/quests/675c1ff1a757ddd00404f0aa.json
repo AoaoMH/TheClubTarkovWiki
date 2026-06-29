@@ -1,0 +1,93 @@
+{
+  "id": "675c1ff1a757ddd00404f0aa",
+  "name": {
+    "zh": "试驾 - 6",
+    "en": "Test Drive - Part 6"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 65000
+    },
+    {
+      "type": "Item",
+      "value": 65000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 65000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e625a86f7742d77340f62",
+      "itemName": {
+        "zh": "BNTI Zhuk 防弹衣（数码丛林迷彩）",
+        "en": "BNTI Zhuk body armor (EMR)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "战士！看起来你特别中意新潮的外国货啊。那就再给你一份任务好了。\n\n我搞来了点有趣的装备……之前还没有人在塔科夫见到过这种东西，你问我是从哪弄来的？商业机密，哈哈！\n\n我和你实话实说吧，这把枪肯定有搞头。但是如果没有扎实的战斗技巧，这些参数啊靶场数据啊全都只是纸上谈兵而已。\n\n如果你对上手一款真正独特的武器感兴趣的话，我们倒是可以互相帮助一下。",
+    "en": "Warrior! It's clear that you really love to shoot new and exotic weapons. There is a new job on this subject for you.\n\nI found something interesting... No one's ever seen anything like this in Tarkov before! Where'd I get it? Trade secret, haha!\n\nLet me tell you this, this weapon certainly has potential. But without proper combat trials, all these specs and range reports are bullshit.\n\nSo if you're interested in experiencing a real unique weapon, we may be able to help each other."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 50,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "674d6121c09f69dfb201a888"
+      ],
+      "weaponNames": {
+        "674d6121c09f69dfb201a888": {
+          "zh": "Aklys Defense 迅猛龙 .300 Blackout 突击步枪",
+          "en": "Aklys Defense Velociraptor .300 Blackout assault rifle"
+        }
+      },
+      "location": "bigmap"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "669fa3a40c828825de06d6a1",
+      "name": {
+        "zh": "试驾 - 5",
+        "en": "Test Drive - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+  "isKey": false
+}

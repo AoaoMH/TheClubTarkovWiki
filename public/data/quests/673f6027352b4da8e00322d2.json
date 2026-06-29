@@ -1,0 +1,100 @@
+{
+  "id": "673f6027352b4da8e00322d2",
+  "name": {
+    "zh": "必然回应",
+    "en": "Inevitable Response"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15500
+    },
+    {
+      "type": "Item",
+      "value": 82000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 82000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.02
+    }
+  ],
+  "description": {
+    "zh": "你看到我给这辆宝贝换的新负重轮了吗？得了，当我没说，免得你真的探出头去看又搞出什么麻烦来。之前的奔波太耗时间了，不过我们仍然有机会抓到那些差点把我家拆了的混蛋们。我听说他们是从储备基地过来搞得破坏。如果现在动手，也许还来得及把他们逮个正着。 \n\n我建议你从森林启程，沿着那条道路去储备站，我们得赶在他们逍遥法外前把他们都钉死在地上。",
+    "en": "Have you seen the new wheels? Actually, nevermind, before you fuck them up by looking at them or something. We've lost enough time, but there's a chance we can still find those half-assed engineers. I learned they came from the reserve base. If we don't hesitate, we can still catch up with them and punish them. \n\nStart in the forest and follow that path to the military base, we need to nail these assholes before they lay low."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "Woods"
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Woods"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "location": "RezervBase"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "673f5a4976553f78350bdac1",
+      "name": {
+        "zh": "风火轮 - 再次尝试",
+        "en": "Hot Wheels - Let's Try Again"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "673f61a066e6a521aa04b62b",
+      "name": {
+        "zh": "外部订单",
+        "en": "Order From Outside"
+      }
+    },
+    {
+      "id": "6740b60c60a98cad1b0e0aa0",
+      "name": {
+        "zh": "再次延误",
+        "en": "Another Shipping Delay"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/675b0854eaef91cffa0f04fe.jpg",
+  "isKey": false
+}

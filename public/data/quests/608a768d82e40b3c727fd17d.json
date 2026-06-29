@@ -1,0 +1,120 @@
+{
+  "id": "608a768d82e40b3c727fd17d",
+  "name": {
+    "zh": "害虫防治",
+    "en": "Pest Control"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "5704e5fad2720bc05b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 20000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 20000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e3596386f774176c10a2a2",
+      "itemName": {
+        "zh": "Paid杀蟑剂",
+        "en": "PAID AntiRoach spray"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5d6fc78386f77449d825f9dc",
+      "itemName": {
+        "zh": "“Eagle”火药",
+        "en": "Gunpowder \"Eagle\""
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "590c31c586f774245e3141b2",
+      "itemName": {
+        "zh": "一包钉子",
+        "en": "Pack of nails"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60391a8b3364dc22b04d0ce5",
+      "itemName": {
+        "zh": "罐装铝热剂",
+        "en": "Can of thermite"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "请进，找个地方坐吧。你知道这里的人渣把我搞得多生气吗？尤其是那些操蛋的垃圾佬，我忍不了他们了。有些人为了谋生，从别人那偷东西，但是有些人却以此牟利。在塔科夫，后者数不胜数。就拿军事基地打比方吧，冲突开始前我就来过那里，当时的样子可棒了：干干净净，所有的东西井然有序，防御工事在阳光下闪闪发光。然而现在整个军事基地挤满了垃圾佬和掠夺者。帮我办件事儿：到那里去给垃圾佬们上一课，告诉他们无论何时都要保持人性。",
+    "en": "Come in, have a seat. You know how angry the local scum makes me, especially the damn looters, I can't stand them. Somebody steals from others to survive, but some do it for profit, and there are especially plenty of the latter ones in Tarkov. Take the military base, for example. I've been there before this whole conflict, it was such a beautiful sight: everything is clean, in order, the ground is almost glittering under the sun. And now the whole place is filled with all sorts of scum and marauders. I have a request for you: go there and let those looters know that you have to stay human in any situation."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e4d586f77443e625e388",
+      "name": {
+        "zh": "储备",
+        "en": "Reserve"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5d25e44f86f77443e625e385",
+      "name": {
+        "zh": "猎人之路 - 蒸发密令",
+        "en": "The Huntsman Path - Eraser - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c373b71d348838124696ea.jpg",
+  "isKey": false
+}

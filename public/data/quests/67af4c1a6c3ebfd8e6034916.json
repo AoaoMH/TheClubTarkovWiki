@@ -1,0 +1,97 @@
+{
+  "id": "67af4c1a6c3ebfd8e6034916",
+  "name": {
+    "zh": "利润保留",
+    "en": "Profit Retention"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Skill",
+      "target": "Crafting",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "HideoutManagement",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Attention",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Search",
+      "value": 100
+    }
+  ],
+  "description": {
+    "zh": "所以你现在是真正的战地外科医生了，嗯，挺不错的。我一直不喜欢书，更别说看别人乱写的笔记了，压根看不懂。\n\n是时候从我们的生意里分红了！Luka和他的兄弟们击退了那些混混，他说这是一场硬仗。你猜怎么着？军方还是没出现，那帮混混肯定和他们是一伙的。我看，就连封锁区外也能遇到像我们Prapor那样的人啊，是吧？\n\n现在剩下的问题都是好消息了。他们准备从另一边发来一批货，但这批货不符合以前的任何走货方案——整整一车厢的装备！\n\n为了把这些东西都运出来，我朋友那要提前收一笔特别费用。风险实在他妈的太高了，所以我们得付钱。我猜这家伙那边可能还有个比特币农场呢。",
+    "en": "So you're a true field surgeon now, huh? Well, good for you. I've never liked books, much less reading other people's scribbles, I find it hard to understand.\n\nIt's time to take dividends on our business! Luka and his boys repelled those thugs, he said it was a tough fight. And guess what, there's still no sign of the military, the thugs were definitely in on it with them. I guess you can find someone like our Prapor even beyond the cordon, huh?\n\nThe only issues left are the good ones. They're ready to send a shipment from the other side, but it doesn't fit any of the old schemes. It's a wagonload of equipment! \n\nTo get it all out, my mate demands a special fee, all in advance. The risks are too fucking high, so we have to pay. This bastard's got a bitcoin farm over there, I reckon."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 30,
+      "target": [
+        "57347ca924597744596b4e71"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "57347ca924597744596b4e71": {
+          "zh": "显示卡",
+          "en": "Graphics card"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 15,
+      "target": [
+        "59faff1d86f7746c51718c9c"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59faff1d86f7746c51718c9c": {
+          "zh": "实体比特币",
+          "en": "Physical Bitcoin"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67af4c1991ee75c6d7060a16",
+      "name": {
+        "zh": "站稳脚跟",
+        "en": "Get a Foothold"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67af4c1cc0e59d55e2010b97",
+      "name": {
+        "zh": "人生之课",
+        "en": "A Life Lesson"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/67dabea55bf56070b60b133f.png",
+  "isKey": false
+}

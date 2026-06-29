@@ -1,0 +1,153 @@
+{
+  "id": "67a0964e972c11a3f507731b",
+  "name": {
+    "zh": "大海捞针",
+    "en": "Needle in a Haystack"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 47000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 47000
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5d1b392c86f77425243e98fe",
+      "itemName": {
+        "zh": "电灯泡",
+        "en": "Light bulb"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "590a3cd386f77436f20848cb",
+      "itemName": {
+        "zh": "节能灯泡",
+        "en": "Energy-saving lamp"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你来得正是时候！我研究了你找来的经理日志，把里面的出现频率最高的设施信息整合成了一份名单。你需要逐一排查其中所有地方。 \n\n目前我还不知道你要找的到底是什么。也许你会在这些地方找到有关 TerraGroup 的蛛丝马迹，去这些地方周边晃晃吧。",
+    "en": "You're just in time! I have studied the manager's diary and prepared for you a list of facilities that appear most often in the records. You need to investigate all of these locations. \n\nSo far, I can't tell what exactly to look for. Maybe you'll find equipment or other traces of TerraGroup around there. Focus on these locations and look around."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_02_mech_place_01",
+      "targetNames": {
+        "event_labyrinth_02_mech_place_01": {
+          "zh": "event_labyrinth_02_mech_place_01",
+          "en": "event_labyrinth_02_mech_place_01"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_02_mech_place_02",
+      "targetNames": {
+        "event_labyrinth_02_mech_place_02": {
+          "zh": "event_labyrinth_02_mech_place_02",
+          "en": "event_labyrinth_02_mech_place_02"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_02_mech_place_03",
+      "targetNames": {
+        "event_labyrinth_02_mech_place_03": {
+          "zh": "event_labyrinth_02_mech_place_03",
+          "en": "event_labyrinth_02_mech_place_03"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_02_mech_place_04",
+      "targetNames": {
+        "event_labyrinth_02_mech_place_04": {
+          "zh": "event_labyrinth_02_mech_place_04",
+          "en": "event_labyrinth_02_mech_place_04"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_02_mech_place_05",
+      "targetNames": {
+        "event_labyrinth_02_mech_place_05": {
+          "zh": "event_labyrinth_02_mech_place_05",
+          "en": "event_labyrinth_02_mech_place_05"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_02_mech_place_06",
+      "targetNames": {
+        "event_labyrinth_02_mech_place_06": {
+          "zh": "event_labyrinth_02_mech_place_06",
+          "en": "event_labyrinth_02_mech_place_06"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a09636b8725511260bc421",
+      "name": {
+        "zh": "影子雇员",
+        "en": "Shady Contractor"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67a096577e86e067eb045733",
+      "name": {
+        "zh": "暗藏玄机",
+        "en": "Hidden Layer"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/67e407ae4b7fec9ea8061780.jpg",
+  "isKey": false
+}

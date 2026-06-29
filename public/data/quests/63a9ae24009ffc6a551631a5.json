@@ -1,0 +1,116 @@
+{
+  "id": "63a9ae24009ffc6a551631a5",
+  "name": {
+    "zh": "最好的差事",
+    "en": "Best Job in the World"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "62e7e7bbe6da9612f743f1e0",
+      "itemName": {
+        "zh": "GP-25“篝火”40 毫米下挂式榴弹发射器",
+        "en": "GP-25 Kostyor 40mm underbarrel grenade launcher"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5656eb674bdc2d35148b457c",
+      "itemName": {
+        "zh": "40毫米VOG-25榴弹",
+        "en": "40mm VOG-25 grenade"
+      }
+    }
+  ],
+  "description": {
+    "zh": "大兵！听好了！不要在发牢骚了。你应该明白，我可不想让那些士兵们冒生命危险，他们还有家人等者呢。而且我也不想把数据给搞砸。所以只能靠你了，毕竟你是个不要命的人。我需要除掉记录里的一两个帮派。记得挑一个好工具，好吗？加油加油，你是不会被亏待的。动起来！",
+    "en": "All right, soldier! Listen up! No bitching. You know I don't want to risk the lives of soldiers whose families are waiting for them at home. And I don't want to ruin the statistics. So it's up to you, desperate one. I need to clear out a gang or two of marauders for my records. So be choosy with your tools, all right? Come on, come on, you won't be left short. Move it!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 30,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5bf3e03b0db834001d2c4a9c",
+        "5ac4cd105acfc40016339859",
+        "5644bd2b4bdc2d3b4c8b4572",
+        "5bf3e0490db83400196199af",
+        "5ab8e9fcd8ce870019439434",
+        "628b5638ad252a16da6dd245"
+      ],
+      "weaponNames": {
+        "5bf3e03b0db834001d2c4a9c": {
+          "zh": "AK-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74 5.45x39 assault rifle"
+        },
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        },
+        "5644bd2b4bdc2d3b4c8b4572": {
+          "zh": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74N 5.45x39 assault rifle"
+        },
+        "5bf3e0490db83400196199af": {
+          "zh": "AKS-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74 5.45x39 assault rifle"
+        },
+        "5ab8e9fcd8ce870019439434": {
+          "zh": "AKS-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74N 5.45x39 assault rifle"
+        },
+        "628b5638ad252a16da6dd245": {
+          "zh": "SAG AK-545 5.45x39卡宾枪",
+          "en": "SAG AK-545 5.45x39 carbine"
+        }
+      },
+      "distance": {
+        "compareMethod": ">=",
+        "value": 100
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59ca2eb686f77445a80ed049",
+      "name": {
+        "zh": "惩罚者 - 6",
+        "en": "The Punisher - Part 6"
+      }
+    },
+    {
+      "id": "639136f086e646067c176a8b",
+      "name": {
+        "zh": "屋顶战神",
+        "en": "Kings of the Rooftops"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+  "isKey": false
+}

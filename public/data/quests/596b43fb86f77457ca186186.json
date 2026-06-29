@@ -1,0 +1,163 @@
+{
+  "id": "596b43fb86f77457ca186186",
+  "name": {
+    "zh": "敲诈者",
+    "en": "The Extortionist"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e6687d86f77411d949b251",
+      "itemName": {
+        "zh": "Vepr AKM / VPO-209 .366TKM 卡宾枪",
+        "en": "Molot Arms VPO-209 .366 TKM carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "59d625f086f774661516605d",
+      "itemName": {
+        "zh": "Izhmash 7.62x39 30发AK兼容弹匣（1955后装配）",
+        "en": "AK 7.62x39 30-round magazine (issued '55 or later)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "657024011419851aef03e6f4",
+      "itemName": {
+        "zh": ".366 TKM EKO弹药包（20发装）",
+        "en": ".366 TKM EKO ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a7828548dc32e5a9c28b516",
+      "itemName": {
+        "zh": "雷明顿Model 870 12铅径 霰弹枪",
+        "en": "Remington Model 870 12ga pump-action shotgun"
+      }
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e5edb86f77461f55ed1f7",
+      "itemName": {
+        "zh": "BNTI Zhuk 防弹衣（战地记者版）",
+        "en": "BNTI Zhuk body armor (Press)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你来得不巧！不过……等下，我这有件要紧事。差不多一个钟头之前，河那边的车库附近发生了一次交火。正好就是给我跑腿的人去的地方。见他的鬼，反正他也是个混蛋。但是他身上带了一把特别的钥匙。要我说，那是一把挺重要的钥匙。那把钥匙可以打开某个地方的门，明白吗？这小混蛋当时正在给我运送一件非常宝贵的东西，但是他把那件东西藏在了某个地方，用这把该死的钥匙锁了起来，还他妈来要我提高报酬。贱不贱啊！我跟他谈好了价，多出了点钱，但是这个缺点功能的没跟我说那东西在哪里，说是他自己去拿。我现在差不多可以确定他已经挂了。找到那把钥匙，找到我的货，就算你要检查从中心到港口的每一扇门也得把东西给我拿回来。",
+    "en": "Kinda busy right now! Although... Hang on a sec. There is an urgent matter. There was a firefight about an hour ago in the garages across the river. Just where my errand boy was headed. To hell with him, he was a total moron anyway. But he had with him one particular key. A mighty complex key, I might add. To the door that can be freaking anywhere, you know? This clown was delivering one very valuable thing to me. The bastard hid it somewhere and locked it with this arsetormenting key and came to me to talk up the price. What a bitch! I even raised the pay a little for the smart move, but this wanker still hasn’t told me where it was and went to get it for himself. He was muttering something about a bunkhouse, so I guess he hid the thing there. Although, honestly, there's a shit ton of bunkhouses on Customs. Anyway, I’m almost sure he’s got smoked somewhere at the garages near the RUAF roadblock. Find the key, and then find me that package even if you have to check all doors from the center to the port."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "593965cf86f774087a77e1b6"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "593965cf86f774087a77e1b6": {
+          "zh": "0048号保险文件夹",
+          "en": "Secure Folder 0048"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "593965cf86f774087a77e1b6"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "593965cf86f774087a77e1b6": {
+          "zh": "0048号保险文件夹",
+          "en": "Secure Folder 0048"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "dead_posylni",
+      "targetNames": {
+        "dead_posylni": {
+          "zh": "dead_posylni",
+          "en": "dead_posylni"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "vremyan_case",
+      "targetNames": {
+        "vremyan_case": {
+          "zh": "vremyan_case",
+          "en": "vremyan_case"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "596b36c586f77450d6045ad2",
+      "name": {
+        "zh": "供应商",
+        "en": "Supplier"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5979ed3886f77431307dc512",
+      "name": {
+        "zh": "U盘里有什么？",
+        "en": "What’s on the Flash Drive?"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/596b453b86f77457c827bf44.jpg",
+  "isKey": false
+}

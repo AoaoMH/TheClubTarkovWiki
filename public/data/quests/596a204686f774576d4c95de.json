@@ -1,0 +1,101 @@
+{
+  "id": "596a204686f774576d4c95de",
+  "name": {
+    "zh": "卫生标准 - 2",
+    "en": "Sanitary Standards - Part 2"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e530286f7747fa1419862",
+      "itemName": {
+        "zh": "丙泊酚",
+        "en": "Propital regenerative stimulant injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊。你来了正好，我特地给你找了一个你轻车熟路的活。我们的工程师已经成功解决了工厂化学品泄露的问题，但是水的问题还是没有完全处理好，我们猜测这和工厂旁边的TPP储油罐有关。知道它们吧？那么一大堆你肯定不会错过。储油罐和熔炉设备的技术室名义上必须配备你在工厂找到的一样的气体分析仪。当然，如果他们还没被偷的话。找到并把它们带来，我们就可以解决我们这个地区的供水问题。最起码也能撑一段时间。",
+    "en": "Hello. Good that you are here. I have a job just for you since you are already familiar with it. Our engineers have successfully neutralized the chemical leak from the factory, but the water is still not fully purified. Although the only remaining pollutants are specific to petroleum products. We assume that this is connected to the TPP fuel oil storage next to the factory. Know these? It’s hard to miss, there's a big pipe there. Technical rooms of fuel oil storage and furnace facility must be nominally equipped with the same radio- and gas analyzers you found in the factory, if, of course, they weren’t stolen yet. Locate and bring them in, and we will solve the water problem in the region, at least for a while."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "590a3efd86f77437d351a25b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3efd86f77437d351a25b": {
+          "zh": "气体分析仪",
+          "en": "Gas analyzer"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "590a3efd86f77437d351a25b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3efd86f77437d351a25b": {
+          "zh": "气体分析仪",
+          "en": "Gas analyzer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59689ee586f7740d1570bbd5",
+      "name": {
+        "zh": "卫生标准 - 1",
+        "en": "Sanitary Standards - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5969f90786f77420d2328015",
+      "name": {
+        "zh": "止痛药",
+        "en": "Painkiller"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/596a20d286f7741ddb4815d5.jpg",
+  "isKey": false
+}

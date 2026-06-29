@@ -1,0 +1,113 @@
+{
+  "id": "6179ad56c760af5ad2053587",
+  "name": {
+    "zh": "海边假期",
+    "en": "Seaside Vacation"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5af0454c86f7746bf20992e8",
+      "itemName": {
+        "zh": "铝固定夹板",
+        "en": "Aluminum splint"
+      }
+    }
+  ],
+  "description": {
+    "zh": "下午好，小伙子，我有一个特殊委托。很不幸，我没法再完全相信每个我的人了。你之前帮我搜寻了很多数据，所以你以后就当我的私人侦探吧！之前我有一个关系很近的工作伙伴，他住在Cape Dalniy区域的某个地方。他有一个装着他医学研究和调查数据的公文包。现在的情况是，他已经两周没有联系过我了——我现在有点担心他。如果他的数据落入敌手，我可得花大价钱封口。所以，雇佣兵，请你帮我去找到他的公文包。他一般会开一辆红色Merin运动车，而且他经常说自己在海边休息，离城市远远的。你准备好开始任务了吗，雇佣兵？",
+    "en": "Good afternoon, young man, I have a special assignment for you. Unfortunately, I cannot entrust it to my workers. Knowing your previous feats in searching for data that interests me, you can easily be made into a private investigator! So, there was a person who I had been working closely with, he lived somewhere at the cape Dalniy territory. He always carried a briefcase with him containing his medical studies and research. The issue is that he hasn't been contacting me the last two weeks - I'm starting to worry. If his studies get into the wrong hands, I will have to pay a high price to silence the information spread. Please, mercenary, I am asking you to find my contact's briefcase. He used to drive a red merin sports coupe and was always telling me that he'd love to relax somewhere by the sea, farther away from all the city noise. Are you ready to take on this task, young man?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "619252352be33f26043400a7"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "619252352be33f26043400a7": {
+          "zh": "加固笔记本",
+          "en": "Laptop with information"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "619252352be33f26043400a7"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "619252352be33f26043400a7": {
+          "zh": "加固笔记本",
+          "en": "Laptop with information"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "60896e28e4a85c72ef3fa301",
+      "name": {
+        "zh": "病历",
+        "en": "Disease History"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "625d6ff5ddc94657c21a1625",
+      "name": {
+        "zh": "网络供应商 - 1",
+        "en": "Network Provider - Part 1"
+      }
+    },
+    {
+      "id": "675c03d1f7da9792a405549a",
+      "name": {
+        "zh": "无主货物",
+        "en": "Abandoned Cargo"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61ab4ce156152b140448cf95.jpg",
+  "isKey": false
+}

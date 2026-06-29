@@ -1,0 +1,48 @@
+{
+  "id": "64f1d6e732bed22c3e0c7423",
+  "name": {
+    "zh": "外部信任 - 2",
+    "en": "Overseas Trust - Part 2"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Merchant",
+  "location": "any",
+  "rewards": [],
+  "description": {
+    "zh": "嘿。今天来了一些一脸正经的家伙，他们说要给你点东西。我不知道你帮他们做了什么，不过，我现在可以给你提供一些新的服装了。因为你的尺码很特别，所以价格有一点点小贵，但是，这绝对是我做过最漂亮的衣服！",
+    "en": "Oh, hey. Some serious guys came over today, said they had something for you. Don't know what you did for them, but anyway, I've got some new clothes for you now. A little expensive considering your unique measurements, but hey, this'll be my finest work yet!"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 50000,
+      "target": [
+        "5696686a4bdc2da3298b456a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5696686a4bdc2da3298b456a": {
+          "zh": "美元",
+          "en": "Dollars"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "64f1cc571a5f313cb144bf90",
+      "name": {
+        "zh": "外部信任 - 1",
+        "en": "Overseas Trust - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5979d36d86f7746d093ddd7a.jpg",
+  "isKey": false
+}

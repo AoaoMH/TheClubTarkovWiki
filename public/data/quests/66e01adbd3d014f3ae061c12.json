@@ -1,0 +1,114 @@
+{
+  "id": "66e01adbd3d014f3ae061c12",
+  "name": {
+    "zh": "暗中掩护",
+    "en": "Provide Cover"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 39800
+    },
+    {
+      "type": "Item",
+      "value": 142400,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 142400
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "651450ce0e00edc794068371",
+      "itemName": {
+        "zh": "SR-3M 9x39紧凑型突击步枪",
+        "en": "SR-3M 9x39 compact assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65118f531b90b4fc77015083",
+      "itemName": {
+        "zh": "VSS/VAL 9x39 30发弹匣",
+        "en": "VSS/VAL 9x39 30-round magazine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "657025dabfc87b3a34093256",
+      "itemName": {
+        "zh": "20发9x39 SP-6 gs盒装弹药",
+        "en": "9x39mm SP-6 gs ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    }
+  ],
+  "description": {
+    "zh": "关于那位商人的事情，现在对我很有利，不是吗？要我说，如果我没有这份机敏，也许早就死翘翘了。总之，我后面再处理这些报告内容。\n\n现在，我需要帮一帮外出作战的小弟们。把你找到的新款装备带给他们。不不不，你们不需要碰面。把东西藏在约定的地方就行了。",
+    "en": "This whole trader thing is going pretty well for me, wouldn't you say? You know, If I didn't have my wits about me, I'd be dead in this hellhole a long time ago. Anyway, I'll deal with the reports later, not the first time. \n\nRight now, I need to equip the guys posted outside my territory. Bring them this new equipment we found. I'll give you a part of it, but the rest you need to get yourself - you already know where to look. No, you won't meet them face to face. Just stash the items in the designated spot."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "66d9f7256916142b3b02276e"
+      ],
+      "targetNames": {
+        "66d9f7256916142b3b02276e": {
+          "zh": "雷达站备用零件",
+          "en": "Radar station spare parts"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "66d9f8744827a77e870ecaf1"
+      ],
+      "targetNames": {
+        "66d9f8744827a77e870ecaf1": {
+          "zh": "GARY ZONT “保护伞”便携式电子战装置",
+          "en": "GARY ZONT portable electronic warfare device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66e01ad6835f78499f049180",
+      "name": {
+        "zh": "“理所应得”",
+        "en": "Ours by Right"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66e01ae0c391e4c94903d220",
+      "name": {
+        "zh": "百里挑一",
+        "en": "Cream of the Crop"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66eaf150daf127599c0c1a2f.png",
+  "isKey": false
+}

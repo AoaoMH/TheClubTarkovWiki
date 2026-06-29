@@ -1,0 +1,120 @@
+{
+  "id": "66e3e2ee2136472d220bcb36",
+  "name": {
+    "zh": "邪教之夜",
+    "en": "Night of The Cult"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "656fa8d700d62bcd2e024084",
+      "itemName": {
+        "zh": "Cult Locust防弹插板",
+        "en": "Cult Locust ballistic plate"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "656fa99800d62bcd2e024088",
+      "itemName": {
+        "zh": "Cult Termite防弹插板",
+        "en": "Cult Termite ballistic plate"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0558060db834001b735271",
+      "itemName": {
+        "zh": "GPNVG-18夜视仪",
+        "en": "L3Harris GPNVG-18 night vision goggles"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5780cf7f2459777de4559322",
+      "itemName": {
+        "zh": "符号钥匙",
+        "en": "Dorm room 314 marked key"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你来得正是时候。你肯定已经听说了，那些昼伏夜出的怪物们之前还低调行事，现在突然满地乱窜。这帮家伙的装备一下子提升不少，就像是有人在背后资助他们一样。总不能是他们的邪神显灵了吧，“我们日用的装备，今日赐给我们”，嗯？\n\n我们得查查这帮混蛋到底在搞什么名堂。除此之外，如果能消灭一批这些怪物就更好了。只是得当心点。 \n\n拾荒者之间还流传着另一个传闻，那就是晚上走路可能撞上隐身人。他们说这些人四处猎杀，但凡被抓住了都没有好下场。 \n\n我记得有一个关于这种恶魔的东方故事，它的绰号是...... Oni，也就是“鬼”的意思。搁以前我肯定不会提起这些神神叨叨的东西，但现在肯定有什么东西在酝酿着，黑暗的念头在我脑中悄然浮现。",
+    "en": "About time you stopped by. You've noticed those night devils coming out of everywhere too, haven't you? They're arming themselves a lot better, huh. It's like someone's actually working with them. From above, you know?\n\nWe should look into what those bastards are up to. Besides, all the better if you can reduce their numbers. Just be careful. \n\nThere's a rumor among the scavengers that you can run into an invincible beast at night. They say it hunts and devours humans. \n\nI remember an Eastern story about such a demon, its nickname was, uh... “The Oni”. I wouldn't have brought these stories up before. But now something's definitely brewing, and dark thoughts just keep creeping into my head."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantWarrior",
+        "sectantPriest",
+        "sectantPrizrak",
+        "sectantPredvestnik",
+        "sectantOni"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d24b81486f77439c92d6ba8",
+      "name": {
+        "zh": "熟人",
+        "en": "Acquaintance"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66e3e2fcb26de0e0790d3fe6",
+      "name": {
+        "zh": "烙印图景",
+        "en": "The Graven Image"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66f28fb1f1d8b06f0d0da035.png",
+  "isKey": false
+}

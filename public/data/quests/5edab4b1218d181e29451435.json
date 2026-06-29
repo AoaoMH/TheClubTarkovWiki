@@ -1,0 +1,134 @@
+{
+  "id": "5edab4b1218d181e29451435",
+  "name": {
+    "zh": "猎人之路 - 虐待狂",
+    "en": "The Huntsman Path - Sadist"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 115000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 115000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a1eaa87fcdbcb001865f75e",
+      "itemName": {
+        "zh": "Trijicon REAP-IR热成像步枪瞄准镜",
+        "en": "Trijicon REAP-IR thermal scope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "64898838d5b4df6140000a20",
+      "itemName": {
+        "zh": "12/70 AP-20弹药包（25发装）",
+        "en": "12/70 AP-20 ammo pack (25 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d02797c86f774203f38e30a",
+      "itemName": {
+        "zh": "Surv12野战手术包",
+        "en": "Surv12 field surgical kit"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，勇士。我突然有种怀旧的感觉。我记得沿着海岸散步的感觉，那里很美，海浪滚滚而来，阳光、海滩和日落都很壮丽，现在呢？到处都是腐烂和荒凉的气息，连城市里都无法呼吸...其他的各种事上，又有一个新的白痴出现了。他似乎被称为 Sanitar。这个人渣制造了些东西，还在人身上做实验，也许还做了更可怕的事情。你不能就这样撒手不管，这样的人不应该......这个恶心的东西不应该在地上行走。没了他世界只会变得更干净。管一管吧。",
+    "en": "Hey there, kid. Something nostalgic came over me. I remembered how I walked along the coast, it was beautiful there, the waves roll in, the sun, the beach, and the sunsets there were outstanding, and now what? The smell of rot and desolation everywhere, can't even breathe properly in the city... And on top of all that, a new moron showed up. They call him Sanitar. This scum conducts experiments on people and perhaps does even more terrible things. You can't leave it like this, such people.. such abominations should not walk our ground. The world will only become cleaner. Deal with this."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossSanitar"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5edabd13218d181e29451442",
+      "name": {
+        "zh": "肮脏游戏",
+        "en": "Rigged Game"
+      }
+    },
+    {
+      "id": "5edaba7c0c502106f869bc02",
+      "name": {
+        "zh": "同事 - 2",
+        "en": "Colleagues - Part 2"
+      }
+    },
+    {
+      "id": "5f04886a3937dc337a6b8238",
+      "name": {
+        "zh": "化学橱柜",
+        "en": "Chemistry Closet"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5edac34d0bb72a50635c2bfa",
+      "name": {
+        "zh": "同事 - 3",
+        "en": "Colleagues - Part 3"
+      }
+    },
+    {
+      "id": "60e71e8ed54b755a3b53eb67",
+      "name": {
+        "zh": "猎人之路 - 无情杀手",
+        "en": "The Huntsman Path - Relentless"
+      }
+    },
+    {
+      "id": "60e729cf5698ee7b05057439",
+      "name": {
+        "zh": "快枪手",
+        "en": "Swift One"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5f0f1f6c8f7810259b5fede0.jpg",
+  "isKey": false
+}

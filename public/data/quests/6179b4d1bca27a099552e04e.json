@@ -1,0 +1,105 @@
+{
+  "id": "6179b4d1bca27a099552e04e",
+  "name": {
+    "zh": "无中生有 - 灯塔",
+    "en": "Revision - Lighthouse"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 850,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 850
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "58dd3ad986f77403051cba8f",
+      "itemName": {
+        "zh": "7.62x51毫米 M80",
+        "en": "7.62x51mm M80"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d67abc1a4b93614ec50137f",
+      "itemName": {
+        "zh": "FN Five-seveN MK2 5.7x28 手枪 (FDE)",
+        "en": "FN Five-seveN MK2 5.7x28 pistol (FDE)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，你可真是说曹操曹操到。你应该已经见过USEC基地里的所有军事装备了吧？我的顾客想出高价搞到从那些载具上拆下来的材料。我需要你确定这些军械的准确位置，然后帮我的伙计们标记它们。基地里面应该有两辆载具，靠近倒塌隧道的路上应该还会有两辆重型步战车。合作愉快，朋友。",
+    "en": "Ah, mercenary, just when I needed you. You've probably already seen all the military machinery in the USEC operational base area? My clients are willing to provide a reward for materials extracted from those vehicles. I want you to identify the exact location of this machinery and mark it for my subordinates. There should be two vehicles inside the base itself and two heavy ICVs somewhere along the main road near the collapsed tunnel. Have fun, my friend."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6086c852c945025d41566124",
+      "name": {
+        "zh": "无中生有 - 储备站",
+        "en": "Revision - Reserve"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61ab40a7edd0787ea26a69a6.jpg",
+  "isKey": false
+}

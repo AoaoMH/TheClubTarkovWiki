@@ -1,0 +1,77 @@
+{
+  "id": "6834145ebc1f443d7603c8a7",
+  "name": {
+    "zh": "轻松钱 - 第一部分 [PVE区]",
+    "en": "Easy Money - Part 1 [PVE ZONE]"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4500
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "TraderUnlock",
+      "target": "6617beeaa9cfa777ca915b7c"
+    },
+    {
+      "type": "NotificationPopup"
+    }
+  ],
+  "description": {
+    "zh": "你好，伙计。有个活给你。我一个老朋友在找合适的人做他的生意。我不知道具体细节，只是招募的第一阶段，可以这么说。我看你挺感兴趣的。\n\n你听说过竞技场吗？你需要在塔科夫各处张贴传单。就像来瞧瞧之类的广告词，你知道的。嘿，大人物总是从小事做起的！我准备了几张海报给你，但如果你弄丢了，那是你自己的问题，明白吗？把它们带到海关码头的拾荒者据点。去吧。",
+    "en": "Sup mate. Got a job for ya. An old pal of mine is looking for the right people for his business. I don't know the ins and outs, just the first stage of recruitment, so to speak. I see you're interested.\n\nYou heard anything about the Arena yet? You gotta put up flyers around Tarkov. Like \"come and check it out\", shit like that, you know. Hey, serious people always start small! I've got a couple of posters ready for ya, but if you lose them, it's your own bloody problem, got it? Bring them to the Scav stronghold at the customs terminal. Off you go then."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "675a0288c3102563bd01c9c3"
+      ],
+      "targetNames": {
+        "675a0288c3102563bd01c9c3": {
+          "zh": "竞技场海报",
+          "en": "Arena poster"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315e270bb0b8dba00cc48",
+      "name": {
+        "zh": "快车初体验",
+        "en": "Burning Rubber"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6834158f2f0e2a7eb90b62c8",
+      "name": {
+        "zh": "轻松钱 - 第二部分 [PVE区]",
+        "en": "Easy Money - Part 2 [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562a95dadbac1a541f638f.png",
+  "isKey": false
+}

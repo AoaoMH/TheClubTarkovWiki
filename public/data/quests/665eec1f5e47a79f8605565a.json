@@ -1,0 +1,101 @@
+{
+  "id": "665eec1f5e47a79f8605565a",
+  "name": {
+    "zh": "口干舌燥 - 养家糊口",
+    "en": "Thirsty - Breadwinner"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 200,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 200
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b371186f774253763a656",
+      "itemName": {
+        "zh": "野营燃料桶",
+        "en": "Expeditionary fuel tank"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "那个渴死鬼？你也来打听他了？这小子怎么一下子这么受欢迎，人人都要提一嘴？\n\n没错，我之前的确和他合伙过，这人五分钟不喝水就要命一样。我们之前的确干了几票大的，他总是能有不错的收获，这我得承认。但他已经“出局”很久了，起码在塔科夫别想找到这号人啦。\n\n我倒是可以提点一下渴死鬼储藏额外物资的地方，但我的建议可不是免费的：我正在想办法搞 2 罐丙烷燃料。在我们继续聊这位朋友之前，为什么不先帮我把事情解决了呢？",
+    "en": "The Thirsty dude? You too?! Why are you all bringing him up all of a sudden?\n\nYeah, I worked with this guy. Сouldn't last five minutes without a drink. We made some good money with him back then. Always brought good loot, that guy. My respect to him. But he's been out of the game for a long time, at least in Tarkov.\n\nI can give you a tip on where he dumped his extra supplies, but not for free. I'm looking for two tanks of propane right now. Why don't you find it for me, and then we'll talk about your guy?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "59fafb5d86f774067a6f2084"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59fafb5d86f774067a6f2084": {
+          "zh": "5升丙烷罐",
+          "en": "Propane tank (5L)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59fafb5d86f774067a6f2084"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59fafb5d86f774067a6f2084": {
+          "zh": "5升丙烷罐",
+          "en": "Propane tank (5L)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "665eeacf5d86b6c8aa03c79b",
+      "name": {
+        "zh": "口干舌燥 - 猎犬行动",
+        "en": "Thirsty - Hounds"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "665eec4a4dfc83b0ed0a9dca",
+      "name": {
+        "zh": "口干舌燥 - 送货服务",
+        "en": "Thirsty - Delivery"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66697b9f6978601041000809.png",
+  "isKey": false
+}

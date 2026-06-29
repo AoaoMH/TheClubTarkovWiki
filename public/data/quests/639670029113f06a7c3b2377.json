@@ -1,0 +1,134 @@
+{
+  "id": "639670029113f06a7c3b2377",
+  "name": {
+    "zh": "按图索骥",
+    "en": "Following the Bread Crumbs"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c7f115805221fb410466",
+      "itemName": {
+        "zh": "GPS信号放大单元",
+        "en": "Far-forward GPS Signal Amplifier Unit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6389c7f115805221fb410466",
+      "itemName": {
+        "zh": "GPS信号放大单元",
+        "en": "Far-forward GPS Signal Amplifier Unit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "消息到了接收者的手里。将沉之船上的老鼠开始跑了起来。客户们要求销毁所有证据。你的任务是，潜入TerraGroup的实验室，找到记载有我们所需信息的东西，把它带给我。你还在等什么，等我喂你糖吃还是祝你好运？动起来！",
+    "en": "The message found its recipient. Rats on a sinking ship began to scurry. The customers gave orders to destroy all evidence of ongoing developments. Your mission is to infiltrate TerraGroup's lab, find the data carrier containing the data we need, and deliver it to me. What are you waiting for, a candy for good luck? Hurry up!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 20,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ]
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_keeper7_saferoom",
+      "targetNames": {
+        "quest_zone_keeper7_saferoom": {
+          "zh": "quest_zone_keeper7_saferoom",
+          "en": "quest_zone_keeper7_saferoom"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_keeper7_test",
+      "targetNames": {
+        "quest_zone_keeper7_test": {
+          "zh": "quest_zone_keeper7_test",
+          "en": "quest_zone_keeper7_test"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6398a4cfb5992f573c6562b3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6398a4cfb5992f573c6562b3": {
+          "zh": "加密磁带",
+          "en": "Secured tape"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6398a4cfb5992f573c6562b3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6398a4cfb5992f573c6562b3": {
+          "zh": "加密磁带",
+          "en": "Secured tape"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63966ff54c3ef01b6f3ffad8",
+      "name": {
+        "zh": "挑衅",
+        "en": "Provocation"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6396700fea19ac7ed845db32",
+      "name": {
+        "zh": "观察员",
+        "en": "Spotter"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

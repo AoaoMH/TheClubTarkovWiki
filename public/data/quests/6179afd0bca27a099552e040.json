@@ -1,0 +1,101 @@
+{
+  "id": "6179afd0bca27a099552e040",
+  "name": {
+    "zh": "消失的线人",
+    "en": "Lost Contact"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 40000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 40000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "590c657e86f77412b013051d",
+      "itemName": {
+        "zh": "Grizzly急救包",
+        "en": "Grizzly medical kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "小伙子，我需要你的帮助。有天我派了一队人去Cape Dalniy，USEC的在小屋那里的原基地搜集补给品。我相信你对那里的了解不是一点半点，毕竟这是你的工作。那次任务很重要，我们需要将补给搬出那片区域。不幸的是，我们和小队的通信在昨天消失了。我们怀疑，有人发现了我们的行动。雇佣兵，求求你，找到我的人，更重要的是，他们的货物。",
+    "en": "Young man, I require your assistance. The other day, I sent a group of workers to collect supplies in the Cape Dalniy area, to the former USEC base of operations in the cottage area. I think you are more than familiar with this place, given the nature of your work. This mission is vital to getting supplies out of this zone. Unfortunately, the group has ceased all communication since yesterday. We suspect someone found out about our operation. Please, mercenary, find my people and, most importantly, their cargo."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "qlight_find_scav_group1",
+      "targetNames": {
+        "qlight_find_scav_group1": {
+          "zh": "qlight_find_scav_group1",
+          "en": "qlight_find_scav_group1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "Lighthouse"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a68663e86f774501078f78a",
+      "name": {
+        "zh": "医疗隐私 - 2",
+        "en": "Health Care Privacy - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "625d6ff5ddc94657c21a1625",
+      "name": {
+        "zh": "网络供应商 - 1",
+        "en": "Network Provider - Part 1"
+      }
+    },
+    {
+      "id": "626bd75b05f287031503c7f6",
+      "name": {
+        "zh": "缉毒行动",
+        "en": "Drug Trafficking"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

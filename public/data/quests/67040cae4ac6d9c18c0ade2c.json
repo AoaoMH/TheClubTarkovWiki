@@ -1,0 +1,205 @@
+{
+  "id": "67040cae4ac6d9c18c0ade2c",
+  "name": {
+    "zh": "激进疗法",
+    "en": "Radical Treatment"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Discover",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Achievement",
+      "target": "670febed5ee0fc738a0965a4"
+    },
+    {
+      "type": "Experience",
+      "value": 70000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.15
+    },
+    {
+      "type": "Item",
+      "value": 200000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 200000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59fb042886f7746c5005a7b2",
+      "itemName": {
+        "zh": "物品箱",
+        "en": "Item case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5ed515c8d380ab312177c0fa",
+      "itemName": {
+        "zh": "3-(b-TG) 兴奋剂注射器",
+        "en": "3-(b-TG) stimulant injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "637b620db7afa97bfc3d7009",
+      "itemName": {
+        "zh": "曲马多注射器",
+        "en": "Trimadol stimulant injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c0e531d86f7747fa23f4d42",
+      "itemName": {
+        "zh": "SJ6 TGLabs战斗兴奋剂注射器",
+        "en": "SJ6 TGLabs combat stimulant injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你找到的疫苗是真正的宝藏！在我前TerraGroup同事的帮助下，我们成功完成了配方。\n\n不幸的是，在消灭病毒的同时，注射这种药物是致命的。\n\n这是我们拯救那些尚未被这可怕疾病感染的人的唯一方法……分发药物的最佳地点是水源。\n\n在指定地点溶解它然后回来。我会给你配方，以防你现在收到的剂量出什么问题。",
+    "en": "The vaccine you found is a real treasure! With the help of my former TerraGroup colleague, we managed to finalize the formula.\n\nUnfortunately, administering the drug is fatal along with neutralizing the virus. \n\nThis is the only way we can save those who have not yet been affected by this terrible disease... The best place to distribute the drug is in the water supply.\n\nDissolve it at the designated points and come back. I'll give you the recipe in case something happens to the doses you're receiving now."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6707d0804e617ec94f0e562f"
+      ],
+      "targetNames": {
+        "6707d0804e617ec94f0e562f": {
+          "zh": "TG-Vi-24致命疫苗",
+          "en": "TG-Vi-24 lethal vaccine"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6707d0804e617ec94f0e562f"
+      ],
+      "targetNames": {
+        "6707d0804e617ec94f0e562f": {
+          "zh": "TG-Vi-24致命疫苗",
+          "en": "TG-Vi-24 lethal vaccine"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6707d0804e617ec94f0e562f"
+      ],
+      "targetNames": {
+        "6707d0804e617ec94f0e562f": {
+          "zh": "TG-Vi-24致命疫苗",
+          "en": "TG-Vi-24 lethal vaccine"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6707d0804e617ec94f0e562f"
+      ],
+      "targetNames": {
+        "6707d0804e617ec94f0e562f": {
+          "zh": "TG-Vi-24致命疫苗",
+          "en": "TG-Vi-24 lethal vaccine"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6707d0804e617ec94f0e562f"
+      ],
+      "targetNames": {
+        "6707d0804e617ec94f0e562f": {
+          "zh": "TG-Vi-24致命疫苗",
+          "en": "TG-Vi-24 lethal vaccine"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6707d0804e617ec94f0e562f"
+      ],
+      "targetNames": {
+        "6707d0804e617ec94f0e562f": {
+          "zh": "TG-Vi-24致命疫苗",
+          "en": "TG-Vi-24 lethal vaccine"
+        }
+      }
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Elimination",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossSanitar"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67040c92bf4be8a4ef041a6c",
+      "name": {
+        "zh": "黎明前的黑暗",
+        "en": "Darkest Hour Is Just Before Dawn"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67040ccdcc1f3752720376ef",
+      "name": {
+        "zh": "被遗忘的誓言",
+        "en": "Forgotten Oaths"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/671f89bfab3a1278b204cc33.png",
+  "isKey": false
+}

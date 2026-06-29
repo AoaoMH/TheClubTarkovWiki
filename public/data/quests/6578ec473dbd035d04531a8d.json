@@ -1,0 +1,108 @@
+{
+  "id": "6578ec473dbd035d04531a8d",
+  "name": {
+    "zh": "稳定信号",
+    "en": "Steady Signal"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Discover",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 48000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 48000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d0375ff86f774186372f685",
+      "itemName": {
+        "zh": "军用电缆",
+        "en": "Military cable"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d0376a486f7747d8050965c",
+      "itemName": {
+        "zh": "军用电路板",
+        "en": "Military circuit board"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "这件事情你再适合不过了。你知道森林的气象站吧？那个地方可以监控大气状况，也为气象传感器提供电力供应。很巧的是，我也需要给信号收发器供电。\n\n我怀疑那里的人在冲突开始的时候就跑掉了。这就意味着，里面很可能还有能够运行的供电设备。找到气象站，布置指示器。然后我会派人去安装收发器。",
+    "en": "Hm, you'll be perfect for this. You know the weather stations in Woods? They monitor the atmosphere, and they have power supplies for their sensors inside. And I coincidentally have to power the transmitters.\n\nI doubt they've been disturbed since the start of the conflict. Which means there could be power supplies inside in operational condition. Find the weather stations and set up the trackers. Then I'll have my crew attach the transmitters to them."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac346e886f7741d6118b99b",
+      "name": {
+        "zh": "信号 - 4",
+        "en": "Signal - Part 4"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/6589928750a60f28611a6eeb.jpg",
+  "isKey": false
+}

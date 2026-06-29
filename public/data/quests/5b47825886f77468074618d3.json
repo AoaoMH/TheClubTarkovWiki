@@ -1,0 +1,163 @@
+{
+  "id": "5b47825886f77468074618d3",
+  "name": {
+    "zh": "枪匠 - 22",
+    "en": "Gunsmith - Part 22"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 28900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1000,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c127c4486f7745625356c13",
+      "itemName": {
+        "zh": "弹匣箱",
+        "en": "Magazine case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b5e94d7ad1a2b865a96b0",
+      "itemName": {
+        "zh": "FLIR RS-32 2.25-9x 35毫米 60Hz热成像步枪瞄准镜",
+        "en": "FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a1eaa87fcdbcb001865f75e",
+      "itemName": {
+        "zh": "Trijicon REAP-IR热成像步枪瞄准镜",
+        "en": "Trijicon REAP-IR thermal scope"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60926df0132d4d12c81fd9df",
+      "itemName": {
+        "zh": "SilencerCo SAKER ASR 556 5.56x45抑制器 ",
+        "en": "SilencerCo Saker ASR 556 5.56x45 sound suppressor"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你认为，一条人命值多少？我猜，没多少。但让我惊讶的是现在的艺术市场。著名艺术家的作品每年都在增值。虽然他们的才华毋庸置疑，但是当你看的越多，你就越是觉得什么东西都可以是艺术。艺术可以是Grotko的画，也可以是挪了位置的小便池或一堆垃圾什么的。然而在我看来，最震人心魄的艺术品是武器，从肉搏兵器来说吧——这已经是举世公认的，在许多博物馆都能找到——再到一把老旧的AK或者M4，它们魅力依旧。但武器只有在追求独特的时候才能超越真的艺术，成为独一无二的。被掌握在懂得如何使用它的人手中，并根据自己的需要加以修改的武器，才是一个值得在最顶级博物馆展出的杰作。现在给我搞一把这样的杰作，一把M4A1，带有KAC QDSS NT-4 FDE色的消音器，步枪长度的Alexander Arms MK10护木，REAP-IR热成像瞄准镜，和一个60发的弹匣。人机工效不能低于40，总体后坐力小于270，然后重量为5公斤或更低。",
+    "en": "What do you think, how much does human life cost? Not much, I guess. But what’s even more surprising for me, it’s the contemporary art market. The value of art pieces by renowned artists grows every year. They are definitely talented, but the more you look at it, the more it seems that anything can be art. It can be a Rothko painting, a displaced urinal, or a bunch of garbage. However, in my opinion, the most amazing pieces of art are weapons, starting from the melee - which is already universally recognized as such and can be found in many museums - to an old AK or M4, which are beautiful as they are. But a weapon only transcends to true art when it becomes unique, one-of-a-kind, in the hands of someone who knows how to use it, who modifies it for his own needs, creating a masterpiece worthy of being displayed in the best of museums. Bring me one such masterpiece, an M4A1 with a KAC QDSS NT-4 (FDE) silencer, Alexander Arms MK10 rifle-length handguard, REAP-IR thermal scope, and a 60-round magazine. Ergonomics should be not less than 40, the recoil sum less than 270, and the weight of 5 kg or less."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5447a9cd4bdc2dbd208b4567"
+      ],
+      "targetNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 40
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 270
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 5
+        }
+      ],
+      "requiredItems": [
+        "57dbb57e2459774673234890",
+        "5b2cfa535acfc432ff4db7a0",
+        "5a1eaa87fcdbcb001865f75e"
+      ],
+      "requiredItemNames": {
+        "57dbb57e2459774673234890": {
+          "zh": "KAC QDSS NT-4 FDE 5.56x45消音器",
+          "en": "KAC QDSS NT4 5.56x45 sound suppressor (FDE)"
+        },
+        "5b2cfa535acfc432ff4db7a0": {
+          "zh": "MK 10 AR-15兼容护木",
+          "en": "AR-15 Alexander Arms MK10 rifle length handguard"
+        },
+        "5a1eaa87fcdbcb001865f75e": {
+          "zh": "Trijicon REAP-IR热成像步枪瞄准镜",
+          "en": "Trijicon REAP-IR thermal scope"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63987301e11ec11ff5504036",
+      "name": {
+        "zh": "枪匠 - 21",
+        "en": "Gunsmith - Part 21"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "64f83bb69878a0569d6ecfbe",
+      "name": {
+        "zh": "枪匠 - 23",
+        "en": "Gunsmith - Part 23"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5b4786c586f7744d184ecabd.jpg",
+  "isKey": false
+}

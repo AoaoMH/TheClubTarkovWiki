@@ -1,0 +1,115 @@
+{
+  "id": "5d25e48d86f77408251c4bfb",
+  "name": {
+    "zh": "生意至上",
+    "en": "Shady Business"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c392f86f77444754deb29",
+      "itemName": {
+        "zh": "固态硬盘",
+        "en": "SSD drive"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，借你一分钟。塔科夫这有个阴险的家伙。伙计们都叫他Skier，这个人真的很阴险，我相信他不会认为犯罪是什么会被鄙视的事，我一定要看住他。他们说他在找U盘，但我不知道上面有什么。我敢打赌这种类型的里面一定有什么淫荡的东西。我挺想知道知道确认一下。我不知道他在找什么样的U盘，但只要给我拿几块，我们随后就会知道了。Mechanic将帮助我们了解那里面到底有什么。",
+    "en": "Hey, come here for a minute. There is this shady guy in Tarkov. Folks call him Skier, a really slippery person, I’m sure he doesn’t disdain the crime either. I need to watch him. They say he's looking for some flash drives. I have no idea what's on them. Knowing his type I bet there's something rakish going on. I’d like to know it for sure. I don’t know what kind of flash drives he is looking for exactly, just bring me several of any you can find, and then we'll figure it out. Just make sure you get them yourself, we can't let those traders trick us. Mechanic will help us uncover what's on them."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "590c621186f774138d11ea29"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590c621186f774138d11ea29": {
+          "zh": "加密U盘",
+          "en": "Secure Flash drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "590c621186f774138d11ea29"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590c621186f774138d11ea29": {
+          "zh": "加密U盘",
+          "en": "Secure Flash drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5979ed3886f77431307dc512",
+      "name": {
+        "zh": "U盘里有什么？",
+        "en": "What’s on the Flash Drive?"
+      }
+    },
+    {
+      "id": "5d24b81486f77439c92d6ba8",
+      "name": {
+        "zh": "熟人",
+        "en": "Acquaintance"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5d25e46e86f77409453bce7c",
+      "name": {
+        "zh": "救护车",
+        "en": "Ambulance"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979ed4c86f7742f55674442.jpg",
+  "isKey": false
+}

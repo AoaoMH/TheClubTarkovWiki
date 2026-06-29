@@ -1,0 +1,103 @@
+{
+  "id": "60e71d23c1bfa3050473b8e6",
+  "name": {
+    "zh": "致命校准",
+    "en": "Calibration"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 93000
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 100
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "60391a8b3364dc22b04d0ce5",
+      "itemName": {
+        "zh": "罐装铝热剂",
+        "en": "Can of thermite"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "619bde3dc9546643a67df6f2",
+      "itemName": {
+        "zh": "\"Kiba Arms\" 臂带",
+        "en": "Armband (Kiba Arms)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "61962b617c6c7b169525f168",
+      "itemName": {
+        "zh": "5.45x39毫米 7N40 gs",
+        "en": "5.45x39mm 7N40"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5aa7e276e5b5b000171d0647",
+      "itemName": {
+        "zh": "Altyn 防弹头盔（橄榄褐色）",
+        "en": "Altyn bulletproof helmet (Olive Drab)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，进来吧。听着，我想问你一些事儿。你已经习惯了长距离射击，对吧？我需要校准一批武器，调零对每把枪来说都极其重要。我想要你带上你最喜欢的步枪，然后从100米开外射杀他们。必须是训练有素的敌人，必须枪枪毙命。在记事本上写下你的成果，稍后我会处理数据。我会在这里等你的结果。",
+    "en": "Ah, hey there, come on in. Listen, I want to ask you for something. You've already got accustomed to shooting at long-range distances, right? I need to calibrate some weapons, the zeroing is extremely important for every gun. I want you to grab your favorite rifle and shoot at enemies from at least 100 meters away. The shots have to be lethal and the targets have to be seriously trained. Write down all your results into a notebook, I'll process the data after. I'll be waiting for the results."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 20,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "distance": {
+        "compareMethod": ">=",
+        "value": 100
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5f04886a3937dc337a6b8238",
+      "name": {
+        "zh": "化学橱柜",
+        "en": "Chemistry Closet"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "60e71d6d7fcf9c556f325055",
+      "name": {
+        "zh": "急先锋",
+        "en": "The Courier"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27cafa86f77424e20615d6.jpg",
+  "isKey": false
+}

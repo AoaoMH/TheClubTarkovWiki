@@ -1,0 +1,196 @@
+{
+  "id": "5ae4493486f7744efa289417",
+  "name": {
+    "zh": "数据库 - 1",
+    "en": "Database - Part 1"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Exploration",
+  "location": "5714dbc024597771384a510d",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aa2ba71e5b5b000137b758f",
+      "itemName": {
+        "zh": "MSA Sordin Supreme PRO-X/L有源耳机",
+        "en": "MSA Sordin Supreme PRO-X/L headset"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d6d2ef3a4b93618084f58bd",
+      "itemName": {
+        "zh": "雷硼飞行员墨镜",
+        "en": "RayBench Aviator glasses"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "573476d324597737da2adc13",
+      "itemName": {
+        "zh": "马宝路香烟",
+        "en": "Malboro Cigarettes"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "609e8540d5c319764c2bc2e9",
+      "itemName": {
+        "zh": "NFM THOR 隐蔽型强化防弹背心",
+        "en": "NFM THOR Concealable Reinforced Vest body armor"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嗨兄弟，我想到一个点子。想象一下，如果可以获得Ultra的库存信息那可就真的太棒了。哪些货物寄出了，寄到了哪里，寄了多少？我曾经亲自处理过这些记录，那些小的商店和直销店都是一群懒人在经营，估计没戏，但是大型商店和连锁店肯定会保存记录的。去Goshan商场和其他超市看看，如果你能找到的话那可真是太酷了。",
+    "en": "Oh, hey there, brother, I’ve got a nice idea: just imagine how fucking awesome it would be to have info on Ultra’s cargos. What was being shipped, where, and in what amount, you know. I used to work with records like these myself. Don't think there are any manifests for the small shops, plus they most likely were run by slackers, but the larger stores and retail chains definitely kept their records. Check out Goshan and other supermarkets, like OLI and IDEA, the docs must be somewhere in the offices. it would be mighty cool if you found some."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ae9a0dd86f7742e5f454a05"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ae9a0dd86f7742e5f454a05": {
+          "zh": "Goshan货物清单",
+          "en": "Goshan cargo manifests"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ae9a0dd86f7742e5f454a05"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ae9a0dd86f7742e5f454a05": {
+          "zh": "Goshan货物清单",
+          "en": "Goshan cargo manifests"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ae9a18586f7746e381e16a3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ae9a18586f7746e381e16a3": {
+          "zh": "OLI货物清单",
+          "en": "OLI cargo manifests"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ae9a18586f7746e381e16a3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ae9a18586f7746e381e16a3": {
+          "zh": "OLI货物清单",
+          "en": "OLI cargo manifests"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ae9a1b886f77404c8537c62"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ae9a1b886f77404c8537c62": {
+          "zh": "IDEA货物清单",
+          "en": "IDEA cargo manifests"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ae9a1b886f77404c8537c62"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ae9a1b886f77404c8537c62": {
+          "zh": "IDEA货物清单",
+          "en": "IDEA cargo manifests"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae448e586f7744dcf0c2a67",
+      "name": {
+        "zh": "大甩卖",
+        "en": "Big Sale"
+      }
+    },
+    {
+      "id": "5ae448bf86f7744d733e55ee",
+      "name": {
+        "zh": "让 ULTRA 再次伟大",
+        "en": "Make ULTRA Great Again"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae4493d86f7744b8e15aa8f",
+      "name": {
+        "zh": "数据库 - 2",
+        "en": "Database - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a7d286f7744748710d74.jpg",
+  "isKey": false
+}

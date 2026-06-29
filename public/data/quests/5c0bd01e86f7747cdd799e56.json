@@ -1,0 +1,125 @@
+{
+  "id": "5c0bd01e86f7747cdd799e56",
+  "name": {
+    "zh": "彻夜难眠",
+    "en": "Insomnia"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a154d5cfcdbcb001a3b00da",
+      "itemName": {
+        "zh": "Ops-Core FAST MT Super High Cut 头盔（黑色）",
+        "en": "Ops-Core FAST MT Super High Cut helmet (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5a16b7e1fcdbcb00165aa6c9",
+      "itemName": {
+        "zh": "Ops-Core FAST头盔多重打击防弹面罩",
+        "en": "Ops-Core FAST multi-hit ballistic face shield"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0558060db834001b735271",
+      "itemName": {
+        "zh": "GPNVG-18夜视仪",
+        "en": "L3Harris GPNVG-18 night vision goggles"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "655746010177119f4a097ff7",
+      "itemName": {
+        "zh": "SAPI三级+防弹插板",
+        "en": "SAPI level III+ ballistic plate"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，雇佣兵。我最近需要安排一场非常重要的夜间会议。不巧的是，据我在当地的线人所说，你的那些“同事”们在晚上越来越闹腾了。我觉得吧，他们在白天也是不要命的人。我希望你能解决掉他们。不能让这些犯罪分子坏了我的事儿。",
+    "en": "Good day to you, mercenary. Very soon I will have a night-time meeting on a very important matter. Unfortunately, according to my intelligence in the region, the number of night sorties of your, uh, colleagues has noticeably increased. I feel that these are the same people who do not risk operating in the daytime. I want you to deal with them. These criminals cannot disrupt my work."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 25,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "bodyParts": [
+        "Head",
+        "Chest",
+        "Stomach",
+        "LeftArm",
+        "RightArm",
+        "LeftLeg",
+        "RightLeg"
+      ],
+      "daytime": {
+        "from": 21,
+        "to": 6
+      },
+      "location": "Lighthouse,TarkovStreets,bigmap,Interchange,RezervBase,Sandbox_high,Woods,Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "61958c366726521dd96828ec",
+      "name": {
+        "zh": "神秘货物 - 4",
+        "en": "Cargo X - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5a27cafa86f77424e20615d6.jpg",
+  "isKey": false
+}

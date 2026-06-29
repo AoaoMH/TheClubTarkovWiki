@@ -1,0 +1,139 @@
+{
+  "id": "59c50a9e86f7745fef66f4ff",
+  "name": {
+    "zh": "惩罚者 - 1",
+    "en": "The Punisher - Part 1"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 40000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 40000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5656d7c34bdc2d9d198b4587",
+      "itemName": {
+        "zh": "7.62x39毫米 PS",
+        "en": "7.62x39mm PS gzh"
+      }
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "545cdb794bdc2d3a198b456a",
+      "itemName": {
+        "zh": "6B43 Zabralo-Sh 防弹衣（数码丛林迷彩）",
+        "en": "6B43 Zabralo-Sh body armor (EMR)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "55801eed4bdc2d89578b4588",
+      "itemName": {
+        "zh": "SV-98 7.62x54 狙击步枪",
+        "en": "SV-98 7.62x54R bolt-action sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好啦，是时候让我们把这个世界变得更美好了。海岸线正不断地遭受好几伙强盗的攻击，严重干扰了我朋友们的行动。帮他们解决这个问题，我们就能给你丰厚的回报。但是还有一个要求，你得用AKM系列的枪，这样我的朋友们就能看见是谁在帮他们了。",
+    "en": "Hello soldier, I have a job for you. Well then, it's about time we make this world a better place. The shoreline is under increasingly frequent attacks by different bandit gangs, this seriously interfered with my friends' operations. Help them with their Scav problem and we'll send a handsome reward your way. But I have one condition: you have to sort this one out using an AKM series gun, my friends have to see who helped them."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5abcbc27d8ce8700182eceeb",
+        "59d6088586f774275f37482f",
+        "59ff346386f77477562ff5e2",
+        "5a0ec13bfcdbcb00165aa685",
+        "59e6152586f77473dc057aa1",
+        "5ac66d2e5acfc43b321d4b53",
+        "5ac66d725acfc43b321d4b60"
+      ],
+      "weaponNames": {
+        "5abcbc27d8ce8700182eceeb": {
+          "zh": "AKMSN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMSN 7.62x39 assault rifle"
+        },
+        "59d6088586f774275f37482f": {
+          "zh": "AKM 7.62×39 突击步枪",
+          "en": "Kalashnikov AKM 7.62x39 assault rifle"
+        },
+        "59ff346386f77477562ff5e2": {
+          "zh": "AKMS 7.62×39 突击步枪",
+          "en": "Kalashnikov AKMS 7.62x39 assault rifle"
+        },
+        "5a0ec13bfcdbcb00165aa685": {
+          "zh": "AKMN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMN 7.62x39 assault rifle"
+        },
+        "59e6152586f77473dc057aa1": {
+          "zh": "Vepr KM / VPO-136 7.62x39 卡宾枪",
+          "en": "Molot Arms VPO-136 Vepr-KM 7.62x39 carbine"
+        },
+        "5ac66d2e5acfc43b321d4b53": {
+          "zh": "AK-103 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-103 7.62x39 assault rifle"
+        },
+        "5ac66d725acfc43b321d4b60": {
+          "zh": "AK-104 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+        }
+      },
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5967725e86f774601a446662",
+      "name": {
+        "zh": "探囊取物",
+        "en": "Shaking Up the Teller"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "59c50c8886f7745fed3193bf",
+      "name": {
+        "zh": "惩罚者 - 2",
+        "en": "The Punisher - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5968ec2986f7741ddf17db83.jpg",
+  "isKey": false
+}

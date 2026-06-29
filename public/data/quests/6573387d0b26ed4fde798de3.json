@@ -1,0 +1,142 @@
+{
+  "id": "6573387d0b26ed4fde798de3",
+  "name": {
+    "zh": "兽医也是医 - 2",
+    "en": "Pets Won't Need It - Part 2"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Discover",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 55000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 55000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5d1b3f2d86f774253763b735",
+      "itemName": {
+        "zh": "一次性注射器",
+        "en": "Disposable syringe"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5d1b3a5d86f774252167ba22",
+      "itemName": {
+        "zh": "一堆药",
+        "en": "Pile of meds"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "544fb3f34bdc2d03748b456a",
+      "itemName": {
+        "zh": "吗啡注射器",
+        "en": "Morphine injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ed515e03a40a50460332579",
+      "itemName": {
+        "zh": "L1（去甲肾上腺素）",
+        "en": "L1 (Norepinephrine) injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "小伙子。我需要你的帮助。\n\n我们从兽医诊所和X光办公室获取的信息不够完整。我们的下一个目标是药店。市区有好几家，所以我觉得那些盗贼不会一次性偷走所有东西。帮我去那些药店踩点，然后我派人去收集东西。我知道的至少就有三家。去看看现在是什么情况。",
+    "en": "Hello, young man. I need your help.\n\nWhat we found at the vet clinic and the x-ray office was not enough. Our next target is pharmacies. There were plenty of them around the city, so I don't think the thieves had time to take everything. Check out the pharmacies for me, then I'll send my men over. I know of at least three. See what condition they're in."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Pharma_1",
+      "targetNames": {
+        "Pharma_1": {
+          "zh": "Pharma_1",
+          "en": "Pharma_1"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Pharma_2",
+      "targetNames": {
+        "Pharma_2": {
+          "zh": "Pharma_2",
+          "en": "Pharma_2"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Pharma_3",
+      "targetNames": {
+        "Pharma_3": {
+          "zh": "Pharma_3",
+          "en": "Pharma_3"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "64f731ab83cfca080a361e42",
+      "name": {
+        "zh": "兽医也是医 - 1",
+        "en": "Pets Won't Need It - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66aba85403e0ee3101042877",
+      "name": {
+        "zh": "街区之下",
+        "en": "Beneath The Streets"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6589937422379436cd78472f.jpg",
+  "isKey": false
+}

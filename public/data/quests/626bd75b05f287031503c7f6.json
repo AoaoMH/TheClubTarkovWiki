@@ -1,0 +1,117 @@
+{
+  "id": "626bd75b05f287031503c7f6",
+  "name": {
+    "zh": "缉毒行动",
+    "en": "Drug Trafficking"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 45000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e530286f7747fa1419862",
+      "itemName": {
+        "zh": "丙泊酚",
+        "en": "Propital regenerative stimulant injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e534186f7747fa1419867",
+      "itemName": {
+        "zh": "eTG-change再生兴奋剂注射器",
+        "en": "eTG-change regenerative stimulant injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e533786f7747fa23f4d47",
+      "itemName": {
+        "zh": "Zagustin止血剂",
+        "en": "Zagustin hemostatic drug injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "请进，雇佣兵。我高度怀疑，有人在塔科夫建了新的毒窝，甚至还可能是完整的毒品实验室。我怎么知道的？首先，我最近治疗了很多有相关症状的病人。瞳孔放大、颤栗，等等。其次，我的人之前一直在护送难民撤离，他们注意到了灯塔附近的可疑容器。有个人打算调查，险些被杀掉。那些人绝对在守卫这个地方。你可以找到那里，并且安装一个摄像头吗？我不是说要摧毁掉这个地方，或者干掉那些“厨子”。你明白吗？不要做无谓的牺牲。现在，我需要的只是录像。",
+    "en": "Come on in, mercenary. I have a high suspicion that someone opened a new drug distribution point or even a whole drug laboratory in Tarkov. How do I know this? First of all, I've treated many people with somewhat familiar symptoms recently. Dilated pupils, tremors, confusion, and so on. Now secondly, my people who were evacuating the refugees from the city, noticed suspicious people near the containers in the Lighthouse territory. One of my men wanted to investigate and almost got killed. They definitely guard that place. Can you find it and place a camera overlooking the place? I'm not asking to tear down the place or eliminate those so-called cooks. Do you understand me? Do not risk your life for nothing. For now, I only need the recordings from the cameras."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "qlight_extension_medic1_exploration1",
+      "targetNames": {
+        "qlight_extension_medic1_exploration1": {
+          "zh": "qlight_extension_medic1_exploration1",
+          "en": "qlight_extension_medic1_exploration1"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头",
+          "en": "WI-FI Camera"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6179afd0bca27a099552e040",
+      "name": {
+        "zh": "消失的线人",
+        "en": "Lost Contact"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/628b7dcb543b5b2ab574b759.jpg",
+  "isKey": false
+}

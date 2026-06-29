@@ -1,0 +1,76 @@
+{
+  "id": "675c3507a06634b5110e3c18",
+  "name": {
+    "zh": "引路先驱",
+    "en": "Belka and Strelka"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Completion",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8200
+    },
+    {
+      "type": "Item",
+      "value": 44000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 44000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5448be9a4bdc2dfd2f8b456a",
+      "itemName": {
+        "zh": "RGD-5手榴弹",
+        "en": "RGD-5 hand grenade"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，大兵！我有一个新的侦察任务要交给你。\n\n我之前和控制着老加油站旁边那条铁路的人达成了一笔协议，不过我还没把狗腿们派到那里去过，所以也不知道对面是不是真的按约定在办事。\n\n计划很简单：你在那条铁路上打上一颗绿色信号弹，然后撤离就可以了。这有点像 Belka 干的那种活……还是 Strelka 来着？随便了，反正就是第一批上太空的那两条狗，你明白我的意思就行。\n\n为了补偿这活的风险，我会给你报酬的，不过你得当心别在跑到地方之前就被人劫了，还有就是撤离的时候给点耐心。关于雇佣兵打完信号弹之后没等对面看到亮就火急火燎往外赶的事故我已经听得够多了……说个无关的话题，要是头盔给子弹开了个透气的大洞，你还愿意买吗？如果便宜点呢？",
+    "en": "Hey, soldier! I've got a new reconnaissance mission for ya.\n\nI was able to arrange a deal with the fellas who control the railroad at the old customs gas station, but I haven't sent any of my couriers that way yet. We gotta check it out first.\n\nThe plan is simple: you fire the green flare and extract. It's like a job Belka did... or was it Strelka? Ah, whatever, you know what I'm trying to say.\n\nI'll pay you for risking your skin, but make sure you don't get whacked before even getting to that place, and take your time on the exit itself. I've heard enough tales of mercs who shoot the flare and run to the exit immediately before the flare even lights up properly... On a completely unrelated note, may I interest you in a cheap new helmet with bullet hole vents?"
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59c124d686f774189b3c843f",
+      "name": {
+        "zh": "石油存储",
+        "en": "BP Depot"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c37481c2d86b57700e3169.jpg",
+  "isKey": false
+}

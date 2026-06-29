@@ -1,0 +1,96 @@
+{
+  "id": "639135c3744e452011470807",
+  "name": {
+    "zh": "软禁 - 1",
+    "en": "House Arrest - Part 1"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 28800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 112000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 112000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f2a9575926fd9352339381f",
+      "itemName": {
+        "zh": "Kel-Tec RFB 7.62x51",
+        "en": "Kel-Tec RFB 7.62x51 rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "过来，我亲爱的伙计。城里一切都还好吧？我有几个小队失踪了。最开始我在想，谁这么大胆子，敢对我的生意动手动脚？除非他们在骗我。我猜这最开始都是灯塔的人干的。但是之后我收到了Seva Shket的消息。信里他说，那些人被囚禁在一所秘密监狱里了。你有听说过吗？据说它就藏在那些旧的建筑里面。要真是出了这种问题，我巴不得把他们给宰了，说真的。但是看起来有些人还是打算把他们囚禁起来。现在是这么个情况：Shket是唯一逃出来的小队，但是他现在已经跑路了，自从发来消息之后就再也没有和我们联系了。他甚至没告诉我，要去哪里找其他的人，真是个贱人。这些人被抓起来，本来就该挨骂，现在还把事情越弄越糟糕了。不管怎么说，有人想要搞我事儿，这是无法忍受的。总之，我受够了。去看看我的人被关在哪里了。",
+    "en": "Come here, my dear employee. Everything okay in the city? I got a few teams of mine missing. At first I thought, why the fuck would someone be so cocky, trying to shut my business down? Unless they're messing with me or something. I assumed it was that punk from the Lighthouse at first. But then I get a message from Seva Shket. He wrote that they were kept in some private prison. Have you heard about it? It's hidden somewhere in the old apartment buildings. Suits would dump their rivals there and whoever's easier to keep locked up than kept loose. I'd just kill them if that was such a problem, honestly. But it looks like someone would rather keep them in jail than just pop the cunts bothering them... Here's the deal: Shket was the only one in the group who escaped, but now he's on the run, hasn't contacted us since that message he sent. Didn't even tell us where to find the guys, this rat-faced fuck. The guys themselves are to blame for being caught like some bitches, and I would have just told them to fuck off for such a screwup. But the fact that someone's trying to fuck me over is outrageous. All right, enough of this bullshit. Find out where they keep my boys."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c8_dom1",
+      "targetNames": {
+        "quest_zone_c8_dom1": {
+          "zh": "quest_zone_c8_dom1",
+          "en": "quest_zone_c8_dom1"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639dbaf17c898a131e1cffff",
+      "name": {
+        "zh": "老赖",
+        "en": "Debtor"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "625d6ff5ddc94657c21a1625",
+      "name": {
+        "zh": "网络供应商 - 1",
+        "en": "Network Provider - Part 1"
+      }
+    },
+    {
+      "id": "639135cd8ba6894d155e77cb",
+      "name": {
+        "zh": "软禁 - 2",
+        "en": "House Arrest - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63aaec53e842787ad21356a3.jpg",
+  "isKey": false
+}

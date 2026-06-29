@@ -1,0 +1,130 @@
+{
+  "id": "670404a2ea1caa8f2e0be106",
+  "name": {
+    "zh": "Don’t Believe Your Eyes",
+    "en": "Don’t Believe Your Eyes"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Discover",
+  "location": "5b0fc42d86f7744a585f9105",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c12688486f77426843c7d32",
+      "itemName": {
+        "zh": "尼龙绳索",
+        "en": "Paracord"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好。告诉我，你身体还好吗？有传言说某种疾病，要么来自实验室要么来自别处。甚至有个目击者来找我，明显疯了。\n\n他告诉我关于那些放血猎人的活死人。我跟你说，我以前听过很多这样的故事。\n\n但那人的白发和眼神……他绝对看到了什么邪恶的东西。也许是掠夺者为了好玩肢解了一具尸体，或者哪个可怜虫把酸液泼自己身上了。\n\n无论如何，我觉得你应该去调查一下。你知道恐慌在这里传播得有多快。",
+    "en": "Hello. Tell me, are you feeling healthy? There's been talk of some kind of disease, either from the Lab or somewhere else. I even had a “witness” come in, clearly gone mental. \n\nHe told me about the living dead who bleed themselves and hunt people. I tell you what, I've heard many such tales before.\n\nYet the man's grayed hair and that look in his eyes... He's definitely seen something sinister. Maybe some looters mutilated a corpse for fun, or some poor bastard spilled acid on himself. \n\nIn any case, I think you should look into that story. You know how panic spreads around this place."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Halloween_lab_section1",
+      "targetNames": {
+        "Halloween_lab_section1": {
+          "zh": "Halloween_lab_section1",
+          "en": "Halloween_lab_section1"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "Halloween_lab_section2",
+      "targetNames": {
+        "Halloween_lab_section2": {
+          "zh": "Halloween_lab_section2",
+          "en": "Halloween_lab_section2"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d24b81486f77439c92d6ba8",
+      "name": {
+        "zh": "熟人",
+        "en": "Acquaintance"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67040b3d10b18d153a08f636",
+      "name": {
+        "zh": "肮脏之血",
+        "en": "Dirty Blood"
+      }
+    },
+    {
+      "id": "67190f6c1b3f4964d90d71e9",
+      "name": {
+        "zh": "全球威胁",
+        "en": "Global Threat"
+      }
+    },
+    {
+      "id": "67190f9c7b0991dc22064766",
+      "name": {
+        "zh": "监视监视者",
+        "en": "Watch the Watcher"
+      }
+    },
+    {
+      "id": "67190febcce4a5fdf605d4f8",
+      "name": {
+        "zh": "一步不退！",
+        "en": "Not a Step Back!"
+      }
+    },
+    {
+      "id": "67191048eddf081d340d4c6e",
+      "name": {
+        "zh": "情势所迫",
+        "en": "Pressured by Circumstances"
+      }
+    },
+    {
+      "id": "671910d5dbd4354ac10e9784",
+      "name": {
+        "zh": "保护区",
+        "en": "Conservation Area"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/671f89bfab3a1278b204cc33.png",
+  "isKey": false
+}

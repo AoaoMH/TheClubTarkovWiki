@@ -1,0 +1,137 @@
+{
+  "id": "5d25e4ad86f77443e625e387",
+  "name": {
+    "zh": "怀旧之情",
+    "en": "Nostalgia"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 30000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c60fc86f77412b13fddcf",
+      "itemName": {
+        "zh": "文件包",
+        "en": "Documents case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d8e15b686f774445103b190",
+      "itemName": {
+        "zh": "水电站仓库钥匙",
+        "en": "HEP station storage room key"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你知道，有时候，坐在篝火旁，我就会回忆起一切是怎么开始的。那时我得到一张去疗养院的度假票，记得当时是晚上。刚吃完晚饭回到房间，坐在窗前凝视着海湾。它看起来很美。然后我就听到了卡车声，不仅仅是一辆，而是一整列。那是你的同事， USEC们。他们把所有人都赶出了疗养院，甚至不让人拿自己的东西。我不太在乎衣服什么的，只在乎留在那里的那本有照片的相册。不是为了给我服务而是为了我们的友谊，试着在那里找到它吧。对我来说，这是对那些平静日子的痛苦回忆。我的房间在疗养院西楼的顶层。我是不会用酬劳来冒犯你的。",
+    "en": "Hello there, come in. You know, at times, sitting by the campfire, I look back on how it all began. That time I've been on vacation in the health resort, it was in the evening, I remember that as if it was yesterday. I have just returned to the room after dinner, sat by the window to gaze at the bay. It looked marvelous. And then I hear trucks, not just a single one, a whole convoy. It was your colleagues, the USECs. They kicked everyone out of the resort, didn’t even let people pack their belongings. I don't care about my clothes as much as my photo album which remained there. Not as a service but as an act of friendship, please try to find it there. It is painfully dear to me as a memory of those calm days. My room was on the top floor of the health resort, in the west wing. The reward will be bountiful."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "huntsman_026",
+      "targetNames": {
+        "huntsman_026": {
+          "zh": "huntsman_026",
+          "en": "huntsman_026"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d357d6b86f7745b606e3508"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d357d6b86f7745b606e3508": {
+          "zh": "相册",
+          "en": "Photo album"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d357d6b86f7745b606e3508"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d357d6b86f7745b606e3508": {
+          "zh": "相册",
+          "en": "Photo album"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e48186f77443e625e386",
+      "name": {
+        "zh": "礼节性拜访",
+        "en": "Courtesy Visit"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5d25e4b786f77408251c4bfc",
+      "name": {
+        "zh": "鱼塘",
+        "en": "Fishing Place"
+      }
+    },
+    {
+      "id": "66ab9da7eb102b9bcd08591c",
+      "name": {
+        "zh": "卑鄙的外乡人",
+        "en": "Forester's Duty"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d694a6b86f77452a94debdf.jpg",
+  "isKey": false
+}

@@ -1,0 +1,121 @@
+{
+  "id": "5c12452c86f7744b83469073",
+  "name": {
+    "zh": "左右逢源",
+    "en": "Perfect Mediator"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Skill",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 20900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 55000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 55000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b6d9ce188a4501afc1b2b25",
+      "itemName": {
+        "zh": "T H I C C武器箱",
+        "en": "T H I C C Weapon case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "651450ce0e00edc794068371",
+      "itemName": {
+        "zh": "SR-3M 9x39紧凑型突击步枪",
+        "en": "SR-3M 9x39 compact assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "请进。好吧，如你所见，现在是艰难时期，人与人之间缺乏信任，每个边边角角都可能潜伏着叛徒和间谍。就我看来，你是个好士兵，用行动证明过自己，所以靠得住。现在我需要一个合适的人选，一个值得我，值得所有人信任的人选，来按时为我传达一些消息。去和其他商人交流，获取他们的信任。这对我们俩的利益都有好处。",
+    "en": "Hey there, come in. Well, as you can see, it's rough times now, you can trust nobody. There are traitors and moles in every corner possible, but as far as I can see you are a good soldier, proven in action, so I can count on you. Now, I need to send some info from time to time and I need an appropriate person for this, someone who's trusted not only by me but by everyone else too. Speak with other traders, earn their trust. Will be beneficial for both of us. Oh, and don't bother Ivan Egorovich for now, he's got enough of his own problems."
+  },
+  "objectives": [
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 4,
+      "target": "5ac3b934156ae10c4430e83c"
+    },
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 4,
+      "target": "58330581ace78e27b8b10cee"
+    },
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 4,
+      "target": "5a7c2eca46aef81a7ca2145d"
+    },
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 4,
+      "target": "5935c25fb3acc3127c3d8cd9"
+    },
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 4,
+      "target": "54cb50c76803fa8b248b4571"
+    },
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 4,
+      "target": "54cb57776803fa99248b456e"
+    },
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 4,
+      "target": "5c0647fdd443bc2504c2d371"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5967725e86f774601a446662",
+      "name": {
+        "zh": "探囊取物",
+        "en": "Shaking Up the Teller"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+  "isKey": false
+}

@@ -1,0 +1,63 @@
+{
+  "id": "625d6ffcaa168e51321d69d7",
+  "name": {
+    "zh": "试探 - 1",
+    "en": "Assessment - Part 1"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Elimination",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 23500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "我已经成功联系上Lightkeeper了！他愿意和我们继续联络，条件是帮他一个忙。他说，灯塔附近有太多不长眼的PMC了。你能去解决一下吗？我很确定，这将会给我们带来一个未曾设想的机遇！",
+    "en": "I managed to get in touch with Lightkeeper! He is ready to continue communication, if we do him a favor. He says that there are too many aggressive PMCs near the lighthouse approach. Can you sort it out? I'm sure it will open up such opportunities that we have never imagined before!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 15,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "625d6ffaf7308432be1d44c5",
+      "name": {
+        "zh": "网络供应商 - 2",
+        "en": "Network Provider - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "625d6fff4149f1149b5b12c9",
+      "name": {
+        "zh": "试探 - 2",
+        "en": "Assessment - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63ab1282435ab5742b4e40ac.jpg",
+  "isKey": false
+}

@@ -1,0 +1,128 @@
+{
+  "id": "6740a15566e6a521aa051b15",
+  "name": {
+    "zh": "缔结友谊",
+    "en": "Forge a Friendship"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18800
+    },
+    {
+      "type": "Item",
+      "value": 95000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 95000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6499849fc93611967b034949",
+      "itemName": {
+        "zh": "AK-12 5.45x39突击步枪",
+        "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "55d481904bdc2d8c2f8b456a",
+      "itemName": {
+        "zh": "6L26 5.45x39 45发AK-74兼容弹匣",
+        "en": "AK-74 5.45x39 6L26 45-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5737292724597765e5728562",
+      "itemName": {
+        "zh": "5.45x39mm BP弹药包（120发装）",
+        "en": "5.45x39mm BP gs ammo pack (120 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，勇士！之前你来问的 BTR 司机的事情？理论上我们是可以合作，他的服务我已经用过几次了。但想要对抗 Skier 那个滑头，代价可是小不了啊。\n\n所以我们必须先确定我们的意图，以免日后出错！首先，我需要拿到一个从警戒线外寄来的包裹。我听说它送到了，就在诺文斯克港口区域的某个地方。",
+    "en": "Hello, warrior! You asked about the BTR driver, and in theory we could work together. I've already used the services of his BTR, but going against Skier is not cheap.\n\nThat's why we need to solidify our intentions, so that no one slips up later! First, I need to get a package that came from outside the cordon. I'm told it's already here, somewhere in the Norvinsk port area."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "67499adbeca8acb2d2061634"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67499adbeca8acb2d2061634": {
+          "zh": "Prapor 的货物",
+          "en": "Cargo for Prapor"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "67499adbeca8acb2d2061634"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67499adbeca8acb2d2061634": {
+          "zh": "Prapor 的货物",
+          "en": "Cargo for Prapor"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6745fcded0fbbc74ca0f721d",
+      "name": {
+        "zh": "现世报",
+        "en": "Swift Retribution"
+      }
+    },
+    {
+      "id": "6740a02a69a58fceba0ff399",
+      "name": {
+        "zh": "自然交换",
+        "en": "Natural Exchange"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6740a2c17e3818d5bb0648b6",
+      "name": {
+        "zh": "半满半空",
+        "en": "Half-Empty"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+  "isKey": false
+}

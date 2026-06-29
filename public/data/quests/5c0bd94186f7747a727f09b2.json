@@ -1,0 +1,121 @@
+{
+  "id": "5c0bd94186f7747a727f09b2",
+  "name": {
+    "zh": "试驾 - 1",
+    "en": "Test Drive - Part 1"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57838ad32459774a17445cd2",
+      "itemName": {
+        "zh": "VSS “绞丝机” 特种狙击步枪 ",
+        "en": "VSS Vintorez 9x39 special sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "657025cfbfc87b3a34093253",
+      "itemName": {
+        "zh": "20发9x39 PAB-9 gs盒装弹药",
+        "en": "9x39mm PAB-9 gs ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "65118f531b90b4fc77015083",
+      "itemName": {
+        "zh": "VSS/VAL 9x39 30发弹匣",
+        "en": "VSS/VAL 9x39 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "61962d879bb3d20b0946d385",
+      "itemName": {
+        "zh": "9x39毫米 PAB-9",
+        "en": "9x39mm PAB-9 gs"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好吗！这有笔生意，我从Mechanic那里订了一大批从西方来的枪械。枪是外国的，我还是更热衷于祖国产的枪，对老兵来说，本国货总是更合心意。好了，这是一把M1A，配备了Hybrid 46消音器和Schmidt & Bender PM II 1-8x24 scope瞄准镜，我需要你装备它在来一场艰难的行动。可不是打打SCAV那么简单，你需要给它来点真正的猎物。我会给你其中一把枪，你最好仔细欣赏一下！不要让它白白浪费了，这东西价值连城。如果你不幸弄丢了——那就是你自己的问题，自己想办法解决。我想测试一下这个配置如何。",
+    "en": "Greetings! Here's the deal, I've ordered a bunch of western guns from Mechanic for my clients. Guns are foreign-made, I'm way keener on the Fatherland-made guns, native product is way closer to the old soldier's soul and all. So, the gun is an M1A with a Hybrid 46 silencer and a Schmidt & Bender PM II 1-8x24 scope, and I need you to give it a hard ride in action. And there's no way you just shoot some Scavs and call it a day, you will have to give it some real deal. I will give you one of these rifles, you watch after it! They cost a fortune, so if you lose it - that's your problem."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "5aafa857e5b5b00018480968"
+      ],
+      "weaponNames": {
+        "5aafa857e5b5b00018480968": {
+          "zh": "春田 M1A 7.62x51 精确射手步枪",
+          "en": "Springfield Armory M1A 7.62x51 rifle"
+        }
+      },
+      "distance": {
+        "compareMethod": ">=",
+        "value": 60
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5c0d190cd09282029f5390d8",
+      "name": {
+        "zh": "掷弹兵",
+        "en": "Grenadier"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "63a5cf262964a7488f5243ce",
+      "name": {
+        "zh": "试驾 - 2",
+        "en": "Test Drive - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5b47867286f7744d1a393de9.jpg",
+  "isKey": false
+}

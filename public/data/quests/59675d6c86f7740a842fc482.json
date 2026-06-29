@@ -1,0 +1,160 @@
+{
+  "id": "59675d6c86f7740a842fc482",
+  "name": {
+    "zh": "蛋卷冰淇淋",
+    "en": "Ice Cream Cones"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 17000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 17000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57372d4c245977685a3da2a1",
+      "itemName": {
+        "zh": "5.45x39mm PP弹药包（120发装）",
+        "en": "5.45x39mm PP gs ammo pack (120 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5beed0f50db834001c062b12",
+      "itemName": {
+        "zh": "RPK-16 5.45x39 轻机枪",
+        "en": "RPK-16 5.45x39 light machine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "55d482194bdc2d1d4e8b456b",
+      "itemName": {
+        "zh": "6L31 5.45x39 60发AK-74兼容弹匣",
+        "en": "AK-74 5.45x39 6L31 60-round magazine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，战士，还能打么？行啊。我这儿有个活，实际上是小事一桩，让你来算是杀鸡用牛刀，就当是帮我个忙吧。有人送给我一个包裹，就放在伐木场后面的地堡里。里面是6个60发弹匣。畅销货，你懂的。他们为了挡住拾荒者，在铁栏杆上加了把锁。以前Terra集团的人经常在那儿逗留，其中一个家伙应该存了一把备用的钥匙。他住在工厂附近的一个宿舍楼里，过去看看吧。说实在的，如果你进不去那个地堡，去其它地方找也无所谓，这事我还是挺着急的。",
+    "en": "Hey there, warrior. Still fighting? Good. There is this job, a cakewalk, really. Obviously, not of your caliber, it's gonna be a favor, so to say. I've received an order, they need some 60-rounders for 5.45 AKs. I know there definitely were some in bunkers near the sawmill, my guys stashed some goods there before. But they got driven out of there by those TerraGroup people, who then locked the bunkers with a key of some sort. Well, if you're going for the bunker, you'll need that key, I think it's hidden somewhere in dorms on Customs, people have seen some TerraGroup brass there a couple of times. Anyway, I don't care where you find them, but I need you to get them fresh and untouched by some traders. And hurry up, the order is urgent."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "55d482194bdc2d1d4e8b456b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "55d482194bdc2d1d4e8b456b": {
+          "zh": "6L31 5.45x39 60发AK-74兼容弹匣",
+          "en": "AK-74 5.45x39 6L31 60-round magazine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "55d482194bdc2d1d4e8b456b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "55d482194bdc2d1d4e8b456b": {
+          "zh": "6L31 5.45x39 60发AK-74兼容弹匣",
+          "en": "AK-74 5.45x39 6L31 60-round magazine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "591afe0186f77431bd616a11"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591afe0186f77431bd616a11": {
+          "zh": "ZB-014钥匙",
+          "en": "ZB-014 key"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "bunker2",
+      "targetNames": {
+        "bunker2": {
+          "zh": "bunker2",
+          "en": "bunker2"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5967530a86f77462ba22226b",
+      "name": {
+        "zh": "罪证",
+        "en": "Bad Rep Evidence"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "59675ea386f77414b32bded2",
+      "name": {
+        "zh": "邮递员派特 - 1",
+        "en": "Postman Pat - Part 1"
+      }
+    },
+    {
+      "id": "5967725e86f774601a446662",
+      "name": {
+        "zh": "探囊取物",
+        "en": "Shaking Up the Teller"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c26f2b86f7744a351903d3.jpg",
+  "isKey": false
+}

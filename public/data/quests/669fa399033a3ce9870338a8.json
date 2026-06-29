@@ -1,0 +1,101 @@
+{
+  "id": "669fa399033a3ce9870338a8",
+  "name": {
+    "zh": "占有者",
+    "en": "Possessor"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Discover",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 47000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 47000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b36a186f7742523398433",
+      "itemName": {
+        "zh": "金属燃料桶",
+        "en": "Metal fuel tank"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，勇士！你一定看到过工厂那边坠落的直升机，对吧？我想知道它坠毁的具体原因，以及时间。但是我能掌握的只有一个信息：他们从来不会派直升机去塔科夫接人，以前没有，以后也不会有。我们需要知道，到底是谁在那架直升机上，他们的任务是什么。\n\n我需要你去调查这件事情。你要找的应该是个飞行日志之类的。",
+    "en": "Hey, warrior! You've probably seen a crashed chopper at the factory before, yeah? I wonder when and how it ended up there. But I know one thing for sure: they never sent helis to Tarkov to pick up anyone, neither before nor now. We should find out who was on that helicopter and what was their mission.\n\nYou should go scout that heli. There's gotta be a logbook or something."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66c0b90c8398582e4b0c2e27"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66c0b90c8398582e4b0c2e27": {
+          "zh": "飞行日志本",
+          "en": "Pilot logbook"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66c0b90c8398582e4b0c2e27"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66c0b90c8398582e4b0c2e27": {
+          "zh": "飞行日志本",
+          "en": "Pilot logbook"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59675ea386f77414b32bded2",
+      "name": {
+        "zh": "邮递员派特 - 1",
+        "en": "Postman Pat - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66acec55f85b8bf7250f9cad.png",
+  "isKey": false
+}

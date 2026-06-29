@@ -1,0 +1,130 @@
+{
+  "id": "639135bbc115f907b14700a6",
+  "name": {
+    "zh": "高保真",
+    "en": "Audiophile"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 87000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 87000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59faf7ca86f7740dbe19f6c2",
+      "itemName": {
+        "zh": "劳力土潜水金腕表",
+        "en": "Roler Submariner gold wrist watch"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d235a5986f77443f6329bc6",
+      "itemName": {
+        "zh": "黄金骷髅指环",
+        "en": "Gold skull ring"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60a3c70cde5f453f634816a3",
+      "itemName": {
+        "zh": "CQC 鱼鹰 MK4A 防弹胸挂（突击型，多地形迷彩）",
+        "en": "CQC Osprey MK4A plate carrier (Assault, MTP)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我想托你再办一件调查任务。我有一个客户，他是一位很好的人。一个摇滚歌手。他们以前在城里的时候，我给他们的乐队卖了各种各样的东西！这一切开始的时候，他还在塔科夫排练。然后大疏散就开始了，一塌糊涂，他也因此丢掉了他的吉他拨片...是的，老兄，我们要找到一个拨片。为什么你这么惊讶？他的拨片是海特菲尔德给他的，他的名字...就是那个毛发很多的人，你肯定认识！嘟嘟嘟，嘟嘟嘟嘟嘟...老兄，他们不会把你抓去猜旋律的。总之，找到那个拨片，上面写着AG initials，你不可能认错的。你想也想不到这家伙会为这玩意儿付多少钱。地址？要是他记得东西在哪，我为啥不自己去找？",
+    "en": "I have another detective job for you. I have a client, a very good guy. A rocker. I used to sell their band all sorts of stuff when they were playing in our town! The guy was in Tarkov when it all started, rehearsing at someone's crib. And then the evacuation started and all that bullshit. So the guy lost his guitar pick... Yeah, man, you're gonna go looking for a plectrum. Why are you so surprised? He got that pick from either Hetfield or that hairy, what's-his-name... The hairy one, you should know! Too-doo-doo, too-doo-doo-doo-doo... Oh, man, they won't take you to Guess the Tune. Anyway, find the plectrum, it's got the AG initials on it, you won't mistake it. You have no idea how much a dude is willing to pay for that plastic shit. An address? If he could remember the address, I'd go to the address myself!"
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c7_mel",
+      "targetNames": {
+        "quest_zone_c7_mel": {
+          "zh": "quest_zone_c7_mel",
+          "en": "quest_zone_c7_mel"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "638df4cc7b560b03794a18d2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638df4cc7b560b03794a18d2": {
+          "zh": "AG吉他拨片",
+          "en": "AG guitar pick"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "638df4cc7b560b03794a18d2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638df4cc7b560b03794a18d2": {
+          "zh": "AG吉他拨片",
+          "en": "AG guitar pick"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "639135a7e705511c8a4a1b78",
+      "name": {
+        "zh": "芭蕾舞者",
+        "en": "Ballet Lover"
+      }
+    },
+    {
+      "id": "5b478d0f86f7744d190d91b5",
+      "name": {
+        "zh": "微型客车",
+        "en": "Minibus"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63aaf63861d7b024e808d5fb.jpg",
+  "isKey": false
+}

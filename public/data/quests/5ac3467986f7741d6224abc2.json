@@ -1,0 +1,108 @@
+{
+  "id": "5ac3467986f7741d6224abc2",
+  "name": {
+    "zh": "信号 - 1",
+    "en": "Signal - Part 1"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Discover",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 10000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 10000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5a718f958dc32e00094b97e7",
+      "itemName": {
+        "zh": "SGMT Glock 9x19 50发弹鼓",
+        "en": "Glock 9x19 SGM Tactical 50-round drum magazine"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "昨天，有什么人在撞我关上的厨房门。听起来很怪对吧？我确实明白这是不可能的，但是在内心之中又存在着一种非理性的恐惧。就像个小孩子，他会害怕床底下的怪物。我想这类恐惧会随着你远离文明而在你的内心之中疯长。当你作为人类社会的一份子，和其他人呆在一起的时候，就算床底下真有怪物，你也能和其他人说。而当你像现在这样，孤独地置身黑暗之中时，就没法这样处理恐惧了。下次我会告诉你拿是什么的，毕竟这种怪事还会再一次发生。比方说，有人正在干扰我的信号，可能是在海岸线那里干的。要干这种事，他们需要很强力的天线。找找有碟形卫星天线的地方，他们很可能用了什么相似的东西。那里至少有两个天线，间隔400到450米。",
+    "en": "Yesterday, someone was banging at the closed door in the kitchen. Sounds weird, right? I absolutely understand that this was impossible, but there was a sort of irrational fear inside me. Like when you're afraid of monsters under the bed as a child. I think such fears grow stronger the farther away you are from civilization. When you're among others, as part of the society, even if you find a monster under the bed, you can tell someone about it. But when you're alone in the dark every day, it doesn’t work that way. I’ll tell you what that \"monster\" was next time since the irregularities didn’t end with it. For example, someone’s jamming my signal, presumably from the Shoreline territory. It’s a hard trick to pull without powerful antennas. Try to look for satellite dishes, they most likely use something that looks similar. There should be at least two, about 400-450 meters away from each other."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_SIGNAL_01_1",
+      "targetNames": {
+        "place_SIGNAL_01_1": {
+          "zh": "place_SIGNAL_01_1",
+          "en": "place_SIGNAL_01_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_SIGNAL_01_2",
+      "targetNames": {
+        "place_SIGNAL_01_2": {
+          "zh": "place_SIGNAL_01_2",
+          "en": "place_SIGNAL_01_2"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac2426c86f774138762edfe",
+      "name": {
+        "zh": "枪匠 - 2",
+        "en": "Gunsmith - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ac346a886f7744e1b083d67",
+      "name": {
+        "zh": "信号 - 2",
+        "en": "Signal - Part 2"
+      }
+    },
+    {
+      "id": "5ac3479086f7742880308199",
+      "name": {
+        "zh": "圈内人",
+        "en": "Insider"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4d8f186f774422237860d.jpg",
+  "isKey": false
+}

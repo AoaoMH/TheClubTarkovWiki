@@ -1,0 +1,117 @@
+{
+  "id": "676c243577f0257dd50239e6",
+  "name": {
+    "zh": "节庆的代价",
+    "en": "The Price of Celebration"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 2200,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 2200
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d40407c86f774318526545a",
+      "itemName": {
+        "zh": "Tarkovskaya瓶装伏特加",
+        "en": "Bottle of Tarkovskaya vodka"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d403f9186f7743cac3f229b",
+      "itemName": {
+        "zh": "Dan Jackiel瓶装威士忌",
+        "en": "Bottle of Dan Jackiel whiskey"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "67600929bd0a0549d70993f6",
+      "itemName": {
+        "zh": "防弹插板箱",
+        "en": "Ballistic plate case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你能相信这些操蛋的事吗？这帮人先是要来偷我的燃料桶，现在又聚集在圣诞树下，把我手下的路线都给堵死了！就因为这个，我不得不临时变动计划，安排人从其他路线送货。大冬天的还要额外绕大圈，我的人得冻死在外面了。\n\n我可不想等到他们的庆祝活动结束、所有人都缩回去之后再动手。这出闹剧现在就得收场。给那些跳舞的一点颜色瞧瞧，你自己别戴那个蠢透了的“圆环舞”臂带就行。不然我就得亲自拉人下场了，要是真轮到我出手，你的性命安全可打不了包票。",
+    "en": "Can you fucking believe this? First they tried to steal my gas cans, and now they're gathering at the Christmas trees directly on my gang's routes! Because of this, I have to change my plans and organize other paths for the couriers. They're gonna freeze to death with all those long-ass detours.\n\nI'm not gonna wait for them to get done with the celebrations and go to their holes after. This bullshit has to stop right now. Punish those \"dancers\"! Just don't put on their band yourself. Otherwise, I’ve got the guys involved too, and they might take you down in the chaos."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills+Equipment",
+      "value": 10,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "location": "Shoreline,Interchange,Lighthouse,bigmap,Woods,RezervBase"
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Equipment",
+      "value": 10,
+      "isFailCondition": true,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "location": "Shoreline,Interchange,Lighthouse,bigmap,Woods,RezervBase"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6750320e23fc8fd9cc087d14",
+      "name": {
+        "zh": "超支的节日",
+        "en": "Holiday Beyond the Means"
+      }
+    },
+    {
+      "id": "676c243fb16f4b14b905e7f4",
+      "name": {
+        "zh": "我的派对我做主",
+        "en": "This Is My Party"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/676985d28f72b5be4f0de40b.jpg",
+  "isKey": false
+}

@@ -1,0 +1,130 @@
+{
+  "id": "67f3eab9a33cd296b20ee695",
+  "name": {
+    "zh": "人员短缺",
+    "en": "Staff Shortage"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 150000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 150000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6275303a9f372d6ea97f9ec7",
+      "itemName": {
+        "zh": "Milkor M32A1 MSGL 40 毫米榴弹发射器",
+        "en": "Milkor M32A1 MSGL 40mm grenade launcher"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5ede475b549eed7c6d5c18fb",
+      "itemName": {
+        "zh": "40x46毫米 M386(HE)",
+        "en": "40x46mm M386 (HE) grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5ede4739e0350d05467f73e8",
+      "itemName": {
+        "zh": "40x46毫米 M406(HE)",
+        "en": "40x46mm M406 (HE) grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5f0c892565703e5c461894e9",
+      "itemName": {
+        "zh": "40x46 毫米 M433 (HEDP)",
+        "en": "40x46mm M433 (HEDP) grenade"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 12,
+      "itemId": "5ede475339ee016e8c534742",
+      "itemName": {
+        "zh": "40x46毫米 M576(MP-APERS)",
+        "en": "40x46mm M576 (MP-APERS) grenade"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，伙计！你听说我的宏伟计划了吗？好了好了，别一脸不爽，我可不是白养人的。谁要是不满意条款，尽管他妈的去投诉我好了。这儿又不是莫斯科。大家是时候脚踏实地，接受这该死的残酷现实了。\n\n好吧，跟你说说这活儿是怎么回事。那个该死的森林怪胎又开始活动，骚扰我的人了。他那朋友 Partisan 搞砸了补给路线，而且他们还在追杀我派出去招人的人。\n\n所以我觉得你挺适合干这反制行动的。帮我掩护下检查站的兄弟们，把那个叫 Partisan 的混蛋埋进哪个沟里去。我会给你个满意的报酬的，伙计。我现在急需这些新兵。",
+    "en": "Hey there mate! Did'ya hear about my master plan? Alright don't get pissy, I don't employ people for nothing. And if anyone doesn't like the terms, they can file a fucking complaint against me. This isn't Moscow. It's time for everyone to come down to earth and accept our grim fucking reality.\n\nAlright, so here's what this job's about. That bloody forest freak is getting active and bothering my mates. His friend Partisan has ruined the supply routes, and they're also hunting my recruiters.\n\nSo I thought you'd be a good fit for this counteraction. Cover my mates at the checkpoints, and bury this Partisan fuck in the ditch somewhere. I'll make it worth your while. I need these recruits urgently, mate."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossPartisan"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67f3eaa3a7799274d50a8b66",
+      "name": {
+        "zh": "先发制人",
+        "en": "Preemptive Strike"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/5979e80986f77437584fb8b2.jpg",
+  "isKey": false
+}

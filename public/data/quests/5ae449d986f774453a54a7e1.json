@@ -1,0 +1,133 @@
+{
+  "id": "5ae449d986f774453a54a7e1",
+  "name": {
+    "zh": "财务总监",
+    "en": "Supervisor"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 24100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 250000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 250000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5be4038986f774527d3fae60",
+      "itemName": {
+        "zh": "立交桥纸地图",
+        "en": "Interchange plan map"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e9dacf986f774054d6b89f4",
+      "itemName": {
+        "zh": "FORT Defender-2 护甲",
+        "en": "FORT Defender-2 body armor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ca21c6986f77479963115a7",
+      "itemName": {
+        "zh": "FORT Redut-T5 防弹衣（烟雾迷彩）",
+        "en": "FORT Redut-T5 body armor (Smog)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "当你在Ultra商场中漫步的时候，你或许已经注意到了那些收银台，就在那些商店和精品店里。直接把这些店铺搬空不太现实，但是至少可以把里面的现金全拿走。特别是在Goshan商场里的，大把大把的钞票就躺在收银机里，嗷嗷待取，没有任何风险，只管拿了就走，可惜它们都被锁起来了，妈的。所以我有个提议：把收银台钥匙给我搞到手。只要搞定，我会告诉你一个我从未向任何人提起过的究极炫酷计划，你是我兄弟嘛。",
+    "en": "Salam. While strolling through Ultra, you may have noticed how many cash registers there are in stores and boutiques. Salvaging them all is impossible, but at least the cash can be taken. Should be especially plentiful in Goshan, and it's not that risky. Should be able to just grab the spoils and go, but there's one thing: they are all locked. So I have an offer for you about that: get me the key from the registers, and I’ll let you in on the cool schemes I’ve never shown to anybody. Brother to brother. Don't care where you get the key, you can just buy it from traders for all I care. But if you want an adventure, I know where the key could be. I knew one of the cashier clerks in Goshan, the guy wanted to leave the city on the bus during the conflict, and, well, got smoked at the gas station on Customs. Probably a good idea to check it out - what if he dropped the key somewhere on the seat? Well, go on, brother, don't let me down."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ad7247386f7747487619dc3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ad7247386f7747487619dc3": {
+          "zh": "Goshan收银机钥匙",
+          "en": "Goshan cash register key"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ad7247386f7747487619dc3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5ad7247386f7747487619dc3": {
+          "zh": "Goshan收银机钥匙",
+          "en": "Goshan cash register key"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae449c386f7744bde357697",
+      "name": {
+        "zh": "大放送之夜",
+        "en": "Sales Night"
+      }
+    },
+    {
+      "id": "5ae4498786f7744bde357695",
+      "name": {
+        "zh": "成功的关键",
+        "en": "The Key to Success"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "60e71dc0a94be721b065bbfc",
+      "name": {
+        "zh": "长期合作",
+        "en": "Long Line"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

@@ -1,0 +1,65 @@
+{
+  "id": "68400953506db3b4db0700e7",
+  "name": {
+    "zh": "公道价 - 2",
+    "en": "Fair Price - Part 2"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3000
+    }
+  ],
+  "description": {
+    "zh": "还没为你的大手笔投资后悔呢？作为过来人，我给你个免费的忠告：机械师这样的书呆子是最会耍花招的！到时候他赚得盆满钵满，你被他卖了还得替他数钱呢。好了，别抱怨了！我说的可都是大实话，经验之谈啊。\n\n如果这会你还对这笔“生意”心存幻想的话，你可以去森林自然保护区里村子旁边的那个废弃伐木场提货了。旧伐木场，旁边有个联合国哨站的那个，我的人还没疯到去那个 SVD 疯子的领地里自寻死路。货已经到位了，至于能在那里存多久我就没法打包票了，天知道周围都会出现什么傻逼鬼混。要是有人先一步把货偷走了可别来我这抱怨！",
+    "en": "Don't regret your investment yet? Let me give you an advice, nerds like Mechanic are the ones who pull off the most rotten schemes! He'll get his profit, and you won't even realise you've been screwed. All right, quit bitching! I'm telling you the honest bloody truth.\n\nIf you're still confident about this \"project\", you can collect the handguard at the abandoned sawmill near the village in the nature reserve, there's a UN post not far from there. The lads have already dropped it off. But I wouldn't stay there too long, who knows what other scum's there. If someone steals it before you, don't come to me with any claims!"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "quest_ak-50_03_skier_place_01",
+      "targetNames": {
+        "quest_ak-50_03_skier_place_01": {
+          "zh": "quest_ak-50_03_skier_place_01",
+          "en": "quest_ak-50_03_skier_place_01"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "683ed6ccd9a096739b0c9228"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "683ed6ccd9a096739b0c9228": {
+          "zh": "AK-50 护木与导气管组合",
+          "en": "AK-50 handguard with gas block"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68400926706e0a55e90b0007",
+      "name": {
+        "zh": "公道价 - 1",
+        "en": "Fair Price - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/68493d5591d4ec2b1402e577.jpg",
+  "isKey": false
+}

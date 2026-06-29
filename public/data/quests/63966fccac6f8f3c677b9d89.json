@@ -1,0 +1,158 @@
+{
+  "id": "63966fccac6f8f3c677b9d89",
+  "name": {
+    "zh": "抢夺先机",
+    "en": "Snatch"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c05300686f7746dce784e5d",
+      "itemName": {
+        "zh": "VPX闪存模块",
+        "en": "VPX Flash Storage Module"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c05300686f7746dce784e5d",
+      "itemName": {
+        "zh": "VPX闪存模块",
+        "en": "VPX Flash Storage Module"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c05300686f7746dce784e5d",
+      "itemName": {
+        "zh": "VPX闪存模块",
+        "en": "VPX Flash Storage Module"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "5c052fb986f7746b2101e909",
+      "itemName": {
+        "zh": "UHF RFID固定式读取器 ",
+        "en": "UHF RFID Reader"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "657089638db3adca1009f4ca",
+      "itemName": {
+        "zh": "Atomic Defense CQCM防弹面罩（黑色）",
+        "en": "Atomic Defense CQCM up armored ballistic mask (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你能来真是太好了。听好了。我的人去了会面的地方，他们的任务是，把那些滑头努力准备的文件替换成我安排好的，但是我的小队已经几个小时没有回应了。他们最后一次联系我的时候，说看到了一队游荡者。Knight和他的人不可能知道这次行动，可能有人把事情搞黄了。你要做的第一件事情是，去检查一下游荡者的大本营，找到弄丢的情报。然后你需要把它送到储备站，那里的地下已经设置了一个接头的地方。找到那些文件，把假情报留在地堡里，然后把真的那份文件给我带回来。最重要的是把文件带给我。是时候揭露这些不要命的内奸的真面目了。",
+    "en": "You're here, good. Now listen carefully. My men went to the meeting place, their job was to replace the folder these snakes were so diligently preparing with the one I had arranged, but it's already been several hours since my group stopped responding. The last time they contacted me, they reported seeing a group of Rogues. Knight and his men are not aware of this operation, perhaps one of them interfered with the delivery. The first thing you must do is to check the Rogues' base and find the lost data, but don't go to them right away, or they'll figure out I'm involved and will start asking questions. Then you'll have to deliver it to the federal reserve base, a meeting place has been set up at the machinery and equipment repair center. Find that folder and leave at the base, and bring the real one to me. It's crucial to deliver this information to me. It's time to find out who these suicidal moles are."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Lighthouse"
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6398a0861c712b1e1d4dadf1"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6398a0861c712b1e1d4dadf1": {
+          "zh": "伪造的Lightkeeper情报",
+          "en": "Forged Lightkeeper intelligence"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6398a072e301557ae24cec92"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6398a072e301557ae24cec92": {
+          "zh": "Lightkeeper的情报",
+          "en": "Lightkeeper intelligence"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6398a0861c712b1e1d4dadf1"
+      ],
+      "targetNames": {
+        "6398a0861c712b1e1d4dadf1": {
+          "zh": "伪造的Lightkeeper情报",
+          "en": "Forged Lightkeeper intelligence"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6398a072e301557ae24cec92"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6398a072e301557ae24cec92": {
+          "zh": "Lightkeeper的情报",
+          "en": "Lightkeeper intelligence"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63966fbeea19ac7ed845db2e",
+      "name": {
+        "zh": "失踪的线人",
+        "en": "Missing Informant"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "63966fe7ea74a47c2d3fc0e6",
+      "name": {
+        "zh": "归还人情",
+        "en": "Return the Favor"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90fd7c31b00242d28a92e.jpg",
+  "isKey": false
+}

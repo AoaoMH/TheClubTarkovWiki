@@ -1,0 +1,54 @@
+{
+  "id": "5d6fb2c086f77449da599c24",
+  "name": {
+    "zh": "一天一个苹果 - 医生远离我",
+    "en": "An Apple a Day Keeps the Doctor Away"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Skill",
+      "target": "Health",
+      "value": 200
+    }
+  ],
+  "description": {
+    "zh": "啊，是你呀？关心身体健康？这再好不过了。我这儿有好几种非常有效的进口疫苗，不过你懂我们现在的情况，买疫苗可真不容易，得花上很多钱。当然这取决于你自己，钱和命，哪个对你更重要……",
+    "en": "Oh, it's you? Concerned about your health? Well, this is commendable. I have several very effective imported vaccinations, but you understand what situation we are all in, it was not easy to get them, and therefore they cost a lot. But it is up to you to decide what is more important to you, money or health..."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 400000,
+      "target": [
+        "5449016a4bdc2d6f028b456f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5449016a4bdc2d6f028b456f": {
+          "zh": "卢布",
+          "en": "Roubles"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a68667486f7742607157d28",
+      "name": {
+        "zh": "医疗隐私 - 4",
+        "en": "Health Care Privacy - Part 4"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

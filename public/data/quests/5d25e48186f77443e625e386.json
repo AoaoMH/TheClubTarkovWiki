@@ -1,0 +1,144 @@
+{
+  "id": "5d25e48186f77443e625e386",
+  "name": {
+    "zh": "礼节性拜访",
+    "en": "Courtesy Visit"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5751487e245977207e26a315",
+      "itemName": {
+        "zh": "Emelya黑麦面包块",
+        "en": "Emelya rye croutons"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "575146b724597720a27126d5",
+      "itemName": {
+        "zh": "一盒牛奶",
+        "en": "Pack of milk"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你是知道疗养院那地方的吧？起初，一直是工厂的工人们在那里进行疗养，后来TerraGroup的雇员安置了他们的员工。那些地方我很久以前就去过，我的同学也曾住在那里。有个牧师，名叫Peter。还有Misha，是个渔夫。还有地方主席Stepan。查看他们的房子，看看他们还在不在。",
+    "en": "Come in, I want to ask you for something. You know the health resort area, right? At first, the factory workers were convalescing there, and then the TerraGroup employees settled there their staff. I’ve been to those parts a long time ago, my classmates lived there. So, I want you to check on them, it's the old village with the church. The priest, his name is Pyotr. Misha, the fisherman. And Stepan, the local chairman. Check their houses, find out if any of them are still there."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "huntsman_024_1",
+      "targetNames": {
+        "huntsman_024_1": {
+          "zh": "huntsman_024_1",
+          "en": "huntsman_024_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "huntsman_024_2",
+      "targetNames": {
+        "huntsman_024_2": {
+          "zh": "huntsman_024_2",
+          "en": "huntsman_024_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "huntsman_024_3",
+      "targetNames": {
+        "huntsman_024_3": {
+          "zh": "huntsman_024_3",
+          "en": "huntsman_024_3"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25cf2686f77443e75488d4",
+      "name": {
+        "zh": "生存者之路 - 硬汉",
+        "en": "The Survivalist Path - Tough Guy"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5d25e4ad86f77443e625e387",
+      "name": {
+        "zh": "怀旧之情",
+        "en": "Nostalgia"
+      }
+    },
+    {
+      "id": "61904daa7d0d857927447b9c",
+      "name": {
+        "zh": "隐士",
+        "en": "The Hermit"
+      }
+    },
+    {
+      "id": "625d6ff5ddc94657c21a1625",
+      "name": {
+        "zh": "网络供应商 - 1",
+        "en": "Network Provider - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d6faf8f86f7743598553dd4.jpg",
+  "isKey": false
+}

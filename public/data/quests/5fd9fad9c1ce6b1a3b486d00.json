@@ -1,0 +1,119 @@
+{
+  "id": "5fd9fad9c1ce6b1a3b486d00",
+  "name": {
+    "zh": "搜索任务",
+    "en": "Search Mission"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 22000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 22000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f4f9eb969cdc30ff33f09db",
+      "itemName": {
+        "zh": "EYE MK.2 手持指南针专业版",
+        "en": "EYE MK.2 professional hand-held compass"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5900b89686f7744e704a8747",
+      "itemName": {
+        "zh": "森林地图",
+        "en": "Woods plan map"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64be79e2bf8412471d0d9bcc",
+      "itemName": {
+        "zh": "NPP KlASS Kora-Kulon防弹衣（数码迷彩）",
+        "en": "NPP KlASS Kora-Kulon body armor (EMR)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "欢迎，士兵，我这里有份工作给你。长话短说，一段时间之前，我和我的一伙人失去了联系。当那狗屎灾难发生的时候，我派他们去森林捡货去了，恐怕他们遭遇了埋伏。我和他们最后一次通话的时候，他们报告说有一伙USEC接近了他们。去查查看，还有没有人活着。他们有辆BRDM，是Bukhanka或者类似的卡车，但我记不清具体是那种的了。我想USEC肯定也在附近的某个地方扎营了，所以小心行动。",
+    "en": "Greetings, warrior. I have a job for you. Long story short, I lost contact with one of my groups, and it's been quite a while ago. When shit hit the fan, I sent them to Woods to pick up some cargo. I'm afraid they got ambushed, the last time I got through, they reported that the USECs were closing in on them from the hills. Investigate it, check if anyone survived. Their convoy had a BRDM, a Bukhanka van, and a truck of some sort, I do not remember what kind exactly. I think that the USECs must have settled somewhere near there too, so stay sharp. Find my convoy and those USECs' camp, if it is really there. Dismissed."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "pr_scout_col",
+      "targetNames": {
+        "pr_scout_col": {
+          "zh": "pr_scout_col",
+          "en": "pr_scout_col"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "pr_scout_base",
+      "targetNames": {
+        "pr_scout_base": {
+          "zh": "pr_scout_base",
+          "en": "pr_scout_base"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Woods"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5936d90786f7742b1420ba5b",
+      "name": {
+        "zh": "首秀",
+        "en": "Debut"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59675e7b86f77414b25fb049.jpg",
+  "isKey": false
+}

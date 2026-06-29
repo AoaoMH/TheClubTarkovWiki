@@ -1,0 +1,61 @@
+{
+  "id": "61e6e615eea2935bc018a2c5",
+  "name": {
+    "zh": "亡羊补牢 - 酒保",
+    "en": "Compensation for Damage - Barkeep"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 1
+    }
+  ],
+  "description": {
+    "zh": "你想让人们看到你“正确”的一面？那你觉得自己是个怎么样的人呢，大兵？你肯定以为自己是个好人？你觉得自己就是塔科夫的明日之星，超级英雄？你在这里对我毕恭毕敬，这足以说明你不过是个差佬...说真的，他们让你做什么你就会做什么——为了钱、枪、信誉...那如果我打算给你最骚的枪，但条件是给我的手下擦屁股呢？听好了，我今天心情可不错，所以你帮我带点“自由古巴”鸡尾酒就行。我待会儿再提醒你一下配方，免得你这破脑袋搞忘掉。你需要朗姆酒、苏打水、柠檬汁和冰块。不过...哈哈，你就是找一辈子也找不到柠檬的。让我帮你简化一下：找找杰克丹尼和可乐就好。",
+    "en": "Do you want people to think the \"right\" things about you? What do you think of yourself, mercenary? Probably thinking you're a great guy? Thinking you're the future Tarkov Legend, maybe even a hero already? You came here to bow to me, which means that you are nothing more than just an errand boy... I'm serious, you're doing everything you get told to: for money, guns, reputation... What if I told you to wipe my people's asses, for the most pimped-out gun in the whole county? Listen, I'm in a good mood today, so I'll just ask you to bring me a Cuba Libre cocktail. I'll remind you of the ingredients, just in case you've been hit on the head too much to forget such basic things. You'll need rum, coke, lime, and ice. Although... Yeah, you'll be searching for lime the whole decade. I'll make it easier for you: bring me a Jack and Coke."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d403f9186f7743cac3f229b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d403f9186f7743cac3f229b": {
+          "zh": "Dan Jackiel瓶装威士忌",
+          "en": "Bottle of Dan Jackiel whiskey"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "57514643245977207f2c2d09"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57514643245977207f2c2d09": {
+          "zh": "塔可乐",
+          "en": "Can of TarCola soda"
+        }
+      }
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/61374f53857735719f2f0ca2.jpg",
+  "isKey": false
+}

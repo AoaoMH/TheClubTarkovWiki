@@ -1,0 +1,113 @@
+{
+  "id": "639136d68ba6894d155e77cf",
+  "name": {
+    "zh": "绿色通道",
+    "en": "Green Corridor"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 62000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 62000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62e14904c2699c0ec93adc47",
+      "itemName": {
+        "zh": "SR-2M 石楠 9x21 毫米冲锋枪",
+        "en": "SR-2M Veresk 9x21 submachine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "633a98eab8b0506e48497c1a",
+      "itemName": {
+        "zh": "SR-2M 9x21 20发弹匣",
+        "en": "SR-2M 9x21 20-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657025bbcfc010a0f5006a35",
+      "itemName": {
+        "zh": "30发9x21 P gzh盒装弹药",
+        "en": "9x21mm P gzh ammo pack (30 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "这些杀千刀的西方佬！他们就是想要屠杀一切！我们明明谈判过了，还付了钱让他们放我们通行！但是，他们还是想吸掉我们的血！总之，大兵，过来听好了。城区里会有一支车队经过，他们护送着非常重要的货物。非 常 重 要。就连我都不知道具体是什么。有些人收钱之后给车队开了安全通道，然后车队就不见了，太混蛋了！去看看到底发生了什么，找一找有没有什么还在的东西。然后调查清楚，袭击是从那边来的...",
+    "en": "Those bloody westerners! All they want to do is shoot everybody! It's already been negotiated, we even paid them to let us through! But no, they want to spill more of our blood! All right, soldier, come here and listen. A convoy was passing through town. With important cargo. Very important. Even I don't know what's in it. Somebody took money for the convoy's safe passage, and then the convoy went dark. Think about it, such bastards! Find out what's going on and if anything could be saved. And find out where the shooting came from..."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c16_koll_1",
+      "targetNames": {
+        "quest_zone_c16_koll_1": {
+          "zh": "quest_zone_c16_koll_1",
+          "en": "quest_zone_c16_koll_1"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c16_koll_2",
+      "targetNames": {
+        "quest_zone_c16_koll_2": {
+          "zh": "quest_zone_c16_koll_2",
+          "en": "quest_zone_c16_koll_2"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bafb86f7741c73584017",
+      "name": {
+        "zh": "疗养之旅 - 7",
+        "en": "Spa Tour - Part 7"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63a92732813bba58a50c9e93.jpg",
+  "isKey": false
+}

@@ -1,0 +1,78 @@
+{
+  "id": "669fa3910c828825de06d69f",
+  "name": {
+    "zh": "左右为难",
+    "en": "A Healthy Alternative"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Discover",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 86000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 86000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e534186f7747fa1419867",
+      "itemName": {
+        "zh": "eTG-change再生兴奋剂注射器",
+        "en": "eTG-change regenerative stimulant injector"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好。我知道你收到了去化工厂寻找实验室日志的任务。很显然，TerraGroup非常愿意出高价请人收回这些文件。\n\n我需要你马上做出决定。如果TerraGroup急切需要这份东西，那说明里面肯定有价值不菲的东西！呃，我的意思是，对塔科夫和这里的市民来说价值不菲。让我来帮他们妥善保管这份日志吧。",
+    "en": "Hello. I understand that you were tasked with finding the laboratory log from the polychemical plant. Apparently, TerraGroup is willing to pay handsomely for the extraction of their documents. \n\nI urge you to reconsider. If the corporation cares so much about this material, it must be hiding something valuable! Obviously, I mean valuable to the city and its citizens. Just leave the journal in my care."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66c0b39ca1f68fcc1d0c0cc3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66c0b39ca1f68fcc1d0c0cc3": {
+          "zh": "实验室日志",
+          "en": "Lab journal"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "669fa38fad7f1eac2607ed46",
+      "name": {
+        "zh": "最后的细枝末节",
+        "en": "One Less Loose End"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

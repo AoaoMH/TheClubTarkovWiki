@@ -1,0 +1,148 @@
+{
+  "id": "5ae4490786f7744ca822adcc",
+  "name": {
+    "zh": "盛装杀戮",
+    "en": "Dressed to Kill"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 21000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 21000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ab8e79e86f7742d8b372e78",
+      "itemName": {
+        "zh": "BNTI Gzhel-K 防弹衣",
+        "en": "BNTI Gzhel-K body armor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d0378d486f77420421a5ff4",
+      "itemName": {
+        "zh": "军用电源滤波器",
+        "en": "Military power filter"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "真美好的一天！现在每个人都这么时髦，人们来这里寻找那些在和平年代没人要的东西。不管这个东西会不会像纸一样被马卡洛夫轻易打穿，只要这些东西能让他们看起来很好，他们就会买的。这就说明，人们还是有自己的生活，开开派对或者干点别的什么。去人体模特或者货架上找找不同种类的帽子，你懂得，就像西部电影里的那种，或者是苏联毛帽。",
+    "en": "Good day to you! Everybody’s so stylish nowadays, folks come by asking for things that weren’t much of a hit even back in peaceful times. Doesn’t matter if the thing is hit through by PM like paper, they’ll still take it as long as it makes them stand out. It turns out, people are still having a life, want to party or whatever. Look for different kinds of hats on mannequins or shelves, you know, those like in western movies, and grab our ushankas too."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "5aa2b9ede5b5b000137b758b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5aa2b9ede5b5b000137b758b": {
+          "zh": "Kinda牛仔帽",
+          "en": "Kinda cowboy hat"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "59e7708286f7742cbd762753"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e7708286f7742cbd762753": {
+          "zh": "带耳罩的苏联毛帽",
+          "en": "Ushanka ear flap hat"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59e7708286f7742cbd762753"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e7708286f7742cbd762753": {
+          "zh": "带耳罩的苏联毛帽",
+          "en": "Ushanka ear flap hat"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5aa2b9ede5b5b000137b758b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5aa2b9ede5b5b000137b758b": {
+          "zh": "Kinda牛仔帽",
+          "en": "Kinda cowboy hat"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae448f286f77448d73c0131",
+      "name": {
+        "zh": "战争之血 - 1",
+        "en": "The Blood of War - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5ae449b386f77446d8741719",
+      "name": {
+        "zh": "感恩的心",
+        "en": "Gratitude"
+      }
+    },
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ae4a74386f7744748710d72.jpg",
+  "isKey": false
+}

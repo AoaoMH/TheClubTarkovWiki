@@ -1,0 +1,321 @@
+{
+  "id": "5edac020218d181e29451446",
+  "name": {
+    "zh": "样品",
+    "en": "Samples"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 4000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 4000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aafbde786f774389d0cbc0f",
+      "itemName": {
+        "zh": "弹药箱",
+        "en": "Ammunition case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b0bbe4e5acfc40dc528a72d",
+      "itemName": {
+        "zh": "DS Arms SA-58 7.62x51 突击步枪",
+        "en": "DS Arms SA58 7.62x51 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a16b7e1fcdbcb00165aa6c9",
+      "itemName": {
+        "zh": "Ops-Core FAST头盔多重打击防弹面罩",
+        "en": "Ops-Core FAST multi-hit ballistic face shield"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e00c1ad86f774747333222c",
+      "itemName": {
+        "zh": "Team Wendy EXFIL 防弹头盔（黑色）",
+        "en": "Team Wendy EXFIL Ballistic Helmet (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好。直接说事吧。对的。这里有关于新兴奋剂的消息......兴奋剂。它们使人无法感觉痛苦，提供力量，在海岸线的某个地方正在卖这些东西。Sanitar，是的，这是那商人的名字。他向当地的垃...... 居民，出售药品和兴奋剂。我要去拿这些毒......药品。开发新的兴奋剂是昂贵的，在人体上进行测试更是如此。但在这里，我们可以说测试已经在进行了，还得出了结果。我的许多熟人都会对这个结果感兴趣。帮我找到这些药物的样本，必须是没有拆封的。",
+    "en": "Hello. Straight to the point. Yes. There is news about new stimulators. They make a person not feel any pain, give them strength. They are being sold somewhere on the shoreline, Sanitar, yes, that's the merchant's name. He sells medicine and stimulants to the local junkies... I mean residents. I need to get this medication. Developing new stimulants is expensive, especially difficult with testing on humans. But here, we can say that testing is already in progress and gives results. Many of my acquaintances will be interested in such results. Please bring me samples of these drugs. Make sure that they are sealed and untouched."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed51652f6c34d2cc26336a1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed51652f6c34d2cc26336a1": {
+          "zh": "M.U.L.E. 兴奋剂",
+          "en": "M.U.L.E. stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed51652f6c34d2cc26336a1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed51652f6c34d2cc26336a1": {
+          "zh": "M.U.L.E. 兴奋剂",
+          "en": "M.U.L.E. stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed5166ad380ab312177c100"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed5166ad380ab312177c100": {
+          "zh": "Obdolbos 鸡尾酒兴奋剂注射器",
+          "en": "Obdolbos cocktail injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed5166ad380ab312177c100"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed5166ad380ab312177c100": {
+          "zh": "Obdolbos 鸡尾酒兴奋剂注射器",
+          "en": "Obdolbos cocktail injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed5160a87bb8443d10680b5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed5160a87bb8443d10680b5": {
+          "zh": "Meldonin 注射器",
+          "en": "Meldonin injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed5160a87bb8443d10680b5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed5160a87bb8443d10680b5": {
+          "zh": "Meldonin 注射器",
+          "en": "Meldonin injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed515f6915ec335206e4152"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515f6915ec335206e4152": {
+          "zh": "AHF1-M 兴奋剂注射器",
+          "en": "AHF1-M stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed515f6915ec335206e4152"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515f6915ec335206e4152": {
+          "zh": "AHF1-M 兴奋剂注射器",
+          "en": "AHF1-M stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed515ece452db0eb56fc028"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515ece452db0eb56fc028": {
+          "zh": "P22 (22 号化合物) 兴奋剂注射器",
+          "en": "P22 (Product 22) stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed515ece452db0eb56fc028"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515ece452db0eb56fc028": {
+          "zh": "P22 (22 号化合物) 兴奋剂注射器",
+          "en": "P22 (Product 22) stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed515e03a40a50460332579"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515e03a40a50460332579": {
+          "zh": "L1（去甲肾上腺素）",
+          "en": "L1 (Norepinephrine) injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed515e03a40a50460332579"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515e03a40a50460332579": {
+          "zh": "L1（去甲肾上腺素）",
+          "en": "L1 (Norepinephrine) injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed515c8d380ab312177c0fa"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515c8d380ab312177c0fa": {
+          "zh": "3-(b-TG) 兴奋剂注射器",
+          "en": "3-(b-TG) stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed515c8d380ab312177c0fa"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515c8d380ab312177c0fa": {
+          "zh": "3-(b-TG) 兴奋剂注射器",
+          "en": "3-(b-TG) stimulant injector"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5eda19f0edce541157209cee",
+      "name": {
+        "zh": "麻醉",
+        "en": "Anesthesia"
+      }
+    },
+    {
+      "id": "5a27d2af86f7744e1115b323",
+      "name": {
+        "zh": "西方来客 - 2",
+        "en": "Friend From the West - Part 2"
+      }
+    },
+    {
+      "id": "5a27b75b86f7742e97191958",
+      "name": {
+        "zh": "渔具",
+        "en": "Fishing Gear"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5edac63b930f5454f51e128b",
+      "name": {
+        "zh": "TerraGroup 雇员",
+        "en": "TerraGroup Employee"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5969f96786f7741dde183a4f.jpg",
+  "isKey": false
+}

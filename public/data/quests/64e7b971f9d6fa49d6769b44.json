@@ -1,0 +1,152 @@
+{
+  "id": "64e7b971f9d6fa49d6769b44",
+  "name": {
+    "zh": "猎人之路 - 大动作",
+    "en": "The Huntsman Path - Big Game"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 33000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 250000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 250000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d03794386f77420415576f5",
+      "itemName": {
+        "zh": "6-STEN-140-M军用电池",
+        "en": "6-STEN-140-M military battery"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5d0376a486f7747d8050965c",
+      "itemName": {
+        "zh": "军用电路板",
+        "en": "Military circuit board"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "63fc44e2429a8a166c7f61e6",
+      "itemName": {
+        "zh": "Armasight Zeus-Pro 640 2-16x50热成像瞄准镜",
+        "en": "Armasight Zeus-Pro 640 2-8x50 30Hz thermal scope"
+      }
+    },
+    {
+      "type": "CustomizationDirect"
+    }
+  ],
+  "description": {
+    "zh": "有一次我去森林打猎，发现了一家人，父亲和儿子。他们都很疲惫，男孩的身上还有枪伤。我把他们带回了我的住处，用尽一切办法治疗孩子的伤，还给他们饭吃。然后我和他的父亲聊了聊——他叫Sanych，听着有点恶心。他们住在市里车行对面的公寓里，撤离时因为某些原因留了下来。不知道为什么，这不是重点。Sanych出去找食物的时候，一些混蛋找到了他们的房子，绑架了他的孩子，等他回来之后也把他绑架了。这些人把他们带到了车行当作免费劳动力，反抗的话就会被收拾。他们头头的名字叫做Kaban——Sanych说那里的所有人都尊敬他。这家人在夜里设法逃了出去，跑到了森林，然后我就发现他们了。最后那个男孩没能活下来，伤势太严重了... 对了，说重点。城里有着另外一个混蛋，而只有你和我有办法做点什么。帮这位父亲复仇，并且让这样的悲剧不再发生。",
+    "en": "I was out hunting the other day and picked up a family in the woods, father and son. Both were exhausted, the boy had a bullet wound. I brought them to my place, treated the kid's wound as best as I could, fed them both. Then I talked to the father - name's Sanych - and it made me disgusted. They both lived in their apartment opposite the car dealership in the city, and for some reason stayed there after the evacuation. Don't know why, but that's not the point. While Sanych went to look for food, some bandits found their house, tied up the kid, and then him when he returned. They brought them both to this car shop and made them work for them, or else they'd both get put down like dogs. The leader's name is Kaban - everybody respects him there, Sanych said. At night the family managed to break out under fire and made it to the woods, where I found them. The son didn't survive - the wound was too severe.... Oh, right, to the point. If there's another bandit in town, you and I are the only ones who can act. Avenge the father's grief and make it so that it doesn't happen to anyone else ever again."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossBoar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBoar",
+        "bossBoarSniper"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBoarClose1"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBoarClose2"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2cc86f77443e47ae019",
+      "name": {
+        "zh": "猎人之路 - 杀戮森林",
+        "en": "The Huntsman Path - Forest Cleaning"
+      }
+    },
+    {
+      "id": "639135e0fa894f0a866afde6",
+      "name": {
+        "zh": "城市的解药",
+        "en": "Urban Medicine"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/63a93845813bba58a50c9e95.jpg",
+  "isKey": false
+}

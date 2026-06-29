@@ -1,0 +1,106 @@
+{
+  "id": "5a27bbf886f774333a418eeb",
+  "name": {
+    "zh": "湿活 - 2",
+    "en": "Wet Job - Part 2"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Exploration",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1300,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1300
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f5e467b0bc58666c37e7821",
+      "itemName": {
+        "zh": "Eberlestock F5 弹簧刀 背包（干土色）",
+        "en": "Eberlestock F5 Switchblade backpack (Dry Earth)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59c1383d86f774290a37e0ca",
+      "itemName": {
+        "zh": "Magpul PMAG D-60 5.56x45 60发弹匣",
+        "en": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d5e7d28a4b936645d161203",
+      "itemName": {
+        "zh": "MSA ACH TC-2001 MICH系列头盔",
+        "en": "MSA ACH TC-2001 MICH Series helmet (Olive Drab)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "真高兴你能来这里，福尔摩斯。我们装在气象站的摄像机可拍到了很多有趣的事情。例如，除了别的事情以外，他们都拍到了一队Scav，看起来像是水手或渔民，他们穿着破衣服和钓鱼衣具。但是，最近他们没有出现。我对他们的行为很感兴趣，毕竟他们的突然失踪相当匪夷所思。你去海岸线搜索一下他们可能居住的地方，给我的手下用指示器标记出来。",
+    "en": "It's good to see you, mercenary. Those very cameras that we’ve installed on the weather station filmed a lot of interesting things. For instance, among other things, they spotted a new group of Scavs. They looked like sailors or fishermen, dressed in tatters and waders mostly. Lately, however, they have stopped appearing. I am very interested in their activities as their turnaround seems rather impressive. Search the Shoreline for a place where they could possibly live and mark it with a beacon for my people."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_peacemaker_010_2",
+      "targetNames": {
+        "place_peacemaker_010_2": {
+          "zh": "place_peacemaker_010_2",
+          "en": "place_peacemaker_010_2"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bb8386f7741c770d2d0a",
+      "name": {
+        "zh": "湿活 - 1",
+        "en": "Wet Job - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27bc1586f7741f6d40fa2f",
+      "name": {
+        "zh": "湿活 - 3",
+        "en": "Wet Job - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5967532b86f77461fb2f333a.jpg",
+  "isKey": false
+}

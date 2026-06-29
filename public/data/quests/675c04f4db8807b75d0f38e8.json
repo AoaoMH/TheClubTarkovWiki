@@ -1,0 +1,101 @@
+{
+  "id": "675c04f4db8807b75d0f38e8",
+  "name": {
+    "zh": "平易近人",
+    "en": "Closer to the People"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10300
+    },
+    {
+      "type": "Item",
+      "value": 10300,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 10300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c052e6986f7746b207bc3c9",
+      "itemName": {
+        "zh": "便携式除颤器",
+        "en": "Portable defibrillator"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "坏消息，小伙子。我和派出去回收货物的小组失去了联络，而之前你给我找来的文件又偏偏是一份抹去了所有敏感信息的脱敏文件，线索一下子都断了。\n\n我们既不知道这次任务的代号，也没掌握这批货物的具体行程。甚至连内容清单都没能搞到！我甚至没法让你自己去打开那些货箱——万一就是里面的东西害了他们呢？\n\n不过，我想到了另一个办法。合同文件的免责条款写着，运输途中遇到不可控风险时，货运班组有权偏离既定路线完成运输。\n\n假如他们真的是在转移货物途中遭到袭击才偏离了路线，那这些情况一定会被记录下来。检察那些货运员可能停留的地方，看看能不能找到相关消息。",
+    "en": "Terrible news, young man. I have stopped receiving communications from my group, and the documents you brought me have been scrubbed of all the essential information.\n\nWe know neither the project code, nor the detailed itinerary. Not even a summary of these boxes' contents! I cannot possibly ask you to open them yourself. What if my group's demise has something to do with their contents?\n\nInstead, I came up with another idea. The documents said that in the event of obstacles along the transit, the delivery crews could opt to deviate from the route.\n\nIf the movers were attacked during transit, we might learn about it from the workers' records. Examine the places where the delivery crews may have stayed and search for this information."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "675f7b168d28a25ec7007dbb"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "675f7b168d28a25ec7007dbb": {
+          "zh": "货运班组报告",
+          "en": "Delivery crew report"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "675f7b168d28a25ec7007dbb"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "675f7b168d28a25ec7007dbb": {
+          "zh": "货运班组报告",
+          "en": "Delivery crew report"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "675c047fa46173572a0bd878",
+      "name": {
+        "zh": "货运追踪",
+        "en": "Shipment Tracking"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6762fe1e6470bf1c0f048b96.jpg",
+  "isKey": false
+}

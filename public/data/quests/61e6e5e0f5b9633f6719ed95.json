@@ -1,0 +1,61 @@
+{
+  "id": "61e6e5e0f5b9633f6719ed95",
+  "name": {
+    "zh": "亡羊补牢 - 信任",
+    "en": "Compensation for Damage - Trust"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿，过来，大兵。你还真就搞砸了？你知道大家都在怎么说你吗？你是个无可信赖，无法信任的人。说白了，你就是个只会对着靶子开枪的蠢货。不过，人非圣贤，对吧？我就是那个可以帮你恢复信誉的人。你必须表现出你热心帮助Scav们的一面。消灭几个PMC小队，然后把他们的狗牌带给我。事成之后，我会散出一些关于你的新消息，更有意思的那种。",
+    "en": "Hello there, mercenary. You really messed up, huh? You know what people are saying about you? You are unreliable and not to be trusted. Simply saying, you're an idiot who shoots without thinking at everything that moves. Well, we all can't be saints, right? I'm the man who can improve your reputation. You just have to show that you wouldn't mind helping Scavs. Eliminate several PMC groups and bring me their dogtags. After that, I'll start new rumors about you, something more interesting."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "59f32bb586f774757e1e8442"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "59f32c3b86f77472a31742f0"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/61374f53857735719f2f0ca2.jpg",
+  "isKey": false
+}

@@ -1,0 +1,138 @@
+{
+  "id": "66e3e2fcb26de0e0790d3fe6",
+  "name": {
+    "zh": "烙印图景",
+    "en": "The Graven Image"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 40000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 200000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 200000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "63fc44e2429a8a166c7f61e6",
+      "itemName": {
+        "zh": "Armasight Zeus-Pro 640 2-16x50热成像瞄准镜",
+        "en": "Armasight Zeus-Pro 640 2-8x50 30Hz thermal scope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6478641c19d732620e045e17",
+      "itemName": {
+        "zh": "SIG Sauer ECHO1 1-2x30毫米 30赫兹反射式热成像瞄准镜",
+        "en": "SIG Sauer ECHO1 1-2x30mm 30Hz thermal reflex scope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "63a3a93f8a56922e82001f5d",
+      "itemName": {
+        "zh": "废弃工厂符号钥匙",
+        "en": "Abandoned factory marked key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "64ccc25f95763a1ae376e447",
+      "itemName": {
+        "zh": "神秘房间符号钥匙",
+        "en": "Mysterious room marked key"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "好了，我给你带来了点好消息。 \nPartisan 设法跟踪邪教徒去了他们的会面现场，并听到了些有趣的东西——当然那些怪人最后都被绊雷炸死了，但这不是重点。\n\n那帮人管那个幕后黑手叫 Harbinger（预兆），就是这个人弄出了这场恐怖游行。他向邪教徒们许诺称，只要邪教徒们按照他的指示招办，就能得到未闻者的新赐福。这到底是什么鬼？虽然根本不知道这到底是什么胡话，但我相当确定的是，一旦他们所谓的“仪式”完成，整个塔科夫将有无数无辜平民沦为他们的受害者。事实上，恐慌已经出现了：人们正在不顾一切地从大街小巷逃离，他们说一个幽灵正在收割灵魂。\n\n尽管目前这一切还不甚明朗，但前因后果已经能说得通了！既然我们已经知道了背后的真凶，那就该除掉这个 Harbinger。不管他周围都有什么牛鬼蛇神同行，统统击毙，不要有一丝犹豫。这样一来那些邪教徒没准能安分点。",
+    "en": "Alright, I've got good news for you. \nPartisan managed to eavesdrop on the cultists' conversation before the tripwire killed them.\n\nThe Harbinger, as they call him, is in charge of this whole terror parade. He promised them that if they did what he told them, they'd receive the new Gift of the Unheard. What the hell? I have no idea what this means. But I'm certain that if you let them perform the damn ritual, there'll be countless victims amongst the decent folk. People have started fleeing the Streets, they say a ghost is hunting for souls.\n\nWe don't know the details of this mystery, but it's definitely connected to the whole thing! And we know who's behind it. We need to take out the Harbinger, and if you find any creepy crap near him, try to bury it deep in the ground. Maybe that'll keep the cultists in line."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantOni"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPredvestnik"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPrizrak"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66e3e2ee2136472d220bcb36",
+      "name": {
+        "zh": "邪教之夜",
+        "en": "Night of The Cult"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/66f28fb1f1d8b06f0d0da035.png",
+  "isKey": false
+}

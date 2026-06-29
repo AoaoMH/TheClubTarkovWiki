@@ -1,0 +1,80 @@
+{
+  "id": "67190f6c1b3f4964d90d71e9",
+  "name": {
+    "zh": "全球威胁",
+    "en": "Global Threat"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 40000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 2000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 2000
+    }
+  ],
+  "description": {
+    "zh": "我从蔚蓝海岸附近的终端收到报告，我的人说每天感染者越来越多。只要一个病患进入港口区域就会引发混乱。\n\n人们会恐慌，试图利用水上交通工具离开。那样的话，灾难可能蔓延到诺尔文斯克地区乃至俄罗斯境外。\n\n港口安保需要帮助。如果你帮助减少那边的感染者数量，我会确保你从我西方合作伙伴那里得到奖励。",
+    "en": "I'm getting reports from the terminal near Azure Coast, my people say there are more and more infected every day. Even if one sick person makes it into the harbor area, chaos will ensue. \n\nPeople will panic, try to use water transportation to leave. In that case, the disaster could go beyond the borders of Norvinsk region and even Russia.\n\nThe port security needs help. If you help reduce the number of infected over there, I'll make sure you get a reward from my Western partners."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 50,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "infectedAssault",
+        "infectedCivil",
+        "infectedLaborant",
+        "infectedPmc",
+        "infectedTagilla"
+      ],
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "670404a2ea1caa8f2e0be106",
+      "name": {
+        "zh": "Don’t Believe Your Eyes",
+        "en": "Don’t Believe Your Eyes"
+      }
+    },
+    {
+      "id": "5a27b75b86f7742e97191958",
+      "name": {
+        "zh": "渔具",
+        "en": "Fishing Gear"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/671f917adcb78e551e06b63a.jpg",
+  "isKey": false
+}

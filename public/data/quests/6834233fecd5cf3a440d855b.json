@@ -1,0 +1,148 @@
+{
+  "id": "6834233fecd5cf3a440d855b",
+  "name": {
+    "zh": "违背良心 - 第一部分 [PVE区]",
+    "en": "Against the Conscience - Part 1 [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11700
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60a3c70cde5f453f634816a3",
+      "itemName": {
+        "zh": "CQC 鱼鹰 MK4A 防弹胸挂（突击型，多地形迷彩）",
+        "en": "CQC Osprey MK4A plate carrier (Assault, MTP)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bb2475ed4351e00853264e3",
+      "itemName": {
+        "zh": "HK 416A5 5.56x45 突击步枪",
+        "en": "HK 416A5 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c05413a0db834001c390617",
+      "itemName": {
+        "zh": "HK Steel Maritime5 5.56x45 STANAG 30发弹匣",
+        "en": "AR-15 5.56x45 HK Steel Maritime STANAG 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657024f9bfc87b3a3409323b",
+      "itemName": {
+        "zh": "50发5.56x45MK 318 Mod 0 (SOST)盒装弹药",
+        "en": "5.56x45mm MK 318 Mod 0 (SOST) ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好。我听说你现在在为Ref工作。我已经关注你一段时间了。\n\n我以前认识一个人，和你一样卷了进去。他当了一段时间Ref的上任冠军，然后突然失踪了。而且我很确定这和Kaban与Kollontay无关。\n\n如果你不想像那个人一样消失，去找上任冠军的公寓。我相信那里留下了些有趣的东西。那个冠军以前经常和海关宿舍楼的走私贩混在一起。也许你能找到进入公寓的线索。",
+    "en": "Hello. I hear you're working for Ref now. I've been keeping tabs on you for a while. \n\nI used to know a man who got tangled up just like you. He was Ref's previous champion for a while and then all of a sudden he disappeared. And I know for sure this had nothing to do with Kaban and Kollontay. \n\nIf you don't want to vanish the same way this guy did, look for the last champion's apartment. I believe there's something of interest left there. The champion used to hang out with the smugglers in Dorms on Customs. Maybe you'll find some clues on how to get into the apartment."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "arena_champ_room",
+      "targetNames": {
+        "arena_champ_room": {
+          "zh": "arena_champ_room",
+          "en": "arena_champ_room"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "arena_champ_corpse",
+      "targetNames": {
+        "arena_champ_corpse": {
+          "zh": "arena_champ_corpse",
+          "en": "arena_champ_corpse"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "bigmap"
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "664d4b0103ef2c61246afb56"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "664d4b0103ef2c61246afb56": {
+          "zh": "公寓管理员钥匙",
+          "en": "Dorm overseer key"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68341c4babec72d95d0c1260",
+      "name": {
+        "zh": "声东击西 - 第一部分 [PVE区]",
+        "en": "Create a Distraction - Part 1 [PVE ZONE]"
+      }
+    },
+    {
+      "id": "68342265a8d674b5740b31f0",
+      "name": {
+        "zh": "登高望远 - 第五部分 [PVE区]",
+        "en": "To Great Heights! - Part 5 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68342446a8d674b5740b31fc",
+      "name": {
+        "zh": "违背良心 - 第二部分 [PVE区]",
+        "en": "Against the Conscience - Part 2 [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562bb83e8d4075e2354446.png",
+  "isKey": false
+}

@@ -1,0 +1,108 @@
+{
+  "id": "639135e8c115f907b14700aa",
+  "name": {
+    "zh": "探望",
+    "en": "Surveillance"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 22800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 126000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 126000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d0378d486f77420421a5ff4",
+      "itemName": {
+        "zh": "军用电源滤波器",
+        "en": "Military power filter"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，朋友...你应该知道，我并不是一直一个人待着。孤独并没有影响到我，当然，因为我有一个网络，可以和其他的聪明人聊天...但是，最近我实在很想念我的亲人。我的哥哥，他的妻子和他们的孩子们 —— 你会去看看他们吗？是Samoylovs一家，他们住在Concordia。我的哥哥有一辆非常显眼的车子，上面有老虎模样的图案...可能通过车子来找他们会更容易。",
+    "en": "Hello, friend... You know, I wasn't always alone. Loneliness does not bother me, of course, especially since I have a neural net if I want to talk to someone really intelligent... Still, lately it's been weighing on me to think about my relatives. My brother and his wife and kids - will you look them up? The Samoylovs, they lived in Concordia. My brother drove a very recognizable car with a tiger aerography... It might be easier to find them through his car."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "638dfc803083a019d447768e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638dfc803083a019d447768e": {
+          "zh": "完好的硬盘驱动器",
+          "en": "Working hard drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "638dfc803083a019d447768e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "638dfc803083a019d447768e": {
+          "zh": "完好的硬盘驱动器",
+          "en": "Working hard drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "63913715f8e5dd32bf4e3aaa",
+      "name": {
+        "zh": "直播 - 2",
+        "en": "Broadcast - Part 2"
+      }
+    },
+    {
+      "id": "6179b3bdc7560e13d23eeb8d",
+      "name": {
+        "zh": "商业机密",
+        "en": "Corporate Secrets"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "65733403eefc2c312a759ddb",
+      "name": {
+        "zh": "开发者之谜 - 1",
+        "en": "Developer's Secrets - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63ab1f1676588f3cf341c460.jpg",
+  "isKey": false
+}

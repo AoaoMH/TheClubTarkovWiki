@@ -1,0 +1,185 @@
+{
+  "id": "683421515619c8e2a9031511",
+  "name": {
+    "zh": "登高望远 - 第四部分 [PVE区]",
+    "en": "To Great Heights! - Part 4 [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.09
+    },
+    {
+      "type": "Item",
+      "value": 40,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 40
+    },
+    {
+      "type": "Item",
+      "value": 2500000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 1000000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "664a5480bfcc521bad3192ca",
+      "itemName": {
+        "zh": "竞技场臂带",
+        "en": "Armband (ARENA)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ba26383d4351e00334c93d9",
+      "itemName": {
+        "zh": "HK MP7A1 4.6x30 微型冲锋枪",
+        "en": "HK MP7A1 4.6x30 submachine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5ba2657ed4351e0035628ff2",
+      "itemName": {
+        "zh": "MP7 4.6x30 30发标准弹匣",
+        "en": "HK MP7 4.6x30 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "64aceaecc4eda9354b0226b6",
+      "itemName": {
+        "zh": "4.6x30mm JSP SX弹药包（40发装）",
+        "en": "4.6x30mm JSP SX ammo pack (40 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "心情怎么样？准备好战斗了吗？准备好在竞技场再次闪耀了吗？准备好撕碎一些混蛋了吗？赔率仍然对你不利，所以别让观众失望！\n\n说到这个。你有钱吗？你得押自己然后连赢六次。你会赚大钱，还会出名。把钱拿来，我来安排一切。不过提醒你：如果你输了五次，就得重新开始。",
+    "en": "How's the mood? Battle-ready? Ready to shine in the Arena once more? Ready to shred some motherfuckers? The odds are still stacked against you, so don't let the audience down!\n\nSpeaking of that. You got some money? You gotta bet on yourself and then win six times. You'll make tons of cash, and you'll be famous. Bring the money, I'll organize everything. Just be warned: if you lose five times, you start again."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1000000,
+      "target": [
+        "5449016a4bdc2d6f028b456f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5449016a4bdc2d6f028b456f": {
+          "zh": "卢布",
+          "en": "Roubles"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ArenaGameMode",
+      "value": 3,
+      "target": [
+        "TeamFight",
+        "BlastGang",
+        "CheckPoint"
+      ],
+      "targetNames": {
+        "TeamFight": {
+          "zh": "TeamFight",
+          "en": "TeamFight"
+        },
+        "BlastGang": {
+          "zh": "BlastGang",
+          "en": "BlastGang"
+        },
+        "CheckPoint": {
+          "zh": "CheckPoint",
+          "en": "CheckPoint"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ArenaGameMode",
+      "value": 4,
+      "target": [
+        "TeamFight",
+        "BlastGang",
+        "CheckPoint"
+      ],
+      "targetNames": {
+        "TeamFight": {
+          "zh": "TeamFight",
+          "en": "TeamFight"
+        },
+        "BlastGang": {
+          "zh": "BlastGang",
+          "en": "BlastGang"
+        },
+        "CheckPoint": {
+          "zh": "CheckPoint",
+          "en": "CheckPoint"
+        }
+      }
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: ArenaGameMode",
+      "value": 4,
+      "isFailCondition": true,
+      "target": [
+        "TeamFight",
+        "BlastGang",
+        "CheckPoint"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6834202a186efa3c5b07f9a2",
+      "name": {
+        "zh": "登高望远 - 第三部分 [PVE区]",
+        "en": "To Great Heights! - Part 3 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68342265a8d674b5740b31f0",
+      "name": {
+        "zh": "登高望远 - 第五部分 [PVE区]",
+        "en": "To Great Heights! - Part 5 [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562bb83e8d4075e2354446.png",
+  "isKey": false
+}

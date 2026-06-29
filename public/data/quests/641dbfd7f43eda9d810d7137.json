@@ -1,0 +1,116 @@
+{
+  "id": "641dbfd7f43eda9d810d7137",
+  "name": {
+    "zh": "重要伤员",
+    "en": "Important Patient"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Skill",
+      "target": "Surgery",
+      "value": 500
+    },
+    {
+      "type": "Skill",
+      "target": "Health",
+      "value": 500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aafbcd986f7745e590fff23",
+      "itemName": {
+        "zh": "医疗物品箱",
+        "en": "Medicine case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "590c657e86f77412b013051d",
+      "itemName": {
+        "zh": "Grizzly急救包",
+        "en": "Grizzly medical kit"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5755383e24597772cb798966",
+      "itemName": {
+        "zh": "凡士林",
+        "en": "Vaseline balm"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5c0e530286f7747fa1419862",
+      "itemName": {
+        "zh": "丙泊酚",
+        "en": "Propital regenerative stimulant injector"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c0e534186f7747fa1419867",
+      "itemName": {
+        "zh": "eTG-change再生兴奋剂注射器",
+        "en": "eTG-change regenerative stimulant injector"
+      },
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "zh": "我很少会替别人找你办事，但是我的一个老熟人急需你的帮助！她有一位病人伤情严重，需要立刻治疗。这个病人对一些...大人物来说很重要。她有足够的药物，但是急需绷带。如果你能帮上忙，感激不尽！",
+    "en": "It's not in my nature to be asking on behalf of others, but an acquaintance of mine desperately needs your help! She has a patient who is in critical condition and needs to be treated urgently. This person is extremely important to some... influential people. She has the medications she needs, but needs bandaging supplies. I would be very grateful if you could help!"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "544fb25a4bdc2dfb738b4567"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "544fb25a4bdc2dfb738b4567": {
+          "zh": "无菌绷带",
+          "en": "Aseptic bandage"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5751a25924597722c463c472"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5751a25924597722c463c472": {
+          "zh": "军用绷带",
+          "en": "Army bandage"
+        }
+      }
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/642d82abead645348e204ff5.png",
+  "isKey": false
+}

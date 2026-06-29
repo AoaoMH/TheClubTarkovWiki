@@ -1,0 +1,186 @@
+{
+  "id": "5b477b6f86f7747290681823",
+  "name": {
+    "zh": "枪匠 - 18",
+    "en": "Gunsmith - Part 18"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 23100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b3b99475acfc432ff4dcbee",
+      "itemName": {
+        "zh": "EOTech Vudu 1-6x24 30 毫米 步枪瞄准镜",
+        "en": "EOTech Vudu 1-6x24 30mm riflescope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "615d8f8567085e45ef1409ca",
+      "itemName": {
+        "zh": "AK Hexagon \"Wafflemaker\" 5.45x39声音抑制器",
+        "en": "AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "615d8f5dd92c473c770212ef",
+      "itemName": {
+        "zh": "AK Hexagon \"Reactor\" 5.45x39枪口制退器",
+        "en": "AK Hexagon Reactor 5.45x39 muzzle brake"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b07dd285acfc4001754240d",
+      "itemName": {
+        "zh": "LAS/TAC 2战术手电",
+        "en": "Steiner LAS/TAC 2 tactical flashlight"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "615d8e9867085e45ef1409c6",
+      "itemName": {
+        "zh": "Kiba Arms 7.62x39 AKM .308 枪口转换装置",
+        "en": "AKM 7.62x39 Kiba Arms .308 muzzle device adapter"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我尝试去教导Lusya如何从谎言中分辨出真相，如果结果能保证90%的准确率，那么有的时候听听那些满嘴跑火车的政治家和Terra集团的科学家说话还挺有趣的，就比如昨天他们还在夸夸其谈自己的政治理想和崇高目标，给我们经济区的利益和未来的光明前景打包票下保证。这当中有多少是空头支票和讹言谎语？我认为，全都是。这有一个MOE版的AKMN的订单，要求：护木，枪托和手枪式握把都必须是Magpul的，清一色黑。顺便再加个Rotor 43的膛口制退器、Magpul M-LOK AFG战术握把和EOTech HHS-1瞄准镜，后坐力总和小于250，人机工效大于50，重量为5公斤或者更低，有效射程为500。",
+    "en": "I want to try teaching Lusya to tell if someone's lying, if the result will be at least 90% accurate, it will be interesting to listen to all those politicians and TerraGroup whales, who’ve been expatiating upon their ideals and noble goals just yesterday, assured of the benefits of our economic zone and a bright future ahead. How much of this was a concentrated lie? I think, all of it. There’s a request for a Magpul edition AKMN. I.e. the handguard, stock, and pistol grip have to be Magpul. All in black. Additionally, a Rotor 43 muzzle brake, black Magpul M-LOK AFG Tactical grip, and EOTech HHS-1 hybrid sight. Recoil sum lower than 350, ergonomics above 50, and weight of 5 kg or less with sighting range of 500."
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5a0ec13bfcdbcb00165aa685"
+      ],
+      "targetNames": {
+        "5a0ec13bfcdbcb00165aa685": {
+          "zh": "AKMN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMN 7.62x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 50
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 350
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 600
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 5
+        }
+      ],
+      "requiredItems": [
+        "57cff947245977638e6f2a19",
+        "5b30ac585acfc433000eb79c",
+        "59d6272486f77466146386ff",
+        "57cffb66245977632f391a99",
+        "5a9fbacda2750c00141e080f",
+        "5c07dd120db834001c39092d",
+        "5b0e794b5acfc47a877359b2"
+      ],
+      "requiredItemNames": {
+        "57cff947245977638e6f2a19": {
+          "zh": "Magpul MOE AKM/AK护木（Black）",
+          "en": "AK Magpul MOE AKM handguard (Black)"
+        },
+        "5b30ac585acfc433000eb79c": {
+          "zh": "Magpul MOE AK手枪式握把",
+          "en": "AK Magpul MOE pistol grip (Black)"
+        },
+        "59d6272486f77466146386ff": {
+          "zh": "Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣",
+          "en": "AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine"
+        },
+        "57cffb66245977632f391a99": {
+          "zh": "Magpul M-LOK AFG战术握把",
+          "en": "Magpul M-LOK AFG tactical foregrip (Black)"
+        },
+        "5a9fbacda2750c00141e080f": {
+          "zh": "Rotor 43 7.62x39膛口制退器",
+          "en": "Rotor 43 7.62x39 sound suppressor"
+        },
+        "5c07dd120db834001c39092d": {
+          "zh": "EOTech HHS-1 复合瞄具",
+          "en": "EOTech HHS-1 hybrid sight"
+        },
+        "5b0e794b5acfc47a877359b2": {
+          "zh": "AKM/AK-74 Magpul Zhukov-S 枪托",
+          "en": "AKM/AK-74 Magpul Zhukov-S stock"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b47749f86f7746c5d6a5fd4",
+      "name": {
+        "zh": "枪匠 - 17",
+        "en": "Gunsmith - Part 17"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "639873003693c63d86328f25",
+      "name": {
+        "zh": "枪匠 - 19",
+        "en": "Gunsmith - Part 19"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5b47863b86f7744d1c353203.jpg",
+  "isKey": false
+}

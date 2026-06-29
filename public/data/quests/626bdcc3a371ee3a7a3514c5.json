@@ -1,0 +1,160 @@
+{
+  "id": "626bdcc3a371ee3a7a3514c5",
+  "name": {
+    "zh": "流浪狗",
+    "en": "Stray Dogs"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 35000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 230000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 230000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5fc22d7c187fea44d52eda44",
+      "itemName": {
+        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪",
+        "en": "SWORD International Mk-18 .338 LM marksman rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5fc23426900b1d5091531e15",
+      "itemName": {
+        "zh": "Sword Int. Mk-18 .338 LM 10发弹匣",
+        "en": "Mk-18 .338 LM 10-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "657023ccbfc87b3a3409320a",
+      "itemName": {
+        "zh": ".338 Lapua Magnum FMJ弹药包（20发装）",
+        "en": ".338 Lapua Magnum FMJ ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d235bb686f77443f4331278",
+      "itemName": {
+        "zh": "小型S I C C包",
+        "en": "S I C C organizational pouch"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好啊，大兵。不过，我能说“好”吗？智者曾说过，人类生来就是互相伤害的。我第一次听说这句话的时候，实在不相信。但是现在，每当我回想起这句话，心就蹦蹦跳。城市里来了新的海盗，他们在制造恐怖的气氛。我派了一个人去和他们交谈，甚至还能带他们走上正道，但是这些人杀掉了他，只把脑袋送了回来，还退掉了我写给他们的信...他们不是本地人，都是曾经的USEC，那些被他们自己人抛弃掉的东西。这些人必须被消灭掉。这里可是我们的地盘。没有谈和的必要了。",
+    "en": "Good day to you, soldier. Though could I actually say it's good? As a wise person used to say, people are made to torment each other. When I first read it, I didn't honestly believe it. But now my heart bleeds every time I remember this quote. Some new renegades are terrorizing the city. I've sent a man to negotiate with them, maybe even guide them to the right path, but those savages decapitated him and sent his head back to me, with the letter I wrote for them... They're not locals, all came from USEC. Long renounced from their own people too. They must be hunted down. This is our land. No more peace talks."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKnight"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBigPipe"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBirdEye"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2c386f77443e7549029",
+      "name": {
+        "zh": "猎人之路 - 物资",
+        "en": "The Huntsman Path - Trophy"
+      }
+    },
+    {
+      "id": "5d25e2ee86f77443e35162ea",
+      "name": {
+        "zh": "猎人之路 - 森林管理员",
+        "en": "The Huntsman Path - Woods Keeper"
+      }
+    },
+    {
+      "id": "5d25e2e286f77444001e2e48",
+      "name": {
+        "zh": "猎人之路 - 脱销",
+        "en": "The Huntsman Path - Sellout"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61abc9240b56a53df32c6865.jpg",
+  "isKey": false
+}

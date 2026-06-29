@@ -1,0 +1,113 @@
+{
+  "id": "6574e0dedc0d635f633a5805",
+  "name": {
+    "zh": "试驾 - 4",
+    "en": "Test Drive - Part 4"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 40000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 460000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 460000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6410733d5dd49d77bd07847e",
+      "itemName": {
+        "zh": "Tokarev AVT-40 7.62x54R自动步枪",
+        "en": "Tokarev AVT-40 7.62x54R automatic rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "560d75f54bdc2da74d8b4573",
+      "itemName": {
+        "zh": "7.62x54mm R SNB弹药包（20发装）",
+        "en": "7.62x54mm R SNB gzh ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "641074a07fd350b98c0b3f96",
+      "itemName": {
+        "zh": "AVT-40 7.62x54R 15发弹匣",
+        "en": "AVT-40 7.62x54R 15-round magazine"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我这有个新玩具需要测试。给你，试试这个。带上这把PRD去海岸线，在那里试射一下。别在路上搞丢了啊，别的枪我可不认。",
+    "en": "I've got a new toy I've been thinking about testing out. And here you are, just in time for this. Take this RPD and go to Shoreline, shoot with it there. Just don't lose it on the way there, I won't accept any other guns."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 30,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "65268d8ecb944ff1e90ea385"
+      ],
+      "weaponNames": {
+        "65268d8ecb944ff1e90ea385": {
+          "zh": "捷格加廖夫 RPDN 7.62x39 毫米轻机枪",
+          "en": "Degtyarev RPDN 7.62x39 machine gun"
+        }
+      },
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "64f5deac39e45b527a7c4232",
+      "name": {
+        "zh": "试驾 - 3",
+        "en": "Test Drive - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "669fa3a40c828825de06d6a1",
+      "name": {
+        "zh": "试驾 - 5",
+        "en": "Test Drive - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+  "isKey": false
+}

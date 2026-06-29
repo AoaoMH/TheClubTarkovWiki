@@ -1,0 +1,109 @@
+{
+  "id": "674492b6909d2013670a347a",
+  "name": {
+    "zh": "投石问路",
+    "en": "Ask for Directions"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "Discover",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13200
+    },
+    {
+      "type": "Item",
+      "value": 85000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 85000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e2aedd986f7746d404f3aa4",
+      "itemName": {
+        "zh": "GreenBat锂电池",
+        "en": "GreenBat lithium battery"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e2aedd986f7746d404f3aa4",
+      "itemName": {
+        "zh": "GreenBat锂电池",
+        "en": "GreenBat lithium battery"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "所以，你说 Ragman 在找新的送货路线是吗？我现在也在想同样的事情，毕竟 Skier 那个滑头肯定不会轻易把我放走。有条路线 Ragman 可能确实用得上，虽然我的 BTR 开不过去，但是在我还靠两条腿乱跑的那会，我可是经常从那里偷偷溜过封锁线。\n\n你知道悬崖边那个村子吗？ 有很多小屋的那个。你可以从其中一户人家的后院往上爬，然后沿着岩壁间的缝隙一直走。然后，你就到了那些富人的房子，但是路过那里你得小心，周围相当危险，有一回听到有人在说外语，吓得我撒腿就跑。\n\n在塔科夫，根本就没有绝对保险的路。所以我想这条路总比没有好，做完标记后一定要回来找我，我会用我的地图再检查一遍，以保万无一失。",
+    "en": "So Ragman's looking for new routes, you say? I'm thinking about that myself right now, since Skier won't let me go so easily. But there is one option that Ragman could use. I won't pass on my BTR through there, but when I was a puny pedestrian, I used to sneak around there often.\n\nYou know the village by the cliffs where the cottages are? You can go up from one of the backyards, and then follow the crevice. Then, you reach those wealthy houses, you'll have to be on guard over there.\n\nThere are no truly safe roads left, so I guess this one's better than nothing. Just make sure you come back to me when you've marked it, I'll double check it with my maps just to be sure."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6740b60c60a98cad1b0e0aa0",
+      "name": {
+        "zh": "再次延误",
+        "en": "Another Shipping Delay"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6744a4717e3818d5bb0680bb",
+      "name": {
+        "zh": "稳定业务",
+        "en": "Stabilize Business"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/675b0854eaef91cffa0f04fe.jpg",
+  "isKey": false
+}

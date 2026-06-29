@@ -1,0 +1,121 @@
+{
+  "id": "669fa3a08b4a64b332041ff7",
+  "name": {
+    "zh": "妥善保管",
+    "en": "Dragnet"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Discover",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 92000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 92000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aafa857e5b5b00018480968",
+      "itemName": {
+        "zh": "春田 M1A 7.62x51 精确射手步枪",
+        "en": "Springfield Armory M1A 7.62x51 rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5addcce35acfc4001a5fc635",
+      "itemName": {
+        "zh": "7.62x51 30发M14弹匣",
+        "en": "M14 7.62x51 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "65702554bfc87b3a34093247",
+      "itemName": {
+        "zh": "7.62x51 M62曳光弹弹药包（20发装）",
+        "en": "7.62x51mm M62 Tracer ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，大兵。每个人看起来都对化工厂很感兴趣，想方设法寻找它背后的秘密... 当然，我也发现了一些有意思的东西。看起来TerraGroup把他们自己的地下仓库搞得乱七八糟，就为了多放一些货物，不过看起来那里有一些稀有的好东西。\n\n你应该明白，当人们发现好东西之后，会发生什么。只要有人尝试带走东西，就会有其他人拼命阻止。想象一下，如果这些东西落入了不法分子手中，情况会有多糟糕。最好的办法就是，我们替替他人带走这些东西，免得出事儿。这是很重要的事情。你愿意帮忙吗？",
+    "en": "Hello, soldier. Everyone seems to be flocking to Polikhim, running around looking for secrets... I found out something interesting, too. It turns out that the TerraGroup fucks had their own warehouse in the basement for extra important cargo, and there's a vial of some rare nasty stuff in there.\n\nYou know what's gonna happen when people find out about this. One will ask to retrieve it, another will try to intercept it. Now imagine it falls into the wrong hands. It's best if you and I take this stuff before anyone else and keep it under wraps. The job's important. Will you help me?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66a0e523e749756c920d02d0"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66a0e523e749756c920d02d0": {
+          "zh": "化学药剂容器",
+          "en": "Chemical container"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66a0e523e749756c920d02d0"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66a0e523e749756c920d02d0": {
+          "zh": "化学药剂容器",
+          "en": "Chemical container"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "669fa38fad7f1eac2607ed46",
+      "name": {
+        "zh": "最后的细枝末节",
+        "en": "One Less Loose End"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66acecb632bc3e9d7e0d2d57.png",
+  "isKey": false
+}

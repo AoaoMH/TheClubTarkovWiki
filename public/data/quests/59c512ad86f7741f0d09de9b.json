@@ -1,0 +1,121 @@
+{
+  "id": "59c512ad86f7741f0d09de9b",
+  "name": {
+    "zh": "惩罚者 - 3",
+    "en": "The Punisher - Part 3"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 2500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 2500
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "56dff2ced2720bb4668b4567",
+      "itemName": {
+        "zh": "5.45x39毫米 PP",
+        "en": "5.45x39mm PP gs"
+      }
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "588892092459774ac91d4b11",
+      "itemName": {
+        "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+        "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.02
+    }
+  ],
+  "description": {
+    "zh": "嘿，伙计，我的朋友们显然在搞什么事情。上次你刚干完那些Scav的时候，他们几乎立刻就给我打了电话，你想想，他们可能正在搞些娱乐活动，打赌啊，搞钱什么的。长话短说，他们又来让你去屠Scav了，但是这次要用老伙计AKS-74U。我不是特别想知道他们在整什么花样，但是他们给了很高的价钱，考虑一下？",
+    "en": "Hey there, man. Well, my friends are clearly up to something. Last time you dropped some Scavs, they called me almost instantly, and, you know, it seemed like they had a bit of entertainment going on. Making bets, making cash. Long story short, they want you to decimate Scavs again, but this time on Customs and using a good old AKS-74U. I don't really want to know what kind of show they are making of it, but they offer some top cash. So, you in?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 25,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "583990e32459771419544dd2",
+        "5839a40f24597726f856b511",
+        "57dc2fa62459775949412633",
+        "628b9c37a733087d0d7fe84b"
+      ],
+      "weaponNames": {
+        "583990e32459771419544dd2": {
+          "zh": "AKS-74UN 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UN 5.45x39 assault rifle"
+        },
+        "5839a40f24597726f856b511": {
+          "zh": "AKS-74UB 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UB 5.45x39 assault rifle"
+        },
+        "57dc2fa62459775949412633": {
+          "zh": "AKS-74U 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74U 5.45x39 assault rifle"
+        },
+        "628b9c37a733087d0d7fe84b": {
+          "zh": "SAG AK-545 5.45x39截短卡宾枪",
+          "en": "SAG AK-545 Short 5.45x39 carbine"
+        }
+      },
+      "location": "bigmap"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59c50c8886f7745fed3193bf",
+      "name": {
+        "zh": "惩罚者 - 2",
+        "en": "The Punisher - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "59ca264786f77445a80ed044",
+      "name": {
+        "zh": "惩罚者 - 4",
+        "en": "The Punisher - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/57e4f1852459772a15635633.jpg",
+  "isKey": false
+}

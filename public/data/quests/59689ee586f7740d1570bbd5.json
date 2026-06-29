@@ -1,0 +1,109 @@
+{
+  "id": "59689ee586f7740d1570bbd5",
+  "name": {
+    "zh": "卫生标准 - 1",
+    "en": "Sanitary Standards - Part 1"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 14000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 14000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c661e86f7741e566b646a",
+      "itemName": {
+        "zh": "车载急救包",
+        "en": "Car first aid kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "590c661e86f7741e566b646a",
+      "itemName": {
+        "zh": "车载急救包",
+        "en": "Car first aid kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "下午好，我有一件急事儿要交给你。这关乎到所有幸存者，或者准确的说，关乎到他们还能不能继续幸存下去。你知道化学工厂在哪吗？那里之前是生产什么的已经无关紧要了，现在那儿正在发生的事才是火烧眉毛。我的意思是，有人正在控制或者试图守卫那一块儿。我十分怀疑某种毒素正在从工厂里渗入地下水，因为缺乏外界的水源补给，我们都不得不饮用这些地下水。现在你明白了吗？即使是过滤器对这种污染也无可奈何。如果我们再不解决好这事儿，今后再也不会有人需要子弹手雷啥的了。为了查出源头，我需要无线电和气体分析仪的数据，它应该在工厂水泵房旁边的厂房里。找到那个独立的小房间，东西应该就在那儿。",
+    "en": "Good afternoon. I have an urgent job for you. It is important for all who still live or, more precisely, exist in our woeful region. Do you know where the chemical factory is? Doesn’t matter now what was produced there and what is happening there now. I mean, who controls it or who tries to secure it. I have a firm suspicion that some sort of poison is leaking from the factory premises into the groundwater. And because of the lack of supplies from the outside, we are all forced to drink this water. Do you understand? Even the filters are no longer effective. If we do not resolve this issue, nobody would need ammo and grenades anymore. To figure it out I need the readings of radio and gas analyzers, which should be in the factory shops next to the water pumps. Look for a small separate room right in the workshops and that's the place where it should be. If you don’t find it there, then look elsewhere, this is no longer my business where exactly you get it from."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "590a3efd86f77437d351a25b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3efd86f77437d351a25b": {
+          "zh": "气体分析仪",
+          "en": "Gas analyzer"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "590a3efd86f77437d351a25b"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3efd86f77437d351a25b": {
+          "zh": "气体分析仪",
+          "en": "Gas analyzer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5967733e86f774602332fc84",
+      "name": {
+        "zh": "短缺",
+        "en": "Shortage"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "596a204686f774576d4c95de",
+      "name": {
+        "zh": "卫生标准 - 2",
+        "en": "Sanitary Standards - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59689f8f86f7740d121082d7.jpg",
+  "isKey": false
+}

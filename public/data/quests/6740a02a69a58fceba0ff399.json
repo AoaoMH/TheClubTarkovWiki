@@ -1,0 +1,106 @@
+{
+  "id": "6740a02a69a58fceba0ff399",
+  "name": {
+    "zh": "自然交换",
+    "en": "Natural Exchange"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "Exploration",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 26800
+    },
+    {
+      "type": "Item",
+      "value": 96000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 96000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57347ca924597744596b4e71",
+      "itemName": {
+        "zh": "显示卡",
+        "en": "Graphics card"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你的朋友答应好的援助迟迟未到，我这边的补给可是已经要用完了——自从那群混混洗劫我的营地之后，我就一直攒不下什么东西。如果再不想办法的话，装甲车马上就要没有燃料了。我找到个可能会有燃料的地方，但是我得需要你的帮助才行。\n\n你知道本地的那群走私者吗？他们在“蔚蓝海岸”疗养院旁有一处前哨战，你放几个空油桶到那里，他们会帮忙把桶灌满。不过回程就不用你费心了，他们会派自己的人送货。你会帮我吗？",
+    "en": "Your friends are still taking their time, and I'm already running low on supplies because of that depot attack. I'm gonna run out of fuel if I don't do something. I found a place to get fuel, but I need your help.\n\nYou know the local smugglers? They got a base near the Azure Coast. That's where you gotta drop off some gas cans. They'll fill me some fuel in return. But I think we can handle that part without you. They'll send their own people. So, you in?"
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5d1b36a186f7742523398433"
+      ],
+      "targetNames": {
+        "5d1b36a186f7742523398433": {
+          "zh": "金属燃料桶",
+          "en": "Metal fuel tank"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5d1b36a186f7742523398433"
+      ],
+      "targetNames": {
+        "5d1b36a186f7742523398433": {
+          "zh": "金属燃料桶",
+          "en": "Metal fuel tank"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "673f629c5b555b53460cf827",
+      "name": {
+        "zh": "奠定基石",
+        "en": "Building Foundations"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6740a15566e6a521aa051b15",
+      "name": {
+        "zh": "缔结友谊",
+        "en": "Forge a Friendship"
+      }
+    },
+    {
+      "id": "6740b60c60a98cad1b0e0aa0",
+      "name": {
+        "zh": "再次延误",
+        "en": "Another Shipping Delay"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/658991921af57867a167fc0f.jpg",
+  "isKey": false
+}

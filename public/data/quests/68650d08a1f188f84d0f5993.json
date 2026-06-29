@@ -1,0 +1,116 @@
+{
+  "id": "68650d08a1f188f84d0f5993",
+  "name": {
+    "zh": "进展困境 - 第一部分",
+    "en": "Progression Difficulties - Part 1"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2500
+    },
+    {
+      "type": "Item",
+      "value": 10500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 10500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a09ee4cf4a99369e262453",
+      "itemName": {
+        "zh": "罐装白盐",
+        "en": "Can of white salt"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e35de086f7741778269d84",
+      "itemName": {
+        "zh": "电钻",
+        "en": "Electric drill"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "61bf83814088ec1a363d7097",
+      "itemName": {
+        "zh": "针线盒",
+        "en": "Sewing kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b371186f774253763a656",
+      "itemName": {
+        "zh": "野营燃料桶",
+        "en": "Expeditionary fuel tank"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "又见面了。你玩了吗？怎么样？希望我们没有白费力气找那个游戏。嗯？卡住了？需要密码？就在游戏里找找呗兄弟。没有吗？嗯……\n\n好吧。把磁盘给我。我再查查手机和日记。说不定有什么发现。",
+    "en": "Hello again. Did you play it? How was it? I hope we didn't waste our time looking for that game. Huh? You're stuck? A password? Just look in the game bro. Nothing? Hm...\n\nAlright. Hand me the disk. I'll look again on the phone and the diary. There might be something."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "68406efe068a2d99940c1ce3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "68406efe068a2d99940c1ce3": {
+          "zh": "固态硬盘",
+          "en": "Disk drive 1"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "689610e431dc963a7205a121",
+      "name": {
+        "zh": "游戏评测 - 第一部分",
+        "en": "Game Review - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "686524fe9809a149400dd301",
+      "name": {
+        "zh": "进展困境 - 第二部分",
+        "en": "Progression Difficulties - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/6882259010dca38920041b81.jpg",
+  "isKey": false
+}

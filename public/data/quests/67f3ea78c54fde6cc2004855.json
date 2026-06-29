@@ -1,0 +1,127 @@
+{
+  "id": "67f3ea78c54fde6cc2004855",
+  "name": {
+    "zh": "隐秘的资助人",
+    "en": "Secret Benefactor"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9100
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "619cbf476b8a1b37a54eebf8",
+      "itemName": {
+        "zh": "军用波纹软管",
+        "en": "Military corrugated tube"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b2ffd86f77425243e8d17",
+      "itemName": {
+        "zh": "NIXXOR镜头",
+        "en": "NIXXOR lens"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c5bbd86f774785762df04",
+      "itemName": {
+        "zh": "100毫升WD-40",
+        "en": "WD-40 (100ml)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好。你知道吗，在康复期间，我的病人们常常会聊起塔科夫正在发生的新闻和传闻。大多数时候不过是些日常闲谈，但最近我注意到一个让我非常担忧的趋势。\n\n人们在谈论城里出现了一个人，或者一群人，愿意为市民提供食物和保护。换作以前，我或许会尝试联系他们，为了一个崇高的目标而合作。但你我都清楚，在塔科夫这地方，真正正直的人已经所剩无几了。\n\n普通市民早已处于生存的边缘。我担心太多人会在没有任何保障的情况下轻信那些夸大的承诺。我们必须查清楚是谁用这些慷慨的条件在引诱人们，又是为了什么目的。如果你愿意帮我，就去 Scav 的检查站和前哨搜集情报吧。",
+    "en": "Greetings. You know, during recovery, my patients often share news and rumors about what is happening in Tarkov. Most of the time it is simple everyday talk, however nowadays I have noticed a tendency that concerns me greatly.\n\nPeople are talking about a person or group of people in town who are willing to provide sustenance and protection for the citizens. At different times, I myself would have tried to reach out and cooperate for a noble cause. Yet you and I both are aware that there are very few honest people left in Tarkov.\n\nThe ordinary citizens are already on the brink of survival. I am afraid that too many people may trust loud claims without any guarantees. We must find out who is luring people in with generous offers and for what purpose. If you are willing to help me, search the Scav checkpoints and outposts for information."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "67f3fd9bdb1fbd5add090f96"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67f3fd9bdb1fbd5add090f96": {
+          "zh": "招募管笔记",
+          "en": "Recruiter's notes"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "67f3fd9bdb1fbd5add090f96"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67f3fd9bdb1fbd5add090f96": {
+          "zh": "招募管笔记",
+          "en": "Recruiter's notes"
+        }
+      }
+    },
+    {
+      "type": "VisitPlace",
+      "description": "VisitPlace",
+      "value": 1,
+      "target": "1"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67f3ea581cd4c15d3d040305",
+      "name": {
+        "zh": "反击",
+        "en": "Fight Back"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67f3ea873daf3aaf3e0e7ff5",
+      "name": {
+        "zh": "备选方案",
+        "en": "An Alternative"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/60c37700869a2f761e41b35b.jpg",
+  "isKey": false
+}

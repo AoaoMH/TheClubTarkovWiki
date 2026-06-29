@@ -1,0 +1,163 @@
+{
+  "id": "5b478ff486f7744d184ecbbf",
+  "name": {
+    "zh": "维他命 - 2",
+    "en": "Vitamins - Part 2"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 40000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 40000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "544fb3f34bdc2d03748b456a",
+      "itemName": {
+        "zh": "吗啡注射器",
+        "en": "Morphine injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5751a89d24597722aa0e8db0",
+      "itemName": {
+        "zh": "金星软膏",
+        "en": "Golden Star balm"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fc3f2d5900b1d5091531e57",
+      "itemName": {
+        "zh": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+        "en": "TDI KRISS Vector Gen.2 9x19 submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你前脚刚踏进这里，我这就有麻烦了。那些你带回来的容器里装的根本不是他妈的什么樱桃味汽水，我的人在试图打开它们时就嗨得要死了，恐怕很快就会从这个肮脏的世界离开。显然这是某种厉害的鬼东西，但是我现在还没有一点关于它的头绪，真见鬼！\n嗯，现在我需要一些防化装备，呃，叫什么来着， 防毒面具或者别的什么鬼东西，你知道的，就是那种你戴在嘴上防止你吸入脏物后就凉了的玩意儿。这些防毒面具最好已经被外面的人试过了，我可担不起这风险，所以把这些玩意从那群傻子那里捡回来。\n\n当冲突在塔科夫爆发时，Scav们洗劫了所有有这种装备的仓库，现在就在戴着它们像蠢驴一样满世界乱跑，搞得好像这玩意儿能挡子弹似的，鸡儿脑子。对了！当你到地方以后，帮我找些输血能用上的东西，我那些吸嗨了的小崽子们急需这些东西来让他们正常一点，否则的话他们恐怕真要完蛋了……",
+    "en": "Well, since you’re here, step inside, I have a situation here. These containers you brought had no fucking cherry soda inside, my guys who tried to open them got so high that they may soon leave this dirty world. Obviously, it’s some serious shit, but I still have not a shred of info on it, for fuck’s sake! Anyway, I need some chemo gear, ugh, what’s’em called, restorators or whatever, you know, the masks you put on your mouth to avoid inhaling crap that can turn you cold. Pick this shit up from those Scav idiots and bring it here.\nWhen the action in Tarkov started, Scavs looted all warehouses with this gear, and now run around in them like dumbasses, thinking it may help against bullets. Dickheads. And yeah! While you’re at it, find some kits for blood transfer, my eggheads are really bad. Don't care where you find them, but I need them fresh, not from traders. We need to fix my boys quickly, or that may be the sorry end of them..."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "59e7715586f7742ee5789605"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e7715586f7742ee5789605": {
+          "zh": "防毒面罩",
+          "en": "Respirator"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 4,
+      "target": [
+        "59e7715586f7742ee5789605"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e7715586f7742ee5789605": {
+          "zh": "防毒面罩",
+          "en": "Respirator"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "5b4335ba86f7744d2837a264"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5b4335ba86f7744d2837a264": {
+          "zh": "医用输血工具",
+          "en": "Medical bloodset"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "5b4335ba86f7744d2837a264"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5b4335ba86f7744d2837a264": {
+          "zh": "医用输血工具",
+          "en": "Medical bloodset"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b478eca86f7744642012254",
+      "name": {
+        "zh": "维他命 - 1",
+        "en": "Vitamins - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "64f5e20652fc01298e2c61e3",
+      "name": {
+        "zh": "好吃到上瘾 - 1",
+        "en": "Beyond the Red Meat - Part 1"
+      }
+    },
+    {
+      "id": "6572e876dc0d635f633a5714",
+      "name": {
+        "zh": "发财计划",
+        "en": "Pyramid Scheme"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5b478eda86f77470315db899.jpg",
+  "isKey": false
+}

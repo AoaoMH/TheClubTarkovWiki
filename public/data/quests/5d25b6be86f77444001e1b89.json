@@ -1,0 +1,152 @@
+{
+  "id": "5d25b6be86f77444001e1b89",
+  "name": {
+    "zh": "生存者之路 - 省吃俭用",
+    "en": "The Survivalist Path - Thrifty"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 22000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 22000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b313086f77425227d1678",
+      "itemName": {
+        "zh": "相位控制继电器",
+        "en": "Phase control relay"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b36a186f7742523398433",
+      "itemName": {
+        "zh": "金属燃料桶",
+        "en": "Metal fuel tank"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "590c5d4b86f774784e1b9c45",
+      "itemName": {
+        "zh": "Iskra个人配给口粮",
+        "en": "Iskra ration pack"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好兄弟！你来的正是时候，我正收拾着准备去打猎呢。帮我个忙吧，这可不是在替我干活，就把它当作友谊的象征吧。在我回来的路上，我需要你去安排几个休息点。找个安全的地方，留下一盒俄式MRE和几瓶水，行吗？",
+    "en": "Hello there! You came right in time, I'm just packing up to go hunting. Do me a favor, not for service, but as a sign of friendship. Arrange a couple of rest spots for my way back: the trip is long, so I'll have to stop for a breather somewhere. The places should be safe, leave a Russian MRE and a bottle of water for each, agreed? At the same time, remember how to survive if you get caught with your pants down. I've got some stashes hidden here and there, for example, but you don't need to know about them yet."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c5d4b86f774784e1b9c45"
+      ],
+      "targetNames": {
+        "590c5d4b86f774784e1b9c45": {
+          "zh": "Iskra个人配给口粮",
+          "en": "Iskra ration pack"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5448fee04bdc2dbc018b4567"
+      ],
+      "targetNames": {
+        "5448fee04bdc2dbc018b4567": {
+          "zh": "0.6升瓶装水",
+          "en": "Bottle of water (0.6L)"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c5d4b86f774784e1b9c45"
+      ],
+      "targetNames": {
+        "590c5d4b86f774784e1b9c45": {
+          "zh": "Iskra个人配给口粮",
+          "en": "Iskra ration pack"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5448fee04bdc2dbc018b4567"
+      ],
+      "targetNames": {
+        "5448fee04bdc2dbc018b4567": {
+          "zh": "0.6升瓶装水",
+          "en": "Bottle of water (0.6L)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25aed386f77442734d25d2",
+      "name": {
+        "zh": "生存者之路 - 危险零距离",
+        "en": "The Survivalist Path - Unprotected but Dangerous"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5d25bfd086f77442734d3007",
+      "name": {
+        "zh": "生存者之路 - Zhivchik",
+        "en": "The Survivalist Path - Zhivchik"
+      }
+    },
+    {
+      "id": "63a88045abf76d719f42d715",
+      "name": {
+        "zh": "美味香肠",
+        "en": "The Delicious Sausage"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59675e7b86f77414b25fb049.jpg",
+  "isKey": false
+}

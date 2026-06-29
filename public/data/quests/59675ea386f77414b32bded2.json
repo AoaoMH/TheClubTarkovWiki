@@ -1,0 +1,116 @@
+{
+  "id": "59675ea386f77414b32bded2",
+  "name": {
+    "zh": "邮递员派特 - 1",
+    "en": "Postman Pat - Part 1"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 40000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 40000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b44c6ae86f7742d1627baea",
+      "itemName": {
+        "zh": "Ana tactical Beta 2战斗背包 ",
+        "en": "ANA Tactical Beta 2 Battle backpack (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e5bab86f77461f55ed1f3",
+      "itemName": {
+        "zh": "6B23-1护甲（数码丛林迷彩）",
+        "en": "6B23-1 body armor (EMR)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "来来来，别客气，到了这儿就跟到了家一样。最近的战况如何？身上没多几个枪眼吧？那可真是太好了，挨枪子儿可不是好事儿，对吧？最近我遇到了件麻烦事儿，让我很是烦心。你能帮我解决吗？我的信使失踪了。妈的，关键时刻就不该指望这帮本地的废物，总是把事情搞砸。长话短说，我本来要给Therapist送一封信，一封关于互利共赢的合作建议的信。里面也没什么特别的，但是也不好公之于众。现在这个酒囊饭袋失踪了，不过我的一只小小鸟告诉我，这个饭桶在工厂的某处被人干翻了。妈的，他为什么要去那儿？都跟他说了要麻溜地快去快回。算了，找到他的尸体然后检查一下，没准我的信还在。如果奇迹发生，信件还在他身上，就把信交给药师女士，了解了吗？",
+    "en": "Come on in, make yourself at home. How's the life of constant battle? No extra preternatural holes in your hide? Jolly good. No freaking use for them, eh? I’m in a bit of a tight unpleasant spot here. Will you help me out? My messenger vanished. I entrusted a job for this local waste of skin, he played so tough. In short, I’ve sent a little note to Therapist with some proposals for a mutually beneficial cooperation. Nothing special, but nothing outsiders should know either. And so this meat sack went missing, and a little bird told me that this postman got whacked somewhere in the Factory. Why the heck would he go there, that moron? Told him to take the straight path. So anyway, find the body and check it, my scribbles might still be there. And if by some miracle they are, hand them to that medic woman, will ya?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "591093bb86f7747caa7bb2ee"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591093bb86f7747caa7bb2ee": {
+          "zh": "封口信件",
+          "en": "Sealed letter"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "factory4_day,factory4_night"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "59675d6c86f7740a842fc482",
+      "name": {
+        "zh": "蛋卷冰淇淋",
+        "en": "Ice Cream Cones"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "596760e186f7741e11214d58",
+      "name": {
+        "zh": "邮递员派特 - 2",
+        "en": "Postman Pat - Part 2"
+      }
+    },
+    {
+      "id": "6391359b9444fb141f4e6ee6",
+      "name": {
+        "zh": "一信之缘",
+        "en": "You've Got Mail"
+      }
+    },
+    {
+      "id": "669fa399033a3ce9870338a8",
+      "name": {
+        "zh": "占有者",
+        "en": "Possessor"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59675f5486f77414b07f13d0.jpg",
+  "isKey": false
+}

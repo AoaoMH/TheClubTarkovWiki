@@ -1,0 +1,232 @@
+{
+  "id": "5edac34d0bb72a50635c2bfa",
+  "name": {
+    "zh": "同事 - 3",
+    "en": "Colleagues - Part 3"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 150000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 150000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5ed515e03a40a50460332579",
+      "itemName": {
+        "zh": "L1（去甲肾上腺素）",
+        "en": "L1 (Norepinephrine) injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5ed5160a87bb8443d10680b5",
+      "itemName": {
+        "zh": "Meldonin 注射器",
+        "en": "Meldonin injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "637b60c3b7afa97bfc3d7001",
+      "itemName": {
+        "zh": "Obdolbos 2 鸡尾酒兴奋剂注射器",
+        "en": "Obdolbos 2 cocktail injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "590c657e86f77412b013051d",
+      "itemName": {
+        "zh": "Grizzly急救包",
+        "en": "Grizzly medical kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1d0f4986f7744bb01837fa",
+      "itemName": {
+        "zh": "实验室钥匙卡·黑",
+        "en": "TerraGroup Labs keycard (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aafbcd986f7745e590fff23",
+      "itemName": {
+        "zh": "医疗物品箱",
+        "en": "Medicine case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.25
+    }
+  ],
+  "description": {
+    "zh": "年轻人，等等。我知道Jaeger会让你杀了那个Sanitar，但你不一定非得这么做。我明白这听起来不太好，用Jaeger的话来说，它就是一团有血有肉的怪物，但它不是。我相信Sanitar只是想帮助当地人。考虑到目前的情况，他做了最复杂的手术，结果往往很糟糕也就不足为奇了。他是一位拥有最宝贵知识的医生，那可以挽救更多的生命。一个能进入对我们极其重要的药品仓库的医生。他已经和我进行了谈判，并将很快开始合作。但为了这个，我需要一些他感兴趣的东西，我想我意识到他的兴趣是一个实验室。访问钥匙卡和军用兴奋剂的样本，我认为它们是他进行实验的基础。你能帮我找到它们吗？钥匙卡你可以想各种办法搞到，但是注射器必须是密封好的，你得自己去找。",
+    "en": "Young man, wait. I knew that Jaeger would ask you to kill Sanitar, but you don't have to do it. I understand Jaeger's point of view, that he's just some kind of monster in the flesh, but he is not. I'm sure Sanitar is just trying to help the locals. Given the current circumstances, he performs the most complex surgeries and it is not surprising that they often end badly. He is a doctor with the most valuable knowledge that can save many more lives. A doctor with access to a warehouse of medicines that are extremely important to us. And he has already entered into negotiations with me and will soon begin to cooperate. But for this, I need something that will interest him and I think I know what will: the Laboratory. Access keys and samples of military stimulants, I think they are the basis on which he conducts his experiments. Can you find them for me? You can get the access keycards however you want, but the stimulants must be sealed, so you need to find them yourself."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 10,
+      "target": [
+        "5c94bbff86f7747ee735c08f"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c94bbff86f7747ee735c08f": {
+          "zh": "TerraGroup实验室访问钥匙卡",
+          "en": "TerraGroup Labs access keycard"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 10,
+      "target": [
+        "5c94bbff86f7747ee735c08f"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c94bbff86f7747ee735c08f": {
+          "zh": "TerraGroup实验室访问钥匙卡",
+          "en": "TerraGroup Labs access keycard"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed515f6915ec335206e4152"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515f6915ec335206e4152": {
+          "zh": "AHF1-M 兴奋剂注射器",
+          "en": "AHF1-M stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed515f6915ec335206e4152"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515f6915ec335206e4152": {
+          "zh": "AHF1-M 兴奋剂注射器",
+          "en": "AHF1-M stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed515c8d380ab312177c0fa"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515c8d380ab312177c0fa": {
+          "zh": "3-(b-TG) 兴奋剂注射器",
+          "en": "3-(b-TG) stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed515c8d380ab312177c0fa"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515c8d380ab312177c0fa": {
+          "zh": "3-(b-TG) 兴奋剂注射器",
+          "en": "3-(b-TG) stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Completion",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossSanitar"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5edab4b1218d181e29451435",
+      "name": {
+        "zh": "猎人之路 - 虐待狂",
+        "en": "The Huntsman Path - Sadist"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5edac63b930f5454f51e128b",
+      "name": {
+        "zh": "TerraGroup 雇员",
+        "en": "TerraGroup Employee"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c2742286f77475ec568d92.jpg",
+  "isKey": false
+}

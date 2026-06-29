@@ -1,0 +1,154 @@
+{
+  "id": "5d25e46e86f77409453bce7c",
+  "name": {
+    "zh": "救护车",
+    "en": "Ambulance"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 35000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35000
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "590c657e86f77412b013051d",
+      "itemName": {
+        "zh": "Grizzly急救包",
+        "en": "Grizzly medical kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5751a89d24597722aa0e8db0",
+      "itemName": {
+        "zh": "金星软膏",
+        "en": "Golden Star balm"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Vitality",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d02797c86f774203f38e30a",
+      "itemName": {
+        "zh": "Surv12野战手术包",
+        "en": "Surv12 field surgical kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "这差事是这样的。正如你亲眼所见，我生活在荒野，有时我会发现严重受伤的人，但是却没有办法帮助他们。一些人就这样在我手上去世了。我不想再让这些发生了。也许，如果我有除颤器或手术包，我就能救他们。两样都给我拿一些。我知道现在这些东西很难找到，但我觉得某些地方还会有存货。哦对了，帮我再找些CMS手术包。",
+    "en": "Greetings. Here's the deal: I live in the wilderness, and sometimes I find badly wounded people, and I just have no means to help them. Some folks passed away right on my hands. I don't want that to happen again. Perhaps, if I have had a defibrillator I could've saved them. Bring me some. I know, it's a hard piece to find, but I think some places still have them. Oh, and grab some CMS kits, while you're at it."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c052e6986f7746b207bc3c9"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052e6986f7746b207bc3c9": {
+          "zh": "便携式除颤器",
+          "en": "Portable defibrillator"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "5d02778e86f774203e7dedbe"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d02778e86f774203e7dedbe": {
+          "zh": "CMS手术包",
+          "en": "CMS surgical kit"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c052e6986f7746b207bc3c9"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052e6986f7746b207bc3c9": {
+          "zh": "便携式除颤器",
+          "en": "Portable defibrillator"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5d02778e86f774203e7dedbe"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d02778e86f774203e7dedbe": {
+          "zh": "CMS手术包",
+          "en": "CMS surgical kit"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e48d86f77408251c4bfb",
+      "name": {
+        "zh": "生意至上",
+        "en": "Shady Business"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d6948e186f774238a38d8a7.jpg",
+  "isKey": false
+}

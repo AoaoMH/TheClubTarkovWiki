@@ -1,7 +1,7 @@
 import { useMemo, useEffect, useRef, useState } from 'react'
 import { Link, useMatch } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ChevronRight, Home, Package } from 'lucide-react'
+import { ChevronRight, Home, Package, ClipboardList } from 'lucide-react'
 import {
   Sidebar,
   SidebarContent,
@@ -200,6 +200,9 @@ export function AppSidebar() {
   const { categories, loading } = useCategories()
   const { rootCategories, childMap } = useCategoryTree(categories)
   const itemMatch = useMatch('/item/:id')
+  const questListMatch = useMatch('/quests')
+  const questDetailMatch = useMatch('/quest/:id')
+  const isQuestActive = !!questListMatch || !!questDetailMatch
   const itemId = itemMatch?.params?.id || null
   const { item } = useItemDetail(itemId)
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
@@ -250,6 +253,14 @@ export function AppSidebar() {
                 <Link to="/">
                   <Home className="size-4" />
                   <span>{t('home', '首页')}</span>
+                </Link>
+              </SidebarMenuButton>
+            </SidebarMenuItem>
+            <SidebarMenuItem>
+              <SidebarMenuButton asChild isActive={isQuestActive}>
+                <Link to="/quests">
+                  <ClipboardList className="size-4" />
+                  <span>{t('quests', '任务')}</span>
                 </Link>
               </SidebarMenuButton>
             </SidebarMenuItem>

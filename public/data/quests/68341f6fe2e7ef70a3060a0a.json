@@ -1,0 +1,115 @@
+{
+  "id": "68341f6fe2e7ef70a3060a0a",
+  "name": {
+    "zh": "登高望远 - 第二部分 [PVE区]",
+    "en": "To Great Heights! - Part 2 [PVE ZONE]"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 52,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 52
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5649ed104bdc2d3d1c8b458b",
+      "itemName": {
+        "zh": "7.62x39mm PS弹药包（20发装）",
+        "en": "7.62x39mm PS gzh ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "606587252535c57a13424cfd",
+      "itemName": {
+        "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪",
+        "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "59fafc5086f7740dbe19f6c3",
+      "itemName": {
+        "zh": "US Palm AK30 7.62x39 30发AK兼容弹匣（黑色）",
+        "en": "AK 7.62x39 US Palm \"AK30\" 30-round magazine (Black)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "从现在起你归我罩着了，兄弟。我会确保你发展得好，但你得更频繁地打起精神来。\n\n从基础开始吧。竞技场在塔科夫，但最大的赞助商在海外。他们观看每一场比赛，下注，把钱砸在热门选手身上。你需要让那些大人物对你感兴趣。引起他们的注意，向他们展示你值得。打响你的名声。仅靠一场胜利是不够的。向他们展示你能呈现一场激动人心的表演！",
+    "en": "You're under my wing from now on, brother. I'll make sure you get progress good, but you're gonna have to get your ass in gear more often.\n\nLet's start with the basics. The Arena's in Tarkov, but the biggest sponsors are overseas. They watch every game, place bets, throw money at the favorites. And you need to get some of those big shots interested. Get their attention, show them you're worthy. Make a name for yourself. One win alone isn't enough to do it. Show them you can make a thrilling performance!"
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ArenaGameMode",
+      "value": 1,
+      "target": [
+        "BlastGang",
+        "CheckPoint",
+        "TeamFight"
+      ],
+      "targetNames": {
+        "BlastGang": {
+          "zh": "BlastGang",
+          "en": "BlastGang"
+        },
+        "CheckPoint": {
+          "zh": "CheckPoint",
+          "en": "CheckPoint"
+        },
+        "TeamFight": {
+          "zh": "TeamFight",
+          "en": "TeamFight"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68341eb25619c8e2a9031501",
+      "name": {
+        "zh": "登高望远 - 第一部分 [PVE区]",
+        "en": "To Great Heights! - Part 1 [PVE ZONE]"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6834202a186efa3c5b07f9a2",
+      "name": {
+        "zh": "登高望远 - 第三部分 [PVE区]",
+        "en": "To Great Heights! - Part 3 [PVE ZONE]"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/66562bb83e8d4075e2354446.png",
+  "isKey": false
+}

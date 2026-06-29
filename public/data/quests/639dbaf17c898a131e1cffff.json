@@ -1,0 +1,79 @@
+{
+  "id": "639dbaf17c898a131e1cffff",
+  "name": {
+    "zh": "老赖",
+    "en": "Debtor"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 26600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 250000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 250000
+    }
+  ],
+  "description": {
+    "zh": "你来了！是要找事儿做吗？有人欠了我一大笔钱。他就是个婊子，看起来像是好人，但其实借了钱一点都不还。他的还款期早就过了。给他上一课。我的人在酒店看到过他，他在二楼租了一间房。",
+    "en": "Oi, there you are! Looking for a job, mate? There's a guy who owes me a lot of money. He's a real cunt, pretends to be a hard-ass, but he's not paying his debts anymore. His deadline's long gone. Gotta teach him a lesson. My guys saw him at the hotel the other day, he rented a room on the second floor."
+  },
+  "objectives": [
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "quest_zone_c29_debt",
+      "targetNames": {
+        "quest_zone_c29_debt": {
+          "zh": "quest_zone_c29_debt",
+          "en": "quest_zone_c29_debt"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "TarkovStreets"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5b4795fb86f7745876267770",
+      "name": {
+        "zh": "愿者上钩",
+        "en": "Chumming"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "639135c3744e452011470807",
+      "name": {
+        "zh": "软禁 - 1",
+        "en": "House Arrest - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90faa64b9631d9178271e.jpg",
+  "isKey": false
+}

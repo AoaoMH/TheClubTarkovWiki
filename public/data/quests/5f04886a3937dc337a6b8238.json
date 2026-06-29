@@ -1,0 +1,128 @@
+{
+  "id": "5f04886a3937dc337a6b8238",
+  "name": {
+    "zh": "化学橱柜",
+    "en": "Chemistry Closet"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 1000,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59bffbb386f77435b379b9c2",
+      "itemName": {
+        "zh": "Silencerco Hybrid 46多口径消音器",
+        "en": "SilencerCo Hybrid 46 multi-caliber sound suppressor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57347ca924597744596b4e71",
+      "itemName": {
+        "zh": "显示卡",
+        "en": "Graphics card"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b6d9ce188a4501afc1b2b25",
+      "itemName": {
+        "zh": "T H I C C武器箱",
+        "en": "T H I C C Weapon case"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嗨，你听说那个了吗？一个新面孔出现在了疗养院，过去是个医生，TerraGroup 驻扎在了疗养院之后，他就在附近闲逛。这家伙可不是那么简单，他显然很懂化学，因为他卖兴奋剂。据传闻，他与 TerraGroup 有某种关系，似乎在那里工作过，或者只是和那些曾经工作过的人关系密切，目前还不清楚。但长话短说，他肯定在疗养院有自己的办公室或仓库，所以我需要你帮我找这个地方。我会派专家去那里，也许他们会发现一些有趣的东西。小心点，这家伙挺危险的。",
+    "en": "Hey, come on in. Have you heard about some new guy that appeared in the resort area? Calls himself Sanitar. Not a simple man either, definitely worked for TerraGroup when they settled in the health resort. Either a major scientist there or just close to guys who were, no info on that. I've heard he's selling some secret stimulants, this means he understands chemistry quite well. But long story short, he's got some sort of an office or stash in the health resort, and I want you to find that place. I'll send specialists, maybe they'll find some interesting devices there. Just be careful, this man is dangerous."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_meh_sanitar_room",
+      "targetNames": {
+        "place_meh_sanitar_room": {
+          "zh": "place_meh_sanitar_room",
+          "en": "place_meh_sanitar_room"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1,
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5eda19f0edce541157209cee",
+      "name": {
+        "zh": "麻醉",
+        "en": "Anesthesia"
+      }
+    },
+    {
+      "id": "5edab736cc183c769d778bc2",
+      "name": {
+        "zh": "同事 - 1",
+        "en": "Colleagues - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5edab4b1218d181e29451435",
+      "name": {
+        "zh": "猎人之路 - 虐待狂",
+        "en": "The Huntsman Path - Sadist"
+      }
+    },
+    {
+      "id": "60e71d23c1bfa3050473b8e6",
+      "name": {
+        "zh": "致命校准",
+        "en": "Calibration"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4dbb086f7743e7c61ca09.jpg",
+  "isKey": false
+}

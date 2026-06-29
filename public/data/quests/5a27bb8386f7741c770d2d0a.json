@@ -1,0 +1,111 @@
+{
+  "id": "5a27bb8386f7741c770d2d0a",
+  "name": {
+    "zh": "湿活 - 1",
+    "en": "Wet Job - Part 1"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1100,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1100
+    },
+    {
+      "type": "ProductionScheme",
+      "itemId": "619636be6db0f2477964e710",
+      "itemName": {
+        "zh": ".300 AAC Blackout M62曳光弹",
+        "en": ".300 Blackout M62 Tracer"
+      }
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "61bf7c024770ee6f9c6b8b53",
+      "itemName": {
+        "zh": "加密磁带盒",
+        "en": "Secure magnetic tape cassette"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "哦，朋友，很高兴见到你。看你挺精神的，真好。如你所见，我和我的人在海岸线过的非常舒心，我们还能在这里与客户还有合作伙伴交流联络。我们设法改装了当地的气象设备来发送信号。但是，本地的Scav，抑或是别的什么人，总是试图摧毁或破坏我们的天线。我们一直在处理通信故障，甚至还得在那里安装监控摄像头。然而，众所周知，他们只吃硬的。今天的任务是你最擅长的，告诉他们气象站乃至整个海岸线都不是能对蓝盔的财产动手动脚的地方。",
+    "en": "Hello, my friend, glad to see you. It’s great you're still alive, ha-ha. As you can see, my people and I have assimilated on Shoreline, and we also communicate with our partners and customers from here. We’ve managed to re-purpose the local meteorological equipment to transmit signals. Scavs, however -- and not only them -- always try to destroy or damage our antennas. We routinely deal with communication problems, even had to install surveillance cameras. However, it’s common knowledge that those vandal gangs only understand violence. Your task today is what you do best. Explain to them that the weather station and the entire Shoreline is not the best place to damage the Blue Helmets' property."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5c07c60e0db834002330051f",
+        "5447a9cd4bdc2dbd208b4567",
+        "5d43021ca4b9362eab4b5e25"
+      ],
+      "weaponNames": {
+        "5c07c60e0db834002330051f": {
+          "zh": "ADAR 2-15 .223 卡宾枪",
+          "en": "ADAR 2-15 5.56x45 carbine"
+        },
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        },
+        "5d43021ca4b9362eab4b5e25": {
+          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪",
+          "en": "Lone Star TX-15 DML 5.56x45 carbine"
+        }
+      },
+      "location": "Shoreline"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5a27bafb86f7741c73584017",
+      "name": {
+        "zh": "疗养之旅 - 7",
+        "en": "Spa Tour - Part 7"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5a27bbf886f774333a418eeb",
+      "name": {
+        "zh": "湿活 - 2",
+        "en": "Wet Job - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5967532b86f77461fb2f333a.jpg",
+  "isKey": false
+}

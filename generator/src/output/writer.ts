@@ -2,6 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import { OUTPUT_DATA_PATH } from '../config.js'
 import type { WikiItem, WikiCategory, WikiTypeNode, ItemSummary, ItemNameEntry } from '../types.js'
+import type { WikiQuestSummary, WikiQuestDetail } from '../processors/quests.js'
 
 /**
  * Extract a lightweight summary from a WikiItem for list views and search.
@@ -46,7 +47,9 @@ export function writeOutput(
   categories: WikiCategory[],
   types: WikiTypeNode[],
   modItemCount: number,
-  itemNames: Record<string, ItemNameEntry>
+  itemNames: Record<string, ItemNameEntry>,
+  questSummaries?: WikiQuestSummary[],
+  questDetails?: Map<string, WikiQuestDetail>
 ): void {
   console.log(`[output] Writing data to ${OUTPUT_DATA_PATH}`)
 
@@ -150,5 +153,33 @@ export function writeOutput(
   console.log(`  Total items: ${items.length}`)
   console.log(`  Categories with items: ${categories.filter(c => c.itemCount > 0).length}`)
   console.log(`  Mod items: ${modItemCount}`)
+
+  // Write quest data
+  if (questSummaries && questSummaries.length > 0) {
+    const questsDir = path.join(OUTPUT_DATA_PATH, 'quests')
+
+    // Clean and recreate quests directory
+    if (fs.existsSync(questsDir)) {
+      for (const f of fs.readdirSync(questsDir)) {
+        fs.unlinkSync(path.join(questsDir, f))
+      }
+    } else {
+      fs.mkdirSync(questsDir, { recursive: true })
+    }
+
+    // Write quests.json (list summaries)
+    const questsListPath = path.join(OUTPUT_DATA_PATH, 'quests.json')
+    fs.writeFileSync(questsListPath, JSON.stringify(questSummaries), 'utf-8')
+    console.log(`[output] quests.json: ${questSummaries.length} quest summaries`)
+
+    // Write individual quest detail files
+    if (questDetails) {
+      for (const [questId, detail] of questDetails) {
+        const filePath = path.join(questsDir, `${questId}.json`)
+        fs.writeFileSync(filePath, JSON.stringify(detail, null, 2), 'utf-8')
+      }
+      console.log(`[output] quests/: ${questDetails.size} individual files`)
+    }
+  }
 }
 

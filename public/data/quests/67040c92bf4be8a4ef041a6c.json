@@ -1,0 +1,158 @@
+{
+  "id": "67040c92bf4be8a4ef041a6c",
+  "name": {
+    "zh": "黎明前的黑暗",
+    "en": "Darkest Hour Is Just Before Dawn"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 33000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 160000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 160000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "657023ccbfc87b3a3409320a",
+      "itemName": {
+        "zh": ".338 Lapua Magnum FMJ弹药包（20发装）",
+        "en": ".338 Lapua Magnum FMJ ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5fc23426900b1d5091531e15",
+      "itemName": {
+        "zh": "Sword Int. Mk-18 .338 LM 10发弹匣",
+        "en": "Mk-18 .338 LM 10-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5fc22d7c187fea44d52eda44",
+      "itemName": {
+        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪",
+        "en": "SWORD International Mk-18 .338 LM marksman rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你还好吗？虽然我几乎站不住了，我还是去看了我的采蘑菇朋友，给了他一些我的茶。\n\n你知道吗，那老头保持着强壮健康！这意味着我们也不能气馁。感染者现在到处都是，但也有幸存者。\n\n所以，是时候卷起袖子干脏活了。去塔科夫的每个角落消灭怪物——我们会尽力拯救那些还没被感染的少数人。",
+    "en": "You doing alright? Even though I can hardly stand on my feet, I went to see my mushroom picker friend and give him some of my tea. \n\nAnd you know what, the old man's keeping strong and healthy! That means we can't get discouraged either. The infected are everywhere now, but there are survivors too.\n\nSo, it's time to roll up our sleeves and do some dirty work. Go to every corner of Tarkov and eradicate the monsters - we'll do our best to save the few who haven't been infected yet."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 60,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "infectedAssault",
+        "infectedCivil",
+        "infectedLaborant",
+        "infectedPmc",
+        "infectedTagilla"
+      ],
+      "location": "Sandbox,Sandbox_high"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 60,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "infectedAssault",
+        "infectedCivil",
+        "infectedPmc",
+        "infectedLaborant",
+        "infectedTagilla"
+      ],
+      "location": "TarkovStreets"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 60,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "infectedAssault",
+        "infectedCivil",
+        "infectedLaborant",
+        "infectedPmc",
+        "infectedTagilla"
+      ],
+      "location": "laboratory"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67040c78bf4be8a4ef041a65",
+      "name": {
+        "zh": "样本 IV - 新的希望",
+        "en": "Sample IV - A New Hope"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67040cae4ac6d9c18c0ade2c",
+      "name": {
+        "zh": "激进疗法",
+        "en": "Radical Treatment"
+      }
+    },
+    {
+      "id": "6727ef2c6015b7cc540ea754",
+      "name": {
+        "zh": "传染野兽",
+        "en": "Contagious Beast"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/671f89bfab3a1278b204cc33.png",
+  "isKey": false
+}

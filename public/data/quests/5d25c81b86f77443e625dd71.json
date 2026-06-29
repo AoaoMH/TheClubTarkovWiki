@@ -1,0 +1,103 @@
+{
+  "id": "5d25c81b86f77443e625dd71",
+  "name": {
+    "zh": "生存者之路 - 受伤的野兽",
+    "en": "The Survivalist Path - Wounded Beast"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 65000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 65000
+    },
+    {
+      "type": "Skill",
+      "target": "StressResistance",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6259b864ebedf17603599e88",
+      "itemName": {
+        "zh": "Benelli M3 Super 90 12 铅径双模式霰弹枪",
+        "en": "Benelli M3 Super 90 12ga dual-mode shotgun"
+      }
+    },
+    {
+      "type": "CustomizationDirect"
+    }
+  ],
+  "description": {
+    "zh": "你好。你有没有遇到过正身处困境，却因为要拼搏求生，而来不及处理伤口的情况？在绝境中，抗压能力是能否生存下去的关键。想在塔科夫艰难度日，这项技能非常重要。给我展示展示你忍受痛苦的能力。",
+    "en": "Hello there. Has it ever happened to you that you got into trouble, but there is no time to take care of the wound as you have to save your skin? Self-control in the most difficult situations is the key to survival. This is a very important skill in these difficult days for our city. Show me how well you handle pain."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: HealthEffect",
+      "value": 3,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25bfd086f77442734d3007",
+      "name": {
+        "zh": "生存者之路 - Zhivchik",
+        "en": "The Survivalist Path - Zhivchik"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    },
+    {
+      "id": "5d25cf2686f77443e75488d4",
+      "name": {
+        "zh": "生存者之路 - 硬汉",
+        "en": "The Survivalist Path - Tough Guy"
+      }
+    },
+    {
+      "id": "5d25d2c186f77443e35162e5",
+      "name": {
+        "zh": "生存者之路 - 冷血",
+        "en": "The Survivalist Path - Cold Blooded"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5d67b41686f774368e1b78df.jpg",
+  "isKey": false
+}

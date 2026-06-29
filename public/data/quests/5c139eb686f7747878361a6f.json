@@ -1,0 +1,164 @@
+{
+  "id": "5c139eb686f7747878361a6f",
+  "name": {
+    "zh": "进口",
+    "en": "Import"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 29000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 85000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 85000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a1eaa87fcdbcb001865f75e",
+      "itemName": {
+        "zh": "Trijicon REAP-IR热成像步枪瞄准镜",
+        "en": "Trijicon REAP-IR thermal scope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d0377ce86f774186372f689",
+      "itemName": {
+        "zh": "Iridium军用热成像模块",
+        "en": "Iridium military thermal vision module"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59faff1d86f7746c51718c9c",
+      "itemName": {
+        "zh": "实体比特币",
+        "en": "Physical Bitcoin"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ba2678ad4351e44f824b344",
+      "itemName": {
+        "zh": "4.6x30毫米 FMJ SX",
+        "en": "4.6x30mm FMJ SX"
+      }
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": -0.01
+    }
+  ],
+  "description": {
+    "zh": "最近我偶然找到了一些设备……先是一些国外的储存设备，之后又是一些看上去像某种读取器的玩意儿。这么跟你说吧，这些玩意儿很“有趣”。最重要的是，这种稀罕货我是头一次见到。可能是封锁被突破了或者是某个秘密仓库被撬了，才让这些宝贝流通出来。它们很显然不是国内的土货，是之后能让我发财的洋宝贝。我得提一句，你得自己去找到它们，因为它们都是些高级货——不能靠那些二手贩子，它们只会拿垃圾玩意儿糊弄你。如果你能把它弄来，我能让你一块儿发财。",
+    "en": "I have recently stumbled upon some interesting devices... The first one appears to be some foreign storage device and the second one is apparently a reader of some sort. Extremely interesting pieces of tech, let me tell you. And most importantly, it’s the first time I’ve ever seen them. Maybe some kind of import broke through the blockade or somebody looted a secret warehouse. It's clearly not domestic production, so my money is on the latter. And hey, you'll need to find it yourself since it's high-quality equipment. You can't rely on resellers, they would fool you for sure. If you can bring them to me, I’ll make it worth your while."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c052fb986f7746b2101e909"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052fb986f7746b2101e909": {
+          "zh": "UHF RFID固定式读取器 ",
+          "en": "UHF RFID Reader"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c05300686f7746dce784e5d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c05300686f7746dce784e5d": {
+          "zh": "VPX闪存模块",
+          "en": "VPX Flash Storage Module"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c052fb986f7746b2101e909"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052fb986f7746b2101e909": {
+          "zh": "UHF RFID固定式读取器 ",
+          "en": "UHF RFID Reader"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c05300686f7746dce784e5d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c05300686f7746dce784e5d": {
+          "zh": "VPX闪存模块",
+          "en": "VPX Flash Storage Module"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ac3464c86f7741d651d6877",
+      "name": {
+        "zh": "挖矿 - 4",
+        "en": "Farming - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5ac4dbb086f7743e7c61ca09.jpg",
+  "isKey": false
+}

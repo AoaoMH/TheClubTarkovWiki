@@ -1,0 +1,132 @@
+{
+  "id": "626bd75d5bef5d7d590bd415",
+  "name": {
+    "zh": "头号机密",
+    "en": "Top Secret"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "628a60ae6b1d481ff772e9c8",
+      "itemName": {
+        "zh": "Rifle Dynamics RD-704 7.62x39突击步枪",
+        "en": "Rifle Dynamics RD-704 7.62x39 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6272874a6c47bd74f92e2087",
+      "itemName": {
+        "zh": "AK 7.62x39 FAB Defense Ultimag 30R 30发容量弹匣",
+        "en": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "6489851fc827d4637f01791b",
+      "itemName": {
+        "zh": "7.62x39mm MAI AP弹药包（20发装）",
+        "en": "7.62x39mm MAI AP ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "看看这是谁来了。你知道这座城市正在经历什么吗？别紧张，其实谁也不知道。但是我和你就要开始调查了。首先，我们要弄清楚，那些运输机装了什么，是谁派出的，就像冲突开始前就存在的那些东西。另外，森林里被击落的那架飞机还吊着我的胃口。帮我找到相关的情报。我会告诉你大致方向，你不会进死胡同的。灯塔的岛屿上有一座雷达站。那里一定有我们需要的所有情报，所以你得去检查指挥员的房间。完事之后，我来牵头完成剩下的工作。对了，这件事不能告诉任何人，好吗？这可是见不得人的东西，你懂的。",
+    "en": "Now look who we have here. Do you even know what's going on in the city right now? Relax, nobody knows. But you and I are gonna start investigating. First, we gotta find out what air deliveries were made and by whom, things like air deployments before the chaos emerged. Also, that plane that got shot down in the woods is still bugging me. Find me the intel of this kind. I'll hook you up with a general direction so you don't hit a dead end. There was an active radar station at the Lighthouse island. It must have all the intel we need. After that, I'll take the lead. Oh, also, not a word to anyone about this, okay? It's shady stuff, you know what I mean."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "qlight_extension_bariga1_exploration1",
+      "targetNames": {
+        "qlight_extension_bariga1_exploration1": {
+          "zh": "qlight_extension_bariga1_exploration1",
+          "en": "qlight_extension_bariga1_exploration1"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "628393620d8524273e7eb028"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "628393620d8524273e7eb028": {
+          "zh": "完好的硬盘驱动器",
+          "en": "Working hard drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "628393620d8524273e7eb028"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "628393620d8524273e7eb028": {
+          "zh": "完好的硬盘驱动器",
+          "en": "Working hard drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6179b4f16e9dd54ac275e407",
+      "name": {
+        "zh": "失踪货物",
+        "en": "Missing Cargo"
+      }
+    },
+    {
+      "id": "625d700cc48e6c62a440fab5",
+      "name": {
+        "zh": "邂逅",
+        "en": "Getting Acquainted"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/628b802d50261e312a790512.jpg",
+  "isKey": false
+}

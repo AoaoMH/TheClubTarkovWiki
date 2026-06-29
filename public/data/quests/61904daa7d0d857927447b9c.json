@@ -1,0 +1,103 @@
+{
+  "id": "61904daa7d0d857927447b9c",
+  "name": {
+    "zh": "隐士",
+    "en": "The Hermit"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 55000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 55000
+    }
+  ],
+  "description": {
+    "zh": "你好，雇佣兵。你应该知道，我已经因为这场浩劫几乎失去了身边的每一个人。甚至都没人陪我共进晚餐了。你倒是隔三差五会过来待上一两个小时，但是你还是得回去打你那已经没有意义的仗。呃，我不是说要给你施压。我有一个请求给你。我曾经有一个好朋友，我们简直像是同一个人——有着差不多的性格，彼此也惺惺相惜。他住在Cape Dalniy，那边的老村子里，但是远离人烟——他自己在郊区造了个独木舟。我不知道村子里还有没有人住，但我真的希望你能帮我找到我的朋友。我在这等你的消息，孩子。",
+    "en": "Hello, soldier. You know, I've lost almost everyone close to me because of this carnage around. There's nobody to even talk to at dinner. There's you who comes by for an hour or two, but you go back to that war of yours, even if there's no point in fighting anymore. Eh, I won't burden you with my talks. I have a request for you. I had a good friend, we always were very close together - similar in character, understood each other perfectly. He's set up at Cape Dalniy, in that old village, but far from the people - made a nice dugout for himself at the outskirts. I don't know if anyone still lives in that village, but I do want you to find my friend. I'll be waiting to hear from you, kid."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "qlight_hunt_fr_find",
+      "targetNames": {
+        "qlight_hunt_fr_find": {
+          "zh": "qlight_hunt_fr_find",
+          "en": "qlight_hunt_fr_find"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "61904c9df62c89219a56e034"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "61904c9df62c89219a56e034": {
+          "zh": "密封的信件",
+          "en": "Sealed letter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "61904c9df62c89219a56e034"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "61904c9df62c89219a56e034": {
+          "zh": "密封的信件",
+          "en": "Sealed letter"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e48186f77443e625e386",
+      "name": {
+        "zh": "礼节性拜访",
+        "en": "Courtesy Visit"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "5c51aac186f77432ea65c552",
+      "name": {
+        "zh": "收藏家",
+        "en": "Collector"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/61ab38781b7da753125cfaa5.jpg",
+  "isKey": false
+}

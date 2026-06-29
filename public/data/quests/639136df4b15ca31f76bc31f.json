@@ -1,0 +1,102 @@
+{
+  "id": "639136df4b15ca31f76bc31f",
+  "name": {
+    "zh": "猎人之路 - 管理者",
+    "en": "The Huntsman Path - Administrator"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5714dc692459777137212e12",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 81000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 81000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "让我们继续清理城市里的犯罪者吧，孩子？Pinewood酒店里有很多盗贼，他们看到东西就会抢走。帮我个忙，让塔科夫的空气更加清新，我会给你报酬的。",
+    "en": "Let's keep clearing the city of criminals, right, kid? There are a lot of looters at the Pinewood Hotel, taking whatever they see. Help me out, and I'll make sure to reward you for making the air in Tarkov cleaner. After you're done, make sure to signal me with the yellow flare in the courtyard."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: InZone",
+      "value": 20,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: LaunchFlare",
+      "value": 1,
+      "target": "quest_zone_prod_flare",
+      "targetNames": {
+        "quest_zone_prod_flare": {
+          "zh": "quest_zone_prod_flare",
+          "en": "quest_zone_prod_flare"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5d25e2cc86f77443e47ae019",
+      "name": {
+        "zh": "猎人之路 - 杀戮森林",
+        "en": "The Huntsman Path - Forest Cleaning"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "63a9b36cc31b00242d28a99f",
+      "name": {
+        "zh": "屠宰场",
+        "en": "Slaughterhouse"
+      }
+    },
+    {
+      "id": "6578eb36e5020875d64645cd",
+      "name": {
+        "zh": "猎人之路 - 坏警察",
+        "en": "The Huntsman Path - Crooked Cop"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/63a90faa64b9631d9178271e.jpg",
+  "isKey": false
+}

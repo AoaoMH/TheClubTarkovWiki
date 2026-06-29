@@ -1,0 +1,58 @@
+{
+  "id": "6894bc838bbdab4ab109929c",
+  "name": {
+    "zh": "诺文斯克的朋友 - 替代方案",
+    "en": "Friend from Norvinsk - Alternative Solution"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.01
+    }
+  ],
+  "description": {
+    "zh": "你任务拖太久了。Scav真的把所有东西都抢走了？算了，无所谓。接下来几天我日程排满了，所以我们得加快速度。我建议这样：给我钱，我自己去采购需要的东西。这样更快。\n\n或者你愿意的话也可以继续自己收集组件。",
+    "en": "You're taking too long to complete your task. Did the Scavs really snatch everything? Oh well, doesn't matter. My schedule is packed for the next few days, so we need to hurry up. Here's what I suggest: give me the money and I'll buy everything we need myself. It'll be faster that way.\n\nOr you can continue gathering the components yourself if you prefer."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1000000,
+      "target": [
+        "5449016a4bdc2d6f028b456f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5449016a4bdc2d6f028b456f": {
+          "zh": "卢布",
+          "en": "Roubles"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6863e09a5f4d17fd3e01feee",
+      "name": {
+        "zh": "诺文斯克的朋友 - 第三部分",
+        "en": "Friend from Norvinsk - Part 3"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/68822594ef61b084eb0015a6.jpg",
+  "isKey": false
+}

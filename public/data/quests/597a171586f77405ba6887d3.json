@@ -1,0 +1,100 @@
+{
+  "id": "597a171586f77405ba6887d3",
+  "name": {
+    "zh": "大客户",
+    "en": "Big Customer"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Completion",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 200000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 200000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5df8a2ca86f7740bfe6df777",
+      "itemName": {
+        "zh": "6B2 防弹衣（丛林迷彩）",
+        "en": "6B2 body armor (Flora)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5aafbde786f774389d0cbc0f",
+      "itemName": {
+        "zh": "弹药箱",
+        "en": "Ammunition case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嗨呀！这个世界可真小，我发现你最近在和Skier合作了，那我们直接谈生意吧。我需要知道你那些化学药品的位置，有个大客户愿意出好价买下所有药品。我不在乎他为什么要买，我只是手头有点紧。你想不想干一票？",
+    "en": "Good afternoon! Our world is really small here - I found out that you’ve been teaming up with Skier lately. Let’s go straight to business - I need to know where to get that chemical of yours, a big customer wants to buy out all the crates for a good price. I don’t care why he needs it, I’m a bit tighter on funds now than I would like to be. So, are you in? I won't disappoint with the reward, of course."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "gazel",
+      "targetNames": {
+        "gazel": {
+          "zh": "gazel",
+          "en": "gazel"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "597a0f5686f774273b74f676",
+      "name": {
+        "zh": "化学品 - 4",
+        "en": "Chemical - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "59ca1a6286f774509a270942",
+      "name": {
+        "zh": "无意冒犯",
+        "en": "No Offence"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.jpg",
+  "isKey": false
+}

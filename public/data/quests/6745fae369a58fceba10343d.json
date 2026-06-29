@@ -1,0 +1,84 @@
+{
+  "id": "6745fae369a58fceba10343d",
+  "name": {
+    "zh": "人往高处走",
+    "en": "The Higher They Fly"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Elimination",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 550,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 550
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aafbde786f774389d0cbc0f",
+      "itemName": {
+        "zh": "弹药箱",
+        "en": "Ammunition case"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "嘿！嘿！有一个替我干活的人，最近被自己的野心给蒙蔽住了，都想脱离我自己单干了。当然，我有的是手段料理这种情况。但现在的问题是他把一些 PMC 也给拖下水了。我不知道他们究竟是被小恩小惠给一时收买了，还是直接踹开我和那个骡子混到一起去了。\n\n问题是，这件事牵扯进来的人已经够多了，所以这些同情心泛滥的傻子必须被处理掉。这帮人上次行动是在 Priozersk 自然保护区里，所以你得从那开始下手。",
+    "en": "Hello-hello. I've got a worker guy who's gotten a little carried away with his ambitions. Obviously, I'll handle it later. The problem right now is that some PMCs are getting involved. I don't know if they've been bribed, or maybe they're in cahoots with this mule of mine.\n\nThing is, I don't need any extra faces in this matter, so these good little helpers need to be taken out of the picture. Last time they \"operated\" in the Priozersk area, so you're gonna start there."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "location": "Woods"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6752f6d83038f7df520c83e8",
+      "name": {
+        "zh": "一臂之力",
+        "en": "A Helping Hand"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674600a366e6a521aa05eb66",
+      "name": {
+        "zh": "偏离路线",
+        "en": "Route Deviation"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/59675e7b86f77414b25fb049.jpg",
+  "isKey": false
+}

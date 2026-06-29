@@ -1,0 +1,101 @@
+{
+  "id": "6744a728352b4da8e003eda9",
+  "name": {
+    "zh": "电池换新",
+    "en": "Battery Change"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "Discover",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 58700
+    },
+    {
+      "type": "Item",
+      "value": 284000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 284000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "591094e086f7747caa7bb2ef",
+      "itemName": {
+        "zh": "防弹衣维修套件",
+        "en": "Body armor repair kit"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你那边的谈判究竟怎么样了？我的意思是，我知道 Prapor 需要时间考虑，但是我真的没有时间了！你在外头牵线搭桥的时候，我这里还得正常过活啊！当然，只是有点急躁，没有怪你的意思。\n\n我现在连备用电池都没有了，车上的电子设备随时可能会罢工。就算是坦克电池也行啊——虽然型号不对，但是总归能让我的 BTR 用上电。\n\n你能帮我找一块坦克电池来吗？要是没了电，我这也基本算是完了。",
+    "en": "How are the negotiations progressing? I mean, I understand that Prapor needs to mull it over first, but I'm running out of time! Gotta survive somehow while you're building bridges. No complaints against you, obviously.\n\nI don't even have any spare batteries now, and electronics can go to shit at any moment. I could even do with a tank battery right now, I might be able to make it work with my BTR.\n\nYou think you can find one of those? Because without it, it's over for me."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d03794386f77420415576f5"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d03794386f77420415576f5": {
+          "zh": "6-STEN-140-M军用电池",
+          "en": "6-STEN-140-M military battery"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d03794386f77420415576f5"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d03794386f77420415576f5": {
+          "zh": "6-STEN-140-M军用电池",
+          "en": "6-STEN-140-M military battery"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6740a3f4eca8acb2d2055159",
+      "name": {
+        "zh": "横插一杠",
+        "en": "Stick in the Wheel"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6744af0969a58fceba101fed",
+      "name": {
+        "zh": "独立的代价",
+        "en": "The Price of Independence"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/675b0854eaef91cffa0f04fe.jpg",
+  "isKey": false
+}

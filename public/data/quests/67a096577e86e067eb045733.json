@@ -1,0 +1,137 @@
+{
+  "id": "67a096577e86e067eb045733",
+  "name": {
+    "zh": "暗藏玄机",
+    "en": "Hidden Layer"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 50000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 50000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6165ac306ef05c2ce828ef74",
+      "itemName": {
+        "zh": "FN SCAR-H 7.62x51 突击步枪 (FDE)",
+        "en": "FN SCAR-H 7.62x51 assault rifle (FDE)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "6183d53f1cb55961fa0fdcda",
+      "itemName": {
+        "zh": "FN SCAR-H 7.62x51 20发弹匣 （FDE）",
+        "en": "FN SCAR-H 7.62x51 20-round magazine (FDE)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装）",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你懂的，我又把整件事情复盘了一遍，现在我相当确信 TerraGroup 与 Knossos 之间的合作关系暗藏玄机。虽然现在还不知道他们到底在隐瞒什么，但这只能说明我们的调查还没有真正触及到更深层次。我们得把所有东西再查一遍。\n\n试着再检查一遍清单上的所有 Knossos 设施，这次最好检查一下周围的附属建筑。尽管我的建议上一次没能帮你找到正确的结果……因此这一次你得依靠自己的技巧与直觉行事了。希望这回的运气能好点吧。",
+    "en": "You know, I've thought it over again and I'm definitely positive there's a hidden layer to TerraGroup's connection with Knossos. Granted, we don't know what they were hiding yet, but that just means we haven't searched hard enough. We need to double-check everything again.\n\nTry to examine the Knossos facilities from the list again, you can also check out the adjacent buildings. Although last time my advice didn't lead you to a proper result... This time, you'd better trust your skills and intuition. Maybe we'll get lucky this way."
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_03_mech_place_01",
+      "targetNames": {
+        "event_labyrinth_03_mech_place_01": {
+          "zh": "event_labyrinth_03_mech_place_01",
+          "en": "event_labyrinth_03_mech_place_01"
+        }
+      }
+    },
+    {
+      "type": "Discover",
+      "description": "Discover: VisitPlace",
+      "value": 1,
+      "target": "event_labyrinth_03_mech_place_02",
+      "targetNames": {
+        "event_labyrinth_03_mech_place_02": {
+          "zh": "event_labyrinth_03_mech_place_02",
+          "en": "event_labyrinth_03_mech_place_02"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "679b9716597ba2ed120c3d3f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679b9716597ba2ed120c3d3f": {
+          "zh": "Knossos LLC 设施钥匙",
+          "en": "Knossos LLC facility key"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67a0964e972c11a3f507731b",
+      "name": {
+        "zh": "大海捞针",
+        "en": "Needle in a Haystack"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67a0966817e34930e500754c",
+      "name": {
+        "zh": "强制结盟",
+        "en": "Forced Alliance"
+      }
+    },
+    {
+      "id": "67a0967c003a9986cb0f5ac1",
+      "name": {
+        "zh": "感官分析 - 1",
+        "en": "Sensory Analysis - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/67e407b1bbf507ac3b068a53.jpg",
+  "isKey": false
+}

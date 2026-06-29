@@ -1,0 +1,170 @@
+{
+  "id": "5969f9e986f7741dde183a50",
+  "name": {
+    "zh": "药剂师",
+    "en": "Pharmacist"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5700
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 25000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 25000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60098ad7c2240c0fe85c570a",
+      "itemName": {
+        "zh": "AFAK单兵战术急救包",
+        "en": "AFAK tactical individual first aid kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d1b3a5d86f774252167ba22",
+      "itemName": {
+        "zh": "一堆药",
+        "en": "Pile of meds"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我想请你帮个忙，别摆出那副样子，当然不是义务劳动！在一个小宿舍里，没错，就是那个被强盗霸占的地方，一楼的某个地方住过一个来自工厂的年轻救护员。不幸的是，我不知道房间是多少号了。在医务工作者日那天，天色已晚，聚会正酣，你懂的。而且，他当时已是个年轻的专家，虽然还是个实习生，但是非常热心，想去圣彼得堡当个军医。在他房间的保险箱里，放了一个很特别的新型医疗装置，这是他上面的人给他的。这家伙试过开着他的蓝色伏尔加2109，把圣彼得堡的宝贝带出城。我不知道他成没成功，但是我听说他要么被困在了加油站附近，要么被军方抓走了。不管怎样，我觉得我能把那个工具用在正当的地方。当你眼前一黑的时候，或许用得上。当然我不希望这样的事发生，别把我想那么坏。不过……我觉得你比我更看的开，找到它。啊对了，我差点忘说了，Arshavir和我们对这件事同样感兴趣。他有个好东西给你，当然你得先把差事干完。",
+    "en": "I want to ask you for a service. Don't put up that look, of course, it's not for free! In a small dorm, yes, the one inhabited by those bandits, somewhere on the first floor used to live a young paramedic from the factory. Unfortunately, I do not know the room number - when my colleagues and I were his guests on the Medical Worker Day, it was already dark, and in the middle of a party, you see. Well, he was a young specialist, still an intern, but very enthusiastic. Planned to enroll in the Military Medical Academy in St. Petersburg. And in his safe, right there in the room, he kept a case with the particular new medical device. Issued to him by the employer. He tried to get out of town on his blue VAZ 2109 with Saint Petersburg plates. I don't know if he managed to get out or not, but as far as I have heard, he either got stuck near the gas station or apprehended by the military. In any case, I could really put that tool to good use. Come the darkest hour, and you might need it as well. Not that I wish for that to happen, don’t get me wrong, but... I assume you understand everything better than I do. I need you to find it. Oh yes, I almost forgot, we have common interests with Arshavir in this matter. He has a good product for you. After you complete the task, of course."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5910922b86f7747d96753483"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5910922b86f7747d96753483": {
+          "zh": "碳纤维保险箱",
+          "en": "Carbon case"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5910922b86f7747d96753483"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5910922b86f7747d96753483": {
+          "zh": "碳纤维保险箱",
+          "en": "Carbon case"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "vaz_feld",
+      "targetNames": {
+        "vaz_feld": {
+          "zh": "vaz_feld",
+          "en": "vaz_feld"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "room114",
+      "targetNames": {
+        "room114": {
+          "zh": "room114",
+          "en": "room114"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5969f90786f77420d2328015",
+      "name": {
+        "zh": "止痛药",
+        "en": "Painkiller"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "596a0e1686f7741ddf17dbee",
+      "name": {
+        "zh": "供给计划",
+        "en": "Supply Plans"
+      }
+    },
+    {
+      "id": "596a1e6c86f7741ddc2d3206",
+      "name": {
+        "zh": "一般储备",
+        "en": "General Wares"
+      }
+    },
+    {
+      "id": "596a218586f77420d232807c",
+      "name": {
+        "zh": "汽车修理",
+        "en": "Car Repair"
+      }
+    },
+    {
+      "id": "5a68661a86f774500f48afb0",
+      "name": {
+        "zh": "医疗隐私 - 1",
+        "en": "Health Care Privacy - Part 1"
+      }
+    },
+    {
+      "id": "60896e28e4a85c72ef3fa301",
+      "name": {
+        "zh": "病历",
+        "en": "Disease History"
+      }
+    },
+    {
+      "id": "639135d89444fb141f4e6eea",
+      "name": {
+        "zh": "人口普查",
+        "en": "Population Census"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5979d36d86f7746d093ddd7a.jpg",
+  "isKey": false
+}
