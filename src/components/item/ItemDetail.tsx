@@ -1,7 +1,14 @@
-import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft, HelpCircle, Copy, Check } from 'lucide-react'
+import { ArrowLeft, HelpCircle, Copy } from 'lucide-react'
+import { toast } from 'sonner'
+import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbSeparator, BreadcrumbPage } from '@/components/ui/breadcrumb'
+import { Skeleton } from '@/components/ui/skeleton'
+import { Card, CardContent } from '@/components/ui/card'
+import { Tooltip, TooltipContent, TooltipTrigger } from '@/components/ui/tooltip'
+import { Badge } from '@/components/ui/badge'
+import { Button } from '@/components/ui/button'
+import { Empty } from '@/components/ui/empty'
 import { useItemDetail, useCategories, getTypeNameZH } from '@/hooks/useItems'
 import type { HealthEffect, StimBuff, ItemEffects } from '@/hooks/useItems'
 
@@ -34,12 +41,14 @@ function StatRowWithTip({ label, tip, value, unit, showZero }: {
     <div className="flex justify-between items-baseline py-1.5 border-b border-border/50 last:border-0 gap-3">
       <span className="text-sm text-muted-foreground shrink-0 inline-flex items-center gap-1">
         {label}
-        <span className="relative group inline-block">
-          <HelpCircle size={13} className="text-muted-foreground/60 hover:text-primary cursor-help transition-colors" />
-          <span className="pointer-events-none absolute bottom-full left-1/2 -translate-x-1/2 mb-1.5 w-56 px-2.5 py-1.5 rounded-md bg-popover border border-border shadow-lg text-xs text-popover-foreground opacity-0 group-hover:opacity-100 transition-opacity z-50">
-            {tip}
-          </span>
-        </span>
+        <Tooltip>
+          <TooltipTrigger asChild>
+            <button><HelpCircle size={13} className="text-muted-foreground/60 hover:text-primary cursor-help transition-colors" /></button>
+          </TooltipTrigger>
+          <TooltipContent side="top" className="w-56">
+            <p>{tip}</p>
+          </TooltipContent>
+        </Tooltip>
       </span>
       <span className="text-sm font-medium">
         {value}{unit && <span className="text-muted-foreground ml-0.5">{unit}</span>}
@@ -69,12 +78,12 @@ function ColoredStatRow({ label, value, unit, invertColor, showZero }: {
 
 function Section({ title, children }: { title: string; children: React.ReactNode }) {
   return (
-    <div className="bg-card border border-border rounded-lg">
-      <div className="px-4 py-2.5 bg-secondary/50 border-b border-border">
-        <h3 className="text-sm font-semibold">{title}</h3>
+    <Card className="py-0 gap-0">
+      <div className="px-4 py-2 bg-secondary/50 border-b border-border">
+        <h3 className="text-sm font-semibold leading-none">{title}</h3>
       </div>
-      <div className="p-4">{children}</div>
-    </div>
+      <CardContent className="p-4">{children}</CardContent>
+    </Card>
   )
 }
 
@@ -348,22 +357,35 @@ export function ItemDetail() {
   const { item, loading } = useItemDetail(id || null)
   const { categories } = useCategories()
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
-  const [copied, setCopied] = useState(false)
 
   const category = item?.handbook.categoryId ? categories.find(c => c.id === item.handbook.categoryId) : null
 
   if (loading) {
-    return <div className="flex items-center justify-center h-64 text-muted-foreground">{t('loading')}</div>
+    return (
+      <div className="space-y-4">
+        <Skeleton className="h-5 w-48" />
+        <div className="flex gap-6">
+          <Skeleton className="h-32 w-32 rounded-lg" />
+          <div className="flex-1 space-y-2">
+            <Skeleton className="h-8 w-3/4" />
+            <Skeleton className="h-4 w-1/2" />
+            <Skeleton className="h-4 w-full" />
+          </div>
+        </div>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+          <Skeleton className="h-48 rounded-lg" />
+          <Skeleton className="h-48 rounded-lg" />
+        </div>
+      </div>
+    )
   }
 
   if (!item) {
     return (
-      <div className="flex flex-col items-center justify-center h-64 gap-4">
+      <Empty className="h-64">
         <p className="text-muted-foreground">{t('noResults')}</p>
-        <Link to="/" className="text-primary text-sm flex items-center gap-1">
-          <ArrowLeft size={14} /> {t('back')}
-        </Link>
-      </div>
+        <Button asChild variant="outline"><Link to="/"><ArrowLeft size={14} className="mr-1" /> {t('back')}</Link></Button>
+      </Empty>
     )
   }
 
@@ -373,8 +395,7 @@ export function ItemDetail() {
   const typeNameZH = lang === 'zh' ? getTypeNameZH(item.typeName) : item.typeName
   const copyName = () => {
     navigator.clipboard.writeText(common.name[lang]).then(() => {
-      setCopied(true)
-      setTimeout(() => setCopied(false), 1500)
+      toast.success(t('nameCopied'))
     })
   }
 
@@ -412,19 +433,31 @@ export function ItemDetail() {
     : []
 
   return (
-    <div className="max-w-4xl">
+    <div>
       {/* Breadcrumb */}
-      <div className="flex items-center gap-2 text-sm text-muted-foreground mb-4">
-        <Link to="/" className="hover:text-primary">{t('allItems')}</Link>
-        {category && (
-          <>
-            <span>/</span>
-            <Link to={`/category/${category.id}`} className="hover:text-primary">
-              {category.name[lang]}
-            </Link>
-          </>
-        )}
-      </div>
+      <Breadcrumb className="mb-4">
+        <BreadcrumbList>
+          <BreadcrumbItem>
+            <BreadcrumbLink asChild>
+              <Link to="/">{t('allItems')}</Link>
+            </BreadcrumbLink>
+          </BreadcrumbItem>
+          {category && (
+            <>
+              <BreadcrumbSeparator />
+              <BreadcrumbItem>
+                <BreadcrumbLink asChild>
+                  <Link to={`/category/${category.id}`}>{category.name[lang]}</Link>
+                </BreadcrumbLink>
+              </BreadcrumbItem>
+            </>
+          )}
+          <BreadcrumbSeparator />
+          <BreadcrumbItem>
+            <BreadcrumbPage>{common.name[lang]}</BreadcrumbPage>
+          </BreadcrumbItem>
+        </BreadcrumbList>
+      </Breadcrumb>
 
       {/* Header */}
       <div className="flex gap-6 mb-6">
@@ -442,17 +475,17 @@ export function ItemDetail() {
           <h1 className="text-2xl font-bold mb-1 inline-flex items-center gap-2">
             <span>{common.name[lang]}</span>
             {item.isMod && (
-              <span className="text-xs font-medium px-1.5 py-0.5 rounded bg-primary/20 text-primary">
-                MOD
-              </span>
+              <Badge variant="secondary">MOD</Badge>
             )}
-            <button
+            <Button
+              variant="ghost"
+              size="icon"
               onClick={copyName}
-              className="text-muted-foreground/50 hover:text-primary transition-colors"
+              className="h-6 w-6"
               title={lang === 'zh' ? '复制名称' : 'Copy name'}
             >
-              {copied ? <Check size={16} className="text-green-400" /> : <Copy size={15} />}
-            </button>
+              <Copy size={15} />
+            </Button>
           </h1>
           <p className="text-sm text-muted-foreground mb-3">{common.shortName[lang]} · {typeNameZH}</p>
           <p className="text-sm text-muted-foreground leading-relaxed">{common.description[lang]}</p>
@@ -463,7 +496,7 @@ export function ItemDetail() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         {/* Common */}
         <Section title={t('common')}>
-          <StatRow label={t('weight')} value={common.weight} unit={t('kg')} />
+          <StatRow label={t('weight')} value={Math.round(common.weight * 1000) / 1000} unit={t('kg')} />
           <StatRow label={t('size')} value={`${common.width}×${common.height}`} />
           <StatRow label={t('rarity')} value={t(`rare_${common.rarity}` as 'rare_Common')} />
           <StatRow label={t('price')} value={item.handbook.price > 0 ? `₽${item.handbook.price.toLocaleString()}` : '-'} />
@@ -471,7 +504,7 @@ export function ItemDetail() {
 
         {/* Weapon */}
         {properties.weapon && (
-          <Section title={t('weapon')}>
+          <Section title={t('performance')}>
             <StatRow label={t('caliber')} value={formatCaliber(properties.weapon.caliber as string)} />
             <StatRow label={t('fireRate')} value={properties.weapon.fireRate as number} unit={t('rpm')} />
             <StatRow label={t('effectiveRange')} value={properties.weapon.effectiveRange as number} unit={t('meters')} />
@@ -592,7 +625,7 @@ export function ItemDetail() {
         )}
 
         {/* Armor - not for headwear/facecover */}
-        {properties.armor && item.category !== 'headwear' && item.category !== 'facecover' && (
+        {properties.armor && item.category !== 'headwear' && item.category !== 'facecover' && item.category !== 'weapon' && (
           <Section title={t('performance')}>
             {(properties.armor.armorType as string) && (properties.armor.armorType as string) !== 'None' && (
               <StatRow label={t('armorType')} value={t(`armorType_${properties.armor.armorType}` as 'armorType_Light')} />

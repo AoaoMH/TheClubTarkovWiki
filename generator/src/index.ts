@@ -30,7 +30,7 @@ async function main() {
 
   // Step 3: Merge mod data into base
   console.log('\n--- Step 3: Merging mod data ---')
-  const { items: mergedItems, modItemIds } = mergeModItems(baseItems, mods)
+  const { items: mergedItems, modItemIds } = mergeModItems(baseItems, mods, handbook)
   const mergedLocales = mergeModLocales(baseLocales, mods)
 
   // Step 4: Build type hierarchy

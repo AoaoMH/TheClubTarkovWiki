@@ -4,6 +4,7 @@ import { AppLayout } from '@/components/layout/AppLayout'
 import { ItemGrid } from '@/components/item/ItemCard'
 import { ItemDetail } from '@/components/item/ItemDetail'
 import { AmmoView } from '@/components/item/AmmoPage'
+import { Skeleton } from '@/components/ui/skeleton'
 import { useCategories, useCategorySummaries } from '@/hooks/useItems'
 
 const AMMO_ROOT_CATEGORY_ID = '5b47574386f77428ca22b346'
@@ -15,7 +16,16 @@ function HomePage() {
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
 
   if (loading) {
-    return <div className="flex items-center justify-center h-64 text-muted-foreground">{t('loading')}</div>
+    return (
+      <div>
+        <Skeleton className="h-7 w-32 mb-4" />
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 gap-3">
+          {Array.from({ length: 12 }).map((_, i) => (
+            <Skeleton key={i} className="h-28 rounded-lg" />
+          ))}
+        </div>
+      </div>
+    )
   }
 
   // Collect all categories with items for the navigation grid
@@ -72,7 +82,17 @@ function CategoryPage() {
   const caliberFilter = searchParams.get('caliber') || undefined
 
   if (loading) {
-    return <div className="flex items-center justify-center h-64 text-muted-foreground">{t('loading')}</div>
+    return (
+      <div>
+        <Skeleton className="h-7 w-48 mb-1" />
+        <Skeleton className="h-4 w-24 mb-4" />
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-6 2xl:grid-cols-8 gap-3">
+          {Array.from({ length: 12 }).map((_, i) => (
+            <Skeleton key={i} className="h-28 rounded-lg" />
+          ))}
+        </div>
+      </div>
+    )
   }
 
   if (isAmmoCategory) {

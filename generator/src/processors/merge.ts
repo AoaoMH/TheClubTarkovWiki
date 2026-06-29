@@ -1,4 +1,4 @@
-import type { SPTItemsMap, SPTItem, ModCustomItemsMap, Locales } from '../types.js'
+import type { SPTItemsMap, SPTItem, ModCustomItemsMap, Locales, Handbook } from '../types.js'
 import type { ModData } from '../readers/mods.js'
 
 /**
@@ -7,10 +7,12 @@ import type { ModData } from '../readers/mods.js'
  * 1. Clone the base template (itemTplToClone)
  * 2. Override with custom properties
  * 3. Set new ID and parent
+ * 4. Add to handbook so the item appears in category listings
  */
 export function mergeModItems(
   baseItems: SPTItemsMap,
-  mods: ModData[]
+  mods: ModData[],
+  handbook: Handbook
 ): { items: SPTItemsMap; modItemIds: Set<string> } {
   const items = { ...baseItems }
   const modItemIds = new Set<string>()
@@ -40,6 +42,14 @@ export function mergeModItems(
 
       items[itemId] = cloned
       modItemIds.add(itemId)
+
+      // Add mod item to handbook so it appears in category listings
+      const baseHandbookEntry = handbook.Items.find(hi => hi.Id === customItem.itemTplToClone)
+      handbook.Items.push({
+        Id: itemId,
+        ParentId: customItem.handbookParentId || baseHandbookEntry?.ParentId || '',
+        Price: baseHandbookEntry?.Price || 0,
+      })
     }
   }
 
