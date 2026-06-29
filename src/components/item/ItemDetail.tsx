@@ -75,6 +75,9 @@ const EFFECT_NAME_ZH: Record<string, string> = {
   HandsTremor: '双手颤栗', Painkiller: '止疼药生效中',
   // === Hardcoded (not in game locale) ===
   Energy: '能量', Hydration: '水分', RadExposure: '辐射',
+  RemoveAllBloodLosses: '清除全部失血', DamageModifier: '伤害修正',
+  Antidote: '解毒', BodyTemperature: '体温',
+  DestroyedPart: '部位损毁', Intoxication: '中毒',
 }
 
 const SKILL_NAME_ZH: Record<string, string> = {
@@ -84,7 +87,7 @@ const SKILL_NAME_ZH: Record<string, string> = {
   Intellect: '智力', Attention: '专注', Charisma: '魅力',
   Metabolism: '代谢', EnergyRate: '能量恢复', Immunity: '免疫',
   Energy: '能量', Hydration: '水分', HealthRate: '生命恢复',
-  StaminaRate: '耐力恢复',
+  StaminaRate: '耐力恢复', Perception: '感知',
 }
 
 const BUFF_TYPE_ZH: Record<string, string> = {
@@ -95,6 +98,10 @@ const BUFF_TYPE_ZH: Record<string, string> = {
   EnergyRate: '能量恢复', Immunity: '免疫', Energy: '能量',
   // === Hardcoded (not in game locale) ===
   SkillRate: '技能倍率', Painkiller: '止疼药生效中',
+  HydrationRate: '水分恢复', Contusion: '脑震荡',
+  MaxStamina: '最大耐力', RemoveAllBloodLosses: '清除全部失血',
+  DamageModifier: '伤害修正', Antidote: '解毒',
+  BodyTemperature: '体温', Pain: '疼痛',
 }
 
 function getEffectName(type: string, lang: 'zh' | 'en'): string {
