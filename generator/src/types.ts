@@ -191,6 +191,21 @@ export interface FoodDrinkProps {
   effects: ItemEffects
 }
 
+export interface HeadwearProps {
+  armorClass: number
+  durability: number
+  maxDurability: number
+  armorType: string
+  armorMaterial: string
+  zones: string[]
+  ricochetChance: number
+  blindnessProtection: number
+  speedPenalty: number
+  turnSpeed: number
+  ergonomicsPenalty: number
+  deafStrength: string
+}
+
 export interface SlotInfo {
   name: string
   id: string
@@ -231,6 +246,7 @@ export interface WikiItem {
     medical?: MedicalProps
     mod?: ModProps
     foodDrink?: FoodDrinkProps
+    headwear?: HeadwearProps
     resolvedSlots?: ResolvedSlot[]
     resolvedConflicts?: Array<{
       id: string

@@ -3,7 +3,7 @@ import type {
   SPTItemsMap, SPTItem, Handbook, Locales,
   WikiItem, ItemCategory, SlotInfo, ResolvedSlot, ItemNameEntry,
   WeaponProps, AmmoProps, AmmoBoxProps, ArmorProps, MedicalProps, ModProps, FoodDrinkProps,
-  HealthEffect, StimBuff, ItemEffects, StimulatorBuffsMap
+  HeadwearProps, HealthEffect, StimBuff, ItemEffects, StimulatorBuffsMap
 } from '../types.js'
 
 export interface NormalizeResult {
@@ -167,7 +167,7 @@ function extractArmorProps(item: SPTItem): ArmorProps | undefined {
   const p = item._props
   if (!p.ArmorClass && !p.armorClass) return undefined
   return {
-    armorClass: (p.ArmorClass || p.armorClass || 0) as number,
+    armorClass: Number(p.ArmorClass || p.armorClass || 0),
     durability: (p.Durability as number) || 0,
     maxDurability: (p.MaxDurability as number) || 0,
     material: (p.ArmorMaterial as string) || '',
@@ -269,6 +269,73 @@ function extractModProps(item: SPTItem): ModProps | undefined {
   }
 }
 
+function extractHeadwearProps(item: SPTItem, items: SPTItemsMap): HeadwearProps | undefined {
+  const p = item._props
+  // Only process items that have headwear-related properties
+  const armorType = (p.ArmorType as string) || ''
+  const armorMaterial = (p.ArmorMaterial as string) || ''
+  const hasHeadwearProps = armorType || armorMaterial || p.DeafStrength ||
+    p.BlindnessProtection !== undefined || p.speedPenaltyPercent !== undefined
+
+  if (!hasHeadwearProps) return undefined
+
+  // Compute effective armor class: check child armor components if base is 0
+  let armorClass = Number(p.armorClass || p.ArmorClass || 0)
+  let durability = (p.Durability as number) || 0
+  let maxDurability = (p.MaxDurability as number) || 0
+  let zones: string[] = Array.isArray(p.armorZone) ? p.armorZone as string[] : []
+
+  // Check child armor slots for effective values
+  const armorSlotNames = ['Helmet_top', 'Helmet_back', 'Helmet_ears', 'Helmet_eyes', 'Helmet_jaw']
+  const slots = item._props.Slots as Array<Record<string, unknown>> | undefined
+  if (Array.isArray(slots)) {
+    for (const slot of slots) {
+      const slotName = slot._name as string
+      if (!armorSlotNames.includes(slotName)) continue
+      const slotProps = slot._props as Record<string, unknown> | undefined
+      if (!slotProps?.filters) continue
+      for (const f of slotProps.filters as Array<Record<string, unknown>>) {
+        if (!Array.isArray(f.Filter)) continue
+        for (const filterId of f.Filter as string[]) {
+          const childItem = items[filterId]
+          if (!childItem) continue
+          const cp = childItem._props
+          const childAC = Number(cp.armorClass || cp.ArmorClass || 0)
+          if (childAC > armorClass) armorClass = childAC
+          const childDur = (cp.MaxDurability as number) || 0
+          if (childDur > maxDurability) {
+            maxDurability = childDur
+            durability = (cp.Durability as number) || childDur
+          }
+          const childZones = Array.isArray(cp.armorZone) ? cp.armorZone as string[] : []
+          for (const z of childZones) {
+            if (!zones.includes(z)) zones.push(z)
+          }
+        }
+      }
+    }
+  }
+
+  // Ricochet chance from RicochetParams.z
+  const ricochetParams = p.RicochetParams as Record<string, number> | undefined
+  const ricochetChance = ricochetParams?.z ?? 0
+
+  return {
+    armorClass,
+    durability,
+    maxDurability,
+    armorType,
+    armorMaterial,
+    zones,
+    ricochetChance,
+    blindnessProtection: (p.BlindnessProtection as number) || 0,
+    speedPenalty: (p.speedPenaltyPercent as number) || 0,
+    turnSpeed: (p.mousePenalty as number) || 0,
+    ergonomicsPenalty: (p.weaponErgonomicPenalty as number) || 0,
+    deafStrength: (p.DeafStrength as string) || '',
+  }
+}
+
 function extractFoodDrinkProps(item: SPTItem, stimBuffsMap: StimulatorBuffsMap): FoodDrinkProps | undefined {
   const p = item._props
   // Food/drink items have foodUseTime or foodEffectType
@@ -348,6 +415,7 @@ export function normalizeItems(ctx: NormalizeContext): NormalizeResult {
     const med = extractMedicalProps(item, stimBuffsMap)
     const mod = extractModProps(item)
     const fd = extractFoodDrinkProps(item, stimBuffsMap)
+    const hw = category === 'headwear' ? extractHeadwearProps(item, items) : undefined
     if (wpn) properties.weapon = wpn
     if (ammo) properties.ammo = ammo
     if (ammoBox) properties.ammoBox = ammoBox
@@ -355,6 +423,7 @@ export function normalizeItems(ctx: NormalizeContext): NormalizeResult {
     if (med) properties.medical = med
     if (mod) properties.mod = mod
     if (fd) properties.foodDrink = fd
+    if (hw) properties.headwear = hw
 
     const slots = extractSlots(item)
     const isMod = modItemIds.has(id)

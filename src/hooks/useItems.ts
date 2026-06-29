@@ -71,6 +71,7 @@ export interface WikiItem {
       useTime: number
       effects: ItemEffects
     }
+    headwear?: Record<string, unknown>
     resolvedSlots?: Array<{
       name: string
       filters: Array<{

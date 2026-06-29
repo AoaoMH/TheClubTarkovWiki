@@ -11,8 +11,9 @@ function formatCaliber(caliber: string): string {
   return caliber.replace(/^Caliber/i, '').replace(/(\d+)x(\d+)/, '$1x$2mm')
 }
 
-function StatRow({ label, value, unit }: { label: string; value: string | number; unit?: string }) {
-  if (value === undefined || value === null || value === '' || value === 0) return null
+function StatRow({ label, value, unit, showZero }: { label: string; value: string | number; unit?: string; showZero?: boolean }) {
+  if (value === undefined || value === null || value === '') return null
+  if (!showZero && value === 0) return null
   return (
     <div className="flex justify-between py-1.5 border-b border-border/50 last:border-0">
       <span className="text-sm text-muted-foreground">{label}</span>
@@ -23,10 +24,11 @@ function StatRow({ label, value, unit }: { label: string; value: string | number
   )
 }
 
-function ColoredStatRow({ label, value, unit, invertColor }: {
-  label: string; value: number; unit?: string; invertColor?: boolean
+function ColoredStatRow({ label, value, unit, invertColor, showZero }: {
+  label: string; value: number; unit?: string; invertColor?: boolean; showZero?: boolean
 }) {
-  if (!value) return null
+  if (!value && !showZero) return null
+  if (showZero && value === undefined) return null
   const sign = value > 0 ? '+' : ''
   // invertColor=true means negative is good (like recoil)
   const isGood = invertColor ? value < 0 : value > 0
@@ -35,7 +37,7 @@ function ColoredStatRow({ label, value, unit, invertColor }: {
     <div className="flex justify-between py-1.5 border-b border-border/50 last:border-0">
       <span className="text-sm text-muted-foreground">{label}</span>
       <span className={`text-sm font-medium ${color}`}>
-        {sign}{value}{unit && <span className="text-muted-foreground ml-0.5">{unit}</span>}
+        {sign}{value}{unit && unit}
       </span>
     </div>
   )
@@ -50,6 +52,50 @@ function Section({ title, children }: { title: string; children: React.ReactNode
       <div className="p-4">{children}</div>
     </div>
   )
+}
+
+// ArmorType translation
+const ARMOR_TYPE_ZH: Record<string, string> = {
+  Light: '轻型', Heavy: '重型', Medium: '中型',
+}
+
+// ArmorMaterial translation (from game locale)
+const ARMOR_MATERIAL_ZH: Record<string, string> = {
+  UHMWPE: 'UHMWPE', Aramid: '芳纶', Combined: '复合材料',
+  Titanium: '钛合金', Steel: '钢', Ceramic: '陶瓷',
+  Aluminium: '铝合金', Glass: '玻璃',
+}
+
+// DeafStrength translation
+const DEAF_STRENGTH_ZH: Record<string, string> = {
+  None: '无', Low: '低', Medium: '中', High: '高',
+}
+
+// ArmorZone translation (from game locale)
+const ARMOR_ZONE_ZH: Record<string, string> = {
+  HeadTop: '头顶', HeadBack: '后脑', HeadSides: '侧面',
+  HeadFront: '正面', HeadEars: '耳朵', HeadJaw: '下巴',
+  HeadEyes: '眼部', HeadNeck: '颈部',
+  Chest: '胸部', Back: '背部', Sides: '侧面',
+  Stomach: '腹部', LeftArm: '左臂', RightArm: '右臂',
+  LeftLeg: '左腿', RightLeg: '右腿',
+}
+
+function translateArmorType(v: string, lang: 'zh' | 'en'): string {
+  return lang === 'zh' ? (ARMOR_TYPE_ZH[v] || v) : v
+}
+
+function translateArmorMaterial(v: string, lang: 'zh' | 'en'): string {
+  return lang === 'zh' ? (ARMOR_MATERIAL_ZH[v] || v) : v
+}
+
+function translateDeafStrength(v: string, lang: 'zh' | 'en'): string {
+  return lang === 'zh' ? (DEAF_STRENGTH_ZH[v] || v) : v
+}
+
+function translateArmorZones(zones: string[], lang: 'zh' | 'en'): string {
+  if (!Array.isArray(zones) || zones.length === 0) return ''
+  return zones.map(z => lang === 'zh' ? (ARMOR_ZONE_ZH[z] || z) : z).join(', ')
 }
 
 // Fire mode translation (from game locale)
@@ -368,7 +414,7 @@ export function ItemDetail() {
             <StatRow label={t('ergonomics')} value={properties.weapon.ergonomics as number} />
             <StatRow label={t('recoilUp')} value={properties.weapon.recoilForceUp as number} />
             <StatRow label={t('recoilBack')} value={properties.weapon.recoilForceBack as number} />
-            <StatRow label={t('durability')} value={`${String(properties.weapon.durability || 0)}/${String(properties.weapon.maxDurability || 0)}`} />
+            <StatRow label={t('durability')} value={(properties.weapon.maxDurability || properties.weapon.durability) as number} />
             <StatRow label={t('fireModes')} value={translateFireModes(Array.isArray(properties.weapon.fireModes) ? properties.weapon.fireModes as string[] : [], lang)} />
             {/* Weapon ammo info */}
             {(!!(properties.weapon.caliber || properties.weapon.defaultAmmo)) && (
@@ -426,9 +472,9 @@ export function ItemDetail() {
         {properties.armor && item.category !== 'headwear' && (
           <Section title={t('armor')}>
             <StatRow label={t('armorClass')} value={properties.armor.armorClass as number} />
-            <StatRow label={t('durability')} value={`${String(properties.armor.durability || 0)}/${String(properties.armor.maxDurability || 0)}`} />
-            <StatRow label={t('material')} value={properties.armor.material as string} />
-            <StatRow label={t('zones')} value={Array.isArray(properties.armor.zones) ? (properties.armor.zones as string[]).join(', ') : ''} />
+            <StatRow label={t('durability')} value={(properties.armor.maxDurability || properties.armor.durability) as number} />
+            <StatRow label={t('material')} value={translateArmorMaterial(properties.armor.material as string, lang)} />
+            <StatRow label={t('zones')} value={translateArmorZones(properties.armor.zones as string[], lang)} />
             <ColoredStatRow label={t('speedPenalty')} value={properties.armor.speedPenalty as number} unit="%" />
             <ColoredStatRow label={t('ergoPenalty')} value={properties.armor.ergonomicsPenalty as number} unit="%" />
           </Section>
@@ -483,17 +529,19 @@ export function ItemDetail() {
         )}
 
         {/* Headwear Performance */}
-        {item.category === 'headwear' && (
-          <Section title={lang === 'zh' ? '性能' : 'Performance'}>
-            <StatRow label={lang === 'zh' ? '护甲等级' : 'Armor Class'} value={raw.armorClass as number} />
-            <StatRow label={lang === 'zh' ? '类型' : 'Type'} value={raw.ArmorType as string} />
-            <StatRow label={lang === 'zh' ? '材质' : 'Material'} value={raw.ArmorMaterial as string} />
-            <StatRow label={lang === 'zh' ? '装备耐久' : 'Durability'} value={`${raw.Durability}/${raw.MaxDurability}`} />
-            <StatRow label={lang === 'zh' ? '跳弹概率' : 'Ricochet'} value={(raw.RicochetParams as Record<string, unknown>)?.Chance as number} unit="%" />
-            <StatRow label={lang === 'zh' ? '失明防护' : 'Blindness Protection'} value={raw.BlindnessProtection as number} unit="%" />
-            <ColoredStatRow label={lang === 'zh' ? '移动速度' : 'Movement Speed'} value={raw.speedPenaltyPercent as number} unit="%" />
-            <ColoredStatRow label={lang === 'zh' ? '人机工效' : 'Ergonomics'} value={raw.weaponErgonomicPenalty as number} unit="%" />
-            <StatRow label={lang === 'zh' ? '听力减弱' : 'Deafness'} value={raw.DeafStrength as string} />
+        {item.category === 'headwear' && !!(properties.headwear || raw.ArmorType || raw.ArmorMaterial) && (
+          <Section title={t('performance')}>
+            <StatRow label={t('armorClass')} value={(properties.headwear?.armorClass ?? raw.armorClass) as number} showZero />
+            <StatRow label={t('type')} value={translateArmorType((properties.headwear?.armorType ?? raw.ArmorType) as string, lang)} />
+            <StatRow label={t('material')} value={translateArmorMaterial((properties.headwear?.armorMaterial ?? raw.ArmorMaterial) as string, lang)} />
+            <StatRow label={t('durability')} value={(properties.headwear?.maxDurability ?? raw.MaxDurability) as number} showZero />
+            <StatRow label={t('zones')} value={translateArmorZones((properties.headwear?.zones ?? []) as string[], lang)} />
+            <StatRow label={t('ricochet')} value={(properties.headwear?.ricochetChance ?? ((raw.RicochetParams as Record<string, unknown>)?.z)) as number} unit="%" showZero />
+            <StatRow label={t('blindnessProtection')} value={(properties.headwear?.blindnessProtection ?? raw.BlindnessProtection) as number} unit="%" showZero />
+            <ColoredStatRow label={t('movementSpeed')} value={(properties.headwear?.speedPenalty ?? raw.speedPenaltyPercent) as number} unit="%" showZero />
+            <ColoredStatRow label={t('turnSpeed')} value={(properties.headwear?.turnSpeed ?? raw.mousePenalty) as number} unit="%" showZero />
+            <ColoredStatRow label={t('ergonomics')} value={(properties.headwear?.ergonomicsPenalty ?? raw.weaponErgonomicPenalty) as number} unit="%" showZero />
+            <StatRow label={t('deafness')} value={translateDeafStrength((properties.headwear?.deafStrength ?? raw.DeafStrength) as string, lang)} />
           </Section>
         )}
 
@@ -510,9 +558,9 @@ export function ItemDetail() {
         {/* Backpack Performance */}
         {item.category === 'backpack' && (
           <Section title={lang === 'zh' ? '性能' : 'Performance'}>
-            <ColoredStatRow label={lang === 'zh' ? '移动速度' : 'Movement Speed'} value={raw.speedPenaltyPercent as number} unit="%" />
-            <ColoredStatRow label={lang === 'zh' ? '转向速度' : 'Turn Speed'} value={raw.mousePenalty as number} unit="%" />
-            <ColoredStatRow label={lang === 'zh' ? '人机工效' : 'Ergonomics'} value={raw.weaponErgonomicPenalty as number} unit="%" />
+            <ColoredStatRow label={t('movementSpeed')} value={raw.speedPenaltyPercent as number} unit="%" showZero />
+            <ColoredStatRow label={t('turnSpeed')} value={raw.mousePenalty as number} unit="%" showZero />
+            <ColoredStatRow label={t('ergonomics')} value={raw.weaponErgonomicPenalty as number} unit="%" showZero />
           </Section>
         )}
       </div>
