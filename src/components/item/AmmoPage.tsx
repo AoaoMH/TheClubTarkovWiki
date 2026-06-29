@@ -1,6 +1,6 @@
 import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
-import type { WikiItem, WikiCategory } from '@/hooks/useItems'
+import type { ItemSummary } from '@/hooks/useItems'
 import { ItemCard } from '@/components/item/ItemCard'
 
 // Caliber values use actual game data format (no dots, no spaces)
@@ -44,8 +44,8 @@ const CALIBER_DISPLAY: Record<string, string> = {
   '1036x77': '火箭弹', '30x29': '30x29', '25x59': '25x59', '725': '7.25',
 }
 
-function getAmmoGroup(item: WikiItem): string {
-  const caliber = formatCaliber(String(item.properties.ammo?.caliber || item.properties._raw?.ammoCaliber || ''))
+function getAmmoGroup(item: ItemSummary): string {
+  const caliber = formatCaliber(item.ammo?.caliber || '')
   // Try exact match first
   if (CALIBER_GROUPS[caliber]) return CALIBER_GROUPS[caliber]
   // Try partial match
@@ -65,10 +65,8 @@ const GROUP_LABEL_KEYS: Record<string, string> = {
   other: 'otherAmmo',
 }
 
-export function AmmoView({ items, categories: _categories, lang: _lang, filterCaliber }: {
-  items: WikiItem[]
-  categories: WikiCategory[]
-  lang: 'zh' | 'en'
+export function AmmoView({ items, filterCaliber }: {
+  items: ItemSummary[]
   filterCaliber?: string
 }) {
   const { t } = useTranslation()
@@ -82,20 +80,20 @@ export function AmmoView({ items, categories: _categories, lang: _lang, filterCa
     // Apply caliber filter if present
     if (filterCaliber) {
       ammoItems = ammoItems.filter(item => {
-        const itemCaliber = formatCaliber((item.properties.ammo?.caliber as string) || '')
+        const itemCaliber = formatCaliber(item.ammo?.caliber || '')
         return itemCaliber.toLowerCase().includes(filterCaliber.toLowerCase())
       })
     }
 
     // Group by weapon type
-    const groups: Record<string, Record<string, WikiItem[]>> = {}
+    const groups: Record<string, Record<string, ItemSummary[]>> = {}
     for (const group of GROUP_ORDER) {
       groups[group] = {}
     }
 
     for (const item of ammoItems) {
       const group = getAmmoGroup(item)
-      const caliber = formatCaliber((item.properties.ammo?.caliber as string) || '') || item.typeName || 'Unknown'
+      const caliber = formatCaliber(item.ammo?.caliber || '') || item.typeName || 'Unknown'
       if (!groups[group]) groups[group] = {}
       if (!groups[group][caliber]) groups[group][caliber] = []
       groups[group][caliber].push(item)
@@ -107,8 +105,8 @@ export function AmmoView({ items, categories: _categories, lang: _lang, filterCa
         const arr = group[caliber]
         if (arr) {
           arr.sort((a, b) => {
-            const penA = (a.properties.ammo?.penetrationPower as number) || 0
-            const penB = (b.properties.ammo?.penetrationPower as number) || 0
+            const penA = a.ammo?.penetrationPower || 0
+            const penB = b.ammo?.penetrationPower || 0
             return penA - penB
           })
         }

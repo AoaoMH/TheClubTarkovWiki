@@ -1,6 +1,8 @@
-import { useState, useEffect, useMemo } from 'react'
+import { useState, useEffect, useMemo, useCallback } from 'react'
+import { fetchCategories, fetchCategorySummaries, fetchItemDetail, fetchSearchIndex } from '@/lib/dataStore'
 
-// These types mirror the generator output types
+// ==================== Types ====================
+
 export interface LocalizedText {
   zh: string
   en: string
@@ -83,50 +85,121 @@ export interface WikiCategory {
   icon: string
   order: number
   itemCount: number
+  previewImage: string | null
 }
 
-interface DataStore {
-  items: WikiItem[]
-  categories: WikiCategory[]
+/** Lightweight item summary for list views */
+export interface ItemSummary {
+  id: string
+  typeName: string
+  category: string
+  handbook: { categoryId: string | null; price: number }
+  common: {
+    name: LocalizedText
+    shortName: LocalizedText
+    rarity: string
+  }
+  image: string | null
+  ammo?: {
+    caliber: string
+    penetrationPower: number
+    damage: number
+    armorDamage: number
+  }
+}
+
+// ==================== Hooks ====================
+
+interface AsyncState<T> {
+  data: T | null
   loading: boolean
+  error: string | null
 }
 
-let cachedData: DataStore | null = null
-
-export function useItems() {
-  const [data, setData] = useState<DataStore>(
-    cachedData || { items: [], categories: [], loading: true }
-  )
+/** Load categories only (for sidebar and homepage) */
+export function useCategories() {
+  const [state, setState] = useState<AsyncState<WikiCategory[]>>({ data: null, loading: true, error: null })
 
   useEffect(() => {
-    if (cachedData) {
-      setData(cachedData)
+    let cancelled = false
+    setState(prev => prev.data ? { ...prev, loading: false } : { data: null, loading: true, error: null })
+
+    fetchCategories()
+      .then(data => { if (!cancelled) setState({ data, loading: false, error: null }) })
+      .catch(err => { if (!cancelled) setState({ data: null, loading: false, error: String(err) }) })
+
+    return () => { cancelled = true }
+  }, [])
+
+  return { categories: state.data || [], loading: state.loading, error: state.error }
+}
+
+/** Load item summaries for a specific category */
+export function useCategorySummaries(categoryId: string | null) {
+  const [state, setState] = useState<AsyncState<ItemSummary[]>>({ data: null, loading: true, error: null })
+
+  useEffect(() => {
+    if (!categoryId) {
+      setState({ data: [], loading: false, error: null })
       return
     }
 
-    async function loadData() {
-      try {
-        const [itemsRes, categoriesRes] = await Promise.all([
-          fetch('/data/items.json'),
-          fetch('/data/categories.json'),
-        ])
-        const items: WikiItem[] = await itemsRes.json()
-        const categories: WikiCategory[] = await categoriesRes.json()
-        const result = { items, categories, loading: false }
-        cachedData = result
-        setData(result)
-      } catch (e) {
-        console.error('Failed to load data:', e)
-        setData({ items: [], categories: [], loading: false })
-      }
-    }
-    loadData()
-  }, [])
+    let cancelled = false
+    setState(prev => prev.data ? { ...prev, loading: true } : { data: null, loading: true, error: null })
 
-  return data
+    fetchCategorySummaries(categoryId)
+      .then(data => { if (!cancelled) setState({ data, loading: false, error: null }) })
+      .catch(err => { if (!cancelled) setState({ data: null, loading: false, error: String(err) }) })
+
+    return () => { cancelled = true }
+  }, [categoryId])
+
+  return { items: state.data || [], loading: state.loading, error: state.error }
 }
 
-export function useSearch(items: WikiItem[], lang: 'zh' | 'en') {
+/** Load a single item's full detail */
+export function useItemDetail(itemId: string | null) {
+  const [state, setState] = useState<AsyncState<WikiItem>>({ data: null, loading: true, error: null })
+
+  useEffect(() => {
+    if (!itemId) {
+      setState({ data: null, loading: false, error: null })
+      return
+    }
+
+    let cancelled = false
+    setState(prev => prev.data?.id === itemId ? { ...prev, loading: false } : { data: null, loading: true, error: null })
+
+    fetchItemDetail(itemId)
+      .then(data => { if (!cancelled) setState({ data, loading: false, error: null }) })
+      .catch(err => { if (!cancelled) setState({ data: null, loading: false, error: String(err) }) })
+
+    return () => { cancelled = true }
+  }, [itemId])
+
+  return { item: state.data, loading: state.loading, error: state.error }
+}
+
+/** Lazily load search index (call triggerLoad on search focus) */
+export function useSearchIndex() {
+  const [state, setState] = useState<AsyncState<ItemSummary[]>>({ data: null, loading: false, error: null })
+  const [loaded, setLoaded] = useState(false)
+
+  const triggerLoad = useCallback(() => {
+    if (loaded) return
+    setLoaded(true)
+    setState({ data: null, loading: true, error: null })
+
+    fetchSearchIndex()
+      .then(data => setState({ data, loading: false, error: null }))
+      .catch(err => setState({ data: null, loading: false, error: String(err) }))
+  }, [loaded])
+
+  return { index: state.data || [], loading: state.loading, triggerLoad }
+}
+
+/** Search within a list of summaries */
+export function useSearch(items: ItemSummary[], lang: 'zh' | 'en') {
   const [query, setQuery] = useState('')
 
   const results = useMemo(() => {
@@ -136,11 +209,13 @@ export function useSearch(items: WikiItem[], lang: 'zh' | 'en') {
       const name = item.common.name[lang].toLowerCase()
       const shortName = item.common.shortName[lang].toLowerCase()
       return name.includes(q) || shortName.includes(q)
-    }).slice(0, 50) // Limit results
+    }).slice(0, 50)
   }, [query, items, lang])
 
   return { query, setQuery, results }
 }
+
+// ==================== Utility Hooks ====================
 
 export function useCategoryTree(categories: WikiCategory[]) {
   return useMemo(() => {
@@ -155,7 +230,6 @@ export function useCategoryTree(categories: WikiCategory[]) {
       }
     }
 
-    // Sort by order
     for (const [, children] of childMap) {
       children.sort((a, b) => a.order - b.order)
     }
@@ -165,14 +239,8 @@ export function useCategoryTree(categories: WikiCategory[]) {
   }, [categories])
 }
 
-export function useItemsByCategory(items: WikiItem[], categoryId: string | null) {
-  return useMemo(() => {
-    if (!categoryId) return items
-    return items.filter(item => item.handbook.categoryId === categoryId)
-  }, [items, categoryId])
-}
+// ==================== Type Name Translation ====================
 
-// Type name Chinese translation (from game locale where available)
 export const TYPE_NAME_ZH: Record<string, string> = {
   // === From game locale ===
   AssaultRifle: '突击步枪', Pistol: '手枪', Shotgun: '霰弹枪',

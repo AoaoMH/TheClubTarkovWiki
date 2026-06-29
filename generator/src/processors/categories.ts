@@ -111,14 +111,16 @@ export function buildCategories(
   locales: { zh: Locales; en: Locales },
   wikiItems: WikiItem[]
 ): WikiCategory[] {
-  // Count items per category
+  // Count items per category and track first item image
   const itemCountMap = new Map<string, number>()
+  const previewImageMap = new Map<string, string | null>()
   for (const item of wikiItems) {
     if (item.handbook.categoryId) {
-      itemCountMap.set(
-        item.handbook.categoryId,
-        (itemCountMap.get(item.handbook.categoryId) || 0) + 1
-      )
+      const catId = item.handbook.categoryId
+      itemCountMap.set(catId, (itemCountMap.get(catId) || 0) + 1)
+      if (!previewImageMap.has(catId) && item.image) {
+        previewImageMap.set(catId, item.image)
+      }
     }
   }
 
@@ -136,6 +138,7 @@ export function buildCategories(
       icon: cat.Icon || '',
       order: parseInt(cat.Order) || 0,
       itemCount: itemCountMap.get(cat.Id) || 0,
+      previewImage: previewImageMap.get(cat.Id) || null,
     })
   }
 

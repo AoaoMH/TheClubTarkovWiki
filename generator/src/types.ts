@@ -223,6 +223,8 @@ export interface WikiCategory {
   icon: string
   order: number
   itemCount: number
+  /** First item's image in this category, for preview cards */
+  previewImage: string | null
 }
 
 export interface WikiTypeNode {
@@ -241,6 +243,27 @@ export interface WikiData {
     totalItems: number
     totalCategories: number
     modItems: number
+  }
+}
+
+/** Lightweight item summary for list views and search index */
+export interface ItemSummary {
+  id: string
+  typeName: string
+  category: string
+  handbook: { categoryId: string | null; price: number }
+  common: {
+    name: LocalizedText
+    shortName: LocalizedText
+    rarity: string
+  }
+  image: string | null
+  /** Extra fields for AmmoPage grouping/sorting */
+  ammo?: {
+    caliber: string
+    penetrationPower: number
+    damage: number
+    armorDamage: number
   }
 }
 

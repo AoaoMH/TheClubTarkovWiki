@@ -71,12 +71,9 @@ async function main() {
     const serverAvailable = await checkServerAvailability()
     if (serverAvailable) {
       await downloadImages(wikiItems)
-      const fs = await import('fs')
-      const path = await import('path')
-      const { OUTPUT_DATA_PATH } = await import('./config.js')
-      const itemsPath = path.join(OUTPUT_DATA_PATH, 'items.json')
-      fs.writeFileSync(itemsPath, JSON.stringify(wikiItems, null, 2), 'utf-8')
-      console.log('[images] Updated items.json with image paths')
+      // Re-write output with updated image paths
+      console.log('[images] Updating data files with image paths')
+      writeOutput(wikiItems, wikiCategories, types, modItemIds.size)
     } else {
       console.log('[images] tarkov.dev API not available. Check network connection.')
       process.exit(1)
@@ -89,6 +86,14 @@ async function main() {
 
   // Step 9: Write output
   if (!imagesOnly) {
+    // Update category preview images now that item images are populated
+    for (const cat of wikiCategories) {
+      if (cat.itemCount > 0 && !cat.previewImage) {
+        const firstItem = wikiItems.find(i => i.handbook.categoryId === cat.id && i.image)
+        if (firstItem) cat.previewImage = firstItem.image
+      }
+    }
+
     console.log('\n--- Writing output ---')
     writeOutput(wikiItems, wikiCategories, types, modItemIds.size)
   }

@@ -1,8 +1,7 @@
-import { useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { ArrowLeft } from 'lucide-react'
-import { useItems, getTypeNameZH } from '@/hooks/useItems'
+import { useItemDetail, useCategories, getTypeNameZH } from '@/hooks/useItems'
 import type { HealthEffect, StimBuff, ItemEffects } from '@/hooks/useItems'
 
 const AMMO_ROOT_CATEGORY_ID = '5b47574386f77428ca22b346'
@@ -242,14 +241,15 @@ function EffectsSection({ effects, lang, mode, t }: {
 export function ItemDetail() {
   const { id } = useParams()
   const { t, i18n } = useTranslation()
-  const { items, categories } = useItems()
+  const { item, loading } = useItemDetail(id || null)
+  const { categories } = useCategories()
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
 
-  const item = useMemo(() => items.find(i => i.id === id), [items, id])
-  const category = useMemo(
-    () => item?.handbook.categoryId ? categories.find(c => c.id === item.handbook.categoryId) : null,
-    [categories, item]
-  )
+  const category = item?.handbook.categoryId ? categories.find(c => c.id === item.handbook.categoryId) : null
+
+  if (loading) {
+    return <div className="flex items-center justify-center h-64 text-muted-foreground">{t('loading')}</div>
+  }
 
   if (!item) {
     return (
@@ -504,7 +504,7 @@ export function ItemDetail() {
                       to={`/item/${filterId}`}
                       className="text-xs text-primary hover:underline px-1.5 py-0.5 bg-secondary rounded"
                     >
-                      {items.find(it => it.id === filterId)?.common.shortName[lang] || filterId.slice(0, 8)}
+                      {filterId.slice(0, 8)}
                     </Link>
                   ))}
                 </div>
@@ -517,19 +517,15 @@ export function ItemDetail() {
         {item.typeName === 'Headphones' && conflictingItems.length > 0 && (
           <Section title={lang === 'zh' ? '冲突道具' : 'Conflicting Items'}>
             <div className="flex flex-wrap gap-1">
-              {conflictingItems.map(cid => {
-                const ci = items.find(it => it.id === cid.trim())
-                if (!ci) return null
-                return (
-                  <Link
-                    key={cid}
-                    to={`/item/${cid.trim()}`}
-                    className="text-xs text-destructive hover:underline px-1.5 py-0.5 bg-secondary rounded"
-                  >
-                    {ci.common.shortName[lang]}
-                  </Link>
-                )
-              })}
+              {conflictingItems.map(cid => (
+                <Link
+                  key={cid}
+                  to={`/item/${cid.trim()}`}
+                  className="text-xs text-destructive hover:underline px-1.5 py-0.5 bg-secondary rounded"
+                >
+                  {cid.trim().slice(0, 8)}
+                </Link>
+              ))}
             </div>
           </Section>
         )}

@@ -1,10 +1,45 @@
 import fs from 'fs'
 import path from 'path'
 import { OUTPUT_DATA_PATH } from '../config.js'
-import type { WikiItem, WikiCategory, WikiTypeNode } from '../types.js'
+import type { WikiItem, WikiCategory, WikiTypeNode, ItemSummary } from '../types.js'
+
+/**
+ * Extract a lightweight summary from a WikiItem for list views and search.
+ */
+function toSummary(item: WikiItem): ItemSummary {
+  const summary: ItemSummary = {
+    id: item.id,
+    typeName: item.typeName,
+    category: item.category,
+    handbook: item.handbook,
+    common: {
+      name: item.common.name,
+      shortName: item.common.shortName,
+      rarity: item.common.rarity,
+    },
+    image: item.image,
+  }
+
+  // Include ammo-specific fields for AmmoPage grouping/sorting
+  if (item.properties.ammo) {
+    summary.ammo = {
+      caliber: item.properties.ammo.caliber,
+      penetrationPower: item.properties.ammo.penetrationPower,
+      damage: item.properties.ammo.damage,
+      armorDamage: item.properties.ammo.armorDamage,
+    }
+  }
+
+  return summary
+}
 
 /**
  * Write all generated data to the frontend's data directory.
+ * Outputs:
+ *   - categories.json, types.json, stats.json (unchanged)
+ *   - search-index.json (all summaries for search)
+ *   - summaries/{categoryId}.json (per-category item summaries)
+ *   - items/{itemId}.json (individual full item data)
  */
 export function writeOutput(
   items: WikiItem[],
@@ -14,15 +49,70 @@ export function writeOutput(
 ): void {
   console.log(`[output] Writing data to ${OUTPUT_DATA_PATH}`)
 
-  // Ensure output directory
+  // Ensure output directories
   if (!fs.existsSync(OUTPUT_DATA_PATH)) {
     fs.mkdirSync(OUTPUT_DATA_PATH, { recursive: true })
   }
 
-  // Write items.json
-  const itemsPath = path.join(OUTPUT_DATA_PATH, 'items.json')
-  fs.writeFileSync(itemsPath, JSON.stringify(items, null, 2), 'utf-8')
-  console.log(`[output] items.json: ${items.length} items (${(fs.statSync(itemsPath).size / 1024 / 1024).toFixed(2)} MB)`)
+  const summariesDir = path.join(OUTPUT_DATA_PATH, 'summaries')
+  const itemsDir = path.join(OUTPUT_DATA_PATH, 'items')
+
+  // Clean and recreate directories
+  if (fs.existsSync(summariesDir)) {
+    for (const f of fs.readdirSync(summariesDir)) {
+      fs.unlinkSync(path.join(summariesDir, f))
+    }
+  } else {
+    fs.mkdirSync(summariesDir, { recursive: true })
+  }
+
+  if (fs.existsSync(itemsDir)) {
+    for (const f of fs.readdirSync(itemsDir)) {
+      fs.unlinkSync(path.join(itemsDir, f))
+    }
+  } else {
+    fs.mkdirSync(itemsDir, { recursive: true })
+  }
+
+  // Remove old items.json if it exists
+  const oldItemsPath = path.join(OUTPUT_DATA_PATH, 'items.json')
+  if (fs.existsSync(oldItemsPath)) {
+    fs.unlinkSync(oldItemsPath)
+    console.log('[output] Removed old items.json')
+  }
+
+  // Build summaries and group by categoryId
+  const allSummaries: ItemSummary[] = []
+  const groupedSummaries = new Map<string, ItemSummary[]>()
+
+  for (const item of items) {
+    const summary = toSummary(item)
+    allSummaries.push(summary)
+
+    const catId = item.handbook.categoryId || '_uncategorized'
+    const group = groupedSummaries.get(catId) || []
+    group.push(summary)
+    groupedSummaries.set(catId, group)
+  }
+
+  // Write search-index.json
+  const searchIndexPath = path.join(OUTPUT_DATA_PATH, 'search-index.json')
+  fs.writeFileSync(searchIndexPath, JSON.stringify(allSummaries), 'utf-8')
+  console.log(`[output] search-index.json: ${allSummaries.length} summaries (${(fs.statSync(searchIndexPath).size / 1024).toFixed(0)} KB)`)
+
+  // Write per-category summaries
+  for (const [catId, summaries] of groupedSummaries) {
+    const filePath = path.join(summariesDir, `${catId}.json`)
+    fs.writeFileSync(filePath, JSON.stringify(summaries), 'utf-8')
+  }
+  console.log(`[output] summaries/: ${groupedSummaries.size} category files`)
+
+  // Write individual item files
+  for (const item of items) {
+    const filePath = path.join(itemsDir, `${item.id}.json`)
+    fs.writeFileSync(filePath, JSON.stringify(item), 'utf-8')
+  }
+  console.log(`[output] items/: ${items.length} individual files`)
 
   // Write categories.json
   const categoriesPath = path.join(OUTPUT_DATA_PATH, 'categories.json')
@@ -55,3 +145,4 @@ export function writeOutput(
   console.log(`  Categories with items: ${categories.filter(c => c.itemCount > 0).length}`)
   console.log(`  Mod items: ${modItemCount}`)
 }
+

@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import type { WikiItem } from '@/hooks/useItems'
+import type { ItemSummary } from '@/hooks/useItems'
 
 const RARITY_COLORS: Record<string, string> = {
   Common: 'bg-gray-500',
@@ -10,7 +10,7 @@ const RARITY_COLORS: Record<string, string> = {
   Not_exist: 'bg-gray-700',
 }
 
-export function ItemCard({ item }: { item: WikiItem }) {
+export function ItemCard({ item }: { item: ItemSummary }) {
   const { i18n } = useTranslation()
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
   const rarityColor = RARITY_COLORS[item.common.rarity] || 'bg-gray-500'
@@ -54,7 +54,7 @@ export function ItemCard({ item }: { item: WikiItem }) {
   )
 }
 
-export function ItemGrid({ items, showCount = true }: { items: WikiItem[]; showCount?: boolean }) {
+export function ItemGrid({ items, showCount = true }: { items: ItemSummary[]; showCount?: boolean }) {
   const { t } = useTranslation()
 
   if (items.length === 0) {
@@ -75,4 +75,4 @@ export function ItemGrid({ items, showCount = true }: { items: WikiItem[]; showC
       </div>
     </>
   )
-}
+}

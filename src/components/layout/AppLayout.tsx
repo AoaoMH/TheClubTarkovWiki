@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { Search, Globe, Menu, X, ChevronRight, ChevronDown } from 'lucide-react'
-import { useItems, useSearch, useCategoryTree, getTypeNameZH } from '@/hooks/useItems'
+import { useCategories, useCategoryTree, useSearchIndex, useSearch, getTypeNameZH } from '@/hooks/useItems'
 import type { WikiCategory } from '@/hooks/useItems'
 
 function CategoryNode({ category, childMap, lang, depth = 0 }: {
@@ -53,7 +53,7 @@ function CategoryNode({ category, childMap, lang, depth = 0 }: {
 
 export function Sidebar() {
   const { t, i18n } = useTranslation()
-  const { categories } = useItems()
+  const { categories } = useCategories()
   const { rootCategories, childMap } = useCategoryTree(categories)
   const [mobileOpen, setMobileOpen] = useState(false)
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
@@ -108,14 +108,19 @@ export function Sidebar() {
 
 export function Header() {
   const { t, i18n } = useTranslation()
-  const { items } = useItems()
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
-  const { query, setQuery, results } = useSearch(items, lang)
+  const { index, loading: indexLoading, triggerLoad } = useSearchIndex()
+  const { query, setQuery, results } = useSearch(index, lang)
   const [showResults, setShowResults] = useState(false)
   const navigate = useNavigate()
 
   const toggleLang = () => {
     i18n.changeLanguage(i18n.language === 'zh' ? 'en' : 'zh')
+  }
+
+  const handleFocus = () => {
+    triggerLoad()
+    setShowResults(true)
   }
 
   return (
@@ -132,7 +137,7 @@ export function Header() {
               placeholder={t('search')}
               value={query}
               onChange={e => { setQuery(e.target.value); setShowResults(true) }}
-              onFocus={() => setShowResults(true)}
+              onFocus={handleFocus}
               onBlur={() => setTimeout(() => setShowResults(false), 200)}
               className="w-full pl-9 pr-4 py-2 bg-secondary border border-border rounded-lg text-sm
                 placeholder:text-muted-foreground focus:outline-none focus:ring-1 focus:ring-primary"
@@ -142,7 +147,9 @@ export function Header() {
           {/* Search results dropdown */}
           {showResults && query.trim() && (
             <div className="absolute top-full left-0 right-0 mt-1 bg-card border border-border rounded-lg shadow-lg max-h-80 overflow-y-auto z-50">
-              {results.length === 0 ? (
+              {indexLoading ? (
+                <div className="p-3 text-sm text-muted-foreground">{t('loading')}</div>
+              ) : results.length === 0 ? (
                 <div className="p-3 text-sm text-muted-foreground">{t('noResults')}</div>
               ) : (
                 results.map(item => (
@@ -196,4 +203,4 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
       </div>
     </div>
   )
-}
+}
