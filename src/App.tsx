@@ -1,4 +1,4 @@
-import { Routes, Route, useParams, Link } from 'react-router-dom'
+import { Routes, Route, useParams, useSearchParams, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { AppLayout } from '@/components/layout/AppLayout'
 import { ItemGrid } from '@/components/item/ItemCard'
@@ -58,12 +58,18 @@ function HomePage() {
 
 function CategoryPage() {
   const { id } = useParams()
+  const [searchParams] = useSearchParams()
   const { t, i18n } = useTranslation()
   const { categories } = useCategories()
-  const { items, loading } = useCategorySummaries(id || null)
+  // When on ammo root category, load bullet subcategory data instead (root has 0 items)
+  const effectiveId = id === AMMO_ROOT_CATEGORY_ID ? AMMO_BULLET_CATEGORY_ID : (id || null)
+  const { items, loading } = useCategorySummaries(effectiveId)
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
   const category = categories.find(c => c.id === id)
+  const bulletCategory = categories.find(c => c.id === AMMO_BULLET_CATEGORY_ID)
+  const displayCategory = id === AMMO_ROOT_CATEGORY_ID ? bulletCategory : category
   const isAmmoCategory = id === AMMO_ROOT_CATEGORY_ID || id === AMMO_BULLET_CATEGORY_ID
+  const caliberFilter = searchParams.get('caliber') || undefined
 
   if (loading) {
     return <div className="flex items-center justify-center h-64 text-muted-foreground">{t('loading')}</div>
@@ -72,11 +78,11 @@ function CategoryPage() {
   if (isAmmoCategory) {
     return (
       <div>
-        <h2 className="text-xl font-bold mb-1">{category?.name[lang] || id}</h2>
-        {category && (
-          <p className="text-sm text-muted-foreground mb-4">{t('itemCount', { count: category.itemCount })}</p>
+        <h2 className="text-xl font-bold mb-1">{displayCategory?.name[lang] || id}</h2>
+        {displayCategory && (
+          <p className="text-sm text-muted-foreground mb-4">{t('itemCount', { count: displayCategory.itemCount })}</p>
         )}
-        <AmmoView items={items} />
+        <AmmoView items={items} filterCaliber={caliberFilter} />
       </div>
     )
   }

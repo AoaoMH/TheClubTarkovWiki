@@ -123,7 +123,7 @@ export function AmmoView({ items, filterCaliber }: {
         <h1 className="text-2xl font-bold">{t('ammoOverview')}</h1>
         {filterCaliber && (
           <p className="text-sm text-muted-foreground mt-1">
-            {t('caliber')}: {filterCaliber}
+            {t('caliber')}: {CALIBER_DISPLAY[filterCaliber] || filterCaliber}
           </p>
         )}
       </div>

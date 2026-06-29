@@ -4,7 +4,7 @@ import { ArrowLeft } from 'lucide-react'
 import { useItemDetail, useCategories, getTypeNameZH } from '@/hooks/useItems'
 import type { HealthEffect, StimBuff, ItemEffects } from '@/hooks/useItems'
 
-const AMMO_ROOT_CATEGORY_ID = '5b47574386f77428ca22b346'
+const AMMO_BULLET_CATEGORY_ID = '5b47574386f77428ca22b33b'
 
 function formatCaliber(caliber: string): string {
   if (!caliber) return ''
@@ -369,7 +369,7 @@ export function ItemDetail() {
                 <div className="flex justify-between py-1.5 border-b border-border/50 last:border-0">
                   <span className="text-sm text-muted-foreground">{t('ammoType')}</span>
                   <Link
-                    to={`/category/${AMMO_ROOT_CATEGORY_ID}`}
+                    to={`/category/${AMMO_BULLET_CATEGORY_ID}?caliber=${encodeURIComponent((properties.weapon.caliber as string || '').replace(/^Caliber/i, ''))}`}
                     className="text-sm font-medium text-primary hover:underline"
                   >
                     {t('viewAmmo')}
