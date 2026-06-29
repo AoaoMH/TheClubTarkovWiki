@@ -1,9 +1,26 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { Search, Globe, Menu, X, ChevronRight, ChevronDown } from 'lucide-react'
+import { Search, Globe, Menu, X, ChevronRight, ChevronDown, Home } from 'lucide-react'
 import { useCategories, useCategoryTree, useSearchIndex, useSearch, getTypeNameZH } from '@/hooks/useItems'
 import type { WikiCategory } from '@/hooks/useItems'
+
+// 菜单固定顺序
+const ROOT_ORDER = [
+  '5b5f78dc86f77409407a7f8e', // 武器
+  '5b47574386f77428ca22b346', // 弹药
+  '5b47574386f77428ca22b33f', // 装备
+  '5b47574386f77428ca22b342', // 钥匙
+  '5b47574386f77428ca22b344', // 医疗物资
+  '5b47574386f77428ca22b340', // 补给品
+  '5b5f71a686f77447ed5636ab', // 武器零件&配件
+  '5b47574386f77428ca22b33e', // 交换物
+  '5b5f78b786f77447ed5636af', // 货币
+  '5b47574386f77428ca22b343', // 地图
+  '5b619f1a86f77450a702a6f3', // 任务物品
+  '5b47574386f77428ca22b345', // 特殊物品
+  '5b47574386f77428ca22b341', // 信息物品
+]
 
 function CategoryNode({ category, childMap, lang, depth = 0 }: {
   category: WikiCategory
@@ -11,35 +28,49 @@ function CategoryNode({ category, childMap, lang, depth = 0 }: {
   lang: 'zh' | 'en'
   depth?: number
 }) {
-  const [expanded, setExpanded] = useState(depth === 0)
+  const [expanded, setExpanded] = useState(false)
   const { id } = useParams()
   const children = childMap.get(category.id) || []
   const isActive = id === category.id
   const hasChildren = children.length > 0
 
+  const baseClass = `flex items-center gap-1.5 px-2 py-1.5 rounded-md text-sm transition-colors`
+  const activeClass = isActive ? 'bg-primary/20 text-primary' : 'text-muted-foreground hover:bg-secondary hover:text-foreground'
+
+  const content = (
+    <>
+      {hasChildren && (
+        <span className="shrink-0 p-0.5">
+          {expanded ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
+        </span>
+      )}
+      {!hasChildren && <span className="w-[18px]" />}
+      <span className="truncate flex-1">{category.name[lang]}</span>
+      {!hasChildren && category.itemCount > 0 && (
+        <span className="text-xs text-muted-foreground shrink-0">{category.itemCount}</span>
+      )}
+    </>
+  )
+
   return (
     <div>
-      <Link
-        to={`/category/${category.id}`}
-        className={`flex items-center gap-1.5 px-2 py-1.5 rounded-md text-sm transition-colors
-          ${isActive ? 'bg-primary/20 text-primary' : 'text-muted-foreground hover:bg-secondary hover:text-foreground'}
-        `}
-        style={{ paddingLeft: `${depth * 12 + 8}px` }}
-      >
-        {hasChildren && (
-          <button
-            onClick={(e) => { e.preventDefault(); setExpanded(!expanded) }}
-            className="shrink-0 p-0.5"
-          >
-            {expanded ? <ChevronDown size={14} /> : <ChevronRight size={14} />}
-          </button>
-        )}
-        {!hasChildren && <span className="w-[18px]" />}
-        <span className="truncate flex-1">{category.name[lang]}</span>
-        {category.itemCount > 0 && (
-          <span className="text-xs text-muted-foreground shrink-0">{category.itemCount}</span>
-        )}
-      </Link>
+      {hasChildren ? (
+        <button
+          onClick={() => setExpanded(!expanded)}
+          className={`${baseClass} ${activeClass} w-full cursor-pointer`}
+          style={{ paddingLeft: `${depth * 12 + 8}px` }}
+        >
+          {content}
+        </button>
+      ) : (
+        <Link
+          to={`/category/${category.id}`}
+          className={`${baseClass} ${activeClass}`}
+          style={{ paddingLeft: `${depth * 12 + 8}px` }}
+        >
+          {content}
+        </Link>
+      )}
       {expanded && hasChildren && (
         <div>
           {children.map(child => (
@@ -58,6 +89,16 @@ export function Sidebar() {
   const [mobileOpen, setMobileOpen] = useState(false)
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
 
+  // 按指定顺序排列根分类
+  const sortedRootCategories = useMemo(() => {
+    const orderMap = new Map(ROOT_ORDER.map((id, i) => [id, i]))
+    return [...rootCategories].sort((a, b) => {
+      const oa = orderMap.get(a.id) ?? 999
+      const ob = orderMap.get(b.id) ?? 999
+      return oa - ob
+    })
+  }, [rootCategories])
+
   const sidebarContent = (
     <div className="flex flex-col h-full">
       <div className="p-3 border-b border-border">
@@ -65,13 +106,16 @@ export function Sidebar() {
           The Club Tarkov Wiki
         </Link>
       </div>
-      <div className="p-2 border-b border-border">
-        <h3 className="text-xs font-semibold text-muted-foreground uppercase tracking-wider px-2">
-          {t('categories')}
-        </h3>
-      </div>
       <nav className="flex-1 overflow-y-auto p-1 space-y-0.5">
-        {rootCategories.map(cat => (
+        <Link
+          to="/"
+          className="flex items-center gap-1.5 px-2 py-1.5 rounded-md text-sm transition-colors
+            text-muted-foreground hover:bg-secondary hover:text-foreground"
+        >
+          <Home size={14} className="shrink-0" />
+          <span>{t('home', '首页')}</span>
+        </Link>
+        {sortedRootCategories.map(cat => (
           <CategoryNode key={cat.id} category={cat} childMap={childMap} lang={lang} />
         ))}
       </nav>
@@ -203,4 +247,4 @@ export function AppLayout({ children }: { children: React.ReactNode }) {
       </div>
     </div>
   )
-}
+}

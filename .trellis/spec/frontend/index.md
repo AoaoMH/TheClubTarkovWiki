@@ -5,18 +5,53 @@ React 19 + Vite 6 + TypeScript + TailwindCSS 4 静态站点。
 ## 技术约束
 
 - 纯静态 SPA，零运行时后端依赖
-- 所有数据从 `public/data/*.json` 静态加载
+- 数据按需加载（三层模型），不一次性加载全部数据
 - 国际化使用 i18next（zh/en 双语，默认中文）
 - 路径别名 `@/*` → `./src/*`
 
-## 关键模式
+## 数据架构（三层按需加载）
 
-### 数据加载
-所有组件通过 `useItems()` hook 获取数据，数据缓存在模块级变量中避免重复 fetch。
+### 数据结构
+
+```
+public/data/
+├── categories.json          # 分类树（含 previewImage）~21KB
+├── summaries/{catId}.json   # 分类道具摘要（列表用）~100KB/分类
+├── items/{itemId}.json      # 单道具完整数据（详情用）~10-25KB/个
+├── search-index.json        # 搜索索引（全部摘要）~1.7MB
+├── types.json               # 类型层级
+└── stats.json               # 生成统计
+```
+
+### 数据加载 Hooks
 
 ```typescript
+// src/lib/dataStore.ts — Promise Map 缓存层，保证同一 URL 只请求一次
+fetchOnce<T>(key, url): Promise<T>
+
 // src/hooks/useItems.ts
-const { items, categories, loading } = useItems()
+const { categories, loading } = useCategories()           // 首页 + 侧边栏
+const { items, loading } = useCategorySummaries(catId)     // 分类列表页
+const { item, loading } = useItemDetail(itemId)            // 道具详情页
+const { index, triggerLoad } = useSearchIndex()            // 搜索（懒加载）
+```
+
+### 去重机制
+
+`dataStore.ts` 使用 `Map<string, Promise>` 缓存，确保：
+- React StrictMode 下 effect 执行两次不会重复请求
+- 多个组件同时请求同一数据只发一次网络请求
+- 已加载数据缓存在模块级，组件重新挂载时命中缓存
+
+### ItemSummary 类型
+
+列表页使用轻量摘要，不含完整 properties/slots/description：
+
+```typescript
+interface ItemSummary {
+  id, typeName, category, handbook, common: { name, shortName, rarity }, image
+  ammo?: { caliber, penetrationPower, damage, armorDamage }  // 弹药页额外字段
+}
 ```
 
 ### 类型翻译

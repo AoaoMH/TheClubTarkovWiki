@@ -19,6 +19,39 @@ SPT客户端目录 → readers/ → processors/ → output/ → public/data/
 tarkov.dev API → images/downloader → public/images/items/
 ```
 
+## 输出结构（三层模型）
+
+```
+public/data/
+├── categories.json          # 分类树（含 previewImage: 首个道具图片）
+├── summaries/{catId}.json   # 分类道具摘要（ItemSummary 数组，列表用）
+├── items/{itemId}.json      # 单道具完整数据（WikiItem，详情用）
+├── search-index.json        # 搜索索引（全部 ItemSummary 数组）
+├── types.json               # 类型层级树
+└── stats.json               # 生成统计信息
+```
+
+### ItemSummary 结构
+
+轻量摘要，用于列表卡片和搜索：
+
+```typescript
+interface ItemSummary {
+  id: string
+  typeName: string
+  category: string
+  handbook: { categoryId: string | null; price: number }
+  common: { name: LocalizedText; shortName: LocalizedText; rarity: string }
+  image: string | null
+  ammo?: { caliber, penetrationPower, damage, armorDamage }  // 弹药页分组/排序用
+}
+```
+
+### previewImage
+
+分类卡片使用首个道具图片作为预览图。在 `buildCategories()` 中初步填充，
+在图片加载完成后（Step 9 写入前）再次更新确保正确。
+
 ## 关键文件
 
 | 文件 | 职责 |
@@ -54,3 +87,14 @@ Mod 道具使用 `itemTplToClone` + `overrideProperties` 模式：
 - `effects_health` → 属性变化（能量/水分/治疗状态）
 - `effects_damage` → 状态移除/造成
 - `StimulatorBuffs` → 引用 globals.json 的 buff 定义（`config.Health.Effects.Stimulator.Buffs`）
+
+## 部署注意事项
+
+> **Warning**: `public/images/items/` 必须提交到 git，不能被 .gitignore 排除。
+>
+> 服务器通过 `git pull` 获取图片，如果 .gitignore 排除了图片目录，部署后图片会 404。
+
+### previewImage 时序问题
+
+`buildCategories()` 在 Step 6 执行，但图片路径在 Step 8 才填充。
+因此 previewImage 需要在 Step 9 写入前再次更新（在 index.ts 中处理）。

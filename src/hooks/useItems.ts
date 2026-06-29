@@ -219,9 +219,8 @@ export function useSearch(items: ItemSummary[], lang: 'zh' | 'en') {
 
 export function useCategoryTree(categories: WikiCategory[]) {
   return useMemo(() => {
-    const rootCategories = categories.filter(c => !c.parentId)
+    // Build child map first
     const childMap = new Map<string, WikiCategory[]>()
-
     for (const cat of categories) {
       if (cat.parentId) {
         const children = childMap.get(cat.parentId) || []
@@ -230,12 +229,37 @@ export function useCategoryTree(categories: WikiCategory[]) {
       }
     }
 
-    for (const [, children] of childMap) {
+    // Compute total item count for subtree (including self)
+    const subtreeItemCount = new Map<string, number>()
+    function computeSubtree(cat: WikiCategory): number {
+      if (subtreeItemCount.has(cat.id)) return subtreeItemCount.get(cat.id)!
+      const children = childMap.get(cat.id) || []
+      const total = cat.itemCount + children.reduce((sum, child) => sum + computeSubtree(child), 0)
+      subtreeItemCount.set(cat.id, total)
+      return total
+    }
+    for (const cat of categories) computeSubtree(cat)
+
+    // Filter out categories with 0 items in entire subtree
+    const nonEmptyCategories = categories.filter(c => (subtreeItemCount.get(c.id) || 0) > 0)
+    const rootCategories = nonEmptyCategories.filter(c => !c.parentId)
+
+    // Rebuild filtered child map
+    const filteredChildMap = new Map<string, WikiCategory[]>()
+    for (const cat of nonEmptyCategories) {
+      if (cat.parentId) {
+        const children = filteredChildMap.get(cat.parentId) || []
+        children.push(cat)
+        filteredChildMap.set(cat.parentId, children)
+      }
+    }
+
+    for (const [, children] of filteredChildMap) {
       children.sort((a, b) => a.order - b.order)
     }
     rootCategories.sort((a, b) => a.order - b.order)
 
-    return { rootCategories, childMap }
+    return { rootCategories, childMap: filteredChildMap }
   }, [categories])
 }
 

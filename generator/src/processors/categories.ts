@@ -29,7 +29,7 @@ const CATEGORY_NAMES: Record<string, { zh: string; en: string }> = {
   '5b47574386f77428ca22b2f2': { zh: '易燃物', en: 'Flammable' },
   '5b47574386f77428ca22b2f3': { zh: '医疗用品', en: 'Medical Supplies' },
   '5b47574386f77428ca22b2f4': { zh: '其他', en: 'Other' },
-  '5b47574386f77428ca22b2f5': { zh: '工具', en: 'Tools' },
+  '5b47574386f77428ca22b2f6': { zh: '工具', en: 'Tools' },
   // Gear subcategories
   '5b47574386f77428ca22b32f': { zh: '面部装备', en: 'Face Covers' },
   '5b47574386f77428ca22b330': { zh: '头部装备', en: 'Headwear' },

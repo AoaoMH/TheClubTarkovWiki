@@ -2,7 +2,7 @@
 
 ## 道具详情页（ItemDetail.tsx）
 
-核心组件，根据道具类型动态展示不同属性区域。
+核心组件，根据道具类型动态展示不同属性区域。使用 `useItemDetail(itemId)` 加载单个道具的完整数据。
 
 ### 通用结构
 ```tsx
@@ -98,20 +98,19 @@ Questions to answer:
 
 <!-- How styles are applied (CSS modules, styled-components, Tailwind, etc.) -->
 
-(To be filled by the team)
+## 道具卡片（ItemCard.tsx + ItemGrid）
 
----
+列表视图组件，接收 `ItemSummary` 类型（不是 `WikiItem`）：
 
-## Accessibility
+```tsx
+<ItemCard item={summary} />   // summary: ItemSummary
+<ItemGrid items={summaries} /> // summaries: ItemSummary[]
+```
 
-<!-- A11y requirements and patterns -->
+ItemSummary 只包含卡片展示所需字段：name、shortName、image、rarity、price。
+完整道具数据（WikiItem）仅在 ItemDetail 中使用。
 
-(To be filled by the team)
+## 首页分类导航
 
----
-
-## Common Mistakes
-
-<!-- Component-related mistakes your team has made -->
-
-(To be filled by the team)
+首页使用 `useCategories()` 加载分类树，通过 `cat.previewImage` 展示首个道具图片作为预览。
+如果 previewImage 为 null，显示道具数量占位。
