@@ -251,6 +251,10 @@ function parseObjectives(
         description: cond.conditionType,
         target: cond.target,
       }
+      if (cond.target) {
+        const ids = Array.isArray(cond.target) ? cond.target : [cond.target]
+        obj.targetNames = resolveNamesMap(ids.filter(t => typeof t === 'string') as string[], itemNames, locales)
+      }
       objectives.push(obj)
     } else if (cond.conditionType === 'Skill') {
       const obj: WikiQuestObjective = {
