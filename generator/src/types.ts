@@ -155,6 +155,12 @@ export interface AmmoProps {
   initialSpeed: number
 }
 
+export interface AmmoBoxProps {
+  ammoId: string
+  caliber: string
+  count: number
+}
+
 export interface ArmorProps {
   armorClass: number
   durability: number
@@ -205,6 +211,7 @@ export interface WikiItem {
   properties: {
     weapon?: WeaponProps
     ammo?: AmmoProps
+    ammoBox?: AmmoBoxProps
     armor?: ArmorProps
     medical?: MedicalProps
     mod?: ModProps

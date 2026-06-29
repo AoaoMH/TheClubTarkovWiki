@@ -53,6 +53,11 @@ export interface WikiItem {
   properties: {
     weapon?: Record<string, unknown>
     ammo?: Record<string, unknown>
+    ammoBox?: {
+      ammoId: string
+      caliber: string
+      count: number
+    }
     armor?: Record<string, unknown>
     medical?: {
       medEffectType: string

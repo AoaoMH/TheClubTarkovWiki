@@ -2,7 +2,7 @@ import { EXCLUDED_TYPES } from '../config.js'
 import type {
   SPTItemsMap, SPTItem, Handbook, Locales,
   WikiItem, ItemCategory, SlotInfo,
-  WeaponProps, AmmoProps, ArmorProps, MedicalProps, ModProps, FoodDrinkProps,
+  WeaponProps, AmmoProps, AmmoBoxProps, ArmorProps, MedicalProps, ModProps, FoodDrinkProps,
   HealthEffect, StimBuff, ItemEffects, StimulatorBuffsMap
 } from '../types.js'
 
@@ -136,6 +136,25 @@ function extractAmmoProps(item: SPTItem): AmmoProps | undefined {
     lightBleedChance: (p.LightBleedingModifier as number) || 0,
     heavyBleedChance: (p.HeavyBleedingModifier as number) || 0,
     initialSpeed: (p.InitialSpeed as number) || 0,
+  }
+}
+
+function extractAmmoBoxProps(item: SPTItem): AmmoBoxProps | undefined {
+  const p = item._props
+  const stackSlots = p.StackSlots as Array<{
+    _max_count?: number
+    _props?: { filters?: Array<{ Filter?: string[] }> }
+  }> | undefined
+  if (!Array.isArray(stackSlots) || stackSlots.length === 0) return undefined
+  const slot = stackSlots[0]
+  const filters = slot?._props?.filters
+  if (!Array.isArray(filters) || filters.length === 0) return undefined
+  const ammoId = filters[0]?.Filter?.[0]
+  if (!ammoId) return undefined
+  return {
+    ammoId,
+    caliber: ((p.ammoCaliber as string) || '').replace(/^Caliber/i, ''),
+    count: (slot._max_count as number) || 0,
   }
 }
 
@@ -307,14 +326,16 @@ export function normalizeItems(ctx: NormalizeContext): WikiItem[] {
     const properties: WikiItem['properties'] = {
       _raw: item._props,
     }
-    const wpn = extractWeaponProps(item)
+    const wpn = category === 'ammobox' ? undefined : extractWeaponProps(item)
     const ammo = extractAmmoProps(item)
+    const ammoBox = category === 'ammobox' ? extractAmmoBoxProps(item) : undefined
     const armor = extractArmorProps(item)
     const med = extractMedicalProps(item, stimBuffsMap)
     const mod = extractModProps(item)
     const fd = extractFoodDrinkProps(item, stimBuffsMap)
     if (wpn) properties.weapon = wpn
     if (ammo) properties.ammo = ammo
+    if (ammoBox) properties.ammoBox = ammoBox
     if (armor) properties.armor = armor
     if (med) properties.medical = med
     if (mod) properties.mod = mod

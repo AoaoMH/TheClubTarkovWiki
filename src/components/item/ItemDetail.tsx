@@ -271,6 +271,7 @@ export function ItemDetail() {
 
   const { common, properties } = item
   const isWeapon = item.category === 'weapon'
+  const isAmmoBox = item.category === 'ammobox'
   const typeNameZH = lang === 'zh' ? getTypeNameZH(item.typeName) : item.typeName
 
   // Check if mod properties are all zero
@@ -387,8 +388,25 @@ export function ItemDetail() {
           </Section>
         )}
 
-        {/* Ammo - show for ammo items AND ammobox items */}
-        {properties.ammo && !isWeapon && (
+        {/* Ammo Box Content */}
+        {isAmmoBox && properties.ammoBox && (
+          <Section title={t('ammoBoxContent')}>
+            <StatRow label={t('ammoCaliber')} value={formatCaliber(properties.ammoBox.caliber)} />
+            <StatRow label={t('ammoCount')} value={properties.ammoBox.count} unit={t('ammoBoxRounds')} />
+            <div className="flex justify-between py-1.5 border-b border-border/50 last:border-0">
+              <span className="text-sm text-muted-foreground">{t('ammoType')}</span>
+              <Link
+                to={`/item/${properties.ammoBox.ammoId}`}
+                className="text-sm font-medium text-primary hover:underline"
+              >
+                {t('viewAmmo')}
+              </Link>
+            </div>
+          </Section>
+        )}
+
+        {/* Ammo - show for ammo items (not ammobox) */}
+        {properties.ammo && !isWeapon && !isAmmoBox && (
           <Section title={t('ammo')}>
             <StatRow label={t('ammoCaliber')} value={formatCaliber((properties.ammo?.caliber as string) || item.typeName)} />
             <StatRow label={t('damage')} value={properties.ammo.damage as number} />
