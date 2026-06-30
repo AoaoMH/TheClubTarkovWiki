@@ -413,8 +413,9 @@ function extractModProps(item: SPTItem): ModProps | undefined {
   const ergo = p.ergonomics ?? p.Ergonomics
   const recoilUp = p.RecoilForceUp ?? p.recoilForceUp
   const recoilBack = p.RecoilForceBack ?? p.recoilForceBack
+  const recoil = p.Recoil ?? p.recoil
   const acc = p.Accuracy ?? p.accuracy
-  if (ergo === undefined && recoilUp === undefined && acc === undefined) return undefined
+  if (ergo === undefined && recoilUp === undefined && recoil === undefined && acc === undefined) return undefined
 
   // Serialize Zooms: [[1,4]] → "1-4x", [[1],[4]] → "1x,4x"
   const rawZooms = p.Zooms as number[][] | undefined
@@ -435,6 +436,7 @@ function extractModProps(item: SPTItem): ModProps | undefined {
     ergonomics: (ergo as number) || 0,
     recoilForceUp: (recoilUp as number) || 0,
     recoilForceBack: (recoilBack as number) || 0,
+    recoil: (recoil as number) || 0,
     accuracy: (acc as number) || 0,
     // Common
     loudness: (p.Loudness as number) || 0,

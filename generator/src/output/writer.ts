@@ -3,6 +3,7 @@ import path from 'path'
 import { OUTPUT_DATA_PATH } from '../config.js'
 import type { WikiItem, WikiCategory, WikiTypeNode, ItemSummary, ItemNameEntry } from '../types.js'
 import type { WikiQuestSummary, WikiQuestDetail } from '../processors/quests.js'
+import type { ForgeData } from '../processors/forge.js'
 
 /**
  * Extract a lightweight summary from a WikiItem for list views and search.
@@ -49,7 +50,8 @@ export function writeOutput(
   modItemCount: number,
   itemNames: Record<string, ItemNameEntry>,
   questSummaries?: WikiQuestSummary[],
-  questDetails?: Map<string, WikiQuestDetail>
+  questDetails?: Map<string, WikiQuestDetail>,
+  forgeData?: ForgeData
 ): void {
   console.log(`[output] Writing data to ${OUTPUT_DATA_PATH}`)
 
@@ -153,6 +155,18 @@ export function writeOutput(
   console.log(`  Total items: ${items.length}`)
   console.log(`  Categories with items: ${categories.filter(c => c.itemCount > 0).length}`)
   console.log(`  Mod items: ${modItemCount}`)
+
+  // Write forge data
+  if (forgeData) {
+    const forgeDir = path.join(OUTPUT_DATA_PATH, 'forge')
+    if (!fs.existsSync(forgeDir)) {
+      fs.mkdirSync(forgeDir, { recursive: true })
+    }
+    const forgePath = path.join(forgeDir, 'forge-data.json')
+    fs.writeFileSync(forgePath, JSON.stringify(forgeData), 'utf-8')
+    const forgeItemCount = Object.keys(forgeData.items).length
+    console.log(`[output] forge/forge-data.json: ${forgeItemCount} items (${(fs.statSync(forgePath).size / 1024 / 1024).toFixed(1)} MB)`)
+  }
 
   // Write quest data
   if (questSummaries && questSummaries.length > 0) {

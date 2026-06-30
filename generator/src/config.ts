@@ -19,6 +19,7 @@ export const LOCALE_EN_FILE = path.join(LOCALES_PATH, 'en.json')
 export const GLOBALS_FILE = path.join(DATABASE_PATH, 'globals.json')
 export const QUESTS_FILE = path.join(TEMPLATES_PATH, 'quests.json')
 export const TRADERS_PATH = path.join(DATABASE_PATH, 'traders')
+export const ITEM_PRESETS_FILE = path.join(MODS_PATH, 'SPT-AKI Profile Editor.ModHelper', 'exportedDB', 'ItemPresets.json')
 
 // SPT Server (for image download)
 export const SPT_SERVER_URL = 'https://127.0.0.1:6969'

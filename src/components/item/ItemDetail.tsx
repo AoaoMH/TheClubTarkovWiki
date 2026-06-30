@@ -1,6 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ArrowLeft, HelpCircle, Copy } from 'lucide-react'
+import { ArrowLeft, HelpCircle, Copy, Wrench } from 'lucide-react'
 import { toast } from 'sonner'
 import { Breadcrumb, BreadcrumbList, BreadcrumbItem, BreadcrumbLink, BreadcrumbSeparator, BreadcrumbPage } from '@/components/ui/breadcrumb'
 import { Skeleton } from '@/components/ui/skeleton'
@@ -488,6 +488,14 @@ export function ItemDetail() {
             </Button>
           </h1>
           <p className="text-sm text-muted-foreground mb-3">{common.shortName[lang]} · {typeNameZH}</p>
+          {isWeapon && (
+            <Button asChild variant="default" className="mb-3">
+              <Link to={`/forge/${item.id}`}>
+                <Wrench size={14} className="mr-1" />
+                {lang === 'zh' ? '改枪模拟' : 'Modding Lab'}
+              </Link>
+            </Button>
+          )}
           <p className="text-sm text-muted-foreground leading-relaxed">{common.description[lang]}</p>
         </div>
       </div>

@@ -229,6 +229,7 @@ export interface ModProps {
   ergonomics: number
   recoilForceUp: number
   recoilForceBack: number
+  recoil: number // SPT Recoil field - single recoil modifier for mods
   accuracy: number
   // Common mod fields
   loudness: number

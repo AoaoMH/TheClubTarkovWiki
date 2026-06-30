@@ -1,4 +1,4 @@
-import { readItems, readStimulatorBuffs } from './readers/items.js'
+import { readItems, readStimulatorBuffs, readItemPresets } from './readers/items.js'
 import { readHandbook } from './readers/handbook.js'
 import { readLocales } from './readers/locales.js'
 import { readMods } from './readers/mods.js'
@@ -6,6 +6,7 @@ import { readQuests, readTraders } from './readers/quests.js'
 import { buildTypeHierarchy } from './processors/types.js'
 import { mergeModItems, mergeModLocales } from './processors/merge.js'
 import { normalizeItems } from './processors/normalize.js'
+import { generateForgeData } from './processors/forge.js'
 import { buildCategories } from './processors/categories.js'
 import { processQuests } from './processors/quests.js'
 import { downloadImages, checkServerAvailability, populateCachedImages } from './images/downloader.js'
@@ -108,7 +109,10 @@ async function main() {
     )
 
     console.log('\n--- Writing output ---')
-    writeOutput(wikiItems, wikiCategories, types, modItemIds.size, itemNames, questSummaries, questDetails)
+    // Read factory presets and generate forge data
+    const factoryPresets = readItemPresets()
+    const forgeData = generateForgeData(wikiItems, factoryPresets)
+    writeOutput(wikiItems, wikiCategories, types, modItemIds.size, itemNames, questSummaries, questDetails, forgeData)
   }
 
   const elapsed = ((Date.now() - startTime) / 1000).toFixed(2)

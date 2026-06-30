@@ -6,6 +6,7 @@ import { ItemDetail } from '@/components/item/ItemDetail'
 import { AmmoView } from '@/components/item/AmmoPage'
 import { QuestList } from '@/components/quest/QuestList'
 import { QuestDetail } from '@/components/quest/QuestDetail'
+import { ForgeWorkbench } from '@/components/forge/ForgeWorkbench'
 import { Skeleton } from '@/components/ui/skeleton'
 import { useCategories, useCategorySummaries } from '@/hooks/useItems'
 
@@ -126,15 +127,22 @@ function ItemPage() {
 
 function App() {
   return (
-    <AppLayout>
-      <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/quests" element={<QuestList />} />
-        <Route path="/quest/:id" element={<QuestDetail />} />
-        <Route path="/category/:id" element={<CategoryPage />} />
-        <Route path="/item/:id" element={<ItemPage />} />
-      </Routes>
-    </AppLayout>
+    <Routes>
+      {/* Forge workbench - standalone full-page route */}
+      <Route path="/forge/:gunId" element={<ForgeWorkbench />} />
+      {/* Wiki routes - wrapped in AppLayout */}
+      <Route path="*" element={
+        <AppLayout>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
+            <Route path="/quests" element={<QuestList />} />
+            <Route path="/quest/:id" element={<QuestDetail />} />
+            <Route path="/category/:id" element={<CategoryPage />} />
+            <Route path="/item/:id" element={<ItemPage />} />
+          </Routes>
+        </AppLayout>
+      } />
+    </Routes>
   )
 }
 
