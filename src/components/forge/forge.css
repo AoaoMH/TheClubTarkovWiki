@@ -1156,18 +1156,12 @@ header:not(.header-expanded) .header-nav-btn-icon {
 .attachment-table th:nth-child(5),
 .attachment-table th:nth-child(6),
 .attachment-table th:nth-child(7),
-.attachment-table th:nth-child(8),
-.attachment-table th:nth-child(9),
-.attachment-table th:nth-child(10),
 .attachment-table td:nth-child(2),
 .attachment-table td:nth-child(3),
 .attachment-table td:nth-child(4),
 .attachment-table td:nth-child(5),
 .attachment-table td:nth-child(6),
-.attachment-table td:nth-child(7),
-.attachment-table td:nth-child(8),
-.attachment-table td:nth-child(9),
-.attachment-table td:nth-child(10) {
+.attachment-table td:nth-child(7) {
   width: 1px;
   white-space: nowrap;
   text-align: right;
@@ -1176,23 +1170,17 @@ header:not(.header-expanded) .header-nav-btn-icon {
 }
 
 /* Auto-hide empty columns */
-/* Column order: 1=name 2=price 3=₽/recoil 4=weight 5=recoil 6=acc 7=ergo 8=evo 9=R+E */
+/* Column order: 1=name 2=price 3=weight 4=recoil 5=acc 6=ergo 7=spacer */
 .attachment-table.hide-col-price th:nth-child(2),
 .attachment-table.hide-col-price td:nth-child(2) { display: none; }
-.attachment-table.hide-col-rub-recoil th:nth-child(3),
-.attachment-table.hide-col-rub-recoil td:nth-child(3) { display: none; }
-.attachment-table.hide-col-weight th:nth-child(4),
-.attachment-table.hide-col-weight td:nth-child(4) { display: none; }
-.attachment-table.hide-col-recoil th:nth-child(5),
-.attachment-table.hide-col-recoil td:nth-child(5) { display: none; }
-.attachment-table.hide-col-acc th:nth-child(6),
-.attachment-table.hide-col-acc td:nth-child(6) { display: none; }
-.attachment-table.hide-col-ergo th:nth-child(7),
-.attachment-table.hide-col-ergo td:nth-child(7) { display: none; }
-.attachment-table.hide-col-evo th:nth-child(8),
-.attachment-table.hide-col-evo td:nth-child(8) { display: none; }
-.attachment-table.hide-col-balance th:nth-child(9),
-.attachment-table.hide-col-balance td:nth-child(9) { display: none; }
+.attachment-table.hide-col-weight th:nth-child(3),
+.attachment-table.hide-col-weight td:nth-child(3) { display: none; }
+.attachment-table.hide-col-recoil th:nth-child(4),
+.attachment-table.hide-col-recoil td:nth-child(4) { display: none; }
+.attachment-table.hide-col-acc th:nth-child(5),
+.attachment-table.hide-col-acc td:nth-child(5) { display: none; }
+.attachment-table.hide-col-ergo th:nth-child(6),
+.attachment-table.hide-col-ergo td:nth-child(6) { display: none; }
 
 /* Balance controls: slider shown when R+E sort is active */
 .balance-controls {

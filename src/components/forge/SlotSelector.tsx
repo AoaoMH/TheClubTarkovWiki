@@ -177,16 +177,14 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: Slo
   const hasErgo = sortedItems.some(i => i.ergonomicsModifier !== 0)
   const hasWeight = sortedItems.some(i => i.weight > 0)
   const hasPrice = Object.keys(prices).length > 0
+  // Column order: 1=name 2=price 3=weight 4=recoil 5=acc 6=ergo 7=spacer
   const tableClasses = [
     'attachment-table',
     !hasPrice ? 'hide-col-price' : '',
-    'hide-col-rub-recoil',
     !hasWeight ? 'hide-col-weight' : '',
     !hasRecoil ? 'hide-col-recoil' : '',
     !hasAccuracy ? 'hide-col-acc' : '',
     !hasErgo ? 'hide-col-ergo' : '',
-    'hide-col-evo',
-    'hide-col-balance',
   ].filter(Boolean).join(' ')
 
   // --- Graph calculations (matching original EFTForge) ---
