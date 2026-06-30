@@ -16,18 +16,26 @@ type SortKey = 'name' | 'weight' | 'recoil' | 'accuracy' | 'ergo'
 type ViewMode = 'list' | 'graph'
 
 const SLOT_NAME_ZH: Record<string, string> = {
-  mod_pistol_grip: '握把', mod_magazine: '弹匣', mod_reciever: '机匣',
+  mod_pistol_grip: '握把', mod_pistol_grip_akms: '握把',
+  mod_pistolgrip: '握把', mod_pistolgrip_000: '握把', mod_pistolgrip_001: '握把',
+  mod_magazine: '弹匣', mod_reciever: '机匣',
   mod_stock: '枪托', mod_stock_000: '枪托', mod_stock_001: '枪托',
-  mod_barrel: '枪管', mod_handguard: '护木', mod_muzzle: '枪口',
+  mod_stock_002: '枪托', mod_stock_akms: '枪托', mod_stock_axis: '枪托轴',
+  mod_barrel: '枪管', mod_barrel_000: '枪管', mod_handguard: '护木', mod_muzzle: '枪口',
   mod_gas_block: '导气管', mod_scope: '瞄具', mod_scope_000: '瞄具',
-  mod_scope_001: '瞄具', mod_mount: '导轨', mod_mount_000: '导轨',
-  mod_mount_001: '导轨', mod_mount_002: '导轨',
+  mod_scope_001: '瞄具', mod_scope_002: '瞄具', mod_scope_003: '瞄具',
+  mod_mount: '导轨', mod_mount_000: '导轨', mod_mount_001: '导轨', mod_mount_002: '导轨',
+  mod_mount_003: '导轨', mod_mount_004: '导轨', mod_mount_005: '导轨', mod_mount_006: '导轨',
   mod_sight_rear: '后照门', mod_sight_front: '准星',
   mod_charge: '拉机柄', mod_charge_001: '拉机柄',
   mod_foregrip: '前握把', mod_bipod: '两脚架',
-  mod_tactical_000: '战术设备', mod_tactical_001: '战术设备',
-  mod_tactical_002: '战术设备', mod_launcher: '下挂',
+  mod_tactical: '战术设备', mod_tactical_000: '战术设备', mod_tactical_001: '战术设备',
+  mod_tactical_002: '战术设备', mod_tactical_003: '战术设备', mod_tactical_004: '战术设备',
+  mod_tactical_005: '战术设备', mod_tactical001: '战术设备', mod_tactical002: '战术设备',
+  mod_tactical_2: '战术设备', mod_launcher: '下挂',
   mod_trigger: '扳机', mod_hammer: '击锤', mod_catch: '卡笋', mod_grip: '握把',
+  mod_equipment: '装备', mod_equipment_000: '装备', mod_equipment_001: '装备', mod_equipment_002: '装备',
+  mod_flashlight: '手电', mod_nvg: '夜视仪',
 }
 
 export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: SlotSelectorProps) {

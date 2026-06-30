@@ -53,6 +53,15 @@ export function StatsPanel({ stats, baseStats, previewItem }: StatsPanelProps) {
   const rhDeltaLeft = Math.min(baseRHPct, recoilHPct)
   const rhDeltaWidth = Math.abs(recoilHPct - baseRHPct)
 
+  // Accuracy delta: MOA decrease = good = green
+  const accDelta = isPreviewing && baseStats && baseStats.accuracyMoa !== null && stats.accuracyMoa !== null
+    ? Math.round((stats.accuracyMoa - baseStats.accuracyMoa) * 100) / 100 : 0
+  const accDeltaColor = accDelta <= 0 ? '#4CAF50' : '#f44336'
+  const baseAccuracyPct = isPreviewing && baseStats && baseStats.accuracyMoa !== null
+    ? Math.max(0, Math.min(100 - baseStats.accuracyMoa * 10, 100)) : accuracyPct
+  const accDeltaLeft = Math.min(baseAccuracyPct, accuracyPct)
+  const accDeltaWidth = Math.abs(accuracyPct - baseAccuracyPct)
+
   useEffect(() => {
     if (!hiddenRef.current) return
     const el = hiddenRef.current
@@ -154,9 +163,22 @@ export function StatsPanel({ stats, baseStats, previewItem }: StatsPanelProps) {
         <div className="stat-bar-row">
           <div className="stat-bar-label">精度</div>
           <div className="stat-bar-track">
-            <div className="stat-bar-fill accuracy-bar" style={{ width: `${accuracyPct}%` }} />
+            <div className="stat-bar-fill accuracy-bar" style={{ width: `${isPreviewing ? baseAccuracyPct : accuracyPct}%` }} />
+            {isPreviewing && accDeltaWidth > 0 && (
+              <div className="delta-bar" style={{
+                left: `${accDeltaLeft}%`, width: `${accDeltaWidth}%`,
+                background: accDeltaColor, borderRadius: accDelta <= 0 ? '0 3px 3px 0' : '3px 0 0 3px',
+              }} />
+            )}
           </div>
-          <div className="stat-bar-value">{stats.accuracyMoa.toFixed(2)} MOA</div>
+          <div className="stat-bar-value">
+            {stats.accuracyMoa.toFixed(2)} MOA
+            {isPreviewing && accDelta !== 0 && (
+              <span style={{ color: accDeltaColor, fontSize: '11px', marginLeft: '2px' }}>
+                ({accDelta > 0 ? '+' : ''}{accDelta.toFixed(2)})
+              </span>
+            )}
+          </div>
         </div>
       )}
 
