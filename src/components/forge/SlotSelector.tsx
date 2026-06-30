@@ -77,8 +77,16 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
   const [showLabels, setShowLabels] = useState(() => localStorage.getItem('forge_graph_labels') !== '0')
   const [showCrosshair, setShowCrosshair] = useState(() => localStorage.getItem('forge_graph_crosshair') !== '0')
   const [showHints, setShowHints] = useState(() => localStorage.getItem('forge_graph_hints') !== '0')
-  const [iconScale, setIconScale] = useState(() => parseFloat(localStorage.getItem('forge_graph_icon_scale') || '1.3'))
+  const iconScale = 1.3
   const [mousePos, setMousePos] = useState<{x: number; y: number} | null>(null)
+  // Chart zoom/pan: viewDomain null = default (fit data); a concrete window = zoomed/panned
+  const [viewDomain, setViewDomain] = useState<{ x0: number; x1: number; y0: number; y1: number } | null>(null)
+  const [dragging, setDragging] = useState(false)
+  const dragRef = useRef<{ px: number; py: number; view: { x0: number; x1: number; y0: number; y1: number } } | null>(null)
+  const sliderDragRef = useRef(false)
+  const dragMovedRef = useRef(false)
+  // Latest zoom helpers for the native (non-passive) wheel listener
+  const zoomStateRef = useRef<any>(null)
 
   // Animation ref
   const tableRef = useRef<HTMLTableElement | null>(null)
@@ -108,7 +116,8 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
   useEffect(() => { localStorage.setItem('forge_graph_labels', showLabels ? '1' : '0') }, [showLabels])
   useEffect(() => { localStorage.setItem('forge_graph_crosshair', showCrosshair ? '1' : '0') }, [showCrosshair])
   useEffect(() => { localStorage.setItem('forge_graph_hints', showHints ? '1' : '0') }, [showHints])
-  useEffect(() => { localStorage.setItem('forge_graph_icon_scale', String(iconScale)) }, [iconScale])
+  // Reset zoom/pan when slot or axes change
+  useEffect(() => { setViewDomain(null) }, [slot.name, graphXMetric, graphYMetric])
 
   // Fetch prices + conflict info when slot or installed attachments change
   useEffect(() => {
@@ -267,17 +276,84 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
   if (dyMin > 0 && dyMin < yRange * 0.2) dyMin = 0
   if (dyMax < 0 && dyMax > -yRange * 0.2) dyMax = 0
 
+  // Base (fit-data) domain; viewDomain holds the current zoom/pan window (null = default)
+  const base = { x0: dxMin, x1: dxMax, y0: dyMin, y1: dyMax }
+  const view = viewDomain ?? base
+  const invX = (vv: typeof base, px: number) => xDef.lowerBetter
+    ? vv.x1 - (px - ml) / plotW * (vv.x1 - vv.x0)
+    : vv.x0 + (px - ml) / plotW * (vv.x1 - vv.x0)
+  const invY = (vv: typeof base, py: number) => yDef.lowerBetter
+    ? vv.y0 + (py - mt) / plotH * (vv.y1 - vv.y0)
+    : vv.y1 - (py - mt) / plotH * (vv.y1 - vv.y0)
+
   // Axis direction: lowerBetter = reversed (low value on right for X, low value on top for Y inversed)
   const toX = xDef.lowerBetter
-    ? (v: number) => ml + (dxMax - v) / (dxMax - dxMin) * plotW  // reversed: low=right
-    : (v: number) => ml + (v - dxMin) / (dxMax - dxMin) * plotW   // normal: high=right
+    ? (v: number) => ml + (view.x1 - v) / (view.x1 - view.x0) * plotW  // reversed: low=right
+    : (v: number) => ml + (v - view.x0) / (view.x1 - view.x0) * plotW   // normal: high=right
   const toY = yDef.lowerBetter
-    ? (v: number) => mt + (v - dyMin) / (dyMax - dyMin) * plotH     // normal: low=bottom
-    : (v: number) => mt + (1 - (v - dyMin) / (dyMax - dyMin)) * plotH // reversed: high=top
+    ? (v: number) => mt + (v - view.y0) / (view.y1 - view.y0) * plotH     // normal: low=bottom
+    : (v: number) => mt + (1 - (v - view.y0) / (view.y1 - view.y0)) * plotH // reversed: high=top
+
+  const ZOOM_MIN = 1, ZOOM_MAX = 4
+  const zoomLevel = (base.x1 - base.x0) / (view.x1 - view.x0)
+  const clampView = (v: typeof base) => {
+    const bxR = base.x1 - base.x0, byR = base.y1 - base.y0
+    let { x0, x1, y0, y1 } = v
+    const minRx = bxR / 30, minRy = byR / 30
+    if (x1 - x0 < minRx) { const c = (x0 + x1) / 2; x0 = c - minRx / 2; x1 = c + minRx / 2 }
+    if (y1 - y0 < minRy) { const c = (y0 + y1) / 2; y0 = c - minRy / 2; y1 = c + minRy / 2 }
+    if (x1 - x0 > bxR) { const c = (x0 + x1) / 2; x0 = c - bxR / 2; x1 = c + bxR / 2 }
+    if (y1 - y0 > byR) { const c = (y0 + y1) / 2; y0 = c - byR / 2; y1 = c + byR / 2 }
+    if (x0 < base.x0) { x1 += base.x0 - x0; x0 = base.x0 }
+    if (x1 > base.x1) { x0 -= x1 - base.x1; x1 = base.x1 }
+    if (y0 < base.y0) { y1 += base.y0 - y0; y0 = base.y0 }
+    if (y1 > base.y1) { y0 -= y1 - base.y1; y1 = base.y1 }
+    x0 = Math.max(base.x0, x0); x1 = Math.min(base.x1, x1)
+    y0 = Math.max(base.y0, y0); y1 = Math.min(base.y1, y1)
+    return { x0, x1, y0, y1 }
+  }
+  const zoomAroundPoint = (vv: typeof base, cx: number, cy: number, f: number) => ({
+    x0: cx - (cx - vv.x0) / f, x1: cx + (vv.x1 - cx) / f,
+    y0: cy - (cy - vv.y0) / f, y1: cy + (vv.y1 - cy) / f,
+  })
+  const setZoomCentered = (z: number) => {
+    const zc = Math.min(ZOOM_MAX, Math.max(ZOOM_MIN, z))
+    setViewDomain(prev => {
+      const vv = prev ?? base
+      const cx = (vv.x0 + vv.x1) / 2, cy = (vv.y0 + vv.y1) / 2
+      const bxR = base.x1 - base.x0, byR = base.y1 - base.y0
+      return clampView({ x0: cx - bxR / (2 * zc), x1: cx + bxR / (2 * zc), y0: cy - byR / (2 * zc), y1: cy + byR / (2 * zc) })
+    })
+  }
+  const resetView = () => setViewDomain(null)
+  zoomStateRef.current = { base, invX, invY, clampView, zoomAroundPoint }
+  // Native non-passive wheel listener so preventDefault actually stops page scroll
+  useEffect(() => {
+    const el = graphWrapRef.current
+    if (!el || viewMode !== 'graph') return
+    const handler = (e: WheelEvent) => {
+      const s = zoomStateRef.current
+      if (!s) return
+      const rect = el.getBoundingClientRect()
+      const px = (e.clientX - rect.left) / rect.width * svgW
+      const py = (e.clientY - rect.top) / rect.height * svgH
+      if (px < ml || px > ml + plotW || py < mt || py > mt + plotH) return
+      e.preventDefault()
+      const f = e.deltaY > 0 ? 1 / 1.12 : 1.12
+      setViewDomain(prev => {
+        const vv = prev ?? s.base
+        const cx = s.invX(vv, px), cy = s.invY(vv, py)
+        return s.clampView(s.zoomAroundPoint(vv, cx, cy, f))
+      })
+    }
+    el.addEventListener('wheel', handler, { passive: false })
+    return () => el.removeEventListener('wheel', handler)
+  }, [viewMode, graphH])
 
   // Click on dot = switch to list view and scroll to row (NOT install)
   const [scrollToItemId, setScrollToItemId] = useState<string | null>(null)
   const handleDotClick = useCallback((item: AllowedItem) => {
+    if (dragMovedRef.current) return
     setScrollToItemId(item.id)
     switchView('list')
   }, [switchView])
@@ -300,6 +376,88 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
   const btnX = svgW - 14
   const btnStartY = mt + 8
   const btnSpacing = 20
+  const btnCount = 4 // crosshair / labels / hints / reset
+  // Zoom slider geometry (full-height track below the buttons)
+  const sliderTop = btnStartY + btnCount * btnSpacing + 6
+  const sliderBot = mt + plotH - 8
+  const zFromY = (py: number) => {
+    const t = Math.min(1, Math.max(0, (sliderBot - py) / (sliderBot - sliderTop)))
+    return ZOOM_MIN + t * (ZOOM_MAX - ZOOM_MIN)
+  }
+
+  // --- Adaptive (collision-aware) label placement ---
+  // The yellow node stays at the exact data position (cx,cy); the icon + name are
+  // placed nearby then pushed apart by a small force-directed pass so labels
+  // never overlap each other or cover any node — they "escape" into free space
+  // (up/down/left/right), like the hand-drawn reference.
+  const iconSize = 14 * iconScale
+  const fontSize = 4.5 * iconScale
+  const nameH = showLabels ? fontSize + 2 : 0
+  const labelNodes = graphItems.map(item => {
+    const nameW = showLabels ? item.shortName.length * fontSize * 0.55 : 0
+    const boxW = Math.max(iconSize, nameW)
+    const boxH = iconSize + nameH + 1
+    const r = Math.max(boxW, boxH) / 2 + 1
+    return { id: item.id, cx: toX(xDef.getValue(item)), cy: toY(yDef.getValue(item)), r }
+  })
+  const cenX = labelNodes.length ? labelNodes.reduce((s, n) => s + n.cx, 0) / labelNodes.length : 0
+  const cenY = labelNodes.length ? labelNodes.reduce((s, n) => s + n.cy, 0) / labelNodes.length : 0
+  const minOff = iconSize / 2 + 4
+  const labelPos = labelNodes.map((n, i) => {
+    let dx = n.cx - cenX, dy = n.cy - cenY
+    const d = Math.hypot(dx, dy)
+    if (d < 1) { const a = (i * 2.39996) % (Math.PI * 2); dx = Math.cos(a); dy = Math.sin(a) }
+    else { dx /= d; dy /= d }
+    return { ...n, lx: n.cx + dx * minOff, ly: n.cy + dy * minOff }
+  })
+  for (let it = 0; it < 45; it++) {
+    // label <-> label repulsion
+    for (let i = 0; i < labelPos.length; i++) {
+      const a = labelPos[i]!
+      for (let j = i + 1; j < labelPos.length; j++) {
+        const b = labelPos[j]!
+        let dx = b.lx - a.lx, dy = b.ly - a.ly
+        let dist = Math.hypot(dx, dy)
+        const md = a.r + b.r
+        if (dist < md) {
+          if (dist < 0.01) { dx = 1; dy = 0.1; dist = 1 }
+          const push = (md - dist) / 2
+          const ux = dx / dist, uy = dy / dist
+          a.lx -= ux * push; a.ly -= uy * push
+          b.lx += ux * push; b.ly += uy * push
+        }
+      }
+    }
+    // label <-> node repulsion (keep every label off every node, incl. its own)
+    for (let i = 0; i < labelPos.length; i++) {
+      const a = labelPos[i]!
+      for (let k = 0; k < labelNodes.length; k++) {
+        const nk = labelNodes[k]!
+        let dx = a.lx - nk.cx, dy = a.ly - nk.cy
+        let dist = Math.hypot(dx, dy)
+        const md = a.r + 2.5
+        if (dist < md) {
+          if (dist < 0.01) { dx = (i === k ? 1 : 0.5); dy = 0.1; dist = Math.hypot(dx, dy) || 1 }
+          const push = md - dist
+          a.lx += (dx / dist) * push; a.ly += (dy / dist) * push
+        }
+      }
+    }
+    // weak spring toward own node so labels don't drift away in dense clusters
+    for (let i = 0; i < labelPos.length; i++) {
+      const a = labelPos[i]!
+      a.lx += (a.cx - a.lx) * 0.012
+      a.ly += (a.cy - a.ly) * 0.012
+    }
+    // clamp to plot area
+    for (let i = 0; i < labelPos.length; i++) {
+      const b = labelPos[i]!
+      b.lx = Math.max(ml + b.r, Math.min(ml + plotW - b.r, b.lx))
+      b.ly = Math.max(mt + b.r, Math.min(mt + plotH - b.r, b.ly))
+    }
+  }
+  const labelMap: Record<string, { lx: number; ly: number }> = {}
+  for (const b of labelPos) labelMap[b.id] = { lx: b.lx, ly: b.ly }
 
   return (
     <div className="attachment-table-container">
@@ -502,14 +660,32 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
               className={`att-graph-svg${hoveredItem ? ' has-hover' : ''}`}
               viewBox={`0 0 ${svgW} ${svgH}`}
               preserveAspectRatio="none"
-              style={{ width: '100%', height: '100%', cursor: 'crosshair' }}
+              style={{ width: '100%', height: '100%', cursor: dragging ? 'grabbing' : 'crosshair' }}
+              onMouseDown={(e) => {
+                if (e.button !== 0) return
+                const rect = e.currentTarget.getBoundingClientRect()
+                const px = (e.clientX - rect.left) / rect.width * svgW
+                const py = (e.clientY - rect.top) / rect.height * svgH
+                if (px < ml || px > ml + plotW || py < mt || py > mt + plotH) return
+                dragRef.current = { px, py, view: { ...view } }
+                dragMovedRef.current = false
+                setDragging(true)
+              }}
               onMouseMove={(e) => {
                 const rect = e.currentTarget.getBoundingClientRect()
                 const sx = (e.clientX - rect.left) / rect.width * svgW
                 const sy = (e.clientY - rect.top) / rect.height * svgH
                 setMousePos({ x: sx, y: sy })
+                if (sliderDragRef.current) { setZoomCentered(zFromY(sy)); return }
+                const d = dragRef.current
+                if (!d) return
+                if (Math.hypot(sx - d.px, sy - d.py) > 4) dragMovedRef.current = true
+                const shiftX = invX(d.view, d.px) - invX(d.view, sx)
+                const shiftY = invY(d.view, d.py) - invY(d.view, sy)
+                setViewDomain(clampView({ x0: d.view.x0 + shiftX, x1: d.view.x1 + shiftX, y0: d.view.y0 + shiftY, y1: d.view.y1 + shiftY }))
               }}
-              onMouseLeave={() => { setMousePos(null); setHoveredItem(null); onHoverItem?.(null) }}
+              onMouseUp={() => { dragRef.current = null; sliderDragRef.current = false; setDragging(false) }}
+              onMouseLeave={() => { setMousePos(null); setHoveredItem(null); onHoverItem?.(null); dragRef.current = null; sliderDragRef.current = false; setDragging(false) }}
             >
               <defs>
                 <filter id="icon-shadow" x="-50%" y="-50%" width="200%" height="200%">
@@ -523,8 +699,8 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
 
               {/* Grid lines */}
               {Array.from({ length: 5 }, (_, i) => {
-                const xv = dxMin + (dxMax - dxMin) * i / 4
-                const yv = dyMin + (dyMax - dyMin) * i / 4
+                const xv = view.x0 + (view.x1 - view.x0) * i / 4
+                const yv = view.y0 + (view.y1 - view.y0) * i / 4
                 return (
                   <g key={i}>
                     <line x1={toX(xv)} y1={mt} x2={toX(xv)} y2={mt + plotH} stroke="#222" strokeWidth="0.5" />
@@ -535,10 +711,10 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
                 )
               })}
               {/* Zero axis (dashed) */}
-              {dxMin < 0 && dxMax > 0 && (
+              {view.x0 < 0 && view.x1 > 0 && (
                 <line x1={toX(0)} y1={mt} x2={toX(0)} y2={mt + plotH} stroke="#363636" strokeWidth="0.8" strokeDasharray="4,3" />
               )}
-              {dyMin < 0 && dyMax > 0 && (
+              {view.y0 < 0 && view.y1 > 0 && (
                 <line x1={ml} y1={toY(0)} x2={ml + plotW} y2={toY(0)} stroke="#363636" strokeWidth="0.8" strokeDasharray="4,3" />
               )}
 
@@ -562,20 +738,24 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
               {/* Hints watermark */}
               {showHints && (
                 <g pointerEvents="none" fontSize="7" fill="#3a3a3a">
-                  <text x={ml + 4} y={mt + plotH - 20}>Ctrl+滚轮 缩放</text>
+                  <text x={ml + 4} y={mt + plotH - 20}>滚轮缩放 · 拖动平移</text>
                   <text x={ml + 4} y={mt + plotH - 10}>点击定位列表</text>
                 </g>
               )}
 
-              {/* Data points */}
+              {/* Data points — node stays at exact (cx,cy); icon+label are placed adaptively and joined by a leader */}
               <g clipPath="url(#plot-clip)">
                 {graphItems.map(item => {
                   const xv = xDef.getValue(item)
                   const yv = yDef.getValue(item)
                   const cx = toX(xv)
                   const cy = toY(yv)
+                  if (cx < ml || cx > ml + plotW || cy < mt || cy > mt + plotH) return null
                   const isHovered = hoveredItem?.id === item.id
-                  const iconSize = 14 * iconScale
+                  const lp = labelMap[item.id] || { lx: cx, ly: cy }
+                  const lx = lp.lx, ly = lp.ly
+                  const nameAbove = ly < cy
+                  const edgeY = nameAbove ? ly + iconSize / 2 : ly - iconSize / 2
                   return (
                     <g
                       key={item.id}
@@ -585,11 +765,20 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
                       onClick={() => handleDotClick(item)}
                       style={{ cursor: 'pointer' }}
                     >
-                      {item.image && <image href={item.image} x={cx - iconSize / 2} y={cy - iconSize / 2} width={iconSize} height={iconSize} preserveAspectRatio="xMidYMid meet" filter="url(#icon-shadow)" opacity={isHovered ? 1 : 0.8} />}
-                      {showLabels && <text className="graph-item-name" x={cx} y={cy - iconSize / 2 - 2} textAnchor="middle" fontSize={4.5 * iconScale}>{item.shortName}</text>}
-                      {/* Dot and ring rendered AFTER image so they're visible on top */}
+                      {/* Leader line: node -> elbow -> icon (adapts to label direction) */}
+                      <polyline
+                        className="graph-leader"
+                        points={`${cx},${cy} ${lx},${cy} ${lx},${edgeY}`}
+                        style={{ opacity: isHovered ? 0.95 : 0.4 }}
+                      />
+                      {/* Yellow node — accurate position, rendered on top, never covered by icon */}
                       <circle className="graph-dot-ring" cx={cx} cy={cy} r="4.5" fill="none" stroke="#f5c542" strokeWidth="0.8" strokeOpacity={isHovered ? 0.55 : 0} />
                       <circle cx={cx} cy={cy} r="1.5" fill={isHovered ? '#ffe566' : '#f5c542'} />
+                      {/* Label: icon (reference) + short name, placed in free space */}
+                      <g transform={`translate(${lx - iconSize / 2},${ly - iconSize / 2})`}>
+                        {item.image && <image className="graph-label-icon" href={item.image} x={0} y={0} width={iconSize} height={iconSize} preserveAspectRatio="xMidYMid meet" filter="url(#icon-shadow)" opacity={isHovered ? 1 : 0.85} />}
+                        {showLabels && <text className="graph-item-name" x={iconSize / 2} y={nameAbove ? -2 : iconSize + 7} textAnchor="middle" fontSize={fontSize}>{item.shortName}</text>}
+                      </g>
                     </g>
                   )
                 })}
@@ -621,6 +810,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
                   { active: showCrosshair, onClick: () => setShowCrosshair(!showCrosshair), icon: '⊕', label: '准线' },
                   { active: showLabels, onClick: () => setShowLabels(!showLabels), icon: 'A', label: '标签' },
                   { active: showHints, onClick: () => setShowHints(!showHints), icon: '?', label: '提示' },
+                  { active: zoomLevel > 1.001, onClick: resetView, icon: '⟲', label: '复位' },
                 ]
                 return btns.map((btn, i) => {
                   const by = btnStartY + i * btnSpacing
@@ -633,22 +823,27 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
                 })
               })()}
 
-              {/* Scale slider — vertical track on right side */}
+              {/* Zoom slider — full-height vertical track on right side */}
               <g>
                 {(() => {
                   const sliderX = btnX
-                  const sliderTop = btnStartY + 3 * btnSpacing + 4
-                  const sliderBot = sliderTop + 40
-                  const thumbY = sliderBot - (iconScale - 1.0) / 1.0 * (sliderBot - sliderTop)
+                  const t = (zoomLevel - ZOOM_MIN) / (ZOOM_MAX - ZOOM_MIN)
+                  const thumbY = sliderBot - t * (sliderBot - sliderTop)
                   return (
                     <>
                       <line x1={sliderX} y1={sliderTop} x2={sliderX} y2={sliderBot} stroke="#252525" strokeWidth="1" />
                       <line x1={sliderX} y1={thumbY} x2={sliderX} y2={sliderBot} stroke="#444" strokeWidth="1" />
+                      {/* clickable + wheel-scrollable track */}
+                      <rect x={sliderX - 4} y={sliderTop} width="8" height={Math.max(0, sliderBot - sliderTop)} fill="transparent" pointerEvents="all"
+                        onWheel={(e) => { e.preventDefault(); setZoomCentered(zoomLevel * (e.deltaY > 0 ? 1 / 1.12 : 1.12)) }}
+                        onClick={(e) => { const r = e.currentTarget.ownerSVGElement?.getBoundingClientRect(); if (!r) return; const py = (e.clientY - r.top) / r.height * svgH; setZoomCentered(zFromY(py)) }}
+                      />
                       <circle
                         cx={sliderX} cy={thumbY} r="2.5" fill="#444" stroke="#666" strokeWidth="0.5"
                         style={{ cursor: 'grab' }}
                         pointerEvents="all"
-                        onWheel={(e) => { e.preventDefault(); const delta = e.deltaY > 0 ? -0.05 : 0.05; setIconScale(s => Math.min(2.0, Math.max(1.0, Math.round((s + delta) * 20) / 20))) }}
+                        onMouseDown={(e) => { e.preventDefault(); e.stopPropagation(); sliderDragRef.current = true; setDragging(true) }}
+                        onWheel={(e) => { e.preventDefault(); setZoomCentered(zoomLevel * (e.deltaY > 0 ? 1 / 1.12 : 1.12)) }}
                       />
                     </>
                   )

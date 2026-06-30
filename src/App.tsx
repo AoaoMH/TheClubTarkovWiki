@@ -1,4 +1,4 @@
-import { Routes, Route, useParams, useSearchParams, Link } from 'react-router-dom'
+import { Routes, Route, useParams, useSearchParams, Link, Navigate, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { AppLayout } from '@/components/layout/AppLayout'
 import { ItemGrid } from '@/components/item/ItemCard'
@@ -7,8 +7,10 @@ import { AmmoView } from '@/components/item/AmmoPage'
 import { QuestList } from '@/components/quest/QuestList'
 import { QuestDetail } from '@/components/quest/QuestDetail'
 import { ForgeWorkbench } from '@/components/forge/ForgeWorkbench'
+import { LoginPage } from '@/components/auth/LoginPage'
 import { Skeleton } from '@/components/ui/skeleton'
 import { useCategories, useCategorySummaries } from '@/hooks/useItems'
+import { useAuth } from '@/hooks/useAuth'
 
 const AMMO_ROOT_CATEGORY_ID = '5b47574386f77428ca22b346'
 const AMMO_BULLET_CATEGORY_ID = '5b47574386f77428ca22b33b'
@@ -126,8 +128,33 @@ function ItemPage() {
 }
 
 function App() {
+  const { user, loading } = useAuth()
+  const location = useLocation()
+  const isLoginPage = location.pathname === '/login'
+
+  // Show loading screen while checking auth state
+  if (loading) {
+    return (
+      <div className="flex min-h-screen items-center justify-center bg-background">
+        <p className="text-muted-foreground">加载中...</p>
+      </div>
+    )
+  }
+
+  // Not logged in → redirect to login (unless already on login page)
+  if (!user && !isLoginPage) {
+    return <Navigate to="/login" replace />
+  }
+
+  // Logged in but on login page → redirect to home
+  if (user && isLoginPage) {
+    return <Navigate to="/" replace />
+  }
+
   return (
     <Routes>
+      {/* Login - standalone full-page route */}
+      <Route path="/login" element={<LoginPage />} />
       {/* Forge workbench - standalone full-page route */}
       <Route path="/forge/:gunId" element={<ForgeWorkbench />} />
       {/* Wiki routes - wrapped in AppLayout */}

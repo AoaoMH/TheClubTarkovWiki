@@ -7,7 +7,8 @@ import { AttachmentGrid } from './AttachmentGrid'
 import { TreeView } from './TreeView'
 import { SlotSelector } from './SlotSelector'
 import { StatsPanel } from './StatsPanel'
-import { BuildHistory, getShareUrl, getPresetsForGun, savePreset, deletePreset } from '@/lib/forgeUtils'
+import { BuildHistory } from '@/lib/forgeUtils'
+import { SaveShareDialog } from './SaveShareDialog'
 import './forge.css'
 
 const buildHistory = new BuildHistory()
@@ -28,10 +29,7 @@ export function ForgeWorkbench() {
   const [activeSlot, setActiveSlot] = useState<{ slot: GunSlot; parentSlotPath?: string; slotPath: string } | null>(null)
   const [undoCount, setUndoCount] = useState(0)
   const [redoCount, setRedoCount] = useState(0)
-  const [showShareToast, setShowShareToast] = useState(false)
-  const [showPresetDialog, setShowPresetDialog] = useState(false)
-  const [presetName, setPresetName] = useState('')
-  const [savedPresets, setSavedPresets] = useState(() => gunId ? getPresetsForGun(gunId) : [])
+  const [showSaveShare, setShowSaveShare] = useState(false)
   const [ammoList, setAmmoList] = useState<AmmoItem[]>([])
   const [selectedAmmoId, setSelectedAmmoId] = useState<string | null>(null)
   const [assumeFullMag, setAssumeFullMag] = useState(true)
@@ -153,7 +151,6 @@ export function ForgeWorkbench() {
     setGunId(gunId)
     setLoading(true)
     setError(null)
-    setSavedPresets(getPresetsForGun(gunId))
 
     fetchGunInit(gunId, 'zh')
       .then((data) => {
@@ -256,15 +253,6 @@ export function ForgeWorkbench() {
     }
   }, [])
 
-  const handleShare = useCallback(() => {
-    if (!gunId) return
-    const url = getShareUrl(gunId, installedAttachments)
-    navigator.clipboard.writeText(url).then(() => {
-      setShowShareToast(true)
-      setTimeout(() => setShowShareToast(false), 2000)
-    })
-  }, [gunId, installedAttachments])
-
   const handleReset = useCallback(() => {
     if (!gunId) return
     useForgeStore.getState().reset()
@@ -291,27 +279,13 @@ export function ForgeWorkbench() {
     for (const key of Object.keys(current)) removeAttachment(key)
   }, [])
 
-  const handleSavePreset = useCallback(() => {
-    if (!gunId || !gunData || !presetName.trim()) return
-    savePreset(presetName.trim(), gunId, gunData.name, installedAttachments)
-    setSavedPresets(getPresetsForGun(gunId))
-    setPresetName(''); setShowPresetDialog(false)
-  }, [gunId, gunData, presetName, installedAttachments])
-
-  const handleLoadPreset = useCallback((presetId: string) => {
-    const preset = getPresetsForGun(gunId || '').find(p => p.id === presetId)
-    if (!preset) return
+  const handleLoadPreset = useCallback((attachments: Record<string, string>) => {
     const current = useForgeStore.getState().installedAttachments
     for (const key of Object.keys(current)) removeAttachment(key)
     setTimeout(() => {
-      for (const [slotPath, itemId] of Object.entries(preset.attachments)) installAttachment(slotPath, itemId)
+      for (const [slotPath, itemId] of Object.entries(attachments)) installAttachment(slotPath, itemId)
     }, 50)
-  }, [gunId])
-
-  const handleDeletePreset = useCallback((presetId: string) => {
-    deletePreset(presetId)
-    setSavedPresets(getPresetsForGun(gunId || ''))
-  }, [gunId])
+  }, [])
 
   if (loading) return (<div className="forge-root forge-loading"><div className="forge-loading-text">加载工作台...</div></div>)
   if (error) return (<div className="forge-root forge-loading"><div className="forge-error-text">错误: {error}</div><Link to={`/item/${gunId}`} className="forge-back-link">← 返回物品页</Link></div>)
@@ -361,32 +335,10 @@ export function ForgeWorkbench() {
         <div className="left-panel" ref={leftPanelRef} style={{ width: `${panelWidth}px` }}>
           <div id="left-build-area">
             <div id="build-controls">
-              <button className="back-button" onClick={handleReset}>↺ 重置</button>
-              <button className="back-button" onClick={handleStrip}>✂ 清空</button>
-              <button className="back-button" onClick={handleShare}>🔗 分享</button>
-              <button className="back-button" onClick={() => setShowPresetDialog(!showPresetDialog)}>💾 预设</button>
+              <button className="back-button" onClick={handleReset}>重置配件</button>
+              <button className="back-button" onClick={handleStrip}>清空配件</button>
+              <button className="back-button" onClick={() => setShowSaveShare(true)}>保存/分享</button>
             </div>
-
-            {/* Preset dialog */}
-            {showPresetDialog && (
-              <div style={{ margin: '8px 20px 8px 0', padding: '12px', background: '#1a1a1a', border: '1px solid #333', borderRadius: '6px' }}>
-                <div style={{ display: 'flex', gap: '6px', marginBottom: '8px' }}>
-                  <input type="text" placeholder="预设名称..." value={presetName} onChange={e => setPresetName(e.target.value)} className="forge-search-input" style={{ margin: 0, flex: 1 }} />
-                  <button className="back-button" onClick={handleSavePreset} style={{ width: 'auto', margin: 0, fontSize: '12px', padding: '5px 10px' }}>保存</button>
-                </div>
-                {savedPresets.length > 0 && (
-                  <div style={{ maxHeight: '150px', overflowY: 'auto' }}>
-                    {savedPresets.map(p => (
-                      <div key={p.id} style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '4px 0', borderBottom: '1px solid #222' }}>
-                        <button className="back-button" onClick={() => handleLoadPreset(p.id)} style={{ width: 'auto', margin: 0, fontSize: '12px', padding: '3px 8px', flex: 1, textAlign: 'left' }}>{p.name}</button>
-                        <button onClick={() => handleDeletePreset(p.id)} style={{ background: 'none', border: 'none', color: '#f44', cursor: 'pointer', fontSize: '14px', padding: '2px 6px' }}>×</button>
-                      </div>
-                    ))}
-                  </div>
-                )}
-                {savedPresets.length === 0 && <div style={{ color: '#555', fontSize: '12px', textAlign: 'center', padding: '8px' }}>暂无保存的预设</div>}
-              </div>
-            )}
 
             {/* Stats panel with mag controls inside (matching original #stats structure) */}
             <div id="stats">
@@ -534,11 +486,15 @@ export function ForgeWorkbench() {
         </div>
       </div>
 
-      {showShareToast && (
-        <div style={{ position: 'fixed', bottom: '20px', left: '50%', transform: 'translateX(-50%)', background: '#2a2a2a', color: '#f5c542', padding: '10px 20px', borderRadius: '6px', border: '1px solid #f5c542', fontSize: '13px', zIndex: 1000, boxShadow: '0 4px 12px rgba(0,0,0,0.5)' }}>
-          ✓ 分享链接已复制到剪贴板
-        </div>
-      )}
+      <SaveShareDialog
+        open={showSaveShare}
+        onOpenChange={setShowSaveShare}
+        gunId={gunId || ''}
+        gunData={gunData}
+        installedAttachments={installedAttachments}
+        childSlotsMap={childSlotsMap}
+        onLoadPreset={handleLoadPreset}
+      />
     </div>
   )
 }

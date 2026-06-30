@@ -122,49 +122,5 @@ export class BuildHistory {
   }
 }
 
-// --- Preset Save (localStorage) ---
-
-export interface SavedPreset {
-  id: string
-  name: string
-  gunId: string
-  gunName: string
-  attachments: Record<string, string>
-  createdAt: number
-}
-
-const PRESETS_KEY = 'forge-presets'
-
-export function getPresets(): SavedPreset[] {
-  try {
-    const raw = localStorage.getItem(PRESETS_KEY)
-    if (!raw) return []
-    return JSON.parse(raw) as SavedPreset[]
-  } catch {
-    return []
-  }
-}
-
-export function savePreset(name: string, gunId: string, gunName: string, attachments: Record<string, string>): SavedPreset {
-  const presets = getPresets()
-  const preset: SavedPreset = {
-    id: `preset-${Date.now()}`,
-    name,
-    gunId,
-    gunName,
-    attachments: { ...attachments },
-    createdAt: Date.now(),
-  }
-  presets.unshift(preset)
-  localStorage.setItem(PRESETS_KEY, JSON.stringify(presets))
-  return preset
-}
-
-export function deletePreset(id: string) {
-  const presets = getPresets().filter(p => p.id !== id)
-  localStorage.setItem(PRESETS_KEY, JSON.stringify(presets))
-}
-
-export function getPresetsForGun(gunId: string): SavedPreset[] {
-  return getPresets().filter(p => p.gunId === gunId)
-}
+// Note: Preset save/load has been migrated to server-side storage.
+// See src/lib/presetApi.ts for the new API client.

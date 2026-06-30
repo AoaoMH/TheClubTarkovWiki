@@ -3,6 +3,7 @@
  * Adapted from EFTForge frontend/modules/api.js
  */
 import { forgeConfig } from './forgeConfig'
+import { apiFetch } from './apiFetch'
 
 const base = () => forgeConfig.API_BASE
 
@@ -88,13 +89,13 @@ export interface ConflictResult {
 // --- API functions ---
 
 export async function fetchGunInit(gunId: string, lang: 'zh' | 'en' = 'zh'): Promise<GunInitData> {
-  const res = await fetch(`${base()}/api/forge/guns/${gunId}/init?lang=${lang}`)
+  const res = await apiFetch(`${base()}/api/forge/guns/${gunId}/init?lang=${lang}`)
   if (!res.ok) throw new Error(`Server error: ${res.status}`)
   return res.json()
 }
 
 export async function fetchItemSlots(itemId: string): Promise<{ itemId: string; slots: GunSlot[] }> {
-  const res = await fetch(`${base()}/api/forge/items/${itemId}/slots`)
+  const res = await apiFetch(`${base()}/api/forge/items/${itemId}/slots`)
   if (!res.ok) throw new Error(`Server error: ${res.status}`)
   return res.json()
 }
@@ -104,7 +105,7 @@ export async function fetchAllowedItems(
   slotName: string,
   lang: 'zh' | 'en' = 'zh'
 ): Promise<{ itemId: string; slotName: string; items: AllowedItem[] }> {
-  const res = await fetch(`${base()}/api/forge/items/${itemId}/slots/${slotName}/allowed-items?lang=${lang}`)
+  const res = await apiFetch(`${base()}/api/forge/items/${itemId}/slots/${slotName}/allowed-items?lang=${lang}`)
   if (!res.ok) throw new Error(`Server error: ${res.status}`)
   return res.json()
 }
@@ -115,7 +116,7 @@ export async function calculateBuild(
   assumeFullMag?: boolean,
   selectedAmmoId?: string | null
 ): Promise<BuildStats> {
-  const res = await fetch(`${base()}/api/forge/build/calculate`, {
+  const res = await apiFetch(`${base()}/api/forge/build/calculate`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ baseItemId, installedIds, assumeFullMag, selectedAmmoId }),
@@ -125,7 +126,7 @@ export async function calculateBuild(
 }
 
 export async function validateBuild(candidateId: string, installedIds: string[]): Promise<ConflictResult> {
-  const res = await fetch(`${base()}/api/forge/build/validate`, {
+  const res = await apiFetch(`${base()}/api/forge/build/validate`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ candidateId, installedIds }),
@@ -146,7 +147,7 @@ export async function fetchPrices(
   itemIds: string[],
   installedIds?: string[]
 ): Promise<{ prices: Record<string, ItemPrice>; conflicts: Record<string, ConflictResult> }> {
-  const res = await fetch(`${base()}/api/forge/prices`, {
+  const res = await apiFetch(`${base()}/api/forge/prices`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify({ itemIds, installedIds }),
@@ -176,7 +177,7 @@ export interface AmmoItem {
 }
 
 export async function fetchAmmo(caliber: string, lang: 'zh' | 'en' = 'zh'): Promise<AmmoItem[]> {
-  const res = await fetch(`${base()}/api/forge/ammo/${encodeURIComponent(caliber)}?lang=${lang}`)
+  const res = await apiFetch(`${base()}/api/forge/ammo/${encodeURIComponent(caliber)}?lang=${lang}`)
   if (!res.ok) throw new Error(`Server error: ${res.status}`)
   const data = await res.json()
   return data.items || []

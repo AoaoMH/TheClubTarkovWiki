@@ -1,5 +1,7 @@
+import { useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Search, Globe } from 'lucide-react'
+import { Link } from 'react-router-dom'
+import { Search, Globe, Settings, LogOut } from 'lucide-react'
 import { SidebarTrigger } from '@/components/ui/sidebar'
 import { Button } from '@/components/ui/button'
 import { Kbd } from '@/components/ui/kbd'
@@ -9,9 +11,13 @@ import {
   DropdownMenuItem,
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu'
+import { useAuth } from '@/hooks/useAuth'
+import { AdminPanel } from '@/components/admin/AdminPanel'
 
 export function Header({ onSearchClick }: { onSearchClick: () => void }) {
   const { i18n } = useTranslation()
+  const { user, logout } = useAuth()
+  const [adminOpen, setAdminOpen] = useState(false)
 
   const toggleLang = (lng: 'zh' | 'en') => {
     i18n.changeLanguage(lng)
@@ -49,7 +55,38 @@ export function Header({ onSearchClick }: { onSearchClick: () => void }) {
             </DropdownMenuItem>
           </DropdownMenuContent>
         </DropdownMenu>
+
+        {/* Admin settings button (admin only) */}
+        {user?.role === 'admin' && (
+          <Button variant="outline" size="icon" onClick={() => setAdminOpen(true)}>
+            <Settings className="size-4" />
+          </Button>
+        )}
+
+        {/* Login / User menu */}
+        {user ? (
+          <DropdownMenu>
+            <DropdownMenuTrigger asChild>
+              <Button variant="outline" size="sm" className="gap-2">
+                <span className="max-w-[80px] truncate">{user.username}</span>
+              </Button>
+            </DropdownMenuTrigger>
+            <DropdownMenuContent align="end">
+              <DropdownMenuItem onClick={() => logout()}>
+                <LogOut className="size-4 mr-2" />
+                登出
+              </DropdownMenuItem>
+            </DropdownMenuContent>
+          </DropdownMenu>
+        ) : (
+          <Link to="/login">
+            <Button variant="outline" size="sm">登录</Button>
+          </Link>
+        )}
       </div>
+
+      {/* Admin panel sheet */}
+      <AdminPanel open={adminOpen} onOpenChange={setAdminOpen} />
     </header>
   )
 }

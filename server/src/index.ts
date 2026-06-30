@@ -2,6 +2,11 @@ import express from 'express'
 import cors from 'cors'
 import { forgeData } from './dataLoader.js'
 import type { ForgeItem, BuildStats, ConflictResult } from './types.js'
+import './db.js' // Initialize SQLite database (users, sessions, presets)
+import { requireAuth } from './auth.js'
+import { authRouter } from './routes/auth.js'
+import { presetsRouter } from './routes/presets.js'
+import { adminRouter } from './routes/admin.js'
 
 const app = express()
 const PORT = process.env.PORT || 3001
@@ -12,6 +17,12 @@ app.use(cors({
   credentials: true,
 }))
 app.use(express.json({ limit: '5mb' }))
+
+// --- Global auth: all routes require login except auth routes ---
+app.use((req, res, next) => {
+  if (req.path.startsWith('/api/auth/')) return next()
+  requireAuth(req, res, next)
+})
 
 // --- Load forge data at startup ---
 try {
@@ -443,9 +454,15 @@ app.get('/api/forge/ammo/:caliber', (req, res) => {
   })
 })
 
+// --- Auth / Presets / Admin routes ---
+app.use('/api/auth', authRouter)
+app.use('/api/presets', presetsRouter)
+app.use('/api/admin', adminRouter)
+
 // --- Start server ---
 app.listen(Number(PORT), () => {
   console.log(`\n[server] EFTForge API running at http://localhost:${PORT}`)
   console.log(`[server] Health: http://localhost:${PORT}/api/forge/health`)
   console.log(`[server] CORS: localhost:5173, localhost:4173`)
+  console.log(`[server] Auth: /api/auth/* | Presets: /api/presets/* | Admin: /api/admin/*`)
 })
