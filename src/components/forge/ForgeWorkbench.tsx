@@ -345,10 +345,6 @@ export function ForgeWorkbench() {
         <Link to={`/item/${gunId}`} className="forge-back-link">← 返回</Link>
         <div className="forge-topbar-divider" />
         <h2 className="forge-topbar-title">{gunData.name}</h2>
-        <div style={{ marginLeft: 'auto', display: 'flex', gap: '6px' }}>
-          <button className="back-button" onClick={handleUndo} disabled={undoCount === 0} style={{ opacity: undoCount === 0 ? 0.4 : 1, width: 'auto', fontSize: '12px', padding: '4px 8px', margin: 0 }}>↶ 撤销</button>
-          <button className="back-button" onClick={handleRedo} disabled={redoCount === 0} style={{ opacity: redoCount === 0 ? 0.4 : 1, width: 'auto', fontSize: '12px', padding: '4px 8px', margin: 0 }}>↷ 重做</button>
-        </div>
       </div>
 
       <div className="container" ref={containerRef}>
@@ -448,6 +444,10 @@ export function ForgeWorkbench() {
                   <div className="section-title">
                     <span>工作台</span>
                     <span className="tree-swipe-hint">右键移除</span>
+                    <span className="undo-redo-group">
+                      <button className="back-button" onClick={handleUndo} disabled={undoCount === 0} style={{ opacity: undoCount === 0 ? 0.4 : 1, width: 'auto', fontSize: '12px', padding: '2px 7px', margin: 0 }}>↶ 撤销</button>
+                      <button className="back-button" onClick={handleRedo} disabled={redoCount === 0} style={{ opacity: redoCount === 0 ? 0.4 : 1, width: 'auto', fontSize: '12px', padding: '2px 7px', margin: 0 }}>↷ 重做</button>
+                    </span>
                     <span className="tree-view-toggle">
                       <button
                         className={`toggle-btn${view === 'grid' ? ' active' : ''}`}
@@ -499,6 +499,7 @@ export function ForgeWorkbench() {
         <div className="right-panel">
           {activeSlot ? (
             <SlotSelector
+              key={activeSlot.slotPath}
               slot={activeSlot.slot}
               parentSlotPath={activeSlot.parentSlotPath}
               onClose={() => { setActiveSlot(null); setConflictHighlightId(null) }}

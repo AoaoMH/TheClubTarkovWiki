@@ -5,6 +5,18 @@ import { validateBuild, fetchPrices } from '@/lib/forgeApi'
 import { getFavorites, toggleFavorite } from '@/lib/forgeUtils'
 import './forge.css'
 
+/** 渲染对比差值：当前配件值与基准值的差，颜色按好坏方向编码 */
+function renderCmpDelta(itemVal: number, baseVal: number, lowerBetter: boolean, fmt: (v: number) => string) {
+  const d = itemVal - baseVal
+  if (d === 0) return null
+  const better = lowerBetter ? d < 0 : d > 0
+  return (
+    <div className={`cmp-delta ${better ? 'delta-pos' : 'delta-neg'}`}>
+      {d > 0 ? '+' : ''}{fmt(d)}
+    </div>
+  )
+}
+
 interface SlotSelectorProps {
   slot: GunSlot
   parentSlotPath?: string
@@ -40,7 +52,7 @@ const SLOT_NAME_ZH: Record<string, string> = {
 }
 
 export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onConflictHover }: SlotSelectorProps) {
-  const { installedAttachments, installAttachment, removeAttachment } = useForgeStore()
+  const { installedAttachments, installAttachment } = useForgeStore()
   const [search, setSearch] = useState('')
   const [sortKey, setSortKey] = useState<SortKey>('recoil')
   const [sortDir, setSortDir] = useState<'asc' | 'desc'>('asc')
@@ -147,6 +159,11 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
     return items
   }, [slot.allowedItems, search, sortKey, sortDir, filterFavorites, favorites, conflicts])
 
+  // 对比基准配件（仅在对比模式且已设定基准时存在，基准必定来自当前槽位列表）
+  const baselineItem = compareMode && compareBaseline
+    ? slot.allowedItems.find(i => i.id === compareBaseline) ?? null
+    : null
+
   const toggleSort = (key: SortKey) => {
     if (sortKey === key) setSortDir(d => d === 'asc' ? 'desc' : 'asc')
     else { setSortKey(key); setSortDir('asc') }
@@ -182,6 +199,11 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
   const switchView = (mode: ViewMode) => {
     if (mode === viewMode) return
     setViewMode(mode)
+    // 切换到图表视图时自动关闭对比（图表无对比模式，避免状态残留影响列表）
+    if (mode === 'graph') {
+      setCompareMode(false)
+      setCompareBaseline(null)
+    }
     // Trigger animation on next render
     requestAnimationFrame(() => {
       const el = mode === 'list' ? tableRef.current : graphRef.current
@@ -315,7 +337,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
       {/* Compare hint */}
       {compareMode && (
         <div style={{ padding: '4px 16px', fontSize: '12px', color: '#00c8b4', background: '#0d2420', borderBottom: '1px solid #00c8b433' }}>
-          {compareBaseline ? '对比基准已设定 — 点击其他配件查看差异' : '对比模式 — 点击一个配件作为基准'}
+          {compareBaseline ? '已设置基准 — 点击其他配件更换基准' : '对比模式 — 点击一个配件设为基准'}
         </div>
       )}
 
@@ -373,6 +395,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
                     const price = prices[item.id]
                     const conflict = conflicts[item.id]
                     const isConflicted = !!conflict
+                    const showDelta = !!(baselineItem && !isBaseline)
                     return (
                       <tr
                         key={item.id}
@@ -423,17 +446,26 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
                             </div>
                           ) : '-'}
                         </td>
-                        <td>{item.weight.toFixed(3)}kg</td>
+                        <td>
+                          <div>{item.weight.toFixed(3)}kg</div>
+                          {showDelta && renderCmpDelta(item.weight, baselineItem!.weight, true, v => v.toFixed(3))}
+                        </td>
                         <td style={{ color: item.recoil < 0 ? '#4CAF50' : item.recoil > 0 ? '#f44336' : '#888' }}>
-                          {item.recoil !== 0 ? `${item.recoil > 0 ? '+' : ''}${item.recoil}%` : '-'}
+                          <div>{item.recoil !== 0 ? `${item.recoil > 0 ? '+' : ''}${item.recoil}%` : '-'}</div>
+                          {showDelta && renderCmpDelta(item.recoil, baselineItem!.recoil, true, v => `${v}%`)}
                         </td>
                         <td style={{ color: item.accuracy > 0 ? '#4CAF50' : item.accuracy < 0 ? '#f44336' : '#888' }}>
-                          {item.accuracy !== 0 ? `${item.accuracy > 0 ? '+' : ''}${item.accuracy}%` : '-'}
+                          <div>{item.accuracy !== 0 ? `${item.accuracy > 0 ? '+' : ''}${item.accuracy}%` : '-'}</div>
+                          {showDelta && renderCmpDelta(item.accuracy, baselineItem!.accuracy, false, v => `${v}%`)}
                         </td>
                         <td style={{ color: item.ergonomicsModifier > 0 ? '#4CAF50' : item.ergonomicsModifier < 0 ? '#f44336' : '#888' }}>
-                          {item.ergonomicsModifier !== 0 ? `${item.ergonomicsModifier > 0 ? '+' : ''}${item.ergonomicsModifier}` : '-'}
+                          <div>{item.ergonomicsModifier !== 0 ? `${item.ergonomicsModifier > 0 ? '+' : ''}${item.ergonomicsModifier}` : '-'}</div>
+                          {showDelta && renderCmpDelta(item.ergonomicsModifier, baselineItem!.ergonomicsModifier, false, v => `${v}`)}
                         </td>
-                        <td>{item.magazineCapacity ?? '-'}</td>
+                        <td>
+                          <div>{item.magazineCapacity ?? '-'}</div>
+                          {showDelta && item.magazineCapacity != null && baselineItem!.magazineCapacity != null && renderCmpDelta(item.magazineCapacity, baselineItem!.magazineCapacity, false, v => `${v}`)}
+                        </td>
                         <td></td>
                       </tr>
                     )
