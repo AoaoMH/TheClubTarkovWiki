@@ -83,6 +83,8 @@ export function ForgeWorkbench() {
   }, [])
 
   // Hover preview: compute simulated stats when hovering over an attachment
+  // Key: must SUBTRACT the currently installed item's modifiers before adding the hovered item's,
+  // because hovering simulates REPLACING the installed item, not stacking on top of it.
   const handleHoverItem = useCallback((item: AllowedItem | null) => {
     if (!item) {
       setPreviewStats(null)
@@ -90,10 +92,22 @@ export function ForgeWorkbench() {
       return
     }
     setPreviewItem(item)
-    // Client-side preview: compute new stats by applying item modifiers
     if (stats) {
-      const newRecoilMod = stats.totalRecoilMod + item.recoil
-      const newAccMod = stats.totalAccuracyMod + item.accuracy
+      // Find the currently installed item in the active slot to subtract its modifiers
+      const currentSlotPath = activeSlot?.slotPath
+      const installedItemId = currentSlotPath ? installedAttachments[currentSlotPath] : undefined
+      const currentInstalledItem = installedItemId
+        ? activeSlot?.slot.allowedItems.find(i => i.id === installedItemId)
+        : undefined
+
+      // Subtract old item's modifiers, then add hovered item's modifiers (replacement)
+      const oldRecoil = currentInstalledItem?.recoil ?? 0
+      const oldAccuracy = currentInstalledItem?.accuracy ?? 0
+      const oldErgo = currentInstalledItem?.ergonomicsModifier ?? 0
+      const oldWeight = currentInstalledItem?.weight ?? 0
+
+      const newRecoilMod = stats.totalRecoilMod - oldRecoil + item.recoil
+      const newAccMod = stats.totalAccuracyMod - oldAccuracy + item.accuracy
 
       // Recoil: baseRecoilV * (1 + totalRecoilMod/100)
       // ratio = (100 + newMod) / (100 + oldMod)
@@ -104,21 +118,23 @@ export function ForgeWorkbench() {
       // Accuracy: 34.36 * COI * (1 - accMod/100)
       // ratio = (100 - newAccMod) / (100 - oldAccMod)
       let newAccuracyMoa = stats.accuracyMoa
-      if (stats.accuracyMoa !== null && item.accuracy !== 0) {
+      if (stats.accuracyMoa !== null && newAccMod !== stats.totalAccuracyMod) {
         const accRatio = (100 - newAccMod) / (100 - stats.totalAccuracyMod)
         newAccuracyMoa = Math.round(stats.accuracyMoa * accRatio * 100) / 100
       }
 
       setPreviewStats({
         ...stats,
-        totalErgo: Math.round((stats.totalErgo + item.ergonomicsModifier) * 100) / 100,
-        totalWeight: Math.round((stats.totalWeight + item.weight) * 1000) / 1000,
+        totalRecoilMod: newRecoilMod,
+        totalAccuracyMod: newAccMod,
+        totalErgo: Math.round((stats.totalErgo - oldErgo + item.ergonomicsModifier) * 100) / 100,
+        totalWeight: Math.round((stats.totalWeight - oldWeight + item.weight) * 1000) / 1000,
         recoilVertical: newRecoilV,
         recoilHorizontal: newRecoilH,
         accuracyMoa: newAccuracyMoa,
       })
     }
-  }, [stats])
+  }, [stats, activeSlot, installedAttachments])
 
   // Conflict highlight: flash the conflicting part in the workbench on hover
   const handleConflictHover = useCallback((conflictingItemId: string | null) => {

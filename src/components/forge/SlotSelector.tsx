@@ -200,7 +200,8 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
   const hasErgo = sortedItems.some(i => i.ergonomicsModifier !== 0)
   const hasWeight = sortedItems.some(i => i.weight > 0)
   const hasPrice = Object.keys(prices).length > 0
-  // Column order: 1=name 2=price 3=weight 4=recoil 5=acc 6=ergo 7=spacer
+  const hasCapacity = sortedItems.some(i => i.magazineCapacity != null)
+  // Column order: 1=name 2=price 3=weight 4=recoil 5=acc 6=ergo 7=capacity 8=spacer
   const tableClasses = [
     'attachment-table',
     !hasPrice ? 'hide-col-price' : '',
@@ -208,6 +209,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
     !hasRecoil ? 'hide-col-recoil' : '',
     !hasAccuracy ? 'hide-col-acc' : '',
     !hasErgo ? 'hide-col-ergo' : '',
+    !hasCapacity ? 'hide-col-capacity' : '',
   ].filter(Boolean).join(' ')
 
   // Filter out conflicted items for graph view
@@ -350,6 +352,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
                     <th onClick={() => toggleSort('recoil')}>后坐力{arrow('recoil')}</th>
                     <th onClick={() => toggleSort('accuracy')}>精度{arrow('accuracy')}</th>
                     <th onClick={() => toggleSort('ergo')}>人机{arrow('ergo')}</th>
+                    <th>弹匣</th>
                     <td></td>
                   </tr>
                 </thead>
@@ -363,7 +366,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
                           <span style={{ color: '#00c8b4' }}>基准配件 (其他插槽)</span>
                         </div>
                       </td>
-                      <td colSpan={6} style={{ color: '#00c8b4', fontSize: '11px' }}>← 基准</td>
+                      <td colSpan={7} style={{ color: '#00c8b4', fontSize: '11px' }}>← 基准</td>
                     </tr>
                   )}
                   {sortedItems.map(item => {
@@ -401,7 +404,8 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
                             </div>
                             <div className="att-name-and-rating">
                               <div className="attachment-name-text">
-                                <span>{item.shortName}</span>
+                                <div className="att-item-name">{item.name}</div>
+                                <div className="att-item-shortname">{item.shortName}</div>
                               </div>
                               {isConflicted && (
                                 <div className="att-conflict-label">⚠ 与{conflict!.reasonName}冲突</div>
@@ -431,6 +435,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
                         <td style={{ color: item.ergonomicsModifier > 0 ? '#4CAF50' : item.ergonomicsModifier < 0 ? '#f44336' : '#888' }}>
                           {item.ergonomicsModifier !== 0 ? `${item.ergonomicsModifier > 0 ? '+' : ''}${item.ergonomicsModifier}` : '-'}
                         </td>
+                        <td>{item.magazineCapacity ?? '-'}</td>
                         <td></td>
                       </tr>
                     )

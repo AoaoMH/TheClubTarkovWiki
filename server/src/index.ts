@@ -122,6 +122,7 @@ app.get('/api/forge/guns/:gunId/init', (req, res) => {
         centerOfImpact: item.centerOfImpact,
         sightingRange: item.mod?.sightingRange ?? null,
         conflictingItems: item.conflictingItems,
+        magazineCapacity: item.magazineCapacity ?? null,
       })),
     }
   })
@@ -176,6 +177,7 @@ app.get('/api/forge/items/:itemId/slots/:slotName/allowed-items', (req, res) => 
       centerOfImpact: item.centerOfImpact,
       sightingRange: item.mod?.sightingRange ?? null,
       conflictingItems: item.conflictingItems,
+      magazineCapacity: item.magazineCapacity ?? null,
     })),
   })
 })

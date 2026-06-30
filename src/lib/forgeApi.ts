@@ -22,6 +22,7 @@ export interface AllowedItem {
   centerOfImpact: number | null
   sightingRange: number | null
   conflictingItems: string[]
+  magazineCapacity: number | null
 }
 
 export interface GunSlot {
