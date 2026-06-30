@@ -39,6 +39,7 @@ export function ForgeWorkbench() {
   const [view, setView] = useState<'grid' | 'list'>('grid')
   const [previewStats, setPreviewStats] = useState<BuildStats | null>(EMPTY_PREVIEW)
   const [previewItem, setPreviewItem] = useState<AllowedItem | null>(null)
+  const [conflictHighlightId, setConflictHighlightId] = useState<string | null>(null)
 
   // Panel resizer state
   const leftPanelRef = useRef<HTMLDivElement>(null)
@@ -118,6 +119,11 @@ export function ForgeWorkbench() {
       })
     }
   }, [stats])
+
+  // Conflict highlight: flash the conflicting part in the workbench on hover
+  const handleConflictHover = useCallback((conflictingItemId: string | null) => {
+    setConflictHighlightId(conflictingItemId)
+  }, [])
 
   // Load gun init data when gunId changes
   useEffect(() => {
@@ -441,6 +447,7 @@ export function ForgeWorkbench() {
                     <AttachmentGrid
                       slots={allSlots}
                       activeSlotPath={activeSlotPath}
+                      highlightItemId={conflictHighlightId}
                       onSlotClick={(slot, parentSlotPath) => {
                         const slotPath = parentSlotPath ? `${parentSlotPath}:${slot.name}` : slot.name
                         setActiveSlot({ slot, parentSlotPath, slotPath })
@@ -451,6 +458,7 @@ export function ForgeWorkbench() {
                     <TreeView
                       slots={allSlots}
                       activeSlotPath={activeSlotPath}
+                      highlightItemId={conflictHighlightId}
                       onSlotClick={(slot, parentSlotPath) => {
                         const slotPath = parentSlotPath ? `${parentSlotPath}:${slot.name}` : slot.name
                         setActiveSlot({ slot, parentSlotPath, slotPath })
@@ -477,8 +485,9 @@ export function ForgeWorkbench() {
             <SlotSelector
               slot={activeSlot.slot}
               parentSlotPath={activeSlot.parentSlotPath}
-              onClose={() => setActiveSlot(null)}
+              onClose={() => { setActiveSlot(null); setConflictHighlightId(null) }}
               onHoverItem={handleHoverItem}
+              onConflictHover={handleConflictHover}
             />
           ) : (
             <div className="attachment-placeholder">

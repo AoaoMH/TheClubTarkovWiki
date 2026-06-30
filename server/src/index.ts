@@ -22,6 +22,64 @@ try {
   process.exit(1)
 }
 
+// --- Conflict check helper (shared by validate and prices endpoints) ---
+function checkConflict(candidateId: string, installedIds: string[], lang: string = 'zh'): ConflictResult {
+  const candidate = forgeData.getItem(candidateId)
+  if (!candidate) {
+    return { valid: true, reasonKey: null, reasonName: null, conflictingItemId: null, conflictingSlotId: null }
+  }
+
+  const itemName = (item: ForgeItem) => lang === 'zh' ? item.name.zh : item.name.en
+
+  // Check 1: candidate's conflictingItems vs installed items
+  if (candidate.conflictingItems.length > 0) {
+    const conflictSet = new Set(candidate.conflictingItems)
+    for (const instId of installedIds) {
+      if (conflictSet.has(instId)) {
+        const conflicting = forgeData.getItem(instId)
+        return {
+          valid: false,
+          reasonKey: 'conflict.incompatibleWith',
+          reasonName: conflicting ? itemName(conflicting) : instId,
+          conflictingItemId: instId,
+          conflictingSlotId: null,
+        }
+      }
+    }
+  }
+
+  // Check 2: reverse — installed items' conflictingItems vs candidate
+  for (const instId of installedIds) {
+    const instItem = forgeData.getItem(instId)
+    if (!instItem) continue
+    if (instItem.conflictingItems.includes(candidateId)) {
+      return {
+        valid: false,
+        reasonKey: 'conflict.incompatibleWith',
+        reasonName: itemName(instItem),
+        conflictingItemId: instItem.id,
+        conflictingSlotId: null,
+      }
+    }
+  }
+
+  return { valid: true, reasonKey: null, reasonName: null, conflictingItemId: null, conflictingSlotId: null }
+}
+
+// --- In-memory price cache (avoids redundant tarkov.dev API calls) ---
+interface CachedPrice {
+  data: {
+    fleaPrice: number | null
+    bestBuyPrice: number | null
+    bestBuySource: string | null
+    bestSellPrice: number | null
+    bestSellSource: string | null
+  }
+  expires: number
+}
+const priceCache = new Map<string, CachedPrice>()
+const PRICE_CACHE_TTL = 5 * 60 * 1000 // 5 minutes
+
 // --- Health check ---
 app.get('/api/forge/health', (_req, res) => {
   res.json({
@@ -239,138 +297,127 @@ app.post('/api/forge/build/validate', (req, res) => {
     return
   }
 
-  const installedSet = new Set(installedIds)
   const lang = (req.query.lang as string) || 'zh'
-
-  const itemName = (item: ForgeItem) => lang === 'zh' ? item.name.zh : item.name.en
-
-  // Check 1: candidate's conflictingItems vs installed items
-  if (candidate.conflictingItems.length > 0) {
-    const conflictSet = new Set(candidate.conflictingItems)
-    for (const instId of installedIds) {
-      if (conflictSet.has(instId)) {
-        const conflicting = forgeData.getItem(instId)
-        const result: ConflictResult = {
-          valid: false,
-          reasonKey: 'conflict.incompatibleWith',
-          reasonName: conflicting ? itemName(conflicting) : instId,
-          conflictingItemId: instId,
-          conflictingSlotId: null,
-        }
-        res.json(result)
-        return
-      }
-    }
-  }
-
-  // Check 2: reverse - installed items' conflictingItems vs candidate
-  for (const instId of installedIds) {
-    const instItem = forgeData.getItem(instId)
-    if (!instItem) continue
-    if (instItem.conflictingItems.includes(candidateId)) {
-      const result: ConflictResult = {
-        valid: false,
-        reasonKey: 'conflict.incompatibleWith',
-        reasonName: itemName(instItem),
-        conflictingItemId: instItem.id,
-        conflictingSlotId: null,
-      }
-      res.json(result)
-      return
-    }
-  }
-
-  const result: ConflictResult = {
-    valid: true,
-    reasonKey: null,
-    reasonName: null,
-    conflictingItemId: null,
-    conflictingSlotId: null,
-  }
-  res.json(result)
+  res.json(checkConflict(candidateId, installedIds, lang))
 })
 
-// --- Price proxy: POST /api/forge/prices ---
-// Fetches flea market prices from tarkov.dev GraphQL API for given item IDs
+// --- Price proxy + batch conflict check: POST /api/forge/prices ---
+// Fetches flea market prices from tarkov.dev GraphQL API for given item IDs.
+// If installedIds is provided, also returns conflict info for each candidate.
 app.post('/api/forge/prices', async (req, res) => {
-  const { itemIds } = req.body as { itemIds: string[] }
+  const { itemIds, installedIds } = req.body as { itemIds: string[]; installedIds?: string[] }
 
   if (!Array.isArray(itemIds) || itemIds.length === 0) {
-    res.json({ prices: {} })
+    res.json({ prices: {}, conflicts: {} })
     return
   }
 
-  // Limit batch size to avoid oversized queries
   const batch = itemIds.slice(0, 200)
+  const now = Date.now()
 
-  try {
-    // Query tarkov.dev GraphQL API for flea market prices
-    const query = `
-      query {
-        items(ids: [${batch.map(id => `"${id}"`).join(',')}]) {
-          id
-          name
-          shortName
-          sellFor {
-            price
-            source
-            currency
-          }
-          buyFor {
-            price
-            source
-            currency
+  const prices: Record<string, { fleaPrice: number | null; bestBuyPrice: number | null; bestBuySource: string | null; bestSellPrice: number | null; bestSellSource: string | null }> = {}
+
+  // --- Price fetching with in-memory cache ---
+  const uncachedIds: string[] = []
+  for (const id of batch) {
+    const cached = priceCache.get(id)
+    if (cached && cached.expires > now) {
+      prices[id] = cached.data
+    } else {
+      uncachedIds.push(id)
+    }
+  }
+
+  if (uncachedIds.length > 0) {
+    try {
+      const query = `
+        query {
+          items(ids: [${uncachedIds.map(id => `"${id}"`).join(',')}]) {
+            id
+            name
+            shortName
+            sellFor {
+              price
+              source
+              currency
+            }
+            buyFor {
+              price
+              source
+              currency
+            }
           }
         }
+      `
+
+      const response = await fetch('https://api.tarkov.dev/graphql', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ query }),
+      })
+
+      if (!response.ok) {
+        res.status(502).json({ error: 'Failed to fetch prices from tarkov.dev' })
+        return
       }
-    `
 
-    const response = await fetch('https://api.tarkov.dev/graphql', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ query }),
-    })
+      const data = await response.json()
+      const items = data?.data?.items || []
+      const fetchedIds = new Set(items.map((i: any) => i.id))
 
-    if (!response.ok) {
-      res.status(502).json({ error: 'Failed to fetch prices from tarkov.dev' })
+      for (const item of items) {
+        const sellFor = item.sellFor || []
+        const buyFor = item.buyFor || []
+
+        const fleaSell = sellFor.find((s: any) => s.source === 'fleaMarket')
+        const fleaPrice = fleaSell ? fleaSell.price : null
+
+        const sortedBuy = [...buyFor].sort((a: any, b: any) => a.price - b.price)
+        const bestBuy = sortedBuy[0]
+
+        const sortedSell = [...sellFor].sort((a: any, b: any) => b.price - a.price)
+        const bestSell = sortedSell[0]
+
+        const priceData = {
+          fleaPrice,
+          bestBuyPrice: bestBuy ? bestBuy.price : null,
+          bestBuySource: bestBuy ? bestBuy.source : null,
+          bestSellPrice: bestSell ? bestSell.price : null,
+          bestSellSource: bestSell ? bestSell.source : null,
+        }
+
+        prices[item.id] = priceData
+        priceCache.set(item.id, { data: priceData, expires: now + PRICE_CACHE_TTL })
+      }
+
+      // Cache null results for items not found on tarkov.dev
+      for (const id of uncachedIds) {
+        if (!fetchedIds.has(id)) {
+          const nullData = { fleaPrice: null, bestBuyPrice: null, bestBuySource: null, bestSellPrice: null, bestSellSource: null }
+          prices[id] = nullData
+          priceCache.set(id, { data: nullData, expires: now + PRICE_CACHE_TTL })
+        }
+      }
+    } catch (err) {
+      console.error('[prices] Error fetching prices:', err)
+      res.status(500).json({ error: 'Internal server error' })
       return
     }
+  }
 
-    const data = await response.json()
-    const items = data?.data?.items || []
-
-    const prices: Record<string, { fleaPrice: number | null; bestBuyPrice: number | null; bestBuySource: string | null; bestSellPrice: number | null; bestSellSource: string | null }> = {}
-
-    for (const item of items) {
-      const sellFor = item.sellFor || []
-      const buyFor = item.buyFor || []
-
-      // Best sell price (flea market)
-      const fleaSell = sellFor.find((s: any) => s.source === 'fleaMarket')
-      const fleaPrice = fleaSell ? fleaSell.price : null
-
-      // Best buy price (cheapest trader)
-      const sortedBuy = [...buyFor].sort((a: any, b: any) => a.price - b.price)
-      const bestBuy = sortedBuy[0]
-
-      // Best sell price (any source)
-      const sortedSell = [...sellFor].sort((a: any, b: any) => b.price - a.price)
-      const bestSell = sortedSell[0]
-
-      prices[item.id] = {
-        fleaPrice,
-        bestBuyPrice: bestBuy ? bestBuy.price : null,
-        bestBuySource: bestBuy ? bestBuy.source : null,
-        bestSellPrice: bestSell ? bestSell.price : null,
-        bestSellSource: bestSell ? bestSell.source : null,
+  // --- Batch conflict checking ---
+  const conflicts: Record<string, ConflictResult> = {}
+  if (Array.isArray(installedIds) && installedIds.length > 0) {
+    const lang = (req.query.lang as string) || 'zh'
+    for (const id of batch) {
+      const result = checkConflict(id, installedIds, lang)
+      if (!result.valid) {
+        conflicts[id] = result
       }
     }
-
-    res.json({ prices })
-  } catch (err) {
-    console.error('[prices] Error fetching prices:', err)
-    res.status(500).json({ error: 'Internal server error' })
   }
+
+  res.json({ prices, conflicts })
 })
 
 // --- Ammo by caliber: GET /api/forge/ammo/:caliber ---

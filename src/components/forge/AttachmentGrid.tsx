@@ -239,11 +239,12 @@ function computeGridPositions(
 interface AttachmentGridProps {
   slots: GridSlotEntry[]
   activeSlotPath?: string | null
+  highlightItemId?: string | null
   onSlotClick: (slot: GunSlot, parentSlotPath?: string) => void
   onSlotRemove?: (slotPath: string) => void
 }
 
-export function AttachmentGrid({ slots, activeSlotPath, onSlotClick, onSlotRemove }: AttachmentGridProps) {
+export function AttachmentGrid({ slots, activeSlotPath, highlightItemId, onSlotClick, onSlotRemove }: AttachmentGridProps) {
   const { gunData, gunId, installedAttachments } = useForgeStore()
   if (!gunData) return null
 
@@ -285,6 +286,7 @@ export function AttachmentGrid({ slots, activeSlotPath, onSlotClick, onSlotRemov
             pos={pos}
             installedItemId={installedAttachments[entry.slotPath]}
             isActive={activeSlotPath === entry.slotPath}
+            highlightItemId={highlightItemId}
             onClick={() => onSlotClick(entry.slot, entry.parentSlotPath)}
             onRemove={onSlotRemove ? () => onSlotRemove(entry.slotPath) : undefined}
           />
@@ -302,6 +304,7 @@ export function AttachmentGrid({ slots, activeSlotPath, onSlotClick, onSlotRemov
               pos={{ col: 0, row: 0, extras: true }}
               installedItemId={installedAttachments[entry.slotPath]}
               isActive={activeSlotPath === entry.slotPath}
+              highlightItemId={highlightItemId}
               onClick={() => onSlotClick(entry.slot, entry.parentSlotPath)}
               onRemove={onSlotRemove ? () => onSlotRemove(entry.slotPath) : undefined}
             />
@@ -312,8 +315,8 @@ export function AttachmentGrid({ slots, activeSlotPath, onSlotClick, onSlotRemov
   )
 }
 
-function SlotCell({ slot, displayZh, pos, installedItemId, isActive, onClick, onRemove }: {
-  slot: GunSlot; displayZh: string; pos: FinalPos; installedItemId?: string; isActive?: boolean; onClick: () => void; onRemove?: () => void
+function SlotCell({ slot, displayZh, pos, installedItemId, isActive, highlightItemId, onClick, onRemove }: {
+  slot: GunSlot; displayZh: string; pos: FinalPos; installedItemId?: string; isActive?: boolean; highlightItemId?: string | null; onClick: () => void; onRemove?: () => void
 }) {
   const installedItem = installedItemId ? slot.allowedItems.find(a => a.id === installedItemId) : null
   const gridStyle: React.CSSProperties = pos.extras ? {} : { gridColumn: String(pos.col), gridRow: String(pos.row) }
@@ -321,7 +324,7 @@ function SlotCell({ slot, displayZh, pos, installedItemId, isActive, onClick, on
 
   return (
     <div
-      className={`tree-slot ag-cell${installedItem ? ' has-item' : ''}${isActive ? ' active-slot' : ''}`}
+      className={`tree-slot ag-cell${installedItem ? ' has-item' : ''}${isActive ? ' active-slot' : ''}${installedItemId && highlightItemId === installedItemId ? ' conflict-flash' : ''}`}
       style={gridStyle}
       onClick={onClick}
       onContextMenu={(e) => { e.preventDefault(); if (installedItem && onRemove) onRemove() }}

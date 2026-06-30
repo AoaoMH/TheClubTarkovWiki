@@ -141,15 +141,18 @@ export interface ItemPrice {
   bestSellSource: string | null
 }
 
-export async function fetchPrices(itemIds: string[]): Promise<Record<string, ItemPrice>> {
+export async function fetchPrices(
+  itemIds: string[],
+  installedIds?: string[]
+): Promise<{ prices: Record<string, ItemPrice>; conflicts: Record<string, ConflictResult> }> {
   const res = await fetch(`${base()}/api/forge/prices`, {
     method: 'POST',
     headers: { 'Content-Type': 'application/json' },
-    body: JSON.stringify({ itemIds }),
+    body: JSON.stringify({ itemIds, installedIds }),
   })
   if (!res.ok) throw new Error(`Server error: ${res.status}`)
   const data = await res.json()
-  return data.prices || {}
+  return { prices: data.prices || {}, conflicts: data.conflicts || {} }
 }
 
 export interface AmmoItem {

@@ -97,12 +97,11 @@ export function StatsPanel({ stats, baseStats, previewItem }: StatsPanelProps) {
         <div className="stat-bar-label">人机</div>
         <div className="stat-bar-track">
           <div className="stat-bar-fill ergo-bar" style={{ width: `${isPreviewing ? baseErgoPct : ergoPct}%` }} />
-          {isPreviewing && ergoDelta !== 0 && (
-            <div className="delta-bar" style={{
-              left: `${ergoDeltaLeft}%`, width: `${ergoDeltaWidth}%`,
-              background: ergoDeltaColor, borderRadius: ergoDelta >= 0 ? '0 3px 3px 0' : '3px',
-            }} />
-          )}
+          <div className="delta-bar" style={{
+            left: `${ergoDeltaLeft}%`, width: `${ergoDeltaWidth}%`,
+            background: ergoDeltaColor,
+            opacity: isPreviewing && ergoDelta !== 0 ? 1 : 0,
+          }} />
         </div>
         <div className="stat-bar-value">
           {Number.isInteger(stats.totalErgo) ? stats.totalErgo : stats.totalErgo.toFixed(1)}
@@ -119,12 +118,11 @@ export function StatsPanel({ stats, baseStats, previewItem }: StatsPanelProps) {
         <div className="stat-bar-label">垂直后坐力</div>
         <div className="stat-bar-track">
           <div className="stat-bar-fill recoil-bar" style={{ width: `${isPreviewing ? baseRVPct : recoilVPct}%` }} />
-          {isPreviewing && rvDeltaWidth > 0 && (
-            <div className="delta-bar" style={{
-              left: `${rvDeltaLeft}%`, width: `${rvDeltaWidth}%`,
-              background: rvDeltaColor, borderRadius: rvDelta <= 0 ? '3px 3px 3px 0' : '0 3px 3px 3px',
-            }} />
-          )}
+          <div className="delta-bar" style={{
+            left: `${rvDeltaLeft}%`, width: `${rvDeltaWidth}%`,
+            background: rvDeltaColor,
+            opacity: isPreviewing && rvDeltaWidth > 0 ? 1 : 0,
+          }} />
         </div>
         <div className="stat-bar-value">
           {stats.recoilVertical !== null ? Math.round(stats.recoilVertical) : '-'}
@@ -141,12 +139,11 @@ export function StatsPanel({ stats, baseStats, previewItem }: StatsPanelProps) {
         <div className="stat-bar-label">水平后坐力</div>
         <div className="stat-bar-track">
           <div className="stat-bar-fill recoil-bar" style={{ width: `${isPreviewing ? baseRHPct : recoilHPct}%` }} />
-          {isPreviewing && rhDeltaWidth > 0 && (
-            <div className="delta-bar" style={{
-              left: `${rhDeltaLeft}%`, width: `${rhDeltaWidth}%`,
-              background: rhDeltaColor, borderRadius: rhDelta <= 0 ? '3px 3px 3px 0' : '0 3px 3px 3px',
-            }} />
-          )}
+          <div className="delta-bar" style={{
+            left: `${rhDeltaLeft}%`, width: `${rhDeltaWidth}%`,
+            background: rhDeltaColor,
+            opacity: isPreviewing && rhDeltaWidth > 0 ? 1 : 0,
+          }} />
         </div>
         <div className="stat-bar-value">
           {stats.recoilHorizontal !== null ? Math.round(stats.recoilHorizontal) : '-'}
@@ -161,18 +158,17 @@ export function StatsPanel({ stats, baseStats, previewItem }: StatsPanelProps) {
       {/* Accuracy bar */}
       {stats.accuracyMoa !== null && (
         <div className="stat-bar-row">
-          <div className="stat-bar-label">精度</div>
+          <div className="stat-bar-label">精度(MOA)</div>
           <div className="stat-bar-track">
             <div className="stat-bar-fill accuracy-bar" style={{ width: `${isPreviewing ? baseAccuracyPct : accuracyPct}%` }} />
-            {isPreviewing && accDeltaWidth > 0 && (
-              <div className="delta-bar" style={{
-                left: `${accDeltaLeft}%`, width: `${accDeltaWidth}%`,
-                background: accDeltaColor, borderRadius: accDelta <= 0 ? '0 3px 3px 0' : '3px 0 0 3px',
-              }} />
-            )}
+            <div className="delta-bar" style={{
+              left: `${accDeltaLeft}%`, width: `${accDeltaWidth}%`,
+              background: accDeltaColor,
+              opacity: isPreviewing && accDeltaWidth > 0 ? 1 : 0,
+            }} />
           </div>
           <div className="stat-bar-value">
-            {stats.accuracyMoa.toFixed(2)} MOA
+            {stats.accuracyMoa.toFixed(2)}
             {isPreviewing && accDelta !== 0 && (
               <span style={{ color: accDeltaColor, fontSize: '11px', marginLeft: '2px' }}>
                 ({accDelta > 0 ? '+' : ''}{accDelta.toFixed(2)})

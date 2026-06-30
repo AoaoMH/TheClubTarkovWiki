@@ -65,6 +65,7 @@ interface TreeSlotEntry {
 interface TreeViewProps {
   slots: TreeSlotEntry[]
   activeSlotPath?: string | null
+  highlightItemId?: string | null
   onSlotClick: (slot: GunSlot, parentSlotPath?: string) => void
   onSlotRemove?: (slotPath: string) => void
 }
@@ -75,7 +76,7 @@ interface TreeNode {
   depth: number
 }
 
-export function TreeView({ slots, activeSlotPath, onSlotClick, onSlotRemove }: TreeViewProps) {
+export function TreeView({ slots, activeSlotPath, highlightItemId, onSlotClick, onSlotRemove }: TreeViewProps) {
   const { installedAttachments, gunData } = useForgeStore()
   if (!gunData) return null
 
@@ -108,6 +109,7 @@ export function TreeView({ slots, activeSlotPath, onSlotClick, onSlotRemove }: T
           node={node}
           installedAttachments={installedAttachments}
           activeSlotPath={activeSlotPath}
+          highlightItemId={highlightItemId}
           allSlots={slots}
           onSlotClick={onSlotClick}
           onSlotRemove={onSlotRemove}
@@ -117,10 +119,11 @@ export function TreeView({ slots, activeSlotPath, onSlotClick, onSlotRemove }: T
   )
 }
 
-function TreeNodeItem({ node, installedAttachments, activeSlotPath, allSlots, onSlotClick, onSlotRemove }: {
+function TreeNodeItem({ node, installedAttachments, activeSlotPath, highlightItemId, allSlots, onSlotClick, onSlotRemove }: {
   node: TreeNode
   installedAttachments: Record<string, string>
   activeSlotPath?: string | null
+  highlightItemId?: string | null
   allSlots: TreeSlotEntry[]
   onSlotClick: (slot: GunSlot, parentSlotPath?: string) => void
   onSlotRemove?: (slotPath: string) => void
@@ -137,7 +140,7 @@ function TreeNodeItem({ node, installedAttachments, activeSlotPath, allSlots, on
   return (
     <>
       <div
-        className={`tree-slot${isActive ? ' active-slot' : ''} depth-${depth}`}
+        className={`tree-slot${isActive ? ' active-slot' : ''}${installedItemId && highlightItemId === installedItemId ? ' conflict-flash' : ''} depth-${depth}`}
         data-slot-id={entry.slot.id}
         data-depth={depth}
         data-slot-name={entry.slot.name}
@@ -172,6 +175,7 @@ function TreeNodeItem({ node, installedAttachments, activeSlotPath, allSlots, on
               node={child}
               installedAttachments={installedAttachments}
               activeSlotPath={activeSlotPath}
+              highlightItemId={highlightItemId}
               allSlots={allSlots}
               onSlotClick={onSlotClick}
               onSlotRemove={onSlotRemove}

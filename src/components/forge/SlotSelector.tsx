@@ -1,5 +1,5 @@
 import { useState, useMemo, useEffect, useCallback, useRef } from 'react'
-import type { GunSlot, AllowedItem, ItemPrice } from '@/lib/forgeApi'
+import type { GunSlot, AllowedItem, ItemPrice, ConflictResult } from '@/lib/forgeApi'
 import { useForgeStore } from '@/hooks/useForgeStore'
 import { validateBuild, fetchPrices } from '@/lib/forgeApi'
 import { getFavorites, toggleFavorite } from '@/lib/forgeUtils'
@@ -10,6 +10,7 @@ interface SlotSelectorProps {
   parentSlotPath?: string
   onClose: () => void
   onHoverItem?: (item: AllowedItem | null) => void
+  onConflictHover?: (conflictingItemId: string | null) => void
 }
 
 type SortKey = 'name' | 'weight' | 'recoil' | 'accuracy' | 'ergo'
@@ -38,7 +39,7 @@ const SLOT_NAME_ZH: Record<string, string> = {
   mod_flashlight: '手电', mod_nvg: '夜视仪',
 }
 
-export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: SlotSelectorProps) {
+export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onConflictHover }: SlotSelectorProps) {
   const { installedAttachments, installAttachment, removeAttachment } = useForgeStore()
   const [search, setSearch] = useState('')
   const [sortKey, setSortKey] = useState<SortKey>('recoil')
@@ -49,6 +50,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: Slo
   const [compareMode, setCompareMode] = useState(false)
   const [compareBaseline, setCompareBaseline] = useState<string | null>(null)
   const [prices, setPrices] = useState<Record<string, ItemPrice>>({})
+  const [conflicts, setConflicts] = useState<Record<string, ConflictResult>>({})
   const [viewMode, setViewMode] = useState<ViewMode>('list')
   const [hoveredItem, setHoveredItem] = useState<AllowedItem | null>(null)
 
@@ -94,12 +96,22 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: Slo
   useEffect(() => { localStorage.setItem('forge_graph_hints', showHints ? '1' : '0') }, [showHints])
   useEffect(() => { localStorage.setItem('forge_graph_icon_scale', String(iconScale)) }, [iconScale])
 
-  // Fetch prices when slot changes
+  // Fetch prices + conflict info when slot or installed attachments change
   useEffect(() => {
     if (slot.allowedItems.length === 0) return
     const ids = slot.allowedItems.map(i => i.id)
-    fetchPrices(ids).then(setPrices).catch(() => {})
-  }, [slot])
+    // Exclude current slot's item from conflict check (it's being replaced)
+    const currentSlotPath = parentSlotPath ? `${parentSlotPath}:${slot.name}` : slot.name
+    const installedIds = Object.entries(installedAttachments)
+      .filter(([path]) => path !== currentSlotPath)
+      .map(([, id]) => id)
+    fetchPrices(ids, installedIds.length > 0 ? installedIds : undefined)
+      .then(({ prices: p, conflicts: c }) => {
+        setPrices(p)
+        setConflicts(c)
+      })
+      .catch(() => {})
+  }, [slot, installedAttachments, parentSlotPath])
 
   const slotPath = parentSlotPath ? `${parentSlotPath}:${slot.name}` : slot.name
   const slotNameZh = SLOT_NAME_ZH[slot.name] || slot.name
@@ -114,8 +126,11 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: Slo
     if (filterFavorites) {
       items = items.filter(i => favorites.has(i.id))
     }
-    // Favorited items sort first
+    // Conflict-free items first, then favorited items
     items.sort((a, b) => {
+      const ca = conflicts[a.id] ? 1 : 0
+      const cb = conflicts[b.id] ? 1 : 0
+      if (ca !== cb) return ca - cb
       const fa = favorites.has(a.id) ? 0 : 1
       const fb = favorites.has(b.id) ? 0 : 1
       if (fa !== fb) return fa - fb
@@ -130,7 +145,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: Slo
       return sortDir === 'asc' ? diff : -diff
     })
     return items
-  }, [slot.allowedItems, search, sortKey, sortDir, filterFavorites, favorites])
+  }, [slot.allowedItems, search, sortKey, sortDir, filterFavorites, favorites, conflicts])
 
   const toggleSort = (key: SortKey) => {
     if (sortKey === key) setSortDir(d => d === 'asc' ? 'desc' : 'asc')
@@ -195,6 +210,9 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: Slo
     !hasErgo ? 'hide-col-ergo' : '',
   ].filter(Boolean).join(' ')
 
+  // Filter out conflicted items for graph view
+  const graphItems = sortedItems.filter(item => !conflicts[item.id])
+
   // --- Graph calculations (matching original EFTForge) ---
   // Metric definitions: lowerBetter means axis is reversed (right/up = better)
   const GRAPH_METRICS: Record<string, { label: string; lowerBetter: boolean; getValue: (i: AllowedItem) => number; fmt: (v: number) => string }> = {
@@ -206,8 +224,8 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: Slo
   const yDef = GRAPH_METRICS[graphYMetric]!
   const svgW = 520, svgH = graphH, ml = 46, mr = 20, mt = 18, mb = 40
   const plotW = svgW - ml - mr, plotH = svgH - mt - mb
-  const xVals = sortedItems.map(i => xDef.getValue(i))
-  const yVals = sortedItems.map(i => yDef.getValue(i))
+  const xVals = graphItems.map(i => xDef.getValue(i))
+  const yVals = graphItems.map(i => yDef.getValue(i))
   let dxMin = xVals.length > 0 ? Math.min(...xVals) : 0
   let dxMax = xVals.length > 0 ? Math.max(...xVals) : 1
   let dyMin = yVals.length > 0 ? Math.min(...yVals) : 0
@@ -352,14 +370,25 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: Slo
                     const isInstalled = installedItemId === item.id
                     const isBaseline = compareBaseline === item.id
                     const price = prices[item.id]
+                    const conflict = conflicts[item.id]
+                    const isConflicted = !!conflict
                     return (
                       <tr
                         key={item.id}
                         data-item-id={item.id}
-                        onClick={() => handleInstall(item)}
-                        className={`att-row${isInstalled ? ' attachment-row-installed' : ''}${isBaseline ? ' compare-baseline' : ''}`}
-                        onMouseEnter={() => { if (!isInstalled) { setHoveredItem(item); onHoverItem?.(item) } else onHoverItem?.(null) }}
-                        onMouseLeave={() => { setHoveredItem(null); onHoverItem?.(null) }}
+                        onClick={() => { if (!isConflicted) handleInstall(item) }}
+                        className={`att-row${isInstalled ? ' attachment-row-installed' : ''}${isBaseline ? ' compare-baseline' : ''}${isConflicted ? ' conflict-row' : ''}`}
+                        title={isConflicted ? `与${conflict.reasonName}冲突` : undefined}
+                        onMouseEnter={() => {
+                          if (isConflicted) {
+                            onConflictHover?.(conflict!.conflictingItemId)
+                          } else if (!isInstalled) {
+                            setHoveredItem(item); onHoverItem?.(item)
+                          } else {
+                            onHoverItem?.(null)
+                          }
+                        }}
+                        onMouseLeave={() => { setHoveredItem(null); onHoverItem?.(null); onConflictHover?.(null) }}
                       >
                         <td>
                           <div className="attachment-name-wrapper">
@@ -374,6 +403,9 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: Slo
                               <div className="attachment-name-text">
                                 <span>{item.shortName}</span>
                               </div>
+                              {isConflicted && (
+                                <div className="att-conflict-label">⚠ 与{conflict!.reasonName}冲突</div>
+                              )}
                             </div>
                           </div>
                         </td>
@@ -500,7 +532,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem }: Slo
 
               {/* Data points */}
               <g clipPath="url(#plot-clip)">
-                {sortedItems.map(item => {
+                {graphItems.map(item => {
                   const xv = xDef.getValue(item)
                   const yv = yDef.getValue(item)
                   const cx = toX(xv)
