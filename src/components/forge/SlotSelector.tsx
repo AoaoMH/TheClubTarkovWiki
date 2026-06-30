@@ -58,8 +58,8 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
   // recoilPercent = recoil × 100 (percentage), lowerBetter = true
   // ergonomicsModifier = ergo value, lowerBetter = false (higher = better)
   // weight, lowerBetter = true
-  const [graphXMetric, setGraphXMetric] = useState<'recoilPercent' | 'ergonomicsModifier' | 'weight'>('recoilPercent')
-  const [graphYMetric, setGraphYMetric] = useState<'ergonomicsModifier' | 'recoilPercent' | 'weight'>('ergonomicsModifier')
+  const [graphXMetric, setGraphXMetric] = useState<'recoilPercent' | 'ergonomicsModifier' | 'weight' | 'magazineCapacity'>('recoilPercent')
+  const [graphYMetric, setGraphYMetric] = useState<'ergonomicsModifier' | 'recoilPercent' | 'weight' | 'magazineCapacity'>('ergonomicsModifier')
   const [showLabels, setShowLabels] = useState(() => localStorage.getItem('forge_graph_labels') !== '0')
   const [showCrosshair, setShowCrosshair] = useState(() => localStorage.getItem('forge_graph_crosshair') !== '0')
   const [showHints, setShowHints] = useState(() => localStorage.getItem('forge_graph_hints') !== '0')
@@ -221,6 +221,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
     recoilPercent: { label: '后坐力修正%', lowerBetter: true, getValue: i => i.recoil * 100, fmt: v => `${v >= 0 ? '+' : ''}${v.toFixed(1)}%` },
     ergonomicsModifier: { label: '人机', lowerBetter: false, getValue: i => i.ergonomicsModifier, fmt: v => `${v >= 0 ? '+' : ''}${v.toFixed(1)}` },
     weight: { label: '重量', lowerBetter: true, getValue: i => i.weight, fmt: v => v.toFixed(2) },
+    magazineCapacity: { label: '弹匣', lowerBetter: false, getValue: i => i.magazineCapacity ?? 0, fmt: v => String(v) },
   }
   const xDef = GRAPH_METRICS[graphXMetric]!
   const yDef = GRAPH_METRICS[graphYMetric]!
@@ -308,9 +309,6 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
             <button className={`toggle-btn${viewMode === 'graph' ? ' active' : ''}`} onClick={() => switchView('graph')}>图表</button>
           </div>
         </div>
-        {installedItemId && viewMode === 'list' && (
-          <button className="att-uninstall-btn" onClick={() => { removeAttachment(slotPath); setConflictError(null) }}>卸下</button>
-        )}
         <button className="att-table-close-btn" onClick={onClose}>×</button>
       </div>
 
@@ -454,12 +452,12 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
           <div style={{ display: 'flex', gap: '8px', margin: '4px 0', fontSize: '11px', flexShrink: 0 }}>
             <label style={{ color: '#888' }}>
               X: <select value={graphXMetric} onChange={e => setGraphXMetric(e.target.value as typeof graphXMetric)} style={{ background: '#1a1a1a', color: '#eee', border: '1px solid #333', borderRadius: '3px', padding: '2px 4px' }}>
-                {Object.entries(GRAPH_METRICS).map(([key, def]) => <option key={key} value={key}>{def.label}</option>)}
+                {Object.entries(GRAPH_METRICS).map(([key, def]) => (key === 'magazineCapacity' && !hasCapacity) ? null : <option key={key} value={key}>{def.label}</option>)}
               </select>
             </label>
             <label style={{ color: '#888' }}>
               Y: <select value={graphYMetric} onChange={e => setGraphYMetric(e.target.value as typeof graphYMetric)} style={{ background: '#1a1a1a', color: '#eee', border: '1px solid #333', borderRadius: '3px', padding: '2px 4px' }}>
-                {Object.entries(GRAPH_METRICS).map(([key, def]) => <option key={key} value={key}>{def.label}</option>)}
+                {Object.entries(GRAPH_METRICS).map(([key, def]) => (key === 'magazineCapacity' && !hasCapacity) ? null : <option key={key} value={key}>{def.label}</option>)}
               </select>
             </label>
           </div>
