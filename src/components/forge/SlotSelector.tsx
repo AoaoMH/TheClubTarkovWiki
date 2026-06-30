@@ -23,6 +23,10 @@ interface SlotSelectorProps {
   onClose: () => void
   onHoverItem?: (item: AllowedItem | null) => void
   onConflictHover?: (conflictingItemId: string | null) => void
+  compareMode: boolean
+  compareBaseline: string | null
+  onCompareModeChange: (mode: boolean) => void
+  onCompareBaselineChange: (id: string | null) => void
 }
 
 type SortKey = 'name' | 'weight' | 'recoil' | 'accuracy' | 'ergo'
@@ -51,7 +55,7 @@ const SLOT_NAME_ZH: Record<string, string> = {
   mod_flashlight: '手电', mod_nvg: '夜视仪',
 }
 
-export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onConflictHover }: SlotSelectorProps) {
+export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onConflictHover, compareMode, compareBaseline, onCompareModeChange, onCompareBaselineChange }: SlotSelectorProps) {
   const { installedAttachments, installAttachment } = useForgeStore()
   const [search, setSearch] = useState('')
   const [sortKey, setSortKey] = useState<SortKey>('recoil')
@@ -59,8 +63,6 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
   const [conflictError, setConflictError] = useState<string | null>(null)
   const [favorites, setFavorites] = useState<Set<string>>(() => getFavorites())
   const [filterFavorites, setFilterFavorites] = useState(false)
-  const [compareMode, setCompareMode] = useState(false)
-  const [compareBaseline, setCompareBaseline] = useState<string | null>(null)
   const [prices, setPrices] = useState<Record<string, ItemPrice>>({})
   const [conflicts, setConflicts] = useState<Record<string, ConflictResult>>({})
   const [viewMode, setViewMode] = useState<ViewMode>('list')
@@ -173,7 +175,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
   const handleInstall = useCallback(async (item: AllowedItem) => {
     // In compare mode, set baseline instead of installing
     if (compareMode) {
-      setCompareBaseline(item.id)
+      onCompareBaselineChange(item.id)
       return
     }
     const installedIds = Object.values(installedAttachments)
@@ -187,7 +189,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
     } catch { /* allow install even if validate fails */ }
     setConflictError(null)
     installAttachment(slotPath, item.id)
-  }, [installedAttachments, installAttachment, slotPath, compareMode])
+  }, [installedAttachments, installAttachment, slotPath, compareMode, onCompareBaselineChange])
 
   const handleToggleFav = (e: React.MouseEvent, itemId: string) => {
     e.stopPropagation()
@@ -201,8 +203,8 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
     setViewMode(mode)
     // 切换到图表视图时自动关闭对比（图表无对比模式，避免状态残留影响列表）
     if (mode === 'graph') {
-      setCompareMode(false)
-      setCompareBaseline(null)
+      onCompareModeChange(false)
+      onCompareBaselineChange(null)
     }
     // Trigger animation on next render
     requestAnimationFrame(() => {
@@ -319,7 +321,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
           <button
             id="compare-toggle-btn"
             className={`compare-toggle${compareMode ? ' active' : ''}`}
-            onClick={() => { setCompareMode(!compareMode); setCompareBaseline(null) }}
+            onClick={() => { onCompareModeChange(!compareMode); onCompareBaselineChange(null) }}
             style={{ display: viewMode === 'graph' ? 'none' : '' }}
           >
             对比

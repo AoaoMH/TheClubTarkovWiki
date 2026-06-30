@@ -7387,3 +7387,45 @@ body[data-mobile="true"].mobile-publish-mode #left-build-area {
 /* Att-fav-btn already defined in original CSS (line ~1402) */
 /* Att-price-wrap and att-price-flea already defined in original CSS (line ~1227) */
 /* Table-slide-in animation already defined in original CSS (line ~2703) */
+
+/* ========================= FORGE COMPARE MODE THEME ========================= */
+/* 对比模式：页面黄色强调色 → 对比蓝 #00c8b4 */
+.forge-root.compare-mode .section-title,
+.forge-root.compare-mode .forge-topbar-title,
+.forge-root.compare-mode .forge-back-link,
+.forge-root.compare-mode .gun-display-name,
+.forge-root.compare-mode .att-table-header h3,
+.forge-root.compare-mode header h2,
+.forge-root.compare-mode .att-task-unlock {
+  color: #00c8b4;
+}
+
+.forge-root.compare-mode .section-title {
+  border-left-color: #00c8b4;
+}
+
+.forge-root.compare-mode .custom-select-option:hover,
+.forge-root.compare-mode .custom-select-option.selected {
+  color: #00c8b4;
+}
+
+/* 装满弹匣 / 收藏 / 可购 开关 active 态黄→蓝 */
+.forge-root.compare-mode .mag-controls .compare-toggle.active .compare-toggle-track,
+.forge-root.compare-mode #favorites-filter-btn.active .compare-toggle-track,
+.forge-root.compare-mode #purchasable-toggle-btn.active .compare-toggle-track {
+  border-color: #00c8b4;
+}
+
+.forge-root.compare-mode .mag-controls .compare-toggle.active .compare-toggle-knob,
+.forge-root.compare-mode #favorites-filter-btn.active .compare-toggle-knob,
+.forge-root.compare-mode #purchasable-toggle-btn.active .compare-toggle-knob {
+  background: #00c8b4;
+}
+
+/* 对比模式：右下角背景光晕黄→蓝（--blob-color 继承到 .container 背景） */
+.forge-root {
+  transition: --blob-color 0.8s ease;
+}
+.forge-root.compare-mode {
+  --blob-color: rgba(0, 200, 180, 0.10);
+}

@@ -40,6 +40,9 @@ export function ForgeWorkbench() {
   const [previewStats, setPreviewStats] = useState<BuildStats | null>(EMPTY_PREVIEW)
   const [previewItem, setPreviewItem] = useState<AllowedItem | null>(null)
   const [conflictHighlightId, setConflictHighlightId] = useState<string | null>(null)
+  // 对比模式状态（提升到此处以便 StatsPanel 联动 + 主题切换）
+  const [compareMode, setCompareMode] = useState(false)
+  const [compareBaseline, setCompareBaseline] = useState<string | null>(null)
 
   // Panel resizer state
   const leftPanelRef = useRef<HTMLDivElement>(null)
@@ -82,9 +85,46 @@ export function ForgeWorkbench() {
     document.addEventListener('mouseup', onUp)
   }, [])
 
+  // Compute stats after replacing the active slot's item with a target item.
+  // Subtracts the currently installed item's modifiers then adds the target's (replacement, not stacking).
+  const computeReplaceStats = useCallback((item: AllowedItem, baseStats: BuildStats): BuildStats => {
+    const currentSlotPath = activeSlot?.slotPath
+    const installedItemId = currentSlotPath ? installedAttachments[currentSlotPath] : undefined
+    const currentInstalledItem = installedItemId
+      ? activeSlot?.slot.allowedItems.find(i => i.id === installedItemId)
+      : undefined
+
+    const oldRecoil = currentInstalledItem?.recoil ?? 0
+    const oldAccuracy = currentInstalledItem?.accuracy ?? 0
+    const oldErgo = currentInstalledItem?.ergonomicsModifier ?? 0
+    const oldWeight = currentInstalledItem?.weight ?? 0
+
+    const newRecoilMod = baseStats.totalRecoilMod - oldRecoil + item.recoil
+    const newAccMod = baseStats.totalAccuracyMod - oldAccuracy + item.accuracy
+
+    const recoilRatio = (100 + newRecoilMod) / (100 + baseStats.totalRecoilMod)
+    const newRecoilV = baseStats.recoilVertical !== null ? Math.round(baseStats.recoilVertical * recoilRatio) : null
+    const newRecoilH = baseStats.recoilHorizontal !== null ? Math.round(baseStats.recoilHorizontal * recoilRatio) : null
+
+    let newAccuracyMoa = baseStats.accuracyMoa
+    if (baseStats.accuracyMoa !== null && newAccMod !== baseStats.totalAccuracyMod) {
+      const accRatio = (100 - newAccMod) / (100 - baseStats.totalAccuracyMod)
+      newAccuracyMoa = Math.round(baseStats.accuracyMoa * accRatio * 100) / 100
+    }
+
+    return {
+      ...baseStats,
+      totalRecoilMod: newRecoilMod,
+      totalAccuracyMod: newAccMod,
+      totalErgo: Math.round((baseStats.totalErgo - oldErgo + item.ergonomicsModifier) * 100) / 100,
+      totalWeight: Math.round((baseStats.totalWeight - oldWeight + item.weight) * 1000) / 1000,
+      recoilVertical: newRecoilV,
+      recoilHorizontal: newRecoilH,
+      accuracyMoa: newAccuracyMoa,
+    }
+  }, [activeSlot, installedAttachments])
+
   // Hover preview: compute simulated stats when hovering over an attachment
-  // Key: must SUBTRACT the currently installed item's modifiers before adding the hovered item's,
-  // because hovering simulates REPLACING the installed item, not stacking on top of it.
   const handleHoverItem = useCallback((item: AllowedItem | null) => {
     if (!item) {
       setPreviewStats(null)
@@ -93,48 +133,9 @@ export function ForgeWorkbench() {
     }
     setPreviewItem(item)
     if (stats) {
-      // Find the currently installed item in the active slot to subtract its modifiers
-      const currentSlotPath = activeSlot?.slotPath
-      const installedItemId = currentSlotPath ? installedAttachments[currentSlotPath] : undefined
-      const currentInstalledItem = installedItemId
-        ? activeSlot?.slot.allowedItems.find(i => i.id === installedItemId)
-        : undefined
-
-      // Subtract old item's modifiers, then add hovered item's modifiers (replacement)
-      const oldRecoil = currentInstalledItem?.recoil ?? 0
-      const oldAccuracy = currentInstalledItem?.accuracy ?? 0
-      const oldErgo = currentInstalledItem?.ergonomicsModifier ?? 0
-      const oldWeight = currentInstalledItem?.weight ?? 0
-
-      const newRecoilMod = stats.totalRecoilMod - oldRecoil + item.recoil
-      const newAccMod = stats.totalAccuracyMod - oldAccuracy + item.accuracy
-
-      // Recoil: baseRecoilV * (1 + totalRecoilMod/100)
-      // ratio = (100 + newMod) / (100 + oldMod)
-      const recoilRatio = (100 + newRecoilMod) / (100 + stats.totalRecoilMod)
-      const newRecoilV = stats.recoilVertical !== null ? Math.round(stats.recoilVertical * recoilRatio) : null
-      const newRecoilH = stats.recoilHorizontal !== null ? Math.round(stats.recoilHorizontal * recoilRatio) : null
-
-      // Accuracy: 34.36 * COI * (1 - accMod/100)
-      // ratio = (100 - newAccMod) / (100 - oldAccMod)
-      let newAccuracyMoa = stats.accuracyMoa
-      if (stats.accuracyMoa !== null && newAccMod !== stats.totalAccuracyMod) {
-        const accRatio = (100 - newAccMod) / (100 - stats.totalAccuracyMod)
-        newAccuracyMoa = Math.round(stats.accuracyMoa * accRatio * 100) / 100
-      }
-
-      setPreviewStats({
-        ...stats,
-        totalRecoilMod: newRecoilMod,
-        totalAccuracyMod: newAccMod,
-        totalErgo: Math.round((stats.totalErgo - oldErgo + item.ergonomicsModifier) * 100) / 100,
-        totalWeight: Math.round((stats.totalWeight - oldWeight + item.weight) * 1000) / 1000,
-        recoilVertical: newRecoilV,
-        recoilHorizontal: newRecoilH,
-        accuracyMoa: newAccuracyMoa,
-      })
+      setPreviewStats(computeReplaceStats(item, stats))
     }
-  }, [stats, activeSlot, installedAttachments])
+  }, [stats, computeReplaceStats])
 
   // Conflict highlight: flash the conflicting part in the workbench on hover
   const handleConflictHover = useCallback((conflictingItemId: string | null) => {
@@ -336,11 +337,19 @@ export function ForgeWorkbench() {
     ? (activeSlot.parentSlotPath ? `${activeSlot.parentSlotPath}:${activeSlot.slot.name}` : activeSlot.slot.name)
     : null
 
-  // Stats to display: preview if hovering, otherwise actual
-  const displayStats = previewStats || stats
+  // 对比基准配件 + 基准属性（对比模式下伪装显示基准配件的属性）
+  const baselineItem = compareMode && compareBaseline && activeSlot
+    ? activeSlot.slot.allowedItems.find(i => i.id === compareBaseline)
+    : null
+  const baselineStats = compareMode && baselineItem && stats ? computeReplaceStats(baselineItem, stats) : null
+
+  // Stats to display: 对比模式下以基准为底；hover 时显示预览值
+  const inCompare = !!(compareMode && baselineStats)
+  const panelStats = inCompare ? (previewStats || baselineStats!) : (previewStats || stats)
+  const panelBase = inCompare ? baselineStats : (previewStats ? stats : null)
 
   return (
-    <div className="forge-root">
+    <div className={`forge-root${compareMode ? ' compare-mode' : ''}`}>
       <div className="forge-topbar">
         <Link to={`/item/${gunId}`} className="forge-back-link">← 返回</Link>
         <div className="forge-topbar-divider" />
@@ -428,10 +437,10 @@ export function ForgeWorkbench() {
             )}
 
               {/* Stats content */}
-              {displayStats && (
+              {panelStats && (
                 <StatsPanel
-                  stats={displayStats}
-                  baseStats={previewStats ? stats : null}
+                  stats={panelStats}
+                  baseStats={panelBase}
                   previewItem={previewItem}
                 />
               )}
@@ -466,6 +475,7 @@ export function ForgeWorkbench() {
                       highlightItemId={conflictHighlightId}
                       onSlotClick={(slot, parentSlotPath) => {
                         const slotPath = parentSlotPath ? `${parentSlotPath}:${slot.name}` : slot.name
+                        setCompareMode(false); setCompareBaseline(null)
                         setActiveSlot({ slot, parentSlotPath, slotPath })
                       }}
                       onSlotRemove={(slotPath) => removeAttachment(slotPath)}
@@ -477,6 +487,7 @@ export function ForgeWorkbench() {
                       highlightItemId={conflictHighlightId}
                       onSlotClick={(slot, parentSlotPath) => {
                         const slotPath = parentSlotPath ? `${parentSlotPath}:${slot.name}` : slot.name
+                        setCompareMode(false); setCompareBaseline(null)
                         setActiveSlot({ slot, parentSlotPath, slotPath })
                       }}
                       onSlotRemove={(slotPath) => removeAttachment(slotPath)}
@@ -505,6 +516,10 @@ export function ForgeWorkbench() {
               onClose={() => { setActiveSlot(null); setConflictHighlightId(null) }}
               onHoverItem={handleHoverItem}
               onConflictHover={handleConflictHover}
+              compareMode={compareMode}
+              compareBaseline={compareBaseline}
+              onCompareModeChange={setCompareMode}
+              onCompareBaselineChange={setCompareBaseline}
             />
           ) : (
             <div className="attachment-placeholder">
