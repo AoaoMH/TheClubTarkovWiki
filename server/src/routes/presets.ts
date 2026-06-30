@@ -124,12 +124,15 @@ presetsRouter.put('/:id', (req, res) => {
   res.json({ ok: true })
 })
 
-// DELETE /api/presets/:id
+// DELETE /api/presets/:id — own presets always deletable; admin can delete any
 presetsRouter.delete('/:id', (req, res) => {
   const userId = req.user!.id
+  const isAdmin = req.user!.role === 'admin'
   const presetId = req.params.id
 
-  const result = db.prepare('DELETE FROM presets WHERE id = ? AND user_id = ?').run(presetId, userId)
+  const result = isAdmin
+    ? db.prepare('DELETE FROM presets WHERE id = ?').run(presetId)
+    : db.prepare('DELETE FROM presets WHERE id = ? AND user_id = ?').run(presetId, userId)
   if (result.changes === 0) {
     res.status(404).json({ error: '预设不存在' })
     return

@@ -1,0 +1,103 @@
+{
+  "id": "6738035350b24a4ae4a57997",
+  "typeName": "Map",
+  "category": "special",
+  "parentTypeChain": [
+    "Map",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "Lighthouse plan map",
+      "en": "Lighthouse plan map"
+    },
+    "shortName": {
+      "zh": "Lighthouse",
+      "en": "Lighthouse"
+    },
+    "description": {
+      "zh": "A map of Lighthouse. This should help you navigate this map..oh wait. The design is so straightforward you don't really need a map. Such map design. Wow. 10/10.\n\n NOTICE: Does not include a map of the mines to Lightkeeper. Git gud.",
+      "en": "A map of Lighthouse. This should help you navigate this map..oh wait. The design is so straightforward you don't really need a map. Such map design. Wow. 10/10.\n\n NOTICE: Does not include a map of the mines to Lightkeeper. Git gud."
+    },
+    "weight": 0.045,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "Name": "Lighthouse plan map",
+      "ShortName": "Lighthouse",
+      "Description": "A map of Lighthouse. This should help you navigate this map..oh wait. The design is so straightforward you don't really need a map. Such map design. Wow. 10/10.\n\n NOTICE: Does not include a map of the mines to Lightkeeper. Git gud.",
+      "Weight": 0.045,
+      "BackgroundColor": "orange",
+      "Width": 1,
+      "Height": 1,
+      "StackMaxSize": 1,
+      "ItemSound": "item_map",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/items/map/map.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 5,
+      "ExamineExperience": 8,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "effects_health": [],
+      "effects_damage": [],
+      "ConfigPathStr": "UI/PocketMap/Plans/WoodsPlan/config",
+      "MaxMarkersCount": 100,
+      "scaleMin": 0.24,
+      "scaleMax": 1,
+      "PlayFuzeSound": false
+    }
+  },
+  "slots": [],
+  "image": null,
+  "isMod": false
+}

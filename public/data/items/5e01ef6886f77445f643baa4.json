@@ -34,205 +34,208 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "ArmorMaterial": "Combined",
-      "ArmorType": "Heavy",
-      "BackgroundColor": "default",
-      "BlindnessProtection": 0,
-      "BlocksEarpiece": false,
-      "BlocksEyewear": false,
-      "BlocksFaceCover": false,
-      "BlocksHeadwear": false,
-      "BluntThroughput": 0.1548,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "DeafStrength": "None",
+      "Name": "item_equipment_helmet_team_wendy_exfil",
+      "ShortName": "item_equipment_helmet_team_wendy_exfil",
       "Description": "item_equipment_helmet_team_wendy_exfil",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "Durability": 0,
-      "ExamineExperience": 4,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "FaceShieldComponent": false,
-      "FaceShieldMask": "NoMask",
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasHinge": false,
+      "Weight": 1.18,
+      "BackgroundColor": "default",
+      "Width": 2,
       "Height": 2,
-      "HideEntrails": false,
-      "Indestructibility": 0.9,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "gear_helmet",
       "LeftHandItem": false,
-      "LootExperience": 20,
-      "MaterialType": "BodyArmor",
-      "MaxDurability": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Defence",
-      "Name": "item_equipment_helmet_team_wendy_exfil",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/equipment/helmet_team_wendy_exfil/item_equipment_helmet_team_wendy_exfil_coyote.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Superrare",
+      "LootExperience": 20,
+      "ExamineExperience": 4,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 921,
       "RepairSpeed": 10,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 80
-      },
-      "ShortName": "item_equipment_helmet_team_wendy_exfil",
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Defence",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "5e01ef6886f77445f643baa6",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_equipment_000",
+          "_id": "5e01ef6886f77445f643baa6",
           "_parent": "5e01ef6886f77445f643baa4",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5e00cfa786f77469dc6e5685",
                   "5e01f31d86f77465cf261343",
                   "66b5f69ea7f72d197e70bcdb",
                   "66b5f6a28ca68c6461709ed8"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5e01ef6886f77445f643baa7",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_nvg",
+          "_id": "5e01ef6886f77445f643baa7",
           "_parent": "5e01ef6886f77445f643baa4",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5c0558060db834001b735271",
                   "5a16b8a9fcdbcb00165aa6ca"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "66b9be1996edb969cd4f5d58",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_equipment_001",
+          "_id": "66b9be1996edb969cd4f5d58",
           "_parent": "5e01ef6886f77445f643baa4",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5e00cdd986f7747473332240",
                   "5e01f37686f774773c6f6c15"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "66b9be1996edb969cd4f5d59",
-          "_mergeSlotWithChildren": true,
           "_name": "helmet_top",
+          "_id": "66b9be1996edb969cd4f5d59",
           "_parent": "5e01ef6886f77445f643baa4",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "6551fec55d0cf82e51014288"
-                ],
+                "locked": true,
                 "Plate": "6551fec55d0cf82e51014288",
                 "armorColliders": [
                   "ParietalHead"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "6551fec55d0cf82e51014288"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "66b9be1996edb969cd4f5d5a",
-          "_mergeSlotWithChildren": true,
           "_name": "helmet_back",
+          "_id": "66b9be1996edb969cd4f5d5a",
           "_parent": "5e01ef6886f77445f643baa4",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "655200ba0ef76cf7be09d528"
-                ],
+                "locked": true,
                 "Plate": "655200ba0ef76cf7be09d528",
                 "armorColliders": [
                   "BackHead"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "655200ba0ef76cf7be09d528"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Weight": 1.18,
-      "Width": 2,
-      "armorClass": "0",
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 0,
+      "HasHinge": false,
+      "speedPenaltyPercent": 0,
+      "MaxDurability": 0,
+      "armorClass": 0,
       "armorColliders": [],
       "armorPlateColliders": [],
       "mousePenalty": -1,
-      "speedPenaltyPercent": 0,
-      "weaponErgonomicPenalty": -1
+      "weaponErgonomicPenalty": -1,
+      "BluntThroughput": 0.1548,
+      "ArmorMaterial": "Combined",
+      "ArmorType": "Heavy",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksHeadwear": false,
+      "BlocksFaceCover": false,
+      "Indestructibility": 0.9,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "MaterialType": "BodyArmor",
+      "RicochetParams": {
+        "x": 0,
+        "y": 0,
+        "z": 80
+      },
+      "DeafStrength": "None",
+      "BlindnessProtection": 0,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 4,

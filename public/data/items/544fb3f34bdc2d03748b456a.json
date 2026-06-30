@@ -32,90 +32,91 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "orange",
-      "BodyPartPriority": [],
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "Name": "Шприц с морфином",
+      "ShortName": "Morphine",
       "Description": "",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 8,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
+      "Weight": 0.05,
+      "BackgroundColor": "orange",
+      "Width": 1,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "med_stimulator",
       "LeftHandItem": false,
-      "LootExperience": 10,
-      "MaxHpResource": 0,
-      "MergesWithChildren": false,
-      "MetascoreGroup": "Utility",
-      "Name": "Шприц с морфином",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/weapons/usable_items/item_syringe/item_morphine_loot.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Rare",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "Morphine",
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "StimulatorBuffs": "",
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "assets/content/weapons/usable_items/item_syringe/item_syringe_container.bundle",
         "rcid": ""
       },
-      "Weight": 0.05,
-      "Width": 1,
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 8,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "StimulatorBuffs": "",
+      "effects_health": {
+        "2": {
+          "value": -15
+        },
+        "3": {
+          "value": -10
+        }
+      },
       "effects_damage": {
-        "Contusion": {
+        "3": {
           "delay": 0,
           "duration": 0,
           "fadeOut": 0
         },
-        "Pain": {
+        "7": {
           "delay": 0,
           "duration": 300,
           "fadeOut": 5
         }
       },
-      "effects_health": {
-        "Energy": {
-          "value": -10
-        },
-        "Hydration": {
-          "value": -15
-        }
-      },
-      "hpResourceRate": 0,
+      "medUseTime": 2,
       "medEffectType": "duringUse",
-      "medUseTime": 2
+      "BodyPartPriority": [],
+      "MaxHpResource": 0,
+      "hpResourceRate": 0,
+      "PlayFuzeSound": false
     },
     "medical": {
       "medEffectType": "duringUse",
@@ -125,22 +126,22 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "Energy",
-            "value": -10
+            "type": "2",
+            "value": -15
           },
           {
-            "type": "Hydration",
-            "value": -15
+            "type": "3",
+            "value": -10
           }
         ],
         "damageEffects": [
           {
-            "type": "Contusion",
+            "type": "3",
             "delay": 0,
             "duration": 0
           },
           {
-            "type": "Pain",
+            "type": "7",
             "delay": 0,
             "duration": 300
           }

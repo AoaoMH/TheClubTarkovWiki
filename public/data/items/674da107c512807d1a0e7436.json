@@ -33,39 +33,74 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "violet",
-      "BlocksArmorVest": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
+      "Name": "item_equipment_backpack_mystery_ranch_terraframe",
+      "ShortName": "item_equipment_backpack_mystery_ranch_terraframe",
       "Description": "item_equipment_backpack_mystery_ranch_terraframe",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 2,
-      "ExamineTime": 1,
+      "Weight": 2.2,
+      "BackgroundColor": "violet",
+      "Width": 5,
+      "Height": 6,
+      "StackMaxSize": 1,
+      "ItemSound": "gear_backpack",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/backpack_mystery_ranch_terraframe/item_equipment_backpack_mystery_ranch_terraframe.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
       "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 20,
+      "ExamineExperience": 2,
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
       "ExtraSizeLeft": 0,
       "ExtraSizeRight": 0,
       "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "GridLayoutName": "terraframe",
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
       "Grids": [
         {
-          "_id": "674da107c512807d1a0e7438",
           "_name": "main",
+          "_id": "674da107c512807d1a0e7438",
           "_parent": "674da107c512807d1a0e7436",
           "_props": {
-            "cellsH": 2,
-            "cellsV": 5,
             "filters": [
               {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
                 "ExcludedFilter": [
                   "5448bf274bdc2dfc2f8b456a",
                   "5c093db286f7740a1b2617e3",
@@ -78,28 +113,28 @@
                   "59fb042886f7746c5005a7b2",
                   "59fb023c86f7746d0d4b423c",
                   "5b6d9ce188a4501afc1b2b25"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
                 ]
               }
             ],
-            "isSortingTable": false,
+            "cellsH": 2,
+            "cellsV": 5,
+            "minCount": 0,
             "maxCount": 0,
             "maxWeight": 0,
-            "minCount": 0
+            "isSortingTable": false
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         },
         {
-          "_id": "67613eb1b612744c0009ccb8",
           "_name": "1",
+          "_id": "67613eb1b612744c0009ccb8",
           "_parent": "674da107c512807d1a0e7436",
           "_props": {
-            "cellsH": 4,
-            "cellsV": 5,
             "filters": [
               {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
                 "ExcludedFilter": [
                   "5448bf274bdc2dfc2f8b456a",
                   "5c093db286f7740a1b2617e3",
@@ -114,66 +149,34 @@
                   "59fb042886f7746c5005a7b2",
                   "59fb023c86f7746d0d4b423c",
                   "5b6d9ce188a4501afc1b2b25"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
                 ]
               }
             ],
-            "isSortingTable": false,
+            "cellsH": 4,
+            "cellsV": 5,
+            "minCount": 0,
             "maxCount": 0,
             "maxWeight": 0,
-            "minCount": 0
+            "isSortingTable": false
           },
           "_proto": "55d329c24bdc2d892f8b4567"
         }
       ],
-      "Height": 6,
-      "HideEntrails": true,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "gear_backpack",
-      "LeanWeaponAgainstBody": false,
-      "LeftHandItem": false,
-      "LootExperience": 20,
-      "MergesWithChildren": false,
-      "Name": "item_equipment_backpack_mystery_ranch_terraframe",
-      "NotShownInSlot": false,
-      "Prefab": {
-        "path": "assets/content/items/equipment/backpack_mystery_ranch_terraframe/item_equipment_backpack_mystery_ranch_terraframe.bundle",
-        "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Rare",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "SearchSound": "looting_body_extended",
-      "ShortName": "item_equipment_backpack_mystery_ranch_terraframe",
       "Slots": [],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Weight": 2.2,
-      "Width": 5,
-      "mousePenalty": -2,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "SearchSound": "looting_body_extended",
+      "BlocksArmorVest": false,
       "speedPenaltyPercent": -3,
-      "weaponErgonomicPenalty": -5
+      "GridLayoutName": "terraframe",
+      "mousePenalty": -2,
+      "weaponErgonomicPenalty": -5,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false,
+      "LeanWeaponAgainstBody": false
     }
   },
   "slots": [],

@@ -34,165 +34,168 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
+      "Name": "handguard_ar15_stngr_vypr_m_lok_10_inch",
+      "ShortName": "handguard_ar15_stngr_vypr_m_lok_10_inch",
+      "Description": "handguard_ar15_stngr_vypr_m_lok_10_inch",
+      "Weight": 0.23,
       "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
+      "Width": 2,
+      "Height": 1,
+      "StackMaxSize": 1,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/handguards/handguard_g36_hk_c.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 3,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
       "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
+      "CanRequireOnRagfair": false,
       "ConflictingItems": [
         "5a7dbfc1159bd40016548fde",
         "622b3858034a3e17ad0b81f5",
         "622b38c56762c718e457e246"
       ],
-      "CoolFactor": 1,
-      "Description": "handguard_ar15_stngr_vypr_m_lok_10_inch",
-      "DiscardLimit": -1,
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
       "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
       "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": 12,
-      "ExamineExperience": 3,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 1,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 1.07,
-      "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "mod",
-      "LeftHandItem": false,
-      "LootExperience": 10,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "handguard_ar15_stngr_vypr_m_lok_10_inch",
-      "NotShownInSlot": false,
-      "Prefab": {
-        "path": "assets/content/items/mods/handguards/handguard_g36_hk_c.bundle",
-        "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
       "RagFairCommissionModifier": 1,
-      "RaidModdable": true,
       "RarityPvE": "Not_exist",
-      "Recoil": 0,
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "handguard_ar15_stngr_vypr_m_lok_10_inch",
-      "SightingRange": 0,
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "62444de49f47004c781903ee",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_000",
+          "_id": "62444de49f47004c781903ee",
           "_parent": "62386b2adf47d66e835094b2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "62444cb99f47004c781903eb"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "62444e307ba9d00d6d62b17a",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_001",
+          "_id": "62444e307ba9d00d6d62b17a",
           "_parent": "62386b2adf47d66e835094b2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "62444cd3674028188b052799"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "62444e4fd9d6d1219f41bbca",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_002",
+          "_id": "62444e4fd9d6d1219f41bbca",
           "_parent": "62386b2adf47d66e835094b2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "62444cd3674028188b052799"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "62444e6dfce68a1dc533dacb",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical",
+          "_id": "62444e6dfce68a1dc533dacb",
           "_parent": "62386b2adf47d66e835094b2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "622f16a1a5958f63c67f1737"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": 0,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": 12,
+      "Velocity": 0,
+      "RaidModdable": true,
       "ToolModdable": true,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.23,
-      "Width": 2
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "HeatFactor": 1.07,
+      "CoolFactor": 1,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

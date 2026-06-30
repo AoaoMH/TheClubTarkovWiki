@@ -34,131 +34,79 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "ArmorMaterial": "Aramid",
-      "ArmorType": "Heavy",
-      "BackgroundColor": "blue",
-      "BlindnessProtection": 0,
-      "BlocksEarpiece": false,
-      "BlocksEyewear": false,
-      "BlocksFaceCover": false,
-      "BlocksHeadwear": false,
-      "BluntThroughput": 0.2376,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "DeafStrength": "None",
+      "Name": "iotv_mob",
+      "ShortName": "iotv_mob",
       "Description": "iotv_mob",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "Durability": 0,
-      "ExamineExperience": 2,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "FaceShieldComponent": false,
-      "FaceShieldMask": "NoMask",
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasHinge": false,
+      "Weight": 7.7,
+      "BackgroundColor": "blue",
+      "Width": 3,
       "Height": 4,
-      "HideEntrails": false,
-      "Indestructibility": 0.9,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "gear_armor",
       "LeftHandItem": false,
-      "LootExperience": 60,
-      "MaterialType": "BodyArmor",
-      "MaxDurability": 0,
-      "MergesWithChildren": false,
-      "MetascoreGroup": "Defence",
-      "Name": "iotv_mob",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/equipment/armor_redut_m/item_equipment_armor_redut_m_arena_bp_01.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Not_exist",
+      "LootExperience": 60,
+      "ExamineExperience": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 796,
       "RepairSpeed": 10,
-      "RicochetParams": {
-        "x": 0,
-        "y": 0,
-        "z": 80
-      },
-      "ShortName": "iotv_mob",
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Defence",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "67ab2f5adafe3b22670c9121",
-          "_mergeSlotWithChildren": true,
           "_name": "Front_plate",
+          "_id": "67ab2f5adafe3b22670c9121",
           "_parent": "67ab2f5adafe3b22670c911f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "656f9d5900d62bcd2e02407c",
-                  "656fa8d700d62bcd2e024084",
-                  "656fa99800d62bcd2e024088",
-                  "656fae5f7c2d57afe200c0d7",
-                  "656faf0ca0dce000a2020f77",
-                  "656fa0fb498d1b7e3e071d9c",
-                  "656fafe3498d1b7e3e071da4",
-                  "656fa76500d62bcd2e024080",
-                  "656fa25e94b480b8a500c0e0",
-                  "656fad8c498d1b7e3e071da0",
-                  "656fa61e94b480b8a500c0e8",
-                  "656fb21fa0dce000a2020f7c",
-                  "656fac30c6baea13cd07e10c",
-                  "656fb0bd7c2d57afe200c0dc",
-                  "656f9fa0498d1b7e3e071d98",
-                  "656fa53d94b480b8a500c0e4",
-                  "65573fa5655447403702a816",
-                  "64afc71497cf3a403c01ff38",
-                  "655746010177119f4a097ff7",
-                  "64afdcb83efdfea28601d041"
-                ],
+                "locked": false,
                 "Plate": "65573fa5655447403702a816",
                 "armorColliders": [],
                 "armorPlateColliders": [
                   "Plate_Granit_SAPI_chest"
                 ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "67ab2f5adafe3b22670c9122",
-          "_mergeSlotWithChildren": true,
-          "_name": "Back_plate",
-          "_parent": "67ab2f5adafe3b22670c911f",
-          "_props": {
-            "filters": [
-              {
                 "Filter": [
                   "656f9d5900d62bcd2e02407c",
                   "656fa8d700d62bcd2e024084",
@@ -181,260 +129,315 @@
                   "655746010177119f4a097ff7",
                   "64afdcb83efdfea28601d041"
                 ],
+                "bluntDamageReduceFromSoftArmor": true
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Back_plate",
+          "_id": "67ab2f5adafe3b22670c9122",
+          "_parent": "67ab2f5adafe3b22670c911f",
+          "_props": {
+            "filters": [
+              {
+                "locked": false,
                 "Plate": "65573fa5655447403702a816",
                 "armorColliders": [],
                 "armorPlateColliders": [
                   "Plate_Granit_SAPI_back"
                 ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
+                "Filter": [
+                  "656f9d5900d62bcd2e02407c",
+                  "656fa8d700d62bcd2e024084",
+                  "656fa99800d62bcd2e024088",
+                  "656fae5f7c2d57afe200c0d7",
+                  "656faf0ca0dce000a2020f77",
+                  "656fa0fb498d1b7e3e071d9c",
+                  "656fafe3498d1b7e3e071da4",
+                  "656fa76500d62bcd2e024080",
+                  "656fa25e94b480b8a500c0e0",
+                  "656fad8c498d1b7e3e071da0",
+                  "656fa61e94b480b8a500c0e8",
+                  "656fb21fa0dce000a2020f7c",
+                  "656fac30c6baea13cd07e10c",
+                  "656fb0bd7c2d57afe200c0dc",
+                  "656f9fa0498d1b7e3e071d98",
+                  "656fa53d94b480b8a500c0e4",
+                  "65573fa5655447403702a816",
+                  "64afc71497cf3a403c01ff38",
+                  "655746010177119f4a097ff7",
+                  "64afdcb83efdfea28601d041"
+                ],
+                "bluntDamageReduceFromSoftArmor": true
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "67ab2f5adafe3b22670c9123",
-          "_mergeSlotWithChildren": true,
           "_name": "Left_side_plate",
+          "_id": "67ab2f5adafe3b22670c9123",
           "_parent": "67ab2f5adafe3b22670c911f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "6557458f83942d705f0c4962",
-                  "64afdb577bb3bfe8fe03fd1d",
-                  "64afd81707e2cf40e903a316"
-                ],
+                "locked": false,
                 "Plate": "",
                 "armorColliders": [],
                 "armorPlateColliders": [
                   "Plate_Granit_SSAPI_side_left_high"
                 ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
-              }
-            ]
-          },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
-        },
-        {
-          "_id": "67ab2f5adafe3b22670c9124",
-          "_mergeSlotWithChildren": true,
-          "_name": "Right_side_plate",
-          "_parent": "67ab2f5adafe3b22670c911f",
-          "_props": {
-            "filters": [
-              {
                 "Filter": [
                   "6557458f83942d705f0c4962",
                   "64afdb577bb3bfe8fe03fd1d",
                   "64afd81707e2cf40e903a316"
                 ],
+                "bluntDamageReduceFromSoftArmor": true
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
+        },
+        {
+          "_name": "Right_side_plate",
+          "_id": "67ab2f5adafe3b22670c9124",
+          "_parent": "67ab2f5adafe3b22670c911f",
+          "_props": {
+            "filters": [
+              {
+                "locked": false,
                 "Plate": "",
                 "armorColliders": [],
                 "armorPlateColliders": [
                   "Plate_Granit_SSAPI_side_right_high"
                 ],
-                "bluntDamageReduceFromSoftArmor": true,
-                "locked": false
+                "Filter": [
+                  "6557458f83942d705f0c4962",
+                  "64afdb577bb3bfe8fe03fd1d",
+                  "64afd81707e2cf40e903a316"
+                ],
+                "bluntDamageReduceFromSoftArmor": true
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "67ab2f5adafe3b22670c9125",
-          "_mergeSlotWithChildren": true,
           "_name": "Soft_armor_front",
+          "_id": "67ab2f5adafe3b22670c9125",
           "_parent": "67ab2f5adafe3b22670c911f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "6575dd3e9e27f4a85e081142"
-                ],
+                "locked": true,
                 "Plate": "6575dd3e9e27f4a85e081142",
                 "armorColliders": [
                   "RibcageLow",
                   "RibcageUp"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "6575dd3e9e27f4a85e081142"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "67ab2f5adafe3b22670c9126",
-          "_mergeSlotWithChildren": true,
           "_name": "Soft_armor_back",
+          "_id": "67ab2f5adafe3b22670c9126",
           "_parent": "67ab2f5adafe3b22670c911f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "6575dd519e27f4a85e081146"
-                ],
+                "locked": true,
                 "Plate": "6575dd519e27f4a85e081146",
                 "armorColliders": [
                   "SpineDown",
                   "SpineTop"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "6575dd519e27f4a85e081146"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "67ab2f5adafe3b22670c9127",
-          "_mergeSlotWithChildren": true,
           "_name": "Soft_armor_left",
+          "_id": "67ab2f5adafe3b22670c9127",
           "_parent": "67ab2f5adafe3b22670c911f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "6575dd64945bf78edd04c438"
-                ],
+                "locked": true,
                 "Plate": "6575dd64945bf78edd04c438",
                 "armorColliders": [
                   "LeftSideChestDown"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "6575dd64945bf78edd04c438"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "67ab2f5adafe3b22670c9128",
-          "_mergeSlotWithChildren": true,
           "_name": "soft_armor_right",
+          "_id": "67ab2f5adafe3b22670c9128",
           "_parent": "67ab2f5adafe3b22670c911f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "6575dd6e9d3a0ddf660b9047"
-                ],
+                "locked": true,
                 "Plate": "6575dd6e9d3a0ddf660b9047",
                 "armorColliders": [
                   "RightSideChestDown"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "6575dd6e9d3a0ddf660b9047"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "67ab2f5adafe3b22670c9129",
-          "_mergeSlotWithChildren": true,
           "_name": "Collar",
+          "_id": "67ab2f5adafe3b22670c9129",
           "_parent": "67ab2f5adafe3b22670c911f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "6575dd769d3a0ddf660b904b"
-                ],
+                "locked": true,
                 "Plate": "6575dd769d3a0ddf660b904b",
                 "armorColliders": [
                   "NeckFront",
                   "NeckBack"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "6575dd769d3a0ddf660b904b"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "67ab2f5adafe3b22670c912a",
-          "_mergeSlotWithChildren": true,
           "_name": "Groin",
+          "_id": "67ab2f5adafe3b22670c912a",
           "_parent": "67ab2f5adafe3b22670c911f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "6575dd800546f8b1de093df6"
-                ],
+                "locked": true,
                 "Plate": "6575dd800546f8b1de093df6",
                 "armorColliders": [
                   "Pelvis"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "6575dd800546f8b1de093df6"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "67ab2f5adafe3b22670c912b",
-          "_mergeSlotWithChildren": true,
           "_name": "Groin_back",
+          "_id": "67ab2f5adafe3b22670c912b",
           "_parent": "67ab2f5adafe3b22670c911f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "6575dd94945bf78edd04c43c"
-                ],
+                "locked": true,
                 "Plate": "6575dd94945bf78edd04c43c",
                 "armorColliders": [
                   "PelvisBack"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "6575dd94945bf78edd04c43c"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Weight": 7.7,
-      "Width": 3,
-      "armorClass": "0",
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 0,
+      "HasHinge": false,
+      "speedPenaltyPercent": -3,
+      "MaxDurability": 0,
+      "armorClass": 0,
       "armorColliders": [],
       "armorPlateColliders": [],
       "mousePenalty": -4,
-      "speedPenaltyPercent": -3,
-      "weaponErgonomicPenalty": -3
+      "weaponErgonomicPenalty": -3,
+      "BluntThroughput": 0.2376,
+      "ArmorMaterial": "Aramid",
+      "ArmorType": "Heavy",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksHeadwear": false,
+      "BlocksFaceCover": false,
+      "Indestructibility": 0.9,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "MaterialType": "BodyArmor",
+      "RicochetParams": {
+        "x": 0,
+        "y": 0,
+        "z": 80
+      },
+      "DeafStrength": "None",
+      "BlindnessProtection": 0,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 5,

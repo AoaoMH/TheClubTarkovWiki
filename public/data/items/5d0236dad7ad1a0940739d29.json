@@ -34,89 +34,76 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [
-        "593d1fa786f7746da62d61ac"
-      ],
-      "CoolFactor": 0.985,
+      "Name": "stock_sks_tapco_intrafuse_sks_railed",
+      "ShortName": "stock_sks_tapco_intrafuse_sks_railed",
       "Description": "stock_sks_tapco_intrafuse_sks_railed",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "DurabilityBurnModificator": 1,
-      "EffectiveDistance": 0,
-      "Ergonomics": 12,
-      "ExamineExperience": 2,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 1,
-      "ExtraSizeUp": 0,
-      "Foldable": false,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": true,
-      "HeatFactor": 1.016,
+      "Weight": 0.6,
+      "BackgroundColor": "blue",
+      "Width": 3,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsShoulderContact": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 15,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "stock_sks_tapco_intrafuse_sks_railed",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/stocks/stock_sks_fab_defence_uas_sks.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
-      "RarityPvE": "Rare",
-      "Recoil": -27,
+      "LootExperience": 15,
+      "ExamineExperience": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 0,
       "RepairSpeed": 0,
-      "Retractable": false,
-      "ShortName": "stock_sks_tapco_intrafuse_sks_railed",
-      "SightingRange": 0,
-      "SizeReduceRight": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 1,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [
+        "593d1fa786f7746da62d61ac"
+      ],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "5d0236dad7ad1a0940739d2e",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_pistol_grip",
+          "_id": "5d0236dad7ad1a0940739d2e",
           "_parent": "5d0236dad7ad1a0940739d29",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5f6341043ada5942720e2dc5",
                   "6087e663132d4d12c81fd96b",
@@ -144,22 +131,22 @@
                   "63f4da90f31d4a33b87bd054",
                   "648ae3e356c6310a830fc291",
                   "651580dc71a4f10aec4b6056"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5d023b5fd7ad1a049d4aa7f4",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical_000",
+          "_id": "5d023b5fd7ad1a049d4aa7f4",
           "_parent": "5d0236dad7ad1a0940739d29",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a800961159bd4315e3a1657",
                   "57fd23e32459772d0805bcf1",
@@ -183,22 +170,22 @@
                   "626becf9582c3e319310b837",
                   "644a3df63b0b6f03e101e065",
                   "646f6322f43d0c5d62063715"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5d023b65d7ad1a0940739d33",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical_001",
+          "_id": "5d023b65d7ad1a0940739d33",
           "_parent": "5d0236dad7ad1a0940739d29",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a800961159bd4315e3a1657",
                   "57fd23e32459772d0805bcf1",
@@ -221,22 +208,22 @@
                   "626becf9582c3e319310b837",
                   "644a3df63b0b6f03e101e065",
                   "646f6322f43d0c5d62063715"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5d023b6cd7ad1a6f1b72d449",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical_002",
+          "_id": "5d023b6cd7ad1a6f1b72d449",
           "_parent": "5d0236dad7ad1a0940739d29",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a800961159bd4315e3a1657",
                   "57fd23e32459772d0805bcf1",
@@ -262,47 +249,63 @@
                   "646f6322f43d0c5d62063715",
                   "6644920d49817dc7d505ca71",
                   "676175bb48fa5c377e06fc36"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "653ef68e212793dfa20d7e87",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_stock",
+          "_id": "653ef68e212793dfa20d7e87",
           "_parent": "5d0236dad7ad1a0940739d29",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "653ed132896b99b40a0292e6"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -27,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": 12,
+      "Velocity": 0,
+      "RaidModdable": false,
       "ToolModdable": true,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.6,
-      "Width": 3
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": true,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DurabilityBurnModificator": 1,
+      "HeatFactor": 1.016,
+      "CoolFactor": 0.985,
+      "IsShoulderContact": false,
+      "Foldable": false,
+      "Retractable": false,
+      "SizeReduceRight": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

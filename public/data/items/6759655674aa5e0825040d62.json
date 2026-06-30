@@ -34,183 +34,186 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "ArmorMaterial": "Combined",
-      "ArmorType": "Light",
-      "BackgroundColor": "default",
-      "BlindnessProtection": 0,
-      "BlocksEarpiece": false,
-      "BlocksEyewear": false,
-      "BlocksFaceCover": false,
-      "BlocksHeadwear": false,
-      "BluntThroughput": 0.1548,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "DeafStrength": "None",
+      "Name": "Item_equipment_helmet_flux",
+      "ShortName": "Item_equipment_helmet_flux",
       "Description": "Item_equipment_helmet_flux",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "Durability": 0,
-      "ExamineExperience": 4,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "FaceShieldComponent": false,
-      "FaceShieldMask": "NoMask",
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasHinge": false,
+      "Weight": 1,
+      "BackgroundColor": "default",
+      "Width": 2,
       "Height": 2,
-      "HideEntrails": false,
-      "Indestructibility": 0.9,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "gear_helmet",
       "LeftHandItem": false,
-      "LootExperience": 20,
-      "MaterialType": "Helmet",
-      "MaxDurability": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Defence",
-      "Name": "Item_equipment_helmet_flux",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/equipment/helmet_flux/item_equipment_helmet_flux.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Superrare",
+      "LootExperience": 20,
+      "ExamineExperience": 4,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 106,
       "RepairSpeed": 10,
-      "RicochetParams": {
-        "x": 0.9,
-        "y": 0.5,
-        "z": 40
-      },
-      "ShortName": "Item_equipment_helmet_flux",
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Defence",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "6759655674aa5e0825040d65",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_nvg",
+          "_id": "6759655674aa5e0825040d65",
           "_parent": "6759655674aa5e0825040d62",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5c0558060db834001b735271",
                   "5a16b8a9fcdbcb00165aa6ca"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "6759655674aa5e0825040d66",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount",
+          "_id": "6759655674aa5e0825040d66",
           "_parent": "6759655674aa5e0825040d62",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "669a6a4a525be1d2d004b8eb"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "6759655674aa5e0825040d69",
-          "_mergeSlotWithChildren": true,
           "_name": "Helmet_top",
+          "_id": "6759655674aa5e0825040d69",
           "_parent": "6759655674aa5e0825040d62",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "676307c004856a0b3c0dfffd"
-                ],
+                "locked": true,
                 "Plate": "676307c004856a0b3c0dfffd",
                 "armorColliders": [
                   "ParietalHead"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "676307c004856a0b3c0dfffd"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "6759655674aa5e0825040d6a",
-          "_mergeSlotWithChildren": true,
           "_name": "Helmet_back",
+          "_id": "6759655674aa5e0825040d6a",
           "_parent": "6759655674aa5e0825040d62",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "676307b4d9ec0af3d9001fa8"
-                ],
+                "locked": true,
                 "Plate": "676307b4d9ec0af3d9001fa8",
                 "armorColliders": [
                   "BackHead"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "676307b4d9ec0af3d9001fa8"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Weight": 1,
-      "Width": 2,
-      "armorClass": "0",
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 0,
+      "HasHinge": false,
+      "speedPenaltyPercent": 0,
+      "MaxDurability": 0,
+      "armorClass": 0,
       "armorColliders": [],
       "armorPlateColliders": [],
       "mousePenalty": 0,
-      "speedPenaltyPercent": 0,
-      "weaponErgonomicPenalty": 0
+      "weaponErgonomicPenalty": 0,
+      "BluntThroughput": 0.1548,
+      "ArmorMaterial": "Combined",
+      "ArmorType": "Light",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksHeadwear": false,
+      "BlocksFaceCover": false,
+      "Indestructibility": 0.9,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "MaterialType": "Helmet",
+      "RicochetParams": {
+        "x": 0.9,
+        "y": 0.5,
+        "z": 40
+      },
+      "DeafStrength": "None",
+      "BlindnessProtection": 0,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 4,

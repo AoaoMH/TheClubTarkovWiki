@@ -34,15 +34,53 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
+      "Name": "handguard_svd_sag_chassis_mk_1",
+      "ShortName": "handguard_svd_sag_chassis_mk_1",
+      "Description": "handguard_svd_sag_chassis_mk_1",
+      "Weight": 0.89,
       "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
+      "Width": 3,
+      "Height": 1,
+      "StackMaxSize": 1,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/handguards/handguard_svd_sag_chassis_mk_1.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 15,
+      "ExamineExperience": 3,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 3,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
       "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
+      "CanRequireOnRagfair": false,
       "ConflictingItems": [
         "5947db3f86f77447880cf76f",
         "57486e672459770abd687134",
@@ -60,116 +98,70 @@
         "5c90c3622e221601da359851",
         "5c471bd12e221602b4129c3a"
       ],
-      "CoolFactor": 1.072,
-      "Description": "handguard_svd_sag_chassis_mk_1",
-      "DiscardLimit": -1,
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
       "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
       "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": 11,
-      "ExamineExperience": 3,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 3,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 0.949,
-      "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "mod",
-      "LeftHandItem": false,
-      "LootExperience": 15,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "handguard_svd_sag_chassis_mk_1",
-      "NotShownInSlot": false,
-      "Prefab": {
-        "path": "assets/content/items/mods/handguards/handguard_svd_sag_chassis_mk_1.bundle",
-        "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
       "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
       "RarityPvE": "Superrare",
-      "Recoil": -3,
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "handguard_svd_sag_chassis_mk_1",
-      "SightingRange": 0,
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "5dfcd0e547101c39625f66fb",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_000",
+          "_id": "5dfcd0e547101c39625f66fb",
           "_parent": "5dfcd0e547101c39625f66f9",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a9d6d00a2750c5c985b5305",
                   "59e0bdb186f774156f04ce82",
                   "59e0be5d86f7742d48765bd2",
                   "623c2f652febb22c2777d8d7",
                   "67111094d1758189fc0bd223"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5dfcd0e547101c39625f66fc",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_001",
+          "_id": "5dfcd0e547101c39625f66fc",
           "_parent": "5dfcd0e547101c39625f66f9",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a9d6d00a2750c5c985b5305",
                   "59e0bdb186f774156f04ce82",
                   "59e0be5d86f7742d48765bd2",
                   "623c2f652febb22c2777d8d7",
                   "67111094d1758189fc0bd223"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5dfcd0e547101c39625f66fd",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_002",
+          "_id": "5dfcd0e547101c39625f66fd",
           "_parent": "5dfcd0e547101c39625f66f9",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a9d6d00a2750c5c985b5305",
                   "59e0bdb186f774156f04ce82",
@@ -177,22 +169,22 @@
                   "623c2f652febb22c2777d8d7",
                   "67112695fe5c8bf33f02476d",
                   "67111094d1758189fc0bd223"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5dfcd0e547101c39625f6700",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical",
+          "_id": "5dfcd0e547101c39625f6700",
           "_parent": "5dfcd0e547101c39625f66f9",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57fd23e32459772d0805bcf1",
                   "544909bb4bdc2d6f028b4577",
@@ -202,22 +194,22 @@
                   "61605d88ffa6e502ac5e7eeb",
                   "5c5952732e2216398b5abda2",
                   "644a3df63b0b6f03e101e065"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5dfcd0e547101c39625f6701",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_scope",
+          "_id": "5dfcd0e547101c39625f6701",
           "_parent": "5dfcd0e547101c39625f66f9",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57ac965c24597706be5f975c",
                   "57aca93d2459771f2c7e26db",
@@ -283,69 +275,80 @@
                   "65392f611406374f82152ba5",
                   "653931da5db71d30ab1d6296",
                   "67641a851b2899700609901a"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5dfcd0e547101c39625f6703",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_foregrip",
+          "_id": "5dfcd0e547101c39625f6703",
           "_parent": "5dfcd0e547101c39625f66f9",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "615d8fd3290d254f5e6b2edc",
                   "5fc0f9b5d724d907e2077d82",
                   "5fc0f9cbd6fa9c00c571bb90",
                   "5a9d6d13a2750c00164f6b03",
                   "59e0bed186f774156f04ce84"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5dfce09d8b6c4240ba2652fe",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount",
+          "_id": "5dfce09d8b6c4240ba2652fe",
           "_parent": "5dfcd0e547101c39625f66f9",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5649a2464bdc2d91118b45a8"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -3,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": 11,
+      "Velocity": 0,
+      "RaidModdable": false,
       "ToolModdable": true,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.89,
-      "Width": 3
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "HeatFactor": 0.949,
+      "CoolFactor": 1.072,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

@@ -34,131 +34,134 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "CenterOfImpact": 0.022,
-      "ConflictingItems": [],
-      "CoolFactor": 0.9,
+      "Name": "barrel_dvl-10_500mm",
+      "ShortName": "barrel_dvl-10_500mm",
       "Description": "barrel_dvl-10_500mm",
-      "DeviationCurve": 1,
-      "DeviationMax": 33,
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "DurabilityBurnModificator": 1.61,
-      "EffectiveDistance": 0,
-      "Ergonomics": -10,
-      "ExamineExperience": 6,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 2,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 0.95,
+      "Weight": 2.9,
+      "BackgroundColor": "blue",
+      "Width": 3,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSilencer": true,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 15,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "barrel_dvl-10_500mm",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/barrels/barrel_dvl-10_500mm.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
-      "RarityPvE": "Superrare",
-      "Recoil": -4,
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "barrel_dvl-10_500mm",
-      "ShotgunDispersion": 1,
-      "SightingRange": 0,
-      "Slots": [
-        {
-          "_id": "5888945a2459774bf43ba386",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_muzzle",
-          "_parent": "5888945a2459774bf43ba385",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "58889c7324597754281f9439"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": true
-        },
-        {
-          "_id": "588894872459774e6610d115",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_bipod",
-          "_parent": "5888945a2459774bf43ba385",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5888961624597754281f93f3"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        }
-      ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "ToolModdable": true,
-      "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "",
         "rcid": ""
       },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 15,
+      "ExamineExperience": 6,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
+      "Slots": [
+        {
+          "_name": "mod_muzzle",
+          "_id": "5888945a2459774bf43ba386",
+          "_parent": "5888945a2459774bf43ba385",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "58889c7324597754281f9439"
+                ]
+              }
+            ]
+          },
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_bipod",
+          "_id": "588894872459774e6610d115",
+          "_parent": "5888945a2459774bf43ba385",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5888961624597754281f93f3"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -4,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -10,
       "Velocity": 8.4,
-      "Weight": 2.9,
-      "Width": 3
+      "RaidModdable": false,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DurabilityBurnModificator": 1.61,
+      "HeatFactor": 0.95,
+      "CoolFactor": 0.9,
+      "CenterOfImpact": 0.022,
+      "IsSilencer": true,
+      "DeviationCurve": 1,
+      "DeviationMax": 33,
+      "ShotgunDispersion": 1,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

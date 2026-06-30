@@ -11,15 +11,21 @@ export const LOCALES_PATH = path.join(DATABASE_PATH, 'locales', 'global')
 export const MODS_PATH = path.join(SPT_CLIENT_PATH, 'SPT', 'user', 'mods')
 export const HANDBOOK_IMAGES_PATH = path.join(SPT_DATA_PATH, 'images', 'handbook')
 
+// Profile Editor exported DB (post-SPT-server-patch data, includes runtime modifications)
+export const EXPORTED_DB_PATH = path.join(MODS_PATH, 'SPT-AKI Profile Editor.ModHelper', 'exportedDB')
+
 // Data files
-export const ITEMS_FILE = path.join(TEMPLATES_PATH, 'items.json')
+// Use exported Items.json instead of raw SPT templates items.json:
+// SPT server patches slot filters and adds items at runtime; the raw templates
+// file only has pre-patch data (e.g. barrel mod_muzzle filter: 1 item vs 26 patched).
+export const ITEMS_FILE = path.join(EXPORTED_DB_PATH, 'Items.json')
 export const HANDBOOK_FILE = path.join(TEMPLATES_PATH, 'handbook.json')
 export const LOCALE_CH_FILE = path.join(LOCALES_PATH, 'ch.json')
 export const LOCALE_EN_FILE = path.join(LOCALES_PATH, 'en.json')
 export const GLOBALS_FILE = path.join(DATABASE_PATH, 'globals.json')
 export const QUESTS_FILE = path.join(TEMPLATES_PATH, 'quests.json')
 export const TRADERS_PATH = path.join(DATABASE_PATH, 'traders')
-export const ITEM_PRESETS_FILE = path.join(MODS_PATH, 'SPT-AKI Profile Editor.ModHelper', 'exportedDB', 'ItemPresets.json')
+export const ITEM_PRESETS_FILE = path.join(EXPORTED_DB_PATH, 'ItemPresets.json')
 
 // SPT Server (for image download)
 export const SPT_SERVER_URL = 'https://127.0.0.1:6969'

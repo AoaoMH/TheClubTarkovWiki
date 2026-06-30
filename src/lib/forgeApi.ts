@@ -56,6 +56,7 @@ export interface GunInitData {
   centerOfImpact: number | null
   conflictingItems: string[]
   factoryPreset: Array<{ slotName: string; itemId: string }>
+  factoryChildSlots?: Record<string, GunSlot[]>
 }
 
 export interface BuildStats {

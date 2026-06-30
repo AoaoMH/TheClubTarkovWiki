@@ -33,235 +33,76 @@
   },
   "properties": {
     "_raw": {
-      "AdjustCollimatorsToTrajectory": false,
-      "AimPlane": 0.15,
-      "AimSensitivity": 0.65,
-      "AllowFeed": true,
-      "AllowJam": true,
-      "AllowMisfire": true,
-      "AllowOverheat": true,
-      "AllowSlide": true,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "black",
-      "BaseMalfunctionChance": 0.1771,
-      "BoltAction": false,
-      "BurstShotsCount": 3,
-      "CameraSnap": 3.5,
-      "CameraToWeaponAngleSpeedRange": {
-        "x": 0.1,
-        "y": 0.2,
-        "z": 0
-      },
-      "CameraToWeaponAngleStep": 0.1,
-      "CanPutIntoDuringTheRaid": true,
-      "CanQueueSecondShot": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CanUnloadAmmoByPlayer": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "CenterOfImpact": 0.1,
-      "Chambers": [
-        {
-          "_id": "5839a40f24597726f856b512",
-          "_mergeSlotWithChildren": false,
-          "_name": "patron_in_weapon",
-          "_parent": "5839a40f24597726f856b511",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c0d5e4486f77478390952fe",
-                  "61962b617c6c7b169525f168",
-                  "56dfef82d2720bbd668b4567",
-                  "56dff026d2720bb8668b4567",
-                  "56dff061d2720bb5668b4567",
-                  "56dff0bed2720bb0668b4567",
-                  "56dff216d2720bbd668b4568",
-                  "56dff2ced2720bb4668b4567",
-                  "56dff338d2720bbd668b4569",
-                  "56dff3afd2720bba668b4567",
-                  "56dff421d2720b5f5a8b4567",
-                  "56dff4a2d2720bbd668b456a",
-                  "56dff4ecd2720b5f5a8b4568"
-                ],
-                "MaxStackCount": 0
-              }
-            ]
-          },
-          "_proto": "55d4af244bdc2d962f8b4571",
-          "_required": false
-        }
-      ],
-      "CompactHandling": true,
-      "ConflictingItems": [],
-      "CoolFactorGun": 3.168,
-      "CoolFactorGunMods": 1.1323,
+      "Name": "weapon_izhmash_aks74ub_545x39",
+      "ShortName": "weapon_izhmash_aks74ub_545x39",
       "Description": "weapon_izhmash_aks74ub_545x39",
-      "DeviationCurve": 1.9,
-      "DeviationMax": 15.5,
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenalty": 1.5,
-      "DropSoundType": "Rifle",
-      "Durability": 95,
-      "DurabilityBurnRatio": 1.15,
-      "Ergonomics": 44,
-      "ExamineExperience": 4,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "Foldable": true,
-      "FoldedSlot": "mod_stock",
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HeatFactorByShot": 1.555,
-      "HeatFactorGun": 1.0691,
+      "Weight": 1.85,
+      "BackgroundColor": "black",
+      "Width": 3,
       "Height": 1,
-      "HideEntrails": false,
-      "HipAccuracyRestorationDelay": 0.2,
-      "HipAccuracyRestorationSpeed": 7,
-      "HipInnaccuracyGain": 0.16,
-      "InsuranceDisabled": false,
-      "IronSightRange": 100,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsBeltMachineGun": false,
-      "IsFlareGun": false,
-      "IsGrenadeLauncher": false,
-      "IsLockedafterEquip": false,
-      "IsMountable": true,
-      "IsOneoff": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsStationaryWeapon": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "weap_ar",
       "LeftHandItem": false,
-      "LootExperience": 15,
-      "ManualBoltCatch": false,
-      "MaxDurability": 100,
-      "MaxRepairDegradation": 0.04,
-      "MaxRepairKitDegradation": 0.035,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "MinRepairDegradation": 0,
-      "MinRepairKitDegradation": 0,
-      "MountCameraSnapMultiplier": 3,
-      "MountHorizontalRecoilMultiplier": 0.6,
-      "MountReturnSpeedHandMultiplier": 1,
-      "MountVerticalRecoilMultiplier": 0.85,
-      "MountingHorizontalOutOfBreathMultiplier": 0.4,
-      "MountingPosition": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "MountingVerticalOutOfBreathMultiplier": 0.8,
-      "MustBoltBeOpennedForExternalReload": false,
-      "MustBoltBeOpennedForInternalReload": false,
-      "Name": "weapon_izhmash_aks74ub_545x39",
-      "NoFiremodeOnBoltcatch": false,
-      "NotShownInSlot": false,
-      "OperatingResource": 5000,
-      "PostRecoilHorizontalRangeHandRotation": {
-        "x": -1.5,
-        "y": 1.5,
-        "z": 0
-      },
-      "PostRecoilVerticalRangeHandRotation": {
-        "x": -1.5,
-        "y": 0,
-        "z": 0
-      },
       "Prefab": {
         "path": "assets/content/weapons/aks74u/weapon_izhmash_aks74ub_545x39_container.bundle",
         "rcid": ""
       },
-      "ProgressRecoilAngleOnStable": {
-        "x": 0,
-        "y": 28,
-        "z": 0
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
       },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "IsStationaryWeapon": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Rare",
-      "RecoilAngle": 90,
-      "RecoilCamera": 0.04,
-      "RecoilCategoryMultiplierHandRotation": 0.19,
-      "RecoilCenter": {
-        "x": 0,
-        "y": -0.25,
-        "z": 0
-      },
-      "RecoilDampingHandRotation": 0.85,
-      "RecoilForceBack": 365,
-      "RecoilForceUp": 129,
-      "RecoilPosZMult": 1,
-      "RecoilReturnPathDampingHandRotation": 0.48,
-      "RecoilReturnPathOffsetHandRotation": 0.01,
-      "RecoilReturnSpeedHandRotation": 2.7,
-      "RecoilStableAngleIncreaseStep": 2.7,
-      "RecoilStableIndexShot": 5,
-      "RecolDispersion": 12,
-      "ReloadMode": "ExternalMagazine",
-      "RepairComplexity": 0,
+      "LootExperience": 15,
+      "ExamineExperience": 4,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 109,
       "RepairSpeed": 5,
-      "ResetAfterShot": false,
-      "Retractable": false,
-      "RotationCenter": {
-        "x": 0,
-        "y": -0.1,
-        "z": -0.03
-      },
-      "RotationCenterNoStock": {
-        "x": 0,
-        "y": -0.27,
-        "z": -0.08
-      },
-      "ShortName": "weapon_izhmash_aks74ub_545x39",
-      "ShotsGroupSettings": [
-        {
-          "EndShotIndex": 200,
-          "ShotRecoilPositionStrength": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "ShotRecoilRadianRange": {
-            "x": 6,
-            "y": -6,
-            "z": 0
-          },
-          "ShotRecoilRotationStrength": {
-            "x": 0,
-            "y": 0,
-            "z": 0
-          },
-          "StartShotIndex": 1
-        }
-      ],
-      "SightingRange": 100,
-      "SingleFireRate": 450,
-      "SizeReduceRight": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanUnloadAmmoByPlayer": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "Rifle",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "5839a40f24597726f856b514",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_pistol_grip",
+          "_id": "5839a40f24597726f856b514",
           "_parent": "5839a40f24597726f856b511",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5f6341043ada5942720e2dc5",
                   "6087e663132d4d12c81fd96b",
@@ -288,63 +129,61 @@
                   "63f4da90f31d4a33b87bd054",
                   "648ae3e356c6310a830fc291",
                   "651580dc71a4f10aec4b6056"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5839a40f24597726f856b515",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_stock",
+          "_id": "5839a40f24597726f856b515",
           "_parent": "5839a40f24597726f856b511",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "59ecc28286f7746d7a68aa8c",
                   "5ab626e4d8ce87272e4c6e43",
                   "57dc347d245977596754e7a1",
                   "66ac9d9740e27931602042d4"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5839a40f24597726f856b516",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_charge",
+          "_id": "5839a40f24597726f856b516",
           "_parent": "5839a40f24597726f856b511",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "6130ca3fd92c473c77020dbd",
                   "5648ac824bdc2ded0b8b457d"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5839a40f24597726f856b517",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_magazine",
+          "_id": "5839a40f24597726f856b517",
           "_parent": "5839a40f24597726f856b511",
           "_props": {
             "filters": [
               {
-                "AnimationIndex": -1,
                 "Filter": [
                   "564ca9df4bdc2d35148b4569",
                   "564ca99c4bdc2d16268b4589",
@@ -358,21 +197,23 @@
                   "5bed625c0db834001c062946",
                   "649ec30cb013f04a700e60fb",
                   "64b9e265c94d0d15c5027e35"
-                ]
+                ],
+                "AnimationIndex": -1
               }
             ]
           },
-          "_proto": "55d30c394bdc2dae468b4577",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c394bdc2dae468b4577"
         },
         {
-          "_id": "5839a40f24597726f856b518",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_muzzle",
+          "_id": "5839a40f24597726f856b518",
           "_parent": "5839a40f24597726f856b511",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5ac72e945acfc43f3b691116",
                   "5ac7655e5acfc40016339a19",
@@ -387,42 +228,42 @@
                   "564caa3d4bdc2d17108b458e",
                   "57ffb0e42459777d047111c5",
                   "5e21ca18e4d47f0da15e77dd"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5839a40f24597726f856b519",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_reciever",
+          "_id": "5839a40f24597726f856b519",
           "_parent": "5839a40f24597726f856b511",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57dc334d245977597164366f",
                   "5839a7742459773cf9693481",
                   "655cb6b5d680a544f30607fa"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5839a40f24597726f856b51a",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_000",
+          "_id": "5839a40f24597726f856b51a",
           "_parent": "5839a40f24597726f856b511",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5947db3f86f77447880cf76f",
                   "6113d6c3290d254f5e6b27db",
@@ -443,49 +284,38 @@
                   "63d114019e35b334d82302f7",
                   "6544d4187c5457729210d277",
                   "65f1b1176dbd6c5ba2082eed"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "59d37a7886f7747ff1158152",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_gas_block",
+          "_id": "59d37a7886f7747ff1158152",
           "_parent": "5839a40f24597726f856b511",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "59d36a0086f7747e673f3946"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "TacticalReloadFixation": 0.95,
-      "TacticalReloadStiffnes": {
-        "x": 0.95,
-        "y": 0.33,
-        "z": 0.95
-      },
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 95,
+      "Ergonomics": 44,
       "UseAltMountBone": false,
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
       "Velocity": -17.9,
       "WeaponRecoilSettings": {
         "Enable": true,
@@ -606,29 +436,202 @@
           }
         ]
       },
-      "Weight": 1.85,
-      "Width": 3,
       "WithAnimatorAiming": false,
-      "ammoCaliber": "Caliber545x39",
-      "bEffDist": 300,
-      "bFirerate": 650,
-      "bHearDist": 80,
-      "blockLeftStance": false,
-      "chamberAmmoCount": 1,
-      "defAmmo": "56dff3afd2720bba668b4567",
-      "defMagType": "55d480c04bdc2d1d4e8b456a",
-      "durabSpawnMax": 75,
-      "durabSpawnMin": 25,
-      "isBoltCatch": false,
-      "isChamberLoad": true,
-      "isFastReload": true,
-      "shotgunDispersion": 0,
+      "SightingRange": 100,
+      "AimSensitivity": 0.65,
+      "Foldable": true,
+      "Retractable": false,
+      "SizeReduceRight": 0,
+      "CenterOfImpact": 0.1,
+      "DeviationCurve": 1.9,
+      "DeviationMax": 15.5,
+      "MaxDurability": 100,
       "weapClass": "assaultRifle",
+      "weapUseType": "primary",
+      "ammoCaliber": "Caliber545x39",
+      "OperatingResource": 5000,
+      "PostRecoilHorizontalRangeHandRotation": {
+        "x": -1.5,
+        "y": 1.5,
+        "z": 0
+      },
+      "PostRecoilVerticalRangeHandRotation": {
+        "x": -1.5,
+        "y": 0,
+        "z": 0
+      },
+      "ProgressRecoilAngleOnStable": {
+        "x": 0,
+        "y": 28,
+        "z": 0
+      },
+      "RepairComplexity": 0,
+      "ResetAfterShot": false,
+      "durabSpawnMin": 25,
+      "durabSpawnMax": 75,
+      "isFastReload": true,
+      "RecoilForceUp": 129,
+      "RecoilForceBack": 365,
+      "RecoilAngle": 90,
+      "RecoilCamera": 0.04,
+      "RecoilCategoryMultiplierHandRotation": 0.19,
       "weapFireType": [
         "single",
         "fullauto"
       ],
-      "weapUseType": "primary"
+      "RecolDispersion": 12,
+      "SingleFireRate": 450,
+      "CanQueueSecondShot": true,
+      "bFirerate": 650,
+      "bEffDist": 300,
+      "bHearDist": 80,
+      "blockLeftStance": false,
+      "isChamberLoad": true,
+      "chamberAmmoCount": 1,
+      "isBoltCatch": false,
+      "defMagType": "55d480c04bdc2d1d4e8b456a",
+      "defAmmo": "56dff3afd2720bba668b4567",
+      "AdjustCollimatorsToTrajectory": false,
+      "shotgunDispersion": 0,
+      "Chambers": [
+        {
+          "_name": "patron_in_weapon",
+          "_id": "5839a40f24597726f856b512",
+          "_parent": "5839a40f24597726f856b511",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5c0d5e4486f77478390952fe",
+                  "61962b617c6c7b169525f168",
+                  "56dfef82d2720bbd668b4567",
+                  "56dff026d2720bb8668b4567",
+                  "56dff061d2720bb5668b4567",
+                  "56dff0bed2720bb0668b4567",
+                  "56dff216d2720bbd668b4568",
+                  "56dff2ced2720bb4668b4567",
+                  "56dff338d2720bbd668b4569",
+                  "56dff3afd2720bba668b4567",
+                  "56dff421d2720b5f5a8b4567",
+                  "56dff4a2d2720bbd668b456a",
+                  "56dff4ecd2720b5f5a8b4568"
+                ],
+                "MaxStackCount": 0
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d4af244bdc2d962f8b4571"
+        }
+      ],
+      "CameraSnap": 3.5,
+      "CameraToWeaponAngleSpeedRange": {
+        "x": 0.1,
+        "y": 0.2,
+        "z": 0
+      },
+      "CameraToWeaponAngleStep": 0.1,
+      "ReloadMode": "ExternalMagazine",
+      "AimPlane": 0.15,
+      "TacticalReloadStiffnes": {
+        "x": 0.95,
+        "y": 0.33,
+        "z": 0.95
+      },
+      "TacticalReloadFixation": 0.95,
+      "RecoilCenter": {
+        "x": 0,
+        "y": -0.25,
+        "z": 0
+      },
+      "RotationCenter": {
+        "x": 0,
+        "y": -0.1,
+        "z": -0.03
+      },
+      "RotationCenterNoStock": {
+        "x": 0,
+        "y": -0.27,
+        "z": -0.08
+      },
+      "ShotsGroupSettings": [
+        {
+          "EndShotIndex": 200,
+          "ShotRecoilPositionStrength": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "ShotRecoilRadianRange": {
+            "x": 6,
+            "y": -6,
+            "z": 0
+          },
+          "ShotRecoilRotationStrength": {
+            "x": 0,
+            "y": 0,
+            "z": 0
+          },
+          "StartShotIndex": 1
+        }
+      ],
+      "FoldedSlot": "mod_stock",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "CompactHandling": true,
+      "MinRepairDegradation": 0,
+      "MaxRepairDegradation": 0.04,
+      "IronSightRange": 100,
+      "IsBeltMachineGun": false,
+      "IsFlareGun": false,
+      "IsGrenadeLauncher": false,
+      "IsOneoff": false,
+      "MustBoltBeOpennedForExternalReload": false,
+      "MustBoltBeOpennedForInternalReload": false,
+      "NoFiremodeOnBoltcatch": false,
+      "BoltAction": false,
+      "HipAccuracyRestorationDelay": 0.2,
+      "HipAccuracyRestorationSpeed": 7,
+      "HipInnaccuracyGain": 0.16,
+      "ManualBoltCatch": false,
+      "BurstShotsCount": 3,
+      "BaseMalfunctionChance": 0.0018,
+      "AllowJam": true,
+      "AllowFeed": true,
+      "AllowMisfire": true,
+      "AllowSlide": true,
+      "DurabilityBurnRatio": 1.15,
+      "HeatFactorGun": 1.0691,
+      "CoolFactorGun": 3.168,
+      "CoolFactorGunMods": 1.1323,
+      "HeatFactorByShot": 1.555,
+      "AllowOverheat": true,
+      "DoubleActionAccuracyPenalty": 1.5,
+      "RecoilPosZMult": 1,
+      "RecoilReturnPathDampingHandRotation": 0.48,
+      "RecoilReturnPathOffsetHandRotation": 0.01,
+      "RecoilReturnSpeedHandRotation": 2.7,
+      "RecoilStableAngleIncreaseStep": 2.7,
+      "RecoilStableIndexShot": 5,
+      "MinRepairKitDegradation": 0,
+      "MaxRepairKitDegradation": 0.035,
+      "MountCameraSnapMultiplier": 3,
+      "MountHorizontalRecoilMultiplier": 0.6,
+      "MountReturnSpeedHandMultiplier": 1,
+      "MountVerticalRecoilMultiplier": 0.85,
+      "MountingHorizontalOutOfBreathMultiplier": 0.4,
+      "MountingPosition": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "MountingVerticalOutOfBreathMultiplier": 0.8,
+      "effects_health": [],
+      "effects_damage": [],
+      "IsMountable": true,
+      "PlayFuzeSound": false,
+      "RecoilDampingHandRotation": 0.85
     },
     "weapon": {
       "caliber": "545x39",
@@ -647,7 +650,7 @@
       "recoilStableIndexShot": 5,
       "deviationMax": 15.5,
       "deviationCurve": 1.9,
-      "malfunctionChance": 0.1771,
+      "malfunctionChance": 0.0018,
       "durabilityBurnRatio": 1.15,
       "operatingResource": 5000,
       "heatFactorByShot": 1.555,

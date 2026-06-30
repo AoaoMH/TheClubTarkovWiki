@@ -33,94 +33,97 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "orange",
-      "BlocksArmorVest": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
+      "Name": "Открытый кейс",
+      "ShortName": "Кейс",
       "Description": "Здесь лежит несколько запечатанных коробок.",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 100,
-      "ExamineTime": 1,
-      "ExaminedByDefault": false,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [
-        {
-          "_id": "674078c4a9c9adf0450d59fb",
-          "_name": "main",
-          "_parent": "674078c4a9c9adf0450d59f9",
-          "_props": {
-            "cellsH": 10,
-            "cellsV": 10,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "54009119af1c881c07000029"
-                ],
-                "Filter": []
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 4,
-            "maxWeight": 3,
-            "minCount": 4
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ],
+      "Weight": 3,
+      "BackgroundColor": "orange",
+      "Width": 2,
       "Height": 2,
-      "HideEntrails": true,
-      "InsuranceDisabled": true,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "container_plastic",
       "LeftHandItem": false,
-      "LootExperience": 20,
-      "MergesWithChildren": false,
-      "Name": "Открытый кейс",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/containers/pistol_case/item_container_pistol_case.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Not_exist",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "SearchSound": "drawer_metal_looting",
-      "ShortName": "Кейс",
-      "Slots": [],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "",
         "rcid": ""
       },
-      "Weight": 3,
-      "Width": 2
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": false,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 20,
+      "ExamineExperience": 100,
+      "HideEntrails": true,
+      "InsuranceDisabled": true,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [
+        {
+          "_name": "main",
+          "_id": "674078c4a9c9adf0450d59fb",
+          "_parent": "674078c4a9c9adf0450d59f9",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [],
+                "ExcludedFilter": [
+                  "54009119af1c881c07000029"
+                ]
+              }
+            ],
+            "cellsH": 10,
+            "cellsV": 10,
+            "minCount": 4,
+            "maxCount": 4,
+            "maxWeight": 3,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [],
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "SearchSound": "drawer_metal_looting",
+      "BlocksArmorVest": false,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     }
   },
   "slots": [],

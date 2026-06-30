@@ -34,83 +34,74 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "CoolFactor": 1.02,
+      "Name": "reciever_ar15_vltor_mur-1s",
+      "ShortName": "reciever_ar15_vltor_mur-1s",
       "Description": "reciever_ar15_vltor_mur-1s",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "DurabilityBurnModificator": 0.96,
-      "EffectiveDistance": 0,
-      "Ergonomics": 8,
-      "ExamineExperience": 2,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 0.975,
+      "Weight": 0.246,
+      "BackgroundColor": "blue",
+      "Width": 2,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 10,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "reciever_ar15_vltor_mur-1s",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/recievers/reciever_ar15_vltor_mur-1s.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": true,
-      "RarityPvE": "Superrare",
-      "Recoil": -4,
+      "LootExperience": 10,
+      "ExamineExperience": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 0,
       "RepairSpeed": 0,
-      "ShortName": "reciever_ar15_vltor_mur-1s",
-      "SightingRange": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "59bfe68886f7746004266203",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_scope",
+          "_id": "59bfe68886f7746004266203",
           "_parent": "59bfe68886f7746004266202",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57ac965c24597706be5f975c",
                   "57aca93d2459771f2c7e26db",
@@ -181,23 +172,24 @@
                   "655f13e0a246670fb0373245",
                   "6567e751a715f85433025998",
                   "6761759e7ee06333f108bf86",
-                  "67641a851b2899700609901a"
-                ],
-                "Shift": 0
+                  "67641a851b2899700609901a",
+                  "68caacb4c8ac87b10507c5a6"
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "59bfe68886f7746004266204",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_barrel",
+          "_id": "59bfe68886f7746004266204",
           "_parent": "59bfe68886f7746004266202",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "55d35ee94bdc2d61338b4568",
                   "55d3632e4bdc2d972f8b4569",
@@ -206,22 +198,22 @@
                   "5c0e2f94d174af029f650d56",
                   "63d3ce0446bd475bcb50f55f",
                   "63d3d44a2a49307baf09386d"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "59bfe68886f7746004266205",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_handguard",
+          "_id": "59bfe68886f7746004266205",
           "_parent": "59bfe68886f7746004266202",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5c0e2f5cd174af02a012cfc9",
                   "619b5db699fb192e7430664f",
@@ -254,22 +246,22 @@
                   "63f4ba71f31d4a33b87bd046",
                   "640b20359ab20e15ee445fa9",
                   "647de824196bf69818044c93"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "59bfe68886f7746004266206",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_sight_rear",
+          "_id": "59bfe68886f7746004266206",
           "_parent": "59bfe68886f7746004266202",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5bb20e49d4351e3bac1212de",
                   "5ba26b17d4351e00367f9bdd",
@@ -282,29 +274,41 @@
                   "5894a81786f77427140b8347",
                   "55d5f46a4bdc2d1b198b4567",
                   "5ae30bad5acfc400185c2dc4"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -4,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": 8,
+      "Velocity": 0,
+      "RaidModdable": true,
       "ToolModdable": true,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.246,
-      "Width": 2
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DurabilityBurnModificator": 0.96,
+      "HeatFactor": 0.975,
+      "CoolFactor": 1.02,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,
@@ -440,7 +444,8 @@
         "655f13e0a246670fb0373245",
         "6567e751a715f85433025998",
         "6761759e7ee06333f108bf86",
-        "67641a851b2899700609901a"
+        "67641a851b2899700609901a",
+        "68caacb4c8ac87b10507c5a6"
       ]
     },
     {

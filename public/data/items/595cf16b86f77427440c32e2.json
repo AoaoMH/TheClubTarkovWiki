@@ -34,100 +34,92 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "CoolFactor": 1.02,
+      "Name": "handguard_ar15_war_sport_lvoa_s_blk",
+      "ShortName": "handguard_ar15_war_sport_lvoa_s_blk",
       "Description": "handguard_ar15_war_sport_lvoa_s_blk",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": 9,
-      "ExamineExperience": 3,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 2,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 0.95,
+      "Weight": 0.5,
+      "BackgroundColor": "blue",
+      "Width": 2,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 10,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "handguard_ar15_war_sport_lvoa_s_blk",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/handguards/handguard_ar15_war_sport_lvoa_s_blk.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
-      "RarityPvE": "Superrare",
-      "Recoil": -1,
+      "LootExperience": 10,
+      "ExamineExperience": 3,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 0,
       "RepairSpeed": 0,
-      "ShortName": "handguard_ar15_war_sport_lvoa_s_blk",
-      "SightingRange": 0,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "595cf16b86f77427440c32e4",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_scope",
+          "_id": "595cf16b86f77427440c32e4",
           "_parent": "595cf16b86f77427440c32e2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5649a2464bdc2d91118b45a8"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "595cf16b86f77427440c32e8",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical",
+          "_id": "595cf16b86f77427440c32e8",
           "_parent": "595cf16b86f77427440c32e2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57fd23e32459772d0805bcf1",
                   "544909bb4bdc2d6f028b4577",
@@ -137,101 +129,101 @@
                   "61605d88ffa6e502ac5e7eeb",
                   "5c5952732e2216398b5abda2",
                   "644a3df63b0b6f03e101e065"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "59e0bf6986f774156f04ce86",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_000",
+          "_id": "59e0bf6986f774156f04ce86",
           "_parent": "595cf16b86f77427440c32e2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "59e0bed186f774156f04ce84"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "59e0bfb886f7742d48765bd4",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_002",
+          "_id": "59e0bfb886f7742d48765bd4",
           "_parent": "595cf16b86f77427440c32e2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "59e0bdb186f774156f04ce82",
                   "59e0be5d86f7742d48765bd2",
                   "623c2f652febb22c2777d8d7",
                   "67112695fe5c8bf33f02476d"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "59e0bfbf86f774157255cc32",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_003",
+          "_id": "59e0bfbf86f774157255cc32",
           "_parent": "595cf16b86f77427440c32e2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "59e0bdb186f774156f04ce82",
                   "59e0be5d86f7742d48765bd2",
                   "623c2f652febb22c2777d8d7"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "59e0bfc686f77415701de392",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_004",
+          "_id": "59e0bfc686f77415701de392",
           "_parent": "595cf16b86f77427440c32e2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "59e0bdb186f774156f04ce82",
                   "59e0be5d86f7742d48765bd2",
                   "623c2f652febb22c2777d8d7"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5c164e7d2e221602b3136aba",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_sight_front",
+          "_id": "5c164e7d2e221602b3136aba",
           "_parent": "595cf16b86f77427440c32e2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5ba26b01d4351e0085325a51",
                   "5dfa3d950dee1b22f862eae0",
@@ -242,29 +234,40 @@
                   "5fc0fa362770a0045c59c677",
                   "5894a73486f77426d259076c",
                   "55d4af3a4bdc2d972f8b456f"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -1,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": 9,
+      "Velocity": 0,
+      "RaidModdable": false,
       "ToolModdable": true,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.5,
-      "Width": 2
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "HeatFactor": 0.95,
+      "CoolFactor": 1.02,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

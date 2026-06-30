@@ -34,20 +34,53 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "ArmorMaterial": "ArmoredSteel",
-      "ArmorType": "Heavy",
+      "Name": "hemlet_sphera-C",
+      "ShortName": "hemlet_sphera-C",
+      "Description": "hemlet_sphera-C",
+      "Weight": 3.5,
       "BackgroundColor": "default",
-      "BlindnessProtection": 0,
-      "BlocksEarpiece": false,
-      "BlocksEyewear": false,
-      "BlocksFaceCover": false,
-      "BlocksHeadwear": false,
-      "BluntThroughput": 0.09,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
+      "Width": 2,
+      "Height": 2,
+      "StackMaxSize": 1,
+      "ItemSound": "gear_helmet",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/helmet_sfera/item_equipment_helmet_sfera.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 20,
+      "ExamineExperience": 4,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 247,
+      "RepairSpeed": 10,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Defence",
       "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
+      "CanRequireOnRagfair": false,
       "ConflictingItems": [
         "5aa2b9aee5b5b00015693121",
         "5645bcc04bdc2d363b8b4572",
@@ -65,155 +98,125 @@
         "5e4d34ca86f774264f758330",
         "5f60cd6cf2bcbb675b00dac6"
       ],
-      "DeafStrength": "High",
-      "Description": "hemlet_sphera-C",
-      "DiscardLimit": -1,
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
       "DiscardingBlock": false,
       "DropSoundType": "None",
-      "Durability": 0,
-      "ExamineExperience": 4,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "FaceShieldComponent": false,
-      "FaceShieldMask": "NoMask",
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasHinge": false,
-      "Height": 2,
-      "HideEntrails": false,
-      "Indestructibility": 0.9,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "gear_helmet",
-      "LeftHandItem": false,
-      "LootExperience": 20,
-      "MaterialType": "Helmet",
-      "MaxDurability": 0,
-      "MergesWithChildren": false,
-      "MetascoreGroup": "Defence",
-      "Name": "hemlet_sphera-C",
-      "NotShownInSlot": false,
-      "Prefab": {
-        "path": "assets/content/items/equipment/helmet_sfera/item_equipment_helmet_sfera.bundle",
-        "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
       "RagFairCommissionModifier": 1,
       "RarityPvE": "Rare",
-      "RepairCost": 247,
-      "RepairSpeed": 10,
-      "RicochetParams": {
-        "x": 0.7,
-        "y": 0.2,
-        "z": 70
-      },
-      "ShortName": "hemlet_sphera-C",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "657bb910b30eca976305117c",
-          "_mergeSlotWithChildren": true,
           "_name": "Helmet_top",
+          "_id": "657bb910b30eca976305117c",
           "_parent": "5aa7d193e5b5b000171d063f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "657bb70486c7f9ef7a009936"
-                ],
+                "locked": true,
                 "Plate": "657bb70486c7f9ef7a009936",
                 "armorColliders": [
                   "ParietalHead"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "657bb70486c7f9ef7a009936"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "657bb910b30eca976305117d",
-          "_mergeSlotWithChildren": true,
           "_name": "Helmet_back",
+          "_id": "657bb910b30eca976305117d",
           "_parent": "5aa7d193e5b5b000171d063f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "657bb79ba1c61ee0c303631a"
-                ],
+                "locked": true,
                 "Plate": "657bb79ba1c61ee0c303631a",
                 "armorColliders": [
                   "BackHead"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "657bb79ba1c61ee0c303631a"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "657bb910b30eca976305117e",
-          "_mergeSlotWithChildren": true,
           "_name": "Helmet_ears",
+          "_id": "657bb910b30eca976305117e",
           "_parent": "5aa7d193e5b5b000171d063f",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "657bb7d7b30eca9763051176"
-                ],
+                "locked": true,
                 "Plate": "657bb7d7b30eca9763051176",
                 "armorColliders": [
                   "Ears"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "657bb7d7b30eca9763051176"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Weight": 3.5,
-      "Width": 2,
-      "armorClass": "0",
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 0,
+      "HasHinge": false,
+      "speedPenaltyPercent": 0,
+      "MaxDurability": 0,
+      "armorClass": 0,
       "armorColliders": [],
       "armorPlateColliders": [],
       "mousePenalty": -2,
-      "speedPenaltyPercent": 0,
-      "weaponErgonomicPenalty": -2
+      "weaponErgonomicPenalty": -2,
+      "BluntThroughput": 0.09,
+      "ArmorMaterial": "ArmoredSteel",
+      "ArmorType": "Heavy",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksHeadwear": false,
+      "BlocksFaceCover": false,
+      "Indestructibility": 0.9,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "MaterialType": "Helmet",
+      "RicochetParams": {
+        "x": 0.7,
+        "y": 0.2,
+        "z": 70
+      },
+      "DeafStrength": "High",
+      "BlindnessProtection": 0,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 3,

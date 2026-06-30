@@ -34,15 +34,53 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
+      "Name": "mount_dovetail_tochmash_sr3mp_side_rail_plum",
+      "ShortName": "mount_dovetail_tochmash_sr3mp_side_rail_plum",
+      "Description": "mount_dovetail_tochmash_sr3mp_side_rail_plum",
+      "Weight": 0.11,
       "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": true,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
+      "Width": 1,
+      "Height": 1,
+      "StackMaxSize": 1,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/mounts/mount_dovetail_tochmash_sr3mp_side_rail_plum.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 5,
+      "ExamineExperience": 3,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
       "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
+      "CanRequireOnRagfair": false,
       "ConflictingItems": [
         "591ee00d86f774592f7b841e",
         "609a4b4fe2ff132951242d04",
@@ -69,72 +107,26 @@
         "5c82342f2e221644f31c060e",
         "5a7c74b3e899ef0014332c29"
       ],
-      "CoolFactor": 1,
-      "Description": "mount_dovetail_tochmash_sr3mp_side_rail_plum",
-      "DiscardLimit": -1,
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
       "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
       "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": -0.5,
-      "ExamineExperience": 3,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 1,
-      "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "mod",
-      "LeftHandItem": false,
-      "LootExperience": 5,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "mount_dovetail_tochmash_sr3mp_side_rail_plum",
-      "NotShownInSlot": false,
-      "Prefab": {
-        "path": "assets/content/items/mods/mounts/mount_dovetail_tochmash_sr3mp_side_rail_plum.bundle",
-        "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
       "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
       "RarityPvE": "Rare",
-      "Recoil": 0,
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "mount_dovetail_tochmash_sr3mp_side_rail_plum",
-      "SightingRange": 0,
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "67069cbbb29a2cd33803338e",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_scope",
+          "_id": "67069cbbb29a2cd33803338e",
           "_parent": "67069cbbb29a2cd33803338c",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57ac965c24597706be5f975c",
                   "57aca93d2459771f2c7e26db",
@@ -188,22 +180,22 @@
                   "653931da5db71d30ab1d6296",
                   "655f13e0a246670fb0373245",
                   "67641a851b2899700609901a"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "67069cbbb29a2cd33803338f",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical",
+          "_id": "67069cbbb29a2cd33803338f",
           "_parent": "67069cbbb29a2cd33803338c",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a800961159bd4315e3a1657",
                   "57fd23e32459772d0805bcf1",
@@ -227,29 +219,40 @@
                   "626becf9582c3e319310b837",
                   "644a3df63b0b6f03e101e065",
                   "646f6322f43d0c5d62063715"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": 0,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -0.5,
+      "Velocity": 0,
+      "RaidModdable": false,
       "ToolModdable": false,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.11,
-      "Width": 1
+      "BlocksFolding": true,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "HeatFactor": 1,
+      "CoolFactor": 1,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

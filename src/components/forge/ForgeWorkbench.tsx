@@ -9,6 +9,7 @@ import { SlotSelector } from './SlotSelector'
 import { StatsPanel } from './StatsPanel'
 import { BuildHistory } from '@/lib/forgeUtils'
 import { SaveShareDialog } from './SaveShareDialog'
+import { ImportPresetDialog } from './ImportPresetDialog'
 import './forge.css'
 
 const buildHistory = new BuildHistory()
@@ -23,13 +24,14 @@ export function ForgeWorkbench() {
     gunData, loading, error, stats,
     setGunId, setGunData, setLoading, setError, setStats,
     installedAttachments, childSlotsMap,
-    installAttachment, removeAttachment, setChildSlots, removeChildSlots,
+    removeAttachment, setChildSlots, removeChildSlots, loadPreset,
   } = useForgeStore()
 
   const [activeSlot, setActiveSlot] = useState<{ slot: GunSlot; parentSlotPath?: string; slotPath: string } | null>(null)
   const [undoCount, setUndoCount] = useState(0)
   const [redoCount, setRedoCount] = useState(0)
   const [showSaveShare, setShowSaveShare] = useState(false)
+  const [showImportPreset, setShowImportPreset] = useState(false)
   const [ammoList, setAmmoList] = useState<AmmoItem[]>([])
   const [selectedAmmoId, setSelectedAmmoId] = useState<string | null>(null)
   const [assumeFullMag, setAssumeFullMag] = useState(true)
@@ -161,17 +163,13 @@ export function ForgeWorkbench() {
           import('@/lib/forgeUtils').then(({ decodeBuild }) => {
             const build = decodeBuild(sharedBuild)
             if (build && build.attachments) {
-              for (const [slotPath, itemId] of Object.entries(build.attachments)) {
-                installAttachment(slotPath, itemId)
-              }
+              loadPreset(build.attachments)
             }
           })
         } else if (data.factoryPreset && data.factoryPreset.length > 0) {
-          for (const pair of data.factoryPreset) {
-            if (!pair.slotName.includes(':')) {
-              installAttachment(pair.slotName, pair.itemId)
-            }
-          }
+          const attachments: Record<string, string> = {}
+          for (const pair of data.factoryPreset) attachments[pair.slotName] = pair.itemId
+          loadPreset(attachments, data.factoryChildSlots)
         }
       })
       .catch((err) => { setError(err.message); setLoading(false) })
@@ -266,9 +264,9 @@ export function ForgeWorkbench() {
       fetchGunInit(gunId, 'zh').then((data) => {
         setGunData(data); setLoading(false)
         if (data.factoryPreset && data.factoryPreset.length > 0) {
-          for (const pair of data.factoryPreset) {
-            if (!pair.slotName.includes(':')) installAttachment(pair.slotName, pair.itemId)
-          }
+          const attachments: Record<string, string> = {}
+          for (const pair of data.factoryPreset) attachments[pair.slotName] = pair.itemId
+          loadPreset(attachments, data.factoryChildSlots)
         }
       }).catch((err) => { setError(err.message); setLoading(false) })
     }, 0)
@@ -279,13 +277,9 @@ export function ForgeWorkbench() {
     for (const key of Object.keys(current)) removeAttachment(key)
   }, [])
 
-  const handleLoadPreset = useCallback((attachments: Record<string, string>) => {
-    const current = useForgeStore.getState().installedAttachments
-    for (const key of Object.keys(current)) removeAttachment(key)
-    setTimeout(() => {
-      for (const [slotPath, itemId] of Object.entries(attachments)) installAttachment(slotPath, itemId)
-    }, 50)
-  }, [])
+  const handleLoadPreset = useCallback((attachments: Record<string, string>, childSlots?: Record<string, GunSlot[]>) => {
+    loadPreset(attachments, childSlots)
+  }, [loadPreset])
 
   if (loading) return (<div className="forge-root forge-loading"><div className="forge-loading-text">加载工作台...</div></div>)
   if (error) return (<div className="forge-root forge-loading"><div className="forge-error-text">错误: {error}</div><Link to={`/item/${gunId}`} className="forge-back-link">← 返回物品页</Link></div>)
@@ -338,6 +332,7 @@ export function ForgeWorkbench() {
               <button className="back-button" onClick={handleReset}>重置配件</button>
               <button className="back-button" onClick={handleStrip}>清空配件</button>
               <button className="back-button" onClick={() => setShowSaveShare(true)}>保存/分享</button>
+              <button className="back-button" onClick={() => setShowImportPreset(true)}>导入/预设</button>
             </div>
 
             {/* Stats panel with mag controls inside (matching original #stats structure) */}
@@ -493,6 +488,12 @@ export function ForgeWorkbench() {
         gunData={gunData}
         installedAttachments={installedAttachments}
         childSlotsMap={childSlotsMap}
+        onLoadPreset={handleLoadPreset}
+      />
+      <ImportPresetDialog
+        open={showImportPreset}
+        onOpenChange={setShowImportPreset}
+        gunId={gunId || ''}
         onLoadPreset={handleLoadPreset}
       />
     </div>

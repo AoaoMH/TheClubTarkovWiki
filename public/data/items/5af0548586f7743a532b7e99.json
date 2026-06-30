@@ -32,87 +32,88 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "orange",
-      "BodyPartPriority": [],
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "Name": "ibuprofen",
+      "ShortName": "ibuprofen",
       "Description": "ibuprofen",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 4,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
+      "Weight": 0.07,
+      "BackgroundColor": "orange",
+      "Width": 1,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "med_pills",
       "LeftHandItem": false,
-      "LootExperience": 10,
-      "MaxHpResource": 8,
-      "MergesWithChildren": false,
-      "MetascoreGroup": "Utility",
-      "Name": "ibuprofen",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/weapons/usable_items/item_ibuprofen/item_ibuprofen_loot.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Superrare",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "ibuprofen",
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "StimulatorBuffs": "",
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "assets/content/weapons/usable_items/item_ibuprofen/item_ibuprofen_container.bundle",
         "rcid": ""
       },
-      "Weight": 0.07,
-      "Width": 1,
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 4,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "StimulatorBuffs": "",
+      "effects_health": {
+        "2": {
+          "value": -17
+        }
+      },
       "effects_damage": {
-        "Contusion": {
+        "3": {
           "delay": 0,
           "duration": 0,
           "fadeOut": 0
         },
-        "Pain": {
+        "7": {
           "delay": 0,
           "duration": 280,
           "fadeOut": 10
         }
       },
-      "effects_health": {
-        "Hydration": {
-          "value": -17
-        }
-      },
-      "hpResourceRate": 0,
+      "medUseTime": 5,
       "medEffectType": "duringUse",
-      "medUseTime": 5
+      "BodyPartPriority": [],
+      "MaxHpResource": 8,
+      "hpResourceRate": 0,
+      "PlayFuzeSound": false
     },
     "medical": {
       "medEffectType": "duringUse",
@@ -122,18 +123,18 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "Hydration",
+            "type": "2",
             "value": -17
           }
         ],
         "damageEffects": [
           {
-            "type": "Contusion",
+            "type": "3",
             "delay": 0,
             "duration": 0
           },
           {
-            "type": "Pain",
+            "type": "7",
             "delay": 0,
             "duration": 280
           }

@@ -34,82 +34,74 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "CoolFactor": 1,
+      "Name": "mount_m14_ultimak_m8_forward_optic_mount",
+      "ShortName": "mount_m14_ultimak_m8_forward_optic_mount",
       "Description": "mount_m14_ultimak_m8_forward_optic_mount",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": -1,
-      "ExamineExperience": 3,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 1,
+      "Weight": 0.154,
+      "BackgroundColor": "blue",
+      "Width": 2,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 5,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "mount_m14_ultimak_m8_forward_optic_mount",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/mounts/mount_aug_steyr_aug_a3_m1_long_rail.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
-      "RarityPvE": "Not_exist",
-      "Recoil": 0,
+      "LootExperience": 5,
+      "ExamineExperience": 3,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 0,
       "RepairSpeed": 0,
-      "ShortName": "mount_m14_ultimak_m8_forward_optic_mount",
-      "SightingRange": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "62e7c8f91cd3fde4d503d691",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_scope",
+          "_id": "62e7c8f91cd3fde4d503d691",
           "_parent": "62e7c8f91cd3fde4d503d690",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57ac965c24597706be5f975c",
                   "57aca93d2459771f2c7e26db",
@@ -179,22 +171,22 @@
                   "655f13e0a246670fb0373245",
                   "6567e751a715f85433025998",
                   "67641a851b2899700609901a"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "62e7c8f91cd3fde4d503d693",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_sight_front",
+          "_id": "62e7c8f91cd3fde4d503d693",
           "_parent": "62e7c8f91cd3fde4d503d690",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5ba26b01d4351e0085325a51",
                   "5dfa3d950dee1b22f862eae0",
@@ -204,22 +196,22 @@
                   "5c18b90d2e2216152142466b",
                   "5fc0fa362770a0045c59c677",
                   "5894a73486f77426d259076c"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "62e7c8f91cd3fde4d503d694",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_sight_rear",
+          "_id": "62e7c8f91cd3fde4d503d694",
           "_parent": "62e7c8f91cd3fde4d503d690",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "61817865d3a39d50044c13a4",
                   "5bb20e49d4351e3bac1212de",
@@ -231,29 +223,40 @@
                   "5c18b9192e2216398b5a8104",
                   "5fc0fa957283c4046c58147e",
                   "5894a81786f77427140b8347"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": 0,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -1,
+      "Velocity": 0,
+      "RaidModdable": false,
       "ToolModdable": true,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.154,
-      "Width": 2
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "HeatFactor": 1,
+      "CoolFactor": 1,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

@@ -32,92 +32,93 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "orange",
-      "BodyPartPriority": [],
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "Name": "Golden Star Balm",
+      "ShortName": "Golden Star Balm",
       "Description": "Golden Star Balm",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 4,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
+      "Weight": 0.016,
+      "BackgroundColor": "orange",
+      "Width": 1,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "generic",
       "LeftHandItem": false,
-      "LootExperience": 10,
-      "MaxHpResource": 5,
-      "MergesWithChildren": false,
-      "MetascoreGroup": "Utility",
-      "Name": "Golden Star Balm",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/weapons/usable_items/item_golden_star_balm/item_golden_star_balm_loot.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Superrare",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "Golden Star Balm",
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "StimulatorBuffs": "BuffsGoldenStarBalm",
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "assets/content/weapons/usable_items/item_golden_star_balm/item_golden_star_balm_container.bundle",
         "rcid": ""
       },
-      "Weight": 0.016,
-      "Width": 1,
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 4,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "StimulatorBuffs": "BuffsGoldenStarBalm",
+      "effects_health": {
+        "3": {
+          "value": -19
+        }
+      },
       "effects_damage": {
-        "Contusion": {
+        "3": {
           "delay": 0,
           "duration": 0,
           "fadeOut": 0
         },
-        "Pain": {
-          "delay": 0,
-          "duration": 350,
-          "fadeOut": 20
-        },
-        "RadExposure": {
+        "6": {
           "delay": 0,
           "duration": 400,
           "fadeOut": 20
+        },
+        "7": {
+          "delay": 0,
+          "duration": 350,
+          "fadeOut": 20
         }
       },
-      "effects_health": {
-        "Energy": {
-          "value": -19
-        }
-      },
-      "hpResourceRate": 0,
+      "medUseTime": 7,
       "medEffectType": "duringUse",
-      "medUseTime": 7
+      "BodyPartPriority": [],
+      "MaxHpResource": 5,
+      "hpResourceRate": 0,
+      "PlayFuzeSound": false
     },
     "medical": {
       "medEffectType": "duringUse",
@@ -127,25 +128,25 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "Energy",
+            "type": "3",
             "value": -19
           }
         ],
         "damageEffects": [
           {
-            "type": "Contusion",
+            "type": "3",
             "delay": 0,
             "duration": 0
           },
           {
-            "type": "Pain",
-            "delay": 0,
-            "duration": 350
-          },
-          {
-            "type": "RadExposure",
+            "type": "6",
             "delay": 0,
             "duration": 400
+          },
+          {
+            "type": "7",
+            "delay": 0,
+            "duration": 350
           }
         ],
         "stimBuffs": [

@@ -32,93 +32,94 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "orange",
-      "BodyPartPriority": [],
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "Name": "Пропитал",
+      "ShortName": "Пропитал",
       "Description": "",
-      "DiscardLimit": 2,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 8,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
+      "Weight": 0.05,
+      "BackgroundColor": "orange",
+      "Width": 1,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "med_stimulator",
       "LeftHandItem": false,
-      "LootExperience": 10,
-      "MaxHpResource": 0,
-      "MergesWithChildren": false,
-      "MetascoreGroup": "Utility",
-      "Name": "Пропитал",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_perfotoran_loot.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Superrare",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "Пропитал",
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "StimulatorBuffs": "Buffs_Perfotoran",
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "assets/content/weapons/usable_items/item_syringe/item_stimulator_perfotoran_container.bundle",
         "rcid": ""
       },
-      "Weight": 0.05,
-      "Width": 1,
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 8,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": 2,
+      "StimulatorBuffs": "Buffs_Perfotoran",
+      "effects_health": [],
       "effects_damage": {
-        "HeavyBleeding": {
+        "0": {
           "delay": 0,
           "duration": 60,
           "fadeOut": 0
         },
-        "Intoxication": {
+        "1": {
           "delay": 0,
           "duration": 60,
           "fadeOut": 0
         },
-        "LightBleeding": {
+        "4": {
           "delay": 0,
           "duration": 60,
           "fadeOut": 0
         },
-        "RadExposure": {
+        "6": {
           "delay": 0,
           "duration": 60,
           "fadeOut": 0
         }
       },
-      "effects_health": [],
-      "hpResourceRate": 0,
+      "medUseTime": 2,
       "medEffectType": "duringUse",
-      "medUseTime": 2
+      "BodyPartPriority": [],
+      "MaxHpResource": 0,
+      "hpResourceRate": 0,
+      "PlayFuzeSound": false
     },
     "medical": {
       "medEffectType": "duringUse",
@@ -129,22 +130,22 @@
         "healthEffects": [],
         "damageEffects": [
           {
-            "type": "HeavyBleeding",
+            "type": "0",
             "delay": 0,
             "duration": 60
           },
           {
-            "type": "Intoxication",
+            "type": "1",
             "delay": 0,
             "duration": 60
           },
           {
-            "type": "LightBleeding",
+            "type": "4",
             "delay": 0,
             "duration": 60
           },
           {
-            "type": "RadExposure",
+            "type": "6",
             "delay": 0,
             "duration": 60
           }

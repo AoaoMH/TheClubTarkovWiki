@@ -32,110 +32,111 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "default",
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "Name": "item_food_jack",
+      "ShortName": "item_food_jack",
       "Description": "item_food_jack",
-      "DiscardLimit": 1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 10,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
+      "Weight": 1.4,
+      "BackgroundColor": "default",
+      "Width": 1,
       "Height": 2,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "food_bottle",
       "LeftHandItem": false,
-      "LootExperience": 10,
-      "MaxResource": 1,
-      "MergesWithChildren": false,
-      "MetascoreGroup": "Utility",
-      "Name": "item_food_jack",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/food/bottles_with_alcohol/item_food_jack.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Superrare",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "item_food_jack",
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "StimulatorBuffs": "Buffs_drink_jack",
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "assets/content/weapons/usable_items/item_alcohol_whiskey/item_alcohol_whiskey_container.bundle",
         "rcid": ""
       },
-      "Weight": 1.4,
-      "Width": 1,
-      "effects_damage": {
-        "Pain": {
-          "delay": 0,
-          "duration": 210
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 10,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": 1,
+      "MaxResource": 1,
+      "foodUseTime": 4,
+      "foodEffectType": "afterUse",
+      "StimulatorBuffs": "Buffs_drink_jack",
+      "effects_health": {
+        "2": {
+          "value": -35
         },
-        "RadExposure": {
+        "3": {
+          "value": 10
+        }
+      },
+      "effects_damage": {
+        "6": {
           "delay": 0,
           "duration": 0
-        }
-      },
-      "effects_health": {
-        "Energy": {
-          "value": 10
         },
-        "Hydration": {
-          "value": -35
+        "7": {
+          "delay": 0,
+          "duration": 210
         }
       },
-      "foodEffectType": "afterUse",
-      "foodUseTime": 4
+      "PlayFuzeSound": false
     },
     "foodDrink": {
       "useTime": 4,
       "effects": {
         "healthEffects": [
           {
-            "type": "Energy",
-            "value": 10
+            "type": "2",
+            "value": -35
           },
           {
-            "type": "Hydration",
-            "value": -35
+            "type": "3",
+            "value": 10
           }
         ],
         "damageEffects": [
           {
-            "type": "Pain",
-            "delay": 0,
-            "duration": 210
-          },
-          {
-            "type": "RadExposure",
+            "type": "6",
             "delay": 0,
             "duration": 0
+          },
+          {
+            "type": "7",
+            "delay": 0,
+            "duration": 210
           }
         ],
         "stimBuffs": [

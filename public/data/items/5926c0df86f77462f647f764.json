@@ -34,187 +34,190 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "CoolFactor": 1.0815,
+      "Name": "reciever_mp5_hk_std",
+      "ShortName": "reciever_mp5_hk_std",
       "Description": "reciever_mp5_hk_std",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "DurabilityBurnModificator": 1,
-      "EffectiveDistance": 0,
-      "Ergonomics": 5,
-      "ExamineExperience": 2,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 1,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 0.969,
+      "Weight": 0.588,
+      "BackgroundColor": "blue",
+      "Width": 2,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 10,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "reciever_mp5_hk_std",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/recievers/reciever_mp5_hk_std.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
-      "RarityPvE": "Not_exist",
-      "Recoil": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 0,
       "RepairSpeed": 0,
-      "ShortName": "reciever_mp5_hk_std",
-      "SightingRange": 0,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "5926c0df86f77462f647f767",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_handguard",
+          "_id": "5926c0df86f77462f647f767",
           "_parent": "5926c0df86f77462f647f764",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a9548c9159bd400133e97b3",
                   "5d010d1cd7ad1a59283b1ce7",
                   "5926c36d86f77467a92a8629",
                   "5d19cd96d7ad1a4a992c9f52"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5926c0df86f77462f647f768",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_sight_rear",
+          "_id": "5926c0df86f77462f647f768",
           "_parent": "5926c0df86f77462f647f764",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5926d2be86f774134d668e4e"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5926c1c786f774641f04af45",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_stock",
+          "_id": "5926c1c786f774641f04af45",
           "_parent": "5926c0df86f77462f647f764",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5926d3c686f77410de68ebc8",
                   "5926d40686f7740f152b6b7e",
                   "5c07c9660db834001a66b588"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5926df9986f7742f6356f504",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_muzzle",
+          "_id": "5926df9986f7742f6356f504",
           "_parent": "5926c0df86f77462f647f764",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5926e16e86f7742f5a0f7ecb",
                   "5c0000c00db834001a6697fc"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5926dfdc86f7742eb80708a0",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount",
+          "_id": "5926dfdc86f7742eb80708a0",
           "_parent": "5926c0df86f77462f647f764",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5926dad986f7741f82604363",
                   "5a966ec8a2750c00171b3f36"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": 0,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": 5,
+      "Velocity": 0,
+      "RaidModdable": false,
       "ToolModdable": false,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.588,
-      "Width": 2
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DurabilityBurnModificator": 1,
+      "HeatFactor": 0.969,
+      "CoolFactor": 1.0815,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

@@ -34,89 +34,76 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [
-        "5abcbb20d8ce87001773e258"
-      ],
-      "CoolFactor": 1.13,
+      "Name": "stock_m14_troy_sass_chassis",
+      "ShortName": "stock_m14_troy_sass_chassis",
       "Description": "stock_m14_troy_sass_chassis",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "DurabilityBurnModificator": 1,
-      "EffectiveDistance": 0,
-      "Ergonomics": 28,
-      "ExamineExperience": 5,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 2,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "Foldable": false,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": true,
-      "HeatFactor": 0.89,
+      "Weight": 2.1,
+      "BackgroundColor": "blue",
+      "Width": 3,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsShoulderContact": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 15,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "stock_m14_troy_sass_chassis",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/stocks/stock_m14_troy_sass_chassis.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
-      "RarityPvE": "Superrare",
-      "Recoil": -7,
+      "LootExperience": 15,
+      "ExamineExperience": 5,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 0,
       "RepairSpeed": 0,
-      "Retractable": false,
-      "ShortName": "stock_m14_troy_sass_chassis",
-      "SightingRange": 0,
-      "SizeReduceRight": 0,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [
+        "5abcbb20d8ce87001773e258"
+      ],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "5ab373c810e8910019668c0d",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_foregrip",
+          "_id": "5ab373c810e8910019668c0d",
           "_parent": "5ab372a310e891001717f0d8",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5c7fc87d2e221644f31c0298",
                   "5cda9bcfd7f00c0c0b53e900",
@@ -154,22 +141,22 @@
                   "661e53149c8b4dadef008579",
                   "661e52415be02310ed07a07a",
                   "661e52b5b099f32c28003586"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5ab3741a10e8910018194499",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_scope",
+          "_id": "5ab3741a10e8910018194499",
           "_parent": "5ab372a310e891001717f0d8",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57ac965c24597706be5f975c",
                   "57aca93d2459771f2c7e26db",
@@ -239,22 +226,22 @@
                   "655f13e0a246670fb0373245",
                   "6567e751a715f85433025998",
                   "67641a851b2899700609901a"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5ab374c310e891001819449a",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount",
+          "_id": "5ab374c310e891001819449a",
           "_parent": "5ab372a310e891001717f0d8",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57ae0171245977343c27bfcf",
                   "58d39d3d86f77445bb794ae7",
@@ -265,22 +252,22 @@
                   "5649a2464bdc2d91118b45a8",
                   "5a33b652c4a28232996e407c",
                   "5a33b2c9c4a282000c5a9511"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5ab375a710e891001819449b",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical_000",
+          "_id": "5ab375a710e891001819449b",
           "_parent": "5ab372a310e891001717f0d8",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57fd23e32459772d0805bcf1",
                   "544909bb4bdc2d6f028b4577",
@@ -289,22 +276,22 @@
                   "61605d88ffa6e502ac5e7eeb",
                   "5c5952732e2216398b5abda2",
                   "644a3df63b0b6f03e101e065"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5ab3767710e891001539566d",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical_001",
+          "_id": "5ab3767710e891001539566d",
           "_parent": "5ab372a310e891001717f0d8",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a800961159bd4315e3a1657",
                   "57fd23e32459772d0805bcf1",
@@ -327,22 +314,22 @@
                   "626becf9582c3e319310b837",
                   "644a3df63b0b6f03e101e065",
                   "646f6322f43d0c5d62063715"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5ab376fd10e89100163d8536",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical_002",
+          "_id": "5ab376fd10e89100163d8536",
           "_parent": "5ab372a310e891001717f0d8",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a800961159bd4315e3a1657",
                   "57fd23e32459772d0805bcf1",
@@ -366,22 +353,22 @@
                   "626becf9582c3e319310b837",
                   "644a3df63b0b6f03e101e065",
                   "646f6322f43d0c5d62063715"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5ab377f210e8910018194500",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical_003",
+          "_id": "5ab377f210e8910018194500",
           "_parent": "5ab372a310e891001717f0d8",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a800961159bd4315e3a1657",
                   "57fd23e32459772d0805bcf1",
@@ -405,22 +392,22 @@
                   "646f6322f43d0c5d62063715",
                   "6644920d49817dc7d505ca71",
                   "676175bb48fa5c377e06fc36"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5ab37c9710e8910019668c75",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_pistolgrip",
+          "_id": "5ab37c9710e8910019668c75",
           "_parent": "5ab372a310e891001717f0d8",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "55d4b9964bdc2d1d4e8b456e",
                   "571659bb2459771fb2755a12",
@@ -439,22 +426,22 @@
                   "615d8faecabb9b7ad90f4d5d",
                   "5b07db875acfc40dc528a5f6",
                   "63f5feead259b42f0b4d6d0f"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5ab37d0310e891001f3f1ba8",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_stock",
+          "_id": "5ab37d0310e891001f3f1ba8",
           "_parent": "5ab372a310e891001717f0d8",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57ade1442459771557167e15",
                   "606587e18900dc2d9a55b65f",
@@ -474,22 +461,22 @@
                   "627254cc9c563e6e442c398f",
                   "638de3603a1a4031d8260b8c",
                   "6761777a1f08ed5e8800b7ac"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5c164ec42e2216152006bf75",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_sight_front",
+          "_id": "5c164ec42e2216152006bf75",
           "_parent": "5ab372a310e891001717f0d8",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5ba26b01d4351e0085325a51",
                   "5dfa3d950dee1b22f862eae0",
@@ -499,22 +486,22 @@
                   "5c18b90d2e2216152142466b",
                   "5fc0fa362770a0045c59c677",
                   "5894a73486f77426d259076c"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5c164ed52e2216152006bf76",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_sight_rear",
+          "_id": "5c164ed52e2216152006bf76",
           "_parent": "5ab372a310e891001717f0d8",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "61817865d3a39d50044c13a4",
                   "5bb20e49d4351e3bac1212de",
@@ -526,29 +513,45 @@
                   "5c18b9192e2216398b5a8104",
                   "5fc0fa957283c4046c58147e",
                   "5894a81786f77427140b8347"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -7,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": 28,
+      "Velocity": 0,
+      "RaidModdable": false,
       "ToolModdable": true,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 2.1,
-      "Width": 3
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": true,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DurabilityBurnModificator": 1,
+      "HeatFactor": 0.89,
+      "CoolFactor": 1.13,
+      "IsShoulderContact": false,
+      "Foldable": false,
+      "Retractable": false,
+      "SizeReduceRight": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

@@ -34,34 +34,53 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
+      "Name": "launcher_ak_toz_gp25_40_vog ",
+      "ShortName": "launcher_ak_toz_gp25_40_vog ",
+      "Description": "",
+      "Weight": 1.4,
       "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": true,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
+      "Width": 2,
+      "Height": 1,
+      "StackMaxSize": 1,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/weapons/gp25/launcher_ak_toz_gp25_40_vog_container.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 10,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
       "CanSellOnRagfair": false,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "Chambers": [
-        {
-          "_id": "62e7e7bbe6da9612f743f1e1",
-          "_mergeSlotWithChildren": false,
-          "_name": "patron_in_weapon",
-          "_parent": "62e7e7bbe6da9612f743f1e0",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5656eb674bdc2d35148b457c"
-                ]
-              }
-            ]
-          },
-          "_proto": "55d4af244bdc2d962f8b4571",
-          "_required": false
-        }
-      ],
+      "CanRequireOnRagfair": false,
       "ConflictingItems": [
         "5c7fc87d2e221644f31c0298",
         "5cda9bcfd7f00c0c0b53e900",
@@ -136,78 +155,62 @@
         "665d5d9e338229cfd6078da1",
         "665edce564fb556f940ab32a"
       ],
-      "Description": "",
-      "DiscardLimit": -1,
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
       "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
       "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
+      "Slots": [],
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
       "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -8,
+      "Loudness": 0,
       "EffectiveDistance": 0,
       "Ergonomics": -35,
-      "ExamineExperience": 10,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": true,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "mod",
-      "LeftHandItem": false,
-      "LinkedWeapon": "639af924d0446708ee62294e",
-      "LootExperience": 10,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "launcher_ak_toz_gp25_40_vog ",
-      "NotShownInSlot": false,
-      "Prefab": {
-        "path": "assets/content/weapons/gp25/launcher_ak_toz_gp25_40_vog_container.bundle",
-        "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
+      "Velocity": 0,
       "RaidModdable": false,
-      "RarityPvE": "Superrare",
-      "Recoil": -8,
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "launcher_ak_toz_gp25_40_vog ",
-      "SightingRange": 0,
-      "Slots": [],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
       "ToolModdable": false,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UseAmmoWithoutShell": true,
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 1.4,
-      "Width": 2
+      "BlocksFolding": true,
+      "BlocksCollapsible": false,
+      "IsAnimated": true,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "Chambers": [
+        {
+          "_name": "patron_in_weapon",
+          "_id": "62e7e7bbe6da9612f743f1e1",
+          "_parent": "62e7e7bbe6da9612f743f1e0",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5656eb674bdc2d35148b457c"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d4af244bdc2d962f8b4571"
+        }
+      ],
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false,
+      "LinkedWeapon": "639af924d0446708ee62294e",
+      "UseAmmoWithoutShell": true
     },
     "mod": {
       "ergonomics": -35,

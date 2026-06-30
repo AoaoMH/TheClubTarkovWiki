@@ -35,18 +35,126 @@
   },
   "properties": {
     "_raw": {
+      "Name": "scope_all_aksion_ekp_8_18",
+      "ShortName": "scope_all_aksion_ekp_8_18",
+      "Description": "scope_all_aksion_ekp_8_18",
+      "Weight": 0.27,
+      "BackgroundColor": "blue",
+      "Width": 1,
+      "Height": 1,
+      "StackMaxSize": 1,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/scopes/scope_sr2m_tochmash_kp_sr2.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
+      "Slots": [
+        {
+          "_name": "mod_tactical",
+          "_id": "62ff9920fe938a24c90c10d3",
+          "_parent": "62ff9920fe938a24c90c10d2",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "62ff9faffe938a24c90c10df"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
       "Accuracy": 0,
-      "AdjustableOpticSensitivity": 0,
-      "AdjustableOpticSensitivityMax": 0,
+      "Recoil": 0,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -3,
+      "Velocity": 0,
+      "RaidModdable": true,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 200,
+      "ZoomSensitivity": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "ModesCount": [
+        1
+      ],
+      "CustomAimPlane": "",
+      "IsAdjustableOptic": false,
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "sightModType": "reflex",
+      "ScopesCount": 1,
       "AimSensitivity": [
         [
           0.65
         ]
       ],
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
+      "Zooms": [
+        [
+          1
+        ]
+      ],
       "CalibrationDistances": [
         [
           50,
@@ -55,118 +163,13 @@
           200
         ]
       ],
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "CustomAimPlane": "",
-      "Description": "scope_all_aksion_ekp_8_18",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": -3,
-      "ExamineExperience": 2,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
       "ForbidMissingVitalParts": false,
       "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAdjustableOptic": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "mod",
-      "LeftHandItem": false,
-      "LootExperience": 10,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "MinMaxFov": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "ModesCount": [
-        1
-      ],
-      "Name": "scope_all_aksion_ekp_8_18",
-      "NotShownInSlot": false,
-      "Prefab": {
-        "path": "assets/content/items/mods/scopes/scope_sr2m_tochmash_kp_sr2.bundle",
-        "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": true,
-      "RarityPvE": "Rare",
-      "Recoil": 0,
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ScopesCount": 1,
-      "ShortName": "scope_all_aksion_ekp_8_18",
-      "SightingRange": 200,
-      "Slots": [
-        {
-          "_id": "62ff9920fe938a24c90c10d3",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_tactical",
-          "_parent": "62ff9920fe938a24c90c10d2",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "62ff9faffe938a24c90c10df"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        }
-      ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "ToolModdable": false,
-      "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.27,
-      "Width": 1,
-      "ZoomSensitivity": 0,
-      "Zooms": [
-        [
-          1
-        ]
-      ],
-      "sightModType": "reflex"
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0
     },
     "armor": {
       "armorClass": 0,

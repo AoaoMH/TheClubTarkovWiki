@@ -33,154 +33,157 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "ArmorMaterial": "UHMWPE",
-      "ArmorType": "None",
-      "BackgroundColor": "default",
-      "BlocksArmorVest": false,
-      "BluntThroughput": 0,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
+      "Name": "Wild Vest",
+      "ShortName": "Wild Vest",
       "Description": "Wild Vest",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 2,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [
-        {
-          "_id": "64be7095047e826eae02b0c2",
-          "_name": "1",
-          "_parent": "64be7095047e826eae02b0c1",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "64be7095047e826eae02b0c3",
-          "_name": "2",
-          "_parent": "64be7095047e826eae02b0c1",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        },
-        {
-          "_id": "64be7095047e826eae02b0c4",
-          "_name": "3",
-          "_parent": "64be7095047e826eae02b0c1",
-          "_props": {
-            "cellsH": 1,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [
-                  "5448bf274bdc2dfc2f8b456a"
-                ],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ],
+      "Weight": 0.521,
+      "BackgroundColor": "default",
+      "Width": 2,
       "Height": 3,
-      "HideEntrails": true,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "gear_generic",
       "LeftHandItem": false,
-      "LootExperience": 30,
-      "MergesWithChildren": false,
-      "MetascoreGroup": "Utility",
-      "Name": "Wild Vest",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/equipment/rig_rscr_zulu/item_equipment_rig_rscr_zulu.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Common",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "RigLayoutName": "zulu",
-      "SearchSound": "looting_body_extended",
-      "ShortName": "Wild Vest",
-      "Slots": [],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "",
         "rcid": ""
       },
-      "Weight": 0.521,
-      "Width": 2,
-      "armorClass": 0,
-      "armorZone": [],
-      "mousePenalty": 0,
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 30,
+      "ExamineExperience": 2,
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Common",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [
+        {
+          "_name": "1",
+          "_id": "64be7095047e826eae02b0c2",
+          "_parent": "64be7095047e826eae02b0c1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "2",
+          "_id": "64be7095047e826eae02b0c3",
+          "_parent": "64be7095047e826eae02b0c1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        },
+        {
+          "_name": "3",
+          "_id": "64be7095047e826eae02b0c4",
+          "_parent": "64be7095047e826eae02b0c1",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": [
+                  "5448bf274bdc2dfc2f8b456a"
+                ]
+              }
+            ],
+            "cellsH": 1,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [],
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "SearchSound": "looting_body_extended",
+      "BlocksArmorVest": false,
       "speedPenaltyPercent": 0,
-      "weaponErgonomicPenalty": 0
+      "RigLayoutName": "zulu",
+      "armorZone": [],
+      "armorClass": 0,
+      "mousePenalty": 0,
+      "weaponErgonomicPenalty": 0,
+      "BluntThroughput": 0,
+      "ArmorMaterial": "UHMWPE",
+      "ArmorType": "None",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     }
   },
   "slots": [],

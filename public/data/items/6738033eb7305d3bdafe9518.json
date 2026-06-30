@@ -1,0 +1,103 @@
+{
+  "id": "6738033eb7305d3bdafe9518",
+  "typeName": "Map",
+  "category": "special",
+  "parentTypeChain": [
+    "Map",
+    "Item"
+  ],
+  "handbook": {
+    "categoryId": null,
+    "price": 0
+  },
+  "common": {
+    "name": {
+      "zh": "Ground Zero plan map",
+      "en": "Ground Zero plan map"
+    },
+    "shortName": {
+      "zh": "Ground Zero",
+      "en": "Ground Zero"
+    },
+    "description": {
+      "zh": "A map of Ground Zero. Ignore the fact there's two separate Ground Zero maps but they're the same. Crazy.",
+      "en": "A map of Ground Zero. Ignore the fact there's two separate Ground Zero maps but they're the same. Crazy."
+    },
+    "weight": 0.045,
+    "width": 1,
+    "height": 1,
+    "rarity": "Rare",
+    "backgroundColor": "orange"
+  },
+  "properties": {
+    "_raw": {
+      "Name": "Ground Zero plan map",
+      "ShortName": "Ground Zero",
+      "Description": "A map of Ground Zero. Ignore the fact there's two separate Ground Zero maps but they're the same. Crazy.",
+      "Weight": 0.045,
+      "BackgroundColor": "orange",
+      "Width": 1,
+      "Height": 1,
+      "StackMaxSize": 1,
+      "ItemSound": "item_map",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/items/map/map.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 5,
+      "ExamineExperience": 8,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "effects_health": [],
+      "effects_damage": [],
+      "ConfigPathStr": "UI/PocketMap/Plans/WoodsPlan/config",
+      "MaxMarkersCount": 100,
+      "scaleMin": 0.24,
+      "scaleMax": 1,
+      "PlayFuzeSound": false
+    }
+  },
+  "slots": [],
+  "image": null,
+  "isMod": false
+}

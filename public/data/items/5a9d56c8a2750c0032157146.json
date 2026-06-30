@@ -34,82 +34,74 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "CoolFactor": 1.02,
+      "Name": "handguard_ak_strike_industries_trax_1",
+      "ShortName": "handguard_ak_strike_industries_trax_1",
       "Description": "handguard_ak_strike_industries_trax_1",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": 6,
-      "ExamineExperience": 3,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 0.966,
+      "Weight": 0.26,
+      "BackgroundColor": "blue",
+      "Width": 1,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 5,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "handguard_ak_strike_industries_trax_1",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/handguards/handguard_ak_strike_industries_trax_1.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": true,
-      "RarityPvE": "Rare",
-      "Recoil": -2,
+      "LootExperience": 5,
+      "ExamineExperience": 3,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 0,
       "RepairSpeed": 0,
-      "ShortName": "handguard_ak_strike_industries_trax_1",
-      "SightingRange": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Rare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "5a9d56c8a2750c0032157149",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_scope",
+          "_id": "5a9d56c8a2750c0032157149",
           "_parent": "5a9d56c8a2750c0032157146",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "591c4efa86f7741030027726",
                   "570fd79bd2720bc7458b4583",
@@ -148,22 +140,22 @@
                   "644a3df63b0b6f03e101e065",
                   "64785e7c19d732620e045e15",
                   "655f13e0a246670fb0373245"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5a9d5769a2750c00156aad2f",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_000",
+          "_id": "5a9d5769a2750c00156aad2f",
           "_parent": "5a9d56c8a2750c0032157146",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "615d8fd3290d254f5e6b2edc",
                   "5fc0f9b5d724d907e2077d82",
@@ -171,51 +163,62 @@
                   "5a9d6d13a2750c00164f6b03",
                   "5a9d6d21a2750c00137fa649",
                   "59e0bed186f774156f04ce84"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5a9d57b4a2750c00156aad30",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_mount_002",
+          "_id": "5a9d57b4a2750c00156aad30",
           "_parent": "5a9d56c8a2750c0032157146",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a9d6d00a2750c5c985b5305",
                   "59e0bdb186f774156f04ce82",
                   "59e0be5d86f7742d48765bd2",
                   "623c2f652febb22c2777d8d7",
                   "67111094d1758189fc0bd223"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -2,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": 6,
+      "Velocity": 0,
+      "RaidModdable": true,
       "ToolModdable": true,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.26,
-      "Width": 1
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "HeatFactor": 0.966,
+      "CoolFactor": 1.02,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

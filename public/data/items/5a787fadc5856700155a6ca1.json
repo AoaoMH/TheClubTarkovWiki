@@ -34,132 +34,135 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "CenterOfImpact": 0.32,
-      "ConflictingItems": [],
-      "CoolFactor": 0.9,
+      "Name": "barrel_870_vent_rib_barrel_660mm",
+      "ShortName": "barrel_870_vent_rib_barrel_660mm",
       "Description": "barrel_870_vent_rib_barrel_660mm",
-      "DeviationCurve": 2.5,
-      "DeviationMax": 10,
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "DurabilityBurnModificator": 1.08,
-      "EffectiveDistance": 0,
-      "Ergonomics": -12,
-      "ExamineExperience": 6,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 2,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 0.86,
+      "Weight": 1.1,
+      "BackgroundColor": "blue",
+      "Width": 4,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": true,
-      "IsSecretExitRequirement": false,
-      "IsSilencer": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 20,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "barrel_870_vent_rib_barrel_660mm",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/barrels/barrel_870_vent_rib_barrel_660mm.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
-      "RarityPvE": "Not_exist",
-      "Recoil": -9,
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "barrel_870_vent_rib_barrel_660mm",
-      "ShotgunDispersion": 1.2,
-      "SightingRange": 0,
-      "Slots": [
-        {
-          "_id": "5a79c57951dfba001454f112",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_mount",
-          "_parent": "5a787fadc5856700155a6ca1",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5a789261c5856700186c65d3",
-                  "676177b09cfcc4c25b027446"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "60accec7ab5d1052a56d9c18",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_scope",
-          "_parent": "5a787fadc5856700155a6ca1",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "609b9e31506cf869cf3eaf41"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        }
-      ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "ToolModdable": true,
-      "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "",
         "rcid": ""
       },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": true,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 20,
+      "ExamineExperience": 6,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 2,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
+      "Slots": [
+        {
+          "_name": "mod_mount",
+          "_id": "5a79c57951dfba001454f112",
+          "_parent": "5a787fadc5856700155a6ca1",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5a789261c5856700186c65d3",
+                  "676177b09cfcc4c25b027446"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_scope",
+          "_id": "60accec7ab5d1052a56d9c18",
+          "_parent": "5a787fadc5856700155a6ca1",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "609b9e31506cf869cf3eaf41"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -9,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -12,
       "Velocity": 5.4,
-      "Weight": 1.1,
-      "Width": 4
+      "RaidModdable": false,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DurabilityBurnModificator": 1.08,
+      "HeatFactor": 0.86,
+      "CoolFactor": 0.9,
+      "CenterOfImpact": 0.32,
+      "IsSilencer": false,
+      "DeviationCurve": 2.5,
+      "DeviationMax": 10,
+      "ShotgunDispersion": 1.2,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

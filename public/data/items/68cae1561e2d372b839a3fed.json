@@ -35,132 +35,135 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [
-        "5a9fc7e6a2750c0032157184"
-      ],
-      "CoolFactor": 1.06,
+      "Name": "silencer_vss_tochmash_std_9x39",
+      "ShortName": "silencer_vss_tochmash_std_9x39",
       "Description": "silencer_vss_tochmash_std_9x39",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "DurabilityBurnModificator": 1.2,
-      "EffectiveDistance": 0,
-      "Ergonomics": -2,
-      "ExamineExperience": 3,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 1,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 1.21,
+      "Weight": 0.158,
+      "BackgroundColor": "blue",
+      "Width": 2,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 15,
-      "Loudness": -5,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "silencer_vss_tochmash_std_9x39",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "Attachment_VSSM/silencer_vssm_bastard.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": true,
-      "RarityPvE": "Not_exist",
-      "Recoil": -8,
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "silencer_vss_tochmash_std_9x39",
-      "SightingRange": 0,
-      "Slots": [
-        {
-          "_id": "57838d2f2459774a256959b0",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_sight_rear",
-          "_parent": "57838c962459774a1651ec63",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "57c44e7b2459772d28133248",
-                  "57838e1b2459774a256959b1"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "57e02a3824597706777d7ec7",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_mount_000",
-          "_parent": "57838c962459774a1651ec63",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "59eb7ebe86f7740b373438ce",
-                  "57a3459f245977764a01f703",
-                  "5a9fc7e6a2750c0032157184"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        }
-      ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "ToolModdable": false,
-      "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "",
         "rcid": ""
       },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 15,
+      "ExamineExperience": 3,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 1,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [
+        "5a9fc7e6a2750c0032157184"
+      ],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
+      "Slots": [
+        {
+          "_name": "mod_sight_rear",
+          "_id": "57838d2f2459774a256959b0",
+          "_parent": "57838c962459774a1651ec63",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "57c44e7b2459772d28133248",
+                  "57838e1b2459774a256959b1"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount_000",
+          "_id": "57e02a3824597706777d7ec7",
+          "_parent": "57838c962459774a1651ec63",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "59eb7ebe86f7740b373438ce",
+                  "57a3459f245977764a01f703",
+                  "5a9fc7e6a2750c0032157184"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -8,
+      "Loudness": -5,
+      "EffectiveDistance": 0,
+      "Ergonomics": -2,
       "Velocity": 0.98,
-      "Weight": 0.158,
-      "Width": 2,
-      "muzzleModType": "silencer"
+      "RaidModdable": true,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DurabilityBurnModificator": 1.2,
+      "HeatFactor": 1.21,
+      "CoolFactor": 1.06,
+      "muzzleModType": "silencer",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

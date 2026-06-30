@@ -35,9 +35,101 @@
   },
   "properties": {
     "_raw": {
+      "Name": "scope_all_ncstar_advance_dual_optic_3_9x_42",
+      "ShortName": "scope_all_ncstar_advance_dual_optic_3_9x_42",
+      "Description": "scope_all_ncstar_advance_dual_optic_3_9x_42",
+      "Weight": 0.595,
+      "BackgroundColor": "blue",
+      "Width": 2,
+      "Height": 1,
+      "StackMaxSize": 1,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/scopes/scope_all_ncstar_advance_dual_optic_3_9x_42.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 15,
+      "ExamineExperience": 8,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [
+        "5894a73486f77426d259076c",
+        "5894a81786f77427140b8347"
+      ],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
+      "Slots": [],
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
       "Accuracy": 0,
-      "AdjustableOpticSensitivity": 0.1517,
-      "AdjustableOpticSensitivityMax": 0.0506,
+      "Recoil": 0,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -2,
+      "Velocity": 0,
+      "RaidModdable": true,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 1000,
+      "ZoomSensitivity": 0.45,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "ModesCount": [
+        1,
+        1
+      ],
+      "CustomAimPlane": "",
+      "IsAdjustableOptic": true,
+      "MinMaxFov": {
+        "x": 5.4667,
+        "y": 1.8222,
+        "z": 5
+      },
+      "sightModType": "hybrid",
+      "ScopesCount": 2,
       "AimSensitivity": [
         [
           0.65,
@@ -47,10 +139,15 @@
           0.65
         ]
       ],
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
+      "Zooms": [
+        [
+          3,
+          9
+        ],
+        [
+          1
+        ]
+      ],
       "CalibrationDistances": [
         [
           50,
@@ -64,107 +161,13 @@
           100
         ]
       ],
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [
-        "5894a73486f77426d259076c",
-        "5894a81786f77427140b8347"
-      ],
-      "CustomAimPlane": "",
-      "Description": "scope_all_ncstar_advance_dual_optic_3_9x_42",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": -2,
-      "ExamineExperience": 8,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
       "ForbidMissingVitalParts": false,
       "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAdjustableOptic": true,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "mod",
-      "LeftHandItem": false,
-      "LootExperience": 15,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "MinMaxFov": {
-        "x": 5.4667,
-        "y": 1.8222,
-        "z": 5
-      },
-      "ModesCount": [
-        1,
-        1
-      ],
-      "Name": "scope_all_ncstar_advance_dual_optic_3_9x_42",
-      "NotShownInSlot": false,
-      "Prefab": {
-        "path": "assets/content/items/mods/scopes/scope_all_ncstar_advance_dual_optic_3_9x_42.bundle",
-        "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": true,
-      "RarityPvE": "Superrare",
-      "Recoil": 0,
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ScopesCount": 2,
-      "ShortName": "scope_all_ncstar_advance_dual_optic_3_9x_42",
-      "SightingRange": 1000,
-      "Slots": [],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "ToolModdable": true,
-      "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.595,
-      "Width": 2,
-      "ZoomSensitivity": 0.45,
-      "Zooms": [
-        [
-          3,
-          9
-        ],
-        [
-          1
-        ]
-      ],
-      "sightModType": "hybrid"
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false,
+      "AdjustableOpticSensitivity": 0.1517,
+      "AdjustableOpticSensitivityMax": 0.0506
     },
     "mod": {
       "ergonomics": -2,

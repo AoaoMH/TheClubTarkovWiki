@@ -31,28 +31,27 @@
   text-rendering: optimizeLegibility;
 }
 
-html {
-  background-color: #111;
-}
-
 /* body styles from EFTForge are scoped to .forge-root above */
 
-::selection {
+/* All global overrides below are scoped to .forge-root so they don't
+   leak into the outer wiki page. */
+
+.forge-root ::selection {
   background: rgba(245, 197, 66, 0.25);
   color: #fff;
 }
 
 /* Unified focus treatment: keyboard users get a consistent ring on
    interactive controls; mouse/touch focus stays quiet. */
-:where(button, a, select, summary, [role="button"], [tabindex],
+.forge-root :where(button, a, select, summary, [role="button"], [tabindex],
        input[type="range"], input[type="checkbox"], input[type="radio"]):focus-visible {
   outline: 2px solid rgba(245, 197, 66, 0.7);
   outline-offset: 2px;
 }
 
 /* Text fields signal focus via border + soft glow instead of a ring */
-input:not([type="range"]):not([type="checkbox"]):not([type="radio"]):focus,
-textarea:focus {
+.forge-root input:not([type="range"]):not([type="checkbox"]):not([type="radio"]):focus,
+.forge-root textarea:focus {
   outline: none;
   border-color: rgba(245, 197, 66, 0.55);
   box-shadow: 0 0 0 3px rgba(245, 197, 66, 0.08);
@@ -62,7 +61,7 @@ textarea:focus {
    HEADER
 ========================= */
 
-header {
+.forge-root header {
   background: linear-gradient(to left, rgba(245, 197, 66, 0.07), transparent 50%), #1a1a1a;
   padding: 0 20px;
   height: 44px;
@@ -80,11 +79,11 @@ header {
   height: 44px;
 }
 
-header.header-expanded {
+.forge-root header.header-expanded {
   height: 66px;
 }
 
-header h2 {
+.forge-root header h2 {
   margin: 0;
   color: #f5c542;
   font-weight: 700;
@@ -127,7 +126,7 @@ header h2 {
   transition: opacity 0.25s ease, max-height 0.3s ease, padding-top 0.3s ease;
 }
 
-header.header-expanded .header-tagline {
+.forge-root header.header-expanded .header-tagline {
   max-height: 18px;
   padding-top: 3px;
   opacity: 1;
@@ -144,7 +143,7 @@ header.header-expanded .header-tagline {
   pointer-events: none;
 }
 
-header.header-expanded .header-logo-img {
+.forge-root header.header-expanded .header-logo-img {
   width: 48px;
   height: 48px;
 }
@@ -300,20 +299,20 @@ header.header-expanded .header-logo-img {
   white-space: nowrap;
 }
 
-header:not(.header-expanded) .profile-nav-label {
+.forge-root header:not(.header-expanded) .profile-nav-label {
   display: none;
 }
 
-header:not(.header-expanded) .header-nav-btn {
+.forge-root header:not(.header-expanded) .header-nav-btn {
   padding: 0;
 }
 
-header:not(.header-expanded) .header-nav-btn-label {
+.forge-root header:not(.header-expanded) .header-nav-btn-label {
   opacity: 0;
   max-width: 0;
 }
 
-header:not(.header-expanded) .header-nav-btn-icon {
+.forge-root header:not(.header-expanded) .header-nav-btn-icon {
   opacity: 1;
 }
 
@@ -611,7 +610,7 @@ header:not(.header-expanded) .header-nav-btn-icon {
   initial-value: rgba(245, 197, 66, 0.10);
 }
 
-:root {
+.forge-root {
   transition: --blob-color 1s ease;
 }
 
@@ -717,7 +716,7 @@ header:not(.header-expanded) .header-nav-btn-icon {
   background: #555;
 }
 
-*, *::before, *::after {
+.forge-root *, .forge-root *::before, .forge-root *::after {
   box-sizing: border-box;
 }
 
@@ -2385,18 +2384,18 @@ header:not(.header-expanded) .header-nav-btn-icon {
   transition: transform 0.08s ease;
 }
 
-button {
+.forge-root button {
   font-family: "Bender", Arial, sans-serif;
   user-select: none;
 }
 
 /* Button badge - add data-badge="New!" or data-badge="3" to any button */
-button[data-badge]:not([data-badge=""]) {
+.forge-root button[data-badge]:not([data-badge=""]) {
   position: relative;
   overflow: visible;
 }
 
-button[data-badge]:not([data-badge=""])::after {
+.forge-root button[data-badge]:not([data-badge=""])::after {
   content: attr(data-badge);
   position: absolute;
   top: -9px;
@@ -2421,7 +2420,7 @@ button[data-badge]:not([data-badge=""])::after {
   z-index: 10;
 }
 
-button[data-badge]:not([data-badge=""])[data-badge-pulse="false"]::after {
+.forge-root button[data-badge]:not([data-badge=""])[data-badge-pulse="false"]::after {
   animation: none;
   box-shadow: 0 1px 5px rgba(0, 0, 0, 0.7);
 }
@@ -2434,7 +2433,7 @@ button[data-badge]:not([data-badge=""])[data-badge-pulse="false"]::after {
 }
 
 /* Collapsed header: buttons are small squares — shrink badge to a dot so it doesn't bury the icon */
-header:not(.header-expanded) .header-nav-btn[data-badge]:not([data-badge=""])::after {
+.forge-root header:not(.header-expanded) .header-nav-btn[data-badge]:not([data-badge=""])::after {
   content: '';
   width: 8px;
   height: 8px;
@@ -4618,7 +4617,7 @@ header:not(.header-expanded) .header-nav-btn[data-badge]:not([data-badge=""])::a
 .build-tag-chip[data-tag="beginner"] { --tag-bg: #1a2820; --tag-border: #7ac4a0; --tag-color: #7ac4a0; }
 .build-tag-chip[data-tag="hybrid"]   { --tag-bg: #1a1e28; --tag-border: #8899bb; --tag-color: #8899bb; }
 
-button.build-tag-chip {
+.forge-root button.build-tag-chip {
     cursor: pointer;
     background: #1a1a1a;
     border-color: #333;
@@ -4629,13 +4628,13 @@ button.build-tag-chip {
     vertical-align: middle;
 }
 
-button.build-tag-chip:hover {
+.forge-root button.build-tag-chip:hover {
     background: var(--tag-bg, #1e2a1e);
     border-color: var(--tag-border, #6dbf6d);
     color: var(--tag-color, #6dbf6d);
 }
 
-button.build-tag-chip.active {
+.forge-root button.build-tag-chip.active {
     background: var(--tag-bg, #1e2a1e);
     border-color: var(--tag-border, #6dbf6d);
     color: var(--tag-color, #6dbf6d);

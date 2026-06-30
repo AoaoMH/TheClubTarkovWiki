@@ -7,6 +7,8 @@
  * Root node: parentIndex=255, slotIndex=255
  * Child node: slotIndex = position in parent's Slots array + 1
  */
+import { apiFetch } from '@/lib/apiFetch'
+import { forgeConfig } from '@/lib/forgeConfig'
 import type { GunInitData, GunSlot } from '@/lib/forgeApi'
 
 // --- Types ---
@@ -153,24 +155,26 @@ export interface DecodedNode {
 /**
  * Decode WBM config code back to node array.
  * Returns null if invalid format.
+ * Uses regex to extract base64 data — robust against newline stripping in text inputs.
  */
 export function decodeSparkCode(code: string): DecodedNode[] | null {
   try {
     const text = code.trim()
-    let base64Data = text
 
-    // Extract first line, strip prefix
-    const lines = text.split(/[\r\n]/).filter(l => l.length > 0)
-    if (lines.length > 0) {
-      const firstLine = lines[0]
-      if (!firstLine) return null
-      const prefix = 'SPT-ProjectSpark-WBM-'
-      if (firstLine.startsWith(prefix)) {
-        base64Data = firstLine.substring(prefix.length)
-      } else {
-        base64Data = firstLine
-      }
+    // Extract base64 data via regex (handles both prefixed and raw base64)
+    let base64Data: string | null = null
+
+    // Match SPT-ProjectSpark-WBM-{base64} anywhere in the text
+    const match = text.match(/SPT-ProjectSpark-WBM-([A-Za-z0-9+/=]+)/)
+    if (match && match[1]) {
+      base64Data = match[1]
+    } else {
+      // No prefix — try first whitespace-delimited token as pure base64
+      const token = text.split(/\s/).find(t => /^[A-Za-z0-9+/=]+$/.test(t))
+      if (token) base64Data = token
     }
+
+    if (!base64Data) return null
 
     const data = base64ToBytes(base64Data)
 
@@ -201,6 +205,27 @@ export function decodeSparkCode(code: string): DecodedNode[] | null {
     }
 
     return nodes
+  } catch {
+    return null
+  }
+}
+
+/**
+ * Decode a WBM config code and resolve to { gunId, attachments, childSlots }.
+ * Calls backend endpoint which uses in-memory forgeData — single API call, zero client-side fetches.
+ * childSlots includes each item's slots with allowedItems, so the frontend can skip all fetchItemSlots/fetchAllowedItems calls.
+ */
+export async function decodeSparkCodeToAttachments(
+  code: string,
+): Promise<{ gunId: string; attachments: Record<string, string>; childSlots?: Record<string, GunSlot[]> } | null> {
+  try {
+    const res = await apiFetch(`${forgeConfig.API_BASE}/api/forge/build/decode-spark`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ code }),
+    })
+    if (!res.ok) return null
+    return res.json()
   } catch {
     return null
   }

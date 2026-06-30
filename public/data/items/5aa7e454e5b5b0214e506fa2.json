@@ -34,20 +34,53 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "ArmorMaterial": "Combined",
-      "ArmorType": "Heavy",
+      "Name": "helmet_zsh1-2m_v1",
+      "ShortName": "helmet_zsh1-2m_v1",
+      "Description": "helmet_zsh1-2m_v1",
+      "Weight": 3.7,
       "BackgroundColor": "default",
-      "BlindnessProtection": 0,
-      "BlocksEarpiece": false,
-      "BlocksEyewear": false,
-      "BlocksFaceCover": false,
-      "BlocksHeadwear": false,
-      "BluntThroughput": 0.1548,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
+      "Width": 2,
+      "Height": 2,
+      "StackMaxSize": 1,
+      "ItemSound": "gear_helmet",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/items/equipment/helmet_zsh_1var/item_equipment_helmet_zsh_1var.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 20,
+      "ExamineExperience": 4,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 446,
+      "RepairSpeed": 10,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Defence",
       "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
+      "CanRequireOnRagfair": false,
       "ConflictingItems": [
         "5645bcc04bdc2d363b8b4572",
         "5aa2ba71e5b5b000137b758f",
@@ -64,173 +97,143 @@
         "5e4d34ca86f774264f758330",
         "5f60cd6cf2bcbb675b00dac6"
       ],
-      "DeafStrength": "High",
-      "Description": "helmet_zsh1-2m_v1",
-      "DiscardLimit": -1,
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
       "DiscardingBlock": false,
       "DropSoundType": "None",
-      "Durability": 0,
-      "ExamineExperience": 4,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "FaceShieldComponent": false,
-      "FaceShieldMask": "NoMask",
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasHinge": false,
-      "Height": 2,
-      "HideEntrails": false,
-      "Indestructibility": 0.9,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "gear_helmet",
-      "LeftHandItem": false,
-      "LootExperience": 20,
-      "MaterialType": "Helmet",
-      "MaxDurability": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Defence",
-      "Name": "helmet_zsh1-2m_v1",
-      "NotShownInSlot": false,
-      "Prefab": {
-        "path": "assets/content/items/equipment/helmet_zsh_1var/item_equipment_helmet_zsh_1var.bundle",
-        "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
       "RagFairCommissionModifier": 1,
       "RarityPvE": "Rare",
-      "RepairCost": 446,
-      "RepairSpeed": 10,
-      "RicochetParams": {
-        "x": 0.8,
-        "y": 0.3,
-        "z": 75
-      },
-      "ShortName": "helmet_zsh1-2m_v1",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "5aa7e454e5b5b0214e506fa4",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_equipment",
+          "_id": "5aa7e454e5b5b0214e506fa4",
           "_parent": "5aa7e454e5b5b0214e506fa2",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5aa7e3abe5b5b000171d064d"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "657f948bf92cd718b7015509",
-          "_mergeSlotWithChildren": true,
           "_name": "Helmet_top",
+          "_id": "657f948bf92cd718b7015509",
           "_parent": "5aa7e454e5b5b0214e506fa2",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "657f925dada5fadd1f07a57a"
-                ],
+                "locked": true,
                 "Plate": "657f925dada5fadd1f07a57a",
                 "armorColliders": [
                   "ParietalHead"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "657f925dada5fadd1f07a57a"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "657f948bf92cd718b701550a",
-          "_mergeSlotWithChildren": true,
           "_name": "Helmet_back",
+          "_id": "657f948bf92cd718b701550a",
           "_parent": "5aa7e454e5b5b0214e506fa2",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "657f92acada5fadd1f07a57e"
-                ],
+                "locked": true,
                 "Plate": "657f92acada5fadd1f07a57e",
                 "armorColliders": [
                   "BackHead"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "657f92acada5fadd1f07a57e"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         },
         {
-          "_id": "657f948bf92cd718b701550b",
-          "_mergeSlotWithChildren": true,
           "_name": "Helmet_ears",
+          "_id": "657f948bf92cd718b701550b",
           "_parent": "5aa7e454e5b5b0214e506fa2",
           "_props": {
             "filters": [
               {
-                "Filter": [
-                  "657f92e7f4c82973640b2354"
-                ],
+                "locked": true,
                 "Plate": "657f92e7f4c82973640b2354",
                 "armorColliders": [
                   "Ears"
                 ],
                 "armorPlateColliders": [],
-                "bluntDamageReduceFromSoftArmor": false,
-                "locked": true
+                "Filter": [
+                  "657f92e7f4c82973640b2354"
+                ],
+                "bluntDamageReduceFromSoftArmor": false
               }
             ]
           },
-          "_proto": "64479fdf9731c8fadc0642c1",
-          "_required": true
+          "_required": true,
+          "_mergeSlotWithChildren": true,
+          "_proto": "64479fdf9731c8fadc0642c1"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Weight": 3.7,
-      "Width": 2,
-      "armorClass": "0",
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 0,
+      "HasHinge": false,
+      "speedPenaltyPercent": 0,
+      "MaxDurability": 0,
+      "armorClass": 0,
       "armorColliders": [],
       "armorPlateColliders": [],
       "mousePenalty": -2,
-      "speedPenaltyPercent": 0,
-      "weaponErgonomicPenalty": 0
+      "weaponErgonomicPenalty": 0,
+      "BluntThroughput": 0.1548,
+      "ArmorMaterial": "Combined",
+      "ArmorType": "Heavy",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "BlocksEarpiece": false,
+      "BlocksEyewear": false,
+      "BlocksHeadwear": false,
+      "BlocksFaceCover": false,
+      "Indestructibility": 0.9,
+      "FaceShieldComponent": false,
+      "FaceShieldMask": "NoMask",
+      "MaterialType": "Helmet",
+      "RicochetParams": {
+        "x": 0.8,
+        "y": 0.3,
+        "z": 75
+      },
+      "DeafStrength": "High",
+      "BlindnessProtection": 0,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 4,

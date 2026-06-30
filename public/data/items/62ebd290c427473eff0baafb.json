@@ -35,106 +35,74 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AdjustableOpticSensitivity": 0,
-      "AdjustableOpticSensitivityMax": 0,
-      "AimSensitivity": [
-        [
-          0.3033
-        ]
-      ],
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CalibrationDistances": [
-        [
-          50,
-          100,
-          150,
-          200
-        ]
-      ],
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "CustomAimPlane": "",
+      "Name": "scope_base_trijicon_acog_ta11_3,5x35",
+      "ShortName": "scope_base_trijicon_acog_ta11_3,5x35",
       "Description": "scope_base_trijicon_acog_ta11_3,5x35",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": -2,
-      "ExamineExperience": 4,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
+      "Weight": 0.624,
+      "BackgroundColor": "blue",
+      "Width": 2,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAdjustableOptic": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 15,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "MinMaxFov": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "ModesCount": [
-        1
-      ],
-      "Name": "scope_base_trijicon_acog_ta11_3,5x35",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/scopes/scope_aug_steyr_rail_optic_1,5x.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
-      "RarityPvE": "Not_exist",
-      "Recoil": 0,
+      "LootExperience": 15,
+      "ExamineExperience": 4,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 0,
       "RepairSpeed": 0,
-      "ScopesCount": 1,
-      "ShortName": "scope_base_trijicon_acog_ta11_3,5x35",
-      "SightingRange": 600,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "62ebd3075873407ff501deb6",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_scope",
+          "_id": "62ebd3075873407ff501deb6",
           "_parent": "62ebd290c427473eff0baafb",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "57ae0171245977343c27bfcf",
                   "58d39d3d86f77445bb794ae7",
@@ -143,22 +111,22 @@
                   "58d2664f86f7747fec5834f6",
                   "5a33b2c9c4a282000c5a9511",
                   "61605d88ffa6e502ac5e7eeb"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "62ebd3075873407ff501deb7",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical",
+          "_id": "62ebd3075873407ff501deb7",
           "_parent": "62ebd290c427473eff0baafb",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "626becf9582c3e319310b837",
                   "5cc9c20cd7f00c001336c65d",
@@ -174,36 +142,71 @@
                   "5b3a337e5acfc4704b4a19a0",
                   "5a800961159bd4315e3a1657",
                   "644a3df63b0b6f03e101e065"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": 0,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -2,
+      "Velocity": 0,
+      "RaidModdable": false,
       "ToolModdable": true,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.624,
-      "Width": 2,
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 600,
       "ZoomSensitivity": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "ModesCount": [
+        1
+      ],
+      "CustomAimPlane": "",
+      "IsAdjustableOptic": false,
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "sightModType": "optic",
+      "ScopesCount": 1,
+      "AimSensitivity": [
+        [
+          0.3033
+        ]
+      ],
       "Zooms": [
         [
           1.5
         ]
       ],
-      "sightModType": "optic"
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200
+        ]
+      ],
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0
     },
     "armor": {
       "armorClass": 0,

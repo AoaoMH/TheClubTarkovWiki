@@ -34,134 +34,137 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "CenterOfImpact": 0.3,
-      "ConflictingItems": [],
-      "CoolFactor": 0.86,
+      "Name": "Ствол 750мм для ружья МР-133 12к с прицельной планкой",
+      "ShortName": "750мм МР-133 12к",
       "Description": "Стандартный заводской ствол для ружья МР-133 длинной 750мм под патрон 12-го калибра, с широкой прицельной планкой.",
-      "DeviationCurve": 2.5,
-      "DeviationMax": 10,
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "DurabilityBurnModificator": 1.1,
-      "EffectiveDistance": 0,
-      "Ergonomics": -17,
-      "ExamineExperience": 6,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 3,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 0.82,
+      "Weight": 1.55,
+      "BackgroundColor": "blue",
+      "Width": 5,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSilencer": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 25,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "Ствол 750мм для ружья МР-133 12к с прицельной планкой",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/barrels/barrel_mr133_750mm_plank.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
-      "RarityPvE": "Not_exist",
-      "Recoil": -10,
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "750мм МР-133 12к",
-      "ShotgunDispersion": 1.1,
-      "SightingRange": 0,
-      "Slots": [
-        {
-          "_id": "56e315d5d2720b5d058b456a",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_muzzle",
-          "_parent": "5608379a4bdc2d26448b4569",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5c0111ab0db834001966914d",
-                  "560838c94bdc2d77798b4569",
-                  "5b363dea5acfc4771e1c5e7e"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "5dfe40b6fca8e055d15b75ad",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_mount",
-          "_parent": "5608379a4bdc2d26448b4569",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "609b9e31506cf869cf3eaf41",
-                  "5dfe14f30b92095fd441edaf"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        }
-      ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "ToolModdable": true,
-      "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "",
         "rcid": ""
       },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 25,
+      "ExamineExperience": 6,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 3,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
+      "Slots": [
+        {
+          "_name": "mod_muzzle",
+          "_id": "56e315d5d2720b5d058b456a",
+          "_parent": "5608379a4bdc2d26448b4569",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "5c0111ab0db834001966914d",
+                  "560838c94bdc2d77798b4569",
+                  "5b363dea5acfc4771e1c5e7e"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_mount",
+          "_id": "5dfe40b6fca8e055d15b75ad",
+          "_parent": "5608379a4bdc2d26448b4569",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "609b9e31506cf869cf3eaf41",
+                  "5dfe14f30b92095fd441edaf"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -10,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -17,
       "Velocity": 18.9,
-      "Weight": 1.55,
-      "Width": 5
+      "RaidModdable": false,
+      "ToolModdable": true,
+      "UniqueAnimationModID": 0,
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DurabilityBurnModificator": 1.1,
+      "HeatFactor": 0.82,
+      "CoolFactor": 0.86,
+      "CenterOfImpact": 0.3,
+      "IsSilencer": false,
+      "DeviationCurve": 2.5,
+      "DeviationMax": 10,
+      "ShotgunDispersion": 1.1,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

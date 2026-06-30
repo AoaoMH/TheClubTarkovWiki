@@ -34,124 +34,110 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "CenterOfImpact": 0.07,
-      "ConflictingItems": [],
-      "CoolFactor": 0.9,
+      "Name": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
+      "ShortName": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
       "Description": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
-      "DeviationCurve": 1,
-      "DeviationMax": 33,
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "DurabilityBurnModificator": 1,
-      "EffectiveDistance": 0,
-      "Ergonomics": -8,
-      "ExamineExperience": 6,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 3,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "HeatFactor": 0.85,
+      "Weight": 1.5,
+      "BackgroundColor": "blue",
+      "Width": 3,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSilencer": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 15,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/barrels/barrel_mosin_izhmash_mosin_carabine_514mm.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
-      "RarityPvE": "Not_exist",
-      "Recoil": -8,
+      "LootExperience": 15,
+      "ExamineExperience": 6,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 0,
       "RepairSpeed": 0,
-      "ShortName": "barrel_870_express_rifle_sights_fixed_improved_cylinder_508mm",
-      "ShotgunDispersion": 1.9,
-      "SightingRange": 0,
+      "ExtraSizeLeft": 3,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "5bfd4cbe0db834001b7344a1",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_sight_front",
+          "_id": "5bfd4cbe0db834001b7344a1",
           "_parent": "5bfd4cbe0db834001b73449f",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5ae099875acfc4001714e593"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5bfd4cbe0db834001b7344a2",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_sight_rear",
+          "_id": "5bfd4cbe0db834001b7344a2",
           "_parent": "5bfd4cbe0db834001b73449f",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5bfd4c980db834001b73449d"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "5bfd4cbe0db834001b7344a3",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_muzzle",
+          "_id": "5bfd4cbe0db834001b7344a3",
           "_parent": "5bfd4cbe0db834001b73449f",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5bbdb83fd4351e44f824c44b",
                   "5bc5a351d4351e003477a414",
@@ -160,29 +146,46 @@
                   "5cf79599d7f00c10875d9212",
                   "5cf67a1bd7f00c06585fb6f3",
                   "5b86a0e586f7745b600ccb23"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -8,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -8,
+      "Velocity": 8.2,
+      "RaidModdable": false,
       "ToolModdable": true,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 8.2,
-      "Weight": 1.5,
-      "Width": 3
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "DurabilityBurnModificator": 1,
+      "HeatFactor": 0.85,
+      "CoolFactor": 0.9,
+      "CenterOfImpact": 0.07,
+      "IsSilencer": false,
+      "DeviationCurve": 1,
+      "DeviationMax": 33,
+      "ShotgunDispersion": 1.9,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

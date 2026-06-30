@@ -32,97 +32,100 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "violet",
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "Description": "Box case",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 50,
-      "ExamineTime": 1,
-      "ExaminedByDefault": false,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [
-        {
-          "_id": "590de5d986f77417a4293193",
-          "_name": "main",
-          "_parent": "590de5d986f77417a4293192",
-          "_props": {
-            "cellsH": 2,
-            "cellsV": 2,
-            "filters": [
-              {
-                "ExcludedFilter": [],
-                "Filter": [
-                  "54009119af1c881c07000029"
-                ]
-              }
-            ],
-            "isSortingTable": false,
-            "maxCount": 0,
-            "maxWeight": 0,
-            "minCount": 0
-          },
-          "_proto": "55d329c24bdc2d892f8b4567"
-        }
-      ],
-      "Height": 2,
-      "HideEntrails": true,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "container_case",
-      "KeyIds": [
-        "5751961824597720a31c09ac"
-      ],
-      "LeftHandItem": false,
-      "LootExperience": 100,
-      "MergesWithChildren": false,
       "Name": "Box case",
-      "NotShownInSlot": false,
+      "ShortName": "Box case",
+      "Description": "Box case",
+      "Weight": 3,
+      "BackgroundColor": "violet",
+      "Width": 2,
+      "Height": 2,
+      "StackMaxSize": 1,
+      "ItemSound": "container_case",
+      "LeftHandItem": false,
       "Prefab": {
         "path": "assets/content/items/quest/item_quest_container_box_closed/item_quest_container_box.bundle",
         "rcid": ""
       },
-      "QuestItem": true,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Not_exist",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "Box case",
-      "Slots": [],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "TagColor": 0,
-      "TagName": "",
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "",
         "rcid": ""
       },
-      "Weight": 3,
-      "Width": 2
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": false,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": true,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 100,
+      "ExamineExperience": 50,
+      "HideEntrails": true,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [
+        {
+          "_name": "main",
+          "_id": "590de5d986f77417a4293193",
+          "_parent": "590de5d986f77417a4293192",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "54009119af1c881c07000029"
+                ],
+                "ExcludedFilter": []
+              }
+            ],
+            "cellsH": 2,
+            "cellsV": 2,
+            "minCount": 0,
+            "maxCount": 0,
+            "maxWeight": 0,
+            "isSortingTable": false
+          },
+          "_proto": "55d329c24bdc2d892f8b4567"
+        }
+      ],
+      "Slots": [],
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "KeyIds": [
+        "5751961824597720a31c09ac"
+      ],
+      "TagColor": 0,
+      "TagName": "",
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     }
   },
   "slots": [],

@@ -32,110 +32,111 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "violet",
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "Name": "item_food_moonshine",
+      "ShortName": "item_food_moonshine",
       "Description": "item_food_moonshine",
-      "DiscardLimit": 0,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 10,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
+      "Weight": 1.2,
+      "BackgroundColor": "violet",
+      "Width": 1,
       "Height": 2,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "food_bottle",
       "LeftHandItem": false,
-      "LootExperience": 10,
-      "MaxResource": 1,
-      "MergesWithChildren": false,
-      "MetascoreGroup": "Utility",
-      "Name": "item_food_moonshine",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/weapons/usable_items/item_alcohol_moonshine/item_alcohol_moonshine_loot.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Superrare",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "item_food_moonshine",
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "StimulatorBuffs": "Buffs_drink_moonshine",
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "assets/content/weapons/usable_items/item_alcohol_moonshine/item_alcohol_moonshine_container.bundle",
         "rcid": ""
       },
-      "Weight": 1.2,
-      "Width": 1,
-      "effects_damage": {
-        "Pain": {
-          "delay": 0,
-          "duration": 500
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 10,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": 0,
+      "MaxResource": 1,
+      "foodUseTime": 6,
+      "foodEffectType": "afterUse",
+      "StimulatorBuffs": "Buffs_drink_moonshine",
+      "effects_health": {
+        "2": {
+          "value": -10
         },
-        "RadExposure": {
+        "3": {
+          "value": 20
+        }
+      },
+      "effects_damage": {
+        "6": {
           "delay": 0,
           "duration": 0
-        }
-      },
-      "effects_health": {
-        "Energy": {
-          "value": 20
         },
-        "Hydration": {
-          "value": -10
+        "7": {
+          "delay": 0,
+          "duration": 500
         }
       },
-      "foodEffectType": "afterUse",
-      "foodUseTime": 6
+      "PlayFuzeSound": false
     },
     "foodDrink": {
       "useTime": 6,
       "effects": {
         "healthEffects": [
           {
-            "type": "Energy",
-            "value": 20
+            "type": "2",
+            "value": -10
           },
           {
-            "type": "Hydration",
-            "value": -10
+            "type": "3",
+            "value": 20
           }
         ],
         "damageEffects": [
           {
-            "type": "Pain",
-            "delay": 0,
-            "duration": 500
-          },
-          {
-            "type": "RadExposure",
+            "type": "6",
             "delay": 0,
             "duration": 0
+          },
+          {
+            "type": "7",
+            "delay": 0,
+            "duration": 500
           }
         ],
         "stimBuffs": [

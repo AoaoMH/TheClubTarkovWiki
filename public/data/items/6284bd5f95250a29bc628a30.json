@@ -35,18 +35,172 @@
   },
   "properties": {
     "_raw": {
+      "Name": "scope_all_holosun_hs401g5",
+      "ShortName": "scope_all_holosun_hs401g5",
+      "Description": "scope_all_holosun_hs401g5",
+      "Weight": 0.6,
+      "BackgroundColor": "blue",
+      "Width": 1,
+      "Height": 1,
+      "StackMaxSize": 1,
+      "ItemSound": "mod",
+      "LeftHandItem": false,
+      "Prefab": {
+        "path": "assets/content/items/mods/scopes/scope_all_milkor_m2a1_reflex_sight.bundle",
+        "rcid": ""
+      },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
+      "Slots": [
+        {
+          "_name": "mod_scope",
+          "_id": "6284bf82efa4bf770d31ea5f",
+          "_parent": "6284bd5f95250a29bc628a30",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "61605d88ffa6e502ac5e7eeb"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical_000",
+          "_id": "6284bfa06a2b2104d614839e",
+          "_parent": "6284bd5f95250a29bc628a30",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "5cc9c20cd7f00c001336c65d"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        },
+        {
+          "_name": "mod_tactical_001",
+          "_id": "6284bfc1eff7053cd97d00e7",
+          "_parent": "6284bd5f95250a29bc628a30",
+          "_props": {
+            "filters": [
+              {
+                "Shift": 0,
+                "Filter": [
+                  "57fd23e32459772d0805bcf1",
+                  "544909bb4bdc2d6f028b4577",
+                  "5c06595c0db834001a66af6c",
+                  "61605d88ffa6e502ac5e7eeb",
+                  "5c5952732e2216398b5abda2",
+                  "5cc9c20cd7f00c001336c65d"
+                ]
+              }
+            ]
+          },
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
+        }
+      ],
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
       "Accuracy": 0,
-      "AdjustableOpticSensitivity": 0,
-      "AdjustableOpticSensitivityMax": 0,
+      "Recoil": 0,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -6,
+      "Velocity": 0,
+      "RaidModdable": true,
+      "ToolModdable": false,
+      "UniqueAnimationModID": 0,
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 300,
+      "ZoomSensitivity": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "ModesCount": [
+        1
+      ],
+      "CustomAimPlane": "",
+      "IsAdjustableOptic": false,
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "sightModType": "reflex",
+      "ScopesCount": 1,
       "AimSensitivity": [
         [
           0.65
         ]
       ],
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
+      "Zooms": [
+        [
+          1
+        ]
+      ],
       "CalibrationDistances": [
         [
           50,
@@ -59,164 +213,13 @@
           400
         ]
       ],
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "CustomAimPlane": "",
-      "Description": "scope_all_holosun_hs401g5",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": -6,
-      "ExamineExperience": 2,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
       "ForbidMissingVitalParts": false,
       "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
-      "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAdjustableOptic": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
-      "ItemSound": "mod",
-      "LeftHandItem": false,
-      "LootExperience": 10,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "MinMaxFov": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "ModesCount": [
-        1
-      ],
-      "Name": "scope_all_holosun_hs401g5",
-      "NotShownInSlot": false,
-      "Prefab": {
-        "path": "assets/content/items/mods/scopes/scope_all_milkor_m2a1_reflex_sight.bundle",
-        "rcid": ""
-      },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": true,
-      "RarityPvE": "Superrare",
-      "Recoil": 0,
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ScopesCount": 1,
-      "ShortName": "scope_all_holosun_hs401g5",
-      "SightingRange": 300,
-      "Slots": [
-        {
-          "_id": "6284bf82efa4bf770d31ea5f",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_scope",
-          "_parent": "6284bd5f95250a29bc628a30",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "61605d88ffa6e502ac5e7eeb"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "6284bfa06a2b2104d614839e",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_tactical_000",
-          "_parent": "6284bd5f95250a29bc628a30",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "57fd23e32459772d0805bcf1",
-                  "544909bb4bdc2d6f028b4577",
-                  "5c06595c0db834001a66af6c",
-                  "61605d88ffa6e502ac5e7eeb",
-                  "5c5952732e2216398b5abda2",
-                  "5cc9c20cd7f00c001336c65d"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        },
-        {
-          "_id": "6284bfc1eff7053cd97d00e7",
-          "_mergeSlotWithChildren": false,
-          "_name": "mod_tactical_001",
-          "_parent": "6284bd5f95250a29bc628a30",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "57fd23e32459772d0805bcf1",
-                  "544909bb4bdc2d6f028b4577",
-                  "5c06595c0db834001a66af6c",
-                  "61605d88ffa6e502ac5e7eeb",
-                  "5c5952732e2216398b5abda2",
-                  "5cc9c20cd7f00c001336c65d"
-                ],
-                "Shift": 0
-              }
-            ]
-          },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
-        }
-      ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "ToolModdable": false,
-      "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.6,
-      "Width": 1,
-      "ZoomSensitivity": 0,
-      "Zooms": [
-        [
-          1
-        ]
-      ],
-      "sightModType": "reflex"
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0
     },
     "armor": {
       "armorClass": 0,

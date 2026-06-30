@@ -32,103 +32,104 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "default",
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
-      "ConflictingItems": [],
+      "Name": "item_food_vodka",
+      "ShortName": "item_food_vodka",
       "Description": "item_food_vodka",
-      "DiscardLimit": 0,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 10,
-      "ExamineTime": 1,
-      "ExaminedByDefault": false,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
+      "Weight": 1.6,
+      "BackgroundColor": "default",
+      "Width": 1,
       "Height": 2,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "food_bottle",
       "LeftHandItem": false,
-      "LootExperience": 10,
-      "MaxResource": 1,
-      "MergesWithChildren": false,
-      "MetascoreGroup": "Utility",
-      "Name": "item_food_vodka",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/food/bottles_with_alcohol/item_food_vodka.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Not_exist",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "item_food_vodka",
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "StimulatorBuffs": "Buffs_drink_vodka",
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "assets/content/weapons/usable_items/item_alcohol_vodka/item_alcohol_vodka_container.bundle",
         "rcid": ""
       },
-      "Weight": 1.6,
-      "Width": 1,
-      "effects_damage": {
-        "Pain": {
-          "delay": 0,
-          "duration": 250
-        },
-        "RadExposure": {
-          "delay": 0,
-          "duration": 0
-        }
-      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": false,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 10,
+      "ExamineExperience": 10,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": 0,
+      "MaxResource": 1,
+      "foodUseTime": 5,
+      "foodEffectType": "afterUse",
+      "StimulatorBuffs": "Buffs_drink_vodka",
       "effects_health": {
-        "Hydration": {
+        "2": {
           "value": -50
         }
       },
-      "foodEffectType": "afterUse",
-      "foodUseTime": 5
+      "effects_damage": {
+        "6": {
+          "delay": 0,
+          "duration": 0
+        },
+        "7": {
+          "delay": 0,
+          "duration": 250
+        }
+      },
+      "PlayFuzeSound": false
     },
     "foodDrink": {
       "useTime": 5,
       "effects": {
         "healthEffects": [
           {
-            "type": "Hydration",
+            "type": "2",
             "value": -50
           }
         ],
         "damageEffects": [
           {
-            "type": "Pain",
-            "delay": 0,
-            "duration": 250
-          },
-          {
-            "type": "RadExposure",
+            "type": "6",
             "delay": 0,
             "duration": 0
+          },
+          {
+            "type": "7",
+            "delay": 0,
+            "duration": 250
           }
         ],
         "stimBuffs": [

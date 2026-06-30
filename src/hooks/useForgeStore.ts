@@ -36,6 +36,7 @@ interface ForgeState {
   setStats: (stats: BuildStats) => void
   installAttachment: (slotPath: string, itemId: string) => void
   removeAttachment: (slotPath: string) => void
+  loadPreset: (attachments: Record<string, string>, childSlots?: Record<string, GunSlot[]>) => void
   setChildSlots: (parentSlotPath: string, slots: GunSlot[]) => void
   removeChildSlots: (parentSlotPath: string) => void
   reset: () => void
@@ -85,6 +86,12 @@ export const useForgeStore = create<ForgeState>((set) => ({
         }
       }
       return { installedAttachments: next, childSlotsMap: nextChildSlots }
+    }),
+
+  loadPreset: (attachments, childSlots) =>
+    set({
+      installedAttachments: { ...attachments },
+      childSlotsMap: childSlots ? { ...childSlots } : {},
     }),
 
   setChildSlots: (parentSlotPath, slots) =>

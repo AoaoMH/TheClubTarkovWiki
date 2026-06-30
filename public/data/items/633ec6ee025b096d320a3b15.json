@@ -35,107 +35,70 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "yellow",
       "BeltMagazineRefreshCount": 0,
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CanAdmin": false,
-      "CanFast": false,
-      "CanHit": false,
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "Cartridges": [
-        {
-          "_id": "633ec6ee025b096d320a3b1c",
-          "_max_count": 5,
-          "_name": "cartridges",
-          "_parent": "633ec6ee025b096d320a3b15",
-          "_props": {
-            "filters": [
-              {
-                "Filter": [
-                  "5cadf6ddae9215051e1c23b2",
-                  "5cadf6e5ae921500113bb973",
-                  "5cadf6eeae921500134b2799"
-                ]
-              }
-            ]
-          },
-          "_proto": "5748538b2459770af276a261"
-        }
-      ],
-      "CheckOverride": 0,
-      "CheckTimeModifier": 0,
-      "ConflictingItems": [],
+      "Name": "mag_mc_255_cillinder_5",
+      "ShortName": "mag_mc_255_cillinder_5",
       "Description": "mag_mc_255_cillinder_5",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": -5,
-      "ExamineExperience": 2,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
+      "Weight": 0.23,
+      "BackgroundColor": "yellow",
+      "Width": 1,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": true,
-      "IsLockedafterEquip": false,
-      "IsMagazineForStationaryWeapon": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "magazine_metal",
       "LeftHandItem": false,
-      "LoadUnloadModifier": 0,
-      "LootExperience": 5,
-      "Loudness": 0,
-      "MagazineWithBelt": false,
-      "MalfunctionChance": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "Name": "mag_mc_255_cillinder_5",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/magazines/mag_rsh12_kbp_rsh12_cylinder_127x55_5.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": false,
-      "RarityPvE": "Not_exist",
-      "Recoil": -2,
-      "ReloadMagType": "InternalMagazine",
+      "LootExperience": 5,
+      "ExamineExperience": 2,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 0,
       "RepairSpeed": 0,
-      "ShortName": "mag_mc_255_cillinder_5",
-      "SightingRange": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "633ec6ee025b096d320a3b16",
-          "_mergeSlotWithChildren": false,
           "_name": "camora_000",
+          "_id": "633ec6ee025b096d320a3b16",
           "_parent": "633ec6ee025b096d320a3b15",
           "_props": {
             "filters": [
@@ -149,13 +112,13 @@
               }
             ]
           },
-          "_proto": "55d4af244bdc2d962f8b4571",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d4af244bdc2d962f8b4571"
         },
         {
-          "_id": "633ec6ee025b096d320a3b17",
-          "_mergeSlotWithChildren": false,
           "_name": "camora_001",
+          "_id": "633ec6ee025b096d320a3b17",
           "_parent": "633ec6ee025b096d320a3b15",
           "_props": {
             "filters": [
@@ -169,13 +132,13 @@
               }
             ]
           },
-          "_proto": "55d4af244bdc2d962f8b4571",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d4af244bdc2d962f8b4571"
         },
         {
-          "_id": "633ec6ee025b096d320a3b18",
-          "_mergeSlotWithChildren": false,
           "_name": "camora_002",
+          "_id": "633ec6ee025b096d320a3b18",
           "_parent": "633ec6ee025b096d320a3b15",
           "_props": {
             "filters": [
@@ -189,13 +152,13 @@
               }
             ]
           },
-          "_proto": "55d4af244bdc2d962f8b4571",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d4af244bdc2d962f8b4571"
         },
         {
-          "_id": "633ec6ee025b096d320a3b19",
-          "_mergeSlotWithChildren": false,
           "_name": "camora_003",
+          "_id": "633ec6ee025b096d320a3b19",
           "_parent": "633ec6ee025b096d320a3b15",
           "_props": {
             "filters": [
@@ -209,13 +172,13 @@
               }
             ]
           },
-          "_proto": "55d4af244bdc2d962f8b4571",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d4af244bdc2d962f8b4571"
         },
         {
-          "_id": "633ec6ee025b096d320a3b1a",
-          "_mergeSlotWithChildren": false,
           "_name": "camora_004",
+          "_id": "633ec6ee025b096d320a3b1a",
           "_parent": "633ec6ee025b096d320a3b15",
           "_props": {
             "filters": [
@@ -229,28 +192,68 @@
               }
             ]
           },
-          "_proto": "55d4af244bdc2d962f8b4571",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d4af244bdc2d962f8b4571"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
       "TagColor": 0,
       "TagName": "",
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": -2,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -5,
+      "Velocity": 0,
+      "RaidModdable": false,
       "ToolModdable": false,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": true,
+      "HasShoulderContact": false,
+      "SightingRange": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "IsMagazineForStationaryWeapon": false,
+      "MagazineWithBelt": false,
+      "magAnimationIndex": 0,
+      "Cartridges": [
+        {
+          "_name": "cartridges",
+          "_id": "633ec6ee025b096d320a3b1c",
+          "_parent": "633ec6ee025b096d320a3b15",
+          "_props": {
+            "filters": [
+              {
+                "Filter": [
+                  "5cadf6ddae9215051e1c23b2",
+                  "5cadf6e5ae921500113bb973",
+                  "5cadf6eeae921500134b2799"
+                ]
+              }
+            ]
+          },
+          "_max_count": 5,
+          "_proto": "5748538b2459770af276a261"
+        }
+      ],
+      "CanFast": false,
+      "CanHit": false,
+      "CanAdmin": false,
+      "LoadUnloadModifier": 0,
+      "CheckTimeModifier": 0,
+      "CheckOverride": 0,
+      "ReloadMagType": "InternalMagazine",
       "VisibleAmmoRangesString": "",
-      "Weight": 0.23,
-      "Width": 1,
-      "magAnimationIndex": 0
+      "MalfunctionChance": 0,
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false
     },
     "armor": {
       "armorClass": 0,

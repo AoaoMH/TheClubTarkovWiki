@@ -32,99 +32,100 @@
   },
   "properties": {
     "_raw": {
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "violet",
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": true,
-      "ConflictingItems": [],
+      "Name": "item_food_purewater",
+      "ShortName": "item_food_purewater",
       "Description": "item_food_purewater",
-      "DiscardLimit": 1,
-      "DiscardingBlock": false,
-      "DropSoundType": "None",
-      "ExamineExperience": 10,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
+      "Weight": 3.3,
+      "BackgroundColor": "violet",
+      "Width": 2,
       "Height": 2,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "food_bottle",
       "LeftHandItem": false,
-      "LootExperience": 20,
-      "MaxResource": 1,
-      "MergesWithChildren": false,
-      "MetascoreGroup": "Utility",
-      "Name": "item_food_purewater",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/food/item_food_purewater/item_food_purewater.bundle",
         "rcid": ""
       },
-      "QuestItem": false,
-      "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RarityPvE": "Superrare",
-      "RepairCost": 0,
-      "RepairSpeed": 0,
-      "ShortName": "item_food_purewater",
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
-      "StimulatorBuffs": "Buffs_drink_purewater",
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
       "UsePrefab": {
         "path": "assets/content/weapons/usable_items/item_drink_purewater/item_drink_purewater_container.bundle",
         "rcid": ""
       },
-      "Weight": 3.3,
-      "Width": 2,
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
+      "QuestItem": false,
+      "QuestStashMaxCount": 0,
+      "LootExperience": 20,
+      "ExamineExperience": 10,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
+      "RepairCost": 0,
+      "RepairSpeed": 0,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": false,
+      "MetascoreGroup": "Utility",
+      "CanSellOnRagfair": true,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Superrare",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": 1,
+      "MaxResource": 1,
+      "foodUseTime": 15,
+      "foodEffectType": "afterUse",
+      "StimulatorBuffs": "Buffs_drink_purewater",
+      "effects_health": {
+        "2": {
+          "value": 100
+        },
+        "3": {
+          "value": 25
+        }
+      },
       "effects_damage": {
-        "RadExposure": {
+        "6": {
           "delay": 0,
           "duration": 0
         }
       },
-      "effects_health": {
-        "Energy": {
-          "value": 25
-        },
-        "Hydration": {
-          "value": 100
-        }
-      },
-      "foodEffectType": "afterUse",
-      "foodUseTime": 15
+      "PlayFuzeSound": false
     },
     "foodDrink": {
       "useTime": 15,
       "effects": {
         "healthEffects": [
           {
-            "type": "Energy",
-            "value": 25
+            "type": "2",
+            "value": 100
           },
           {
-            "type": "Hydration",
-            "value": 100
+            "type": "3",
+            "value": 25
           }
         ],
         "damageEffects": [
           {
-            "type": "RadExposure",
+            "type": "6",
             "delay": 0,
             "duration": 0
           }

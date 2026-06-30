@@ -192,7 +192,7 @@ export function SaveShareDialog({
             variant="outline"
             className="w-full"
           >
-            {copied ? '已复制' : '复制配置码'}
+            {copied ? '已复制' : '复制改枪码'}
           </Button>
         </div>
 

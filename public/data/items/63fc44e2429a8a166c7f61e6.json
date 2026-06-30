@@ -35,109 +35,74 @@
   },
   "properties": {
     "_raw": {
-      "Accuracy": 0,
-      "AdjustableOpticSensitivity": 0,
-      "AdjustableOpticSensitivityMax": 0,
-      "AimSensitivity": [
-        [
-          0.2275,
-          0.0569,
-          0.2275,
-          0.0569
-        ]
-      ],
-      "AnimationVariantsNumber": 0,
-      "BackgroundColor": "blue",
-      "BlocksCollapsible": false,
-      "BlocksFolding": false,
-      "CalibrationDistances": [
-        [
-          50,
-          100,
-          150,
-          200
-        ]
-      ],
-      "CanPutIntoDuringTheRaid": true,
-      "CanRequireOnRagfair": false,
-      "CanSellOnRagfair": false,
-      "CantRemoveFromSlotsDuringRaid": [],
-      "ConflictingItems": [],
-      "CustomAimPlane": "",
+      "Name": "scope_base_armasight_vulcan_gen3_bravo_mg_3,5x",
+      "ShortName": "scope_base_armasight_vulcan_gen3_bravo_mg_3,5x",
       "Description": "scope_base_armasight_vulcan_gen3_bravo_mg_3,5x",
-      "DiscardLimit": -1,
-      "DiscardingBlock": false,
-      "DoubleActionAccuracyPenaltyMult": 1,
-      "DropSoundType": "None",
-      "Durability": 100,
-      "EffectiveDistance": 0,
-      "Ergonomics": -18,
-      "ExamineExperience": 10,
-      "ExamineTime": 1,
-      "ExaminedByDefault": true,
-      "ExtraSizeDown": 0,
-      "ExtraSizeForceAdd": false,
-      "ExtraSizeLeft": 0,
-      "ExtraSizeRight": 0,
-      "ExtraSizeUp": 0,
-      "ForbidMissingVitalParts": false,
-      "ForbidNonEmptyContainers": false,
-      "Grids": [],
-      "HasShoulderContact": false,
+      "Weight": 0.9,
+      "BackgroundColor": "blue",
+      "Width": 2,
       "Height": 1,
-      "HideEntrails": false,
-      "InsuranceDisabled": false,
-      "IsAdjustableOptic": false,
-      "IsAlwaysAvailableForInsurance": false,
-      "IsAnimated": false,
-      "IsLockedafterEquip": false,
-      "IsSecretExitRequirement": false,
-      "IsSpecialSlotOnly": false,
-      "IsUnbuyable": false,
-      "IsUndiscardable": false,
-      "IsUngivable": false,
-      "IsUnremovable": false,
-      "IsUnsaleable": false,
+      "StackMaxSize": 1,
       "ItemSound": "mod",
       "LeftHandItem": false,
-      "LootExperience": 20,
-      "Loudness": 0,
-      "MergesWithChildren": true,
-      "MetascoreGroup": "Firepower",
-      "MinMaxFov": {
-        "x": 0,
-        "y": 0,
-        "z": 0
-      },
-      "ModesCount": [
-        4
-      ],
-      "Name": "scope_base_armasight_vulcan_gen3_bravo_mg_3,5x",
-      "NotShownInSlot": false,
       "Prefab": {
         "path": "assets/content/items/mods/scopes/scope_base_armasight_zeus_pro_640_2_16x50_30hz.bundle",
         "rcid": ""
       },
+      "UsePrefab": {
+        "path": "",
+        "rcid": ""
+      },
+      "StackObjectsCount": 1,
+      "NotShownInSlot": false,
+      "ExaminedByDefault": true,
+      "ExamineTime": 0.5,
+      "IsUndiscardable": false,
+      "IsUnsaleable": false,
+      "IsUnbuyable": false,
+      "IsUngivable": false,
+      "IsUnremovable": false,
+      "IsLockedafterEquip": false,
+      "IsSecretExitRequirement": false,
+      "IsSpecialSlotOnly": false,
       "QuestItem": false,
       "QuestStashMaxCount": 0,
-      "RagFairCommissionModifier": 1,
-      "RaidModdable": true,
-      "RarityPvE": "Not_exist",
-      "Recoil": 0,
+      "LootExperience": 20,
+      "ExamineExperience": 10,
+      "HideEntrails": false,
+      "InsuranceDisabled": false,
       "RepairCost": 0,
       "RepairSpeed": 0,
-      "ScopesCount": 1,
-      "ShortName": "scope_base_armasight_vulcan_gen3_bravo_mg_3,5x",
-      "SightingRange": 500,
+      "ExtraSizeLeft": 0,
+      "ExtraSizeRight": 0,
+      "ExtraSizeUp": 0,
+      "ExtraSizeDown": 0,
+      "ExtraSizeForceAdd": false,
+      "MergesWithChildren": true,
+      "MetascoreGroup": "Firepower",
+      "CanSellOnRagfair": false,
+      "CanRequireOnRagfair": false,
+      "ConflictingItems": [],
+      "Unlootable": false,
+      "UnlootableFromSlot": "FirstPrimaryWeapon",
+      "UnlootableFromSide": [],
+      "AnimationVariantsNumber": 0,
+      "DiscardingBlock": false,
+      "DropSoundType": "None",
+      "RagFairCommissionModifier": 1,
+      "RarityPvE": "Not_exist",
+      "IsAlwaysAvailableForInsurance": false,
+      "DiscardLimit": -1,
+      "Grids": [],
       "Slots": [
         {
-          "_id": "63fc44e2429a8a166c7f61e7",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical_001",
+          "_id": "63fc44e2429a8a166c7f61e7",
           "_parent": "63fc44e2429a8a166c7f61e6",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "5a800961159bd4315e3a1657",
                   "5cc9c20cd7f00c001336c65d",
@@ -146,48 +111,72 @@
                   "5b07dd285acfc4001754240d",
                   "56def37dd2720bec348b456a",
                   "5a7b483fe899ef0016170d15"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         },
         {
-          "_id": "63fc44e2429a8a166c7f61e8",
-          "_mergeSlotWithChildren": false,
           "_name": "mod_tactical_000",
+          "_id": "63fc44e2429a8a166c7f61e8",
           "_parent": "63fc44e2429a8a166c7f61e6",
           "_props": {
             "filters": [
               {
+                "Shift": 0,
                 "Filter": [
                   "63fc4533b10b17385349b565"
-                ],
-                "Shift": 0
+                ]
               }
             ]
           },
-          "_proto": "55d30c4c4bdc2db4468b457e",
-          "_required": false
+          "_required": false,
+          "_mergeSlotWithChildren": false,
+          "_proto": "55d30c4c4bdc2db4468b457e"
         }
       ],
-      "StackMaxSize": 1,
-      "StackObjectsCount": 1,
+      "CanPutIntoDuringTheRaid": true,
+      "CantRemoveFromSlotsDuringRaid": [],
+      "Durability": 100,
+      "Accuracy": 0,
+      "Recoil": 0,
+      "Loudness": 0,
+      "EffectiveDistance": 0,
+      "Ergonomics": -18,
+      "Velocity": 0,
+      "RaidModdable": true,
       "ToolModdable": true,
       "UniqueAnimationModID": 0,
-      "Unlootable": false,
-      "UnlootableFromSide": [],
-      "UnlootableFromSlot": "FirstPrimaryWeapon",
-      "UsePrefab": {
-        "path": "",
-        "rcid": ""
-      },
-      "Velocity": 0,
-      "Weight": 0.9,
-      "Width": 2,
+      "BlocksFolding": false,
+      "BlocksCollapsible": false,
+      "IsAnimated": false,
+      "HasShoulderContact": false,
+      "SightingRange": 500,
       "ZoomSensitivity": 0,
+      "DoubleActionAccuracyPenaltyMult": 1,
+      "ModesCount": [
+        4
+      ],
+      "CustomAimPlane": "",
+      "IsAdjustableOptic": false,
+      "MinMaxFov": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "sightModType": "optic",
+      "ScopesCount": 1,
+      "AimSensitivity": [
+        [
+          0.2275,
+          0.0569,
+          0.2275,
+          0.0569
+        ]
+      ],
       "Zooms": [
         [
           2,
@@ -196,7 +185,21 @@
           8
         ]
       ],
-      "sightModType": "optic"
+      "CalibrationDistances": [
+        [
+          50,
+          100,
+          150,
+          200
+        ]
+      ],
+      "ForbidMissingVitalParts": false,
+      "ForbidNonEmptyContainers": false,
+      "effects_health": [],
+      "effects_damage": [],
+      "PlayFuzeSound": false,
+      "AdjustableOpticSensitivity": 0,
+      "AdjustableOpticSensitivityMax": 0
     },
     "armor": {
       "armorClass": 0,
