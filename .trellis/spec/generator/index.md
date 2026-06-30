@@ -181,3 +181,48 @@ totalWeight = baseWeight + childData.plateWeight
 
 `buildCategories()` 在 Step 6 执行，但图片路径在 Step 8 才填充。
 因此 previewImage 需要在 Step 9 写入前再次更新（在 index.ts 中处理）。
+
+## Forge 数据生成
+
+### forge.ts 处理器
+
+从 WikiItem 提取改枪工作台专用数据，输出到 `public/data/forge/forge-data.json`：
+
+```typescript
+interface ForgeItem {
+  id, name, shortName, image, weight, category, typeName
+  weapon?: WeaponProps    // 武器基础属性
+  mod?: ModProps          // 配件修正属性（含 recoil 字段）
+  slots: SlotInfo[]        // 插槽列表（含 filter 兼容物品 ID）
+  conflictingItems: string[]  // SPT ConflictingItems
+  centerOfImpact: number | null // MOA 精度计算用
+  ammo?: AmmoProps        // 弹药属性
+  magazineCapacity?: number // 弹匣容量（装满弹匣重量计算用）
+}
+```
+
+### 关键字段映射
+
+| SPT 原始字段 | forge 字段 | 说明 |
+|-------------|-----------|------|
+| `RecoilForceUp`/`RecoilForceBack` | `weapon.recoilForceUp`/`recoilForceBack` | 武器基础后坐力 |
+| `Recoil` | `mod.recoil` | 配件后坐力修正（单值，非 ForceUp/Back） |
+| `Ergonomics` | `mod.ergonomics` | 配件人机修正 |
+| `CenterOfImpact` | `centerOfImpact` | 瞄准中心偏差 |
+| `ConflictingItems` | `conflictingItems` | 冲突物品 ID 列表 |
+| `Cartridges[0]._max_count` | `magazineCapacity` | 弹匣容量 |
+| `Caliber` | `ammo.caliber` | 弹药口径 |
+| `Damage`/`PenetrationPower` | `ammo.damage`/`penetrationPower` | 弹药属性 |
+
+### 工厂预设
+
+从 `SPT-AKI Profile Editor.ModHelper/exportedDB/ItemPresets.json` 读取：
+- 510 个预设，覆盖 385 把武器（含 125 把 mod 武器）
+- 格式：`weaponId → [{slotName, itemId}]`
+- 嵌套插槽用 `:` 分隔（如 `mod_reciever:mod_barrel`）
+
+### ModProps.recoil 字段
+
+> **Warning**: SPT 数据中配件的后坐力修正存储在 `Recoil` 字段（单值），而非 `RecoilForceUp`/`RecoilForceBack`。
+>
+> `normalize.ts` 的 `extractModProps()` 必须同时提取 `Recoil` 和 `RecoilForceUp/Back`。
