@@ -581,7 +581,7 @@ export function SlotSelector({ slot, parentSlotPath, onClose, onHoverItem, onCon
                               onClick={(e) => handleToggleFav(e, item.id)}
                             >★</button>
                             <div className="attachment-icon-wrapper">
-                              {item.image && <img className="attachment-icon" src={item.image} alt="" />}
+                              {item.image && <img className="attachment-icon" src={item.image} alt="" ref={el => { if (el?.complete) el.classList.add('loaded') }} onLoad={e => e.currentTarget.classList.add('loaded')} />}
                             </div>
                             <div className="att-name-and-rating">
                               <div className="attachment-name-text">

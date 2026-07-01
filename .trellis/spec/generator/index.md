@@ -16,7 +16,8 @@ npx tsx src/index.ts --images-only # 仅更新图片
 
 ```
 SPT客户端目录 → readers/ → processors/ → output/ → public/data/
-tarkov.dev API → images/downloader → public/images/items/
+游戏导出图标 → images/downloader → public/images/items/  (优先)
+tarkov.dev API → images/downloader → public/images/items/  (备选)
 ```
 
 ## 输出结构（三层模型）
@@ -70,7 +71,7 @@ interface ItemSummary {
 | `processors/normalize.ts` | 属性归一化、类型分类、效果解析 |
 | `processors/categories.ts` | 手册分类树 + 硬编码分类名翻译 |
 | `processors/quests.ts` | 任务数据解析、CounterCreator合并、名称解析 |
-| `images/downloader.ts` | tarkov.dev CDN 图片下载 + 缓存复用 |
+| `images/downloader.ts` | 三级优先级图标处理（缓存→游戏导出→tarkov.dev） |
 | `output/writer.ts` | 写入 JSON 到 public/data/ |
 
 ## Mod 数据处理
@@ -79,7 +80,53 @@ Mod 道具使用 `itemTplToClone` + `overrideProperties` 模式：
 1. 从 base items.json 克隆模板
 2. 应用 overrideProperties 覆盖
 3. 合并 CustomLocales 翻译
-4. 标记 `isMod: true`，图片下载时跳过
+4. 标记 `isMod: true`
+
+> **Note**: Mod 道具图标不再跳过。通过游戏运行时导出的图标覆盖 mod 物品。
+
+## 图标处理管线
+
+### 三级优先级
+
+| 优先级 | 来源 | 说明 |
+|--------|------|------|
+| 1 | 已缓存图片 | `public/images/items/` 中已有的 `.webp`/`.jpg`/`.png` |
+| 2 | 游戏导出图标 | `EXPORTED_ICONS_PATH` 中的 PNG（含 mod 物品，无底色） |
+| 3 | tarkov.dev API | GraphQL `iconLink` 下载（仅原版物品有 URL） |
+
+### 路径配置
+
+```typescript
+// config.ts
+export const EXPORTED_ICONS_PATH = path.join(
+  SPT_CLIENT_PATH, 'BepInEx', 'plugins', 'ClubWikiIconExporter', 'exported-icons'
+)
+```
+
+### 游戏导出图标
+
+通过 BepInEx 客户端 mod `ClubWikiIconExporter` 在游戏运行时渲染生成：
+- Patch `ItemViewFactory.LoadItemIcon` 捕获工厂实例
+- 遍历 `ItemFactoryClass.ItemTemplates` 全部模板（~5907个）
+- 调用 `LoadItemIcon` 渲染图标，输出为 PNG
+- 导出图标为透明背景 PNG，显示效果优于 tarkov.dev 的 webp/jpg
+
+### 强制更新图标
+
+当需要将旧缓存图片全部替换为游戏导出版本时：
+1. 删除 `public/images/items/` 中所有在 `exported-icons/` 有对应 `.png` 的文件
+2. 重新运行生成器，导出图标会被复制到输出目录
+
+```powershell
+# 仅删除有导出替换的旧缓存
+$exportedIds = Get-ChildItem $exportedDir -Filter "*.png" | ForEach-Object { $_.BaseName }
+foreach ($id in $exportedIds) {
+  foreach ($ext in @('.png', '.webp', '.jpg')) {
+    $file = Join-Path $outputDir "$id$ext"
+    if (Test-Path $file) { Remove-Item $file -Force }
+  }
+}
+```
 
 ## 任务数据提取
 

@@ -333,7 +333,7 @@ function SlotCell({ slot, displayZh, pos, installedItemId, isActive, highlightIt
         <div className="tree-slot-item">
           {installedItem ? (
             <>
-              {installedItem.image && <img className="ag-icon" src={installedItem.image} alt="" />}
+              {installedItem.image && <div className="ag-icon-wrapper"><img className="ag-icon" src={installedItem.image} alt="" /></div>}
               <div className="slot-shortname">{installedItem.shortName}</div>
             </>
           ) : (

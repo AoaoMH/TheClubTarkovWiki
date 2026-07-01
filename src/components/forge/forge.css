@@ -1277,6 +1277,7 @@
   object-fit: contain;
   flex-shrink: 0;
   display: block;
+  background: #1F2932;
 }
 
 .attachment-icon-wrapper {
@@ -1284,6 +1285,7 @@
     width: 48px;
     height: 48px;
     flex-shrink: 0;
+    background: #1F2932;
 }
 
 /* Prevent tall rows */
@@ -3154,6 +3156,14 @@
 }
 
 /* Installed attachment icon */
+.ag-icon-wrapper {
+    background: #1F2932;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    min-height: 0;
+}
 .ag-icon {
     width: 100%;
     height: 100%;
@@ -3169,6 +3179,7 @@
     justify-content: center;
     width: 100%;
     min-height: 0;
+    background: #1F2932;
 }
 .ag-cell .tree-slot-icon img {
     width: 100%;
@@ -3752,6 +3763,7 @@
     justify-content: center;
 
     flex-shrink: 0;
+    background: #1F2932;
 }
 
 .tree-slot-icon img {
