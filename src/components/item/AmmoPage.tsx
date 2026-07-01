@@ -240,9 +240,13 @@ export function AmmoView({ items, filterCaliber }: {
 
   // Process and group ammo items
   const { groups } = useMemo(() => {
-    let ammoItems = items.filter(item =>
-      (item.category === 'ammo' || item.typeName === 'Ammo') && item.ammo
-    )
+    let ammoItems = items.filter(item => {
+      if (!((item.category === 'ammo' || item.typeName === 'Ammo') && item.ammo)) return false
+      // Exclude grenade shrapnel fragments (SPT classifies them as ammo)
+      const enName = item.common.name.en.toLowerCase()
+      if (enName.includes('shrapnel') && !enName.includes('buckshot')) return false
+      return true
+    })
 
     // Apply type filter
     if (effectiveType && effectiveType !== 'all') {
