@@ -1,27 +1,15 @@
 import { useMemo, useEffect, useRef, useState } from 'react'
 import { Link, useMatch } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
-import { ChevronRight, Home, Package, ClipboardList } from 'lucide-react'
-import {
-  Sidebar,
-  SidebarContent,
-  SidebarGroup,
-  SidebarGroupLabel,
-  SidebarHeader,
-  SidebarMenu,
-  SidebarMenuItem,
-  SidebarMenuButton,
-  SidebarMenuBadge,
-  SidebarMenuSub,
-  SidebarMenuSubItem,
-  SidebarMenuSubButton,
-  SidebarMenuSkeleton,
-} from '@/components/ui/sidebar'
+import { ChevronRight, Package } from 'lucide-react'
 import {
   Collapsible,
   CollapsibleContent,
   CollapsibleTrigger,
 } from '@/components/ui/collapsible'
+import { ScrollArea } from '@/components/ui/scroll-area'
+import { Skeleton } from '@/components/ui/skeleton'
+import { cn } from '@/lib/utils'
 import { useCategories, useCategoryTree, useItemDetail } from '@/hooks/useItems'
 import type { WikiCategory } from '@/hooks/useItems'
 
@@ -31,8 +19,8 @@ const ROOT_ORDER = [
   '5b47574386f77428ca22b33f',
   '5b47574386f77428ca22b342',
   '5b47574386f77428ca22b344',
-  '5b47574386f77428ca22b340',
   '5b5f71a686f77447ed5636ab',
+  '5b47574386f77428ca22b340',
   '5b47574386f77428ca22b33e',
   '5b5f78b786f77447ed5636af',
   '5b47574386f77428ca22b343',
@@ -68,46 +56,53 @@ function CategoryMenuItem({
 
   if (hasChildren) {
     return (
-      <Collapsible asChild open={open} onOpenChange={setOpen} className="group/collapsible">
-        <SidebarMenuItem>
-          <CollapsibleTrigger asChild>
-            <SidebarMenuButton>
-              <Package className="size-4" />
-              <span>{category.name[lang]}</span>
-              <ChevronRight className="ml-auto transition-transform group-data-[state=open]/collapsible:rotate-90" />
-            </SidebarMenuButton>
-          </CollapsibleTrigger>
-          <CollapsibleContent>
-            <SidebarMenuSub>
-              {children.map(child => (
-                <CategoryMenuSubItem
-                  key={child.id}
-                  category={child}
-                  childMap={childMap}
-                  lang={lang}
-                  activeCategoryId={activeCategoryId}
-                  ancestorIds={ancestorIds}
-                />
-              ))}
-            </SidebarMenuSub>
-          </CollapsibleContent>
-        </SidebarMenuItem>
+      <Collapsible open={open} onOpenChange={setOpen} className="group/cat">
+        <CollapsibleTrigger asChild>
+          <button
+            className={cn(
+              'flex items-center w-full gap-2 px-3 py-1.5 text-sm rounded-md transition-colors cursor-pointer',
+              'hover:bg-accent hover:text-accent-foreground',
+              isActive ? 'bg-accent text-accent-foreground font-medium' : 'text-foreground'
+            )}
+          >
+            <Package className="size-3.5 shrink-0 text-muted-foreground" />
+            <span className="truncate flex-1 text-left">{category.name[lang]}</span>
+            <ChevronRight className="size-3.5 shrink-0 text-muted-foreground transition-transform duration-200 group-data-[state=open]/cat:rotate-90" />
+          </button>
+        </CollapsibleTrigger>
+        <CollapsibleContent>
+          <div className="ml-3 mt-0.5 space-y-0.5 border-l border-border pl-2">
+            {children.map(child => (
+              <CategoryMenuSubItem
+                key={child.id}
+                category={child}
+                childMap={childMap}
+                lang={lang}
+                activeCategoryId={activeCategoryId}
+                ancestorIds={ancestorIds}
+              />
+            ))}
+          </div>
+        </CollapsibleContent>
       </Collapsible>
     )
   }
 
   return (
-    <SidebarMenuItem>
-      <SidebarMenuButton asChild isActive={isActive}>
-        <Link to={`/category/${category.id}`}>
-          <Package className="size-4" />
-          <span>{category.name[lang]}</span>
-        </Link>
-      </SidebarMenuButton>
-      {category.itemCount > 0 && (
-        <SidebarMenuBadge>{category.itemCount}</SidebarMenuBadge>
+    <Link
+      to={`/category/${category.id}`}
+      className={cn(
+        'flex items-center gap-2 px-3 py-1.5 text-sm rounded-md transition-colors',
+        'hover:bg-accent hover:text-accent-foreground',
+        isActive ? 'bg-accent text-accent-foreground font-medium' : 'text-foreground'
       )}
-    </SidebarMenuItem>
+    >
+      <Package className="size-3.5 shrink-0 text-muted-foreground" />
+      <span className="truncate flex-1">{category.name[lang]}</span>
+      {category.itemCount > 0 && (
+        <span className="text-xs text-muted-foreground shrink-0">{category.itemCount}</span>
+      )}
+    </Link>
   )
 }
 
@@ -126,7 +121,7 @@ function CategoryMenuSubItem({
 }) {
   const categoryMatch = useMatch('/category/:id')
   const urlId = categoryMatch?.params?.id
-  const activeRef = useRef<HTMLLIElement>(null)
+  const activeRef = useRef<HTMLDivElement>(null)
   const children = childMap.get(category.id) || []
   const hasChildren = children.length > 0
   const isActive = urlId === category.id || activeCategoryId === category.id
@@ -147,21 +142,25 @@ function CategoryMenuSubItem({
 
   if (hasChildren) {
     return (
-      <Collapsible asChild open={subOpen} onOpenChange={setSubOpen} className="group/collapsible-sub">
-        <SidebarMenuSubItem ref={isActive ? activeRef : undefined}>
+      <div ref={isActive ? activeRef : undefined}>
+        <Collapsible open={subOpen} onOpenChange={setSubOpen} className="group/subcat">
           <CollapsibleTrigger asChild>
-            <SidebarMenuSubButton>
-              <span>{category.name[lang]}</span>
-              {category.itemCount > 0 && (
-                <span className="ml-auto text-xs text-muted-foreground">
-                  {category.itemCount}
-                </span>
+            <button
+              className={cn(
+                'flex items-center w-full gap-2 px-2 py-1 text-xs rounded-md transition-colors cursor-pointer',
+                'hover:bg-accent hover:text-accent-foreground',
+                isActive ? 'bg-accent/50 text-accent-foreground font-medium' : 'text-muted-foreground'
               )}
-              <ChevronRight className="size-3 transition-transform group-data-[state=open]/collapsible-sub:rotate-90" />
-            </SidebarMenuSubButton>
+            >
+              <span className="truncate flex-1 text-left">{category.name[lang]}</span>
+              {category.itemCount > 0 && (
+                <span className="text-xs text-muted-foreground/60 shrink-0">{category.itemCount}</span>
+              )}
+              <ChevronRight className="size-3 shrink-0 text-muted-foreground transition-transform duration-200 group-data-[state=open]/subcat:rotate-90" />
+            </button>
           </CollapsibleTrigger>
           <CollapsibleContent>
-            <SidebarMenuSub>
+            <div className="ml-3 mt-0.5 space-y-0.5 border-l border-border pl-2">
               {children.map(child => (
                 <CategoryMenuSubItem
                   key={child.id}
@@ -172,42 +171,48 @@ function CategoryMenuSubItem({
                   ancestorIds={ancestorIds}
                 />
               ))}
-            </SidebarMenuSub>
+            </div>
           </CollapsibleContent>
-        </SidebarMenuSubItem>
-      </Collapsible>
+        </Collapsible>
+      </div>
     )
   }
 
   return (
-    <SidebarMenuSubItem ref={isActive ? activeRef : undefined}>
-      <SidebarMenuSubButton asChild isActive={isActive}>
-        <Link to={`/category/${category.id}`}>
-          <span>{category.name[lang]}</span>
-          {category.itemCount > 0 && (
-            <span className="ml-auto text-xs text-muted-foreground">
-              {category.itemCount}
-            </span>
-          )}
-        </Link>
-      </SidebarMenuSubButton>
-    </SidebarMenuSubItem>
+    <div ref={isActive ? activeRef : undefined}>
+      <Link
+        to={`/category/${category.id}`}
+        className={cn(
+          'flex items-center gap-2 px-2 py-1 text-xs rounded-md transition-colors',
+          'hover:bg-accent hover:text-accent-foreground',
+          isActive ? 'bg-accent/50 text-accent-foreground font-medium' : 'text-muted-foreground'
+        )}
+      >
+        <span className="truncate flex-1">{category.name[lang]}</span>
+        {category.itemCount > 0 && (
+          <span className="text-xs text-muted-foreground/60 shrink-0">{category.itemCount}</span>
+        )}
+      </Link>
+    </div>
   )
 }
 
-export function AppSidebar() {
-  const { t, i18n } = useTranslation()
+export function CategorySidebar() {
+  const { i18n } = useTranslation()
   const { categories, loading } = useCategories()
   const { rootCategories, childMap } = useCategoryTree(categories)
+
+  // Detect active category from URL (category page) or from item detail (item page)
+  const categoryMatch = useMatch('/category/:id')
   const itemMatch = useMatch('/item/:id')
-  const questListMatch = useMatch('/quests')
-  const questDetailMatch = useMatch('/quest/:id')
-  const isQuestActive = !!questListMatch || !!questDetailMatch
+  const urlCategoryId = categoryMatch?.params?.id || null
   const itemId = itemMatch?.params?.id || null
   const { item } = useItemDetail(itemId)
+
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
 
-  const activeCategoryId = item?.handbook.categoryId || null
+  // Active category: prefer URL category ID, fallback to item's handbook category
+  const activeCategoryId = urlCategoryId || item?.handbook.categoryId || null
 
   const ancestorIds = useMemo(() => {
     if (!activeCategoryId) return new Set<string>()
@@ -232,64 +237,27 @@ export function AppSidebar() {
   }, [rootCategories])
 
   return (
-    <Sidebar collapsible="offcanvas">
-      <SidebarHeader>
-        <SidebarMenu>
-          <SidebarMenuItem>
-            <SidebarMenuButton asChild className="text-primary font-bold">
-              <Link to="/">
-                <span className="text-lg">The Club Tarkov Wiki</span>
-              </Link>
-            </SidebarMenuButton>
-          </SidebarMenuItem>
-        </SidebarMenu>
-      </SidebarHeader>
-      <SidebarContent>
-        <SidebarGroup>
-          <SidebarGroupLabel>{t('navigation', '导航')}</SidebarGroupLabel>
-          <SidebarMenu>
-            <SidebarMenuItem>
-              <SidebarMenuButton asChild>
-                <Link to="/">
-                  <Home className="size-4" />
-                  <span>{t('home', '首页')}</span>
-                </Link>
-              </SidebarMenuButton>
-            </SidebarMenuItem>
-            <SidebarMenuItem>
-              <SidebarMenuButton asChild isActive={isQuestActive}>
-                <Link to="/quests">
-                  <ClipboardList className="size-4" />
-                  <span>{t('quests', '任务')}</span>
-                </Link>
-              </SidebarMenuButton>
-            </SidebarMenuItem>
-          </SidebarMenu>
-        </SidebarGroup>
-        <SidebarGroup>
-          <SidebarGroupLabel>{t('categories', '分类')}</SidebarGroupLabel>
-          <SidebarMenu>
-            {loading ? (
-              Array.from({ length: 8 }).map((_, i) => (
-                <SidebarMenuItem key={i}>
-                  <SidebarMenuSkeleton />
-                </SidebarMenuItem>
-              ))
-            ) : (
-              sortedRootCategories.map(cat => (
-                <CategoryMenuItem
-                  key={cat.id}
-                  category={cat}
-                  childMap={childMap}
-                  lang={lang}
-                  activeCategoryId={activeCategoryId}
-                  ancestorIds={ancestorIds}
-                />
-              ))
-            )}
-          </SidebarMenu>
-        </SidebarGroup>
-      </SidebarContent>
-    </Sidebar>
+    <aside className="w-56 shrink-0 border-r border-border bg-card/50 transition-all duration-200">
+      <ScrollArea className="h-[calc(100vh-4rem)]">
+        <div className="p-2 space-y-0.5">
+          {loading ? (
+            Array.from({ length: 8 }).map((_, i) => (
+              <Skeleton key={i} className="h-8 w-full rounded-md" />
+            ))
+          ) : (
+            sortedRootCategories.map(cat => (
+              <CategoryMenuItem
+                key={cat.id}
+                category={cat}
+                childMap={childMap}
+                lang={lang}
+                activeCategoryId={activeCategoryId}
+                ancestorIds={ancestorIds}
+              />
+            ))
+          )}
+        </div>
+      </ScrollArea>
+    </aside>
   )
 }

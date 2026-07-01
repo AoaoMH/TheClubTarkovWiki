@@ -155,8 +155,6 @@ function App() {
     <Routes>
       {/* Login - standalone full-page route */}
       <Route path="/login" element={<LoginPage />} />
-      {/* Forge workbench - standalone full-page route */}
-      <Route path="/forge/:gunId" element={<ForgeWorkbench />} />
       {/* Wiki routes - wrapped in AppLayout */}
       <Route path="*" element={
         <AppLayout>
@@ -166,6 +164,7 @@ function App() {
             <Route path="/quest/:id" element={<QuestDetail />} />
             <Route path="/category/:id" element={<CategoryPage />} />
             <Route path="/item/:id" element={<ItemPage />} />
+            <Route path="/forge/:gunId" element={<ForgeWorkbench />} />
           </Routes>
         </AppLayout>
       } />

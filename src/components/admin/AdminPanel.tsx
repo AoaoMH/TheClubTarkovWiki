@@ -12,8 +12,27 @@ import {
   SheetTitle,
   SheetDescription,
 } from '@/components/ui/sheet'
+import {
+  AlertDialog,
+  AlertDialogAction,
+  AlertDialogCancel,
+  AlertDialogContent,
+  AlertDialogDescription,
+  AlertDialogFooter,
+  AlertDialogHeader,
+  AlertDialogTitle,
+} from '@/components/ui/alert-dialog'
+import {
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
+} from '@/components/ui/select'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
+import { Badge } from '@/components/ui/badge'
+import { Separator } from '@/components/ui/separator'
 import { useAuth } from '@/hooks/useAuth'
 import { forgeConfig } from '@/lib/forgeConfig'
 import { apiFetch } from '@/lib/apiFetch'
@@ -45,6 +64,9 @@ export function AdminPanel({ open, onOpenChange }: AdminPanelProps) {
 
   // Change password state
   const [passwordEdits, setPasswordEdits] = useState<Record<number, string>>({})
+
+  // Delete confirmation state
+  const [deleteTarget, setDeleteTarget] = useState<{ id: number; username: string } | null>(null)
 
   const fetchUsers = useCallback(async () => {
     setLoading(true)
@@ -99,10 +121,12 @@ export function AdminPanel({ open, onOpenChange }: AdminPanelProps) {
   }
 
   // Delete account
-  const handleDelete = async (userId: number, username: string) => {
-    if (!confirm(`确定删除账号 "${username}" 吗？`)) return
+  const handleDelete = async () => {
+    if (!deleteTarget) return
+    const { id, username } = deleteTarget
+    setDeleteTarget(null)
     try {
-      const res = await apiFetch(`${apiBase()}/api/admin/users/${userId}`, {
+      const res = await apiFetch(`${apiBase()}/api/admin/users/${id}`, {
         method: 'DELETE',
         credentials: 'include',
       })
@@ -168,124 +192,144 @@ export function AdminPanel({ open, onOpenChange }: AdminPanelProps) {
   }
 
   return (
-    <Sheet open={open} onOpenChange={onOpenChange}>
-      <SheetContent side="right" className="w-full sm:max-w-md overflow-y-auto">
-        <SheetHeader>
-          <SheetTitle>账号管理</SheetTitle>
-          <SheetDescription>创建、删除账号或修改密码</SheetDescription>
-        </SheetHeader>
+    <>
+      <Sheet open={open} onOpenChange={onOpenChange}>
+        <SheetContent side="right" className="w-full sm:max-w-md overflow-y-auto">
+          <SheetHeader>
+            <SheetTitle>账号管理</SheetTitle>
+            <SheetDescription>创建、删除账号或修改密码</SheetDescription>
+          </SheetHeader>
 
-        <div className="px-4 pb-4 space-y-6">
-          {/* Create Account */}
-          <div className="space-y-3">
-            <h3 className="text-sm font-medium">创建新账号</h3>
-            <Input
-              type="text"
-              placeholder="用户名"
-              value={newUsername}
-              onChange={(e) => setNewUsername(e.target.value)}
-            />
-            <Input
-              type="password"
-              placeholder="密码"
-              value={newPassword}
-              onChange={(e) => setNewPassword(e.target.value)}
-            />
-            <div className="flex gap-2">
-              <select
-                value={newRole}
-                onChange={(e) => setNewRole(e.target.value as 'admin' | 'user')}
-                className="flex-1 rounded-md border border-input bg-background px-3 py-2 text-sm"
-              >
-                <option value="user">普通用户</option>
-                <option value="admin">管理员</option>
-              </select>
-              <Button
-                onClick={handleCreate}
-                disabled={creating || !newUsername.trim() || !newPassword}
-                size="sm"
-              >
-                {creating ? '创建中...' : '创建'}
-              </Button>
-            </div>
-          </div>
-
-          {/* User List */}
-          <div className="space-y-3">
-            <h3 className="text-sm font-medium">
-              用户列表
-              {loading && <span className="ml-2 text-xs text-muted-foreground">加载中...</span>}
-            </h3>
+          <div className="px-4 pb-4 space-y-6">
+            {/* Create Account */}
             <div className="space-y-3">
-              {users.map((u) => (
-                <div
-                  key={u.id}
-                  className="rounded-md border border-border p-3 space-y-2"
+              <h3 className="text-sm font-medium">创建新账号</h3>
+              <Input
+                type="text"
+                placeholder="用户名"
+                value={newUsername}
+                onChange={(e) => setNewUsername(e.target.value)}
+              />
+              <Input
+                type="password"
+                placeholder="密码"
+                value={newPassword}
+                onChange={(e) => setNewPassword(e.target.value)}
+              />
+              <div className="flex gap-2">
+                <Select
+                  value={newRole}
+                  onValueChange={(v) => setNewRole(v as 'admin' | 'user')}
                 >
-                  <div className="flex items-center justify-between">
-                    <div className="flex items-center gap-2">
-                      <span className="font-medium text-sm">{u.username}</span>
-                      <span
-                        className={`text-xs px-1.5 py-0.5 rounded ${
-                          u.role === 'admin'
-                            ? 'bg-primary/15 text-primary'
-                            : 'bg-muted text-muted-foreground'
-                        }`}
-                      >
-                        {u.role === 'admin' ? '管理员' : '用户'}
-                      </span>
-                      {u.id === currentUser?.id && (
-                        <span className="text-xs text-muted-foreground">(你)</span>
-                      )}
+                  <SelectTrigger className="flex-1">
+                    <SelectValue placeholder="选择角色" />
+                  </SelectTrigger>
+                  <SelectContent>
+                    <SelectItem value="user">普通用户</SelectItem>
+                    <SelectItem value="admin">管理员</SelectItem>
+                  </SelectContent>
+                </Select>
+                <Button
+                  onClick={handleCreate}
+                  disabled={creating || !newUsername.trim() || !newPassword}
+                  size="sm"
+                >
+                  {creating ? '创建中...' : '创建'}
+                </Button>
+              </div>
+            </div>
+
+            <Separator />
+
+            {/* User List */}
+            <div className="space-y-3">
+              <h3 className="text-sm font-medium">
+                用户列表
+                {loading && <span className="ml-2 text-xs text-muted-foreground">加载中...</span>}
+              </h3>
+              <div className="space-y-3">
+                {users.map((u) => (
+                  <div
+                    key={u.id}
+                    className="rounded-md border border-border p-3 space-y-2"
+                  >
+                    <div className="flex items-center justify-between">
+                      <div className="flex items-center gap-2">
+                        <span className="font-medium text-sm">{u.username}</span>
+                        <Badge variant={u.role === 'admin' ? 'default' : 'secondary'}>
+                          {u.role === 'admin' ? '管理员' : '用户'}
+                        </Badge>
+                        {u.id === currentUser?.id && (
+                          <span className="text-xs text-muted-foreground">(你)</span>
+                        )}
+                      </div>
+                      <div className="flex gap-1">
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          className="text-xs"
+                          onClick={() => handleToggleRole(u.id, u.role)}
+                          disabled={u.id === currentUser?.id}
+                        >
+                          {u.role === 'admin' ? '降为用户' : '升为管理员'}
+                        </Button>
+                        <Button
+                          variant="ghost"
+                          size="sm"
+                          className="text-xs text-destructive hover:text-destructive"
+                          onClick={() => setDeleteTarget({ id: u.id, username: u.username })}
+                          disabled={u.id === currentUser?.id}
+                        >
+                          删除
+                        </Button>
+                      </div>
                     </div>
-                    <div className="flex gap-1">
+                    {/* Change password */}
+                    <div className="flex gap-2">
+                      <Input
+                        type="password"
+                        placeholder="新密码..."
+                        value={passwordEdits[u.id] || ''}
+                        onChange={(e) =>
+                          setPasswordEdits((prev) => ({ ...prev, [u.id]: e.target.value }))
+                        }
+                        className="h-8 text-xs"
+                      />
                       <Button
-                        variant="ghost"
+                        variant="outline"
                         size="sm"
-                        className="text-xs"
-                        onClick={() => handleToggleRole(u.id, u.role)}
-                        disabled={u.id === currentUser?.id}
+                        className="text-xs h-8"
+                        onClick={() => handleChangePassword(u.id)}
+                        disabled={!passwordEdits[u.id]}
                       >
-                        {u.role === 'admin' ? '降为用户' : '升为管理员'}
-                      </Button>
-                      <Button
-                        variant="ghost"
-                        size="sm"
-                        className="text-xs text-destructive hover:text-destructive"
-                        onClick={() => handleDelete(u.id, u.username)}
-                        disabled={u.id === currentUser?.id}
-                      >
-                        删除
+                        改密
                       </Button>
                     </div>
                   </div>
-                  {/* Change password */}
-                  <div className="flex gap-2">
-                    <Input
-                      type="password"
-                      placeholder="新密码..."
-                      value={passwordEdits[u.id] || ''}
-                      onChange={(e) =>
-                        setPasswordEdits((prev) => ({ ...prev, [u.id]: e.target.value }))
-                      }
-                      className="h-8 text-xs"
-                    />
-                    <Button
-                      variant="outline"
-                      size="sm"
-                      className="text-xs h-8"
-                      onClick={() => handleChangePassword(u.id)}
-                      disabled={!passwordEdits[u.id]}
-                    >
-                      改密
-                    </Button>
-                  </div>
-                </div>
-              ))}
+                ))}
+              </div>
             </div>
           </div>
-        </div>
-      </SheetContent>
-    </Sheet>
+        </SheetContent>
+      </Sheet>
+
+      {/* Delete confirmation dialog */}
+      <AlertDialog open={!!deleteTarget} onOpenChange={(open) => { if (!open) setDeleteTarget(null) }}>
+        <AlertDialogContent>
+          <AlertDialogHeader>
+            <AlertDialogTitle>确认删除账号</AlertDialogTitle>
+            <AlertDialogDescription>
+              确定要删除账号 "{deleteTarget?.username}" 吗？此操作无法撤销。
+            </AlertDialogDescription>
+          </AlertDialogHeader>
+          <AlertDialogFooter>
+            <AlertDialogCancel>取消</AlertDialogCancel>
+            <AlertDialogAction onClick={handleDelete} className="bg-destructive text-destructive-foreground hover:bg-destructive/90">
+              删除
+            </AlertDialogAction>
+          </AlertDialogFooter>
+        </AlertDialogContent>
+      </AlertDialog>
+    </>
   )
 }

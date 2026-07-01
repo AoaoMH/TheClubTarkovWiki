@@ -18,11 +18,11 @@
 
 /* html/body overrides scoped to forge-root only */
 .forge-root {
-  height: 100vh;
+  height: calc(100vh - 3.5rem);
   overflow: hidden;
   display: flex;
   flex-direction: column;
-  background-color: #111;
+  background-color: transparent;
   color: #eee;
   font-family: "Bender", Arial, sans-serif;
   letter-spacing: 0.4px;
@@ -604,26 +604,10 @@
   flex-direction: column;
 }
 
-@property --blob-color {
-  syntax: '<color>';
-  inherits: true;
-  initial-value: rgba(245, 197, 66, 0.10);
-}
 
-.forge-root {
-  transition: --blob-color 1s ease;
-}
-
-/* Gun modding background */
+/* Gun modding background - now uses body background */
 .container:not(.no-gun) {
-  background:
-    radial-gradient(ellipse 100% 100% at 50% 50%, transparent 20%, rgba(0,0,0,0.72) 100%),
-    radial-gradient(ellipse 70% 70% at 85% 90%, var(--blob-color), transparent 70%),
-    radial-gradient(circle, rgba(255,255,255,0.11) 1px, transparent 1px),
-    linear-gradient(160deg, #141414 0%, #111111 50%, #0f0e0b 100%);
-  background-size: 100% 100%, 100% 100%, 30px 30px, 100% 100%;
-  background-position: 0 0, 0 0, var(--dot-parallax-pos, 0px 0px), 0 0;
-  background-attachment: scroll, scroll, fixed, scroll;
+  background: transparent;
 }
 
 .container:not(.no-gun) .left-panel,
@@ -636,14 +620,7 @@
   flex: 1 1 100%;
   width: 100% !important;
   overflow-y: auto;
-  background:
-    radial-gradient(ellipse 100% 100% at 50% 50%, transparent 20%, rgba(0,0,0,0.72) 100%),
-    radial-gradient(ellipse 70% 70% at 85% 90%, var(--blob-color), transparent 70%),
-    radial-gradient(circle, rgba(255,255,255,0.11) 1px, transparent 1px),
-    linear-gradient(160deg, #141414 0%, #111111 50%, #0f0e0b 100%);
-  background-size: 100% 100%, 100% 100%, 30px 30px, 100% 100%;
-  background-position: 0 0, 0 0, var(--dot-parallax-pos, 0px 0px), 0 0;
-  background-attachment: scroll, scroll, fixed, scroll;
+  background: transparent;
 }
 
 .container.no-gun .right-panel {
@@ -7445,10 +7422,12 @@ body[data-mobile="true"].mobile-publish-mode #left-build-area {
   background: #00c8b4;
 }
 
-/* 对比模式：右下角背景光晕黄→蓝（--blob-color 继承到 .container 背景） */
+/* 对比模式：右下角背景光晕黄→蓝 */
 .forge-root {
-  transition: --blob-color 0.8s ease;
+  transition: background 0.8s ease;
 }
 .forge-root.compare-mode {
-  --blob-color: rgba(0, 200, 180, 0.10);
+  background:
+    radial-gradient(ellipse 70% 70% at 85% 90%, rgba(0, 200, 180, 0.10), transparent 70%),
+    radial-gradient(ellipse 100% 100% at 50% 50%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.8) 100%);
 }

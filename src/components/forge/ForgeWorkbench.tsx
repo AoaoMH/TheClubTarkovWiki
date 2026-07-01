@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState, useCallback } from 'react'
-import { useParams, Link, useSearchParams } from 'react-router-dom'
+import { useParams, useSearchParams } from 'react-router-dom'
 import { useForgeStore } from '@/hooks/useForgeStore'
 import { fetchGunInit, calculateBuild, fetchItemSlots, fetchAllowedItems, fetchAmmo } from '@/lib/forgeApi'
 import type { GunSlot, AmmoItem, AllowedItem, BuildStats } from '@/lib/forgeApi'
@@ -282,7 +282,7 @@ export function ForgeWorkbench() {
   }, [loadPreset])
 
   if (loading) return (<div className="forge-root forge-loading"><div className="forge-loading-text">加载工作台...</div></div>)
-  if (error) return (<div className="forge-root forge-loading"><div className="forge-error-text">错误: {error}</div><Link to={`/item/${gunId}`} className="forge-back-link">← 返回物品页</Link></div>)
+  if (error) return (<div className="forge-root forge-loading"><div className="forge-error-text">错误: {error}</div></div>)
   if (!gunData) return null
 
   // Collect all slots - filter out child slots with no installed item AND no allowed items
@@ -319,8 +319,6 @@ export function ForgeWorkbench() {
   return (
     <div className={`forge-root${compareMode ? ' compare-mode' : ''}`}>
       <div className="forge-topbar">
-        <Link to={`/item/${gunId}`} className="forge-back-link">← 返回</Link>
-        <div className="forge-topbar-divider" />
         <h2 className="forge-topbar-title">{gunData.name}</h2>
       </div>
 

@@ -2,16 +2,20 @@
 
 ```
 src/
-├── App.tsx                    # 路由定义 + 页面组件（首页/分类/详情）
+├── App.tsx                    # 路由定义 + 页面组件（首页/分类/详情/改枪）
 ├── main.tsx                   # 入口，挂载 React + Router + i18n
-├── index.css                  # TailwindCSS 主题变量 + 全局样式
+├── index.css                  # TailwindCSS 主题变量 + 全局样式 + 背景效果
 ├── components/
 │   ├── layout/
-│   │   └── AppLayout.tsx      # 侧边栏 + 顶栏 + 内容区布局
+│   │   ├── AppLayout.tsx      # 上下布局：Header + 内容区 + 条件侧边栏
+│   │   ├── AppSidebar.tsx     # CategorySidebar（仅道具页显示）
+│   │   └── Header.tsx         # 顶部栏：Title + 导航 + 搜索 + 用户菜单
+│   ├── admin/
+│   │   └── AdminPanel.tsx     # 管理面板（Sheet + AlertDialog + Select）
 │   └── item/
-│       ├── ItemCard.tsx        # 道具卡片 + ItemGrid 网格（接收 ItemSummary）
-│       ├── ItemDetail.tsx      # 道具详情（使用 useItemDetail 加载完整数据）
-│       └── AmmoPage.tsx        # 弹药分类视图（使用 summaries 的 ammo 字段）
+│       ├── ItemCard.tsx        # 道具卡片 + ItemGrid 网格
+│       ├── ItemDetail.tsx      # 道具详情
+│       └── AmmoPage.tsx        # 弹药分类视图
 ├── hooks/
 │   └── useItems.ts            # 按需加载 hooks + 搜索 + 分类树 + 类型翻译
 ├── i18n/
@@ -20,8 +24,13 @@ src/
 │   └── en.json                # 英文界面翻译
 └── lib/
     ├── utils.ts               # cn() class 合并工具
-    └── dataStore.ts           # Promise Map 缓存层（请求去重）
+    ├── dataStore.ts           # Promise Map 缓存层
+    ├── forgeApi.ts            # 改枪 API 调用
+    ├── forgeConfig.ts         # 改枪配置
+    └── forgeUtils.ts          # 改枪工具函数
+```
 
+```
 public/
 ├── data/                      # 生成器输出的 JSON 数据（三层结构）
 │   ├── categories.json        # 分类树（含 previewImage）

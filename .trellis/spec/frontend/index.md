@@ -90,11 +90,14 @@ interface ItemSummary {
 - **区域翻译去重**：`translateArmorZones()` 自动对翻译结果去重（多个 collider 可能翻译为同一中文）
 
 ### 组件结构
-- `components/layout/` — 布局组件（AppLayout, Sidebar, Header）
+- `components/layout/` — 布局组件（AppLayout, AppSidebar, Header）
 - `components/item/` — 道具展示组件（ItemCard, ItemGrid, ItemDetail, AmmoPage）
-- `lib/` — 工具函数（cn class合并）
+- `components/admin/` — 管理组件（AdminPanel）
+- `components/forge/` — 改枪组件（ForgeWorkbench, SlotSelector 等）
+- `components/ui/` — shadcn UI 组件（Button, Card, Sheet, AlertDialog 等）
+- `lib/` — 工具函数（cn class合并, dataStore 缓存）
 - `i18n/` — 国际化配置和翻译文件
-- `hooks/` — 自定义 hooks（useItems）
+- `hooks/` — 自定义 hooks（useItems, useAuth, useForgeStore）
 
 ## 跨层开发实践
 

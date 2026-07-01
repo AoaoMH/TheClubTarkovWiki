@@ -1,5 +1,96 @@
 # Component Guidelines
 
+## 布局架构（上下布局）
+
+项目采用上下布局，Header 包含标题+导航+搜索，内容区根据路由条件显示侧边栏。
+
+### 布局层级
+
+```
+Header (sticky, w-full)
+├── Title (Link "/")              左侧
+├── Nav (首页/任务/道具)            居中 (mx-auto)
+└── Search + Actions              右侧
+───
+Content Area (flex)
+├── CategorySidebar (w-56)        仅 /category/* 和 /item/* 路由显示
+└── <main>                        flex-1
+    └── 路由内容
+```
+
+### 关键约束
+
+- Header 必须设置 `w-full` 防止水平溢出
+- 导航居中用 `mx-auto`，与 Title 和 Actions 同行
+- CategorySidebar 仅在道具相关页面显示（useMatch 检测）
+- Forge 页面 (`/forge/:gunId`) 无 max-width 限制，无 padding
+- 其他页面 `max-w-6xl mx-auto p-4 lg:p-6`
+
+### 道具下拉菜单
+
+使用 shadcn NavigationMenu，仅展示叶子分类（跳过中间层级）：
+- `collectLeaves()` 递归获取每个根分类的叶子节点
+- 5 个特殊分类（货币/地图/任务物品/特殊物品/信息物品）归入“其他”分组
+- 根标题为纯文本 `<div>`，不可点击
+
+## shadcn 组件与动画
+
+### Tailwind v4 动画依赖
+
+项目使用 Tailwind v4，shadcn 动画需要 `tw-animate-css`：
+```css
+/* index.css */
+@import "tailwindcss";
+@import "tw-animate-css";  /* 必须引入 */
+```
+
+### NavigationMenu 动画规范
+
+- **仅 Viewport 层动画**：`fade-in-0 + slide-in-from-top-2`（200ms）
+- **Content 层禁用独立动画**：内容随 Viewport 同步出现
+- **禁用缩放**：`zoom-in-90` 对大内容面板观感不佳
+- **禁用大距离水平滑动**：`slide-in-from-left/right-52` 对居中菜单不合适
+
+### AdminPanel 组件规范
+
+使用 shadcn 组件替代原生元素：
+- `Sheet`（侧滑抽屉）用于管理面板
+- `AlertDialog` 用于删除确认（替代原生 `confirm()`）
+- `Select` 用于角色选择（替代原生 `<select>`）
+- `Badge` 用于角色标签
+
+## 主题与背景
+
+### 主题色
+
+```css
+--primary: #f5c542;           /* 黄色（与改枪主题一致） */
+--primary-foreground: #1a1a1a; /* 深色字配黄色底 */
+--ring: #f5c542;
+```
+
+### 全局背景
+
+body 背景固定定位（`background-attachment: fixed`），包含三层：
+1. 右下角黄色光晕（`radial-gradient at 85% 90%`）
+2. 30px 间距点格图案
+3. 深色渐变底色
+
+光晕颜色通过 `--glow-color` CSS 变量控制。
+
+### 改枪页面对比模式
+
+`.forge-root.compare-mode` 覆盖蓝色光晕：
+```css
+.forge-root.compare-mode {
+  background:
+    radial-gradient(ellipse 70% 70% at 85% 90%, rgba(0, 200, 180, 0.10), transparent 70%),
+    radial-gradient(ellipse 100% 100% at 50% 50%, rgba(0,0,0,0.5) 20%, rgba(0,0,0,0.8) 100%);
+}
+```
+
+---
+
 ## 道具详情页（ItemDetail.tsx）
 
 核心组件，根据道具类型动态展示不同属性区域。使用 `useItemDetail(itemId)` 加载单个道具的完整数据。
@@ -118,47 +209,6 @@ raw.knifeHitSlashDam     // 挥砍伤害
 | 移动速度 | ✓ | ✓ | 否 |
 | 转向速度 | ✓ | ✓ | 否 |
 | 效果数值 | ✓ | ✓ | 否 |
-# Component Guidelines
-
-> How components are built in this project.
-
----
-
-## Overview
-
-<!--
-Document your project's component conventions here.
-
-Questions to answer:
-- What component patterns do you use?
-- How are props defined?
-- How do you handle composition?
-- What accessibility standards apply?
--->
-
-(To be filled by the team)
-
----
-
-## Component Structure
-
-<!-- Standard structure of a component file -->
-
-(To be filled by the team)
-
----
-
-## Props Conventions
-
-<!-- How props should be defined and typed -->
-
-(To be filled by the team)
-
----
-
-## Styling Patterns
-
-<!-- How styles are applied (CSS modules, styled-components, Tailwind, etc.) -->
 
 ## 道具卡片（ItemCard.tsx + ItemGrid）
 
