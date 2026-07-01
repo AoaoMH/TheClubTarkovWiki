@@ -460,19 +460,19 @@ export function ItemDetail() {
       </Breadcrumb>
 
       {/* Header */}
-      <div className="flex gap-6 mb-6">
-        <div className="w-32 h-32 shrink-0 bg-card border border-border rounded-lg flex items-center justify-center p-4">
+      <div className="flex flex-col sm:flex-row gap-4 sm:gap-6 mb-6">
+        <div className="w-20 h-20 sm:w-32 sm:h-32 shrink-0 bg-card border border-border rounded-lg flex items-center justify-center p-3 sm:p-4">
           {item.image ? (
             <img src={item.image} alt={common.name[lang]} className="max-w-full max-h-full object-contain" />
           ) : (
-            <span className="text-3xl font-bold text-muted-foreground/30">
+            <span className="text-xl sm:text-3xl font-bold text-muted-foreground/30">
               {common.shortName[lang].slice(0, 2)}
             </span>
           )}
         </div>
 
         <div className="flex-1 min-w-0">
-          <h1 className="text-2xl font-bold mb-1 inline-flex items-center gap-2">
+          <h1 className="text-lg sm:text-2xl font-bold mb-1 inline-flex items-center gap-2">
             <span>{common.name[lang]}</span>
             {item.isMod && (
               <Badge variant="secondary">MOD</Badge>

@@ -408,7 +408,7 @@ export function AmmoView({ items, filterCaliber }: {
       )}
 
       {/* Table */}
-      <div className="rounded-md border">
+      <div className="rounded-md border overflow-x-auto">
         <Table>
           <TableHeader>
             <TableRow>
@@ -416,14 +416,14 @@ export function AmmoView({ items, filterCaliber }: {
               <SortHeader col="name" label={tCol('name')} />
               <SortHeader col="damage" label={tCol('dmg')} className="text-right w-14" tip={tTip('dmg')} />
               <SortHeader col="penetrationPower" label={tCol('pen')} className="text-right w-12" tip={tTip('pen')} />
-              <SortHeader col="armorDamage" label={tCol('armorDmg')} className="text-right w-14" tip={tTip('armorDmg')} />
-              <SortHeader col="fragmentationChance" label={tCol('frag')} className="text-right w-12" tip={tTip('frag')} />
-              <SortHeader col="ricochetChance" label={tCol('rico')} className="text-right w-12" tip={tTip('rico')} />
-              <SortHeader col="accuracy" label={tCol('acc')} className="text-right w-12" tip={tTip('acc')} />
-              <SortHeader col="recoil" label={tCol('recoil')} className="text-right w-12" tip={tTip('recoil')} />
-              <SortHeader col="lightBleedChance" label={tCol('ltBleed')} className="text-right w-14" tip={tTip('ltBleed')} />
-              <SortHeader col="heavyBleedChance" label={tCol('hvBleed')} className="text-right w-14" tip={tTip('hvBleed')} />
-              <SortHeader col="initialSpeed" label={tCol('velocity')} className="text-right w-14" tip={tTip('velocity')} />
+              <SortHeader col="armorDamage" label={tCol('armorDmg')} className="text-right w-14 hidden md:table-cell" tip={tTip('armorDmg')} />
+              <SortHeader col="fragmentationChance" label={tCol('frag')} className="text-right w-12 hidden md:table-cell" tip={tTip('frag')} />
+              <SortHeader col="ricochetChance" label={tCol('rico')} className="text-right w-12 hidden md:table-cell" tip={tTip('rico')} />
+              <SortHeader col="accuracy" label={tCol('acc')} className="text-right w-12 hidden md:table-cell" tip={tTip('acc')} />
+              <SortHeader col="recoil" label={tCol('recoil')} className="text-right w-12 hidden md:table-cell" tip={tTip('recoil')} />
+              <SortHeader col="lightBleedChance" label={tCol('ltBleed')} className="text-right w-14 hidden md:table-cell" tip={tTip('ltBleed')} />
+              <SortHeader col="heavyBleedChance" label={tCol('hvBleed')} className="text-right w-14 hidden md:table-cell" tip={tTip('hvBleed')} />
+              <SortHeader col="initialSpeed" label={tCol('velocity')} className="text-right w-14 hidden md:table-cell" tip={tTip('velocity')} />
               {[1, 2, 3, 4, 5, 6].map(c => (
                 <TableHead key={c} className="text-center text-xs w-12">
                   <Tooltip>
@@ -518,21 +518,21 @@ export function AmmoView({ items, filterCaliber }: {
                         {a.penetrationPower || null}
                       </TableCell>
                       {/* Armor Dmg */}
-                      <TableCell className="text-right text-sm w-14">{a.armorDamage || null}</TableCell>
+                      <TableCell className="text-right text-sm w-14 hidden md:table-cell">{a.armorDamage || null}</TableCell>
                       {/* Frag */}
-                      <TableCell className="text-right text-sm w-12"><PctCell value={a.fragmentationChance ?? 0} /></TableCell>
+                      <TableCell className="text-right text-sm w-12 hidden md:table-cell"><PctCell value={a.fragmentationChance ?? 0} /></TableCell>
                       {/* Rico */}
-                      <TableCell className="text-right text-sm w-12"><PctCell value={a.ricochetChance ?? 0} /></TableCell>
+                      <TableCell className="text-right text-sm w-12 hidden md:table-cell"><PctCell value={a.ricochetChance ?? 0} /></TableCell>
                       {/* Acc */}
-                      <TableCell className="text-right text-sm w-12"><DeltaCell value={a.accuracy ?? 0} /></TableCell>
+                      <TableCell className="text-right text-sm w-12 hidden md:table-cell"><DeltaCell value={a.accuracy ?? 0} /></TableCell>
                       {/* Recoil */}
-                      <TableCell className="text-right text-sm w-12"><DeltaCell value={a.recoil ?? 0} invert /></TableCell>
+                      <TableCell className="text-right text-sm w-12 hidden md:table-cell"><DeltaCell value={a.recoil ?? 0} invert /></TableCell>
                       {/* Lt Bleed */}
-                      <TableCell className="text-right text-sm w-14"><BleedCell value={a.lightBleedChance ?? 0} /></TableCell>
+                      <TableCell className="text-right text-sm w-14 hidden md:table-cell"><BleedCell value={a.lightBleedChance ?? 0} /></TableCell>
                       {/* Hv Bleed */}
-                      <TableCell className="text-right text-sm w-14"><BleedCell value={a.heavyBleedChance ?? 0} /></TableCell>
+                      <TableCell className="text-right text-sm w-14 hidden md:table-cell"><BleedCell value={a.heavyBleedChance ?? 0} /></TableCell>
                       {/* Velocity */}
-                      <TableCell className="text-right text-sm w-14">{a.initialSpeed ? Math.round(a.initialSpeed) : null}</TableCell>
+                      <TableCell className="text-right text-sm w-14 hidden md:table-cell">{a.initialSpeed ? Math.round(a.initialSpeed) : null}</TableCell>
                       {/* Armor Class 1-6 */}
                       {[0, 1, 2, 3, 4, 5].map(ci => {
                         const tier = calcEff(pen, ci)

@@ -1,6 +1,7 @@
 import { useState, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate } from 'react-router-dom'
+import { cn } from '@/lib/utils'
 import {
   useReactTable,
   getCoreRowModel,
@@ -172,6 +173,7 @@ export function QuestList() {
   const { t, i18n } = useTranslation()
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
   const { quests, loading } = useQuestList()
+  const navigate = useNavigate()
 
   // Filter states
   const [npcFilter, setNpcFilter] = useState('all')
@@ -373,7 +375,7 @@ export function QuestList() {
       </p>
 
       {/* Data Table */}
-      <div className="rounded-md border">
+      <div className="rounded-md border overflow-x-auto">
         <Table>
           <TableHeader>
             {table.getHeaderGroups().map(headerGroup => (
@@ -381,7 +383,10 @@ export function QuestList() {
                 {headerGroup.headers.map(header => (
                   <TableHead
                     key={header.id}
-                    className={header.column.getCanSort() ? 'cursor-pointer select-none' : ''}
+                    className={cn(
+                      header.column.getCanSort() ? 'cursor-pointer select-none' : '',
+                      (header.column.id === 'type' || header.column.id === 'actions') && 'hidden md:table-cell'
+                    )}
                     onClick={header.column.getToggleSortingHandler()}
                   >
                     <div className="flex items-center gap-1">
@@ -397,9 +402,11 @@ export function QuestList() {
           <TableBody>
             {table.getRowModel().rows.length > 0 ? (
               table.getRowModel().rows.map(row => (
-                <TableRow key={row.id}>
+                <TableRow key={row.id} className="cursor-pointer" onClick={() => navigate(`/quest/${row.original.id}`)}>
                   {row.getVisibleCells().map(cell => (
-                    <TableCell key={cell.id}>
+                    <TableCell key={cell.id} className={cn(
+                      (cell.column.id === 'type' || cell.column.id === 'actions') && 'hidden md:table-cell'
+                    )}>
                       {flexRender(cell.column.columnDef.cell, cell.getContext())}
                     </TableCell>
                   ))}

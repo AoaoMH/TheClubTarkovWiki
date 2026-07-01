@@ -1,7 +1,7 @@
 import { useState, useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { Link, useMatch } from 'react-router-dom'
-import { Search, Globe, Settings, LogOut, Home, ClipboardList, Package } from 'lucide-react'
+import { Search, Globe, Settings, LogOut, Home, ClipboardList, Package, Menu, X } from 'lucide-react'
 import { cn } from '@/lib/utils'
 import { Button } from '@/components/ui/button'
 import { Kbd } from '@/components/ui/kbd'
@@ -18,6 +18,7 @@ import {
   NavigationMenuTrigger,
   NavigationMenuContent,
 } from '@/components/ui/navigation-menu'
+import { Collapsible, CollapsibleContent, CollapsibleTrigger } from '@/components/ui/collapsible'
 import { useAuth } from '@/hooks/useAuth'
 import { useCategories, useCategoryTree } from '@/hooks/useItems'
 import { AdminPanel } from '@/components/admin/AdminPanel'
@@ -82,10 +83,8 @@ function collectLeaves(
   for (const child of children) {
     const grandchildren = childMap.get(child.id) || []
     if (grandchildren.length === 0) {
-      // This is a leaf
       if (child.itemCount > 0) leaves.push(child)
     } else {
-      // Recurse deeper
       leaves.push(...collectLeaves(child.id, childMap))
     }
   }
@@ -129,6 +128,101 @@ function CategoryDropdownColumn({
   )
 }
 
+function MobileMenuToggle({
+  homeActive, questActive, itemsActive,
+  lang,
+  t, user, logout, toggleLang, setAdminOpen,
+}: {
+  homeActive: boolean; questActive: boolean; itemsActive: boolean
+  lang: 'zh' | 'en'
+  t: any
+  user: { username: string; role?: string } | null
+  logout: () => void; toggleLang: (lng: 'zh' | 'en') => void
+  setAdminOpen: (open: boolean) => void
+}) {
+  const [open, setOpen] = useState(false)
+
+  return (
+    <Collapsible open={open} onOpenChange={setOpen}>
+      <CollapsibleTrigger asChild>
+        <Button variant="ghost" size="icon" className="size-8">
+          {open ? <X className="size-4" /> : <Menu className="size-4" />}
+        </Button>
+      </CollapsibleTrigger>
+      <CollapsibleContent>
+        <div className="md:hidden border-t border-border bg-background/95 backdrop-blur-sm px-4 py-3 space-y-3">
+          {/* Navigation links */}
+          <div className="space-y-1">
+            <Link
+              to="/"
+              onClick={() => setOpen(false)}
+              className={cn(
+                'flex items-center gap-2 px-3 py-2 text-sm rounded-md transition-colors',
+                homeActive ? 'bg-accent text-accent-foreground font-medium' : 'text-foreground hover:bg-accent'
+              )}
+            >
+              <Home className="size-4" />
+              {t('home', '首页')}
+            </Link>
+            <Link
+              to="/quests"
+              onClick={() => setOpen(false)}
+              className={cn(
+                'flex items-center gap-2 px-3 py-2 text-sm rounded-md transition-colors',
+                questActive ? 'bg-accent text-accent-foreground font-medium' : 'text-foreground hover:bg-accent'
+              )}
+            >
+              <ClipboardList className="size-4" />
+              {t('quests', '任务')}
+            </Link>
+            <Link
+              to="/"
+              onClick={() => setOpen(false)}
+              className={cn(
+                'flex items-center gap-2 px-3 py-2 text-sm rounded-md transition-colors',
+                itemsActive ? 'bg-accent text-accent-foreground font-medium' : 'text-foreground hover:bg-accent'
+              )}
+            >
+              <Package className="size-4" />
+              {t('items', '道具')}
+            </Link>
+          </div>
+
+          {/* Actions row */}
+          <div className="flex items-center gap-2 px-3 pt-2 border-t border-border">
+            <Button
+              variant="outline"
+              size="sm"
+              className="text-xs"
+              onClick={() => { toggleLang(lang === 'zh' ? 'en' : 'zh'); setOpen(false) }}
+            >
+              <Globe className="size-3.5 mr-1" />
+              {lang === 'zh' ? 'English' : '中文'}
+            </Button>
+            {user?.role === 'admin' && (
+              <Button variant="outline" size="sm" className="text-xs" onClick={() => { setAdminOpen(true); setOpen(false) }}>
+                <Settings className="size-3.5 mr-1" />
+                管理
+              </Button>
+            )}
+            <div className="flex-1" />
+            {user ? (
+              <Button variant="ghost" size="sm" className="text-xs" onClick={() => { logout(); setOpen(false) }}>
+                <LogOut className="size-3.5 mr-1" />
+                {user.username}
+              </Button>
+            ) : (
+              <Link to="/login" onClick={() => setOpen(false)}>
+                <Button variant="outline" size="sm" className="text-xs">登录</Button>
+              </Link>
+            )}
+          </div>
+        </div>
+      </CollapsibleContent>
+    </Collapsible>
+  )
+}
+
 export function Header({ onSearchClick }: { onSearchClick: () => void }) {
   const { t, i18n } = useTranslation()
   const { user, logout } = useAuth()
@@ -164,9 +258,11 @@ export function Header({ onSearchClick }: { onSearchClick: () => void }) {
   }, [rootCategories])
 
   // Split into 3 columns, with "其他" group for misc categories
-  const { columns, miscCategories } = useMemo(() => {
-    const main = sortedRootCategories.filter(c => !MISC_CATEGORY_IDS.has(c.id))
+  const WEAPON_MODS_ID = '5b5f71a686f77447ed5636ab'
+  const { columns, miscCategories, weaponModCategory } = useMemo(() => {
+    const main = sortedRootCategories.filter(c => !MISC_CATEGORY_IDS.has(c.id) && c.id !== WEAPON_MODS_ID)
     const misc = sortedRootCategories.filter(c => MISC_CATEGORY_IDS.has(c.id))
+    const weaponMod = sortedRootCategories.find(c => c.id === WEAPON_MODS_ID) || null
     const cols: WikiCategory[][] = [[], [], []]
     main.forEach((cat, i) => {
       const col = cols[i % 3]
@@ -175,6 +271,7 @@ export function Header({ onSearchClick }: { onSearchClick: () => void }) {
     return {
       columns: cols.filter(c => c.length > 0),
       miscCategories: misc,
+      weaponModCategory: weaponMod,
     }
   }, [sortedRootCategories])
 
@@ -186,11 +283,12 @@ export function Header({ onSearchClick }: { onSearchClick: () => void }) {
           to="/"
           className="text-lg font-bold text-primary hover:text-primary/80 transition-colors shrink-0"
         >
-          The Club Tarkov Wiki
+          <span className="hidden sm:inline">The Club Tarkov Wiki</span>
+          <span className="sm:hidden">Club Wiki</span>
         </Link>
 
-        {/* Center: Navigation */}
-        <nav className="flex items-center gap-1 mx-auto">
+        {/* Center: Navigation (desktop only) */}
+        <nav className="hidden md:flex items-center gap-1 mx-auto">
           <NavItem to="/" active={isHomeActive}>
             <Home className="size-4" />
             {t('home', '首页')}
@@ -221,19 +319,6 @@ export function Header({ onSearchClick }: { onSearchClick: () => void }) {
                       </div>
                     ) : (
                       <div className="flex gap-6">
-                        {columns.map((col, ci) => (
-                          <div key={ci} className="space-y-3">
-                            {col.map(cat => (
-                              <CategoryDropdownColumn
-                                key={cat.id}
-                                category={cat}
-                                childMap={childMap}
-                                lang={lang}
-                              />
-                            ))}
-                          </div>
-                        ))}
-                        {/* "其他" group */}
                         {miscCategories.length > 0 && (
                           <div className="min-w-[140px]">
                             <div className="flex items-center gap-2 text-sm font-medium text-foreground mb-1.5">
@@ -256,6 +341,25 @@ export function Header({ onSearchClick }: { onSearchClick: () => void }) {
                             </div>
                           </div>
                         )}
+                        {columns.map((col, ci) => (
+                          <div key={ci} className="space-y-3">
+                            {col.map(cat => (
+                              <CategoryDropdownColumn
+                                key={cat.id}
+                                category={cat}
+                                childMap={childMap}
+                                lang={lang}
+                              />
+                            ))}
+                          </div>
+                        ))}
+                        {weaponModCategory && (
+                          <CategoryDropdownColumn
+                            category={weaponModCategory}
+                            childMap={childMap}
+                            lang={lang}
+                          />
+                        )}
                       </div>
                     )}
                   </div>
@@ -265,8 +369,11 @@ export function Header({ onSearchClick }: { onSearchClick: () => void }) {
           </NavigationMenu>
         </nav>
 
-        {/* Right: Search + Actions */}
-        <div className="flex items-center gap-2 shrink-0">
+        {/* Spacer for mobile */}
+        <div className="flex-1 md:hidden" />
+
+        {/* Right: Search + Actions (desktop) */}
+        <div className="hidden md:flex items-center gap-2 shrink-0">
           <Button
             variant="outline"
             size="sm"
@@ -321,6 +428,29 @@ export function Header({ onSearchClick }: { onSearchClick: () => void }) {
               <Button variant="outline" size="sm">登录</Button>
             </Link>
           )}
+        </div>
+
+        {/* Right: Mobile buttons */}
+        <div className="flex md:hidden items-center gap-1 shrink-0">
+          <Button
+            variant="ghost"
+            size="icon"
+            className="size-8"
+            onClick={onSearchClick}
+          >
+            <Search className="size-4" />
+          </Button>
+          <MobileMenuToggle
+            homeActive={isHomeActive}
+            questActive={isQuestActive}
+            itemsActive={isItemsActive}
+            lang={lang}
+            t={t}
+            user={user}
+            logout={logout}
+            toggleLang={toggleLang}
+            setAdminOpen={setAdminOpen}
+          />
         </div>
       </div>
 

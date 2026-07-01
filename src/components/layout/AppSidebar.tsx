@@ -1,5 +1,5 @@
 import { useMemo, useEffect, useRef, useState } from 'react'
-import { Link, useMatch } from 'react-router-dom'
+import { Link, useMatch, useLocation } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
 import { ChevronRight, Package } from 'lucide-react'
 import {
@@ -9,6 +9,7 @@ import {
 } from '@/components/ui/collapsible'
 import { ScrollArea } from '@/components/ui/scroll-area'
 import { Skeleton } from '@/components/ui/skeleton'
+import { Sheet, SheetContent, SheetTitle } from '@/components/ui/sheet'
 import { cn } from '@/lib/utils'
 import { useCategories, useCategoryTree, useItemDetail } from '@/hooks/useItems'
 import type { WikiCategory } from '@/hooks/useItems'
@@ -197,7 +198,7 @@ function CategoryMenuSubItem({
   )
 }
 
-export function CategorySidebar() {
+function CategorySidebarContent() {
   const { i18n } = useTranslation()
   const { categories, loading } = useCategories()
   const { rootCategories, childMap } = useCategoryTree(categories)
@@ -237,27 +238,52 @@ export function CategorySidebar() {
   }, [rootCategories])
 
   return (
-    <aside className="w-56 shrink-0 border-r border-border bg-card/50 transition-all duration-200">
-      <ScrollArea className="h-[calc(100vh-4rem)]">
-        <div className="p-2 space-y-0.5">
-          {loading ? (
-            Array.from({ length: 8 }).map((_, i) => (
-              <Skeleton key={i} className="h-8 w-full rounded-md" />
-            ))
-          ) : (
-            sortedRootCategories.map(cat => (
-              <CategoryMenuItem
-                key={cat.id}
-                category={cat}
-                childMap={childMap}
-                lang={lang}
-                activeCategoryId={activeCategoryId}
-                ancestorIds={ancestorIds}
-              />
-            ))
-          )}
-        </div>
-      </ScrollArea>
+    <ScrollArea className="h-[calc(100vh-4rem)]">
+      <div className="p-2 space-y-0.5">
+        {loading ? (
+          Array.from({ length: 8 }).map((_, i) => (
+            <Skeleton key={i} className="h-8 w-full rounded-md" />
+          ))
+        ) : (
+          sortedRootCategories.map(cat => (
+            <CategoryMenuItem
+              key={cat.id}
+              category={cat}
+              childMap={childMap}
+              lang={lang}
+              activeCategoryId={activeCategoryId}
+              ancestorIds={ancestorIds}
+            />
+          ))
+        )}
+      </div>
+    </ScrollArea>
+  )
+}
+
+export function CategorySidebar() {
+  return (
+    <aside className="hidden md:block w-56 shrink-0 border-r border-border bg-card/50 transition-all duration-200">
+      <CategorySidebarContent />
     </aside>
+  )
+}
+
+export function CategorySidebarMobile({ open, onOpenChange }: { open: boolean; onOpenChange: (open: boolean) => void }) {
+  const location = useLocation()
+
+  // Close drawer when route changes (i.e. user clicked a category link)
+  useEffect(() => {
+    if (open) onOpenChange(false)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [location.pathname])
+
+  return (
+    <Sheet open={open} onOpenChange={onOpenChange}>
+      <SheetContent side="left" className="w-60 p-0 bg-card/95">
+        <SheetTitle className="sr-only">Categories</SheetTitle>
+        <CategorySidebarContent />
+      </SheetContent>
+    </Sheet>
   )
 }

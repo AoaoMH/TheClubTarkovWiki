@@ -397,14 +397,15 @@ export function QuestDetail() {
         <div>
           <h3 className="text-base font-semibold mb-2">{lang === 'zh' ? '前置 / 后续' : 'Prerequisites / Follow-ups'}</h3>
           <Card className="py-0 gap-0">
+            <div className="overflow-x-auto">
             <Table>
               <TableHeader>
                 <TableRow>
                   <TableHead className="w-[70px]"></TableHead>
                   <TableHead>{t('questName')}</TableHead>
-                  <TableHead>{t('npc')}</TableHead>
-                  <TableHead>{t('questType')}</TableHead>
-                  <TableHead>{t('questRewards')}</TableHead>
+                  <TableHead className="hidden md:table-cell">{t('npc')}</TableHead>
+                  <TableHead className="hidden md:table-cell">{t('questType')}</TableHead>
+                  <TableHead className="hidden md:table-cell">{t('questRewards')}</TableHead>
                   <TableHead className="w-[60px]"></TableHead>
                 </TableRow>
               </TableHeader>
@@ -413,17 +414,17 @@ export function QuestDetail() {
                   const q = rq.full
                   return (
                     <TableRow key={rq.id}>
-                      <TableCell>
+                      <TableCell className="w-[70px]">
                         <Badge variant="outline" className={`text-xs ${rq.relType === 'prereq' ? 'border-blue-500 text-blue-500' : 'border-amber-500 text-amber-500'}`}>
                           {rq.relType === 'prereq' ? (lang === 'zh' ? '前置' : 'Pre') : (lang === 'zh' ? '后续' : 'Next')}
                         </Badge>
                       </TableCell>
                       <TableCell className="font-medium">{lang === 'zh' ? rq.name.zh : rq.name.en}</TableCell>
-                      <TableCell className="text-sm">{q ? (lang === 'zh' ? q.traderName.zh : q.traderName.en) : '-'}</TableCell>
-                      <TableCell>
+                      <TableCell className="text-sm hidden md:table-cell">{q ? (lang === 'zh' ? q.traderName.zh : q.traderName.en) : '-'}</TableCell>
+                      <TableCell className="hidden md:table-cell">
                         {q && <Badge variant="outline" className="text-xs">{t(`questType_${q.type}`, q.type)}</Badge>}
                       </TableCell>
-                      <TableCell>
+                      <TableCell className="hidden md:table-cell">
                         <div className="flex flex-wrap gap-1 items-center">
                           {q?.rewards?.filter(isInlineReward).map((r, i) => <RewardBadge key={i} reward={r} lang={lang} />)}
                           {(() => {
@@ -469,6 +470,7 @@ export function QuestDetail() {
                 })}
               </TableBody>
             </Table>
+            </div>
           </Card>
         </div>
       )}
