@@ -31,6 +31,11 @@ export const ITEM_PRESETS_FILE = path.join(EXPORTED_DB_PATH, 'ItemPresets.json')
 // SPT Server (for image download)
 export const SPT_SERVER_URL = 'https://127.0.0.1:6969'
 
+// ClubWikiIconExporter exported icons (from game runtime rendering)
+export const EXPORTED_ICONS_PATH = path.join(
+  SPT_CLIENT_PATH, 'BepInEx', 'plugins', 'ClubWikiIconExporter', 'exported-icons'
+)
+
 // Output paths (relative to project root)
 export const PROJECT_ROOT = path.resolve(import.meta.dirname, '..', '..')
 export const OUTPUT_DATA_PATH = path.join(PROJECT_ROOT, 'public', 'data')
