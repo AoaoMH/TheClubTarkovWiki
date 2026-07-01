@@ -176,15 +176,17 @@
       "damage": 50,
       "penetrationPower": 2,
       "armorDamage": 26,
-      "accuracy": 0,
-      "recoil": 0,
+      "accuracy": -0.15,
+      "recoil": 1.15,
       "fragmentationChance": 0,
       "ricochetChance": 0,
       "lightBleedChance": 0.2,
       "heavyBleedChance": 0.1,
       "initialSpeed": 385,
       "ballisticCoeficient": 0.022,
-      "projectileCount": 8
+      "projectileCount": 8,
+      "tracer": false,
+      "tracerColor": "red"
     }
   },
   "slots": [],

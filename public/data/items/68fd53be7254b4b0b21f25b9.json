@@ -178,15 +178,17 @@
       "damage": 199,
       "penetrationPower": 36,
       "armorDamage": 68,
-      "accuracy": 0,
-      "recoil": 0,
+      "accuracy": 0.03,
+      "recoil": -0.02,
       "fragmentationChance": 0.1,
       "ricochetChance": 0.15,
       "lightBleedChance": 0.12,
       "heavyBleedChance": 0.1,
       "initialSpeed": 1066,
       "ballisticCoeficient": 0.933,
-      "projectileCount": 1
+      "projectileCount": 1,
+      "tracer": false,
+      "tracerColor": "red"
     },
     "resolvedConflicts": [
       {

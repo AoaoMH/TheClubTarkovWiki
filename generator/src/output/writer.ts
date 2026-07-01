@@ -22,13 +22,25 @@ function toSummary(item: WikiItem): ItemSummary {
     image: item.image,
   }
 
-  // Include ammo-specific fields for AmmoPage grouping/sorting
+  // Include ammo-specific fields for AmmoPage grouping/sorting and table display
   if (item.properties.ammo) {
+    const a = item.properties.ammo
     summary.ammo = {
-      caliber: item.properties.ammo.caliber,
-      penetrationPower: item.properties.ammo.penetrationPower,
-      damage: item.properties.ammo.damage,
-      armorDamage: item.properties.ammo.armorDamage,
+      caliber: a.caliber,
+      penetrationPower: a.penetrationPower,
+      damage: a.damage,
+      armorDamage: a.armorDamage,
+      accuracy: a.accuracy,
+      recoil: a.recoil,
+      fragmentationChance: a.fragmentationChance,
+      ricochetChance: a.ricochetChance,
+      lightBleedChance: a.lightBleedChance,
+      heavyBleedChance: a.heavyBleedChance,
+      initialSpeed: a.initialSpeed,
+      ballisticCoeficient: a.ballisticCoeficient,
+      projectileCount: a.projectileCount,
+      tracer: a.tracer ?? false,
+      tracerColor: a.tracerColor ?? null,
     }
   }
 

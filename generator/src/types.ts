@@ -182,6 +182,8 @@ export interface AmmoProps {
   initialSpeed: number
   ballisticCoeficient: number
   projectileCount: number
+  tracer: boolean
+  tracerColor: string | null
 }
 
 export interface AmmoBoxProps {
@@ -367,12 +369,23 @@ export interface ItemSummary {
     rarity: string
   }
   image: string | null
-  /** Extra fields for AmmoPage grouping/sorting */
+  /** Extra fields for AmmoPage grouping/sorting and table display */
   ammo?: {
     caliber: string
     penetrationPower: number
     damage: number
     armorDamage: number
+    accuracy: number
+    recoil: number
+    fragmentationChance: number
+    ricochetChance: number
+    lightBleedChance: number
+    heavyBleedChance: number
+    initialSpeed: number
+    ballisticCoeficient: number
+    projectileCount: number
+    tracer: boolean
+    tracerColor: string | null
   }
 }
 

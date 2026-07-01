@@ -124,6 +124,17 @@ export interface ItemSummary {
     penetrationPower: number
     damage: number
     armorDamage: number
+    accuracy: number
+    recoil: number
+    fragmentationChance: number
+    ricochetChance: number
+    lightBleedChance: number
+    heavyBleedChance: number
+    initialSpeed: number
+    ballisticCoeficient: number
+    projectileCount: number
+    tracer: boolean
+    tracerColor: string | null
   }
 }
 

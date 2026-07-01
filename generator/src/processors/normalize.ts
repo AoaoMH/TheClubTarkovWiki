@@ -156,20 +156,28 @@ function extractWeaponProps(item: SPTItem): WeaponProps | undefined {
 function extractAmmoProps(item: SPTItem): AmmoProps | undefined {
   const p = item._props
   if (!p.Damage && !p.PenetrationPower) return undefined
+
+  // SPT uses ammoAccr/ammoRec as integer percentages (e.g. -5 = -5%)
+  // Convert to fractions to match EFTForge convention (-0.05 = -5%)
+  const rawAccr = (p.ammoAccr as number) || 0
+  const rawRec = (p.ammoRec as number) || 0
+
   return {
     caliber: ((p.Caliber as string) || '').replace(/^Caliber/i, ''),
     damage: (p.Damage as number) || 0,
     penetrationPower: (p.PenetrationPower as number) || 0,
     armorDamage: (p.ArmorDamage as number) || 0,
-    accuracy: (p.Accuracy as number) || 0,
-    recoil: (p.Recoil as number) || 0,
+    accuracy: rawAccr / 100,
+    recoil: rawRec / 100,
     fragmentationChance: (p.FragmentationChance as number) || 0,
     ricochetChance: (p.RicochetChance as number) || 0,
-    lightBleedChance: ((p.LightBleedingModifier as number) || (p.LightBleedingDelta as number)) || 0,
-    heavyBleedChance: ((p.HeavyBleedingModifier as number) || (p.HeavyBleedingDelta as number)) || 0,
+    lightBleedChance: ((p.LightBleedingDelta as number) || 0),
+    heavyBleedChance: ((p.HeavyBleedingDelta as number) || 0),
     initialSpeed: (p.InitialSpeed as number) || 0,
     ballisticCoeficient: (p.BallisticCoeficient as number) || 0,
     projectileCount: (p.ProjectileCount as number) || 0,
+    tracer: p.Tracer === true,
+    tracerColor: (p.TracerColor as string) || null,
   }
 }
 
