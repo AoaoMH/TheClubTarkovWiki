@@ -92,15 +92,15 @@
       "DiscardLimit": -1,
       "StimulatorBuffs": "",
       "effects_health": {
-        "2": {
+        "Energy": {
           "value": -9
         },
-        "3": {
+        "Hydration": {
           "value": -9
         }
       },
       "effects_damage": {
-        "7": {
+        "Pain": {
           "delay": 0,
           "duration": 300,
           "fadeOut": 50
@@ -121,17 +121,17 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
+            "type": "Energy",
             "value": -9
           },
           {
-            "type": "3",
+            "type": "Hydration",
             "value": -9
           }
         ],
         "damageEffects": [
           {
-            "type": "7",
+            "type": "Pain",
             "delay": 0,
             "duration": 300
           }

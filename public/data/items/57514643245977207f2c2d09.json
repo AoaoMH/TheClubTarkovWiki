@@ -95,11 +95,11 @@
       "foodEffectType": "afterUse",
       "StimulatorBuffs": "Buffs_drink_tarcola",
       "effects_health": {
-        "2": {
-          "value": 15
-        },
-        "3": {
+        "Energy": {
           "value": 5
+        },
+        "Hydration": {
+          "value": 15
         }
       },
       "effects_damage": [],
@@ -110,12 +110,12 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
-            "value": 15
+            "type": "Energy",
+            "value": 5
           },
           {
-            "type": "3",
-            "value": 5
+            "type": "Hydration",
+            "value": 15
           }
         ],
         "damageEffects": [],

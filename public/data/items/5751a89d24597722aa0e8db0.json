@@ -92,24 +92,24 @@
       "DiscardLimit": -1,
       "StimulatorBuffs": "BuffsGoldenStarBalm",
       "effects_health": {
-        "3": {
+        "Energy": {
           "value": -19
         }
       },
       "effects_damage": {
-        "3": {
+        "Contusion": {
           "delay": 0,
           "duration": 0,
           "fadeOut": 0
         },
-        "6": {
-          "delay": 0,
-          "duration": 400,
-          "fadeOut": 20
-        },
-        "7": {
+        "Pain": {
           "delay": 0,
           "duration": 350,
+          "fadeOut": 20
+        },
+        "RadExposure": {
+          "delay": 0,
+          "duration": 400,
           "fadeOut": 20
         }
       },
@@ -128,25 +128,25 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "3",
+            "type": "Energy",
             "value": -19
           }
         ],
         "damageEffects": [
           {
-            "type": "3",
+            "type": "Contusion",
             "delay": 0,
             "duration": 0
           },
           {
-            "type": "6",
-            "delay": 0,
-            "duration": 400
-          },
-          {
-            "type": "7",
+            "type": "Pain",
             "delay": 0,
             "duration": 350
+          },
+          {
+            "type": "RadExposure",
+            "delay": 0,
+            "duration": 400
           }
         ],
         "stimBuffs": [

@@ -95,11 +95,11 @@
       "foodEffectType": "afterUse",
       "StimulatorBuffs": "Buffs_food_alyonka",
       "effects_health": {
-        "2": {
-          "value": -15
-        },
-        "3": {
+        "Energy": {
           "value": 35
+        },
+        "Hydration": {
+          "value": -15
         }
       },
       "effects_damage": [],
@@ -110,12 +110,12 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
-            "value": -15
+            "type": "Energy",
+            "value": 35
           },
           {
-            "type": "3",
-            "value": 35
+            "type": "Hydration",
+            "value": -15
           }
         ],
         "damageEffects": [],

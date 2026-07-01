@@ -96,11 +96,11 @@
       "foodUseTime": 5,
       "foodEffectType": "afterUse",
       "effects_health": {
-        "2": {
-          "value": -10
-        },
-        "3": {
+        "Energy": {
           "value": 100
+        },
+        "Hydration": {
+          "value": -10
         }
       },
       "effects_damage": [],
@@ -111,12 +111,12 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
-            "value": -10
+            "type": "Energy",
+            "value": 100
           },
           {
-            "type": "3",
-            "value": 100
+            "type": "Hydration",
+            "value": -10
           }
         ],
         "damageEffects": [],

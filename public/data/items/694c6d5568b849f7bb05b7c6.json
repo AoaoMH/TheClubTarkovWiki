@@ -95,11 +95,11 @@
       "foodEffectType": "afterUse",
       "StimulatorBuffs": "c4_starburst",
       "effects_health": {
-        "2": {
-          "value": 30
-        },
-        "3": {
+        "Energy": {
           "value": 90
+        },
+        "Hydration": {
+          "value": 30
         }
       },
       "effects_damage": {},
@@ -110,12 +110,12 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
-            "value": 30
+            "type": "Energy",
+            "value": 90
           },
           {
-            "type": "3",
-            "value": 90
+            "type": "Hydration",
+            "value": 30
           }
         ],
         "damageEffects": [],

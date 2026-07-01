@@ -93,22 +93,22 @@
       "StimulatorBuffs": "Buffs_Perfotoran",
       "effects_health": [],
       "effects_damage": {
-        "0": {
+        "HeavyBleeding": {
           "delay": 0,
           "duration": 60,
           "fadeOut": 0
         },
-        "1": {
+        "Intoxication": {
           "delay": 0,
           "duration": 60,
           "fadeOut": 0
         },
-        "4": {
+        "LightBleeding": {
           "delay": 0,
           "duration": 60,
           "fadeOut": 0
         },
-        "6": {
+        "RadExposure": {
           "delay": 0,
           "duration": 60,
           "fadeOut": 0
@@ -130,22 +130,22 @@
         "healthEffects": [],
         "damageEffects": [
           {
-            "type": "0",
+            "type": "HeavyBleeding",
             "delay": 0,
             "duration": 60
           },
           {
-            "type": "1",
+            "type": "Intoxication",
             "delay": 0,
             "duration": 60
           },
           {
-            "type": "4",
+            "type": "LightBleeding",
             "delay": 0,
             "duration": 60
           },
           {
-            "type": "6",
+            "type": "RadExposure",
             "delay": 0,
             "duration": 60
           }

@@ -95,11 +95,11 @@
       "foodEffectType": "afterUse",
       "StimulatorBuffs": "",
       "effects_health": {
-        "2": {
-          "value": 28
-        },
-        "3": {
+        "Energy": {
           "value": 8
+        },
+        "Hydration": {
+          "value": 28
         }
       },
       "effects_damage": [],
@@ -110,12 +110,12 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
-            "value": 28
+            "type": "Energy",
+            "value": 8
           },
           {
-            "type": "3",
-            "value": 8
+            "type": "Hydration",
+            "value": 28
           }
         ],
         "damageEffects": [],

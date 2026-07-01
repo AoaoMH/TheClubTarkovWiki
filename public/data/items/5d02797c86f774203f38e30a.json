@@ -93,19 +93,19 @@
       "StimulatorBuffs": "",
       "effects_health": [],
       "effects_damage": {
-        "2": {
-          "delay": 0,
-          "duration": 0,
-          "fadeOut": 0,
-          "healthPenaltyMin": 0,
-          "healthPenaltyMax": 0
-        },
-        "8": {
+        "DestroyedPart": {
           "delay": 0,
           "duration": 0,
           "fadeOut": 0,
           "healthPenaltyMin": 60,
           "healthPenaltyMax": 72
+        },
+        "Fracture": {
+          "delay": 0,
+          "duration": 0,
+          "fadeOut": 0,
+          "healthPenaltyMin": 0,
+          "healthPenaltyMax": 0
         }
       },
       "medUseTime": 20,
@@ -130,12 +130,12 @@
         "healthEffects": [],
         "damageEffects": [
           {
-            "type": "2",
+            "type": "DestroyedPart",
             "delay": 0,
             "duration": 0
           },
           {
-            "type": "8",
+            "type": "Fracture",
             "delay": 0,
             "duration": 0
           }

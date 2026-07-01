@@ -95,10 +95,10 @@
       "foodEffectType": "afterUse",
       "StimulatorBuffs": "monster_green",
       "effects_health": {
-        "2": {
+        "Energy": {
           "value": 30
         },
-        "3": {
+        "Hydration": {
           "value": 30
         }
       },
@@ -110,11 +110,11 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
+            "type": "Energy",
             "value": 30
           },
           {
-            "type": "3",
+            "type": "Hydration",
             "value": 30
           }
         ],

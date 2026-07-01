@@ -11,13 +11,14 @@ export const LOCALES_PATH = path.join(DATABASE_PATH, 'locales', 'global')
 export const MODS_PATH = path.join(SPT_CLIENT_PATH, 'SPT', 'user', 'mods')
 export const HANDBOOK_IMAGES_PATH = path.join(SPT_DATA_PATH, 'images', 'handbook')
 
-// Profile Editor exported DB (post-SPT-server-patch data, includes runtime modifications)
-export const EXPORTED_DB_PATH = path.join(MODS_PATH, 'SPT-AKI Profile Editor.ModHelper', 'exportedDB')
+// ClubWikiDataExporter exported DB (post all mod patches, captured at postAkiLoad stage)
+// More complete than Profile Editor's export which misses runtime filter patches from other mods
+export const EXPORTED_DB_PATH = path.join(MODS_PATH, 'ClubWikiDataExporter', 'exportedDB')
 
 // Data files
-// Use exported Items.json instead of raw SPT templates items.json:
-// SPT server patches slot filters and adds items at runtime; the raw templates
-// file only has pre-patch data (e.g. barrel mod_muzzle filter: 1 item vs 26 patched).
+// Use exported Items.json from ClubWikiDataExporter mod which captures ALL runtime patches:
+// SPT server patches slot filters and adds items at runtime; our mod runs at postAkiLoad
+// with TypePriority=MaxValue to ensure it executes AFTER all other mods have patched the database.
 export const ITEMS_FILE = path.join(EXPORTED_DB_PATH, 'Items.json')
 export const HANDBOOK_FILE = path.join(TEMPLATES_PATH, 'handbook.json')
 export const LOCALE_CH_FILE = path.join(LOCALES_PATH, 'ch.json')

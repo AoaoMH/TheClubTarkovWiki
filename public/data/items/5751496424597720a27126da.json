@@ -95,11 +95,11 @@
       "foodEffectType": "afterUse",
       "StimulatorBuffs": "Buffs_drink_hotrod",
       "effects_health": {
-        "2": {
-          "value": 20
-        },
-        "3": {
+        "Energy": {
           "value": 10
+        },
+        "Hydration": {
+          "value": 20
         }
       },
       "effects_damage": [],
@@ -110,12 +110,12 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
-            "value": 20
+            "type": "Energy",
+            "value": 10
           },
           {
-            "type": "3",
-            "value": 10
+            "type": "Hydration",
+            "value": 20
           }
         ],
         "damageEffects": [],

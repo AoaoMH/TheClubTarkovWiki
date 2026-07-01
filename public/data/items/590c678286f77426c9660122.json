@@ -93,7 +93,7 @@
       "StimulatorBuffs": "",
       "effects_health": [],
       "effects_damage": {
-        "0": {
+        "HeavyBleeding": {
           "delay": 0,
           "duration": 0,
           "fadeOut": 0,
@@ -101,7 +101,7 @@
           "healthPenaltyMin": 0,
           "healthPenaltyMax": 0
         },
-        "1": {
+        "LightBleeding": {
           "delay": 0,
           "duration": 0,
           "fadeOut": 0,
@@ -109,7 +109,7 @@
           "healthPenaltyMin": 0,
           "healthPenaltyMax": 0
         },
-        "6": {
+        "RadExposure": {
           "delay": 0,
           "duration": 0,
           "fadeOut": 0,
@@ -134,17 +134,17 @@
         "healthEffects": [],
         "damageEffects": [
           {
-            "type": "0",
+            "type": "HeavyBleeding",
             "delay": 0,
             "duration": 0
           },
           {
-            "type": "1",
+            "type": "LightBleeding",
             "delay": 0,
             "duration": 0
           },
           {
-            "type": "6",
+            "type": "RadExposure",
             "delay": 0,
             "duration": 0
           }

@@ -95,15 +95,15 @@
       "foodEffectType": "afterUse",
       "StimulatorBuffs": "Buffs_drink_purewater",
       "effects_health": {
-        "2": {
-          "value": 100
-        },
-        "3": {
+        "Energy": {
           "value": 25
+        },
+        "Hydration": {
+          "value": 100
         }
       },
       "effects_damage": {
-        "6": {
+        "RadExposure": {
           "delay": 0,
           "duration": 0
         }
@@ -115,17 +115,17 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
-            "value": 100
+            "type": "Energy",
+            "value": 25
           },
           {
-            "type": "3",
-            "value": 25
+            "type": "Hydration",
+            "value": 100
           }
         ],
         "damageEffects": [
           {
-            "type": "6",
+            "type": "RadExposure",
             "delay": 0,
             "duration": 0
           }

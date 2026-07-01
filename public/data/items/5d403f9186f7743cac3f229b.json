@@ -95,21 +95,21 @@
       "foodEffectType": "afterUse",
       "StimulatorBuffs": "Buffs_drink_jack",
       "effects_health": {
-        "2": {
-          "value": -35
-        },
-        "3": {
+        "Energy": {
           "value": 10
+        },
+        "Hydration": {
+          "value": -35
         }
       },
       "effects_damage": {
-        "6": {
-          "delay": 0,
-          "duration": 0
-        },
-        "7": {
+        "Pain": {
           "delay": 0,
           "duration": 210
+        },
+        "RadExposure": {
+          "delay": 0,
+          "duration": 0
         }
       },
       "PlayFuzeSound": false
@@ -119,24 +119,24 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
-            "value": -35
+            "type": "Energy",
+            "value": 10
           },
           {
-            "type": "3",
-            "value": 10
+            "type": "Hydration",
+            "value": -35
           }
         ],
         "damageEffects": [
           {
-            "type": "6",
-            "delay": 0,
-            "duration": 0
-          },
-          {
-            "type": "7",
+            "type": "Pain",
             "delay": 0,
             "duration": 210
+          },
+          {
+            "type": "RadExposure",
+            "delay": 0,
+            "duration": 0
           }
         ],
         "stimBuffs": [

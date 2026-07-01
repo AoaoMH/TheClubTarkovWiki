@@ -93,13 +93,13 @@
       "StimulatorBuffs": "",
       "effects_health": [],
       "effects_damage": {
-        "0": {
+        "HeavyBleeding": {
           "delay": 0,
           "duration": 0,
           "fadeOut": 0,
           "cost": 175
         },
-        "1": {
+        "LightBleeding": {
           "delay": 0,
           "duration": 0,
           "fadeOut": 0,
@@ -122,12 +122,12 @@
         "healthEffects": [],
         "damageEffects": [
           {
-            "type": "0",
+            "type": "HeavyBleeding",
             "delay": 0,
             "duration": 0
           },
           {
-            "type": "1",
+            "type": "LightBleeding",
             "delay": 0,
             "duration": 0
           }

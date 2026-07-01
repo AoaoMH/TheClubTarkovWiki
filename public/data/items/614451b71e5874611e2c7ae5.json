@@ -95,18 +95,18 @@
       "foodEffectType": "afterUse",
       "StimulatorBuffs": "Buffs_drink_vodka",
       "effects_health": {
-        "2": {
+        "Hydration": {
           "value": -50
         }
       },
       "effects_damage": {
-        "6": {
-          "delay": 0,
-          "duration": 0
-        },
-        "7": {
+        "Pain": {
           "delay": 0,
           "duration": 250
+        },
+        "RadExposure": {
+          "delay": 0,
+          "duration": 0
         }
       },
       "PlayFuzeSound": false
@@ -116,20 +116,20 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
+            "type": "Hydration",
             "value": -50
           }
         ],
         "damageEffects": [
           {
-            "type": "6",
-            "delay": 0,
-            "duration": 0
-          },
-          {
-            "type": "7",
+            "type": "Pain",
             "delay": 0,
             "duration": 250
+          },
+          {
+            "type": "RadExposure",
+            "delay": 0,
+            "duration": 0
           }
         ],
         "stimBuffs": [

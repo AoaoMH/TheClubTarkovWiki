@@ -93,12 +93,12 @@
       "StimulatorBuffs": "BuffsZagustin",
       "effects_health": [],
       "effects_damage": {
-        "0": {
+        "HeavyBleeding": {
           "delay": 0,
           "duration": 180,
           "fadeOut": 0
         },
-        "1": {
+        "LightBleeding": {
           "delay": 0,
           "duration": 180,
           "fadeOut": 0
@@ -120,12 +120,12 @@
         "healthEffects": [],
         "damageEffects": [
           {
-            "type": "0",
+            "type": "HeavyBleeding",
             "delay": 0,
             "duration": 180
           },
           {
-            "type": "1",
+            "type": "LightBleeding",
             "delay": 0,
             "duration": 180
           }

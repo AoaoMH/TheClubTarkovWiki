@@ -92,15 +92,15 @@
       "DiscardLimit": -1,
       "StimulatorBuffs": "Buffs_drink_milk",
       "effects_health": {
-        "2": {
-          "value": -5
-        },
-        "3": {
+        "Energy": {
           "value": 5
+        },
+        "Hydration": {
+          "value": -5
         }
       },
       "effects_damage": {
-        "7": {
+        "Pain": {
           "delay": 0,
           "duration": 150,
           "fadeOut": 5
@@ -121,17 +121,17 @@
       "effects": {
         "healthEffects": [
           {
-            "type": "2",
-            "value": -5
+            "type": "Energy",
+            "value": 5
           },
           {
-            "type": "3",
-            "value": 5
+            "type": "Hydration",
+            "value": -5
           }
         ],
         "damageEffects": [
           {
-            "type": "7",
+            "type": "Pain",
             "delay": 0,
             "duration": 150
           }
