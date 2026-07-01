@@ -35,18 +35,19 @@ import type { QuestSummary, QuestReward } from '@/lib/dataStore'
 
 // ==================== Constants ====================
 
-const NPC_IDS = [
-  { id: '54cb50c76803fa8b248b4571', name: 'Prapor' },
-  { id: '54cb57776803fa99248b456e', name: 'Therapist' },
-  { id: '58330581ace78e27b8b10cee', name: 'Skier' },
-  { id: '5935c25fb3acc3127c3d8cd9', name: 'Peacekeeper' },
-  { id: '5a7c2eca46aef81a7ca2145d', name: 'Mechanic' },
-  { id: '5ac3b934156ae10c4430e83c', name: 'Ragman' },
-  { id: '5c0647fdd443bc2504c2d371', name: 'Jaeger' },
-  { id: '579dc571d53a0658a154fbec', name: 'Fence' },
-  { id: '638f541a29ffd1183d187f57', name: 'Lightkeeper' },
-  { id: '656f0f98d80a697f855d34b1', name: 'BTR' },
-  { id: '6617beeaa9cfa777ca915b7c', name: 'Ref' },
+// Known base traders (for stable ordering in filter)
+const BASE_TRADER_ORDER = [
+  '54cb50c76803fa8b248b4571', // Prapor
+  '54cb57776803fa99248b456e', // Therapist
+  '58330581ace78e27b8b10cee', // Skier
+  '5935c25fb3acc3127c3d8cd9', // Peacekeeper
+  '5a7c2eca46aef81a7ca2145d', // Mechanic
+  '5ac3b934156ae10c4430e83c', // Ragman
+  '5c0647fdd443bc2504c2d371', // Jaeger
+  '579dc571d53a0658a154fbec', // Fence
+  '638f541a29ffd1183d187f57', // Lightkeeper
+  '656f0f98d80a697f855d34b1', // BTR
+  '6617beeaa9cfa777ca915b7c', // Ref
 ]
 
 // Currency item IDs that show inline
@@ -70,7 +71,7 @@ function isInlineReward(r: QuestReward): boolean {
   return false
 }
 
-function InlineRewardTag({ reward, lang }: { reward: QuestReward; lang: 'zh' | 'en' }) {
+function InlineRewardTag({ reward, lang, traderNames }: { reward: QuestReward; lang: 'zh' | 'en'; traderNames: Record<string, string> }) {
   switch (reward.type) {
     case 'Experience':
       return <Badge variant="secondary" className="text-xs shrink-0">+{reward.value} EXP</Badge>
@@ -81,7 +82,7 @@ function InlineRewardTag({ reward, lang }: { reward: QuestReward; lang: 'zh' | '
       const sign = val >= 0 ? '+' : ''
       return (
         <Badge variant="secondary" className={`text-xs shrink-0 ${color}`}>
-          {sign}{val} {reward.target ? NPC_IDS.find(n => n.id === reward.target)?.name || '' : ''}
+          {sign}{val} {reward.target ? traderNames[reward.target] || '' : ''}
         </Badge>
       )
     }
@@ -109,7 +110,7 @@ function HoverItemRow({ reward, lang }: { reward: QuestReward; lang: 'zh' | 'en'
   return <span className="text-sm whitespace-nowrap">{name}{qty}</span>
 }
 
-function HoverOtherRow({ reward, lang }: { reward: QuestReward; lang: 'zh' | 'en' }) {
+function HoverOtherRow({ reward, lang, traderNames }: { reward: QuestReward; lang: 'zh' | 'en'; traderNames: Record<string, string> }) {
   if (reward.type === 'AssortmentUnlock' || reward.type === 'ProductionScheme') {
     const name = reward.itemName ? (lang === 'zh' ? reward.itemName.zh : reward.itemName.en) : (reward.itemId || '')
     const label = lang === 'zh' ? (reward.type === 'AssortmentUnlock' ? '解锁商品' : '制造配方') : reward.type
@@ -122,7 +123,7 @@ function HoverOtherRow({ reward, lang }: { reward: QuestReward; lang: 'zh' | 'en
     return <span className="text-sm whitespace-nowrap">{reward.target} +{reward.value}</span>
   }
   if (reward.type === 'TraderUnlock') {
-    const npcName = NPC_IDS.find(n => n.id === reward.target)?.name || reward.target || ''
+    const npcName = traderNames[reward.target || ''] || reward.target || ''
     return <span className="text-sm text-muted-foreground whitespace-nowrap">{lang === 'zh' ? '解锁商人' : 'Unlock'}: {npcName}</span>
   }
   if (reward.type === 'Achievement') {
@@ -131,7 +132,7 @@ function HoverOtherRow({ reward, lang }: { reward: QuestReward; lang: 'zh' | 'en
   return <span className="text-sm text-muted-foreground whitespace-nowrap">{reward.type}{reward.target ? `: ${reward.target}` : ''}</span>
 }
 
-function RewardsCell({ rewards, lang }: { rewards: QuestReward[]; lang: 'zh' | 'en' }) {
+function RewardsCell({ rewards, lang, traderNames }: { rewards: QuestReward[]; lang: 'zh' | 'en'; traderNames: Record<string, string> }) {
   const inlineRewards = rewards.filter(isInlineReward)
   const itemRewards = rewards.filter(r => r.type === 'Item' && r.itemId && !CURRENCY_IDS.has(r.itemId))
   const otherRewards = rewards.filter(r =>
@@ -142,7 +143,7 @@ function RewardsCell({ rewards, lang }: { rewards: QuestReward[]; lang: 'zh' | '
   return (
     <div className="flex flex-wrap gap-1 items-center">
       {inlineRewards.map((r, i) => (
-        <InlineRewardTag key={i} reward={r} lang={lang} />
+        <InlineRewardTag key={i} reward={r} lang={lang} traderNames={traderNames} />
       ))}
       {hoverItems.length > 0 && (
         <HoverCard openDelay={0}>
@@ -157,7 +158,7 @@ function RewardsCell({ rewards, lang }: { rewards: QuestReward[]; lang: 'zh' | '
                 <HoverItemRow key={i} reward={r} lang={lang} />
               ))}
               {otherRewards.map((r, i) => (
-                <HoverOtherRow key={`o-${i}`} reward={r} lang={lang} />
+                <HoverOtherRow key={`o-${i}`} reward={r} lang={lang} traderNames={traderNames} />
               ))}
             </div>
           </HoverCardContent>
@@ -174,6 +175,32 @@ export function QuestList() {
   const lang = (i18n.language === 'zh' ? 'zh' : 'en') as 'zh' | 'en'
   const { quests, loading } = useQuestList()
   const navigate = useNavigate()
+
+  // Derive trader list and name map from quest data (dynamic, includes mod traders)
+  const { traderList, traderNames } = useMemo(() => {
+    const map: Record<string, { zh: string; en: string }> = {}
+    for (const q of quests) {
+      if (!map[q.traderId]) map[q.traderId] = q.traderName
+    }
+    // Stable order: base traders first, then new traders alphabetically by en name
+    const baseSet = new Set(BASE_TRADER_ORDER)
+    const ordered: { id: string; name: string }[] = []
+    for (const id of BASE_TRADER_ORDER) {
+      if (map[id]) ordered.push({ id, name: map[id][lang] })
+    }
+    const newTraders = Object.entries(map)
+      .filter(([id]) => !baseSet.has(id))
+      .sort((a, b) => a[1].en.localeCompare(b[1].en))
+    for (const [id, name] of newTraders) {
+      ordered.push({ id, name: name[lang] })
+    }
+    // Flat name map for reward display (id -> localized name)
+    const names: Record<string, string> = {}
+    for (const [id, n] of Object.entries(map)) {
+      names[id] = n[lang]
+    }
+    return { traderList: ordered, traderNames: names }
+  }, [quests, lang])
 
   // Filter states
   const [npcFilter, setNpcFilter] = useState('all')
@@ -263,7 +290,7 @@ export function QuestList() {
       id: 'rewards',
       header: t('questRewards'),
       cell: ({ row }) => (
-        <RewardsCell rewards={row.original.rewards} lang={lang} />
+        <RewardsCell rewards={row.original.rewards} lang={lang} traderNames={traderNames} />
       ),
       enableSorting: false,
     },
@@ -324,7 +351,7 @@ export function QuestList() {
               className="flex-wrap justify-start"
             >
               <ToggleGroupItem value="all" className="text-xs">{t('all')}</ToggleGroupItem>
-              {NPC_IDS.map(npc => (
+              {traderList.map(npc => (
                 <ToggleGroupItem key={npc.id} value={npc.id} className="text-xs">
                   {npc.name}
                 </ToggleGroupItem>

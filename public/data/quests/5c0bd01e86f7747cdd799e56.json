@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -56,7 +60,7 @@
       "value": 2,
       "itemId": "5c0558060db834001b735271",
       "itemName": {
-        "zh": "GPNVG-18夜视仪",
+        "zh": "GPNVG-18夜视仪 ☆",
         "en": "L3Harris GPNVG-18 night vision goggles"
       },
       "quantity": 1
@@ -78,28 +82,14 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 25,
+      "value": 6,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
           "zh": "AnyPmc",
           "en": "AnyPmc"
         }
-      },
-      "bodyParts": [
-        "Head",
-        "Chest",
-        "Stomach",
-        "LeftArm",
-        "RightArm",
-        "LeftLeg",
-        "RightLeg"
-      ],
-      "daytime": {
-        "from": 21,
-        "to": 6
-      },
-      "location": "Lighthouse,TarkovStreets,bigmap,Interchange,RezervBase,Sandbox_high,Woods,Shoreline"
+      }
     }
   ],
   "prerequisites": [

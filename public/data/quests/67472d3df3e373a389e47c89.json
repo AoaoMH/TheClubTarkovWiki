@@ -1,0 +1,204 @@
+{
+  "id": "67472d3df3e373a389e47c89",
+  "name": {
+    "zh": "搬运工 - 第二章",
+    "en": "Carrier - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 55650,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 55650
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "619cc01e0a7c3a1a2731940c",
+      "itemName": {
+        "zh": "医疗工具",
+        "en": "Medical tools"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d40407c86f774318526545a",
+      "itemName": {
+        "zh": "Tarkovskaya瓶装伏特加",
+        "en": "Bottle of Tarkovskaya vodka"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a09f32621468534a797acb",
+      "itemName": {
+        "zh": "瓶装 Pevko 淡啤酒",
+        "en": "Bottle of Pevko Light beer"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Strength",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "62a09e410b9d3c46de5b6e78",
+      "itemName": {
+        "zh": "JohnB \"Liquid DNB\"墨镜",
+        "en": "JohnB Liquid DNB glasses"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656fa25e94b480b8a500c0e0",
+      "itemName": {
+        "zh": "Kiba Arms Titan防弹插板",
+        "en": "Kiba Arms Titan ballistic plate"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "590c60fc86f77412b13fddcf",
+      "itemName": {
+        "zh": "文件包",
+        "en": "Documents case"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，这次的请求可能会有些儿奇怪，但我的团队又需要更多的背包了……这次需要更大的背包。\n\n那些超级大的北约制的背包会很好，你可以在藏身处试试搓出来，当然前提是如果你知道怎么制作。灯塔的污水处理厂附近的那些Rouge游荡者以及一些Raider掠夺者会备着这些包，这东西对我们来说非常好用，你能帮我这个忙吗？",
+    "en": "Well, this might be a bit weird to ask again, but my guys require more backpacks... again. But we require bigger ones this time.\n\nThese western backpacks would be great, maybe you can craft some in your hideout if you know how. The USECs from the water treatment plant near the lighthouse aswell as the scav raiders have been spotted with these backpacks, those things would be extremely useful for us. Can you do that for me?"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "545cdae64bdc2d39198b4568",
+        "66b5f22b78bbc0200425f904"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "545cdae64bdc2d39198b4568": {
+          "zh": "Camelbak Tri-Zip背包",
+          "en": "Camelbak Tri-Zip assault backpack (Foliage)"
+        },
+        "66b5f22b78bbc0200425f904": {
+          "zh": "Camelbak Tri-Zip背包（多地形迷彩）",
+          "en": "Camelbak Tri-Zip assault backpack (MultiCam)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5f5e467b0bc58666c37e7821",
+        "6034d2d697633951dc245ea6",
+        "5f5e46b96bdad616ad46d613"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5f5e467b0bc58666c37e7821": {
+          "zh": "Eberlestock F5 弹簧刀 背包（干土色）",
+          "en": "Eberlestock F5 Switchblade backpack (Dry Earth)"
+        },
+        "6034d2d697633951dc245ea6": {
+          "zh": "Eberlestock G2 Gunslinger II 背包 (dry earth)",
+          "en": "Eberlestock G2 Gunslinger II backpack (Dry Earth)"
+        },
+        "5f5e46b96bdad616ad46d613": {
+          "zh": "Eberlestock F4 终结者 承重背包（虎纹迷彩）",
+          "en": "Eberlestock F4 Terminator load bearing backpack (Tiger Stripe)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c0e774286f77468413cc5b2",
+        "656e0436d44a1bb4220303a0",
+        "628bc7fb408e2b2e9c0801b1",
+        "674da107c512807d1a0e7436",
+        "674da9cf0cb4bcde7103c07b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5c0e774286f77468413cc5b2": {
+          "zh": "Mystery Ranch Blackjack 50背包（组合迷彩）",
+          "en": "Mystery Ranch Blackjack 50 backpack (MultiCam)"
+        },
+        "656e0436d44a1bb4220303a0": {
+          "zh": "Mystery Ranch SATL Bridger突击背包（叶绿色）",
+          "en": "Mystery Ranch SATL Bridger Assault Pack (Foliage)"
+        },
+        "628bc7fb408e2b2e9c0801b1": {
+          "zh": "Mystery Ranch NICE COMM 3 BVS 稳固系统（黄褐色）",
+          "en": "Mystery Ranch NICE COMM 3 BVS frame system (Coyote)"
+        },
+        "674da107c512807d1a0e7436": {
+          "zh": "Mystery Ranch Terraframe 背包（橄榄绿）",
+          "en": "Mystery Ranch Terraframe backpack (Olive Drab)"
+        },
+        "674da9cf0cb4bcde7103c07b": {
+          "zh": "Mystery Ranch Terraframe 背包（圣诞特装版）",
+          "en": "Mystery Ranch Terraframe backpack (Christmas Edition)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67472ac35a736a84d3d9efc5",
+      "name": {
+        "zh": "搬运工 - 第一章",
+        "en": "Carrier - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67472de565eb520c7a8af1a5",
+      "name": {
+        "zh": "盗贼 - 第一章",
+        "en": "Safecracker - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_carrier_2.png",
+  "isKey": false
+}

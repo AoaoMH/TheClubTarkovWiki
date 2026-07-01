@@ -1,0 +1,126 @@
+{
+  "id": "674764d429eb6b5966202149",
+  "name": {
+    "zh": "莲花之光 - 第八章",
+    "en": "Light Of The Lotus - Part 8"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 45525,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45525
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "58d3db5386f77426186285a0",
+      "itemName": {
+        "zh": "M67手榴弹",
+        "en": "M67 hand grenade"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "666b11055a706400b717cfa5",
+      "itemName": {
+        "zh": "绊线布设装置",
+        "en": "Tripwire installation kit"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Skill",
+      "target": "Vitality",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "583990e32459771419544dd2",
+      "itemName": {
+        "zh": "AKS-74UN 5.45x39 短突击步枪",
+        "en": "Kalashnikov AKS-74UN 5.45x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6499849fc93611967b034949",
+      "itemName": {
+        "zh": "AK-12 5.45x39突击步枪",
+        "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ba26383d4351e00334c93d9",
+      "itemName": {
+        "zh": "HK MP7A1 4.6x30 微型冲锋枪",
+        "en": "HK MP7A1 4.6x30 submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "说到抢先行动……\n在你完成上一次的任务后，我便派了一些人去那里，结果发现那里满是Scav和PMC，用“战区”来形容都显得太轻松了，虽然确实如此。\n\n好吧，有兴趣再接一单任务吗？我需要你去清理总部周围的任何人，我们需要转移人们对这个地方的注意力，不能让他们趁机拿走我们需要的东西。",
+    "en": "Speaking of people getting curious...\nI sent out a few people out there after you came back from your last job and the place was filled with bandits and operators, a \"warzone\" would be an understatement even tho it's describing it pretty well.\n\nWell, interested in another job? You'll need to clear out the HQ grounds from anyone you can see, we need to move away the attention from this place, we can't let people get away with more things that we need."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674763ebeceb4fed8a506543",
+      "name": {
+        "zh": "莲花之光 - 第七章",
+        "en": "Light Of The Lotus - Part 7"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674765571af3e5be54af699a",
+      "name": {
+        "zh": "莲花之光 - 第九章",
+        "en": "Light Of The Lotus - Part 9"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_8.png",
+  "isKey": false
+}

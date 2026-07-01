@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -73,7 +77,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 5,
+      "value": 1,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -85,7 +89,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "54491c4f4bdc2db1078b4568"
       ],

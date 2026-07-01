@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -50,15 +54,14 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 2,
+      "value": 1,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
           "zh": "AnyPmc",
           "en": "AnyPmc"
         }
-      },
-      "location": "Woods"
+      }
     }
   ],
   "prerequisites": [

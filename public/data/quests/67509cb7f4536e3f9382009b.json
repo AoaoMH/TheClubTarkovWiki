@@ -1,0 +1,157 @@
+{
+  "id": "67509cb7f4536e3f9382009b",
+  "name": {
+    "zh": "黑色星期五",
+    "en": "Black Friday"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 37180,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 37180
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5734779624597737e04bf329",
+      "itemName": {
+        "zh": "CPU风扇",
+        "en": "CPU fan"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e36c6f86f774176c10a2a7",
+      "itemName": {
+        "zh": "电源线",
+        "en": "Power cord"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6571bde39837cc51b800c212",
+      "itemName": {
+        "zh": "幽灵半面巾",
+        "en": "Ghost half-mask"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d4aaa73a4b9365392071175",
+      "itemName": {
+        "zh": "TDI AKM-L 护木（电镀棕）",
+        "en": "AK TDI AKM-L handguard (Anodized Bronze)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d4aaa54a4b9365392071170",
+      "itemName": {
+        "zh": "TDI AKM-L 护木（电镀红）",
+        "en": "AK TDI AKM-L handguard (Anodized Red)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，听我说，我有个重要的事情可以让我们双方都受益，坐下来听一听。\n\n这么大的商场肯定有几家卖贵重物品的店铺，比如珠宝店或者...电子产品。你可能已经注意到，塔科夫这里的电脑配件和电子产品特别值钱，尤其是大量采购的时候。\n\n这正是我们想要的东西。现在你只需要帮我找到一些科技商店，Arshavir已经给了我一个四家店铺的清单，找到它们然后向我汇报，就这么简单。就像完成这份工作后拿到报酬一样简单，我等你的好消息。",
+    "en": "Hey listen up, I got something important where both of us could profit from, take a seat.\n\nSo, a mall of that size surely has some stores that sell something valuable, like jewelry or in this case... electronics. You probably noticed how valuable pc parts and electronics are here in Tarkov, especially in large quantities.\n\nThat's what we are after, the only thing you have to do for me now is to locate a few of these tech-stores, Arshavir gave me a list of four stores, locate them and then report back to me, simple right? Almost as simple as the payment for this job, I'll hear from you."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_techlight",
+      "targetNames": {
+        "lotus_interchange_techlight": {
+          "zh": "lotus_interchange_techlight",
+          "en": "lotus_interchange_techlight"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_texho",
+      "targetNames": {
+        "lotus_interchange_texho": {
+          "zh": "lotus_interchange_texho",
+          "en": "lotus_interchange_texho"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_rasmussen",
+      "targetNames": {
+        "lotus_interchange_rasmussen": {
+          "zh": "lotus_interchange_rasmussen",
+          "en": "lotus_interchange_rasmussen"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_german",
+      "targetNames": {
+        "lotus_interchange_german": {
+          "zh": "lotus_interchange_german",
+          "en": "lotus_interchange_german"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67509c43d96ffa5a7187c025",
+      "name": {
+        "zh": "购物狂欢",
+        "en": "Shopping Spree"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67509d5ecf08e0fbf1764f36",
+      "name": {
+        "zh": "ULTRA 之尤",
+        "en": "Silence At ULTRA"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_techlight.png",
+  "isKey": false
+}

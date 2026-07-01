@@ -1,0 +1,251 @@
+{
+  "id": "6796764b2cf9f076f16717d4",
+  "name": {
+    "zh": "伪造现场 - 第一章",
+    "en": "Planting The Evidence - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 850,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 850
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "590a3cd386f77436f20848cb",
+      "itemName": {
+        "zh": "节能灯泡",
+        "en": "Energy-saving lamp"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d1b392c86f77425243e98fe",
+      "itemName": {
+        "zh": "电灯泡",
+        "en": "Light bulb"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c066e3a0db834001b7353f0",
+      "itemName": {
+        "zh": "Armasight N-15夜视仪",
+        "en": "Armasight N-15 night vision goggles"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c94bbff86f7747ee735c08f",
+      "itemName": {
+        "zh": "TerraGroup实验室访问钥匙卡 ★",
+        "en": "TerraGroup Labs access keycard"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "CovertMovement",
+      "value": 25
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c1cd46f2e22164bef5cfedb",
+      "itemName": {
+        "zh": "Zenit RK-1 B-25U基座前握把 ☆",
+        "en": "Zenit RK-1 tactical foregrip on B-25U mount"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c07c60e0db834002330051f",
+      "itemName": {
+        "zh": "ADAR 2-15 .223 卡宾枪",
+        "en": "ADAR 2-15 5.56x45 carbine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我们得动作快点，最近风声已经传出去了。\n\n我有个朋友正在处理另一件事，可能还要点时间。但这段时间里我们不能闲着。\n\n既然诱饵已经扔出去了，我们不能坐等鱼儿上钩，要尽快抹去所有能追查到我们的痕迹。最聪明的办法是把我们用过的装备全都藏进Sanitar在疗养院的办公室里。你能搞定吗？别忘了，还是那句话，不能碰Sanitar那帮人。",
+    "en": "Moving on, we have to act fast, the news spread quickly you know?\n\nI got a friend working on something else as we speak, that might take some time but while that is happening we can still work on something else.\n\nNow that we threw out the bait we can't just wait for the fish to take a bite, we have to get rid of all the traces that could lead back to us, so we get rid of the evidence. The smartest thing to do right now is probably to stash all the gear you used inside Sanitar's office at the health resort. Can you manage it? But make sure not to hurt this gang again."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "place_meh_sanitar_room",
+      "targetNames": {
+        "place_meh_sanitar_room": {
+          "zh": "place_meh_sanitar_room",
+          "en": "place_meh_sanitar_room"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "5e4ac41886f77406a511c9a8",
+        "5d5d87f786f77427997cfaef"
+      ],
+      "targetNames": {
+        "5e4ac41886f77406a511c9a8": {
+          "zh": "Ars Arma CPC MOD.1 插板胸挂（A-TACS FG 迷彩）",
+          "en": "Ars Arma CPC MOD.1 plate carrier (A-TACS FG)"
+        },
+        "5d5d87f786f77427997cfaef": {
+          "zh": "Ars Arma A18 Skanda 插板胸挂（复合迷彩）",
+          "en": "Ars Arma A18 Skanda plate carrier (MultiCam)"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "5e00c1ad86f774747333222c",
+        "5e01ef6886f77445f643baa4"
+      ],
+      "targetNames": {
+        "5e00c1ad86f774747333222c": {
+          "zh": "Team Wendy EXFIL 防弹头盔（黑色）",
+          "en": "Team Wendy EXFIL Ballistic Helmet (Black)"
+        },
+        "5e01ef6886f77445f643baa4": {
+          "zh": "Team Wendy EXFIL 防弹头盔（棕褐色）",
+          "en": "Team Wendy EXFIL Ballistic Helmet (Coyote Brown)"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "651450ce0e00edc794068371",
+        "644674a13d52156624001fbc",
+        "645e0c6b3b381ede770e1cc9",
+        "57c44b372459772d2b39b8ce",
+        "57838ad32459774a17445cd2"
+      ],
+      "targetNames": {
+        "651450ce0e00edc794068371": {
+          "zh": "SR-3M 9x39紧凑型突击步枪",
+          "en": "SR-3M 9x39 compact assault rifle"
+        },
+        "644674a13d52156624001fbc": {
+          "zh": "KBP 9A-91 9x39紧凑型突击步枪",
+          "en": "KBP 9A-91 9x39 compact assault rifle"
+        },
+        "645e0c6b3b381ede770e1cc9": {
+          "zh": "KBP VSK-94 9x39步枪",
+          "en": "KBP VSK-94 9x39 rifle"
+        },
+        "57c44b372459772d2b39b8ce": {
+          "zh": "AS “巨浪” 9x39 特种突击步枪",
+          "en": "AS VAL 9x39 special assault rifle"
+        },
+        "57838ad32459774a17445cd2": {
+          "zh": "VSS “绞丝机” 特种狙击步枪 ",
+          "en": "VSS Vintorez 9x39 special sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "5ab8f85d86f7745cd93a1cf5",
+        "5b4325355acfc40019478126"
+      ],
+      "targetNames": {
+        "5ab8f85d86f7745cd93a1cf5": {
+          "zh": "提花头巾（绿色）",
+          "en": "Shemagh (Green)"
+        },
+        "5b4325355acfc40019478126": {
+          "zh": "提花头巾（黄褐色）",
+          "en": "Shemagh (Tan)"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Elimination",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossSanitar",
+        "followerSanitar"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67966e33a1a7e9077af54709",
+      "name": {
+        "zh": "打窝",
+        "en": "Throwing Out The Bait"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67967b160fcf8aff0d6447d2",
+      "name": {
+        "zh": "伪造现场 - 第二章",
+        "en": "Planting The Evidence - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_plantingevidence_1.png",
+  "isKey": false
+}

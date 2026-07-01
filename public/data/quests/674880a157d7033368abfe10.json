@@ -1,0 +1,208 @@
+{
+  "id": "674880a157d7033368abfe10",
+  "name": {
+    "zh": "登山者",
+    "en": "Alpinist"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Multi",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 25000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 175250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 175250
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b33a686f7742523398398",
+      "itemName": {
+        "zh": "纯净水",
+        "en": "Canister with purified water"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5aaf8a0be5b5b00015693243",
+      "itemName": {
+        "zh": "M1A 7.62x51 20发弹匣",
+        "en": "M1A 7.62x51 20-round magazine"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "648984e3f09d032aa9399d53",
+      "itemName": {
+        "zh": "7.62x51mm M993弹药包（20发装）",
+        "en": "7.62x51mm M993 ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aafa857e5b5b00018480968",
+      "itemName": {
+        "zh": "春田 M1A 7.62x51 精确射手步枪",
+        "en": "Springfield Armory M1A 7.62x51 rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c12688486f77426843c7d32",
+      "itemName": {
+        "zh": "尼龙绳索",
+        "en": "Paracord"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b44cd8b86f774503d30cba2",
+      "itemName": {
+        "zh": "IOTV Gen4 防弹衣（全面防护型，复合迷彩）",
+        "en": "IOTV Gen4 body armor (Full Protection Kit, MultiCam)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0126f40db834002a125382",
+      "itemName": {
+        "zh": "Red Rebel冰镐 ★",
+        "en": "Red Rebel ice pick"
+      }
+    }
+  ],
+  "description": {
+    "zh": "那么，下一个任务。这可能对我们在未来完成LightKeeper的任务时有帮助，毕竟我们必须熟悉这些地点。你估计也已经知道了，灯塔、海岸线和储备站这些地方都是直连相通的，对吧？好吧，有些地方可能需要人们会爬上岩石和山脉来撤离。\n\n你需要找到所有符合刚才所提的条件的地方，看看它们是否可用真正的撤离，然后清除该地区附近的敌人。你可能需要一套合适的攀岩工具，但很可惜我不能直接给你提供工具报销，你得自己准备，但我想有我还一些存货。还是有点小贵的。你能搞得定吗？",
+    "en": "So, next job. This might help us out with lightkeeper in the future, after all we gotta be familiar with the locations. You are already aware that cape Dalniy, the Azure coast and the military base are all directly connected, correct? Well there are spots where people climb the rocks and mountains to exfil.\n\nYou need to find all the places, check out if they are usable, and then clear out the area from hostiles. You might need the correct tools for it, I won't be able to give them to you right now, however I think we got some in stock. They have their price tho. Can you manage it?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_cliffdescent",
+      "targetNames": {
+        "lotus_reserve_cliffdescent": {
+          "zh": "lotus_reserve_cliffdescent",
+          "en": "lotus_reserve_cliffdescent"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_shoreline_climberstrail",
+      "targetNames": {
+        "lotus_shoreline_climberstrail": {
+          "zh": "lotus_shoreline_climberstrail",
+          "en": "lotus_shoreline_climberstrail"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_mountainpass",
+      "targetNames": {
+        "lotus_lighthouse_mountainpass": {
+          "zh": "lotus_lighthouse_mountainpass",
+          "en": "lotus_lighthouse_mountainpass"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747b5ed539d24e909acae8f",
+      "name": {
+        "zh": "莲花之光 - 第十八章",
+        "en": "Light Of The Lotus - Part 18"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_alpinist.png",
+  "isKey": false
+}

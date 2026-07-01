@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -50,7 +54,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: HealthBuff",
-      "value": 10,
+      "value": 2,
       "target": [
         "Buffs_Frostbite"
       ],

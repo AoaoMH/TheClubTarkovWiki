@@ -1,0 +1,93 @@
+{
+  "id": "66c021dc9289486ef682c2e4",
+  "name": {
+    "zh": "PMC特训：地毯式搜刮 - 第二章",
+    "en": "PMC Training - Looter - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3950
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 12750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 12750
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "618bb76513f5097c8d5aa2d5",
+      "itemName": {
+        "zh": "Gruppa 99 T20背包（茶褐色）",
+        "en": "Gruppa 99 T20 backpack (Umber Brown)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "619cf0335771dd3c390269ae",
+      "itemName": {
+        "zh": "Gruppa 99 T20背包 （复合迷彩）",
+        "en": "Gruppa 99 T20 backpack (MultiCam)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "所以，尊敬的\"Scav先生\"，想要再赚点装备吗？我确信你需要一种新的方法从而能够在战局中带出更多的东西，提升你的专注和搜索技能，我的商店库存中还有一些你感兴趣的东西。记住，凡事都有代价。祝你好运。",
+    "en": "So, Mister \"Scav\", wanna earn yourself some more gear? I'm sure you will need a way to carry more stuff out of your raids, improve your skills on how to loot and scavange, there are still a few items in our stock that might be of interest to you. Remember, everything has it's price. Good luck out there."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Attention",
+      "value": 5,
+      "target": "Attention"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: Search",
+      "value": 3,
+      "target": "Search"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747be6cac417a049759b0a8",
+      "name": {
+        "zh": "PMC特训：地毯式搜刮 - 第一章",
+        "en": "PMC Training - Looter - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c155ada8d7150863c89499",
+      "name": {
+        "zh": "PMC特训：地毯式搜刮 - 第三章",
+        "en": "PMC Training - Looter - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_loot.png",
+  "isKey": false
+}

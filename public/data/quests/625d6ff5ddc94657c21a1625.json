@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -30,7 +34,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 4,
+      "value": 1,
       "target": [
         "6389c70ca33d8c4cdf4932c6"
       ],
@@ -45,14 +49,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 4,
+      "value": 1,
       "target": [
         "5c052f6886f7746b1e3db148"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c052f6886f7746b1e3db148": {
-          "zh": "军用COFDM无线信号发射器",
+          "zh": "军用COFDM无线信号发射器 ☆",
           "en": "Military COFDM Wireless Signal Transmitter"
         }
       }
@@ -60,7 +64,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 4,
+      "value": 1,
       "target": [
         "590a3efd86f77437d351a25b"
       ],
@@ -75,7 +79,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 4,
+      "value": 1,
       "target": [
         "56742c324bdc2d150f8b456d"
       ],
@@ -187,6 +191,13 @@
       "name": {
         "zh": "网络供应商 - 2",
         "en": "Network Provider - Part 2"
+      }
+    },
+    {
+      "id": "680e21a059d722e8adfef054",
+      "name": {
+        "zh": "让我们讨论下一步",
+        "en": "Let's Discuss What's Next"
       }
     }
   ],

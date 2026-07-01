@@ -1,0 +1,124 @@
+{
+  "id": "6799286d2c0cbcd521bf44dd",
+  "name": {
+    "zh": "有趣的机遇",
+    "en": "An Interesting Opportunity"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 32950,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 32950
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "576165642459773c7a400233",
+      "itemName": {
+        "zh": "Saiga-12K ver.10 12铅径半自动霰弹枪",
+        "en": "Saiga-12K ver.10 12ga semi-automatic shotgun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c127c4486f7745625356c13",
+      "itemName": {
+        "zh": "弹匣箱",
+        "en": "Magazine case"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你找到的那封信上写着……“联系技师，需要紧急帮助！”\n是说的那个Arsenyevich吗？也就是大家叫的“技师”？\n看样子只有一个办法能确认了。我想他还藏在工厂某个地下掩体或者储藏室里？你应该知道他在哪。\n\n把这封信带过去，放在他藏身处门前一个只有他自己会看到的位置，记住，这家伙在四周装了摄像头，阴得很……\n如果你把信弄丢了，我会派人把另一份副本藏回你上次找到的位置。明白？",
+    "en": "Okay, so this letter you found had this written on it... \"Contact the mechanic, need help ASAP!\".\nMight they mean Arsenyevich? The \"Mechanic\"?\nSeems like there's only one way to find out. I believe he is still hiding somewhere inside the factory, in one of the basement bunkers or storage rooms perhaps? I'm sure you already know where to find him.\n\nTake this letter and bring it to him, stash it infront of his hideout where nobody except for him sees it, keep in mind this guy has cameras everywhere, creepy...\nJust in case you lose the letter, I will send someone out to stash another copy exactly where you found it last time. Copy?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_factory_mechanic_hideout",
+      "targetNames": {
+        "lotus_factory_mechanic_hideout": {
+          "zh": "lotus_factory_mechanic_hideout",
+          "en": "lotus_factory_mechanic_hideout"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "591093bb86f7747caa7bb2ee"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591093bb86f7747caa7bb2ee": {
+          "zh": "封口信件",
+          "en": "Sealed letter"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "591093bb86f7747caa7bb2ee"
+      ],
+      "targetNames": {
+        "591093bb86f7747caa7bb2ee": {
+          "zh": "封口信件",
+          "en": "Sealed letter"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67990658c4c1cec1f75c13ba",
+      "name": {
+        "zh": "意外的发现",
+        "en": "A Surprising Find"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "679a16f9588df6cd38f9de8d",
+      "name": {
+        "zh": "另一个线索",
+        "en": "Another Clue"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_mechanics_hideout.png",
+  "isKey": false
+}

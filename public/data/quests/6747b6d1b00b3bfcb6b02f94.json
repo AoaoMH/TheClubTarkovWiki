@@ -1,0 +1,171 @@
+{
+  "id": "6747b6d1b00b3bfcb6b02f94",
+  "name": {
+    "zh": "莲花之光 - 第十九章",
+    "en": "Light Of The Lotus - Part 19"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "5704e4dad2720bb55b8b4567",
+  "locationName": {
+    "zh": "储备站",
+    "en": "Reserve"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 75250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75250
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "63a3a93f8a56922e82001f5d",
+      "itemName": {
+        "zh": "废弃工厂符号钥匙 ★",
+        "en": "Abandoned factory marked key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "6570254fcfc010a0f5006a22",
+      "itemName": {
+        "zh": "7.62x51 M61弹药包（20发装）",
+        "en": "7.62x51mm M61 ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Skill",
+      "target": "Sniper",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "DMR",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a367e5dc4a282000e49738f",
+      "itemName": {
+        "zh": "雷明顿 R11 RSASS 7.62x51 精确射手步枪 ☆",
+        "en": "Remington R11 RSASS 7.62x51 marksman rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5df8ce05b11454561e39243b",
+      "itemName": {
+        "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪 ★",
+        "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a6086ea4f39f99cd479502f",
+      "itemName": {
+        "zh": "7.62x51毫米 M61",
+        "en": "7.62x51mm M61"
+      }
+    }
+  ],
+  "description": {
+    "zh": "士兵，你还记得塔中的那个人吗？嗯，他自称为LightKeeper，能够看到每个人和每件事。他似乎对我的存在并不感兴趣，我不知道为什么，但我们需要调查清楚。我已经知道你和Mechanic在合作，而Mechanic又正在试图与LightKeeper合作。我猜他已经向你寻求帮助了？\n\n别担心，我不会干涉。不过，我需要你做件事。你需要去检查通往他岛上的那座桥的大门，我听说过一些关于过桥时发生的死人传闻，所以建议你最好别尝试过桥。别忘了在大门旁边放置摄像头，我想看看是谁在进入和离开那个岛。\n\n接下来你需要清理该地区的PMC，以转移LightKeeper和Mechanic的注意力。使用专业装备，某种高口径且精准的武器……\n\n我在想SR-25或RSASS，用过吗？希望你用过，因为你会需要这些武器的使用经验。祝你好运，士兵。",
+    "en": "Soldier do you remember the man in the tower? Well he calls himself lightkeeper, who sees everyone and everything. Well he does not seem too excited about my presense, I don't know why but we need to investigate that, I already know you and mechanic are working together, and mechanic is trying to work with lightkeeper. I am guessing he asked you for help?\nDon't worry, I won't stop you. I need something from you however, you need to check out the gate of the bridge that leads to his island, I heard the rumors about bad things happening when crossing the bridge, so I advise you to avoid crossing it. Don't forget to put down a camera next to the gate, I want to see who and what is leaving and entering that island.\nNow the next thing you should do is clear out the area from operators, to distract lightkeeper and his guards. Use professional equipment, something high caliber and precise...\nI was thinking of a SR-25 or RSASS, are you familiar with these? I hope so, because you will need the experience with those weapons. Good luck soldier."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_islandbridge",
+      "targetNames": {
+        "lotus_lighthouse_islandbridge": {
+          "zh": "lotus_lighthouse_islandbridge",
+          "en": "lotus_lighthouse_islandbridge"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "5a367e5dc4a282000e49738f",
+        "5df8ce05b11454561e39243b"
+      ],
+      "weaponNames": {
+        "5a367e5dc4a282000e49738f": {
+          "zh": "雷明顿 R11 RSASS 7.62x51 精确射手步枪 ☆",
+          "en": "Remington R11 RSASS 7.62x51 marksman rifle"
+        },
+        "5df8ce05b11454561e39243b": {
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪 ★",
+          "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747b5ed539d24e909acae8f",
+      "name": {
+        "zh": "莲花之光 - 第十八章",
+        "en": "Light Of The Lotus - Part 18"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747b877505baa44d501d079",
+      "name": {
+        "zh": "莲花之光 - 第二十章",
+        "en": "Light Of The Lotus - Part 20"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_19.png",
+  "isKey": false
+}

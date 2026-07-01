@@ -1,0 +1,165 @@
+{
+  "id": "66c249657e6d87ebf458f0bf",
+  "name": {
+    "zh": "PMC特训：突击兵 - 第五章",
+    "en": "PMC Training - Infantry - Part 5"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11530
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 24950,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 24950
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "57838f0b2459774a256959b2",
+      "itemName": {
+        "zh": "VSS/VAL 9x39 6L24 10发弹匣",
+        "en": "VSS/VAL 9x39 6L24 10-round magazine"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5c12619186f7743f871c8a32",
+      "itemName": {
+        "zh": "9x39mm 7N9 SPP弹药包（8发装）",
+        "en": "9x39mm SPP gs ammo pack (8 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57838ad32459774a17445cd2",
+      "itemName": {
+        "zh": "VSS “绞丝机” 特种狙击步枪 ",
+        "en": "VSS Vintorez 9x39 special sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "657023f81419851aef03e6f1",
+      "itemName": {
+        "zh": ".366 TKM AP-M弹药包（20发装） ☆",
+        "en": ".366 TKM AP-M ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "619636be6db0f2477964e710",
+      "itemName": {
+        "zh": ".300 AAC Blackout M62曳光弹",
+        "en": ".300 Blackout M62 Tracer"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0d668f86f7747ccb7f13b2",
+      "itemName": {
+        "zh": "9x39毫米 7N9 SPP",
+        "en": "9x39mm SPP gs"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f0596629e22f464da6bbdd9",
+      "itemName": {
+        "zh": ".366 AP",
+        "en": ".366 TKM AP-M"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，我有没有告诉过你关于Mechanic做的定制子弹的事儿？.366 TKM AO穿甲弹，我能为你在我的商店这儿给你购买权限，当然，前提是要你有足够的钱才行。现在是时候再来个小挑战了，训练你的技能，我是说所有的技能。然后用.366 TKM口径的枪干掉些人，完成后回来找我。",
+    "en": "Hey did I tell you about the custom-made bullets from the Mechanic? Armor-piercing .366 TKM rounds, and I opened access for you in our stock, as long as you got the money of course. Now to the little challenge again, train your skills, and I mean all of them. Then shoot up a bunch of guys with guns chambered in .366 TKM, and after you're done come back."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Assault",
+      "value": 10,
+      "target": "Assault"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: AimDrills",
+      "value": 8,
+      "target": "AimDrills"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: MagDrills",
+      "value": 6,
+      "target": "MagDrills"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5de652c31b7e3716273428be",
+        "59e6687d86f77411d949b251"
+      ],
+      "weaponNames": {
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "59e6687d86f77411d949b251": {
+          "zh": "Vepr AKM / VPO-209 .366TKM 卡宾枪",
+          "en": "Molot Arms VPO-209 .366 TKM carbine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66c24845a671c1a1aa170372",
+      "name": {
+        "zh": "PMC特训：突击兵 - 第四章",
+        "en": "PMC Training - Infantry - Part 4"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_training_infantry.png",
+  "isKey": false
+}

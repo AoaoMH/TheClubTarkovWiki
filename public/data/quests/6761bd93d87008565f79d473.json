@@ -1,0 +1,234 @@
+{
+  "id": "6761bd93d87008565f79d473",
+  "name": {
+    "zh": "工具之道 - 第十三章",
+    "en": "Tools To Work With - Part 13"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 195520,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 195520
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "66b37ea4c5d72b0277488439",
+      "itemName": {
+        "zh": "Tamatthi 苦无飞刀（仿制品）",
+        "en": "Tamatthi kunai knife replica"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "5c1260dc86f7746b106e8748",
+      "itemName": {
+        "zh": "9x39mm 7N12 BP子弹（8发装）",
+        "en": "9x39mm BP gs ammo pack (8 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 20
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57c44b372459772d2b39b8ce",
+      "itemName": {
+        "zh": "AS “巨浪” 9x39 特种突击步枪",
+        "en": "AS VAL 9x39 special assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57838ad32459774a17445cd2",
+      "itemName": {
+        "zh": "VSS “绞丝机” 特种狙击步枪 ",
+        "en": "VSS Vintorez 9x39 special sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a69a2ed8dc32e000d46d1f1",
+      "itemName": {
+        "zh": "AS VAL Rotor 43 手枪式握把附缓冲管转接器",
+        "en": "AS VAL Rotor 43 pistol grip with buffer tube"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57c44b372459772d2b39b8ce",
+      "itemName": {
+        "zh": "AS “巨浪” 9x39 特种突击步枪",
+        "en": "AS VAL 9x39 special assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你有没有发现，现在这些特殊武器特别吃香？尤其是 9x39 的，比如 AS VAL 和 VSS。\n\n刚好有人下单了。我要一把 AS VAL 突击步枪和一把 VSS 精确射手步枪。AS VAL 要配 XHP35 手电和反射瞄具，弹容量要有 30 发以上；VSS 至少要能打 1000 米，装 DBAL-PL 激光器，弹容量不少于 10 发。细节都写下来了。\n\nAS VAL 要求：\n - 后坐力总和小于 215\n - 重量小于 3.2 公斤\n - 人机功效 61 或更高\n - 耐久度至少 95 %\n - 弹匣容量 30 或更多\n - 任意 准直式瞄具\n - Armytek Predator Pro v3 XHP35 HI手电\n\nVSS Vintorez 要求：\n - 后坐力总和小于 225\n - 重量小于 3.5 公斤\n - 人机功效 52 或更高\n - 耐久度至少 95 %\n - 弹匣容量 10 或更多\n - “射击场”距离 1000米 或更多\n - Steiner Dbal PL战术装置",
+    "en": "Special weapons seem to be very popular around here, have you noticed? Weapons chambered in 9x39 like the AS VAL and VSS, speaking of...\n\nAnother order came in, so feel free to help out. I need a VAL assault rifle and a Vintorez DMR. the AS VAL needs a XHP35 flashlight and a reflex sight, and should hold at least thirty rounds, the VSS should hold at least ten rounds, have a DBAL-PL laser and should be able to take a shot from at least a thousand meters, further specifics will be written down again.\n\nAS VAL Requirements :\n - Recoil Sum less than 215\n - Weight less than 3.2 KG\n - Ergonomics 61 or higher\n - Durability higher than 95 %\n - Magazine Capacity of 30 or more\n - A Collimator\n - Armytek Predator Pro v3 XHP35 HI Flashlight\n\nVSS Vintorez Requirements :\n - Recoil Sum less than 225\n - Weight less than 3.5 KG\n - Ergonomics 52 or higher\n - Durability higher than 95 %\n - Magazine Capacity of 10 or more\n - Sighting Range of 1000 Meters or more\n - Steiner DBAL-PL Tactical Device"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "57c44b372459772d2b39b8ce"
+      ],
+      "targetNames": {
+        "57c44b372459772d2b39b8ce": {
+          "zh": "AS “巨浪” 9x39 特种突击步枪",
+          "en": "AS VAL 9x39 special assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 61
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 215
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 95
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 3.2
+        }
+      ],
+      "requiredItems": [
+        "59d790f486f77403cb06aec6"
+      ],
+      "requiredItemNames": {
+        "59d790f486f77403cb06aec6": {
+          "zh": "Armytek Predator Pro v3 XHP35 HI手电",
+          "en": "Armytek Predator Pro v3 XHP35 HI flashlight"
+        }
+      },
+      "requiredCategories": [
+        "55818ad54bdc2ddc698b4569"
+      ],
+      "requiredCategoryNames": {
+        "55818ad54bdc2ddc698b4569": {
+          "zh": "反射式瞄具",
+          "en": "Reflex sight"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "57838ad32459774a17445cd2"
+      ],
+      "targetNames": {
+        "57838ad32459774a17445cd2": {
+          "zh": "VSS “绞丝机” 特种狙击步枪 ",
+          "en": "VSS Vintorez 9x39 special sniper rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 52
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 225
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 1000
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 95
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 10
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 3.5
+        }
+      ],
+      "requiredItems": [
+        "5d2369418abbc306c62e0c80"
+      ],
+      "requiredItemNames": {
+        "5d2369418abbc306c62e0c80": {
+          "zh": "Steiner Dbal PL战术装置",
+          "en": "Steiner DBAL-PL tactical device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6761ba4e01c1c7be63671968",
+      "name": {
+        "zh": "工具之道 - 第十二章",
+        "en": "Tools To Work With - Part 12"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6761c02c5d4826402dd81b96",
+      "name": {
+        "zh": "工具之道 - 第十四章",
+        "en": "Tools To Work With - Part 14"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_13.png",
+  "isKey": false
+}

@@ -1,0 +1,154 @@
+{
+  "id": "6816279e5c48eee9720f64be",
+  "name": {
+    "zh": "总是想惹点麻烦",
+    "en": "Always In The Mood For Some Trouble"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Completion",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 95500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 95500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a7c4850e899ef00150be885",
+      "itemName": {
+        "zh": "6B47 Ratnik-BSh 头盔（橄榄绿）",
+        "en": "6B47 Ratnik-BSh helmet (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e51be86f774598e797894",
+      "itemName": {
+        "zh": "6B13 突击甲（丛林迷彩）",
+        "en": "6B13 assault armor (Flora)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "64ace9f9c4eda9354b0226aa",
+      "itemName": {
+        "zh": "7.62x39mm PP gzh弹药包（20发装） ☆",
+        "en": "7.62x39mm PP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ac66d2e5acfc43b321d4b53",
+      "itemName": {
+        "zh": "AK-103 7.62x39 突击步枪",
+        "en": "Kalashnikov AK-103 7.62x39 assault rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "63737f448b28897f2802b874",
+      "itemName": {
+        "zh": "Hexatac HPC 插板背心（黑系复合迷彩）",
+        "en": "Hexatac HPC Plate Carrier (MultiCam Black)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e023cf8186a883be655e54f",
+      "itemName": {
+        "zh": "7.62x54R T-46M",
+        "en": "7.62x54mm R T-46M gzh"
+      }
+    }
+  ],
+  "description": {
+    "zh": "那么BTR司机把一切都向你解释清楚了吗？太好了。到目前为止，我们所知道的关于Ref的一切给了我一些想法——你看，他的人和Glukhar的团伙一起工作。这就是你要制造一些骚动的地方，让我解释一下计划。\n\n找到这些人，就攻击他们，我建议你从远处做，他们配合得很好，在他们的环境中可以很快把你搞得一团糟，只要确保别碰团伙头目。",
+    "en": "So did the BTR driver explain everything to you? Excellent. Everything we know so far about Ref gave me a few ideas - You see, his people work together with Glukhar's gang. That's where you will cause some distress, let me explain the plan.\n\nLocate these people and just attack them, I suggest you do that from a distance, they are well coordinated and can really mess you up quickly in their environment, just make sure to leave the gang leader alone."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Shots",
+      "value": 15,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Elimination",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossGluhar"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "680390e437806877136227f6",
+      "name": {
+        "zh": "秘点",
+        "en": "Dead Drop"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68162986c103ecdd90256073",
+      "name": {
+        "zh": "保持联系",
+        "en": "Keeping Connections"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_always_in_the_mood_for_trouble.png",
+  "isKey": false
+}

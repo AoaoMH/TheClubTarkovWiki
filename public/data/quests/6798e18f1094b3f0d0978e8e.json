@@ -1,0 +1,95 @@
+{
+  "id": "6798e18f1094b3f0d0978e8e",
+  "name": {
+    "zh": "情报需求",
+    "en": "Information Wanted"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Loyalty",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Skill",
+      "target": "Charisma",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "628b5638ad252a16da6dd245",
+      "itemName": {
+        "zh": "SAG AK-545 5.45x39卡宾枪",
+        "en": "SAG AK-545 5.45x39 carbine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "628b9c37a733087d0d7fe84b",
+      "itemName": {
+        "zh": "SAG AK-545 5.45x39截短卡宾枪",
+        "en": "SAG AK-545 Short 5.45x39 carbine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，那我们不如四处打听一下。也许商人们知道些什么。\n不过别去问那些不太靠谱的家伙，他们靠不住。\n\n我们跟 Arshavir(Prapor) 还有 Pavel Yegorovich(Jaeger) 关系不错，也可以顺便问问那个自称“Therapist”的医生。\n你以前也替他们干过活吧？我相信他们多少会透露点有用的情报，你能搞定这事吧？",
+    "en": "Alright then, why don't we ask around. Maybe the vendors know something.\nAnd don't ask any of the shady guys, I don't think we can trust any of those.\n\nWe have good connections with Arshavir and Pavel Yegorovich, and it won't hurt to ask the doctor who calls herself \"Therapist\" aswell.\nYou worked for all these people before right? I'm sure they'll at least tell you something useful, can you manage that?"
+  },
+  "objectives": [
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 2,
+      "target": "54cb50c76803fa8b248b4571"
+    },
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 2,
+      "target": "54cb57776803fa99248b456e"
+    },
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 2,
+      "target": "5c0647fdd443bc2504c2d371"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6798d8529b81f1d84eac7c67",
+      "name": {
+        "zh": "更进一步",
+        "en": "One Step Closer"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67990658c4c1cec1f75c13ba",
+      "name": {
+        "zh": "意外的发现",
+        "en": "A Surprising Find"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_lotus.png",
+  "isKey": false
+}

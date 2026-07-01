@@ -1,0 +1,226 @@
+{
+  "id": "67967b160fcf8aff0d6447d2",
+  "name": {
+    "zh": "伪造现场 - 第二章",
+    "en": "Planting The Evidence - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1075,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1075
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "575146b724597720a27126d5",
+      "itemName": {
+        "zh": "一盒牛奶",
+        "en": "Pack of milk"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e3577886f774176a362503",
+      "itemName": {
+        "zh": "一包糖",
+        "en": "Pack of sugar"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60391b0fb847c71012789415",
+      "itemName": {
+        "zh": "TP-200 砖型TNT",
+        "en": "TP-200 TNT brick"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b6296d7994640992013b17",
+      "itemName": {
+        "zh": "Stich Profi V2 插板胸挂（黑色）",
+        "en": "Stich Profi Plate Carrier V2 (Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b40e1525acfc4771e1c6611",
+      "itemName": {
+        "zh": "HighCom Striker ULACH IIIA 头盔（黑色）",
+        "en": "HighCom Striker ULACH IIIA helmet (Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5df24cf80dee1b22f862e9bc",
+      "itemName": {
+        "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪 ☆",
+        "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "657b28d25f444d6dff0c6c77",
+      "itemName": {
+        "zh": "Korund-VM-K防弹插板（背部）",
+        "en": "Korund-VM-K ballistic plate (Back)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我们只有一小段时间窗口，所以打起精神听好了，准备好了吗？\n我那朋友已经搞定了，伪造了一份假情报，能把所有注意力从我们身上引开，转移到Sanitar那帮人身上，妙吧？情报已经被放进一个U盘里，藏在海关区域桥上一辆报废车辆的后备箱里。拿到后尽快撤离。\n\n接着你得前往TerraGroup集团实验室，目标是Sanitar的办公室，你需要一张门禁卡，我可以借你一张副本，但只能用一次，很脆。\n\n进了他办公室后，找到他的笔记本，可能已经插着一个U盘了，如果是那样，拔出来带给我。然后把你带来的那个装着假情报的U盘插进去，然后离开。听起来还行吧？",
+    "en": "Don't forget that we still have a small time window for this so listen up, ready?\nMy friend finished the work, forged some fake info that basically leads away all the attention from us to Sanitar's gang, awesome right? The info should be on a flas hdrive stashed inside the trunk of a broken car on a bridge somewhere in the customs area, get your hands on that flash drive and exfil.\n\nAfter you got the drive you need to head to the Terragroup laboratory, specifically to Sanitar's office, you will need a keycard but I can lend you a copy of it, it will probably break after one use, it's very fragile.\n\nWell when you're inside his office you'll have to locate his laptop, it's possible that a flash drive is still plugged into it, if that's the case, take it out and bring it to me later. Now you just need to plug in the flash drive with all the false information into his laptop and leave. Sounds like a plan, no?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c12301c86f77419522ba7e4"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5c12301c86f77419522ba7e4": {
+          "zh": "假U盘",
+          "en": "Flash drive with fake info"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "peace_027_area",
+      "targetNames": {
+        "peace_027_area": {
+          "zh": "peace_027_area",
+          "en": "peace_027_area"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5eff135be0d3331e9d282b7b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5eff135be0d3331e9d282b7b": {
+          "zh": "带有胶带记号的U盘",
+          "en": "Flash drive marked with blue tape"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5c12301c86f77419522ba7e4"
+      ],
+      "targetNames": {
+        "5c12301c86f77419522ba7e4": {
+          "zh": "假U盘",
+          "en": "Flash drive with fake info"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5eff135be0d3331e9d282b7b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5eff135be0d3331e9d282b7b": {
+          "zh": "带有胶带记号的U盘",
+          "en": "Flash drive marked with blue tape"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6796764b2cf9f076f16717d4",
+      "name": {
+        "zh": "伪造现场 - 第一章",
+        "en": "Planting The Evidence - Part 1"
+      }
+    },
+    {
+      "id": "5c0bbaa886f7746941031d82",
+      "name": {
+        "zh": "一派胡言",
+        "en": "Bullshit"
+      }
+    },
+    {
+      "id": "5edac63b930f5454f51e128b",
+      "name": {
+        "zh": "TerraGroup 雇员",
+        "en": "TerraGroup Employee"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67975be9dd6554c393ad5183",
+      "name": {
+        "zh": "无名指引",
+        "en": "Anonymous Lead"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_plantingevidence_2.png",
+  "isKey": false
+}

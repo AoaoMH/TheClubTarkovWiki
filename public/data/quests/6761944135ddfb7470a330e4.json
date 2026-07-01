@@ -1,0 +1,232 @@
+{
+  "id": "6761944135ddfb7470a330e4",
+  "name": {
+    "zh": "工具之道 - 第四章",
+    "en": "Tools To Work With - Part 4"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1950
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 97550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 97550
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657024ecc5d7d4cb4d07856d",
+      "itemName": {
+        "zh": "50发5.56x45 M856A1盒装弹药 ☆",
+        "en": "5.56x45mm M856A1 ammo pack (50 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b40e3f35acfc40016388218",
+      "itemName": {
+        "zh": "HighCom Striker ACHHC IIIA 头盔（黑色）",
+        "en": "HighCom Striker ACHHC IIIA helmet (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "656fad8c498d1b7e3e071da0",
+      "itemName": {
+        "zh": "Monoclete三级PE防弹插板",
+        "en": "Monoclete level III PE ballistic plate"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 10
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66cb05acfc40198510a10",
+      "itemName": {
+        "zh": "AK-101 5.56x45 突击步枪",
+        "en": "Kalashnikov AK-101 5.56x45 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d015acfc400180ae6e4",
+      "itemName": {
+        "zh": "AK-102 5.56x45 突击步枪",
+        "en": "Kalashnikov AK-102 5.56x45 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6130ca3fd92c473c77020dbd",
+      "itemName": {
+        "zh": "CSS AK 凸缘拉机柄",
+        "en": "AK CSS knurled charging handle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "有人一看到 5.56 NATO 的 AK 就激动得不行，挺奇怪的是吧？反正我这正好需要两把，一长一短，分别是 AK-101 和 AK-102。\n\n两个型号我都需要按我的规格改一改，有客户等着用，我会分你一部分酬劳。\n\nAK-101 要求：\n - 后坐力总和小于 250\n - 重量小于 4.7 公斤\n - 人机功效 60 或更高\n - 耐久度至少 80 %\n - 弹匣容量 40 或更多\n - 射击场 高于600\n - 任意 战术设备\n - 任意 防尘盖\n - 任意 后托\n\nAK-102 要求：\n - 后坐力总和小于 255\n - 重量小于 4.3 公斤\n - 人机功效 55 或更高\n - 耐久度至少 80 %\n - 弹匣容量 30 或更多\n - 任意 反射式瞄具\n - 任意 消音器",
+    "en": "Some people lose their mind when they see these weapons, AK rifles chambered in 5.56x45mm NATO, crazy right? Anyway, I need two of these rifles slightly modified, one more than the other. The AK-101 is the one with the long barrel, the AK-102 has the short one, you have all the specifications written down again. I need these weapons for a customer, you will receive a share of the payment.\n\nAK-101 Requirements :\n - Recoil Sum less than 250\n - Weight less than 4.7 KG\n - Ergonomics 60 or higher\n - Durability higher than 80 %\n - Magazine Capacity of 40 or more\n - Sighting Range of 600 Meters or above\n - A Tactical Device\n\nAK-102 Requirements :\n - Recoil Sum less than 255\n - Weight less than 4.3 KG\n - Ergonomics 55 or higher\n - Durability higher than 80 %\n - Magazine Capacity of 30 or more\n - A Collimator\n - A Silencer"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5ac66cb05acfc40198510a10"
+      ],
+      "targetNames": {
+        "5ac66cb05acfc40198510a10": {
+          "zh": "AK-101 5.56x45 突击步枪",
+          "en": "Kalashnikov AK-101 5.56x45 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 250
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 600
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 80
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 40
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.7
+        }
+      ],
+      "requiredCategories": [
+        "55818b164bdc2ddc698b456c"
+      ],
+      "requiredCategoryNames": {
+        "55818b164bdc2ddc698b456c": {
+          "zh": "组合式战术设备",
+          "en": "Comb. tact. device"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5ac66d015acfc400180ae6e4"
+      ],
+      "targetNames": {
+        "5ac66d015acfc400180ae6e4": {
+          "zh": "AK-102 5.56x45 突击步枪",
+          "en": "Kalashnikov AK-102 5.56x45 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 55
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 255
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 80
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.3
+        }
+      ],
+      "requiredCategories": [
+        "55818ad54bdc2ddc698b4569",
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "55818ad54bdc2ddc698b4569": {
+          "zh": "反射式瞄具",
+          "en": "Reflex sight"
+        },
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67618aad83c2ba931e036514",
+      "name": {
+        "zh": "工具之道 - 第三章",
+        "en": "Tools To Work With - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6761ab808567eefeff44ec2a",
+      "name": {
+        "zh": "工具之道 - 第五章",
+        "en": "Tools To Work With - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_4.png",
+  "isKey": false
+}

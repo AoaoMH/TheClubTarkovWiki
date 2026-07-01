@@ -1,0 +1,132 @@
+{
+  "id": "6769f36baded384a687d97a1",
+  "name": {
+    "zh": "经典依旧 - 第一章",
+    "en": "Old But Gold - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3525
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 36550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 36550
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5649ed104bdc2d3d1c8b458b",
+      "itemName": {
+        "zh": "7.62x39mm PS弹药包（20发装）",
+        "en": "7.62x39mm PS gzh ammo pack (20 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e6152586f77473dc057aa1",
+      "itemName": {
+        "zh": "Vepr KM / VPO-136 7.62x39 卡宾枪",
+        "en": "Molot Arms VPO-136 Vepr-KM 7.62x39 carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59d625f086f774661516605d",
+      "itemName": {
+        "zh": "Izhmash 7.62x39 30发AK兼容弹匣（1955后装配）",
+        "en": "AK 7.62x39 30-round magazine (issued '55 or later)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64b7af5a8532cf95ee0a0dbd",
+      "itemName": {
+        "zh": "7.62x39毫米 FMJ",
+        "en": "7.62x39mm FMJ"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊，我猜你认识 Prapor？当然认识。\n我们有个小任务给你，报酬丰厚，有兴趣吗？\n\n区域里的行动人员已经停止使用 SKS 卡宾枪了，毕竟有“更好”的选择。然而 Prapor 对此并不满意。这些武器是真正的经典，纯粹的品质。\n你得用这些步枪消灭几个目标，具体是谁并不重要，我们只需要测试它的性能。",
+    "en": "Well hello there, I assume you know Prapor? Of course.\nWe got a small task for you, we'll pay well, interested?\n\nOperators in the region stopped using the SKS Carbine, since there are \"better\" options after all, however Prapor isn't fine with that. These weapons are real classics, pure quality.\nYou gotta use one of these rifles and take down a few target, shouldn't matter which ones, we just need to test it's performance."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "574d967124597745970e7c94",
+        "587e02ff24597743df3deaeb"
+      ],
+      "weaponNames": {
+        "574d967124597745970e7c94": {
+          "zh": "西蒙诺夫 SKS 7.62x39 卡宾枪",
+          "en": "TOZ Simonov SKS 7.62x39 carbine"
+        },
+        "587e02ff24597743df3deaeb": {
+          "zh": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪",
+          "en": "Molot Arms Simonov OP-SKS 7.62x39 carbine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674720e808312fa336c68ee6",
+      "name": {
+        "zh": "燃料供给 - 第一章",
+        "en": "Fuelist - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6769f51c43d1569d59e3c397",
+      "name": {
+        "zh": "经典依旧 - 第二章",
+        "en": "Old But Gold - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_oldbutgold_sks.png",
+  "isKey": false
+}

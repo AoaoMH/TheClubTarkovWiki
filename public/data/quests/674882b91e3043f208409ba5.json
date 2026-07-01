@@ -1,0 +1,173 @@
+{
+  "id": "674882b91e3043f208409ba5",
+  "name": {
+    "zh": "USEC一样的准，BEAR一样的狠！",
+    "en": "One Shot, One Kill"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 30000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 2250,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 2250
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "6567e7681265c8a131069b0f",
+      "itemName": {
+        "zh": "SIG TANGO6T 1-6x24 30毫米瞄准镜 ☆",
+        "en": "SIG Sauer TANGO6T 1-6x24 30mm riflescope"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "6489848173c462723909a14b",
+      "itemName": {
+        "zh": ".338 Lapua Magnum AP弹药包（20发装）",
+        "en": ".338 Lapua Magnum AP ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Skill",
+      "target": "DMR",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Sniper",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fc22d7c187fea44d52eda44",
+      "itemName": {
+        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪 ★",
+        "en": "SWORD International Mk-18 .338 LM marksman rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "627e14b21713922ded6f2c15",
+      "itemName": {
+        "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
+        "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "627e14b21713922ded6f2c15",
+      "itemName": {
+        "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
+        "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "又要考验你的本事了，士兵！这次你可要做好充分准备。让我看看你对 .338 Lapua Magnum 口径的武器掌握得如何。\n这种武器威力巨大，被它击中可不是闹着玩的。不过，你还不知道具体任务是什么吧？那就仔细听好了。\n\n你的主要目标是使用 .338 口径步枪干掉几个目标，而且必须搭配 30 毫米或 34 毫米的瞄准镜来完成。另一个目标是从 250 米或更远的距离击毙几个人，这部分不需要瞄准镜。你知道该怎么做了吧？很好，完成任务后记得向我汇报。祝你好运！",
+    "en": "About to test your skills again? You better prepare soldier! Show me how good you with weapons chambered in .338 Lapua Magnum.\nThese weapons are very very powerful, you surely don't want to get hit by these. Anyway, to your task, you don't know what your job is yet, so listen carefully.\n\nYour main objective is to get rid of a few targets with .338 rifles, and you have to use a 30mm or 34mm scope while doing it. Your other objective is to take out a few people from two hundred fifty meters or more, no scope requirements for this part. You know what to do, yeah? Good, report back to me when you took care of it, good luck out there."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "627e14b21713922ded6f2c15",
+        "5fc22d7c187fea44d52eda44",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "5fc22d7c187fea44d52eda44": {
+          "zh": "SWORD International Mk-18 .338 LM 精确射手步枪 ★",
+          "en": "SWORD International Mk-18 .338 LM marksman rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "627e14b21713922ded6f2c15",
+        "5fc22d7c187fea44d52eda44",
+        "673cab3e03c6a20581028bc1"
+      ],
+      "weaponNames": {
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "5fc22d7c187fea44d52eda44": {
+          "zh": "SWORD International Mk-18 .338 LM 精确射手步枪 ★",
+          "en": "SWORD International Mk-18 .338 LM marksman rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674882212efab0d994eabacb",
+      "name": {
+        "zh": "俄罗斯蝮蛇",
+        "en": "Russian Pitviper"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_oneshotonekill.png",
+  "isKey": false
+}

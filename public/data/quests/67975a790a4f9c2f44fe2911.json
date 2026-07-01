@@ -1,0 +1,68 @@
+{
+  "id": "67975a790a4f9c2f44fe2911",
+  "name": {
+    "zh": "提交证据",
+    "en": "Providing The Evidence"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Standing",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Skill",
+      "target": "Intellect",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "Charisma",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64afdcb83efdfea28601d041",
+      "itemName": {
+        "zh": "ESAPI IV 级防弹插板",
+        "en": "ESAPI level IV ballistic plate"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好了，士兵，联合国已经介入了，你知道这意味着什么。\n我找朋友帮忙发了一些解密的信息过去，内容不多，只够让他们引起兴趣，不至于看穿全局。这时候你就派上用场了，毕竟你以前帮过Peacekeeper那家伙，他大概率会来找你，你也必须答应他——这就是计划的一部分。\n\n你要告诉他你亲眼看到Sanitar的手下穿着你之前那身装备出现在现场，然后把Sanitar办公室的钥匙和门禁卡交给他，这些我都可以提供。\n\n听起来很简单吧？如果你搞定了，这事就跟我们没关系了，别搞砸了。",
+    "en": "Alright Soldier, the UN got involved, you know what that means.\nI had a friend send decrypted messages to them that contained a bit of information, but barely enough to find the answer directly. So here is where you come in handy, since you worked for this Peacekeeper guy before he will likely ask you for help, and you will accept. Part of the plan, you know.\n\nTell him that you saw Sanitar's gang dressed up in the exact gear you were wearing earlier, and bring him the key to Sanitar's offices, I can give you the key and the keycard.\n\nSounds simple, right? This won't be our problem anymore if you succeed, so don't mess it up."
+  },
+  "objectives": [],
+  "prerequisites": [
+    {
+      "id": "67975be9dd6554c393ad5183",
+      "name": {
+        "zh": "无名指引",
+        "en": "Anonymous Lead"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67975ca4361138b7d78ff0ce",
+      "name": {
+        "zh": "问题解法",
+        "en": "One Way To Solve A Problem"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_lotus.png",
+  "isKey": false
+}

@@ -11,13 +11,17 @@
   },
   "type": "Completion",
   "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
   "rewards": [
     {
       "type": "Item",
       "value": 1,
       "itemId": "5c05308086f7746b2101e90b",
       "itemName": {
-        "zh": "Virtex可编程处理器",
+        "zh": "Virtex可编程处理器 ☆",
         "en": "Virtex programmable processor"
       },
       "quantity": 1
@@ -27,7 +31,7 @@
       "value": 1,
       "itemId": "5c05308086f7746b2101e90b",
       "itemName": {
-        "zh": "Virtex可编程处理器",
+        "zh": "Virtex可编程处理器 ☆",
         "en": "Virtex programmable processor"
       },
       "quantity": 1
@@ -36,7 +40,7 @@
       "type": "ProductionScheme",
       "itemId": "5d1b5e94d7ad1a2b865a96b0",
       "itemName": {
-        "zh": "FLIR RS-32 2.25-9x 35毫米 60Hz热成像步枪瞄准镜",
+        "zh": "FLIR RS-32 2.25-9x 35毫米 60Hz热成像步枪瞄准镜 ☆",
         "en": "FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope"
       }
     },
@@ -53,8 +57,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 20,
+      "description": "Elimination: Kills",
+      "value": 5,
       "target": "Any",
       "targetNames": {
         "Any": {
@@ -95,7 +99,7 @@
       ],
       "targetNames": {
         "5d1b376e86f774252519444e": {
-          "zh": "“凶狠跑刀崽”私酒",
+          "zh": "“凶狠跑刀崽”私酒 ☆",
           "en": "Bottle of Fierce Hatchling moonshine"
         }
       }
@@ -117,8 +121,7 @@
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "Interchange"
+      "value": 1
     }
   ],
   "prerequisites": [

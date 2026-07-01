@@ -1,0 +1,111 @@
+{
+  "id": "674867cce36d92b3c23ec4de",
+  "name": {
+    "zh": "东方联盟 - 第二章",
+    "en": "Eastern Reliability - Part 2"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4150
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 55000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 55000
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "57372c89245977685d4159b1",
+      "itemName": {
+        "zh": "5.45x39mm BT弹药包（30发装）",
+        "en": "5.45x39mm BT gs ammo pack (30 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 125
+    }
+  ],
+  "description": {
+    "zh": "来，拿着这个——一把短款 AKS-74，也就是“AKS-74U”。你们这些专业的和街头混混都挺爱用这种枪的，毕竟轻便、短小、便宜，还能用 AK-74 的弹。\n\n我猜你之前干掉的那些人里有不少都拿过这玩意儿。\n\n现在你得去海关区域测试一下，帮我一个客户搜集点数据。他特别想知道这款枪在那种环境下的具体表现，尤其是在装了 Zenit DTK-1 补偿器的配置下。\n\n听说以前有人在战斗中用它表现很差，不如你来打个样？",
+    "en": "Here take this - A short AKS-74, the \"AKS-74U\". You operators and bandits seem to love these weapons, after all they are compact, light, very cheap and uses the same caliber as the full size AK-74s.\n\nI assume you saw these weapons before, on the bandits or whoever else you killed.\nYou will need to test it in the Customs zone for a client of mine, he wants some statistics on it's performance in these kind of areas, and in specific configurations. You need to use the weapon attached with a Zenit muzzle brake, a DTK-1.\n\nPeople who had to use this in combat weren't so excited about it's performance, maybe you can prove them wrong?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "57dc2fa62459775949412633",
+        "583990e32459771419544dd2",
+        "5839a40f24597726f856b511"
+      ],
+      "weaponNames": {
+        "57dc2fa62459775949412633": {
+          "zh": "AKS-74U 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74U 5.45x39 assault rifle"
+        },
+        "583990e32459771419544dd2": {
+          "zh": "AKS-74UN 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UN 5.45x39 assault rifle"
+        },
+        "5839a40f24597726f856b511": {
+          "zh": "AKS-74UB 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UB 5.45x39 assault rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6748672b895a36c99e880f36",
+      "name": {
+        "zh": "东方联盟 - 第一章",
+        "en": "Eastern Reliability - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67486879604d84c3e3e3ddd0",
+      "name": {
+        "zh": "东方联盟 - 第三章",
+        "en": "Eastern Reliability - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_easternreliability_2_prapor.png",
+  "isKey": false
+}

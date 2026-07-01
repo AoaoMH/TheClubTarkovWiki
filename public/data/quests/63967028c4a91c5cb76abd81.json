@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "5714dc692459777137212e12",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
   "rewards": [
     {
       "type": "TraderStanding",
@@ -22,7 +26,7 @@
       "value": 1,
       "itemId": "6389c85357baa773a825b356",
       "itemName": {
-        "zh": "直流变压器",
+        "zh": "直流变压器 ☆",
         "en": "Advanced current converter"
       },
       "quantity": 1
@@ -55,7 +59,7 @@
       "type": "AssortmentUnlock",
       "itemId": "6389c85357baa773a825b356",
       "itemName": {
-        "zh": "直流变压器",
+        "zh": "直流变压器 ☆",
         "en": "Advanced current converter"
       }
     }
@@ -80,15 +84,14 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 50,
+      "value": 12,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
           "zh": "AnyPmc",
           "en": "AnyPmc"
         }
-      },
-      "location": "TarkovStreets"
+      }
     },
     {
       "type": "PlaceBeacon",
@@ -118,8 +121,7 @@
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "TarkovStreets"
+      "value": 1
     }
   ],
   "prerequisites": [

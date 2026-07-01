@@ -1,0 +1,171 @@
+{
+  "id": "67d81b374bfc36986e9e2839",
+  "name": {
+    "zh": "专业射手 - 第九章",
+    "en": "Professional Weapon Tester - Part 9"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9850
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1250,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1250
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c94bbff86f7747ee735c08f",
+      "itemName": {
+        "zh": "TerraGroup实验室访问钥匙卡 ★",
+        "en": "TerraGroup Labs access keycard"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "618ba27d9008e4636a67f61d",
+      "itemName": {
+        "zh": "Vortex Razor HD Gen.2 1-6x24步枪瞄准镜 ★",
+        "en": "Vortex Razor HD Gen.2 1-6x24 30mm riflescope"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5cff9e84d7ad1a049e54ed55",
+      "itemName": {
+        "zh": "Daniel Defence WAVE 快拆消音器",
+        "en": "Daniel Defense WAVE QD sound suppressor"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "63a399193901f439517cafb6",
+      "itemName": {
+        "zh": "车行负责人办公室钥匙 ☆",
+        "en": "Car dealership director's office room key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "63a397d3af870e651d58e65b",
+      "itemName": {
+        "zh": "车行封闭区域钥匙 ★",
+        "en": "Car dealership closed section key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6582dbf0b8d7830efc45016f",
+      "itemName": {
+        "zh": "休息室钥匙 ★",
+        "en": "Relaxation room key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 175
+    }
+  ],
+  "description": {
+    "zh": "差不多要收尾了，相信我。不过还是有活要干，当然是你干，明白？\n\n还剩 SCAR 步枪和一些机枪没测，咱们就从 SCAR 开始吧。\n\n记得装上 Daniel Defense 的 WAVE QD 消音器，适配 5.56 和 7.62 的 SCAR 都行，这就是你现在能测试的全套了。\n\n测试地点选城市区域再合适不过了，塔科夫的街区会给你足够的“目标”。你准备好了吗？",
+    "en": "Almost done, trust me. We still have some work to do, and by that I mean you have some work to do, copy?\n\nThere are the scar rifles left, and some machineguns, I'd say you start with the scar rifles.\n\nThey need to have a daniel defense WAVE QD sound suppressor attached, it works with the 5.56x45 and the 7.62x51 scar rifles, this is all the variety you're gonna get at the moment.\n\nAnyway, the weapons need to be tested in urban environments, so the city will act as the perfect testing grounds here. Are you able to do that?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "618428466ef05c2ce828f218",
+        "6184055050224f204c1da540",
+        "6165ac306ef05c2ce828ef74",
+        "6183afd850224f204c1da514",
+        "676176d362e0497044079f4c"
+      ],
+      "weaponNames": {
+        "618428466ef05c2ce828f218": {
+          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE） ★",
+          "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
+        },
+        "6184055050224f204c1da540": {
+          "zh": "FN SCAR-L 5.56x45突击步枪 ☆",
+          "en": "FN SCAR-L 5.56x45 assault rifle"
+        },
+        "6165ac306ef05c2ce828ef74": {
+          "zh": "FN SCAR-H 7.62x51 突击步枪 (FDE)",
+          "en": "FN SCAR-H 7.62x51 assault rifle (FDE)"
+        },
+        "6183afd850224f204c1da514": {
+          "zh": "FN SCAR-H 7.62x51突击步枪",
+          "en": "FN SCAR-H 7.62x51 assault rifle"
+        },
+        "676176d362e0497044079f4c": {
+          "zh": "FN SCAR-H X-17 7.62x51突击步枪",
+          "en": "FN SCAR-H X-17 7.62x51 assault rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67487fe101b59cd5f24454fb",
+      "name": {
+        "zh": "专业射手 - 第八章",
+        "en": "Professional Weapon Tester - Part 8"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67d81b808092a563867db4d4",
+      "name": {
+        "zh": "专业射手 - 第十章",
+        "en": "Professional Weapon Tester - Part 10"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_proshooter_peacekeeper_9.png",
+  "isKey": false
+}

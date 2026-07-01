@@ -1,0 +1,135 @@
+{
+  "id": "68129ced44202136962c541c",
+  "name": {
+    "zh": "破坏联系",
+    "en": "Damaging Connections"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "PickUp",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.2
+    },
+    {
+      "type": "Item",
+      "value": 165000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 165000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "6570257cc5d7d4cb4d078579",
+      "itemName": {
+        "zh": "7.62x54 R PS gzh弹药包（20发装） ☆",
+        "en": "7.62x54mm R PS gzh ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "641074a07fd350b98c0b3f96",
+      "itemName": {
+        "zh": "AVT-40 7.62x54R 15发弹匣",
+        "en": "AVT-40 7.62x54R 15-round magazine"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6410733d5dd49d77bd07847e",
+      "itemName": {
+        "zh": "Tokarev AVT-40 7.62x54R自动步枪",
+        "en": "Tokarev AVT-40 7.62x54R automatic rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62178c4d4ecf221597654e3d",
+      "itemName": {
+        "zh": "RSP-30 反应式信号弹（红色）",
+        "en": "RSP-30 reactive signal cartridge (Red)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "特遣队员，我们观察了当前的事件，现在我们决定是时候介入了。镇上一个新玩家一直在恐吓我的人——但不是直接的，你可能会问自己“怎么做到的”？嗯，很简单，他给某些人供应武器，那些和我们没有任何生意往来的人，然而他们不断攻击我们，掠夺我们的前哨站，并泄露关于贸易路线的重要信息。\n\n我们最近设法截获了他的一批货物，它被临时藏在ULTRA商场外的一个集装箱里，据我们所知，它被安全地锁起来了。我们需要切断这些供应路线。\n\n如果你能为我们解决这个问题，将会有一份巨大的奖赏等着你，别想着在这里耍花招，我们到处都有眼线，特遣队员。",
+    "en": "Mercenary, we have observed the current events, now we decided it's time to step in. A new player in town has been terrorizing my men - But not directly, you might ask yourself \"how\"? Well it's simple, he's supplying certain people with weapons, people that we don't have any business with, yet they keep attacking us, looting our outposts and leaking important information about trade routes.\n\nWe recently managed to intercept one of his shipments, it was temporarily stashed in one of the containers outside the ULTRA mall, as far as we are concerned it's locked away safe and tight. We need to cut off these supply routes.\n\nThere is a great prize waiting just for you if you managed to solve this problem for us, and don't think about making a move here, we got our eyes everywhere merc."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "671a406a6d315b526708f103"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "671a406a6d315b526708f103": {
+          "zh": "失窃的武器箱",
+          "en": "Stolen weapon case"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "671a406a6d315b526708f103"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "671a406a6d315b526708f103": {
+          "zh": "失窃的武器箱",
+          "en": "Stolen weapon case"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68129c189210aba950e5d57b",
+      "name": {
+        "zh": "看戏",
+        "en": "Watching Events Unfold"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68129eb2b43bb4d35d9f5c9a",
+      "name": {
+        "zh": "这里绝对没有陷阱",
+        "en": "Definitely No Traps In Here"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_fence.png",
+  "isKey": false
+}

@@ -5,9 +5,6 @@ export const SPT_CLIENT_PATH = 'F:\\Tarkov\\Client.0.16.9.0.40087'
 
 // Derived paths
 export const SPT_DATA_PATH = path.join(SPT_CLIENT_PATH, 'SPT', 'SPT_Data')
-export const DATABASE_PATH = path.join(SPT_DATA_PATH, 'database')
-export const TEMPLATES_PATH = path.join(DATABASE_PATH, 'templates')
-export const LOCALES_PATH = path.join(DATABASE_PATH, 'locales', 'global')
 export const MODS_PATH = path.join(SPT_CLIENT_PATH, 'SPT', 'user', 'mods')
 export const HANDBOOK_IMAGES_PATH = path.join(SPT_DATA_PATH, 'images', 'handbook')
 
@@ -16,16 +13,16 @@ export const HANDBOOK_IMAGES_PATH = path.join(SPT_DATA_PATH, 'images', 'handbook
 export const EXPORTED_DB_PATH = path.join(MODS_PATH, 'ClubWikiDataExporter', 'exportedDB')
 
 // Data files
-// Use exported Items.json from ClubWikiDataExporter mod which captures ALL runtime patches:
+// All data sourced from ClubWikiDataExporter mod's exportedDB (post all mod patches):
 // SPT server patches slot filters and adds items at runtime; our mod runs at postAkiLoad
 // with TypePriority=MaxValue to ensure it executes AFTER all other mods have patched the database.
 export const ITEMS_FILE = path.join(EXPORTED_DB_PATH, 'Items.json')
-export const HANDBOOK_FILE = path.join(TEMPLATES_PATH, 'handbook.json')
-export const LOCALE_CH_FILE = path.join(LOCALES_PATH, 'ch.json')
-export const LOCALE_EN_FILE = path.join(LOCALES_PATH, 'en.json')
-export const GLOBALS_FILE = path.join(DATABASE_PATH, 'globals.json')
-export const QUESTS_FILE = path.join(TEMPLATES_PATH, 'quests.json')
-export const TRADERS_PATH = path.join(DATABASE_PATH, 'traders')
+export const HANDBOOK_FILE = path.join(EXPORTED_DB_PATH, 'Handbook.json')
+export const LOCALE_CH_FILE = path.join(EXPORTED_DB_PATH, 'locales', 'ch.json')
+export const LOCALE_EN_FILE = path.join(EXPORTED_DB_PATH, 'locales', 'en.json')
+export const GLOBALS_FILE = path.join(EXPORTED_DB_PATH, 'Globals.json')
+export const QUESTS_FILE = path.join(EXPORTED_DB_PATH, 'Quests.json')
+export const TRADERS_PATH = path.join(EXPORTED_DB_PATH, 'traders')
 export const ITEM_PRESETS_FILE = path.join(EXPORTED_DB_PATH, 'ItemPresets.json')
 
 // SPT Server (for image download)

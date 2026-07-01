@@ -1,0 +1,148 @@
+{
+  "id": "67d81b808092a563867db4d4",
+  "name": {
+    "zh": "专业射手 - 第十章",
+    "en": "Professional Weapon Tester - Part 10"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "5b0fc42d86f7744a585f9105",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 2000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 2000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e4abb5086f77406975c9342",
+      "itemName": {
+        "zh": "LBT-6094A Slick 插板背心（黑色）",
+        "en": "LBT-6094A Slick Plate Carrier (Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b40e1525acfc4771e1c6611",
+      "itemName": {
+        "zh": "HighCom Striker ULACH IIIA 头盔（黑色）",
+        "en": "HighCom Striker ULACH IIIA helmet (Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装） ★",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "661cec09b2c6356b4d0c7a36",
+      "itemName": {
+        "zh": "U.S Ordnance M60E6 7.62x51轻机枪（FDE）",
+        "en": "U.S. Ordnance M60E6 7.62x51 light machine gun (FDE)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1e495a86f7743109743dfb",
+      "itemName": {
+        "zh": "实验室钥匙卡·紫 ★",
+        "en": "TerraGroup Labs keycard (Violet)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "MagDrills",
+      "value": 175
+    },
+    {
+      "type": "Skill",
+      "target": "LMG",
+      "value": 175
+    }
+  ],
+  "description": {
+    "zh": "最后的测试任务。\n\n我们需要测试一种特定配置的 M60 机枪，能搞定吗？它必须装上 458mm 短管以及一款 Aimpoint 的红点瞄具。\n\n带着这把枪去TerraGroup集团实验室，给我清理一下那片地方。任务完成后你会拿到报酬。记得尽快回来，咱俩说好了的。",
+    "en": "Your last test.\n\nWe need these M60 machineguns tested in a specific configuration, can you do that? It needs to have a short barrel and a reflex sight made by aimpoint.\n\nYou need to take this weapon to the Terragroup laboratory and clean up that place a little. You'll receive your payment after the job is done. Promise that I will hear from you soon?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "65fb023261d5829b2d090755",
+        "661ceb1b9311543c7104149b",
+        "661cec09b2c6356b4d0c7a36"
+      ],
+      "weaponNames": {
+        "65fb023261d5829b2d090755": {
+          "zh": "U.S Ordnance M60E4 7.62x51轻机枪",
+          "en": "U.S. Ordnance M60E4 7.62x51 light machine gun"
+        },
+        "661ceb1b9311543c7104149b": {
+          "zh": "U.S Ordnance M60E6 7.62x51轻机枪",
+          "en": "U.S. Ordnance M60E6 7.62x51 light machine gun"
+        },
+        "661cec09b2c6356b4d0c7a36": {
+          "zh": "U.S Ordnance M60E6 7.62x51轻机枪（FDE）",
+          "en": "U.S. Ordnance M60E6 7.62x51 light machine gun (FDE)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67d81b374bfc36986e9e2839",
+      "name": {
+        "zh": "专业射手 - 第九章",
+        "en": "Professional Weapon Tester - Part 9"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_proshooter_peacekeeper_10.png",
+  "isKey": false
+}

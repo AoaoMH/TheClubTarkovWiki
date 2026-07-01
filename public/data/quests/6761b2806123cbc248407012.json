@@ -1,0 +1,249 @@
+{
+  "id": "6761b2806123cbc248407012",
+  "name": {
+    "zh": "工具之道 - 第八章",
+    "en": "Tools To Work With - Part 8"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 165180,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 165180
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5b363dd25acfc4001a598fd2",
+      "itemName": {
+        "zh": "SilencerCo Osprey 12声音抑制器",
+        "en": "SilencerCo Salvo 12 12ga sound suppressor"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5cf8f3b0d7f00c00217872ef",
+      "itemName": {
+        "zh": "MaxRounds Powermag 12/76 20发SOK-12兼容武器弹匣",
+        "en": "SOK-12 12ga MaxRounds Powermag 20-round drum magazine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 15
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d6e689ca4b9361bc8618956",
+      "itemName": {
+        "zh": "“Poleva-6u” 12/70独头弹",
+        "en": "12/70 Poleva-6u slug"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "674fe9a75e51f1c47c04ec23",
+      "itemName": {
+        "zh": "Saiga-12K 12 铅径自动霰弹枪",
+        "en": "Saiga-12K 12ga automatic shotgun"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6130ca3fd92c473c77020dbd",
+      "itemName": {
+        "zh": "CSS AK 凸缘拉机柄",
+        "en": "AK CSS knurled charging handle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "576165642459773c7a400233",
+      "itemName": {
+        "zh": "Saiga-12K ver.10 12铅径半自动霰弹枪",
+        "en": "Saiga-12K ver.10 12ga semi-automatic shotgun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，伙计！我这有个新订单，需要两把 Saiga-12K，一把半自动，一把全自动。\n\n全自动那把要求至少能装 20 发，必须用定制的机匣盖，装上反射式瞄具，体积不能太大。另一把半自动的则要装独立手电，能在 200 米开火，并且有较高的人体工学。你能搞定吗？\n\nSaiga-12K Semi 要求：\n - 后坐力总和小于 625\n - 重量小于 4.6 公斤\n - 人机功效 65 或更高\n - 耐久度至少 90 %\n - 弹匣容量 10 或更多\n - “射击场”距离 200米 或更多\n - 任意 独立战术手电筒\n\nSaiga-12K Auto 要求：\n - 后坐力总和小于 445\n - 重量小于 5.5 公斤\n - 人机功效 34 或更高\n - 耐久度至少 90 %\n - 弹匣容量 20 或更多\n - 高度占用 2格 或更少\n - 任意 准直式瞄具\n - 任意 战术设备\n - SOK-12 Kiba Arms Zombie Custom Dust Cover",
+    "en": "Hey there! I got a new order, two saiga-12k shotguns - One of them needs to be fully automatic.\n\nMake sure the automatic saiga should have a magazine that holds twenty rounds or more, a custom dustcover, a reflex sight and it shouldn't be too big. The other saiga should have a normal flashlight, should be able to take a shot from two-hundred meters away or more and it should be pretty ergonomic. Can you do that?\n\nSaiga-12K Semi Requirements :\n - Recoil Sum less than 625\n - Weight less than 4.6 KG\n - Ergonomics 65 or higher\n - Durability higher than 90 %\n - Magazine Capacity of 10 or more\n - Sighting Range of 200 Meters or more\n - A Standalone Flashlight\n\nSaiga-12K Auto Requirements :\n - Recoil Sum less than 445\n - Weight less than 5.5 KG\n - Ergonomics 34 or higher\n - Durability higher than 90 %\n - Magazine Capacity of 20 or more\n - Height of 2 slots or less\n - A Collimator\n - A Tactical Device\n - SOK-12 Kiba Arms Zombie Custom Dust Cover"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "576165642459773c7a400233"
+      ],
+      "targetNames": {
+        "576165642459773c7a400233": {
+          "zh": "Saiga-12K ver.10 12铅径半自动霰弹枪",
+          "en": "Saiga-12K ver.10 12ga semi-automatic shotgun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 65
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 625
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 200
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 90
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 10
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.6
+        }
+      ],
+      "requiredCategories": [
+        "55818b084bdc2d5b648b4571"
+      ],
+      "requiredCategoryNames": {
+        "55818b084bdc2d5b648b4571": {
+          "zh": "手电筒",
+          "en": "Flashlight"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "674fe9a75e51f1c47c04ec23"
+      ],
+      "targetNames": {
+        "674fe9a75e51f1c47c04ec23": {
+          "zh": "Saiga-12K 12 铅径自动霰弹枪",
+          "en": "Saiga-12K 12ga automatic shotgun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 34
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 445
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 9
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 90
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 20
+        },
+        {
+          "stat": "height",
+          "compare": "<=",
+          "value": 2
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 5.5
+        }
+      ],
+      "requiredItems": [
+        "676017fe8cfeeba9f707c8d6"
+      ],
+      "requiredItemNames": {
+        "676017fe8cfeeba9f707c8d6": {
+          "zh": "SOK-12 Kiba Arms定制生化风格导轨防尘盖 ",
+          "en": "SOK-12 Kiba Arms Zombie Custom dust cover "
+        }
+      },
+      "requiredCategories": [
+        "55818b164bdc2ddc698b456c",
+        "55818ad54bdc2ddc698b4569"
+      ],
+      "requiredCategoryNames": {
+        "55818b164bdc2ddc698b456c": {
+          "zh": "组合式战术设备",
+          "en": "Comb. tact. device"
+        },
+        "55818ad54bdc2ddc698b4569": {
+          "zh": "反射式瞄具",
+          "en": "Reflex sight"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6761b116ffdb1b7a8a15d224",
+      "name": {
+        "zh": "工具之道 - 第七章",
+        "en": "Tools To Work With - Part 7"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6761b415c09eec912bb4de63",
+      "name": {
+        "zh": "工具之道 - 第九章",
+        "en": "Tools To Work With - Part 9"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_8.png",
+  "isKey": false
+}

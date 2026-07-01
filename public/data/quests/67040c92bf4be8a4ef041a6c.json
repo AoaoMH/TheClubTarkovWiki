@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -56,7 +60,7 @@
       "value": 1,
       "itemId": "5fc22d7c187fea44d52eda44",
       "itemName": {
-        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪",
+        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪 ★",
         "en": "SWORD International Mk-18 .338 LM marksman rifle"
       },
       "quantity": 1
@@ -70,7 +74,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 60,
+      "value": 15,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -84,13 +88,12 @@
         "infectedLaborant",
         "infectedPmc",
         "infectedTagilla"
-      ],
-      "location": "Sandbox,Sandbox_high"
+      ]
     },
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 60,
+      "value": 15,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -104,13 +107,12 @@
         "infectedPmc",
         "infectedLaborant",
         "infectedTagilla"
-      ],
-      "location": "TarkovStreets"
+      ]
     },
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 60,
+      "value": 15,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -124,8 +126,7 @@
         "infectedLaborant",
         "infectedPmc",
         "infectedTagilla"
-      ],
-      "location": "laboratory"
+      ]
     }
   ],
   "prerequisites": [

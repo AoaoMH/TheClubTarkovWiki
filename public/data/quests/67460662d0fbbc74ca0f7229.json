@@ -11,6 +11,10 @@
   },
   "type": "Multi",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -54,31 +58,27 @@
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "bigmap"
+      "value": 1
     },
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "RezervBase"
+      "value": 1
     },
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "Woods"
+      "value": 1
     },
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "Lighthouse"
+      "value": 1
     },
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 5,
+      "value": 1,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {

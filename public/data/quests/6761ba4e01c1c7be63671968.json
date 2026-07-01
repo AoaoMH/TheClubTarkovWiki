@@ -1,0 +1,247 @@
+{
+  "id": "6761ba4e01c1c7be63671968",
+  "name": {
+    "zh": "工具之道 - 第十二章",
+    "en": "Tools To Work With - Part 12"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3650
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1325,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1325
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "59e35abd86f7741778269d82",
+      "itemName": {
+        "zh": "碳酸氢钠",
+        "en": "Pack of sodium bicarbonate"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a09f32621468534a797acb",
+      "itemName": {
+        "zh": "瓶装 Pevko 淡啤酒",
+        "en": "Bottle of Pevko Light beer"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d403f9186f7743cac3f229b",
+      "itemName": {
+        "zh": "Dan Jackiel瓶装威士忌",
+        "en": "Bottle of Dan Jackiel whiskey"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 15
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "674d6121c09f69dfb201a888",
+      "itemName": {
+        "zh": "Aklys Defense 迅猛龙 .300 Blackout 突击步枪",
+        "en": "Aklys Defense Velociraptor .300 Blackout assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "628a60ae6b1d481ff772e9c8",
+      "itemName": {
+        "zh": "Rifle Dynamics RD-704 7.62x39突击步枪",
+        "en": "Rifle Dynamics RD-704 7.62x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c793fb92e221644f31bfb64",
+      "itemName": {
+        "zh": "Strike Industries 先进机匣延长缓冲管",
+        "en": "AR-15 Strike Industries Advanced Receiver Extension buffer tube"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我这儿又有新订单，你要不要再帮一把？这次是两把非常独特的枪，全是美式 AK。其中一把居然用的是 .300 blackout 子弹，离谱吧？\n\n总之，我各要一把，其中一把配置要求更多。废话少说，具体规格我写给你了，明白了吗？\n\nRD-704 要求：\n - 后坐力总和小于 260\n - 重量小于 4.9 公斤\n - 人机功效 79 或更高\n - 耐久度至少 95 %\n - 宽度占用 4格 或更少\n - “射击场”距离 600米 或更多\n - Insight WMX200战术手电\n - AN/PEQ-15战术设备\n - US Palm AK手枪式握把\n - Fab Defence PDC АК-74防尘盖\n - AK 7.62x39 FAB Defense Ultimag 30R 30发容量弹匣\n\nVelociraptor 要求：\n - 后坐力总和小于 350\n - 重量小于 3.8 公斤\n - 人机功效 74 或更高\n - 耐久度至少 95 %\n - 弹匣容量 40 或更多\n - 任意 紧凑型准直式瞄具",
+    "en": "So, new order, interested in lending a hand again? It's about two very unique guns. American-made AK rifles, one of them is chambered in .300 Blackout, how crazy is that?\n\nAnyway, I need one of each, one of which has more specific requirements, so I'll skip the explaining and just give you the specifics written down. You got that?\n\nRD-704 Requirements :\n - Recoil Sum less than 260\n - Weight less than 4.9 KG\n - Ergonomics 79 or higher\n - Durability higher than 95 %\n - Width of 4 slots or less\n - Sighting Range of 600 Meters or more\n - Insight WMX200 Tactical Flashlight\n - L3Harris AN/PEQ-15 Tactical Device\n - AK US Palm Pistol Grip\n - AK FAB Defense PDC Dust Cover\n - AK 7.62x39 FAB Defense Ultimag 30R 30-Round Magazine\n\nVelociraptor Requirements :\n - Recoil Sum less than 350\n - Weight less than 3.8 KG\n - Ergonomics 74 or higher\n - Durability higher than 95 %\n - Magazine Capacity of 40 or more\n - A Compact Collimator"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "628a60ae6b1d481ff772e9c8"
+      ],
+      "targetNames": {
+        "628a60ae6b1d481ff772e9c8": {
+          "zh": "Rifle Dynamics RD-704 7.62x39突击步枪",
+          "en": "Rifle Dynamics RD-704 7.62x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 79
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 260
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 600
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 95
+        },
+        {
+          "stat": "width",
+          "compare": "<=",
+          "value": 4
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.9
+        }
+      ],
+      "requiredItems": [
+        "6272874a6c47bd74f92e2087",
+        "5d2c770c48f0354b4a07c100",
+        "5c6bf4aa2e2216001219b0ae",
+        "544909bb4bdc2d6f028b4577",
+        "626becf9582c3e319310b837"
+      ],
+      "requiredItemNames": {
+        "6272874a6c47bd74f92e2087": {
+          "zh": "AK 7.62x39 FAB Defense Ultimag 30R 30发容量弹匣",
+          "en": "AK 7.62x39 FAB Defense Ultimag 30R 30-round magazine"
+        },
+        "5d2c770c48f0354b4a07c100": {
+          "zh": "FAB Defense PDC АК 导轨防尘盖",
+          "en": "AK FAB Defense PDC dust cover"
+        },
+        "5c6bf4aa2e2216001219b0ae": {
+          "zh": "US Palm AK手枪式握把",
+          "en": "AK US Palm pistol grip"
+        },
+        "544909bb4bdc2d6f028b4577": {
+          "zh": "L3Harris AN/PEQ-15 战术设备",
+          "en": "L3Harris AN/PEQ-15 tactical device"
+        },
+        "626becf9582c3e319310b837": {
+          "zh": "Insight WMX200战术手电",
+          "en": "Insight WMX200 tactical flashlight"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "674d6121c09f69dfb201a888"
+      ],
+      "targetNames": {
+        "674d6121c09f69dfb201a888": {
+          "zh": "Aklys Defense 迅猛龙 .300 Blackout 突击步枪",
+          "en": "Aklys Defense Velociraptor .300 Blackout assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 74
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 350
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 95
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 40
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 3.8
+        }
+      ],
+      "requiredCategories": [
+        "55818acf4bdc2dde698b456b"
+      ],
+      "requiredCategoryNames": {
+        "55818acf4bdc2dde698b456b": {
+          "zh": "紧凑型反射式瞄具",
+          "en": "Compact reflex sight"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6761b7767e572e2e09758ad0",
+      "name": {
+        "zh": "工具之道 - 第十一章",
+        "en": "Tools To Work With - Part 11"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6761bd93d87008565f79d473",
+      "name": {
+        "zh": "工具之道 - 第十三章",
+        "en": "Tools To Work With - Part 13"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_12.png",
+  "isKey": false
+}

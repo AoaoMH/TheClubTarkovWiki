@@ -1,0 +1,202 @@
+{
+  "id": "68b07a0c7bb2dcdc1c0d572e",
+  "name": {
+    "zh": "政府合同 - 第3部分",
+    "en": "Government Contract - Part 3"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 20,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 20
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "573475fb24597737fb1379e1",
+      "itemName": {
+        "zh": "阿波伦联盟香烟 ",
+        "en": "Apollo Soyuz cigarettes"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "56742c2e4bdc2d95058b456d",
+      "itemName": {
+        "zh": "Zibbo打火机",
+        "en": "Zibbo lighter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b43575a86f77424f443fe62",
+      "itemName": {
+        "zh": "燃油添加剂",
+        "en": "Fuel conditioner"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d5d646386f7742797261fd9",
+      "itemName": {
+        "zh": "6B3TM-01 防弹胸挂（卡其色）",
+        "en": "6B3TM-01 armored rig (Khaki)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "61a6444b8c141d68246e2d2f",
+      "itemName": {
+        "zh": "山边小屋钥匙",
+        "en": "Hillside house key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "651450ce0e00edc794068371",
+      "itemName": {
+        "zh": "SR-3M 9x39紧凑型突击步枪",
+        "en": "SR-3M 9x39 compact assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，当然我们这里还没完！你以为这家伙会一次告诉我们所有事情吗？业余……这么没耐心。有三个走私者造成了大部分问题，这个人想让人去看看他们过去用来藏身的地方。真迷人……这些人就这么住在这个地方，在所有的战斗和混乱中，他们似乎并不在乎。\n\n第一个走私者住在海关区域。如果你知道7号仓库在哪里，就在那里面某个地方。他叫Yuri。\n\n第二个，Timur，他们中的另一个，他的藏身处在海岸附近的一个小村庄里，就在别墅旁边，西边。\n\n最后一个走私者叫Vova，FSB的家伙说他是他们中最疯狂的一个，住在储备站基地里面，真是个疯子……你可能会在骑士楼附近找到他的基地，靠近下水道撤离点。这就是我所知道的一切。",
+    "en": "Hey, of course we're not done here! You think this guy tells us everything at once? Amateurs... So impatient.There were three smugglers who caused most of the problems, and this guy wants someone to check out the places that they used to hide out. Fascinating... These people can just live inside this place in the middle of all the fighting and chaos and they didn't seem to care.\n\nThe first smuggler lived inside the customs zone. If you know where warehouse 7 is, somewhere inside of that. His name is Yuri\n\nThe second one, Timur, another one of them, had his hideout near the coast inside a small village, it's directly next to the cottages, west of them.\n\nThe last smuggler was called Vova, the FSB guy said he was the craziest one of them all, lived inside the reserve base, what a maniac... You will likely find his base near the knight buildings, close to the sewer exfil. That's everything I know."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_warehouse_7_yuri_hideout",
+      "targetNames": {
+        "lotus_customs_warehouse_7_yuri_hideout": {
+          "zh": "lotus_customs_warehouse_7_yuri_hideout",
+          "en": "lotus_customs_warehouse_7_yuri_hideout"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_transit_to_shoreline",
+      "targetNames": {
+        "lotus_customs_transit_to_shoreline": {
+          "zh": "lotus_customs_transit_to_shoreline",
+          "en": "lotus_customs_transit_to_shoreline"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_transit_to_reserve",
+      "targetNames": {
+        "lotus_customs_transit_to_reserve": {
+          "zh": "lotus_customs_transit_to_reserve",
+          "en": "lotus_customs_transit_to_reserve"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_shoreline_cabins_timur_hideout",
+      "targetNames": {
+        "lotus_shoreline_cabins_timur_hideout": {
+          "zh": "lotus_shoreline_cabins_timur_hideout",
+          "en": "lotus_shoreline_cabins_timur_hideout"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_mechanicshop_vova_hideout",
+      "targetNames": {
+        "lotus_reserve_mechanicshop_vova_hideout": {
+          "zh": "lotus_reserve_mechanicshop_vova_hideout",
+          "en": "lotus_reserve_mechanicshop_vova_hideout"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_transit_to_customs",
+      "targetNames": {
+        "lotus_reserve_transit_to_customs": {
+          "zh": "lotus_reserve_transit_to_customs",
+          "en": "lotus_reserve_transit_to_customs"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b075f82fe99bf60e9ad7f2",
+      "name": {
+        "zh": "政府合同 - 第2部分",
+        "en": "Government Contract - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b07b66e0d3845de90e086a",
+      "name": {
+        "zh": "政府合同 - 第4部分",
+        "en": "Government Contract - Part 4"
+      }
+    },
+    {
+      "id": "68c0bfe82d85ac7091436bb2",
+      "name": {
+        "zh": "蓬勃发展的生意",
+        "en": "Thriving Business"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_gvnmt_contract_3.png",
+  "isKey": false
+}

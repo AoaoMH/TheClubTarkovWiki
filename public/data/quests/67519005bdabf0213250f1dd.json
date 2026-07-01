@@ -1,0 +1,232 @@
+{
+  "id": "67519005bdabf0213250f1dd",
+  "name": {
+    "zh": "品味之选 - 第三章",
+    "en": "Ideal For Someone With Taste - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 725,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 725
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657024e3c5d7d4cb4d07856a",
+      "itemName": {
+        "zh": "50发5.56x45 M855A1盒装弹药 ★",
+        "en": "5.56x45mm M855A1 ammo pack (50 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59f9d81586f7744c7506ee62",
+      "itemName": {
+        "zh": "Vortex Razor AMG UH-1全息瞄具",
+        "en": "Vortex Razor AMG UH-1 holographic sight"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "628e4e576d783146b124c64d",
+      "itemName": {
+        "zh": "Peltor ComTac IV Hybrid 耳机（棕褐色）",
+        "en": "Peltor ComTac IV Hybrid headset (Coyote Brown)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 50
+    },
+    {
+      "type": "Skill",
+      "target": "MagDrills",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b3b99475acfc432ff4dcbee",
+      "itemName": {
+        "zh": "EOTech Vudu 1-6x24 30 毫米 步枪瞄准镜 ☆",
+        "en": "EOTech Vudu 1-6x24 30mm riflescope"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "接下来，你的任务是使用 M4A1 或一种俄式 AR-15 步枪，击杀几名 BEAR 和 Scav，记得装备 EOTech 光学瞄具。\n\n别忘了收集他们的狗牌，明白吗？\n\n完成任务后，你需要将使用的枪藏在海关地图的一个建筑物里。我觉得靠近 RUAF 路障的那个奇怪建筑不错——你们干员好像叫它“情报房”，对吧？真是个奇怪的名字……总之，把枪藏在二楼的图书室里。祝你好运！",
+    "en": "So, for the next challenge you need to take out a few BEAR operators and bandits, and you need to use an M4A1 or one of these russian AR-15 rifles, it should also have an EOTech optic equipped.\nDon't forget to collect the dogtags, okay?\n\nAnyway, after you're done with that you need to hide the gun you used somewhere on customs, I was thinking about the weird building near the RUAF roadblock, I think you operators call it \"crackhouse\", right? What a weird name... Anyway, stash your gun somewhere in the library on the second floor, good luck."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5447a9cd4bdc2dbd208b4567",
+        "5c07c60e0db834002330051f"
+      ],
+      "weaponNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        },
+        "5c07c60e0db834002330051f": {
+          "zh": "ADAR 2-15 .223 卡宾枪",
+          "en": "ADAR 2-15 5.56x45 carbine"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Bear",
+      "targetNames": {
+        "Bear": {
+          "zh": "Bear",
+          "en": "Bear"
+        }
+      },
+      "weapons": [
+        "5447a9cd4bdc2dbd208b4567",
+        "5c07c60e0db834002330051f"
+      ],
+      "weaponNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        },
+        "5c07c60e0db834002330051f": {
+          "zh": "ADAR 2-15 .223 卡宾枪",
+          "en": "ADAR 2-15 5.56x45 carbine"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "6662e9cda7e0b43baa3d5f76",
+        "6662e9aca7e0b43baa3d5f74",
+        "675dc9d37ae1a8792107ca96",
+        "675dcb0545b1a2d108011b2b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9cda7e0b43baa3d5f76": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9aca7e0b43baa3d5f74": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dc9d37ae1a8792107ca96": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dcb0545b1a2d108011b2b": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5447a9cd4bdc2dbd208b4567",
+        "5c07c60e0db834002330051f"
+      ],
+      "targetNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        },
+        "5c07c60e0db834002330051f": {
+          "zh": "ADAR 2-15 .223 卡宾枪",
+          "en": "ADAR 2-15 5.56x45 carbine"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67518cbcb6c904e276ea22cb",
+      "name": {
+        "zh": "品味之选 - 第二章",
+        "en": "Ideal For Someone With Taste - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "675192a9ccd06a5a07e78922",
+      "name": {
+        "zh": "品味之选 - 第四章",
+        "en": "Ideal For Someone With Taste - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_idealforsomeonewithtaste_3.png",
+  "isKey": false
+}

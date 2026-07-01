@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -46,7 +50,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 30,
+      "value": 8,
       "target": "Any",
       "targetNames": {
         "Any": {
@@ -57,7 +61,13 @@
       "weapons": [
         "5447a9cd4bdc2dbd208b4567",
         "5c07c60e0db834002330051f",
-        "5d43021ca4b9362eab4b5e25"
+        "5d43021ca4b9362eab4b5e25",
+        "676b4e2ff185a450a0b300b4",
+        "6761b213607f9a6f79017d40",
+        "676c3cac01023283e5f6a562",
+        "68a6399922b1e0bd360afe56",
+        "68a639748e1fe612970728e9",
+        "6895bb82c4519957df062f82"
       ],
       "weaponNames": {
         "5447a9cd4bdc2dbd208b4567": {
@@ -69,13 +79,33 @@
           "en": "ADAR 2-15 5.56x45 carbine"
         },
         "5d43021ca4b9362eab4b5e25": {
-          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪",
+          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪 ☆",
           "en": "Lone Star TX-15 DML 5.56x45 carbine"
+        },
+        "676b4e2ff185a450a0b300b4": {
+          "zh": "Singuard Arms \"Wages of Sin\" 5.56x45突击步枪",
+          "en": "Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle"
+        },
+        "6761b213607f9a6f79017d40": {
+          "zh": "Singuard Arms\"Wages of Sin\"5.56x45毫米突击步枪（阳极氧化红）",
+          "en": "Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle (Anodized Red)"
+        },
+        "676c3cac01023283e5f6a562": {
+          "zh": "Singuard Arms \"Wages of Sin\" 5.56x45毫米突击步枪（沙色）",
+          "en": "Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle (FDE)"
+        },
+        "68a6399922b1e0bd360afe56": {
+          "zh": "柯尔特 M16A2 5.56x45 突击步枪",
+          "en": "Colt M16A2 5.56x45 assault rifle"
+        },
+        "68a639748e1fe612970728e9": {
+          "zh": "柯尔特 M16A1 5.56x45 突击步枪",
+          "en": "Colt M16A1 5.56x45 assault rifle"
+        },
+        "6895bb82c4519957df062f82": {
+          "zh": "雷电 Model 1 FA 5.56x45 突击步枪",
+          "en": "Radian Weapons Model 1 FA 5.56x45 assault rifle"
         }
-      },
-      "distance": {
-        "compareMethod": ">=",
-        "value": 100
       }
     }
   ],

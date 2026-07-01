@@ -1,0 +1,141 @@
+{
+  "id": "68650f0e18ac344def323e7c",
+  "name": {
+    "zh": "永不放弃搜索",
+    "en": "Never Give Up Searching"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 50,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 50
+    }
+  ],
+  "description": {
+    "zh": "那么，日记的事现在已经解决了，是时候继续前进了，我还是不知道Ryba到底发生了什么，他死了？被俘了？他成功逃脱了？这么多问题，但答案很少...你看起来像是需要找点事做，如果你能帮上忙，我会付你一大笔钱。我们现在是一条船上的人了，冠军！\n\n我雇了一些PMC操作员，像你一样的家伙，也许没那么可靠，除非你付够钱，但嘿，他们活儿干得不错，所以我没资格抱怨，我让他们为我做了一点“情报收集”。我知道那个坦克驾驶员家伙卷入了这件事，我百分之百确定！他们设法查出了一些事情，结果发现他当时正在寻找能帮他收拾烂摊子的人，他们表现得好像有兴趣帮忙，他们大部分时间当然是在干活，驾驶员以为他现在没事了。可惜...要是他知道就好了。\n\n好了好了！我不再“浪费你的时间”了，你的工作很简单——驾驶员让我的PMC们把证明Ryba失踪的证据藏在了海关区域三层宿舍楼的220房间，但他确保他们把它锁起来了，所以你需要一把钥匙。你觉得你能做到吗？",
+    "en": "So, we got the story about the diary out of the way now, it's time to move on, I still don't know what exactly happened to Ryba, is he dead? Captured? Did he manage to escape? So many questions but very few answers... You look like you could use some work, I'll pay you a fortune if you can help out a bit. We are in this together now, champion!\n\nI hired a few PMC operators, guys like you, maybe not so trustworthy unless you pay them enough, but hey they did the job just fine so I am in no position to complain, I had them do a little \"intel gathering\" for me. I know that the tank driver guy is involved in this, I am one-hundred percent sure! They managed to find out some things about it, turns out he was looking for people that could help him clean up his mess, they acted like they're interested in help, they mostly did their work of course, the driver thinks he's all good now. Shame... If only he knew.\n\nAlright alright! I'll quit \"wasting your time\", your job is simple - The driver had my PMCs hide evidence of Ryba's disappearance in room 220 inside the three-story dorms building near the customs area, he made sure they locked it up though so you're gonna need a key. You think you can do this?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_dorms_220",
+      "targetNames": {
+        "lotus_customs_dorms_220": {
+          "zh": "lotus_customs_dorms_220",
+          "en": "lotus_customs_dorms_220"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5780cfa52459777dfb276eb1"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5780cfa52459777dfb276eb1": {
+          "zh": "宿舍220房间钥匙",
+          "en": "Dorm room 220 key"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "590c62a386f77412b0130255"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "590c62a386f77412b0130255": {
+          "zh": "Sliderkey加密U盘",
+          "en": "Sliderkey Secure Flash drive"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "590c62a386f77412b0130255"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "590c62a386f77412b0130255": {
+          "zh": "Sliderkey加密U盘",
+          "en": "Sliderkey Secure Flash drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "680e8127463f0c3d59af8056",
+      "name": {
+        "zh": "这里发生的事就留在这里",
+        "en": "What Happens Here Stays Here"
+      }
+    },
+    {
+      "id": "597a0b2986f77426d66c0633",
+      "name": {
+        "zh": "化学品 - 2",
+        "en": "Chemical - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6865144e611f20e8e30f88d8",
+      "name": {
+        "zh": "他就是这么死的...",
+        "en": "That's How He Perished..."
+      }
+    },
+    {
+      "id": "68a9da7f5c276fa9585a313d",
+      "name": {
+        "zh": "问题解决者 - 第1部分",
+        "en": "The Problem Solver - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_search.png",
+  "isKey": false
+}

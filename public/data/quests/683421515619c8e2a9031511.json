@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -46,7 +50,7 @@
       "value": 1,
       "itemId": "664a5480bfcc521bad3192ca",
       "itemName": {
-        "zh": "竞技场臂带",
+        "zh": "竞技场臂带 ★",
         "en": "Armband (ARENA)"
       },
       "quantity": 1
@@ -76,8 +80,18 @@
       "value": 3,
       "itemId": "64aceaecc4eda9354b0226b6",
       "itemName": {
-        "zh": "4.6x30mm JSP SX弹药包（40发装）",
+        "zh": "4.6x30mm JSP SX弹药包（40发装） ☆",
         "en": "4.6x30mm JSP SX ammo pack (40 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
       },
       "quantity": 1
     }
@@ -88,65 +102,14 @@
   },
   "objectives": [
     {
-      "type": "HandoverItem",
-      "description": "HandoverItem",
-      "value": 1000000,
-      "target": [
-        "5449016a4bdc2d6f028b456f"
-      ],
-      "onlyFoundInRaid": false,
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 50,
+      "target": "AnyPmc",
       "targetNames": {
-        "5449016a4bdc2d6f028b456f": {
-          "zh": "卢布",
-          "en": "Roubles"
-        }
-      }
-    },
-    {
-      "type": "Completion",
-      "description": "Completion: ArenaGameMode",
-      "value": 3,
-      "target": [
-        "TeamFight",
-        "BlastGang",
-        "CheckPoint"
-      ],
-      "targetNames": {
-        "TeamFight": {
-          "zh": "TeamFight",
-          "en": "TeamFight"
-        },
-        "BlastGang": {
-          "zh": "BlastGang",
-          "en": "BlastGang"
-        },
-        "CheckPoint": {
-          "zh": "CheckPoint",
-          "en": "CheckPoint"
-        }
-      }
-    },
-    {
-      "type": "Completion",
-      "description": "Completion: ArenaGameMode",
-      "value": 4,
-      "target": [
-        "TeamFight",
-        "BlastGang",
-        "CheckPoint"
-      ],
-      "targetNames": {
-        "TeamFight": {
-          "zh": "TeamFight",
-          "en": "TeamFight"
-        },
-        "BlastGang": {
-          "zh": "BlastGang",
-          "en": "BlastGang"
-        },
-        "CheckPoint": {
-          "zh": "CheckPoint",
-          "en": "CheckPoint"
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
         }
       }
     },

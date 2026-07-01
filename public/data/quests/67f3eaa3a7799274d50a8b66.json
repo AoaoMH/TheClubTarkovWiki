@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -49,8 +53,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 12,
+      "description": "Elimination: Kills",
+      "value": 3,
       "target": "Savage",
       "targetNames": {
         "Savage": {

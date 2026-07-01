@@ -1,0 +1,165 @@
+{
+  "id": "676afb0dd0634cb6c93d83c7",
+  "name": {
+    "zh": "暴徒山芋 - 第 1 章",
+    "en": "Adapting To Bandits - Part 1"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10760
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.12
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 117550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 117550
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c06779c86f77426e00dd782",
+      "itemName": {
+        "zh": "电线",
+        "en": "Bundle of wires"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装） ★",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cc86832d7f00c000d3a6e6c",
+      "itemName": {
+        "zh": "5.7x28毫米 R37.F",
+        "en": "5.7x28mm R37.F"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e4bfc1586f774264f7582d3",
+      "itemName": {
+        "zh": "MSA Gallet TC 800 High Cut 作战头盔",
+        "en": "MSA Gallet TC 800 High Cut combat helmet (Black)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b0bbe4e5acfc40dc528a72d",
+      "itemName": {
+        "zh": "DS Arms SA-58 7.62x51 突击步枪 ☆",
+        "en": "DS Arms SA58 7.62x51 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，我们有任务要交给你。如果你感兴趣，你的帮助将备受重视。\n我们的大多数人无法亲自测试新武器，因为与老手 PMC 交手太过危险。\n\n这就是你派上用场的地方了。你应该能轻松独自解决 PMC。你的任务是使用 SA-58 突击步枪击杀几名 PMC 以及水处理厂的 Rouge。任务完成后回来汇报。",
+    "en": "Mercenary, there is work for you, take a listen if you're interested, help is appreciated here.\nMost of our men can't afford to test out new weapons themselves, it's too dangerous for them to pick a fight with highly-skilled operators.\n\nThis is where you come in handy, you wouldn't have any trouble taking out PMCs by yourself. So, here's your job, take down a few PMC operatives and the ex Usecs at the water treatment plant.\nYou need to do the job with an SA-58 assault rifle, report back to us when you took care of it."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "5b0bbe4e5acfc40dc528a72d"
+      ],
+      "weaponNames": {
+        "5b0bbe4e5acfc40dc528a72d": {
+          "zh": "DS Arms SA-58 7.62x51 突击步枪 ☆",
+          "en": "DS Arms SA58 7.62x51 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5b0bbe4e5acfc40dc528a72d"
+      ],
+      "weaponNames": {
+        "5b0bbe4e5acfc40dc528a72d": {
+          "zh": "DS Arms SA-58 7.62x51 突击步枪 ☆",
+          "en": "DS Arms SA58 7.62x51 assault rifle"
+        }
+      },
+      "enemyRoles": [
+        "exUsec",
+        "pmcBot"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "676ac738a2720c6b1da18fef",
+      "name": {
+        "zh": "走私黑道",
+        "en": "Smuggler's Run"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "676afe70fdedf195aaaccf56",
+      "name": {
+        "zh": "暴徒山芋 - 第 2 章",
+        "en": "Adapting To Bandits - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_fence.png",
+  "isKey": false
+}

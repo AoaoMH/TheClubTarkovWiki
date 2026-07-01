@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -40,6 +44,16 @@
         "en": "Maska-1SCh bulletproof helmet (Killa Edition)"
       },
       "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 1
     }
   ],
   "description": {
@@ -50,7 +64,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 3,
+      "value": 1,
       "target": [
         "656f664200d62bcd2e024077",
         "64afdb577bb3bfe8fe03fd1d",
@@ -92,7 +106,7 @@
           "en": "Korund-VM ballistic plates (Front)"
         },
         "64afdb577bb3bfe8fe03fd1d": {
-          "zh": "ESBI IV 级防弹插板（侧边）",
+          "zh": "ESBI IV 级防弹插板（侧边） ★",
           "en": "ESBI level IV ballistic plate (Side)"
         },
         "656efaf54772930db4031ff5": {
@@ -196,7 +210,7 @@
           "en": "6B23-2 ballistic plate (Back)"
         },
         "64afd81707e2cf40e903a316": {
-          "zh": "Granit 防弹插板（侧边）",
+          "zh": "Granit 防弹插板（侧边） ☆",
           "en": "Granit ballistic plate (Side)"
         },
         "654a4f8bc721968a4404ef18": {

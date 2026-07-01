@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 35000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Monster Orange Dreamsicle Energy Drink [Uncommon]",
+      "en": "Monster Orange Dreamsicle Energy Drink [Uncommon]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Monster",
+      "en": "Monster"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 40,000₽ | 物品价值: 35,000 | Therapist报价: 22,050₽Drenched in our signature style, these cans pop with color and attitude—screaming Monster from every angle. Monster Energy Orange Dreamsicle features a wickedly creamy orange-vanilla ice cream blend that delivers a bold, sweet energy kick you'll love.",
+      "en": "跳蚤市场: 40,000₽ | 物品价值: 35,000 | Therapist报价: 22,050₽Drenched in our signature style, these cans pop with color and attitude—screaming Monster from every angle. Monster Energy Orange Dreamsicle features a wickedly creamy orange-vanilla ice cream blend that delivers a bold, sweet energy kick you'll love."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,80 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.3,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 10,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Search",
+            "value": 3,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "WeightLimit",
+            "skillName": "",
+            "value": 0.1,
+            "delay": 1,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -3,
+            "delay": 300,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -1,
+            "delay": 300,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 300,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

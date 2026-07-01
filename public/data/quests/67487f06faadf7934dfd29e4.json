@@ -1,0 +1,156 @@
+{
+  "id": "67487f06faadf7934dfd29e4",
+  "name": {
+    "zh": "专业射手 - 第六章",
+    "en": "Professional Weapon Tester - Part 6"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6650
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 875,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 875
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6759655674aa5e0825040d62",
+      "itemName": {
+        "zh": "MTEK FLUX 防弹头盔（橄榄绿）",
+        "en": "MTEK FLUX Ballistic helmet (Olive Drab)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5f5e467b0bc58666c37e7821",
+      "itemName": {
+        "zh": "Eberlestock F5 弹簧刀 背包（干土色）",
+        "en": "Eberlestock F5 Switchblade backpack (Dry Earth)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "617151c1d92c473c770214ab",
+      "itemName": {
+        "zh": "Schmidt & Bender PM II 1-8x24瞄准镜",
+        "en": "Schmidt & Bender PM II 1-8x24 30mm riflescope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "65702554bfc87b3a34093247",
+      "itemName": {
+        "zh": "7.62x51 M62曳光弹弹药包（20发装）",
+        "en": "7.62x51mm M62 Tracer ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装） ★",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "DMR",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 100
+    }
+  ],
+  "description": {
+    "zh": "我跟几个合作方聊了聊你之前完成的任务。他们原本是想测试 G28 步枪的，但我帮你争取到了点自由度，你可以用 SR-25 或 RSASS 这些精确射手步枪来代替。\n\n多点选择总没坏处，对吧？准备好了就出发，前往海岸线执行任务。你的枪必须装上高倍率瞄准镜，建议用 30mm 的。\n\n你应该已经不止一次去那片区域了，搞定之后就回来找我吧。",
+    "en": "I talked to a few associates about one of the previous jobs you completed. They originally wanted someone to test the G28 rifle but I managed to work out something else, you can use SR-25 and RSASS marksman rifles aswell\n\nHaving multiple choices is always good, so what's it gonna be then? I hope you're ready, you'll need to head to the shoreline and take out some targets there. Your rifles need to have a riflescope on them, I suggest using 30mm ones. Shouldn't be too difficult, you've been enough times there already. Come back when you took care of it."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "6176aca650224f204c1da3fb",
+        "5df8ce05b11454561e39243b",
+        "5a367e5dc4a282000e49738f"
+      ],
+      "weaponNames": {
+        "6176aca650224f204c1da3fb": {
+          "zh": "HK G28 7.62x51 精确射手步枪 ☆",
+          "en": "HK G28 7.62x51 marksman rifle"
+        },
+        "5df8ce05b11454561e39243b": {
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪 ★",
+          "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
+        },
+        "5a367e5dc4a282000e49738f": {
+          "zh": "雷明顿 R11 RSASS 7.62x51 精确射手步枪 ☆",
+          "en": "Remington R11 RSASS 7.62x51 marksman rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67487e792e79477fa1472f8f",
+      "name": {
+        "zh": "专业射手 - 第五章",
+        "en": "Professional Weapon Tester - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67487f5e679c16f0e95db438",
+      "name": {
+        "zh": "专业射手 - 第七章",
+        "en": "Professional Weapon Tester - Part 7"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_proshooter_peacekeeper_6.png",
+  "isKey": false
+}

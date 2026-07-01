@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -105,7 +109,7 @@
       "onlyFoundInRaid": false,
       "targetNames": {
         "5938144586f77473c2087145": {
-          "zh": "海关工厂区简易工棚钥匙",
+          "zh": "海关工厂区简易工棚钥匙 ☆",
           "en": "Portable bunkhouse key"
         }
       }
@@ -143,8 +147,7 @@
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "bigmap"
+      "value": 1
     }
   ],
   "prerequisites": [
@@ -162,6 +165,13 @@
       "name": {
         "zh": "蛋卷冰淇淋",
         "en": "Ice Cream Cones"
+      }
+    },
+    {
+      "id": "67ee61b9f56b571ce703eec4",
+      "name": {
+        "zh": "更进一步",
+        "en": "Further Ahead"
       }
     }
   ],

@@ -1,0 +1,118 @@
+{
+  "id": "67509c43d96ffa5a7187c025",
+  "name": {
+    "zh": "购物狂欢",
+    "en": "Shopping Spree"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 42250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 42250
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "639343fce101f4caa40a4ef3",
+      "itemName": {
+        "zh": "Shellback Tactical Banshee 插板胸挂（A-TACS AU 迷彩）",
+        "en": "Shellback Tactical Banshee plate carrier (A-TACS AU)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ad5d20586f77449be26d877",
+      "itemName": {
+        "zh": "OLI超市杂物间钥匙",
+        "en": "OLI outlet utility room key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 25
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bf3e03b0db834001d2c4a9c",
+      "itemName": {
+        "zh": "AK-74 5.45x39 突击步枪",
+        "en": "Kalashnikov AK-74 5.45x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "609a63b6e2ff132951242d09",
+      "itemName": {
+        "zh": "Krechet反射式瞄具",
+        "en": "Valday Krechet reflex sight"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，这就是接下来的任务。\n\n学会在购物中心内战斗是生存的关键，在那里你基本上是被困住了。没有多少地方可以不战斗就离开，所以你必须做好准备，明白吗？\n\n干掉在那个地方你能看到的所有人。但别指望这任务会很简单，你必须确保所有击杀都是爆头击杀。对于你这样的人来说，这应该不算太难。\n\n祝你好运，里边见！",
+    "en": "Alright, here's what's next.\n\nLearning to fight inside the mall is crucial to your survival inside there, while you are inside there you're basically trapped. There are barely any places that let you get out of there without a fight so you'll need to be prepared, got it?\n\nTake out anyone you see in that place. Let's not make this task easy however, make sure all your kills die to a headshot. Not too easy and not too difficult, for someone like you.\n\nAnyway, good luck inside there!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67509b40ebc998b7d528d1a1",
+      "name": {
+        "zh": "快速旅游：ULTRA",
+        "en": "Quick Trip To ULTRA"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67509cb7f4536e3f9382009b",
+      "name": {
+        "zh": "黑色星期五",
+        "en": "Black Friday"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_interchange.png",
+  "isKey": false
+}

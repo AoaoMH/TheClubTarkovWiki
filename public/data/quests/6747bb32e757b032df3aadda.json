@@ -1,0 +1,223 @@
+{
+  "id": "6747bb32e757b032df3aadda",
+  "name": {
+    "zh": "合作至上",
+    "en": "Cooperation Is Important"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11850
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.04
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 41450,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 41450
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e7715586f7742ee5789605",
+      "itemName": {
+        "zh": "防毒面罩",
+        "en": "Respirator"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Shotgun",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57347d8724597744596b4e76",
+      "itemName": {
+        "zh": "罐装蔬菜泥",
+        "en": "Can of squash spread"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57347da92459774491567cf5",
+      "itemName": {
+        "zh": "炖美味牛肉罐头（大）",
+        "en": "Can of beef stew (Large)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57513f07245977207e26a311",
+      "itemName": {
+        "zh": "苹果汁",
+        "en": "Pack of apple juice"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，孩子，感觉还好吗？我想我还没亲自感谢你最近的出色表现。你和 Lotus 配合得很默契，这很好。现在，我们还有更多事情需要你帮忙。你你还记得森林里的那些地堡吗？能再帮我确认一下它们是否安全吗？之后，你需要在每个地堡里藏一些半自动霰弹枪。我注意到最近有很多 Rogue 在那个区域制造麻烦，你能干掉其中一些人，让他们明白谁才是猎人，谁才是猎物吗？记得带回证据。祝你好运，士兵。再次感谢。",
+    "en": "Hello kid. Feeling well? I don't think I thanked you in person for what you did recently. You and Lotus seem to be working together, thats good. There is more that you need to do for us now, do you remember the bunkers in the forest? Can you check them out for me again and see if they are safe, after that you need to hide some semi-automatic shotguns in both of them each. I have notice that lately more of the former PMC operators were causing trouble in the area, can you take some of them out and show who is the hunter and who is the prey. And please bring me the proof, good luck warrior and thank you again."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "56dee2bdd2720bc8328b4567"
+      ],
+      "targetNames": {
+        "56dee2bdd2720bc8328b4567": {
+          "zh": "MP-153 12铅径 半自动霰弹枪",
+          "en": "MP-153 12ga semi-automatic shotgun"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "56dee2bdd2720bc8328b4567"
+      ],
+      "targetNames": {
+        "56dee2bdd2720bc8328b4567": {
+          "zh": "MP-153 12铅径 半自动霰弹枪",
+          "en": "MP-153 12ga semi-automatic shotgun"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "6662e9cda7e0b43baa3d5f76",
+        "6662e9aca7e0b43baa3d5f74",
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "675dc9d37ae1a8792107ca96",
+        "675dcb0545b1a2d108011b2b",
+        "6764207f2fa5e32733055c4a",
+        "6764202ae307804338014c1a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9cda7e0b43baa3d5f76": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9aca7e0b43baa3d5f74": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "675dc9d37ae1a8792107ca96": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dcb0545b1a2d108011b2b": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6764207f2fa5e32733055c4a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764202ae307804338014c1a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747bfd667581ad41fc4a9de",
+      "name": {
+        "zh": "猎人",
+        "en": "Okhotnik"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747b8d6b8b522e15a7aa392",
+      "name": {
+        "zh": "机遇之地",
+        "en": "Land Of Opportunities"
+      }
+    },
+    {
+      "id": "6747bb9ec325240ca382f8a9",
+      "name": {
+        "zh": "国宴",
+        "en": "Perfect Meal"
+      }
+    },
+    {
+      "id": "67488057bb77d69317a82685",
+      "name": {
+        "zh": "前方施工",
+        "en": "Area Under Construction"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_jaeger.png",
+  "isKey": false
+}

@@ -1,0 +1,224 @@
+{
+  "id": "6762543fbaa292049e4cea52",
+  "name": {
+    "zh": "塔科夫环卫工：工厂疯批 - 第1章",
+    "en": "Bandit Hunt - Factory Maniac - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 128850,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 128850
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a09dd4621468534a797ac7",
+      "itemName": {
+        "zh": "Baddie的红胡子",
+        "en": "Baddie's red beard"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5aafbde786f774389d0cbc0f",
+      "itemName": {
+        "zh": "弹药箱",
+        "en": "Ammunition case"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "65702474bfc87b3a34093226",
+      "itemName": {
+        "zh": "25发12/70 箭形弹盒装弹药 ☆",
+        "en": "12/70 flechette ammo pack (25 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cf8f3b0d7f00c00217872ef",
+      "itemName": {
+        "zh": "MaxRounds Powermag 12/76 20发SOK-12兼容武器弹匣",
+        "en": "SOK-12 12ga MaxRounds Powermag 20-round drum magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60a7acf20c5cb24b01346648",
+      "itemName": {
+        "zh": "BOSS鸭舌帽",
+        "en": "BOSS cap"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "609e860ebd219504d8507525",
+      "itemName": {
+        "zh": "Crye Precision AVS 插板胸挂（Tagilla 版）",
+        "en": "Crye Precision AVS plate carrier (Tagilla Edition)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60a7ad2a2198820d95707a2e",
+      "itemName": {
+        "zh": "Tagilla的\"UBEY\"电焊面罩",
+        "en": "Tagilla's welding mask \"UBEY\""
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，士兵。我不知道你是否已经注意到了，在旧废弃化工厂的某处，有个拿着大锤的疯子到处乱跑，把看到的几乎所有人都打死，完全是个疯子……\n\n总之，我们需要除掉这个疯子，暂时的或者永久的都行，而且我们需要他的装备，最好别损坏的太严重。注意在战斗的时候，你可能不是唯一在找他的人，小心隔墙有耳，这个疯子装备精良，护甲也非常厚实，务必小心。",
+    "en": "Well hello there soldier. I am not sure if you noticed already, but somewhere in the old chemical factory there is this crazy guy running around with a sledgehammer beating almost everyone he sees to death, absolute maniac...\n\nLong story short, we need to get rid of this crazy motherfucker, temporary or permanent, doesn't matter, and we need his gear and some time. Be careful when fighting, you might not be the only one looking for him, and this madman is armed to the teeth and is very armored, and make sure his gear is not too damaged alright?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossTagilla"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "60a7ad2a2198820d95707a2e",
+        "60a7ad3a0c5cb24b0134664a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "60a7ad2a2198820d95707a2e": {
+          "zh": "Tagilla的\"UBEY\"电焊面罩",
+          "en": "Tagilla's welding mask \"UBEY\""
+        },
+        "60a7ad3a0c5cb24b0134664a": {
+          "zh": "Tagilla的\"Gorilla\"电焊面罩",
+          "en": "Tagilla's welding mask \"Gorilla\""
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "60a7ad2a2198820d95707a2e",
+        "60a7ad3a0c5cb24b0134664a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "60a7ad2a2198820d95707a2e": {
+          "zh": "Tagilla的\"UBEY\"电焊面罩",
+          "en": "Tagilla's welding mask \"UBEY\""
+        },
+        "60a7ad3a0c5cb24b0134664a": {
+          "zh": "Tagilla的\"Gorilla\"电焊面罩",
+          "en": "Tagilla's welding mask \"Gorilla\""
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "609e860ebd219504d8507525"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "609e860ebd219504d8507525": {
+          "zh": "Crye Precision AVS 插板胸挂（Tagilla 版）",
+          "en": "Crye Precision AVS plate carrier (Tagilla Edition)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "609e860ebd219504d8507525"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "609e860ebd219504d8507525": {
+          "zh": "Crye Precision AVS 插板胸挂（Tagilla 版）",
+          "en": "Crye Precision AVS plate carrier (Tagilla Edition)"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67575de81b1736276da6f0c3",
+      "name": {
+        "zh": "清理垃圾：立交桥",
+        "en": "Let The Hunt Begin - Interchange"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6762566a03b27f2d68c35ddf",
+      "name": {
+        "zh": "塔科夫环卫工：工厂疯批 - 第2章",
+        "en": "Bandit Hunt - Factory Maniac - Part 2"
+      }
+    },
+    {
+      "id": "6747c0991fa4b29ab5692551",
+      "name": {
+        "zh": "塔科夫环卫工：进口货",
+        "en": "Bandit Hunt - Imports"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_boss_tagilla.png",
+  "isKey": false
+}

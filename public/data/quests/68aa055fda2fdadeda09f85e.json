@@ -1,0 +1,119 @@
+{
+  "id": "68aa055fda2fdadeda09f85e",
+  "name": {
+    "zh": "问题解决者 - 第2部分",
+    "en": "The Problem Solver - Part 2"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "5704e4dad2720bb55b8b4567",
+  "locationName": {
+    "zh": "储备站",
+    "en": "Reserve"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 75,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 75
+    }
+  ],
+  "description": {
+    "zh": "那么...Cape Dalniy，关于那个地方。我猜他试图从海上逃跑，在水处理厂附近的火车仓库西边的海滩上有一个小码头，那个地方停着几艘划艇。他可能用了其中一艘离开了那里。\n\n我的几个人设法搞到了北部检查站的闭路电视录像片段，显示他跑进了一个小屋，几个小时后出来了，猜他在里面休息了一下，也许他给我们留下了一些线索？去看看那个地方，带上这个标记器，万一你找到什么东西，请使用这个设备。\n\n现在，那个码头...你可能会问，那地方到底是怎么回事？嗯，很明显，那里停着多艘船，可能用来疏散一些人。不确定有多少人成功出去了，如果有的话...\n既然你会在它附近，我建议你也检查一下海滩，",
+    "en": "So... Cape Dalniy, about that. I'm guessing he tried to escape through the ocean, there's a small pier at the beach west of the train depot near the water treatment plant, a few rowboats were kept on that spot. He might have used one of them to get out of there.\n\nA few of my guys managed to get their hands on CCTV camera footage from the northern checkpoint and it showed how he ran inside a small shack and came out a few hours later, guessing he took some rest in their, maybe he left us some clues? Check out the place, take this marker with you just in case you find something, and if you do, please use the device.\n\nNow, the pier... What's up with that place to begin with you might ask? Well obviously, multiple boats were parked there, likely used to evacuate a few people. Not sure how many managed to get out, if any...\nSince you'll be close to it, I suggest you check out the beach aswell,"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_nordcheckpoint_shack",
+      "targetNames": {
+        "lotus_lighthouse_nordcheckpoint_shack": {
+          "zh": "lotus_lighthouse_nordcheckpoint_shack",
+          "en": "lotus_lighthouse_nordcheckpoint_shack"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_nordcheckpoint_box",
+      "targetNames": {
+        "lotus_lighthouse_nordcheckpoint_box": {
+          "zh": "lotus_lighthouse_nordcheckpoint_box",
+          "en": "lotus_lighthouse_nordcheckpoint_box"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_pier_boat",
+      "targetNames": {
+        "lotus_lighthouse_pier_boat": {
+          "zh": "lotus_lighthouse_pier_boat",
+          "en": "lotus_lighthouse_pier_boat"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68a9da7f5c276fa9585a313d",
+      "name": {
+        "zh": "问题解决者 - 第1部分",
+        "en": "The Problem Solver - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68ab372dd492a4e0af84a924",
+      "name": {
+        "zh": "问题解决者 - 第3部分",
+        "en": "The Problem Solver - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_problemsolver_2.png",
+  "isKey": false
+}

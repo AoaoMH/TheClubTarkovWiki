@@ -1,0 +1,166 @@
+{
+  "id": "676ac738a2720c6b1da18fef",
+  "name": {
+    "zh": "走私黑道",
+    "en": "Smuggler's Run"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Discover",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 600,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 600
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57372c89245977685d4159b1",
+      "itemName": {
+        "zh": "5.45x39mm BT弹药包（30发装）",
+        "en": "5.45x39mm BT gs ammo pack (30 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ab8dced86f774646209ec87",
+      "itemName": {
+        "zh": "ANA Tactical M2防弹胸挂",
+        "en": "ANA Tactical M2 plate carrier (EMR)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Charisma",
+      "value": 125
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64b8ee384b75259c590fa89b",
+      "itemName": {
+        "zh": "12/70 “食人鱼”",
+        "en": "12/70 Piranha"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e5edb86f77461f55ed1f7",
+      "itemName": {
+        "zh": "BNTI Zhuk 防弹衣（战地记者版）",
+        "en": "BNTI Zhuk body armor (Press)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "618cfae774bb2d036a049e7c",
+      "itemName": {
+        "zh": "LBT-1476A 3 日行军背包（林地迷彩）",
+        "en": "LBT-1476A 3Day Pack (Woodland)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，我们有任务交给你。可靠消息称，某些人进入塔科夫进行商业活动，收集新旧军事装备，并将其运送出境售卖。\n\n我们的人计划拦截这些人，而你可以帮忙。在锯木厂附近的湖边应该有一个小码头，但不是正对锯木厂的位置，而是稍微偏西南一些。你需要在那里藏匿一些物品。任务完成后，我们会安装追踪装置，接着我们的内线会通知走私者他们的货物已经准备好了。",
+    "en": "Mercenary, we got a job for you. Reliable sources were telling us about certain people coming into Tarkov for business, collecting military gear, old and new, and getting it out of the region to sell it overseas.\n\nOur men are planning to intercept these people somehow, and you could help us out with that. Near the lake close to the sawmill there should be a small pier, but not directly at the sawmill, further south-west. You have to stash a few items there, we'll install tracking devices there once you're done, and then our mole will inform the smugglers that their cargo is good to go."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_deadmansplace",
+      "targetNames": {
+        "lotus_woods_deadmansplace": {
+          "zh": "lotus_woods_deadmansplace",
+          "en": "lotus_woods_deadmansplace"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 3,
+      "target": [
+        "5d40407c86f774318526545a"
+      ],
+      "targetNames": {
+        "5d40407c86f774318526545a": {
+          "zh": "Tarkovskaya瓶装伏特加",
+          "en": "Bottle of Tarkovskaya vodka"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "587e02ff24597743df3deaeb"
+      ],
+      "targetNames": {
+        "587e02ff24597743df3deaeb": {
+          "zh": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪",
+          "en": "Molot Arms Simonov OP-SKS 7.62x39 carbine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747bfd667581ad41fc4a9de",
+      "name": {
+        "zh": "猎人",
+        "en": "Okhotnik"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "676af80852ad1f5baf0e8d95",
+      "name": {
+        "zh": "非法操作",
+        "en": "Absolutely Legal Operation"
+      }
+    },
+    {
+      "id": "676afb0dd0634cb6c93d83c7",
+      "name": {
+        "zh": "暴徒山芋 - 第 1 章",
+        "en": "Adapting To Bandits - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_fence_smugglersrun.png",
+  "isKey": false
+}

@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -36,7 +40,7 @@
       "value": 1,
       "itemId": "5c05300686f7746dce784e5d",
       "itemName": {
-        "zh": "VPX闪存模块",
+        "zh": "VPX闪存模块 ★",
         "en": "VPX Flash Storage Module"
       },
       "quantity": 1
@@ -46,7 +50,7 @@
       "value": 1,
       "itemId": "5d0377ce86f774186372f689",
       "itemName": {
-        "zh": "Iridium军用热成像模块",
+        "zh": "Iridium军用热成像模块 ☆",
         "en": "Iridium military thermal vision module"
       },
       "quantity": 1
@@ -65,7 +69,7 @@
       "type": "AssortmentUnlock",
       "itemId": "627e14b21713922ded6f2c15",
       "itemName": {
-        "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+        "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
         "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
       }
     }
@@ -91,20 +95,13 @@
       ],
       "weaponNames": {
         "5bfea6e90db834001b7347f3": {
-          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
           "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
         }
       },
-      "bodyParts": [
-        "Head"
-      ],
       "enemyRoles": [
         "bossKojaniy"
-      ],
-      "distance": {
-        "compareMethod": ">=",
-        "value": 75
-      }
+      ]
     }
   ],
   "prerequisites": [

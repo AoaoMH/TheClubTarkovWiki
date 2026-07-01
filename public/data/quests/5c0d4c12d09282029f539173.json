@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -26,7 +30,7 @@
       "value": 1,
       "itemId": "5bfea6e90db834001b7347f3",
       "itemName": {
-        "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
         "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
       },
       "quantity": 1
@@ -46,7 +50,7 @@
       "value": 2,
       "itemId": "5c0558060db834001b735271",
       "itemName": {
-        "zh": "GPNVG-18夜视仪",
+        "zh": "GPNVG-18夜视仪 ☆",
         "en": "L3Harris GPNVG-18 night vision goggles"
       },
       "quantity": 1
@@ -67,8 +71,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 12,
+      "description": "Elimination: Kills",
+      "value": 3,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -84,13 +88,12 @@
           "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
           "en": "Colt M4A1 5.56x45 assault rifle"
         }
-      },
-      "location": "Woods"
+      }
     },
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 12,
+      "description": "Elimination: Kills",
+      "value": 3,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -106,13 +109,12 @@
           "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
           "en": "Colt M4A1 5.56x45 assault rifle"
         }
-      },
-      "location": "bigmap"
+      }
     },
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 12,
+      "description": "Elimination: Kills",
+      "value": 3,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -128,13 +130,12 @@
           "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
           "en": "Colt M4A1 5.56x45 assault rifle"
         }
-      },
-      "location": "Interchange"
+      }
     },
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 12,
+      "description": "Elimination: Kills",
+      "value": 3,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -150,13 +151,12 @@
           "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
           "en": "Colt M4A1 5.56x45 assault rifle"
         }
-      },
-      "location": "Shoreline"
+      }
     },
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 12,
+      "description": "Elimination: Kills",
+      "value": 3,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -172,13 +172,12 @@
           "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
           "en": "Colt M4A1 5.56x45 assault rifle"
         }
-      },
-      "location": "TarkovStreets"
+      }
     },
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 12,
+      "description": "Elimination: Kills",
+      "value": 3,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -194,8 +193,7 @@
           "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
           "en": "Colt M4A1 5.56x45 assault rifle"
         }
-      },
-      "location": "Sandbox,Sandbox_high"
+      }
     }
   ],
   "prerequisites": [
@@ -213,6 +211,13 @@
       "name": {
         "zh": "收藏家",
         "en": "Collector"
+      }
+    },
+    {
+      "id": "694dc176d149fc1d52000003",
+      "name": {
+        "zh": "失协",
+        "en": "UNcoordinated"
       }
     }
   ],

@@ -1,0 +1,93 @@
+{
+  "id": "6747beeab265397e48b7562c",
+  "name": {
+    "zh": "PMC特训：短兵相接 - 第一章",
+    "en": "PMC Training - Close Quarter Combat - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 14850,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 14850
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5de8eac42a78646d96665d91",
+      "itemName": {
+        "zh": "MP9 9x19标准30发弹匣",
+        "en": "MP9 9x19 30-round magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "62e153bcdb1a5c41971c1b5b",
+      "itemName": {
+        "zh": "SR-2M 9x21 30发弹匣",
+        "en": "SR-2M 9x21 30-round magazine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "士兵，你对CQB战斗有经验吗？你应该试着练一下相关技能，能够在外面经得住考验。最好提前做好准备，塔科夫到处都有能用到这些技能的地方。向我证明你能够熟练掌握如何使用霰弹枪和冲锋枪。以便我可以有信心为你打开商店更多武器的购买权。",
+    "en": "Are you experienced in close quarter combat, warrior? You should get some training, your skills get put to the test out there. It's better if you prepare already, Tarkov is full of places where these skills could come in handy. Prove to me how good you are with shotguns and submachineguns. I can give you access to more weapons in our stock."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: SMG",
+      "value": 2,
+      "target": "SMG"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: Shotgun",
+      "value": 2,
+      "target": "Shotgun"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67472495fb91486f4fb89cb3",
+      "name": {
+        "zh": "准备战斗",
+        "en": "Ready For Battle"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c2cc6417dbf45d9955c794",
+      "name": {
+        "zh": "PMC特训：短兵相接 - 第二章",
+        "en": "PMC Training - Close Quarter Combat - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_cqb.png",
+  "isKey": false
+}

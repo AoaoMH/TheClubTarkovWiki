@@ -1,0 +1,146 @@
+{
+  "id": "67486a921ef237f01abfd45f",
+  "name": {
+    "zh": "东方联盟 - 第八章",
+    "en": "Eastern Reliability - Part 8"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e4dad2720bb55b8b4567",
+  "locationName": {
+    "zh": "储备站",
+    "en": "Reserve"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 115750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 115750
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "61aa5ba8018e9821b7368da9",
+      "itemName": {
+        "zh": "USEC灯塔二号保险箱钥匙 ★",
+        "en": "USEC cottage second safe key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5b057b4f5acfc4771e1bd3e9",
+      "itemName": {
+        "zh": "SE-5 Express握把",
+        "en": "Stark SE-5 Express Forward foregrip"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c1cd46f2e22164bef5cfedb",
+      "itemName": {
+        "zh": "Zenit RK-1 B-25U基座前握把 ☆",
+        "en": "Zenit RK-1 tactical foregrip on B-25U mount"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "657025dabfc87b3a34093256",
+      "itemName": {
+        "zh": "20发9x39 SP-6 gs盒装弹药",
+        "en": "9x39mm SP-6 gs ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "DMR",
+      "value": 175
+    }
+  ],
+  "description": {
+    "zh": "特种武器稀有又昂贵，想要获取实战数据可不容易。这活儿我只能交给你了。\n\n带上 AS Val 或 VSS，出发去灯塔区域。在枪上装上那种集成激光和红外的西方红点瞄具，我记得叫 BOSS 什么的，再加个 Zenit 前握把。\n\n别和敌人拉太远距离，这枪用的弹药不适合远射。明白？去吧，别让我失望。",
+    "en": "Special weapons are rare and expensive, can't get much practical data there. Looks like someone needs to do a few tests on them.\n\nSo, warrior, are you in?\n\nTake a AS Val or VSS Vintorez with you on your next trip to the lighthouse area, attached with one of these western optics with a built-in laser and infrared stuff, Boss-something, whatever... And any zenit foregrip. Make sure not to keep too big of a distance, this caliber doesn't work well on long ranges."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "57838ad32459774a17445cd2",
+        "57c44b372459772d2b39b8ce"
+      ],
+      "weaponNames": {
+        "57838ad32459774a17445cd2": {
+          "zh": "VSS “绞丝机” 特种狙击步枪 ",
+          "en": "VSS Vintorez 9x39 special sniper rifle"
+        },
+        "57c44b372459772d2b39b8ce": {
+          "zh": "AS “巨浪” 9x39 特种突击步枪",
+          "en": "AS VAL 9x39 special assault rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67486a44ec1dc8048f7cb2dc",
+      "name": {
+        "zh": "东方联盟 - 第七章",
+        "en": "Eastern Reliability - Part 7"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67486b07a069ed3f4df34b7d",
+      "name": {
+        "zh": "东方联盟 - 第九章",
+        "en": "Eastern Reliability - Part 9"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_easternreliability_8_prapor.png",
+  "isKey": false
+}

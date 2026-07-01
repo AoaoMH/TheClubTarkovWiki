@@ -1,0 +1,121 @@
+{
+  "id": "674869c190ca5803d23b7ea5",
+  "name": {
+    "zh": "东方联盟 - 第六章",
+    "en": "Eastern Reliability - Part 6"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 85750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 85750
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c5d4b86f774784e1b9c45",
+      "itemName": {
+        "zh": "Iskra个人配给口粮",
+        "en": "Iskra ration pack"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b3b99475acfc432ff4dcbee",
+      "itemName": {
+        "zh": "EOTech Vudu 1-6x24 30 毫米 步枪瞄准镜 ☆",
+        "en": "EOTech Vudu 1-6x24 30mm riflescope"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "65702572c5d7d4cb4d078576",
+      "itemName": {
+        "zh": "7.62x54 R BT gzh弹药包（20发装）",
+        "en": "7.62x54mm R BT gzh ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Skill",
+      "target": "DMR",
+      "value": 175
+    }
+  ],
+  "description": {
+    "zh": "这把枪我存了挺久，没人愿意碰。我也不知道为什么，明明是把好枪！\n\n也许那些不愿接手的家伙知道点什么内幕，也可能这枪真的有问题？所以这次你来试试看吧。当然，出发前必须给它装上德国制造的Schmidt & Bender瞄准镜。\n\n带上它去海岸线散散步，顺手解决几个敌人，回来报告我结果就行。",
+    "en": "I got something for you, I had this lying around in the back, nobody wanted this weapon. I don't know why, it's a great gun!\n\nMaybe the guys who refuses to take it knew more than I did, maybe something is wrong with it? I guess your job is to find out. Oh, and it needs one of these german scopes. Put one of those on the gun before you go anywhere with it!\n\nTake it with you whenever you head to the shoreline again and get rid of some guys there, come back when you're done."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5c46fbd72e2216398b5a8c9c"
+      ],
+      "weaponNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6748694525ed5b74088bbd08",
+      "name": {
+        "zh": "东方联盟 - 第五章",
+        "en": "Eastern Reliability - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67486a44ec1dc8048f7cb2dc",
+      "name": {
+        "zh": "东方联盟 - 第七章",
+        "en": "Eastern Reliability - Part 7"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_easternreliability_6_prapor.png",
+  "isKey": false
+}

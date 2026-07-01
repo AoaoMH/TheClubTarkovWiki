@@ -1,0 +1,89 @@
+{
+  "id": "68561cd4801134be939e11f6",
+  "name": {
+    "zh": "往昔馈赠",
+    "en": "Gifts of The Past"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "PickUp",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "68452c3da87156b67d9ec538",
+      "itemName": {
+        "zh": "Staccato XC 9x19 手枪",
+        "en": "Staccato XC 9x19 pistol"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock"
+    }
+  ],
+  "description": {
+    "zh": "你好啊，雇佣兵。你知道，往事总是会悄悄爬回来。当年我在工厂管事的时候，偷听到我老板说起一把稀有的古董滑膛手枪。他把它装在一个精美的展示柜里。据说那是送给他打过交道的一个会计的礼物。我现在想把那东西搞到手。那种工艺的魅力在召唤我。去军事储备站那边的黑骑士楼看看，那会计的办公室就在那儿。找到它，带回来。不会亏待你的。",
+    "en": "Hello mercenary. You know how memories creep up from the old days. Back when I was running things at the Factory I overheard my boss talking about a rare antique smoothbore pistol. Kept it in a fancy display case. Word is it was gifted to some accountant he dealt with. I want that piece for myself now. Something about the craft of it calls to me. Check the Black Knight building over in Military Reserve. That's where that accountant's office used to be. Find it and bring it back. I’ll make it worth your while."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "685618fbcc160182de00bfc4"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "685618fbcc160182de00bfc4": {
+          "zh": "古董手枪展示柜",
+          "en": "Antique Pistol Display"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "685618fbcc160182de00bfc4"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "685618fbcc160182de00bfc4": {
+          "zh": "古董手枪展示柜",
+          "en": "Antique Pistol Display"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Avoid: ExitStatus",
+      "value": 1,
+      "isFailCondition": true,
+      "location": "RezervBase"
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/GiftsofThePast_Quest.png",
+  "isKey": false
+}

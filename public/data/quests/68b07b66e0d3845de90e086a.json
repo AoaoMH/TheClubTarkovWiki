@@ -1,0 +1,173 @@
+{
+  "id": "68b07b66e0d3845de90e086a",
+  "name": {
+    "zh": "政府合同 - 第4部分",
+    "en": "Government Contract - Part 4"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 40,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 40
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "560d657b4bdc2da74d8b4572",
+      "itemName": {
+        "zh": "Zenit 2P Klesch 手电激光指示器",
+        "en": "Zenit Klesch-2P flashlight with laser"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5a5f1ce64f39f90b401987bc",
+      "itemName": {
+        "zh": "Zenit Klesch-2IKS 红外补光/激光指示器",
+        "en": "Zenit Klesch-2IKS IR illuminator with laser"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "603409c80ca681766b6a0fb2",
+      "itemName": {
+        "zh": "NPP KIASS Condor 护目镜",
+        "en": "NPP KlASS Condor glasses"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aa7cfc0e5b5b00015693143",
+      "itemName": {
+        "zh": "6B47 Ratnik-BSh 头盔（数码迷彩盔罩）",
+        "en": "6B47 Ratnik-BSh helmet (EMR cover)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "545cdb794bdc2d3a198b456a",
+      "itemName": {
+        "zh": "6B43 Zabralo-Sh 防弹衣（数码丛林迷彩）",
+        "en": "6B43 Zabralo-Sh body armor (EMR)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57c44b372459772d2b39b8ce",
+      "itemName": {
+        "zh": "AS “巨浪” 9x39 特种突击步枪",
+        "en": "AS VAL 9x39 special assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d9b5acfc4001633997a",
+      "itemName": {
+        "zh": "AK-105 5.45x39 突击步枪",
+        "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我们的人与我们分享信息时稍微自在了一些，他想让我们叫他Victor。他说他曾经领导一个特别行动小组，突击毒品实验室和罪犯的安全屋，疯狂的事情，哥们儿。他说就在他们不得不撤离塔科夫之前，有人偷了他们的车，一辆蓝色货车。由于它有追踪功能，他们知道它的位置，但他的人都不愿意去那里，因为当地的帮派，你知道是谁。\n\n它在白骑士楼的车库里，Victor想让你找到货车并在上面贴一个标记。之后你应该清理该区域，谁知道那里潜伏着什么渣滓，也许其中一个小偷还在那里走动！但你干掉谁都无关紧要，毕竟我们不知道到底是谁偷了他的车，而且老实说，谁他妈在乎呢。\n\n确保完好无损地回来，我不需要再浪费钱在医生和医疗用品上给我的“员工”了。",
+    "en": "Our man got a little more comfortable with sharing information with us, he wants us to call him Victor. He said he once led a special operations team that raided drug labs and criminal's safehouses, wild stuff man. He said right before they had to evacuate Tarkov someone stole their vehicle, a blue van. Since it's tracked they know it's location but none of his guys feels comfortable going inside of there because of the local gang, you know who.\n\nIt's inside the garages at the white knight building, Victor wants you to locate the van and plant a marker on it. After you did that you should clear out the area, who knows what scum is lurking around there, maybe one of the thieves is still walking around there! But it shouldn't matter who you take out, after all we don't know who exactly stole his car, and honestly even gives a shit.\n\nMake sure to come back in one piece, I don't need to waste any more money on doctors and medical supplies on my \"employees\"."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_blue_van",
+      "targetNames": {
+        "lotus_reserve_blue_van": {
+          "zh": "lotus_reserve_blue_van",
+          "en": "lotus_reserve_blue_van"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b07a0c7bb2dcdc1c0d572e",
+      "name": {
+        "zh": "政府合同 - 第3部分",
+        "en": "Government Contract - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b07cd25a4cafa65a846d57",
+      "name": {
+        "zh": "政府合同 - 第5部分",
+        "en": "Government Contract - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_gvnmt_contract_4.png",
+  "isKey": false
+}

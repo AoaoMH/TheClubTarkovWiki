@@ -1,0 +1,214 @@
+{
+  "id": "67472495fb91486f4fb89cb3",
+  "name": {
+    "zh": "准备战斗",
+    "en": "Ready For Battle"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 62550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 62550
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b5f65ca7f72d197e70bcd6",
+      "itemName": {
+        "zh": "Ballistic Armor Co. Bastion头盔（黑色）",
+        "en": "Ballistic Armor Co. Bastion helmet (Armor Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e4d34ca86f774264f758330",
+      "itemName": {
+        "zh": "Walker's Razor 数字耳机",
+        "en": "Walker's Razor Digital headset"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b6296d7994640992013b17",
+      "itemName": {
+        "zh": "Stich Profi V2 插板胸挂（黑色）",
+        "en": "Stich Profi Plate Carrier V2 (Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ac66d725acfc43b321d4b60",
+      "itemName": {
+        "zh": "AK-104 7.62x39 突击步枪",
+        "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "639343fce101f4caa40a4ef3",
+      "itemName": {
+        "zh": "Shellback Tactical Banshee 插板胸挂（A-TACS AU 迷彩）",
+        "en": "Shellback Tactical Banshee plate carrier (A-TACS AU)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5645bcc04bdc2d363b8b4572",
+      "itemName": {
+        "zh": "Peltor ComTac 2 耳机（橄榄绿）",
+        "en": "Peltor ComTac II headset (OD Green)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好, 现在我确定你有能干掉一些杂鱼的本事了, 那其他的呢? 这帮土著酒鬼单溜单逛不成气候, 而像你这样的PMC才是真正的战斗力, 即使是孤狼一匹。 \n没有别的意思, 我想再给你一个挑战, 拿下几个PMC, 把他们的狗牌带回来。 \n\n你要相信我, 没有别的意思, 因为我也相信你是那位我意想中的能人。 你准备好了吗？",
+    "en": "Alright, now we know that you are able to take out bandits, but what about operators? After all these drunkards are not special, they are weak when alone, PMCs like you however are a real threat even when fighting them when they don't have any friends with them.\nLets put you to the test again soldier, take out some PMCs and take their dogtags with you, I want to see proof.\n\nI got a lot of other things you can help me with but I need help from someone who knows how to fight, are you ready?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "6662e9cda7e0b43baa3d5f76",
+        "6662e9aca7e0b43baa3d5f74",
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "675dc9d37ae1a8792107ca96",
+        "675dcb0545b1a2d108011b2b",
+        "6764207f2fa5e32733055c4a",
+        "6764202ae307804338014c1a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9cda7e0b43baa3d5f76": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9aca7e0b43baa3d5f74": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "675dc9d37ae1a8792107ca96": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dcb0545b1a2d108011b2b": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6764207f2fa5e32733055c4a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764202ae307804338014c1a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674758ea142f52a016ecd92d",
+      "name": {
+        "zh": "莲花之光 - 第二章",
+        "en": "Light Of The Lotus - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747beb0723e16cc522b30a9",
+      "name": {
+        "zh": "PMC特训：突击兵 - 第一章",
+        "en": "PMC Training - Infantry - Part 1"
+      }
+    },
+    {
+      "id": "6747beeab265397e48b7562c",
+      "name": {
+        "zh": "PMC特训：短兵相接 - 第一章",
+        "en": "PMC Training - Close Quarter Combat - Part 1"
+      }
+    },
+    {
+      "id": "6747bf2633dcfc282d417efe",
+      "name": {
+        "zh": "PMC特训：屏息 - 第一章",
+        "en": "PMC Training - Marksmanship - Part 1"
+      }
+    },
+    {
+      "id": "67517b14e12814c596f01bd0",
+      "name": {
+        "zh": "步步为营 - 第一章",
+        "en": "Taking Every Round Into Account - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_battleready.png",
+  "isKey": false
+}

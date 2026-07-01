@@ -1,0 +1,121 @@
+{
+  "id": "6747beb0723e16cc522b30a9",
+  "name": {
+    "zh": "PMC特训：突击兵 - 第一章",
+    "en": "PMC Training - Infantry - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3125
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 11725,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 11725
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5737330a2459776af32363a1",
+      "itemName": {
+        "zh": "5.45x39mm FMJ子弹（30发装）",
+        "en": "5.45x39mm FMJ ammo pack (30 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "657024d8c5d7d4cb4d078567",
+      "itemName": {
+        "zh": "50发5.56x45 FMJ盒装弹药",
+        "en": "5.56x45mm FMJ ammo pack (50 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5beec8b20db834001961942a",
+      "itemName": {
+        "zh": "Izhmash RPK-16缓冲管",
+        "en": "RPK-16 buffer tube"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d2c770c48f0354b4a07c100",
+      "itemName": {
+        "zh": "FAB Defense PDC АК 导轨防尘盖",
+        "en": "AK FAB Defense PDC dust cover"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c617a5f2e2216000f1e81b3",
+      "itemName": {
+        "zh": "Zenit B-10 AK护木",
+        "en": "AK Zenit B-10 Handguard"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你擅长用步枪吗？真是个怪问题，你敢信一个雇佣兵说自己不会用枪，这太夸张了……\n好吧好吧，证明一下你的作战技能如何？学习如何操控突击步枪，训练你的瞄准并学会控制后坐力。证明你的能力，士兵，我相信你。",
+    "en": "Are you good with assault rifles? What a question, a soldier that doesn't know how to use a weapon, how ridiculous...\nAnyway, how about you prove your combat skills? Learn how to handle assault rifles, train your aim and learn how to control your recoil. Prove your skills warrior, I count on you."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Assault",
+      "value": 2,
+      "target": "Assault"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: AimDrills",
+      "value": 2,
+      "target": "AimDrills"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67472495fb91486f4fb89cb3",
+      "name": {
+        "zh": "准备战斗",
+        "en": "Ready For Battle"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c244489cd554035b1ba245",
+      "name": {
+        "zh": "PMC特训：突击兵 - 第二章",
+        "en": "PMC Training - Infantry - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_infantry.png",
+  "isKey": false
+}

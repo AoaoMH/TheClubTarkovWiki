@@ -1,0 +1,167 @@
+{
+  "id": "674720e808312fa336c68ee6",
+  "name": {
+    "zh": "燃料供给 - 第一章",
+    "en": "Fuelist - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 22350,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 22350
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "57372db0245977685d4159b2",
+      "itemName": {
+        "zh": "5.45x39mm PP弹药包（30发装）",
+        "en": "5.45x39mm PP gs ammo pack (30 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5af0548586f7743a532b7e99",
+      "itemName": {
+        "zh": "布洛芬止痛药 ☆",
+        "en": "Ibuprofen painkillers"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b371186f774253763a656",
+      "itemName": {
+        "zh": "野营燃料桶",
+        "en": "Expeditionary fuel tank"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "62389aaba63f32501b1b444f",
+      "itemName": {
+        "zh": "26x75燃烧照明信号弹（绿色）",
+        "en": "26x75mm flare cartridge (Green)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "620109578d82e67e7911abf2",
+      "itemName": {
+        "zh": "ZiD SP-81 26x75信号枪",
+        "en": "ZiD SP-81 26x75 signal pistol"
+      }
+    }
+  ],
+  "description": {
+    "zh": "听好了士兵。去过塔科夫的商务中心了吗？既然你熟悉那地方，我需要你去那儿找一辆带燃油拖挂的卡车。它就藏在地下某处——具体位置我也不清楚，所以你得单干，我可不想派自己的人去送死，不是针对你。找到后记得用标记器标出来，可以借你一个，但别搞丢了。\n\n还有，顺手把周边清干净，别让第三方势力盯上咱们的行动。祝你好运，士兵。",
+    "en": "Alright listen up soldier. Been to the business center of Tarkov? I hope you are familiar with the place already because I need someone to go there and look for a fuel trailer. One of my guys told me his group saw a truck carrying fuel in the underground, not sure where that is supposed to be, so you are on your own there since I am against sending my guys down there again, nothing personal.\n\nDon't forget to use one of these markers when you find it, I can lend you one but don't lose it.\n\nAnd one more thing, don't forget to clear out the area a bit while you are at it, we don't want any third parties noticing our little operation here. Good luck soldier."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_fueltruck",
+      "targetNames": {
+        "lotus_groundzero_fueltruck": {
+          "zh": "lotus_groundzero_fueltruck",
+          "en": "lotus_groundzero_fueltruck"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67471f9c63d6ef6fe3ced898",
+      "name": {
+        "zh": "新通讯",
+        "en": "New Contacts"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747235ed723d48c90cb644f",
+      "name": {
+        "zh": "供给 - 第二章",
+        "en": "Fuelist - Part 2"
+      }
+    },
+    {
+      "id": "6769f36baded384a687d97a1",
+      "name": {
+        "zh": "经典依旧 - 第一章",
+        "en": "Old But Gold - Part 1"
+      }
+    },
+    {
+      "id": "6747be6cac417a049759b0a8",
+      "name": {
+        "zh": "PMC特训：地毯式搜刮 - 第一章",
+        "en": "PMC Training - Looter - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_fueldelivery.png",
+  "isKey": false
+}

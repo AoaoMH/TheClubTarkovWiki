@@ -1,0 +1,105 @@
+{
+  "id": "68c31bd427110f29df6be2ab",
+  "name": {
+    "zh": "违禁品 - 第2部分",
+    "en": "Contraband - Part 2"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5751a89d24597722aa0e8db0",
+      "itemName": {
+        "zh": "金星软膏 ☆",
+        "en": "Golden Star balm"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5df24cf80dee1b22f862e9bc",
+      "itemName": {
+        "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪 ☆",
+        "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "既然我们已经把所有简单的零工都处理完了，让我们回到重要的事情上，我们有工作要做。我的人设法获得了一些关于Fence走私路线潜在位置的信息。\n\n也许你知道这些地方可能在哪里？毕竟你很了解塔科夫，你应该考虑成为一名导游，嗯？好吧 fine，所有玩笑到此为止，这是 serious。两条走私路线之一应该在海关区域和四号工厂之间，另一条应该在商业中心和主城区之间。\n\n这就是我能给你的所有信息，抱歉捍卫者，但我不能总是用外面的所有智慧来喂养你，有时你必须搜索和寻找。保持警惕。",
+    "en": "Now that we got all the simple side jobs out of the way, let's get back to the important things, we got work to do. My men managed to obtain some information about the potential locations of Fence's smuggling routes.\n\nMaybe you know where these places might be located? After all you know Tarkov pretty well, you should consider becoming a tour guide, eh? Alright fine, all jokes aside now, this is serious. One of the two smuggling routes should be between the customs zone and factory four, the other one should be between the business center and the main city.\n\nThat's about all the information I can give you, sorry champion but I can't always feed you with every wisdom there is outthere, sometimes you gotta search and find. Keep your eyes peeled."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_fence_smuggling_route_2",
+      "targetNames": {
+        "lotus_fence_smuggling_route_2": {
+          "zh": "lotus_fence_smuggling_route_2",
+          "en": "lotus_fence_smuggling_route_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_fence_smuggling_route_1",
+      "targetNames": {
+        "lotus_fence_smuggling_route_1": {
+          "zh": "lotus_fence_smuggling_route_1",
+          "en": "lotus_fence_smuggling_route_1"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c1eff9c5b5f2e47b774a57",
+      "name": {
+        "zh": "走私方法",
+        "en": "Smuggle Method"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c31f71aa355c62f3b4f6e3",
+      "name": {
+        "zh": "违禁品 - 第3部分",
+        "en": "Contraband - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_ref.png",
+  "isKey": false
+}

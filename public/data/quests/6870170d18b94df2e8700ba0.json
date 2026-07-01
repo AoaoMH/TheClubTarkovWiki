@@ -1,0 +1,68 @@
+{
+  "id": "6870170d18b94df2e8700ba0",
+  "name": {
+    "zh": "装箱待发",
+    "en": "Boxed and Loaded"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Discover",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "66e718dc498d978477e0ba75",
+      "itemName": {
+        "zh": "M249 SAW 5.56x45 轻机枪",
+        "en": "M249 SAW 5.56x45 light machine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock"
+    }
+  ],
+  "description": {
+    "zh": "好了雇佣兵，还有活儿要干。你在外面当影子的时候，我的人在海关到处翻找，追踪我被偷的枪。结果发现那些混蛋把它们藏在箱子里，塞在某个角落里该死的储物架上。他们最好别碰我的装备。",
+    "en": "Alright Mercenary, we got more work. While you were out playing shadow my guy was poking around Customs tracking down my stolen guns. Turns out those bastards stashed them in crates tucked away on some storage shelves in a damn corner. They better not have messed with my gear."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "686dd4f871840e292fbd1a14",
+      "name": {
+        "zh": "清除兽群",
+        "en": "Culling The Herd"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/m249_quest.png",
+  "isKey": false
+}

@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Item",
@@ -40,7 +44,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 10,
+      "value": 2,
       "target": "Any",
       "targetNames": {
         "Any": {
@@ -68,19 +72,19 @@
           "en": "ADAR 2-15 5.56x45 carbine"
         },
         "5c488a752e221602b412af63": {
-          "zh": "DT MDR 5.56x45 突击步枪",
+          "zh": "DT MDR 5.56x45 突击步枪 ☆",
           "en": "Desert Tech MDR 5.56x45 assault rifle"
         },
         "6184055050224f204c1da540": {
-          "zh": "FN SCAR-L 5.56x45突击步枪",
+          "zh": "FN SCAR-L 5.56x45突击步枪 ☆",
           "en": "FN SCAR-L 5.56x45 assault rifle"
         },
         "618428466ef05c2ce828f218": {
-          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE）",
+          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE） ★",
           "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
         },
         "5bb2475ed4351e00853264e3": {
-          "zh": "HK 416A5 5.56x45 突击步枪",
+          "zh": "HK 416A5 5.56x45 突击步枪 ☆",
           "en": "HK 416A5 5.56x45 assault rifle"
         },
         "623063e994fc3f7b302a9696": {
@@ -96,7 +100,7 @@
           "en": "Kalashnikov AK-102 5.56x45 assault rifle"
         },
         "5d43021ca4b9362eab4b5e25": {
-          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪",
+          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪 ☆",
           "en": "Lone Star TX-15 DML 5.56x45 carbine"
         },
         "62e7c4fba689e8c9c50dfc38": {
@@ -119,7 +123,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 10,
+      "value": 2,
       "target": "Any",
       "targetNames": {
         "Any": {
@@ -203,7 +207,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 10,
+      "value": 2,
       "target": "Any",
       "targetNames": {
         "Any": {
@@ -236,7 +240,7 @@
           "en": "Molot Arms Simonov OP-SKS 7.62x39 carbine"
         },
         "606587252535c57a13424cfd": {
-          "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪",
+          "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪 ★",
           "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
         },
         "5ac66d2e5acfc43b321d4b53": {
@@ -287,7 +291,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 5,
+      "value": 1,
       "target": "Any",
       "targetNames": {
         "Any": {
@@ -316,7 +320,7 @@
           "en": "Tokarev SVT-40 7.62x54R rifle"
         },
         "64637076203536ad5600c990": {
-          "zh": "PKM 7.62x54R机枪",
+          "zh": "PKM 7.62x54R机枪 ★",
           "en": "Kalashnikov PKM 7.62x54R machine gun"
         },
         "64ca3d3954fc657e230529cc": {
@@ -336,7 +340,7 @@
           "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
         },
         "5ae08f0a5acfc408fb1398a1": {
-          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型） ☆",
           "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
         },
         "55801eed4bdc2d89578b4588": {
@@ -351,7 +355,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 5,
+      "value": 1,
       "target": "Any",
       "targetNames": {
         "Any": {
@@ -419,7 +423,7 @@
           "en": "HK MP5K 9x19 submachine gun"
         },
         "5926bb2186f7744b1c6c6e60": {
-          "zh": "HK MP5N 9x19 冲锋枪（海军型）",
+          "zh": "HK MP5N 9x19 冲锋枪（海军型） ☆",
           "en": "HK MP5 9x19 submachine gun (Navy 3 Round Burst)"
         },
         "59984ab886f7743e98271174": {
@@ -431,11 +435,11 @@
           "en": "Saiga-9 9x19 carbine"
         },
         "58948c8e86f77409493f7266": {
-          "zh": "SIG MPX 9x19 冲锋枪",
+          "zh": "SIG MPX 9x19 冲锋枪 ☆",
           "en": "SIG MPX 9x19 submachine gun"
         },
         "60339954d62c9b14ed777c06": {
-          "zh": "联盟-TM STM-9 Gen.2 9x19 卡宾枪",
+          "zh": "联盟-TM STM-9 Gen.2 9x19 卡宾枪 ☆",
           "en": "Soyuz-TM STM-9 Gen.2 9x19 carbine"
         },
         "5fc3f2d5900b1d5091531e57": {
@@ -450,7 +454,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 5,
+      "value": 1,
       "target": "Any",
       "targetNames": {
         "Any": {

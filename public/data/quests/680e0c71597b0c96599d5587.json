@@ -1,0 +1,120 @@
+{
+  "id": "680e0c71597b0c96599d5587",
+  "name": {
+    "zh": "有些可疑...",
+    "en": "Something's Fishy..."
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Exploration",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 25,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 25
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57372d1b2459776862260581",
+      "itemName": {
+        "zh": "5.45x39mm PP弹药包（120发装）",
+        "en": "5.45x39mm PP gs ammo pack (120 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "564ca99c4bdc2d16268b4589",
+      "itemName": {
+        "zh": "6L20 5.45x39 30发AK-74兼容弹匣",
+        "en": "AK-74 5.45x39 6L20 30-round magazine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57dc2fa62459775949412633",
+      "itemName": {
+        "zh": "AKS-74U 5.45x39 短突击步枪",
+        "en": "Kalashnikov AKS-74U 5.45x39 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d5d87f786f77427997cfaef",
+      "itemName": {
+        "zh": "Ars Arma A18 Skanda 插板胸挂（复合迷彩）",
+        "en": "Ars Arma A18 Skanda plate carrier (MultiCam)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你最近注意到什么不寻常的事了吗？我听说竞技场外面有些奇怪的事情发生，我怀疑那不只是谣言。\n\n不久前，我们一位可信的助手失踪了，毫无痕迹，就好像他从未存在过一样。顺便说一下，他叫“Ryba”，他住在工业区，藏身处在那边。地点在ZB-011地堡附近的某个地方，说到这个...\n\n你能也检查一下那个地堡吗？我听说像你这样的行动人员用它从海关撤离，查清楚它是否还能用，也许能帮上我们。",
+    "en": "Have you noticed anything out of the ordinary recently? I heard there's something weird happening outside of the Arena, and I doubt it's just rumors.\n\nNot too long ago one of our trusted associates has gone missing without any trace, as if he never even existed in the first place. \"Ryba\" was his name by the way, he lived in the industrial zone, had his hideout there. It was located somewhere near the ZB-011 bunker, and speaking of...\n\nCould you inspect that bunker too? I heard it gets used to extract from customs by operators like you, find out if it's still usable, maybe it can help us somehow."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_rybas_hideout",
+      "targetNames": {
+        "lotus_customs_rybas_hideout": {
+          "zh": "lotus_customs_rybas_hideout",
+          "en": "lotus_customs_rybas_hideout"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "681633be8d093606deceedea",
+      "name": {
+        "zh": "角斗士的礼物",
+        "en": "Gladiator's Gift"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "680e12e530d8f164e7fcd99b",
+      "name": {
+        "zh": "偿还债务",
+        "en": "Debt To Pay"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_somethings_fishy.png",
+  "isKey": false
+}

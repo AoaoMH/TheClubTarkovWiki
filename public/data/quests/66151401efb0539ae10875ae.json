@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [],
   "description": {
     "zh": "嘿哟，兄弟。我有件事要请你帮忙。所以是这样，我找到机会开了一条全新的生产线，但总有些疯狗在不该把狗鼻子伸进去的地方疯狂狗叫，结果就是我本来要拿去卖的商品全被这些刺头抢走了，现在已经散遍整个塔科夫根本没法追回来了。大兄弟，帮我这一把好吗？",
@@ -20,7 +24,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 100,
+      "value": 25,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -35,7 +39,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 50,
+      "value": 12,
       "target": [
         "64a536392d2c4e6e970f4121",
         "5ca20d5986f774331e7c9602",

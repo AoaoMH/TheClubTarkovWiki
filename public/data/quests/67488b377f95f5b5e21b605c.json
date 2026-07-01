@@ -1,0 +1,263 @@
+{
+  "id": "67488b377f95f5b5e21b605c",
+  "name": {
+    "zh": "塔科夫扫地机器人",
+    "en": "The Tarkov Cleaner"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 175425
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.12
+    },
+    {
+      "type": "Item",
+      "value": 750330,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 750330
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "664a55d84a90fc2c8a6305c9",
+      "itemName": {
+        "zh": "Theta安全箱 ★",
+        "en": "Secure container Theta"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1d0f4986f7744bb01837fa",
+      "itemName": {
+        "zh": "实验室钥匙卡·黑 ★",
+        "en": "TerraGroup Labs keycard (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "StashRows"
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "67124dcfa3541f2a1f0e788b",
+      "itemName": {
+        "zh": "MPS Auto Assault-12 Gen 2 12铅径自动霰弹枪",
+        "en": "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6176aca650224f204c1da3fb",
+      "itemName": {
+        "zh": "HK G28 7.62x51 精确射手步枪 ☆",
+        "en": "HK G28 7.62x51 marksman rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0a840b86f7742ffa4f2482",
+      "itemName": {
+        "zh": "T H I C C物品箱",
+        "en": "T H I C C item case"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b6d9ce188a4501afc1b2b25",
+      "itemName": {
+        "zh": "T H I C C武器箱",
+        "en": "T H I C C Weapon case"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，我有好消息和坏消息要告诉你。你想先听哪一个？算了，我还是直接告诉你坏消息吧。\n\n我们遇到了一个大问题，一个非常巨大的问题——所有的Boss、Scav、PMC、Raider，还有其他所有人……\n他们都回来了，而且比以前更愤怒。现在，他们正在追杀你！每个人都在找你！\n至于好消息嘛……好吧其实根本没有好消息。祝你好运！",
+    "en": "Hello there, I got good and bad news for you. Which of those do you wan't to hear first? I'll just tell you the bad ones first.\n\nWe got a problem, like a huge problem, a massive problem actually, all the gang leaders, bandits, operators, raiders and whoever else...\nWell, they came back, angrier than before, and they are looking for you. Everyone is after you right now!\nAnyway, to the good news... There are none, good luck!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 25,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 19,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBully",
+        "followerKojaniy",
+        "followerGluharAssault",
+        "followerGluharScout",
+        "followerGluharSecurity",
+        "followerSanitar",
+        "followerBoar",
+        "bossBoarSniper",
+        "followerBoarClose1",
+        "followerBoarClose2",
+        "followerKolontayAssault",
+        "followerKolontaySecurity",
+        "followerZryachiy"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "exUsec"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantWarrior"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossTagilla",
+        "bossSanitar",
+        "bossBoar",
+        "bossKilla",
+        "bossGluhar",
+        "bossBully",
+        "bossSanitar",
+        "bossKojaniy",
+        "bossKolontay"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKnight",
+        "followerBigPipe",
+        "followerBirdEye"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67488adc3a2ba4d17055213f",
+      "name": {
+        "zh": "塔科夫扫地机器人：实验室",
+        "en": "Tarkov Cleaner - The Lab"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_tarkovcleaner.png",
+  "isKey": false
+}

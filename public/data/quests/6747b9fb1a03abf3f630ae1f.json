@@ -1,0 +1,147 @@
+{
+  "id": "6747b9fb1a03abf3f630ae1f",
+  "name": {
+    "zh": "新人上场",
+    "en": "New Dealer In Town"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Merchant",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c651286f7741e566b6461",
+      "itemName": {
+        "zh": "袖珍日记",
+        "en": "Slim diary"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e32f56fcb6d5863cc5e5ee4",
+      "itemName": {
+        "zh": "VOG-17 Khattabka 简易手榴弹",
+        "en": "VOG-17 Khattabka improvised hand grenade"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "666b11055a706400b717cfa5",
+      "itemName": {
+        "zh": "绊线布设装置",
+        "en": "Tripwire installation kit"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "6570257cc5d7d4cb4d078579",
+      "itemName": {
+        "zh": "7.62x54 R PS gzh弹药包（20发装） ☆",
+        "en": "7.62x54mm R PS gzh ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5c88f24b2e22160bc12c69a6",
+      "itemName": {
+        "zh": "SVD 7.62x54 20发弹匣",
+        "en": "SVD 7.62x54R 20-round magazine"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c46fbd72e2216398b5a8c9c",
+      "itemName": {
+        "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+        "en": "SVDS 7.62x54R sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 400
+    },
+    {
+      "type": "Skill",
+      "target": "Surgery",
+      "value": 400
+    }
+  ],
+  "description": {
+    "zh": "又见面了，我有一些重要的事情。我需要一个可以信得过的人。这是一个重要的活儿。你有多余的现金吗？我很快会用些贵重物品回报你，你会需要的，别担心。基本上就是以下这么个情况，有一个新商人正在塔科夫地区四处活动，他只出售一些特殊的技术。这些东西相当贵，而且他只接受欧元。但现在的问题是我手头上没有这种货币，你能暂时帮我代付一下吗？\n\n最好快点决定，赶在其他人对这个交易感兴趣之前……",
+    "en": "Hello again, I got something important. I need someone that I can rely on. This is an important job. You got some spare cash? You will need some, don't worry I will pay you back in some valuables soon. Basically, there is this new dealer who is travelling around areas like Tarkov, he is selling some special technology. It is kinda expensive tho and he only accepts Euros. The problem I have now is that I don't have any of that currency on me currently, are you able to take over this payment for now?\n\nIt would be good if you choose quickly tho, before someone else gets interested in the deal..."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 375,
+      "target": [
+        "569668774bdc2da2298b4568"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "569668774bdc2da2298b4568": {
+          "zh": "欧元",
+          "en": "Euros"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674766077f5e08878af90bc8",
+      "name": {
+        "zh": "莲花之光 - 第十二章",
+        "en": "Light Of The Lotus - Part 12"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747ba84ea3a80b532e68ad6",
+      "name": {
+        "zh": "手办收藏",
+        "en": "Special Collection"
+      }
+    },
+    {
+      "id": "6747ba52be104f742964f8fa",
+      "name": {
+        "zh": "捡漏",
+        "en": "Valuable Payment"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_lotus.png",
+  "isKey": false
+}

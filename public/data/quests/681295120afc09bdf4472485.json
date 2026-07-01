@@ -1,0 +1,172 @@
+{
+  "id": "681295120afc09bdf4472485",
+  "name": {
+    "zh": "人人都会留下痕迹",
+    "en": "Everyone Leaves Traces Behind"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "5b0fc42d86f7744a585f9105",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 115000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 115000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e3577886f774176a362503",
+      "itemName": {
+        "zh": "一包糖",
+        "en": "Pack of sugar"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57347d3d245977448f7b7f61",
+      "itemName": {
+        "zh": "黑麦面包块",
+        "en": "Rye croutons"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c07df7f0db834001b73588a",
+      "itemName": {
+        "zh": "Freeman撬棍",
+        "en": "Freeman crowbar"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Attention",
+      "value": 20
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e340dcdcb6d5863cc5e5efb",
+      "itemName": {
+        "zh": "VOG-25 Khattabka 简易手榴弹",
+        "en": "VOG-25 Khattabka improvised hand grenade"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66dae7cbeb28f0f96809f325",
+      "itemName": {
+        "zh": "V40 微型手榴弹",
+        "en": "V40 Mini-Grenade"
+      }
+    }
+  ],
+  "description": {
+    "zh": "人无完人，我们都知道。幸运的是，对我们来说，这条规则也适用于Ref的人，尤其是对他们。你知道……他们并不是 exactly inconspicuous，我们就这么说吧——如果他们举着一个写着“为Ref工作”的牌子，也不会有什么不同，你明白我的意思吗？\n\n总之，你可能已经在想我为什么要告诉你这些，让我在你被所有这些废话搞得头晕之前解释一下。最近我雇了一些PMC来处理实验室外的一些小工作，他们似乎发现了竞技场的人，至少他们是这么告诉我的，他们是否正确是另一回事。但这就是你派上用场的地方！\n\n实验室里面的一些安全摄像头仍然可用——显然……\n这些磁带一定被保存在某个地方，我问了我的一些同事，其中一人说，当“屎撞上风扇”在塔科夫，实验室被疏散时，其中一名安全主管正在礼堂做演示。如果他的个人设备还在那里，我们可能会找到一些可以让我们访问所有录像带的东西。\n\n然而，你还需要做一件事，带几个无线电中继器，并在用于撤离的三个电梯附近设置它们，我这里的目的是我们可能会捕捉到他们的一些无线电信号——希望是在他们传递一些重要通讯的时候。你能处理这个吗？我当然可以借给你一些装备。",
+    "en": "Nobody is perfect, we all know that. Luckily for us, this rule applies to Ref's guys to, especially to them. You know... they aren't exactly inconspicuous, let's just put it this way - It wouldn't be much different if they would carry a sign that reads \"Working for Ref\", you know what I mean?\n\nAnyway, you're probably wondering already why I am telling you this, let me explain before you get dizzy from all this nonsense. Very recently I hired a few PMCs to take care of a some small jobs outside the laboratory, and they seem to have spotted the Arena guys, at least that's what they told me, if they were right is a different story. But this is where you come in handy!\n\nSome of the security cameras inside the lab are still operational - Apparently...\nThese tapes must have been saves somewhere, I asked some of my associates and one of them said that when \"shit hit the fan\" in Tarkov and the lab got evacuated, there was one of the security chiefs giving a presentation in the auditorium. If one of his personal devices is still there, we might find something that could give us the access to all the video tapes.\n\nThere is one more thing you need to do however, bring a few radio repeaters and set them up near the three elevators used for exfils, my goal here is that we might catch some of their radio signals - Hopefully when they are giving some important comms. Can you manage this? I can lend you some of the gear of course."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_auditorium_laptop",
+      "targetNames": {
+        "lotus_labs_auditorium_laptop": {
+          "zh": "lotus_labs_auditorium_laptop",
+          "en": "lotus_labs_auditorium_laptop"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ],
+      "targetNames": {
+        "63a0b2eabea67a6d93009e52": {
+          "zh": "无线电中继器",
+          "en": "Radio repeater"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ],
+      "targetNames": {
+        "63a0b2eabea67a6d93009e52": {
+          "zh": "无线电中继器",
+          "en": "Radio repeater"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ],
+      "targetNames": {
+        "63a0b2eabea67a6d93009e52": {
+          "zh": "无线电中继器",
+          "en": "Radio repeater"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6812941396bf52b87fada560",
+      "name": {
+        "zh": "武器强盗",
+        "en": "Weapon Thieves"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6812967df2e90afe81ef3b59",
+      "name": {
+        "zh": "数字足迹",
+        "en": "Digital Footprint"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_everyone_leaves_traces.png",
+  "isKey": false
+}

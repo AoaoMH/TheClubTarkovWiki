@@ -1,0 +1,333 @@
+{
+  "id": "674723bdd56b0c5b295bb6a1",
+  "name": {
+    "zh": "家装建材",
+    "en": "Home Depot"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c2e1186f77425357b6124",
+      "itemName": {
+        "zh": "一套工具",
+        "en": "Toolset"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a0a0bb621468534a797ad5",
+      "itemName": {
+        "zh": "\"Master\"锉刀套装",
+        "en": "Set of files \"Master\""
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 150,
+      "itemId": "59e6906286f7746c9f75e847",
+      "itemName": {
+        "zh": "5.56x45毫米 M856A1",
+        "en": "5.56x45mm M856A1"
+      },
+      "quantity": 150
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "55802d5f4bdc2dac148b458e",
+      "itemName": {
+        "zh": "PMAG GEN M3 W 30 5.56x45 STANAG 30发弹匣",
+        "en": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cadfbf7ae92152ac412eeef",
+      "itemName": {
+        "zh": "ASh-12 12.7x55 突击步枪",
+        "en": "ASh-12 12.7x55 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f60c74e3b85f6263c145586",
+      "itemName": {
+        "zh": "Rys-T 防弹头盔（黑色）",
+        "en": "Rys-T bulletproof helmet (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，士兵。最近过得好吗？希望一切顺利。这次又有事情要请你帮忙。你看，我本来计划在塔科夫待的时间不长久...\n\n最近我们的营地坏了不少设备，而我的团队现在正忙于其他事情，所以我没办法让他们去带回所有的材料。你明白我的意思了吗？我希望你能带来一批建筑材料和一些电子元件，稍等，我列一份清单给你...呐，这儿。我相信你会找到足够的，士兵，我能指望你吗？",
+    "en": "Hello soldier, are you doing alright? I hope so. I got something for you again. You see, I planned to stay in Tarkov for much shorter...\n\nRecently a bunch of stuff broke down in our camp and my group are kinda busy with other things right now, so I can't just send them to bring all the materials. See where I am going with this? I want you to bring us batch of building supplies and a few electronis, I'll give you the whole list. \n\nI'm sure you will find enough, can I count on you?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "57347c5b245977448d35f6e1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347c5b245977448d35f6e1": {
+          "zh": "螺栓",
+          "en": "Bolts"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "57347c5b245977448d35f6e1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347c5b245977448d35f6e1": {
+          "zh": "螺栓",
+          "en": "Bolts"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "57347c77245977448d35f6e2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347c77245977448d35f6e2": {
+          "zh": "螺母",
+          "en": "Screw nuts"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "57347c77245977448d35f6e2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347c77245977448d35f6e2": {
+          "zh": "螺母",
+          "en": "Screw nuts"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "61bf7b6302b3924be92fa8c3"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "61bf7b6302b3924be92fa8c3": {
+          "zh": "金属零件",
+          "en": "Metal spare parts"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "61bf7b6302b3924be92fa8c3"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "61bf7b6302b3924be92fa8c3": {
+          "zh": "金属零件",
+          "en": "Metal spare parts"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "5c06779c86f77426e00dd782"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c06779c86f77426e00dd782": {
+          "zh": "电线",
+          "en": "Bundle of wires"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5c06779c86f77426e00dd782"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c06779c86f77426e00dd782": {
+          "zh": "电线",
+          "en": "Bundle of wires"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "59e36c6f86f774176c10a2a7"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e36c6f86f774176c10a2a7": {
+          "zh": "电源线",
+          "en": "Power cord"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "59e36c6f86f774176c10a2a7"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e36c6f86f774176c10a2a7": {
+          "zh": "电源线",
+          "en": "Power cord"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5909e99886f7740c983b9984"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5909e99886f7740c983b9984": {
+          "zh": "USB适配器",
+          "en": "USB Adapter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5909e99886f7740c983b9984"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5909e99886f7740c983b9984": {
+          "zh": "USB适配器",
+          "en": "USB Adapter"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "57347cd0245977445a2d6ff1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347cd0245977445a2d6ff1": {
+          "zh": "T形插座",
+          "en": "T-Shaped plug"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "57347cd0245977445a2d6ff1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347cd0245977445a2d6ff1": {
+          "zh": "T形插座",
+          "en": "T-Shaped plug"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747235ed723d48c90cb644f",
+      "name": {
+        "zh": "供给 - 第二章",
+        "en": "Fuelist - Part 2"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_homedepot.png",
+  "isKey": false
+}

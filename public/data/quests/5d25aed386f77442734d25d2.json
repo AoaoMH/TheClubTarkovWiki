@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -59,16 +63,15 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 5,
+      "description": "Elimination: Kills",
+      "value": 1,
       "target": "Savage",
       "targetNames": {
         "Savage": {
           "zh": "Savage",
           "en": "Savage"
         }
-      },
-      "location": "Woods"
+      }
     }
   ],
   "prerequisites": [

@@ -1,0 +1,163 @@
+{
+  "id": "6747235ed723d48c90cb644f",
+  "name": {
+    "zh": "供给 - 第二章",
+    "en": "Fuelist - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 56650,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 56650
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "657024f9bfc87b3a3409323b",
+      "itemName": {
+        "zh": "50发5.56x45MK 318 Mod 0 (SOST)盒装弹药 ☆",
+        "en": "5.56x45mm MK 318 Mod 0 (SOST) ammo pack (50 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "61840bedd92c473c77021635",
+      "itemName": {
+        "zh": "FN SCAR-L 5.56x45 30发弹匣",
+        "en": "FN SCAR-L 5.56x45 30-round magazine"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6184055050224f204c1da540",
+      "itemName": {
+        "zh": "FN SCAR-L 5.56x45突击步枪 ☆",
+        "en": "FN SCAR-L 5.56x45 assault rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66b6295a8ca68c6461709efa",
+      "itemName": {
+        "zh": "Tasmanian Tiger MKIII 插板胸挂（棕褐色）",
+        "en": "Tasmanian Tiger Plate Carrier MKIII (Coyote Brown)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d5d646386f7742797261fd9",
+      "itemName": {
+        "zh": "6B3TM-01 防弹胸挂（卡其色）",
+        "en": "6B3TM-01 armored rig (Khaki)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我一直在想，像你这样的人是怎么在塔科夫四处走动的？就直接靠脚走路的吗，哇塞...\n你的耐心真的令人佩服。我可不是这样做的，我的手下通常会使用越野摩托车或者越野车在塔科夫四处侦察或者搜刮物资。但我们遇到了一些小问题，我们的燃料储备有点低，现在正在寻找燃料来源。如果你能帮我们找到一些燃料桶会非常有帮助。此外，顺便带些干燥燃料来，怎么样？士兵，我相信你。",
+    "en": "I'm always wondering how someone like you navigates around Tarkov, are you walking or something, wow...\nYou have some patience for sure. We do that differently, my guys usually use dirtbikes or certain off-road vehicles to navigate around Tarkov to check out all the areas or loot up. We got a small problem tho, our supply got kinda low and we are currently looking for some fuel source, help is appreciated.\n\nIf you can find us some fuel canisters that would help us out a lot. Also while you are looking for some, why don't you bring some Dryfuel aswell? I count on you soldier."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "590a373286f774287540368b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "590a373286f774287540368b": {
+          "zh": "固体燃料",
+          "en": "Dry fuel"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d1b371186f774253763a656"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d1b371186f774253763a656": {
+          "zh": "野营燃料桶",
+          "en": "Expeditionary fuel tank"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d1b36a186f7742523398433"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d1b36a186f7742523398433": {
+          "zh": "金属燃料桶",
+          "en": "Metal fuel tank"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674720e808312fa336c68ee6",
+      "name": {
+        "zh": "燃料供给 - 第一章",
+        "en": "Fuelist - Part 1"
+      }
+    },
+    {
+      "id": "674721e986f435b80234da65",
+      "name": {
+        "zh": "家居用品",
+        "en": "Household Goods"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674723bdd56b0c5b295bb6a1",
+      "name": {
+        "zh": "家装建材",
+        "en": "Home Depot"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_fuelist.png",
+  "isKey": false
+}

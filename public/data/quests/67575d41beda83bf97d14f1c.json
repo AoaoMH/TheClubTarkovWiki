@@ -1,0 +1,196 @@
+{
+  "id": "67575d41beda83bf97d14f1c",
+  "name": {
+    "zh": "清理垃圾：海岸线",
+    "en": "Let The Hunt Begin - Shoreline"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Completion",
+  "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 37750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 37750
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0eff2986f7741fd654e684",
+      "itemName": {
+        "zh": "疗养院西楼 321 房间保险箱钥匙 ☆",
+        "en": "Health Resort west wing room 321 safe key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0ee34586f774023b6ee092",
+      "itemName": {
+        "zh": "疗养院西楼 220 房间钥匙 ☆",
+        "en": "Health Resort west wing room 220 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5af0548586f7743a532b7e99",
+      "itemName": {
+        "zh": "布洛芬止痛药 ☆",
+        "en": "Ibuprofen painkillers"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e530286f7747fa1419862",
+      "itemName": {
+        "zh": "丙泊酚",
+        "en": "Propital regenerative stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "544fb45d4bdc2dee738b4568",
+      "itemName": {
+        "zh": "Salewa急救包",
+        "en": "Salewa first aid kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "听说疗养院的那个医生挺疯的，是吗？\n\n他也在我们的目标清单上，计划和Svetloozerskiy一样。他自己在疗养院东楼一楼有一间自己的办公室，办公室旁边有一个血手印，除非你闭着眼瞎找，否则肯定能看的到。\n你知道咋办，进疗养院，布置陷阱，然后撤离。别东想西想，不要分心。",
+    "en": "The doctor guy at the sanatorium is a crazy one, would'nt you say?\n\nWell he is also on our hit list, same plan as with the Svetloozerskiy gang. He still has his own office located on the first floor of the east-wing of the sanatorium, next to his room is a bloody handprint, you won't miss it unless you have your eyes closed.\nYou know what to do, get to the health resort, plant the trap, get out, no funny business so don't get distracted."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_shoreline_sanitarroom",
+      "targetNames": {
+        "lotus_shoreline_sanitarroom": {
+          "zh": "lotus_shoreline_sanitarroom",
+          "en": "lotus_shoreline_sanitarroom"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "666b11055a706400b717cfa5"
+      ],
+      "targetNames": {
+        "666b11055a706400b717cfa5": {
+          "zh": "绊线布设装置",
+          "en": "Tripwire installation kit"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5448be9a4bdc2dfd2f8b456a",
+        "66dae7cbeb28f0f96809f325",
+        "5710c24ad2720bc3458b45a3",
+        "58d3db5386f77426186285a0",
+        "5e32f56fcb6d5863cc5e5ee4",
+        "5e340dcdcb6d5863cc5e5efb",
+        "618a431df1eb8e24b8741deb",
+        "617fd91e5539a84ec44ce155"
+      ],
+      "targetNames": {
+        "5448be9a4bdc2dfd2f8b456a": {
+          "zh": "RGD-5手榴弹",
+          "en": "RGD-5 hand grenade"
+        },
+        "66dae7cbeb28f0f96809f325": {
+          "zh": "V40 微型手榴弹",
+          "en": "V40 Mini-Grenade"
+        },
+        "5710c24ad2720bc3458b45a3": {
+          "zh": "F-1手榴弹",
+          "en": "F-1 hand grenade"
+        },
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        },
+        "5e32f56fcb6d5863cc5e5ee4": {
+          "zh": "VOG-17 Khattabka 简易手榴弹",
+          "en": "VOG-17 Khattabka improvised hand grenade"
+        },
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        },
+        "618a431df1eb8e24b8741deb": {
+          "zh": "RGO手榴弹",
+          "en": "RGO hand grenade"
+        },
+        "617fd91e5539a84ec44ce155": {
+          "zh": "RGN手榴弹",
+          "en": "RGN hand grenade"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67548fb1d293a6e93d5184a4",
+      "name": {
+        "zh": "清理垃圾",
+        "en": "Let The Hunt Begin"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67624ce5ad9d2e9714bf6120",
+      "name": {
+        "zh": "塔科夫环卫工：科学狂人",
+        "en": "Bandit Hunt - Mad Scientist"
+      }
+    },
+    {
+      "id": "6762597817a433eeee2ef47a",
+      "name": {
+        "zh": "塔科夫环卫工：冷案 - 第1章",
+        "en": "Bandit Hunt - Cold Case - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_sanitar_office.png",
+  "isKey": false
+}

@@ -1,0 +1,83 @@
+{
+  "id": "687314e1ee500b06711955a2",
+  "name": {
+    "zh": "门庭之狼",
+    "en": "Wolves At The Gate"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "PickUp",
+  "location": "Any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "0cb4a36dd2e587b46e813dbe",
+      "itemName": {
+        "zh": "AEK-971 5.45x39突击步枪",
+        "en": "AEK-971 5.45x39 assault rifle"
+      }
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "0cb4a36dd2e587b46e813dbe",
+      "itemName": {
+        "zh": "AEK-971 5.45x39突击步枪",
+        "en": "AEK-971 5.45x39 assault rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，同志。封锁开始后，储备站基地那帮家伙大多跑路了，格鲁哈尔和他那帮拾荒者闯进了武器测试区，能捞的全都捞走了。大部分装备早就不在了，要么用光了要么报废了。但听说剩下的那些破烂马上就要被转移了。格鲁哈尔打算把他的腐臭散播到我们土地上更远的地方去。",
+    "en": "Greetings comrade. When the blockade kicked off and most of the reserve base boys ditched the place Glukhar and his crew of scavengers busted into the weapons testing area and grabbed whatever they could get their filthy hands on. Most of that gear is long gone, used up or trashed. But word is the scraps they left behind are about to be moved. Glukhar’s planning to spread his rot further across our land."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "68716c83eb31cf77ff9f9fd8"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "68716c83eb31cf77ff9f9fd8": {
+          "zh": "AEK-971原型",
+          "en": "AEK-971 Prototype"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "68716c83eb31cf77ff9f9fd8"
+      ],
+      "targetNames": {
+        "68716c83eb31cf77ff9f9fd8": {
+          "zh": "AEK-971原型",
+          "en": "AEK-971 Prototype"
+        }
+      }
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: ExitStatus",
+      "value": 1,
+      "isFailCondition": true
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/59c273da86f77459b8017e7b.png",
+  "isKey": false
+}

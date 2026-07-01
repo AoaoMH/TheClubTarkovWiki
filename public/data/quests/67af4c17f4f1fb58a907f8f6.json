@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Skill",
@@ -41,14 +45,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 15,
+      "value": 4,
       "target": [
         "5bb2475ed4351e00853264e3"
       ],
       "onlyFoundInRaid": false,
       "targetNames": {
         "5bb2475ed4351e00853264e3": {
-          "zh": "HK 416A5 5.56x45 突击步枪",
+          "zh": "HK 416A5 5.56x45 突击步枪 ☆",
           "en": "HK 416A5 5.56x45 assault rifle"
         }
       }
@@ -56,7 +60,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 4500,
+      "value": 1125,
       "target": [
         "60194943740c5d77f6705eea"
       ],
@@ -71,14 +75,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 8,
+      "value": 2,
       "target": [
         "601948682627df266209af05"
       ],
       "onlyFoundInRaid": false,
       "targetNames": {
         "601948682627df266209af05": {
-          "zh": "UVSR“针叶林-1”求生砍刀",
+          "zh": "UVSR“针叶林-1”求生砍刀 ★",
           "en": "UVSR Taiga-1 survival machete"
         }
       }

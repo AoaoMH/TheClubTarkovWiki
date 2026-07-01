@@ -1,0 +1,254 @@
+{
+  "id": "67472e2e0de022e6d88c5efb",
+  "name": {
+    "zh": "盗贼 - 第二章",
+    "en": "Safecracker - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 156750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 156750
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "64ace9f9c4eda9354b0226aa",
+      "itemName": {
+        "zh": "7.62x39mm PP gzh弹药包（20发装） ☆",
+        "en": "7.62x39mm PP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0ec13bfcdbcb00165aa685",
+      "itemName": {
+        "zh": "AKMN 7.62x39 突击步枪",
+        "en": "Kalashnikov AKMN 7.62x39 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "StashRows"
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "626a9cb151cb5849f6002890",
+      "itemName": {
+        "zh": "M1911 Kiba Arms Geneburn定制侧握把 ☆",
+        "en": "M1911 Kiba Arms Geneburn custom side grips"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "590c60fc86f77412b13fddcf",
+      "itemName": {
+        "zh": "文件包",
+        "en": "Documents case"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59fb023c86f7746d0d4b423c",
+      "itemName": {
+        "zh": "武器箱",
+        "en": "Weapon case"
+      }
+    }
+  ],
+  "description": {
+    "zh": "又见面了！我又有事情要你帮忙了，我们刚刚接到一位收藏家的委托，他想买一些稀有的装饰品和珠宝，当然不是啥东西都行，而且肯定也不需要合法途径获取。你懂的意思吧，又是那些闪亮又稀有的东西，就像上次一样。\n\n我只需要你再次帮个一个小小的忙，可以吗？我们并没有他想要的所有物品，因此我会给你发送我们客户还需要的东西清单。",
+    "en": "We have been contacted by some collector, he is looking to buy some rare decorations and jewelry, but not just any, and certainly not legally. You know, shiny and rare stuff again like last time.\n\nI just need a bit of your help again, can you do that for me? We don't have everything that he wants, I will send you the list of the things we still require for our customer."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5bc9bdb8d4351e003562b8a1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5bc9bdb8d4351e003562b8a1": {
+          "zh": "银徽章",
+          "en": "Silver Badge"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5bc9bdb8d4351e003562b8a1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5bc9bdb8d4351e003562b8a1": {
+          "zh": "银徽章",
+          "en": "Silver Badge"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "590de71386f774347051a052"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590de71386f774347051a052": {
+          "zh": "古董茶壶",
+          "en": "Antique teapot"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "590de71386f774347051a052"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590de71386f774347051a052": {
+          "zh": "古董茶壶",
+          "en": "Antique teapot"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "62a09cfe4f842e1bd12da3e4"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "62a09cfe4f842e1bd12da3e4": {
+          "zh": "金蛋",
+          "en": "Golden egg"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "62a09cfe4f842e1bd12da3e4"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "62a09cfe4f842e1bd12da3e4": {
+          "zh": "金蛋",
+          "en": "Golden egg"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "590de7e986f7741b096e5f32"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590de7e986f7741b096e5f32": {
+          "zh": "古董花瓶",
+          "en": "Antique vase"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "590de7e986f7741b096e5f32"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590de7e986f7741b096e5f32": {
+          "zh": "古董花瓶",
+          "en": "Antique vase"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "59e3647686f774176a362507"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e3647686f774176a362507": {
+          "zh": "木头钟",
+          "en": "Wooden clock"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "59e3647686f774176a362507"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e3647686f774176a362507": {
+          "zh": "木头钟",
+          "en": "Wooden clock"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67472de565eb520c7a8af1a5",
+      "name": {
+        "zh": "盗贼 - 第一章",
+        "en": "Safecracker - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_safecracker.png",
+  "isKey": false
+}

@@ -1,0 +1,364 @@
+{
+  "id": "6750a04d753056276248642d",
+  "name": {
+    "zh": "悠哉写意诺文斯克",
+    "en": "Quiet Days In Norvinsk"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 145650
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.15
+    },
+    {
+      "type": "Item",
+      "value": 675150,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 675150
+    },
+    {
+      "type": "Item",
+      "value": 100,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 100
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1d0c5f86f7744bb2683cf0",
+      "itemName": {
+        "zh": "实验室钥匙卡·蓝 ★",
+        "en": "TerraGroup Labs keycard (Blue)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5aa7e276e5b5b000171d0647",
+      "itemName": {
+        "zh": "Altyn 防弹头盔（橄榄褐色）",
+        "en": "Altyn bulletproof helmet (Olive Drab)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "CovertMovement",
+      "value": 150
+    },
+    {
+      "type": "Skill",
+      "target": "Launcher",
+      "value": 150
+    },
+    {
+      "type": "Skill",
+      "target": "AttachedLauncher",
+      "value": 150
+    },
+    {
+      "type": "Skill",
+      "target": "Surgery",
+      "value": 150
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "560d61e84bdc2da74d8b4571",
+      "itemName": {
+        "zh": "7.62x54R SNB",
+        "en": "7.62x54mm R SNB gzh"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5efb0c1bd79ff02a1f5e68d9",
+      "itemName": {
+        "zh": "7.62x51 毫米 M993",
+        "en": "7.62x51mm M993"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64637076203536ad5600c990",
+      "itemName": {
+        "zh": "PKM 7.62x54R机枪 ★",
+        "en": "Kalashnikov PKM 7.62x54R machine gun"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64ca3d3954fc657e230529cc",
+      "itemName": {
+        "zh": "卡拉什尼科夫 PKP 7.62x54R 步兵机枪",
+        "en": "Kalashnikov PKP 7.62x54R infantry machine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "紧急通知。\n\n帮派问题。\n最近我与该地区的所有商人会面，发现所有的帮派首领和其他人都在制造比以往更多的麻烦，他们的侵略性似乎越来越强。我们需要用一种特殊但重要的方式处理这个问题，至少这是协议的一部分。\n\n你是我们最可靠的人之一，所以我选择你来执行这个任务。你需要“解决”一些人，并且必须按照确切的顺序进行。每次任务后，你都会收到下一步的指令。\n\n我保证，你的付出绝对值得。",
+    "en": "Code red.\n\nBandit Problem.\nI recently met up with all the vendors from the region, all the gang leaders and some others have been causing more trouble than usual, and their aggression seems to be increasing. The way we need to handle this \"problem\" might be kinda specific, but important, at least it has been part of the deal.\n\nYou are one of the more reliable people that work with us, so I chose you for this task. So, you need to \"get rid\" of some people, in exact order. You will receive the next orders each time.\n\nThe Payment will be worth the effort I promise."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossBully"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossTagilla"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKilla"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossGluhar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossSanitar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKojaniy"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossPartisan"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKolontay",
+        "bossBoar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKnight"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBigPipe"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBirdEye"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossZryachiy"
+      ]
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "675356e57d04aa9325c82e00",
+      "name": {
+        "zh": "品味之选 - 第六章",
+        "en": "Ideal For Someone With Taste - Part 6"
+      }
+    },
+    {
+      "id": "67517cf9b8bbd2f751142ef9",
+      "name": {
+        "zh": "步步为营 - 第六章",
+        "en": "Taking Every Round Into Account - Part 6"
+      }
+    },
+    {
+      "id": "6747b920719aa1658981f7d1",
+      "name": {
+        "zh": "完美拍档",
+        "en": "A Merchant's Best Friend"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_quietdayinnorvinsk.png",
+  "isKey": false
+}

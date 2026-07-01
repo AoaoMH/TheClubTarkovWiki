@@ -1,0 +1,162 @@
+{
+  "id": "67509d5ecf08e0fbf1764f36",
+  "name": {
+    "zh": "ULTRA 之尤",
+    "en": "Silence At ULTRA"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 52215,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 52215
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c7d55de2e221644f31bff68",
+      "itemName": {
+        "zh": "Aimpoint COMP M4反射式瞄具",
+        "en": "Aimpoint CompM4 reflex sight"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5447ac644bdc2d6c208b4567",
+      "itemName": {
+        "zh": "5.56x45mm M855弹药包（50发装）",
+        "en": "5.56x45mm M855 ammo pack (50 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c07c60e0db834002330051f",
+      "itemName": {
+        "zh": "ADAR 2-15 .223 卡宾枪",
+        "en": "ADAR 2-15 5.56x45 carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "544fb62a4bdc2dfb738b4568",
+      "itemName": {
+        "zh": "Russian Army菠萝汁",
+        "en": "Pack of Russian Army pineapple juice"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57347d9c245977448b40fa85",
+      "itemName": {
+        "zh": "鲱鱼罐头",
+        "en": "Can of herring"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e8f3423fd7471236e6e3b64",
+      "itemName": {
+        "zh": "“诺文斯基核动力”金牌格瓦斯600毫升装",
+        "en": "Bottle of Norvinsky Yadreniy premium kvass (0.6L)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我有更多的工作给你，所以仔细听。\n我的一个团队最近晚上去了一趟 ULTRA 商场，他们参观了 Goshan 超市，在超市北部某处发现了大量的食物和饮品。在一个隐蔽的地方安装摄像头，我想监视谁出入那里，以及他们带走了什么物资。\n\n完成这一部分后，到 Goshan 后方的货物装卸区看看。你应该会看到敞开的大门通向外部。在南出口外面，有一些靠在围栏上的集装箱，一个蓝色，一个绿色，在它们之间有一个通道，通道的另一端是装在卡车上的集装箱。\n\n沿着那条路的边上应该有更多的集装箱，在围栏的某个角落应该有个洞，那里是一个撤离点。记住了吗？或者需要我写下来？",
+    "en": "I got more work for you, so listen carefully.\nOne of my teams has been to the ULTRA mall at night recently, they visited the goshan supermarket and found massive amounts of food and drinks, somewhere in the northern part of the store. Install a camera somewhere nobody sees it, I wanna monitor who goes in and out of there, and what supplies they take with them.\n\nAfter you're done with that part, check in the back of goshan where they usually unload cargo, you should see opened gates that should send you outside. Somewhere outside the south-exit there should be a few containers leaned against the fence, a blue and a green one, between them there is a passage that leads down onto another container loaded onto a truck.\n\nSomewhere on the side of that road there should be more containers, and in one of the corners of the fences there should be a hole where you can extract from the location, can you remember that or do you want it written?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_goshan_food",
+      "targetNames": {
+        "lotus_interchange_goshan_food": {
+          "zh": "lotus_interchange_goshan_food",
+          "en": "lotus_interchange_goshan_food"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_holeinthefence_passage",
+      "targetNames": {
+        "lotus_interchange_holeinthefence_passage": {
+          "zh": "lotus_interchange_holeinthefence_passage",
+          "en": "lotus_interchange_holeinthefence_passage"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67509cb7f4536e3f9382009b",
+      "name": {
+        "zh": "黑色星期五",
+        "en": "Black Friday"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67509e7057be1b2849ca4f57",
+      "name": {
+        "zh": "ULTRA 之王",
+        "en": "King Of ULTRA"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_goshan.png",
+  "isKey": false
+}

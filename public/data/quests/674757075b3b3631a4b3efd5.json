@@ -1,0 +1,123 @@
+{
+  "id": "674757075b3b3631a4b3efd5",
+  "name": {
+    "zh": "“将死！” - 第五章",
+    "en": "Checkmate - Part 5"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 32250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 32250
+    },
+    {
+      "type": "Skill",
+      "target": "Endurance",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "Attention",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "651450ce0e00edc794068371",
+      "itemName": {
+        "zh": "SR-3M 9x39紧凑型突击步枪",
+        "en": "SR-3M 9x39 compact assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "56dff2ced2720bb4668b4567",
+      "itemName": {
+        "zh": "5.45x39毫米 PP",
+        "en": "5.45x39mm PP gs"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，我发现了基地的一些情况，我们追踪到山顶雷达站发出了奇怪的信号。那些信号非常诡异，我怀疑不是好事。\n\n你能过去在大圆顶内顶部放一个信号干扰器吗？\n既然都要去，我建议你也装个摄像头，我想看看都是什么人在出入那个雷达站。",
+    "en": "Hey I found out something about the base, we traced weird signals from the radar station on the hill. Those were really weird signals, I doubt it's something good.\n\nCan you head there and place down a signal jammer? Right at the top inside the dome.\nWhile you're there I suggest you set up a camera there aswell, I want to see what kind of people visit that station."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5ac78a9b86f7741cca0bbd8d"
+      ],
+      "targetNames": {
+        "5ac78a9b86f7741cca0bbd8d": {
+          "zh": "信号干扰器",
+          "en": "Signal Jammer"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674756876ef598122bb9239d",
+      "name": {
+        "zh": "“将死！” - 第四章",
+        "en": "Checkmate - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747575b5a841fdbf0ca37ae",
+      "name": {
+        "zh": "“将死！” - 第六章",
+        "en": "Checkmate - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_checkmate_5.png",
+  "isKey": false
+}

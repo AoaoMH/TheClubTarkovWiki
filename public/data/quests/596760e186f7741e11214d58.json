@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -70,7 +74,15 @@
       }
     }
   ],
-  "followUps": [],
+  "followUps": [
+    {
+      "id": "67990658c4c1cec1f75c13ba",
+      "name": {
+        "zh": "意外的发现",
+        "en": "A Surprising Find"
+      }
+    }
+  ],
   "image": "/files/quest/icon/5967611386f7741dfe4f46fb.jpg",
   "isKey": false
 }

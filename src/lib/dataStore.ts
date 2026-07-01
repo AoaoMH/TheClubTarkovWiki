@@ -62,6 +62,7 @@ export interface QuestSummary {
   traderName: { zh: string; en: string }
   type: string
   location: string
+  locationName: { zh: string; en: string }
   rewards: QuestReward[]
 }
 

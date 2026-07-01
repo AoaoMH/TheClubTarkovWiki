@@ -1,0 +1,115 @@
+{
+  "id": "681633be8d093606deceedea",
+  "name": {
+    "zh": "角斗士的礼物",
+    "en": "Gladiator's Gift"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 75,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 75
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f4f9eb969cdc30ff33f09db",
+      "itemName": {
+        "zh": "EYE MK.2 手持指南针专业版 ☆",
+        "en": "EYE MK.2 professional hand-held compass"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5645bc214bdc2d363b8b4571",
+      "itemName": {
+        "zh": "FORT Kiver-M 防弹头盔",
+        "en": "FORT Kiver-M bulletproof helmet"
+      }
+    }
+  ],
+  "description": {
+    "zh": "那么，我们刚才说到哪了？哦，对了，我之前想提供给你的工作……\n\n我的人收集到一些关于泰拉集团一直在研发的某种实验性药物的情报——如果我们要具体来说，是战斗兴奋剂。我的意思是，反正你为什么要关心呢，谁知道这些东西安全不安全？我想我的人会弄清楚的，但你的工作才是真正重要的，你实际上需要找到一些含有这些药物的运输货物。\n\n如果情报正确，应该有一辆卡车载着这批货物穿过普里波兹耶（Priozersk，即森林地图），所以你最好的选择是去那里看看，找到后别忘了标记一下。明白你的任务了吗？完美，我期待你很快回来，捍卫者。",
+    "en": "So where were we? Oh yeah right, the job I wanted to offer you previously...\n\nMy guys gathered some intel about some kind of experimental drugs that Terragroup has been working on - Combat stimulants if we want to get specific here. I mean why should you care anyway, who knows if these things are safe or not? I guess my men will find out, but your job is the actual important one, you actually need to find some of the shipments that contain these drugs.\n\nIf the intel is correct there should have been a truck carrying this cargo through Priozersk, so your best bet is to look there, don't forget to mark the thing once you find it. Understood your assignment? Perfect, I expect you to come back very soon champion."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_tg_cargo_truck",
+      "targetNames": {
+        "lotus_woods_tg_cargo_truck": {
+          "zh": "lotus_woods_tg_cargo_truck",
+          "en": "lotus_woods_tg_cargo_truck"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68162986c103ecdd90256073",
+      "name": {
+        "zh": "保持联系",
+        "en": "Keeping Connections"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "682a396d504c405d6044c7ec",
+      "name": {
+        "zh": "泰拉文件的下落 - 第1部分",
+        "en": "Terragroup Paper Trail - Part 1"
+      }
+    },
+    {
+      "id": "680e0c71597b0c96599d5587",
+      "name": {
+        "zh": "有些可疑...",
+        "en": "Something's Fishy..."
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_whatafind.png",
+  "isKey": false
+}

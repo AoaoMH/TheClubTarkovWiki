@@ -1,0 +1,197 @@
+{
+  "id": "6747c312165746c2dd1e19f2",
+  "name": {
+    "zh": "“将死！” - 第七章",
+    "en": "Checkmate - Part 7"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Completion",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 23750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.06
+    },
+    {
+      "type": "Item",
+      "value": 121950,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 121950
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "6579847c5a0e5879d12f2873",
+      "itemName": {
+        "zh": "30发9x21 7N42盒装弹药 ☆",
+        "en": "9x21mm 7N42 ammo pack (30 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d8e0e0e86f774321140eb56",
+      "itemName": {
+        "zh": "RB-KPRL钥匙 ★",
+        "en": "RB-KPRL key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d8e0db586f7744450412a42",
+      "itemName": {
+        "zh": "RB-KORL钥匙 ☆",
+        "en": "RB-KORL key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "SMG",
+      "value": 450
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5656eb674bdc2d35148b457c",
+      "itemName": {
+        "zh": "40毫米VOG-25榴弹",
+        "en": "40mm VOG-25 grenade"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "62e7e7bbe6da9612f743f1e0",
+      "itemName": {
+        "zh": "GP-25“篝火”40 毫米下挂式榴弹发射器",
+        "en": "GP-25 Kostyor 40mm underbarrel grenade launcher"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "651450ce0e00edc794068371",
+      "itemName": {
+        "zh": "SR-3M 9x39紧凑型突击步枪",
+        "en": "SR-3M 9x39 compact assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，又见面了。你已经仔细调查过军事基地了，是吗？很好，我知道你已经去了很多次，现在基本可以称得上是专家了。\n所以，听好了，这很重要。靠近月台和火车场的仓库大门是个撤离点，主要被 PMC 使用。前往基地找到该撤离点，并在那里安装一个摄像头。我想知道还有谁会去那里。之后通过该撤离点撤离。\n同时，在那里试试某些武器的表现。使用 SR-2M 冲锋枪，我可以借你一把，但如果丢了，我不会再借另一把！祝你好运。",
+    "en": "Hello again, you already investigated the Military Base carefully, yes? Good, I know you have been there a bunch of times now so you are basically an expert at this.\n\nSo, listen carefully, this is important. Theres this bunker near the white rook building and the trainyard. People use it to exfil from the base, mainly PMCs. Go to the base and look for the exfil, make sure to place a camera there, I wanna see who else goes there, after that extract from that location through that exfil.\n\nAnd while you are there, make sure to neutralize some targets, I wanna see how good you are while handling certain weapons, use a SR-2M submachine gun, I can lend you one but don't lose it! I won't give you another one if that happens, good luck out there."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "62e14904c2699c0ec93adc47"
+      ],
+      "weaponNames": {
+        "62e14904c2699c0ec93adc47": {
+          "zh": "SR-2M 石楠 9x21 毫米冲锋枪",
+          "en": "SR-2M Veresk 9x21 submachine gun"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_bunkerhermeticdoor",
+      "targetNames": {
+        "lotus_reserve_bunkerhermeticdoor": {
+          "zh": "lotus_reserve_bunkerhermeticdoor",
+          "en": "lotus_reserve_bunkerhermeticdoor"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747575b5a841fdbf0ca37ae",
+      "name": {
+        "zh": "“将死！” - 第六章",
+        "en": "Checkmate - Part 6"
+      }
+    },
+    {
+      "id": "6747c298d1c2a3d2091dbe7d",
+      "name": {
+        "zh": "旧日时光",
+        "en": "Like In Old Times"
+      }
+    },
+    {
+      "id": "6747c236e7360000d2cdffb9",
+      "name": {
+        "zh": "来自东方的朋友",
+        "en": "A Friend From the East"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "676b0de9ab6151bd15ce350e",
+      "name": {
+        "zh": "危险工具",
+        "en": "Dangerous Tools"
+      }
+    },
+    {
+      "id": "6747c36d4e805e1b7f6387b5",
+      "name": {
+        "zh": "将死 - 第八部分",
+        "en": "Checkmate - Part 8"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_prapor.png",
+  "isKey": false
+}

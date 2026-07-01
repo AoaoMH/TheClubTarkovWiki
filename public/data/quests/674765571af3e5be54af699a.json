@@ -1,0 +1,225 @@
+{
+  "id": "674765571af3e5be54af699a",
+  "name": {
+    "zh": "莲花之光 - 第九章",
+    "en": "Light Of The Lotus - Part 9"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 32250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 32250
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c5f0d86f77413997acfab",
+      "itemName": {
+        "zh": "MRE个人即食口粮",
+        "en": "MRE ration pack"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "657024f9bfc87b3a3409323b",
+      "itemName": {
+        "zh": "50发5.56x45MK 318 Mod 0 (SOST)盒装弹药 ☆",
+        "en": "5.56x45mm MK 318 Mod 0 (SOST) ammo pack (50 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "CovertMovement",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60194943740c5d77f6705eea",
+      "itemName": {
+        "zh": "5.56x45毫米 Mk 318 Mod 0 (SOST)",
+        "en": "5.56x45mm MK 318 Mod 0 (SOST)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "609e8540d5c319764c2bc2e9",
+      "itemName": {
+        "zh": "NFM THOR 隐蔽型强化防弹背心",
+        "en": "NFM THOR Concealable Reinforced Vest body armor"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b44c6ae86f7742d1627baea",
+      "itemName": {
+        "zh": "Ana tactical Beta 2战斗背包 ",
+        "en": "ANA Tactical Beta 2 Battle backpack (Olive Drab)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我们刚才说到哪了？哦，对了，在海关工业区的某个地方有一栋建筑里有一个绿幕房间。我希望你能找到这个房间并在那里安装一个WI-FI摄像头。\n\n我们需要确保这个地方不会被任何其他人用它来做事。所以在门前安装一个拌雷陷阱，我可以借给你一套，别弄丢了。\n综上所述，祝你好运。",
+    "en": "So, where were we again? Oh yeah right, somewhere in the industrial zone theres a building that has a greenscreen in it. I want you to locate this room and install a wi-fi camera there.\n\nWe'll need to assure that this place won't be used by anyone, at least not for it's intended purpose. So plant a grenade trap infront of the door, I can lend you an installation kit, don't mess this up.\nAnyway, good luck out there."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_greenscreen",
+      "targetNames": {
+        "lotus_customs_greenscreen": {
+          "zh": "lotus_customs_greenscreen",
+          "en": "lotus_customs_greenscreen"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "666b11055a706400b717cfa5"
+      ],
+      "targetNames": {
+        "666b11055a706400b717cfa5": {
+          "zh": "绊线布设装置",
+          "en": "Tripwire installation kit"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5448be9a4bdc2dfd2f8b456a",
+        "66dae7cbeb28f0f96809f325",
+        "5710c24ad2720bc3458b45a3",
+        "58d3db5386f77426186285a0",
+        "5e32f56fcb6d5863cc5e5ee4",
+        "5e340dcdcb6d5863cc5e5efb",
+        "618a431df1eb8e24b8741deb",
+        "617fd91e5539a84ec44ce155"
+      ],
+      "targetNames": {
+        "5448be9a4bdc2dfd2f8b456a": {
+          "zh": "RGD-5手榴弹",
+          "en": "RGD-5 hand grenade"
+        },
+        "66dae7cbeb28f0f96809f325": {
+          "zh": "V40 微型手榴弹",
+          "en": "V40 Mini-Grenade"
+        },
+        "5710c24ad2720bc3458b45a3": {
+          "zh": "F-1手榴弹",
+          "en": "F-1 hand grenade"
+        },
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        },
+        "5e32f56fcb6d5863cc5e5ee4": {
+          "zh": "VOG-17 Khattabka 简易手榴弹",
+          "en": "VOG-17 Khattabka improvised hand grenade"
+        },
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        },
+        "618a431df1eb8e24b8741deb": {
+          "zh": "RGO手榴弹",
+          "en": "RGO hand grenade"
+        },
+        "617fd91e5539a84ec44ce155": {
+          "zh": "RGN手榴弹",
+          "en": "RGN hand grenade"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674764d429eb6b5966202149",
+      "name": {
+        "zh": "莲花之光 - 第八章",
+        "en": "Light Of The Lotus - Part 8"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6766e795bcba079415915b6b",
+      "name": {
+        "zh": "保管好你的收藏品",
+        "en": "Keep Your Souvenirs"
+      }
+    },
+    {
+      "id": "6747652eea4bfbdfa2e46ab4",
+      "name": {
+        "zh": "莲花之光 - 第十章",
+        "en": "Light of the Lotus - Part 10"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_9.png",
+  "isKey": false
+}

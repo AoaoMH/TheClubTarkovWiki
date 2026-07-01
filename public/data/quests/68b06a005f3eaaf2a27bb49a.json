@@ -1,0 +1,93 @@
+{
+  "id": "68b06a005f3eaaf2a27bb49a",
+  "name": {
+    "zh": "政府合同 - 第1部分",
+    "en": "Government Contract - Part 1"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Merchant",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": -0.01
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60391a8b3364dc22b04d0ce5",
+      "itemName": {
+        "zh": "罐装铝热剂",
+        "en": "Can of thermite"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57372c21245977670937c6c2",
+      "itemName": {
+        "zh": "5.45x39mm BT弹药包（120发装）",
+        "en": "5.45x39mm BT gs ammo pack (120 pcs)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "归根结底，你的帮助对我至关重要，所以我必须原谅你的过去。但别以为我会忘记你的伎俩，毕竟它对我的生意造成了一些无法弥补的损害。你何不付我一点费用来弥补部分损失呢，嗯？\n\n我知道你不是那种随便把钱扔给任何人的人，但是嘿……得了吧，你知道你自己搞砸了，我的哥们，你对我就像兄弟一样，你也知道这一点，我永远不会对你做出那样的事！好吧，我不再演戏了，但你有工作要做，我的朋友，明白吗？",
+    "en": "At the end of the day, your help is essential to me, so I must forgive you for the past. But don't think that I will forget your stunt, after all it caused some irrepairable damage to my business. How about you pay me a little fee to cover some of the damage, hmm?\n\nI know you're not the kind of person to throw money around to anyone, but hey... Come on now, you know that yourself, you messed up my guy, you were like a brother to me and you knew that too, I would have never pulled something like that on you! Fine, I'll quit the dramatic act, but you have work to do my friend, got it?"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 250000,
+      "target": [
+        "5449016a4bdc2d6f028b456f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5449016a4bdc2d6f028b456f": {
+          "zh": "卢布",
+          "en": "Roubles"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6813db938449d87cea2cf14a",
+      "name": {
+        "zh": "赶紧把这事办了 - 第3部分",
+        "en": "Let's Get This Over With - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b075f82fe99bf60e9ad7f2",
+      "name": {
+        "zh": "政府合同 - 第2部分",
+        "en": "Government Contract - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_ref.png",
+  "isKey": false
+}

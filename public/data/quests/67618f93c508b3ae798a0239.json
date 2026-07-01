@@ -1,0 +1,215 @@
+{
+  "id": "67618f93c508b3ae798a0239",
+  "name": {
+    "zh": "工具之道 - 第一章",
+    "en": "Tools To Work With - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 55000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 55000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c2e1186f77425357b6124",
+      "itemName": {
+        "zh": "一套工具",
+        "en": "Toolset"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 10
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e4d34ca86f774264f758330",
+      "itemName": {
+        "zh": "Walker's Razor 数字耳机",
+        "en": "Walker's Razor Digital headset"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6193a720f8ee7e52e42109ed",
+      "itemName": {
+        "zh": "HK USP .45 ACP手枪",
+        "en": "HK USP .45 ACP pistol"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59984ab886f7743e98271174",
+      "itemName": {
+        "zh": "PP-19-01 勇士 9x19 冲锋枪",
+        "en": "PP-19-01 Vityaz 9x19 submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你肯定懂那种买了把新枪，改着改着却剩一堆废零件的烦恼，对吧？废话，当然懂！\n\n所以我打算只卖某些武器的下机匣，但不是谁都能买，得靠本事赢来的。现在有个小活给你，听好了。\n\n我需要你改装一把 USP 手枪和一把 Vityaz 冲锋枪，参数我都写好了。完成后告诉我。\n\nUSP .45 要求：\n - 后坐力总和小于 700\n - 重量小于 0.9 公斤\n - 人机功效 80 或更高\n - 耐久度至少 60 %\n - 弹匣容量 12 或更多\n - “射击场”距离 200米 或更多\n\nPP-19“勇士” 要求：\n - 后坐力总和小于 315\n - 重量小于 3.5 公斤\n - 人机功效 56 或更高\n - 耐久度至少 60 %\n - 弹匣容量 30 或更多\n - 宽度占用 2格 或更少\n - 任意 紧凑型准直式瞄具\n - 任意 组合式战术设备",
+    "en": "You know how annoying it is to buy new weapons and ending up with a ton of useless spare parts after modifying it, right? What a question, of course you do!\n\nSo I decided to sell just the lower receivers of certain weapons, but I don't sell to anyone, you gotta earn them. So I got a small task for you, listen up.\n\nCan you modify a USP pistol and a Vityaz SMG? I'll write you down all the specifications. I'll be waiting.\n\nUSP .45 Requirements :\n - Recoil Sum less than 700\n - Weight less than 0.9 KG\n - Ergonomics 80 or higher\n - Durability higher than 60 %\n - Magazine Capacity of 12 or more\n - Sighting Range of 200 Meters or more\n\nPP-19 Vityaz Requirements :\n - Recoil Sum less than 315\n - Weight less than 3.5 KG\n - Ergonomics 56 or higher\n - Durability higher than 60 %\n - Magazine Capacity of 30 or more\n - Width of 2 slots or less\n - A Compact Collimator\n - A Standalone Flashlight"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "6193a720f8ee7e52e42109ed"
+      ],
+      "targetNames": {
+        "6193a720f8ee7e52e42109ed": {
+          "zh": "HK USP .45 ACP手枪",
+          "en": "HK USP .45 ACP pistol"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 80
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 700
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 200
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 12
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 0.9
+        }
+      ]
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "59984ab886f7743e98271174"
+      ],
+      "targetNames": {
+        "59984ab886f7743e98271174": {
+          "zh": "PP-19-01 勇士 9x19 冲锋枪",
+          "en": "PP-19-01 Vityaz 9x19 submachine gun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 56
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 315
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        },
+        {
+          "stat": "width",
+          "compare": "<=",
+          "value": 2
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 3.5
+        }
+      ],
+      "requiredCategories": [
+        "55818acf4bdc2dde698b456b",
+        "55818b084bdc2d5b648b4571"
+      ],
+      "requiredCategoryNames": {
+        "55818acf4bdc2dde698b456b": {
+          "zh": "紧凑型反射式瞄具",
+          "en": "Compact reflex sight"
+        },
+        "55818b084bdc2d5b648b4571": {
+          "zh": "手电筒",
+          "en": "Flashlight"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67471f9c63d6ef6fe3ced898",
+      "name": {
+        "zh": "新通讯",
+        "en": "New Contacts"
+      }
+    },
+    {
+      "id": "5ac2426c86f774138762edfe",
+      "name": {
+        "zh": "枪匠 - 2",
+        "en": "Gunsmith - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "675a456b801bb92dae60542e",
+      "name": {
+        "zh": "工具之道 - 第二章",
+        "en": "Tools To Work With - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_1.png",
+  "isKey": false
+}

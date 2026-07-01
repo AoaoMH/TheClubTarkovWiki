@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -66,7 +70,7 @@
       "value": 2,
       "itemId": "5e2aedd986f7746d404f3aa4",
       "itemName": {
-        "zh": "GreenBat锂电池",
+        "zh": "GreenBat锂电池 ★",
         "en": "GreenBat lithium battery"
       },
       "quantity": 1
@@ -80,7 +84,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "573477e124597737dd42e191"
       ],
@@ -95,14 +99,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 4,
+      "value": 1,
       "target": [
         "57347baf24597738002c6178"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "57347baf24597738002c6178": {
-          "zh": "内存条",
+          "zh": "内存条 ☆",
           "en": "RAM stick"
         }
       }
@@ -110,7 +114,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 3,
+      "value": 1,
       "target": [
         "590a3b0486f7743954552bdb",
         "6389c7750ef44505c87f5996"
@@ -122,7 +126,7 @@
           "en": "Printed circuit board"
         },
         "6389c7750ef44505c87f5996": {
-          "zh": "微控制器电路板",
+          "zh": "微控制器电路板 ☆",
           "en": "Microcontroller board"
         }
       }

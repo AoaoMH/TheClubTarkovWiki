@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -36,7 +40,7 @@
       "value": 1,
       "itemId": "5bfea6e90db834001b7347f3",
       "itemName": {
-        "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
         "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
       },
       "quantity": 1
@@ -56,7 +60,7 @@
       "value": 2,
       "itemId": "65702558cfc010a0f5006a25",
       "itemName": {
-        "zh": "7.62x51 M80弹药包（20发装）",
+        "zh": "7.62x51 M80弹药包（20发装） ★",
         "en": "7.62x51mm M80 ammo pack (20 pcs)"
       },
       "quantity": 1
@@ -69,8 +73,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 10,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -81,8 +85,8 @@
     },
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 10,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -94,7 +98,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "5d1b36a186f7742523398433"
       ],

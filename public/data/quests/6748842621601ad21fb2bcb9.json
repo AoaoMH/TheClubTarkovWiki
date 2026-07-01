@@ -1,0 +1,278 @@
+{
+  "id": "6748842621601ad21fb2bcb9",
+  "name": {
+    "zh": "塔科夫环卫工：隔墙有眼",
+    "en": "Bandit Hunt - Eyes Everywhere"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.06
+    },
+    {
+      "type": "Item",
+      "value": 267550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 267550
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "655c669103999d3c810c025b",
+      "itemName": {
+        "zh": "邪教徒小人",
+        "en": "Cultist figurine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "64ccc25f95763a1ae376e447",
+      "itemName": {
+        "zh": "神秘房间符号钥匙 ★",
+        "en": "Mysterious room marked key"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5780cf7f2459777de4559322",
+      "itemName": {
+        "zh": "符号钥匙 ★",
+        "en": "Dorm room 314 marked key"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "DMR",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "Sniper",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "63626d904aa74b8fe30ab426",
+      "itemName": {
+        "zh": "Zryachiy巴拉克拉瓦 ★",
+        "en": "Zryachiy's balaclava"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c46fbd72e2216398b5a8c9c",
+      "itemName": {
+        "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+        "en": "SVDS 7.62x54R sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "听好了，士兵，这是个特殊任务。我做了一些事前调查，发现岛上有邪教的狙击手保镖，他们准的要命。小心这些家伙，最好用高威力步枪从远距离干掉他们。我可以借给你一支非常特别的狙击步枪和一些子弹来对付这些人。别忘了，通往岛屿的桥上满是地雷，因此过桥时一定要小心，不过你很可能需要试着穿过岛屿才能得到这个家伙的装备。我想要他的面具、胸挂和他的两把武器。祝你好运。\n\n等等，还有一件事，我猜机械师已经帮你搞到了那个奇怪的发射器，对吧？\n给自己留条后路，在干掉这个邪教徒怪胎前不要随身带着它，它可能随时会被解码失效并留下犯罪记录。",
+    "en": "Listen up soldier, this is a special task. So I did my research, turns out that the island is guarded by cultists marksmen, they are deadly and accurate. Be careful with them, take them out from a distance with a high power rifle, I might lend you a very special sniper rifle and a few bullets for it to take these guys out. And don't forget that the island bridge is full of mines, be careful when crossing it, however you will most likely need to visit the island to take this guys gear, I want to see his mask, chestrig and both of his weapons. I count on you, good luck.\n\nOh wait, one more thing, I assume mechanic helped you get this weird transmitter thing, right?\nDo yourself a favor, don't take it with you when killing this weird cultist, it will probably get decoded and leave a trace."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossZryachiy"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "636270263f2495c26f00b007",
+        "63626d904aa74b8fe30ab426"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "636270263f2495c26f00b007": {
+          "zh": "Zryachiy巴拉克拉瓦帽子 ★",
+          "en": "Zryachiy's balaclava (folded)"
+        },
+        "63626d904aa74b8fe30ab426": {
+          "zh": "Zryachiy巴拉克拉瓦 ★",
+          "en": "Zryachiy's balaclava"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "636270263f2495c26f00b007",
+        "63626d904aa74b8fe30ab426"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "636270263f2495c26f00b007": {
+          "zh": "Zryachiy巴拉克拉瓦帽子 ★",
+          "en": "Zryachiy's balaclava (folded)"
+        },
+        "63626d904aa74b8fe30ab426": {
+          "zh": "Zryachiy巴拉克拉瓦 ★",
+          "en": "Zryachiy's balaclava"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "63611865ba5b90db0c0399d1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "63611865ba5b90db0c0399d1": {
+          "zh": "Azimut SS \"Khamelion\"胸挂（橄榄色）",
+          "en": "Azimut SS \"Khamelion\" chest harness (Olive)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "63611865ba5b90db0c0399d1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "63611865ba5b90db0c0399d1": {
+          "zh": "Azimut SS \"Khamelion\"胸挂（橄榄色）",
+          "en": "Azimut SS \"Khamelion\" chest harness (Olive)"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c46fbd72e2216398b5a8c9c",
+        "627e14b21713922ded6f2c15"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        },
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c46fbd72e2216398b5a8c9c",
+        "627e14b21713922ded6f2c15"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        },
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "57dc2fa62459775949412633",
+        "5ba26383d4351e00334c93d9"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57dc2fa62459775949412633": {
+          "zh": "AKS-74U 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74U 5.45x39 assault rifle"
+        },
+        "5ba26383d4351e00334c93d9": {
+          "zh": "HK MP7A1 4.6x30 微型冲锋枪",
+          "en": "HK MP7A1 4.6x30 submachine gun"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "57dc2fa62459775949412633",
+        "5ba26383d4351e00334c93d9"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57dc2fa62459775949412633": {
+          "zh": "AKS-74U 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74U 5.45x39 assault rifle"
+        },
+        "5ba26383d4351e00334c93d9": {
+          "zh": "HK MP7A1 4.6x30 微型冲锋枪",
+          "en": "HK MP7A1 4.6x30 submachine gun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674884a3ebf5b8cdbf739bd8",
+      "name": {
+        "zh": "未读消息",
+        "en": "Sending A Message"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_boss_zryachiy.png",
+  "isKey": false
+}

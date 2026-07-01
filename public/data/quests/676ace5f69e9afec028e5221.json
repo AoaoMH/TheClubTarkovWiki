@@ -1,0 +1,149 @@
+{
+  "id": "676ace5f69e9afec028e5221",
+  "name": {
+    "zh": "异世界卡车司机",
+    "en": "Hits Like A Truck"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 135650,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 135650
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "657024b8bfc87b3a34093232",
+      "itemName": {
+        "zh": "盒装 5 发 23x75 破障独头弹弹药",
+        "en": "23x75mm Barrikada slug ammo pack (5 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657024431419851aef03e6fd",
+      "itemName": {
+        "zh": "12/70 食人鱼弹药包（25发装）",
+        "en": "12/70 Piranha ammo pack (25 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Skill",
+      "target": "MagDrills",
+      "value": 125
+    },
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 125
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6601380580e77cfd080e3418",
+      "itemName": {
+        "zh": "20/70 箭形弹",
+        "en": "20/70 flechette"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "660137ef76c1b56143052be8",
+      "itemName": {
+        "zh": "20/70“死亡游戏”独头弹",
+        "en": "20/70 Dangerous Game Slug"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "660137d8481cc6907a0c5cda",
+      "itemName": {
+        "zh": "20/70 TSS 穿甲独头弹",
+        "en": "20/70 TSS Armor Piercing Slug"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，你有空吗？有？太好了。我有一个好玩儿的给你。\n\n来点挑战怎么样？你看，有些武器很习以为常，有些则比较冷门；有些武器经常用，有些则几乎没有登场率。\n具体点来说，就比如用23x75毫米R和20口径的武器，你不知道23x75的后坐力有多吓人，任何被枪口对准的人都会瞬间消失，你的肩膀也是伤敌一千自损八百的程度。20口径倒没那么强，但你也不会想被它打中的。\n\n你的任务是用这些口径的武器击中目标的腿部，同时击杀一些敌人，听起来很简单，对吧？希望如此，我等你的好消息，祝你好运。",
+    "en": "Hey there, you busy by any chance? No? Excellent. I have a delicate offer for you.\nHow about another challenge? You see, there are certain weapons that are common, and weapons that are not very common, weapons that get used a lot and weapons that rarely get used.\nSpecifically weapons that are chambered in 23x75mm R and 20 Gauge, you see 23x75 kicks like crazy, whoever your barrel is pointing at will be gone, your shoulder too. 20 Gauge might not be as strong, but you still wouldn't want to get hit by it.\n\nAnyway, your task is to hit targets in the legs with weapons that are chambered in these two calibers, and also eliminate some, sounds simple right? Well let's hope it is, I'll hear from you soon, good luck."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Shots",
+      "value": 15,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5a38e6bac4a2826c6e06d79b",
+        "5e848cc2988a8701445df1e8"
+      ],
+      "weaponNames": {
+        "5a38e6bac4a2826c6e06d79b": {
+          "zh": "TOZ-106 20铅径 栓动霰弹枪",
+          "en": "TOZ-106 20ga bolt-action shotgun"
+        },
+        "5e848cc2988a8701445df1e8": {
+          "zh": "TOZ KS-23M 23x75 毫米泵动式霰弹枪",
+          "en": "TOZ KS-23M 23x75mm pump-action shotgun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6769e676aaf099da20b7d467",
+      "name": {
+        "zh": "知己知彼 - 第一章",
+        "en": "Knowing How To Counter - Part 1"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_ks23m.png",
+  "isKey": false
+}

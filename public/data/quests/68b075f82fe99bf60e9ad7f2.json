@@ -1,0 +1,137 @@
+{
+  "id": "68b075f82fe99bf60e9ad7f2",
+  "name": {
+    "zh": "政府合同 - 第2部分",
+    "en": "Government Contract - Part 2"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Exploration",
+  "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 15,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 15
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "64acea09c4eda9354b0226ad",
+      "itemName": {
+        "zh": "7.62x39mm T-45M1 gzh弹药包（20发装）",
+        "en": "7.62x39mm T-45M1 gzh ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "59d6272486f77466146386ff",
+      "itemName": {
+        "zh": "Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣",
+        "en": "AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0ec13bfcdbcb00165aa685",
+      "itemName": {
+        "zh": "AKMN 7.62x39 突击步枪",
+        "en": "Kalashnikov AKMN 7.62x39 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0ee37f86f774023657a86f",
+      "itemName": {
+        "zh": "西楼221房间钥匙 ☆",
+        "en": "Health Resort west wing room 221 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f5f41476bdad616ad46d631",
+      "itemName": {
+        "zh": "NPP KlASS 刚玉-VM护甲（黑色）",
+        "en": "NPP KlASS Korund-VM body armor (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我注意到你不是那种想帮忙做普通工作的人，不像你的同事那样是普通的雇佣兵，嗯……我不能怪你，朋友。你想要一些特别的，一些要求高的东西，好吧 then，我有一个完美的任务给你。只要记住，我们 dealing with very serious people here。\n\n最近政府有人联系我们，可能是秘密服务，FSB maybe……总之，这个人想让我们在塔科夫清理一个小麻烦，你看有人在这里建立了一个组织严密的走私生意，显然这给他们调查泰拉集团带来了麻烦或类似的事情，这家伙说得很模糊，猜猜这些人不想和我们普通人分享细节，对吧？\n\n我不知道你是否遇到过任何这些“走私者”，我 certainly haven't seen them myself，我的人也没有，但据这个人说他们存在，而且他们造成的麻烦足够大，以至于FSB都听说了。我得到的信息告诉我们，他们把天蓝海岸（Azure Coast）度假村东边的建筑工地变成了他们的行动基地，有趣，对吧？占用别人的财产……就这样，嗯。\n\n据称他们使用度假村西翼地下室的健身房作为他们的主要死投点之一，所以我建议你也检查一下，顺序由你决定。",
+    "en": "I noticed you're not the kind of person that wants to help with ordinary jobs, not the average mercenary like your colleagues, well... I can't blame ya, friend. You want something special, something demanding perhaps, alright then, I have the perfect task for you. Just keep in mind, we're dealing with very serious people here.\n\nSomeone from the government reached out to us recently, probably secret service, FSB maybe... Anyway, this man wanted us to clean up a little mess here in tarkov, you see someone established a well organized smuggling business here, and apparently it's causing them trouble to investigate Terragroup or something like that, guy kept it pretty vague, guessing that these people didn't want to share detail with us normal folk, right?\n\nI don't know if you have encountered any of these \"smugglers\" yet, I certainly haven't seen them myself and so did my hounds but according to this guy they exist, and they cause enough trouble that the FSB got wind of it. The info I was given tells us that they turned the construction side east of the resort on the Azure coast into their base of operations, funny, right? Taking over other's property... Just like that, yeah.\n\nAllegedly they used the gym in the basement of the west-wing of the resort as one of their main dead-drops, so I suggest you check that out too, you decide in what order."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "q14_10_point_area",
+      "targetNames": {
+        "q14_10_point_area": {
+          "zh": "q14_10_point_area",
+          "en": "q14_10_point_area"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_shoreline_resort_gym_basement_stash",
+      "targetNames": {
+        "lotus_shoreline_resort_gym_basement_stash": {
+          "zh": "lotus_shoreline_resort_gym_basement_stash",
+          "en": "lotus_shoreline_resort_gym_basement_stash"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b06a005f3eaaf2a27bb49a",
+      "name": {
+        "zh": "政府合同 - 第1部分",
+        "en": "Government Contract - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b07a0c7bb2dcdc1c0d572e",
+      "name": {
+        "zh": "政府合同 - 第3部分",
+        "en": "Government Contract - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_gvnmt_contract_2.png",
+  "isKey": false
+}

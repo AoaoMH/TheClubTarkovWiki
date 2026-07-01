@@ -1,0 +1,198 @@
+{
+  "id": "67e970f55882098f5a4a622b",
+  "name": {
+    "zh": "正当介入",
+    "en": "Justified Involvement"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Standing",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.03
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 125400,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 125400
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c10c8fd86f7743d7d706df3",
+      "itemName": {
+        "zh": "肾上腺素注射器",
+        "en": "Adrenaline injector"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "60098ad7c2240c0fe85c570a",
+      "itemName": {
+        "zh": "AFAK单兵战术急救包",
+        "en": "AFAK tactical individual first aid kit"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d02797c86f774203f38e30a",
+      "itemName": {
+        "zh": "Surv12野战手术包",
+        "en": "Surv12 field surgical kit"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c12613b86f7743bbe2c3f76",
+      "itemName": {
+        "zh": "情报文件夹 ★",
+        "en": "Intelligence folder"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ede475339ee016e8c534742",
+      "itemName": {
+        "zh": "40x46毫米 M576(MP-APERS)",
+        "en": "40x46mm M576 (MP-APERS) grenade"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "58dd3ad986f77403051cba8f",
+      "itemName": {
+        "zh": "7.62x51毫米 M80",
+        "en": "7.62x51mm M80"
+      }
+    }
+  ],
+  "description": {
+    "zh": "下午好，佣兵。我最近注意到来自其他商人的不少流言蜚语……显然你现在帮的那位小姐，在我之前就知道了 Terragroup 的运输计划，而你还帮她找到那些货物——甚至在我正式雇你之前。\n\n不过听我解释……我可没想搞什么“内斗”，我们说不定可以合作一下？毕竟我们追求的是更大的利益，不是吗？我其实愿意出手帮忙，我知道哪里可以找到关于这批货的详细信息。你还记得之前关于海关办公室那份清单的任务吗？\n\n你和你那位朋友要找的东西，很可能就在那房间里。找到运输报告后，前往老加油站，把它藏到她的投放点中。\n\n小心行事，祝你好运。",
+    "en": "Good afternoon, mercenary. I noticed a lot of negativity lately, you know... From other dealers. Apparently the girl you are working for knew about these Terragroup shipments way before me any my people did, and you helped her locate them before I gave you the task.\n\nBut let me explain... Starting some sort of \"fight\" was not my intention, perhaps we can work out something together? In the end we're just after the greater good, isn't that true? I had the idea of lending a hand, I know where to find details on these shipments. Do you remember the job about the shipment list inside the company director's office?\n\nYou will likely find what you and your friend are looking for inside that room. Once you find the shipment report, you need to head to the old gas station, one of her dead-drops is located there.\n\nStay safe out there, and good luck!"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_companydirectorroom",
+      "targetNames": {
+        "lotus_customs_companydirectorroom": {
+          "zh": "lotus_customs_companydirectorroom",
+          "en": "lotus_customs_companydirectorroom"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "675f7acc4076a741a3061566"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "675f7acc4076a741a3061566": {
+          "zh": "TerraGroup货运报告",
+          "en": "TerraGroup shipment report"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_oldgas_inside",
+      "targetNames": {
+        "lotus_customs_oldgas_inside": {
+          "zh": "lotus_customs_oldgas_inside",
+          "en": "lotus_customs_oldgas_inside"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "675f7acc4076a741a3061566"
+      ],
+      "targetNames": {
+        "675f7acc4076a741a3061566": {
+          "zh": "TerraGroup货运报告",
+          "en": "TerraGroup shipment report"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67d7eacee3d42141de3389ba",
+      "name": {
+        "zh": "被盯上了",
+        "en": "Notified"
+      }
+    },
+    {
+      "id": "67e96d27ddd9ca3c4adbb5d4",
+      "name": {
+        "zh": "深度探索",
+        "en": "Doing Some Digging"
+      }
+    },
+    {
+      "id": "67e972c039c5f34295a24265",
+      "name": {
+        "zh": "医生，你这是几个意思？",
+        "en": "State Your Business, Doctor"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67ea813bd8d2dc676746f53e",
+      "name": {
+        "zh": "重回正轨",
+        "en": "Back On Track"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_therapist.png",
+  "isKey": false
+}

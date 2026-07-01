@@ -1,0 +1,88 @@
+{
+  "id": "6798d8529b81f1d84eac7c67",
+  "name": {
+    "zh": "更进一步",
+    "en": "One Step Closer"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Completion",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 215,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 215
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c5d4b86f774784e1b9c45",
+      "itemName": {
+        "zh": "Iskra个人配给口粮",
+        "en": "Iskra ration pack"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656f57dc27aed95beb08f628",
+      "itemName": {
+        "zh": "Zhuk-3防弹插板（前部）",
+        "en": "Zhuk-3 ballistic plate (Front)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "回归正题，我刚刚拿到了一些我之前想知道的消息，虽然不是我希望的答案，但确实能帮上忙。\n\n有位老朋友成功精准追踪到了他们的信号，直到它彻底中断。结果发现他们根本没进Emercom营地，只是接近了营地就迅速撤退了，可能是遭遇了伏击但侥幸逃生。之后他们似乎往东北方向移动。\n\n你也许不知道，那边有个撤离司机通常会在那里接PMC，你有印象吗？\n\n巧的是，信号也是在那里彻底中断的。所以我们的最后一线希望，可能就是去问那个司机了。你能搞定这事吗？不过我猜他肯定不会免费帮忙，所以记得带点现金，我可以先给你一些。明白该怎么做了吧？",
+    "en": "Back to business, I just received more information on what I wanted to know, still not the answer that I hoped for but it will help us.\n\nA dear friend of mine managed to precisely trace their signal until the connection was lost. Turns out they never actually entered the Emercom camp, they got close to it but then they had to quickly retreat, maybe they were actually ambushed and managed to avoid death. Well after that they seem to have headed north-east.\nIn case you didn't know, that's where one of the exfil drivers usually waits for PMCs, does that ring a bell?\n\nFunny enough, that's where we completely lost the signal, so I guess our last hope is asking the driver, are you able to do that? And I doubt he will do it for free so bring cash, I can give you some. Understood what you have to do?"
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6798d6406ad52e1849131aee",
+      "name": {
+        "zh": "雇佣兵失踪事件",
+        "en": "Mercenaries Missing"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6798e18f1094b3f0d0978e8e",
+      "name": {
+        "zh": "情报需求",
+        "en": "Information Wanted"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_woods_bridge.png",
+  "isKey": false
+}

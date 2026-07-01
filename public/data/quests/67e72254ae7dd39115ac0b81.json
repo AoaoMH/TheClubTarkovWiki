@@ -1,0 +1,187 @@
+{
+  "id": "67e72254ae7dd39115ac0b81",
+  "name": {
+    "zh": "工具之道 - 第十七章",
+    "en": "Tools To Work With - Part 17"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6600
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 3000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 3000
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5e2af29386f7746d4159f077",
+      "itemName": {
+        "zh": "KEKTAPE管道胶带",
+        "en": "KEKTAPE duct tape"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59faff1d86f7746c51718c9c",
+      "itemName": {
+        "zh": "实体比特币 ★",
+        "en": "Physical Bitcoin"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 25
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "652911e650dc782999054b9d",
+      "itemName": {
+        "zh": "MCX SPEAR SLX68-MG-QD 6.8x51消音器",
+        "en": "MCX-SPEAR SLX68-MG-QD 6.8x51 sound suppressor"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6567e7681265c8a131069b0f",
+      "itemName": {
+        "zh": "SIG TANGO6T 1-6x24 30毫米瞄准镜 ☆",
+        "en": "SIG Sauer TANGO6T 1-6x24 30mm riflescope"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "65290f395ae2ae97b80fdf2d",
+      "itemName": {
+        "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+        "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "这次是特殊订单，一把 SPEAR 步枪。如果你自己以后也想买这枪，那就听好。\n\n一个老熟人前阵子来找我了，你可能也认识，是联合国那边的人。他想要一个“收藏品”，SPEAR 看起来正合他心意。他还特意写了封信交代配置要求，我直接转交给你。\n\n放心，我不会向外透露这些内容，这是机密。你只是恰好参与其中。\n\nSIG SPEAR 要求：\n - 后坐力总和小于 260\n - 重量小于 4.8 公斤\n - 人机功效 56 或更高\n - 耐久度至少 95 %\n - 弹匣容量 20 或更多\n - 任意 消音器\n - Olight Baldr Pro战术手电激光组合 (Tan)\n - SIG TANGO6T 1-6x24 30毫米瞄准镜",
+    "en": "There's a special order, for a SPEAR rifle, if you want to buy those yourself I suggest you take a listen, alright? Alright.\n\nSo, a familiar face came to visit us earlier, another dealer here in Tarkov, you may know him, some guy from the UN. Anyway, he wanted some \"collector's item\", and the SIG SPEAR seemed like the perfect thing for that. Well, he wanted it in a specific configuration, I'll just hand over the letter with all the details to you.\n\nHey, and don't think I reveal this information to anyone, it's still confidential information, you're just part of it since you're helping.\n\nSIG SPEAR Requirements :\n - Recoil Sum less than 260\n - Weight less than 4.8 KG\n - Ergonomics 56 or higher\n - Durability higher than 95 %\n - Magazine Capacity of 20 or more\n - A Silencer\n - Olight Baldr Pro Tactical Flashlight With Laser ( Tan )\n - SIG Sauer TANGO6T 1-6x24 30mm Riflescope"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "65290f395ae2ae97b80fdf2d"
+      ],
+      "targetNames": {
+        "65290f395ae2ae97b80fdf2d": {
+          "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+          "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 56
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 260
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 95
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 20
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.8
+        }
+      ],
+      "requiredItems": [
+        "6567e7681265c8a131069b0f",
+        "6272379924e29f06af4d5ecb"
+      ],
+      "requiredItemNames": {
+        "6567e7681265c8a131069b0f": {
+          "zh": "SIG TANGO6T 1-6x24 30毫米瞄准镜 ☆",
+          "en": "SIG Sauer TANGO6T 1-6x24 30mm riflescope"
+        },
+        "6272379924e29f06af4d5ecb": {
+          "zh": "Olight Baldr Pro 战术手电激光组合（黄褐色）",
+          "en": "Olight Baldr Pro tactical flashlight with laser (Tan)"
+        }
+      },
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67e7223dc0c2680d41126188",
+      "name": {
+        "zh": "工具之道 - 第十六章",
+        "en": "Tools To Work With - Part 16"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67e7226a6e39d7ec249b3773",
+      "name": {
+        "zh": "工具之道 - 第十八章",
+        "en": "Tools To Work With - Part 18"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_17.png",
+  "isKey": false
+}

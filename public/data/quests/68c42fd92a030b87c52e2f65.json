@@ -1,0 +1,179 @@
+{
+  "id": "68c42fd92a030b87c52e2f65",
+  "name": {
+    "zh": "准备出口",
+    "en": "Ready To Export"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 23,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 23
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e8488fa988a8701445df1e4",
+      "itemName": {
+        "zh": "CALOK-B止血剂",
+        "en": "CALOK-B hemostatic applicator"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "60098ad7c2240c0fe85c570a",
+      "itemName": {
+        "zh": "AFAK单兵战术急救包",
+        "en": "AFAK tactical individual first aid kit"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d02797c86f774203f38e30a",
+      "itemName": {
+        "zh": "Surv12野战手术包",
+        "en": "Surv12 field surgical kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e534186f7747fa1419867",
+      "itemName": {
+        "zh": "eTG-change再生兴奋剂注射器",
+        "en": "eTG-change regenerative stimulant injector"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "637b60c3b7afa97bfc3d7001",
+      "itemName": {
+        "zh": "Obdolbos 2 鸡尾酒兴奋剂注射器 ★",
+        "en": "Obdolbos 2 cocktail injector"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      }
+    }
+  ],
+  "description": {
+    "zh": "操，我有坏消息，甚至是可怕的消息！一些经销商拿到了货物，这可不妙……我们需要现在采取行动！\n\n你得把我的一些货物藏在一个我的人可以把它运出该地区的地方，KPP营地对此来说是完美的！可能还有人在那里让某人撤离出塔科夫。我建议你不要把货物藏得离大门太近，在路边的一个瞭望塔可能是个好主意。我们还得布置一些诱饵，你来处理那部分，我会确保这些人 actually know about the decoy，藏一些会以某种方式 disrespect them 的东西，我当然把决定权留给你。\n\n你应该迅速行动，因为这些人已经知道这整件事了，明白吗？所以，开始行动！",
+    "en": "Fuck, I have bad news, terrible news even! Some of the dealers got their hands on the cargo, this can't be good... We need to make our move now!\n\nYou gotta hide some of my cargo at a place where my men can get it out of the region, the KPP camp would be perfect for that! Some people might still be there to let someone exfil out of Tarkov. I suggest you stash the cargo not too close to the gate, at one of the watchtowers near the road might be a good idea. We gotta lay out some baits aswell, you'll deal with that part, I'll make sure these people actually know about the decoy, stash something that will disrespect them in some way, I'll leave that decision up to you of course.\n\nYou should act fast, because these people already know about this whole thing, you understand? So, start moving!"
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "67409848d0b2f8eb9b034db9",
+        "674098588466ebb03408b210",
+        "67408903268737ef6908d432"
+      ],
+      "targetNames": {
+        "67409848d0b2f8eb9b034db9": {
+          "zh": "密封的盒子",
+          "en": "Sealed box"
+        },
+        "674098588466ebb03408b210": {
+          "zh": "开启的盒子",
+          "en": "Opened box"
+        },
+        "67408903268737ef6908d432": {
+          "zh": "违禁品盒子",
+          "en": "Contraband box"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "575146b724597720a27126d5"
+      ],
+      "targetNames": {
+        "575146b724597720a27126d5": {
+          "zh": "一盒牛奶",
+          "en": "Pack of milk"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c422298f2722ca9f7d24a3",
+      "name": {
+        "zh": "生命之花",
+        "en": "Flower Of Life"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c432f157baa1fbcd13447d",
+      "name": {
+        "zh": "寻找罪魁祸首",
+        "en": "Finding The Perpetrator"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_ref.png",
+  "isKey": false
+}

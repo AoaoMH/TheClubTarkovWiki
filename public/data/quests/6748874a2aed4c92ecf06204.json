@@ -1,0 +1,202 @@
+{
+  "id": "6748874a2aed4c92ecf06204",
+  "name": {
+    "zh": "塔科夫扫地机器人：工厂",
+    "en": "Tarkov Cleaner - Factory"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 27750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 275750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 275750
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "66572cbdad599021091c611a",
+      "itemName": {
+        "zh": "Tagilla 小人",
+        "en": "Tagilla figurine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "64898838d5b4df6140000a20",
+      "itemName": {
+        "zh": "12/70 AP-20弹药包（25发装） ☆",
+        "en": "12/70 AP-20 ammo pack (25 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "65702474bfc87b3a34093226",
+      "itemName": {
+        "zh": "25发12/70 箭形弹盒装弹药 ☆",
+        "en": "12/70 flechette ammo pack (25 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "StashRows"
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cc80f53e4a949000e1ea4f8",
+      "itemName": {
+        "zh": "5.7x28毫米 L191",
+        "en": "5.7x28mm L191"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c127c4486f7745625356c13",
+      "itemName": {
+        "zh": "弹匣箱",
+        "en": "Magazine case"
+      }
+    }
+  ],
+  "description": {
+    "zh": "又见面了！想帮忙让塔科夫变得更美好吗？没错，这里确实需要好好清理一下。\n\n我们先从工厂开始吧，那里到处都是 Scav 和其他在夜间活动的渣滓。你的任务是清理白天和夜晚的工厂，我会借给你一些夜视设备来帮你完成任务。",
+    "en": "Hello again, wanna help to make the world a better place? By world I just mean the Tarkov region. You in? Great!\nWe need to start small tho, lets start with the old chemical factory. It's still full of bandits and whatever scum is lurking there at night. Just clean the place at day and at night, I will lend you some night vision device for it."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantWarrior"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossTagilla"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747652eea4bfbdfa2e46ab4",
+      "name": {
+        "zh": "莲花之光 - 第十章",
+        "en": "Light of the Lotus - Part 10"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6769d53dfeabb78a91b433e6",
+      "name": {
+        "zh": "塔科夫扫地机器人：森林",
+        "en": "Tarkov Cleaner - Woods"
+      }
+    },
+    {
+      "id": "67488804fda8c7682f4273a9",
+      "name": {
+        "zh": "塔科夫扫地机器人：海岸线",
+        "en": "Tarkov Cleaner - Shoreline"
+      }
+    },
+    {
+      "id": "674888b7cbd8479a005bda6e",
+      "name": {
+        "zh": "塔科夫扫地机器人：海关",
+        "en": "Tarkov Cleaner - Customs"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_tarkovcleanerfactory.png",
+  "isKey": false
+}

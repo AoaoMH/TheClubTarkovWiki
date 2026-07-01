@@ -1,0 +1,147 @@
+{
+  "id": "676aca14fe90a5a838dd04c3",
+  "name": {
+    "zh": "经典依旧 - 第四章",
+    "en": "Old But Gold - Part 4"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3950
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 54450,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 54450
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "65702406bfc87b3a34093216",
+      "itemName": {
+        "zh": ".45 ACP Hydra-Shok弹药包（50发装） ☆",
+        "en": ".45 ACP Hydra-Shok ammo pack (50 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5c1127bdd174af44217ab8b9",
+      "itemName": {
+        "zh": "9x19mm RIP子弹（20发装） ☆",
+        "en": "9x19mm RIP ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "Pistol",
+      "value": 50
+    },
+    {
+      "type": "Skill",
+      "target": "SMG",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5448be9a4bdc2dfd2f8b456a",
+      "itemName": {
+        "zh": "RGD-5手榴弹",
+        "en": "RGD-5 hand grenade"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5656d7c34bdc2d9d198b4587",
+      "itemName": {
+        "zh": "7.62x39毫米 PS",
+        "en": "7.62x39mm PS gzh"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好了，现在我们需要你来测试特定口径的武器，7.62x25毫米口径看样子目前在塔科夫这里并不流行。\n我想只有 TT-33 手枪和 PPSH 冲锋枪使用这种口径的子弹……\n\n所以你的选择有点有限，但如果你只用来对付那些普通人，应该没什么问题。快去吧，祝你好运！",
+    "en": "Alright, we need to you to test weapons in certain calibers now, 7.62x25mm Tokarev really isn't that popular around here at the moment.\nI am pretty sure i've only seen TT-33 pistols and PPSH submachine guns use that caliber...\n\nSo your options are kinda limited, but it shouldn't matter much if you only take out low-priority targets, which you are allowed to do for this task. So, off you go, good luck!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5ea03f7400685063ec28bfa8",
+        "571a12c42459771f627b58a0",
+        "5b3b713c5acfc4330140bd8d"
+      ],
+      "weaponNames": {
+        "5ea03f7400685063ec28bfa8": {
+          "zh": "PPSh-41 7.62x25 冲锋枪",
+          "en": "PPSh-41 7.62x25 submachine gun"
+        },
+        "571a12c42459771f627b58a0": {
+          "zh": "托卡列夫 TT-33 7.62x25 手枪",
+          "en": "TT-33 7.62x25 TT pistol"
+        },
+        "5b3b713c5acfc4330140bd8d": {
+          "zh": "托卡列夫 TT-33 7.62x25 黄金手枪",
+          "en": "TT-33 7.62x25 TT pistol (Golden)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6769f68fa4eb1eafdf31d38c",
+      "name": {
+        "zh": "经典依旧 - 第三章",
+        "en": "Old But Gold - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "676acb5bc60f9d06283a2234",
+      "name": {
+        "zh": "经典依旧 - 第五章",
+        "en": "Old But Gold - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_oldbutgold_ppsh.png",
+  "isKey": false
+}

@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 15000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Arizona Mucho Mango [Common]",
+      "en": "Arizona Mucho Mango [Common]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Arizona",
+      "en": "Arizona"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 20,000₽ | 物品价值: 15,000 | Therapist报价: 9,450₽Put a tropical twist on your beverage picks by sipping on this Mucho Mango Juice Cocktail crafted with vitamin C.",
+      "en": "跳蚤市场: 20,000₽ | 物品价值: 15,000 | Therapist报价: 9,450₽Put a tropical twist on your beverage picks by sipping on this Mucho Mango Juice Cocktail crafted with vitamin C."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,32 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "Charisma",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Search",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "WeightLimit",
+            "skillName": "",
+            "value": 0.03,
+            "delay": 1,
+            "duration": 300,
+            "chance": 1
+          }
+        ]
       }
     }
   },

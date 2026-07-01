@@ -1,0 +1,175 @@
+{
+  "id": "68c0c208f0fcd1b184750ffd",
+  "name": {
+    "zh": "说出你的价格",
+    "en": "Name Your Price"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 23,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 23
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b385e86f774252167b98a",
+      "itemName": {
+        "zh": "滤水器",
+        "en": "Water filter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b432d215acfc4771e1c6624",
+      "itemName": {
+        "zh": "LZSh 轻型头盔（橄榄绿）",
+        "en": "LShZ lightweight helmet (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "64acea16c4eda9354b0226b0",
+      "itemName": {
+        "zh": "7.62x39mm BP gzh弹药包（20发装）",
+        "en": "7.62x39mm BP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "587e02ff24597743df3deaeb",
+      "itemName": {
+        "zh": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪",
+        "en": "Molot Arms Simonov OP-SKS 7.62x39 carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Search",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "575146b724597720a27126d5",
+      "itemName": {
+        "zh": "一盒牛奶",
+        "en": "Pack of milk"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "63737f448b28897f2802b874",
+      "itemName": {
+        "zh": "Hexatac HPC 插板背心（黑系复合迷彩）",
+        "en": "Hexatac HPC Plate Carrier (MultiCam Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "所以，我是对的，你确实赢得了他们的信任，嗯？酷。在我们对团队采取行动之前，我们需要检查别的东西。上次我的猎犬在森林里活动时，他们在outskirts附近发现了一些SCAV，他们很快被抓获而没有抵抗，毕竟信息比杀死这些匪徒更重要。总之，我的人审问了他们，他们承认在为Skier工作，真是巧合，对吧？\n\n嗯，我们现在知道了他的一些死投点，我们只需要找出他的路线，但我有其他人在处理这件事，所以你的任务现在会是别的，明白吗？去检查他们的码头，也许它会给我们一些信息，另外附近应该有一个小屋，显然里面通常装满了一些货物，也许他们用它来临时藏匿走私的货物？我想将来监听他们，所以在那里放一个无线电中继器，你能处理吗？",
+    "en": "So, I was right, you did earn their trust huh? Cool. Before we make a move on team we need to check up on something else. Last time my hounds roamed around the woods, they found some scavs near the outskirts, they were quickly captured without resisting, information was more important than killing these bandits after all. Anyway, my men interrogated them and they admitted that they're working for Skier, such a coincidence, am I right?\n\nWell we now know about a few of his dead drops, we just need to find out his routes now but I have other people working on that as we speak, so your task will be something different now, got it? Go check out their dock, perhaps it will give us some info, also there should be a small shack nearby, apparently it's usually filled with some goods, maybe they use it to temporarily stash their smuggled wares? I wanna take a listen to them in the future, so place a radio repeater there, can you manage that?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_deadmansplace",
+      "targetNames": {
+        "lotus_woods_deadmansplace": {
+          "zh": "lotus_woods_deadmansplace",
+          "en": "lotus_woods_deadmansplace"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_outskirts_shack",
+      "targetNames": {
+        "lotus_woods_outskirts_shack": {
+          "zh": "lotus_woods_outskirts_shack",
+          "en": "lotus_woods_outskirts_shack"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_outskirts_shack_inside",
+      "targetNames": {
+        "lotus_woods_outskirts_shack_inside": {
+          "zh": "lotus_woods_outskirts_shack_inside",
+          "en": "lotus_woods_outskirts_shack_inside"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ],
+      "targetNames": {
+        "63a0b2eabea67a6d93009e52": {
+          "zh": "无线电中继器",
+          "en": "Radio repeater"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c0bfe82d85ac7091436bb2",
+      "name": {
+        "zh": "蓬勃发展的生意",
+        "en": "Thriving Business"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c1eff9c5b5f2e47b774a57",
+      "name": {
+        "zh": "走私方法",
+        "en": "Smuggle Method"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_woods_shack.png",
+  "isKey": false
+}

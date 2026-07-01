@@ -1,0 +1,137 @@
+{
+  "id": "6769f68fa4eb1eafdf31d38c",
+  "name": {
+    "zh": "经典依旧 - 第三章",
+    "en": "Old But Gold - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3660
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 41150,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 41150
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "575146b724597720a27126d5",
+      "itemName": {
+        "zh": "一盒牛奶",
+        "en": "Pack of milk"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5447ac644bdc2d6c208b4567",
+      "itemName": {
+        "zh": "5.56x45mm M855弹药包（50发装）",
+        "en": "5.56x45mm M855 ammo pack (50 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f5f41f56760b4138443b352",
+      "itemName": {
+        "zh": "Direct Action Thunderbolt小型胸挂",
+        "en": "Direct Action Thunderbolt compact chest rig (Shadow Grey)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "54527a984bdc2d4e668b4567",
+      "itemName": {
+        "zh": "5.56x45毫米 M855",
+        "en": "5.56x45mm M855"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你会爱上这把枪的，或者恨它。\n它基本上像 M4A1，但只有半自动。虽然看上去不咋地，但它能完成任务，而且射击很顺畅，后坐力也不大。听起来不错吧？无论如何，这是一把俄制枪，所以 Prapor 更喜欢它，别让他失望，好吗。\n\n回到正轨，基本和之前一样，使用这把枪干掉你看到的所有目标，然后回来领取你的奖励，明白了吗？",
+    "en": "You will love this weapon, or hate it.\nIt's basically like an M4A1, but only in semi-automatic, maybe not ideal but it will get the job done, besides it shoots very smooth and doesn't have much recoil. Sounds good, no? Anyway, it's a russian gun so prapor favors it more, so don't disappoint him.\n\nBack to the task, it's basically the same as before, take out anyone you see, while using that gun of course, then come back and claim your reward, copy?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5c07c60e0db834002330051f"
+      ],
+      "weaponNames": {
+        "5c07c60e0db834002330051f": {
+          "zh": "ADAR 2-15 .223 卡宾枪",
+          "en": "ADAR 2-15 5.56x45 carbine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6769f51c43d1569d59e3c397",
+      "name": {
+        "zh": "经典依旧 - 第二章",
+        "en": "Old But Gold - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "676aca14fe90a5a838dd04c3",
+      "name": {
+        "zh": "经典依旧 - 第四章",
+        "en": "Old But Gold - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_oldbutgold_adar.png",
+  "isKey": false
+}

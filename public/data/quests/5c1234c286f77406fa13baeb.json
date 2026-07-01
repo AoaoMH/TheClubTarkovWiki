@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -46,7 +50,7 @@
       "value": 4,
       "itemId": "64898838d5b4df6140000a20",
       "itemName": {
-        "zh": "12/70 AP-20弹药包（25发装）",
+        "zh": "12/70 AP-20弹药包（25发装） ☆",
         "en": "12/70 AP-20 ammo pack (25 pcs)"
       },
       "quantity": 1
@@ -64,7 +68,7 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
+      "description": "Elimination: Kills",
       "value": 1,
       "target": "AnyPmc",
       "targetNames": {
@@ -79,7 +83,10 @@
         "606dae0ab0e443224b421bb7",
         "5580223e4bdc2d1c128b457f",
         "64748cb8de82c85eaf0a273a",
-        "61f7c9e189e6fb1a5e3ea78d"
+        "61f7c9e189e6fb1a5e3ea78d",
+        "669fca7f9ed4916116c76d5e",
+        "6840ebf5b8687ba34f8dfbca",
+        "6761b213607f9a6f79017d23"
       ],
       "weaponNames": {
         "54491c4f4bdc2db1078b4568": {
@@ -105,9 +112,20 @@
         "61f7c9e189e6fb1a5e3ea78d": {
           "zh": "MP-18 7.62x54R单发步枪",
           "en": "MP-18 7.62x54R single-shot rifle"
+        },
+        "669fca7f9ed4916116c76d5e": {
+          "zh": "勃朗宁 Auto-5 12铅径霰弹枪",
+          "en": "Browning Auto-5 12ga shotgun"
+        },
+        "6840ebf5b8687ba34f8dfbca": {
+          "zh": "勃朗宁 Auto-5 12铅径霰弹枪（定制款）",
+          "en": "Browning Auto-5 12ga shotgun (Custom)"
+        },
+        "6761b213607f9a6f79017d23": {
+          "zh": "Serbu Super Shorty 12铅径霰弹枪",
+          "en": "Serbu Super Shorty 12ga shotgun"
         }
-      },
-      "location": "bigmap"
+      }
     }
   ],
   "prerequisites": [
@@ -132,6 +150,13 @@
       "name": {
         "zh": "收藏家",
         "en": "Collector"
+      }
+    },
+    {
+      "id": "6769dddf9e215aa4c1874dd3",
+      "name": {
+        "zh": "塔科夫环卫工 - 第一章",
+        "en": "Tarkov Sweeper - Part 1"
       }
     }
   ],

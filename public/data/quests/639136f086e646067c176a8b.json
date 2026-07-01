@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "5714dc692459777137212e12",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -40,7 +44,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 10,
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -50,8 +54,7 @@
       },
       "enemyRoles": [
         "marksman"
-      ],
-      "location": "TarkovStreets"
+      ]
     }
   ],
   "prerequisites": [

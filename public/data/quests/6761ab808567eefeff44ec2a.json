@@ -1,0 +1,185 @@
+{
+  "id": "6761ab808567eefeff44ec2a",
+  "name": {
+    "zh": "工具之道 - 第五章",
+    "en": "Tools To Work With - Part 5"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2075
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 105250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 105250
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c5a7286f7747884343aea",
+      "itemName": {
+        "zh": "“Kite”火药",
+        "en": "Gunpowder \"Kite\""
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "59e35ef086f7741777737012",
+      "itemName": {
+        "zh": "一包螺钉",
+        "en": "Pack of screws"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "61bf7b6302b3924be92fa8c3",
+      "itemName": {
+        "zh": "金属零件",
+        "en": "Metal spare parts"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59984ab886f7743e98271174",
+      "itemName": {
+        "zh": "PP-19-01 勇士 9x19 冲锋枪",
+        "en": "PP-19-01 Vityaz 9x19 submachine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 10
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d9b5acfc4001633997a",
+      "itemName": {
+        "zh": "AK-105 5.45x39 突击步枪",
+        "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d40407c86f774318526545a",
+      "itemName": {
+        "zh": "Tarkovskaya瓶装伏特加",
+        "en": "Bottle of Tarkovskaya vodka"
+      }
+    }
+  ],
+  "description": {
+    "zh": "又接到一个订单，这次是个退役特种兵，他想要一把 AK-105。\n\n要求挺多：手感好、后坐小、不太重、能装下至少 45 发子弹，还要有 800 米以上的射程。另外还必须装上两样东西：两脚架和战术配件。\n\nAK-105 要求：\n - 后坐力总和小于 325\n - 重量小于 4.5 公斤\n - 人机功效 60 或更高\n - 耐久度至少 85 %\n - 弹匣容量 45 或更多\n - “射击场”距离 800米 或更多\n - 任意 脚架\n - 任意 战术设备",
+    "en": "I got another customer - Former special forces - Asking for an AK-105 assault rifle. Fairly ergonomic, not too much recoil, not too heavy, obviously...\nCapable of holding at least fourty-five rounds and be able to take shots from eight-hundred meters away or more. It needs to have a bipod and a tactical device aswell.\n\nAK-105 Requirements :\n - Recoil Sum less than 325\n - Weight less than 4.5 KG\n - Ergonomics 60 or higher\n - Durability higher than 85 %\n - Magazine Capacity of 45 or more\n - Sighting Range of 800 Meters or more\n - A Bipod\n - A Tactical Device"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5ac66d9b5acfc4001633997a"
+      ],
+      "targetNames": {
+        "5ac66d9b5acfc4001633997a": {
+          "zh": "AK-105 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 60
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 325
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 800
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 85
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 45
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.5
+        }
+      ],
+      "requiredCategories": [
+        "55818afb4bdc2dde698b456d",
+        "55818b164bdc2ddc698b456c"
+      ],
+      "requiredCategoryNames": {
+        "55818afb4bdc2dde698b456d": {
+          "zh": "脚架",
+          "en": "Bipod"
+        },
+        "55818b164bdc2ddc698b456c": {
+          "zh": "组合式战术设备",
+          "en": "Comb. tact. device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6761944135ddfb7470a330e4",
+      "name": {
+        "zh": "工具之道 - 第四章",
+        "en": "Tools To Work With - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6761af40a082b41fbbe3e001",
+      "name": {
+        "zh": "工具之道 - 第六章",
+        "en": "Tools To Work With - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_5.png",
+  "isKey": false
+}

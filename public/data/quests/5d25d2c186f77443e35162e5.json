@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -44,18 +48,15 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: HealthEffect",
-      "value": 2,
+      "description": "Elimination: Kills",
+      "value": 1,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
           "zh": "AnyPmc",
           "en": "AnyPmc"
         }
-      },
-      "bodyParts": [
-        "Head"
-      ]
+      }
     }
   ],
   "prerequisites": [

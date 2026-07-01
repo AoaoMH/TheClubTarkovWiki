@@ -1,0 +1,235 @@
+{
+  "id": "675192a9ccd06a5a07e78922",
+  "name": {
+    "zh": "品味之选 - 第四章",
+    "en": "Ideal For Someone With Taste - Part 4"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14125
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 104550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 104550
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "657025cfbfc87b3a34093253",
+      "itemName": {
+        "zh": "20发9x39 PAB-9 gs盒装弹药 ★",
+        "en": "9x39mm PAB-9 gs ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "6570257cc5d7d4cb4d078579",
+      "itemName": {
+        "zh": "7.62x54 R PS gzh弹药包（20发装） ☆",
+        "en": "7.62x54mm R PS gzh ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e00c1ad86f774747333222c",
+      "itemName": {
+        "zh": "Team Wendy EXFIL 防弹头盔（黑色）",
+        "en": "Team Wendy EXFIL Ballistic Helmet (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "DMR",
+      "value": 50
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c46fbd72e2216398b5a8c9c",
+      "itemName": {
+        "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+        "en": "SVDS 7.62x54R sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57838ad32459774a17445cd2",
+      "itemName": {
+        "zh": "VSS “绞丝机” 特种狙击步枪 ",
+        "en": "VSS Vintorez 9x39 special sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "下一个专属挑战。我希望你对俄式精准射手很熟悉，因为这次你需要使用两种。\n\n你可以选择 VSS Vintorez 或 SVDS 狙击步枪，但必须配备 Valday 瞄具，型号不限。毕竟带倍镜才叫狙对吧？\n\n任务很简单：击杀几名 USEC 干员（灯塔上的不算），并带回他们的狗牌作为证据。\n\n完成后，你需要将使用的枪藏在 ULTRA 购物中心外电站附近的一个小工具房里。那是个上锁的房间，几乎空无一物，是个绝佳的藏匿点。祝你好运！",
+    "en": "Moving on. Another challenge, just for you. I hope you are familiar with russian marksman rifles, you'll have to use two of them now.\nYou can choose between a VSS Vintorez and an SVDS sniper rifle, however both of them should be equipped with Valday optics, it would only make sense to use a magnified one. Quite delicate, wouldn't you say? So, about your task...\nYou need to get rid of a few USECs, but not the ones from the lighthouse, the normal ones. And bring proof.\n\nAnd after you completed your task successfully, you're gonna hide the gun you used again, somewhere outside the ULTRA shopping mall there should be a powerstation, and near the powerstation there should be a few cabins, one of these is locked and has pretty much nothing in it, perfect hiding spot I'd say."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5c46fbd72e2216398b5a8c9c",
+        "57838ad32459774a17445cd2"
+      ],
+      "weaponNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        },
+        "57838ad32459774a17445cd2": {
+          "zh": "VSS “绞丝机” 特种狙击步枪 ",
+          "en": "VSS Vintorez 9x39 special sniper rifle"
+        }
+      },
+      "enemyRoles": [
+        "marksman"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Usec",
+      "targetNames": {
+        "Usec": {
+          "zh": "Usec",
+          "en": "Usec"
+        }
+      },
+      "weapons": [
+        "5c46fbd72e2216398b5a8c9c",
+        "57838ad32459774a17445cd2"
+      ],
+      "weaponNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        },
+        "57838ad32459774a17445cd2": {
+          "zh": "VSS “绞丝机” 特种狙击步枪 ",
+          "en": "VSS Vintorez 9x39 special sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "6764207f2fa5e32733055c4a",
+        "6764202ae307804338014c1a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764207f2fa5e32733055c4a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764202ae307804338014c1a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5c46fbd72e2216398b5a8c9c",
+        "57838ad32459774a17445cd2"
+      ],
+      "targetNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        },
+        "57838ad32459774a17445cd2": {
+          "zh": "VSS “绞丝机” 特种狙击步枪 ",
+          "en": "VSS Vintorez 9x39 special sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67519005bdabf0213250f1dd",
+      "name": {
+        "zh": "品味之选 - 第三章",
+        "en": "Ideal For Someone With Taste - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67519b5f3de90180bd0768a4",
+      "name": {
+        "zh": "品味之选 - 第五章",
+        "en": "Ideal For Someone With Taste - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_idealforsomeonewithtaste_4.png",
+  "isKey": false
+}

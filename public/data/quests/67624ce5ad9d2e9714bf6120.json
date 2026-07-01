@@ -1,0 +1,192 @@
+{
+  "id": "67624ce5ad9d2e9714bf6120",
+  "name": {
+    "zh": "塔科夫环卫工：科学狂人",
+    "en": "Bandit Hunt - Mad Scientist"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 119520,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 119520
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60b0f93284c20f0feb453da7",
+      "itemName": {
+        "zh": "罐装六可乐",
+        "en": "Can of RatCola soda"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1e2d1f86f77431e9280bee",
+      "itemName": {
+        "zh": "实验室钥匙·实验区（武器） ☆",
+        "en": "TerraGroup Labs weapon testing area key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "62a09cfe4f842e1bd12da3e4",
+      "itemName": {
+        "zh": "金蛋",
+        "en": "Golden egg"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ed51652f6c34d2cc26336a1",
+      "itemName": {
+        "zh": "M.U.L.E. 兴奋剂 ☆",
+        "en": "M.U.L.E. stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e534186f7747fa1419867",
+      "itemName": {
+        "zh": "eTG-change再生兴奋剂注射器",
+        "en": "eTG-change regenerative stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "651450ce0e00edc794068371",
+      "itemName": {
+        "zh": "SR-3M 9x39紧凑型突击步枪",
+        "en": "SR-3M 9x39 compact assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0d688c86f77413ae3407b2",
+      "itemName": {
+        "zh": "9x39毫米 7N12 BP",
+        "en": "9x39mm BP gs"
+      }
+    }
+  ],
+  "description": {
+    "zh": "很遗憾告诉你这个消息，但你必须知情。\n\n看起来有人对Sanitar的办公室产生了念想，另有商人雇了PMC去找他的办公室。看上去甚至还拆除了你的陷阱，至少我是这么想的，因为那里没有留下任何爆炸的痕迹，仿佛从未发生过一样……\n\n那么，你知道接下来该怎么做了吧？在这期间，带回Sanitar他的包。不过要小心他的保镖，他们也同样不容小觑，武装到牙齿，配备顶级防具、武器和弹药。至于Sanitar……\n他没有你想象的那么厉害，但还是小心驶得万年船的好。而且不要忘了这帮人有多疯狂，注意安全，祝你好运。",
+    "en": "I hate to tell you, but you need to know.\nWell it turns out someone got a bit curious, and another dealer hired operators to search for sanitars office. Well, by the looks of it, someone disarmed it, at least that is my theory because there is no trace of it left. As if it was never there...\n\nWell, you know what you have to do, while you're at it, bring me sanitar's bag. Beware of his bodyguards however, they are extremely dangerous, armed to the teeth, top tier armor, weapons and ammunition. Sanitar however...\nNot such a big threat as you'd think, still someone you need to worry about, and keep in mind how crazy these people are, stay safe and good luck."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossSanitar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerSanitar"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5e997f0b86f7741ac73993e2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e997f0b86f7741ac73993e2": {
+          "zh": "Sanitar 包",
+          "en": "Sanitar's bag"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5e997f0b86f7741ac73993e2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5e997f0b86f7741ac73993e2": {
+          "zh": "Sanitar 包",
+          "en": "Sanitar's bag"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67575d41beda83bf97d14f1c",
+      "name": {
+        "zh": "清理垃圾：海岸线",
+        "en": "Let The Hunt Begin - Shoreline"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6812590e15f6bcbc89c75b34",
+      "name": {
+        "zh": "血渴",
+        "en": "Blood Thirsty"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_boss_sanitar.png",
+  "isKey": false
+}

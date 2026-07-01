@@ -1,0 +1,123 @@
+{
+  "id": "682a396d504c405d6044c7ec",
+  "name": {
+    "zh": "泰拉文件的下落 - 第1部分",
+    "en": "Terragroup Paper Trail - Part 1"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 50,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f5e467b0bc58666c37e7821",
+      "itemName": {
+        "zh": "Eberlestock F5 弹簧刀 背包（干土色）",
+        "en": "Eberlestock F5 Switchblade backpack (Dry Earth)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66b5f693acff495a294927e3",
+      "itemName": {
+        "zh": "Peltor ComTac V耳机（橄榄绿）",
+        "en": "Peltor ComTac V headset (OD Green)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "再次你好，捍卫者，有坏消息……对我们俩都是。我们不是第一个发现泰拉集团运输货物的人，早在你到达之前就有人清空了集装箱。现在我只能猜还有谁知道这个——毕竟这是机密。\n\n我有个朋友，他和泰拉集团有“联系”，至少在某些方面……总之，一定有人进行了信息收集，你不会凭空发现这个，我们 dealing with experts here，所以无论谁拿到了货物，都知道一切。我只知道我被允许知道的事情。\n\n嗯，我的这个朋友试图离开市中心前往实验室，但不太成功，因为他甚至还没靠近就不得不弃车而逃。我想值得去看看那个地方，对吧？我建议你带上一两个标记器，以防你找到什么值得提及的东西。",
+    "en": "Hello again champion, there's bad news... for both of us. We weren't the first ones to stumble upon the Terragroup shipment, someone else emptied the container long before you arrived. Now I could only guess who else knew about this - After all this was classified.\n\nI have a friend, he had his \"connections\" with Terragroup, in some ways at least... Anyway, someone must have done some information gathering, you don't just find this out of the blue, we're dealing with experts here so whoever got the cargo knew about everything. I only know what I am allowed to know.\n\nWell this friend of mine tried leaving the city center and head down to the laboratory, not really successful since he had to leave his car before he could even get close. I guess it's worth checking out the place, right? I suggest you bring a marker or two just in case you find something worth mentioning."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_terragroup_pickup",
+      "targetNames": {
+        "lotus_groundzero_terragroup_pickup": {
+          "zh": "lotus_groundzero_terragroup_pickup",
+          "en": "lotus_groundzero_terragroup_pickup"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "681633be8d093606deceedea",
+      "name": {
+        "zh": "角斗士的礼物",
+        "en": "Gladiator's Gift"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68ab5622e4e279831c33454d",
+      "name": {
+        "zh": "泰拉文件的下落 - 第2部分",
+        "en": "Terragroup Paper Trail - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_terragroup_trail_1.png",
+  "isKey": false
+}

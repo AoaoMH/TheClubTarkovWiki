@@ -1,0 +1,115 @@
+{
+  "id": "679b8e71679cb913c9103bee",
+  "name": {
+    "zh": "下一条线索",
+    "en": "The Next Lead"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 39650,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 39650
+    },
+    {
+      "type": "Skill",
+      "target": "Attention",
+      "value": 25
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64afd81707e2cf40e903a316",
+      "itemName": {
+        "zh": "Granit 防弹插板（侧边） ☆",
+        "en": "Granit ballistic plate (Side)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，你好像又找到新线索了？\n太好了，我这边也收到了Jaeger的联系。他本来想亲自交给我东西，但临时有别的事脱不开身。\n\n所以这事儿就只能你来跑一趟了，他把一份信藏在他营地的一个狩猎塔下面。如果他说的是真的，那信里应该就是我们要找的最后一条线索了。别搞砸了，明白？",
+    "en": "Hello there! I was told you found another clue, yeah?\nThat's great, Jaeger contacted me, I was told he'd wish to hand over the information in person but different matters require his attention now.\n\nAnyway, I guess you have to go out there and pick up the letter yourself, can you handle it? Jaeger said he stashed it somewhere in his camp under a hunting stand. If he kept his promise, this could lead us to the last clue that we need, don't mess it up, got it?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d3ec50586f774183a607442"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d3ec50586f774183a607442": {
+          "zh": "秘密信息包裹",
+          "en": "Encrypted message"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d3ec50586f774183a607442"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d3ec50586f774183a607442": {
+          "zh": "秘密信息包裹",
+          "en": "Encrypted message"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "679b8cd58db1457bba527516",
+      "name": {
+        "zh": "明显迹象",
+        "en": "Clear Signs"
+      }
+    },
+    {
+      "id": "5d2495a886f77425cd51e403",
+      "name": {
+        "zh": "介绍",
+        "en": "Introduction"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "679b97a57b4662b8eac3540a",
+      "name": {
+        "zh": "搜查令",
+        "en": "Search Warrant"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_lotus.png",
+  "isKey": false
+}

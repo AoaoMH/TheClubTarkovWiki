@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -36,7 +40,7 @@
       "value": 1,
       "itemId": "664a55d84a90fc2c8a6305c9",
       "itemName": {
-        "zh": "Theta安全箱",
+        "zh": "Theta安全箱 ★",
         "en": "Secure container Theta"
       },
       "quantity": 1
@@ -45,6 +49,16 @@
       "type": "TraderStanding",
       "target": "579dc571d53a0658a154fbec",
       "value": -0.15
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 1
     }
   ],
   "description": {

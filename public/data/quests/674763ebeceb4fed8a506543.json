@@ -1,0 +1,140 @@
+{
+  "id": "674763ebeceb4fed8a506543",
+  "name": {
+    "zh": "莲花之光 - 第七章",
+    "en": "Light Of The Lotus - Part 7"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 23725,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 23725
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5751435d24597720a27126d1",
+      "itemName": {
+        "zh": "Max Energy能量饮料",
+        "en": "Can of Max Energy energy drink"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "65702584cfc010a0f5006a2f",
+      "itemName": {
+        "zh": "7.62x54 R T-46M gzh弹药包（20发装）",
+        "en": "7.62x54mm R T-46M gzh ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57ac965c24597706be5f975c",
+      "itemName": {
+        "zh": "ELCAN SpecterDR 1x/4x瞄准镜",
+        "en": "ELCAN SpecterDR 1x/4x scope"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ae08f0a5acfc408fb1398a1",
+      "itemName": {
+        "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型） ☆",
+        "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b2388675acfc4771e1be0be",
+      "itemName": {
+        "zh": "Burris FullField TAC30 1-4x24 30 毫米 步枪瞄准镜",
+        "en": "Burris FullField TAC30 1-4x24 30mm riflescope"
+      }
+    }
+  ],
+  "description": {
+    "zh": "下一个任务，优先级很高，我向你保证你会想听这个，坐下。\n\n你已经知道TerraGroupTerraGroup集团的总部在哪里了，毕竟你之前已经去过了。现在，我需要你去检查一件重要的事情。同时你需要找到办公楼内一个合适的狙击点，一个能轻松眺瞰到中心区大部分区域而又不容易被发现的地方。\n\n现在谈谈TerraGroupTerraGroup集团的部分。在某个办公室楼层的某个办公室里，我想是第三个办公室，房间尽头有一张大桌子，上面有几台电脑，检查一下，看看能否发现什么特别的东西，比如桌上的文件或电脑里的硬盘。\n希望稍后能听到你的消息，士兵，祝你好运。",
+    "en": "Next job, high priority, I assure you that you want to hear this, take a seat.\n\nSo you already know where Terragroup got their HQ, after all you where there already, anyway there is something important there that I need you to check on. While you are at it you gotta find a decent marksman spot in one of the office buildings, some place where you can view most of the city center without getting spotted easily.\n\nNow to the Terragroup part. Somewhere on the office floor in one of the offices, I think it was the third one, there should be a big desk with a few computers at the end of the room, check it out and see if you can find anything special there, documents on the desks or harddrives in the computers themselves.\nI hope I'll hear from you later soldier, good luck out there."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_terragroup_sniper_empire",
+      "targetNames": {
+        "lotus_groundzero_terragroup_sniper_empire": {
+          "zh": "lotus_groundzero_terragroup_sniper_empire",
+          "en": "lotus_groundzero_terragroup_sniper_empire"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_terragroup_desk",
+      "targetNames": {
+        "lotus_groundzero_terragroup_desk": {
+          "zh": "lotus_groundzero_terragroup_desk",
+          "en": "lotus_groundzero_terragroup_desk"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67475e21aeda0864d4faf7c4",
+      "name": {
+        "zh": "莲花之光 - 第六章",
+        "en": "Light Of The Lotus - Part 6"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674764d429eb6b5966202149",
+      "name": {
+        "zh": "莲花之光 - 第八章",
+        "en": "Light Of The Lotus - Part 8"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_7.png",
+  "isKey": false
+}

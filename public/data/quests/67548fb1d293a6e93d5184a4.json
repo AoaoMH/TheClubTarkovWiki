@@ -1,0 +1,182 @@
+{
+  "id": "67548fb1d293a6e93d5184a4",
+  "name": {
+    "zh": "清理垃圾",
+    "en": "Let The Hunt Begin"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9925
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 75625,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75625
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5c11279ad174af029d64592b",
+      "itemName": {
+        "zh": "5.56x45mm Warmageddon子弹（20发装）",
+        "en": "5.56x45mm Warmageddon ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "55802d5f4bdc2dac148b458e",
+      "itemName": {
+        "zh": "PMAG GEN M3 W 30 5.56x45 STANAG 30发弹匣",
+        "en": "AR-15 5.56x45 Magpul PMAG 30 GEN M3 W STANAG 30-round magazine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "618428466ef05c2ce828f218",
+      "itemName": {
+        "zh": "FN SCAR-L 5.56x45突击步枪 （FDE） ★",
+        "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "WeaponTreatment",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59fb023c86f7746d0d4b423c",
+      "itemName": {
+        "zh": "武器箱",
+        "en": "Weapon case"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6557458f83942d705f0c4962",
+      "itemName": {
+        "zh": "SSAPI level III+ 防弹插板（侧边）",
+        "en": "SSAPI level III+ ballistic plate (Side)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "62e7e7bbe6da9612f743f1e0",
+      "itemName": {
+        "zh": "GP-25“篝火”40 毫米下挂式榴弹发射器",
+        "en": "GP-25 Kostyor 40mm underbarrel grenade launcher"
+      }
+    }
+  ],
+  "description": {
+    "zh": "准备好让这个地方变得乌托邦了吗？这还用问嘛……那肯定了！\n\n我猜你已经遇到过某些“小团体”了吧，真挺烦人的，对吧？不过说实话，有时最烦的部分并不是与他们战斗……而是找他们，然后跟他们战斗完后，还要接着活着撤出去。相信我，一旦你开始跟他们交火，你会立刻吸引其他人来找你凑热闹。\n\n所以我的建议是你最好不光要准备好跟Scav和他们的老大对抗，还要留意周围其他的PMC。别忘了在解决这帮人后记得活着撤离。",
+    "en": "Ready to make the world a better place? What a question... of course!\n\nI suppose you already met one of the many bandit groups, annoying fucks, am I right? Well anyway, sometimes the difficult part isn't actually fighting them... it's tracking them down, and then fight them, then get out alive. Because trust me, you will get company as soon as you start a fight with them.\n\nSo you better prepare yourself not just for the bandits and their leaders, but other operators aswell. Don't forget to get out of there after taking care of this bandit scum."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest",
+        "bossZryachiy",
+        "bossKnight",
+        "followerBigPipe",
+        "followerBirdEye",
+        "bossTagilla",
+        "bossSanitar",
+        "bossBoar",
+        "bossKilla",
+        "bossGluhar",
+        "bossBully",
+        "bossSanitar",
+        "bossKojaniy",
+        "bossKolontay",
+        "bossPartisan",
+        "sectantPrizrak",
+        "sectantPredvestnik",
+        "sectantOni"
+      ]
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747652eea4bfbdfa2e46ab4",
+      "name": {
+        "zh": "莲花之光 - 第十章",
+        "en": "Light of the Lotus - Part 10"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67575b3e2bb2bac9605b12b4",
+      "name": {
+        "zh": "清理垃圾：森林",
+        "en": "Let The Hunt Begin - Woods"
+      }
+    },
+    {
+      "id": "67575d41beda83bf97d14f1c",
+      "name": {
+        "zh": "清理垃圾：海岸线",
+        "en": "Let The Hunt Begin - Shoreline"
+      }
+    },
+    {
+      "id": "67575de81b1736276da6f0c3",
+      "name": {
+        "zh": "清理垃圾：立交桥",
+        "en": "Let The Hunt Begin - Interchange"
+      }
+    },
+    {
+      "id": "6757610a92876de49b91df94",
+      "name": {
+        "zh": "清理垃圾：海关",
+        "en": "Let The Hunt Begin - Customs"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_bosses.png",
+  "isKey": false
+}

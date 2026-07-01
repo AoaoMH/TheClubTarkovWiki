@@ -1,0 +1,96 @@
+{
+  "id": "67975ca4361138b7d78ff0ce",
+  "name": {
+    "zh": "问题解法",
+    "en": "One Way To Solve A Problem"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 500
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "65702554bfc87b3a34093247",
+      "itemName": {
+        "zh": "7.62x51 M62曳光弹弹药包（20发装）",
+        "en": "7.62x51mm M62 Tracer ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5a3501acc4a282000d72293a",
+      "itemName": {
+        "zh": "PMAG SR/LR GEN M3 20 7.62x51 20发",
+        "en": "AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5dcbd56fdbd3d91b3e5468d5",
+      "itemName": {
+        "zh": "沙漠科技 MDR 7.62x51 突击步枪",
+        "en": "Desert Tech MDR 7.62x51 assault rifle"
+      },
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "zh": "你好，今天确实是个好日子。\n你带回来的卡片和钥匙确实帮了大忙，解开了谜团。我的人分别在两个办公室中找到了他们要找的全部证据。\n看来……这一切的幕后主使，正是 Sanitar 和他那帮人。\n这个疯医生，果然哪儿有他哪儿就有麻烦。\n\n现在我能看出一条清晰的线索了——只要这人出现，事情必然复杂化。\n我会找个能解决他的人。如果你有兴趣接手这件事，欢迎告诉我；如果没兴趣，也别介意，收下你的酬劳，我会另找他人。",
+    "en": "Well good day, it is actually a good day now.\nThe card and key you brought me actually helped solving the mystery. Well, my men found exactly what they were looking for inside both offices.\nWe found all the evidence, by the looks of it Sanitar's gang was behind it.\nOf course... this crazy scientist.\n\nI see a pattern now, everywhere where this man is involved, there's trouble.\nI'm sure I will find someone that is able to take care of the problem, if you are interested in helping, let me know, if not I suggest you enjoy your payment. I'll find someone else for this task."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Charisma",
+      "value": 12,
+      "target": "Charisma"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67975be9dd6554c393ad5183",
+      "name": {
+        "zh": "无名指引",
+        "en": "Anonymous Lead"
+      }
+    },
+    {
+      "id": "67975a790a4f9c2f44fe2911",
+      "name": {
+        "zh": "提交证据",
+        "en": "Providing The Evidence"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_trader_peacekeeper.png",
+  "isKey": false
+}

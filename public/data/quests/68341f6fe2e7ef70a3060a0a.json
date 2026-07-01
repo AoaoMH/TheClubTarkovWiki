@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -46,7 +50,7 @@
       "value": 1,
       "itemId": "606587252535c57a13424cfd",
       "itemName": {
-        "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪",
+        "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪 ★",
         "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
       },
       "quantity": 1
@@ -60,6 +64,16 @@
         "en": "AK 7.62x39 US Palm \"AK30\" 30-round magazine (Black)"
       },
       "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 1
     }
   ],
   "description": {
@@ -68,26 +82,14 @@
   },
   "objectives": [
     {
-      "type": "Completion",
-      "description": "Completion: ArenaGameMode",
-      "value": 1,
-      "target": [
-        "BlastGang",
-        "CheckPoint",
-        "TeamFight"
-      ],
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 15,
+      "target": "AnyPmc",
       "targetNames": {
-        "BlastGang": {
-          "zh": "BlastGang",
-          "en": "BlastGang"
-        },
-        "CheckPoint": {
-          "zh": "CheckPoint",
-          "en": "CheckPoint"
-        },
-        "TeamFight": {
-          "zh": "TeamFight",
-          "en": "TeamFight"
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
         }
       }
     }

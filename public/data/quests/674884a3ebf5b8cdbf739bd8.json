@@ -1,0 +1,158 @@
+{
+  "id": "674884a3ebf5b8cdbf739bd8",
+  "name": {
+    "zh": "未读消息",
+    "en": "Sending A Message"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 20000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.06
+    },
+    {
+      "type": "Item",
+      "value": 125850,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 125850
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "58d3db5386f77426186285a0",
+      "itemName": {
+        "zh": "M67手榴弹",
+        "en": "M67 hand grenade"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "657024e3c5d7d4cb4d07856a",
+      "itemName": {
+        "zh": "50发5.56x45 M855A1盒装弹药 ★",
+        "en": "5.56x45mm M855A1 ammo pack (50 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c010e350db83400232feec7",
+      "itemName": {
+        "zh": "SP-8生存砍刀",
+        "en": "SP-8 Survival Machete"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "StashRows"
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d03794386f77420415576f5",
+      "itemName": {
+        "zh": "6-STEN-140-M军用电池",
+        "en": "6-STEN-140-M military battery"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656fafe3498d1b7e3e071da4",
+      "itemName": {
+        "zh": "KITECO SC-IV SA防弹插板",
+        "en": "KITECO SC-IV SA ballistic plate"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c17a7ed2e2216152142459c",
+      "itemName": {
+        "zh": "Crye Precision AirFrame 头盔（黄褐色）",
+        "en": "Crye Precision AirFrame helmet (Tan)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "现在我们知道了LightKeeper与邪教徒之间有些间接或者直接的联系。毕竟，他竟然能安排一些邪教徒守卫他的岛。那么接下来，你需要杀几个邪教徒，我想看看他的反应。但你需要切记，别全杀完了，留一个活口。不知道你有没有注意到，他们通常是五人一组，所以你得击杀4个，然后撤离现场。记住，在哪儿杀的就在哪儿撤离，祝你好运，士兵。",
+    "en": "So, now we know that the lightkeeper guy has some direct or indirect connection to the cultists. After all he has some of them guard his island.\n\nWell anyway, you need to take a few out, I need to see how he reacts. But you need to be careful, leave one of them alive, the priest. Just take out the warriors and leave the scene. And make sure to extract from the location, good luck out there soldier."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantWarrior"
+      ]
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Elimination",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67488670a9bfa58a5cedbf78",
+      "name": {
+        "zh": "塔楼监控",
+        "en": "Tower Surveillance"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6748842621601ad21fb2bcb9",
+      "name": {
+        "zh": "塔科夫环卫工：隔墙有眼",
+        "en": "Bandit Hunt - Eyes Everywhere"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_sendingmessage.png",
+  "isKey": false
+}

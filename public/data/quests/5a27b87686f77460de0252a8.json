@@ -11,6 +11,10 @@
   },
   "type": "Discover",
   "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -92,7 +96,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "590c5f0d86f77413997acfab"
       ],
@@ -107,7 +111,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "590c5f0d86f77413997acfab"
       ],
@@ -121,16 +125,15 @@
     },
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 10,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
           "zh": "Savage",
           "en": "Savage"
         }
-      },
-      "location": "Shoreline"
+      }
     },
     {
       "type": "Exploration",

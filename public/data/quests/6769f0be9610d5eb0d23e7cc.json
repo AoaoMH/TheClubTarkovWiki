@@ -1,0 +1,128 @@
+{
+  "id": "6769f0be9610d5eb0d23e7cc",
+  "name": {
+    "zh": "知己知彼 - 第三章",
+    "en": "Knowing How To Counter - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 25000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 244550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 244550
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "59fafb5d86f774067a6f2084",
+      "itemName": {
+        "zh": "5升丙烷罐",
+        "en": "Propane tank (5L)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "657024f01419851aef03e715",
+      "itemName": {
+        "zh": "50发5.56x45 M995盒装弹药 ☆",
+        "en": "5.56x45mm M995 ammo pack (50 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "64afdcb83efdfea28601d041",
+      "itemName": {
+        "zh": "ESAPI IV 级防弹插板",
+        "en": "ESAPI level IV ballistic plate"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "619cbf7d23893217ec30b689",
+      "itemName": {
+        "zh": "注射器收纳盒",
+        "en": "Injector case"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656fae5f7c2d57afe200c0d7",
+      "itemName": {
+        "zh": "GAC 3s15m防弹插板",
+        "en": "GAC 3s15m ballistic plate"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b44d0de86f774503d30cba8",
+      "itemName": {
+        "zh": "IOTV Gen4 防弹衣（高机动型，复合迷彩）",
+        "en": "IOTV Gen4 body armor (High Mobility Kit, MultiCam)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "准备好迎接全新的挑战了吗？好吧，那就听好了。\n四级头盔可能不算罕见，但五级和六级……\n我知道大多数PMC很讨厌它们，因为戴上它们后或多或少都会影响你的听觉和视线，但那边本地人可无所谓。如果你想更容易找到戴这些头盔的人，我建议你去一些当地的Boss团那儿看看，尤其是他们的保镖小弟。你知道该咋办，完成后向我报告，祝你好运。\n\n别忘了那个黑不溜秋的面具不算头盔，不要耍小聪明。",
+    "en": "Ready for another challenge? Alright, listen up then.\nClass four headwear might be not that rare, but class five and six...\nMost operators hate them because they fuck up your hearing and your vision if you wear a visor with them, but the bandits don't care at all. If you want to have more luck with finding people who are wearing these helmets, I suggest you check on some of the local gangs, specifically the bodyguards there. You know what you need to do, report back to me once your done, and good luck."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6769ef9901adb8c734063eae",
+      "name": {
+        "zh": "知己知彼 - 第二章",
+        "en": "Knowing How To Counter - Part 2"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_lynx.png",
+  "isKey": false
+}

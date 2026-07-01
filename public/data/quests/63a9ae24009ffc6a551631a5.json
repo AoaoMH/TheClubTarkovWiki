@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -46,7 +50,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 30,
+      "value": 8,
       "target": "Any",
       "targetNames": {
         "Any": {
@@ -87,10 +91,6 @@
           "zh": "SAG AK-545 5.45x39卡宾枪",
           "en": "SAG AK-545 5.45x39 carbine"
         }
-      },
-      "distance": {
-        "compareMethod": ">=",
-        "value": 100
       }
     }
   ],

@@ -1,0 +1,211 @@
+{
+  "id": "68b77b59f8362d35febb3c48",
+  "name": {
+    "zh": "辛辣的款待 - 第2部分",
+    "en": "Spicy Treat - Part 2"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 55,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 55
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "60391b0fb847c71012789415",
+      "itemName": {
+        "zh": "TP-200 砖型TNT",
+        "en": "TP-200 TNT brick"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "60391a8b3364dc22b04d0ce5",
+      "itemName": {
+        "zh": "罐装铝热剂",
+        "en": "Can of thermite"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62e7e7bbe6da9612f743f1e0",
+      "itemName": {
+        "zh": "GP-25“篝火”40 毫米下挂式榴弹发射器",
+        "en": "GP-25 Kostyor 40mm underbarrel grenade launcher"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6357c98711fb55120211f7e1",
+      "itemName": {
+        "zh": "M203 40毫米下挂式榴弹发射器",
+        "en": "M203 40mm underbarrel grenade launcher"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Launcher",
+      "value": 250
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6275303a9f372d6ea97f9ec7",
+      "itemName": {
+        "zh": "Milkor M32A1 MSGL 40 毫米榴弹发射器",
+        "en": "Milkor M32A1 MSGL 40mm grenade launcher"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好久不见，还记得之前给你分配的那个用爆炸物干掉一些人的任务吗？这次我需要更具体的数据。你看，在塔科夫这里没有很多人拿着榴弹发射器跑来跑去，是时候改变这一点了。我会借你一个样品，好吗？你也会获得我们库存的使用权限。\n\n最近你的一些PMC“同事”一直在攻击我的猎犬，我不能让这事就这么算了，你知道吗？我要维持我的声誉，如果人们发现我让我的员工像猪一样在外面被屠杀……这么说吧，我损失很大，而你 however……无意冒犯，但这是事实。\n\n所以，你甚至知道怎么用这些东西吗？你终究得弄明白，不过我觉得我已经没有用户手册了，所以这事儿你得靠自己了，好吗？就帮我个忙，当你弄丢你的发射器时，别再来要另一个。",
+    "en": "Long time no see, remember the task you were assigned to some time ago where you took down some guys with explosives? I need more specific data this time. You see, we don't have a lot of people running around with grenadelaunchers here in Tarkov, it's time to change that. I'll lend you a sample, alright? You will receive access to our stock aswell.\n\nLately some of your PMC \"colleagues\" have been attacking my hounds, I can't let that slide, you know? I got a reputation to maintain and if people find out that I let my employees get slaughtered out there like hogs... Let's just say I have a lot to lose, you however... No offense but that is the truth.\n\nSo, do you even know how to use these things? You'll have to find out eventually, I don't think I still have the user manuals though so you're kinda on your own here, alright? Just do me a favor, don't ask for another launcher when you lose yours."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "6275303a9f372d6ea97f9ec7",
+        "5e81ebcd8e146c7080625e15"
+      ],
+      "weaponNames": {
+        "6275303a9f372d6ea97f9ec7": {
+          "zh": "Milkor M32A1 MSGL 40 毫米榴弹发射器",
+          "en": "Milkor M32A1 MSGL 40mm grenade launcher"
+        },
+        "5e81ebcd8e146c7080625e15": {
+          "zh": "FN GL-40 Mk.2 榴弹发射器",
+          "en": "FN40GL Mk2 40mm grenade launcher"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "6662e9cda7e0b43baa3d5f76",
+        "6662e9aca7e0b43baa3d5f74",
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "675dc9d37ae1a8792107ca96",
+        "675dcb0545b1a2d108011b2b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9cda7e0b43baa3d5f76": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9aca7e0b43baa3d5f74": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "675dc9d37ae1a8792107ca96": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dcb0545b1a2d108011b2b": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b1d4ea6a301f7c01591db8",
+      "name": {
+        "zh": "辛辣的款待 - 第1部分",
+        "en": "Spicy Treat - Part 1"
+      }
+    },
+    {
+      "id": "68037d165a7e1349b4901c3b",
+      "name": {
+        "zh": "竞技场狙击手",
+        "en": "The Arena Sniper"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68a32567cf5a19b50bd7d72e",
+      "name": {
+        "zh": "卡宾枪专家",
+        "en": "Expert Of Carbines"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_spicy_treats.png",
+  "isKey": false
+}

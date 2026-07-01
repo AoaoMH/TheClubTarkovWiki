@@ -1,0 +1,215 @@
+{
+  "id": "6747666815fa03b3fc03a041",
+  "name": {
+    "zh": "莲花之光 - 第十三章",
+    "en": "Light Of The Lotus - Part 13"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "locationName": {
+    "zh": "储备站",
+    "en": "Reserve"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 125750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 125750
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "657024e3c5d7d4cb4d07856a",
+      "itemName": {
+        "zh": "50发5.56x45 M855A1盒装弹药 ★",
+        "en": "5.56x45mm M855A1 ammo pack (50 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Endurance",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "CovertMovement",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59e6906286f7746c9f75e847",
+      "itemName": {
+        "zh": "5.56x45毫米 M856A1",
+        "en": "5.56x45mm M856A1"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6529302b8c26af6326029fb7",
+      "itemName": {
+        "zh": "6.8x51毫米 SIG FMJ",
+        "en": "6.8x51mm SIG FMJ"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0517910db83400232ffee5",
+      "itemName": {
+        "zh": "Valday PS-320 1x/6x瞄准镜",
+        "en": "Valday PS-320 1/6x scope"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我计划让我的一些人潜入USEC营地，但问题是那里守卫森严，并配备了固定机枪和榴弹发射器。\n\n这样的行动太危险了。我们本想让狙击手来处理这事儿的，但问题是我们对那个地方一无所知。如果我们知道所有固定武器的位置，这会容易得多。你能完成这个任务吗？\n\n我觉得你可能有一些夜间行动的装备，那为什么不在晚上行动？当然如果你想冒险，也可以白天去。选择权在你手上。",
+    "en": "Some of my guys plan on infiltrating the USEC camp, the problem is that it's heavily guarded and they are armed with stationariy machineguns and grenadelaunchers.\nSuch operation would be way too dangerous. We would let our marksmen handle this but the problem is that we have no information about that place. It would be easier for us if we know where all the mounted weapons are located. Can you manage that?\n\nYou probably have some equipment for night operations, so why don't you go at night? Or risk it at day if you want. Your choice."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_hmg1_blockpost",
+      "targetNames": {
+        "lotus_lighthouse_hmg1_blockpost": {
+          "zh": "lotus_lighthouse_hmg1_blockpost",
+          "en": "lotus_lighthouse_hmg1_blockpost"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_ags1_blockpost",
+      "targetNames": {
+        "lotus_lighthouse_ags1_blockpost": {
+          "zh": "lotus_lighthouse_ags1_blockpost",
+          "en": "lotus_lighthouse_ags1_blockpost"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_hmg1_west",
+      "targetNames": {
+        "lotus_lighthouse_hmg1_west": {
+          "zh": "lotus_lighthouse_hmg1_west",
+          "en": "lotus_lighthouse_hmg1_west"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_hmg2_west",
+      "targetNames": {
+        "lotus_lighthouse_hmg2_west": {
+          "zh": "lotus_lighthouse_hmg2_west",
+          "en": "lotus_lighthouse_hmg2_west"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_hmg1_north",
+      "targetNames": {
+        "lotus_lighthouse_hmg1_north": {
+          "zh": "lotus_lighthouse_hmg1_north",
+          "en": "lotus_lighthouse_hmg1_north"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_hmg2_north",
+      "targetNames": {
+        "lotus_lighthouse_hmg2_north": {
+          "zh": "lotus_lighthouse_hmg2_north",
+          "en": "lotus_lighthouse_hmg2_north"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_ags1_north",
+      "targetNames": {
+        "lotus_lighthouse_ags1_north": {
+          "zh": "lotus_lighthouse_ags1_north",
+          "en": "lotus_lighthouse_ags1_north"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_hmg1_east",
+      "targetNames": {
+        "lotus_lighthouse_hmg1_east": {
+          "zh": "lotus_lighthouse_hmg1_east",
+          "en": "lotus_lighthouse_hmg1_east"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674766077f5e08878af90bc8",
+      "name": {
+        "zh": "莲花之光 - 第十二章",
+        "en": "Light Of The Lotus - Part 12"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67476842ad02e25c2e1b92ad",
+      "name": {
+        "zh": "莲花之光 - 第十四章",
+        "en": "Light Of The Lotus - Part 14"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_13.png",
+  "isKey": false
+}

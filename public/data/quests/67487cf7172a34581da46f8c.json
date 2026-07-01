@@ -1,0 +1,211 @@
+{
+  "id": "67487cf7172a34581da46f8c",
+  "name": {
+    "zh": "西方连线 - 第七章",
+    "en": "The Western Connection - Part 7"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21350
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.06
+    },
+    {
+      "type": "Item",
+      "value": 1250,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1250
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6582dbf0b8d7830efc45016f",
+      "itemName": {
+        "zh": "休息室钥匙 ★",
+        "en": "Relaxation room key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "63a39c7964283b5e9c56b280",
+      "itemName": {
+        "zh": "Concordia 安保处钥匙",
+        "en": "Concordia security room key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "66b6295a8ca68c6461709efa",
+      "itemName": {
+        "zh": "Tasmanian Tiger MKIII 插板胸挂（棕褐色）",
+        "en": "Tasmanian Tiger Plate Carrier MKIII (Coyote Brown)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ac8d6885acfc400180ae7b0",
+      "itemName": {
+        "zh": "Ops-Core FAST MT Super High Cut 头盔（城市褐）",
+        "en": "Ops-Core FAST MT Super High Cut helmet (Urban Tan)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 100,
+      "itemId": "6529302b8c26af6326029fb7",
+      "itemName": {
+        "zh": "6.8x51毫米 SIG FMJ",
+        "en": "6.8x51mm SIG FMJ"
+      },
+      "quantity": 100
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5a3501acc4a282000d72293a",
+      "itemName": {
+        "zh": "PMAG SR/LR GEN M3 20 7.62x51 20发",
+        "en": "AR-10 7.62x51 Magpul PMAG 20 SR-LR GEN M3 20-round magazine"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "65290f395ae2ae97b80fdf2d",
+      "itemName": {
+        "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+        "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "好了，雇佣兵，你又一次证明了自己的能力。真遗憾这片区域可能会埋没如此巨大的潜力。\n\n不过，这项行动还有最后一个任务需要你帮忙，所以仔细听好了。\n\n我们需要在疗养院的某些特定地点藏一些物品。我会提供一份清单，上面列出了需要藏匿物品的房间和物品。\n\n记住，这些房间可能是上锁的或难以进入的，所以带上钥匙。我可以提供所需的物品，但千万别弄丢了。",
+    "en": "Alright Mercenary, you have proven yourself worthy once again, shame what potential might get lost in this region.\n\nAnyway, there is still one last task for this operation that I need your help with, so better listen up.\nWe need to stash a couple of things somewhere in the sanatorium, the places have to be very specific but I can provide you with a list of all the rooms and items that you need to stash in there.\n\nKeep in mind that some of these rooms are probably locked or hard to get to, so bring keys.\nI can also give you the required items, but do not lose them."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5447a9cd4bdc2dbd208b4567"
+      ],
+      "targetNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6357c98711fb55120211f7e1"
+      ],
+      "targetNames": {
+        "6357c98711fb55120211f7e1": {
+          "zh": "M203 40毫米下挂式榴弹发射器",
+          "en": "M203 40mm underbarrel grenade launcher"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c5f0d86f77413997acfab"
+      ],
+      "targetNames": {
+        "590c5f0d86f77413997acfab": {
+          "zh": "MRE个人即食口粮",
+          "en": "MRE ration pack"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5aa7d03ae5b5b00016327db5"
+      ],
+      "targetNames": {
+        "5aa7d03ae5b5b00016327db5": {
+          "zh": "UNTAR头盔",
+          "en": "UNTAR helmet"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5ab8e4ed86f7742d8e50c7fa"
+      ],
+      "targetNames": {
+        "5ab8e4ed86f7742d8e50c7fa": {
+          "zh": "MF-UNTAR防弹背心",
+          "en": "MF-UNTAR body armor"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 3,
+      "target": [
+        "58d3db5386f77426186285a0"
+      ],
+      "targetNames": {
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67487bd534005ee5fe84e59d",
+      "name": {
+        "zh": "西方连线 - 第六章",
+        "en": "The Western Connection - Part 6"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_trader_peacekeeper.png",
+  "isKey": false
+}

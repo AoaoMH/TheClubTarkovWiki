@@ -1,0 +1,142 @@
+{
+  "id": "6751751f0e38a97dbe6a3d91",
+  "name": {
+    "zh": "熟悉武器 - 第三章",
+    "en": "Getting Familiar With Weapons - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1875
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 51750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 51750
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "61bf7b6302b3924be92fa8c3",
+      "itemName": {
+        "zh": "金属零件",
+        "en": "Metal spare parts"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b31ce86f7742523398394",
+      "itemName": {
+        "zh": "圆嘴钳",
+        "en": "Round pliers"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "573603562459776430731618",
+      "itemName": {
+        "zh": "7.62x25毫米TT Pst gzh",
+        "en": "7.62x25mm TT Pst gzh"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b2388675acfc4771e1be0be",
+      "itemName": {
+        "zh": "Burris FullField TAC30 1-4x24 30 毫米 步枪瞄准镜",
+        "en": "Burris FullField TAC30 1-4x24 30mm riflescope"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，又来了。这次必须是一把 UZI，弹匣容量为25发……出于法律原因？嘛，差不多这个意思……\n\n它还需要非常符合人机功效，不要太重，同时需要安装一个战术设备和一个紧凑型反射瞄准镜。但我会再次把所有具体要求写下来。\n\n要求：\n - 后坐力总和小于 225\n - 重量小于 3.75 公斤\n - 人机功效 70 或更高\n - 弹匣容量不超过 25 发\n - 一个紧凑型反射瞄准镜\n - 一个战术设备",
+    "en": "So, here we go again. This time it has to be an UZI, 25 round magazine capacity for... legal reasons? Anyway...\n\nIt also needs to be very ergonomic, not too heavy and it needs to have a tactical device installed aswell as a compact collimator.\nBut I will write down all the specific requirements again.\n\nRequirements :\n - Recoil Sum less than 225\n - Weight less than 3.75 KG\n - Ergonomics 70 or higher\n - Magazine Capacity of 25 Rounds or less\n - A Compact Collimator\n - A Tactical Device"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "66992b349950f5f4cd06029f"
+      ],
+      "targetNames": {
+        "66992b349950f5f4cd06029f": {
+          "zh": "IWI UZI 9x19冲锋枪",
+          "en": "IWI UZI 9x19 submachine gun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 70
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 225
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": "<=",
+          "value": 25
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 3.75
+        }
+      ],
+      "requiredCategories": [
+        "55818acf4bdc2dde698b456b",
+        "55818b164bdc2ddc698b456c"
+      ],
+      "requiredCategoryNames": {
+        "55818acf4bdc2dde698b456b": {
+          "zh": "紧凑型反射式瞄具",
+          "en": "Compact reflex sight"
+        },
+        "55818b164bdc2ddc698b456c": {
+          "zh": "组合式战术设备",
+          "en": "Comb. tact. device"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6751718a8b3f5b546858efb2",
+      "name": {
+        "zh": "熟悉武器 - 第二章",
+        "en": "Getting Familiar With Weapons - Part 2"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_familiarwithguns_3.png",
+  "isKey": false
+}

@@ -1,0 +1,231 @@
+{
+  "id": "6762597817a433eeee2ef47a",
+  "name": {
+    "zh": "塔科夫环卫工：冷案 - 第1章",
+    "en": "Bandit Hunt - Cold Case - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 144560,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 144560
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5bc9be8fd4351e00334cae6e",
+      "itemName": {
+        "zh": "42nd Signature Blend英式茶",
+        "en": "42 Signature Blend English Tea"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ede7b0c6d23e5473e6e8c66",
+      "itemName": {
+        "zh": "RB-RLSA 钥匙 ☆",
+        "en": "RB-RLSA key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "6570254fcfc010a0f5006a22",
+      "itemName": {
+        "zh": "7.62x51 M61弹药包（20发装）",
+        "en": "7.62x51mm M61 ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b376e86f774252519444e",
+      "itemName": {
+        "zh": "“凶狠跑刀崽”私酒 ☆",
+        "en": "Bottle of Fierce Hatchling moonshine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cadf6eeae921500134b2799",
+      "itemName": {
+        "zh": "12.7x55毫米 PS12B",
+        "en": "12.7x55mm PS12B"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a154d5cfcdbcb001a3b00da",
+      "itemName": {
+        "zh": "Ops-Core FAST MT Super High Cut 头盔（黑色）",
+        "en": "Ops-Core FAST MT Super High Cut helmet (Black)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "628e4e576d783146b124c64d",
+      "itemName": {
+        "zh": "Peltor ComTac IV Hybrid 耳机（棕褐色）",
+        "en": "Peltor ComTac IV Hybrid headset (Coyote Brown)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "还记得我们侦查军用基地的那次吗？\n\n显然，有一个由一名前海军领导的地头蛇团伙们扎住在那儿了……\n人们称他为\"Glukhar\"，Jaeger 告诉我了这个家伙是如何处理被遗留在塔科夫的军用物资的。但现在这个疯子对我和我的合作伙伴来说成了个大问题，因为他不仅抢走了我们的客户，他的手下还持续攻击和抢劫我们。\n\n准备好给这帮家伙一点教训了吗？干掉他们的头儿和六个保镖，不要忘了带回来Glukhar常用的枪。",
+    "en": "Remember when we scoped out the military base?\n\nApparently there is some bandit gang, led by some former marine...\nPeople call him \"Glukhar\", Jaeger told me how this guy deals with military goods that have been left here in Tarkov. But now this psycho became kind of a problem for me and my associates, not only because he takes our customers but also because his soldiers kept attacking and robbing us.\n\nReady to pay back these guys? Take down their leader and six of his bodyguards, and don't forget to bring me this special assault rifle that glukhar is usually carrying around."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossGluhar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerGluharAssault",
+        "followerGluharSecurity",
+        "followerGluharScout"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5cadfbf7ae92152ac412eeef"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5cadfbf7ae92152ac412eeef": {
+          "zh": "ASh-12 12.7x55 突击步枪",
+          "en": "ASh-12 12.7x55 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5cadfbf7ae92152ac412eeef"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5cadfbf7ae92152ac412eeef": {
+          "zh": "ASh-12 12.7x55 突击步枪",
+          "en": "ASh-12 12.7x55 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67575b3e2bb2bac9605b12b4",
+      "name": {
+        "zh": "清理垃圾：森林",
+        "en": "Let The Hunt Begin - Woods"
+      }
+    },
+    {
+      "id": "67575d41beda83bf97d14f1c",
+      "name": {
+        "zh": "清理垃圾：海岸线",
+        "en": "Let The Hunt Begin - Shoreline"
+      }
+    },
+    {
+      "id": "67575de81b1736276da6f0c3",
+      "name": {
+        "zh": "清理垃圾：立交桥",
+        "en": "Let The Hunt Begin - Interchange"
+      }
+    },
+    {
+      "id": "6757610a92876de49b91df94",
+      "name": {
+        "zh": "清理垃圾：海关",
+        "en": "Let The Hunt Begin - Customs"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67625a4c9ac37a06ed638698",
+      "name": {
+        "zh": "塔科夫环卫工：冷案 - 第2章",
+        "en": "Bandit Hunt - Cold Case - Part 2"
+      }
+    },
+    {
+      "id": "6747c0991fa4b29ab5692551",
+      "name": {
+        "zh": "塔科夫环卫工：进口货",
+        "en": "Bandit Hunt - Imports"
+      }
+    },
+    {
+      "id": "686504c9546711656b0cdd70",
+      "name": {
+        "zh": "挖掘过去",
+        "en": "Digging Up The Past"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_boss_glukhar.png",
+  "isKey": false
+}

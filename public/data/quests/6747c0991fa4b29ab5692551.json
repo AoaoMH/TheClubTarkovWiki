@@ -1,0 +1,730 @@
+{
+  "id": "6747c0991fa4b29ab5692551",
+  "name": {
+    "zh": "塔科夫环卫工：进口货",
+    "en": "Bandit Hunt - Imports"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 35000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.07
+    },
+    {
+      "type": "Item",
+      "value": 1750,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1750
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "67600a516f01341c9106ab4c",
+      "itemName": {
+        "zh": "6.8x51mm SIG Hybrid弹药包（20发装）",
+        "en": "6.8x51mm SIG Hybrid ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "65293c7a17e14363030ad308",
+      "itemName": {
+        "zh": "AR-10 7.62x51 Lancer L7AWM 25发容量弹匣",
+        "en": "AR-10 7.62x51 Lancer L7AWM 25-round magazine"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "65290f395ae2ae97b80fdf2d",
+      "itemName": {
+        "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+        "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "56dfef82d2720bbd668b4567",
+      "itemName": {
+        "zh": "5.45x39毫米 BP",
+        "en": "5.45x39mm BP gs"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "628b9784bcf6e2659e09b8a2",
+      "itemName": {
+        "zh": "S&S Precision PlateFrame 插板胸挂（Goons 特别版）",
+        "en": "S&S Precision PlateFrame plate carrier (Goons Edition)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "628b9c7d45122232a872358f",
+      "itemName": {
+        "zh": "Crye Precision CPC 插板胸挂（Goons 特别版）",
+        "en": "Crye Precision CPC plate carrier (Goons Edition)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "628baf0b967de16aab5a4f36",
+      "itemName": {
+        "zh": "LBT-1961A Load Bearing胸挂 (Goons特别版)",
+        "en": "LBT-1961A Load Bearing Chest Rig (Goons Edition)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，我猜你已经听说过叛逃USEC了吧？他们的头儿似乎又在恐吓当地人了，他们开始逐渐从他们的小基地扩散开了。另一位商人告诉我，他派了一名信使去尝试跟他们谈判，但结果可想而知，他们很冷血地直接了结了他。这帮人还没有打搅到我的团队……至少目前为止还没有。我想提前避免这种情况的发生，他们太具有攻击性了。我知道你是这方面的专家，所以我现在请求你帮我个忙。干掉这帮小丑，同时把他们的装备带回来。只要是他们身上穿的东西就行，衣服服装或装备护甲都可以，别担心，你可以留着他们的枪支弹药。但是我需要你在一定条件下进行这次行动——穿着BEAR干员的装备，这样在送他们上黄泉路之前能清楚到底是谁痛下的杀手。能做到吗？\n\nBEAR装备：\n - 6B47头盔 或 BEAR棒球帽\n - Bagariy 或 TV-110 或 TV-115防弹板\n - 任意AK系列步枪",
+    "en": "Hey, I assume you have heard about the rogue USECs already? Their leaders seem to be terrorizing the locals again, they started to spread out further from their little base. Another dealer told me that he sent a messenger or something to negotiate with them but they just killed him in cold blood. They have not disturbed my group... yet. I want to avoid that, they are just too aggressive. I know you are an expert at this, so I will ask you for that favor now. Get rid of these clowns and while you are at it, bring me their gear. Just what they were wearing is fine, armor or rigs, whatever, you can keep the guns and ammo don't worry. But I want you to do it under certain conditions - Dress up as a BEAR operative, so they clearly see who takes them out. They should see the very thing that they hate the most before they get sent into afterlife. Can you manage it?\n\nBEAR gear :\n - 6B47 Helmets / BEAR Baseballcap\n - Bagariy / TV-110 / TV-115 Plate Carrier\n - An AK-Type Weapon"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5ac66d9b5acfc4001633997a",
+        "5ac4cd105acfc40016339859",
+        "6499849fc93611967b034949",
+        "5644bd2b4bdc2d3b4c8b4572",
+        "5bf3e03b0db834001d2c4a9c",
+        "57dc2fa62459775949412633",
+        "583990e32459771419544dd2",
+        "5bf3e0490db83400196199af",
+        "5ab8e9fcd8ce870019439434",
+        "5839a40f24597726f856b511",
+        "5beed0f50db834001c062b12",
+        "5ac66d725acfc43b321d4b60",
+        "5ac66d2e5acfc43b321d4b53",
+        "59d6088586f774275f37482f",
+        "5a0ec13bfcdbcb00165aa685",
+        "5abcbc27d8ce8700182eceeb",
+        "59e6152586f77473dc057aa1",
+        "59e6687d86f77411d949b251",
+        "628b5638ad252a16da6dd245",
+        "628b9c37a733087d0d7fe84b",
+        "5ac66cb05acfc40198510a10",
+        "5ac66d015acfc400180ae6e4",
+        "628a60ae6b1d481ff772e9c8",
+        "59ff346386f77477562ff5e2",
+        "674d6121c09f69dfb201a888",
+        "59984ab886f7743e98271174",
+        "59f9cabd86f7743a10721f46",
+        "576165642459773c7a400233",
+        "674fe9a75e51f1c47c04ec23"
+      ],
+      "weaponNames": {
+        "5ac66d9b5acfc4001633997a": {
+          "zh": "AK-105 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+        },
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        },
+        "6499849fc93611967b034949": {
+          "zh": "AK-12 5.45x39突击步枪",
+          "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+        },
+        "5644bd2b4bdc2d3b4c8b4572": {
+          "zh": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74N 5.45x39 assault rifle"
+        },
+        "5bf3e03b0db834001d2c4a9c": {
+          "zh": "AK-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74 5.45x39 assault rifle"
+        },
+        "57dc2fa62459775949412633": {
+          "zh": "AKS-74U 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74U 5.45x39 assault rifle"
+        },
+        "583990e32459771419544dd2": {
+          "zh": "AKS-74UN 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UN 5.45x39 assault rifle"
+        },
+        "5bf3e0490db83400196199af": {
+          "zh": "AKS-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74 5.45x39 assault rifle"
+        },
+        "5ab8e9fcd8ce870019439434": {
+          "zh": "AKS-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74N 5.45x39 assault rifle"
+        },
+        "5839a40f24597726f856b511": {
+          "zh": "AKS-74UB 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UB 5.45x39 assault rifle"
+        },
+        "5beed0f50db834001c062b12": {
+          "zh": "RPK-16 5.45x39 轻机枪",
+          "en": "RPK-16 5.45x39 light machine gun"
+        },
+        "5ac66d725acfc43b321d4b60": {
+          "zh": "AK-104 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+        },
+        "5ac66d2e5acfc43b321d4b53": {
+          "zh": "AK-103 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-103 7.62x39 assault rifle"
+        },
+        "59d6088586f774275f37482f": {
+          "zh": "AKM 7.62×39 突击步枪",
+          "en": "Kalashnikov AKM 7.62x39 assault rifle"
+        },
+        "5a0ec13bfcdbcb00165aa685": {
+          "zh": "AKMN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMN 7.62x39 assault rifle"
+        },
+        "5abcbc27d8ce8700182eceeb": {
+          "zh": "AKMSN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMSN 7.62x39 assault rifle"
+        },
+        "59e6152586f77473dc057aa1": {
+          "zh": "Vepr KM / VPO-136 7.62x39 卡宾枪",
+          "en": "Molot Arms VPO-136 Vepr-KM 7.62x39 carbine"
+        },
+        "59e6687d86f77411d949b251": {
+          "zh": "Vepr AKM / VPO-209 .366TKM 卡宾枪",
+          "en": "Molot Arms VPO-209 .366 TKM carbine"
+        },
+        "628b5638ad252a16da6dd245": {
+          "zh": "SAG AK-545 5.45x39卡宾枪",
+          "en": "SAG AK-545 5.45x39 carbine"
+        },
+        "628b9c37a733087d0d7fe84b": {
+          "zh": "SAG AK-545 5.45x39截短卡宾枪",
+          "en": "SAG AK-545 Short 5.45x39 carbine"
+        },
+        "5ac66cb05acfc40198510a10": {
+          "zh": "AK-101 5.56x45 突击步枪",
+          "en": "Kalashnikov AK-101 5.56x45 assault rifle"
+        },
+        "5ac66d015acfc400180ae6e4": {
+          "zh": "AK-102 5.56x45 突击步枪",
+          "en": "Kalashnikov AK-102 5.56x45 assault rifle"
+        },
+        "628a60ae6b1d481ff772e9c8": {
+          "zh": "Rifle Dynamics RD-704 7.62x39突击步枪",
+          "en": "Rifle Dynamics RD-704 7.62x39 assault rifle"
+        },
+        "59ff346386f77477562ff5e2": {
+          "zh": "AKMS 7.62×39 突击步枪",
+          "en": "Kalashnikov AKMS 7.62x39 assault rifle"
+        },
+        "674d6121c09f69dfb201a888": {
+          "zh": "Aklys Defense 迅猛龙 .300 Blackout 突击步枪",
+          "en": "Aklys Defense Velociraptor .300 Blackout assault rifle"
+        },
+        "59984ab886f7743e98271174": {
+          "zh": "PP-19-01 勇士 9x19 冲锋枪",
+          "en": "PP-19-01 Vityaz 9x19 submachine gun"
+        },
+        "59f9cabd86f7743a10721f46": {
+          "zh": "Saiga-9 9x19卡宾枪",
+          "en": "Saiga-9 9x19 carbine"
+        },
+        "576165642459773c7a400233": {
+          "zh": "Saiga-12K ver.10 12铅径半自动霰弹枪",
+          "en": "Saiga-12K ver.10 12ga semi-automatic shotgun"
+        },
+        "674fe9a75e51f1c47c04ec23": {
+          "zh": "Saiga-12K 12 铅径自动霰弹枪",
+          "en": "Saiga-12K 12ga automatic shotgun"
+        }
+      },
+      "enemyRoles": [
+        "bossKnight"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5ac66d9b5acfc4001633997a",
+        "5ac4cd105acfc40016339859",
+        "6499849fc93611967b034949",
+        "5644bd2b4bdc2d3b4c8b4572",
+        "5bf3e03b0db834001d2c4a9c",
+        "57dc2fa62459775949412633",
+        "583990e32459771419544dd2",
+        "5bf3e0490db83400196199af",
+        "5ab8e9fcd8ce870019439434",
+        "5839a40f24597726f856b511",
+        "5beed0f50db834001c062b12",
+        "5ac66d725acfc43b321d4b60",
+        "5ac66d2e5acfc43b321d4b53",
+        "59d6088586f774275f37482f",
+        "5a0ec13bfcdbcb00165aa685",
+        "5abcbc27d8ce8700182eceeb",
+        "59e6152586f77473dc057aa1",
+        "59e6687d86f77411d949b251",
+        "628b5638ad252a16da6dd245",
+        "628b9c37a733087d0d7fe84b",
+        "5ac66cb05acfc40198510a10",
+        "5ac66d015acfc400180ae6e4",
+        "628a60ae6b1d481ff772e9c8",
+        "59ff346386f77477562ff5e2",
+        "674d6121c09f69dfb201a888",
+        "59984ab886f7743e98271174",
+        "59f9cabd86f7743a10721f46",
+        "576165642459773c7a400233",
+        "674fe9a75e51f1c47c04ec23"
+      ],
+      "weaponNames": {
+        "5ac66d9b5acfc4001633997a": {
+          "zh": "AK-105 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+        },
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        },
+        "6499849fc93611967b034949": {
+          "zh": "AK-12 5.45x39突击步枪",
+          "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+        },
+        "5644bd2b4bdc2d3b4c8b4572": {
+          "zh": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74N 5.45x39 assault rifle"
+        },
+        "5bf3e03b0db834001d2c4a9c": {
+          "zh": "AK-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74 5.45x39 assault rifle"
+        },
+        "57dc2fa62459775949412633": {
+          "zh": "AKS-74U 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74U 5.45x39 assault rifle"
+        },
+        "583990e32459771419544dd2": {
+          "zh": "AKS-74UN 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UN 5.45x39 assault rifle"
+        },
+        "5bf3e0490db83400196199af": {
+          "zh": "AKS-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74 5.45x39 assault rifle"
+        },
+        "5ab8e9fcd8ce870019439434": {
+          "zh": "AKS-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74N 5.45x39 assault rifle"
+        },
+        "5839a40f24597726f856b511": {
+          "zh": "AKS-74UB 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UB 5.45x39 assault rifle"
+        },
+        "5beed0f50db834001c062b12": {
+          "zh": "RPK-16 5.45x39 轻机枪",
+          "en": "RPK-16 5.45x39 light machine gun"
+        },
+        "5ac66d725acfc43b321d4b60": {
+          "zh": "AK-104 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+        },
+        "5ac66d2e5acfc43b321d4b53": {
+          "zh": "AK-103 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-103 7.62x39 assault rifle"
+        },
+        "59d6088586f774275f37482f": {
+          "zh": "AKM 7.62×39 突击步枪",
+          "en": "Kalashnikov AKM 7.62x39 assault rifle"
+        },
+        "5a0ec13bfcdbcb00165aa685": {
+          "zh": "AKMN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMN 7.62x39 assault rifle"
+        },
+        "5abcbc27d8ce8700182eceeb": {
+          "zh": "AKMSN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMSN 7.62x39 assault rifle"
+        },
+        "59e6152586f77473dc057aa1": {
+          "zh": "Vepr KM / VPO-136 7.62x39 卡宾枪",
+          "en": "Molot Arms VPO-136 Vepr-KM 7.62x39 carbine"
+        },
+        "59e6687d86f77411d949b251": {
+          "zh": "Vepr AKM / VPO-209 .366TKM 卡宾枪",
+          "en": "Molot Arms VPO-209 .366 TKM carbine"
+        },
+        "628b5638ad252a16da6dd245": {
+          "zh": "SAG AK-545 5.45x39卡宾枪",
+          "en": "SAG AK-545 5.45x39 carbine"
+        },
+        "628b9c37a733087d0d7fe84b": {
+          "zh": "SAG AK-545 5.45x39截短卡宾枪",
+          "en": "SAG AK-545 Short 5.45x39 carbine"
+        },
+        "5ac66cb05acfc40198510a10": {
+          "zh": "AK-101 5.56x45 突击步枪",
+          "en": "Kalashnikov AK-101 5.56x45 assault rifle"
+        },
+        "5ac66d015acfc400180ae6e4": {
+          "zh": "AK-102 5.56x45 突击步枪",
+          "en": "Kalashnikov AK-102 5.56x45 assault rifle"
+        },
+        "628a60ae6b1d481ff772e9c8": {
+          "zh": "Rifle Dynamics RD-704 7.62x39突击步枪",
+          "en": "Rifle Dynamics RD-704 7.62x39 assault rifle"
+        },
+        "59ff346386f77477562ff5e2": {
+          "zh": "AKMS 7.62×39 突击步枪",
+          "en": "Kalashnikov AKMS 7.62x39 assault rifle"
+        },
+        "674d6121c09f69dfb201a888": {
+          "zh": "Aklys Defense 迅猛龙 .300 Blackout 突击步枪",
+          "en": "Aklys Defense Velociraptor .300 Blackout assault rifle"
+        },
+        "59984ab886f7743e98271174": {
+          "zh": "PP-19-01 勇士 9x19 冲锋枪",
+          "en": "PP-19-01 Vityaz 9x19 submachine gun"
+        },
+        "59f9cabd86f7743a10721f46": {
+          "zh": "Saiga-9 9x19卡宾枪",
+          "en": "Saiga-9 9x19 carbine"
+        },
+        "576165642459773c7a400233": {
+          "zh": "Saiga-12K ver.10 12铅径半自动霰弹枪",
+          "en": "Saiga-12K ver.10 12ga semi-automatic shotgun"
+        },
+        "674fe9a75e51f1c47c04ec23": {
+          "zh": "Saiga-12K 12 铅径自动霰弹枪",
+          "en": "Saiga-12K 12ga automatic shotgun"
+        }
+      },
+      "enemyRoles": [
+        "followerBigPipe"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5ac66d9b5acfc4001633997a",
+        "5ac4cd105acfc40016339859",
+        "6499849fc93611967b034949",
+        "5644bd2b4bdc2d3b4c8b4572",
+        "5bf3e03b0db834001d2c4a9c",
+        "57dc2fa62459775949412633",
+        "583990e32459771419544dd2",
+        "5bf3e0490db83400196199af",
+        "5ab8e9fcd8ce870019439434",
+        "5839a40f24597726f856b511",
+        "5beed0f50db834001c062b12",
+        "5ac66d725acfc43b321d4b60",
+        "5ac66d2e5acfc43b321d4b53",
+        "59d6088586f774275f37482f",
+        "5a0ec13bfcdbcb00165aa685",
+        "5abcbc27d8ce8700182eceeb",
+        "59e6152586f77473dc057aa1",
+        "59e6687d86f77411d949b251",
+        "628b5638ad252a16da6dd245",
+        "628b9c37a733087d0d7fe84b",
+        "5ac66cb05acfc40198510a10",
+        "5ac66d015acfc400180ae6e4",
+        "628a60ae6b1d481ff772e9c8",
+        "59ff346386f77477562ff5e2",
+        "674d6121c09f69dfb201a888",
+        "59984ab886f7743e98271174",
+        "59f9cabd86f7743a10721f46",
+        "576165642459773c7a400233",
+        "674fe9a75e51f1c47c04ec23"
+      ],
+      "weaponNames": {
+        "5ac66d9b5acfc4001633997a": {
+          "zh": "AK-105 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+        },
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        },
+        "6499849fc93611967b034949": {
+          "zh": "AK-12 5.45x39突击步枪",
+          "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+        },
+        "5644bd2b4bdc2d3b4c8b4572": {
+          "zh": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74N 5.45x39 assault rifle"
+        },
+        "5bf3e03b0db834001d2c4a9c": {
+          "zh": "AK-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74 5.45x39 assault rifle"
+        },
+        "57dc2fa62459775949412633": {
+          "zh": "AKS-74U 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74U 5.45x39 assault rifle"
+        },
+        "583990e32459771419544dd2": {
+          "zh": "AKS-74UN 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UN 5.45x39 assault rifle"
+        },
+        "5bf3e0490db83400196199af": {
+          "zh": "AKS-74 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74 5.45x39 assault rifle"
+        },
+        "5ab8e9fcd8ce870019439434": {
+          "zh": "AKS-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AKS-74N 5.45x39 assault rifle"
+        },
+        "5839a40f24597726f856b511": {
+          "zh": "AKS-74UB 5.45x39 短突击步枪",
+          "en": "Kalashnikov AKS-74UB 5.45x39 assault rifle"
+        },
+        "5beed0f50db834001c062b12": {
+          "zh": "RPK-16 5.45x39 轻机枪",
+          "en": "RPK-16 5.45x39 light machine gun"
+        },
+        "5ac66d725acfc43b321d4b60": {
+          "zh": "AK-104 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+        },
+        "5ac66d2e5acfc43b321d4b53": {
+          "zh": "AK-103 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-103 7.62x39 assault rifle"
+        },
+        "59d6088586f774275f37482f": {
+          "zh": "AKM 7.62×39 突击步枪",
+          "en": "Kalashnikov AKM 7.62x39 assault rifle"
+        },
+        "5a0ec13bfcdbcb00165aa685": {
+          "zh": "AKMN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMN 7.62x39 assault rifle"
+        },
+        "5abcbc27d8ce8700182eceeb": {
+          "zh": "AKMSN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMSN 7.62x39 assault rifle"
+        },
+        "59e6152586f77473dc057aa1": {
+          "zh": "Vepr KM / VPO-136 7.62x39 卡宾枪",
+          "en": "Molot Arms VPO-136 Vepr-KM 7.62x39 carbine"
+        },
+        "59e6687d86f77411d949b251": {
+          "zh": "Vepr AKM / VPO-209 .366TKM 卡宾枪",
+          "en": "Molot Arms VPO-209 .366 TKM carbine"
+        },
+        "628b5638ad252a16da6dd245": {
+          "zh": "SAG AK-545 5.45x39卡宾枪",
+          "en": "SAG AK-545 5.45x39 carbine"
+        },
+        "628b9c37a733087d0d7fe84b": {
+          "zh": "SAG AK-545 5.45x39截短卡宾枪",
+          "en": "SAG AK-545 Short 5.45x39 carbine"
+        },
+        "5ac66cb05acfc40198510a10": {
+          "zh": "AK-101 5.56x45 突击步枪",
+          "en": "Kalashnikov AK-101 5.56x45 assault rifle"
+        },
+        "5ac66d015acfc400180ae6e4": {
+          "zh": "AK-102 5.56x45 突击步枪",
+          "en": "Kalashnikov AK-102 5.56x45 assault rifle"
+        },
+        "628a60ae6b1d481ff772e9c8": {
+          "zh": "Rifle Dynamics RD-704 7.62x39突击步枪",
+          "en": "Rifle Dynamics RD-704 7.62x39 assault rifle"
+        },
+        "59ff346386f77477562ff5e2": {
+          "zh": "AKMS 7.62×39 突击步枪",
+          "en": "Kalashnikov AKMS 7.62x39 assault rifle"
+        },
+        "674d6121c09f69dfb201a888": {
+          "zh": "Aklys Defense 迅猛龙 .300 Blackout 突击步枪",
+          "en": "Aklys Defense Velociraptor .300 Blackout assault rifle"
+        },
+        "59984ab886f7743e98271174": {
+          "zh": "PP-19-01 勇士 9x19 冲锋枪",
+          "en": "PP-19-01 Vityaz 9x19 submachine gun"
+        },
+        "59f9cabd86f7743a10721f46": {
+          "zh": "Saiga-9 9x19卡宾枪",
+          "en": "Saiga-9 9x19 carbine"
+        },
+        "576165642459773c7a400233": {
+          "zh": "Saiga-12K ver.10 12铅径半自动霰弹枪",
+          "en": "Saiga-12K ver.10 12ga semi-automatic shotgun"
+        },
+        "674fe9a75e51f1c47c04ec23": {
+          "zh": "Saiga-12K 12 铅径自动霰弹枪",
+          "en": "Saiga-12K 12ga automatic shotgun"
+        }
+      },
+      "enemyRoles": [
+        "followerBirdEye"
+      ]
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "628b9c7d45122232a872358f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "628b9c7d45122232a872358f": {
+          "zh": "Crye Precision CPC 插板胸挂（Goons 特别版）",
+          "en": "Crye Precision CPC plate carrier (Goons Edition)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "62963c18dbc8ab5f0d382d0b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "62963c18dbc8ab5f0d382d0b": {
+          "zh": "Death Knight面具",
+          "en": "Death Knight mask"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "628e4dd1f477aa12234918aa"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "628e4dd1f477aa12234918aa": {
+          "zh": "Big Pipe的头巾",
+          "en": "Big Pipe's bandana"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "62a61bbf8ec41a51b34758d2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "62a61bbf8ec41a51b34758d2": {
+          "zh": "Big Pipe的烟斗",
+          "en": "Big Pipe's smoking pipe"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "628baf0b967de16aab5a4f36"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "628baf0b967de16aab5a4f36": {
+          "zh": "LBT-1961A Load Bearing胸挂 (Goons特别版)",
+          "en": "LBT-1961A Load Bearing Chest Rig (Goons Edition)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "628bc7fb408e2b2e9c0801b1"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "628bc7fb408e2b2e9c0801b1": {
+          "zh": "Mystery Ranch NICE COMM 3 BVS 稳固系统（黄褐色）",
+          "en": "Mystery Ranch NICE COMM 3 BVS frame system (Coyote)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6762597817a433eeee2ef47a",
+      "name": {
+        "zh": "塔科夫环卫工：冷案 - 第1章",
+        "en": "Bandit Hunt - Cold Case - Part 1"
+      }
+    },
+    {
+      "id": "6762543fbaa292049e4cea52",
+      "name": {
+        "zh": "塔科夫环卫工：工厂疯批 - 第1章",
+        "en": "Bandit Hunt - Factory Maniac - Part 1"
+      }
+    },
+    {
+      "id": "6757627e2e0ce3039da399f0",
+      "name": {
+        "zh": "塔科夫环卫工：黄金交易 - 第1章",
+        "en": "Bandit Hunt - Deal To Make - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747b9634c79e7f73963b99f",
+      "name": {
+        "zh": "鱼龙混杂",
+        "en": "Land Full Of Shady People"
+      }
+    },
+    {
+      "id": "6812590e15f6bcbc89c75b34",
+      "name": {
+        "zh": "血渴",
+        "en": "Blood Thirsty"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_boss_goons.png",
+  "isKey": false
+}

@@ -1,0 +1,126 @@
+{
+  "id": "67487e792e79477fa1472f8f",
+  "name": {
+    "zh": "专业射手 - 第五章",
+    "en": "Professional Weapon Tester - Part 5"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4550
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 650,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 650
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5a32aa8bc4a2826c6e06d737",
+      "itemName": {
+        "zh": "Trijicon RMR",
+        "en": "Trijicon RMR reflex sight"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "61657230d92c473c770213d7",
+      "itemName": {
+        "zh": "Aimpoint Micro H-2反射式瞄准镜",
+        "en": "Aimpoint Micro H-2 reflex sight"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "64898838d5b4df6140000a20",
+      "itemName": {
+        "zh": "12/70 AP-20弹药包（25发装） ☆",
+        "en": "12/70 AP-20 ammo pack (25 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 50
+    },
+    {
+      "type": "Skill",
+      "target": "Shotgun",
+      "value": 125
+    }
+  ],
+  "description": {
+    "zh": "步枪、卡宾枪和冲锋枪可不是我清单上的全部，我这还有一把霰弹枪——Benelli M3。\n\n你说去哪比较合适？肯定是那种近距离战斗多、转角又多的地方吧？工厂就非常适合！\n\n我可以给你一点弹药，12 号鲨齿弹，用起来就像切黄油一样顺滑。你能应付得来吗？我建议你在枪上装个大容量弹仓。",
+    "en": "Rifles, carbines and machine pistols are not the only thing on my list, there's also a shotgun, a Benelli M3.\n\nI suppose it would be a wise choice to take it somewhere with a lot of short ranges and lots of corners, what do you think? The old chemical factory would be perfect for that!\n\nI can supply you with a bit of ammunition for that. That 12 Gauge piranha will go through your targets like butter. Can you handle that? I suggest you attach a big magazine on the shotgun."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "6259b864ebedf17603599e88"
+      ],
+      "weaponNames": {
+        "6259b864ebedf17603599e88": {
+          "zh": "Benelli M3 Super 90 12 铅径双模式霰弹枪",
+          "en": "Benelli M3 Super 90 12ga dual-mode shotgun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67487e1e0cccda4800c62658",
+      "name": {
+        "zh": "专业射手 - 第四章",
+        "en": "Professional Weapon Tester - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67487f06faadf7934dfd29e4",
+      "name": {
+        "zh": "专业射手 - 第六章",
+        "en": "Professional Weapon Tester - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_proshooter_peacekeeper_5.png",
+  "isKey": false
+}

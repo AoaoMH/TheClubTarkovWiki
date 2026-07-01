@@ -1,0 +1,304 @@
+{
+  "id": "6747508429ca66164b39e637",
+  "name": {
+    "zh": "致幻剂 - 第四章",
+    "en": "Narcotic - Part 4"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1100,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1100
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60098ad7c2240c0fe85c570a",
+      "itemName": {
+        "zh": "AFAK单兵战术急救包",
+        "en": "AFAK tactical individual first aid kit"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e8488fa988a8701445df1e4",
+      "itemName": {
+        "zh": "CALOK-B止血剂",
+        "en": "CALOK-B hemostatic applicator"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b4335ba86f7744d2837a264",
+      "itemName": {
+        "zh": "医用输血工具",
+        "en": "Medical bloodset"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Crafting",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e533786f7747fa23f4d47",
+      "itemName": {
+        "zh": "Zagustin止血剂",
+        "en": "Zagustin hemostatic drug injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e531286f7747fa54205c2",
+      "itemName": {
+        "zh": "SJ1 TGLabs战斗兴奋剂注射器",
+        "en": "SJ1 TGLabs combat stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e531d86f7747fa23f4d42",
+      "itemName": {
+        "zh": "SJ6 TGLabs战斗兴奋剂注射器 ☆",
+        "en": "SJ6 TGLabs combat stimulant injector"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我又有任务给你，那位买了一堆注射器的客户对这些产品非常满意，现在又下了一单。\n\n你愿意继续吗？他这次胃口更大了，而且他还要求更昂贵更稀有的注射器，不过别担心时间，士兵，他说他可以等。\n\n寻找这些注射器可以去TerraGroupTerraGroup集团实验室看看，那可能是个好地方。我能想象你在那里能找到多少稀有的注射器……\n\n祝你好运，士兵！",
+    "en": "I got something for you again, the guy who bought a ordered a bunch of injectors from us was so satisfied with them that he is asking for another batch.\n\nCan I count on you again? This time even more expensive and rare ones, don't worry about time however soldier, we were told that he can wait for them.\n\nSearching for these injectors inside the Terragroup laboratory might be the way to go here, at least that would have been my plan. I can only assume the amount of rare injectors that you could find in that place...\nAnyway good luck soldier!"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed515c8d380ab312177c0fa"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515c8d380ab312177c0fa": {
+          "zh": "3-(b-TG) 兴奋剂注射器",
+          "en": "3-(b-TG) stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed515c8d380ab312177c0fa"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515c8d380ab312177c0fa": {
+          "zh": "3-(b-TG) 兴奋剂注射器",
+          "en": "3-(b-TG) stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed515e03a40a50460332579"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515e03a40a50460332579": {
+          "zh": "L1（去甲肾上腺素）",
+          "en": "L1 (Norepinephrine) injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed515e03a40a50460332579"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515e03a40a50460332579": {
+          "zh": "L1（去甲肾上腺素）",
+          "en": "L1 (Norepinephrine) injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c0e534186f7747fa1419867"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e534186f7747fa1419867": {
+          "zh": "eTG-change再生兴奋剂注射器",
+          "en": "eTG-change regenerative stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c0e534186f7747fa1419867"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e534186f7747fa1419867": {
+          "zh": "eTG-change再生兴奋剂注射器",
+          "en": "eTG-change regenerative stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5fca13ca637ee0341a484f46"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5fca13ca637ee0341a484f46": {
+          "zh": "SJ9 TGLabs战斗兴奋剂注射器 ☆",
+          "en": "SJ9 TGLabs combat stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5fca13ca637ee0341a484f46"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5fca13ca637ee0341a484f46": {
+          "zh": "SJ9 TGLabs战斗兴奋剂注射器 ☆",
+          "en": "SJ9 TGLabs combat stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "637b612fb7afa97bfc3d7005"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "637b612fb7afa97bfc3d7005": {
+          "zh": "SJ12 TGLabs战斗兴奋剂注射器",
+          "en": "SJ12 TGLabs combat stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "637b612fb7afa97bfc3d7005"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "637b612fb7afa97bfc3d7005": {
+          "zh": "SJ12 TGLabs战斗兴奋剂注射器",
+          "en": "SJ12 TGLabs combat stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed51652f6c34d2cc26336a1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed51652f6c34d2cc26336a1": {
+          "zh": "M.U.L.E. 兴奋剂 ☆",
+          "en": "M.U.L.E. stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed51652f6c34d2cc26336a1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed51652f6c34d2cc26336a1": {
+          "zh": "M.U.L.E. 兴奋剂 ☆",
+          "en": "M.U.L.E. stimulant injector"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67699dc535f6bb1f5781c4cc",
+      "name": {
+        "zh": "致幻剂 - 第三章",
+        "en": "Narcotic - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674750fa37089121191b7d6f",
+      "name": {
+        "zh": "致幻剂 - 第五章",
+        "en": "Narcotic - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_narcotic.png",
+  "isKey": false
+}

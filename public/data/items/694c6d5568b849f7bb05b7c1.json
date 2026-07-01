@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 100000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Monster Pacific Punch Energy Drink [Ultra Rare] ☆",
+      "en": "Monster Pacific Punch Energy Drink [Ultra Rare]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "☆ Monster",
+      "en": "Monster"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 120,000₽ | 物品价值: 100,000 | Therapist报价: 63,000₽A carbonated classic fruit punch with our Monster Energy blend, Pacific Punch will help put wind in your sails and keep you steady on course, no matter how rough the seas.",
+      "en": "跳蚤市场: 120,000₽ | 物品价值: 100,000 | Therapist报价: 63,000₽A carbonated classic fruit punch with our Monster Energy blend, Pacific Punch will help put wind in your sails and keep you steady on course, no matter how rough the seas."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,96 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.8,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 20,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "DamageModifier",
+            "skillName": "",
+            "value": -0.05,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "AimDrills",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "MagDrills",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": -999,
+            "delay": 600,
+            "duration": 600,
+            "chance": 0.05
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -10,
+            "delay": 600,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -2.5,
+            "delay": 600,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 600,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

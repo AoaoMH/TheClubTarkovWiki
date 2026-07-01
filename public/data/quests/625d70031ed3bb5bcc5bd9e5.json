@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "5704e4dad2720bb55b8b4567",
+  "locationName": {
+    "zh": "储备站",
+    "en": "Reserve"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -30,7 +34,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "59e366c186f7741778269d85"
       ],
@@ -60,14 +64,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "5d0376a486f7747d8050965c"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5d0376a486f7747d8050965c": {
-          "zh": "军用电路板",
+          "zh": "军用电路板 ☆",
           "en": "Military circuit board"
         }
       }
@@ -82,7 +86,7 @@
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c052f6886f7746b1e3db148": {
-          "zh": "军用COFDM无线信号发射器",
+          "zh": "军用COFDM无线信号发射器 ☆",
           "en": "Military COFDM Wireless Signal Transmitter"
         }
       }

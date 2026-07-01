@@ -1,0 +1,147 @@
+{
+  "id": "6747b9634c79e7f73963b99f",
+  "name": {
+    "zh": "鱼龙混杂",
+    "en": "Land Full Of Shady People"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Completion",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 45750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.08
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.25
+    },
+    {
+      "type": "Item",
+      "value": 285250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 285250
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "657024f01419851aef03e715",
+      "itemName": {
+        "zh": "50发5.56x45 M995盒装弹药 ☆",
+        "en": "5.56x45mm M995 ammo pack (50 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "StashRows"
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e01ef6886f77445f643baa4",
+      "itemName": {
+        "zh": "Team Wendy EXFIL 防弹头盔（棕褐色）",
+        "en": "Team Wendy EXFIL Ballistic Helmet (Coyote Brown)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656faf0ca0dce000a2020f77",
+      "itemName": {
+        "zh": "GAC 4sss2防弹插板",
+        "en": "GAC 4sss2 ballistic plate"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "65290f395ae2ae97b80fdf2d",
+      "itemName": {
+        "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+        "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，我们的人已经观察你有一段时间了。\n来做份工作如何？三狗最近又在该区域活动，并对我们的人开火，这种情况以前从未发生过。我们不想浪费自己的人力处理这些麻烦制造者，这就是你派上用场的地方。我们并不要求你杀死他们，而是伪装成他们的样子来清除一些 USEC 。计划是让剩下的 USEC 开始攻击水处理厂的这些不速之客。\n\n还有一件事，ULTRA 购物中心附近应该有一个集装箱场。其中一个集装箱需要一个特殊的门禁卡才能打开，你需要打开它并藏匿一些优质物品。几天后会有人检查那个地方以确认你是否完成了任务。怎么样，能搞定吗，雇佣兵？\n\nKnight装备：\n - Death Knight面具\n - S&S Precision PlateFrame插板胸挂 (Goons特别版)\n\nBirdeye装备：\n - THOR 隐蔽式防弹背心\n - Mystery Ranch NICE COMM 3 BVS稳固系统\n - LBT-1961A Load Bearing胸挂 (Goons特别版)\n\nBig Pipe装备：\n - Big Pipe的烟斗\n - Big Pipe的头巾\n - S&S Precision PlateFrame插板胸挂 (Goons特别版)",
+    "en": "Mercenary, our people have observed you for some time now.\nHow about a job? The rogue leaders were lurking around the area again and shooting at our men, such thing did not happen before. We do not want to waste my men on these troublemakers, so this is where you come in handy. We are not asking you to kill them, but to dress up like them and neutralize some USEC operatives, the plan here is that the remaining USECs start attacking these tourists at the treatment plant.\n\nThen there is another thing, somewhere near the ULTRA shopping mall should be a container yard. One of these has a lock on it that requires a special keycard, you need to open it up and hide something of quality there. Someone will be checking that place every few days to see if you completed your task. Are you able to handle this kind of work merc?\n\nKnight's Gear :\n - Death Knight Mask\n - Crye Precision CPC Plate Carrier ( Goons Edition )\n\nBirdeye's Gear :\n - NFM THOR Concealable Reinforced Vest Body Armor\n - Mystery Ranch NICE COMM 3 BVS Frame System\n - LBT-1961A Load Bearing Chest Rig ( Goons Edition )\n\nBig Pipe's Gear :\n - Big Pipe's Smoking Pipe\n - Big Pipe's Bandana\n - S&S Precision PlateFrame Plate Carrier ( Goons Edition )"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Usec",
+      "targetNames": {
+        "Usec": {
+          "zh": "Usec",
+          "en": "Usec"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_container1",
+      "targetNames": {
+        "lotus_interchange_container1": {
+          "zh": "lotus_interchange_container1",
+          "en": "lotus_interchange_container1"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5d1b376e86f774252519444e"
+      ],
+      "targetNames": {
+        "5d1b376e86f774252519444e": {
+          "zh": "“凶狠跑刀崽”私酒 ☆",
+          "en": "Bottle of Fierce Hatchling moonshine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747c0991fa4b29ab5692551",
+      "name": {
+        "zh": "塔科夫环卫工：进口货",
+        "en": "Bandit Hunt - Imports"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_trader_fence.png",
+  "isKey": false
+}

@@ -1,0 +1,150 @@
+{
+  "id": "68c432f157baa1fbcd13447d",
+  "name": {
+    "zh": "寻找罪魁祸首",
+    "en": "Finding The Perpetrator"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Exploration",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 250,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 250
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "657023f1bfc87b3a34093210",
+      "itemName": {
+        "zh": ".366 TKM FMJ弹药包（20发装）",
+        "en": ".366 TKM FMJ ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "64ace9d9b5bf5e95f50a4c1d",
+      "itemName": {
+        "zh": "7.62x39mm FMJ弹药包（20发装）",
+        "en": "7.62x39mm FMJ ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e6687d86f77411d949b251",
+      "itemName": {
+        "zh": "Vepr AKM / VPO-209 .366TKM 卡宾枪",
+        "en": "Molot Arms VPO-209 .366 TKM carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e6152586f77473dc057aa1",
+      "itemName": {
+        "zh": "Vepr KM / VPO-136 7.62x39 卡宾枪",
+        "en": "Molot Arms VPO-136 Vepr-KM 7.62x39 carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "619bdeb986e01e16f839a99e",
+      "itemName": {
+        "zh": "俄军臂带 ☆",
+        "en": "Armband (RFARMY)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，伙计，我有个重要的事情要告诉你，仔细听好了，别被什么鸟儿分散了注意力。那个叫Ref的家伙偷了我的货，你应该还记得吧？猜怎么着，我找到了他藏部分货物的线索，不知道他到底想干嘛，也许是在等买家来取货，也许不是，谁知道呢。\n\n总之，我需要有人找到那个地方，告诉我货物是否还在那儿，我可能会派人去查看，说不定能趁买家不备抓住他，撬点情报出来？哦，我是说礼貌地向他询问案件细节。\n\n我相信地点就在海关区的三号和四号仓库附近，我想你以前自己也查看过那个区域，对吧？你对那儿很熟，所以何不去瞅瞅呢？",
+    "en": "Yo, lad, I got something for you, it's important so take a listen, and don't get distracted by some birds. This Ref guy stole some of my goods, you remember that I suppose, well guess what, I got a lead on where he hid some of the cargo, no idea what he wants with them, perhaps this is like a deal or something and he is waiting for his buyer to pick it up, perhaps not, who knows.\n\nAnyway, I need someone to find the place, tell me if the cargo is there or not, I might send over someone to check it out, maybe we can catch the buyer off guard and squeeze some information out of him? Oh I meant to politely ask him for details on this case.\n\nI believe it's close to warehouse three and four in the customs zone, I think you once checked out the zone yourself, right? You're familiar with that place so why don't you take a gander."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "gazel",
+      "targetNames": {
+        "gazel": {
+          "zh": "gazel",
+          "en": "gazel"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c42fd92a030b87c52e2f65",
+      "name": {
+        "zh": "准备出口",
+        "en": "Ready To Export"
+      }
+    },
+    {
+      "id": "597a0f5686f774273b74f676",
+      "name": {
+        "zh": "化学品 - 4",
+        "en": "Chemical - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c438d9fdcd3c3aa8c96f62",
+      "name": {
+        "zh": "渗透",
+        "en": "Infiltrate"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_skier.png",
+  "isKey": false
+}

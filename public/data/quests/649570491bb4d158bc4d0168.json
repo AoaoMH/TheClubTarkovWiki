@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
   "rewards": [
     {
       "type": "TraderStanding",
@@ -76,8 +80,7 @@
       },
       "enemyRoles": [
         "bossKnight"
-      ],
-      "location": "factory4_day,factory4_night"
+      ]
     },
     {
       "type": "Elimination",
@@ -92,8 +95,7 @@
       },
       "enemyRoles": [
         "followerBigPipe"
-      ],
-      "location": "factory4_day,factory4_night"
+      ]
     },
     {
       "type": "Elimination",
@@ -108,14 +110,12 @@
       },
       "enemyRoles": [
         "followerBirdEye"
-      ],
-      "location": "factory4_day,factory4_night"
+      ]
     },
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "factory4_day,factory4_night"
+      "value": 1
     }
   ],
   "prerequisites": [],

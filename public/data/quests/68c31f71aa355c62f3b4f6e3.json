@@ -1,0 +1,184 @@
+{
+  "id": "68c31f71aa355c62f3b4f6e3",
+  "name": {
+    "zh": "违禁品 - 第3部分",
+    "en": "Contraband - Part 3"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 25,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 25
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57347d90245977448f7b7f65",
+      "itemName": {
+        "zh": "一盒燕麦片",
+        "en": "Pack of oat flakes"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5448fee04bdc2dbc018b4567",
+      "itemName": {
+        "zh": "0.6升瓶装水",
+        "en": "Bottle of water (0.6L)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "648987d673c462723909a151",
+      "itemName": {
+        "zh": "50发 9x19 毫米 PBP (7N31) 弹药包 ★",
+        "en": "9x19mm PBP ammo pack (50 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "58948c8e86f77409493f7266",
+      "itemName": {
+        "zh": "SIG MPX 9x19 冲锋枪 ☆",
+        "en": "SIG MPX 9x19 submachine gun"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Intellect",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656fa99800d62bcd2e024088",
+      "itemName": {
+        "zh": "Cult Termite防弹插板",
+        "en": "Cult Termite ballistic plate"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿！猜怎么着，你检查过的地方结果是我们亲爱的朋友的走私路线！我的人干掉了他们的一些运输者，看起来他们身上有违禁品，至少我是这么想的。箱子是锁着的，但我们在别处设法找到了钥匙。基本上Fence和Skier在这件事上合作，一组人拿箱子，另一组人拿钥匙，这些黑帮比我想象的要聪明——但不够聪明，因为幸运的是，我们有你！\n\n总之，我想我已经为这玩意建立了一个稳定的供应连接，你可以花钱自己拿到这些东西，听起来怎么样，嗯？我只能猜里面是什么，我不想冒险让一组人携带一部分违禁品，而另一组人携带它的钥匙！这都是为了安全起见，你知道。这是一个危险的地方，没有人能承受处于食物链的底层。\n\n别忘了，好奇心常常会变成最大的失望，不要为任何将要发生的可怕事情责怪我。",
+    "en": "Hey! Guess what, the places you checked out turned out to be the smuggling routes of our dear friends! My hounds shot up a few of their carriers, looks like they had contraband on them, at least that's what I think it is. The boxes are locked but we managed to find keys somewhere else. Basically Fence and Skier work together in this, one group carries the boxes, the other carries the keys, these gangsters are smarter than I thought - But not smart enough, because luckily we have you!\n\nAnyway, I think I managed to establish a stable supply connection for this shit, for a price you can get this stuff yourself, how does that sound, eh? I could only guess what is inside, I didn't want to risk having both groups carry one part of the contraband and the other one carry the key to that! It's all about playing it safe, you know. This is a dangerous place, nobody can afford being at the bottom of the food chain.\n\nAnd don't forget, curiosity can often turn into the biggest disappointment, do not blame me for anything terrible that is gonna happen."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "674078c4a9c9adf0450d59f9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "674078c4a9c9adf0450d59f9": {
+          "zh": "开启的箱子",
+          "en": "Opened case"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "674078c4a9c9adf0450d59f9"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "674078c4a9c9adf0450d59f9": {
+          "zh": "开启的箱子",
+          "en": "Opened case"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c312d1609a82be2a2d52db",
+      "name": {
+        "zh": "违禁品 - 第1部分",
+        "en": "Contraband - Part 1"
+      }
+    },
+    {
+      "id": "68c31bd427110f29df6be2ab",
+      "name": {
+        "zh": "违禁品 - 第2部分",
+        "en": "Contraband - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c322a2a56a64e8084d538f",
+      "name": {
+        "zh": "违禁品 - 第4部分",
+        "en": "Contraband - Part 4"
+      }
+    },
+    {
+      "id": "68c42206071c2a5f10ea8202",
+      "name": {
+        "zh": "值得调查的东西",
+        "en": "Something Worth Investigating"
+      }
+    },
+    {
+      "id": "68c422290241ea1aa4fb9587",
+      "name": {
+        "zh": "物归原主",
+        "en": "Returned To The Rightful Owner"
+      }
+    },
+    {
+      "id": "68c422298f2722ca9f7d24a3",
+      "name": {
+        "zh": "生命之花",
+        "en": "Flower Of Life"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_contraband.png",
+  "isKey": false
+}

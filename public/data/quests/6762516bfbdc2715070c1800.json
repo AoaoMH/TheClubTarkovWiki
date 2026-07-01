@@ -1,0 +1,199 @@
+{
+  "id": "6762516bfbdc2715070c1800",
+  "name": {
+    "zh": "塔科夫环卫工：森林导游",
+    "en": "Bandit Hunt - Forest Navigator"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 104660,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 104660
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d403f9186f7743cac3f229b",
+      "itemName": {
+        "zh": "Dan Jackiel瓶装威士忌",
+        "en": "Bottle of Dan Jackiel whiskey"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a09e73af34e73a266d932a",
+      "itemName": {
+        "zh": "BakeEzy烹饪书",
+        "en": "BakeEzy cook book"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "560d75f54bdc2da74d8b4573",
+      "itemName": {
+        "zh": "7.62x54mm R SNB弹药包（20发装）",
+        "en": "7.62x54mm R SNB gzh ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Skill",
+      "target": "Search",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656e0436d44a1bb4220303a0",
+      "itemName": {
+        "zh": "Mystery Ranch SATL Bridger突击背包（叶绿色）",
+        "en": "Mystery Ranch SATL Bridger Assault Pack (Foliage)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e625a86f7742d77340f62",
+      "itemName": {
+        "zh": "BNTI Zhuk 防弹衣（数码丛林迷彩）",
+        "en": "BNTI Zhuk body armor (EMR)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "618ba27d9008e4636a67f61d",
+      "itemName": {
+        "zh": "Vortex Razor HD Gen.2 1-6x24步枪瞄准镜 ★",
+        "en": "Vortex Razor HD Gen.2 1-6x24 30mm riflescope"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嗯……坏消息。还记得你在锯木厂藏匿点设置的手榴弹陷阱吗？\n\n看来有几个好奇宝宝PMC试图和这帮人打架，不知怎么地，你的陷阱被破坏或拆除了，我只能这么分析和猜测了……\n所以现在是B计划，你自己还是用传统方法解决这帮地头蛇。干掉他们的头目，别忘了还有两个跟着他的保镖。另外带回一把头目的主武器，干净利落。明白了吗？",
+    "en": "Well... Bad news. Remember the grenade trap you set up at the gang's stash at the sawmill?\n\nLooks like a few curious PMCs tried to pick a fight with this bandit gang and somehow your trap got destroyed or disarmed, I could only assume...\nSo now it's plan B, you take care of these bandits yourself the old fashion way. Get rid of their leader, and don't forget the two bodyguards who follow him around everywhere. Also bring me one of the leader's primary weapons, clean condition. Got it?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKojaniy"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerKojaniy"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c46fbd72e2216398b5a8c9c",
+        "6176aca650224f204c1da3fb"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        },
+        "6176aca650224f204c1da3fb": {
+          "zh": "HK G28 7.62x51 精确射手步枪 ☆",
+          "en": "HK G28 7.62x51 marksman rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c46fbd72e2216398b5a8c9c",
+        "6176aca650224f204c1da3fb"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        },
+        "6176aca650224f204c1da3fb": {
+          "zh": "HK G28 7.62x51 精确射手步枪 ☆",
+          "en": "HK G28 7.62x51 marksman rifle"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67575b3e2bb2bac9605b12b4",
+      "name": {
+        "zh": "清理垃圾：森林",
+        "en": "Let The Hunt Begin - Woods"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6812590e15f6bcbc89c75b34",
+      "name": {
+        "zh": "血渴",
+        "en": "Blood Thirsty"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_boss_shturman.png",
+  "isKey": false
+}

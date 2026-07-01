@@ -1,0 +1,141 @@
+{
+  "id": "67d814b8a9bc0824cc494f15",
+  "name": {
+    "zh": "东方联盟 - 第十章",
+    "en": "Eastern Reliability - Part 10"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5b0fc42d86f7744a585f9105",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 196500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 196500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c621186f774138d11ea29",
+      "itemName": {
+        "zh": "加密U盘",
+        "en": "Secure Flash drive"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "64ccc206793ca11c8f450a38",
+      "itemName": {
+        "zh": "TerraGroup会议室钥匙 ☆",
+        "en": "TerraGroup meeting room key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e625a86f7742d77340f62",
+      "itemName": {
+        "zh": "BNTI Zhuk 防弹衣（数码丛林迷彩）",
+        "en": "BNTI Zhuk body armor (EMR)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "560d75f54bdc2da74d8b4573",
+      "itemName": {
+        "zh": "7.62x54mm R SNB弹药包（20发装）",
+        "en": "7.62x54mm R SNB gzh ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "648984b8d5b4df6140000a1a",
+      "itemName": {
+        "zh": "7.62x54mm R BS弹药包（20发装）",
+        "en": "7.62x54mm R BS ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Skill",
+      "target": "LMG",
+      "value": 250
+    },
+    {
+      "type": "StashRows"
+    }
+  ],
+  "description": {
+    "zh": "准备好最后的测试了吗？\n\n这种武器我不常卖，但这次是给老朋友测试用的，你愿意再帮我一把吗？\n\n最近实验室那帮疯子越来越麻烦，我一般不往那边派人，但我有几条运输线刚好经过那边，结果总是被劫……\n\n给这把 PK 装上 Zenit 的 PT-2 枪托和 B-50 护木，带着它下实验室，把那群混账清理一下，行不行？",
+    "en": "So, ready for the last test?\n\nI don't really sell these weapons, but I wanted to get them tested for a friend. Wanna lend a hand for that again?\n\nThese guys at the laboratory have been getting very annoying lately, I don't send anyone down there, but a few of my cargo routes are near the lab entrances, so the raiders always show up there!\n\nPut on a zenit stock and handguard on this weapon and head down there to the laboratory. Can you clean up the place a little with your new toy?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "64ca3d3954fc657e230529cc",
+        "64637076203536ad5600c990"
+      ],
+      "weaponNames": {
+        "64ca3d3954fc657e230529cc": {
+          "zh": "卡拉什尼科夫 PKP 7.62x54R 步兵机枪",
+          "en": "Kalashnikov PKP 7.62x54R infantry machine gun"
+        },
+        "64637076203536ad5600c990": {
+          "zh": "PKM 7.62x54R机枪 ★",
+          "en": "Kalashnikov PKM 7.62x54R machine gun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67486b07a069ed3f4df34b7d",
+      "name": {
+        "zh": "东方联盟 - 第九章",
+        "en": "Eastern Reliability - Part 9"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_easternreliability_10_prapor.png",
+  "isKey": false
+}

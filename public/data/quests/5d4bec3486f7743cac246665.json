@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -88,7 +92,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5d0379a886f77420407aa271"
       ],
@@ -103,7 +107,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5d0379a886f77420407aa271"
       ],

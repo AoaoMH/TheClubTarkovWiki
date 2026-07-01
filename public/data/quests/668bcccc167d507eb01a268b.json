@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -50,20 +54,19 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 10,
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
           "zh": "Savage",
           "en": "Savage"
         }
-      },
-      "location": "factory4_night,factory4_day"
+      }
     },
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5447a9cd4bdc2dbd208b4567",
         "5fbcc1d9016cce60e8341ab3",
@@ -76,7 +79,9 @@
         "56d59856d2720bd8418b456a",
         "5cadc190ae921500103bb3b6",
         "5a7ae0c351dfba0017554310",
-        "6193a720f8ee7e52e42109ed"
+        "6193a720f8ee7e52e42109ed",
+        "689166b6c2d6fa42e7044756",
+        "6932abeb5403890d0c09c926"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
@@ -85,19 +90,19 @@
           "en": "Colt M4A1 5.56x45 assault rifle"
         },
         "5fbcc1d9016cce60e8341ab3": {
-          "zh": "SIG MCX .300 AAC Blackout 突击步枪",
+          "zh": "SIG MCX .300 AAC Blackout 突击步枪 ☆",
           "en": "SIG MCX .300 Blackout assault rifle"
         },
         "5df8ce05b11454561e39243b": {
-          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪",
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪 ★",
           "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
         },
         "5bfea6e90db834001b7347f3": {
-          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
           "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
         },
         "5bb2475ed4351e00853264e3": {
-          "zh": "HK 416A5 5.56x45 突击步枪",
+          "zh": "HK 416A5 5.56x45 突击步枪 ☆",
           "en": "HK 416A5 5.56x45 assault rifle"
         },
         "62e7c4fba689e8c9c50dfc38": {
@@ -105,11 +110,11 @@
           "en": "Steyr AUG A1 5.56x45 assault rifle"
         },
         "6184055050224f204c1da540": {
-          "zh": "FN SCAR-L 5.56x45突击步枪",
+          "zh": "FN SCAR-L 5.56x45突击步枪 ☆",
           "en": "FN SCAR-L 5.56x45 assault rifle"
         },
         "618428466ef05c2ce828f218": {
-          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE）",
+          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE） ★",
           "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
         },
         "56d59856d2720bd8418b456a": {
@@ -127,6 +132,14 @@
         "6193a720f8ee7e52e42109ed": {
           "zh": "HK USP .45 ACP手枪",
           "en": "HK USP .45 ACP pistol"
+        },
+        "689166b6c2d6fa42e7044756": {
+          "zh": "AK-308 7.62x51 突击步枪",
+          "en": "Kalashnikov AK-308 7.62x51 assault rifle"
+        },
+        "6932abeb5403890d0c09c926": {
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪（褐灰色）",
+          "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle (Taupe)"
         }
       }
     }

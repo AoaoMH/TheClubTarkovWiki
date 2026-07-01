@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 25000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Bang Rainbow Unicorn Energy Drink [Common]",
+      "en": "Bang Rainbow Unicorn Energy Drink [Common]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Bang",
+      "en": "Bang"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 35,000₽ | 物品价值: 25,000 | Therapist报价: 15,750₽Bang is not your stereotypical high sugar, life-sucking soda masquerading as an energy drink! High sugar drinks spike blood sugar producing metabolic mayhem causing you to crash harder than a test dummy into a brick wall. Every 16-ounce can of Bang contains 300 milligrams of caffeine, which studies have shown may increase endurance, as well as strength in some cases, along with essential amino acids, CoQ10 and Super Creatine.",
+      "en": "跳蚤市场: 35,000₽ | 物品价值: 25,000 | Therapist报价: 15,750₽Bang is not your stereotypical high sugar, life-sucking soda masquerading as an energy drink! High sugar drinks spike blood sugar producing metabolic mayhem causing you to crash harder than a test dummy into a brick wall. Every 16-ounce can of Bang contains 300 milligrams of caffeine, which studies have shown may increase endurance, as well as strength in some cases, along with essential amino acids, CoQ10 and Super Creatine."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,80 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.2,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 5,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "StressResistance",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Vitality",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "AimDrills",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "MagDrills",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -1,
+            "delay": 300,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -0.5,
+            "delay": 300,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 300,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

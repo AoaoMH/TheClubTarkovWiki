@@ -1,0 +1,269 @@
+{
+  "id": "6747b30780131eae6aa2cc23",
+  "name": {
+    "zh": "莲花之光 - 第十六章",
+    "en": "Light Of The Lotus - Part 16"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5b0fc42d86f7744a585f9105",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1f79a086f7746ed066fb8f",
+      "itemName": {
+        "zh": "实验室钥匙·军械库储备室 ★",
+        "en": "TerraGroup Labs arsenal storage room key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 7,
+      "itemId": "65702474bfc87b3a34093226",
+      "itemName": {
+        "zh": "25发12/70 箭形弹盒装弹药 ☆",
+        "en": "12/70 flechette ammo pack (25 pcs)"
+      },
+      "quantity": 7
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "6709133fa532466d5403fb7c",
+      "itemName": {
+        "zh": "AA-12 12 铅径 20发弹鼓",
+        "en": "AA-12 12ga 20-round drum magazine"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "67124dcfa3541f2a1f0e788b",
+      "itemName": {
+        "zh": "MPS Auto Assault-12 Gen 2 12铅径自动霰弹枪",
+        "en": "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6183afd850224f204c1da514",
+      "itemName": {
+        "zh": "FN SCAR-H 7.62x51突击步枪",
+        "en": "FN SCAR-H 7.62x51 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bb2475ed4351e00853264e3",
+      "itemName": {
+        "zh": "HK 416A5 5.56x45 突击步枪 ☆",
+        "en": "HK 416A5 5.56x45 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ea2a8e200685063ec28c05a",
+      "itemName": {
+        "zh": ".45 RIP",
+        "en": ".45 ACP RIP"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我们现在在TerraGroup集团的实验室有些重要的事情要做，准备好帮忙了吗？有几个地方需要你帮我们检查一下。首先，我需要你前往靠近停车场和机库门的控制面板办公室。它们主要用于控制Raider，寻血猎犬和其他有权力访问该地的人进出。所以去这两个办公室并放置信号干扰器，这样就暂时没人可以通过这些地方进出。\n\n另外，你还需要检查武器测试室、实验室和经理办公室。我想从这些地方俯瞰整个实验室区域，所以别忘了在每个地方安装摄像头。明白了吗？哦对，你在那里工作时也帮忙清理一下周围，免得有些不速之客来干扰。",
+    "en": "We got something important to do in the Terragroup Lab now, ready to help? There are a few spots that you need to check out for us. First you need to head to the offices with the control panels near the parking and hangar gate. They are mainly used for exfiltration and infiltration by the scav raiders and whoever else is willing to visit that place. Just visit both of the offices and place down a signal jammer so nobody can get in and out from these points, for now at least. You also need to check out the weapon testing room, the experimenting room and the managers office. I wanna overlook the place from these locations so don't forget to place down a camera in each of these places. Got it? Don't forget to clear the place out a little while you are there, you are gonna have visitors while working."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_hangargate",
+      "targetNames": {
+        "lotus_labs_hangargate": {
+          "zh": "lotus_labs_hangargate",
+          "en": "lotus_labs_hangargate"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5ac78a9b86f7741cca0bbd8d"
+      ],
+      "targetNames": {
+        "5ac78a9b86f7741cca0bbd8d": {
+          "zh": "信号干扰器",
+          "en": "Signal Jammer"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_parkgate",
+      "targetNames": {
+        "lotus_labs_parkgate": {
+          "zh": "lotus_labs_parkgate",
+          "en": "lotus_labs_parkgate"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5ac78a9b86f7741cca0bbd8d"
+      ],
+      "targetNames": {
+        "5ac78a9b86f7741cca0bbd8d": {
+          "zh": "信号干扰器",
+          "en": "Signal Jammer"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_blackroom_outside",
+      "targetNames": {
+        "lotus_labs_blackroom_outside": {
+          "zh": "lotus_labs_blackroom_outside",
+          "en": "lotus_labs_blackroom_outside"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_weaponroom",
+      "targetNames": {
+        "lotus_labs_weaponroom": {
+          "zh": "lotus_labs_weaponroom",
+          "en": "lotus_labs_weaponroom"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_adminroom",
+      "targetNames": {
+        "lotus_labs_adminroom": {
+          "zh": "lotus_labs_adminroom",
+          "en": "lotus_labs_adminroom"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674768fd740e1d790ed07302",
+      "name": {
+        "zh": "莲花之光 - 第十五章",
+        "en": "Light Of The Lotus - Part 15"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747b568ffb78dbbb8a7968d",
+      "name": {
+        "zh": "莲花之光 - 第十七章",
+        "en": "Light Of The Lotus - Part 17"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_16.png",
+  "isKey": false
+}

@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5714dc692459777137212e12",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -88,7 +92,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 20,
+      "value": 5,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
@@ -104,8 +108,7 @@
           "zh": "SR-2M 石楠 9x21 毫米冲锋枪",
           "en": "SR-2M Veresk 9x21 submachine gun"
         }
-      },
-      "location": "TarkovStreets"
+      }
     }
   ],
   "prerequisites": [

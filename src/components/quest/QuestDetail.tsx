@@ -1,3 +1,4 @@
+import { useMemo } from 'react'
 import { useTranslation } from 'react-i18next'
 import { useParams, Link } from 'react-router-dom'
 import { Badge } from '@/components/ui/badge'
@@ -27,20 +28,38 @@ const LOCATION_NAMES: Record<string, { zh: string; en: string }> = {
   '5714db3224597771352c2e45': { zh: '街区', en: 'Streets of Tarkov' }, '653e676a46c22c70f6031b67': { zh: '中心区', en: 'Center' },
 }
 
-const TRADER_NAMES: Record<string, string> = {
-  '54cb50c76803fa8b248b4571': 'Prapor', '54cb57776803fa99248b456e': 'Therapist',
-  '58330581ace78e27b8b10cee': 'Skier', '5935c25fb3acc3127c3d8cd9': 'Peacekeeper',
-  '5a7c2eca46aef81a7ca2145d': 'Mechanic', '5ac3b934156ae10c4430e83c': 'Ragman',
-  '5c0647fdd443bc2504c2d371': 'Jaeger', '579dc571d53a0658a154fbec': 'Fence',
-  '638f541a29ffd1183d187f57': 'Lightkeeper', '656f0f98d80a697f855d34b1': 'BTR', '6617beeaa9cfa777ca915b7c': 'Ref',
-}
+// Dynamically populated from quest data - avoids prop drilling through ObjectiveRow/ObjContent
+let _traderNames: Record<string, string> = {}
+const getTraderName = (id: string) => _traderNames[id] || id
 
 const SKILL_NAMES: Record<string, { zh: string; en: string }> = {
+  // Core
   'Endurance': { zh: '耐力', en: 'Endurance' }, 'Strength': { zh: '力量', en: 'Strength' },
   'Vitality': { zh: '活力', en: 'Vitality' }, 'Health': { zh: '健康', en: 'Health' },
-  'StressResistance': { zh: '抗压', en: 'Stress Resistance' }, 'Attention': { zh: '注意力', en: 'Attention' },
-  'Sniper': { zh: '狙击手', en: 'Sniper' }, 'Search': { zh: '搜索', en: 'Search' },
-  'Charisma': { zh: '魅力', en: 'Charisma' },
+  'StressResistance': { zh: '抗压', en: 'Stress Resistance' }, 'Metabolism': { zh: '新陈代谢', en: 'Metabolism' },
+  // Mental
+  'Perception': { zh: '感知', en: 'Perception' }, 'Intellect': { zh: '智力', en: 'Intellect' },
+  'Attention': { zh: '注意力', en: 'Attention' }, 'Charisma': { zh: '魅力', en: 'Charisma' },
+  'Memory': { zh: '记忆', en: 'Memory' }, 'Surgery': { zh: '手术', en: 'Surgery' },
+  // Hideout
+  'Crafting': { zh: '制造', en: 'Crafting' }, 'HideoutManagement': { zh: '藏身处管理', en: 'Hideout Management' },
+  // Weapon skills
+  'WeaponTreatment': { zh: '武器保养', en: 'Weapon Treatment' }, 'RecoilControl': { zh: '后坐力控制', en: 'Recoil Control' },
+  'CovertMovement': { zh: '隐蔽行动', en: 'Covert Movement' }, 'Search': { zh: '搜索', en: 'Search' },
+  'Sniper': { zh: '狙击手', en: 'Sniper' }, 'Sniping': { zh: '狙击', en: 'Sniping' },
+  // Weapon types
+  'Assault': { zh: '突击步枪', en: 'Assault' }, 'DMR': { zh: '精确射手步枪', en: 'DMR' },
+  'HMG': { zh: '重机枪', en: 'HMG' }, 'LMG': { zh: '轻机枪', en: 'LMG' },
+  'SMG': { zh: '冲锋枪', en: 'SMG' }, 'Shotgun': { zh: '霰弹枪', en: 'Shotgun' },
+  'Pistol': { zh: '手枪', en: 'Pistol' }, 'Revolver': { zh: '左轮手枪', en: 'Revolver' },
+  'Melee': { zh: '近战', en: 'Melee' }, 'Throwables': { zh: '投掷物', en: 'Throwables' },
+  'Throwing': { zh: '投掷', en: 'Throwing' }, 'Launcher': { zh: '发射器', en: 'Launcher' },
+  'AttachedLauncher': { zh: '挂载发射器', en: 'Attached Launcher' },
+  // Gear & combat
+  'LightVests': { zh: '轻型护甲', en: 'Light Vests' }, 'HeavyVests': { zh: '重型护甲', en: 'Heavy Vests' },
+  'TroubleShooting': { zh: '故障排除', en: 'Troubleshooting' }, 'Immunity': { zh: '免疫力', en: 'Immunity' },
+  // Drills
+  'AimDrills': { zh: '瞄准训练', en: 'Aim Drills' }, 'MagDrills': { zh: '弹匣训练', en: 'Mag Drills' },
 }
 
 const BOSS_ROLE_NAMES: Record<string, { zh: string; en: string }> = {
@@ -54,7 +73,32 @@ const BOSS_ROLE_NAMES: Record<string, { zh: string; en: string }> = {
   'bossBoar': { zh: 'Kaban', en: 'Kaban' },
   'bossBoarSniper': { zh: 'Kaban 狙击手', en: 'Kaban Sniper' },
   'bossKolontay': { zh: 'Kolontay', en: 'Kolontay' },
-  'bossKillaAgro': { zh: 'Killa (Agro)', en: 'Killa (Agro)' },
+  'bossKillaAgro': { zh: 'Killa (狂暴)', en: 'Killa (Agro)' },
+  // Sectant (cultist) roles
+  'sectantWarrior': { zh: '邪教徒战士', en: 'Sectant Warrior' },
+  'sectantPriest': { zh: '邪教徒祭司', en: 'Sectant Priest' },
+  'sectantPrizrak': { zh: '邪教徒幽灵', en: 'Sectant Prizrak' },
+  'sectantPredvestnik': { zh: '邪教徒先驱', en: 'Sectant Predvestnik' },
+  'sectantOni': { zh: '邪教徒恶鬼', en: 'Sectant Oni' },
+  // Common roles
+  'Savage': { zh: 'Scav', en: 'Scav' },
+  'assault': { zh: 'Scav', en: 'Scav' },
+  'pmcBot': { zh: 'Raider', en: 'Raider' },
+  'exUsec': { zh: 'Rogue', en: 'Rogue' },
+  'marksman': { zh: '狙击手', en: 'Sniper' },
+  'cursedAssault': { zh: '被诅咒的Scav', en: 'Cursed Scav' },
+  'followerBully': { zh: 'Reshala小弟', en: 'Reshala Guard' },
+  'followerKojaniy': { zh: 'Shturman小弟', en: 'Shturman Guard' },
+  'followerSanitar': { zh: 'Sanitar小弟', en: 'Sanitar Guard' },
+  'followerTagilla': { zh: 'Tagilla小弟', en: 'Tagilla Guard' },
+  'followerZryachiy': { zh: 'Zryachiy小弟', en: 'Zryachiy Guard' },
+  'followerBoar': { zh: 'Kaban小弟', en: 'Kaban Guard' },
+  'followerBoarClose1': { zh: 'Kaban近卫', en: 'Kaban Close Guard' },
+  'followerBoarClose2': { zh: 'Kaban近卫', en: 'Kaban Close Guard' },
+  'infectedAssault': { zh: '感染者', en: 'Infected' },
+  'infectedPmc': { zh: '感染者PMC', en: 'Infected PMC' },
+  'infectedLaborant': { zh: '感染者实验员', en: 'Infected Lab Worker' },
+  'infectedTagilla': { zh: '感染者Tagilla', en: 'Infected Tagilla' },
 }
 
 const STAT_NAMES: Record<string, { zh: string; en: string }> = {
@@ -107,7 +151,7 @@ function RewardBadge({ reward, lang }: { reward: QuestReward; lang: 'zh' | 'en' 
   if (reward.type === 'Experience') return <Badge variant="secondary" className="shrink-0">+{reward.value} EXP</Badge>
   if (reward.type === 'TraderStanding' || reward.type === 'TraderStandingRestore') {
     const val = reward.value ?? 0
-    return <Badge variant="secondary" className={`shrink-0 ${val >= 0 ? 'text-green-600' : 'text-red-500'}`}>{val >= 0 ? '+' : ''}{val} {TRADER_NAMES[reward.target || ''] || ''}</Badge>
+    return <Badge variant="secondary" className={`shrink-0 ${val >= 0 ? 'text-green-600' : 'text-red-500'}`}>{val >= 0 ? '+' : ''}{val} {getTraderName(reward.target || '')}</Badge>
   }
   if (reward.type === 'Item') {
     const name = reward.itemName ? (lang === 'zh' ? reward.itemName.zh : reward.itemName.en) : '?'
@@ -123,7 +167,7 @@ function RewardRow({ reward, lang }: { reward: QuestReward; lang: 'zh' | 'en' })
     return <div className="text-sm">{reward.itemId ? <Link to={`/item/${reward.itemId}`} className="text-primary hover:underline">{name} ×{qty.toLocaleString()}</Link> : <span>{name} ×{qty.toLocaleString()}</span>}</div>
   }
   if (reward.type === 'Skill') return <div className="text-sm">{getSkillName(reward.target || '', lang)} +{reward.value}</div>
-  if (reward.type === 'TraderUnlock') return <div className="text-sm text-muted-foreground">{lang === 'zh' ? '解锁商人' : 'Unlock'}: {TRADER_NAMES[reward.target || ''] || reward.target}</div>
+  if (reward.type === 'TraderUnlock') return <div className="text-sm text-muted-foreground">{lang === 'zh' ? '解锁商人' : 'Unlock'}: {getTraderName(reward.target || '')}</div>
   if (reward.type === 'AssortmentUnlock' || reward.type === 'ProductionScheme') {
     const name = reward.itemName ? (lang === 'zh' ? reward.itemName.zh : reward.itemName.en) : (reward.itemId || '')
     const label = lang === 'zh' ? (reward.type === 'AssortmentUnlock' ? '解锁商品' : '制造配方') : reward.type
@@ -190,9 +234,11 @@ function ObjContent({ obj, lang, itemNames, t }: {
     case 'Elimination':
     case 'Counter': {
       const hasEnemy = obj.enemyRoles && obj.enemyRoles.length > 0
-      const enemy = hasEnemy ? obj.enemyRoles!.map(r => getBossRoleName(r, lang)).join('/') : (lang === 'zh' ? '任意目标' : 'any target')
       const locInfo = obj.location ? getLocName(obj.location.split(',')[0] ?? '', lang) : null
-      // Build all branches: weapons (each separate) + bodyParts + distance
+      // Build all branches: enemy roles + weapons + bodyParts + distance
+      const enemyBranches = hasEnemy
+        ? obj.enemyRoles!.map((r, i) => ({ key: `en-${i}`, node: <>{getBossRoleName(r, lang)}</> }))
+        : []
       const weaponBranches = (obj.weapons || []).map((id, i) => ({
         key: `wp-${i}`,
         node: <Link to={`/item/${id}`} className="text-primary hover:underline">{getName(id)}</Link>
@@ -202,19 +248,37 @@ function ObjContent({ obj, lang, itemNames, t }: {
         ...(obj.distance?.value ? [{ key: 'd', node: <>{t('distance')}: {obj.distance.compareMethod} {obj.distance.value}m</> }] : []),
       ]
       const allBranches = [
+        ...enemyBranches,
         ...(weaponBranches.length > 0 ? [{ key: 'wl', node: <>{lang === 'zh' ? '限定武器' : 'Required weapons'}</>, isCategory: true }, ...weaponBranches.map(w => ({ ...w, isCategory: false }))] : []),
-        ...otherBranches.map(b => ({ ...b, isCategory: false })),
+        ...otherBranches,
       ]
+      const target = hasEnemy
+        ? (lang === 'zh' ? '击杀下列任意目标' : 'Kill any of')
+        : (hasEnemy ? '' : (lang === 'zh' ? '任意目标' : 'any target'))
       return (
         <div className="space-y-1">
-          <div>{enemy} × {obj.value || 1}{locInfo && <span className="text-muted-foreground ml-1">@ {locInfo}</span>}</div>
-          {allBranches.map((b, i) => <TreeBranch key={b.key} isLast={i === allBranches.length - 1 && !b.isCategory}>{b.node}</TreeBranch>)}
+          <div>{target} × {obj.value || 1}{locInfo && <span className="text-muted-foreground ml-1">@ {locInfo}</span>}</div>
+          {allBranches.map((b, i) => <TreeBranch key={b.key} isLast={i === allBranches.length - 1 && !('isCategory' in b && b.isCategory)}>{b.node}</TreeBranch>)}
         </div>
       )
     }
     case 'HandoverItem':
-    case 'FindItem':
-      return <div>{renderTargets(obj.target)} × {obj.value || 1}{obj.onlyFoundInRaid && <span className="text-xs text-muted-foreground ml-1">({t('onlyFoundInRaid')})</span>}</div>
+    case 'FindItem': {
+      const targets = obj.target ? (Array.isArray(obj.target) ? obj.target : [obj.target]) : []
+      if (targets.length <= 3) {
+        return <div>{renderTargets(obj.target)} × {obj.value || 1}{obj.onlyFoundInRaid && <span className="text-xs text-muted-foreground ml-1">({t('onlyFoundInRaid')})</span>}</div>
+      }
+      return (
+        <div className="space-y-1">
+          <div>{lang === 'zh' ? '上交以下任意物品' : 'Handover any of'} × {obj.value || 1}{obj.onlyFoundInRaid && <span className="text-xs text-muted-foreground ml-1">({t('onlyFoundInRaid')})</span>}</div>
+          {targets.map((id, i) => (
+            <TreeBranch key={i} isLast={i === targets.length - 1}>
+              <Link to={`/item/${id}`} className="text-primary hover:underline">{getName(id)}</Link>
+            </TreeBranch>
+          ))}
+        </div>
+      )
+    }
     case 'VisitPlace':
     case 'InZone':
       return <div>{obj.target ? getLocName(String(Array.isArray(obj.target) ? obj.target[0] : obj.target), lang) : ''} × {obj.value || 1}</div>
@@ -278,7 +342,7 @@ function ObjContent({ obj, lang, itemNames, t }: {
       return <div>{obj.target ? getSkillName(String(obj.target), lang) : ''}{lang === 'zh' ? ' 达到 ' : ' level '}{obj.value || 0}{lang === 'zh' ? ' 级' : ''}</div>
     case 'TraderStanding':
     case 'TraderLoyalty':
-      return <div>{obj.target ? TRADER_NAMES[String(obj.target)] || obj.target : ''}</div>
+      return <div>{obj.target ? getTraderName(String(obj.target)) : ''}</div>
     case 'Avoid': {
       const cond2 = obj.description?.split(': ')[1] || ''
       if (cond2 === 'Shots' || cond2 === 'Elimination') {
@@ -333,10 +397,19 @@ export function QuestDetail() {
   const { itemNames } = useItemNamesMap()
   const { quests: allQuests } = useQuestList()
 
+  // Populate trader names from quest data (dynamic, includes mod traders)
+  useMemo(() => {
+    const names: Record<string, string> = {}
+    for (const q of allQuests) {
+      if (!names[q.traderId]) names[q.traderId] = lang === 'zh' ? q.traderName.zh : q.traderName.en
+    }
+    _traderNames = names
+  }, [allQuests, lang])
+
   if (loading) return <div className="space-y-4"><Skeleton className="h-8 w-64" /><Skeleton className="h-4 w-48" /><Skeleton className="h-20 w-full" /></div>
   if (!quest) return <div className="text-muted-foreground">{t('noResults')}</div>
 
-  const locName = LOCATION_NAMES[quest.location] || { zh: quest.location, en: quest.location }
+  const locName = quest.locationName || { zh: quest.location, en: quest.location }
   const rewards = quest.rewards.filter(r =>
     r.type !== 'NotificationPopup' && r.type !== 'WebPromoCode' && r.type !== 'CustomizationDirect' && r.type !== 'Pockets'
   )

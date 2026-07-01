@@ -1,0 +1,132 @@
+{
+  "id": "67f0fe25a1cd83e3b2ec082f",
+  "name": {
+    "zh": "不用再找了",
+    "en": "Look No Further"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 125000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 125000
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "57372db0245977685d4159b2",
+      "itemName": {
+        "zh": "5.45x39mm PP弹药包（30发装）",
+        "en": "5.45x39mm PP gs ammo pack (30 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64b6979341772715af0f9c39",
+      "itemName": {
+        "zh": "4.6x30毫米 JSP SX",
+        "en": "4.6x30mm JSP SX"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6576f93989f0062e741ba952",
+      "itemName": {
+        "zh": "9x21毫米 7U4",
+        "en": "9x21mm 7U4"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5efb0fc6aeb21837e749c801",
+      "itemName": {
+        "zh": ".45 ACP Hydra-Shok",
+        "en": ".45 ACP Hydra-Shok"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，我问了几个靠谱的人，关于你之前找到的那个杂物间的情况。听说那地方以前是USEC的藏身点，他们还把不少高级装备藏在那儿了。你懂我意思吧？\n\n你得亲自去看看传闻是不是真的。不过那个房间是上锁的，我现在手里也没有钥匙，所以你得自己想办法进去。一旦进去了，最好把里面清理干净，我们不希望其他人也发现这个地方。\n\n搞完之后赶紧脱身，明白了吗？这活儿对你来说应该轻松得很，我就指望你了，士兵。",
+    "en": "Hey I asked a few trusted people if they know what's up with the utility room you located earlier. It's rumored that USECs used that place as a hideout and they usually stored all their high-end gear in there aswell. You know what that means.\n\nHead there and check out if that is true, you're gonna need a key to that room however, and I don't have the key right now, so it's your job to figure out how to get inside that room, alright? When you manage to get inside you will need to clear out the area a bit, we can't let others know about this! Make sure to get the hell out of there once you took care of it, got it? I'm sure this will be a cakewalk for you, I count on you soldier."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_underground_utility_outside",
+      "targetNames": {
+        "lotus_groundzero_underground_utility_outside": {
+          "zh": "lotus_groundzero_underground_utility_outside",
+          "en": "lotus_groundzero_underground_utility_outside"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_underground_utility_inside",
+      "targetNames": {
+        "lotus_groundzero_underground_utility_inside": {
+          "zh": "lotus_groundzero_underground_utility_inside",
+          "en": "lotus_groundzero_underground_utility_inside"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67475c58c8d4ae3b9baf7d38",
+      "name": {
+        "zh": "莲花之光 - 第四章",
+        "en": "Light Of The Lotus - Part 4"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_utilityroom_inside.png",
+  "isKey": false
+}

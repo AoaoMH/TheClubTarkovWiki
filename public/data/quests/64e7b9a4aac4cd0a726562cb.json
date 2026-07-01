@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5714dc692459777137212e12",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -56,7 +60,7 @@
       "value": 9,
       "itemId": "64ace9f9c4eda9354b0226aa",
       "itemName": {
-        "zh": "7.62x39mm PP gzh弹药包（20发装）",
+        "zh": "7.62x39mm PP gzh弹药包（20发装） ☆",
         "en": "7.62x39mm PP gzh ammo pack (20 pcs)"
       },
       "quantity": 1
@@ -77,8 +81,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 25,
+      "description": "Elimination: Kills",
+      "value": 6,
       "target": "Any",
       "targetNames": {
         "Any": {
@@ -108,7 +112,11 @@
         "57f4c844245977379d5c14d1",
         "66992b349950f5f4cd06029f",
         "6680304edadb7aa61d00cef0",
-        "668e71a8dadf42204c032ce1"
+        "668e71a8dadf42204c032ce1",
+        "687afda52dc9fd6c0e14c602",
+        "6761b213607f9a6f79017cd8",
+        "690ebacfc047a9a9f1a98782",
+        "67b05e25d83f07b7b587c0b5"
       ],
       "weaponNames": {
         "5e00903ae9dc277128008b87": {
@@ -128,7 +136,7 @@
           "en": "HK MP5K 9x19 submachine gun"
         },
         "5926bb2186f7744b1c6c6e60": {
-          "zh": "HK MP5N 9x19 冲锋枪（海军型）",
+          "zh": "HK MP5N 9x19 冲锋枪（海军型） ☆",
           "en": "HK MP5 9x19 submachine gun (Navy 3 Round Burst)"
         },
         "5ba26383d4351e00334c93d9": {
@@ -152,11 +160,11 @@
           "en": "Saiga-9 9x19 carbine"
         },
         "58948c8e86f77409493f7266": {
-          "zh": "SIG MPX 9x19 冲锋枪",
+          "zh": "SIG MPX 9x19 冲锋枪 ☆",
           "en": "SIG MPX 9x19 submachine gun"
         },
         "60339954d62c9b14ed777c06": {
-          "zh": "联盟-TM STM-9 Gen.2 9x19 卡宾枪",
+          "zh": "联盟-TM STM-9 Gen.2 9x19 卡宾枪 ☆",
           "en": "Soyuz-TM STM-9 Gen.2 9x19 carbine"
         },
         "5fb64bc92b1b027b1f50bcf2": {
@@ -198,6 +206,22 @@
         "668e71a8dadf42204c032ce1": {
           "zh": "IWI UZI PRO SMG 9x19冲锋枪",
           "en": "IWI UZI PRO SMG 9x19 submachine gun"
+        },
+        "687afda52dc9fd6c0e14c602": {
+          "zh": "CZ EVO 3 A1 \"蝎式\" 9x19毫米冲锋枪",
+          "en": "CZ Scorpion EVO 3 A1 9x19 submachine gun"
+        },
+        "6761b213607f9a6f79017cd8": {
+          "zh": "美蓓亚 PM-9 9x19毫米冲锋枪",
+          "en": "Minebea PM-9 9x19mm Submachine Gun"
+        },
+        "690ebacfc047a9a9f1a98782": {
+          "zh": "柯尔特 RO991 9x19毫米冲锋枪",
+          "en": "Colt RO991 9x19 submachine gun"
+        },
+        "67b05e25d83f07b7b587c0b5": {
+          "zh": "HK UMP 9x19毫米冲锋枪",
+          "en": "HK UMP 9x19mm submachine gun"
         }
       }
     }

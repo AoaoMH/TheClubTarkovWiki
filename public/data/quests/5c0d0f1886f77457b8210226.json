@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -36,7 +40,7 @@
       "value": 2,
       "itemId": "5bb2475ed4351e00853264e3",
       "itemName": {
-        "zh": "HK 416A5 5.56x45 突击步枪",
+        "zh": "HK 416A5 5.56x45 突击步枪 ☆",
         "en": "HK 416A5 5.56x45 assault rifle"
       },
       "quantity": 2
@@ -46,7 +50,7 @@
       "value": 3,
       "itemId": "6570265f1419851aef03e739",
       "itemName": {
-        "zh": "100发5.56x45 M995盒装弹药",
+        "zh": "100发5.56x45 M995盒装弹药 ☆",
         "en": "5.56x45mm M995 ammo pack (100 pcs)"
       },
       "quantity": 1
@@ -80,14 +84,14 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "5c05308086f7746b2101e90b"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c05308086f7746b2101e90b": {
-          "zh": "Virtex可编程处理器",
+          "zh": "Virtex可编程处理器 ☆",
           "en": "Virtex programmable processor"
         }
       }
@@ -102,7 +106,7 @@
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c052f6886f7746b1e3db148": {
-          "zh": "军用COFDM无线信号发射器",
+          "zh": "军用COFDM无线信号发射器 ☆",
           "en": "Military COFDM Wireless Signal Transmitter"
         }
       }
@@ -110,14 +114,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "5c05308086f7746b2101e90b"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c05308086f7746b2101e90b": {
-          "zh": "Virtex可编程处理器",
+          "zh": "Virtex可编程处理器 ☆",
           "en": "Virtex programmable processor"
         }
       }
@@ -132,7 +136,7 @@
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c052f6886f7746b1e3db148": {
-          "zh": "军用COFDM无线信号发射器",
+          "zh": "军用COFDM无线信号发射器 ☆",
           "en": "Military COFDM Wireless Signal Transmitter"
         }
       }

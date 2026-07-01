@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 50000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Nonstop Stalker Green Energy Drink [Rare]",
+      "en": "Nonstop Stalker Green Energy Drink [Rare]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Stalker",
+      "en": "Stalker"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 65,000₽ | 物品价值: 50,000 | Therapist报价: 31,500₽购买渠道 @ Therapist 等级4 < 50,000₽\n\nRare energy drink originating from the Pripyat region. This is an excellent energy drink consisting of caffeine, taurine and a mixture of rejuvenating vitamins. Just the ticket when you're too tired to push forward!",
+      "en": "跳蚤市场: 65,000₽ | 物品价值: 50,000 | Therapist报价: 31,500₽购买渠道 @ Therapist 等级4 < 50,000₽\n\nRare energy drink originating from the Pripyat region. This is an excellent energy drink consisting of caffeine, taurine and a mixture of rejuvenating vitamins. Just the ticket when you're too tired to push forward!"
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,96 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.4,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 15,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 3,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 3,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Perception",
+            "value": 3,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Attention",
+            "value": 3,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Search",
+            "value": 3,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "WeightLimit",
+            "skillName": "",
+            "value": 0.15,
+            "delay": 1,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -5,
+            "delay": 400,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -1.5,
+            "delay": 400,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 400,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

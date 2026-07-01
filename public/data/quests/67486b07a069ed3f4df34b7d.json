@@ -1,0 +1,163 @@
+{
+  "id": "67486b07a069ed3f4df34b7d",
+  "name": {
+    "zh": "东方联盟 - 第九章",
+    "en": "Eastern Reliability - Part 9"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 155450,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 155450
+    },
+    {
+      "type": "Item",
+      "value": 20,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 20
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5e340dcdcb6d5863cc5e5efb",
+      "itemName": {
+        "zh": "VOG-25 Khattabka 简易手榴弹",
+        "en": "VOG-25 Khattabka improvised hand grenade"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "590a3cd386f77436f20848cb",
+      "itemName": {
+        "zh": "节能灯泡",
+        "en": "Energy-saving lamp"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "590a3d9c86f774385926e510",
+      "itemName": {
+        "zh": "紫外线灯泡",
+        "en": "Ultraviolet lamp"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "6489851fc827d4637f01791b",
+      "itemName": {
+        "zh": "7.62x39mm MAI AP弹药包（20发装）",
+        "en": "7.62x39mm MAI AP ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 15,
+      "itemId": "64acea16c4eda9354b0226b0",
+      "itemName": {
+        "zh": "7.62x39mm BP gzh弹药包（20发装）",
+        "en": "7.62x39mm BP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 15
+    },
+    {
+      "type": "Skill",
+      "target": "LMG",
+      "value": 225
+    }
+  ],
+  "description": {
+    "zh": "你扛得动这么重的家伙吧？应该不是问题。\n\n我这边要测试一批装了短枪管的 RPD 轻机枪，城市环境是最佳测试地点。听说现在连一些本地头目都爱上了这种家伙。\n\n你能帮我搞定这事吗？",
+    "en": "I suppose it shouldn't be an issue for you to carry around a lot of weight with you, right soldier?\n\nBecause I need someone to try out these RPD machine guns with sawed-off barrels, tested in a city-like environment, apparently they perform quite well there, even some of the local gang leaders prefer using machine guns now.\n\nCan you manage that?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "65268d8ecb944ff1e90ea385",
+        "6513ef33e06849f06c0957ca"
+      ],
+      "weaponNames": {
+        "65268d8ecb944ff1e90ea385": {
+          "zh": "捷格加廖夫 RPDN 7.62x39 毫米轻机枪",
+          "en": "Degtyarev RPDN 7.62x39 machine gun"
+        },
+        "6513ef33e06849f06c0957ca": {
+          "zh": "捷格加廖夫 RPD 7.62x39 毫米轻机枪",
+          "en": "Degtyarev RPD 7.62x39 machine gun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67486a921ef237f01abfd45f",
+      "name": {
+        "zh": "东方联盟 - 第八章",
+        "en": "Eastern Reliability - Part 8"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67486c9270a59a1b50f7f3de",
+      "name": {
+        "zh": "旅游淡季",
+        "en": "Tourist Season Is Ending"
+      }
+    },
+    {
+      "id": "67d814b8a9bc0824cc494f15",
+      "name": {
+        "zh": "东方联盟 - 第十章",
+        "en": "Eastern Reliability - Part 10"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_easternreliability_9_prapor.png",
+  "isKey": false
+}

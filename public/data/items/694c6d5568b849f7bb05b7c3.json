@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 200000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Monster Juice Aussie Lemonade Energy Drink [Ultra Rare] ★",
+      "en": "Monster Juice Aussie Lemonade Energy Drink [Ultra Rare]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "★ Monster",
+      "en": "Monster"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 350,000₽ | 物品价值: 200,000 | Therapist报价: 126,000₽Inspired by the land down under and powered by our world-famous Monster Energy blend, Aussie Style Lemonade is a carbonated exotic twist on lemonade. Tart yet sweet, with a burst of fresh citrus flavor.",
+      "en": "跳蚤市场: 350,000₽ | 物品价值: 200,000 | Therapist报价: 126,000₽Inspired by the land down under and powered by our world-famous Monster Energy blend, Aussie Style Lemonade is a carbonated exotic twist on lemonade. Tart yet sweet, with a burst of fresh citrus flavor."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,144 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 2,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 30,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 20,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 20,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "StressResistance",
+            "value": 20,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "AimDrills",
+            "value": 20,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "MagDrills",
+            "value": 20,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "HeavyVests",
+            "value": 20,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "LightVests",
+            "value": 20,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "WeightLimit",
+            "skillName": "",
+            "value": 0.35,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "DamageModifier",
+            "skillName": "",
+            "value": -0.15,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": 0.6,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -20,
+            "delay": 600,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": -999,
+            "delay": 600,
+            "duration": 600,
+            "chance": 0.2
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -3,
+            "delay": 600,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 600,
+            "duration": 180,
+            "chance": 1
+          },
+          {
+            "buffType": "QuantumTunnelling",
+            "skillName": "",
+            "value": 0,
+            "delay": 600,
+            "duration": 120,
+            "chance": 1
+          }
+        ]
       }
     }
   },

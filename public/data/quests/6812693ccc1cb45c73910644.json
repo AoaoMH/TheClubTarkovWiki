@@ -1,0 +1,95 @@
+{
+  "id": "6812693ccc1cb45c73910644",
+  "name": {
+    "zh": "一个全新的世界",
+    "en": "A Whole New World"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 20,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 20
+    }
+  ],
+  "description": {
+    "zh": "你就像我在竞技场外的另一双眼睛。我的眼线几乎遍布各处——几乎是，但说实话有的其实就只能算是个传闻。\n\n实不相瞒，其实我们心知肚明，大家对泰拉里还有什么东西都很好奇，之前格鲁哈用炸弹直接把实验室地堡轰开了，然后我就听说只要通过一种卡就可以进去，不需要大费周章去找那个U盘了。我总感觉你好像去过那里\n\n我听说那里很危险，风浪越大鱼越贵！就是我的小队没这个本事，你也是知道的。他们还没搞到门卡。那只能拜托你了，捍卫者。",
+    "en": "You are like an extra pair of eyes for me, eyes outside the Arena. I got my eyes and ears almost everywhere - Almost. News still reach me but you know, sometimes it's nothing more than a tale.\n\nYou're here to bring me some proof! Or you bring me something that helps with accomplishing that goal. You have probably been to the Terragroup laboratory before, am I right? Of course...\n\nI heard it's dangerous in there, and where it's dangerous there's something of value! My hounds don't go down there on their own you know? And they weren't able to get their hands on some of these keycards yet. If you can lend a hand here I'd be very grateful, champion."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "5c94bbff86f7747ee735c08f"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c94bbff86f7747ee735c08f": {
+          "zh": "TerraGroup实验室访问钥匙卡 ★",
+          "en": "TerraGroup Labs access keycard"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "5c94bbff86f7747ee735c08f"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c94bbff86f7747ee735c08f": {
+          "zh": "TerraGroup实验室访问钥匙卡 ★",
+          "en": "TerraGroup Labs access keycard"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b1d617ec28f2ab78f9b4c8",
+      "name": {
+        "zh": "飞碟射击",
+        "en": "Clay Pigeons"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6812590e15f6bcbc89c75b34",
+      "name": {
+        "zh": "血渴",
+        "en": "Blood Thirsty"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_labscard.png",
+  "isKey": false
+}

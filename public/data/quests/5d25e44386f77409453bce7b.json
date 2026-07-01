@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -36,7 +40,7 @@
       "value": 2,
       "itemId": "5c12613b86f7743bbe2c3f76",
       "itemName": {
-        "zh": "情报文件夹",
+        "zh": "情报文件夹 ★",
         "en": "Intelligence folder"
       },
       "quantity": 1
@@ -46,7 +50,7 @@
       "value": 1,
       "itemId": "62a0a16d0b9d3c46de5b6e97",
       "itemName": {
-        "zh": "军用闪存装置",
+        "zh": "军用闪存装置 ☆",
         "en": "Military flash drive"
       },
       "quantity": 1
@@ -59,16 +63,15 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 5,
+      "description": "Elimination: Kills",
+      "value": 1,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
           "zh": "AnyPmc",
           "en": "AnyPmc"
         }
-      },
-      "location": "bigmap"
+      }
     }
   ],
   "prerequisites": [

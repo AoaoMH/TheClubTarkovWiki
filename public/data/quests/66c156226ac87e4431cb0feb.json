@@ -1,0 +1,129 @@
+{
+  "id": "66c156226ac87e4431cb0feb",
+  "name": {
+    "zh": "PMC特训：地毯式搜刮 - 第四章",
+    "en": "PMC Training - Looter - Part 4"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9230
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 19350,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 19350
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f4f9eb969cdc30ff33f09db",
+      "itemName": {
+        "zh": "EYE MK.2 手持指南针专业版 ☆",
+        "en": "EYE MK.2 professional hand-held compass"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e9db13186f7742f845ee9d3",
+      "itemName": {
+        "zh": "LBT-1961A 承重胸挂（MAS 灰色）",
+        "en": "LBT-1961A Load Bearing Chest Rig (MAS Grey)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a1b7fbc30cfa1d366af586",
+      "itemName": {
+        "zh": "Gruppa 99 T30背包 （复合迷彩）",
+        "en": "Gruppa 99 T30 backpack (MultiCam)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ab8ebf186f7742d8b372e80",
+      "itemName": {
+        "zh": "SSO \"Attack 2\"突击背包",
+        "en": "SSO Attack 2 raid backpack (Khaki)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "639346cc1c8f182ad90c8972",
+      "itemName": {
+        "zh": "Tasmanian Tiger Trooper 35背包",
+        "en": "Tasmanian Tiger Trooper 35 backpack (Khaki)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，看来你现在有不错的背包了，但看起来你在负重方面有些棘手，对吧？带的东西越多，重量显然也就越大，所以好好练吧！如果你在藏身处建了一个健身区，我强烈建议你花些时间在那里训练。记住，每次从战局中带出更多物资可以为你节省很多时间。",
+    "en": "Hey, cool backpacks you get there now, but it sounds like you are kinda struggling with the weight a bit, ehh? More stuff you are carrying means more weight obviously, so get some training done! If you built a place to workout in your hideout I really recommend you to spend some time there. Remember that getting more loot out of your tours at once will save you some time."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Endurance",
+      "value": 10,
+      "target": "Endurance"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: Strength",
+      "value": 10,
+      "target": "Strength"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: Search",
+      "value": 7,
+      "target": "Search"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66c155ada8d7150863c89499",
+      "name": {
+        "zh": "PMC特训：地毯式搜刮 - 第三章",
+        "en": "PMC Training - Looter - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c1565e796a61e8a711e6d9",
+      "name": {
+        "zh": "PMC特训：地毯式搜刮 - 第五章",
+        "en": "PMC Training - Looter - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_loot.png",
+  "isKey": false
+}

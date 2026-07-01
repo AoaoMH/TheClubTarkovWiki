@@ -1,0 +1,106 @@
+{
+  "id": "6748672b895a36c99e880f36",
+  "name": {
+    "zh": "东方联盟 - 第一章",
+    "en": "Eastern Reliability - Part 1"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 45000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45000
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "65702591c5d7d4cb4d07857c",
+      "itemName": {
+        "zh": "50发9x19 AP 6.3弹药包 ☆",
+        "en": "9x19mm AP 6.3 ammo pack (50 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "SMG",
+      "value": 100
+    }
+  ],
+  "description": {
+    "zh": "你好，士兵，准备好解决点麻烦了吗？听好了，我不喜欢重复自己说的话。\n\n我手上有一大堆武器清单，都是我的渠道进来的，我需要有人帮我实战测试。而你，正合适。\n\n我们先从简单的开始，然后慢慢往上爬。这次你要用的是 Vityaz 系列冲锋枪，平民版就可以，不过记住，它们无法全自动射击，小心别让自己陷入劣势。别忘了这种口径本身威力就不算强。\n\n去塔科夫街区那边的街头转转，清理点碍事的家伙。你能胜任这种工作吗？",
+    "en": "Good day soldier, ready to solve some problems? Listen carefully, I don't like repeating myself.\n\nI have a list here with a ton of weapons in my assort, and I need them tested. And you're the perfect one for this task. We'll start of small and work our way up.\n\nYou're gonna use vityaz submachineguns first, the civilian ones will do just fine but don't forget that they can't fire fully automatic, so think carefully before putting yourself at a disadvantage, these weapons already perform worse than most others simply because of the caliber. Take down some guy you find across Tarkov's streets.\n\nAre you fit enough for this kind of job?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "59984ab886f7743e98271174",
+        "59f9cabd86f7743a10721f46"
+      ],
+      "weaponNames": {
+        "59984ab886f7743e98271174": {
+          "zh": "PP-19-01 勇士 9x19 冲锋枪",
+          "en": "PP-19-01 Vityaz 9x19 submachine gun"
+        },
+        "59f9cabd86f7743a10721f46": {
+          "zh": "Saiga-9 9x19卡宾枪",
+          "en": "Saiga-9 9x19 carbine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747c3ffc2b2062f1de93906",
+      "name": {
+        "zh": "为了祖国",
+        "en": "For The Motherland"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674867cce36d92b3c23ec4de",
+      "name": {
+        "zh": "东方联盟 - 第二章",
+        "en": "Eastern Reliability - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_easternreliability_1_prapor.png",
+  "isKey": false
+}

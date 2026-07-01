@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -52,8 +56,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 5,
+      "description": "Elimination: Kills",
+      "value": 1,
       "target": "Savage",
       "targetNames": {
         "Savage": {

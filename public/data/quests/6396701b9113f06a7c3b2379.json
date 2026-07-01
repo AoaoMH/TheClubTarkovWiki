@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "TraderStanding",
@@ -41,7 +45,7 @@
       "type": "ProductionScheme",
       "itemId": "5a1eaa87fcdbcb001865f75e",
       "itemName": {
-        "zh": "Trijicon REAP-IR热成像步枪瞄准镜",
+        "zh": "Trijicon REAP-IR热成像步枪瞄准镜 ★",
         "en": "Trijicon REAP-IR thermal scope"
       }
     }
@@ -60,7 +64,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 10,
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -70,11 +74,7 @@
       },
       "enemyRoles": [
         "marksman"
-      ],
-      "distance": {
-        "compareMethod": ">=",
-        "value": 350
-      }
+      ]
     }
   ],
   "prerequisites": [

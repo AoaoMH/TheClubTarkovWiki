@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -50,7 +54,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 3,
+      "value": 1,
       "target": "Any",
       "targetNames": {
         "Any": {
@@ -63,7 +67,7 @@
       ],
       "weaponNames": {
         "67b49e7335dec48e3e05e057": {
-          "zh": "F-1 手榴弹（短引信）",
+          "zh": "F-1 手榴弹（短引信） ★",
           "en": "F-1 hand grenade (Reduced delay)"
         }
       }

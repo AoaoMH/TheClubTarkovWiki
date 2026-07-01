@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -30,6 +34,16 @@
         "en": "GP coin"
       },
       "quantity": 52
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 1
     }
   ],
   "description": {
@@ -40,7 +54,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c0fa877d174af02a012e1cf",
         "575062b524597720a31c09a1",
@@ -122,7 +136,7 @@
           "en": "Bottle of Dan Jackiel whiskey"
         },
         "5d1b376e86f774252519444e": {
-          "zh": "“凶狠跑刀崽”私酒",
+          "zh": "“凶狠跑刀崽”私酒 ☆",
           "en": "Bottle of Fierce Hatchling moonshine"
         },
         "5d1b33a686f7742523398398": {
@@ -150,7 +164,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "57505f6224597709a92585a9",
         "57347da92459774491567cf5",

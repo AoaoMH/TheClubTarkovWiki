@@ -1,0 +1,134 @@
+{
+  "id": "6751718a8b3f5b546858efb2",
+  "name": {
+    "zh": "熟悉武器 - 第二章",
+    "en": "Getting Familiar With Weapons - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1425
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 49820,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 49820
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5649d9a14bdc2d79388b4580",
+      "itemName": {
+        "zh": "Tactica Tula TT01韦弗式照门适配器",
+        "en": "AK Taktika Tula TT01 rear sight rail"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57486e672459770abd687134",
+      "itemName": {
+        "zh": "OKP-7反射式瞄具（Dovetail）",
+        "en": "OKP-7 reflex sight (Dovetail)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好的，下一个。他正在寻找一种俄制武器，怀旧一点，我会说“旧但不算太旧”更合适。一把5.45x39的AK，带侧导轨，“梅红色”配件和一个反射瞄准镜……听起来很简单，我想你也能处理这个。我会再次把所有规格写下来以防万一。\n\n要求：\n - 人机功效 50 或更高\n - AK-74聚合物护木（6P20 Sb.9）Plum\n - Izhmash AK-74聚合物枪托（6P20 Sb.7）Plum\n - Izhmash AK胶木手枪式握把（6P4 Sb.8V）\n - 6L23 5.45x39 30发AK-74兼容弹匣 Plum\n - 一个反射瞄准镜",
+    "en": "Alright, next one. He is looking for something russian, nostalgic, \"old but not too old\" would describe it better I'd say. 5.45x39 AK with a siderail, \"plum\" accessories and a reflex sight... Sounds simple enough, I assume you can handle that one aswell, I'll write you down all the specifics again just in case.\n\nRequirements :\n - Ergonomics 50 or higher\n - AK-74 Polymer Handguard ( Plum )\n - AK-74 Polymer Stock ( Plum )\n - AK-74 Bakelite Pistol Grip\n - AK-74 5.45x39 6L23 30-Round Magazine ( Plum )\n - A Collimator"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5644bd2b4bdc2d3b4c8b4572"
+      ],
+      "targetNames": {
+        "5644bd2b4bdc2d3b4c8b4572": {
+          "zh": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74N 5.45x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 50
+        }
+      ],
+      "requiredItems": [
+        "5cbda9f4ae9215000e5b9bfc",
+        "5cbdb1b0ae9215000d50e105",
+        "5649ad3f4bdc2df8348b4585",
+        "5cbdaf89ae9215000e5b9c94"
+      ],
+      "requiredItemNames": {
+        "5cbda9f4ae9215000e5b9bfc": {
+          "zh": "AK-74聚合物护木（黑红色）",
+          "en": "AK-74 polymer handguard (Plum)"
+        },
+        "5cbdb1b0ae9215000d50e105": {
+          "zh": "AK-74 聚合物枪托（黑红色）",
+          "en": "AK-74 polymer stock (Plum)"
+        },
+        "5649ad3f4bdc2df8348b4585": {
+          "zh": "Izhmash AK胶木手枪式握把（6P4 Sb.8V）",
+          "en": "AK-74 bakelite pistol grip"
+        },
+        "5cbdaf89ae9215000e5b9c94": {
+          "zh": "6L23 5.45x39 30 发AK-74 兼容弹匣（黑红色）",
+          "en": "AK-74 5.45x39 6L23 30-round magazine (Plum)"
+        }
+      },
+      "requiredCategories": [
+        "55818ad54bdc2ddc698b4569"
+      ],
+      "requiredCategoryNames": {
+        "55818ad54bdc2ddc698b4569": {
+          "zh": "反射式瞄具",
+          "en": "Reflex sight"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67516c77476efeef09be34a1",
+      "name": {
+        "zh": "熟悉武器 - 第一章",
+        "en": "Getting Familiar With Weapons - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6751751f0e38a97dbe6a3d91",
+      "name": {
+        "zh": "熟悉武器 - 第三章",
+        "en": "Getting Familiar With Weapons - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_familiarwithguns_2.png",
+  "isKey": false
+}

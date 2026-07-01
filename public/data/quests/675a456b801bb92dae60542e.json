@@ -1,0 +1,179 @@
+{
+  "id": "675a456b801bb92dae60542e",
+  "name": {
+    "zh": "工具之道 - 第二章",
+    "en": "Tools To Work With - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 70250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 70250
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e208b9842457a4a7a33d074",
+      "itemName": {
+        "zh": "Hexagon DTKP MK.2 7.62x39 消音器",
+        "en": "AK Hexagon DTKP MK.2 7.62x39 sound suppressor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59fb257e86f7742981561852",
+      "itemName": {
+        "zh": "AKM Zenit DTK-4M 7.62x39膛口制退器",
+        "en": "AKM Zenit DTK-4M 7.62x39 sound suppressor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 10
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "668e71a8dadf42204c032ce1",
+      "itemName": {
+        "zh": "IWI UZI PRO SMG 9x19冲锋枪",
+        "en": "IWI UZI PRO SMG 9x19 submachine gun"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "587e02ff24597743df3deaeb",
+      "itemName": {
+        "zh": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪",
+        "en": "Molot Arms Simonov OP-SKS 7.62x39 carbine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "猎人也好，狙击手也罢，远距离悄无声息地解决目标是基本功。SKS 步枪能胜任这两种需求。\n\n帮我改一把 OP-SKS，要求至少 20 发弹容量，能在 600 米以上射击，装上紧凑型全息瞄具（需通过偏置支架），还得装上战术配件和消音器。\n\nOP-SKS 要求：\n - 后坐力总和小于 305\n - 重量小于 5.9 公斤\n - 人机功效 38 或更高\n - 耐久度至少 75 %\n - 弹匣容量 20 或更多\n - “射击场”距离 600米 或更多\n - 任意 消音器\n - 任意 紧凑型准直式瞄具\n - 任意 战术设备\n - NcSTAR MPR45 Backup Mount",
+    "en": "It is essential for both hunters and snipers, to take out their target without making noise and from a distance. You could use SKS carbines for both.\n\nModify an SKS for me, make sure it has a magazine with at least twenty rounds, is capable of taking a shot from at least six-hundred meters, attach a compact reflex sight mounted on a backup mount, with a tactical device, and make sure the rifle is silenced.\n\nOP-SKS Requirements :\n - Recoil Sum less than 305\n - Weight less than 5.9 KG\n - Ergonomics 38 or higher\n - Durability higher than 75 %\n - Magazine Capacity of 20 or more\n - Sighting Range of 600 Meters or more\n - A Silencer\n - A Compact Collimator\n - A Tactical Device\n - NcSTAR MPR45 Backup Mount"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "587e02ff24597743df3deaeb"
+      ],
+      "targetNames": {
+        "587e02ff24597743df3deaeb": {
+          "zh": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪",
+          "en": "Molot Arms Simonov OP-SKS 7.62x39 carbine"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 38
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 305
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 600
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 75
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 20
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 5.9
+        }
+      ],
+      "requiredItems": [
+        "5649a2464bdc2d91118b45a8"
+      ],
+      "requiredItemNames": {
+        "5649a2464bdc2d91118b45a8": {
+          "zh": "NcStar MPR45备用导轨",
+          "en": "NcSTAR MPR45 Backup mount"
+        }
+      },
+      "requiredCategories": [
+        "55818acf4bdc2dde698b456b",
+        "55818b164bdc2ddc698b456c",
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "55818acf4bdc2dde698b456b": {
+          "zh": "紧凑型反射式瞄具",
+          "en": "Compact reflex sight"
+        },
+        "55818b164bdc2ddc698b456c": {
+          "zh": "组合式战术设备",
+          "en": "Comb. tact. device"
+        },
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67618f93c508b3ae798a0239",
+      "name": {
+        "zh": "工具之道 - 第一章",
+        "en": "Tools To Work With - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67618aad83c2ba931e036514",
+      "name": {
+        "zh": "工具之道 - 第三章",
+        "en": "Tools To Work With - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_2.png",
+  "isKey": false
+}

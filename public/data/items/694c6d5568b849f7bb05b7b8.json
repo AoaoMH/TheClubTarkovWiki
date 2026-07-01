@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 40000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "NOS Original Energy Drink [Uncommon]",
+      "en": "NOS Original Energy Drink [Uncommon]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "NOS",
+      "en": "NOS"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 50,000₽ | 物品价值: 40,000 | Therapist报价: 25,200₽购买渠道 @ Therapist 等级3 < 40,000₽\n\nFuel Up. Fire Up. 100 mile an hour power. Thundering from top gear to no fear, the super-charged take charge. It's time to strap in, or sit it out. How Hard Will You Drive? High Performance Energy.",
+      "en": "跳蚤市场: 50,000₽ | 物品价值: 40,000 | Therapist报价: 25,200₽购买渠道 @ Therapist 等级3 < 40,000₽\n\nFuel Up. Fire Up. 100 mile an hour power. Thundering from top gear to no fear, the super-charged take charge. It's time to strap in, or sit it out. How Hard Will You Drive? High Performance Energy."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,72 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.6,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 20,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 3,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 3,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "WeightLimit",
+            "skillName": "",
+            "value": 0.1,
+            "delay": 1,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -3,
+            "delay": 300,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -1,
+            "delay": 300,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 300,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

@@ -1,0 +1,199 @@
+{
+  "id": "6761b7767e572e2e09758ad0",
+  "name": {
+    "zh": "工具之道 - 第十一章",
+    "en": "Tools To Work With - Part 11"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3275
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 175200,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 175200
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "57347c5b245977448d35f6e1",
+      "itemName": {
+        "zh": "螺栓",
+        "en": "Bolts"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "57347c77245977448d35f6e2",
+      "itemName": {
+        "zh": "螺母",
+        "en": "Screw nuts"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d6fc78386f77449d825f9dc",
+      "itemName": {
+        "zh": "“Eagle”火药",
+        "en": "Gunpowder \"Eagle\""
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d08d21286f774736e7c94c3",
+      "itemName": {
+        "zh": "Shturman 的储物箱钥匙 ☆",
+        "en": "Shturman's stash key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 15
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d015acfc400180ae6e4",
+      "itemName": {
+        "zh": "AK-102 5.56x45 突击步枪",
+        "en": "Kalashnikov AK-102 5.56x45 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c46fbd72e2216398b5a8c9c",
+      "itemName": {
+        "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+        "en": "SVDS 7.62x54R sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我手下有人急需一把新的射手步枪，最好是德拉贡诺夫。还能再帮我一次吗？\n\n这活儿不复杂，整枪重量控制在 7 公斤以内，至少能装 20 发，不要太大，瞄准距离至少 1500 米。还需要配个消音器、一只 X400 战术灯和一个 RMR 瞄具。我等你消息。\n\nSVDS 要求：\n - 后坐力总和小于 500\n - 重量小于 7.0 公斤\n - 人机功效 32 或更高\n - 耐久度至少 95 %\n - 弹匣容量 20 或更多\n - 高度占用 2格 或更少\n - “射击场”距离 1500米 或更多\n - 任意 消音器\n - Trijicon RMR\n - X400战术手电",
+    "en": "One of my guys needs a new marksman rifle, a Dragunov rifle would be ideal, can I rely on you again?\n\nShouldn't be too complicated, just under seven kilos, should hold at least twenty rounds, not too big, a sighting range of at least fifteen-hundred meters. A suppressor, X400 flashlight and a RMR reflex sight should be installed aswell. I suppose that I will hear from you soon?\n\nSVDS Requirements :\n - Recoil Sum less than 500\n - Weight less than 7.0 KG\n - Ergonomics 32 or higher\n - Durability higher than 95 %\n - Magazine Capacity of 20 or more\n - Height of 2 slots or less\n - Sighting Range of 1500 Meters or more\n - A Silencer\n - Trijicon RMR Reflex Sight\n - SureFire X400 Ultra Tactical Flashlight with Laser"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5c46fbd72e2216398b5a8c9c"
+      ],
+      "targetNames": {
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 32
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 500
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 1500
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 95
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 20
+        },
+        {
+          "stat": "height",
+          "compare": ">=",
+          "value": 2
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 7
+        }
+      ],
+      "requiredItems": [
+        "56def37dd2720bec348b456a",
+        "5a32aa8bc4a2826c6e06d737"
+      ],
+      "requiredItemNames": {
+        "56def37dd2720bec348b456a": {
+          "zh": "X400战术手电",
+          "en": "SureFire X400 Ultra tactical flashlight with laser"
+        },
+        "5a32aa8bc4a2826c6e06d737": {
+          "zh": "Trijicon RMR",
+          "en": "Trijicon RMR reflex sight"
+        }
+      },
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6761b5c9b3bcd9ade203f808",
+      "name": {
+        "zh": "工具之道 - 第十章",
+        "en": "Tools To Work With - Part 10"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6761ba4e01c1c7be63671968",
+      "name": {
+        "zh": "工具之道 - 第十二章",
+        "en": "Tools To Work With - Part 12"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_11.png",
+  "isKey": false
+}

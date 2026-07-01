@@ -1,0 +1,200 @@
+{
+  "id": "67488968207f0a42349fcf8b",
+  "name": {
+    "zh": "塔科夫扫地机器人：储备站",
+    "en": "Tarkov Cleaner - Reserve"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 37650
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 337250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 337250
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e54f62086f774219b0f1937",
+      "itemName": {
+        "zh": "乌鸦雕像",
+        "en": "Raven figurine"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60b0f561c4449e4cb624c1d7",
+      "itemName": {
+        "zh": "LVNDMARK的老鼠药",
+        "en": "LVNDMARK's rat poison"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d80cb3886f77440556dbf09",
+      "itemName": {
+        "zh": "RB-PSP1钥匙",
+        "en": "RB-PSP1 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ede7a8229445733cb4c18e2",
+      "itemName": {
+        "zh": "RB-PKPM 符号钥匙 ★",
+        "en": "RB-PKPM marked key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6357c98711fb55120211f7e1",
+      "itemName": {
+        "zh": "M203 40毫米下挂式榴弹发射器",
+        "en": "M203 40mm underbarrel grenade launcher"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "65fb023261d5829b2d090755",
+      "itemName": {
+        "zh": "U.S Ordnance M60E4 7.62x51轻机枪",
+        "en": "U.S. Ordnance M60E4 7.62x51 light machine gun"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e81ebcd8e146c7080625e15",
+      "itemName": {
+        "zh": "FN GL-40 Mk.2 榴弹发射器",
+        "en": "FN40GL Mk2 40mm grenade launcher"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我们正在尝试清理储备站，但这个地方极其危险，到处都是 Raider、Scav 和 PMC。此外，还有那个带着团队的前俄罗斯海军，他和他的手下装备着顶级护甲和武器，你必须小心应对。\n\n我需要一些位于基地内部的文件和科技设备。如果你能清理掉里面的威胁，我会派人进去取回这些物品。保持联系，祝你好运。",
+    "en": "So, we are making an attempt to raid the military base. It's also really dangerous, full of raiders, bandits and PMC operatives. There is also this former russian marine with his guys, top tier armor and weapons so be careful when you see them.\n\nI really need some documents and technology that is located in that base, I would be very grateful if you can clean up the base a little so I can send someone else in there again to grab the stuff I need. We will stay in touch."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerGluharAssault",
+        "followerGluharSecurity",
+        "followerGluharScout"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossGluhar"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674888b7cbd8479a005bda6e",
+      "name": {
+        "zh": "塔科夫扫地机器人：海关",
+        "en": "Tarkov Cleaner - Customs"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67488a105a77b869ebd0a968",
+      "name": {
+        "zh": "塔科夫扫地机器人：灯塔",
+        "en": "Tarkov Cleaner - Lighthouse"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_tarkovcleanerreserve.png",
+  "isKey": false
+}

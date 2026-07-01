@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 15000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Arizona Green Tea [Common]",
+      "en": "Arizona Green Tea [Common]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Arizona",
+      "en": "Arizona"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 20,000₽ | 物品价值: 15,000 | Therapist报价: 9,450₽购买渠道 @ Therapist 等级1 < 15,000₽\n\nTaste the tea that started it all, Arizona Tea has been brewing this exact iced tea since 1992! What’s their secret? Keeping it simple. This quality tea is a great-tasting and affordable bottled iced tea option for refrigerators everywhere. Arizona Tea is brewed from hand-selected premium tea leaves from all around the globe. Arizona Tea is available for bulk purchase in 16oz packs of 12. Select from five delicious and diverse Arizona Tea flavors that are sure to leave all tea-lovers tastebuds satisfied.",
+      "en": "跳蚤市场: 20,000₽ | 物品价值: 15,000 | Therapist报价: 9,450₽购买渠道 @ Therapist 等级1 < 15,000₽\n\nTaste the tea that started it all, Arizona Tea has been brewing this exact iced tea since 1992! What’s their secret? Keeping it simple. This quality tea is a great-tasting and affordable bottled iced tea option for refrigerators everywhere. Arizona Tea is brewed from hand-selected premium tea leaves from all around the globe. Arizona Tea is available for bulk purchase in 16oz packs of 12. Select from five delicious and diverse Arizona Tea flavors that are sure to leave all tea-lovers tastebuds satisfied."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,32 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Metabolism",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "WeightLimit",
+            "skillName": "",
+            "value": 0.03,
+            "delay": 1,
+            "duration": 300,
+            "chance": 1
+          }
+        ]
       }
     }
   },

@@ -11,6 +11,10 @@
   },
   "type": "Loyalty",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "TraderStanding",
@@ -29,14 +33,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 15,
+      "value": 4,
       "target": [
         "59faff1d86f7746c51718c9c"
       ],
       "onlyFoundInRaid": false,
       "targetNames": {
         "59faff1d86f7746c51718c9c": {
-          "zh": "实体比特币",
+          "zh": "实体比特币 ★",
           "en": "Physical Bitcoin"
         }
       }

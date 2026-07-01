@@ -1,0 +1,119 @@
+{
+  "id": "66c155ada8d7150863c89499",
+  "name": {
+    "zh": "PMC特训：地毯式搜刮 - 第三章",
+    "en": "PMC Training - Looter - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7550
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 17520,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 17520
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60a6220e953894617404b00a",
+      "itemName": {
+        "zh": "Stich Profi MK2胸挂（侦察型，A-TACS FG迷彩）",
+        "en": "Stich Profi Chest Rig MK2 (Recon, A-TACS FG)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60a621c49c197e4e8c4455e6",
+      "itemName": {
+        "zh": "Stich Profi MK2胸挂（突击型，A-TACS FG迷彩）",
+        "en": "Stich Profi Chest Rig MK2 (Assault, A-TACS FG)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "628e1ffc83ec92260c0f437f",
+      "itemName": {
+        "zh": "Gruppa 99 T30背包（黑色）",
+        "en": "Gruppa 99 T30 backpack (Black)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e6a1586f77404597b4965",
+      "itemName": {
+        "zh": "Poyas-A + Poyas-B 复合胸挂",
+        "en": "Poyas-A + Poyas-B gear rig"
+      }
+    }
+  ],
+  "description": {
+    "zh": "看来你需要更多的装备，好吧，我有装备。继续训练你的搜刮技能和耐力，捡起你能找到的所有好东西，你知道该卖给谁或用来干什么。一旦装满了就赶紧撤离。",
+    "en": "Looks like you need more gear, alright, I got gear. Keep training your looting skills and your endurance, pick up whatever good stuff you can find, you know who to sell it to or what to use it for. And get out of there once you are full."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Attention",
+      "value": 5,
+      "target": "Attention"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: Search",
+      "value": 5,
+      "target": "Search"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: Endurance",
+      "value": 5,
+      "target": "Endurance"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66c021dc9289486ef682c2e4",
+      "name": {
+        "zh": "PMC特训：地毯式搜刮 - 第二章",
+        "en": "PMC Training - Looter - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c156226ac87e4431cb0feb",
+      "name": {
+        "zh": "PMC特训：地毯式搜刮 - 第四章",
+        "en": "PMC Training - Looter - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_loot.png",
+  "isKey": false
+}

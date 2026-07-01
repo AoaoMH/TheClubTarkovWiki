@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -67,7 +71,7 @@
       "onlyFoundInRaid": false,
       "targetNames": {
         "5d1b376e86f774252519444e": {
-          "zh": "“凶狠跑刀崽”私酒",
+          "zh": "“凶狠跑刀崽”私酒 ☆",
           "en": "Bottle of Fierce Hatchling moonshine"
         }
       }
@@ -75,8 +79,7 @@
     {
       "type": "Exploration",
       "description": "Exploration: Time",
-      "value": 1,
-      "location": "TarkovStreets,Woods"
+      "value": 1
     }
   ],
   "prerequisites": [

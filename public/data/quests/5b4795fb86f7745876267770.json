@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -36,7 +40,7 @@
       "value": 1,
       "itemId": "59faf7ca86f7740dbe19f6c2",
       "itemName": {
-        "zh": "劳力土潜水金腕表",
+        "zh": "劳力土潜水金腕表 ☆",
         "en": "Roler Submariner gold wrist watch"
       },
       "quantity": 1
@@ -102,19 +106,14 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 5,
+      "value": 1,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
           "zh": "AnyPmc",
           "en": "AnyPmc"
         }
-      },
-      "daytime": {
-        "from": 22,
-        "to": 10
-      },
-      "location": "Interchange"
+      }
     }
   ],
   "prerequisites": [

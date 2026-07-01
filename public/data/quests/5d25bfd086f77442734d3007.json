@@ -11,6 +11,10 @@
   },
   "type": "Experience",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -59,9 +63,8 @@
   "objectives": [
     {
       "type": "Experience",
-      "description": "Experience: HealthEffect",
-      "value": 1,
-      "location": "laboratory,bigmap,Sandbox,RezervBase,Interchange,Shoreline,Woods,TarkovStreets,Lighthouse"
+      "description": "Experience: Kills",
+      "value": 0
     },
     {
       "type": "Completion",

@@ -1,0 +1,170 @@
+{
+  "id": "68c422298f2722ca9f7d24a3",
+  "name": {
+    "zh": "生命之花",
+    "en": "Flower Of Life"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": -0.05
+    },
+    {
+      "type": "Item",
+      "value": 150000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 150000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c651286f7741e566b6461",
+      "itemName": {
+        "zh": "袖珍日记",
+        "en": "Slim diary"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bc9c049d4351e44f824d360",
+      "itemName": {
+        "zh": "破旧的古董书",
+        "en": "Battered antique book"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590de71386f774347051a052",
+      "itemName": {
+        "zh": "古董茶壶",
+        "en": "Antique teapot"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e3658a86f7741776641ac4",
+      "itemName": {
+        "zh": "猫雕像",
+        "en": "Cat figurine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Crafting",
+      "value": 200
+    },
+    {
+      "type": "Skill",
+      "target": "HideoutManagement",
+      "value": 200
+    }
+  ],
+  "description": {
+    "zh": "嘿！生活怎么样？一切都好吗？酷！\n\n我被告知了一些当前的事件，实际上并没有影响我，但在某种程度上引起了我的注意……这是关于Ref的吗？呃……我有点厌倦了这些东西，但另一方面，我真的很想从中获利，而以任何方式损害他的竞技场生意对我来说总是一场胜利。显然最近一些走私者被干掉了？严重损害我自己生意的走私者！我必须参与进来，你知道吗？\n\n如果你知道任何事情，或者如果你有办法在这里帮忙，如果你能让自己在这里派上用场，我会超级感激，我有些多余的装备你可能会喜欢，而且没人准备买，所以免费得到它可能是你感兴趣的事情，嗯？",
+    "en": "Hey there! How's life? Everything alright? Cool!\n\nI was informed about some current events, nothing that affects me actually but it did catch my attention in some way... Is this about Ref? Ugh... I am kinda tired of this stuff, but on the other side I would really like to profit from this, and damaging his Arena business in any way is always a win on my side. Apparently some smugglers were taken down recently? Smugglers that seriously damage my own business! I just have to get involved in here, you know?\n\nIf you know about anything, or if you have some way of helping here, I'd be super grateful if you would be able to make yourself useful here, I have some extra gear you might like and nobody is ready to buy it so getting it for free might be something you'd be interested it, hmm?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "67409848d0b2f8eb9b034db9",
+        "674098588466ebb03408b210",
+        "67408903268737ef6908d432"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67409848d0b2f8eb9b034db9": {
+          "zh": "密封的盒子",
+          "en": "Sealed box"
+        },
+        "674098588466ebb03408b210": {
+          "zh": "开启的盒子",
+          "en": "Opened box"
+        },
+        "67408903268737ef6908d432": {
+          "zh": "违禁品盒子",
+          "en": "Contraband box"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "67409848d0b2f8eb9b034db9",
+        "674098588466ebb03408b210",
+        "67408903268737ef6908d432"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67409848d0b2f8eb9b034db9": {
+          "zh": "密封的盒子",
+          "en": "Sealed box"
+        },
+        "674098588466ebb03408b210": {
+          "zh": "开启的盒子",
+          "en": "Opened box"
+        },
+        "67408903268737ef6908d432": {
+          "zh": "违禁品盒子",
+          "en": "Contraband box"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c31f71aa355c62f3b4f6e3",
+      "name": {
+        "zh": "违禁品 - 第3部分",
+        "en": "Contraband - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c42fd92a030b87c52e2f65",
+      "name": {
+        "zh": "准备出口",
+        "en": "Ready To Export"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_lotus.png",
+  "isKey": false
+}

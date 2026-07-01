@@ -11,6 +11,10 @@
   },
   "type": "Discover",
   "location": "marathon",
+  "locationName": {
+    "zh": "马拉松",
+    "en": "Marathon"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -56,7 +60,7 @@
       "value": 3,
       "itemId": "65702561cfc010a0f5006a28",
       "itemName": {
-        "zh": "7.62x51 BCP FMJ弹药包（20发装）",
+        "zh": "7.62x51 BCP FMJ弹药包（20发装） ★",
         "en": "7.62x51mm BCP FMJ ammo pack (20 pcs)"
       },
       "quantity": 1
@@ -98,8 +102,7 @@
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "Woods"
+      "value": 1
     },
     {
       "type": "LeaveItemAtLocation",

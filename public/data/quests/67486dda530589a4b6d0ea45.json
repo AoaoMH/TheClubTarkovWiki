@@ -1,0 +1,330 @@
+{
+  "id": "67486dda530589a4b6d0ea45",
+  "name": {
+    "zh": "西方连线 - 第一章",
+    "en": "The Western Connection - Part 1"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1150,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1150
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60098ad7c2240c0fe85c570a",
+      "itemName": {
+        "zh": "AFAK单兵战术急救包",
+        "en": "AFAK tactical individual first aid kit"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 7,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装） ★",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 7
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5b099ac65acfc400186331e1",
+      "itemName": {
+        "zh": "7.62x51 20发FAL/SA-58弹匣",
+        "en": "SA58/FAL 7.62x51 20-round magazine"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5f2a9575926fd9352339381f",
+      "itemName": {
+        "zh": "Kel-Tec RFB 7.62x51",
+        "en": "Kel-Tec RFB 7.62x51 rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Strength",
+      "value": 125
+    },
+    {
+      "type": "Skill",
+      "target": "Attention",
+      "value": 125
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 125
+    }
+  ],
+  "description": {
+    "zh": "那么，你对我为你准备的工作感兴趣吗，雇佣兵？很好！这任务听起来简单，但可能会有些难度。不过你是这方面的专家，所以我相信你不会遇到任何问题。\n\n我和我的人需要一些新的电脑组件来配备更多设备。我会发给你一份清单，上面列出了所有需要找到的特定部件。确保带回干净且能正常使用的部件，所以请亲自去搜寻。\n现在就开始工作吧，完成后我会等你的消息。",
+    "en": "Okay, so you are interested in my job offer that I have for you mercenary? Good! It will sound simple but it might be quite difficult, you are an expert at this so I will assume you will not have any problems with this.\n\nMe and my men need new PC components for a few more computers, I will send you the list of all the specific parts that you will need to find for us, and make sure to bring us clean ones that are still working, so find them yourself.\nNow get to work, I will hear from you when you completed the job."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "57347c2e24597744902c94a1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347c2e24597744902c94a1": {
+          "zh": "供电单元",
+          "en": "Power supply unit"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "57347c2e24597744902c94a1"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347c2e24597744902c94a1": {
+          "zh": "供电单元",
+          "en": "Power supply unit"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "573477e124597737dd42e191"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "573477e124597737dd42e191": {
+          "zh": "电脑CPU",
+          "en": "PC CPU"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "573477e124597737dd42e191"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "573477e124597737dd42e191": {
+          "zh": "电脑CPU",
+          "en": "PC CPU"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5734779624597737e04bf329"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5734779624597737e04bf329": {
+          "zh": "CPU风扇",
+          "en": "CPU fan"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5734779624597737e04bf329"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5734779624597737e04bf329": {
+          "zh": "CPU风扇",
+          "en": "CPU fan"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "59e36c6f86f774176c10a2a7"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e36c6f86f774176c10a2a7": {
+          "zh": "电源线",
+          "en": "Power cord"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "59e36c6f86f774176c10a2a7"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59e36c6f86f774176c10a2a7": {
+          "zh": "电源线",
+          "en": "Power cord"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "5c06779c86f77426e00dd782"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c06779c86f77426e00dd782": {
+          "zh": "电线",
+          "en": "Bundle of wires"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "5c06779c86f77426e00dd782"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c06779c86f77426e00dd782": {
+          "zh": "电线",
+          "en": "Bundle of wires"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "590a3b0486f7743954552bdb"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3b0486f7743954552bdb": {
+          "zh": "印制电路板",
+          "en": "Printed circuit board"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "590a3b0486f7743954552bdb"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590a3b0486f7743954552bdb": {
+          "zh": "印制电路板",
+          "en": "Printed circuit board"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "57347ca924597744596b4e71"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347ca924597744596b4e71": {
+          "zh": "显示卡 ☆",
+          "en": "Graphics card"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "57347ca924597744596b4e71"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347ca924597744596b4e71": {
+          "zh": "显示卡 ☆",
+          "en": "Graphics card"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67486d24c4944822ad6f8d57",
+      "name": {
+        "zh": "和平使者",
+        "en": "Keeping The Peace"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67486e6cca3b547b79d43af0",
+      "name": {
+        "zh": "西方连线 - 第二章",
+        "en": "The Western Connection - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_peacekeeper.png",
+  "isKey": false
+}

@@ -1,0 +1,148 @@
+{
+  "id": "67975be9dd6554c393ad5183",
+  "name": {
+    "zh": "无名指引",
+    "en": "Anonymous Lead"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9950
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 3000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 3000
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b057b4f5acfc4771e1bd3e9",
+      "itemName": {
+        "zh": "SE-5 Express握把",
+        "en": "Stark SE-5 Express Forward foregrip"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "655df24fdf80b12750626d0a",
+      "itemName": {
+        "zh": "Stark SE-5 Express Forward握把（FDE）",
+        "en": "Stark SE-5 Express Forward foregrip (FDE)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，今天又有一项重要的任务交给你，我希望你能以专业的态度来对待。\n\n最近，有个疯子在本地区制造了不少麻烦，杀害了大量平民和 PMC，就连叛逃的 USEC 和他们的头目都没能幸免。我们的上级对此非常不满，所以我正在雇人收集一切有价值的情报，来查出到底是谁干的。\n\n我们收到过几封匿名消息，虽然内容经过加密，但我派出的小组已经解码了。现在我们唯一能确认的关键词是“海岸线”和“疗养院”，但你也知道疗养院有多大，我不认为我们应该浪费时间地毯式搜索。\n\n你怎么说？只要你能提供对案件有帮助的线索，我愿意为此付出一大笔钱。",
+    "en": "Good day, there is another job for you, it's of great importance, so I expect professional behaviour.\n\nLately some psycho caused a bit of trouble in the region and killed a ton of locals and PMCs, even the rogue USECs and their leaders suffered losses. Anyway, our superiors did not enjoy that show, so I am hiring people that are able to provide useful information to figure out who the culprit of this work was.\n\nWe received multiple anonymous messages but they were decrypted so I had a team figuring something out. The only information we got at the moment is \"Azure Coast\" and \"Resort\", but considering how big the health resort is I doubt we should waste any time searching the place.\n\nSo what will it be, friend? I am willing to pay a fortune for something that will help our case."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5eff09cd30a7dc22fd1ddfed"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5eff09cd30a7dc22fd1ddfed": {
+          "zh": "粘有胶带的疗养院办公室钥匙 ☆",
+          "en": "Health Resort office key with a blue tape"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5eff09cd30a7dc22fd1ddfed"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5eff09cd30a7dc22fd1ddfed": {
+          "zh": "粘有胶带的疗养院办公室钥匙 ☆",
+          "en": "Health Resort office key with a blue tape"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5efde6b4f5448336730dbd61"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5efde6b4f5448336730dbd61": {
+          "zh": "蓝色记号钥匙卡 ☆",
+          "en": "Keycard with a blue marking"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5efde6b4f5448336730dbd61"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5efde6b4f5448336730dbd61": {
+          "zh": "蓝色记号钥匙卡 ☆",
+          "en": "Keycard with a blue marking"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67967b160fcf8aff0d6447d2",
+      "name": {
+        "zh": "伪造现场 - 第二章",
+        "en": "Planting The Evidence - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67975a790a4f9c2f44fe2911",
+      "name": {
+        "zh": "提交证据",
+        "en": "Providing The Evidence"
+      }
+    },
+    {
+      "id": "67975ca4361138b7d78ff0ce",
+      "name": {
+        "zh": "问题解法",
+        "en": "One Way To Solve A Problem"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_peacekeeper.png",
+  "isKey": false
+}

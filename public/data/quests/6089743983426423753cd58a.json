@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -59,16 +63,15 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 10,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
           "zh": "Savage",
           "en": "Savage"
         }
-      },
-      "location": "RezervBase,develop"
+      }
     }
   ],
   "prerequisites": [

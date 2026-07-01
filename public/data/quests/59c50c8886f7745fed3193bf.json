@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -60,20 +64,19 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 12,
+      "value": 3,
       "target": "Savage",
       "targetNames": {
         "Savage": {
           "zh": "Savage",
           "en": "Savage"
         }
-      },
-      "location": "RezervBase"
+      }
     },
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 7,
+      "value": 2,
       "target": [
         "572b7fa524597762b747ce82"
       ],
@@ -88,7 +91,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 7,
+      "value": 2,
       "target": [
         "572b7fa524597762b747ce82"
       ],

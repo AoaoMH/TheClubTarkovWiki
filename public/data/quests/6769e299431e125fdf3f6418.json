@@ -1,0 +1,152 @@
+{
+  "id": "6769e299431e125fdf3f6418",
+  "name": {
+    "zh": "塔科夫环卫工 - 第二章",
+    "en": "Tarkov Sweeper - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 985,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 985
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d4042a986f7743185265463",
+      "itemName": {
+        "zh": "长平头螺丝刀",
+        "en": "Flat screwdriver (Long)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a0a0bb621468534a797ad5",
+      "itemName": {
+        "zh": "\"Master\"锉刀套装",
+        "en": "Set of files \"Master\""
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d403f9186f7743cac3f229b",
+      "itemName": {
+        "zh": "Dan Jackiel瓶装威士忌",
+        "en": "Bottle of Dan Jackiel whiskey"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "65702474bfc87b3a34093226",
+      "itemName": {
+        "zh": "25发12/70 箭形弹盒装弹药 ☆",
+        "en": "12/70 flechette ammo pack (25 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "Shotgun",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e848cc2988a8701445df1e8",
+      "itemName": {
+        "zh": "TOZ KS-23M 23x75 毫米泵动式霰弹枪",
+        "en": "TOZ KS-23M 23x75mm pump-action shotgun"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656fa8d700d62bcd2e024084",
+      "itemName": {
+        "zh": "Cult Locust防弹插板",
+        "en": "Cult Locust ballistic plate"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我觉得看看这些武器的实际作战表现会很有趣，你觉得呢？\n\n这把武器如果在对抗中表现不好，也卖不出去，对吧？所以为什么不带上这把枪，击杀所有与你交手的人，完成后再回来找我，明白了吗？",
+    "en": "I guess it would be interesting to see how these things perform, you thinking the same as me?\n\nThis weapon won't sell if it can't be used well enough against other people, you know? So why don't you take this weapon and take down anyone that crosses paths with you, and come back when you're done, understood?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "66ffa9b66e19cc902401c5e8",
+        "67124dcfa3541f2a1f0e788b"
+      ],
+      "weaponNames": {
+        "66ffa9b66e19cc902401c5e8": {
+          "zh": "MPS Auto Assault-12 Gen 1 12铅径自动霰弹枪",
+          "en": "MPS Auto Assault-12 Gen 1 12ga automatic shotgun"
+        },
+        "67124dcfa3541f2a1f0e788b": {
+          "zh": "MPS Auto Assault-12 Gen 2 12铅径自动霰弹枪",
+          "en": "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6769dddf9e215aa4c1874dd3",
+      "name": {
+        "zh": "塔科夫环卫工 - 第一章",
+        "en": "Tarkov Sweeper - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6769e445b00ee084f16bbfbb",
+      "name": {
+        "zh": "塔科夫环卫工 - 第三章",
+        "en": "Tarkov Sweeper - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_aa12.png",
+  "isKey": false
+}

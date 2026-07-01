@@ -1,0 +1,278 @@
+{
+  "id": "6747b5ed539d24e909acae8f",
+  "name": {
+    "zh": "莲花之光 - 第十八章",
+    "en": "Light Of The Lotus - Part 18"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5b0fc42d86f7744a585f9105",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1950,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1950
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57347ca924597744596b4e71",
+      "itemName": {
+        "zh": "显示卡 ☆",
+        "en": "Graphics card"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e3639286f7741777737013",
+      "itemName": {
+        "zh": "青铜狮雕",
+        "en": "Bronze lion figurine"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1d0d6d86f7744bb2683e1f",
+      "itemName": {
+        "zh": "实验室钥匙卡·黄  ★",
+        "en": "TerraGroup Labs keycard (Yellow)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5dcbd56fdbd3d91b3e5468d5",
+      "itemName": {
+        "zh": "沙漠科技 MDR 7.62x51 突击步枪",
+        "en": "Desert Tech MDR 7.62x51 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6719023b612cc94b9008e78c",
+      "itemName": {
+        "zh": "AA-12 枪托套组 (TerraGroup)",
+        "en": "AA-12 stock assembly (TerraGroup)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "56dff026d2720bb8668b4567",
+      "itemName": {
+        "zh": "5.45x39毫米 BS",
+        "en": "5.45x39mm BS gs"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fd20ff893a8961fc660a954",
+      "itemName": {
+        "zh": ".300 AAC 黑弹 AP",
+        "en": ".300 Blackout AP"
+      }
+    }
+  ],
+  "description": {
+    "zh": "听好了，首先你还记得我告诉过你关于我的那个PMC朋友的事吗？他曾是BEAR，他在TerraGroup集团实验室内发现了USEC干的坏事的文件和证据。他还找到了一些安全摄像头的录像，显示他们将尸体丢进了电梯井里，我看着像是在地下室。我希望你能去调查一下，我想它应该在楼梯井附近的某个地方。\n\n此外，我还需要你检查那个地方的所有计算机办公室，我已经列给你了它们所在区域的清单。\n\n如果你想自己亲自确认的话，可以查看实验室里的地图，上面标注了所有区域！\n同时，我需要情报文件和比特币数据，确保它们是新的，我就指望你了。",
+    "en": "Listen up, so first of all do you remember how I told you about that one friend of mine who was a former PMC? Well he was a BEAR, found documents and proof of bad shit that the USECs did inside the Terragroup lab, he found security camera footage of them dumping bodies into an elevator shaft, I think it was inside the basement. I want you to check it out, I think it was somewhere near the stairwells.\nAlso I need you to check out all the computer offices inside that place, I sent you the list of the sections where they are located.\n\nLook for the maps in the lab that have all the sections marked if you want to be sure!\nAnd while you are at, I need intelligence folder and bitcoin data, make sure to bring clean ones, I count on you."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_elevatorwithbodies",
+      "targetNames": {
+        "lotus_labs_elevatorwithbodies": {
+          "zh": "lotus_labs_elevatorwithbodies",
+          "en": "lotus_labs_elevatorwithbodies"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_section_b22",
+      "targetNames": {
+        "lotus_labs_section_b22": {
+          "zh": "lotus_labs_section_b22",
+          "en": "lotus_labs_section_b22"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_section_o22",
+      "targetNames": {
+        "lotus_labs_section_o22": {
+          "zh": "lotus_labs_section_o22",
+          "en": "lotus_labs_section_o22"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_section_o23",
+      "targetNames": {
+        "lotus_labs_section_o23": {
+          "zh": "lotus_labs_section_o23",
+          "en": "lotus_labs_section_o23"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_section_o13",
+      "targetNames": {
+        "lotus_labs_section_o13": {
+          "zh": "lotus_labs_section_o13",
+          "en": "lotus_labs_section_o13"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_section_r22",
+      "targetNames": {
+        "lotus_labs_section_r22": {
+          "zh": "lotus_labs_section_r22",
+          "en": "lotus_labs_section_r22"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_section_r23",
+      "targetNames": {
+        "lotus_labs_section_r23": {
+          "zh": "lotus_labs_section_r23",
+          "en": "lotus_labs_section_r23"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c12613b86f7743bbe2c3f76"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c12613b86f7743bbe2c3f76": {
+          "zh": "情报文件夹 ★",
+          "en": "Intelligence folder"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c12613b86f7743bbe2c3f76"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c12613b86f7743bbe2c3f76": {
+          "zh": "情报文件夹 ★",
+          "en": "Intelligence folder"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "59faff1d86f7746c51718c9c"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59faff1d86f7746c51718c9c": {
+          "zh": "实体比特币 ★",
+          "en": "Physical Bitcoin"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "59faff1d86f7746c51718c9c"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59faff1d86f7746c51718c9c": {
+          "zh": "实体比特币 ★",
+          "en": "Physical Bitcoin"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747b568ffb78dbbb8a7968d",
+      "name": {
+        "zh": "莲花之光 - 第十七章",
+        "en": "Light Of The Lotus - Part 17"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747b6d1b00b3bfcb6b02f94",
+      "name": {
+        "zh": "莲花之光 - 第十九章",
+        "en": "Light Of The Lotus - Part 19"
+      }
+    },
+    {
+      "id": "674880a157d7033368abfe10",
+      "name": {
+        "zh": "登山者",
+        "en": "Alpinist"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_18.png",
+  "isKey": false
+}

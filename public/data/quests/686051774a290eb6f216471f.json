@@ -1,0 +1,60 @@
+{
+  "id": "686051774a290eb6f216471f",
+  "name": {
+    "zh": "武器回收",
+    "en": "Arms Recovery"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Discover",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "66839591f4d0cba7b041b2af",
+      "itemName": {
+        "zh": "\"爱国者\" M4A1 5.56x45 卡宾枪",
+        "en": "Patriot M4A1 5.56x45 carbine"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock"
+    }
+  ],
+  "description": {
+    "zh": "我追查到一批北约武器被送到了海关。我们不确定具体是什么武器，但我要你去找到它们，替我把货标记出来！",
+    "en": "I tracked down tracked down a shipment of NATO weapons that was delivered to Customs. We aren't sure what the weapons are, but I want you to go and track them down and mark the shipment for me!"
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/ArmsRecovery_Quest.png",
+  "isKey": false
+}

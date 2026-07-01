@@ -1,0 +1,106 @@
+{
+  "id": "67486879604d84c3e3e3ddd0",
+  "name": {
+    "zh": "东方联盟 - 第三章",
+    "en": "Eastern Reliability - Part 3"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 62500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 62500
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "57372ac324597767001bc261",
+      "itemName": {
+        "zh": "5.45x39mm BP弹药包（30发装）",
+        "en": "5.45x39mm BP gs ammo pack (30 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 150
+    }
+  ],
+  "description": {
+    "zh": "我们得把强度拉上来一点了，这些现代化的 5.45 口径卡拉什尼科夫步枪必须测试一下，装上 Zenit 护木和任意型号的 Hexagon 消音器。\n\n我建议你选一根稍长的枪管，毕竟你不会总是在贴脸距离作战，找准合适的战斗节奏才是关键。\n\n去森林找些目标开火试试，看看它们在各个距离下的表现如何。测试完之后回来向我报告结果。\n\n森林里战斗距离多变，你可能一秒前还在山顶对狙，下一秒就被藏在灌木里的家伙近身突脸了！",
+    "en": "Let's step it up a bit, I need these modern 5.45 Kalashnikov rifles tested, fitted with zenit handguards and hexagon suppressors, any kind! A longer barrel might come in handy, you won't be fighting others over short distances every time after all. It's important to find a balance.\n\nGo fire around with them in the forest, take out whoever you see, see how they perform, and come back to me when you tested their limits.\n\nYou're gonna get a decent mix of long, medium and short ranges, don't expect people to sit around waiting for you on a hill on an open field, someone might also be sitting right next to you in the bushes!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5ac4cd105acfc40016339859",
+        "5ac66d9b5acfc4001633997a"
+      ],
+      "weaponNames": {
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        },
+        "5ac66d9b5acfc4001633997a": {
+          "zh": "AK-105 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674867cce36d92b3c23ec4de",
+      "name": {
+        "zh": "东方联盟 - 第二章",
+        "en": "Eastern Reliability - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6748690cb0fff3f2a5ba3d47",
+      "name": {
+        "zh": "东方联盟 - Part 4",
+        "en": "Eastern Reliability - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_easternreliability_3_prapor.png",
+  "isKey": false
+}

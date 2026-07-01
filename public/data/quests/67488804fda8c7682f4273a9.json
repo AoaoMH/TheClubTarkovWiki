@@ -1,0 +1,258 @@
+{
+  "id": "67488804fda8c7682f4273a9",
+  "name": {
+    "zh": "塔科夫扫地机器人：海岸线",
+    "en": "Tarkov Cleaner - Shoreline"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 33650
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 295250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 295250
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "655c67782a1356436041c9c5",
+      "itemName": {
+        "zh": "Ryzhy小人",
+        "en": "Ryzhy figurine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b37eb4acff495a29492407",
+      "itemName": {
+        "zh": "Viibiin运动鞋",
+        "en": "Viibiin sneaker"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "64acea16c4eda9354b0226b0",
+      "itemName": {
+        "zh": "7.62x39mm BP gzh弹药包（20发装）",
+        "en": "7.62x39mm BP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "657025dabfc87b3a34093256",
+      "itemName": {
+        "zh": "20发9x39 SP-6 gs盒装弹药",
+        "en": "9x39mm SP-6 gs ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c093db286f7740a1b2617e3",
+      "itemName": {
+        "zh": "Mr. Holodilnick保温箱",
+        "en": "Mr. Holodilnick thermal bag"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "637b60c3b7afa97bfc3d7001",
+      "itemName": {
+        "zh": "Obdolbos 2 鸡尾酒兴奋剂注射器 ★",
+        "en": "Obdolbos 2 cocktail injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "65118f531b90b4fc77015083",
+      "itemName": {
+        "zh": "VSS/VAL 9x39 30发弹匣",
+        "en": "VSS/VAL 9x39 30-round magazine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，感觉怎么样？工厂的任务确实不算什么大挑战。现在，我们该处理更大的目标了——海岸线。\n\n有小道消息称，三狗也在那里频繁出没，所以一定要小心行事。另外，晚上要格外警惕，因为邪教徒似乎也在那里活动。完成任务后，记得联系我。",
+    "en": "Good day, feeling alright? Yeah, the factory aint so special I know. We are moving onto bigger targets now. The Azure Coast.\n\nPeople reported seeing the imports there so be careful. And be careful where you go at night, the cultists seem to be there aswell. I will hear from you after you are finished."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantWarrior"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerSanitar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossSanitar"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKnight"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBigPipe"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBirdEye"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6748874a2aed4c92ecf06204",
+      "name": {
+        "zh": "塔科夫扫地机器人：工厂",
+        "en": "Tarkov Cleaner - Factory"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67488a105a77b869ebd0a968",
+      "name": {
+        "zh": "塔科夫扫地机器人：灯塔",
+        "en": "Tarkov Cleaner - Lighthouse"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_tarkovcleanershoreline.png",
+  "isKey": false
+}

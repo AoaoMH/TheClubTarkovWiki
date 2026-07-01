@@ -1,0 +1,175 @@
+{
+  "id": "676b0de9ab6151bd15ce350e",
+  "name": {
+    "zh": "危险工具",
+    "en": "Dangerous Tools"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 17500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 165250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 165250
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57347d90245977448f7b7f65",
+      "itemName": {
+        "zh": "一盒燕麦片",
+        "en": "Pack of oat flakes"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6570aead4d84f81fd002a033",
+      "itemName": {
+        "zh": "Death Shadow轻量化防弹面罩",
+        "en": "Death Shadow lightweight armored mask"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ac8d6885acfc400180ae7b0",
+      "itemName": {
+        "zh": "Ops-Core FAST MT Super High Cut 头盔（城市褐）",
+        "en": "Ops-Core FAST MT Super High Cut helmet (Urban Tan)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "AttachedLauncher",
+      "value": 200
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b44cad286f77402a54ae7e5",
+      "itemName": {
+        "zh": "5.11 Tactical TacTec 插板胸挂（丛林绿）",
+        "en": "5.11 Tactical TacTec plate carrier (Ranger Green)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ca2113f86f7740b2547e1d2",
+      "itemName": {
+        "zh": "Vulkan-5面罩",
+        "en": "Vulkan-5 helmet face shield"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac4cd105acfc40016339859",
+      "itemName": {
+        "zh": "AK-74M 5.45x39 突击步枪",
+        "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，士兵，我又给你找了些活儿，感兴趣吗？太好了！\n我刚搞到一批M203下挂榴弹发射器，但还没找人测试过，所以得请你帮个忙。你能用这榴弹发射器或者装上了它的武器干掉几个目标吗？那再好不过了，等你的消息。",
+    "en": "Well hello soldier, I got something for you again, you interested? Great!\nI just got access to M203 underbarrel grenade launchers, but I didn't have anyone to test them out, so I need your help here. Are you able to take out some targets with the grenadelauncher or weapons that have it attached? That would be great, I'll hear from you later."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5c07c60e0db834002330051f",
+        "5d43021ca4b9362eab4b5e25",
+        "5447a9cd4bdc2dbd208b4567"
+      ],
+      "weaponNames": {
+        "5c07c60e0db834002330051f": {
+          "zh": "ADAR 2-15 .223 卡宾枪",
+          "en": "ADAR 2-15 5.56x45 carbine"
+        },
+        "5d43021ca4b9362eab4b5e25": {
+          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪 ☆",
+          "en": "Lone Star TX-15 DML 5.56x45 carbine"
+        },
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "6357c98711fb55120211f7e1"
+      ],
+      "weaponNames": {
+        "6357c98711fb55120211f7e1": {
+          "zh": "M203 40毫米下挂式榴弹发射器",
+          "en": "M203 40mm underbarrel grenade launcher"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747c312165746c2dd1e19f2",
+      "name": {
+        "zh": "“将死！” - 第七章",
+        "en": "Checkmate - Part 7"
+      }
+    },
+    {
+      "id": "676afe70fdedf195aaaccf56",
+      "name": {
+        "zh": "暴徒山芋 - 第 2 章",
+        "en": "Adapting To Bandits - Part 2"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_dangeroustools.png",
+  "isKey": false
+}

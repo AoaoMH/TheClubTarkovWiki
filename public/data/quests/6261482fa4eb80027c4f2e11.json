@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "TraderStanding",
@@ -26,15 +30,25 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 4,
+      "value": 1,
       "target": [
-        "5c46fbd72e2216398b5a8c9c"
+        "5c46fbd72e2216398b5a8c9c",
+        "6657bc8faeddd6b0a9b40224",
+        "6657bd4d3a4d6e7c33fd2fdc"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c46fbd72e2216398b5a8c9c": {
           "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
           "en": "SVDS 7.62x54R sniper rifle"
+        },
+        "6657bc8faeddd6b0a9b40224": {
+          "zh": "SVD 7.62x54R 狙击步枪",
+          "en": "SVD 7.62x54R sniper rifle"
+        },
+        "6657bd4d3a4d6e7c33fd2fdc": {
+          "zh": "SVD 7.62x54R 狙击步枪（迷彩）",
+          "en": "SVD 7.62x54R sniper rifle (Camo)"
         }
       }
     }

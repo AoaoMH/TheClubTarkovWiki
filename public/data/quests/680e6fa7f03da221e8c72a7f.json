@@ -1,0 +1,129 @@
+{
+  "id": "680e6fa7f03da221e8c72a7f",
+  "name": {
+    "zh": "冠军如何生活",
+    "en": "How Champions Live"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 45,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 45
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bd70322209c4d00d7167b8f",
+      "itemName": {
+        "zh": "HK MP7A2 4.6x30 微型冲锋枪",
+        "en": "HK MP7A2 4.6x30 submachine gun"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fc3f2d5900b1d5091531e57",
+      "itemName": {
+        "zh": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+        "en": "TDI KRISS Vector Gen.2 9x19 submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "那么，他说了什么？他知道些什么吗？不知道？要我说的话非常可疑。\n\n但在有更多证据之前我们不能轻举妄动！还是有办法获取一些信息的。有些竞技场冠军仍然在塔科夫地区的某处藏着他们的藏身处，有四个特定的我们需要查看。有个角斗士，叫Shatun，他藏在Priozersk的一个村庄里。其他几个是Grumpy、Voron和Leon，他们也都有藏身处，我想其中一个住在ULTRA商场外的发电站里，另一个住在疗养院附近，那个叫Leon的家伙住在USEC基地附近的一个老房子里。\n\n你应该去看看房间的状况，也许已经被打开了，但也可能还锁着，就靠你去发现了。你能做到吗？我就指望你了，冠军。",
+    "en": "So, what did he say? Does he know something? No? Very suspicious if you ask me. But we can't make a move until we have more proof!\n\nThere are still ways to gain some information. Some of the Arena champions still have their hideout hidden somewhere across the Tarkov region, there are four specific ones that we should check on. There was this gladiator, Shatun was his name, he hid in a village in Priozersk. The others were Grumpy, Voron and Leon, all of them had a hideout aswell, I think one of them lived inside the power station outside the ULTRA mall, another one was living near the health resort and the Leon guy lived in an old house near the USEC base.\n\nYou should check on the room's condition, maybe they were opened up already, but maybe they are still locked, your job to find out. Can you do that? I'm counting on you champion."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_shatun_hideout",
+      "targetNames": {
+        "lotus_woods_shatun_hideout": {
+          "zh": "lotus_woods_shatun_hideout",
+          "en": "lotus_woods_shatun_hideout"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_grumpy_hideout",
+      "targetNames": {
+        "lotus_interchange_grumpy_hideout": {
+          "zh": "lotus_interchange_grumpy_hideout",
+          "en": "lotus_interchange_grumpy_hideout"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_shoreline_voron_hideout",
+      "targetNames": {
+        "lotus_shoreline_voron_hideout": {
+          "zh": "lotus_shoreline_voron_hideout",
+          "en": "lotus_shoreline_voron_hideout"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_leon_hideout",
+      "targetNames": {
+        "lotus_lighthouse_leon_hideout": {
+          "zh": "lotus_lighthouse_leon_hideout",
+          "en": "lotus_lighthouse_leon_hideout"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "680e19fee0ca81b62f5a448a",
+      "name": {
+        "zh": "捕鱼季",
+        "en": "Fishing Season"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "680e778d7b773d357db874c5",
+      "name": {
+        "zh": "谁偷走了证据？",
+        "en": "Who Stole The Evidence?"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_champions.png",
+  "isKey": false
+}

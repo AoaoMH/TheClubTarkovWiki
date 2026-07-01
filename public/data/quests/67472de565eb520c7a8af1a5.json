@@ -1,0 +1,199 @@
+{
+  "id": "67472de565eb520c7a8af1a5",
+  "name": {
+    "zh": "盗贼 - 第一章",
+    "en": "Safecracker - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 126500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 126500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "65709d2d21b9f815e208ff95",
+      "itemName": {
+        "zh": "Diamond Age NeoSteel High Cut头盔（黑色）",
+        "en": "Diamond Age NeoSteel High Cut helmet (Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 50
+    },
+    {
+      "type": "Skill",
+      "target": "Attention",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a9fbacda2750c00141e080f",
+      "itemName": {
+        "zh": "Rotor 43 7.62x39膛口制退器",
+        "en": "Rotor 43 7.62x39 sound suppressor"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d235bb686f77443f4331278",
+      "itemName": {
+        "zh": "小型S I C C包",
+        "en": "S I C C organizational pouch"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59fb016586f7746d0d4b423a",
+      "itemName": {
+        "zh": "钱箱",
+        "en": "Money case"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你喜欢闪亮的东西吗？很好！我也喜欢。有些东西永远不会贬值，你知道这意味着什么吗？我的手下在外四处搜刮时，经常能找到一些保险箱，而且大多数时候里面还留藏着些值钱玩意儿呢——谁捡到就归谁的。嘿！如果它没有原主的话那可不算偷窃哦。\n\n总之，试着找些看起来值钱的东西。翻一翻保险箱，看一看上锁的房间，我这里还有些钥匙，不确定它们有没有用，但我不需要，你可以拿去随便用。懂我意思吗？好，那就行动吧。",
+    "en": "Do you like shiny stuff? Great, me too! Some things just don't lose their value, you know what that means? When my guys were roaming around they frequently found safes and most of the time there was still something inside - Finders Keepers! Hey if it doesn't belong to anyone, it's not stealing.\n\nAnyway, I want you to find certain valuables, so try hitting up a bunch of safes, check out locked rooms, I still have some keys lying around, not sure if they are of any use but I don't need them so you can take them. Understood? Alright good."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5734758f24597738025ee253"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5734758f24597738025ee253": {
+          "zh": "金项链",
+          "en": "Golden neck chain"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5734758f24597738025ee253"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5734758f24597738025ee253": {
+          "zh": "金项链",
+          "en": "Golden neck chain"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "59faf7ca86f7740dbe19f6c2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59faf7ca86f7740dbe19f6c2": {
+          "zh": "劳力土潜水金腕表 ☆",
+          "en": "Roler Submariner gold wrist watch"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "59faf7ca86f7740dbe19f6c2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "59faf7ca86f7740dbe19f6c2": {
+          "zh": "劳力土潜水金腕表 ☆",
+          "en": "Roler Submariner gold wrist watch"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d235a5986f77443f6329bc6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d235a5986f77443f6329bc6": {
+          "zh": "黄金骷髅指环",
+          "en": "Gold skull ring"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d235a5986f77443f6329bc6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d235a5986f77443f6329bc6": {
+          "zh": "黄金骷髅指环",
+          "en": "Gold skull ring"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67472d3df3e373a389e47c89",
+      "name": {
+        "zh": "搬运工 - 第二章",
+        "en": "Carrier - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67472e2e0de022e6d88c5efb",
+      "name": {
+        "zh": "盗贼 - 第二章",
+        "en": "Safecracker - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_safecracker.png",
+  "isKey": false
+}

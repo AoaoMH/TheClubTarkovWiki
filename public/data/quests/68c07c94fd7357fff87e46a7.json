@@ -1,0 +1,201 @@
+{
+  "id": "68c07c94fd7357fff87e46a7",
+  "name": {
+    "zh": "不太常见",
+    "en": "Blue Moon"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Discover",
+  "location": "5704e4dad2720bb55b8b4567",
+  "locationName": {
+    "zh": "储备站",
+    "en": "Reserve"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1100,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1100
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57347ca924597744596b4e71",
+      "itemName": {
+        "zh": "显示卡 ☆",
+        "en": "Graphics card"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c7f115805221fb410466",
+      "itemName": {
+        "zh": "GPS信号放大单元 ★",
+        "en": "Far-forward GPS Signal Amplifier Unit"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "不像我习惯的“专业人士”那样准时，不过没关系。Zryachiy告诉我，他看到几个蓝盔人员在别墅附近徘徊。我以为他们已经从Cape Dalniy撤走了，但看来我搞错了。\n\n说到蓝盔人员……你说别墅那里还有更多情况没错，Zryachiy的手下在入口附近发现了一辆UN车辆，那些家伙到底在那儿干什么？这非常可疑，肯定有问题。我在UNTAR有联系人，有什么事我总能知道，但他们似乎对此一无所知，所以要么他们在撒谎，要么被看到的人是在自行其是，而这绝不是什么好兆头。\n\n我试着联系了那群流氓USEC，显然他们看到那些人走向调车场，但之后失去了联系。如果这和建立他们的秘密毒品行动无关，那我猜肯定和Terragroup有关，所以我建议你保持警惕。这种任务你一个人能应付得来吗？",
+    "en": "Not quite punctual like I am used to from a \"professional\", but it's alright. Zryachiy told me that he saw a few of the blue helmets wandering around the villas. I thought they retreated from Cape Dalniy, but by the looks of it I was mistaken.\n\nSpeaking of the blue helmets... You weren't wrong when you said that there's more at the villa, Zryachiy's guys found a UN vehicle near the entrance, what the hell are those guys doing there? This is very suspicious, something is wrong. I have my contacts at UNTAR, I always know when something is up, but none of them seem to know anything about it, so either they're lying or the people who have been spotted are doing their own thing, and that is never a good sign.\n\nI tried contacting the rogue USEC group, apparently they saw them walk towards the trainyard but lost contact after. If it's nothing related to building their secret drug operation, I assume it has to do with Terragroup, so I suggest you keep your eyes peeled. Are you able to handle this kind of task by yourself?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_chalet_un_tigr",
+      "targetNames": {
+        "lotus_lighthouse_chalet_un_tigr": {
+          "zh": "lotus_lighthouse_chalet_un_tigr",
+          "en": "lotus_lighthouse_chalet_un_tigr"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_trainyard_tg_cargo_1",
+      "targetNames": {
+        "lotus_lighthouse_trainyard_tg_cargo_1": {
+          "zh": "lotus_lighthouse_trainyard_tg_cargo_1",
+          "en": "lotus_lighthouse_trainyard_tg_cargo_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_trainyard_tg_cargo_2",
+      "targetNames": {
+        "lotus_lighthouse_trainyard_tg_cargo_2": {
+          "zh": "lotus_lighthouse_trainyard_tg_cargo_2",
+          "en": "lotus_lighthouse_trainyard_tg_cargo_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_trainyard_tg_cargo_3",
+      "targetNames": {
+        "lotus_lighthouse_trainyard_tg_cargo_3": {
+          "zh": "lotus_lighthouse_trainyard_tg_cargo_3",
+          "en": "lotus_lighthouse_trainyard_tg_cargo_3"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_trainyard_chemicals_1",
+      "targetNames": {
+        "lotus_lighthouse_trainyard_chemicals_1": {
+          "zh": "lotus_lighthouse_trainyard_chemicals_1",
+          "en": "lotus_lighthouse_trainyard_chemicals_1"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_trainyard_chemicals_2",
+      "targetNames": {
+        "lotus_lighthouse_trainyard_chemicals_2": {
+          "zh": "lotus_lighthouse_trainyard_chemicals_2",
+          "en": "lotus_lighthouse_trainyard_chemicals_2"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c050219acd85c21d60b669",
+      "name": {
+        "zh": "篡改证据",
+        "en": "Tampering With Evidence"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c084031fd16ee291638622",
+      "name": {
+        "zh": "熄灯",
+        "en": "Light's Out"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_bluemoon.png",
+  "isKey": false
+}

@@ -1,0 +1,133 @@
+{
+  "id": "67517c148266e90a41acd3a1",
+  "name": {
+    "zh": "步步为营 - 第三章",
+    "en": "Taking Every Round Into Account - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 53950,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 53950
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装） ★",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "641074a07fd350b98c0b3f96",
+      "itemName": {
+        "zh": "AVT-40 7.62x54R 15发弹匣",
+        "en": "AVT-40 7.62x54R 15-round magazine"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5c88f24b2e22160bc12c69a6",
+      "itemName": {
+        "zh": "SVD 7.62x54 20发弹匣",
+        "en": "SVD 7.62x54R 20-round magazine"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "MagDrills",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cfe8010d7ad1a59283b14c6",
+      "itemName": {
+        "zh": "X-47 AK 7.62x39 50发弹匣",
+        "en": "AK 7.62x39 X Products X-47 50-round drum magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cfe8010d7ad1a59283b14c6",
+      "itemName": {
+        "zh": "X-47 AK 7.62x39 50发弹匣",
+        "en": "AK 7.62x39 X Products X-47 50-round drum magazine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "这个挑战可能更容易一些，但仍然是个挑战，毕竟大多数行动人员都避免使用这些。\n这次是为使用7.62x54mm R（俗称\"莫辛纳甘弹药\"）的武器准备的。\n\n指定弹匣：\n - AVT-40 7.62x54R 10发弹匣\n - SVD 7.62x54 10发弹匣",
+    "en": "This one might be easier, but still a challenge, after all most operators avoid using these.\nIt's for weapons chambered in 7.62x54mm R, \"mosin nagant ammo\" as some might call it.\n\nSpecified Magazines :\n - SVT-40 7.62x54R 10-Round Magazine\n - SVD 7.62x54R 10-Round Magazine"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67517bceebe6088837aa2dab",
+      "name": {
+        "zh": "步步为营 - 第二章",
+        "en": "Taking Every Round Into Account - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67517c5238cc9253f1b7eb0b",
+      "name": {
+        "zh": "步步为营 - 第四章",
+        "en": "Taking Every Round Into Account - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_magazines.png",
+  "isKey": false
+}

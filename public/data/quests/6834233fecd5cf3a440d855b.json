@@ -11,6 +11,10 @@
   },
   "type": "Discover",
   "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -41,7 +45,7 @@
       "value": 1,
       "itemId": "5bb2475ed4351e00853264e3",
       "itemName": {
-        "zh": "HK 416A5 5.56x45 突击步枪",
+        "zh": "HK 416A5 5.56x45 突击步枪 ☆",
         "en": "HK 416A5 5.56x45 assault rifle"
       },
       "quantity": 1
@@ -61,8 +65,18 @@
       "value": 3,
       "itemId": "657024f9bfc87b3a3409323b",
       "itemName": {
-        "zh": "50发5.56x45MK 318 Mod 0 (SOST)盒装弹药",
+        "zh": "50发5.56x45MK 318 Mod 0 (SOST)盒装弹药 ☆",
         "en": "5.56x45mm MK 318 Mod 0 (SOST) ammo pack (50 pcs)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
       },
       "quantity": 1
     }
@@ -99,8 +113,7 @@
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "bigmap"
+      "value": 1
     },
     {
       "type": "FindItem",
@@ -112,7 +125,7 @@
       "onlyFoundInRaid": false,
       "targetNames": {
         "664d4b0103ef2c61246afb56": {
-          "zh": "公寓管理员钥匙",
+          "zh": "公寓管理员钥匙 ☆",
           "en": "Dorm overseer key"
         }
       }

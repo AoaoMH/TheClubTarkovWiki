@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -51,7 +55,7 @@
       "type": "AssortmentUnlock",
       "itemId": "618ba27d9008e4636a67f61d",
       "itemName": {
-        "zh": "Vortex Razor HD Gen.2 1-6x24步枪瞄准镜",
+        "zh": "Vortex Razor HD Gen.2 1-6x24步枪瞄准镜 ★",
         "en": "Vortex Razor HD Gen.2 1-6x24 30mm riflescope"
       }
     },
@@ -60,7 +64,7 @@
       "value": 1,
       "itemId": "5ae08f0a5acfc408fb1398a1",
       "itemName": {
-        "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+        "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型） ☆",
         "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
       },
       "quantity": 1
@@ -70,7 +74,7 @@
       "value": 1,
       "itemId": "62a0a16d0b9d3c46de5b6e97",
       "itemName": {
-        "zh": "军用闪存装置",
+        "zh": "军用闪存装置 ☆",
         "en": "Military flash drive"
       },
       "quantity": 1
@@ -89,7 +93,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 3,
+      "value": 1,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
@@ -107,7 +111,18 @@
         "5df24cf80dee1b22f862e9bc",
         "61f7c9e189e6fb1a5e3ea78d",
         "627e14b21713922ded6f2c15",
-        "673cab3e03c6a20581028bc1"
+        "673cab3e03c6a20581028bc1",
+        "684e32eaec9f5eb3cacc7ca7",
+        "68fd4feab87d77a5aaf6bf64",
+        "68fd7a61f2b8d96bb3119b19",
+        "68fd7d14ff5a09197b5ab82a",
+        "69417a3f787395b8cc0ab13e",
+        "deee28079e76d537f532021c",
+        "1bf618e47cce6d69bec01e9f",
+        "68a3836826dffa87b5767c04",
+        "6924c2f800ff4b8d9d689a5c",
+        "69236a0b2d1260dbca41ef92",
+        "67c6de3ce39861860909e8e5"
       ],
       "weaponNames": {
         "5bfd297f0db834001a669119": {
@@ -115,7 +130,7 @@
           "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
         },
         "5ae08f0a5acfc408fb1398a1": {
-          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型）",
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型） ☆",
           "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
         },
         "55801eed4bdc2d89578b4588": {
@@ -127,7 +142,7 @@
           "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
         },
         "5bfea6e90db834001b7347f3": {
-          "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
           "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
         },
         "5de652c31b7e3716273428be": {
@@ -135,7 +150,7 @@
           "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
         },
         "5df24cf80dee1b22f862e9bc": {
-          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪",
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪 ☆",
           "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
         },
         "61f7c9e189e6fb1a5e3ea78d": {
@@ -143,17 +158,58 @@
           "en": "MP-18 7.62x54R single-shot rifle"
         },
         "627e14b21713922ded6f2c15": {
-          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪",
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
           "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
         },
         "673cab3e03c6a20581028bc1": {
           "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
           "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        },
+        "684e32eaec9f5eb3cacc7ca7": {
+          "zh": "雷明顿 MSR .300 WM 栓动式狙击步枪",
+          "en": "Remington MSR .300 WM bolt-action sniper rifle"
+        },
+        "68fd4feab87d77a5aaf6bf64": {
+          "zh": "CheyTac M200 \"干预\" .408 CT 栓动式狙击步枪",
+          "en": "CheyTac M200 Intervention .408 CT bolt-action sniper rifle"
+        },
+        "68fd7a61f2b8d96bb3119b19": {
+          "zh": "CheyTac M200 \"干预\" .408 CT 栓动式狙击步枪（FDE）。",
+          "en": "CheyTac M200 Intervention .408 CT bolt-action sniper rifle (FDE)"
+        },
+        "68fd7d14ff5a09197b5ab82a": {
+          "zh": "CheyTac M200 Intervention .408 CT栓动式狙击步枪（迷彩）",
+          "en": "CheyTac M200 Intervention .408 CT bolt-action sniper rifle (Camo)"
+        },
+        "69417a3f787395b8cc0ab13e": {
+          "zh": "马林 M1984 Dark-series .44 Mangum 杠杆式步枪",
+          "en": "Marlin M1984 Dark-series .44 Magnum lever-action rifle"
+        },
+        "deee28079e76d537f532021c": {
+          "zh": "Surgeon Rifles 1581 XL action .338 LM 栓动式步枪",
+          "en": "Surgeon Rifles 1581 XL action .338 LM bolt-action sniper rifle"
+        },
+        "1bf618e47cce6d69bec01e9f": {
+          "zh": "Surgeon Rifles 1581 XL action .338 NM 栓动式步枪",
+          "en": "Surgeon Rifles 1581 XL action .338 Norma Magnum bolt-action sniper rifle"
+        },
+        "68a3836826dffa87b5767c04": {
+          "zh": "Accuracy International AXMC .300 WM 栓动式狙击步枪",
+          "en": "Accuracy International AXMC .300 WM bolt-action sniper rifle"
+        },
+        "6924c2f800ff4b8d9d689a5c": {
+          "zh": "Henry Big Boy Steel .357 杠杆式步枪",
+          "en": "Henry Big Boy Steel .357 lever-action rifle"
+        },
+        "69236a0b2d1260dbca41ef92": {
+          "zh": "SV-98M 7.62x54R 栓动式狙击步枪",
+          "en": "SV-98M 7.62x54R bolt-action sniper rifle"
+        },
+        "67c6de3ce39861860909e8e5": {
+          "zh": "马林 MXLR .308 ME 杠杆步枪",
+          "en": "Marlin MXLR .308 ME lever-action rifle"
         }
-      },
-      "bodyParts": [
-        "Head"
-      ]
+      }
     },
     {
       "type": "Avoid",

@@ -1,0 +1,106 @@
+{
+  "id": "67487d3a9466f36422ede295",
+  "name": {
+    "zh": "专业射手 - 第一章",
+    "en": "Professional Weapon Tester - Part 1"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 325,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 325
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "5c1127bdd174af44217ab8b9",
+      "itemName": {
+        "zh": "9x19mm RIP子弹（20发装） ☆",
+        "en": "9x19mm RIP ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Skill",
+      "target": "SMG",
+      "value": 100
+    }
+  ],
+  "description": {
+    "zh": "你好，我有个商业提议给你——当然得看你有没有兴趣了。我继续说？\n\n我上级列出了一批西方制造的武器清单，需要在特定环境中做测试，而塔科夫是收集这种数据的绝佳场所。他们把任务交给了我，我也就找上了几个值得信赖的干员，你第一个就出现在我脑海中。\n\n准备好接第一个任务了吗？好，我们需要收集 MP5 冲锋枪的性能数据。完成后联系我。",
+    "en": "Good day, I got some business offer for you - If you're interested of course. Should I continue?\n\nMy superiors got a list of western-made weapons that need a bit of testing in certain environments, and Tarkov is the perfect place to collect such data. They gave me the responsibility to get that data, so I chose to contact reliable operators, and you were the first one that came to my mind.\n\nSo, ready for your first job? Alright then, we need to see the general performance of MP5 submachine guns. Contact me whenever you're done."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5926bb2186f7744b1c6c6e60",
+        "5d2f0d8048f0356c925bc3b0"
+      ],
+      "weaponNames": {
+        "5926bb2186f7744b1c6c6e60": {
+          "zh": "HK MP5N 9x19 冲锋枪（海军型） ☆",
+          "en": "HK MP5 9x19 submachine gun (Navy 3 Round Burst)"
+        },
+        "5d2f0d8048f0356c925bc3b0": {
+          "zh": "HK MP5K 9x19 微型冲锋枪",
+          "en": "HK MP5K 9x19 submachine gun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67486d24c4944822ad6f8d57",
+      "name": {
+        "zh": "和平使者",
+        "en": "Keeping The Peace"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67487d759f790d565629d605",
+      "name": {
+        "zh": "专业射手 - 第二章",
+        "en": "Professional Weapon Tester - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_proshooter_peacekeeper_1.png",
+  "isKey": false
+}

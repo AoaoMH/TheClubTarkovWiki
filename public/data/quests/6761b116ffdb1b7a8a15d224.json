@@ -1,0 +1,238 @@
+{
+  "id": "6761b116ffdb1b7a8a15d224",
+  "name": {
+    "zh": "工具之道 - 第七章",
+    "en": "Tools To Work With - Part 7"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2450
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 875,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 875
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "66dae7cbeb28f0f96809f325",
+      "itemName": {
+        "zh": "V40 微型手榴弹",
+        "en": "V40 Mini-Grenade"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b5f666cad6f002ab7214c2",
+      "itemName": {
+        "zh": "Ballistic Armor Co. Bastion头盔（多地形迷彩）",
+        "en": "Ballistic Armor Co. Bastion helmet (MultiCam)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e655586f774045612eeb2",
+      "itemName": {
+        "zh": "HighCom Trooper TFO 防弹背心（复合迷彩）",
+        "en": "HighCom Trooper TFO body armor (MultiCam)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 15
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d43021ca4b9362eab4b5e25",
+      "itemName": {
+        "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪 ☆",
+        "en": "Lone Star TX-15 DML 5.56x45 carbine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "623063e994fc3f7b302a9696",
+      "itemName": {
+        "zh": "HK G36 5.56x45 突击步枪",
+        "en": "HK G36 5.56x45 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6706a159c67236b2f703bb95",
+      "itemName": {
+        "zh": "HK G36 Tommy Built AR 枪托转接器",
+        "en": "HK G36 Tommy Built AR Stock Adapter"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我这还缺两把枪，都是北约武器。一把 G36，一把 TX-15 DML。你愿意再出把力吗？\n\n太好了！G36 要求弹容量不少于 40 发，同时还得能折叠。TX-15 要求更高，需要非常高的人体工学，还要能支持 1500 米射程，而且整体不能太大。具体要求我都列出来了。\n\nG36 要求：\n - 后坐力总和小于 250\n - 重量小于 4.4 公斤\n - 人机功效 55 或更高\n - 耐久度至少 90 %\n - 弹匣容量 40 或更多\n - 把枪托折叠起来\n - 射击距离 800米 或更多\n - 必须安装HK G36照门\n - 任意 必须安装HK G36准星\n\nTX-15 要求：\n - 后坐力总和小于 280\n - 重量小于 3.7 公斤\n - 人机功效 95 或更高\n - 耐久度至少 90 %\n - 弹匣容量 30 或更多\n - 宽度占用 5格 或更少 同时 高度占用 2格 或更少\n - 射击距离超过1500",
+    "en": "I need two more guns for my guys, western guns. A G36 and a TX-15 DML, can you help out again?\n\nGreat! Alright so the G36 needs to hold at least fourty rounds in the magazine and still needs to be foldable. The TX-15 needs to be very ergonomic and capable of taking a shot from over fifteen-hundred meters away, also needs to be compact. You'll have all the further specifications written down again as always.\n\nG36 Requirements :\n - Recoil Sum less than 250\n - Weight less than 4.4 KG\n - Ergonomics 55 or higher\n - Durability higher than 90 %\n - Magazine Capacity of 40 or more\n - Sighting Range of 800 Meters or more\n - HK G36 rear sight\n - HK G36 Front Sight\n\nTX-15 Requirements :\n - Recoil Sum less than 280\n - Weight less than 3.7 KG\n - Ergonomics 95 or higher\n - Durability higher than 90 %\n - Magazine Capacity of 30 or more\n - Width of 5 slots or less and Height of 2 slots or less\n - Sighting Range of 1500 Meters or more"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "623063e994fc3f7b302a9696"
+      ],
+      "targetNames": {
+        "623063e994fc3f7b302a9696": {
+          "zh": "HK G36 5.56x45 突击步枪",
+          "en": "HK G36 5.56x45 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 55
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 250
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 800
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 90
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 40
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.4
+        }
+      ],
+      "requiredItems": [
+        "623166e08c43374ca1567195",
+        "6231670f0b8aa5472d060095"
+      ],
+      "requiredItemNames": {
+        "623166e08c43374ca1567195": {
+          "zh": "HK G36准星",
+          "en": "HK G36 front sight"
+        },
+        "6231670f0b8aa5472d060095": {
+          "zh": "HK G36照门",
+          "en": "HK G36 rear sight"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5d43021ca4b9362eab4b5e25"
+      ],
+      "targetNames": {
+        "5d43021ca4b9362eab4b5e25": {
+          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪 ☆",
+          "en": "Lone Star TX-15 DML 5.56x45 carbine"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 95
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 280
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 1500
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 90
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        },
+        {
+          "stat": "height",
+          "compare": "<=",
+          "value": 2
+        },
+        {
+          "stat": "width",
+          "compare": "<=",
+          "value": 5
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 3.7
+        }
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6761af40a082b41fbbe3e001",
+      "name": {
+        "zh": "工具之道 - 第六章",
+        "en": "Tools To Work With - Part 6"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6761b2806123cbc248407012",
+      "name": {
+        "zh": "工具之道 - 第八章",
+        "en": "Tools To Work With - Part 8"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_7.png",
+  "isKey": false
+}

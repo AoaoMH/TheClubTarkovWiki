@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -30,7 +34,7 @@
       "type": "ProductionScheme",
       "itemId": "5fca138c2a7b221b2852a5c6",
       "itemName": {
-        "zh": "xTG-12解毒剂",
+        "zh": "xTG-12解毒剂 ☆",
         "en": "xTG-12 antidote injector"
       }
     },
@@ -48,7 +52,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 12,
+      "value": 3,
       "target": [
         "5fc64ea372b0dd78d51159dc"
       ],
@@ -63,7 +67,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 12,
+      "value": 3,
       "target": [
         "5fc64ea372b0dd78d51159dc"
       ],

@@ -1,0 +1,116 @@
+{
+  "id": "6873248b615c003311ebb292",
+  "name": {
+    "zh": "不朽怀旧",
+    "en": "Immortal Nostalgia"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Multi",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "AssortmentUnlock"
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 70000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 70000
+    }
+  ],
+  "description": {
+    "zh": "哟，雇佣兵，有个怪活儿给你。我有个大客户对他的老古董情有独钟，花大价钱要弄回来。他要找一台老游戏机和一张盗版《星球大战》DVD，都藏在疗养院的某个地方。问题是，他告诉我房间号的时候我已经灌了三杯伏特加下肚，所以我完全不记得具体在哪儿了。你得在疗养院的那些高级套房里好好嗅一嗅——就是那种铺着毛绒地毯、窗外风景贵得离谱的房间。货到手之后，把它们送到立交桥的迷你影院，他说就在海报后面的某个地方。别想着把那张DVD放进去看，也别想卖个快钱，更别碰那台游戏机。这家伙偏执得不行，我可不想应付他的臭脾气。那场面很难看。把活儿干利索了，我们再谈更多的生意。\n\n",
+    "en": "\"Yo, merc, got a weird one for ya. Some high-roller client of mine’s got a hard-on for his old-school stuff, and he’s paying big to get it back. He’s after some old game console and a bootleg Star Wars DVD he stashed somewhere at the Health Resort. Problem is, I was three vodkas deep when he told me the room number, so I got no clue where exactly. You’ll need to sniff around the resort’s fancy suites y’know, the ones with the plush carpets and overpriced views. Once you’ve nabbed the goods, drop ‘em off at the mini theater in Interchange, in the back somewhere by the poster he said. Don’t even think about popping that DVD in for a watch or selling it for a quick buck, don't try fucking with that  game console either. This guy’s obsessive, and I ain’t dealing with his tantrums. They're messy; do this clean, and we’ll talk more work.\"\n\n"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "687306abe00a4125a64a80a8"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "687306abe00a4125a64a80a8": {
+          "zh": "哈米的星球大战去特效版",
+          "en": "Harmy's Star Wars Despecialized Edition"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "687308686fa170bea044d21d"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "687308686fa170bea044d21d": {
+          "zh": "Playstation 2",
+          "en": "Playstation 2 console with Game"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "687306abe00a4125a64a80a8"
+      ],
+      "targetNames": {
+        "687306abe00a4125a64a80a8": {
+          "zh": "哈米的星球大战去特效版",
+          "en": "Harmy's Star Wars Despecialized Edition"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "687308686fa170bea044d21d"
+      ],
+      "targetNames": {
+        "687308686fa170bea044d21d": {
+          "zh": "Playstation 2",
+          "en": "Playstation 2 console with Game"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Avoid: ExitStatus",
+      "value": 1,
+      "isFailCondition": true
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/immortalnostalgia.png",
+  "isKey": false
+}

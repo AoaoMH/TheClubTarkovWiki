@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 60000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Monster Juice Pipeline Punch Energy Drink [Rare]",
+      "en": "Monster Juice Pipeline Punch Energy Drink [Rare]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Monster",
+      "en": "Monster"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 70,000₽ | 物品价值: 60,000 | Therapist报价: 37,800₽Like the Banzai Pipeline of Oahu, Pipeline Punch was destined to become a legend. The perfect carbonated blend of passion fruit, orange, guava, and our Monster Energy blend.",
+      "en": "跳蚤市场: 70,000₽ | 物品价值: 60,000 | Therapist报价: 37,800₽Like the Banzai Pipeline of Oahu, Pipeline Punch was destined to become a legend. The perfect carbonated blend of passion fruit, orange, guava, and our Monster Energy blend."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,88 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.4,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 15,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": 0.4,
+            "delay": 1,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "AimDrills",
+            "value": 5,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "MagDrills",
+            "value": 5,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "HeavyVests",
+            "value": 3,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "LightVests",
+            "value": 3,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -5,
+            "delay": 400,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -1.5,
+            "delay": 400,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 400,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

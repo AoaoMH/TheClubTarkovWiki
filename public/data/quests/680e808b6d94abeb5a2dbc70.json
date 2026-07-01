@@ -1,0 +1,93 @@
+{
+  "id": "680e808b6d94abeb5a2dbc70",
+  "name": {
+    "zh": "鱼在碗里",
+    "en": "The Fish Is In The Bowl"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Standing",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c05308086f7746b2101e90b",
+      "itemName": {
+        "zh": "Virtex可编程处理器 ☆",
+        "en": "Virtex programmable processor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c7f115805221fb410466",
+      "itemName": {
+        "zh": "GPS信号放大单元 ★",
+        "en": "Far-forward GPS Signal Amplifier Unit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c85357baa773a825b356",
+      "itemName": {
+        "zh": "直流变压器 ☆",
+        "en": "Advanced current converter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57347ca924597744596b4e71",
+      "itemName": {
+        "zh": "显示卡 ☆",
+        "en": "Graphics card"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你的雇主Lotus联系了我。我知道我们过去有过节，但我们可以把那些抛在脑后，如果你决定遵守承诺的话...哦，什么承诺？让我帮你回忆一下——那个叫“Ryba”的人的日记。\n\n你现在带在身上还是预计很快能带来？我寻找这方面的任何信息已经很长时间了，终于知道如何得到它了。做正确的事，士兵，外面的世界很残酷，你可以帮助让它变得更好。\n\n只是别把日记给那个人，否则你会把我们所有人都置于危险之中。",
+    "en": "I was contacted by your employer, Lotus. I know we had a troubled past but we can leave that behind, if you decide to keep your promise of course... Oh which promise? Let me refresh your memory then - The diary by the man named \"Ryba\".\n\nDo you have it on you right now or do you expect to bring it anytime soon? I have been looking for any information on this matter for a long time now, and finally I know how to get it. Do the right thing warrior, it's a cruel world out there and you can help making it better.\n\nJust don't give that man this diary, or else you'll put all of us at risk."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6707cef3571b50abc703b64f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6707cef3571b50abc703b64f": {
+          "zh": "V.O.签名日记本",
+          "en": "V.O. signed diary"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "680e807527f51292fa6b2f9e",
+      "name": {
+        "zh": "晚餐准备好了",
+        "en": "Dinner's Ready"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_trader_lightkeeper.png",
+  "isKey": false
+}

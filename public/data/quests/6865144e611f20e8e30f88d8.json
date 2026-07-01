@@ -1,0 +1,96 @@
+{
+  "id": "6865144e611f20e8e30f88d8",
+  "name": {
+    "zh": "他就是这么死的...",
+    "en": "That's How He Perished..."
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Exploration",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 30,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 30
+    }
+  ],
+  "description": {
+    "zh": "我检查完了U盘上的一切，它包含数字文件以及照片和视频片段。现在正式确认了——Ryba死了。\n\n驾驶员的PMC们审问了他，然后把他干掉了，他们把他关在海关区域，至少我认为是那个地点...仓库看起来很眼熟，我敢发誓我们就在那个 exact 仓库里储存过物资，我想是3号仓库。\n\n我希望你顺便在那里安装一个摄像头，我好奇是否很快会有其他人去调查那个地方。明白你该做什么了吗？别搞砸了，冠军。",
+    "en": "I finished examining everything which was on the drive, it contained digital documents aswell as photographs and video footage. It's official now - Ryba is dead.\n\nThe driver's PMCs interrogated him and then took him out, they held him captive inside the customs zone, at least I think that's the location... The warehouse looks familiar, I could have sworn we stored supplies in that exact warehouse, I think it was warehouse three.\n\nI want you to rig the place with a camera while you're at it, I am curious if anyone else will be investigating that place anytime soon. Understand what you gotta do? Don't mess this up, champion."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_warehouse3_prisoner_chair",
+      "targetNames": {
+        "lotus_customs_warehouse3_prisoner_chair": {
+          "zh": "lotus_customs_warehouse3_prisoner_chair",
+          "en": "lotus_customs_warehouse3_prisoner_chair"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68650f0e18ac344def323e7c",
+      "name": {
+        "zh": "永不放弃搜索",
+        "en": "Never Give Up Searching"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68665a3b90bfb5b2fc3eab8d",
+      "name": {
+        "zh": "彻底清扫",
+        "en": "Clean Sweep"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_perish.png",
+  "isKey": false
+}

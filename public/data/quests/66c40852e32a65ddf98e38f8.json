@@ -1,0 +1,184 @@
+{
+  "id": "66c40852e32a65ddf98e38f8",
+  "name": {
+    "zh": "PMC特训：屏息 - 第五章",
+    "en": "PMC Training - Marksmanship - Part 5"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13950
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 27550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 27550
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "65702554bfc87b3a34093247",
+      "itemName": {
+        "zh": "7.62x51 M62曳光弹弹药包（20发装）",
+        "en": "7.62x51mm M62 Tracer ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "65702572c5d7d4cb4d078576",
+      "itemName": {
+        "zh": "7.62x54 R BT gzh弹药包（20发装）",
+        "en": "7.62x54mm R BT gzh ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57c5ac0824597754771e88a9",
+      "itemName": {
+        "zh": "March Tactical 3-24x42光学瞄准镜 FFP",
+        "en": "March Tactical 3-24x42 FFP 30mm riflescope"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "61714eec290d254f5e6b2ffc",
+      "itemName": {
+        "zh": "Schmidt & Bender PM II 3-12x50瞄准镜",
+        "en": "Schmidt & Bender PM II 3-20x50 34mm riflescope"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fc275cf85fd526b824a571a",
+      "itemName": {
+        "zh": ".338 Lapua Magnum FMJ",
+        "en": ".338 Lapua Magnum FMJ"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6176aca650224f204c1da3fb",
+      "itemName": {
+        "zh": "HK G28 7.62x51 精确射手步枪 ☆",
+        "en": "HK G28 7.62x51 marksman rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "588892092459774ac91d4b11",
+      "itemName": {
+        "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+        "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，这是最后一个挑战了，和之前类似，但几乎不一样……用7.62x51口径的狙击步枪击杀一些人，同时训练你的栓动步枪和精确射手步枪技能，总有一天它们会派上用场的。祝你好运，完成后向我报告。",
+    "en": "Alright then, one last challenge for you, similar as before, well almost... eliminate a few people with sniper rifles chambered in 7.62x51, and also train your bolt-action and marksman rifle skills, they will come in handy one day. Good luck out there, and report back to me when you're done."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Sniper",
+      "value": 6,
+      "target": "Sniper"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: DMR",
+      "value": 6,
+      "target": "DMR"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "588892092459774ac91d4b11",
+        "5bfea6e90db834001b7347f3",
+        "5df24cf80dee1b22f862e9bc",
+        "6176aca650224f204c1da3fb",
+        "5aafa857e5b5b00018480968",
+        "5a367e5dc4a282000e49738f",
+        "5df8ce05b11454561e39243b"
+      ],
+      "weaponNames": {
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪 ☆",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "6176aca650224f204c1da3fb": {
+          "zh": "HK G28 7.62x51 精确射手步枪 ☆",
+          "en": "HK G28 7.62x51 marksman rifle"
+        },
+        "5aafa857e5b5b00018480968": {
+          "zh": "春田 M1A 7.62x51 精确射手步枪",
+          "en": "Springfield Armory M1A 7.62x51 rifle"
+        },
+        "5a367e5dc4a282000e49738f": {
+          "zh": "雷明顿 R11 RSASS 7.62x51 精确射手步枪 ☆",
+          "en": "Remington R11 RSASS 7.62x51 marksman rifle"
+        },
+        "5df8ce05b11454561e39243b": {
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪 ★",
+          "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66c404ba2bd9c56b380a89d7",
+      "name": {
+        "zh": "PMC特训：屏息 - 第四章",
+        "en": "PMC Training - Marksmanship - Part 4"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_training_marksman.png",
+  "isKey": false
+}

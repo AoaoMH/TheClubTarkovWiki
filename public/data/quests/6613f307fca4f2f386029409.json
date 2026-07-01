@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [],
   "description": {
     "zh": "信不信由你，我的生意这下是真的起飞了，还在不断发展壮大！我觉得是时候继续扩张产品线了。帮你的好兄弟一把，我就当你答应咯？",
@@ -20,7 +24,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 100,
+      "value": 25,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -35,7 +39,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 50,
+      "value": 12,
       "target": [
         "628baf0b967de16aab5a4f36",
         "618cfae774bb2d036a049e7c",

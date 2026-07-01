@@ -1,0 +1,81 @@
+{
+  "id": "6879a0da60f8d8a90e632755",
+  "name": {
+    "zh": "武器测试：终章",
+    "en": "Weapons Trial: Finale"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8000
+    },
+    {
+      "type": "Item",
+      "value": 400,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 400
+    },
+    {
+      "type": "AssortmentUnlock"
+    }
+  ],
+  "description": {
+    "zh": "好了，雇佣兵。我还有最后一个任务给你。我收到了你测试过的那批武器的其他订单。我要你做的最后一件事是再去杀一些PMC，但这次在夜间进行。如果进展顺利，我还能再搞到这把枪的一个变体型号，这一款看起来贼帅。",
+    "en": "Alright, Merc. I have one more task for you. I got the other shipments of those weapons you tested for purchase. The last thing I am going to ask is you to kill more PMCs, but this time at night. If this goes well I can get one more variant of the weapon and this one looks badass."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "6671ebcdd32bd95eb398e920",
+        "682d3dd16900cb35564c8825"
+      ],
+      "weaponNames": {
+        "6671ebcdd32bd95eb398e920": {
+          "zh": "博福斯Ak5C 5.56x45毫米突击步枪",
+          "en": "Bofors Ak5C 5.56x45 assault rifle"
+        },
+        "682d3dd16900cb35564c8825": {
+          "zh": "博福斯Ak5D 5.56x45毫米突击步枪",
+          "en": "Bofors Ak5D 5.56x45 assault rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68784cf8dbe00560604d51e1",
+      "name": {
+        "zh": "武器测试：PMC",
+        "en": "Weapons Trial: PMCs"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/WeaponsTrialFinale_Quest.png",
+  "isKey": false
+}

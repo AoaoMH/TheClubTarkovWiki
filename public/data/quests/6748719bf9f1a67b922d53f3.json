@@ -1,0 +1,130 @@
+{
+  "id": "6748719bf9f1a67b922d53f3",
+  "name": {
+    "zh": "西方连线 - 第五章",
+    "en": "The Western Connection - Part 5"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Exploration",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12450
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 750,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 750
+    },
+    {
+      "type": "Skill",
+      "target": "Endurance",
+      "value": 250
+    },
+    {
+      "type": "Skill",
+      "target": "Strength",
+      "value": 250
+    }
+  ],
+  "description": {
+    "zh": "好了，下一项任务。你需要前往超购物中心，那里外面有几座巨大的广告牌塔楼。PeaceKeeper 说，这些塔楼是商场附近少数能为我们提供合适无线电信号的地方。\n\n先去那里找到通往塔楼的路，然后在顶部设置无线电中继器。完成后一定要安全撤离，小心在塔楼上时被人发现——这些地方可是狙击手的热门点位。\n\n祝你好运，干员。",
+    "en": "Okay, next job. You need to head to the ultra shopping mall, somewhere outside the mall were large billboard towers. Peacekeeper says that they are the only places near the mall where it's possible to get a proper radio signal for us.\nGo there and look for a way up first, then put up radio repeaters on top of them.\n\nMake sure to get out of the place after you are done, and be careful while you are up there, people can see you and they know that these places are hotspots for marksmen. Good luck operator."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_north_billboard_bottom",
+      "targetNames": {
+        "lotus_interchange_north_billboard_bottom": {
+          "zh": "lotus_interchange_north_billboard_bottom",
+          "en": "lotus_interchange_north_billboard_bottom"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ],
+      "targetNames": {
+        "63a0b2eabea67a6d93009e52": {
+          "zh": "无线电中继器",
+          "en": "Radio repeater"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_south_billboard_bottom",
+      "targetNames": {
+        "lotus_interchange_south_billboard_bottom": {
+          "zh": "lotus_interchange_south_billboard_bottom",
+          "en": "lotus_interchange_south_billboard_bottom"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ],
+      "targetNames": {
+        "63a0b2eabea67a6d93009e52": {
+          "zh": "无线电中继器",
+          "en": "Radio repeater"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6748711d9d84961ce225c6b7",
+      "name": {
+        "zh": "西方连线 - 第四章",
+        "en": "The Western Connection - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67487bd534005ee5fe84e59d",
+      "name": {
+        "zh": "西方连线 - 第六章",
+        "en": "The Western Connection - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ultra_tower.png",
+  "isKey": false
+}

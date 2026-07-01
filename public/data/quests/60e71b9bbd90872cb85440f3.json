@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -29,7 +33,7 @@
       "value": 1,
       "itemId": "619bdeb986e01e16f839a99e",
       "itemName": {
-        "zh": "俄军臂带",
+        "zh": "俄军臂带 ☆",
         "en": "Armband (RFARMY)"
       },
       "quantity": 1
@@ -39,7 +43,7 @@
       "value": 1,
       "itemId": "619bdfd4c9546643a67df6fa",
       "itemName": {
-        "zh": "\"USEC\" 臂带",
+        "zh": "\"USEC\" 臂带 ☆",
         "en": "Armband (USEC)"
       },
       "quantity": 1
@@ -82,8 +86,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 8,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
@@ -94,8 +98,8 @@
     },
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 8,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
@@ -106,8 +110,8 @@
     },
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 8,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {

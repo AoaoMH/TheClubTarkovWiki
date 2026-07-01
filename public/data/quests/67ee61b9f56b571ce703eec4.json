@@ -1,0 +1,236 @@
+{
+  "id": "67ee61b9f56b571ce703eec4",
+  "name": {
+    "zh": "更进一步",
+    "en": "Further Ahead"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Completion",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 94250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 94250
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "58d3db5386f77426186285a0",
+      "itemName": {
+        "zh": "M67手榴弹",
+        "en": "M67 hand grenade"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "657024ecc5d7d4cb4d07856d",
+      "itemName": {
+        "zh": "50发5.56x45 M856A1盒装弹药 ☆",
+        "en": "5.56x45mm M856A1 ammo pack (50 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b40e1525acfc4771e1c6611",
+      "itemName": {
+        "zh": "HighCom Striker ULACH IIIA 头盔（黑色）",
+        "en": "HighCom Striker ULACH IIIA helmet (Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b44cad286f77402a54ae7e5",
+      "itemName": {
+        "zh": "5.11 Tactical TacTec 插板胸挂（丛林绿）",
+        "en": "5.11 Tactical TacTec plate carrier (Ranger Green)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57c44b372459772d2b39b8ce",
+      "itemName": {
+        "zh": "AS “巨浪” 9x39 特种突击步枪",
+        "en": "AS VAL 9x39 special assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "61962d879bb3d20b0946d385",
+      "itemName": {
+        "zh": "9x39毫米 PAB-9",
+        "en": "9x39mm PAB-9 gs"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好了，我们已经等了差不多两个小时，我觉得是时候行动了。我这边也拿到了关于这些货物的新线索。你看，关于USEC的事没再挖出什么有用的东西，但我有个朋友通过无线电联系了我。\n\n我们聊到了这些货物的事，看来对这些感兴趣的不止我和Therapist。不过我那朋友其实对这些货并没兴趣……所以，他决定帮我们一把。他打印了一些据说是TerraGroup集团相关的文件。一份编号是“0022”，另一份是“0031”，你记一下编号，找的时候能对上。\n\n第一份文件夹应该藏在海关办公室的某处，估计就在办公桌下。第二份文件夹藏在海关工厂区的一间简易工棚里，恰好就在其中一辆装载TerraGroup集团货物的军卡旁边。我建议你快点下手，别让Scav捷足先登了。找到就带回来交给我。\n\n等你搞定这些之后，记得再检查一下那两辆军卡，看看有没有人来搬空了。最后，就是时候联系我那位朋友了。",
+    "en": "Okay we waited like two hours now, I think it's time now. I actually got the next lead on these shipments. You see, the thing about the USECs did not give anything else that could help us much further, however a friend reached out to me over the radio.\n\nWe talked about these shipments, seems like me and Therapist weren't the only ones interested in them, but my friend wasn't that interested in those, anyway...\nSince this friend wasn't interested, he decided to help us. He printed out some documents - Allegedly Terragroup related. One reads \"0022\" while the other one reads \"0031\", just so you know how they look like... roughly. He stashed both folders somewhere in the customs zone.\n\nThe first folder should be located somewhere in the Tarcone director's office, I think somewhere under the desk. The second folder should be hidden in one of the bunkhouses, right next to one of these Terragroup shipments actually. I suggest you grab them quickly before some scavs find them. Bring those folders to me.\n\nWhen you finished that part of the job, you gotta check on the cargoes, make sure nobody swept the place clean. After all that is done, I'd say it's a good time to contact that friend I talked about."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "591092ef86f7747bb8703422"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591092ef86f7747bb8703422": {
+          "zh": "0022号保险文件夹",
+          "en": "Secure Folder 0022"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "591092ef86f7747bb8703422"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591092ef86f7747bb8703422": {
+          "zh": "0022号保险文件夹",
+          "en": "Secure Folder 0022"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5938188786f77474f723e87f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5938188786f77474f723e87f": {
+          "zh": "0031号保险文件夹",
+          "en": "Secure Folder 0031"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5938188786f77474f723e87f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5938188786f77474f723e87f": {
+          "zh": "0031号保险文件夹",
+          "en": "Secure Folder 0031"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_warehouse4_outside",
+      "targetNames": {
+        "lotus_customs_ural_warehouse4_outside": {
+          "zh": "lotus_customs_ural_warehouse4_outside",
+          "en": "lotus_customs_ural_warehouse4_outside"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_busstation_outside",
+      "targetNames": {
+        "lotus_customs_ural_busstation_outside": {
+          "zh": "lotus_customs_ural_busstation_outside",
+          "en": "lotus_customs_ural_busstation_outside"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67ea813bd8d2dc676746f53e",
+      "name": {
+        "zh": "重回正轨",
+        "en": "Back On Track"
+      }
+    },
+    {
+      "id": "59674eb386f774539f14813a",
+      "name": {
+        "zh": "往事速递",
+        "en": "Delivery From the Past"
+      }
+    },
+    {
+      "id": "5967530a86f77462ba22226b",
+      "name": {
+        "zh": "罪证",
+        "en": "Bad Rep Evidence"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67efd429317486563c7ee2b2",
+      "name": {
+        "zh": "意外发现 - 第一章",
+        "en": "What A Find - Part 1"
+      }
+    },
+    {
+      "id": "67ee61bb0084128bf23f5477",
+      "name": {
+        "zh": "误伤友军",
+        "en": "Friendly Fire"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_furtherahead.png",
+  "isKey": false
+}

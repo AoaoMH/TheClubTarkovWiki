@@ -1,0 +1,248 @@
+{
+  "id": "67618aad83c2ba931e036514",
+  "name": {
+    "zh": "工具之道 - 第三章",
+    "en": "Tools To Work With - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 92500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 92500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a09ee4cf4a99369e262453",
+      "itemName": {
+        "zh": "罐装白盐",
+        "en": "Can of white salt"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a0a0bb621468534a797ad5",
+      "itemName": {
+        "zh": "\"Master\"锉刀套装",
+        "en": "Set of files \"Master\""
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 10
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6761763448fa5c377e06fc39",
+      "itemName": {
+        "zh": "AKMS FAB Defense M4-AKMS P 枪托转接器",
+        "en": "AKMS FAB Defense M4-AKMS P stock adapter"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59ff346386f77477562ff5e2",
+      "itemName": {
+        "zh": "AKMS 7.62×39 突击步枪",
+        "en": "Kalashnikov AKMS 7.62x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5abcbc27d8ce8700182eceeb",
+      "itemName": {
+        "zh": "AKMSN 7.62x39 突击步枪",
+        "en": "Kalashnikov AKMSN 7.62x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59e4d24686f7741776641ac7",
+      "itemName": {
+        "zh": "7.62x39毫米 US",
+        "en": "7.62x39mm US gzh"
+      }
+    }
+  ],
+  "description": {
+    "zh": "希望你喜欢 AK 系列步枪，在塔科夫你会用它们用到吐。学会怎么改装它们很重要。\n\n我需要你带两把带折叠托的 AKM，一把普通的 AKMS，一把带燕尾座的 AKMSN。规格我都写好了，看你能不能搞定。\n\nAKMS 要求：\n - 后坐力总和小于 340\n - 重量小于 4.5 公斤\n - 人机功效 44 或更高\n - 耐久度至少 80 %\n - 弹匣容量 20 或更多\n - “射击场”距离 800米 或更多\n - 任意 战术设备\n - AKMS FAB Defense M4-AKMS P Stock Adapter\n\nAKMSN 要求：\n - 后坐力总和小于 360\n - 重量小于 5.3 公斤\n - 人机功效 34 或更高\n - 耐久度至少 80 %\n - 弹匣容量 40 或更多\n - 任意 消音器\n - 任意 独立战术手电筒\n - OKP-7反射式瞄具 （Dovetail）",
+    "en": "I hope you like AK rifles, you'll need to work with them a lot in Tarkov, but I'm just stating the obvious. It would be wise to know how to modify them.\n\nBring me to AKMs with folding stocks, one with and one without a dovetail mount, I'll skip the talking, I wrote down all the specifications for you. Can you manage that?\n\nAKMS Requirements :\n - Recoil Sum less than 340\n - Weight less than 4.5 KG\n - Ergonomics 44 or higher\n - Durability higher than 80 %\n - Magazine Capacity of 20 or more\n - Sighting Range of 800 Meters or more\n - A Tactical Device\n - AKMS FAB Defense M4-AKMS P Stock Adapter\n\nAKMSN Requirements :\n - Recoil Sum less than 360\n - Weight less than 5.3 KG\n - Ergonomics 34 or higher\n - Durability higher than 80 %\n - Magazine Capacity of 40 or more\n - A Silencer\n - A Standalone Flashlight\n - OKP-7 Reflex Sight ( Dovetail )"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "59ff346386f77477562ff5e2"
+      ],
+      "targetNames": {
+        "59ff346386f77477562ff5e2": {
+          "zh": "AKMS 7.62×39 突击步枪",
+          "en": "Kalashnikov AKMS 7.62x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 44
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 340
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 800
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 80
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 20
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.5
+        }
+      ],
+      "requiredItems": [
+        "6761763448fa5c377e06fc39"
+      ],
+      "requiredItemNames": {
+        "6761763448fa5c377e06fc39": {
+          "zh": "AKMS FAB Defense M4-AKMS P 枪托转接器",
+          "en": "AKMS FAB Defense M4-AKMS P stock adapter"
+        }
+      },
+      "requiredCategories": [
+        "55818b164bdc2ddc698b456c"
+      ],
+      "requiredCategoryNames": {
+        "55818b164bdc2ddc698b456c": {
+          "zh": "组合式战术设备",
+          "en": "Comb. tact. device"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5abcbc27d8ce8700182eceeb"
+      ],
+      "targetNames": {
+        "5abcbc27d8ce8700182eceeb": {
+          "zh": "AKMSN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMSN 7.62x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 34
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 360
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 80
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 40
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 5.3
+        }
+      ],
+      "requiredItems": [
+        "57486e672459770abd687134"
+      ],
+      "requiredItemNames": {
+        "57486e672459770abd687134": {
+          "zh": "OKP-7反射式瞄具（Dovetail）",
+          "en": "OKP-7 reflex sight (Dovetail)"
+        }
+      },
+      "requiredCategories": [
+        "55818b084bdc2d5b648b4571",
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "55818b084bdc2d5b648b4571": {
+          "zh": "手电筒",
+          "en": "Flashlight"
+        },
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "675a456b801bb92dae60542e",
+      "name": {
+        "zh": "工具之道 - 第二章",
+        "en": "Tools To Work With - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6761944135ddfb7470a330e4",
+      "name": {
+        "zh": "工具之道 - 第四章",
+        "en": "Tools To Work With - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_3.png",
+  "isKey": false
+}

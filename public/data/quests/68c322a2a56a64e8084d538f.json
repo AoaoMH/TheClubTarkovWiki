@@ -1,0 +1,165 @@
+{
+  "id": "68c322a2a56a64e8084d538f",
+  "name": {
+    "zh": "违禁品 - 第4部分",
+    "en": "Contraband - Part 4"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 30,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 30
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57347baf24597738002c6178",
+      "itemName": {
+        "zh": "内存条 ☆",
+        "en": "RAM stick"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "573477e124597737dd42e191",
+      "itemName": {
+        "zh": "电脑CPU",
+        "en": "PC CPU"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5734779624597737e04bf329",
+      "itemName": {
+        "zh": "CPU风扇",
+        "en": "CPU fan"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c06782b86f77426df5407d2",
+      "itemName": {
+        "zh": "电容",
+        "en": "Capacitors"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c06779c86f77426e00dd782",
+      "itemName": {
+        "zh": "电线",
+        "en": "Bundle of wires"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "668fe5a998b5ad715703ddd6",
+      "itemName": {
+        "zh": "Magnum Research “沙漠之鹰”Mk XIX .50 AE手枪",
+        "en": "Magnum Research Desert Eagle Mk XIX .50 AE pistol"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      }
+    }
+  ],
+  "description": {
+    "zh": "所以结果这些箱子里有一些密封的盒子，不确定里面装的是什么，可能是简单的东西，但也可能是重要的东西，泰拉集团文件 maybe？谁知道呢，但有一件事是确定的！Skier想要他的东西 back。我有个主意，把所有的盒子都藏起来，毕竟你永远不能太小心，而这次行动现在需要我全神贯注。我在想把它们藏在我的通常活动区域附近，让我的人靠近这些有价值的货物很重要。\n\n第一个点应该在森林锯木厂附近的码头，第二个点应该在天蓝海岸码头餐厅的厨房里，最后一个点应该在工业区的检查站里，你可能需要为此干掉一两个狙击手。你能完成这个工作吗？",
+    "en": "So it turns out these cases have some sealed boxes inside, not sure what they contain, it might be something simple, but also something important, Terragroup documents maybe? Who knows, but one thing is certain! Skier wants his stuff back. I had the idea of hiding all the boxes, you can never be too careful after all, and this operation requires all my attention for now. I was thinking about hiding them close to the areas where my people usually roam, keeping my people close to these valuable goods is important.\n\nThe first spot should be at the docks near the sawmill in the forest, the second spot should be inside the kitchen of the restaurant at the pier at the Azure Coast and the last spot should be inside the blockpost at the industrial zone, you might need to take out a sniper or two for that. Are you able to complete this job?"
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "67409848d0b2f8eb9b034db9"
+      ],
+      "targetNames": {
+        "67409848d0b2f8eb9b034db9": {
+          "zh": "密封的盒子",
+          "en": "Sealed box"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "67409848d0b2f8eb9b034db9"
+      ],
+      "targetNames": {
+        "67409848d0b2f8eb9b034db9": {
+          "zh": "密封的盒子",
+          "en": "Sealed box"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "67409848d0b2f8eb9b034db9"
+      ],
+      "targetNames": {
+        "67409848d0b2f8eb9b034db9": {
+          "zh": "密封的盒子",
+          "en": "Sealed box"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c31f71aa355c62f3b4f6e3",
+      "name": {
+        "zh": "违禁品 - 第3部分",
+        "en": "Contraband - Part 3"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_contraband.png",
+  "isKey": false
+}

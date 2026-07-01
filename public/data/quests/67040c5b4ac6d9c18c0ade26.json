@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -50,7 +54,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 25,
+      "value": 6,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -132,9 +136,6 @@
           "en": "TOZ-106 20ga bolt-action shotgun"
         }
       },
-      "bodyParts": [
-        "Head"
-      ],
       "enemyRoles": [
         "infectedAssault",
         "infectedCivil",

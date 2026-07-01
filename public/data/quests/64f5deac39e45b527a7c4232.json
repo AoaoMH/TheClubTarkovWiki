@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5704e4dad2720bb55b8b4567",
+  "locationName": {
+    "zh": "储备站",
+    "en": "Reserve"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -56,7 +60,7 @@
       "value": 8,
       "itemId": "64898602f09d032aa9399d56",
       "itemName": {
-        "zh": "5.45x39mm 7N40盒装弹药（30发装）",
+        "zh": "5.45x39mm 7N40盒装弹药（30发装） ☆",
         "en": "5.45x39mm 7N40 ammo pack (30 pcs)"
       },
       "quantity": 1
@@ -70,7 +74,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 20,
+      "value": 5,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
@@ -86,8 +90,7 @@
           "zh": "AK-12 5.45x39突击步枪",
           "en": "Kalashnikov AK-12 5.45x39 assault rifle"
         }
-      },
-      "location": "Lighthouse"
+      }
     }
   ],
   "prerequisites": [

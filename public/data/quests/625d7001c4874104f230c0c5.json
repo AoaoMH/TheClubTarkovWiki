@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5b0fc42d86f7744a585f9105",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -30,7 +34,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 7,
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -40,13 +44,12 @@
       },
       "enemyRoles": [
         "pmcBot"
-      ],
-      "location": "laboratory"
+      ]
     },
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 15,
+      "value": 4,
       "target": [
         "5c0e531286f7747fa54205c2"
       ],
@@ -61,14 +64,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c0e531d86f7747fa23f4d42"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c0e531d86f7747fa23f4d42": {
-          "zh": "SJ6 TGLabs战斗兴奋剂注射器",
+          "zh": "SJ6 TGLabs战斗兴奋剂注射器 ☆",
           "en": "SJ6 TGLabs combat stimulant injector"
         }
       }
@@ -83,7 +86,7 @@
       "onlyFoundInRaid": true,
       "targetNames": {
         "5fca13ca637ee0341a484f46": {
-          "zh": "SJ9 TGLabs战斗兴奋剂注射器",
+          "zh": "SJ9 TGLabs战斗兴奋剂注射器 ☆",
           "en": "SJ9 TGLabs combat stimulant injector"
         }
       }

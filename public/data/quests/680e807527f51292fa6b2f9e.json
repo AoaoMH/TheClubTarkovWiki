@@ -1,0 +1,88 @@
+{
+  "id": "680e807527f51292fa6b2f9e",
+  "name": {
+    "zh": "晚餐准备好了",
+    "en": "Dinner's Ready"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Standing",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 200000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 200000
+    }
+  ],
+  "description": {
+    "zh": "好了，一切都已复印并安全地存储在安全的地方。现在是第二步——我们找到了一个需要这本日记的人，我们非常确定这个人不会拿它做任何蠢事，我想你已经认识他了，就是塔里的那个人。\n\n我希望你已经有了信号发射器之类的东西，这样你就可以绕过灯塔桥上的所有地雷。他的狙击手在路上也不应该朝你开枪，所以你会安全的...希望如此。\n\n总之，你知道该怎么做。可能有人出卖了我们，现在有些人知道我们有了这本日记，我猜那个竞技场家伙会向你要它。记住他掌握所有这些信息可能造成的损害。\n\n做正确的事。",
+    "en": "Okay, everything is copied and stored securely in a safe place. Now to step two - We found someone who needs this diary, and we are very certain that this man wouldn't do anything stupid with it, and I think you know him already, it's the man in the tower.\n\nI hope you already have the signal transmitter or whatever, so you can bypass all the mines on the lighthouse bridge. His snipers shouldn't shoot you on the way there either so you will be safe... Hopefully.\n\nAnyway, you know what to do. Someone might have ratted us out, and now some people know that we have this diary, I assume this Arena fella will ask you for it. Remember the damage he can cause with all this information in his possession.\n\nDo the right thing."
+  },
+  "objectives": [],
+  "prerequisites": [
+    {
+      "id": "680e778d7b773d357db874c5",
+      "name": {
+        "zh": "谁偷走了证据？",
+        "en": "Who Stole The Evidence?"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "680e8127463f0c3d59af8056",
+      "name": {
+        "zh": "这里发生的事就留在这里",
+        "en": "What Happens Here Stays Here"
+      }
+    },
+    {
+      "id": "680e808b6d94abeb5a2dbc70",
+      "name": {
+        "zh": "鱼在碗里",
+        "en": "The Fish Is In The Bowl"
+      }
+    },
+    {
+      "id": "686504c9546711656b0cdd70",
+      "name": {
+        "zh": "挖掘过去",
+        "en": "Digging Up The Past"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_lotus.png",
+  "isKey": false
+}

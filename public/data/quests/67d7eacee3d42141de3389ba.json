@@ -1,0 +1,146 @@
+{
+  "id": "67d7eacee3d42141de3389ba",
+  "name": {
+    "zh": "被盯上了",
+    "en": "Notified"
+  },
+  "traderId": "54cb57776803fa99248b456e",
+  "traderName": {
+    "zh": "Therapist",
+    "en": "Therapist"
+  },
+  "type": "Exploration",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb57776803fa99248b456e",
+      "value": 0.02
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": -0.05
+    },
+    {
+      "type": "Item",
+      "value": 37500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 37500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5751a89d24597722aa0e8db0",
+      "itemName": {
+        "zh": "金星软膏 ☆",
+        "en": "Golden Star balm"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e531286f7747fa54205c2",
+      "itemName": {
+        "zh": "SJ1 TGLabs战斗兴奋剂注射器",
+        "en": "SJ1 TGLabs combat stimulant injector"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e531d86f7747fa23f4d42",
+      "itemName": {
+        "zh": "SJ6 TGLabs战斗兴奋剂注射器 ☆",
+        "en": "SJ6 TGLabs combat stimulant injector"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5af0534a86f7743b6f354284",
+      "itemName": {
+        "zh": "检眼镜 ☆",
+        "en": "Ophthalmoscope"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "你好，小伙子。我这有件重要的事和 Terragroup 有关，你愿意帮忙吗？\n\n我们最近发现了一些关于 Terragroup 的情报——有文件显示他们的货物出现在海关一带。\n\n我平常不会麻烦别人这种事，但这次必须抢在其他人之前找到这些货物，性命可能攸关。我们不能让那些心怀不轨的人抢先一步。\n\n情报显示这些货物由两辆军车运输。你能设法找到它们并确认货物是否仍在吗？有进一步线索后联系我。",
+    "en": "Hello young man, there is an important matter that you can help me with, it's about Terragroup. Are you interested?\n\nMy people found some intelligence recently - Documents with Terragroup shipments in the industrial area.\nNormally I would not ask for this, but I need someone to locate these shipments before someone else, lives could be at stake. We need to make sure that nobody with malicious intentions finds them before we do. According to the intel, the cargo was carried by two military vehicles.\n\nAre you able to locate them and make sure the cargo is still there? Contact me once you obtain further details."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_warehouse4_outside",
+      "targetNames": {
+        "lotus_customs_ural_warehouse4_outside": {
+          "zh": "lotus_customs_ural_warehouse4_outside",
+          "en": "lotus_customs_ural_warehouse4_outside"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_busstation_outside",
+      "targetNames": {
+        "lotus_customs_ural_busstation_outside": {
+          "zh": "lotus_customs_ural_busstation_outside",
+          "en": "lotus_customs_ural_busstation_outside"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67d769c37a074517a838b60b",
+      "name": {
+        "zh": "丰盈满溢的备件",
+        "en": "A Whole Reserve Of Spare Parts"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67e972c039c5f34295a24265",
+      "name": {
+        "zh": "医生，你这是几个意思？",
+        "en": "State Your Business, Doctor"
+      }
+    },
+    {
+      "id": "67e970f55882098f5a4a622b",
+      "name": {
+        "zh": "正当介入",
+        "en": "Justified Involvement"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_therapist.png",
+  "isKey": false
+}

@@ -1,0 +1,271 @@
+{
+  "id": "6812590e15f6bcbc89c75b34",
+  "name": {
+    "zh": "血渴",
+    "en": "Blood Thirsty"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 75500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75500
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e2af47786f7746d404f3aaa",
+      "itemName": {
+        "zh": "绒布布料",
+        "en": "Fleece fabric"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e2af4d286f7746d4159f07a",
+      "itemName": {
+        "zh": "芳纶纤维布料",
+        "en": "Aramid fiber fabric"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e2af4a786f7746d3f3c3400",
+      "itemName": {
+        "zh": "防撕布料",
+        "en": "Ripstop fabric"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e2af41e86f774755a234b67",
+      "itemName": {
+        "zh": "Cordura聚酰胺面料",
+        "en": "Cordura polyamide fabric"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f60b34a41e30a4ab12a6947",
+      "itemName": {
+        "zh": "Galvion 凯门鳄 复合防弹头盔（灰色）",
+        "en": "Galvion Caiman Hybrid helmet (Grey)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "544a5caa4bdc2d1a388b4568",
+      "itemName": {
+        "zh": "Crye Precision AVS 插板胸挂（丛林绿）",
+        "en": "Crye Precision AVS plate carrier (Ranger Green)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "再次你好，兄弟！街道最近安静得可怕，我听说你很擅长处理本地犯罪头目和其他人渣。今天我们相遇真是太好了！\n\n有件“事”，你知道，我和其他一些经销商目前正在处理一些事情。你收到了关于这个角斗士竞技场的消息，我猜。妈的，哥们儿……一些疯狂的事情。\n\n镇上有这么个人，我相信他的名字叫“Ref”。总之我们闲话少说，不久前这家伙到处都有他的打手，他们到处跑寻找某个SCAV和BEAR操作员，实际上我不知道他们怎么了——他们可能逃脱了，因为我最近没怎么看到那些猎犬 around。然而，他们有时会巡逻一些区域，一只小鸟告诉我，他们要么在守卫，要么在移动重要的货物——如果我必须猜测，那是给他们“角斗士”的补给。\n\n如果你愿意帮兄弟一个忙，我会超级感激的，懂吗？ feel free to 干掉他的一两条或多条狗，我听说他们带着一些好装备。很好 then，我希望稍后能听到你的消息。",
+    "en": "Hello again, brother! The streets have been awfully silent lately, I heard you're good at taking care of local crime bosses and other scum. Good thing we crossed paths today!\n\nThere is this \"thing\", you know, me and some other dealers are working on something at the moment. You received the news about this gladiator Arena, I assume. Shit, man... Some wild stuff.\n\nThere's this guy in town, \"Ref\" was his name I believe. Anyway let's cut the small talk, this dude had his goons everywhere not too long ago, they were running around looking for some scav and BEAR operator, no clue what happened to them actually - They likely escaped, since I haven't seen the hounds around much recently. However they sometimes patrol some areas, and a little bird told me that they were either guarding or moving important goods - If I would have to guess it's supplies for their \"gladiators\".\n\nIf you'd be so kind to help out a brother, I would be super grateful, ya know? Feel free to take out one or more of his dogs, I heard they carry some sweet equipment. Very well then, I hope I can hear from you later."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_warehouse3_ref_supplies",
+      "targetNames": {
+        "lotus_customs_warehouse3_ref_supplies": {
+          "zh": "lotus_customs_warehouse3_ref_supplies",
+          "en": "lotus_customs_warehouse3_ref_supplies"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_scavbase_outside_1",
+      "targetNames": {
+        "lotus_customs_ural_scavbase_outside_1": {
+          "zh": "lotus_customs_ural_scavbase_outside_1",
+          "en": "lotus_customs_ural_scavbase_outside_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_shoreline_ural_ref_supplies_1",
+      "targetNames": {
+        "lotus_shoreline_ural_ref_supplies_1": {
+          "zh": "lotus_shoreline_ural_ref_supplies_1",
+          "en": "lotus_shoreline_ural_ref_supplies_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_shoreline_ural_ref_supplies_2",
+      "targetNames": {
+        "lotus_shoreline_ural_ref_supplies_2": {
+          "zh": "lotus_shoreline_ural_ref_supplies_2",
+          "en": "lotus_shoreline_ural_ref_supplies_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_shack_ref_supplies",
+      "targetNames": {
+        "lotus_woods_shack_ref_supplies": {
+          "zh": "lotus_woods_shack_ref_supplies",
+          "en": "lotus_woods_shack_ref_supplies"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_ruafroadblock_ref_supplies",
+      "targetNames": {
+        "lotus_woods_ruafroadblock_ref_supplies": {
+          "zh": "lotus_woods_ruafroadblock_ref_supplies",
+          "en": "lotus_woods_ruafroadblock_ref_supplies"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "arenaFighterEvent"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6762474161ffeb3c022b9b69",
+      "name": {
+        "zh": "塔科夫环卫工：黄金交易 - 第2章",
+        "en": "Bandit Hunt - Deal To Make - Part 2"
+      }
+    },
+    {
+      "id": "67625a4c9ac37a06ed638698",
+      "name": {
+        "zh": "塔科夫环卫工：冷案 - 第2章",
+        "en": "Bandit Hunt - Cold Case - Part 2"
+      }
+    },
+    {
+      "id": "6747c0991fa4b29ab5692551",
+      "name": {
+        "zh": "塔科夫环卫工：进口货",
+        "en": "Bandit Hunt - Imports"
+      }
+    },
+    {
+      "id": "6762566a03b27f2d68c35ddf",
+      "name": {
+        "zh": "塔科夫环卫工：工厂疯批 - 第2章",
+        "en": "Bandit Hunt - Factory Maniac - Part 2"
+      }
+    },
+    {
+      "id": "6747c1e4c6f655f7863b727f",
+      "name": {
+        "zh": "塔科夫环卫工：阿迪达斯大金表",
+        "en": "Bandit Hunt - Mall Maniac"
+      }
+    },
+    {
+      "id": "67624ce5ad9d2e9714bf6120",
+      "name": {
+        "zh": "塔科夫环卫工：科学狂人",
+        "en": "Bandit Hunt - Mad Scientist"
+      }
+    },
+    {
+      "id": "6762516bfbdc2715070c1800",
+      "name": {
+        "zh": "塔科夫环卫工：森林导游",
+        "en": "Bandit Hunt - Forest Navigator"
+      }
+    },
+    {
+      "id": "6747bcf89415880273ff7fa9",
+      "name": {
+        "zh": "良好联络",
+        "en": "Well Connected"
+      }
+    },
+    {
+      "id": "6812693ccc1cb45c73910644",
+      "name": {
+        "zh": "一个全新的世界",
+        "en": "A Whole New World"
+      }
+    },
+    {
+      "id": "671a49f77d49aea42c029b5f",
+      "name": {
+        "zh": "诱人新货",
+        "en": "Irresistible"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6812941396bf52b87fada560",
+      "name": {
+        "zh": "武器强盗",
+        "en": "Weapon Thieves"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_ragman.png",
+  "isKey": false
+}

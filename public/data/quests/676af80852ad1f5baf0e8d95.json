@@ -1,0 +1,193 @@
+{
+  "id": "676af80852ad1f5baf0e8d95",
+  "name": {
+    "zh": "非法操作",
+    "en": "Absolutely Legal Operation"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Discover",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.07
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 97250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 97250
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d63d33b86f7746ea9275524",
+      "itemName": {
+        "zh": "平头螺丝刀",
+        "en": "Flat screwdriver"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b313086f77425227d1678",
+      "itemName": {
+        "zh": "相位控制继电器",
+        "en": "Phase control relay"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b327086f7742525194449",
+      "itemName": {
+        "zh": "压力表",
+        "en": "Pressure gauge"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a3c16fe86f77452b62de32a",
+      "itemName": {
+        "zh": "9x19毫米 Luger CCI",
+        "en": "9x19mm Luger CCI"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e746986f7741453628fe5",
+      "itemName": {
+        "zh": "WARTECH TV-110 插板胸挂（灰褐色）",
+        "en": "WARTECH TV-110 plate carrier (Coyote)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5aa7cfc0e5b5b00015693143",
+      "itemName": {
+        "zh": "6B47 Ratnik-BSh 头盔（数码迷彩盔罩）",
+        "en": "6B47 Ratnik-BSh helmet (EMR cover)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我们有另一个任务需要你完成，仔细听好了。\n我们通缉名单上的某人最近成功逃离了塔科夫，但他通过雇佣走私者将特定货物运送到外界进行交易。\n\n根据消息，这笔订单需要一套俄军装备，包括头盔、防弹衣和 AK 步枪。计划是将这些物品放置在交易商同意的地点，然后我们的人会追踪它们。你需要找到坠毁在 森林 中间的 24 号飞机残骸，进入驾驶舱并将这些物品藏在那里。注意其他PMC的动向。\n我们期待你的好消息。",
+    "en": "We have another task for you, listen carefully.\nSomeone who has been on our wanted-list for a while now managed to get out of Tarkov, however he has been dealing with certain goods by hiring smugglers to get them out of Tarkov into the outside world.\n\nWe were told about an order of a russian army gear set, helmet, vest and AK rifle. The plan is to plant these items in the location the dealers agreed on, then a few of our people will track them down again. You need to locate the plane wreck that has crashed somewhere in the middle of the forest, get inside the cockpit and hide the goods there, and beware of other mercs.\nWe will hear from you soon."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_plane",
+      "targetNames": {
+        "lotus_woods_plane": {
+          "zh": "lotus_woods_plane",
+          "en": "lotus_woods_plane"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5ac4cd105acfc40016339859"
+      ],
+      "targetNames": {
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5c0e51be86f774598e797894",
+        "5c0e53c886f7747fa54205c7"
+      ],
+      "targetNames": {
+        "5c0e51be86f774598e797894": {
+          "zh": "6B13 突击甲（丛林迷彩）",
+          "en": "6B13 assault armor (Flora)"
+        },
+        "5c0e53c886f7747fa54205c7": {
+          "zh": "6B13 突击甲（数码丛林迷彩）",
+          "en": "6B13 assault armor (EMR)"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5a7c4850e899ef00150be885",
+        "5aa7cfc0e5b5b00015693143",
+        "6745895717824b1ec20570a6"
+      ],
+      "targetNames": {
+        "5a7c4850e899ef00150be885": {
+          "zh": "6B47 Ratnik-BSh 头盔（橄榄绿）",
+          "en": "6B47 Ratnik-BSh helmet (Olive Drab)"
+        },
+        "5aa7cfc0e5b5b00015693143": {
+          "zh": "6B47 Ratnik-BSh 头盔（数码迷彩盔罩）",
+          "en": "6B47 Ratnik-BSh helmet (EMR cover)"
+        },
+        "6745895717824b1ec20570a6": {
+          "zh": "6B47 Ratnik-BSh 头盔（极地数码迷彩盔罩）",
+          "en": "6B47 Ratnik-BSh helmet (EMR Arctic cover)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "676ac738a2720c6b1da18fef",
+      "name": {
+        "zh": "走私黑道",
+        "en": "Smuggler's Run"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c0bfe82d85ac7091436bb2",
+      "name": {
+        "zh": "蓬勃发展的生意",
+        "en": "Thriving Business"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_fence_smugglersrun.png",
+  "isKey": false
+}

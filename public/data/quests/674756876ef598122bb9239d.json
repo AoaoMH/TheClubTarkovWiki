@@ -1,0 +1,193 @@
+{
+  "id": "674756876ef598122bb9239d",
+  "name": {
+    "zh": "“将死！” - 第四章",
+    "en": "Checkmate - Part 4"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 39750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 39750
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5aa2b9ede5b5b000137b758b",
+      "itemName": {
+        "zh": "Kinda牛仔帽",
+        "en": "Kinda cowboy hat"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59984ab886f7743e98271174",
+      "itemName": {
+        "zh": "PP-19-01 勇士 9x19 冲锋枪",
+        "en": "PP-19-01 Vityaz 9x19 submachine gun"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Intellect",
+      "value": 25
+    },
+    {
+      "type": "Skill",
+      "target": "StressResistance",
+      "value": 25
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6193a720f8ee7e52e42109ed",
+      "itemName": {
+        "zh": "HK USP .45 ACP手枪",
+        "en": "HK USP .45 ACP pistol"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e57ba86f7747fa141986d",
+      "itemName": {
+        "zh": "6B23-2 防弹衣（山地丛林迷彩）",
+        "en": "6B23-2 body armor (Mountain Flora)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f60cd6cf2bcbb675b00dac6",
+      "itemName": {
+        "zh": " Walker's XCEL 500BT 数字耳机",
+        "en": "Walker's XCEL 500BT Digital headset"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我猜你注意到那架巨大的直升机了吧？有人告诉我，这个型号是世界上最大的直升机，而它就这样闲置在那里。显然，在冲突爆发前它曾被用来运输重要货物。嗯，现在它没用，暂时……\n\n你能够在这架飞机上放置标记器吗？哦，为了安全起见，我建议你在每栋营房外都放置一个摄像头，镜头要对准这架直升机。\n\n我会安排人稍后将它们接入我们的系统，这样我们就能监控这个区域了。",
+    "en": "I bet you noticed the gigantic helicopter between the three barracks. Someone told me that this exact model is the biggest helicopter in the world, and it's just standing there like nothing. Apparently it was carrying some important cargo before the conflict. Well, now it's useless... For now atleast.\n\nAre you able to place down a marker on the helicopter? And just to be safe I'd say you should place down a camera at each of the baracks, make sure the camera is outside pointing at the helicopter.\n\nI'll have someone connect them to our systems later so we can watch the place."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_mi26",
+      "targetNames": {
+        "lotus_reserve_mi26": {
+          "zh": "lotus_reserve_mi26",
+          "en": "lotus_reserve_mi26"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674755987736d5ac91837615",
+      "name": {
+        "zh": "“将死！” - 第三章",
+        "en": "Checkmate - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674757075b3b3631a4b3efd5",
+      "name": {
+        "zh": "“将死！” - 第五章",
+        "en": "Checkmate - Part 5"
+      }
+    },
+    {
+      "id": "6747c236e7360000d2cdffb9",
+      "name": {
+        "zh": "来自东方的朋友",
+        "en": "A Friend From the East"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_checkmate_4.png",
+  "isKey": false
+}

@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -46,7 +50,7 @@
       "value": 1,
       "itemId": "567143bf4bdc2d1a0f8b4567",
       "itemName": {
-        "zh": "手枪收纳箱",
+        "zh": "手枪收纳箱 ☆",
         "en": "Pistol case"
       },
       "quantity": 1
@@ -170,7 +174,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "5448bd6b4bdc2dfc2f8b4569",
         "579204f224597773d619e051"
@@ -190,7 +194,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "5448bd6b4bdc2dfc2f8b4569",
         "579204f224597773d619e051"
@@ -209,8 +213,8 @@
     },
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 10,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {

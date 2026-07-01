@@ -1,0 +1,126 @@
+{
+  "id": "6748694525ed5b74088bbd08",
+  "name": {
+    "zh": "东方联盟 - 第五章",
+    "en": "Eastern Reliability - Part 5"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 75500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b363dd25acfc4001a598fd2",
+      "itemName": {
+        "zh": "SilencerCo Osprey 12声音抑制器",
+        "en": "SilencerCo Salvo 12 12ga sound suppressor"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "65702474bfc87b3a34093226",
+      "itemName": {
+        "zh": "25发12/70 箭形弹盒装弹药 ☆",
+        "en": "12/70 flechette ammo pack (25 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "567143bf4bdc2d1a0f8b4567",
+      "itemName": {
+        "zh": "手枪收纳箱 ☆",
+        "en": "Pistol case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Shotgun",
+      "value": 175
+    }
+  ],
+  "description": {
+    "zh": "很多人都觉得，近战最强武器就是霰弹枪。这话不全错，但你也知道——塔科夫从来没那么简单。\n\n带着 Saiga 去老工厂，型号随你选，把那地方清理清理，搞得晚上安静点，最近那儿连狗叫声都听不到了！你们这些 PMC 是不是对那破工厂上瘾了？那地方压根没啥好东西。\n\n你可以选装 Hexagon 消音器悄悄干，也可以装上 GK-02 补偿器直接干翻全场，怎么打你自己决定。你能搞定这活儿吧？",
+    "en": "Lots of fighters believe the best tool to fight others from up close is a shotgun. That might not be entirely false, but you already know - There's always a catch.\n\nTake a Saiga shotgun to the old factory, I don't mind which variant you use, just get rid of some people there so it's quiet there at night, you can't even hear the dogs bark anymore! Why are you PMCs so obsessed with that place anyway, there's nothing good in there.\n\nI'll give you a choice here, either run your gun with a hexagon suppressor, or you use a GK-02 and go loud. You think you can handle this work?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "576165642459773c7a400233",
+        "674fe9a75e51f1c47c04ec23"
+      ],
+      "weaponNames": {
+        "576165642459773c7a400233": {
+          "zh": "Saiga-12K ver.10 12铅径半自动霰弹枪",
+          "en": "Saiga-12K ver.10 12ga semi-automatic shotgun"
+        },
+        "674fe9a75e51f1c47c04ec23": {
+          "zh": "Saiga-12K 12 铅径自动霰弹枪",
+          "en": "Saiga-12K 12ga automatic shotgun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6748690cb0fff3f2a5ba3d47",
+      "name": {
+        "zh": "东方联盟 - Part 4",
+        "en": "Eastern Reliability - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674869c190ca5803d23b7ea5",
+      "name": {
+        "zh": "东方联盟 - 第六章",
+        "en": "Eastern Reliability - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_easternreliability_5_prapor.png",
+  "isKey": false
+}

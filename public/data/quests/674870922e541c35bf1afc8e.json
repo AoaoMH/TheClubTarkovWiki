@@ -1,0 +1,222 @@
+{
+  "id": "674870922e541c35bf1afc8e",
+  "name": {
+    "zh": "西方连线 - 第三章",
+    "en": "The Western Connection - Part 3"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 2000,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 2000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0eebed86f77461230ddb3d",
+      "itemName": {
+        "zh": "疗养院西楼 325 房间钥匙",
+        "en": "Health Resort west wing room 325 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0ee30786f774023b6ee08f",
+      "itemName": {
+        "zh": "疗养院西楼 216 房间钥匙 ★",
+        "en": "Health Resort west wing room 216 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5dfa3d2b0dee1b22f862eade",
+      "itemName": {
+        "zh": "KAC PRS/QDC 7.62x51 消音器",
+        "en": "KAC PRS/QDC 7.62x51 sound suppressor"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "648985c074a806211e4fb682",
+      "itemName": {
+        "zh": ".300 Blackout AP弹药包（50发装）",
+        "en": ".300 Blackout AP ammo pack (50 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Skill",
+      "target": "Sniper",
+      "value": 100
+    },
+    {
+      "type": "Skill",
+      "target": "WeaponTreatment",
+      "value": 400
+    },
+    {
+      "type": "Skill",
+      "target": "CovertMovement",
+      "value": 125
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，准备好接受下一项任务了吗？\n我的手下在夜间侦察时遇到了一些麻烦，地头蛇似乎比以往更具攻击性。现在我不想让他们继续夜间行动了……太危险了。这正是我需要你的地方。你需要在一些我们常用的侦察地点清理敌人，地点清单我会发给你。同时，我还需要你为我们带回一些夜视设备，无论是护目镜还是瞄准镜都可以。\n\n我相信你能完成任务，但要注意脚下的路——那些戴兜帽的家伙可不会对你热情接待。",
+    "en": "So, mercenary, ready for the next job?\nMy men had a bit of trouble when scouting the region at night, the locals seem more aggressive than usual, and now I don't want to send any more of them at night... Way too dangerous. This is where I need you, take out hostiles at night on a few of our usual scouting locations, I will send you the list. I also want you to bring us a few night vision devices, goggles or scopes will do fine.\nI count on you mercenary, and be careful where you set your foot, the hooded guys will not give you a warm welcome."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c0558060db834001b735271",
+        "5c066e3a0db834001b7353f0",
+        "5c0696830db834001d23f5da",
+        "5b3b6e495acfc4330140bd88",
+        "5a7c74b3e899ef0014332c29",
+        "57235b6f24597759bf5a30f1",
+        "67506ca81f18589016006aa6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0558060db834001b735271": {
+          "zh": "GPNVG-18夜视仪 ☆",
+          "en": "L3Harris GPNVG-18 night vision goggles"
+        },
+        "5c066e3a0db834001b7353f0": {
+          "zh": "Armasight N-15夜视仪",
+          "en": "Armasight N-15 night vision goggles"
+        },
+        "5c0696830db834001d23f5da": {
+          "zh": "PNV-10T夜视仪",
+          "en": "PNV-10T night vision goggles"
+        },
+        "5b3b6e495acfc4330140bd88": {
+          "zh": "Vulcan MG 3.5x夜视瞄准镜",
+          "en": "Armasight Vulcan MG 3.5x Bravo night vision scope"
+        },
+        "5a7c74b3e899ef0014332c29": {
+          "zh": "NSPU-M 3.5 倍 燕尾槽夜视瞄准镜",
+          "en": "NSPU-M 3.5x dovetail night vision scope"
+        },
+        "57235b6f24597759bf5a30f1": {
+          "zh": "AN/PVS-14单筒夜视仪 ☆",
+          "en": "L3Harris AN/PVS-14 night vision monocular"
+        },
+        "67506ca81f18589016006aa6": {
+          "zh": "PNV-57E 夜视仪",
+          "en": "PNV-57E night vision goggles"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c0558060db834001b735271",
+        "5c066e3a0db834001b7353f0",
+        "5c0696830db834001d23f5da",
+        "5b3b6e495acfc4330140bd88",
+        "5a7c74b3e899ef0014332c29",
+        "57235b6f24597759bf5a30f1",
+        "67506ca81f18589016006aa6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0558060db834001b735271": {
+          "zh": "GPNVG-18夜视仪 ☆",
+          "en": "L3Harris GPNVG-18 night vision goggles"
+        },
+        "5c066e3a0db834001b7353f0": {
+          "zh": "Armasight N-15夜视仪",
+          "en": "Armasight N-15 night vision goggles"
+        },
+        "5c0696830db834001d23f5da": {
+          "zh": "PNV-10T夜视仪",
+          "en": "PNV-10T night vision goggles"
+        },
+        "5b3b6e495acfc4330140bd88": {
+          "zh": "Vulcan MG 3.5x夜视瞄准镜",
+          "en": "Armasight Vulcan MG 3.5x Bravo night vision scope"
+        },
+        "5a7c74b3e899ef0014332c29": {
+          "zh": "NSPU-M 3.5 倍 燕尾槽夜视瞄准镜",
+          "en": "NSPU-M 3.5x dovetail night vision scope"
+        },
+        "57235b6f24597759bf5a30f1": {
+          "zh": "AN/PVS-14单筒夜视仪 ☆",
+          "en": "L3Harris AN/PVS-14 night vision monocular"
+        },
+        "67506ca81f18589016006aa6": {
+          "zh": "PNV-57E 夜视仪",
+          "en": "PNV-57E night vision goggles"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67486e6cca3b547b79d43af0",
+      "name": {
+        "zh": "西方连线 - 第二章",
+        "en": "The Western Connection - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6748711d9d84961ce225c6b7",
+      "name": {
+        "zh": "西方连线 - 第四章",
+        "en": "The Western Connection - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_peacekeeper.png",
+  "isKey": false
+}

@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Skill",
@@ -46,14 +50,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 15,
+      "value": 4,
       "target": [
         "5a1eaa87fcdbcb001865f75e"
       ],
       "onlyFoundInRaid": false,
       "targetNames": {
         "5a1eaa87fcdbcb001865f75e": {
-          "zh": "Trijicon REAP-IR热成像步枪瞄准镜",
+          "zh": "Trijicon REAP-IR热成像步枪瞄准镜 ★",
           "en": "Trijicon REAP-IR thermal scope"
         }
       }

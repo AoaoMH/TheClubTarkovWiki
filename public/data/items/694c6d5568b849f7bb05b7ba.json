@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 45000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Monster Ultra Vice Guava Energy Drink [Rare]",
+      "en": "Monster Ultra Vice Guava Energy Drink [Rare]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Monster",
+      "en": "Monster"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 60,000₽ | 物品价值: 45,000 | Therapist报价: 28,350₽购买渠道 @ Therapist 等级4 < 45,000₽\n\nRipened guava flavor with Miami swagger. Ultra Vice Guava has zero sugar, low calories, and the Monster Energy blend to fuel your fire. Bold energy for those who never blend in. ",
+      "en": "跳蚤市场: 60,000₽ | 物品价值: 45,000 | Therapist报价: 28,350₽购买渠道 @ Therapist 等级4 < 45,000₽\n\nRipened guava flavor with Miami swagger. Ultra Vice Guava has zero sugar, low calories, and the Monster Energy blend to fuel your fire. Bold energy for those who never blend in. "
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,88 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.2,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 10,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "DamageModifier",
+            "skillName": "",
+            "value": -0.02,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "AimDrills",
+            "value": 3,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "MagDrills",
+            "value": 3,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "HeavyVests",
+            "value": 3,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "LightVests",
+            "value": 3,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -5,
+            "delay": 400,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -1.5,
+            "delay": 400,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 400,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

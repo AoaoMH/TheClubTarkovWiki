@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -40,34 +44,31 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 5,
+      "value": 1,
       "target": "Savage",
       "targetNames": {
         "Savage": {
           "zh": "Savage",
           "en": "Savage"
         }
-      },
-      "location": "Woods"
+      }
     },
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "Woods"
+      "value": 1
     },
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 5,
+      "value": 1,
       "target": "Savage",
       "targetNames": {
         "Savage": {
           "zh": "Savage",
           "en": "Savage"
         }
-      },
-      "location": "RezervBase"
+      }
     }
   ],
   "prerequisites": [

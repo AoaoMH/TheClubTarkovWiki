@@ -1,0 +1,189 @@
+{
+  "id": "67486d24c4944822ad6f8d57",
+  "name": {
+    "zh": "和平使者",
+    "en": "Keeping The Peace"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21950
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 525,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 525
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e655586f774045612eeb2",
+      "itemName": {
+        "zh": "HighCom Trooper TFO 防弹背心（复合迷彩）",
+        "en": "HighCom Trooper TFO body armor (MultiCam)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b5f666cad6f002ab7214c2",
+      "itemName": {
+        "zh": "Ballistic Armor Co. Bastion头盔（多地形迷彩）",
+        "en": "Ballistic Armor Co. Bastion helmet (MultiCam)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "657024ecc5d7d4cb4d07856d",
+      "itemName": {
+        "zh": "50发5.56x45 M856A1盒装弹药 ☆",
+        "en": "5.56x45mm M856A1 ammo pack (50 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5bb2475ed4351e00853264e3",
+      "itemName": {
+        "zh": "HK 416A5 5.56x45 突击步枪 ☆",
+        "en": "HK 416A5 5.56x45 assault rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "LightVests",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "Crafting",
+      "value": 75
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，停一下。\n你真的要支持那个老头去帮那些强盗团伙吗？你知道他的行为会对联合国在塔科夫的行动造成多大的威胁吗？在决定帮助他之前，请三思而后行。我怀疑他可能直接与这里当地头目们合作。\n\n所以，仔细听我说：你真的想帮助这些强盗吗？要知道，他们很可能会第一个对你下手。我不能阻止你，但如果你选择背叛我们，我不会忘记的。",
+    "en": "Mercenary, hold on for a second.\nYou seriously won't support this old man with helping out bandit gangs? You are aware that his intentions are not good for the UN operation in Tarkov, please think about your actions very carefully before choosing to help this guy. I am assuming he is also working together with the scav gang leaders themselves.\n\nSo listen to me carefully, do you really want to help these bandits? You know that someone like you would be the first person that they would kill, I can not stop you mercenary, however I will not forget about this if you choose to betray us."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Bear",
+      "targetNames": {
+        "Bear": {
+          "zh": "Bear",
+          "en": "Bear"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBully",
+        "followerKojaniy",
+        "followerGluharAssault",
+        "followerGluharScout",
+        "followerGluharSecurity",
+        "followerSanitar",
+        "followerBoar",
+        "bossBoarSniper",
+        "followerBoarClose1",
+        "followerBoarClose2",
+        "followerKolontayAssault",
+        "followerKolontaySecurity",
+        "followerZryachiy"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossTagilla",
+        "bossSanitar",
+        "bossBoar",
+        "bossKilla",
+        "bossGluhar",
+        "bossBully",
+        "bossSanitar",
+        "bossKojaniy",
+        "bossKolontay"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747c3ffc2b2062f1de93906",
+      "name": {
+        "zh": "为了祖国",
+        "en": "For The Motherland"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67486dda530589a4b6d0ea45",
+      "name": {
+        "zh": "西方连线 - 第一章",
+        "en": "The Western Connection - Part 1"
+      }
+    },
+    {
+      "id": "67487d3a9466f36422ede295",
+      "name": {
+        "zh": "专业射手 - 第一章",
+        "en": "Professional Weapon Tester - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_peacekeeper.png",
+  "isKey": false
+}

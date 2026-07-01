@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -21,7 +25,7 @@
       "value": 7,
       "itemId": "5c94bbff86f7747ee735c08f",
       "itemName": {
-        "zh": "TerraGroup实验室访问钥匙卡",
+        "zh": "TerraGroup实验室访问钥匙卡 ★",
         "en": "TerraGroup Labs access keycard"
       },
       "quantity": 1
@@ -31,7 +35,7 @@
       "value": 4,
       "itemId": "5d0377ce86f774186372f689",
       "itemName": {
-        "zh": "Iridium军用热成像模块",
+        "zh": "Iridium军用热成像模块 ☆",
         "en": "Iridium military thermal vision module"
       },
       "quantity": 1
@@ -63,14 +67,14 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c05300686f7746dce784e5d"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c05300686f7746dce784e5d": {
-          "zh": "VPX闪存模块",
+          "zh": "VPX闪存模块 ★",
           "en": "VPX Flash Storage Module"
         }
       }
@@ -78,14 +82,14 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c052fb986f7746b2101e909"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c052fb986f7746b2101e909": {
-          "zh": "UHF RFID固定式读取器 ",
+          "zh": "UHF RFID固定式读取器  ☆",
           "en": "UHF RFID Reader"
         }
       }
@@ -93,14 +97,14 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c05308086f7746b2101e90b"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c05308086f7746b2101e90b": {
-          "zh": "Virtex可编程处理器",
+          "zh": "Virtex可编程处理器 ☆",
           "en": "Virtex programmable processor"
         }
       }
@@ -108,14 +112,14 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c052f6886f7746b1e3db148"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c052f6886f7746b1e3db148": {
-          "zh": "军用COFDM无线信号发射器",
+          "zh": "军用COFDM无线信号发射器 ☆",
           "en": "Military COFDM Wireless Signal Transmitter"
         }
       }
@@ -123,14 +127,14 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 4,
+      "value": 1,
       "target": [
         "62a0a16d0b9d3c46de5b6e97"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "62a0a16d0b9d3c46de5b6e97": {
-          "zh": "军用闪存装置",
+          "zh": "军用闪存装置 ☆",
           "en": "Military flash drive"
         }
       }
@@ -138,14 +142,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c05300686f7746dce784e5d"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c05300686f7746dce784e5d": {
-          "zh": "VPX闪存模块",
+          "zh": "VPX闪存模块 ★",
           "en": "VPX Flash Storage Module"
         }
       }
@@ -153,14 +157,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c052fb986f7746b2101e909"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c052fb986f7746b2101e909": {
-          "zh": "UHF RFID固定式读取器 ",
+          "zh": "UHF RFID固定式读取器  ☆",
           "en": "UHF RFID Reader"
         }
       }
@@ -168,14 +172,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c05308086f7746b2101e90b"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c05308086f7746b2101e90b": {
-          "zh": "Virtex可编程处理器",
+          "zh": "Virtex可编程处理器 ☆",
           "en": "Virtex programmable processor"
         }
       }
@@ -183,14 +187,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c052f6886f7746b1e3db148"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c052f6886f7746b1e3db148": {
-          "zh": "军用COFDM无线信号发射器",
+          "zh": "军用COFDM无线信号发射器 ☆",
           "en": "Military COFDM Wireless Signal Transmitter"
         }
       }
@@ -198,14 +202,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 4,
+      "value": 1,
       "target": [
         "62a0a16d0b9d3c46de5b6e97"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "62a0a16d0b9d3c46de5b6e97": {
-          "zh": "军用闪存装置",
+          "zh": "军用闪存装置 ☆",
           "en": "Military flash drive"
         }
       }

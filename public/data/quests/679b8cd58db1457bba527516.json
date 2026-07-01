@@ -1,0 +1,156 @@
+{
+  "id": "679b8cd58db1457bba527516",
+  "name": {
+    "zh": "明显迹象",
+    "en": "Clear Signs"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6550
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.02
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 45750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45750
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6570257cc5d7d4cb4d078579",
+      "itemName": {
+        "zh": "7.62x54 R PS gzh弹药包（20发装） ☆",
+        "en": "7.62x54mm R PS gzh ammo pack (20 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "591afe0186f77431bd616a11",
+      "itemName": {
+        "zh": "ZB-014钥匙",
+        "en": "ZB-014 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "591ae8f986f77406f854be45",
+      "itemName": {
+        "zh": "Yotota车钥匙",
+        "en": "Yotota car key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6410733d5dd49d77bd07847e",
+      "itemName": {
+        "zh": "Tokarev AVT-40 7.62x54R自动步枪",
+        "en": "Tokarev AVT-40 7.62x54R automatic rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我会帮你，但你得先帮我确认几个地点。你之前说那个小队是在 Emercom 医疗营地外遭到伏击的，对吧？\n那你就得去那边看看了，尤其是岗楼，很可能伏击他们的人就藏在里面。顺便说一句，我前几天在 RUAF 闸口那边看到一辆损坏的坦克，我原本想凑近看看，结果发现那里到处都是血，看来那里也有激烈战斗。\n\n还有个事，营地附近应该有辆撞进湖里的小货车，那是我同伴提到的，顺便也去查查看。\n\n有什么发现不管重要与否都回来告诉我，完成这些之后，我就帮你解决你正在追查的问题。",
+    "en": "I can help you, but you need to check out a few locations for me first. You were saying that the group got ambushed right outside the emercom camp, yes?\nAlright, that's where you need to investigate a few spots then, specifically the guard towers, it's likely that the people who ambushed them had a few people sitting in them. Around the RUAF gate I spotted a broken tank the other day, when I wanted to take a closer look I found lots of blood, it seems like there were a few fights going down. And while you're at the emercom camp I'd like to ask you to locate some crashed minivan, it should be close to the camp, driven into the lake.\n\nLook for something interesting, let me know if you find anything, or not. Come back when you finished, I will help you with your problem then."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_ruafgate_cubes",
+      "targetNames": {
+        "lotus_woods_ruafgate_cubes": {
+          "zh": "lotus_woods_ruafgate_cubes",
+          "en": "lotus_woods_ruafgate_cubes"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "ter_015_area_1",
+      "targetNames": {
+        "ter_015_area_1": {
+          "zh": "ter_015_area_1",
+          "en": "ter_015_area_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_emercom_tower_1",
+      "targetNames": {
+        "lotus_woods_emercom_tower_1": {
+          "zh": "lotus_woods_emercom_tower_1",
+          "en": "lotus_woods_emercom_tower_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_emercom_tower_2",
+      "targetNames": {
+        "lotus_woods_emercom_tower_2": {
+          "zh": "lotus_woods_emercom_tower_2",
+          "en": "lotus_woods_emercom_tower_2"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "677b7c879a8cf3681ecf1673",
+      "name": {
+        "zh": "易碎货物",
+        "en": "Fragile Shipment"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "679b8e71679cb913c9103bee",
+      "name": {
+        "zh": "下一条线索",
+        "en": "The Next Lead"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_clearsigns.png",
+  "isKey": false
+}

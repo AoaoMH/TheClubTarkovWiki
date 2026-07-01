@@ -1,0 +1,181 @@
+{
+  "id": "674728d52fe62c289180baf3",
+  "name": {
+    "zh": "渗透RUAF - 第五章",
+    "en": "RUAF Infiltrator - Part 5"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 20000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 77450,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 77450
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "590a3cd386f77436f20848cb",
+      "itemName": {
+        "zh": "节能灯泡",
+        "en": "Energy-saving lamp"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "590a3d9c86f774385926e510",
+      "itemName": {
+        "zh": "紫外线灯泡",
+        "en": "Ultraviolet lamp"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "5c1260dc86f7746b106e8748",
+      "itemName": {
+        "zh": "9x39mm 7N12 BP子弹（8发装）",
+        "en": "9x39mm BP gs ammo pack (8 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "57235b6f24597759bf5a30f1",
+      "itemName": {
+        "zh": "AN/PVS-14单筒夜视仪 ☆",
+        "en": "L3Harris AN/PVS-14 night vision monocular"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "651450ce0e00edc794068371",
+      "itemName": {
+        "zh": "SR-3M 9x39紧凑型突击步枪",
+        "en": "SR-3M 9x39 compact assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6499849fc93611967b034949",
+      "itemName": {
+        "zh": "AK-12 5.45x39突击步枪",
+        "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e00c1ad86f774747333222c",
+      "itemName": {
+        "zh": "Team Wendy EXFIL 防弹头盔（黑色）",
+        "en": "Team Wendy EXFIL Ballistic Helmet (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好了，现在风水轮流转，轮到我们动手了！我想让你干掉与军队有关系的团伙。他们不能看到你，让他们以为这是一次伏击，所以等到天黑再动手。我真的希望这次行动能奏效，因为如果你做得够足够好，我们便可以相安无事。\n\n我的计划是，在你清除了一些目标后，他们会变得更加警惕。下一步你需要再次穿上俄军的制服，干掉一堆本地人。他们可能会以为是俄军袭击了他们，这样或许能让他们攻击某个RUAF营地，从而削弱团伙的力量。",
+    "en": "Okay now it's time to make our move. I want you to take out the guards of the gang leaders that had relations to the army. They should not see you, let them think that it's an ambush, so wait till it's dark outside. I really hope that this will work out, but if you do it properly we should be fine.\n\nMy plan is that they will be more cautious after you wipe out a few of them, for the next part you need to dress up in a russian army outfit again and get rid of a bunch of bandits again, they will probably think that is the russian army who attacked them, which might make them attack one of the RUAF camps and make the gangs lose a bunch of guys."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBully"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerKolontayAssault",
+        "followerKolontaySecurity",
+        "followerBoar",
+        "bossBoarSniper",
+        "followerBoarClose1",
+        "followerBoarClose2"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerGluharAssault",
+        "followerGluharScout",
+        "followerGluharSecurity"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674727f9beeec883a8b733e4",
+      "name": {
+        "zh": "渗透RUAF - 第四章",
+        "en": "RUAF Infiltrator - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67472a02e64a37a015c27d4a",
+      "name": {
+        "zh": "渗透RUAF - 第六章",
+        "en": "RUAF Infiltrator - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ruafinfil_5.png",
+  "isKey": false
+}

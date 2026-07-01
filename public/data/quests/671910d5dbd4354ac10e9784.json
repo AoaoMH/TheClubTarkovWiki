@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -50,7 +54,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 40,
+      "value": 10,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -64,12 +68,7 @@
         "infectedLaborant",
         "infectedPmc",
         "infectedTagilla"
-      ],
-      "daytime": {
-        "from": 21,
-        "to": 4
-      },
-      "location": "Woods"
+      ]
     }
   ],
   "prerequisites": [

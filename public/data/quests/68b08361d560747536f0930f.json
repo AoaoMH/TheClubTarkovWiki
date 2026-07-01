@@ -1,0 +1,340 @@
+{
+  "id": "68b08361d560747536f0930f",
+  "name": {
+    "zh": "政府合同 - 第6部分",
+    "en": "Government Contract - Part 6"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 45,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 45
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c311186f77424d1667482",
+      "itemName": {
+        "zh": "扳手",
+        "en": "Wrench"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "57347c77245977448d35f6e2",
+      "itemName": {
+        "zh": "螺母",
+        "en": "Screw nuts"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "57347c5b245977448d35f6e1",
+      "itemName": {
+        "zh": "螺栓",
+        "en": "Bolts"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5d1c819a86f774771b0acd6c",
+      "itemName": {
+        "zh": "武器零件",
+        "en": "Weapon parts"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "WeaponTreatment",
+      "value": 125
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656f66b5c6baea13cd07e108",
+      "itemName": {
+        "zh": "Korund-VM-K防弹插板（前部）",
+        "en": "Korund-VM-K ballistic plates (Front)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6579847c5a0e5879d12f2873",
+      "itemName": {
+        "zh": "30发9x21 7N42盒装弹药 ☆",
+        "en": "9x21mm 7N42 ammo pack (30 pcs)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "Victor正在考虑派他的一些人进入塔科夫清理走私者，可能也要除掉他们，有趣的资源利用方式，嗯。总之他问我是否认识可以调试他的枪的人，我想我知道该问谁这个问题。他给了我几把SR-2M冲锋枪和一些配套的手枪，还给了我一份必须满足的标准清单。你觉得你能搞定吗？\n\nSR-1MP 要求：\n - 耐久度高于75%\n - 弹匣容量18发或更多\n - 一个抑制器\n - Zenit Klesch-2P战术灯带激光\n\nSR-2M 要求：\n - 后坐力总和小于220\n - 重量小于2.9公斤\n - 人机工效65或更高\n - 耐久度高于75%\n - 弹匣容量30发或更多\n - 瞄准距离200米或更远\n - SR-2M手枪握把（黑色）\n - SR-2M聚合物护木（黑色）\n - Zenit Klesch-2P战术灯带激光",
+    "en": "Victor was thinking about sending out a few of his guys into Tarkov to clean up after the smugglers and probably to get rid of them aswell, interesting use of resources, hmm. Anyway he asked me if I know someone that could tune his guns, and I think I know the right person to ask this question. He gave me a few SR-2M submachineguns and some pistols to go along with them, also gave me a list of standards that have to be met. You think you can manage that?\n\nSR-1MP Requirements :\n - Durability higher than 75 %\n - Magazine Capacity of 18 or more\n - A Suppressor\n - Zenit Klesch-2P Flashlight with Laser\n\nSR-2M Requirements :\n - Recoil Sum less than 220\n - Weight less than 2.9 KG\n - Ergonomics 65 or higher\n - Durability higher than 75 %\n - Magazine Capacity of 30 or more\n - Sighting Range of 200 Meters or more\n - SR-2M Pistol Grip ( Black )\n - SR-2M Polymer Handguard ( Black )\n - Zenit Klesch-2P Flashlight with Laser"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "59f98b4986f7746f546d2cef"
+      ],
+      "targetNames": {
+        "59f98b4986f7746f546d2cef": {
+          "zh": "谢尔久科夫 SR1MP 9x21 “斑蝰蛇” 半自动手枪",
+          "en": "Serdyukov SR-1MP Gyurza 9x21 pistol"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 75
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 18
+        }
+      ],
+      "requiredItems": [
+        "560d657b4bdc2da74d8b4572"
+      ],
+      "requiredItemNames": {
+        "560d657b4bdc2da74d8b4572": {
+          "zh": "Zenit 2P Klesch 手电激光指示器",
+          "en": "Zenit Klesch-2P flashlight with laser"
+        }
+      },
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "59f98b4986f7746f546d2cef"
+      ],
+      "targetNames": {
+        "59f98b4986f7746f546d2cef": {
+          "zh": "谢尔久科夫 SR1MP 9x21 “斑蝰蛇” 半自动手枪",
+          "en": "Serdyukov SR-1MP Gyurza 9x21 pistol"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 75
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 18
+        }
+      ],
+      "requiredItems": [
+        "560d657b4bdc2da74d8b4572"
+      ],
+      "requiredItemNames": {
+        "560d657b4bdc2da74d8b4572": {
+          "zh": "Zenit 2P Klesch 手电激光指示器",
+          "en": "Zenit Klesch-2P flashlight with laser"
+        }
+      },
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "62e14904c2699c0ec93adc47"
+      ],
+      "targetNames": {
+        "62e14904c2699c0ec93adc47": {
+          "zh": "SR-2M 石楠 9x21 毫米冲锋枪",
+          "en": "SR-2M Veresk 9x21 submachine gun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 65
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 220
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 200
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 75
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 2.9
+        }
+      ],
+      "requiredItems": [
+        "560d657b4bdc2da74d8b4572",
+        "637ba19df7ca6372bf2613d7",
+        "637ba29bf7ca6372bf2613db"
+      ],
+      "requiredItemNames": {
+        "560d657b4bdc2da74d8b4572": {
+          "zh": "Zenit 2P Klesch 手电激光指示器",
+          "en": "Zenit Klesch-2P flashlight with laser"
+        },
+        "637ba19df7ca6372bf2613d7": {
+          "zh": "SR-2M聚合物护木（黑）",
+          "en": "SR-2M polymer handguard (Black)"
+        },
+        "637ba29bf7ca6372bf2613db": {
+          "zh": "SR-2M手枪式握把（黑）",
+          "en": "SR-2M pistol grip (Black)"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "62e14904c2699c0ec93adc47"
+      ],
+      "targetNames": {
+        "62e14904c2699c0ec93adc47": {
+          "zh": "SR-2M 石楠 9x21 毫米冲锋枪",
+          "en": "SR-2M Veresk 9x21 submachine gun"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 65
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 220
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 200
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 75
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 2.9
+        }
+      ],
+      "requiredItems": [
+        "560d657b4bdc2da74d8b4572",
+        "637ba19df7ca6372bf2613d7",
+        "637ba29bf7ca6372bf2613db"
+      ],
+      "requiredItemNames": {
+        "560d657b4bdc2da74d8b4572": {
+          "zh": "Zenit 2P Klesch 手电激光指示器",
+          "en": "Zenit Klesch-2P flashlight with laser"
+        },
+        "637ba19df7ca6372bf2613d7": {
+          "zh": "SR-2M聚合物护木（黑）",
+          "en": "SR-2M polymer handguard (Black)"
+        },
+        "637ba29bf7ca6372bf2613db": {
+          "zh": "SR-2M手枪式握把（黑）",
+          "en": "SR-2M pistol grip (Black)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b07cd25a4cafa65a846d57",
+      "name": {
+        "zh": "政府合同 - 第5部分",
+        "en": "Government Contract - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b08a981f4236176e8f0fed",
+      "name": {
+        "zh": "政府合同 - 第7部分",
+        "en": "Government Contract - Part 7"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_gvnmt_contract_6.png",
+  "isKey": false
+}

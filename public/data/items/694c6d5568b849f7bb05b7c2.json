@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 120000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Monster The Doctor Energy Drink [Ultra Rare] ☆",
+      "en": "Monster The Doctor Energy Drink [Ultra Rare]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "☆ Monster",
+      "en": "Monster"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 160,000₽ | 物品价值: 120,000 | Therapist报价: 75,600₽Monster Energy Valentino Rossi VR46 500ml Carbonated Energy Drink and 160mg caffeine. VR46 tastes unlike traditional energy drinks with a light, crisp and refreshing citrus taste. We teamed up with MotoGP Champion, Valentino Rossi AKA 'The Doctor', to create our fastest Monster yet. Serve cold for maximum refreshment.",
+      "en": "跳蚤市场: 160,000₽ | 物品价值: 120,000 | Therapist报价: 75,600₽Monster Energy Valentino Rossi VR46 500ml Carbonated Energy Drink and 160mg caffeine. VR46 tastes unlike traditional energy drinks with a light, crisp and refreshing citrus taste. We teamed up with MotoGP Champion, Valentino Rossi AKA 'The Doctor', to create our fastest Monster yet. Serve cold for maximum refreshment."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,104 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.6,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 15,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 5,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 5,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": 0.6,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "DamageModifier",
+            "skillName": "",
+            "value": -0.1,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Vitality",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Surgery",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -10,
+            "delay": 600,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -2.5,
+            "delay": 600,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 600,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "TraderStanding",
@@ -22,7 +26,7 @@
       "value": 1,
       "itemId": "5fc22d7c187fea44d52eda44",
       "itemName": {
-        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪",
+        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪 ★",
         "en": "SWORD International Mk-18 .338 LM marksman rifle"
       },
       "quantity": 1
@@ -39,7 +43,7 @@
       "type": "AssortmentUnlock",
       "itemId": "618ba27d9008e4636a67f61d",
       "itemName": {
-        "zh": "Vortex Razor HD Gen.2 1-6x24步枪瞄准镜",
+        "zh": "Vortex Razor HD Gen.2 1-6x24步枪瞄准镜 ★",
         "en": "Vortex Razor HD Gen.2 1-6x24 30mm riflescope"
       }
     },
@@ -47,7 +51,7 @@
       "type": "AssortmentUnlock",
       "itemId": "5b3b99475acfc432ff4dcbee",
       "itemName": {
-        "zh": "EOTech Vudu 1-6x24 30 毫米 步枪瞄准镜",
+        "zh": "EOTech Vudu 1-6x24 30 毫米 步枪瞄准镜 ☆",
         "en": "EOTech Vudu 1-6x24 30mm riflescope"
       }
     }
@@ -60,7 +64,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: HealthBuff",
-      "value": 20,
+      "value": 5,
       "target": [
         "Buffs_Obdolbos"
       ],

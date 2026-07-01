@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -79,16 +83,15 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 6,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
           "zh": "AnyPmc",
           "en": "AnyPmc"
         }
-      },
-      "location": "factory4_day,factory4_night"
+      }
     }
   ],
   "prerequisites": [

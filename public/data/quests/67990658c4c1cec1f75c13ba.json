@@ -1,0 +1,160 @@
+{
+  "id": "67990658c4c1cec1f75c13ba",
+  "name": {
+    "zh": "意外的发现",
+    "en": "A Surprising Find"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 55175,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 55175
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "560d657b4bdc2da74d8b4572",
+      "itemName": {
+        "zh": "Zenit 2P Klesch 手电激光指示器",
+        "en": "Zenit Klesch-2P flashlight with laser"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "609a63b6e2ff132951242d09",
+      "itemName": {
+        "zh": "Krechet反射式瞄具",
+        "en": "Valday Krechet reflex sight"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Search",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d5e9c74a4b9364855191c40",
+      "itemName": {
+        "zh": "MSA ACH TC-2002 MICH系列头盔",
+        "en": "MSA ACH TC-2002 MICH Series helmet (Olive Drab)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6184055050224f204c1da540",
+      "itemName": {
+        "zh": "FN SCAR-L 5.56x45突击步枪 ☆",
+        "en": "FN SCAR-L 5.56x45 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "根据我们目前掌握的情报，我的人是从森林去了工厂。\n我从某个商人那收到了一封信，里面写了些发生的事。\n\n看起来他们当时正被什么人追赶，不得已找了Therapist求助，但我们现在还不知道追他们的是谁……\nTherapist告诉我她让他们去工厂执行任务，如果出了什么事，就去一个躲避点避难。那地方在一个写着“1986”的壁画下的地堡里，具体是什么意思我也不清楚，也许你能弄明白？说不定里面能找到线索。\n\n还有，他们当时要搜索的是医疗帐篷区域，所以我觉得那里也值得查一查。小心点，祝你好运。",
+    "en": "So according to all current information that we have right now, my team headed from the forest to the factory.\nThe letter I received from one of the vendors contained details on what happened.\n\nTurns out they asked the doctor for some help since they were actually chased by someone, but we don't know by who... yet.\nSeems like it's time to follow the next clue now, therapist told me that they were sent to the factory for a task, and explained them that if something went wrong they should seek shelter in a small bunker or hideout located under some painting that reads \"1986\", no clue what that means, maybe you'll figure it out. Maybe you can find something in there?\nMaybe my guys left a clue inside there.\n\nAnd one more thing, their job was searching the med tent area, so I would say it's worth a shot to investigate that place, good luck out there."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "591093bb86f7747caa7bb2ee"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591093bb86f7747caa7bb2ee": {
+          "zh": "封口信件",
+          "en": "Sealed letter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "591093bb86f7747caa7bb2ee"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591093bb86f7747caa7bb2ee": {
+          "zh": "封口信件",
+          "en": "Sealed letter"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_factory_gate4_bodies",
+      "targetNames": {
+        "lotus_factory_gate4_bodies": {
+          "zh": "lotus_factory_gate4_bodies",
+          "en": "lotus_factory_gate4_bodies"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6798e18f1094b3f0d0978e8e",
+      "name": {
+        "zh": "情报需求",
+        "en": "Information Wanted"
+      }
+    },
+    {
+      "id": "596760e186f7741e11214d58",
+      "name": {
+        "zh": "邮递员派特 - 2",
+        "en": "Postman Pat - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6799286d2c0cbcd521bf44dd",
+      "name": {
+        "zh": "有趣的机遇",
+        "en": "An Interesting Opportunity"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_factory_bodies.png",
+  "isKey": false
+}

@@ -1,0 +1,156 @@
+{
+  "id": "67516c77476efeef09be34a1",
+  "name": {
+    "zh": "熟悉武器 - 第一章",
+    "en": "Getting Familiar With Weapons - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 45525,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45525
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5998517986f7746017232f7e",
+      "itemName": {
+        "zh": "PP-19-01 Izhmash手枪式握把",
+        "en": "PP-19-01 Vityaz pistol grip"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d1b198cd7ad1a604869ad72",
+      "itemName": {
+        "zh": "TDI AKM-L AK护木",
+        "en": "AK TDI AKM-L handguard"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，我刚联系了一位特别的承包商，但我需要你帮忙完成一些事情，其实是很多事情，不过我们会一项一项地完成。所以听好。\n\n他正在寻找一些非常特定的武器，大多数在其他地方找不到。他基本上想要一把 M4A1 的民用版，那么为什么你不拿一把俄制AR-15步枪，把它改造成一把普通的民用M4呢？你能做到吗？\n\n要求：\n - 重量小于 3.0 公斤\n - 弹匣容量不少于 30 发\n - 柯尔特 M4 Length AR-15兼容护木 和 低轮廓护木\n - 柯尔特 M4准星\n - 柯尔特A2 AR-15手枪式握把\n - High Standard M4SS枪托\n - AR-15提把式照门\n - 任意一个消焰器 或 制动器 或 补偿器",
+    "en": "Hey, I just got in contact with a special contractor, however I need your help with something, a lot of things actually but we'll work them down one by one. So listen up.\n\nHe is looking for very specific weapons, most of which you can't find everywhere. So he basically wants a M4A1 carbine, but a civilian variant, so why don't you grab one of these russian AR-15 type rifles and make them look like a normal civilian M4, can you manage that?\n\nRequirements :\n - Weight less than 3.0 KG\n - Magazine Capacity of 30 Rounds or more\n - AR-15 Colt M4 Carbine Lenght Handguard + Lower Handguard\n - M4A1 Front Sight with Gas Block\n - AR-15 Colt A2 Pistol Grip\n - AR-15 High Standard M4SS Stock\n - AR-15 Rear Sight Carry Handle\n - A Flash Hider / Muzzle Brake / Compensator"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5c07c60e0db834002330051f"
+      ],
+      "targetNames": {
+        "5c07c60e0db834002330051f": {
+          "zh": "ADAR 2-15 .223 卡宾枪",
+          "en": "ADAR 2-15 5.56x45 carbine"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 3
+        }
+      ],
+      "requiredItems": [
+        "5ae30db85acfc408fb139a05",
+        "637f57a68d137b27f70c4968",
+        "5ae30e795acfc408fb139a0b",
+        "55d4b9964bdc2d1d4e8b456e",
+        "55d4ae6c4bdc2d8b2f8b456e",
+        "5ae30bad5acfc400185c2dc4"
+      ],
+      "requiredItemNames": {
+        "5ae30db85acfc408fb139a05": {
+          "zh": "柯尔特 M4 Length AR-15兼容护木",
+          "en": "AR-15 Colt M4 Carbine Length handguard"
+        },
+        "637f57a68d137b27f70c4968": {
+          "zh": "柯尔特 M4 Length AR-15兼容低轮廓护木",
+          "en": "AR-15 Colt M4 Carbine Length lower handguard"
+        },
+        "5ae30e795acfc408fb139a0b": {
+          "zh": "柯尔特 M4准星",
+          "en": "M4A1 front sight with gas block"
+        },
+        "55d4b9964bdc2d1d4e8b456e": {
+          "zh": "柯尔特A2 AR-15手枪式握把",
+          "en": "AR-15 Colt A2 pistol grip"
+        },
+        "55d4ae6c4bdc2d8b2f8b456e": {
+          "zh": "High Standard M4SS枪托",
+          "en": "AR-15 High Standard M4SS Stock"
+        },
+        "5ae30bad5acfc400185c2dc4": {
+          "zh": " AR-15提把式照门",
+          "en": "AR-15 rear sight carry handle"
+        }
+      },
+      "requiredCategories": [
+        "550aa4bf4bdc2dd6348b456b"
+      ],
+      "requiredCategoryNames": {
+        "550aa4bf4bdc2dd6348b456b": {
+          "zh": "消焰器",
+          "en": "Flashhider"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67472251414d587b8b36ba1f",
+      "name": {
+        "zh": "积攒弹药",
+        "en": "Ammo Gathering"
+      }
+    },
+    {
+      "id": "5ac2428686f77412450b42bf",
+      "name": {
+        "zh": "枪匠 - 3",
+        "en": "Gunsmith - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6751718a8b3f5b546858efb2",
+      "name": {
+        "zh": "熟悉武器 - 第二章",
+        "en": "Getting Familiar With Weapons - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_familiarwithguns_1.png",
+  "isKey": false
+}

@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 95000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Ghost Raspberry Cream Energy Drink [Ultra Rare]",
+      "en": "Ghost Raspberry Cream Energy Drink [Ultra Rare]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Ghost",
+      "en": "Ghost"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 95,000₽ | 物品价值: 95,000 | Therapist报价: 59,850₽Feel Good Energy: GHOST Energy is the fully transparent, fully loaded energy drink we've all been waiting for. Authentic Flavors. Zero Sugars.* No BS. Raspberry Cream flavor.",
+      "en": "跳蚤市场: 95,000₽ | 物品价值: 95,000 | Therapist报价: 59,850₽Feel Good Energy: GHOST Energy is the fully transparent, fully loaded energy drink we've all been waiting for. Authentic Flavors. Zero Sugars.* No BS. Raspberry Cream flavor."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,104 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.6,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 20,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "CovertMovement",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "AimDrills",
+            "value": 5,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "MagDrills",
+            "value": 5,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "HeavyVests",
+            "value": 5,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "LightVests",
+            "value": 5,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Search",
+            "value": 5,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "WeightLimit",
+            "skillName": "",
+            "value": 0.35,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -10,
+            "delay": 600,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -2.5,
+            "delay": 600,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 600,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

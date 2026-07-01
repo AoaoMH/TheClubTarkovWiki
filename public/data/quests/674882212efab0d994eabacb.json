@@ -1,0 +1,141 @@
+{
+  "id": "674882212efab0d994eabacb",
+  "name": {
+    "zh": "俄罗斯蝮蛇",
+    "en": "Russian Pitviper"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 19000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 233550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 233550
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b37ea4c5d72b0277488439",
+      "itemName": {
+        "zh": "Tamatthi 苦无飞刀（仿制品）",
+        "en": "Tamatthi kunai knife replica"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d0377ce86f774186372f689",
+      "itemName": {
+        "zh": "Iridium军用热成像模块 ☆",
+        "en": "Iridium military thermal vision module"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "6489851fc827d4637f01791b",
+      "itemName": {
+        "zh": "7.62x39mm MAI AP弹药包（20发装）",
+        "en": "7.62x39mm MAI AP ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "606587252535c57a13424cfd",
+      "itemName": {
+        "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪 ★",
+        "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a1eaa87fcdbcb001865f75e",
+      "itemName": {
+        "zh": "Trijicon REAP-IR热成像步枪瞄准镜 ★",
+        "en": "Trijicon REAP-IR thermal scope"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d1b5e94d7ad1a2b865a96b0",
+      "itemName": {
+        "zh": "FLIR RS-32 2.25-9x 35毫米 60Hz热成像步枪瞄准镜 ☆",
+        "en": "FLIR RS-32 2.25-9x 35mm 60Hz thermal riflescope"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "63fc44e2429a8a166c7f61e6",
+      "itemName": {
+        "zh": "Armasight Zeus-Pro 640 2-16x50热成像瞄准镜 ★",
+        "en": "Armasight Zeus-Pro 640 2-8x50 30Hz thermal scope"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我猜你已经见过我们库存里那些各种各样的热成像瞄具了吧。只不过我可不卖——我只换货。起码对大多数人来说是这样。\n\n不过嘛，要不要来个小挑战？用热成像瞄具击杀一些目标。如果你能完成，那这些装备我就对你开放购买权。要是不行……那就还是别打这些东西的主意了，明白了吗？",
+    "en": "I assume you have already seen all the different thermal optics that we have in stock. Well I only trade - Not sell. At least to most people.\n\nHow about a little challenge? Take out some targets with thermal optics, if you succeed, you will receive access to them. Before that, you're on your own. Got it?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 8,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "675356e57d04aa9325c82e00",
+      "name": {
+        "zh": "品味之选 - 第六章",
+        "en": "Ideal For Someone With Taste - Part 6"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674882b91e3043f208409ba5",
+      "name": {
+        "zh": "USEC一样的准，BEAR一样的狠！",
+        "en": "One Shot, One Kill"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_pitviper.png",
+  "isKey": false
+}

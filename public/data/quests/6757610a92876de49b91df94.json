@@ -1,0 +1,291 @@
+{
+  "id": "6757610a92876de49b91df94",
+  "name": {
+    "zh": "清理垃圾：海关",
+    "en": "Let The Hunt Begin - Customs"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Completion",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 41250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 41250
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "65702546cfc010a0f5006a1f",
+      "itemName": {
+        "zh": "7.62x25 ТТ Pst gzh弹药包（25发装）",
+        "en": "7.62x25mm TT Pst gzh ammo pack (25 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5734758f24597738025ee253",
+      "itemName": {
+        "zh": "金项链",
+        "en": "Golden neck chain"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "591382d986f774465a6413a7",
+      "itemName": {
+        "zh": "宿舍105房间钥匙",
+        "en": "Dorm room 105 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b371186f774253763a656",
+      "itemName": {
+        "zh": "野营燃料桶",
+        "en": "Expeditionary fuel tank"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "669fa3f88abd2662d80eee77",
+      "itemName": {
+        "zh": "Magnum Research “沙漠之鹰”L5 .50 AE手枪",
+        "en": "Magnum Research Desert Eagle L5 .50 AE pistol"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5efaf417aeb21837e749c7f2",
+      "itemName": {
+        "zh": "Zenit B-30 护木 + B-31S 上导轨",
+        "en": "AK Zenit B-30 handguard with B-31S upper handguard rail"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e32f56fcb6d5863cc5e5ee4",
+      "itemName": {
+        "zh": "VOG-17 Khattabka 简易手榴弹",
+        "en": "VOG-17 Khattabka improvised hand grenade"
+      }
+    }
+  ],
+  "description": {
+    "zh": "实际上，还有另一个目标需要解决。在海关的某处，有一个由前警察和某些罪犯组成的团伙。他们的头儿是个彻头彻尾的老六，这形容再恰当不过了，他总是躲在装备精良、护甲厚实的保镖后面。\n\n这次我们不用亲自动手，所以让我们继续用之前的土方法。再设置个拌雷陷阱，有趣吧？在工业区外应该有两栋宿舍楼，一栋三层，一栋两层。据说这些老六经常出现在那里，所以我们在那个地方布置陷阱。但要小心，因为有可能今天他们在家没出门呢。",
+    "en": "Actually, there is someone else we could get rid off. Somewhere in customs, there is some gang that consists of former police men and certain criminals. Their leader is a real coward, there's no better way to describe him better, he hides behind his guards who are heavily armed and armored.\n\nThere really is no need to get our hands dirty here, so let's use the same tactic as before. You set up grenade traps again, fun right? Somewhere outside the industrial zone there should be two dorm buildings, one with three floors and the other one with two floors. These cowards have been spotted there very frequently, so we rig the place, and be careful because someone might be home."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_dorm2_stairs",
+      "targetNames": {
+        "lotus_customs_dorm2_stairs": {
+          "zh": "lotus_customs_dorm2_stairs",
+          "en": "lotus_customs_dorm2_stairs"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "666b11055a706400b717cfa5"
+      ],
+      "targetNames": {
+        "666b11055a706400b717cfa5": {
+          "zh": "绊线布设装置",
+          "en": "Tripwire installation kit"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5448be9a4bdc2dfd2f8b456a",
+        "66dae7cbeb28f0f96809f325",
+        "5710c24ad2720bc3458b45a3",
+        "58d3db5386f77426186285a0",
+        "5e32f56fcb6d5863cc5e5ee4",
+        "5e340dcdcb6d5863cc5e5efb",
+        "618a431df1eb8e24b8741deb",
+        "617fd91e5539a84ec44ce155"
+      ],
+      "targetNames": {
+        "5448be9a4bdc2dfd2f8b456a": {
+          "zh": "RGD-5手榴弹",
+          "en": "RGD-5 hand grenade"
+        },
+        "66dae7cbeb28f0f96809f325": {
+          "zh": "V40 微型手榴弹",
+          "en": "V40 Mini-Grenade"
+        },
+        "5710c24ad2720bc3458b45a3": {
+          "zh": "F-1手榴弹",
+          "en": "F-1 hand grenade"
+        },
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        },
+        "5e32f56fcb6d5863cc5e5ee4": {
+          "zh": "VOG-17 Khattabka 简易手榴弹",
+          "en": "VOG-17 Khattabka improvised hand grenade"
+        },
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        },
+        "618a431df1eb8e24b8741deb": {
+          "zh": "RGO手榴弹",
+          "en": "RGO hand grenade"
+        },
+        "617fd91e5539a84ec44ce155": {
+          "zh": "RGN手榴弹",
+          "en": "RGN hand grenade"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_dorm3_stairs",
+      "targetNames": {
+        "lotus_customs_dorm3_stairs": {
+          "zh": "lotus_customs_dorm3_stairs",
+          "en": "lotus_customs_dorm3_stairs"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "666b11055a706400b717cfa5"
+      ],
+      "targetNames": {
+        "666b11055a706400b717cfa5": {
+          "zh": "绊线布设装置",
+          "en": "Tripwire installation kit"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5448be9a4bdc2dfd2f8b456a",
+        "66dae7cbeb28f0f96809f325",
+        "5710c24ad2720bc3458b45a3",
+        "58d3db5386f77426186285a0",
+        "5e32f56fcb6d5863cc5e5ee4",
+        "5e340dcdcb6d5863cc5e5efb",
+        "618a431df1eb8e24b8741deb",
+        "617fd91e5539a84ec44ce155"
+      ],
+      "targetNames": {
+        "5448be9a4bdc2dfd2f8b456a": {
+          "zh": "RGD-5手榴弹",
+          "en": "RGD-5 hand grenade"
+        },
+        "66dae7cbeb28f0f96809f325": {
+          "zh": "V40 微型手榴弹",
+          "en": "V40 Mini-Grenade"
+        },
+        "5710c24ad2720bc3458b45a3": {
+          "zh": "F-1手榴弹",
+          "en": "F-1 hand grenade"
+        },
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        },
+        "5e32f56fcb6d5863cc5e5ee4": {
+          "zh": "VOG-17 Khattabka 简易手榴弹",
+          "en": "VOG-17 Khattabka improvised hand grenade"
+        },
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        },
+        "618a431df1eb8e24b8741deb": {
+          "zh": "RGO手榴弹",
+          "en": "RGO hand grenade"
+        },
+        "617fd91e5539a84ec44ce155": {
+          "zh": "RGN手榴弹",
+          "en": "RGN hand grenade"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67548fb1d293a6e93d5184a4",
+      "name": {
+        "zh": "清理垃圾",
+        "en": "Let The Hunt Begin"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6757627e2e0ce3039da399f0",
+      "name": {
+        "zh": "塔科夫环卫工：黄金交易 - 第1章",
+        "en": "Bandit Hunt - Deal To Make - Part 1"
+      }
+    },
+    {
+      "id": "6762597817a433eeee2ef47a",
+      "name": {
+        "zh": "塔科夫环卫工：冷案 - 第1章",
+        "en": "Bandit Hunt - Cold Case - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_dorms_outside.png",
+  "isKey": false
+}

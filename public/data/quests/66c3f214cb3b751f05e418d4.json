@@ -1,0 +1,173 @@
+{
+  "id": "66c3f214cb3b751f05e418d4",
+  "name": {
+    "zh": "PMC特训：屏息 - 第二章",
+    "en": "PMC Training - Marksmanship - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5650
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 18550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 18550
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65702577cfc010a0f5006a2c",
+      "itemName": {
+        "zh": "7.62x54 R LPS gzh弹药包（20发装） ☆",
+        "en": "7.62x54mm R LPS gzh ammo pack (20 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "65702561cfc010a0f5006a28",
+      "itemName": {
+        "zh": "7.62x51 BCP FMJ弹药包（20发装） ★",
+        "en": "7.62x51mm BCP FMJ ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e023e53d4353e3302577c4c",
+      "itemName": {
+        "zh": "7.62x51毫米 BPZ FMJ",
+        "en": "7.62x51mm BCP FMJ"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57838ad32459774a17445cd2",
+      "itemName": {
+        "zh": "VSS “绞丝机” 特种狙击步枪 ",
+        "en": "VSS Vintorez 9x39 special sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "现在让我们做点更现实的事情。有些东西不能走捷径，你得用经典的东西。这次只用栓动的怎么样？练一下，并用它击杀一些目标，不管是谁、在哪里、什么时候、在干什么。祝你好运，士兵。",
+    "en": "Lets do something more specific now. You can't use the easy way for some things, you gotta use something classic. How about you get to use just a bolt-action rifle this time? And get some training with it, and eliminate a few targets, doesn't matter who, where or when. Good luck soldier."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Sniper",
+      "value": 4,
+      "target": "Sniper"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5bfd297f0db834001a669119",
+        "5ae08f0a5acfc408fb1398a1",
+        "55801eed4bdc2d89578b4588",
+        "588892092459774ac91d4b11",
+        "5bfea6e90db834001b7347f3",
+        "5de652c31b7e3716273428be",
+        "5df24cf80dee1b22f862e9bc",
+        "61f7c9e189e6fb1a5e3ea78d",
+        "673cab3e03c6a20581028bc1",
+        "627e14b21713922ded6f2c15"
+      ],
+      "weaponNames": {
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型） ☆",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        },
+        "55801eed4bdc2d89578b4588": {
+          "zh": "SV-98 7.62x54 狙击步枪",
+          "en": "SV-98 7.62x54R bolt-action sniper rifle"
+        },
+        "588892092459774ac91d4b11": {
+          "zh": "DVL-10 “破坏者” 7.62x51 狙击步枪",
+          "en": "Lobaev Arms DVL-10 7.62x51 bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "5de652c31b7e3716273428be": {
+          "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+          "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+        },
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪 ☆",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        },
+        "61f7c9e189e6fb1a5e3ea78d": {
+          "zh": "MP-18 7.62x54R单发步枪",
+          "en": "MP-18 7.62x54R single-shot rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        },
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747bf2633dcfc282d417efe",
+      "name": {
+        "zh": "PMC特训：屏息 - 第一章",
+        "en": "PMC Training - Marksmanship - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c3fa32b966223ebb542e27",
+      "name": {
+        "zh": "PMC特训：屏息 - 第三章",
+        "en": "PMC Training - Marksmanship - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_marksman.png",
+  "isKey": false
+}

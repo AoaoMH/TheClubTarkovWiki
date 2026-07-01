@@ -1,0 +1,196 @@
+{
+  "id": "67575b3e2bb2bac9605b12b4",
+  "name": {
+    "zh": "清理垃圾：森林",
+    "en": "Let The Hunt Begin - Woods"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Completion",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 37750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 37750
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b43575a86f77424f443fe62",
+      "itemName": {
+        "zh": "燃油添加剂",
+        "en": "Fuel conditioner"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a09f32621468534a797acb",
+      "itemName": {
+        "zh": "瓶装 Pevko 淡啤酒",
+        "en": "Bottle of Pevko Light beer"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "617151c1d92c473c770214ab",
+      "itemName": {
+        "zh": "Schmidt & Bender PM II 1-8x24瞄准镜",
+        "en": "Schmidt & Bender PM II 1-8x24 30mm riflescope"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57ac965c24597706be5f975c",
+      "itemName": {
+        "zh": "ELCAN SpecterDR 1x/4x瞄准镜",
+        "en": "ELCAN SpecterDR 1x/4x scope"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57aca93d2459771f2c7e26db",
+      "itemName": {
+        "zh": "ELCAN SpecterDR 1x/4x瞄准镜 FDE",
+        "en": "ELCAN SpecterDR 1x/4x scope (FDE)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "是时候拜访一下锯木厂了，当然要带点见面礼给他们。\n\n在森林的锯木厂某处，有一个属于Svetloozerskiy的藏匿点，有传言说这帮家伙将最值钱的东西全都藏在那儿了。我需要你会做一些……我们称之为\"偷感\"很重的事情，就是在藏匿点附近设置拌雷。\n\n计划应该是这样的：\n你设置好陷阱，撤离，那帮人在回来存放战利品和物资的时候，然后……轰！怎么样，简单吧？",
+    "en": "Time to pay the sawmill gang a visit, with presents obviously.\n\nSomewhere at the sawmill in the woods, there is a stash that belongs to the Svetloozerskiy gang, rumors were going around that these guys keep their most valuable stuff in there. You will do something... let's call it \"spicy\", by that I mean you will set up a grenade trap near it.\n\nThe plan should work out like this :\nYou set up the trap, get out there, the bandits come back soon with loot and want to stash it and then... boom, simple right?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_shturmanstash",
+      "targetNames": {
+        "lotus_woods_shturmanstash": {
+          "zh": "lotus_woods_shturmanstash",
+          "en": "lotus_woods_shturmanstash"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "666b11055a706400b717cfa5"
+      ],
+      "targetNames": {
+        "666b11055a706400b717cfa5": {
+          "zh": "绊线布设装置",
+          "en": "Tripwire installation kit"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5448be9a4bdc2dfd2f8b456a",
+        "66dae7cbeb28f0f96809f325",
+        "5710c24ad2720bc3458b45a3",
+        "58d3db5386f77426186285a0",
+        "5e32f56fcb6d5863cc5e5ee4",
+        "5e340dcdcb6d5863cc5e5efb",
+        "618a431df1eb8e24b8741deb",
+        "617fd91e5539a84ec44ce155"
+      ],
+      "targetNames": {
+        "5448be9a4bdc2dfd2f8b456a": {
+          "zh": "RGD-5手榴弹",
+          "en": "RGD-5 hand grenade"
+        },
+        "66dae7cbeb28f0f96809f325": {
+          "zh": "V40 微型手榴弹",
+          "en": "V40 Mini-Grenade"
+        },
+        "5710c24ad2720bc3458b45a3": {
+          "zh": "F-1手榴弹",
+          "en": "F-1 hand grenade"
+        },
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        },
+        "5e32f56fcb6d5863cc5e5ee4": {
+          "zh": "VOG-17 Khattabka 简易手榴弹",
+          "en": "VOG-17 Khattabka improvised hand grenade"
+        },
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        },
+        "618a431df1eb8e24b8741deb": {
+          "zh": "RGO手榴弹",
+          "en": "RGO hand grenade"
+        },
+        "617fd91e5539a84ec44ce155": {
+          "zh": "RGN手榴弹",
+          "en": "RGN hand grenade"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67548fb1d293a6e93d5184a4",
+      "name": {
+        "zh": "清理垃圾",
+        "en": "Let The Hunt Begin"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6762516bfbdc2715070c1800",
+      "name": {
+        "zh": "塔科夫环卫工：森林导游",
+        "en": "Bandit Hunt - Forest Navigator"
+      }
+    },
+    {
+      "id": "6762597817a433eeee2ef47a",
+      "name": {
+        "zh": "塔科夫环卫工：冷案 - 第1章",
+        "en": "Bandit Hunt - Cold Case - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_shturman_stash.png",
+  "isKey": false
+}

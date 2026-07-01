@@ -1,0 +1,160 @@
+{
+  "id": "68ab372dd492a4e0af84a924",
+  "name": {
+    "zh": "问题解决者 - 第3部分",
+    "en": "The Problem Solver - Part 3"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 30,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 30
+    }
+  ],
+  "description": {
+    "zh": "我的联系人似乎在小屋里准备了他的“逃生计划”，设法在夜间侦察了该区域。他说海滩上还剩四艘船，而你却说只看到一艘，所以我猜他成功出去了。我想那项任务完成了，是时候去抓更大的鱼了。\n\n我的手下在scav村庄发现了一些奇怪的桶，和Terragroup使用的相同的蓝色桶，可能是用于制造他们的“毒品”的特殊化学品，我需要确保它们还在那里。一个为我工作的PMC也在侦察村庄附近的山区地堡，也告诉我了一些关于这些桶的事情，还发现里面有一些奇怪的符号。但当他说要再去那里仔细看看时，他没有回来...可疑。\n\n你不觉得那些戴头巾的人与此有关吗？我想我们迟早需要和他们“聊一聊”。但我觉得你应该去试试运气，我建议你不要在晚上去，但如果你想完好无损地回来，那是你的选择。哦，还有，请找到我的人，死要见尸，活要见人。",
+    "en": "My contact seems to have prepared his \"escape plan\" inside the shack, managed to scout the area at night. He said there were four boats remaining on beach, and you said you only saw one, so I assume he made it out. I'd say we're done with that task, time to move onto bigger fish.\n\nMy hounds found some strange barrels at the scav village, the same blue barrels used by Terragroup, likely special chemicals to manufacture their \"drugs\", I need to make sure they're still there. A PMC that worked for me too was scouting the mountain bunker near the village, told me something about these barrels aswell, also spotted some strange symbols in there. But when he said he's gonna go there again to take a closer look, he didn't come back... Suspicious.\n\nYou don't think the hooded people have something to do with it, do they? I guess we'll need to have a \"chat\" with them sooner or later. But I think you should try your luck here, I suggest you don't go at night but that's your choice if you want to come back in one piece. Oh and please, find my guy, dead or alive."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_barrels_shatun",
+      "targetNames": {
+        "lotus_woods_barrels_shatun": {
+          "zh": "lotus_woods_barrels_shatun",
+          "en": "lotus_woods_barrels_shatun"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_shatun_hideout",
+      "targetNames": {
+        "lotus_woods_shatun_hideout": {
+          "zh": "lotus_woods_shatun_hideout",
+          "en": "lotus_woods_shatun_hideout"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_barrels_bunker",
+      "targetNames": {
+        "lotus_woods_barrels_bunker": {
+          "zh": "lotus_woods_barrels_bunker",
+          "en": "lotus_woods_barrels_bunker"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Bunker_enter",
+      "targetNames": {
+        "Bunker_enter": {
+          "zh": "Bunker_enter",
+          "en": "Bunker_enter"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_bunker_deadpmc_1",
+      "targetNames": {
+        "lotus_woods_bunker_deadpmc_1": {
+          "zh": "lotus_woods_bunker_deadpmc_1",
+          "en": "lotus_woods_bunker_deadpmc_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_bunker_symbols",
+      "targetNames": {
+        "lotus_woods_bunker_symbols": {
+          "zh": "lotus_woods_bunker_symbols",
+          "en": "lotus_woods_bunker_symbols"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68aa055fda2fdadeda09f85e",
+      "name": {
+        "zh": "问题解决者 - 第2部分",
+        "en": "The Problem Solver - Part 2"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_ref_problemsolver_3.png",
+  "isKey": false
+}

@@ -1,0 +1,271 @@
+{
+  "id": "68b07cd25a4cafa65a846d57",
+  "name": {
+    "zh": "政府合同 - 第5部分",
+    "en": "Government Contract - Part 5"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": -0.02
+    },
+    {
+      "type": "Item",
+      "value": 50,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 50
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "637b6251104668754b72f8f9",
+      "itemName": {
+        "zh": "人造血（蓝血）注射器",
+        "en": "Perfotoran (Blue Blood) stimulant injector"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5c0e534186f7747fa1419867",
+      "itemName": {
+        "zh": "eTG-change再生兴奋剂注射器",
+        "en": "eTG-change regenerative stimulant injector"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "64afc71497cf3a403c01ff38",
+      "itemName": {
+        "zh": "Granit Br5防弹插板",
+        "en": "Granit Br5 ballistic plate"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Skill",
+      "target": "HeavyVests",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f60c74e3b85f6263c145586",
+      "itemName": {
+        "zh": "Rys-T 防弹头盔（黑色）",
+        "en": "Rys-T bulletproof helmet (Black)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66cb05acfc40198510a10",
+      "itemName": {
+        "zh": "AK-101 5.56x45 突击步枪",
+        "en": "Kalashnikov AK-101 5.56x45 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "这个任务不会直接与Victor相关，是来自他的上级，直接来自政府。我只是说说……但我真的期望你在这里表现出最高水平的专业素养，明白吗？别让我看起来像个傻瓜。\n\n总之，储备站基地仍然满是军事装备。你可能见过这些奇怪的防空坦克就放在那里。显然它们叫“2K22通古斯卡”。而这些家伙想知道它们都在哪里，它们也需要被标记。估计有六辆坦克被留在那里生锈。\n\n除非你想从一辆旁边走过，否则我建议你检查训练区所有的车库和地堡。Victor的上级慷慨地捐赠给你一些装备，以帮助你 fight your way through the base，一句友好的“谢谢”是值得欣赏的，哈哈！",
+    "en": "This job won't be directly related to Victor, it's from his superiors, directly from the government. I'm just saying... But I really expect your highest level of professionalism here, got that? Don't make me look like a fool.\n\nAnyway, the reserve base is still full of military equipment. You might have seen these strange flak tanks just standing around. Apparently they are called \"2K22 Tunguska\". And these guys want to know where they are all located, they need to be marked too. There have been an estimated amount of six tanks left there to rust on the premises.\n\nUnless you want to walk past one I suggest you check on all the garages and bunkers in the training areas. Victor's superiors felt generous enough to donate you a bit of gear to help you fight your way through the base, a kind \"thank you\" is apprechiated haha!"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_flak_tank_1",
+      "targetNames": {
+        "lotus_reserve_flak_tank_1": {
+          "zh": "lotus_reserve_flak_tank_1",
+          "en": "lotus_reserve_flak_tank_1"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_flak_tank_2",
+      "targetNames": {
+        "lotus_reserve_flak_tank_2": {
+          "zh": "lotus_reserve_flak_tank_2",
+          "en": "lotus_reserve_flak_tank_2"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_flak_tank_3",
+      "targetNames": {
+        "lotus_reserve_flak_tank_3": {
+          "zh": "lotus_reserve_flak_tank_3",
+          "en": "lotus_reserve_flak_tank_3"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_flak_tank_4",
+      "targetNames": {
+        "lotus_reserve_flak_tank_4": {
+          "zh": "lotus_reserve_flak_tank_4",
+          "en": "lotus_reserve_flak_tank_4"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_flak_tank_5",
+      "targetNames": {
+        "lotus_reserve_flak_tank_5": {
+          "zh": "lotus_reserve_flak_tank_5",
+          "en": "lotus_reserve_flak_tank_5"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_flak_tank_6",
+      "targetNames": {
+        "lotus_reserve_flak_tank_6": {
+          "zh": "lotus_reserve_flak_tank_6",
+          "en": "lotus_reserve_flak_tank_6"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b07b66e0d3845de90e086a",
+      "name": {
+        "zh": "政府合同 - 第4部分",
+        "en": "Government Contract - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b08361d560747536f0930f",
+      "name": {
+        "zh": "政府合同 - 第6部分",
+        "en": "Government Contract - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_gvnmt_contract_5.png",
+  "isKey": false
+}

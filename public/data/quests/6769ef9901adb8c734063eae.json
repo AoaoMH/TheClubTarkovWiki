@@ -1,0 +1,136 @@
+{
+  "id": "6769ef9901adb8c734063eae",
+  "name": {
+    "zh": "知己知彼 - 第二章",
+    "en": "Knowing How To Counter - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 18500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 137450,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 137450
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b2fa286f77425227d1674",
+      "itemName": {
+        "zh": "电动马达",
+        "en": "Electric motor"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b5f693acff495a294927e3",
+      "itemName": {
+        "zh": "Peltor ComTac V耳机（橄榄绿）",
+        "en": "Peltor ComTac V headset (OD Green)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5b3b99475acfc432ff4dcbee",
+      "itemName": {
+        "zh": "EOTech Vudu 1-6x24 30 毫米 步枪瞄准镜 ☆",
+        "en": "EOTech Vudu 1-6x24 30mm riflescope"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0d56a986f774449d5de529",
+      "itemName": {
+        "zh": "9x19毫米 RIP",
+        "en": "9x19mm RIP"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "617fd91e5539a84ec44ce155",
+      "itemName": {
+        "zh": "RGN手榴弹",
+        "en": "RGN hand grenade"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "618a431df1eb8e24b8741deb",
+      "itemName": {
+        "zh": "RGO手榴弹",
+        "en": "RGO hand grenade"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，让我们再加点难度，毕竟这里大多数Scav和PMC都还是有全款拿下一个便宜头盔的能力的，但那些戴更高级别头盔的人呢？尤其是四级头，虽然比较常见但也算不错的防具，我相信这对你来说不是个问题，对吧？\n\n哦对了，记住，那个黑不溜秋的面具不算头盔。",
+    "en": "Alright, let's make it more difficult, most bandits and operators here are able to afford cheap headwear, but what about those who wear better stuff? Specifically armor class four, decent but still pretty common, I'm sure it won't be such a problem for you, will it?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6769e676aaf099da20b7d467",
+      "name": {
+        "zh": "知己知彼 - 第一章",
+        "en": "Knowing How To Counter - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6769f0be9610d5eb0d23e7cc",
+      "name": {
+        "zh": "知己知彼 - 第三章",
+        "en": "Knowing How To Counter - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_lynx.png",
+  "isKey": false
+}

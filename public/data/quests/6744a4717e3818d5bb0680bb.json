@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -50,21 +54,19 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 7,
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
           "zh": "Savage",
           "en": "Savage"
         }
-      },
-      "location": "Sandbox_high,Sandbox"
+      }
     },
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "Sandbox_high,Sandbox"
+      "value": 1
     }
   ],
   "prerequisites": [

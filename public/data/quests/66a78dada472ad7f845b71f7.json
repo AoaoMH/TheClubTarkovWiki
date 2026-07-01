@@ -11,13 +11,17 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Item",
       "value": 1,
       "itemId": "59faff1d86f7746c51718c9c",
       "itemName": {
-        "zh": "实体比特币",
+        "zh": "实体比特币 ★",
         "en": "Physical Bitcoin"
       },
       "quantity": 1
@@ -31,7 +35,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 9999999999,
+      "value": 2500000000,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {

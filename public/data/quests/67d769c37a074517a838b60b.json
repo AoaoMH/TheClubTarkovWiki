@@ -1,0 +1,370 @@
+{
+  "id": "67d769c37a074517a838b60b",
+  "name": {
+    "zh": "丰盈满溢的备件",
+    "en": "A Whole Reserve Of Spare Parts"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 425500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 425500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "67586af7036d7f3da60c3612",
+      "itemName": {
+        "zh": "一罐酸黄瓜",
+        "en": "Jar of pickles"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65702591c5d7d4cb4d07857c",
+      "itemName": {
+        "zh": "50发9x19 AP 6.3弹药包 ☆",
+        "en": "9x19mm AP 6.3 ammo pack (50 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59984ab886f7743e98271174",
+      "itemName": {
+        "zh": "PP-19-01 勇士 9x19 冲锋枪",
+        "en": "PP-19-01 Vityaz 9x19 submachine gun"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Endurance",
+      "value": 50
+    },
+    {
+      "type": "Skill",
+      "target": "Strength",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66507eabf5ddb0818b085b68",
+      "itemName": {
+        "zh": "2A2-(b-TG)兴奋剂注射器 ☆",
+        "en": "2A2-(b-TG) stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bd70322209c4d00d7167b8f",
+      "itemName": {
+        "zh": "HK MP7A2 4.6x30 微型冲锋枪",
+        "en": "HK MP7A2 4.6x30 submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "哟，你来了！我还在想你什么时候再冒个头呢，刚好有点有意思的事情。\n\n还记得你在工厂里找到的那些卡车吗？其实这些车在塔科夫各处都有，你可能也注意到了。不过嘛……\n有些车是用来运送TerraGroup集团特殊货物的。据说在海关区域就有几辆这样子的车，其中一两辆搞不好现在还载着那些东西。\n\n所以，能不能帮我找找这些车？就算找不到什么好货，也绝对值得一趟，懂我意思吧？",
+    "en": "Hey, there you are! I was wondering when you would show up again, listen I got something interesting.\n\nRemember those trucks you located in the factory? Well they are all over Tarkov, I'm sure you know that, however...\nSome of them were used to carry special Terragroup cargo. Somewhere in the customs zone you should find some of these vehicles, surely one or two of them were carrying some Terragroup stuff - Or they still do.\n\nSo, can you help me find these cargoes? I'm sure it will be worth the trouble, even if you don't find anything of interest."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_trailerpark_1",
+      "targetNames": {
+        "lotus_customs_ural_trailerpark_1": {
+          "zh": "lotus_customs_ural_trailerpark_1",
+          "en": "lotus_customs_ural_trailerpark_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_trailerpark_2",
+      "targetNames": {
+        "lotus_customs_ural_trailerpark_2": {
+          "zh": "lotus_customs_ural_trailerpark_2",
+          "en": "lotus_customs_ural_trailerpark_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_garages_outside_1",
+      "targetNames": {
+        "lotus_customs_ural_garages_outside_1": {
+          "zh": "lotus_customs_ural_garages_outside_1",
+          "en": "lotus_customs_ural_garages_outside_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_garages_outside_2",
+      "targetNames": {
+        "lotus_customs_ural_garages_outside_2": {
+          "zh": "lotus_customs_ural_garages_outside_2",
+          "en": "lotus_customs_ural_garages_outside_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_garages_outside_3",
+      "targetNames": {
+        "lotus_customs_ural_garages_outside_3": {
+          "zh": "lotus_customs_ural_garages_outside_3",
+          "en": "lotus_customs_ural_garages_outside_3"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_repairshop",
+      "targetNames": {
+        "lotus_customs_ural_repairshop": {
+          "zh": "lotus_customs_ural_repairshop",
+          "en": "lotus_customs_ural_repairshop"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_scavbase_outside_1",
+      "targetNames": {
+        "lotus_customs_ural_scavbase_outside_1": {
+          "zh": "lotus_customs_ural_scavbase_outside_1",
+          "en": "lotus_customs_ural_scavbase_outside_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_scavbase_outside_2",
+      "targetNames": {
+        "lotus_customs_ural_scavbase_outside_2": {
+          "zh": "lotus_customs_ural_scavbase_outside_2",
+          "en": "lotus_customs_ural_scavbase_outside_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_scavbase_inside",
+      "targetNames": {
+        "lotus_customs_ural_scavbase_inside": {
+          "zh": "lotus_customs_ural_scavbase_inside",
+          "en": "lotus_customs_ural_scavbase_inside"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_busstation_outside",
+      "targetNames": {
+        "lotus_customs_ural_busstation_outside": {
+          "zh": "lotus_customs_ural_busstation_outside",
+          "en": "lotus_customs_ural_busstation_outside"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_busstation_bridge",
+      "targetNames": {
+        "lotus_customs_ural_busstation_bridge": {
+          "zh": "lotus_customs_ural_busstation_bridge",
+          "en": "lotus_customs_ural_busstation_bridge"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_newgasstation_1",
+      "targetNames": {
+        "lotus_customs_ural_newgasstation_1": {
+          "zh": "lotus_customs_ural_newgasstation_1",
+          "en": "lotus_customs_ural_newgasstation_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_newgasstation_2",
+      "targetNames": {
+        "lotus_customs_ural_newgasstation_2": {
+          "zh": "lotus_customs_ural_newgasstation_2",
+          "en": "lotus_customs_ural_newgasstation_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_warehouse4_inside",
+      "targetNames": {
+        "lotus_customs_ural_warehouse4_inside": {
+          "zh": "lotus_customs_ural_warehouse4_inside",
+          "en": "lotus_customs_ural_warehouse4_inside"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_warehouse4_outside",
+      "targetNames": {
+        "lotus_customs_ural_warehouse4_outside": {
+          "zh": "lotus_customs_ural_warehouse4_outside",
+          "en": "lotus_customs_ural_warehouse4_outside"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_powerlinetower",
+      "targetNames": {
+        "lotus_customs_ural_powerlinetower": {
+          "zh": "lotus_customs_ural_powerlinetower",
+          "en": "lotus_customs_ural_powerlinetower"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_militarycheckpoint",
+      "targetNames": {
+        "lotus_customs_ural_militarycheckpoint": {
+          "zh": "lotus_customs_ural_militarycheckpoint",
+          "en": "lotus_customs_ural_militarycheckpoint"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ural_streamerhouse_inside",
+      "targetNames": {
+        "lotus_customs_ural_streamerhouse_inside": {
+          "zh": "lotus_customs_ural_streamerhouse_inside",
+          "en": "lotus_customs_ural_streamerhouse_inside"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "677a55a0be2a8922dab9e040",
+      "name": {
+        "zh": "十六吨重的备件",
+        "en": "Sixteen Tons Of Spare Parts"
+      }
+    },
+    {
+      "id": "6747659d16e95b47fe2caa09",
+      "name": {
+        "zh": "莲花之光 - 第十一章",
+        "en": "Light Of The Lotus - Part 11"
+      }
+    },
+    {
+      "id": "675c047fa46173572a0bd878",
+      "name": {
+        "zh": "货运追踪",
+        "en": "Shipment Tracking"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67e96d27ddd9ca3c4adbb5d4",
+      "name": {
+        "zh": "深度探索",
+        "en": "Doing Some Digging"
+      }
+    },
+    {
+      "id": "67d7eacee3d42141de3389ba",
+      "name": {
+        "zh": "被盯上了",
+        "en": "Notified"
+      }
+    },
+    {
+      "id": "68036d6a531f6cc19b89e654",
+      "name": {
+        "zh": "竞技场的新玩具",
+        "en": "New Toys For The Arena"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ural_customs.png",
+  "isKey": false
+}

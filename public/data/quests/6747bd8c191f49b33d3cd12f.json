@@ -1,0 +1,214 @@
+{
+  "id": "6747bd8c191f49b33d3cd12f",
+  "name": {
+    "zh": "逛超市",
+    "en": "Shopping Tour"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 52950,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 52950
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ad7242b86f7740a6a3abd43",
+      "itemName": {
+        "zh": "IDEA收银机钥匙",
+        "en": "IDEA cash register key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "66992b349950f5f4cd06029f",
+      "itemName": {
+        "zh": "IWI UZI 9x19冲锋枪",
+        "en": "IWI UZI 9x19 submachine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "6489879db5a2df1c815a04ef",
+      "itemName": {
+        "zh": ".45 ACP AP弹药包（50发装） ☆",
+        "en": ".45 ACP AP ammo pack (50 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "SMG",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5efb0cabfb3e451d70735af5",
+      "itemName": {
+        "zh": ".45 ACP AP",
+        "en": ".45 ACP AP"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fb651dc85f90547f674b6f4",
+      "itemName": {
+        "zh": "KRISS G30 MagEx Glock .45 ACP 30 发弹匣",
+        "en": "Glock .45 ACP KRISS G30 MagEx 30-round magazine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "伙计，我又有新任务要交给你了。\n\n你需要前往购物中心，访问几个地点，然后在武器商店附近的走廊安装一个摄像头。之后，我们得想办法激活车库层的安全房。我听说有个开关可能藏在顶层某家餐厅的浴室里。如果你找到了，记得用标记器标出开关的位置。\n\n在购物中心的时候，顺便干掉一些 PMC。我手下的人已经下注了，我打赌你会用之前藏起来的德国 UMP 冲锋枪击毙所有敌人。\n\n怎么样，能搞定吗？你知道我不喜欢输赌，所以别让我失望，明白了吗？",
+    "en": "My man I got something for you again.\n\nYou need to head to the mall and visit some spots, then install a camera in the hallway near the gunstore. After that we need to know how to activate the saferoom on the garage level. I heard rumors that there is a switch somewhere in the bathrooms in some restaurant, should be on the top floor. If you locate that, you need to put down a marker near the switch.\n\nAnd while you are at the mall, take out some PMCs. My men placed bets already, I made a bet that you will smoke all of them with one of these german UMP submachine guns that you were stashing earlier.\n\nCan you manage that? You know how much I hate to lose bets so I can't let that slide, got it?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_kibahallway",
+      "targetNames": {
+        "lotus_interchange_kibahallway": {
+          "zh": "lotus_interchange_kibahallway",
+          "en": "lotus_interchange_kibahallway"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_toiletswitch",
+      "targetNames": {
+        "lotus_interchange_toiletswitch": {
+          "zh": "lotus_interchange_toiletswitch",
+          "en": "lotus_interchange_toiletswitch"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "5fc3e272f8b6a877a729eac5"
+      ],
+      "weaponNames": {
+        "5fc3e272f8b6a877a729eac5": {
+          "zh": "HK UMP 45冲锋枪",
+          "en": "HK UMP .45 ACP submachine gun"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5fc3e272f8b6a877a729eac5"
+      ],
+      "weaponNames": {
+        "5fc3e272f8b6a877a729eac5": {
+          "zh": "HK UMP 45冲锋枪",
+          "en": "HK UMP .45 ACP submachine gun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747bcf89415880273ff7fa9",
+      "name": {
+        "zh": "良好联络",
+        "en": "Well Connected"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747be063123032a27c0ff90",
+      "name": {
+        "zh": "刀锋士兵",
+        "en": "Razors"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_kiba.png",
+  "isKey": false
+}

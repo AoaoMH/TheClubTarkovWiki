@@ -1,0 +1,143 @@
+{
+  "id": "67517c8c5c2a6190c8dae8a4",
+  "name": {
+    "zh": "步步为营 - 第五章",
+    "en": "Taking Every Round Into Account - Part 5"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 425,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 425
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "657025cfbfc87b3a34093253",
+      "itemName": {
+        "zh": "20发9x39 PAB-9 gs盒装弹药 ★",
+        "en": "9x39mm PAB-9 gs ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "64ace9f9c4eda9354b0226aa",
+      "itemName": {
+        "zh": "7.62x39mm PP gzh弹药包（20发装） ☆",
+        "en": "7.62x39mm PP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5b7d37845acfc400170e2f87",
+      "itemName": {
+        "zh": "SA-58/FAL/SLR 7.62x51 30发弹匣",
+        "en": "SA58/FAL/SLR 7.62x51 30-round magazine"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5addcce35acfc4001a5fc635",
+      "itemName": {
+        "zh": "7.62x51 30发M14弹匣",
+        "en": "M14 7.62x51 30-round magazine"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "MagDrills",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b7bef9c5acfc43d102852ec",
+      "itemName": {
+        "zh": "X-FAL FAL/SA-58 7.62x51 50发弹鼓",
+        "en": "SA58/FAL 7.62x51 X Products X-FAL 50-round drum magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5addccf45acfc400185c2989",
+      "itemName": {
+        "zh": "X14 7.62x51 50发M14弹鼓",
+        "en": "M14 7.62x51 X Products X-14 50-round drum magazine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "等等！还没完，还有Side B呢，其他7.62x51武器也有10发弹匣。你可能会讨厌它们，所以最好做好心理准备。\n\n我不认为你会想用一把配10发弹匣的FAL，但你仍然有选择，用一把配10发弹匣的M1A也可以，完成后回来，祝你好运。\n\n指定弹匣：\n - M1A 7.62x51 10发弹匣\n - SA-58 或 FAL 7.62x51 10发弹匣",
+    "en": "Hold on there! We're not done, there is a second part, other 7.62x51 guns also have ten-round magazines, you're gonna hate them so you better prepare mentally.\nI don't think you would want to use a FAL with a ten-round magazine, you still have the option, but an M1A with a ten-rounder would be valid aswell, come back when you're done and good luck out there.\n\nSpecified Magazines :\n - M1A 7.62x51 10-Round Magazine\n - SA-58 / FAL 7.62x51 10-Round Magazine"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67517c5238cc9253f1b7eb0b",
+      "name": {
+        "zh": "步步为营 - 第四章",
+        "en": "Taking Every Round Into Account - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67517cf9b8bbd2f751142ef9",
+      "name": {
+        "zh": "步步为营 - 第六章",
+        "en": "Taking Every Round Into Account - Part 6"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_magazines.png",
+  "isKey": false
+}

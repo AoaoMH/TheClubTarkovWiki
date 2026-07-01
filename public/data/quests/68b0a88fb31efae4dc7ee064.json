@@ -1,0 +1,208 @@
+{
+  "id": "68b0a88fb31efae4dc7ee064",
+  "name": {
+    "zh": "政府合同 - 第8部分",
+    "en": "Government Contract - Part 8"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Merchant",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 35,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 35
+    },
+    {
+      "type": "Item",
+      "value": 2750150,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 2750150
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a13ef7e86f7741290491063",
+      "itemName": {
+        "zh": "疗养院西楼 301 房间钥匙 ★",
+        "en": "Health Resort west wing room 301 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "64637076203536ad5600c990",
+      "itemName": {
+        "zh": "PKM 7.62x54R机枪 ★",
+        "en": "Kalashnikov PKM 7.62x54R machine gun"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Crafting",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60926df0132d4d12c81fd9df",
+      "itemName": {
+        "zh": "SilencerCo SAKER ASR 556 5.56x45抑制器 ",
+        "en": "SilencerCo Saker ASR 556 5.56x45 sound suppressor"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57c44b372459772d2b39b8ce",
+      "itemName": {
+        "zh": "AS “巨浪” 9x39 特种突击步枪",
+        "en": "AS VAL 9x39 special assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我们的哥们Victor需要我们帮忙做最后一件事。他需要一些地图来基本了解该地区的结构，一些地形测绘地图应该就可以了，但他也想知道如何在天蓝海岸的健康度假村导航，毕竟不是每个人都像你一样对那里了如指掌，对吧？有趣的家伙……\n\n总之，我刚刚说到哪了？哦，对了。他也需要一些钱，现金，西方货币。他说他可以用卢布支付大部分费用，我估计这对你来说不是大问题。所以你能把东西带来吗？",
+    "en": "Our guy Victor wants our help with one last thing. He needs some maps to get a basic idea of how the area is structured, a few topographic survey maps should do just fine but he also wants to know how to navigate the health resort on the azure coast, after all not everyone knows the place in and out like you, right? Funny guy...\n\nAnyway, where was I again? Oh yeah, right. He needs some money too, cash, western currency. He said he can cover most of the cost in roubles, I assume that won't be a huge issue for you. So can you bring the stuff?"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3750,
+      "target": [
+        "5696686a4bdc2da3298b456a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5696686a4bdc2da3298b456a": {
+          "zh": "美元",
+          "en": "Dollars"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2500,
+      "target": [
+        "5696686a4bdc2da3298b456a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5696686a4bdc2da3298b456a": {
+          "zh": "美元",
+          "en": "Dollars"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "62a0a124de7ac81993580542"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "62a0a124de7ac81993580542": {
+          "zh": "地形调查地图",
+          "en": "Topographic survey maps"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "62a0a124de7ac81993580542"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "62a0a124de7ac81993580542": {
+          "zh": "地形调查地图",
+          "en": "Topographic survey maps"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5a80a29286f7742b25692012"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a80a29286f7742b25692012": {
+          "zh": "海岸线疗养院平面图",
+          "en": "Shoreline Health Resort plan map"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5a80a29286f7742b25692012"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5a80a29286f7742b25692012": {
+          "zh": "海岸线疗养院平面图",
+          "en": "Shoreline Health Resort plan map"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b08a981f4236176e8f0fed",
+      "name": {
+        "zh": "政府合同 - 第7部分",
+        "en": "Government Contract - Part 7"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_ref_gvnmt_contract_8.png",
+  "isKey": false
+}

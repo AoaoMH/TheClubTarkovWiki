@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -46,7 +50,7 @@
       "value": 2,
       "itemId": "57347ca924597744596b4e71",
       "itemName": {
-        "zh": "显示卡",
+        "zh": "显示卡 ☆",
         "en": "Graphics card"
       },
       "quantity": 1
@@ -59,8 +63,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 10,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {

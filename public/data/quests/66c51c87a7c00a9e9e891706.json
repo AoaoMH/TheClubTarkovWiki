@@ -1,0 +1,105 @@
+{
+  "id": "66c51c87a7c00a9e9e891706",
+  "name": {
+    "zh": "PMC特训：急救 - 第二章",
+    "en": "PMC Training - First Aid - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 14250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 14250
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e530286f7747fa1419862",
+      "itemName": {
+        "zh": "丙泊酚",
+        "en": "Propital regenerative stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c10c8fd86f7743d7d706df3",
+      "itemName": {
+        "zh": "肾上腺素注射器",
+        "en": "Adrenaline injector"
+      }
+    }
+  ],
+  "description": {
+    "zh": "流血虽然不会立刻要命，但它会慢慢地耗尽你的生命。关键时刻要保持冷静，因为流血通常是缓慢致命的。\n\n不过，有时候大出血止不住，那就得用另一种止血手段了。大多数止血带和止血剂都能搞定这事儿，某些注射针剂也可以止血，但那可帮不到你掌握真正的技能，对吧？\n\n试着自己摸索一下怎么用止血带止住流血吧，我保证这玩意在战斗中绝对用得上。",
+    "en": "Bleeding might not kill you instantly, but it slowly drains the life from your body. Keeping a cool head is important when this situation occurs, bleeding usually takes it's time.\n\nSometimes the bleeding gets... Out of control. It's important to know how to treat heavy bleeds, you can do that with most tourniquets or hemostats, certain stimulant injectors are able to treat those aswell, but that wouldn't benefit to you when it comes to learning, wouldn't it?\n\nCan you figure out how to use tourniquets to treat bleedings? I'm sure it will prove useful to you in combat."
+  },
+  "objectives": [
+    {
+      "type": "PickUp",
+      "description": "PickUp: UseItem",
+      "value": 6,
+      "target": [
+        "60098af40accd37ef2175f27",
+        "5e831507ea0a7c419c2f9bd9",
+        "5e8488fa988a8701445df1e4"
+      ],
+      "targetNames": {
+        "60098af40accd37ef2175f27": {
+          "zh": "CAT止血带",
+          "en": "CAT hemostatic tourniquet"
+        },
+        "5e831507ea0a7c419c2f9bd9": {
+          "zh": "Esmarch止血带",
+          "en": "Esmarch tourniquet"
+        },
+        "5e8488fa988a8701445df1e4": {
+          "zh": "CALOK-B止血剂",
+          "en": "CALOK-B hemostatic applicator"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747bf604962f99c343a7927",
+      "name": {
+        "zh": "PMC特训：急救 - 第一章",
+        "en": "PMC Training - First Aid - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c51c8c2efa5cee3b8326a3",
+      "name": {
+        "zh": "PMC特训：急救 - 第三章",
+        "en": "PMC Training - First Aid - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_firstaid.png",
+  "isKey": false
+}

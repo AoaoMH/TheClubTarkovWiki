@@ -1,0 +1,254 @@
+{
+  "id": "6747b877505baa44d501d079",
+  "name": {
+    "zh": "莲花之光 - 第二十章",
+    "en": "Light Of The Lotus - Part 20"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Merchant",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 20000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 125,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 125
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "57372bd3245977670b7cd243",
+      "itemName": {
+        "zh": "5.45x39mm BS弹药包（30发装）",
+        "en": "5.45x39mm BS gs ammo pack (30 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5644bd2b4bdc2d3b4c8b4572",
+      "itemName": {
+        "zh": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+        "en": "Kalashnikov AK-74N 5.45x39 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "601aa3d2b2bcb34913271e6d",
+      "itemName": {
+        "zh": "7.62x39毫米 MAI AP",
+        "en": "7.62x39mm MAI AP"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fc382a9d724d907e2077dab",
+      "itemName": {
+        "zh": ".338 Lapua Magnum AP",
+        "en": ".338 Lapua Magnum AP"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "657089638db3adca1009f4ca",
+      "itemName": {
+        "zh": "Atomic Defense CQCM防弹面罩（黑色）",
+        "en": "Atomic Defense CQCM up armored ballistic mask (Black)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656fa99800d62bcd2e024088",
+      "itemName": {
+        "zh": "Cult Termite防弹插板",
+        "en": "Cult Termite ballistic plate"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我最近在研究一些东西，我知道有个人值得信赖，可以为我们做一些重要的事，不过前提是他需要东西。\n\n首先，这个人只要西方货币，出于某种原因，他需要美元和欧元。然后，他要求一个RFID阅读器、一个军用信号发射器和一个电流转换器。\n\n他说这些东西可以帮助我们解决LightKeeper的问题。我也不完全理解他说的意思，但他说了一些关于可以实现复制桥上地雷信号的事情。你能完成吗？",
+    "en": "So I did my research on something, I know someone who is trustworthy enough for this who can do something important for us, however he needs some things for it.\nFirst of all, the guy only accepts western currency, for some reason he needs both dollars and euros. Then he asked for an RFID reader, a military signal transmitter and a current converter.\n\nHe needs these things for something that can help us with this lightkeeper issue. I did not understand what he meant exactly but he said something about copying the signal that is connected to the mines on the bridge. Can you manage it?"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1125,
+      "target": [
+        "5696686a4bdc2da3298b456a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5696686a4bdc2da3298b456a": {
+          "zh": "美元",
+          "en": "Dollars"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 625,
+      "target": [
+        "569668774bdc2da2298b4568"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "569668774bdc2da2298b4568": {
+          "zh": "欧元",
+          "en": "Euros"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c052fb986f7746b2101e909"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052fb986f7746b2101e909": {
+          "zh": "UHF RFID固定式读取器  ☆",
+          "en": "UHF RFID Reader"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c052fb986f7746b2101e909"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052fb986f7746b2101e909": {
+          "zh": "UHF RFID固定式读取器  ☆",
+          "en": "UHF RFID Reader"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c052f6886f7746b1e3db148"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052f6886f7746b1e3db148": {
+          "zh": "军用COFDM无线信号发射器 ☆",
+          "en": "Military COFDM Wireless Signal Transmitter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c052f6886f7746b1e3db148"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c052f6886f7746b1e3db148": {
+          "zh": "军用COFDM无线信号发射器 ☆",
+          "en": "Military COFDM Wireless Signal Transmitter"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6389c85357baa773a825b356"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "6389c85357baa773a825b356": {
+          "zh": "直流变压器 ☆",
+          "en": "Advanced current converter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6389c85357baa773a825b356"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "6389c85357baa773a825b356": {
+          "zh": "直流变压器 ☆",
+          "en": "Advanced current converter"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747b6d1b00b3bfcb6b02f94",
+      "name": {
+        "zh": "莲花之光 - 第十九章",
+        "en": "Light Of The Lotus - Part 19"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67488670a9bfa58a5cedbf78",
+      "name": {
+        "zh": "塔楼监控",
+        "en": "Tower Surveillance"
+      }
+    },
+    {
+      "id": "674881a4c92b70c1d05f7f84",
+      "name": {
+        "zh": "湖泊帮",
+        "en": "Woodkeeper Gang"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_lotus.png",
+  "isKey": false
+}

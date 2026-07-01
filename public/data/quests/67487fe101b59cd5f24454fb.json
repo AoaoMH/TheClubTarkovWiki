@@ -1,0 +1,156 @@
+{
+  "id": "67487fe101b59cd5f24454fb",
+  "name": {
+    "zh": "专业射手 - 第八章",
+    "en": "Professional Weapon Tester - Part 8"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "5704e4dad2720bb55b8b4567",
+  "locationName": {
+    "zh": "储备站",
+    "en": "Reserve"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1050,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1050
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d40419286f774318526545f",
+      "itemName": {
+        "zh": "金属切割剪刀",
+        "en": "Metal cutting scissors"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "58d3db5386f77426186285a0",
+      "itemName": {
+        "zh": "M67手榴弹",
+        "en": "M67 hand grenade"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c052fb986f7746b2101e909",
+      "itemName": {
+        "zh": "UHF RFID固定式读取器  ☆",
+        "en": "UHF RFID Reader"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "61a64492ba05ef10d62adcc1",
+      "itemName": {
+        "zh": "叛乱USEC仓库钥匙",
+        "en": "Rogue USEC stash key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "648984e3f09d032aa9399d53",
+      "itemName": {
+        "zh": "7.62x51mm M993弹药包（20发装）",
+        "en": "7.62x51mm M993 ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "664d3de85f2355673b09aed5",
+      "itemName": {
+        "zh": "Leon的藏身处钥匙 ★",
+        "en": "Leon's hideout key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 150
+    }
+  ],
+  "description": {
+    "zh": "快完成了，就剩几个测试了。MDR 步枪的数据和灯塔区域的实战表现还缺一点。\n\n你能搞定吗？那地方可不太太平！建议你离污水厂远点，那群 Rouge游荡者们 不喜欢有人突然造访，尤其是你。\n\n你得用配有 ELCAN 光学瞄具的 MDR，比如 specter 这种。\n\n能完成这项任务吗？",
+    "en": "We're done soon, just a couple more tests. There's still some data missing for the MDR rifles and the lighthouse premises.\n\nCan you handle this task? You might get yourself in a lot of trouble there! I suggest you keep your distance from the water treatment plant. the USEC people don't like unannounced visitors, especially not you. The weapon needs to be equipped with ELCAN optics, like the specter scope for example.\n\nAre you able to do that?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5c488a752e221602b412af63",
+        "5dcbd56fdbd3d91b3e5468d5"
+      ],
+      "weaponNames": {
+        "5c488a752e221602b412af63": {
+          "zh": "DT MDR 5.56x45 突击步枪 ☆",
+          "en": "Desert Tech MDR 5.56x45 assault rifle"
+        },
+        "5dcbd56fdbd3d91b3e5468d5": {
+          "zh": "沙漠科技 MDR 7.62x51 突击步枪",
+          "en": "Desert Tech MDR 7.62x51 assault rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67487f5e679c16f0e95db438",
+      "name": {
+        "zh": "专业射手 - 第七章",
+        "en": "Professional Weapon Tester - Part 7"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67d81b374bfc36986e9e2839",
+      "name": {
+        "zh": "专业射手 - 第九章",
+        "en": "Professional Weapon Tester - Part 9"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_proshooter_peacekeeper_8.png",
+  "isKey": false
+}

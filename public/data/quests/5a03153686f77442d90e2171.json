@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -36,7 +40,7 @@
       "value": 1,
       "itemId": "58948c8e86f77409493f7266",
       "itemName": {
-        "zh": "SIG MPX 9x19 冲锋枪",
+        "zh": "SIG MPX 9x19 冲锋枪 ☆",
         "en": "SIG MPX 9x19 submachine gun"
       },
       "quantity": 1
@@ -56,7 +60,7 @@
       "value": 5,
       "itemId": "5c1127bdd174af44217ab8b9",
       "itemName": {
-        "zh": "9x19mm RIP子弹（20发装）",
+        "zh": "9x19mm RIP子弹（20发装） ☆",
         "en": "9x19mm RIP ammo pack (20 pcs)"
       },
       "quantity": 1
@@ -66,7 +70,7 @@
       "value": 1,
       "itemId": "5a13f46386f7741dd7384b04",
       "itemName": {
-        "zh": "疗养院西楼 306 房间钥匙",
+        "zh": "疗养院西楼 306 房间钥匙 ★",
         "en": "Health Resort west wing room 306 key"
       },
       "quantity": 1
@@ -80,7 +84,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 7,
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -101,7 +105,10 @@
         "64748cb8de82c85eaf0a273a",
         "67124dcfa3541f2a1f0e788b",
         "66ffa9b66e19cc902401c5e8",
-        "674fe9a75e51f1c47c04ec23"
+        "674fe9a75e51f1c47c04ec23",
+        "669fca7f9ed4916116c76d5e",
+        "6840ebf5b8687ba34f8dfbca",
+        "6761b213607f9a6f79017d23"
       ],
       "weaponNames": {
         "576165642459773c7a400233": {
@@ -155,12 +162,20 @@
         "674fe9a75e51f1c47c04ec23": {
           "zh": "Saiga-12K 12 铅径自动霰弹枪",
           "en": "Saiga-12K 12ga automatic shotgun"
+        },
+        "669fca7f9ed4916116c76d5e": {
+          "zh": "勃朗宁 Auto-5 12铅径霰弹枪",
+          "en": "Browning Auto-5 12ga shotgun"
+        },
+        "6840ebf5b8687ba34f8dfbca": {
+          "zh": "勃朗宁 Auto-5 12铅径霰弹枪（定制款）",
+          "en": "Browning Auto-5 12ga shotgun (Custom)"
+        },
+        "6761b213607f9a6f79017d23": {
+          "zh": "Serbu Super Shorty 12铅径霰弹枪",
+          "en": "Serbu Super Shorty 12ga shotgun"
         }
-      },
-      "bodyParts": [
-        "Head"
-      ],
-      "location": "Shoreline"
+      }
     }
   ],
   "prerequisites": [

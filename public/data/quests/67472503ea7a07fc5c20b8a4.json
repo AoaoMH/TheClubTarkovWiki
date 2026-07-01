@@ -1,0 +1,157 @@
+{
+  "id": "67472503ea7a07fc5c20b8a4",
+  "name": {
+    "zh": "渗透RUAF - 第一章",
+    "en": "RUAF Infiltrator - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 28750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 28750
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "590c5d4b86f774784e1b9c45",
+      "itemName": {
+        "zh": "Iskra个人配给口粮",
+        "en": "Iskra ration pack"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "544fb45d4bdc2dee738b4568",
+      "itemName": {
+        "zh": "Salewa急救包",
+        "en": "Salewa first aid kit"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57372d1b2459776862260581",
+      "itemName": {
+        "zh": "5.45x39mm PP弹药包（120发装）",
+        "en": "5.45x39mm PP gs ammo pack (120 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6499849fc93611967b034949",
+      "itemName": {
+        "zh": "AK-12 5.45x39突击步枪",
+        "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ab8dced86f774646209ec87",
+      "itemName": {
+        "zh": "ANA Tactical M2防弹胸挂",
+        "en": "ANA Tactical M2 plate carrier (EMR)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a7c4850e899ef00150be885",
+      "itemName": {
+        "zh": "6B47 Ratnik-BSh 头盔（橄榄绿）",
+        "en": "6B47 Ratnik-BSh helmet (Olive Drab)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，有件有趣又非常重要的事情要请你帮忙。我不能告诉你太多消息，因为可能会让我们的行动陷入危险……\n我和我的团队需要关于俄军的撤离点和港口被袭营地的情报。我能提供的信息不多，只知道其中一个在海关的河边，另一个在森林的医疗营地附近。\n\n哦，顺便提一下，港口附近可能还有很多地雷，所以别靠墙太近。你能检查这些地方并看看它们是否还有用吗？",
+    "en": "Good day. I got something interesting for you, very important stuff. I can't tell you too much because it might endanger our little operation...\n\nMe and my guys need some information on the Russian army extraction points and the raided camp at the port. There is not much info I can give you, all I know is that one should be near the river at the customs area and one is near the Medcamp in the forest.\n\nOh and by the way, the port might still be full of mines so don't go to close to the walls. Can you check all of them out and see if they are still of any use for us? "
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_ruafinfiltrator1",
+      "targetNames": {
+        "lotus_customs_ruafinfiltrator1": {
+          "zh": "lotus_customs_ruafinfiltrator1",
+          "en": "lotus_customs_ruafinfiltrator1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_ruafinfil_1_ruafgate",
+      "targetNames": {
+        "lotus_woods_ruafinfil_1_ruafgate": {
+          "zh": "lotus_woods_ruafinfil_1_ruafgate",
+          "en": "lotus_woods_ruafinfil_1_ruafgate"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_shoreline_ruafcamp",
+      "targetNames": {
+        "lotus_shoreline_ruafcamp": {
+          "zh": "lotus_shoreline_ruafcamp",
+          "en": "lotus_shoreline_ruafcamp"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67475931380e79bc84d831b9",
+      "name": {
+        "zh": "莲花之光 - 第三章",
+        "en": "Light Of The Lotus - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674725ff49d0b6a4089163d2",
+      "name": {
+        "zh": "渗透RUAF - 第二章",
+        "en": "RUAF Infiltrator - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ruafinfil_1.png",
+  "isKey": false
+}

@@ -1,0 +1,200 @@
+{
+  "id": "68b8520b2a60bcf0690ecb1e",
+  "name": {
+    "zh": "放债者 - 第2部分",
+    "en": "Loan Sharks - Part 2"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "Discover",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.01
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 100000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 100000
+    }
+  ],
+  "description": {
+    "zh": "我已经在等你了，哈！Lotus告诉我了这个案件，很高兴看到我们还没完事，这件事并没有随着Ryba的死而结束，Ref甚至与一些非常坏的人有更肮脏的联系，我们需要在这里合作来“解决那个问题”，你明白我的意思。\n\n也有一些事情你可以帮我，Tarbank被指控向一些曾秘密为Terragroup工作的人发放贷款，我猜这就是他们如何获得额外资金的方式，很合理不是吗？聪明但肮脏的手段...\n巧合的是，我曾经认识一个在那 exact Tarbank办公室工作的人，我记得有一次去工作单位找他。如果我们幸运的话，可能还能找到一些文件。\n\n关于Ref，我知道一件事，他喜欢雇佣其他操作员来做他的脏活，所以他可能会派一些雇佣兵来试图掩盖这件事，但我们也许能够延迟这件事。在较高的楼层上，USEC曾经设立他们的阵地，他们很可能在建筑里也有某个休息处或工作室，既然这些地方有很多可用的设备，这些雇佣兵可能会先去看看那里。你去设置一些陷阱怎么样？也许你能干掉他们几个。\n\n所以怎么说，“佣兵”？",
+    "en": "I already expected you, ha! Lotus told me about the case, glad to see we're not done with this, this thing didn't die with Ryba, Ref has even dirtier connections to some really bad people, we need to work together here to \"solve that problem\", you know what I mean.\n\nThere a some things you could help me with aswell, Tarbank was accused of handing out loans to some people who have been secretly working for Terragroup, I'm guessing that is how they managed to get some extra funds, makes sense doesn't it? Smart but dirty move...\nCoincidentally, I once knew a guy that worked at that exact Tarbank office, I remember visiting him once at his work. If we're lucky, we could still find some documents.\n\nOne thing I know about Ref is that he likes to hire other operators to do his dirty work, so he might send some mercs to try to cover this up, we might be able to delay this however. Somewhere on the upper floors the USECs used to set up their positions, they likely have some resting place or workshop in the building too, since these places have a lot of usable equipment these mercs might take a look at there first. How about you set some traps there? Maybe you'll be able to wipe out a few of them.\n\nSo what's it gonna be, \"merc\"?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tarbank_docs_pile",
+      "targetNames": {
+        "lotus_groundzero_tarbank_docs_pile": {
+          "zh": "lotus_groundzero_tarbank_docs_pile",
+          "en": "lotus_groundzero_tarbank_docs_pile"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tarbank_documents",
+      "targetNames": {
+        "lotus_groundzero_tarbank_documents": {
+          "zh": "lotus_groundzero_tarbank_documents",
+          "en": "lotus_groundzero_tarbank_documents"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tarbank_workbench",
+      "targetNames": {
+        "lotus_groundzero_tarbank_workbench": {
+          "zh": "lotus_groundzero_tarbank_workbench",
+          "en": "lotus_groundzero_tarbank_workbench"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "666b11055a706400b717cfa5"
+      ],
+      "targetNames": {
+        "666b11055a706400b717cfa5": {
+          "zh": "绊线布设装置",
+          "en": "Tripwire installation kit"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5e340dcdcb6d5863cc5e5efb",
+        "5e32f56fcb6d5863cc5e5ee4"
+      ],
+      "targetNames": {
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        },
+        "5e32f56fcb6d5863cc5e5ee4": {
+          "zh": "VOG-17 Khattabka 简易手榴弹",
+          "en": "VOG-17 Khattabka improvised hand grenade"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Usec",
+      "targetNames": {
+        "Usec": {
+          "zh": "Usec",
+          "en": "Usec"
+        }
+      },
+      "weapons": [
+        "5710c24ad2720bc3458b45a3",
+        "5448be9a4bdc2dfd2f8b456a",
+        "58d3db5386f77426186285a0",
+        "66dae7cbeb28f0f96809f325",
+        "5e32f56fcb6d5863cc5e5ee4",
+        "5e340dcdcb6d5863cc5e5efb",
+        "617fd91e5539a84ec44ce155",
+        "618a431df1eb8e24b8741deb"
+      ],
+      "weaponNames": {
+        "5710c24ad2720bc3458b45a3": {
+          "zh": "F-1手榴弹",
+          "en": "F-1 hand grenade"
+        },
+        "5448be9a4bdc2dfd2f8b456a": {
+          "zh": "RGD-5手榴弹",
+          "en": "RGD-5 hand grenade"
+        },
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        },
+        "66dae7cbeb28f0f96809f325": {
+          "zh": "V40 微型手榴弹",
+          "en": "V40 Mini-Grenade"
+        },
+        "5e32f56fcb6d5863cc5e5ee4": {
+          "zh": "VOG-17 Khattabka 简易手榴弹",
+          "en": "VOG-17 Khattabka improvised hand grenade"
+        },
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        },
+        "617fd91e5539a84ec44ce155": {
+          "zh": "RGN手榴弹",
+          "en": "RGN hand grenade"
+        },
+        "618a431df1eb8e24b8741deb": {
+          "zh": "RGO手榴弹",
+          "en": "RGO hand grenade"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b85170b361cb40dcf8035e",
+      "name": {
+        "zh": "放债者 - 第1部分",
+        "en": "Loan Sharks - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b858bf6a101c16866aec1d",
+      "name": {
+        "zh": "放债者 - 第3部分",
+        "en": "Loan Sharks - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_loan_sharks_2.png",
+  "isKey": false
+}

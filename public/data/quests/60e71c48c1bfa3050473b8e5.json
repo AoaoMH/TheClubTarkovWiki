@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -45,7 +49,7 @@
       "type": "ProductionScheme",
       "itemId": "5ed51652f6c34d2cc26336a1",
       "itemName": {
-        "zh": "M.U.L.E. 兴奋剂",
+        "zh": "M.U.L.E. 兴奋剂 ☆",
         "en": "M.U.L.E. stimulant injector"
       }
     },
@@ -66,14 +70,14 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 3,
+      "value": 1,
       "target": [
         "5c052e6986f7746b207bc3c9"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c052e6986f7746b207bc3c9": {
-          "zh": "便携式除颤器",
+          "zh": "便携式除颤器 ★",
           "en": "Portable defibrillator"
         }
       }
@@ -81,14 +85,14 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 3,
+      "value": 1,
       "target": [
         "5af0534a86f7743b6f354284"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5af0534a86f7743b6f354284": {
-          "zh": "检眼镜",
+          "zh": "检眼镜 ☆",
           "en": "Ophthalmoscope"
         }
       }
@@ -96,14 +100,14 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "5c0530ee86f774697952d952"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c0530ee86f774697952d952": {
-          "zh": "LEDX皮肤透照仪",
+          "zh": "LEDX皮肤透照仪 ★",
           "en": "LEDX Skin Transilluminator"
         }
       }
@@ -111,7 +115,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 20,
+      "value": 5,
       "target": [
         "5d1b3a5d86f774252167ba22"
       ],
@@ -126,7 +130,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 10,
+      "value": 2,
       "target": [
         "62a0a043cf4a99369e2624a5"
       ],
@@ -141,14 +145,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 3,
+      "value": 1,
       "target": [
         "5c052e6986f7746b207bc3c9"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c052e6986f7746b207bc3c9": {
-          "zh": "便携式除颤器",
+          "zh": "便携式除颤器 ★",
           "en": "Portable defibrillator"
         }
       }
@@ -156,14 +160,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 3,
+      "value": 1,
       "target": [
         "5af0534a86f7743b6f354284"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5af0534a86f7743b6f354284": {
-          "zh": "检眼镜",
+          "zh": "检眼镜 ☆",
           "en": "Ophthalmoscope"
         }
       }
@@ -171,14 +175,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "5c0530ee86f774697952d952"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "5c0530ee86f774697952d952": {
-          "zh": "LEDX皮肤透照仪",
+          "zh": "LEDX皮肤透照仪 ★",
           "en": "LEDX Skin Transilluminator"
         }
       }
@@ -186,7 +190,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 20,
+      "value": 5,
       "target": [
         "5d1b3a5d86f774252167ba22"
       ],
@@ -201,7 +205,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 10,
+      "value": 2,
       "target": [
         "62a0a043cf4a99369e2624a5"
       ],

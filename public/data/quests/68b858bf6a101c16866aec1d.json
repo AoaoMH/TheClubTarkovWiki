@@ -1,0 +1,137 @@
+{
+  "id": "68b858bf6a101c16866aec1d",
+  "name": {
+    "zh": "放债者 - 第3部分",
+    "en": "Loan Sharks - Part 3"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "Discover",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.01
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 115000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 115000
+    }
+  ],
+  "description": {
+    "zh": "总是有活干的，我的朋友...\n\n我记得你说过你在Tarbank外面定位了某个USEC武器藏匿点，对吧？你在那里找到什么电子设备了吗？因为如果你找到了，我建议你再去那里看看你是否看对了。总之，这不是你现在唯一能帮忙的事情。Lotus请我帮忙定位她的一个联系人，一个当地土匪，显然他在这一切开始之前就知道一些关于Terragroup的事情。嗯，他在为Lotus在Emercom附近的酒店里搜索什么东西后失踪了，奇怪，我想如果你能找到他的踪迹或一些线索，她会非常感激的。\n\n说到Skyside...我记得Lotus向我解释过她的人是如何在酒店内找到闭路电视录像的，显然Terragroup工人在该区域不得不疏散之前一直在大堂“闲逛”，看起来他们离开得很匆忙，忘记了自己的物品，嗯，让我想知道他们留下了什么宝贵的东西？\n\n还有，你应该去看看Empire商业中心，我听说那里发生了一些奇怪的事情，不过别进去太远！而且我希望你设置一些东西让我们可以监视一下该区域，如果你找到那些书，别拿，如果你在出去的路上弄丢了，可能会给我们带来大麻烦！所以怎么说，佣兵？",
+    "en": "There's ALWAYS work, my friend...\n\nI remember you saying you located some USEC weapon stash outside Tarbank, right? Did you find some electronic device there? Because if you do I suggest you head there again to see if you saw it right. Anyway that's not the only thing you can help with right now. Lotus asked me to help locate one of her contacts, a local bandit, apparently he knew some stuff about Terragroup before this all began. Well he wen't missing after searching for something for Lotus in the hotel near Emercom, strange, I think she'd be very grateful if you would find his traces or some clue.\n\nSpeaking of Skyside... I remember Lotus explaining to me how her guys found footage from the CCTV cameras inside the hotel, apparently Terragroup workers have been \"chilling\" in the lobby right before the area had to be evacuated, looks like they left in a hurry and forgot their belongings, hmm, makes me wonder what precious stuff they left behind?\n\nAlso, you should check out the Empire business center, I heard something strange happening around there, don't go in too far though! Also I want you to set up something that let's us survey the area a bit, don't take the books if you find them, if you lose them on your way out that could get us into serious trouble! So what's it gonna be merc?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_skyside_basement_body",
+      "targetNames": {
+        "lotus_groundzero_skyside_basement_body": {
+          "zh": "lotus_groundzero_skyside_basement_body",
+          "en": "lotus_groundzero_skyside_basement_body"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_skyside_lobby_tg_books",
+      "targetNames": {
+        "lotus_groundzero_skyside_lobby_tg_books": {
+          "zh": "lotus_groundzero_skyside_lobby_tg_books",
+          "en": "lotus_groundzero_skyside_lobby_tg_books"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_usec_laptop",
+      "targetNames": {
+        "lotus_groundzero_usec_laptop": {
+          "zh": "lotus_groundzero_usec_laptop",
+          "en": "lotus_groundzero_usec_laptop"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tarbank_empire_stairs",
+      "targetNames": {
+        "lotus_groundzero_tarbank_empire_stairs": {
+          "zh": "lotus_groundzero_tarbank_empire_stairs",
+          "en": "lotus_groundzero_tarbank_empire_stairs"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b8520b2a60bcf0690ecb1e",
+      "name": {
+        "zh": "放债者 - 第2部分",
+        "en": "Loan Sharks - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c044ff8b79163e3eab83a1",
+      "name": {
+        "zh": "放债者 - 第4部分",
+        "en": "Loan Sharks - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_loan_sharks_3.png",
+  "isKey": false
+}

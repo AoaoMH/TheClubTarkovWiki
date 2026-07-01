@@ -1,0 +1,479 @@
+{
+  "id": "6747bb9ec325240ca382f8a9",
+  "name": {
+    "zh": "国宴",
+    "en": "Perfect Meal"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.06
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 66550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 66550
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "572b7fa524597762b747ce82",
+      "itemName": {
+        "zh": "半面巾",
+        "en": "Lower half-mask"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60b0f6c058e0b0481a09ad11",
+      "itemName": {
+        "zh": "WZ钱包",
+        "en": "WZ Wallet"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Metabolism",
+      "value": 25
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57505f6224597709a92585a9",
+      "itemName": {
+        "zh": "Alyonka 巧克力",
+        "en": "Alyonka chocolate bar"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59e3577886f774176a362503",
+      "itemName": {
+        "zh": "一包糖",
+        "en": "Pack of sugar"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "575146b724597720a27126d5",
+      "itemName": {
+        "zh": "一盒牛奶",
+        "en": "Pack of milk"
+      }
+    }
+  ],
+  "description": {
+    "zh": "听着，年轻人，我需要你帮个忙。最近，当我从一次狩猎旅行回到营地时，遇到了一群人，他们需要帮助。他们向我讲述了他们的故事，于是我问他为什么还留在塔科夫——这里对他们来说并不安全。他们既不是士兵，也不是 Scav，更不是为了商业目的而来。我不知道为什么，但他们在疏散后选择留在这里，并一直生存到现在，以为这一切不会持续太久。然而，现实就是如此。他们告诉我，他们已经饿了好几天了，所以我不得不给他们提供食物。我知道该联系谁把他们带出这个区域，所以你不用担心这一点，我可以处理好。现在的问题是，我的食物储备有点短缺，毕竟我的储备并不是为了养活一群饥饿的人准备的。你能帮我筹集一些食物吗？这对我帮助很大。",
+    "en": "Listen young one, I need a favor. Recently a bunch of people stumbled upon me when I came back to my camp from a hunting trip, they were looking for help. They told me their story so I asked them why they are still here in Tarkov, they do not belong here, it's not safe for them, they are neither soldiers, bandits or here for business. I don't know why but they chose to stay in Tarkov after evacuation, managed to survive until today, thought that all of this would'nt take too long. Well... here we are. I was told that they were starving for days already so I had to feed them. I might know who to contact to get them out of the zone so that doesn't need to be your concern, I can handle that already. The thing I need from you now is that my food supply got kinda short, after all my supply is not meant for a group of starving guys. Can you organize that for me? This would help me out a lot."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "57347d3d245977448f7b7f61",
+        "5751487e245977207e26a315"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347d3d245977448f7b7f61": {
+          "zh": "黑麦面包块",
+          "en": "Rye croutons"
+        },
+        "5751487e245977207e26a315": {
+          "zh": "Emelya黑麦面包块",
+          "en": "Emelya rye croutons"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "57347d3d245977448f7b7f61",
+        "5751487e245977207e26a315"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347d3d245977448f7b7f61": {
+          "zh": "黑麦面包块",
+          "en": "Rye croutons"
+        },
+        "5751487e245977207e26a315": {
+          "zh": "Emelya黑麦面包块",
+          "en": "Emelya rye croutons"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "544fb6cc4bdc2d34748b456e",
+        "57505f6224597709a92585a9"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb6cc4bdc2d34748b456e": {
+          "zh": "士腻架能量棒",
+          "en": "Slickers chocolate bar"
+        },
+        "57505f6224597709a92585a9": {
+          "zh": "Alyonka 巧克力",
+          "en": "Alyonka chocolate bar"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "544fb6cc4bdc2d34748b456e",
+        "57505f6224597709a92585a9"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb6cc4bdc2d34748b456e": {
+          "zh": "士腻架能量棒",
+          "en": "Slickers chocolate bar"
+        },
+        "57505f6224597709a92585a9": {
+          "zh": "Alyonka 巧克力",
+          "en": "Alyonka chocolate bar"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "57347d9c245977448b40fa85",
+        "5bc9c29cd4351e003562b8a3",
+        "57347d8724597744596b4e76",
+        "57347d692459774491567cf1",
+        "57347d5f245977448b40fa81",
+        "57347d7224597744596b4e72",
+        "57347da92459774491567cf5",
+        "5673de654bdc2d180f8b456d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347d9c245977448b40fa85": {
+          "zh": "鲱鱼罐头",
+          "en": "Can of herring"
+        },
+        "5bc9c29cd4351e003562b8a3": {
+          "zh": "西鲱鱼罐头",
+          "en": "Can of sprats"
+        },
+        "57347d8724597744596b4e76": {
+          "zh": "罐装蔬菜泥",
+          "en": "Can of squash spread"
+        },
+        "57347d692459774491567cf1": {
+          "zh": "豌豆罐头",
+          "en": "Can of green peas"
+        },
+        "57347d5f245977448b40fa81": {
+          "zh": "Humpback鲑鱼罐头",
+          "en": "Can of humpback salmon"
+        },
+        "57347d7224597744596b4e72": {
+          "zh": "炖牛肉罐头",
+          "en": "Can of beef stew (Small)"
+        },
+        "57347da92459774491567cf5": {
+          "zh": "炖美味牛肉罐头（大）",
+          "en": "Can of beef stew (Large)"
+        },
+        "5673de654bdc2d180f8b456d": {
+          "zh": "太平洋秋刀鱼罐头",
+          "en": "Can of pacific saury"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "57347d9c245977448b40fa85",
+        "5bc9c29cd4351e003562b8a3",
+        "57347d8724597744596b4e76",
+        "57347d692459774491567cf1",
+        "57347d5f245977448b40fa81",
+        "57347d7224597744596b4e72",
+        "57347da92459774491567cf5",
+        "5673de654bdc2d180f8b456d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57347d9c245977448b40fa85": {
+          "zh": "鲱鱼罐头",
+          "en": "Can of herring"
+        },
+        "5bc9c29cd4351e003562b8a3": {
+          "zh": "西鲱鱼罐头",
+          "en": "Can of sprats"
+        },
+        "57347d8724597744596b4e76": {
+          "zh": "罐装蔬菜泥",
+          "en": "Can of squash spread"
+        },
+        "57347d692459774491567cf1": {
+          "zh": "豌豆罐头",
+          "en": "Can of green peas"
+        },
+        "57347d5f245977448b40fa81": {
+          "zh": "Humpback鲑鱼罐头",
+          "en": "Can of humpback salmon"
+        },
+        "57347d7224597744596b4e72": {
+          "zh": "炖牛肉罐头",
+          "en": "Can of beef stew (Small)"
+        },
+        "57347da92459774491567cf5": {
+          "zh": "炖美味牛肉罐头（大）",
+          "en": "Can of beef stew (Large)"
+        },
+        "5673de654bdc2d180f8b456d": {
+          "zh": "太平洋秋刀鱼罐头",
+          "en": "Can of pacific saury"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5734773724597737fd047c14",
+        "575062b524597720a31c09a1",
+        "57514643245977207f2c2d09",
+        "5751435d24597720a27126d1",
+        "5751496424597720a27126da",
+        "60b0f93284c20f0feb453da7"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5734773724597737fd047c14": {
+          "zh": "炼乳罐头",
+          "en": "Can of condensed milk"
+        },
+        "575062b524597720a31c09a1": {
+          "zh": "冰绿茶",
+          "en": "Can of Ice Green tea"
+        },
+        "57514643245977207f2c2d09": {
+          "zh": "塔可乐",
+          "en": "Can of TarCola soda"
+        },
+        "5751435d24597720a27126d1": {
+          "zh": "Max Energy能量饮料",
+          "en": "Can of Max Energy energy drink"
+        },
+        "5751496424597720a27126da": {
+          "zh": "热棒",
+          "en": "Can of Hot Rod energy drink"
+        },
+        "60b0f93284c20f0feb453da7": {
+          "zh": "罐装六可乐",
+          "en": "Can of RatCola soda"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5734773724597737fd047c14",
+        "575062b524597720a31c09a1",
+        "57514643245977207f2c2d09",
+        "5751435d24597720a27126d1",
+        "5751496424597720a27126da",
+        "60b0f93284c20f0feb453da7"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5734773724597737fd047c14": {
+          "zh": "炼乳罐头",
+          "en": "Can of condensed milk"
+        },
+        "575062b524597720a31c09a1": {
+          "zh": "冰绿茶",
+          "en": "Can of Ice Green tea"
+        },
+        "57514643245977207f2c2d09": {
+          "zh": "塔可乐",
+          "en": "Can of TarCola soda"
+        },
+        "5751435d24597720a27126d1": {
+          "zh": "Max Energy能量饮料",
+          "en": "Can of Max Energy energy drink"
+        },
+        "5751496424597720a27126da": {
+          "zh": "热棒",
+          "en": "Can of Hot Rod energy drink"
+        },
+        "60b0f93284c20f0feb453da7": {
+          "zh": "罐装六可乐",
+          "en": "Can of RatCola soda"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "590c5f0d86f77413997acfab",
+        "590c5d4b86f774784e1b9c45"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590c5f0d86f77413997acfab": {
+          "zh": "MRE个人即食口粮",
+          "en": "MRE ration pack"
+        },
+        "590c5d4b86f774784e1b9c45": {
+          "zh": "Iskra个人配给口粮",
+          "en": "Iskra ration pack"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "590c5f0d86f77413997acfab",
+        "590c5d4b86f774784e1b9c45"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590c5f0d86f77413997acfab": {
+          "zh": "MRE个人即食口粮",
+          "en": "MRE ration pack"
+        },
+        "590c5d4b86f774784e1b9c45": {
+          "zh": "Iskra个人配给口粮",
+          "en": "Iskra ration pack"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "544fb62a4bdc2dfb738b4568",
+        "57513f07245977207e26a311",
+        "57513f9324597720a7128161",
+        "57513fcc24597720a31c09a6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb62a4bdc2dfb738b4568": {
+          "zh": "Russian Army菠萝汁",
+          "en": "Pack of Russian Army pineapple juice"
+        },
+        "57513f07245977207e26a311": {
+          "zh": "苹果汁",
+          "en": "Pack of apple juice"
+        },
+        "57513f9324597720a7128161": {
+          "zh": "西柚汁",
+          "en": "Pack of Grand juice"
+        },
+        "57513fcc24597720a31c09a6": {
+          "zh": "Vita果汁",
+          "en": "Pack of Vita juice"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "544fb62a4bdc2dfb738b4568",
+        "57513f07245977207e26a311",
+        "57513f9324597720a7128161",
+        "57513fcc24597720a31c09a6"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb62a4bdc2dfb738b4568": {
+          "zh": "Russian Army菠萝汁",
+          "en": "Pack of Russian Army pineapple juice"
+        },
+        "57513f07245977207e26a311": {
+          "zh": "苹果汁",
+          "en": "Pack of apple juice"
+        },
+        "57513f9324597720a7128161": {
+          "zh": "西柚汁",
+          "en": "Pack of Grand juice"
+        },
+        "57513fcc24597720a31c09a6": {
+          "zh": "Vita果汁",
+          "en": "Pack of Vita juice"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747bb32e757b032df3aadda",
+      "name": {
+        "zh": "合作至上",
+        "en": "Cooperation Is Important"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674dd931e687ffb6dba76b68",
+      "name": {
+        "zh": "高端的猎人往往以猎物的方式出现",
+        "en": "The Hunter Becomes The Hunted"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_meal.png",
+  "isKey": false
+}

@@ -1,0 +1,145 @@
+{
+  "id": "67475302960eb9c091be4cd1",
+  "name": {
+    "zh": "献祭 - 第二章",
+    "en": "Pokloneniye - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 25950,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 25950
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5ed5160a87bb8443d10680b5",
+      "itemName": {
+        "zh": "Meldonin 注射器",
+        "en": "Meldonin injector"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e9dcf5986f7746c417435b3",
+      "itemName": {
+        "zh": "LBT-8005A Day Pack背包",
+        "en": "LBT-8005A Day Pack backpack (MultiCam Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "61c18d83b00456371a66814b",
+      "itemName": {
+        "zh": "气焊护目镜",
+        "en": "Gas welder safety goggles"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60363c0c92ec1c31037959f5",
+      "itemName": {
+        "zh": "GP-7防毒面具",
+        "en": "GP-7 gas mask"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5648a69d4bdc2ded0b8b457b",
+      "itemName": {
+        "zh": "BlackRock胸挂",
+        "en": "BlackRock chest rig (Gray)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，我去查了点资料。似乎事情比我一开始想的要复杂得多。显然，这不仅仅只是一些晚上跟踪人的跟踪狂，而是一个完整的邪教团伙，他们在整个地区都留下了他们的痕迹。\n\n我自己没有亲眼看到过那些祭祀场所和标记，所以需要你过去确认一下。你能去检查那些我的团队们称存在祭祀场所的地方吗？\n\n目前不管是不是有上锁的房间都没关系，我只需要你确认那些符号是否存在。",
+    "en": "Okay so, I did some digging on this. Seems like there is way more about this than I thought at first. Apparently they are not just some weird people who stalk people at night, there is a whole cult and they leave their traces in the entire region. I did not see the ritual sites and markings myself so I need confirmation from you, can you check the spots out that my guys are claiming that theres those sites?\n\nDoesn't matter for now if there are locked rooms, I just need you to confirm that the symbols are there."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_markedcircle",
+      "targetNames": {
+        "lotus_woods_markedcircle": {
+          "zh": "lotus_woods_markedcircle",
+          "en": "lotus_woods_markedcircle"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_markedroom",
+      "targetNames": {
+        "lotus_customs_markedroom": {
+          "zh": "lotus_customs_markedroom",
+          "en": "lotus_customs_markedroom"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_shoreline_pok_markedroom",
+      "targetNames": {
+        "lotus_shoreline_pok_markedroom": {
+          "zh": "lotus_shoreline_pok_markedroom",
+          "en": "lotus_shoreline_pok_markedroom"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674751d636b2485baddcf5cc",
+      "name": {
+        "zh": "献祭 - 第一章",
+        "en": "Pokloneniye - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674753a03ebe62863feec9fb",
+      "name": {
+        "zh": "献祭 - 第三章",
+        "en": "Pokloneniye - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_pokloneniye.png",
+  "isKey": false
+}

@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -40,19 +44,14 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 12,
+      "value": 3,
       "target": "Savage",
       "targetNames": {
         "Savage": {
           "zh": "Savage",
           "en": "Savage"
         }
-      },
-      "daytime": {
-        "from": 22,
-        "to": 7
-      },
-      "location": "Shoreline"
+      }
     }
   ],
   "prerequisites": [

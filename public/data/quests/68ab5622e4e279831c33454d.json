@@ -1,0 +1,207 @@
+{
+  "id": "68ab5622e4e279831c33454d",
+  "name": {
+    "zh": "泰拉文件的下落 - 第2部分",
+    "en": "Terragroup Paper Trail - Part 2"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 45,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 45
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e2af47786f7746d404f3aaa",
+      "itemName": {
+        "zh": "绒布布料",
+        "en": "Fleece fabric"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5e2af4a786f7746d3f3c3400",
+      "itemName": {
+        "zh": "防撕布料",
+        "en": "Ripstop fabric"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57372c21245977670937c6c2",
+      "itemName": {
+        "zh": "5.45x39mm BT弹药包（120发装）",
+        "en": "5.45x39mm BT gs ammo pack (120 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b371186f774253763a656",
+      "itemName": {
+        "zh": "野营燃料桶",
+        "en": "Expeditionary fuel tank"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5da5cdcd86f774529238fb9b",
+      "itemName": {
+        "zh": "RB-RH钥匙",
+        "en": "RB-RH key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "593d493f86f7745e6b2ceb22",
+      "itemName": {
+        "zh": "Hexagon AK-74 5.45x39声音抑制器",
+        "en": "AK-74 Hexagon 5.45x39 sound suppressor"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "593d489686f7745c6255d58a",
+      "itemName": {
+        "zh": "Hexagon AKM 7.62x39声音抑制器",
+        "en": "AKM Hexagon 7.62x39 sound suppressor"
+      }
+    }
+  ],
+  "description": {
+    "zh": "线索在这里真的连不起来……这真的让我很恼火。\n\n我仍然有办法获取这方面的信息，别担心。据我所知，泰拉集团在某些方面与Tarbank有联系，我肯定泰拉集团有人在情况升级时留下了一些证据。尝试在帝国大厦附近的Tarbank办公室里找找值得查看的东西。\n\n我听说其中一人在疏散期间正在开会，肯定有东西被留下了。万一你找到属于他们的电脑或笔记本电脑，你应该带一个USB闪存盘来下载某些文件，我相信你懂计算机基础知识，对吧？哦，把闪存盘留在里面，我会派人去取，我知道……不是最安全的方法，我有我的理由。\n\n我猜你以前去过Tarbank大楼，所以你知道当一些匪徒想通过楼梯间找你时，情况会变得相当激烈。带上那些绊线和手榴弹，也许你可以用它干掉一些人，只是要小心，别自己踩上去，明白吗？\n\n我知道这家伙不会再回家了……永远不会。所以我想如果他告诉你他的地址也没关系，如果你想的话，你可以去看看他的地方，也许你能找到一些有用的东西？\n当然，找到的任何战利品都归你，他住在Malevicha街，5号公寓。",
+    "en": "The dots aren't really connecting here... And that really grinds my gears.\n\nI still have ways to gain information on this, don't worry. As far as I know, Terragroup had their ties to Tarbank in some ways, I'm sure someone from Terragroup left some evidence when the situation escalated. Try looking for something worth checking out inside the Tarbank office near the Empire building.\n\nI heard one of them was holding a meeting during the evacuation, surely something was left behind. Just in case you find a computer or laptop that belongs to one of them, you should take a USB flash drive with you to download certain files, I'm sure you know computer basics, right? Oh and leave the flash drive plugged in, I will send people out there to pick it up, I know... Not the safest approach, I have my reasons.\n\nI assume you have visited the Tarbank building before, so you know the situation can get quite heated when some bandits want to get to your through the stairwell. Have those tripwires and grenades, maybe you can take down some people with it, just be careful and not walk into them yourselves, got it?\n\nI know this guy won't come home again... Like ever. So I guess he wouldn't have a problem if I tell you his adress, if you want you can take a look at his place, maybe you find something useful?\nKeep whatever loot you find of course, he lived at Malevicha Street, Apartment 5."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tarbank_meetingroom",
+      "targetNames": {
+        "lotus_groundzero_tarbank_meetingroom": {
+          "zh": "lotus_groundzero_tarbank_meetingroom",
+          "en": "lotus_groundzero_tarbank_meetingroom"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_tarkovstreets_tg_informant_apartment",
+      "targetNames": {
+        "lotus_tarkovstreets_tg_informant_apartment": {
+          "zh": "lotus_tarkovstreets_tg_informant_apartment",
+          "en": "lotus_tarkovstreets_tg_informant_apartment"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tarbank_laptop",
+      "targetNames": {
+        "lotus_groundzero_tarbank_laptop": {
+          "zh": "lotus_groundzero_tarbank_laptop",
+          "en": "lotus_groundzero_tarbank_laptop"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c621186f774138d11ea29"
+      ],
+      "targetNames": {
+        "590c621186f774138d11ea29": {
+          "zh": "加密U盘",
+          "en": "Secure Flash drive"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5e340dcdcb6d5863cc5e5efb"
+      ],
+      "weaponNames": {
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "682a396d504c405d6044c7ec",
+      "name": {
+        "zh": "泰拉文件的下落 - 第1部分",
+        "en": "Terragroup Paper Trail - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68ac5a291ad19f8bca0e4b57",
+      "name": {
+        "zh": "泰拉文件的下落 - 第3部分",
+        "en": "Terragroup Paper Trail - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_terragroup_trail_2.png",
+  "isKey": false
+}

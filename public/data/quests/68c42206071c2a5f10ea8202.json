@@ -1,0 +1,172 @@
+{
+  "id": "68c42206071c2a5f10ea8202",
+  "name": {
+    "zh": "值得调查的东西",
+    "en": "Something Worth Investigating"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.12
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": -0.02
+    },
+    {
+      "type": "Item",
+      "value": 300000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 300000
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0e722886f7740458316a57",
+      "itemName": {
+        "zh": "ANA Tactical M1 插板胸挂（橄榄绿）",
+        "en": "ANA Tactical M1 plate carrier (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ab8dced86f774646209ec87",
+      "itemName": {
+        "zh": "ANA Tactical M2防弹胸挂",
+        "en": "ANA Tactical M2 plate carrier (EMR)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "61605e13ffa6e502ac5e7eef",
+      "itemName": {
+        "zh": "Vortex Ranger 1500测距仪",
+        "en": "Vortex Ranger 1500 rangefinder"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f4f9eb969cdc30ff33f09db",
+      "itemName": {
+        "zh": "EYE MK.2 手持指南针专业版 ☆",
+        "en": "EYE MK.2 professional hand-held compass"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5656eb674bdc2d35148b457c",
+      "itemName": {
+        "zh": "40毫米VOG-25榴弹",
+        "en": "40mm VOG-25 grenade"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5644bd2b4bdc2d3b4c8b4572",
+      "itemName": {
+        "zh": "卡拉什尼科夫 AK-74N 5.45x39 突击步枪",
+        "en": "Kalashnikov AK-74N 5.45x39 assault rifle"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "那么，特遣队员，你的冒险怎么样？别费心回答，真的。我们知道，我们什么都知道，我们到处都有眼线和耳朵，消息在诺文斯克传得很快，而你并不是一个未知的存在。\n\n我们最近丢失了某些货物，而Ref的人又一次卷入其中，对此有任何信息都有重赏，而你是那种只要价格合适就愿意出卖所有人的人，你毕竟是个雇佣兵，钱对你来说就是一切。\n\n让我们告诉你一件事——三思而后行……",
+    "en": "So, merc, how is your adventure? Don't bother answering, actually. We know, we know everything and we see everything, we have our eyes and ears everywhere, and word gets around quickly in Norvinsk, and you aren't exactly an unknown being.\n\nWe lost certain cargo recently, and yet again Ref's people have been involved, there is a great reward for any information on this, and you are the kind of person that is willing to rat out on everyone if the price is right, you are a mercenary after all, money is everything for you.\n\nLet us tell you one thing - Think twice before you act..."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "67409848d0b2f8eb9b034db9",
+        "674098588466ebb03408b210",
+        "67408903268737ef6908d432"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67409848d0b2f8eb9b034db9": {
+          "zh": "密封的盒子",
+          "en": "Sealed box"
+        },
+        "674098588466ebb03408b210": {
+          "zh": "开启的盒子",
+          "en": "Opened box"
+        },
+        "67408903268737ef6908d432": {
+          "zh": "违禁品盒子",
+          "en": "Contraband box"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "67409848d0b2f8eb9b034db9",
+        "674098588466ebb03408b210",
+        "67408903268737ef6908d432"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67409848d0b2f8eb9b034db9": {
+          "zh": "密封的盒子",
+          "en": "Sealed box"
+        },
+        "674098588466ebb03408b210": {
+          "zh": "开启的盒子",
+          "en": "Opened box"
+        },
+        "67408903268737ef6908d432": {
+          "zh": "违禁品盒子",
+          "en": "Contraband box"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c31f71aa355c62f3b4f6e3",
+      "name": {
+        "zh": "违禁品 - 第3部分",
+        "en": "Contraband - Part 3"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_trader_fence_2.png",
+  "isKey": false
+}

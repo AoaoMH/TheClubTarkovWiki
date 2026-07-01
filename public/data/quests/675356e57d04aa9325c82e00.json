@@ -1,0 +1,266 @@
+{
+  "id": "675356e57d04aa9325c82e00",
+  "name": {
+    "zh": "品味之选 - 第六章",
+    "en": "Ideal For Someone With Taste - Part 6"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 19440
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1100,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1100
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6357c98711fb55120211f7e1",
+      "itemName": {
+        "zh": "M203 40毫米下挂式榴弹发射器",
+        "en": "M203 40mm underbarrel grenade launcher"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "67600a516f01341c9106ab4c",
+      "itemName": {
+        "zh": "6.8x51mm SIG Hybrid弹药包（20发装）",
+        "en": "6.8x51mm SIG Hybrid ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f60c74e3b85f6263c145586",
+      "itemName": {
+        "zh": "Rys-T 防弹头盔（黑色）",
+        "en": "Rys-T bulletproof helmet (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 50
+    },
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6529243824cbe3c74a05e5c1",
+      "itemName": {
+        "zh": "6.8x51毫米 SIG Hybrid",
+        "en": "6.8x51mm SIG Hybrid"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "65290f395ae2ae97b80fdf2d",
+      "itemName": {
+        "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+        "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "最后的挑战来了，期待吗？希望如此。这次你需要使用 SIG MCX-SPEAR，这是一把性能卓越的步枪，深受塔科夫中老手们的青睐。\n\n你的任务是使用这把枪击杀两个帮派的Boss和他们的几名小弟，或者随便挑几个小弟干掉也行。此外，还需要测试你的瞄准技巧——用这把枪完成几次爆头击杀。记得装备 SIG TANGO6T 光学瞄具。\n\n任务完成后，你需要将两把枪藏在实验室停车场的两辆蓝色 SMW 车的后备箱里。这些车非常显眼，你肯定不会错过。打开后备箱，每辆车藏一把枪，然后撤离。听起来很简单吧？祝你好运！",
+    "en": "Excited for the next challenge? I hope so, the gun you'll need to use is an absolute machine. It's a SIG MCX-SPEAR chambered in 6.8x51mm, extremely popular among highly trained and skilled operators here in Tarkov.\nWhat I want you to do with it is take out two gang leaders and a few of their bodyguards, or anyone's bodyguards, I don't care. And let's test your aim drills with it aswell, you need to eliminate targets with headshots aswell, however it won't matter who you take out.\nAnd make sure that you have the SIG Tango scope equipped while doing it.\n\nAnd after you're done I want you to hide two of these weapons somewhere in the Terragroup laboratory, specifically in two blue SMW cars in the parking garage. You won't miss them, they are easy to spot, just open the trunk and stash a gun in each of them, then get out. Sounds simple enough right?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "65290f395ae2ae97b80fdf2d"
+      ],
+      "weaponNames": {
+        "65290f395ae2ae97b80fdf2d": {
+          "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+          "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+        }
+      },
+      "enemyRoles": [
+        "bossTagilla",
+        "bossSanitar",
+        "bossBoar",
+        "bossKilla",
+        "bossGluhar",
+        "bossBully",
+        "bossSanitar",
+        "bossKojaniy",
+        "bossKolontay",
+        "bossZryachiy",
+        "bossPartisan",
+        "bossKnight",
+        "followerBigPipe",
+        "followerBirdEye",
+        "sectantPriest",
+        "sectantPrizrak",
+        "sectantPredvestnik",
+        "sectantOni"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "65290f395ae2ae97b80fdf2d"
+      ],
+      "weaponNames": {
+        "65290f395ae2ae97b80fdf2d": {
+          "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+          "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+        }
+      },
+      "enemyRoles": [
+        "followerBully",
+        "followerKojaniy",
+        "followerSanitar",
+        "followerZryachiy",
+        "followerKolontayAssault",
+        "followerKolontaySecurity",
+        "followerGluharAssault",
+        "followerGluharScout",
+        "followerGluharSecurity",
+        "followerBoar",
+        "followerBoarClose1",
+        "followerBoarClose2",
+        "bossBoarSniper"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "65290f395ae2ae97b80fdf2d"
+      ],
+      "weaponNames": {
+        "65290f395ae2ae97b80fdf2d": {
+          "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+          "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "65290f395ae2ae97b80fdf2d"
+      ],
+      "targetNames": {
+        "65290f395ae2ae97b80fdf2d": {
+          "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+          "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "65290f395ae2ae97b80fdf2d"
+      ],
+      "targetNames": {
+        "65290f395ae2ae97b80fdf2d": {
+          "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+          "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67519b5f3de90180bd0768a4",
+      "name": {
+        "zh": "品味之选 - 第五章",
+        "en": "Ideal For Someone With Taste - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674882212efab0d994eabacb",
+      "name": {
+        "zh": "俄罗斯蝮蛇",
+        "en": "Russian Pitviper"
+      }
+    },
+    {
+      "id": "677eed2aa7eeba8a46e225c3",
+      "name": {
+        "zh": "品味之选 - 第七部分",
+        "en": "Ideal For Someone With Taste - Part 7"
+      }
+    },
+    {
+      "id": "6750a04d753056276248642d",
+      "name": {
+        "zh": "悠哉写意诺文斯克",
+        "en": "Quiet Days In Norvinsk"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_idealforsomeonewithtaste_6.png",
+  "isKey": false
+}

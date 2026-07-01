@@ -1,0 +1,128 @@
+{
+  "id": "66c51c8c2efa5cee3b8326a3",
+  "name": {
+    "zh": "PMC特训：急救 - 第三章",
+    "en": "PMC Training - First Aid - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6450
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 17550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 17550
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b4335ba86f7744d2837a264",
+      "itemName": {
+        "zh": "医用输血工具",
+        "en": "Medical bloodset"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "619cc01e0a7c3a1a2731940c",
+      "itemName": {
+        "zh": "医疗工具",
+        "en": "Medical tools"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e531286f7747fa54205c2",
+      "itemName": {
+        "zh": "SJ1 TGLabs战斗兴奋剂注射器",
+        "en": "SJ1 TGLabs combat stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e531d86f7747fa23f4d42",
+      "itemName": {
+        "zh": "SJ6 TGLabs战斗兴奋剂注射器 ☆",
+        "en": "SJ6 TGLabs combat stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60098ad7c2240c0fe85c570a",
+      "itemName": {
+        "zh": "AFAK单兵战术急救包",
+        "en": "AFAK tactical individual first aid kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "骨折不仅仅是疼，它有时候能直接把你命搭进去。你想想，跑路的时候腿突然一断，或者你正在穿越开阔地，结果就趴那儿起不来了。止痛药当然能稍微缓解点，但你得知道怎么去处理骨折。\n\n你可以用夹板来处理手臂或腿部的骨折。我可不建议你自己去试着断几条骨头来练练，信我，真没这个必要。无论如何，学学怎么在突袭中用夹板治疗骨折吧。祝你好运。",
+    "en": "Breaking limbs is more than just painful, it can lead to your death in some cases, I mean... It's not ideal to get your leg broken while running away from someone, or travelling through open areas. Painkillers can help with that to some degree of course, but you need to know how to fix a fracture.\n\nYou can use splints to treat a fracture in your arms or legs. I wouldn't suggest you hurt yourself to break a leg or two, trust me. Anyway, learn to treat broken limbs while using some form of splint, alright? Good luck out there."
+  },
+  "objectives": [
+    {
+      "type": "PickUp",
+      "description": "PickUp: UseItem",
+      "value": 10,
+      "target": [
+        "5af0454c86f7746bf20992e8",
+        "544fb3364bdc2d34748b456a"
+      ],
+      "targetNames": {
+        "5af0454c86f7746bf20992e8": {
+          "zh": "铝固定夹板",
+          "en": "Aluminum splint"
+        },
+        "544fb3364bdc2d34748b456a": {
+          "zh": "固定夹板",
+          "en": "Immobilizing splint"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66c51c87a7c00a9e9e891706",
+      "name": {
+        "zh": "PMC特训：急救 - 第二章",
+        "en": "PMC Training - First Aid - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c51c9298f84f4a15184520",
+      "name": {
+        "zh": "PMC特训：急救 - 第四章",
+        "en": "PMC Training - First Aid - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_firstaid.png",
+  "isKey": false
+}

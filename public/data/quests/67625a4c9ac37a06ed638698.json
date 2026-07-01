@@ -1,0 +1,205 @@
+{
+  "id": "67625a4c9ac37a06ed638698",
+  "name": {
+    "zh": "塔科夫环卫工：冷案 - 第2章",
+    "en": "Bandit Hunt - Cold Case - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 20000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 188250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 188250
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bc9b9ecd4351e3bac122519",
+      "itemName": {
+        "zh": "Deadlyslob的胡须油",
+        "en": "Deadlyslob's beard oil"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "619cbfeb6b8a1b37a54eebfa",
+      "itemName": {
+        "zh": "Bulbex剪线器",
+        "en": "Bulbex cable cutter"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d80c62a86f7744036212b3f",
+      "itemName": {
+        "zh": "RB-VO 符号钥匙 ★",
+        "en": "RB-VO marked key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60a283193cb70855c43a381d",
+      "itemName": {
+        "zh": "THOR综合型防弹服",
+        "en": "NFM THOR Integrated Carrier body armor"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cadfbf7ae92152ac412eeef",
+      "itemName": {
+        "zh": "ASh-12 12.7x55 突击步枪",
+        "en": "ASh-12 12.7x55 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656fa61e94b480b8a500c0e8",
+      "itemName": {
+        "zh": "NESCO 4400-SA-MC防弹插板",
+        "en": "NESCO 4400-SA-MC ballistic plate"
+      }
+    }
+  ],
+  "description": {
+    "zh": "看起来，你从Glukhar那里缴获的这把突击步枪是个真正的大杀器，使用的是12.7x55mm子弹，难怪他随身携带。\n\n似乎他是少数能接触到这种武器的人，这可能意味着如果人们注意到这帮人的行踪少了，军用基地可能会出现更多的外地人。\n\n所以我想着用这把步枪干掉一批PMC也无伤大雅吧？记住，这东西有点惹人注目，会吸引人们找上你，毕竟你不是唯一一个想猎杀这帮人的人。\n\n祝你好运，不要忘了收集你获得的所有狗牌。",
+    "en": "By the looks of it, this weird assault rifle you took from glukhar is a real beast, it fires 12.7x55mm rounds, no wonder he carried it around.\nIt seems like he was one of few who had access to these kind of weapons, which could mean that the military base might have more visitors than usual if people notice that this gang is absent.\n\nI guess it wouldn't hurt to get rid of a bunch of operators there with one of these rifles? And keep in mind that this thing attracts attention, people will be looking for you, after all you aren't the only one who hunts these bandits down.\nWell, good luck out there, and don't forget to collect all the dogtags you obtain."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "5cadfbf7ae92152ac412eeef"
+      ],
+      "weaponNames": {
+        "5cadfbf7ae92152ac412eeef": {
+          "zh": "ASh-12 12.7x55 突击步枪",
+          "en": "ASh-12 12.7x55 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 4,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "6662e9cda7e0b43baa3d5f76",
+        "6662e9aca7e0b43baa3d5f74",
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "675dc9d37ae1a8792107ca96",
+        "675dcb0545b1a2d108011b2b",
+        "6764207f2fa5e32733055c4a",
+        "6764202ae307804338014c1a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9cda7e0b43baa3d5f76": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9aca7e0b43baa3d5f74": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "675dc9d37ae1a8792107ca96": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dcb0545b1a2d108011b2b": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6764207f2fa5e32733055c4a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764202ae307804338014c1a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6762597817a433eeee2ef47a",
+      "name": {
+        "zh": "塔科夫环卫工：冷案 - 第1章",
+        "en": "Bandit Hunt - Cold Case - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6812590e15f6bcbc89c75b34",
+      "name": {
+        "zh": "血渴",
+        "en": "Blood Thirsty"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_boss_glukhar.png",
+  "isKey": false
+}

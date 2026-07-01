@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -58,7 +62,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 40,
+      "value": 10,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -68,8 +72,7 @@
       },
       "enemyRoles": [
         "pmcBot"
-      ],
-      "location": "RezervBase"
+      ]
     }
   ],
   "prerequisites": [

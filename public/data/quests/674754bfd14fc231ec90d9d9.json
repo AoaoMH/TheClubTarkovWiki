@@ -1,0 +1,181 @@
+{
+  "id": "674754bfd14fc231ec90d9d9",
+  "name": {
+    "zh": "“将死！” - 第二章",
+    "en": "Checkmate - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 17750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 17750
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "609a63b6e2ff132951242d09",
+      "itemName": {
+        "zh": "Krechet反射式瞄具",
+        "en": "Valday Krechet reflex sight"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "57372db0245977685d4159b2",
+      "itemName": {
+        "zh": "5.45x39mm PP弹药包（30发装）",
+        "en": "5.45x39mm PP gs ammo pack (30 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5710c24ad2720bc3458b45a3",
+      "itemName": {
+        "zh": "F-1手榴弹",
+        "en": "F-1 hand grenade"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fca13ca637ee0341a484f46",
+      "itemName": {
+        "zh": "SJ9 TGLabs战斗兴奋剂注射器 ☆",
+        "en": "SJ9 TGLabs combat stimulant injector"
+      }
+    }
+  ],
+  "description": {
+    "zh": "显然黑卒、白卒、黑主教、白王和白皇后大楼之间通过一个地下地堡系统相连。\n\n我尝试过派我的一队手下们去探索，但他们很快就不得不进行撤退，据说地堡早就已经是Raider的占领了。我还听说那里有些撤离点，但似乎没有电力就无法使用。\n\n也许有办法恢复它们的电力。你能定位这些地方吗？别忘了带上标记器，这样下次我的手下晚上的时候进去时能够更容易发现它们。",
+    "en": "Okay so it seems that the black pawn, white pawn, black bishop, white king and white queen building are connected with a underground bunker system.\n\nI tried sending a group down there but they had to retreat really quickly, apparently that bunker is home to a ton of raiders. I have heard that there are some exfiltration points but they seem to be unavailable without any electricity.\n\nThere might be some way to restore power to them, can you locate them? Put down some markers so the next team that I'll send down there sees the locations at night."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_hermetic_switch",
+      "targetNames": {
+        "lotus_reserve_hermetic_switch": {
+          "zh": "lotus_reserve_hermetic_switch",
+          "en": "lotus_reserve_hermetic_switch"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_d2_switch",
+      "targetNames": {
+        "lotus_reserve_d2_switch": {
+          "zh": "lotus_reserve_d2_switch",
+          "en": "lotus_reserve_d2_switch"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_d2_door",
+      "targetNames": {
+        "lotus_reserve_d2_door": {
+          "zh": "lotus_reserve_d2_door",
+          "en": "lotus_reserve_d2_door"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674753f1d8d87605a4fcb912",
+      "name": {
+        "zh": "“将死！” - 第一章",
+        "en": "Checkmate - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674755987736d5ac91837615",
+      "name": {
+        "zh": "“将死！” - 第三章",
+        "en": "Checkmate - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_checkmate_2.png",
+  "isKey": false
+}

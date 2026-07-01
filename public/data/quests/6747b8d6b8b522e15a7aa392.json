@@ -1,0 +1,164 @@
+{
+  "id": "6747b8d6b8b522e15a7aa392",
+  "name": {
+    "zh": "机遇之地",
+    "en": "Land Of Opportunities"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Loyalty",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Skill",
+      "target": "Throwables",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "Revolver",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "Pistol",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "MagDrills",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "Crafting",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66b5f693acff495a294927e3",
+      "itemName": {
+        "zh": "Peltor ComTac V耳机（橄榄绿）",
+        "en": "Peltor ComTac V headset (OD Green)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ca2151486f774244a3b8d30",
+      "itemName": {
+        "zh": "FORT Redut-M护甲",
+        "en": "FORT Redut-M body armor"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e4ac41886f77406a511c9a8",
+      "itemName": {
+        "zh": "Ars Arma CPC MOD.1 插板胸挂（A-TACS FG 迷彩）",
+        "en": "Ars Arma CPC MOD.1 plate carrier (A-TACS FG)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "623063e994fc3f7b302a9696",
+      "itemName": {
+        "zh": "HK G36 5.56x45 突击步枪",
+        "en": "HK G36 5.56x45 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a0ec13bfcdbcb00165aa685",
+      "itemName": {
+        "zh": "AKMN 7.62x39 突击步枪",
+        "en": "Kalashnikov AKMN 7.62x39 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "问一下，你和Ragman以及Jaeger的关系如何？\n看起来你已经和他们共事一段时间了，很好。你知道的在这边做生意，信任就是基本盘。为什么不和其他商人也谈谈生意呢？我相信你也可以向他们证明你的合作水平。\n\n我估计你还有很多工作要忙，看看你所有还没做完的任务事儿，总有忙可以帮的，记住这一点。",
+    "en": "So, how is the work with Arshavir and Yegorovich?\nLooks like you have been working them for some time aswell, thats good. You know trust is everything when it comes to business here. Why don't we discuss business with the other dealers aswell? I'm sure you can also prove to them aswell how loyal you are.\n\nI assume you still have a lot of work to do, take a look at all the open contracts you have, there's always something you can help with, remember that"
+  },
+  "objectives": [
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 3,
+      "target": "6747208ef022cbbfc65c41bf"
+    },
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 3,
+      "target": "5ac3b934156ae10c4430e83c"
+    },
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 3,
+      "target": "5c0647fdd443bc2504c2d371"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747bb32e757b032df3aadda",
+      "name": {
+        "zh": "合作至上",
+        "en": "Cooperation Is Important"
+      }
+    },
+    {
+      "id": "6747bcf89415880273ff7fa9",
+      "name": {
+        "zh": "良好联络",
+        "en": "Well Connected"
+      }
+    },
+    {
+      "id": "674766077f5e08878af90bc8",
+      "name": {
+        "zh": "莲花之光 - 第十二章",
+        "en": "Light Of The Lotus - Part 12"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67509e7057be1b2849ca4f57",
+      "name": {
+        "zh": "ULTRA 之王",
+        "en": "King Of ULTRA"
+      }
+    },
+    {
+      "id": "6747b920719aa1658981f7d1",
+      "name": {
+        "zh": "完美拍档",
+        "en": "A Merchant's Best Friend"
+      }
+    },
+    {
+      "id": "677b4541f0e406dc6526e7aa",
+      "name": {
+        "zh": "操盘手",
+        "en": "Controlling The Market"
+      }
+    },
+    {
+      "id": "67488057bb77d69317a82685",
+      "name": {
+        "zh": "前方施工",
+        "en": "Area Under Construction"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_lotus.png",
+  "isKey": false
+}

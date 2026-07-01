@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -40,6 +44,16 @@
         "en": "Death Shadow lightweight armored mask"
       },
       "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 1
     }
   ],
   "description": {
@@ -49,8 +63,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 2,
+      "description": "Elimination: Kills",
+      "value": 1,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {

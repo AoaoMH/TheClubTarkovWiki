@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -54,20 +58,15 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 6,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
           "zh": "Savage",
           "en": "Savage"
         }
-      },
-      "daytime": {
-        "from": 21,
-        "to": 4
-      },
-      "location": "Lighthouse,Sandbox,bigmap,Interchange,laboratory,Shoreline,Woods,RezervBase,TarkovStreets,Sandbox_high"
+      }
     }
   ],
   "prerequisites": [

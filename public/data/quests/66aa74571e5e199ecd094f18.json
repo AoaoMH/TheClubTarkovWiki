@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "marathon",
+  "locationName": {
+    "zh": "马拉松",
+    "en": "Marathon"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -85,14 +89,12 @@
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "bigmap"
+      "value": 1
     },
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 3,
-      "location": "factory4_night,factory4_day",
+      "value": 1,
       "target": "Savage",
       "targetNames": {
         "Savage": {

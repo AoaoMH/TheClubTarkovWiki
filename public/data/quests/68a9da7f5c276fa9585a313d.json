@@ -1,0 +1,162 @@
+{
+  "id": "68a9da7f5c276fa9585a313d",
+  "name": {
+    "zh": "问题解决者 - 第1部分",
+    "en": "The Problem Solver - Part 1"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 30,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 30
+    }
+  ],
+  "description": {
+    "zh": "过去我曾和一些军火贩子合作过，有一个家伙特别引起了我的注意，他是个俄罗斯海军陆战队员，懂行——后来有一天一切都搞砸了，现在我们就在这儿了。总之，我开始和他以及他的 crew 合作，那家伙就是Glukhar，你知道他是谁。\n\n嗯，这些东西是机密，所以我尽量说得含糊其辞，希望你能理解，但它应该 still 能给你足够的信息来帮助完成这个任务。我有过这个联系人，他也参与了Glukhar crew 的这次行动，帮忙处理一些重要的事情。他在储备基地里有自己的办公室，如果我没记错的话，是白皇建筑三楼空管中心安保室，我需要有人去查看一下。\n\n在白骑士建筑二楼某处，他也有自己的工作室，有空的时候在那里修理一些小武器，没什么太重要的...但我想他应该还有一挺架设好的12.7mm机枪存放在里面。所以我说你也找到它，如果你找到了，就在那里安装一个摄像头。我需要稍后对它进行监视。哦对了，顺便说一下，两个房间都锁得很紧，所以你需要找到两把钥匙，我想它们叫“RH”和“MP22”。\n\n有传言说，他过去常常通过下水道逃离军事基地，然后前往Cape Dalniy，如果这是真的，那一定发生在USEC把污水处理厂变成他们的基地之前，因为我猜如果他们看到他会把他打死的。嗯总之，除非我们 somehow 能找到这个家伙还活着，否则我们永远无法确切知道发生了什么，但就目前而言这是不可能的。我需要知道出口是否仍然可用，所以行动吧。",
+    "en": "Back then I used to work with some gunrunners, one guy specifically catched my attention, he was a russian marine, knew his business - Then one day everything went to shit, and now we're here. Anyway, I started working with him and his crew, that guy is Glukhar, you know who that is.\n\nWell this stuff is classified, so I'll try to keep it as vague as possible, I hope you understand it but it should still give you enough information to help with this task. I had this contact, he was also involved in this operation with Glukhar's crew, helped with some important things. He had his office inside the reserve base, it was the airspace control center security room in the white king building if I remember that right, it's on the third floor and I need someone to check it out.\n\nSomewhere in the white knight building on the second floor he also had his own workshop, fixed up some small arms here and there when he had the time, nothing too important... But I think he still has a mounted 12.7mm machinegun stored in there. So I'd say you find it aswell, plant a camera there if you manage to find it. I need to keep it under surveillance for later. Oh yeah and by the way both rooms are locked down tight, so you'll need to find two keys, I think they were called \"RH\" and \"MP22\".\n\nRumors have been going around that he used to escape the military base through the sewers and then made his way to Cape Dalniy, if that is true that must have happened before the USECs turned the water treatment plant into their base because I assume they would have lit him up if they would've seen him. Well anyway, we'll never know exactly what happened unless we would somehow manage to find this guy alive, but that is out of question for now. I need to know if the exit is still usable, so get moving."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_white_king_3rdfloor_rb_rh",
+      "targetNames": {
+        "lotus_reserve_white_king_3rdfloor_rb_rh": {
+          "zh": "lotus_reserve_white_king_3rdfloor_rb_rh",
+          "en": "lotus_reserve_white_king_3rdfloor_rb_rh"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5da5cdcd86f774529238fb9b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5da5cdcd86f774529238fb9b": {
+          "zh": "RB-RH钥匙",
+          "en": "RB-RH key"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_white_bishop_2ndfloor_workshop",
+      "targetNames": {
+        "lotus_reserve_white_bishop_2ndfloor_workshop": {
+          "zh": "lotus_reserve_white_bishop_2ndfloor_workshop",
+          "en": "lotus_reserve_white_bishop_2ndfloor_workshop"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d80cab086f77440535be201"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d80cab086f77440535be201": {
+          "zh": "RB-MP22钥匙",
+          "en": "RB-MP22 key"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_white_bishop_2ndfloor_utyos",
+      "targetNames": {
+        "lotus_reserve_white_bishop_2ndfloor_utyos": {
+          "zh": "lotus_reserve_white_bishop_2ndfloor_utyos",
+          "en": "lotus_reserve_white_bishop_2ndfloor_utyos"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_sewermanhole",
+      "targetNames": {
+        "lotus_reserve_sewermanhole": {
+          "zh": "lotus_reserve_sewermanhole",
+          "en": "lotus_reserve_sewermanhole"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68650f0e18ac344def323e7c",
+      "name": {
+        "zh": "永不放弃搜索",
+        "en": "Never Give Up Searching"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68aa055fda2fdadeda09f85e",
+      "name": {
+        "zh": "问题解决者 - 第2部分",
+        "en": "The Problem Solver - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_problemsolver_1.png",
+  "isKey": false
+}

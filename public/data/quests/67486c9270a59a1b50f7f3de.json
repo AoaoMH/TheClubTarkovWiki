@@ -1,0 +1,202 @@
+{
+  "id": "67486c9270a59a1b50f7f3de",
+  "name": {
+    "zh": "旅游淡季",
+    "en": "Tourist Season Is Ending"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Completion",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 28750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.06
+    },
+    {
+      "type": "Item",
+      "value": 175050,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 175050
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "637b620db7afa97bfc3d7009",
+      "itemName": {
+        "zh": "曲马多注射器 ☆",
+        "en": "Trimadol stimulant injector"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5ed5160a87bb8443d10680b5",
+      "itemName": {
+        "zh": "Meldonin 注射器",
+        "en": "Meldonin injector"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5f60c85b58eff926626a60f7",
+      "itemName": {
+        "zh": "Rys-T 面罩",
+        "en": "Rys-T face shield"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "657025cfbfc87b3a34093253",
+      "itemName": {
+        "zh": "20发9x39 PAB-9 gs盒装弹药 ★",
+        "en": "9x39mm PAB-9 gs ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "64ace9f9c4eda9354b0226aa",
+      "itemName": {
+        "zh": "7.62x39mm PP gzh弹药包（20发装） ☆",
+        "en": "7.62x39mm PP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "644674a13d52156624001fbc",
+      "itemName": {
+        "zh": "KBP 9A-91 9x39紧凑型突击步枪",
+        "en": "KBP 9A-91 9x39 compact assault rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ac66d2e5acfc43b321d4b53",
+      "itemName": {
+        "zh": "AK-103 7.62x39 突击步枪",
+        "en": "Kalashnikov AK-103 7.62x39 assault rifle"
+      },
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "zh": "士兵，我有个重要任务，需要有能力的人来完成！所以这个任务很适合你。\n你需要击杀一群入侵者，我是说全部，包括 USEC 、Rogue 以及三狗。他们已经对这个地方造成了足够的破坏，现在居然还有胆量随意掠夺和杀戮？\n\n还有一件事，非常重要。有个特别的人联系了我，说他愿意帮忙，但他不希望我们对他的手下造成任何麻烦。所以不要攻击任何 Scav 帮派！我信任你，士兵。",
+    "en": "Warrior I got something important, I need someone with skill for this job! So you are perfect for this one.\nYou need to take out a bunch of tourists, and I mean all of them, USEC operators, the rogues and their leaders. They have been terrorizing this place enough already and now they got the audacity to loot and kill how much they want?\n\nOh and there is one more thing, it's important, someone special contacted me about this, said that he is willing to help, however he does not want us to cause any trouble for his men. So do not attack any of the scav gangs! I count on you soldier."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Usec",
+      "targetNames": {
+        "Usec": {
+          "zh": "Usec",
+          "en": "Usec"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "exUsec"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKnight",
+        "followerBigPipe",
+        "followerBirdEye"
+      ]
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Completion",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossTagilla",
+        "bossSanitar",
+        "bossBoar",
+        "bossKilla",
+        "bossGluhar",
+        "bossBully",
+        "bossSanitar",
+        "bossKojaniy",
+        "bossKolontay"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67486c0582d1897605b403c5",
+      "name": {
+        "zh": "皎月",
+        "en": "Silence Of The Night"
+      }
+    },
+    {
+      "id": "67486b07a069ed3f4df34b7d",
+      "name": {
+        "zh": "东方联盟 - 第九章",
+        "en": "Eastern Reliability - Part 9"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_touristseason_prapor.png",
+  "isKey": false
+}

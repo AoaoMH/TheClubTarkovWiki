@@ -1,0 +1,87 @@
+{
+  "id": "6747bf2633dcfc282d417efe",
+  "name": {
+    "zh": "PMC特训：屏息 - 第一章",
+    "en": "PMC Training - Marksmanship - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4550
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 12850,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 12850
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ae08f0a5acfc408fb1398a1",
+      "itemName": {
+        "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型） ☆",
+        "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5de652c31b7e3716273428be",
+      "itemName": {
+        "zh": "Molot VPO-215 雪貂 .366 TKM 栓动式步枪",
+        "en": "Molot Arms VPO-215 Gornostay .366 TKM bolt-action rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "有时候，从远距离击杀目标其实更好、更明智、当然也更安全。你需要学会如何使用狙击步枪。与自己和枪融为一体，狙击在外的生活只有枪作伴。\n\n不管你有什么枪，枪的好坏取决于射手。如果你都不知道如何用它，那么你的武器也就是一摊废铁。\n你能证明自己的实力吗？",
+    "en": "Sometimes it's just better, smarter, and of course safer to take out targets from a distance. You need to learn how to handle Sniper rifles. Become one with yourself and your rifle, it will be very lonely out there.\n\nIt doesn't matter what gun you have, the weapon is only as good as the shooter. So if you don't know how to handle it, your weapon is worthless.\nAre you able to prove it?"
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Sniper",
+      "value": 2,
+      "target": "Sniper"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67472495fb91486f4fb89cb3",
+      "name": {
+        "zh": "准备战斗",
+        "en": "Ready For Battle"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c3f214cb3b751f05e418d4",
+      "name": {
+        "zh": "PMC特训：屏息 - 第二章",
+        "en": "PMC Training - Marksmanship - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_marksman.png",
+  "isKey": false
+}

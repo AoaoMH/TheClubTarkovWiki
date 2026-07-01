@@ -1,0 +1,216 @@
+{
+  "id": "67472e831d2ad53e655d30e6",
+  "name": {
+    "zh": "致幻剂 - 第一章",
+    "en": "Narcotic - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 750,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 750
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5755383e24597772cb798966",
+      "itemName": {
+        "zh": "凡士林",
+        "en": "Vaseline balm"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "544fb45d4bdc2dee738b4568",
+      "itemName": {
+        "zh": "Salewa急救包",
+        "en": "Salewa first aid kit"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Skill",
+      "target": "StressResistance",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "Surgery",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "590c695186f7741e566b64a2",
+      "itemName": {
+        "zh": "力百汀抗生素药片",
+        "en": "Augmentin antibiotic pills"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "590c678286f77426c9660122",
+      "itemName": {
+        "zh": "IFAK单兵战术急救包",
+        "en": "IFAK individual first aid kit"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60098ad7c2240c0fe85c570a",
+      "itemName": {
+        "zh": "AFAK单兵战术急救包",
+        "en": "AFAK tactical individual first aid kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "又见面了，我有件重要的事情，你可能会感兴趣。\n\n基本上就在刚才我们刚接到一个买家的交易，他在寻找一些……药物，大概是塔科夫这里TerraGroupTerraGroup集团的产品？哎呀，随便是啥，我不在乎他的背景或意图，我只知道他会支付足够的费用。\n\n现在我需要你带给我一些我目前没有的注射针剂，如果你能够帮忙的话，我会允许你从我们这边的库存拿一些特殊注射剂。你愿意接受这个任务吗？我会给你所需物品的清单，我就指望你了，士兵。",
+    "en": "Hello again, I got something important, you might be interested.\n\nSo basically we just got contacted by a buyer that is looking for certain... drugs, here from Tarkov, Terragroup related goods i'm guessing? Well anyway, I don't care about his background or intentions, he will be paying enough for it.\n\nWhat I need from you know is to bring me some of these injectors that I don't have on me right now, I will give you access to our stock for some special injectors for that if you help. Are you in? I will give you the list of things that are needed, I will count on you soldier."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "544fb3f34bdc2d03748b456a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb3f34bdc2d03748b456a": {
+          "zh": "吗啡注射器",
+          "en": "Morphine injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "544fb3f34bdc2d03748b456a"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb3f34bdc2d03748b456a": {
+          "zh": "吗啡注射器",
+          "en": "Morphine injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c10c8fd86f7743d7d706df3"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c10c8fd86f7743d7d706df3": {
+          "zh": "肾上腺素注射器",
+          "en": "Adrenaline injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c10c8fd86f7743d7d706df3"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c10c8fd86f7743d7d706df3": {
+          "zh": "肾上腺素注射器",
+          "en": "Adrenaline injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c0e530286f7747fa1419862"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e530286f7747fa1419862": {
+          "zh": "丙泊酚",
+          "en": "Propital regenerative stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c0e530286f7747fa1419862"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e530286f7747fa1419862": {
+          "zh": "丙泊酚",
+          "en": "Propital regenerative stimulant injector"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674722c60ad34fd118ec4c9e",
+      "name": {
+        "zh": "野战医疗",
+        "en": "Field Surgery"
+      }
+    },
+    {
+      "id": "674758ea142f52a016ecd92d",
+      "name": {
+        "zh": "莲花之光 - 第二章",
+        "en": "Light Of The Lotus - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67699b1421e57b1c6415f6c3",
+      "name": {
+        "zh": "致幻剂 - 第二章",
+        "en": "Narcotic - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_narcotic.png",
+  "isKey": false
+}

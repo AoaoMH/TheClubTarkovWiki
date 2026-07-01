@@ -1,0 +1,233 @@
+{
+  "id": "67e96d27ddd9ca3c4adbb5d4",
+  "name": {
+    "zh": "深度探索",
+    "en": "Doing Some Digging"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 78350,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 78350
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60363c0c92ec1c31037959f5",
+      "itemName": {
+        "zh": "GP-7防毒面具",
+        "en": "GP-7 gas mask"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d1b317c86f7742523398392",
+      "itemName": {
+        "zh": "手摇钻",
+        "en": "Hand drill"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59e35de086f7741778269d84",
+      "itemName": {
+        "zh": "电钻",
+        "en": "Electric drill"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5af04b6486f774195a3ebb49",
+      "itemName": {
+        "zh": "Elite钳子",
+        "en": "Pliers Elite"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f5f41476bdad616ad46d631",
+      "itemName": {
+        "zh": "NPP KlASS 刚玉-VM护甲（黑色）",
+        "en": "NPP KlASS Korund-VM body armor (Black)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "606587252535c57a13424cfd",
+      "itemName": {
+        "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪 ★",
+        "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6410733d5dd49d77bd07847e",
+      "itemName": {
+        "zh": "Tokarev AVT-40 7.62x54R自动步枪",
+        "en": "Tokarev AVT-40 7.62x54R automatic rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我发现了点线索！\n\n你知道吧，以前那些工厂工人是住在海关的宿舍楼里的，一些TerraGroup集团的员工当时也住那儿。所以我觉得，那可能就是我们接下来该查的地方了，搞不好真能翻出点什么。\n\n我之前派去的那组人把三层楼那栋翻了个底朝天，啥也没找到。所以现在轮到你了，去查查双层宿舍楼，特别是那些上锁的房间，那些才有可能藏着重要的东西。\n\n找找文件、笔记本电脑或者公文包，任何能为我们“调查”提供帮助的东西。找到之后记得带回来交给我，明白了吗？",
+    "en": "I got a clue!\n\nYou know that the factory workers lived in the dorms in the customs zone before the conflict, right? Well, so did some terragroup workers. I'd say that would be our next best guess, surely we find at least something.\n\nThe previous team I sent there checked every inch of the three-story building, not a trace of anything useful. Taking a look at the two-story dorm will be your job then, find some of the locked rooms, those should be the only important ones.\n\nLook for some documents, laptops or briefcases - Anything that can help our \"investigation\", and don't forget to bring it to me once you found something, understood?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5910922b86f7747d96753483"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5910922b86f7747d96753483": {
+          "zh": "碳纤维保险箱",
+          "en": "Carbon case"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_dorms_twostory_104",
+      "targetNames": {
+        "lotus_customs_dorms_twostory_104": {
+          "zh": "lotus_customs_dorms_twostory_104",
+          "en": "lotus_customs_dorms_twostory_104"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_dorms_twostory_105",
+      "targetNames": {
+        "lotus_customs_dorms_twostory_105": {
+          "zh": "lotus_customs_dorms_twostory_105",
+          "en": "lotus_customs_dorms_twostory_105"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_dorms_twostory_110",
+      "targetNames": {
+        "lotus_customs_dorms_twostory_110": {
+          "zh": "lotus_customs_dorms_twostory_110",
+          "en": "lotus_customs_dorms_twostory_110"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "room114",
+      "targetNames": {
+        "room114": {
+          "zh": "room114",
+          "en": "room114"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "room206_water",
+      "targetNames": {
+        "room206_water": {
+          "zh": "room206_water",
+          "en": "room206_water"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5910922b86f7747d96753483"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5910922b86f7747d96753483": {
+          "zh": "碳纤维保险箱",
+          "en": "Carbon case"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67d769c37a074517a838b60b",
+      "name": {
+        "zh": "丰盈满溢的备件",
+        "en": "A Whole Reserve Of Spare Parts"
+      }
+    },
+    {
+      "id": "5969f9e986f7741dde183a50",
+      "name": {
+        "zh": "药剂师",
+        "en": "Pharmacist"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67e972c039c5f34295a24265",
+      "name": {
+        "zh": "医生，你这是几个意思？",
+        "en": "State Your Business, Doctor"
+      }
+    },
+    {
+      "id": "67e970f55882098f5a4a622b",
+      "name": {
+        "zh": "正当介入",
+        "en": "Justified Involvement"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_tg_case.png",
+  "isKey": false
+}

@@ -1,0 +1,189 @@
+{
+  "id": "67475e21aeda0864d4faf7c4",
+  "name": {
+    "zh": "莲花之光 - 第六章",
+    "en": "Light Of The Lotus - Part 6"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 35560,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 35560
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "575146b724597720a27126d5",
+      "itemName": {
+        "zh": "一盒牛奶",
+        "en": "Pack of milk"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6581998038c79576a2569e11",
+      "itemName": {
+        "zh": "Unity Credit银行现金收纳机钥匙",
+        "en": "Unity Credit Bank cash register key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0d5ae286f7741e46554302",
+      "itemName": {
+        "zh": "5.56x45毫米 Warmage",
+        "en": "5.56x45mm Warmageddon"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "63611865ba5b90db0c0399d1",
+      "itemName": {
+        "zh": "Azimut SS \"Khamelion\"胸挂（橄榄色）",
+        "en": "Azimut SS \"Khamelion\" chest harness (Olive)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "准备好再去一次中心区了吗？我认识一个卖车的人，他卖一些经典款车，但有一个问题……\n\n他的某些SMW车型的零件已经用完了，特别是黑色款，因为重新喷漆不划算。总之，据说我的朋友寻找的这种车型在塔科夫这个地区很受欢迎，所以可以肯定你至少能找到几辆。\n\n我去询问了一些可靠的人，我可以给你一份可能找到这些车的地点清单，大概在Nakatani附近、Merin汽车经销店和靠近TerraGroupTerraGroup集团总部的某个路口。明白了吗？\n别忘了放置MS2000标记器，这样我可以派人晚上去检查标记地点。任务完成后回来向我汇报。",
+    "en": "So, ready to go to the city center again? I know someone who sells cars, real classic ones, there is just one problem...\n\nGuy ran out of spare parts for certain SMW models, black ones specifically because repainting them wouldn't be worth the time and money. Anyway, rumors say that the exact model of cars my friend is looking for was very popular around the area here in Tarkov, so it's safe to assume that you will find at least a few of those.\n\nI asked around trusted people and I can give you a list of locations where you might expect to see them, there should be one around nakatani, the merin dealership and somewhere close to the terragroup HQ near a crossing each, got it?\nDon't forget to place down MS2000 markers so I can send out a team at night for them to spot them. Report back to me when you are done."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_black_smv_nakatani",
+      "targetNames": {
+        "lotus_groundzero_black_smv_nakatani": {
+          "zh": "lotus_groundzero_black_smv_nakatani",
+          "en": "lotus_groundzero_black_smv_nakatani"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_black_smv_merin",
+      "targetNames": {
+        "lotus_groundzero_black_smv_merin": {
+          "zh": "lotus_groundzero_black_smv_merin",
+          "en": "lotus_groundzero_black_smv_merin"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_black_smv_center",
+      "targetNames": {
+        "lotus_groundzero_black_smv_center": {
+          "zh": "lotus_groundzero_black_smv_center",
+          "en": "lotus_groundzero_black_smv_center"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67475dbb321ddf314e6fbcad",
+      "name": {
+        "zh": "莲花之光 - 第五章",
+        "en": "Light Of The Lotus - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674763ebeceb4fed8a506543",
+      "name": {
+        "zh": "莲花之光 - 第七章",
+        "en": "Light Of The Lotus - Part 7"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_6.png",
+  "isKey": false
+}

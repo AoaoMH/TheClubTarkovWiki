@@ -1,0 +1,104 @@
+{
+  "id": "680e12e530d8f164e7fcd99b",
+  "name": {
+    "zh": "偿还债务",
+    "en": "Debt To Pay"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 40,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 40
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d5e7d28a4b936645d161203",
+      "itemName": {
+        "zh": "MSA ACH TC-2001 MICH系列头盔",
+        "en": "MSA ACH TC-2001 MICH Series helmet (Olive Drab)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "63171672192e68c5460cebc5",
+      "itemName": {
+        "zh": "Steyr AUG A3 5.56x45突击步枪",
+        "en": "Steyr AUG A3 5.56x45 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "所以我的朋友Ryba总是跟我提起一个他有过节的当地团体，我很确定他叫他们“Svetloozerskiy”帮派，我猜他们住在湖边。\n\n他说如果情况恶化，他会请他的一位同事帮他对付这些家伙。哦，你知道这个“同事”是谁吗？他是Glukhar小队的一员，太好了我知道。所以我建议你不要和他们开战，懂吗？总之，我想好了下一步该怎么做，你可能想知道为什么我告诉你所有这些关于这些帮派的事情，嗯，很简单 - Ryba在某个废弃的老锯木厂里有个武器藏匿点，没人去那儿所以是个非常安全的藏匿点。\n\n在那里找一个谷仓或其他大建筑，检查二楼，寻找武器箱和散落的床垫。别忘了别碰那两个帮派头目，我不能再失去Glukhar的信任了，而且Shturman还欠着债呢，现在不是时候。",
+    "en": "So my friend Ryba always told me about some local group he had trouble with, I'm pretty sure he called them the \"Svetloozerskiy\" gang, I assume they live by the lake.\n\nHe said if shit hits the fan he's gonna ask one of his colleagues to help him fight these guys. Oh and you know who this \"colleague\" is? He's part of Glukhar's squad, great I know. So I suggest you don't start some war with them, got it? Anyway, I figured out what to do next, and you're probably wondering why I am telling you all this stuff about these gangs and so on, well it's simple - Ryba had some sort of weapon stash in one of the old abandoned sawmills, nobody ever goes there so it was a really safe hiding place.\n\nFind a barn or some other big building there and check the second floor, look for weapon boxes and mattresses lying around. Don't forget to leave both of the gang leaders alone, I can't afford to lose trust with Glukhar, and Shturman still has a debt to pay, now is not the time."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_oldsawmill_barn_top_1",
+      "targetNames": {
+        "lotus_woods_oldsawmill_barn_top_1": {
+          "zh": "lotus_woods_oldsawmill_barn_top_1",
+          "en": "lotus_woods_oldsawmill_barn_top_1"
+        }
+      }
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Completion",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKojaniy",
+        "bossGluhar"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "680e0c71597b0c96599d5587",
+      "name": {
+        "zh": "有些可疑...",
+        "en": "Something's Fishy..."
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_ref_debt_to_pay.png",
+  "isKey": false
+}

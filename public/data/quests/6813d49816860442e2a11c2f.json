@@ -1,0 +1,96 @@
+{
+  "id": "6813d49816860442e2a11c2f",
+  "name": {
+    "zh": "赶紧把这事办了 - 第1部分",
+    "en": "Let's Get This Over With - Part 1"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 60,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 60
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "628a60ae6b1d481ff772e9c8",
+      "itemName": {
+        "zh": "Rifle Dynamics RD-704 7.62x39突击步枪",
+        "en": "Rifle Dynamics RD-704 7.62x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac4cd105acfc40016339859",
+      "itemName": {
+        "zh": "AK-74M 5.45x39 突击步枪",
+        "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你面前还有一大堆工作，所以听好了！我只解释一次——这是个简单的任务。实验室当地的渣滓最近真的惹恼了我的人，除了麻烦什么也没造成。我需要他们用血来偿还，他们还掠夺了我们的大部分藏匿处，拿走了我们的装备。\n\n这就是你发挥作用的地方，干掉这些畜生，让他们付出代价。我们可以在你完成后继续讨论我们未来的工作，明白吗？根据我的情报，他们主要是在军事基地的地堡和铁路站场以及泰拉集团实验室附近活动——别忘了这些人大部分都和你受过同样的训练，唯一的区别是他们的装备。",
+    "en": "You still got a ton of work ahead of you, so listen up! I'll only explain this once - It's a simple task. The local scum at the lab really pissed off my guys lately and causing nothing but trouble. I need them to pay back in blood, they looted most of our stashes aswell and took our gear.\n\nHere's where you come into play, take down these animals and make them pay. We can continue talking about our future work after you're done, got it? According to my intel they mostly roam around the military base bunkers and trainyard aswell as the Terragroup laboratory - Don't forget most of these guys have been through the same training as you, the only difference is their gear."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68135e68f72643bf2a708c5d",
+      "name": {
+        "zh": "受够了",
+        "en": "Enough Is Enough"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6813d64b31f920cdbc15ab23",
+      "name": {
+        "zh": "赶紧把这事办了 - 第2部分",
+        "en": "Let's Get This Over With - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_lets_get_this_over_with_1.png",
+  "isKey": false
+}

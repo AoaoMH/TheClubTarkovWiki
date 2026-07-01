@@ -1,0 +1,168 @@
+{
+  "id": "677b03604996670857682f5c",
+  "name": {
+    "zh": "超自然现象",
+    "en": "Paranormal Activities"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 450,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 450
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "57ffb0e42459777d047111c5",
+      "itemName": {
+        "zh": "AKS-74U PBS-4 5.45x39消音器",
+        "en": "AKS-74U PBS-4 5.45x39 sound suppressor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0d63621526d8dba31fe3bf",
+      "itemName": {
+        "zh": "AKM PBS-1 7.62x39消音器",
+        "en": "AKM PBS-1 7.62x39 sound suppressor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Endurance",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e32f56fcb6d5863cc5e5ee4",
+      "itemName": {
+        "zh": "VOG-17 Khattabka 简易手榴弹",
+        "en": "VOG-17 Khattabka improvised hand grenade"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fca138c2a7b221b2852a5c6",
+      "itemName": {
+        "zh": "xTG-12解毒剂 ☆",
+        "en": "xTG-12 antidote injector"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，我这收到一些非常诡异的消息……\n\n你应该知道那家老旧的化工厂吧？我听说有人晚上进去之后，看到了一些极其奇怪的超自然活动，于是就有人说那地方闹鬼了。\n\n不过我可不信这些鬼啊神啊的胡扯……但如果真不是鬼怪，那肯定还有别的东西在搞鬼。问题是，在塔科夫这种地方，大半夜的谁会躲在那种地方干嘛？\n\n目前我们只能先去调查目击这些怪事的几个区域，我能给你的信息只有四个位置：0号门、1号门、3号门，还有医疗帐篷外面。先去这些地方看看，然后我们再找机会晚上进去好好查一查。",
+    "en": "Hey there, I got some very strange news...\n\nYou already know about the old chemical factory, right? Well, I had reports of people going in there at night and noticing some very strange paranormal activity inside that place, so people assumed that this place is haunted.\n\nBut I don't believe in such silly stories, such nonsense... Anyway, If it isn't ghosts or demons or whatever, it has to be something else. Why should someone lurk in the dark here in Tarkov after all?\n\nYou need to get familiar with the areas where people spotted these weird activities first however, I can only tell you about four locations. Around Gate zero, one, and three, and outside the med tent. That's it for now. Check these places out, and then we'll check that place out at night."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_factory_medtent_outside_day",
+      "targetNames": {
+        "lotus_factory_medtent_outside_day": {
+          "zh": "lotus_factory_medtent_outside_day",
+          "en": "lotus_factory_medtent_outside_day"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_factory_gate_0_outside_day",
+      "targetNames": {
+        "lotus_factory_gate_0_outside_day": {
+          "zh": "lotus_factory_gate_0_outside_day",
+          "en": "lotus_factory_gate_0_outside_day"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_factory_gate_1_outside_day",
+      "targetNames": {
+        "lotus_factory_gate_1_outside_day": {
+          "zh": "lotus_factory_gate_1_outside_day",
+          "en": "lotus_factory_gate_1_outside_day"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_factory_gate_3_outside_day",
+      "targetNames": {
+        "lotus_factory_gate_3_outside_day": {
+          "zh": "lotus_factory_gate_3_outside_day",
+          "en": "lotus_factory_gate_3_outside_day"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674751d636b2485baddcf5cc",
+      "name": {
+        "zh": "献祭 - 第一章",
+        "en": "Pokloneniye - Part 1"
+      }
+    },
+    {
+      "id": "5a27b9de86f77464e5044585",
+      "name": {
+        "zh": "邪教 - 1",
+        "en": "The Cult - Part 1"
+      }
+    },
+    {
+      "id": "677a55a0be2a8922dab9e040",
+      "name": {
+        "zh": "十六吨重的备件",
+        "en": "Sixteen Tons Of Spare Parts"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "677b04f244d35a69206ec4e4",
+      "name": {
+        "zh": "捉鬼敢死队",
+        "en": "Ghost Hunt"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_factory_painting.png",
+  "isKey": false
+}

@@ -1,0 +1,137 @@
+{
+  "id": "66c246975c91c78198d4077c",
+  "name": {
+    "zh": "PMC特训：突击兵 - 第三章",
+    "en": "PMC Training - Infantry - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5475
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 21850,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 21850
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5a32aa8bc4a2826c6e06d737",
+      "itemName": {
+        "zh": "Trijicon RMR",
+        "en": "Trijicon RMR reflex sight"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59fc48e086f77463b1118392",
+      "itemName": {
+        "zh": "Magpul RVG握把 Black",
+        "en": "Magpul RVG foregrip (Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5447ac644bdc2d6c208b4567",
+      "itemName": {
+        "zh": "5.56x45mm M855弹药包（50发装）",
+        "en": "5.56x45mm M855 ammo pack (50 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d43021ca4b9362eab4b5e25",
+      "itemName": {
+        "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪 ☆",
+        "en": "Lone Star TX-15 DML 5.56x45 carbine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5beec8ea0db834001a6f9dbf",
+      "itemName": {
+        "zh": "Izhmash AK-12标准手枪式握把",
+        "en": "AK-12 pistol grip"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5beec8c20db834001d2c465c",
+      "itemName": {
+        "zh": "Izhmash AK-12标准枪托",
+        "en": "AK-12 stock"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，多点训练总没坏处，对吧？很好。目前还有很多你无法接触到的东西……暂时的。当然你可以主动改变这一点，但凡事都有代价。训练你的技能，然后当你觉得可以时再回来，我就在这静候佳音了。",
+    "en": "Alright, more training can't hurt right? Very well then. Theres still a ton of stuff that you don't have access to... Yet. You can change that, but everything comes with a price. Train your skills, then come back if you're feeling like it, I will hear from you."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Assault",
+      "value": 6,
+      "target": "Assault"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: AimDrills",
+      "value": 6,
+      "target": "AimDrills"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: MagDrills",
+      "value": 4,
+      "target": "MagDrills"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66c244489cd554035b1ba245",
+      "name": {
+        "zh": "PMC特训：突击兵 - 第二章",
+        "en": "PMC Training - Infantry - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c24845a671c1a1aa170372",
+      "name": {
+        "zh": "PMC特训：突击兵 - 第四章",
+        "en": "PMC Training - Infantry - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_infantry.png",
+  "isKey": false
+}

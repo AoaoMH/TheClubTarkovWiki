@@ -1,0 +1,240 @@
+{
+  "id": "67518cbcb6c904e276ea22cb",
+  "name": {
+    "zh": "品味之选 - 第二章",
+    "en": "Ideal For Someone With Taste - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11525
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 650,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 650
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装） ★",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "64898838d5b4df6140000a20",
+      "itemName": {
+        "zh": "12/70 AP-20弹药包（25发装） ☆",
+        "en": "12/70 AP-20 ammo pack (25 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5448ba0b4bdc2d02308b456c",
+      "itemName": {
+        "zh": "工厂出口钥匙 ★",
+        "en": "Factory emergency exit key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Shotgun",
+      "value": 50
+    },
+    {
+      "type": "Skill",
+      "target": "Sniper",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "这次任务我建议你同时携带两把武器：雷明顿 Model 700 和 Model 870。你可以在 M870 上安装短枪管和握把，不过不一定非要用两把枪击杀目标——当然，如果你想用也可以\n\n无论如何，你的任务是干掉几个干员，带上他们的狗牌，然后前往森林中的 USEC 营地，把这两把枪藏在那里。明白了吗？",
+    "en": "Alright, for this task I recommend you wield both weapons at the same time, you need to use a remington model 700 and model 870. You can use a short barrel and grip on the M870, however, you don't need to kill your targets with both guns, you have the option to however.\nAnyway, take down a few operators, bring their dogtags and after you're done, visit the USEC camp in the forest and hide both weapons there."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "5a7828548dc32e5a9c28b516",
+        "5bfea6e90db834001b7347f3"
+      ],
+      "weaponNames": {
+        "5a7828548dc32e5a9c28b516": {
+          "zh": "雷明顿Model 870 12铅径 霰弹枪",
+          "en": "Remington Model 870 12ga pump-action shotgun"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "6662e9cda7e0b43baa3d5f76",
+        "6662e9aca7e0b43baa3d5f74",
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "675dc9d37ae1a8792107ca96",
+        "675dcb0545b1a2d108011b2b",
+        "6764207f2fa5e32733055c4a",
+        "6764202ae307804338014c1a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9cda7e0b43baa3d5f76": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9aca7e0b43baa3d5f74": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "675dc9d37ae1a8792107ca96": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dcb0545b1a2d108011b2b": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6764207f2fa5e32733055c4a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764202ae307804338014c1a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5a7828548dc32e5a9c28b516"
+      ],
+      "targetNames": {
+        "5a7828548dc32e5a9c28b516": {
+          "zh": "雷明顿Model 870 12铅径 霰弹枪",
+          "en": "Remington Model 870 12ga pump-action shotgun"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5bfea6e90db834001b7347f3"
+      ],
+      "targetNames": {
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "675184a3baf92aa021b4e0ad",
+      "name": {
+        "zh": "品味之选 - 第一章",
+        "en": "Ideal For Someone With Taste - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67519005bdabf0213250f1dd",
+      "name": {
+        "zh": "品味之选 - 第三章",
+        "en": "Ideal For Someone With Taste - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_idealforsomeonewithtaste_2.png",
+  "isKey": false
+}

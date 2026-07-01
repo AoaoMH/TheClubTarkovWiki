@@ -1,0 +1,158 @@
+{
+  "id": "68037d165a7e1349b4901c3b",
+  "name": {
+    "zh": "竞技场狙击手",
+    "en": "The Arena Sniper"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 30,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 30
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "618b9643526131765025ab35",
+      "itemName": {
+        "zh": "Geissele Super Precision 30毫米环形基座",
+        "en": "Geissele Super Precision 30mm ring scope mount"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "657089638db3adca1009f4ca",
+      "itemName": {
+        "zh": "Atomic Defense CQCM防弹面罩（黑色）",
+        "en": "Atomic Defense CQCM up armored ballistic mask (Black)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0530ee86f774697952d952",
+      "itemName": {
+        "zh": "LEDX皮肤透照仪 ★",
+        "en": "LEDX Skin Transilluminator"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 250
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6489848173c462723909a14b",
+      "itemName": {
+        "zh": ".338 Lapua Magnum AP弹药包（20发装）",
+        "en": ".338 Lapua Magnum AP ammo pack (20 pcs)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "673cab3e03c6a20581028bc1",
+      "itemName": {
+        "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+        "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你可能很了解远距离射击，但在竞技场这不实用。我真的需要有人来测试一些特定的东西。\n\n某些角斗士选择使用狙击步枪的原因，我猜是他们熟悉这个，很简单。我想让有人找出这种战术在竞技场外的表现如何，可能风险更大，可能更有效，在有人发现之前无法知道，现在这就是你的工作了。\n\n拿着这些步枪，清理小队是从一些倒下的角斗士身上搜刮来的。不含说明书，你得自己想办法怎么用这些东西，明白吗？",
+    "en": "You might know a lot about shooting at a distance, but it's impractical in the Arena. I really require someone to test out something specific.\n\nCertain gladiators choose to use sniper rifles for some reason, my guess is that they are familiar with that, simple. I wan't someone to find out how well this tactic performs outside the Arena, it might be more risky, might be more effective, can't know until someone finds out, that's your job now.\n\nTake these rifles, the cleanup crew scraped them off some fallen gladiators. No manual included, you're on your own with figuring out how to use these things, got it?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "673cab3e03c6a20581028bc1",
+        "627e14b21713922ded6f2c15"
+      ],
+      "weaponNames": {
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        },
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        }
+      }
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: Sniper",
+      "value": 10,
+      "target": "Sniper"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b1d4ea6a301f7c01591db8",
+      "name": {
+        "zh": "辛辣的款待 - 第1部分",
+        "en": "Spicy Treat - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b77b59f8362d35febb3c48",
+      "name": {
+        "zh": "辛辣的款待 - 第2部分",
+        "en": "Spicy Treat - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_arena_sniper.png",
+  "isKey": false
+}

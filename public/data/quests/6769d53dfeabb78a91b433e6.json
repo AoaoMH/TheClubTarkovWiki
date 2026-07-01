@@ -1,0 +1,253 @@
+{
+  "id": "6769d53dfeabb78a91b433e6",
+  "name": {
+    "zh": "塔科夫扫地机器人：森林",
+    "en": "Tarkov Cleaner - Woods"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 32450
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 295520,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 295520
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e4ac41886f77406a511c9a8",
+      "itemName": {
+        "zh": "Ars Arma CPC MOD.1 插板胸挂（A-TACS FG 迷彩）",
+        "en": "Ars Arma CPC MOD.1 plate carrier (A-TACS FG)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5c0e531286f7747fa54205c2",
+      "itemName": {
+        "zh": "SJ1 TGLabs战斗兴奋剂注射器",
+        "en": "SJ1 TGLabs combat stimulant injector"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5c0e531d86f7747fa23f4d42",
+      "itemName": {
+        "zh": "SJ6 TGLabs战斗兴奋剂注射器 ☆",
+        "en": "SJ6 TGLabs combat stimulant injector"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Skill",
+      "target": "WeaponTreatment",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "55801eed4bdc2d89578b4588",
+      "itemName": {
+        "zh": "SV-98 7.62x54 狙击步枪",
+        "en": "SV-98 7.62x54R bolt-action sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e2af55f86f7746d4159f07c",
+      "itemName": {
+        "zh": "手榴弹箱",
+        "en": "Grenade case"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60a3c70cde5f453f634816a3",
+      "itemName": {
+        "zh": "CQC 鱼鹰 MK4A 防弹胸挂（突击型，多地形迷彩）",
+        "en": "CQC Osprey MK4A plate carrier (Assault, MTP)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你在森林里活动了这么多次，应该注意到那里有多少渣滓在游荡了吧？\n\n美军、湖边的Boss、邪教徒……这些都只是冰山一角。实际上，森林里到处都是Scav和PMC，简直让人难以置信。\n\n准备好开始清理了吗？把那些家伙全都解决掉，顺便干掉一些伐木场的地头蛇小弟们和三狗小队。任务可不轻松，但对你来说应该没问题吧？",
+    "en": "So you've been in the local forest a lot of times already, did you ever notice how much scum wanders around there?\nImports, a gang at the lake, and cultists, and those are just the ones who are worth mentioning, there are a ton of bandits and operators aswell. You'd think that there aren't many people in that place, but that isn't the case, weird.\n\nAnyway, ready to clean it up a little? Get rid of each and everyone of them, and take down a bunch of operators and bandits while you're at it, and don't forget the bodyguards of the gang leader, the imports also walk around as a trio."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantWarrior"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerKojaniy"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKojaniy"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKnight"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBigPipe"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBirdEye"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6748874a2aed4c92ecf06204",
+      "name": {
+        "zh": "塔科夫扫地机器人：工厂",
+        "en": "Tarkov Cleaner - Factory"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67488a105a77b869ebd0a968",
+      "name": {
+        "zh": "塔科夫扫地机器人：灯塔",
+        "en": "Tarkov Cleaner - Lighthouse"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_tarkovcleanerwoods.png",
+  "isKey": false
+}

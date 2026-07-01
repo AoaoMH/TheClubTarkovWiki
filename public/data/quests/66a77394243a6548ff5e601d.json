@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Item",
@@ -65,7 +69,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "5d1b304286f774253763a528"
       ],
@@ -80,7 +84,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "59e36c6f86f774176c10a2a7"
       ],
@@ -110,7 +114,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "5d1b304286f774253763a528"
       ],
@@ -125,7 +129,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "59e36c6f86f774176c10a2a7"
       ],

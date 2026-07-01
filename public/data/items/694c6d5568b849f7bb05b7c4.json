@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 90000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Ghost Swedish Fish Energy Drink [Ultra Rare]",
+      "en": "Ghost Swedish Fish Energy Drink [Ultra Rare]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Ghost",
+      "en": "Ghost"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 90,000₽ | 物品价值: 90,000 | Therapist报价: 56,700₽Ghost Energy is the fully transparent, fully loaded energy drink we have all been waiting for. Our legendary energy drink features no sugar, no artificial colors, and authentic Strawbango Margarita flavor. It contains 200mg of Natural Caffeine from coffee beans, which has been found anecdotally to deliver a smooth, feel-good energy with less jitters and no crash when compared to other forms of caffeine.",
+      "en": "跳蚤市场: 90,000₽ | 物品价值: 90,000 | Therapist报价: 56,700₽Ghost Energy is the fully transparent, fully loaded energy drink we have all been waiting for. Our legendary energy drink features no sugar, no artificial colors, and authentic Strawbango Margarita flavor. It contains 200mg of Natural Caffeine from coffee beans, which has been found anecdotally to deliver a smooth, feel-good energy with less jitters and no crash when compared to other forms of caffeine."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,88 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.6,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 20,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "CovertMovement",
+            "value": 10,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 5,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 5,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Search",
+            "value": 5,
+            "delay": 0,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "WeightLimit",
+            "skillName": "",
+            "value": 0.35,
+            "delay": 1,
+            "duration": 600,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -10,
+            "delay": 600,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -2.5,
+            "delay": 600,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 600,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

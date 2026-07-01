@@ -1,0 +1,102 @@
+{
+  "id": "67509b40ebc998b7d528d1a1",
+  "name": {
+    "zh": "快速旅游：ULTRA",
+    "en": "Quick Trip To ULTRA"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 1500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 175,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 175
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66b6295a8ca68c6461709efa",
+      "itemName": {
+        "zh": "Tasmanian Tiger MKIII 插板胸挂（棕褐色）",
+        "en": "Tasmanian Tiger Plate Carrier MKIII (Coyote Brown)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，我听说你开始为 Ragman 工作了，太棒了！我们的团队已经与他合作有一段时间了，在这样一个危机四伏的地方，建立良好的关系会更有利，对吧？准备好吧，有很多工作等着你呢。\n\n我想现在大概率 Ragman 会派你去 ULTRA 购物中心处理任务，但别被耍了，那地方非常危险，我们需要让你先做好准备，对吗？这次我们先做一个战前演习让你熟悉一下。商场的东北部有一个变电站，它控制着一些商场的电力，虽然我还没有掌握所有的情报。\n\n那里有一个办公室，应该有一些电脑、电子零件和其他物品。找到那个办公室，然后通过变电站外面等候的出租车司机带你撤离到安全地带。",
+    "en": "Hey I heard you started working for Ragman, fantastic! Me and my team have been working together with him for some time, better to make good connections in a place where everyone is your enemy, right? Prepare yourself, lots of work is coming for you.\n\nIt's very likely that he will send you to the ULTRA shopping mall for most jobs, but don't be fooled, that place is extremely dangerous, we have to get you a bit prepared alright? Let's give you sample of what will be coming for you in that place, should we start? Great, there's a powerstation in the north-east of the mall, it controls the power for some of the stores and some other places, but I haven't gotten any intel for that yet.\n\nAnyway, that station has an office, there should be some computers, electronic parts and some other stuff for sure. Find the office, then head to evac, a taxi driver is usually waiting directly outside that place ready to drive you to safety."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_powerstation_office",
+      "targetNames": {
+        "lotus_interchange_powerstation_office": {
+          "zh": "lotus_interchange_powerstation_office",
+          "en": "lotus_interchange_powerstation_office"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5ae448a386f7744d3730fff0",
+      "name": {
+        "zh": "生意至上",
+        "en": "Only Business"
+      }
+    },
+    {
+      "id": "67471f9c63d6ef6fe3ced898",
+      "name": {
+        "zh": "新通讯",
+        "en": "New Contacts"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67509c43d96ffa5a7187c025",
+      "name": {
+        "zh": "购物狂欢",
+        "en": "Shopping Spree"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_powerstation.png",
+  "isKey": false
+}

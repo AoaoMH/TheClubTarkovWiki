@@ -1,0 +1,96 @@
+{
+  "id": "683645245a1c12488166b1a5",
+  "name": {
+    "zh": "北欧遗物",
+    "en": "Nordic Remnants"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "5714dc692459777137212e12",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
+  "rewards": [
+    {
+      "type": "Item",
+      "value": 100,
+      "itemId": "59e68f6f86f7746c9f75e846",
+      "itemName": {
+        "zh": "5.56x45毫米 M856",
+        "en": "5.56x45mm M856"
+      },
+      "quantity": 100
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "6828b1226ef8b54f3f63a678",
+      "itemName": {
+        "zh": "Ak5C 5.56x45 PMAG 30发弹匣",
+        "en": "Ak5C 5.56x45 Automatkarbin STANAG 30-round magazine"
+      },
+      "quantity": 5
+    }
+  ],
+  "description": {
+    "zh": "我们的瑞典朋友们似乎在他们对塔科夫救援行动进行\"审计\"时弄丢了一块硬盘。去街区上他们遗弃的装甲车里把它取回来。那块硬盘里有些有趣的东西：避税天堂、禁运技术交易、货运清单……把它交给我，我们或许能推动斯德哥尔摩把一些联合国援助预算转到我们这边来。要是他们与TerraGroup的那些肮脏交易被曝光，岂不是很可惜？",
+    "en": "Our Swedish pals seem to have lost a hard drive during their little \"audit\" of Tarkov’s relief operations. Go fetch it from their abandoned armored vehicle out in the Streets. That drive’s got some juicy details: tax havens, embargoed tech deals, shipping manifests... Get it to me and we could nudge Stockholm into redirecting some UN aid budgets our way. Wouldn’t it be a pity if their shady deals with TerraGroup got out?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "683647bb7afb4f25023acf7a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "683647bb7afb4f25023acf7a": {
+          "zh": "瑞典情报硬盘",
+          "en": "Swedish Intel hard drive"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "683647bb7afb4f25023acf7a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "683647bb7afb4f25023acf7a": {
+          "zh": "瑞典情报硬盘",
+          "en": "Swedish Intel hard drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6833b8bc6f8ce71072c4e703",
+      "name": {
+        "zh": "伪旗行动",
+        "en": "False Flag"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6877096d5299037a1c4b7b2f",
+      "name": {
+        "zh": "武器测试：Scav",
+        "en": "Weapons Trial: Scavs"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/NordicRemnants_Quest.png",
+  "isKey": false
+}

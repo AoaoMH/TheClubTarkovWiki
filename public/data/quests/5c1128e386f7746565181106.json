@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -36,7 +40,7 @@
       "value": 2,
       "itemId": "59faff1d86f7746c51718c9c",
       "itemName": {
-        "zh": "实体比特币",
+        "zh": "实体比特币 ★",
         "en": "Physical Bitcoin"
       },
       "quantity": 1
@@ -58,7 +62,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c06779c86f77426e00dd782"
       ],
@@ -73,7 +77,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c06782b86f77426df5407d2"
       ],
@@ -88,7 +92,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c06779c86f77426e00dd782"
       ],
@@ -103,7 +107,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 5,
+      "value": 1,
       "target": [
         "5c06782b86f77426df5407d2"
       ],

@@ -1,0 +1,201 @@
+{
+  "id": "6757627e2e0ce3039da399f0",
+  "name": {
+    "zh": "塔科夫环卫工：黄金交易 - 第1章",
+    "en": "Bandit Hunt - Deal To Make - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 82450,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 82450
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "657024ecc5d7d4cb4d07856d",
+      "itemName": {
+        "zh": "50发5.56x45 M856A1盒装弹药 ☆",
+        "en": "5.56x45mm M856A1 ammo pack (50 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5ac66c5d5acfc4001718d314",
+      "itemName": {
+        "zh": "6L29 5.56x45 30发AK-101兼容武器弹匣",
+        "en": "AK-101 5.56x45 6L29 30-round magazine"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ac66d015acfc400180ae6e4",
+      "itemName": {
+        "zh": "AK-102 5.56x45 突击步枪",
+        "en": "Kalashnikov AK-102 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ac66cb05acfc40198510a10",
+      "itemName": {
+        "zh": "AK-101 5.56x45 突击步枪",
+        "en": "Kalashnikov AK-101 5.56x45 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64afdb577bb3bfe8fe03fd1d",
+      "itemName": {
+        "zh": "ESBI IV 级防弹插板（侧边） ★",
+        "en": "ESBI level IV ballistic plate (Side)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "65573fa5655447403702a816",
+      "itemName": {
+        "zh": "Granit Br4防弹插板",
+        "en": "Granit Br4 ballistic plate"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b3b713c5acfc4330140bd8d",
+      "itemName": {
+        "zh": "托卡列夫 TT-33 7.62x25 黄金手枪",
+        "en": "TT-33 7.62x25 TT pistol (Golden)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "看来用这种陷阱对付这个老六可能不是最明智的选择，因为他总是躲在小弟后面，实际上迎接你的陷阱的也是他的小弟。\n\n他可能是个老六，但这并不意味着他没有威胁，毕竟他的存在就已经是一个大问题了。\n\n无论如何，我需要你解决他，同时不要忘了他的小弟，拿走他的黄金手枪并带回来。你不觉得先干掉他的小弟再对付他会很有趣吗？他肯定会魂飞魄散吓破胆儿。准备好再给这些家伙点颜色看看了吗？",
+    "en": "Maybe it wasn't the brightest idea to use these kind of traps against this weakling, since he always hides behind his bodyguards they were the ones who got greeted by your traps.\n\nHe might be a coward, but that doesn't mean that he can't be dangerous, after all he already is such a big problem.\n\nAnyway, you take him out, don't forget his guards, take his golden gun and bring it to me. Also, wouldn't it be funny if you take out all his guards first and then him? He'd be scared to death, anyway, ready to pay back these guys again?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossBully"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerBully"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5b3b713c5acfc4330140bd8d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5b3b713c5acfc4330140bd8d": {
+          "zh": "托卡列夫 TT-33 7.62x25 黄金手枪",
+          "en": "TT-33 7.62x25 TT pistol (Golden)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5b3b713c5acfc4330140bd8d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5b3b713c5acfc4330140bd8d": {
+          "zh": "托卡列夫 TT-33 7.62x25 黄金手枪",
+          "en": "TT-33 7.62x25 TT pistol (Golden)"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6757610a92876de49b91df94",
+      "name": {
+        "zh": "清理垃圾：海关",
+        "en": "Let The Hunt Begin - Customs"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6762474161ffeb3c022b9b69",
+      "name": {
+        "zh": "塔科夫环卫工：黄金交易 - 第2章",
+        "en": "Bandit Hunt - Deal To Make - Part 2"
+      }
+    },
+    {
+      "id": "6747c0991fa4b29ab5692551",
+      "name": {
+        "zh": "塔科夫环卫工：进口货",
+        "en": "Bandit Hunt - Imports"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_boss_reshala.png",
+  "isKey": false
+}

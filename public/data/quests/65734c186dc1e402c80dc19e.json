@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5714dc692459777137212e12",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -52,16 +56,15 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 30,
+      "description": "Elimination: Kills",
+      "value": 8,
       "target": "Any",
       "targetNames": {
         "Any": {
           "zh": "Any",
           "en": "Any"
         }
-      },
-      "location": "TarkovStreets"
+      }
     },
     {
       "type": "LeaveItemAtLocation",

@@ -1,0 +1,211 @@
+{
+  "id": "6747268e69275427dffb78f7",
+  "name": {
+    "zh": "渗透RUAF - 第三章",
+    "en": "RUAF Infiltrator - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 85750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 85750
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "57505f6224597709a92585a9",
+      "itemName": {
+        "zh": "Alyonka 巧克力",
+        "en": "Alyonka chocolate bar"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c10c8fd86f7743d7d706df3",
+      "itemName": {
+        "zh": "肾上腺素注射器",
+        "en": "Adrenaline injector"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b432d215acfc4771e1c6624",
+      "itemName": {
+        "zh": "LZSh 轻型头盔（橄榄绿）",
+        "en": "LShZ lightweight helmet (Olive Drab)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e722886f7740458316a57",
+      "itemName": {
+        "zh": "ANA Tactical M1 插板胸挂（橄榄绿）",
+        "en": "ANA Tactical M1 plate carrier (Olive Drab)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "656fad8c498d1b7e3e071da0",
+      "itemName": {
+        "zh": "Monoclete三级PE防弹插板",
+        "en": "Monoclete level III PE ballistic plate"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "583990e32459771419544dd2",
+      "itemName": {
+        "zh": "AKS-74UN 5.45x39 短突击步枪",
+        "en": "Kalashnikov AKS-74UN 5.45x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d9b5acfc4001633997a",
+      "itemName": {
+        "zh": "AK-105 5.45x39 突击步枪",
+        "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "听着，这次有个坏消息。那帮军官们似乎对我们的眼线开始有点怀疑了……\n\n他们现在质疑这些人的存在。我有个主意。你就装成他们的样子，穿上他们的装备，把一堆本地人和PMC送去见阎王。你只需要把他们惹得够生气，并一直这样下去，直到消息传到高层。我可以先借给你一点装备，因为我们还有一些多的剩下来，但如果你弄丢了，我不会再免费给你了，明白了吗？祝你好运，士兵。\n\n指定装备：\n - AK-74M 或 AK-12\n - 数码丛林迷彩护甲背心或防弹衣\n - 6B47 Ratnik-BSh头盔",
+    "en": "Listen up because there is bad news. Seems like the officers have been getting a little suspicious about our insiders…\n\nThey are questioning their presence now. I might have an idea tho. Why don't you just dress up like them, take their gear and send a bunch of locals, bandits and PMCs into afterlife? You just need to piss all of them off enough and just keep doing it until the news reach the higher ups.\n\nI can lend you a bit of gear since we still have a bunch of supplies left, but don't think that I will keep giving you free stuff after you lose it, alright? Very well then, good luck warrior.\n\nSpecified Gear :\n - AK-74M / AK-12\n - A Digital Flora Armored Rig / Body Armor\n - 6B47 Ratnik Helmet"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5ac4cd105acfc40016339859",
+        "6499849fc93611967b034949"
+      ],
+      "weaponNames": {
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        },
+        "6499849fc93611967b034949": {
+          "zh": "AK-12 5.45x39突击步枪",
+          "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "5ac4cd105acfc40016339859",
+        "6499849fc93611967b034949"
+      ],
+      "weaponNames": {
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        },
+        "6499849fc93611967b034949": {
+          "zh": "AK-12 5.45x39突击步枪",
+          "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5ac4cd105acfc40016339859",
+        "6499849fc93611967b034949"
+      ],
+      "weaponNames": {
+        "5ac4cd105acfc40016339859": {
+          "zh": "AK-74M 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-74M 5.45x39 assault rifle"
+        },
+        "6499849fc93611967b034949": {
+          "zh": "AK-12 5.45x39突击步枪",
+          "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+        }
+      },
+      "enemyRoles": [
+        "exUsec",
+        "pmcBot"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674725ff49d0b6a4089163d2",
+      "name": {
+        "zh": "渗透RUAF - 第二章",
+        "en": "RUAF Infiltrator - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674727f9beeec883a8b733e4",
+      "name": {
+        "zh": "渗透RUAF - 第四章",
+        "en": "RUAF Infiltrator - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ruafinfil_3.png",
+  "isKey": false
+}

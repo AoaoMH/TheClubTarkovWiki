@@ -1,0 +1,239 @@
+{
+  "id": "67699b1421e57b1c6415f6c3",
+  "name": {
+    "zh": "致幻剂 - 第二章",
+    "en": "Narcotic - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9200
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 950,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 950
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5b4335ba86f7744d2837a264",
+      "itemName": {
+        "zh": "医用输血工具",
+        "en": "Medical bloodset"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "590c695186f7741e566b64a2",
+      "itemName": {
+        "zh": "力百汀抗生素药片",
+        "en": "Augmentin antibiotic pills"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Skill",
+      "target": "Vitality",
+      "value": 50
+    },
+    {
+      "type": "Skill",
+      "target": "Health",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "637b620db7afa97bfc3d7009",
+      "itemName": {
+        "zh": "曲马多注射器 ☆",
+        "en": "Trimadol stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ed5160a87bb8443d10680b5",
+      "itemName": {
+        "zh": "Meldonin 注射器",
+        "en": "Meldonin injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "544fb3f34bdc2d03748b456a",
+      "itemName": {
+        "zh": "吗啡注射器",
+        "en": "Morphine injector"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好了，下一批货单。更多的注射针剂。\n\n这次是更大的订单，我猜买家每次都会增加订单量，也许他只是在测试我们。总之，我依旧会给你发清单。\n\n记住一定要亲自找到它们，我们不要那些已经用过或者旧的东西，明白吗？",
+    "en": "Alright, next shipment. More stimulants.\nIt's a bigger order this time, I am assuming this buyer will increase the order every time, maybe he is just testing us. Anyway, I am sending  you the list.\n\nMake sure you actually find them yourself, we don't want something that is being sold or used already, got it?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c0e531286f7747fa54205c2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e531286f7747fa54205c2": {
+          "zh": "SJ1 TGLabs战斗兴奋剂注射器",
+          "en": "SJ1 TGLabs combat stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c0e531286f7747fa54205c2"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e531286f7747fa54205c2": {
+          "zh": "SJ1 TGLabs战斗兴奋剂注射器",
+          "en": "SJ1 TGLabs combat stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c0e531d86f7747fa23f4d42"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e531d86f7747fa23f4d42": {
+          "zh": "SJ6 TGLabs战斗兴奋剂注射器 ☆",
+          "en": "SJ6 TGLabs combat stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c0e531d86f7747fa23f4d42"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e531d86f7747fa23f4d42": {
+          "zh": "SJ6 TGLabs战斗兴奋剂注射器 ☆",
+          "en": "SJ6 TGLabs combat stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed5166ad380ab312177c100"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed5166ad380ab312177c100": {
+          "zh": "Obdolbos 鸡尾酒兴奋剂注射器",
+          "en": "Obdolbos cocktail injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed5166ad380ab312177c100"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed5166ad380ab312177c100": {
+          "zh": "Obdolbos 鸡尾酒兴奋剂注射器",
+          "en": "Obdolbos cocktail injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c0e533786f7747fa23f4d47"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e533786f7747fa23f4d47": {
+          "zh": "Zagustin止血剂",
+          "en": "Zagustin hemostatic drug injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c0e533786f7747fa23f4d47"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e533786f7747fa23f4d47": {
+          "zh": "Zagustin止血剂",
+          "en": "Zagustin hemostatic drug injector"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67472e831d2ad53e655d30e6",
+      "name": {
+        "zh": "致幻剂 - 第一章",
+        "en": "Narcotic - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67699dc535f6bb1f5781c4cc",
+      "name": {
+        "zh": "致幻剂 - 第三章",
+        "en": "Narcotic - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_narcotic.png",
+  "isKey": false
+}

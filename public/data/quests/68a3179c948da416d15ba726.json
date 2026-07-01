@@ -1,0 +1,242 @@
+{
+  "id": "68a3179c948da416d15ba726",
+  "name": {
+    "zh": "机枪专家",
+    "en": "Expert Of Machineguns"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 66,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 66
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "664a5480bfcc521bad3192ca",
+      "itemName": {
+        "zh": "竞技场臂带 ★",
+        "en": "Armband (ARENA)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "656fafe3498d1b7e3e071da4",
+      "itemName": {
+        "zh": "KITECO SC-IV SA防弹插板",
+        "en": "KITECO SC-IV SA ballistic plate"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b6d9ce188a4501afc1b2b25",
+      "itemName": {
+        "zh": "T H I C C武器箱",
+        "en": "T H I C C Weapon case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "LMG",
+      "value": 250
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5beed0f50db834001c062b12",
+      "itemName": {
+        "zh": "RPK-16 5.45x39 轻机枪",
+        "en": "RPK-16 5.45x39 light machine gun"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64ca3d3954fc657e230529cc",
+      "itemName": {
+        "zh": "卡拉什尼科夫 PKP 7.62x54R 步兵机枪",
+        "en": "Kalashnikov PKP 7.62x54R infantry machine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "只剩下最后一类武器了，你兴奋吗？我建议你这次囤积点弹药，这次我不会给你任何备用装备了，明白吗？无意冒犯，但你知道，我也只是个商人，你也不会给我任何免费的东西，对吧？我就是这么想的。\n\n总之，责任在召唤！机枪可以是处理你的工作的绝佳工具，但你知道怎么回事……“车的好坏取决于司机”或类似的话。这些东西也很重，所以做一些训练会是明智之举，但这由你决定。",
+    "en": "Only one class of weapons left, are you excited? I suggest you stock up on ammo this time, I won't be handing over any spare gear for you this time, you got that? No offense but you know, I'm also just a business man, you wouldn't give me any free stuff either, would you? That's what I thought.\n\nAnyway, duty is calling! Machine guns can be excellent tools to take care of your work, but you know how it goes... \"The car is only as good as it's driver\" or something like that. These things are very heavy too, so doing some training would be a smart move, but that is your call."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5beed0f50db834001c062b12"
+      ],
+      "weaponNames": {
+        "5beed0f50db834001c062b12": {
+          "zh": "RPK-16 5.45x39 轻机枪",
+          "en": "RPK-16 5.45x39 light machine gun"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "6513ef33e06849f06c0957ca",
+        "65268d8ecb944ff1e90ea385"
+      ],
+      "weaponNames": {
+        "6513ef33e06849f06c0957ca": {
+          "zh": "捷格加廖夫 RPD 7.62x39 毫米轻机枪",
+          "en": "Degtyarev RPD 7.62x39 machine gun"
+        },
+        "65268d8ecb944ff1e90ea385": {
+          "zh": "捷格加廖夫 RPDN 7.62x39 毫米轻机枪",
+          "en": "Degtyarev RPDN 7.62x39 machine gun"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "65fb023261d5829b2d090755",
+        "661ceb1b9311543c7104149b",
+        "661cec09b2c6356b4d0c7a36"
+      ],
+      "weaponNames": {
+        "65fb023261d5829b2d090755": {
+          "zh": "U.S Ordnance M60E4 7.62x51轻机枪",
+          "en": "U.S. Ordnance M60E4 7.62x51 light machine gun"
+        },
+        "661ceb1b9311543c7104149b": {
+          "zh": "U.S Ordnance M60E6 7.62x51轻机枪",
+          "en": "U.S. Ordnance M60E6 7.62x51 light machine gun"
+        },
+        "661cec09b2c6356b4d0c7a36": {
+          "zh": "U.S Ordnance M60E6 7.62x51轻机枪（FDE）",
+          "en": "U.S. Ordnance M60E6 7.62x51 light machine gun (FDE)"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "64637076203536ad5600c990",
+        "64ca3d3954fc657e230529cc"
+      ],
+      "weaponNames": {
+        "64637076203536ad5600c990": {
+          "zh": "PKM 7.62x54R机枪 ★",
+          "en": "Kalashnikov PKM 7.62x54R machine gun"
+        },
+        "64ca3d3954fc657e230529cc": {
+          "zh": "卡拉什尼科夫 PKP 7.62x54R 步兵机枪",
+          "en": "Kalashnikov PKP 7.62x54R infantry machine gun"
+        }
+      }
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: Strength",
+      "value": 51,
+      "target": "Strength"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68a317ca41081fb3942fd195",
+      "name": {
+        "zh": "精确射手步枪专家",
+        "en": "Expert Of Marksman Rifles"
+      }
+    },
+    {
+      "id": "68a317daa4acb2d09cc8822b",
+      "name": {
+        "zh": "狙击步枪专家",
+        "en": "Expert Of Sniper Rifles"
+      }
+    },
+    {
+      "id": "68a31c0682f6f122b650f97e",
+      "name": {
+        "zh": "突击步枪专家 - 第3部分",
+        "en": "Expert Of Assault Rifles - Part 3"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_ref_expert_machineguns.png",
+  "isKey": false
+}

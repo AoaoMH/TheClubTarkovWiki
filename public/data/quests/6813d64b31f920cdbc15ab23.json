@@ -1,0 +1,93 @@
+{
+  "id": "6813d64b31f920cdbc15ab23",
+  "name": {
+    "zh": "赶紧把这事办了 - 第2部分",
+    "en": "Let's Get This Over With - Part 2"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Completion",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8650
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 50,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 50
+    },
+    {
+      "type": "Skill",
+      "target": "Vitality",
+      "value": 150
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6034d2d697633951dc245ea6",
+      "itemName": {
+        "zh": "Eberlestock G2 Gunslinger II 背包 (dry earth)",
+        "en": "Eberlestock G2 Gunslinger II backpack (Dry Earth)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "记住，你针对我的人的行动严重损害了我的信任，而且我不认为我会忘记你对我的狗耍的那种手段。我们所有的路线都 thanks to your work 被泄露了！我们再也承受不起任何更多的伏击了，我们之前的大部分路线都不再安全了，所以我们必须找到新的。\n\n何不由你带头？毕竟你已经知道猎犬在哪里活动——在那里找到一些安全的撤离路线，我们也许就能把过去抛在脑后。这对我们的生存至关重要——对你也是如此，明白吗？",
+    "en": "Keep that in mind, you really damaged my trust with your operation against my guys, and I don't think I'll forget what kind of moves you pulled on my dogs. All our routes were leaked thanks to your work! We can't afford any more ambushes, most of our previous routes aren't safe to use anymore, so we gotta find new ones.\n\nWhy don't you take the lead? After all you already know where the hounds roam around - Find some safe exfil routes there and we might be able to leave the past behind us. It's essential for our survival - And it's essential for you aswell, copy?"
+  },
+  "objectives": [
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitName",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6813d49816860442e2a11c2f",
+      "name": {
+        "zh": "赶紧把这事办了 - 第1部分",
+        "en": "Let's Get This Over With - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6813db938449d87cea2cf14a",
+      "name": {
+        "zh": "赶紧把这事办了 - 第3部分",
+        "en": "Let's Get This Over With - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_lets_get_this_over_with_2.png",
+  "isKey": false
+}

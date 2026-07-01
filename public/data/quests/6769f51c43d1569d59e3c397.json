@@ -1,0 +1,127 @@
+{
+  "id": "6769f51c43d1569d59e3c397",
+  "name": {
+    "zh": "经典依旧 - 第二章",
+    "en": "Old But Gold - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 39850,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 39850
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0517910db83400232ffee5",
+      "itemName": {
+        "zh": "Valday PS-320 1x/6x瞄准镜",
+        "en": "Valday PS-320 1/6x scope"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Sniper",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "61bca7cda0eae612383adf57",
+      "itemName": {
+        "zh": "NFM \"HJELM\" 头盔",
+        "en": "NFM HJELM helmet (Hellhound Grey)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64b8f7968532cf95ee0a0dbf",
+      "itemName": {
+        "zh": "7.62x54毫米 R FMJ",
+        "en": "7.62x54mm R FMJ"
+      }
+    }
+  ],
+  "description": {
+    "zh": "接下来你会体验一把百年历史的武器，听起来有趣吧？\n除非……你之前用过这种武器，这也不是不可能。总之，我们想让你再用莫辛纳甘栓动步枪消灭几个目标，具体消灭谁并不重要，明白吗？\n\n使用这把步枪会有很大的限制，所以保持距离，你可不想被敌人轻松接近然后干掉。相信我，你真的需要熟悉这种武器，这只是未来会遇到的情况的缩影。",
+    "en": "Soon you'll find out how a weapon performs which is over a hundred years old, sounds fun right?\nUnless of course... You used the weapon before, which isn't unlikely. Anyway, we want you to take out a few targets again while using mosin nagant bolt-action rifles, and it won't matter who you take out, alright?\n\nYou are very limited with this rifle, so keep your distance, you don't want anyone get close to you and shred you to pieces with much less effort, you get it. And believe me, you really need to get familiar with such weapons, this is only a sample of what will meet you in the future."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5bfd297f0db834001a669119",
+        "5ae08f0a5acfc408fb1398a1"
+      ],
+      "weaponNames": {
+        "5bfd297f0db834001a669119": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（步兵型）",
+          "en": "Mosin 7.62x54R bolt-action rifle (Infantry)"
+        },
+        "5ae08f0a5acfc408fb1398a1": {
+          "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型） ☆",
+          "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6769f36baded384a687d97a1",
+      "name": {
+        "zh": "经典依旧 - 第一章",
+        "en": "Old But Gold - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6769f68fa4eb1eafdf31d38c",
+      "name": {
+        "zh": "经典依旧 - 第三章",
+        "en": "Old But Gold - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_oldbutgold_mosin.png",
+  "isKey": false
+}

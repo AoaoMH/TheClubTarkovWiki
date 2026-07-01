@@ -1,0 +1,180 @@
+{
+  "id": "676afe70fdedf195aaaccf56",
+  "name": {
+    "zh": "暴徒山芋 - 第 2 章",
+    "en": "Adapting To Bandits - Part 2"
+  },
+  "traderId": "579dc571d53a0658a154fbec",
+  "traderName": {
+    "zh": "Fence",
+    "en": "Fence"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.15
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 125480,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 125480
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60391b0fb847c71012789415",
+      "itemName": {
+        "zh": "TP-200 砖型TNT",
+        "en": "TP-200 TNT brick"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62e7e7bbe6da9612f743f1e0",
+      "itemName": {
+        "zh": "GP-25“篝火”40 毫米下挂式榴弹发射器",
+        "en": "GP-25 Kostyor 40mm underbarrel grenade launcher"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65702572c5d7d4cb4d078576",
+      "itemName": {
+        "zh": "7.62x54 R BT gzh弹药包（20发装）",
+        "en": "7.62x54mm R BT gzh ammo pack (20 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "603409c80ca681766b6a0fb2",
+      "itemName": {
+        "zh": "NPP KIASS Condor 护目镜",
+        "en": "NPP KlASS Condor glasses"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "584924ec24597768f12ae244",
+      "itemName": {
+        "zh": "EOTech XPS3-2 全息瞄具",
+        "en": "EOTech XPS3-2 holographic sight"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b3a16655acfc40016387a2a",
+      "itemName": {
+        "zh": "Annihilator 7.62x39、5.56x45、9毫米 AR15消焰器 ☆",
+        "en": "Yankee Hill Annihilator multi-caliber flash hider"
+      }
+    }
+  ],
+  "description": {
+    "zh": "雇佣兵，还有另一个任务要交给你。我们的人需要了解某些武器的性能，他们提到了托卡列夫步枪。\n我们认为你已经足够熟练完成这样的任务，所以选择了你。\n\n你需要用托卡列夫步枪再次清除 PMC 和 Rogue。别让我们失望，雇佣兵，我们相信这对你来说不成问题。",
+    "en": "Another job for you merc. Our men need to know about the performance of certain weapons, they were talking about Tokarev rifles.\nWe think you are already skilled enough for such a task, which is why we chose you for this.\n\nYou need to get rid of operators and the USEC rogues again, while using Tokarev rifles. Don't disappoint us mercenary, we don't think this will be a problem for you."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "643ea5b23db6f9f57107d9fd",
+        "6410733d5dd49d77bd07847e"
+      ],
+      "weaponNames": {
+        "643ea5b23db6f9f57107d9fd": {
+          "zh": "Tokarev SVT-40 7.62x54R步枪",
+          "en": "Tokarev SVT-40 7.62x54R rifle"
+        },
+        "6410733d5dd49d77bd07847e": {
+          "zh": "Tokarev AVT-40 7.62x54R自动步枪",
+          "en": "Tokarev AVT-40 7.62x54R automatic rifle"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "643ea5b23db6f9f57107d9fd",
+        "6410733d5dd49d77bd07847e"
+      ],
+      "weaponNames": {
+        "643ea5b23db6f9f57107d9fd": {
+          "zh": "Tokarev SVT-40 7.62x54R步枪",
+          "en": "Tokarev SVT-40 7.62x54R rifle"
+        },
+        "6410733d5dd49d77bd07847e": {
+          "zh": "Tokarev AVT-40 7.62x54R自动步枪",
+          "en": "Tokarev AVT-40 7.62x54R automatic rifle"
+        }
+      },
+      "enemyRoles": [
+        "exUsec",
+        "pmcBot"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "676afb0dd0634cb6c93d83c7",
+      "name": {
+        "zh": "暴徒山芋 - 第 1 章",
+        "en": "Adapting To Bandits - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "676b0de9ab6151bd15ce350e",
+      "name": {
+        "zh": "危险工具",
+        "en": "Dangerous Tools"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_fence.png",
+  "isKey": false
+}

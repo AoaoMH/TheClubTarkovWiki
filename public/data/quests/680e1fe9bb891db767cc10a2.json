@@ -1,0 +1,155 @@
+{
+  "id": "680e1fe9bb891db767cc10a2",
+  "name": {
+    "zh": "现在告诉我...",
+    "en": "Now Tell Me..."
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5751a89d24597722aa0e8db0",
+      "itemName": {
+        "zh": "金星软膏 ☆",
+        "en": "Golden Star balm"
+      },
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "zh": "呃...是啊，我有点事，你看起来和平时不一样。有什么我需要知道的吗？\n\n你知道么，其实我有个主意——带点酒来，我们晚点在仓库坐下来聊聊，你现在给人的感觉真的很奇怪，懂吗？好像有什么严重的事。你想说什么都可以告诉我，你知道你可以信任我。",
+    "en": "Uhh... yeah I got something, you seem to behave differently than usual. Is there something I need to know?\n\nYou know what, actually I got an idea - Bring some drinks, we'll sit down at the depot later and discuss this, you give a really strange vibe right now, you know? Seems like something serious. You can tell me what you want to tell me, you know you can trust me."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d403f9186f7743cac3f229b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d403f9186f7743cac3f229b": {
+          "zh": "Dan Jackiel瓶装威士忌",
+          "en": "Bottle of Dan Jackiel whiskey"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d403f9186f7743cac3f229b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d403f9186f7743cac3f229b": {
+          "zh": "Dan Jackiel瓶装威士忌",
+          "en": "Bottle of Dan Jackiel whiskey"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d40407c86f774318526545a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d40407c86f774318526545a": {
+          "zh": "Tarkovskaya瓶装伏特加",
+          "en": "Bottle of Tarkovskaya vodka"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d40407c86f774318526545a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5d40407c86f774318526545a": {
+          "zh": "Tarkovskaya瓶装伏特加",
+          "en": "Bottle of Tarkovskaya vodka"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "62a09f32621468534a797acb"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "62a09f32621468534a797acb": {
+          "zh": "瓶装 Pevko 淡啤酒",
+          "en": "Bottle of Pevko Light beer"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "62a09f32621468534a797acb"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "62a09f32621468534a797acb": {
+          "zh": "瓶装 Pevko 淡啤酒",
+          "en": "Bottle of Pevko Light beer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "680e19fee0ca81b62f5a448a",
+      "name": {
+        "zh": "捕鱼季",
+        "en": "Fishing Season"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "680e21a059d722e8adfef054",
+      "name": {
+        "zh": "让我们讨论下一步",
+        "en": "Let's Discuss What's Next"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_btr.png",
+  "isKey": false
+}

@@ -1,0 +1,178 @@
+{
+  "id": "68c422290241ea1aa4fb9587",
+  "name": {
+    "zh": "物归原主",
+    "en": "Returned To The Rightful Owner"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.01
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": -0.02
+    },
+    {
+      "type": "Item",
+      "value": 3250,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 3250
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "656df4fec921ad01000481a2",
+      "itemName": {
+        "zh": "方便面",
+        "en": "Pack of instant noodles"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0fa877d174af02a012e1cf",
+      "itemName": {
+        "zh": "Aquamari带滤嘴水瓶",
+        "en": "Aquamari water bottle with filter"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57347d7224597744596b4e72",
+      "itemName": {
+        "zh": "炖牛肉罐头",
+        "en": "Can of beef stew (Small)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5673de654bdc2d180f8b456d",
+      "itemName": {
+        "zh": "太平洋秋刀鱼罐头",
+        "en": "Can of pacific saury"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b44cad286f77402a54ae7e5",
+      "itemName": {
+        "zh": "5.11 Tactical TacTec 插板胸挂（丛林绿）",
+        "en": "5.11 Tactical TacTec plate carrier (Ranger Green)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "657024ecc5d7d4cb4d07856d",
+      "itemName": {
+        "zh": "50发5.56x45 M856A1盒装弹药 ☆",
+        "en": "5.56x45mm M856A1 ammo pack (50 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6718817435e3cfd9550d2c27",
+      "itemName": {
+        "zh": "Steyr AUG A3 5.56x45 突击步枪（黑色）",
+        "en": "Steyr AUG A3 5.56x45 assault rifle (Black)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "哟！我猜你听到消息了，嗯？没有？好吧，让我解释一下，一些混蛋干掉了我的几个人，他们身上有有价值的货物，现在不见了！他们甚至找到了我们藏匿大部分这些商品的地方，你能相信吗？这真是太令人愤慨了！\n\n我联系你是希望你能帮我抓住这些混蛋，这绝对是不可接受的，我准备为任何能让我解开这个谜团的线索支付一大笔钱。你看起来可以用一些额外的现金，所以会是什么样呢，嗯？总是有钱可赚，我的朋友，而且我总是有工作给你们这些雇佣兵。\n\n别以为你可以在这里耍什么诡计，我信任你，我不希望你滥用它，因为那将是你做的最后一件事。所以……有兴趣搭把手吗？",
+    "en": "Yo! I assume you heard the news, huh? No? Well then let me explain, some assholes took down a few of my guys, they had valuable goods on them and now it's gone! They even found where we stashed most of these wares, can you believe it? This is an outrage!\n\nI reached out to you in hopes of you willing to help me catch these fucks, this is absolutely unacceptable and I am ready to pay a fortune for any tips that lets me solve this riddle. You look like you could use some extra cash, so what is it gonna be huh? There's always money to make my friend, and I always have work for you mercs.\n\nAnd don't think you can do some sneaky move here, I trust you and I don't want you to abuse it, because that would be the last thing you would do. So... Interested in lending a hand?"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "67409848d0b2f8eb9b034db9",
+        "674098588466ebb03408b210",
+        "67408903268737ef6908d432"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67409848d0b2f8eb9b034db9": {
+          "zh": "密封的盒子",
+          "en": "Sealed box"
+        },
+        "674098588466ebb03408b210": {
+          "zh": "开启的盒子",
+          "en": "Opened box"
+        },
+        "67408903268737ef6908d432": {
+          "zh": "违禁品盒子",
+          "en": "Contraband box"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "67409848d0b2f8eb9b034db9",
+        "674098588466ebb03408b210",
+        "67408903268737ef6908d432"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "67409848d0b2f8eb9b034db9": {
+          "zh": "密封的盒子",
+          "en": "Sealed box"
+        },
+        "674098588466ebb03408b210": {
+          "zh": "开启的盒子",
+          "en": "Opened box"
+        },
+        "67408903268737ef6908d432": {
+          "zh": "违禁品盒子",
+          "en": "Contraband box"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c31f71aa355c62f3b4f6e3",
+      "name": {
+        "zh": "违禁品 - 第3部分",
+        "en": "Contraband - Part 3"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_trader_skier.png",
+  "isKey": false
+}

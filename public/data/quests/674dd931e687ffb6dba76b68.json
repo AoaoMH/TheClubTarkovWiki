@@ -1,0 +1,166 @@
+{
+  "id": "674dd931e687ffb6dba76b68",
+  "name": {
+    "zh": "高端的猎人往往以猎物的方式出现",
+    "en": "The Hunter Becomes The Hunted"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 95750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 95750
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59387a4986f77401cc236e62",
+      "itemName": {
+        "zh": "宿舍114房间钥匙",
+        "en": "Dorm room 114 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5656eb674bdc2d35148b457c",
+      "itemName": {
+        "zh": "40毫米VOG-25榴弹",
+        "en": "40mm VOG-25 grenade"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62e7e7bbe6da9612f743f1e0",
+      "itemName": {
+        "zh": "GP-25“篝火”40 毫米下挂式榴弹发射器",
+        "en": "GP-25 Kostyor 40mm underbarrel grenade launcher"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aa7e276e5b5b000171d0647",
+      "itemName": {
+        "zh": "Altyn 防弹头盔（橄榄褐色）",
+        "en": "Altyn bulletproof helmet (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66ac9d9740e27931602042d4",
+      "itemName": {
+        "zh": "AK镂空枪托（定制版）",
+        "en": "AK skeletonized stock (Customized)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "666b11055a706400b717cfa5",
+      "itemName": {
+        "zh": "绊线布设装置",
+        "en": "Tripwire installation kit"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d5d87f786f77427997cfaef",
+      "itemName": {
+        "zh": "Ars Arma A18 Skanda 插板胸挂（复合迷彩）",
+        "en": "Ars Arma A18 Skanda plate carrier (MultiCam)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "有消息告诉你，坐下听我说。\n最近，Jaeger的一位老战友疯了，开始到处猎杀人，主要是BEAR和USEC。这个人以前还算有些道义，只会攻击他认为不道德的人。那些从他手中幸存逃脱的人都说从未见过如此疯癫的人，他到处布设陷阱，几乎见人就杀。有些商人也已经对此人感到头疼和厌烦了，包括我，但我不想让Jaeger知道是我下令对他的朋友或者说老战友下的手。\n\n他们称他为\"Partisan\"，他装备精良，有时还会带着榴弹发射器，他的包里装满了手榴弹和绊线装置。处理这个东西时务必小心，明白吗？哦，还要带回一件他的物品，最好是一件能与他关联起来的东西。我等你的消息，祝你好运。",
+    "en": "I got news for you, take a seat.\nRecently a former friend of Jaeger has gone mad, started hunting down people, mainly BEAR and USEC. Previously the man had values, only attacked people that he considered dishonorable. People who survived encounters with him said that they never met someone so crazy, he is placing explosive traps anywhere everywhere, shoots almost everyone he sees. Some Vendors also got annoyed of this guy, including me, however I don't want Jaeger to know that I ordered a hit on his friends, or former friends.\n\nThey call him \"Partisan\", he is well armed, sometimes with a grenadelauncher, his bag is filled with grenades and tripwires. Be extremely careful when dealing with this issue, got it? Oh and bring me one of his belongings, something that you can associate with him. I'll hear from you, good luck out there."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossPartisan"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66a9f98f3bd5a41b162030f4"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66a9f98f3bd5a41b162030f4": {
+          "zh": "Partizan的包",
+          "en": "Partisan's bag"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66a9f98f3bd5a41b162030f4"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "66a9f98f3bd5a41b162030f4": {
+          "zh": "Partizan的包",
+          "en": "Partisan's bag"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747bb9ec325240ca382f8a9",
+      "name": {
+        "zh": "国宴",
+        "en": "Perfect Meal"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_boss_partisan.png",
+  "isKey": false
+}

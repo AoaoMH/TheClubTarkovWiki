@@ -1,0 +1,90 @@
+{
+  "id": "6812941396bf52b87fada560",
+  "name": {
+    "zh": "武器强盗",
+    "en": "Weapon Thieves"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 65200,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 65200
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "654a4a964b446df1ad03f192",
+      "itemName": {
+        "zh": "Granit 4RS防弹插板（背部）",
+        "en": "Granit 4RS ballistic plates (Back)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嗨！Ragman让我知道你也现在也卷入“那件事”了，我猜他已经解释了这是关于什么，对吧？我们以前和这个Ref家伙打过交道，让我告诉你……同时进行多个这样的行动是一件大事，你知道，这不容易，而且绝对不便宜。我们能得到任何帮助都非常感激，而你是我们最有价值和最可靠的人之一。\n\n所以你对一份工作感兴趣吗？当然你会有报酬，和往常一样，我们什么时候让你失望过，士兵？我和Arshavir有一个车队，这里有装甲车，那里有全副武装的人——然而有人还是设法把它拿下了！而罪魁祸首并不打算保密，是Ref的猎犬！\n\n车队载着大量特殊武器前往一个机密地点，我想我们是在ULTRA购物中心外的Emercom检查站附近与他们失去联系的。我需要有人去查看一下，看看他们是把一切都拿走了，还是有什么东西还在那里。",
+    "en": "Hi! Ragman let me know that you are also involved in the \"thing\" now, I'm assuming he already explained what this is about, right? We have dealt with this Ref guy before and let me tell you this... Multiple of these operations at once are a big deal you know, it's not easy and it's definitely not cheap. We could use any help we can get and you are one of our most valuable and reliable people.\n\nSo are you interested in a job? Of course you will be paid, as always, when have we every disappointed you, soldier? Me and Arshavir had a convoy, armored vehicles here, geared guys there - Yet someone still managed to take it down! And the culprit didn't plan on making this a secret, it was Ref's hounds!\n\nThe convoy was carrying tons of special weapons to a classified location, I think we lost contact with them near the emercom checkpoint outside the ULTRA shopping mall. I need someone to check it out and see if they took everything or if something is still there."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_convoi",
+      "targetNames": {
+        "lotus_interchange_convoi": {
+          "zh": "lotus_interchange_convoi",
+          "en": "lotus_interchange_convoi"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6812590e15f6bcbc89c75b34",
+      "name": {
+        "zh": "血渴",
+        "en": "Blood Thirsty"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "681295120afc09bdf4472485",
+      "name": {
+        "zh": "人人都会留下痕迹",
+        "en": "Everyone Leaves Traces Behind"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_weapon_thieves.png",
+  "isKey": false
+}

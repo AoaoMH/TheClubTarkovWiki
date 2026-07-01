@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -35,9 +39,19 @@
       "type": "AssortmentUnlock",
       "itemId": "664a5428d5e33a713b622379",
       "itemName": {
-        "zh": "APOK ”荒原之地“ 战术短剑",
+        "zh": "APOK ”荒原之地“ 战术短剑 ★",
         "en": "APOK Tactical Wasteland Gladius"
       }
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6656560053eaaa7a23349c86",
+      "itemName": {
+        "zh": "传奇奖章 ★",
+        "en": "Lega Medal"
+      },
+      "quantity": 1
     }
   ],
   "description": {
@@ -46,26 +60,14 @@
   },
   "objectives": [
     {
-      "type": "Completion",
-      "description": "Completion: ArenaGameMode",
-      "value": 2,
-      "target": [
-        "TeamFight",
-        "BlastGang",
-        "CheckPoint"
-      ],
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 75,
+      "target": "AnyPmc",
       "targetNames": {
-        "TeamFight": {
-          "zh": "TeamFight",
-          "en": "TeamFight"
-        },
-        "BlastGang": {
-          "zh": "BlastGang",
-          "en": "BlastGang"
-        },
-        "CheckPoint": {
-          "zh": "CheckPoint",
-          "en": "CheckPoint"
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
         }
       }
     }

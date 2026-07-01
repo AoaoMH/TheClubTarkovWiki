@@ -1,0 +1,168 @@
+{
+  "id": "66c3fa32b966223ebb542e27",
+  "name": {
+    "zh": "PMC特训：屏息 - 第三章",
+    "en": "PMC Training - Marksmanship - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7620
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 21340,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 21340
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5b3f7bf05acfc433000ecf6b",
+      "itemName": {
+        "zh": "Kochetov莫辛步枪基座",
+        "en": "Mosin Rifle Kochetov mount"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5b3f7c005acfc4704b4a1de8",
+      "itemName": {
+        "zh": "PU 3.5x环形基座",
+        "en": "PU 3.5x ring scope mount"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5b3f7c1c5acfc40dc5296b1d",
+      "itemName": {
+        "zh": "PU 3.5x步枪瞄准镜",
+        "en": "PU 3.5x riflescope"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "643ea5b23db6f9f57107d9fd",
+      "itemName": {
+        "zh": "Tokarev SVT-40 7.62x54R步枪",
+        "en": "Tokarev SVT-40 7.62x54R rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，和之前一样的故事，但这次不是栓动步枪，而是使用精确射手步枪。听起来不错吧？希望如此。训练一下，并用精确射手步枪击杀一些目标，同样，是个活物就行。",
+    "en": "Alright, same story as before, but this time instead of bolt-action rifles you will use DMRs. Sounds good? I hope so. Get some training with it and take out a few targets with marksman rifles, and again it does not matter who, where and when."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: DMR",
+      "value": 4,
+      "target": "DMR"
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "6176aca650224f204c1da3fb",
+        "5aafa857e5b5b00018480968",
+        "5fc22d7c187fea44d52eda44",
+        "5a367e5dc4a282000e49738f",
+        "5df8ce05b11454561e39243b",
+        "5c46fbd72e2216398b5a8c9c",
+        "57838ad32459774a17445cd2"
+      ],
+      "weaponNames": {
+        "6176aca650224f204c1da3fb": {
+          "zh": "HK G28 7.62x51 精确射手步枪 ☆",
+          "en": "HK G28 7.62x51 marksman rifle"
+        },
+        "5aafa857e5b5b00018480968": {
+          "zh": "春田 M1A 7.62x51 精确射手步枪",
+          "en": "Springfield Armory M1A 7.62x51 rifle"
+        },
+        "5fc22d7c187fea44d52eda44": {
+          "zh": "SWORD International Mk-18 .338 LM 精确射手步枪 ★",
+          "en": "SWORD International Mk-18 .338 LM marksman rifle"
+        },
+        "5a367e5dc4a282000e49738f": {
+          "zh": "雷明顿 R11 RSASS 7.62x51 精确射手步枪 ☆",
+          "en": "Remington R11 RSASS 7.62x51 marksman rifle"
+        },
+        "5df8ce05b11454561e39243b": {
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪 ★",
+          "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
+        },
+        "5c46fbd72e2216398b5a8c9c": {
+          "zh": "德拉贡诺夫 SVDS 7.62x54 半自动狙击步枪",
+          "en": "SVDS 7.62x54R sniper rifle"
+        },
+        "57838ad32459774a17445cd2": {
+          "zh": "VSS “绞丝机” 特种狙击步枪 ",
+          "en": "VSS Vintorez 9x39 special sniper rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "66c3f214cb3b751f05e418d4",
+      "name": {
+        "zh": "PMC特训：屏息 - 第二章",
+        "en": "PMC Training - Marksmanship - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c404ba2bd9c56b380a89d7",
+      "name": {
+        "zh": "PMC特训：屏息 - 第四章",
+        "en": "PMC Training - Marksmanship - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_marksman.png",
+  "isKey": false
+}

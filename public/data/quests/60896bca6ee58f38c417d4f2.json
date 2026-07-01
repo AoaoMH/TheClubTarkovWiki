@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -56,7 +60,7 @@
       "value": 7,
       "itemId": "64ace9f9c4eda9354b0226aa",
       "itemName": {
-        "zh": "7.62x39mm PP gzh弹药包（20发装）",
+        "zh": "7.62x39mm PP gzh弹药包（20发装） ☆",
         "en": "7.62x39mm PP gzh ammo pack (20 pcs)"
       },
       "quantity": 1
@@ -69,8 +73,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 5,
+      "description": "Elimination: Kills",
+      "value": 1,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -80,8 +84,7 @@
       },
       "enemyRoles": [
         "pmcBot"
-      ],
-      "location": "RezervBase,develop"
+      ]
     }
   ],
   "prerequisites": [

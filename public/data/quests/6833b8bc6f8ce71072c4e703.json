@@ -1,0 +1,91 @@
+{
+  "id": "6833b8bc6f8ce71072c4e703",
+  "name": {
+    "zh": "伪旗行动",
+    "en": "False Flag"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2500
+    }
+  ],
+  "description": {
+    "zh": "下午好，雇佣兵。我们手头有个棘手的情况正在发酵。森林里那些敌对派系正在猛攻我们的联合国援助车队。必须让全世界看得一清二楚。我要你在他们的据点附近放置三枚UNTAR狗牌，塞在一些被处决的尸体上。一旦媒体嗅到BEAR和USEC正在屠杀蓝盔部队的风声，我们行动的捐款就会滚滚而来。这是通过正确的聚光灯来拯救生命。",
+    "en": "Good afternoon Mercenary. We’ve got a messy situation brewing. Those hostile factions out in Woods are hitting our UN aid convoys hard. The world needs to see it plain and clear. I want you to plant three UNTAR tags near their hotspots. Stick them on some executed bodies. Once the news catches wind that BEAR and USEC are butchering blue helmets donations to our operations will pour in. It’s about saving lives through the right kind of spotlight."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6834f82e5cab6617274214a5"
+      ],
+      "targetNames": {
+        "6834f82e5cab6617274214a5": {
+          "zh": "UNTAR 狗牌",
+          "en": "Dogtag UNTAR"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6834f82e5cab6617274214a5"
+      ],
+      "targetNames": {
+        "6834f82e5cab6617274214a5": {
+          "zh": "UNTAR 狗牌",
+          "en": "Dogtag UNTAR"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6834f82e5cab6617274214a5"
+      ],
+      "targetNames": {
+        "6834f82e5cab6617274214a5": {
+          "zh": "UNTAR 狗牌",
+          "en": "Dogtag UNTAR"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Avoid: ExitStatus",
+      "value": 1,
+      "isFailCondition": true,
+      "location": "Woods"
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [
+    {
+      "id": "683645245a1c12488166b1a5",
+      "name": {
+        "zh": "北欧遗物",
+        "en": "Nordic Remnants"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/FalseFlag_Quest.png",
+  "isKey": false
+}

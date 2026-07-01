@@ -1,0 +1,266 @@
+{
+  "id": "674755987736d5ac91837615",
+  "name": {
+    "zh": "“将死！” - 第三章",
+    "en": "Checkmate - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6650
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 45750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45750
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6389c6c7dbfd5e4b95197e68",
+      "itemName": {
+        "zh": "Aquapeps饮用水净化片",
+        "en": "Aquapeps water purification tablets"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5aa7cfc0e5b5b00015693143",
+      "itemName": {
+        "zh": "6B47 Ratnik-BSh 头盔（数码迷彩盔罩）",
+        "en": "6B47 Ratnik-BSh helmet (EMR cover)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e53c886f7747fa54205c7",
+      "itemName": {
+        "zh": "6B13 突击甲（数码丛林迷彩）",
+        "en": "6B13 assault armor (EMR)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59e763f286f7742ee57895da",
+      "itemName": {
+        "zh": "Pilgrim旅行包",
+        "en": "Pilgrim tourist backpack"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57347d7224597744596b4e72",
+      "itemName": {
+        "zh": "炖牛肉罐头",
+        "en": "Can of beef stew (Small)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d015acfc400180ae6e4",
+      "itemName": {
+        "zh": "AK-102 5.56x45 突击步枪",
+        "en": "Kalashnikov AK-102 5.56x45 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66cb05acfc40198510a10",
+      "itemName": {
+        "zh": "AK-101 5.56x45 突击步枪",
+        "en": "Kalashnikov AK-101 5.56x45 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我们需要更深入地调查军事基地，检查一些伏击点或类似的地方。\n\n我们已经在训练广场和瞭望塔的土坡附近发现了一些固定机枪和榴弹发射器。可能还有一些还没被发现，我希望你能去检查一下，并放上标记器，这样我们可以更容易地找到遗漏的地方。\n\n别忘了确认安全了再离开，我会等你的消息，士兵。",
+    "en": "I figured out that we need to investigate the base a little more. Check out some ambush spots or something like that.\n\nWe found some stationary machineguns and grenadelaunchers in the training areas and inside of the watchtowers. There might be a few more and I want you to check those out, also place some markers down so we can see which we overlooked.\nDon't forget to leave the place safely, I will be hearing from you soldier."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_trainyard_hmg",
+      "targetNames": {
+        "lotus_reserve_trainyard_hmg": {
+          "zh": "lotus_reserve_trainyard_hmg",
+          "en": "lotus_reserve_trainyard_hmg"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_trainyard_roof",
+      "targetNames": {
+        "lotus_reserve_trainyard_roof": {
+          "zh": "lotus_reserve_trainyard_roof",
+          "en": "lotus_reserve_trainyard_roof"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_blackbishoproof_hmg",
+      "targetNames": {
+        "lotus_reserve_blackbishoproof_hmg": {
+          "zh": "lotus_reserve_blackbishoproof_hmg",
+          "en": "lotus_reserve_blackbishoproof_hmg"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_blackbishop_hmg",
+      "targetNames": {
+        "lotus_reserve_blackbishop_hmg": {
+          "zh": "lotus_reserve_blackbishop_hmg",
+          "en": "lotus_reserve_blackbishop_hmg"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_dome_hmg",
+      "targetNames": {
+        "lotus_reserve_dome_hmg": {
+          "zh": "lotus_reserve_dome_hmg",
+          "en": "lotus_reserve_dome_hmg"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_dome_ags",
+      "targetNames": {
+        "lotus_reserve_dome_ags": {
+          "zh": "lotus_reserve_dome_ags",
+          "en": "lotus_reserve_dome_ags"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674754bfd14fc231ec90d9d9",
+      "name": {
+        "zh": "“将死！” - 第二章",
+        "en": "Checkmate - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674756876ef598122bb9239d",
+      "name": {
+        "zh": "“将死！” - 第四章",
+        "en": "Checkmate - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_checkmate_3.png",
+  "isKey": false
+}

@@ -1,0 +1,109 @@
+{
+  "id": "68b1cf3fed5b59b8c54f0d43",
+  "name": {
+    "zh": "营销活动 - 第2部分",
+    "en": "Marketing Campaign - Part 2"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 20,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 20
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a7828548dc32e5a9c28b516",
+      "itemName": {
+        "zh": "雷明顿Model 870 12铅径 霰弹枪",
+        "en": "Remington Model 870 12ga pump-action shotgun"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e57ba86f7747fa141986d",
+      "itemName": {
+        "zh": "6B23-2 防弹衣（山地丛林迷彩）",
+        "en": "6B23-2 body armor (Mountain Flora)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "哎哥，我们这儿还没完事呢！广告可不是这么做的，现在海报追不回来。而且我的人现在都没空帮忙，他们在竞技场里有更重要的工作要做。而就你活动自由。\n\n所以，不建议的话可能还要拜托一次。我会把海报给你，你一个子都不用花。但别把这些海报弄丢了，下一批可就要你付钱了！哦，我忘了告诉你要放在哪里。你知道公交站在哪儿吗？就在海岸线的公交站，不是海关的。我记得那里正中间停着一辆巴士，贴海报完美。你然后把第二张海报放在度假村的大直升机上，据说那里有很多PMC路过，那是我们的目标观众，非常的完美！快去吧，工作在召唤！",
+    "en": "Aye, we're not done here my guy! That's not how advertising works, some of our posters are gone. And none of my guys are in the position to help with this at the moment, they're here in the Arena doing more important work. You're out there however...\n\nSo, why don't you lend a hand again? I'll give you the posters, you won't need to spend a single rouble for that, how does that sound, huh? That's what I thought, wow you operators can be really greedy. Anyway, don't lose these posters, the next samples will cost you! Oh, I forgot to tell you where you need to put them. Do you know where the busstation is? Near the resort, that's where it is. I believe there was a bus left directly in the middle of it, perfect for a poster. You should place the second poster on the big helicopter at the Resort, I heard lots of operators walk past these spots. That's our target audience, perfect! Now hush hush! Off you go, work is calling! Do this before the bandits are regrouping."
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "675a04c01474133a0d0bb212"
+      ],
+      "targetNames": {
+        "675a04c01474133a0d0bb212": {
+          "zh": "竞技场海报",
+          "en": "Arena poster"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "675a04c01474133a0d0bb212"
+      ],
+      "targetNames": {
+        "675a04c01474133a0d0bb212": {
+          "zh": "竞技场海报",
+          "en": "Arena poster"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b1cd6e040908d590bc36c2",
+      "name": {
+        "zh": "营销活动 - 第1部分",
+        "en": "Marketing Campaign - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b1d274cdbd4e83382c7678",
+      "name": {
+        "zh": "营销活动 - 第3部分",
+        "en": "Marketing Campaign - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_marketing_campaign_2.png",
+  "isKey": false
+}

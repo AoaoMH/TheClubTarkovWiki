@@ -1,0 +1,127 @@
+{
+  "id": "68b85170b361cb40dcf8035e",
+  "name": {
+    "zh": "放债者 - 第1部分",
+    "en": "Loan Sharks - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 65000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 65000
+    }
+  ],
+  "description": {
+    "zh": "我们现在对这个案件了解得更多了，这当然要感谢你的工作。这个Ref家伙似乎有比我想象中更多的人脉，非常危险的人脉。你知道那是我们不能忽视的，对吧？而且他的朋友Ryba与Terragroup有很多联系，我建议你去市中心，你之前带来的文件提到了关于Tarbank的一些事情，也许我们能在那里找到一些有用的东西？银行记录之类的，那会非常有帮助，你知道的。\n\n也许你应该检查一下ATM机？可能有一台还能用，带一个无线电发射器，以防你找到一台。而且USEC也与此事有关，毕竟他们曾与Terragroup合作，因为商业中心是合同战争的热点区域。保证你会找到某种装满武器的藏匿点，甚至可能在Tarbank建筑外面？嗯，万一你找到什么东西，请标记它。\n\n如果你找到什么重要的东西，我建议你清理掉那栋建筑。谢谢你，祝你好运。",
+    "en": "We know a lot more about this case now, thanks to your work of course. This Ref guy seems to have way more connections than I thought, pretty dangerous connections. You know that's not something we can just ignore, right? And his friend Ryba had a lot of ties to Terragroup I suggest you head down into the city center, the documents you brought earlier mentioned something about Tarbank, maybe we can find something useful there?Banking records perhaps, that would be super helpful, you know.\n\nMaybe you should check out the ATMs? One of them might still work, take a radio transmitter with you just in case you find one. Also USEC had their ties in this thing too, after all they were working with Terragroup, since the business center was the hot zone of the contract wars. It's guaranteed that you will find some sort of stash full of weapons, maybe even directly outside the Tarbank building? Well, just in case you find something, please mark it.\n\nI also suggest you clear out the building if you manage to find something of importance. Thank you, and good luck out there."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tarbank_atm",
+      "targetNames": {
+        "lotus_groundzero_tarbank_atm": {
+          "zh": "lotus_groundzero_tarbank_atm",
+          "en": "lotus_groundzero_tarbank_atm"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ],
+      "targetNames": {
+        "63a0b2eabea67a6d93009e52": {
+          "zh": "无线电中继器",
+          "en": "Radio repeater"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tarbank_usec_stash",
+      "targetNames": {
+        "lotus_groundzero_tarbank_usec_stash": {
+          "zh": "lotus_groundzero_tarbank_usec_stash",
+          "en": "lotus_groundzero_tarbank_usec_stash"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "686504c9546711656b0cdd70",
+      "name": {
+        "zh": "挖掘过去",
+        "en": "Digging Up The Past"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b8520b2a60bcf0690ecb1e",
+      "name": {
+        "zh": "放债者 - 第2部分",
+        "en": "Loan Sharks - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_loan_sharks_1.png",
+  "isKey": false
+}

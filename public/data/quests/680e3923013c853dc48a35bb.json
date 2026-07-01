@@ -1,0 +1,154 @@
+{
+  "id": "680e3923013c853dc48a35bb",
+  "name": {
+    "zh": "无法隐藏的过去",
+    "en": "Can't Hide The Past"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 450000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 450000
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "5672cb124bdc2d1a0f8b4568",
+      "itemName": {
+        "zh": "五号电池",
+        "en": "AA Battery"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "5672cb304bdc2dc2088b456a",
+      "itemName": {
+        "zh": "一号电池",
+        "en": "D Size battery"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e2aedd986f7746d404f3aa4",
+      "itemName": {
+        "zh": "GreenBat锂电池 ★",
+        "en": "GreenBat lithium battery"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ab8e79e86f7742d8b372e78",
+      "itemName": {
+        "zh": "BNTI Gzhel-K 防弹衣",
+        "en": "BNTI Gzhel-K body armor"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6275303a9f372d6ea97f9ec7",
+      "itemName": {
+        "zh": "Milkor M32A1 MSGL 40 毫米榴弹发射器",
+        "en": "Milkor M32A1 MSGL 40mm grenade launcher"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e85a9f4add9fe03027d9bf1",
+      "itemName": {
+        "zh": "23x75 毫米“红星”闪光弹",
+        "en": "23x75mm Zvezda flashbang round"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，士兵，我收到了关于所有先前事件的通知，你意识到你可能会因此陷入大麻烦，对吧？但我可以帮你。哦，关于你需要藏起来的装备，你可以拿走，至少是我手上的全部。剩下的早就没了。\n\n总之，你看，Ref的这个叫“Ryba”的朋友有着非常肮脏的过去，他曾为Terragroup工作，而且他不是普通员工，实际上职位相当高。我不久前的一些人在实验室里找到了一些证据，但我们认为还有更多，在这些文件中没有正式提到他的名字，但在某个地方可能有个人物品。\n\n我们还发现监控录像显示他拜访了住宅单元里别人的房间，他进去时拿着某个蓝色的书或文件夹，出来时两手空空。我猜他把它藏在里面了。那个房间属于某个叫Vladimir的人，也许你能在里面找到证据？\n\n但房间是锁着的，你需要钥匙卡才能进去。",
+    "en": "Hello soldier, I was notified about all the previous events, you do realize you could get yourself into deep trouble here, right? But I can help you. Oh and about the gear that you need to hide, you can take it, at least all of it that I have. The rest is long gone already.\n\nAnyway, you see, this friend of Ref who gets called \"Ryba\" had a really dirty past, he was working for Terragroup, and he wasn't an ordinary worker either, he held a pretty high position actually. Some of my guys found some evidence on that inside the Lab not too long ago, but we think there's more, he wasn't mentioned by name officially in these documents, but somewhere there might be personal belongings.\n\nWe also found CCTV footage of him visiting someone else's room in the residental unit, he went in with some blue book or folder, and he came out empty handed. I assume he hid it in there. The room belonged to some Vladimir, maybe you'll find the evidence inside there?\n\nBut the room is locked, you will require a keycard to get inside."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6707cef3571b50abc703b64f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6707cef3571b50abc703b64f": {
+          "zh": "V.O.签名日记本",
+          "en": "V.O. signed diary"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6707cef3571b50abc703b64f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6707cef3571b50abc703b64f": {
+          "zh": "V.O.签名日记本",
+          "en": "V.O. signed diary"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "680e21a059d722e8adfef054",
+      "name": {
+        "zh": "让我们讨论下一步",
+        "en": "Let's Discuss What's Next"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "680e778d7b773d357db874c5",
+      "name": {
+        "zh": "谁偷走了证据？",
+        "en": "Who Stole The Evidence?"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_cant_hide_your_past.png",
+  "isKey": false
+}

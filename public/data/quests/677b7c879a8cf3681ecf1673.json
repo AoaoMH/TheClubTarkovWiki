@@ -1,0 +1,191 @@
+{
+  "id": "677b7c879a8cf3681ecf1673",
+  "name": {
+    "zh": "易碎货物",
+    "en": "Fragile Shipment"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Discover",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.03
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 175500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 175500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c5f0d86f77413997acfab",
+      "itemName": {
+        "zh": "MRE个人即食口粮",
+        "en": "MRE ration pack"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装） ★",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59e3577886f774176a362503",
+      "itemName": {
+        "zh": "一包糖",
+        "en": "Pack of sugar"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c093db286f7740a1b2617e3",
+      "itemName": {
+        "zh": "Mr. Holodilnick保温箱",
+        "en": "Mr. Holodilnick thermal bag"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好啊，小伙子，我听说最近你似乎遇到了一些麻烦，是不是？\n不过我正好也有些事需要帮忙，不如我们互相帮一把？你来的正是时候，我会尽我所能帮你解决麻烦，别担心。\n\n我也不兜圈子了，我一个老朋友提起过一种特别的红酒，据说还储存在 中心区 城区中心的某个地方。你应该也听说过那边的传说吧……\n总之这些历史以后再聊，现在有更重要的事。如果你有兴趣，我想请你帮我把那瓶酒带出来，藏到一个安静又不显眼的地方。我想过了，那个废旧商场里，那家没人敢进的汉堡快餐店厨房，刚好合适。\n\n对你来说应该没啥难度吧？把酒藏好，然后顺手处理掉那些多管闲事的人，记住，只要清理商场里头的敌人，收拾完了就赶紧安全撤离，别受伤。\n\n任务完成后，我们可以坐下来慢慢聊，我请你喝杯茶，你告诉我你需要的帮助，我会尽力支持。怎么样？听起来还不错吧？",
+    "en": "Good day young one, I was notified about certain events, you seem to be in some trouble right now, no?\nBut there's actually something else, why not help eachother? There's work to be done, and you came in just in time, I'll try to help you as good as I can, don't worry.\n\nI should probably tell you already what I need from you, a close friend told me about a special kind of wine, stored somewhere in the middle of the city where it all started. You already know the story...\nAnyway, I can bother you with history lessons another time, there are more important matters now. So, do you want to hear what I have to offer? Alright then, my friend wants to get that beverage out of that place and take it somewhere quiet and uncontested for now. I was thinking about the shopping mall outside of the customs zone, somewhere inside a dirty fast-food restaurant kitchen where nobody dares to go.\nThis shouldn't be too much trouble for you I suppose, hide the wine in the burger spot kitchen, or whatever that place is called, of course you have to eliminate those who get too curious, but make sure you only clear out the people inside of the mall, whenever you feel like you're done, get out of there without a scratch.\n\nWe can sit down and talk, have a cup of tea if you'd like, and you tell me everything you wanted to tell me and I'll help you wherever I can. Sounds like a fair deal?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Sandbox_3_Vino_exploration",
+      "targetNames": {
+        "Sandbox_3_Vino_exploration": {
+          "zh": "Sandbox_3_Vino_exploration",
+          "en": "Sandbox_3_Vino_exploration"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6582bd252b50c61c565828e2"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6582bd252b50c61c565828e2": {
+          "zh": "瓶装Le Jean酒",
+          "en": "Bottle of Le Jean wine"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "6582bd252b50c61c565828e2"
+      ],
+      "targetNames": {
+        "6582bd252b50c61c565828e2": {
+          "zh": "瓶装Le Jean酒",
+          "en": "Bottle of Le Jean wine"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "657315e1dccd301f1301416a",
+      "name": {
+        "zh": "奢靡人生",
+        "en": "Luxurious Life"
+      }
+    },
+    {
+      "id": "679a79773bd9f77047d4bd35",
+      "name": {
+        "zh": "愚者之失，智者之利",
+        "en": "Profit From A Fool's Mistake"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "679b8cd58db1457bba527516",
+      "name": {
+        "zh": "明显迹象",
+        "en": "Clear Signs"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_jaeger.png",
+  "isKey": false
+}

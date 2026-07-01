@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5714dc692459777137212e12",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -75,8 +79,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 30,
+      "description": "Elimination: Kills",
+      "value": 8,
       "target": "Any",
       "targetNames": {
         "Any": {
@@ -137,7 +141,50 @@
         "645e0c6b3b381ede770e1cc9",
         "651450ce0e00edc794068371",
         "676176d362e0497044079f4c",
-        "6718817435e3cfd9550d2c27"
+        "6718817435e3cfd9550d2c27",
+        "0cb4a36dd2e587b46e813dbe",
+        "686093d590c3dce07984c38a",
+        "6671ebcdd32bd95eb398e920",
+        "682d3dd16900cb35564c8825",
+        "678fe4a4906c7bd23722c71f",
+        "679a6a534f3d279c99b135b9",
+        "664a5b945636ce820472f225",
+        "664274a4d2e5fe0439d545a6",
+        "6920b28eabc4f9d229cb7e49",
+        "66ba249b102a9dd6040a6e7e",
+        "66ba26a6925f9921573224c9",
+        "66a47e98c486ec9d1af3a4da",
+        "66a544c956621d3364f6085e",
+        "6761b213607f9a6f79017c7e",
+        "66839591f4d0cba7b041b2af",
+        "67a01e4ea2b82626b73d10a3",
+        "67a01e4ea2b82626b73d10a4",
+        "676b4e2ff185a450a0b300b4",
+        "676c3cac01023283e5f6a562",
+        "6761b213607f9a6f79017d40",
+        "66e88596febdcf9daade16a8",
+        "6657bc8faeddd6b0a9b40224",
+        "6657bd4d3a4d6e7c33fd2fdc",
+        "68c23b960f579b9b5fe021e7",
+        "68cf56067ff6ceab0c2fd49e",
+        "6920a431c8f2ed5000c540a0",
+        "69066bef905ee9e06c462009",
+        "6906a1aeef59ca68d128e8b7",
+        "69161a1d649768162e8219ef",
+        "6962f22fddc6698c6309b620",
+        "6969867592a994a633084f70",
+        "696ce75f73805e693401aba0",
+        "696fe2ebcf7469bf3805173f",
+        "695ab544a219218449041700",
+        "69555be939fb0a1a6f0ad12e",
+        "69777201f57d45a2ec02aafc",
+        "6871284e9a353bb50606f3ed",
+        "6895bb82c4519957df062f82",
+        "68a639748e1fe612970728e9",
+        "68c2940aecc41cc5490bd40e",
+        "68c16b9ab6b75a8a480520a6",
+        "689166b6c2d6fa42e7044756",
+        "68a6399922b1e0bd360afe56"
       ],
       "weaponNames": {
         "5c07c60e0db834002330051f": {
@@ -149,7 +196,7 @@
           "en": "ASh-12 12.7x55 assault rifle"
         },
         "606587252535c57a13424cfd": {
-          "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪",
+          "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪 ★",
           "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
         },
         "5447a9cd4bdc2dbd208b4567": {
@@ -157,11 +204,11 @@
           "en": "Colt M4A1 5.56x45 assault rifle"
         },
         "5b0bbe4e5acfc40dc528a72d": {
-          "zh": "DS Arms SA-58 7.62x51 突击步枪",
+          "zh": "DS Arms SA-58 7.62x51 突击步枪 ☆",
           "en": "DS Arms SA58 7.62x51 assault rifle"
         },
         "5c488a752e221602b412af63": {
-          "zh": "DT MDR 5.56x45 突击步枪",
+          "zh": "DT MDR 5.56x45 突击步枪 ☆",
           "en": "Desert Tech MDR 5.56x45 assault rifle"
         },
         "5dcbd56fdbd3d91b3e5468d5": {
@@ -169,11 +216,11 @@
           "en": "Desert Tech MDR 7.62x51 assault rifle"
         },
         "6184055050224f204c1da540": {
-          "zh": "FN SCAR-L 5.56x45突击步枪",
+          "zh": "FN SCAR-L 5.56x45突击步枪 ☆",
           "en": "FN SCAR-L 5.56x45 assault rifle"
         },
         "618428466ef05c2ce828f218": {
-          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE）",
+          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE） ★",
           "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
         },
         "6183afd850224f204c1da514": {
@@ -185,7 +232,7 @@
           "en": "FN SCAR-H 7.62x51 assault rifle (FDE)"
         },
         "5bb2475ed4351e00853264e3": {
-          "zh": "HK 416A5 5.56x45 突击步枪",
+          "zh": "HK 416A5 5.56x45 突击步枪 ☆",
           "en": "HK 416A5 5.56x45 assault rifle"
         },
         "623063e994fc3f7b302a9696": {
@@ -265,7 +312,7 @@
           "en": "Kalashnikov AKS-74UN 5.45x39 assault rifle"
         },
         "5d43021ca4b9362eab4b5e25": {
-          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪",
+          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪 ☆",
           "en": "Lone Star TX-15 DML 5.56x45 carbine"
         },
         "59e6687d86f77411d949b251": {
@@ -289,7 +336,7 @@
           "en": "SAG AK-545 Short 5.45x39 carbine"
         },
         "5fbcc1d9016cce60e8341ab3": {
-          "zh": "SIG MCX .300 AAC Blackout 突击步枪",
+          "zh": "SIG MCX .300 AAC Blackout 突击步枪 ☆",
           "en": "SIG MCX .300 Blackout assault rifle"
         },
         "62e7c4fba689e8c9c50dfc38": {
@@ -351,6 +398,178 @@
         "6718817435e3cfd9550d2c27": {
           "zh": "Steyr AUG A3 5.56x45 突击步枪（黑色）",
           "en": "Steyr AUG A3 5.56x45 assault rifle (Black)"
+        },
+        "0cb4a36dd2e587b46e813dbe": {
+          "zh": "AEK-971 5.45x39突击步枪",
+          "en": "AEK-971 5.45x39 assault rifle"
+        },
+        "686093d590c3dce07984c38a": {
+          "zh": "AEK-973 7.62x39突击步枪",
+          "en": "AEK-973 7.62x39 assault rifle"
+        },
+        "6671ebcdd32bd95eb398e920": {
+          "zh": "博福斯Ak5C 5.56x45毫米突击步枪",
+          "en": "Bofors Ak5C 5.56x45 assault rifle"
+        },
+        "682d3dd16900cb35564c8825": {
+          "zh": "博福斯Ak5D 5.56x45毫米突击步枪",
+          "en": "Bofors Ak5D 5.56x45 assault rifle"
+        },
+        "678fe4a4906c7bd23722c71f": {
+          "zh": "AN-94 5.45x39 突击步枪",
+          "en": "AN-94 5.45x39 assault rifle"
+        },
+        "679a6a534f3d279c99b135b9": {
+          "zh": "AN-94 5.45x39 \"Kirov's Custom\" 突击步枪",
+          "en": "AN-94 5.45x39 \"Kirov's Custom\" assault rifle"
+        },
+        "664a5b945636ce820472f225": {
+          "zh": "HK 417 7.62x51毫米突击步枪",
+          "en": "HK 417 7.62x51 assault rifle"
+        },
+        "664274a4d2e5fe0439d545a6": {
+          "zh": "HK G3 7.62x51毫米突击步枪",
+          "en": "664274a4d2e5fe0439d545a6"
+        },
+        "6920b28eabc4f9d229cb7e49": {
+          "zh": "HK XM8 5.56x45毫米突击步枪",
+          "en": "HK XM8 5.56x45 assault rifle"
+        },
+        "66ba249b102a9dd6040a6e7e": {
+          "zh": "IWI Carmel 5.56x45毫米突击步枪",
+          "en": "IWI Carmel 5.56x45mm Assault Rifle"
+        },
+        "66ba26a6925f9921573224c9": {
+          "zh": "IWI Carmel 5.56x45毫米突击步枪（FDE）",
+          "en": "IWI Carmel 5.56x45mm Assault Rifle (FDE)"
+        },
+        "66a47e98c486ec9d1af3a4da": {
+          "zh": "IWI Tavor X95 5.56x45毫米突击步枪",
+          "en": "IWI Tavor X95 5.56x45mm assault rifle"
+        },
+        "66a544c956621d3364f6085e": {
+          "zh": "IWI Tavor X95 5.56x45突击步枪（沙色）",
+          "en": "IWI Tavor X95 5.56x45 assault rifle (FDE)"
+        },
+        "6761b213607f9a6f79017c7e": {
+          "zh": "Knight's Armament PDW .300 Blackout 突击步枪",
+          "en": "Knight's Armament Company PDW .300 Blackout assault rifle"
+        },
+        "66839591f4d0cba7b041b2af": {
+          "zh": "\"爱国者\" M4A1 5.56x45 卡宾枪",
+          "en": "Patriot M4A1 5.56x45 carbine"
+        },
+        "67a01e4ea2b82626b73d10a3": {
+          "zh": "雷明顿 ACR 多口径突击步枪",
+          "en": "67a01e4ea2b82626b73d10a3"
+        },
+        "67a01e4ea2b82626b73d10a4": {
+          "zh": "雷明顿 ACR 多口径突击步枪（FDE）",
+          "en": "67a01e4ea2b82626b73d10a4"
+        },
+        "676b4e2ff185a450a0b300b4": {
+          "zh": "Singuard Arms \"Wages of Sin\" 5.56x45突击步枪",
+          "en": "Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle"
+        },
+        "676c3cac01023283e5f6a562": {
+          "zh": "Singuard Arms \"Wages of Sin\" 5.56x45毫米突击步枪（沙色）",
+          "en": "Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle (FDE)"
+        },
+        "6761b213607f9a6f79017d40": {
+          "zh": "Singuard Arms\"Wages of Sin\"5.56x45毫米突击步枪（阳极氧化红）",
+          "en": "Singuard Arms \"Wages of Sin\" 5.56x45 assault rifle (Anodized Red)"
+        },
+        "66e88596febdcf9daade16a8": {
+          "zh": "Zastava M76 7.92x57毫米狙击步枪",
+          "en": "Zastava M76 7.92x57 marksman rifle"
+        },
+        "6657bc8faeddd6b0a9b40224": {
+          "zh": "SVD 7.62x54R 狙击步枪",
+          "en": "SVD 7.62x54R sniper rifle"
+        },
+        "6657bd4d3a4d6e7c33fd2fdc": {
+          "zh": "SVD 7.62x54R 狙击步枪（迷彩）",
+          "en": "SVD 7.62x54R sniper rifle (Camo)"
+        },
+        "68c23b960f579b9b5fe021e7": {
+          "zh": "西蒙诺夫 AG-042 5.45x39突击步枪",
+          "en": "Simonov AG-042 5.45x39 assault rifle"
+        },
+        "68cf56067ff6ceab0c2fd49e": {
+          "zh": "西蒙诺夫 AG-043 5.45x39突击步枪",
+          "en": "Simonov AG-043 5.45x39 assault rifle"
+        },
+        "6920a431c8f2ed5000c540a0": {
+          "zh": "HK XM8 5.56x45毫米突击步枪（FDE）",
+          "en": "HK XM8 5.56x45 assault rifle (FDE)"
+        },
+        "69066bef905ee9e06c462009": {
+          "zh": "Magpul Masada 5.56x45 突击步枪",
+          "en": "Magpul Masada 5.56x45 assault rifle"
+        },
+        "6906a1aeef59ca68d128e8b7": {
+          "zh": "Magpul Masada 5.56x45 突击步枪（FDE）",
+          "en": "Magpul Masada 5.56x45 assault rifle (FDE)"
+        },
+        "69161a1d649768162e8219ef": {
+          "zh": "Custom Magpul Masada .300 Blackout 突击步枪",
+          "en": "Magpul Masada 5.56x45 assault rifle (Custom)"
+        },
+        "6962f22fddc6698c6309b620": {
+          "zh": "FN F2000 5.56x45 突击步枪",
+          "en": "FN F2000 5.56x45 assault rifle"
+        },
+        "6969867592a994a633084f70": {
+          "zh": "FN F2000 5.56x45 突击步枪（沙色）",
+          "en": "FN F2000 5.56x45 assault rifle FDE"
+        },
+        "696ce75f73805e693401aba0": {
+          "zh": "FB Radom MSBS Grot M1 5.56x45 突击步枪 ★",
+          "en": "MSBS Grot 5.56x45 assault rifle"
+        },
+        "696fe2ebcf7469bf3805173f": {
+          "zh": "FB Radom MSBS Grot M1 5.56x45 突击步枪（沙色） ★",
+          "en": "MSBS Grot 5.56x45 assault rifle FDE"
+        },
+        "695ab544a219218449041700": {
+          "zh": "卡拉什尼科夫 AK-107 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-107 5.45x39 Assault Rifle"
+        },
+        "69555be939fb0a1a6f0ad12e": {
+          "zh": "A-545 5.45x39毫米突击步枪",
+          "en": "A-545 5.45x39 assault rifle"
+        },
+        "69777201f57d45a2ec02aafc": {
+          "zh": "Konstantinov SA-1 7.62x39 突击步枪",
+          "en": "Konstantinov SA-1 7.62x39 assault rifle"
+        },
+        "6871284e9a353bb50606f3ed": {
+          "zh": "AS“巨浪”MOD.4 9x39 特种突击步枪",
+          "en": "AS VAL MOD.4 9x39 special assault rifle"
+        },
+        "6895bb82c4519957df062f82": {
+          "zh": "雷电 Model 1 FA 5.56x45 突击步枪",
+          "en": "Radian Weapons Model 1 FA 5.56x45 assault rifle"
+        },
+        "68a639748e1fe612970728e9": {
+          "zh": "柯尔特 M16A1 5.56x45 突击步枪",
+          "en": "Colt M16A1 5.56x45 assault rifle"
+        },
+        "68c2940aecc41cc5490bd40e": {
+          "zh": "NL545 (GP) 5.45x39 突击步枪",
+          "en": "Custom Guns NL545 (GP) 5.45x39 assault rifle"
+        },
+        "68c16b9ab6b75a8a480520a6": {
+          "zh": "NL545 (DI) 5.45x39 突击步枪",
+          "en": "Custom Guns NL545 (DI) 5.45x39 assault rifle"
+        },
+        "689166b6c2d6fa42e7044756": {
+          "zh": "AK-308 7.62x51 突击步枪",
+          "en": "Kalashnikov AK-308 7.62x51 assault rifle"
+        },
+        "68a6399922b1e0bd360afe56": {
+          "zh": "柯尔特 M16A2 5.56x45 突击步枪",
+          "en": "Colt M16A2 5.56x45 assault rifle"
         }
       }
     }

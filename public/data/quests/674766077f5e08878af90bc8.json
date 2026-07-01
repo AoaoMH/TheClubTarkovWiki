@@ -1,0 +1,250 @@
+{
+  "id": "674766077f5e08878af90bc8",
+  "name": {
+    "zh": "莲花之光 - 第十二章",
+    "en": "Light Of The Lotus - Part 12"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6950
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 65525,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 65525
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c5d4b86f774784e1b9c45",
+      "itemName": {
+        "zh": "Iskra个人配给口粮",
+        "en": "Iskra ration pack"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aa7cfc0e5b5b00015693143",
+      "itemName": {
+        "zh": "6B47 Ratnik-BSh 头盔（数码迷彩盔罩）",
+        "en": "6B47 Ratnik-BSh helmet (EMR cover)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "628d0618d1ba6e4fa07ce5a4",
+      "itemName": {
+        "zh": "NPP KlASS Bagariy 防弹胸挂（数码丛林迷彩）",
+        "en": "NPP KlASS Bagariy plate carrier (EMR)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "619bdeb986e01e16f839a99e",
+      "itemName": {
+        "zh": "俄军臂带 ☆",
+        "en": "Armband (RFARMY)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bed625c0db834001c062946",
+      "itemName": {
+        "zh": "95发RPK-16 5.45x39兼容弹匣",
+        "en": "RPK-16 5.45x39 95-round drum magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fbe3ffdf8b6a877a729ea82",
+      "itemName": {
+        "zh": ".300 BLK BPZ FMJ",
+        "en": ".300 Blackout BCP FMJ"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a26ac0ec4a28200741e1e18",
+      "itemName": {
+        "zh": "9x21毫米 SP13",
+        "en": "9x21mm BT gzh"
+      }
+    }
+  ],
+  "description": {
+    "zh": "说到装甲车，我想到我的人告诉过我森林里有一些废弃的坦克。或许我们可以从它们身上获取一些有价值的材料或电子设备，从而与灯塔中的那个男人建立联系，一个非常重要的人。\n\n总之听好了，首先我们需要知道这些车辆的位置。我想在村庄和UN路障之间可能有两辆装甲车，而在某个地堡与铁路大门之间，以及RUAF大门撤离点附近可能有两辆T-90坦克，我只能告诉你这么多我所知道的了。\n\n你能找到它们并在它们上放置标记器吗？\n\n好，你知道该怎么做，保持联系，祝你好运。",
+    "en": "Speaking of armored vehicles, I think my guys told me about some tanks in the forest. We might be able to harvest some valuable materials or electronics from them so we can be able to establish a connection with the man in the tower, very important person.\n\nAnyway, we just need to know where these vehicles are located, I think there are two armored vehicles somewhere between the village and the UN-roadblock and two T-90 tanks somewhere between one of the bunkers and some railroad gate and somewhere near the RUAF gate exfil point, I can only tell you that much.\nCan you track all of them down and place markers on them?\n\nGreat, you know what to do, keep me updated, and good luck out there."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_stryker_1",
+      "targetNames": {
+        "lotus_woods_stryker_1": {
+          "zh": "lotus_woods_stryker_1",
+          "en": "lotus_woods_stryker_1"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_stryker_2",
+      "targetNames": {
+        "lotus_woods_stryker_2": {
+          "zh": "lotus_woods_stryker_2",
+          "en": "lotus_woods_stryker_2"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_t90",
+      "targetNames": {
+        "lotus_woods_t90": {
+          "zh": "lotus_woods_t90",
+          "en": "lotus_woods_t90"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_t90ruafgate",
+      "targetNames": {
+        "lotus_woods_t90ruafgate": {
+          "zh": "lotus_woods_t90ruafgate",
+          "en": "lotus_woods_t90ruafgate"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747659d16e95b47fe2caa09",
+      "name": {
+        "zh": "莲花之光 - 第十一章",
+        "en": "Light Of The Lotus - Part 11"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747666815fa03b3fc03a041",
+      "name": {
+        "zh": "莲花之光 - 第十三章",
+        "en": "Light Of The Lotus - Part 13"
+      }
+    },
+    {
+      "id": "6747b8d6b8b522e15a7aa392",
+      "name": {
+        "zh": "机遇之地",
+        "en": "Land Of Opportunities"
+      }
+    },
+    {
+      "id": "6747b9fb1a03abf3f630ae1f",
+      "name": {
+        "zh": "新人上场",
+        "en": "New Dealer In Town"
+      }
+    },
+    {
+      "id": "675184a3baf92aa021b4e0ad",
+      "name": {
+        "zh": "品味之选 - 第一章",
+        "en": "Ideal For Someone With Taste - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_12.png",
+  "isKey": false
+}

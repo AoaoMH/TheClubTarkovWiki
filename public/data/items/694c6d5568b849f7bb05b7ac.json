@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 25000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Starbucks Double Shot Energy Drink [Common]",
+      "en": "Starbucks Double Shot Energy Drink [Common]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Starbucks",
+      "en": "Starbucks"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 30,000₽ | 物品价值: 25,000 | Therapist报价: 15,750₽Enjoy your favorite chilled coffee drink on the go thanks to Starbucks bottled coffee drinks. All made with real Starbucks coffee, you can enjoy the flavor of your favorite café drinks at home and on the go. The perfect late afternoon pick-me-up, Starbucks bottled coffee drinks are great straight from the bottle or enjoyed over ice.",
+      "en": "跳蚤市场: 30,000₽ | 物品价值: 25,000 | Therapist报价: 15,750₽Enjoy your favorite chilled coffee drink on the go thanks to Starbucks bottled coffee drinks. All made with real Starbucks coffee, you can enjoy the flavor of your favorite café drinks at home and on the go. The perfect late afternoon pick-me-up, Starbucks bottled coffee drinks are great straight from the bottle or enjoyed over ice."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,80 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.2,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 5,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "StressResistance",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "MagDrills",
+            "value": 1,
+            "delay": 0,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -1,
+            "delay": 300,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -0.5,
+            "delay": 300,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 300,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

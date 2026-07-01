@@ -1,0 +1,291 @@
+{
+  "id": "674881a4c92b70c1d05f7f84",
+  "name": {
+    "zh": "湖泊帮",
+    "en": "Woodkeeper Gang"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Multi",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 32500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.06
+    },
+    {
+      "type": "Item",
+      "value": 472250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 472250
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d403f9186f7743cac3f229b",
+      "itemName": {
+        "zh": "Dan Jackiel瓶装威士忌",
+        "en": "Bottle of Dan Jackiel whiskey"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d40407c86f774318526545a",
+      "itemName": {
+        "zh": "Tarkovskaya瓶装伏特加",
+        "en": "Bottle of Tarkovskaya vodka"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "6489848173c462723909a14b",
+      "itemName": {
+        "zh": ".338 Lapua Magnum AP弹药包（20发装）",
+        "en": ".338 Lapua Magnum AP ammo pack (20 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "627e14b21713922ded6f2c15",
+      "itemName": {
+        "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
+        "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fc22d7c187fea44d52eda44",
+      "itemName": {
+        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪 ★",
+        "en": "SWORD International Mk-18 .338 LM marksman rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "635267f063651329f75a4ee8",
+      "itemName": {
+        "zh": "26x75燃烧照明信号弹（酸性绿）",
+        "en": "26x75mm flare cartridge (Acid Green)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e023d48186a883be655e551",
+      "itemName": {
+        "zh": "7.62x54R 7N37",
+        "en": "7.62x54mm R BS gs"
+      }
+    }
+  ],
+  "description": {
+    "zh": "这件事虽然和Lightkeeper的问题没有直接关系，但同样非常重要。\n我的一个供应商在穿越森林时，可能不小心离伐木场太近了。你也知道，伐木场是谁的地盘——湖泊帮。他们对我的供应商出现在那里非常不满，结果袭击了他。你知道的，我绝不能对此坐视不管！\n\n所以，你准备好帮忙了吗？我打算提前设置一个小型伏击点，以防万一。你需要找到两个建筑物：一个是带保险箱的小屋，另一个是靠近湖边的小建筑。你需要在其中一个藏好RGO手雷，另一个藏好6.8x51mm突击步枪。\n\n接下来就是最刺激的部分了：干掉那个疯子和他手下的护卫，找到erraGroup实验室访问钥匙卡和尼龙绳索。如果你能拿到Shturman的钥匙，或许还能找到他的宝箱。祝你好运，士兵！",
+    "en": "Okay this is not directly related to our lightkeeper problem, however it is still an important matter.\nI had a supplier navigate through the forest and he might have gotten a little close to the sawmill, and you know who is located there. The lake gang was not too happy to see them and decided to attack my suppliers, you know that I can not let that slide!\n\nSo, you ready to help out? I thought of setting up a small ambush for the future, just in case. So you gotta find two buildings there, a small shack with a safe and another small building somewhere directly near the lake, you gotta stash RGO hand grenades in one and hide a 6.8x51mm assault rifle in the other.\n\nNow to the fun part, kill this madman and his bodyguards, and look for Terragroup access cards and paracords, you might find them in their stash if you take the key from Shturman, good luck soldier."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_sawmillsafeshack",
+      "targetNames": {
+        "lotus_woods_sawmillsafeshack": {
+          "zh": "lotus_woods_sawmillsafeshack",
+          "en": "lotus_woods_sawmillsafeshack"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "65290f395ae2ae97b80fdf2d"
+      ],
+      "targetNames": {
+        "65290f395ae2ae97b80fdf2d": {
+          "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+          "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_sawmillkeycardshack",
+      "targetNames": {
+        "lotus_woods_sawmillkeycardshack": {
+          "zh": "lotus_woods_sawmillkeycardshack",
+          "en": "lotus_woods_sawmillkeycardshack"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 3,
+      "target": [
+        "618a431df1eb8e24b8741deb"
+      ],
+      "targetNames": {
+        "618a431df1eb8e24b8741deb": {
+          "zh": "RGO手榴弹",
+          "en": "RGO hand grenade"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKojaniy"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "followerKojaniy"
+      ]
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c12688486f77426843c7d32"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c12688486f77426843c7d32": {
+          "zh": "尼龙绳索",
+          "en": "Paracord"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c12688486f77426843c7d32"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c12688486f77426843c7d32": {
+          "zh": "尼龙绳索",
+          "en": "Paracord"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 3,
+      "target": [
+        "5c94bbff86f7747ee735c08f"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c94bbff86f7747ee735c08f": {
+          "zh": "TerraGroup实验室访问钥匙卡 ★",
+          "en": "TerraGroup Labs access keycard"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 3,
+      "target": [
+        "5c94bbff86f7747ee735c08f"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c94bbff86f7747ee735c08f": {
+          "zh": "TerraGroup实验室访问钥匙卡 ★",
+          "en": "TerraGroup Labs access keycard"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747b877505baa44d501d079",
+      "name": {
+        "zh": "莲花之光 - 第二十章",
+        "en": "Light Of The Lotus - Part 20"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_woodkeepergang.png",
+  "isKey": false
+}

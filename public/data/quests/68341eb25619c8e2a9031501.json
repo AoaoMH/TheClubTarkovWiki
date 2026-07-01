@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Item",
@@ -36,7 +40,7 @@
       "value": 1,
       "itemId": "6656560053eaaa7a23349c86",
       "itemName": {
-        "zh": "传奇奖章",
+        "zh": "传奇奖章 ★",
         "en": "Lega Medal"
       },
       "quantity": 1
@@ -46,7 +50,7 @@
       "value": 1,
       "itemId": "5bfea6e90db834001b7347f3",
       "itemName": {
-        "zh": "雷明顿Model 700 7.62x51 狙击步枪",
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
         "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
       },
       "quantity": 1
@@ -66,7 +70,7 @@
       "value": 2,
       "itemId": "65702566bfc87b3a3409324d",
       "itemName": {
-        "zh": "7.62x51TCW SP弹药包（20发装）",
+        "zh": "7.62x51TCW SP弹药包（20发装） ☆",
         "en": "7.62x51mm TCW SP ammo pack (20 pcs)"
       },
       "quantity": 1
@@ -78,21 +82,14 @@
   },
   "objectives": [
     {
-      "type": "Completion",
-      "description": "Completion: ArenaMatchPlace",
-      "value": 1,
-      "target": [
-        "CheckPoint",
-        "LastHero"
-      ],
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 10,
+      "target": "AnyPmc",
       "targetNames": {
-        "CheckPoint": {
-          "zh": "CheckPoint",
-          "en": "CheckPoint"
-        },
-        "LastHero": {
-          "zh": "LastHero",
-          "en": "LastHero"
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
         }
       }
     }

@@ -1,0 +1,188 @@
+{
+  "id": "6747c3ffc2b2062f1de93906",
+  "name": {
+    "zh": "为了祖国",
+    "en": "For The Motherland"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 27750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.06
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 125340,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 125340
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "544fb45d4bdc2dee738b4568",
+      "itemName": {
+        "zh": "Salewa急救包",
+        "en": "Salewa first aid kit"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c10c8fd86f7743d7d706df3",
+      "itemName": {
+        "zh": "肾上腺素注射器",
+        "en": "Adrenaline injector"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 15,
+      "itemId": "648983d6b5a2df1c815a04ec",
+      "itemName": {
+        "zh": "12.7x55mm PS12B（10发装）",
+        "en": "12.7x55mm PS12B (10 pcs)"
+      },
+      "quantity": 15
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5cadfbf7ae92152ac412eeef",
+      "itemName": {
+        "zh": "ASh-12 12.7x55 突击步枪",
+        "en": "ASh-12 12.7x55 assault rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e4ac41886f77406a511c9a8",
+      "itemName": {
+        "zh": "Ars Arma CPC MOD.1 插板胸挂（A-TACS FG 迷彩）",
+        "en": "Ars Arma CPC MOD.1 plate carrier (A-TACS FG)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5aa7e276e5b5b000171d0647",
+      "itemName": {
+        "zh": "Altyn 防弹头盔（橄榄褐色）",
+        "en": "Altyn bulletproof helmet (Olive Drab)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "士兵，我又有特别任务给你，这次不希望有外人参与，所以要小心行事。\n\n你知道我对进口势力的看法，我希望你击杀一些他们的人，明白了吗？寻找普通 USEC 和像你一样的干员，然后前往水处理厂，确保将那些三狗也一并解决。我相信你，士兵。同时请记住，如果有人让你执行类似任务，帮我拒绝他们。我信任你，别让我失望。",
+    "en": "Warrior I got something special again, I don't want any outsiders involved in this so be careful.\n\nYou know my opinion on the imports, I want you to take a bunch of them out, understood? Go around and look for normal USECs, Operators like you. And then look for these weird rogue outlaws at the water treatment plant and make sure to get their leaders too.\n\nI count on you warrior and keep one thing in mind, if anyone else asks you for a similar job, do me the favor and reject them, I trust you so don't disappoint me."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Usec",
+      "targetNames": {
+        "Usec": {
+          "zh": "Usec",
+          "en": "Usec"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "exUsec"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "bossKnight",
+        "followerBigPipe",
+        "followerBirdEye"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747c36d4e805e1b7f6387b5",
+      "name": {
+        "zh": "将死 - 第八部分",
+        "en": "Checkmate - Part 8"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67486d24c4944822ad6f8d57",
+      "name": {
+        "zh": "和平使者",
+        "en": "Keeping The Peace"
+      }
+    },
+    {
+      "id": "6747c4519384707fcc251844",
+      "name": {
+        "zh": "诺文斯克的鹰",
+        "en": "Norvinsk Marksman"
+      }
+    },
+    {
+      "id": "6748672b895a36c99e880f36",
+      "name": {
+        "zh": "东方联盟 - 第一章",
+        "en": "Eastern Reliability - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_prapor.png",
+  "isKey": false
+}

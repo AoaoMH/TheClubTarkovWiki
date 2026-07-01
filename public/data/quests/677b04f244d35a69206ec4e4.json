@@ -1,0 +1,142 @@
+{
+  "id": "677b04f244d35a69206ec4e4",
+  "name": {
+    "zh": "捉鬼敢死队",
+    "en": "Ghost Hunt"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "59fc81d786f774390775787e",
+  "locationName": {
+    "zh": "灯塔",
+    "en": "Lighthouse"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1250,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1250
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a09f32621468534a797acb",
+      "itemName": {
+        "zh": "瓶装 Pevko 淡啤酒",
+        "en": "Bottle of Pevko Light beer"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "657025dfcfc010a0f5006a3b",
+      "itemName": {
+        "zh": "20发9x39 SPP gs弹药包 ☆",
+        "en": "9x39mm SPP gs ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "65118f531b90b4fc77015083",
+      "itemName": {
+        "zh": "VSS/VAL 9x39 30发弹匣",
+        "en": "VSS/VAL 9x39 30-round magazine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "651450ce0e00edc794068371",
+      "itemName": {
+        "zh": "SR-3M 9x39紧凑型突击步枪",
+        "en": "SR-3M 9x39 compact assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Attention",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "633ec7c2a6918cb895019c6c",
+      "itemName": {
+        "zh": "RSh-12 12.7x55转轮手枪",
+        "en": "RSh-12 12.7x55 revolver"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ea17bbc09aa976f2e7a51cd",
+      "itemName": {
+        "zh": "Surefire SOCOM556-RC2 5.56x45消音器",
+        "en": "SureFire SOCOM556-RC2 5.56x45 sound suppressor"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好了，我们已经弄清楚该知道的了。还记得我们之前调查的那个邪教活动吗？现在看来这些疯子也在工厂里捣乱。\n\n我从其他幸存下来的PMC那儿得到了一些情报，他们不仅遇到过这些信徒，还成功干掉了一些。不过提醒你一点，这帮人可不是在树林里行动时那套打法，他们在工厂里用的是另一套套路，小心点，你得清除几个，明白了吗？\n\n别忘了，这些疯子非常危险，他们用的是高杀伤力的弹药和武器。但记住，他们很少保护头部，瞄准那里会是个不错的选择，利用这个弱点。",
+    "en": "Okay, I found out what we needed to know. Remember the cult activities we investigated recently? Well, it turns out that these madmen also like to cause trouble inside the factory.\nI received information about these cultists from other PMC operatives who survived encounters with them and even managed to beat them in combat. They don't use the same tactics that they usually use when they roam the woods, so beware, because you will need to get rid of a few of them, got it?\n\nDon't forget that these psychos are extremely dangerous, they use very strong ammunition and weaponry. But keep in mind that these people rarely protect their heads, use that to your advantage."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantWarrior",
+        "sectantPriest",
+        "sectantPrizrak",
+        "sectantPredvestnik",
+        "sectantOni"
+      ]
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "677b03604996670857682f5c",
+      "name": {
+        "zh": "超自然现象",
+        "en": "Paranormal Activities"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_quietdayinnorvinsk.png",
+  "isKey": false
+}

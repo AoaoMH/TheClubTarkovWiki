@@ -1,0 +1,164 @@
+{
+  "id": "6812967df2e90afe81ef3b59",
+  "name": {
+    "zh": "数字足迹",
+    "en": "Digital Footprint"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Discover",
+  "location": "5b0fc42d86f7744a585f9105",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 175000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 175000
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d5d87f786f77427997cfaef",
+      "itemName": {
+        "zh": "Ars Arma A18 Skanda 插板胸挂（复合迷彩）",
+        "en": "Ars Arma A18 Skanda plate carrier (MultiCam)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "64afd81707e2cf40e903a316",
+      "itemName": {
+        "zh": "Granit 防弹插板（侧边） ☆",
+        "en": "Granit ballistic plate (Side)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "64afc71497cf3a403c01ff38",
+      "itemName": {
+        "zh": "Granit Br5防弹插板",
+        "en": "Granit Br5 ballistic plate"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "591094e086f7747caa7bb2ef",
+      "itemName": {
+        "zh": "防弹衣维修套件 ☆",
+        "en": "Body armor repair kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "57dbb57e2459774673234890",
+      "itemName": {
+        "zh": "KAC QDSS NT-4 FDE 5.56x45消音器",
+        "en": "KAC QDSS NT4 5.56x45 sound suppressor (FDE)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6711039f9e648049e50b3307",
+      "itemName": {
+        "zh": "TerraGroup 实验室生活区钥匙卡  ★",
+        "en": "TerraGroup Labs residential unit keycard "
+      }
+    }
+  ],
+  "description": {
+    "zh": "我有好消息，实际上是非常好的消息！你在礼堂里找到的笔记本电脑实际上包含了对大部分摄像机镜头的访问权限，很酷吧？\n\n事实证明，这些家伙确实设法进入了泰拉集团实验室，而且从看起来，他们的动机是找到一台服务器，毕竟这个地方到处都是这种东西。从我们得到的镜头来看，他们在武器测试室附近的一个办公室里工作，我不知道如何描述它，上面盖着橙色的防水布，有很多电脑和很多服务器，应该不难错过，对吧？\n\n哈哈好吧 then，拿着这个USB驱动器，我的一个人在上面上传了一个特殊的软件，把它插到服务器上并留在那里，确保清理该区域——我们不能 afford people sticking their noses into this operation。明白了吗？",
+    "en": "I got good news, very good news actually! The laptop you found inside the auditorium actually contained access to most of the camera footage, cool right?\n\nTurns out that these goons actually made their way into the Terragroup lab, and by the looks of it their motive was finding one of the servers, this place is full of this stuff after all. From what I can tell by the footage we got, they were near the weapon testing room working inside some sort of office, I don't know how to describe it, it had a orange-colored tarp over it, there were lots of computers and lots of servers, shouldn't be too hard to miss, right?\n\nHaha alright then, take this USB drive, one of my guys uploaded a special software onto it, plug it into the server and leave it there, make sure to clean out the area - We can't afford people sticking their noses into this operation. Got it?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_ref_server",
+      "targetNames": {
+        "lotus_labs_ref_server": {
+          "zh": "lotus_labs_ref_server",
+          "en": "lotus_labs_ref_server"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c621186f774138d11ea29"
+      ],
+      "targetNames": {
+        "590c621186f774138d11ea29": {
+          "zh": "加密U盘",
+          "en": "Secure Flash drive"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "681295120afc09bdf4472485",
+      "name": {
+        "zh": "人人都会留下痕迹",
+        "en": "Everyone Leaves Traces Behind"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68129c189210aba950e5d57b",
+      "name": {
+        "zh": "看戏",
+        "en": "Watching Events Unfold"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_digital_footprint.png",
+  "isKey": false
+}

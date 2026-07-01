@@ -1,0 +1,701 @@
+{
+  "id": "67486e6cca3b547b79d43af0",
+  "name": {
+    "zh": "西方连线 - 第二章",
+    "en": "The Western Connection - Part 2"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 22740
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 575,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 575
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5aa7d03ae5b5b00016327db5",
+      "itemName": {
+        "zh": "UNTAR头盔",
+        "en": "UNTAR helmet"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5ab8e4ed86f7742d8e50c7fa",
+      "itemName": {
+        "zh": "MF-UNTAR防弹背心",
+        "en": "MF-UNTAR body armor"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "590c651286f7741e566b6461",
+      "itemName": {
+        "zh": "袖珍日记",
+        "en": "Slim diary"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0dc45586f7742f6b0b73e3",
+      "itemName": {
+        "zh": "疗养院西楼 104 办公室钥匙 ☆",
+        "en": "Health Resort west wing office room 104 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Charisma",
+      "value": 125
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 125
+    },
+    {
+      "type": "StashRows"
+    }
+  ],
+  "description": {
+    "zh": "嘿嘿嘿，你选择和我以及 PeaceKeeper 合作了？好选择，干员！我们有个 BEAR 问题需要你帮忙解决。\n\n首先，你得知道，我们不能让你杀死任何 Rogue 或他们的头目，所以一定要小心避开他们。你的任务是在储备站和工业区击杀 BEAR 干员。同时，帮我们找一些西方武器——不要手枪，不要匕首，必须是高质量的西方主武器。记住，务必亲自找到这些武器！\n\n完成后记得向我报告。",
+    "en": "Well well well, you chose to work with me and peacekeeper? Good choice operator! Me and him got something that you need to help us with, we got a bear problem.\n\nFirst of all you need to know that we can't let you kill any of the rogue USEC operators or their leaders, so be careful with them.\nYou need to take out BEARs at the military base and the industrial area. And while you are at it, go get us some western weapons, no pistols, no knives, proper western firearms, top quality. And make sure to find them yourself!\n\nReport back to me when you are done."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Bear",
+      "targetNames": {
+        "Bear": {
+          "zh": "Bear",
+          "en": "Bear"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Bear",
+      "targetNames": {
+        "Bear": {
+          "zh": "Bear",
+          "en": "Bear"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "65fb023261d5829b2d090755",
+        "661ceb1b9311543c7104149b",
+        "661cec09b2c6356b4d0c7a36",
+        "6718817435e3cfd9550d2c27",
+        "67124dcfa3541f2a1f0e788b",
+        "66ffa9b66e19cc902401c5e8",
+        "5f2a9575926fd9352339381f",
+        "628b9c37a733087d0d7fe84b",
+        "628b5638ad252a16da6dd245",
+        "5d43021ca4b9362eab4b5e25",
+        "63171672192e68c5460cebc5",
+        "62e7c4fba689e8c9c50dfc38",
+        "5c488a752e221602b412af63",
+        "5dcbd56fdbd3d91b3e5468d5",
+        "623063e994fc3f7b302a9696",
+        "5bb2475ed4351e00853264e3",
+        "5447a9cd4bdc2dbd208b4567",
+        "65290f395ae2ae97b80fdf2d",
+        "5fbcc1d9016cce60e8341ab3",
+        "606587252535c57a13424cfd",
+        "628a60ae6b1d481ff772e9c8",
+        "5b0bbe4e5acfc40dc528a72d",
+        "618428466ef05c2ce828f218",
+        "6184055050224f204c1da540",
+        "6183afd850224f204c1da514",
+        "6165ac306ef05c2ce828ef74",
+        "627e14b21713922ded6f2c15",
+        "673cab3e03c6a20581028bc1",
+        "5bfea6e90db834001b7347f3",
+        "6176aca650224f204c1da3fb",
+        "5a367e5dc4a282000e49738f",
+        "5df8ce05b11454561e39243b",
+        "5aafa857e5b5b00018480968",
+        "5fc22d7c187fea44d52eda44",
+        "5e81ebcd8e146c7080625e15",
+        "6275303a9f372d6ea97f9ec7",
+        "6259b864ebedf17603599e88",
+        "5e870397991fd70db46995c8",
+        "5a7828548dc32e5a9c28b516",
+        "5926bb2186f7744b1c6c6e60",
+        "5d2f0d8048f0356c925bc3b0",
+        "5ba26383d4351e00334c93d9",
+        "5bd70322209c4d00d7167b8f",
+        "5e00903ae9dc277128008b87",
+        "5de7bd7bfd6b4e6e2276dc25",
+        "58948c8e86f77409493f7266",
+        "5cc82d76e24e8d00134b4b83",
+        "5fc3e272f8b6a877a729eac5",
+        "5fc3f2d5900b1d5091531e57",
+        "5fb64bc92b1b027b1f50bcf2",
+        "676176d362e0497044079f4c",
+        "674d6121c09f69dfb201a888"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "65fb023261d5829b2d090755": {
+          "zh": "U.S Ordnance M60E4 7.62x51轻机枪",
+          "en": "U.S. Ordnance M60E4 7.62x51 light machine gun"
+        },
+        "661ceb1b9311543c7104149b": {
+          "zh": "U.S Ordnance M60E6 7.62x51轻机枪",
+          "en": "U.S. Ordnance M60E6 7.62x51 light machine gun"
+        },
+        "661cec09b2c6356b4d0c7a36": {
+          "zh": "U.S Ordnance M60E6 7.62x51轻机枪（FDE）",
+          "en": "U.S. Ordnance M60E6 7.62x51 light machine gun (FDE)"
+        },
+        "6718817435e3cfd9550d2c27": {
+          "zh": "Steyr AUG A3 5.56x45 突击步枪（黑色）",
+          "en": "Steyr AUG A3 5.56x45 assault rifle (Black)"
+        },
+        "67124dcfa3541f2a1f0e788b": {
+          "zh": "MPS Auto Assault-12 Gen 2 12铅径自动霰弹枪",
+          "en": "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
+        },
+        "66ffa9b66e19cc902401c5e8": {
+          "zh": "MPS Auto Assault-12 Gen 1 12铅径自动霰弹枪",
+          "en": "MPS Auto Assault-12 Gen 1 12ga automatic shotgun"
+        },
+        "5f2a9575926fd9352339381f": {
+          "zh": "Kel-Tec RFB 7.62x51",
+          "en": "Kel-Tec RFB 7.62x51 rifle"
+        },
+        "628b9c37a733087d0d7fe84b": {
+          "zh": "SAG AK-545 5.45x39截短卡宾枪",
+          "en": "SAG AK-545 Short 5.45x39 carbine"
+        },
+        "628b5638ad252a16da6dd245": {
+          "zh": "SAG AK-545 5.45x39卡宾枪",
+          "en": "SAG AK-545 5.45x39 carbine"
+        },
+        "5d43021ca4b9362eab4b5e25": {
+          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪 ☆",
+          "en": "Lone Star TX-15 DML 5.56x45 carbine"
+        },
+        "63171672192e68c5460cebc5": {
+          "zh": "Steyr AUG A3 5.56x45突击步枪",
+          "en": "Steyr AUG A3 5.56x45 assault rifle"
+        },
+        "62e7c4fba689e8c9c50dfc38": {
+          "zh": "Steyr AUG A1 5.56x45突击步枪",
+          "en": "Steyr AUG A1 5.56x45 assault rifle"
+        },
+        "5c488a752e221602b412af63": {
+          "zh": "DT MDR 5.56x45 突击步枪 ☆",
+          "en": "Desert Tech MDR 5.56x45 assault rifle"
+        },
+        "5dcbd56fdbd3d91b3e5468d5": {
+          "zh": "沙漠科技 MDR 7.62x51 突击步枪",
+          "en": "Desert Tech MDR 7.62x51 assault rifle"
+        },
+        "623063e994fc3f7b302a9696": {
+          "zh": "HK G36 5.56x45 突击步枪",
+          "en": "HK G36 5.56x45 assault rifle"
+        },
+        "5bb2475ed4351e00853264e3": {
+          "zh": "HK 416A5 5.56x45 突击步枪 ☆",
+          "en": "HK 416A5 5.56x45 assault rifle"
+        },
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        },
+        "65290f395ae2ae97b80fdf2d": {
+          "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+          "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+        },
+        "5fbcc1d9016cce60e8341ab3": {
+          "zh": "SIG MCX .300 AAC Blackout 突击步枪 ☆",
+          "en": "SIG MCX .300 Blackout assault rifle"
+        },
+        "606587252535c57a13424cfd": {
+          "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪 ★",
+          "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
+        },
+        "628a60ae6b1d481ff772e9c8": {
+          "zh": "Rifle Dynamics RD-704 7.62x39突击步枪",
+          "en": "Rifle Dynamics RD-704 7.62x39 assault rifle"
+        },
+        "5b0bbe4e5acfc40dc528a72d": {
+          "zh": "DS Arms SA-58 7.62x51 突击步枪 ☆",
+          "en": "DS Arms SA58 7.62x51 assault rifle"
+        },
+        "618428466ef05c2ce828f218": {
+          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE） ★",
+          "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
+        },
+        "6184055050224f204c1da540": {
+          "zh": "FN SCAR-L 5.56x45突击步枪 ☆",
+          "en": "FN SCAR-L 5.56x45 assault rifle"
+        },
+        "6183afd850224f204c1da514": {
+          "zh": "FN SCAR-H 7.62x51突击步枪",
+          "en": "FN SCAR-H 7.62x51 assault rifle"
+        },
+        "6165ac306ef05c2ce828ef74": {
+          "zh": "FN SCAR-H 7.62x51 突击步枪 (FDE)",
+          "en": "FN SCAR-H 7.62x51 assault rifle (FDE)"
+        },
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "6176aca650224f204c1da3fb": {
+          "zh": "HK G28 7.62x51 精确射手步枪 ☆",
+          "en": "HK G28 7.62x51 marksman rifle"
+        },
+        "5a367e5dc4a282000e49738f": {
+          "zh": "雷明顿 R11 RSASS 7.62x51 精确射手步枪 ☆",
+          "en": "Remington R11 RSASS 7.62x51 marksman rifle"
+        },
+        "5df8ce05b11454561e39243b": {
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪 ★",
+          "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
+        },
+        "5aafa857e5b5b00018480968": {
+          "zh": "春田 M1A 7.62x51 精确射手步枪",
+          "en": "Springfield Armory M1A 7.62x51 rifle"
+        },
+        "5fc22d7c187fea44d52eda44": {
+          "zh": "SWORD International Mk-18 .338 LM 精确射手步枪 ★",
+          "en": "SWORD International Mk-18 .338 LM marksman rifle"
+        },
+        "5e81ebcd8e146c7080625e15": {
+          "zh": "FN GL-40 Mk.2 榴弹发射器",
+          "en": "FN40GL Mk2 40mm grenade launcher"
+        },
+        "6275303a9f372d6ea97f9ec7": {
+          "zh": "Milkor M32A1 MSGL 40 毫米榴弹发射器",
+          "en": "Milkor M32A1 MSGL 40mm grenade launcher"
+        },
+        "6259b864ebedf17603599e88": {
+          "zh": "Benelli M3 Super 90 12 铅径双模式霰弹枪",
+          "en": "Benelli M3 Super 90 12ga dual-mode shotgun"
+        },
+        "5e870397991fd70db46995c8": {
+          "zh": "Mossberg 590A1 12铅径 泵动式霰弹枪",
+          "en": "Mossberg 590A1 12ga pump-action shotgun"
+        },
+        "5a7828548dc32e5a9c28b516": {
+          "zh": "雷明顿Model 870 12铅径 霰弹枪",
+          "en": "Remington Model 870 12ga pump-action shotgun"
+        },
+        "5926bb2186f7744b1c6c6e60": {
+          "zh": "HK MP5N 9x19 冲锋枪（海军型） ☆",
+          "en": "HK MP5 9x19 submachine gun (Navy 3 Round Burst)"
+        },
+        "5d2f0d8048f0356c925bc3b0": {
+          "zh": "HK MP5K 9x19 微型冲锋枪",
+          "en": "HK MP5K 9x19 submachine gun"
+        },
+        "5ba26383d4351e00334c93d9": {
+          "zh": "HK MP7A1 4.6x30 微型冲锋枪",
+          "en": "HK MP7A1 4.6x30 submachine gun"
+        },
+        "5bd70322209c4d00d7167b8f": {
+          "zh": "HK MP7A2 4.6x30 微型冲锋枪",
+          "en": "HK MP7A2 4.6x30 submachine gun"
+        },
+        "5e00903ae9dc277128008b87": {
+          "zh": "B&T MP9 9x19微型冲锋枪",
+          "en": "B&T MP9 9x19 submachine gun"
+        },
+        "5de7bd7bfd6b4e6e2276dc25": {
+          "zh": "B&T MP9-N 9x19 微型冲锋枪",
+          "en": "B&T MP9-N 9x19 submachine gun"
+        },
+        "58948c8e86f77409493f7266": {
+          "zh": "SIG MPX 9x19 冲锋枪 ☆",
+          "en": "SIG MPX 9x19 submachine gun"
+        },
+        "5cc82d76e24e8d00134b4b83": {
+          "zh": "FN P90 5.7x28 微型冲锋枪",
+          "en": "FN P90 5.7x28 submachine gun"
+        },
+        "5fc3e272f8b6a877a729eac5": {
+          "zh": "HK UMP 45冲锋枪",
+          "en": "HK UMP .45 ACP submachine gun"
+        },
+        "5fc3f2d5900b1d5091531e57": {
+          "zh": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+          "en": "TDI KRISS Vector Gen.2 9x19 submachine gun"
+        },
+        "5fb64bc92b1b027b1f50bcf2": {
+          "zh": "TDI KRISS Vector Gen.2 .45 ACP 冲锋枪",
+          "en": "TDI KRISS Vector Gen.2 .45 ACP submachine gun"
+        },
+        "676176d362e0497044079f4c": {
+          "zh": "FN SCAR-H X-17 7.62x51突击步枪",
+          "en": "FN SCAR-H X-17 7.62x51 assault rifle"
+        },
+        "674d6121c09f69dfb201a888": {
+          "zh": "Aklys Defense 迅猛龙 .300 Blackout 突击步枪",
+          "en": "Aklys Defense Velociraptor .300 Blackout assault rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "65fb023261d5829b2d090755",
+        "661ceb1b9311543c7104149b",
+        "661cec09b2c6356b4d0c7a36",
+        "6718817435e3cfd9550d2c27",
+        "67124dcfa3541f2a1f0e788b",
+        "66ffa9b66e19cc902401c5e8",
+        "5f2a9575926fd9352339381f",
+        "628b9c37a733087d0d7fe84b",
+        "628b5638ad252a16da6dd245",
+        "5d43021ca4b9362eab4b5e25",
+        "63171672192e68c5460cebc5",
+        "62e7c4fba689e8c9c50dfc38",
+        "5c488a752e221602b412af63",
+        "5dcbd56fdbd3d91b3e5468d5",
+        "623063e994fc3f7b302a9696",
+        "5bb2475ed4351e00853264e3",
+        "5447a9cd4bdc2dbd208b4567",
+        "65290f395ae2ae97b80fdf2d",
+        "5fbcc1d9016cce60e8341ab3",
+        "606587252535c57a13424cfd",
+        "628a60ae6b1d481ff772e9c8",
+        "5b0bbe4e5acfc40dc528a72d",
+        "618428466ef05c2ce828f218",
+        "6184055050224f204c1da540",
+        "6183afd850224f204c1da514",
+        "6165ac306ef05c2ce828ef74",
+        "627e14b21713922ded6f2c15",
+        "673cab3e03c6a20581028bc1",
+        "5bfea6e90db834001b7347f3",
+        "6176aca650224f204c1da3fb",
+        "5a367e5dc4a282000e49738f",
+        "5df8ce05b11454561e39243b",
+        "5aafa857e5b5b00018480968",
+        "5fc22d7c187fea44d52eda44",
+        "5e81ebcd8e146c7080625e15",
+        "6275303a9f372d6ea97f9ec7",
+        "6259b864ebedf17603599e88",
+        "5e870397991fd70db46995c8",
+        "5a7828548dc32e5a9c28b516",
+        "5926bb2186f7744b1c6c6e60",
+        "5d2f0d8048f0356c925bc3b0",
+        "5ba26383d4351e00334c93d9",
+        "5bd70322209c4d00d7167b8f",
+        "5e00903ae9dc277128008b87",
+        "5de7bd7bfd6b4e6e2276dc25",
+        "58948c8e86f77409493f7266",
+        "5cc82d76e24e8d00134b4b83",
+        "5fc3e272f8b6a877a729eac5",
+        "5fc3f2d5900b1d5091531e57",
+        "5fb64bc92b1b027b1f50bcf2",
+        "676176d362e0497044079f4c",
+        "674d6121c09f69dfb201a888"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "65fb023261d5829b2d090755": {
+          "zh": "U.S Ordnance M60E4 7.62x51轻机枪",
+          "en": "U.S. Ordnance M60E4 7.62x51 light machine gun"
+        },
+        "661ceb1b9311543c7104149b": {
+          "zh": "U.S Ordnance M60E6 7.62x51轻机枪",
+          "en": "U.S. Ordnance M60E6 7.62x51 light machine gun"
+        },
+        "661cec09b2c6356b4d0c7a36": {
+          "zh": "U.S Ordnance M60E6 7.62x51轻机枪（FDE）",
+          "en": "U.S. Ordnance M60E6 7.62x51 light machine gun (FDE)"
+        },
+        "6718817435e3cfd9550d2c27": {
+          "zh": "Steyr AUG A3 5.56x45 突击步枪（黑色）",
+          "en": "Steyr AUG A3 5.56x45 assault rifle (Black)"
+        },
+        "67124dcfa3541f2a1f0e788b": {
+          "zh": "MPS Auto Assault-12 Gen 2 12铅径自动霰弹枪",
+          "en": "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
+        },
+        "66ffa9b66e19cc902401c5e8": {
+          "zh": "MPS Auto Assault-12 Gen 1 12铅径自动霰弹枪",
+          "en": "MPS Auto Assault-12 Gen 1 12ga automatic shotgun"
+        },
+        "5f2a9575926fd9352339381f": {
+          "zh": "Kel-Tec RFB 7.62x51",
+          "en": "Kel-Tec RFB 7.62x51 rifle"
+        },
+        "628b9c37a733087d0d7fe84b": {
+          "zh": "SAG AK-545 5.45x39截短卡宾枪",
+          "en": "SAG AK-545 Short 5.45x39 carbine"
+        },
+        "628b5638ad252a16da6dd245": {
+          "zh": "SAG AK-545 5.45x39卡宾枪",
+          "en": "SAG AK-545 5.45x39 carbine"
+        },
+        "5d43021ca4b9362eab4b5e25": {
+          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪 ☆",
+          "en": "Lone Star TX-15 DML 5.56x45 carbine"
+        },
+        "63171672192e68c5460cebc5": {
+          "zh": "Steyr AUG A3 5.56x45突击步枪",
+          "en": "Steyr AUG A3 5.56x45 assault rifle"
+        },
+        "62e7c4fba689e8c9c50dfc38": {
+          "zh": "Steyr AUG A1 5.56x45突击步枪",
+          "en": "Steyr AUG A1 5.56x45 assault rifle"
+        },
+        "5c488a752e221602b412af63": {
+          "zh": "DT MDR 5.56x45 突击步枪 ☆",
+          "en": "Desert Tech MDR 5.56x45 assault rifle"
+        },
+        "5dcbd56fdbd3d91b3e5468d5": {
+          "zh": "沙漠科技 MDR 7.62x51 突击步枪",
+          "en": "Desert Tech MDR 7.62x51 assault rifle"
+        },
+        "623063e994fc3f7b302a9696": {
+          "zh": "HK G36 5.56x45 突击步枪",
+          "en": "HK G36 5.56x45 assault rifle"
+        },
+        "5bb2475ed4351e00853264e3": {
+          "zh": "HK 416A5 5.56x45 突击步枪 ☆",
+          "en": "HK 416A5 5.56x45 assault rifle"
+        },
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        },
+        "65290f395ae2ae97b80fdf2d": {
+          "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+          "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+        },
+        "5fbcc1d9016cce60e8341ab3": {
+          "zh": "SIG MCX .300 AAC Blackout 突击步枪 ☆",
+          "en": "SIG MCX .300 Blackout assault rifle"
+        },
+        "606587252535c57a13424cfd": {
+          "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪 ★",
+          "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
+        },
+        "628a60ae6b1d481ff772e9c8": {
+          "zh": "Rifle Dynamics RD-704 7.62x39突击步枪",
+          "en": "Rifle Dynamics RD-704 7.62x39 assault rifle"
+        },
+        "5b0bbe4e5acfc40dc528a72d": {
+          "zh": "DS Arms SA-58 7.62x51 突击步枪 ☆",
+          "en": "DS Arms SA58 7.62x51 assault rifle"
+        },
+        "618428466ef05c2ce828f218": {
+          "zh": "FN SCAR-L 5.56x45突击步枪 （FDE） ★",
+          "en": "FN SCAR-L 5.56x45 assault rifle (FDE)"
+        },
+        "6184055050224f204c1da540": {
+          "zh": "FN SCAR-L 5.56x45突击步枪 ☆",
+          "en": "FN SCAR-L 5.56x45 assault rifle"
+        },
+        "6183afd850224f204c1da514": {
+          "zh": "FN SCAR-H 7.62x51突击步枪",
+          "en": "FN SCAR-H 7.62x51 assault rifle"
+        },
+        "6165ac306ef05c2ce828ef74": {
+          "zh": "FN SCAR-H 7.62x51 突击步枪 (FDE)",
+          "en": "FN SCAR-H 7.62x51 assault rifle (FDE)"
+        },
+        "627e14b21713922ded6f2c15": {
+          "zh": "Accuracy International AXMC .338 LM 栓动式狙击步枪 ★",
+          "en": "Accuracy International AXMC .338 LM bolt-action sniper rifle"
+        },
+        "673cab3e03c6a20581028bc1": {
+          "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+          "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+        },
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        },
+        "6176aca650224f204c1da3fb": {
+          "zh": "HK G28 7.62x51 精确射手步枪 ☆",
+          "en": "HK G28 7.62x51 marksman rifle"
+        },
+        "5a367e5dc4a282000e49738f": {
+          "zh": "雷明顿 R11 RSASS 7.62x51 精确射手步枪 ☆",
+          "en": "Remington R11 RSASS 7.62x51 marksman rifle"
+        },
+        "5df8ce05b11454561e39243b": {
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪 ★",
+          "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle"
+        },
+        "5aafa857e5b5b00018480968": {
+          "zh": "春田 M1A 7.62x51 精确射手步枪",
+          "en": "Springfield Armory M1A 7.62x51 rifle"
+        },
+        "5fc22d7c187fea44d52eda44": {
+          "zh": "SWORD International Mk-18 .338 LM 精确射手步枪 ★",
+          "en": "SWORD International Mk-18 .338 LM marksman rifle"
+        },
+        "5e81ebcd8e146c7080625e15": {
+          "zh": "FN GL-40 Mk.2 榴弹发射器",
+          "en": "FN40GL Mk2 40mm grenade launcher"
+        },
+        "6275303a9f372d6ea97f9ec7": {
+          "zh": "Milkor M32A1 MSGL 40 毫米榴弹发射器",
+          "en": "Milkor M32A1 MSGL 40mm grenade launcher"
+        },
+        "6259b864ebedf17603599e88": {
+          "zh": "Benelli M3 Super 90 12 铅径双模式霰弹枪",
+          "en": "Benelli M3 Super 90 12ga dual-mode shotgun"
+        },
+        "5e870397991fd70db46995c8": {
+          "zh": "Mossberg 590A1 12铅径 泵动式霰弹枪",
+          "en": "Mossberg 590A1 12ga pump-action shotgun"
+        },
+        "5a7828548dc32e5a9c28b516": {
+          "zh": "雷明顿Model 870 12铅径 霰弹枪",
+          "en": "Remington Model 870 12ga pump-action shotgun"
+        },
+        "5926bb2186f7744b1c6c6e60": {
+          "zh": "HK MP5N 9x19 冲锋枪（海军型） ☆",
+          "en": "HK MP5 9x19 submachine gun (Navy 3 Round Burst)"
+        },
+        "5d2f0d8048f0356c925bc3b0": {
+          "zh": "HK MP5K 9x19 微型冲锋枪",
+          "en": "HK MP5K 9x19 submachine gun"
+        },
+        "5ba26383d4351e00334c93d9": {
+          "zh": "HK MP7A1 4.6x30 微型冲锋枪",
+          "en": "HK MP7A1 4.6x30 submachine gun"
+        },
+        "5bd70322209c4d00d7167b8f": {
+          "zh": "HK MP7A2 4.6x30 微型冲锋枪",
+          "en": "HK MP7A2 4.6x30 submachine gun"
+        },
+        "5e00903ae9dc277128008b87": {
+          "zh": "B&T MP9 9x19微型冲锋枪",
+          "en": "B&T MP9 9x19 submachine gun"
+        },
+        "5de7bd7bfd6b4e6e2276dc25": {
+          "zh": "B&T MP9-N 9x19 微型冲锋枪",
+          "en": "B&T MP9-N 9x19 submachine gun"
+        },
+        "58948c8e86f77409493f7266": {
+          "zh": "SIG MPX 9x19 冲锋枪 ☆",
+          "en": "SIG MPX 9x19 submachine gun"
+        },
+        "5cc82d76e24e8d00134b4b83": {
+          "zh": "FN P90 5.7x28 微型冲锋枪",
+          "en": "FN P90 5.7x28 submachine gun"
+        },
+        "5fc3e272f8b6a877a729eac5": {
+          "zh": "HK UMP 45冲锋枪",
+          "en": "HK UMP .45 ACP submachine gun"
+        },
+        "5fc3f2d5900b1d5091531e57": {
+          "zh": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+          "en": "TDI KRISS Vector Gen.2 9x19 submachine gun"
+        },
+        "5fb64bc92b1b027b1f50bcf2": {
+          "zh": "TDI KRISS Vector Gen.2 .45 ACP 冲锋枪",
+          "en": "TDI KRISS Vector Gen.2 .45 ACP submachine gun"
+        },
+        "676176d362e0497044079f4c": {
+          "zh": "FN SCAR-H X-17 7.62x51突击步枪",
+          "en": "FN SCAR-H X-17 7.62x51 assault rifle"
+        },
+        "674d6121c09f69dfb201a888": {
+          "zh": "Aklys Defense 迅猛龙 .300 Blackout 突击步枪",
+          "en": "Aklys Defense Velociraptor .300 Blackout assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Avoid",
+      "description": "Avoid: Completion",
+      "value": 1,
+      "isFailCondition": true,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "exUsec",
+        "followerBigPipe",
+        "followerBirdEye",
+        "bossKnight"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67486dda530589a4b6d0ea45",
+      "name": {
+        "zh": "西方连线 - 第一章",
+        "en": "The Western Connection - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674870922e541c35bf1afc8e",
+      "name": {
+        "zh": "西方连线 - 第三章",
+        "en": "The Western Connection - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_skier.png",
+  "isKey": false
+}

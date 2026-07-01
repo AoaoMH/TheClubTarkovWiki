@@ -1,0 +1,190 @@
+{
+  "id": "67d7ffac0a45f6fea894beb7",
+  "name": {
+    "zh": "塔科夫环卫工 - 第五章",
+    "en": "Tarkov Sweeper - Part 5"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 16000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 375550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 375550
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d6fc78386f77449d825f9dc",
+      "itemName": {
+        "zh": "“Eagle”火药",
+        "en": "Gunpowder \"Eagle\""
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "61bf7b6302b3924be92fa8c3",
+      "itemName": {
+        "zh": "金属零件",
+        "en": "Metal spare parts"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "656fa99800d62bcd2e024088",
+      "itemName": {
+        "zh": "Cult Termite防弹插板",
+        "en": "Cult Termite ballistic plate"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5910968f86f77425cf569c32",
+      "itemName": {
+        "zh": "武器维修套件",
+        "en": "Weapon repair kit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Shotgun",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "674fe8f6f34d761ab8020cc8",
+      "itemName": {
+        "zh": "SOK-12 12 铅径 MD Arms 20 发弹鼓",
+        "en": "SOK-12 12ga MD Arms 20-round drum magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "674fe9a75e51f1c47c04ec23",
+      "itemName": {
+        "zh": "Saiga-12K 12 铅径自动霰弹枪",
+        "en": "Saiga-12K 12ga automatic shotgun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好了，好消息来了。\n\n枪匠那边已经把枪都搞定了，我们也搞定了后续的供应渠道。你之前交来的材料换回的枪，现在就是你的了。\n\n接下来是测试环节——找点惹事的Scav或者其他倒霉蛋，把这把枪的威力都试一试。我建议你多练练瞄准，分别打打四肢和躯干。\n\n做完记得带枪回来，顺便告诉我它的表现如何。对你来说，这应该不算什么难事，对吧？",
+    "en": "Alright then, good news for you.\n\nThe gunsmith dude finished working on the weapons. We worked out something to have a stable supply chain of these weapons, you can have the ones you brought the supplies for.\n\nNow to the test - Look for some bandits or whoever else causes trouble on your way and tear them apart with that beast. I suggest you try out your aim with the weapon aswell, so you should hit some people in the arms and legs, and also the body.\n\nCome back later and tell me about the performance, I'm sure it won't be too big of a hassle for you. And bring me back the gun after you're done."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 8,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "674fe9a75e51f1c47c04ec23"
+      ],
+      "weaponNames": {
+        "674fe9a75e51f1c47c04ec23": {
+          "zh": "Saiga-12K 12 铅径自动霰弹枪",
+          "en": "Saiga-12K 12ga automatic shotgun"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Shots",
+      "value": 10,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Shots",
+      "value": 10,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Shots",
+      "value": 10,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "674fe9a75e51f1c47c04ec23"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "674fe9a75e51f1c47c04ec23": {
+          "zh": "Saiga-12K 12 铅径自动霰弹枪",
+          "en": "Saiga-12K 12ga automatic shotgun"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67d7fa81e32b6be5326c4935",
+      "name": {
+        "zh": "塔科夫环卫工 - 第四章",
+        "en": "Tarkov Sweeper - Part 4"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_saiga12.png",
+  "isKey": false
+}

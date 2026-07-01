@@ -1,0 +1,165 @@
+{
+  "id": "679a16f9588df6cd38f9de8d",
+  "name": {
+    "zh": "另一个线索",
+    "en": "Another Clue"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Discover",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9950
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 75960,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75960
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "619cbfeb6b8a1b37a54eebfa",
+      "itemName": {
+        "zh": "Bulbex剪线器",
+        "en": "Bulbex cable cutter"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "WeaponTreatment",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "617fd91e5539a84ec44ce155",
+      "itemName": {
+        "zh": "RGN手榴弹",
+        "en": "RGN hand grenade"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "618a431df1eb8e24b8741deb",
+      "itemName": {
+        "zh": "RGO手榴弹",
+        "en": "RGO hand grenade"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我收到了你的信息，佣兵。我猜这是你联系我的方式吧，其实你也可以亲自过来找我，对吧？\n\n不过算了，回归正题——你需要帮忙，我也正好需要人跑几个活。或者，是你替别人来求助？你是个跑腿的而已？嘿，只要你不是被什么地下帮派或黑市商人雇来办事的，我无所谓，反正不关我的事。当然，我还是想见见派你来的人，回头再说。\n\n正事来了。Terragroup 实验室 B21 区域的服务器出了问题，我之前派人下去部署过几台，但最近有一台损坏了。\n\n估计是服务器房里又爆发了火拼……典型的附带损伤。\n\n还有一件事，既然你都在东奔西跑了，我藏身点门口的摄像头也顺便修一下，它最近一直闪灯报警，我本来想自己修但最近实在脱不开身。\n\n服务器房分为四个区域，我的服务器在灯灭掉的那一块。如果你是从 B22 区域进去的，那就一直往左走，目标服务器在一架梯子后面。\n\n这些信息已经足够你完成任务了，听清楚了吗？",
+    "en": "I received your message mercenary, I guess that is one way to contact me, you know you could have come here personally, right?\nAnyway, to the point, you need help with something and I need someone to do a few jobs for me.\nOr is it someone else who's requiring my assistance, and you are just the messenger? But hey, unless you started to work for some local criminal gang or some shady dealer, I don't mind, none of my business, although I'd wish to meet whoever sent you, but that's a concern for later.\n\nOnto business then, there are servers located in the Terragroup laboratory in section B21. I claimed some of them some time ago when I sent mercs like you into the lab for a job, however recently one of them got damaged.\nI assume there has been a firefight in the server room... Collateral damage if I had to guess.\n\nAh yeah, one more thing, while you're at it running around and fixing things, the camera outside my hideout could use a repair too, it's acting up for some reason, beeping and lights are flickering, I would fix it myself but more important things require my attention at the moment.\n\nThe server room has four sections, my servers are located in the part where the lights are out. If you enter the server room from section B22, you need to look all the way left, that's where they should be, and the one you need to fix is blocked off by a ladder.\nThis is as much info as I can give you, and it's pretty much more than enough to handle this job, understood?"
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c2e1186f77425357b6124"
+      ],
+      "targetNames": {
+        "590c2e1186f77425357b6124": {
+          "zh": "一套工具",
+          "en": "Toolset"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_factory_labtransit",
+      "targetNames": {
+        "lotus_factory_labtransit": {
+          "zh": "lotus_factory_labtransit",
+          "en": "lotus_factory_labtransit"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "590c2e1186f77425357b6124"
+      ],
+      "targetNames": {
+        "590c2e1186f77425357b6124": {
+          "zh": "一套工具",
+          "en": "Toolset"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_mechanic_serverroom",
+      "targetNames": {
+        "lotus_labs_mechanic_serverroom": {
+          "zh": "lotus_labs_mechanic_serverroom",
+          "en": "lotus_labs_mechanic_serverroom"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_mechanic_server",
+      "targetNames": {
+        "lotus_labs_mechanic_server": {
+          "zh": "lotus_labs_mechanic_server",
+          "en": "lotus_labs_mechanic_server"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6799286d2c0cbcd521bf44dd",
+      "name": {
+        "zh": "有趣的机遇",
+        "en": "An Interesting Opportunity"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "679a79773bd9f77047d4bd35",
+      "name": {
+        "zh": "愚者之失，智者之利",
+        "en": "Profit From A Fool's Mistake"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_mechanic.png",
+  "isKey": false
+}

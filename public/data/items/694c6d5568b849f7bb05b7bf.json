@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 65000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "C4 Jolly Rancher Energy Drink [Rare]",
+      "en": "C4 Jolly Rancher Energy Drink [Rare]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "C4",
+      "en": "C4"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 75,000₽ | 物品价值: 65,000 | Therapist报价: 40,950₽Theres energy drinks…and then theres C4 Energy. C4 Energy's incredible flavor is made with no sugar, zero calories, no artificial flavors, and no compromise on taste. Featuring 200 MG of caffeine and proven ingredients like CarnoSyn Beta-Alanine and BetaPower Betaine, you are about to experience explosive energy, hydration, and endurance.",
+      "en": "跳蚤市场: 75,000₽ | 物品价值: 65,000 | Therapist报价: 40,950₽Theres energy drinks…and then theres C4 Energy. C4 Energy's incredible flavor is made with no sugar, zero calories, no artificial flavors, and no compromise on taste. Featuring 200 MG of caffeine and proven ingredients like CarnoSyn Beta-Alanine and BetaPower Betaine, you are about to experience explosive energy, hydration, and endurance."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,96 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.4,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 15,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": 0.4,
+            "delay": 1,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "HeavyVests",
+            "value": 5,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "LightVests",
+            "value": 5,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Vitality",
+            "value": 5,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Surgery",
+            "value": 5,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -5,
+            "delay": 400,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": -999,
+            "delay": 400,
+            "duration": 400,
+            "chance": 0.02
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -1.5,
+            "delay": 400,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 400,
+            "duration": 120,
+            "chance": 1
+          }
+        ]
       }
     }
   },

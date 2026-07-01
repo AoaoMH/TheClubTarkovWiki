@@ -1,0 +1,94 @@
+{
+  "id": "686c25d281071c45d2f8aa44",
+  "name": {
+    "zh": "弹链失踪",
+    "en": "Belt Fed, Gone Missing"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "6570264d1419851aef03e736",
+      "itemName": {
+        "zh": "100发5.56x45 M855盒装弹药",
+        "en": "5.56x45mm M855 ammo pack (100 pcs)"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "下午好，雇佣兵。我们有个问题需要尽快解决。我搞到了一批M249 SAW的货，但我的小队在运输途中遭到了袭击。有些武器被抢走了。更糟的是，列出每把枪的货运清单在混乱中丢失了。我需要那份文件才能知道到底丢了什么。去海关主桥旁的虎式轻型装甲车那里，那是你最有可能找到它的地方。明白了吗？",
+    "en": " Good afternoon Mercenary. We’ve got a problem that needs fixing fast. I secured a shipment of M249 SAWs but my team got hit during delivery. Some of those weapons were snatched. Worse yet the manifest listing every gun got lost in the chaos. I need that paperwork to know exactly what’s missing. Head to the Tigr LAV by the main bridge on Customs. That’s your best bet to find it. Clear? "
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "686c1f53c57631545685f81c"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "686c1f53c57631545685f81c": {
+          "zh": "货运清单",
+          "en": "Shipping Manifest"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "686c1f53c57631545685f81c"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "686c1f53c57631545685f81c": {
+          "zh": "货运清单",
+          "en": "Shipping Manifest"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Avoid: ExitStatus",
+      "value": 1,
+      "isFailCondition": true,
+      "location": "bigmap"
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [
+    {
+      "id": "686dd4f871840e292fbd1a14",
+      "name": {
+        "zh": "清除兽群",
+        "en": "Culling The Herd"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/m249_quest.png",
+  "isKey": false
+}

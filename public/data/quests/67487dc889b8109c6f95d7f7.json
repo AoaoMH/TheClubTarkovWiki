@@ -1,0 +1,101 @@
+{
+  "id": "67487dc889b8109c6f95d7f7",
+  "name": {
+    "zh": "专业射手 - 第三章",
+    "en": "Professional Weapon Tester - Part 3"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3800
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 475,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 475
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "657024ecc5d7d4cb4d07856d",
+      "itemName": {
+        "zh": "50发5.56x45 M856A1盒装弹药 ☆",
+        "en": "5.56x45mm M856A1 ammo pack (50 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 75
+    }
+  ],
+  "description": {
+    "zh": "好，我们继续。\n\n有几个德国那边的合作方想要他们的武器做个测试，我们就从 G36 开始。性能需要在密集林地中测试，枪上必须装有 SureFire 消音器，我估计本地的森林环境刚好合适。\n\n小心点，那里可是许多头目的活跃区。",
+    "en": "Okay, moving on.\n\nA few of our german associates wanted their weapons tested, we'll start with the G36. Performance should be tested in heavily wooded areas, you need a surefire sound suppressor on the weapon, I'd guess the local forests would be the perfect place for that.\n\nBe careful around there, lots of gangs roam around there."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "623063e994fc3f7b302a9696"
+      ],
+      "weaponNames": {
+        "623063e994fc3f7b302a9696": {
+          "zh": "HK G36 5.56x45 突击步枪",
+          "en": "HK G36 5.56x45 assault rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67487d759f790d565629d605",
+      "name": {
+        "zh": "专业射手 - 第二章",
+        "en": "Professional Weapon Tester - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67487e1e0cccda4800c62658",
+      "name": {
+        "zh": "专业射手 - 第四章",
+        "en": "Professional Weapon Tester - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_proshooter_peacekeeper_3.png",
+  "isKey": false
+}

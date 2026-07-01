@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -25,7 +29,7 @@
       "type": "ProductionScheme",
       "itemId": "66507eabf5ddb0818b085b68",
       "itemName": {
-        "zh": "2A2-(b-TG)兴奋剂注射器",
+        "zh": "2A2-(b-TG)兴奋剂注射器 ☆",
         "en": "2A2-(b-TG) stimulant injector"
       }
     }
@@ -38,7 +42,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 2,
+      "value": 1,
       "target": [
         "5c10c8fd86f7743d7d706df3"
       ],
@@ -53,7 +57,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 4,
+      "value": 1,
       "target": [
         "62a0a043cf4a99369e2624a5"
       ],
@@ -68,14 +72,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 3,
+      "value": 1,
       "target": [
         "59e3606886f77417674759a5"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "59e3606886f77417674759a5": {
-          "zh": "盐水溶液",
+          "zh": "盐水溶液 ☆",
           "en": "Bottle of saline solution"
         }
       }

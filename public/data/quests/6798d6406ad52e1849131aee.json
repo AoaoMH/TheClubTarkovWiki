@@ -1,0 +1,202 @@
+{
+  "id": "6798d6406ad52e1849131aee",
+  "name": {
+    "zh": "雇佣兵失踪事件",
+    "en": "Mercenaries Missing"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 27750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 27750
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5649ed104bdc2d3d1c8b458b",
+      "itemName": {
+        "zh": "7.62x39mm PS弹药包（20发装）",
+        "en": "7.62x39mm PS gzh ammo pack (20 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "587e02ff24597743df3deaeb",
+      "itemName": {
+        "zh": "西蒙诺夫 OP-SKS 7.62x39 卡宾枪",
+        "en": "Molot Arms Simonov OP-SKS 7.62x39 carbine"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Search",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "56e335e4d2720b6c058b456d",
+      "itemName": {
+        "zh": "Scav背包",
+        "en": "Scav backpack"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e9f2c86f77432297fe0a3",
+      "itemName": {
+        "zh": "Blackhawk! Commando胸挂（黑）",
+        "en": "BlackHawk! Commando chest harness (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "士兵，早上好，希望你状态还不错，我这边可没那么轻松。有几名兄弟被派去执行任务，但到现在都没回来，电台也联系不上他们。\n\n他们临阵脱逃的可能性不大，八成是被干掉了。但问题是，被谁？他们可不是什么菜鸟，都是经验丰富的老手。\n\n他们的任务是在森林的Emercom营地执行某项调查任务，信号就是在快到目的地前断掉的。可能是刚靠近营地就被伏击了吧？考虑到那是个医疗营地，估计会看到不少尸体，我怀疑有些遗体被丢进了集装箱里。你得检查营地里所有打开的集装箱。\n\n我那几位兄弟是USEC成员，你可以看看尸体有没有穿着USEC的制服，或者他们身上有没有什么能识别身份的装备。还有，务必小心行事，我敢肯定你在那地方绝对不是一个人，祝你好运，士兵。",
+    "en": "Good day soldier, I hope you're feeling well because I surely don't, a few of my guys were sent out for a job. However they never returned, and we could not reach them with the radio. It's unlikely that they dipped, so it's safe to assume they were killed. But by who? It's not like they're amateurs, they were actually pretty experienced operators.\n\nAnyway, I sent them out to the forest to check out the emercom camp for a certain task, we lost signal right before they got close to it. Maybe they got ambushed there? And considering that it's a medical camp you will likely find lots of bodies, I believe most of them were dumped inside containers, so I suggest checking all the opened containers inside the camp.\n\nMy guys were USEC, so check if any of the bodies wear USEC clothes or something, maybe their killers also left some gear on them that let's you identify them. And don't forget to be careful, I doubt you will be alone when searching that place, good luck out there soldier."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_emercomcamp_container_1",
+      "targetNames": {
+        "lotus_woods_emercomcamp_container_1": {
+          "zh": "lotus_woods_emercomcamp_container_1",
+          "en": "lotus_woods_emercomcamp_container_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_emercomcamp_container_2",
+      "targetNames": {
+        "lotus_woods_emercomcamp_container_2": {
+          "zh": "lotus_woods_emercomcamp_container_2",
+          "en": "lotus_woods_emercomcamp_container_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_emercomcamp_container_3",
+      "targetNames": {
+        "lotus_woods_emercomcamp_container_3": {
+          "zh": "lotus_woods_emercomcamp_container_3",
+          "en": "lotus_woods_emercomcamp_container_3"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_emercomcamp_container_4",
+      "targetNames": {
+        "lotus_woods_emercomcamp_container_4": {
+          "zh": "lotus_woods_emercomcamp_container_4",
+          "en": "lotus_woods_emercomcamp_container_4"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_emercomcamp_container_5",
+      "targetNames": {
+        "lotus_woods_emercomcamp_container_5": {
+          "zh": "lotus_woods_emercomcamp_container_5",
+          "en": "lotus_woods_emercomcamp_container_5"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_emercomcamp_container_6",
+      "targetNames": {
+        "lotus_woods_emercomcamp_container_6": {
+          "zh": "lotus_woods_emercomcamp_container_6",
+          "en": "lotus_woods_emercomcamp_container_6"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_emercomcamp_container_7",
+      "targetNames": {
+        "lotus_woods_emercomcamp_container_7": {
+          "zh": "lotus_woods_emercomcamp_container_7",
+          "en": "lotus_woods_emercomcamp_container_7"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_emercomcamp_container_8",
+      "targetNames": {
+        "lotus_woods_emercomcamp_container_8": {
+          "zh": "lotus_woods_emercomcamp_container_8",
+          "en": "lotus_woods_emercomcamp_container_8"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67475931380e79bc84d831b9",
+      "name": {
+        "zh": "莲花之光 - 第三章",
+        "en": "Light Of The Lotus - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6798d8529b81f1d84eac7c67",
+      "name": {
+        "zh": "更进一步",
+        "en": "One Step Closer"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_woods_emercomcamp.png",
+  "isKey": false
+}

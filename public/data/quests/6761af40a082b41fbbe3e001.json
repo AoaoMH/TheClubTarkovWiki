@@ -1,0 +1,229 @@
+{
+  "id": "6761af40a082b41fbbe3e001",
+  "name": {
+    "zh": "工具之道 - 第六章",
+    "en": "Tools To Work With - Part 6"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2300
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 114550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 114550
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "674da107c512807d1a0e7436",
+      "itemName": {
+        "zh": "Mystery Ranch Terraframe 背包（橄榄绿）",
+        "en": "Mystery Ranch Terraframe backpack (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0ea69f86f7741cd5406619",
+      "itemName": {
+        "zh": "疗养院东楼 108 办公室钥匙",
+        "en": "Health Resort east wing office room 108 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 10
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d2e5acfc43b321d4b53",
+      "itemName": {
+        "zh": "AK-103 7.62x39 突击步枪",
+        "en": "Kalashnikov AK-103 7.62x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d725acfc43b321d4b60",
+      "itemName": {
+        "zh": "AK-104 7.62x39 突击步枪",
+        "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5cf656f2d7f00c06585fb6eb",
+      "itemName": {
+        "zh": "VS-24 VS-33c AK护木导气箍组合",
+        "en": "AK Vezhlivyy Strelok VS-24 + VS-33c handguard with gas tube"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d4aab30a4b9365435358c55",
+      "itemName": {
+        "zh": "VS-24 + VS-33c AK 护木导气箍组合（白色）",
+        "en": "AK Vezhlivyy Strelok VS-24 + VS-33c handguard with gas tube (White)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "听好了，士兵，这次是我私人的请求。我需要为我手下的兄弟们准备新装备。如果你能帮上忙，你也会获得这些武器的使用权限。\n\n我要两把 AK-100 系列的步枪，统一使用 7.62x39 的口径，一长一短，必须用黑色的 Magpul 弹匣。其他的要求我也写下来了。\n\nAK-103 要求：\n - 后坐力总和小于 285\n - 重量小于 4.5 公斤\n - 人机功效 75 或更高\n - 耐久度至少 85 %\n - “射击场”距离 1000米 或更多\n - Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣\n\nAK-104 要求：\n - 后坐力总和小于 335\n - 重量小于 4.1 公斤\n - 人机功效 80 或更高\n - 耐久度至少 85 %\n - “射击场”距离 500米 或更多\n - 任意 独立战术手电筒\n - Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣",
+    "en": "Alright, listen up soldier, this time it's more of a personal request. I need new weapons for some of my guys, you'll receive access to these weapons yourself if you can help us out.\n\nI need two AK-100 series rifles, chambered in 7.62x39, one with a short barrel, the other one with a long barrel, both need black magpul magazines. I'll write down the other specifications for you.\n\nAK-103 Requirements :\n - Recoil Sum less than 285\n - Weight less than 4.5 KG\n - Ergonomics 75 or higher\n - Durability higher than 85 %\n - Sighting Range of 1000 Meters or more\n - AK 7.62x39 Magpul PMAG 30 GEN M3 30-Round Magazine\n\nAK-104 Requirements :\n - Recoil Sum less than 335\n - Weight less than 4.1 KG\n - Ergonomics 80 or higher\n - Durability higher than 85 %\n - Sighting Range of 500 Meters or more\n - A Standalone Flashlight\n - AK 7.62x39 Magpul PMAG 30 GEN M3 30-Round Magazine"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5ac66d2e5acfc43b321d4b53"
+      ],
+      "targetNames": {
+        "5ac66d2e5acfc43b321d4b53": {
+          "zh": "AK-103 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-103 7.62x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 75
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 285
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 1000
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 85
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.5
+        }
+      ],
+      "requiredItems": [
+        "59d6272486f77466146386ff"
+      ],
+      "requiredItemNames": {
+        "59d6272486f77466146386ff": {
+          "zh": "Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣",
+          "en": "AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5ac66d725acfc43b321d4b60"
+      ],
+      "targetNames": {
+        "5ac66d725acfc43b321d4b60": {
+          "zh": "AK-104 7.62x39 突击步枪",
+          "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 80
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 335
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 500
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 85
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.1
+        }
+      ],
+      "requiredItems": [
+        "59d6272486f77466146386ff"
+      ],
+      "requiredItemNames": {
+        "59d6272486f77466146386ff": {
+          "zh": "Pmag 30 AK/AKM GEN M3 7.62x39 30发AK兼容弹匣",
+          "en": "AK 7.62x39 Magpul PMAG 30 GEN M3 30-round magazine"
+        }
+      },
+      "requiredCategories": [
+        "55818b084bdc2d5b648b4571"
+      ],
+      "requiredCategoryNames": {
+        "55818b084bdc2d5b648b4571": {
+          "zh": "手电筒",
+          "en": "Flashlight"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6761ab808567eefeff44ec2a",
+      "name": {
+        "zh": "工具之道 - 第五章",
+        "en": "Tools To Work With - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6761b116ffdb1b7a8a15d224",
+      "name": {
+        "zh": "工具之道 - 第七章",
+        "en": "Tools To Work With - Part 7"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_6.png",
+  "isKey": false
+}

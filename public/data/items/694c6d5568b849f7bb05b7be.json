@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 60000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Rockstar Energy Drink [Rare]",
+      "en": "Rockstar Energy Drink [Rare]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "Rockstar",
+      "en": "Rockstar"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 70,000₽ | 物品价值: 60,000 | Therapist报价: 37,800₽Rockstar is scientifically formulated to provide an incredible energy boost for those who lead active and exhausting lifestyles-from athletes to rock stars. Put in the work with our original energy drink, fully-charged with B-vitamins and formulated with guarana, taurine, and caffeine to help keep you going and stay focused* with invigorating taste.",
+      "en": "跳蚤市场: 70,000₽ | 物品价值: 60,000 | Therapist报价: 37,800₽Rockstar is scientifically formulated to provide an incredible energy boost for those who lead active and exhausting lifestyles-from athletes to rock stars. Put in the work with our original energy drink, fully-charged with B-vitamins and formulated with guarana, taurine, and caffeine to help keep you going and stay focused* with invigorating taste."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,72 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.6,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 20,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Endurance",
+            "value": 5,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Strength",
+            "value": 5,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "DamageModifier",
+            "skillName": "",
+            "value": -0.03,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -5,
+            "delay": 400,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -1.5,
+            "delay": 400,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 400,
+            "duration": 60,
+            "chance": 1
+          }
+        ]
       }
     }
   },

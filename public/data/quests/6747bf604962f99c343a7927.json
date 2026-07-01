@@ -1,0 +1,115 @@
+{
+  "id": "6747bf604962f99c343a7927",
+  "name": {
+    "zh": "PMC特训：急救 - 第一章",
+    "en": "PMC Training - First Aid - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 12390,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 12390
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5af0454c86f7746bf20992e8",
+      "itemName": {
+        "zh": "铝固定夹板",
+        "en": "Aluminum splint"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5e8488fa988a8701445df1e4",
+      "itemName": {
+        "zh": "CALOK-B止血剂",
+        "en": "CALOK-B hemostatic applicator"
+      }
+    }
+  ],
+  "description": {
+    "zh": "塔科夫这鬼地方，简直是无法无天，人人都像疯了一样，随时都会有人朝你开枪。受重伤甚至丧命的风险随处可见——不过你应该早就习惯了吧。\n\n怎么样，想试试几个小挑战不？每完成一项，你都会得到更好的报酬，而且还能解锁新的医疗物资。感兴趣了吧？那就从第一项开始吧。止痛药在战斗中很重要，比如你腿中弹了，还能靠它咬牙冲刺。通常在你预感到战斗即将爆发的时候，提前吃点止痛药会比较稳妥。\n\n去练练怎么在战斗中使用止痛类药物吧，记住，针剂这种注射器不算。完成后回来找我。",
+    "en": "Tarkov is a lawless place, everyone is just so hostiles, everywhere people shoot and attack eachother. The risk of getting seriously injured or even killed is extremely high, but you likely know all that already.\n\nHow about a few little challenges? You'll get progressively better payments each time, and you will receive access to new medical goods, interested? Great! Let's start with your first task then. Pain medication is essential in combat, it let's you ignore the pain in your legs while running after you hurt them, for example. It's usually a good start to take some painkillers when you are certain that you will get into a fight any moment.\n\nLearn how to use pain-relieving meds in combat, stimulant injectors don't count. Come back when you managed that."
+  },
+  "objectives": [
+    {
+      "type": "PickUp",
+      "description": "PickUp: UseItem",
+      "value": 4,
+      "target": [
+        "544fb37f4bdc2dee738b4567",
+        "5af0548586f7743a532b7e99",
+        "590c695186f7741e566b64a2",
+        "5751a89d24597722aa0e8db0",
+        "5755383e24597772cb798966"
+      ],
+      "targetNames": {
+        "544fb37f4bdc2dee738b4567": {
+          "zh": "安乃近止痛药",
+          "en": "Analgin painkillers"
+        },
+        "5af0548586f7743a532b7e99": {
+          "zh": "布洛芬止痛药 ☆",
+          "en": "Ibuprofen painkillers"
+        },
+        "590c695186f7741e566b64a2": {
+          "zh": "力百汀抗生素药片",
+          "en": "Augmentin antibiotic pills"
+        },
+        "5751a89d24597722aa0e8db0": {
+          "zh": "金星软膏 ☆",
+          "en": "Golden Star balm"
+        },
+        "5755383e24597772cb798966": {
+          "zh": "凡士林",
+          "en": "Vaseline balm"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674722c60ad34fd118ec4c9e",
+      "name": {
+        "zh": "野战医疗",
+        "en": "Field Surgery"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c51c87a7c00a9e9e891706",
+      "name": {
+        "zh": "PMC特训：急救 - 第二章",
+        "en": "PMC Training - First Aid - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_firstaid.png",
+  "isKey": false
+}

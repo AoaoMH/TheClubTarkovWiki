@@ -1,0 +1,138 @@
+{
+  "id": "6747ba52be104f742964f8fa",
+  "name": {
+    "zh": "捡漏",
+    "en": "Valuable Payment"
+  },
+  "traderId": "58330581ace78e27b8b10cee",
+  "traderName": {
+    "zh": "Skier",
+    "en": "Skier"
+  },
+  "type": "Merchant",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "58330581ace78e27b8b10cee",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 25,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 25
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5c94bbff86f7747ee735c08f",
+      "itemName": {
+        "zh": "TerraGroup实验室访问钥匙卡 ★",
+        "en": "TerraGroup Labs access keycard"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5448ba0b4bdc2d02308b456c",
+      "itemName": {
+        "zh": "工厂出口钥匙 ★",
+        "en": "Factory emergency exit key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "65702558cfc010a0f5006a25",
+      "itemName": {
+        "zh": "7.62x51 M80弹药包（20发装） ★",
+        "en": "7.62x51mm M80 ammo pack (20 pcs)"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Item",
+      "value": 8,
+      "itemId": "5aaf8a0be5b5b00015693243",
+      "itemName": {
+        "zh": "M1A 7.62x51 20发弹匣",
+        "en": "M1A 7.62x51 20-round magazine"
+      },
+      "quantity": 8
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5aafa857e5b5b00018480968",
+      "itemName": {
+        "zh": "春田 M1A 7.62x51 精确射手步枪",
+        "en": "Springfield Armory M1A 7.62x51 rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "StashRows"
+    }
+  ],
+  "description": {
+    "zh": "嘿，干员，听好了！这件事很重要，而你是执行它的最佳人选。不过，我注意到其他人也对这笔交易感兴趣……\n我想要这笔交易，但问题是，我现在没法支付那么多钱，目前还有其他事情要处理。不过，我可以支付比别人多得多的报酬。如果你能帮我，我会给你超出你所需的酬劳。怎么样，我们有交易吗？",
+    "en": "Hey operator, listen up! This is an important matter, you are the perfect guy for this. But I noticed that the outsider got interested in that deal aswell...\n\nI want it, problem is that I am not able to pay that much right now, got other problems to handle right now. I will pay more than the others so if you can help me out, I can give you way more than you need. Do we have a deal?"
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 375,
+      "target": [
+        "569668774bdc2da2298b4568"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "569668774bdc2da2298b4568": {
+          "zh": "欧元",
+          "en": "Euros"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747b9fb1a03abf3f630ae1f",
+      "name": {
+        "zh": "新人上场",
+        "en": "New Dealer In Town"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747bae8e86c4403efa533a4",
+      "name": {
+        "zh": "限量款手办",
+        "en": "Limited Edition"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_skier.png",
+  "isKey": false
+}

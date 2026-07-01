@@ -1,0 +1,106 @@
+{
+  "id": "68c0bfe82d85ac7091436bb2",
+  "name": {
+    "zh": "蓬勃发展的生意",
+    "en": "Thriving Business"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Standing",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "56e33634d2720bd8058b456b",
+      "itemName": {
+        "zh": "旅行包",
+        "en": "Duffle bag"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c11279ad174af029d64592b",
+      "itemName": {
+        "zh": "5.56x45mm Warmageddon子弹（20发装）",
+        "en": "5.56x45mm Warmageddon ammo pack (20 pcs)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c091a4e0db834001d5addc8",
+      "itemName": {
+        "zh": "Maska-1SCh 防弹头盔（橄榄绿）",
+        "en": "Maska-1SCh bulletproof helmet (Olive Drab)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我猜你听到消息了，没有？好吧，让我分享我的智慧，捍卫者。这些走私者不只是些无名小卒，显然一些当地经销商也参与其中，我知道其中一些家伙很 shady，但是哇……不知道他们手上有这么多脏事。\n\n这个在港口工作的Skier家伙是个非常贪婪的混蛋，我知道你偶尔为他工作，所以你可能知道我在说什么。他是这条工作线上的重要人物，然而他不是唯一的一个，毕竟镇上有很多 shady people。这个“Fence”家伙就是一个完美的例子，没人知道他是谁，或者他是否甚至真实存在，我的意思是他到底是怎么回事？有传言说Fence实际上不是一个人，而是一个集体，但谁 knows and honestly who cares。\n\n他们两个都是问题。如果你有兴趣处理这个烂摊子，欢迎你想办法帮忙。",
+    "en": "I assume you have heard the news, no? Well let me share my wisdom, champion. These smugglers weren't just some nobodies, apparently some of the local dealers are involved in this aswell, I knew some of these guys were shady but wow... Didn't know they had that much dirt on their hands.\n\nThis Skier guy who works at the port is a really greedy fuck, I know you work for him occasionally, so you might know what I am talking about. He's an important player in this line of work, however he isn't the only one, after all there are many shady people in town. This \"Fence\" guy is a perfect example, nobody knows who he is or if he's even real, I mean what's the deal with him? Rumors have been floating around that Fence isn't actually one person, but a collective of them, but who knows and honestly who cares.\n\nBoth of them are a problem. In case you're interesting in taking care of this mess, you're welcome to think of a way to help with that."
+  },
+  "objectives": [
+    {
+      "type": "TraderStanding",
+      "description": "TraderStanding",
+      "value": 3,
+      "target": "579dc571d53a0658a154fbec"
+    },
+    {
+      "type": "TraderLoyalty",
+      "description": "TraderLoyalty",
+      "value": 3,
+      "target": "58330581ace78e27b8b10cee"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b07a0c7bb2dcdc1c0d572e",
+      "name": {
+        "zh": "政府合同 - 第3部分",
+        "en": "Government Contract - Part 3"
+      }
+    },
+    {
+      "id": "676af80852ad1f5baf0e8d95",
+      "name": {
+        "zh": "非法操作",
+        "en": "Absolutely Legal Operation"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c0c208f0fcd1b184750ffd",
+      "name": {
+        "zh": "说出你的价格",
+        "en": "Name Your Price"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_ref.png",
+  "isKey": false
+}

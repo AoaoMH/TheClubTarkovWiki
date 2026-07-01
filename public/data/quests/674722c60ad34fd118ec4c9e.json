@@ -1,0 +1,188 @@
+{
+  "id": "674722c60ad34fd118ec4c9e",
+  "name": {
+    "zh": "野战医疗",
+    "en": "Field Surgery"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 33550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 33550
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "60098af40accd37ef2175f27",
+      "itemName": {
+        "zh": "CAT止血带",
+        "en": "CAT hemostatic tourniquet"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5af0454c86f7746bf20992e8",
+      "itemName": {
+        "zh": "铝固定夹板",
+        "en": "Aluminum splint"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5755383e24597772cb798966",
+      "itemName": {
+        "zh": "凡士林",
+        "en": "Vaseline balm"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d02778e86f774203e7dedbe",
+      "itemName": {
+        "zh": "CMS手术包",
+        "en": "CMS surgical kit"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "544fb3f34bdc2d03748b456a",
+      "itemName": {
+        "zh": "吗啡注射器",
+        "en": "Morphine injector"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，士兵。我有一个任务给你，你有兴趣吗？太好了！听好，我们的医疗物资有些短缺，我的团队在寻找急救包时有点吃力。你能帮我们吗？\n\n如果你能收集到每种急救包就太好了，小的、大的、超大的。记得带全新的急救包，我要最优质的急救物资，明白了吗？出发吧，士兵，祝你好运。",
+    "en": "Hello soldier, I got a job for you, are you interested? Good! Listen up, we are running kinda low on medical supplies and my guys struggled a bit with finding first aid kits and stuff like that. Can you help us out?\n\nIt would be great if you manage to aquire a few of every kind, small ones, big ones, extra big ones. Make sure to bring me some that werent used already! I want top quality first aid kits, understood? Off you go soldier, and good luck."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "60098ad7c2240c0fe85c570a",
+        "590c678286f77426c9660122",
+        "590c661e86f7741e566b646a",
+        "544fb45d4bdc2dee738b4568",
+        "590c657e86f77412b013051d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "60098ad7c2240c0fe85c570a": {
+          "zh": "AFAK单兵战术急救包",
+          "en": "AFAK tactical individual first aid kit"
+        },
+        "590c678286f77426c9660122": {
+          "zh": "IFAK单兵战术急救包",
+          "en": "IFAK individual first aid kit"
+        },
+        "590c661e86f7741e566b646a": {
+          "zh": "车载急救包",
+          "en": "Car first aid kit"
+        },
+        "544fb45d4bdc2dee738b4568": {
+          "zh": "Salewa急救包",
+          "en": "Salewa first aid kit"
+        },
+        "590c657e86f77412b013051d": {
+          "zh": "Grizzly急救包",
+          "en": "Grizzly medical kit"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "60098ad7c2240c0fe85c570a",
+        "590c678286f77426c9660122",
+        "590c661e86f7741e566b646a",
+        "544fb45d4bdc2dee738b4568",
+        "590c657e86f77412b013051d"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "60098ad7c2240c0fe85c570a": {
+          "zh": "AFAK单兵战术急救包",
+          "en": "AFAK tactical individual first aid kit"
+        },
+        "590c678286f77426c9660122": {
+          "zh": "IFAK单兵战术急救包",
+          "en": "IFAK individual first aid kit"
+        },
+        "590c661e86f7741e566b646a": {
+          "zh": "车载急救包",
+          "en": "Car first aid kit"
+        },
+        "544fb45d4bdc2dee738b4568": {
+          "zh": "Salewa急救包",
+          "en": "Salewa first aid kit"
+        },
+        "590c657e86f77412b013051d": {
+          "zh": "Grizzly急救包",
+          "en": "Grizzly medical kit"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674721e986f435b80234da65",
+      "name": {
+        "zh": "家居用品",
+        "en": "Household Goods"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67472e831d2ad53e655d30e6",
+      "name": {
+        "zh": "致幻剂 - 第一章",
+        "en": "Narcotic - Part 1"
+      }
+    },
+    {
+      "id": "6747bf604962f99c343a7927",
+      "name": {
+        "zh": "PMC特训：急救 - 第一章",
+        "en": "PMC Training - First Aid - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_fieldsurgery.png",
+  "isKey": false
+}

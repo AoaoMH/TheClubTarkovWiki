@@ -1,0 +1,104 @@
+{
+  "id": "694dc176d149fc1d52000003",
+  "name": {
+    "zh": "失协",
+    "en": "UNcoordinated"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 350,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 350
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "693742e7eab3af9d89349410",
+      "itemName": {
+        "zh": "M107A1 \"巴雷特\" .50 BMG 反器材步枪",
+        "en": "Barrett M107A1 .50 BMG anti-material rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "693742e7eab3af9d89349410",
+      "itemName": {
+        "zh": "M107A1 \"巴雷特\" .50 BMG 反器材步枪",
+        "en": "Barrett M107A1 .50 BMG anti-material rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，雇佣兵，我们有麻烦了。跟往常一样，又是钱的问题，不过别担心，我现在不是找你要更多钱。你可以用另一种方式来充实我们的金库。你看，就目前而言，我的……上级并不觉得这里的情况有多值得关注，也不觉得有多危险。我想给他们一点暗示，用证据来证明我们需要更重的火力来保护我们在这个地区的利益。我在想，那些我在这一带看到过的BTR装甲车，需要一些标准炮弹——从储备站基地军械库里消失，然后在锯木厂以北几百米处BTR停靠的地方重新出现。你可能会在他们的车场附近找到一些，毕竟他们维修的时候必须把炮卸下来。跟往常一样，事成之后你的口袋会鼓起来。去办吧。",
+    "en": "Hey merc, we've got an issue. As usual it's money, but don't worry I'm not asking you for more at the moment. You can fill our coffers as needed another way. You see as of right now my... management doesn't see things here as particularly noteworthy or dangerous. I'd like to put a bug in their ear with evidence to prove that we need some heavier firepower to protect us in the region. I'm thinking some standard shells for the BTR I've seen wandering around the area should disappear from the reserve base arsenal and reappear at the place where the BTR stops a couple hundred meters north of the sawmill. You might find some around their motorpool, they have to unload the guns to work on them after all. As always, you'll find your pockets full after the fact. See to it."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "694da5f84825e8c609000001"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "694da5f84825e8c609000001": {
+          "zh": "一箱OFZ 30x165mm炮弹",
+          "en": "Crate of OFZ 30x165mm shells"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "694da5f84825e8c609000001"
+      ],
+      "targetNames": {
+        "694da5f84825e8c609000001": {
+          "zh": "一箱OFZ 30x165mm炮弹",
+          "en": "Crate of OFZ 30x165mm shells"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "5c0d4c12d09282029f539173",
+      "name": {
+        "zh": "维和任务",
+        "en": "Peacekeeping Mission"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/UNcoordinated_Main.jpg",
+  "isKey": false
+}

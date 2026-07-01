@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -46,7 +50,7 @@
       "value": 1,
       "itemId": "5751a89d24597722aa0e8db0",
       "itemName": {
-        "zh": "金星软膏",
+        "zh": "金星软膏 ☆",
         "en": "Golden Star balm"
       },
       "quantity": 1
@@ -68,7 +72,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 4,
+      "value": 1,
       "target": [
         "59e7715586f7742ee5789605"
       ],
@@ -83,7 +87,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 4,
+      "value": 1,
       "target": [
         "59e7715586f7742ee5789605"
       ],
@@ -98,7 +102,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 3,
+      "value": 1,
       "target": [
         "5b4335ba86f7744d2837a264"
       ],
@@ -113,7 +117,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 3,
+      "value": 1,
       "target": [
         "5b4335ba86f7744d2837a264"
       ],

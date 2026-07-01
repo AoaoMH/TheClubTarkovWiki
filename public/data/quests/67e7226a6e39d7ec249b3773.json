@@ -1,0 +1,179 @@
+{
+  "id": "67e7226a6e39d7ec249b3773",
+  "name": {
+    "zh": "工具之道 - 第十八章",
+    "en": "Tools To Work With - Part 18"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7550
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 3750,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 3750
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "6489848173c462723909a14b",
+      "itemName": {
+        "zh": ".338 Lapua Magnum AP弹药包（20发装）",
+        "en": ".338 Lapua Magnum AP ammo pack (20 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5f60c74e3b85f6263c145586",
+      "itemName": {
+        "zh": "Rys-T 防弹头盔（黑色）",
+        "en": "Rys-T bulletproof helmet (Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c8c5dbfd5e4b95197e6b",
+      "itemName": {
+        "zh": "TerraGroup \"蓝色文件夹\" 材料 ★",
+        "en": "TerraGroup \"Blue Folders\" materials"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 30
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "673cab3e03c6a20581028bc1",
+      "itemName": {
+        "zh": "Sako TRG M10 .338 LM 栓动狙击步枪",
+        "en": "Sako TRG M10 .338 LM bolt-action sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "62811e335631d45211793c95",
+      "itemName": {
+        "zh": "AI AXMC GTAC AR-type手枪式握把转换器",
+        "en": "AI AXMC GTAC AR-type pistol grip adapter"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fc22d7c187fea44d52eda44",
+      "itemName": {
+        "zh": "SWORD International Mk-18 .338 LM 精确射手步枪 ★",
+        "en": "SWORD International Mk-18 .338 LM marksman rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "这次是私人事务，是要送给我朋友的礼物。一把半自动 .338 Lapua Magnum 步枪最合适不过了。\n\n这枪需要配两脚架，镜子方面要装 Nightforce 的 7-35 倍镜。枪口初速得有 890 米/秒以上，弹匣至少能装十发。明白了吗？那就交给你了。\n\nMK-18 要求：\n - 后坐力总和小于 890\n - 重量小于 9.0 公斤\n - 人机功效 25 或更高\n - 耐久度至少 95 %\n - 弹匣容量 10 或更多\n - 膛口初速 达到 890 M/s 或更多\n - 任意 脚架\n - Nightforce ATACR 7-35x56步枪瞄准镜",
+    "en": "This is a personal matter again, it's a gift for a friend of mine. A semi-automatic .338 Lapua Magnum rifle would be ideal.\n\nIt should have a bipod and be equipped with a nightforce 7-35x scope. A muzzle velocity of at least eight-hundred-ninety meters should do the job, additionally it should hold at least ten rounds in the magazine. Got it? Alright then.\n\nMK-18 Requirements :\n - Recoil Sum less than 890\n - Weight less than 9.0 KG\n - Ergonomics 25 or higher\n - Durability higher than 95 %\n - Magazine Capacity of 10 or more\n - Muzzle Velocity of 890 M/s or more\n - A Bipod\n - Nightforce ATACR 7-35x56 34mm Riflescope"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5fc22d7c187fea44d52eda44"
+      ],
+      "targetNames": {
+        "5fc22d7c187fea44d52eda44": {
+          "zh": "SWORD International Mk-18 .338 LM 精确射手步枪 ★",
+          "en": "SWORD International Mk-18 .338 LM marksman rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 25
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 890
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 95
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 10
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 9
+        },
+        {
+          "stat": "muzzleVelocity",
+          "compare": ">=",
+          "value": 890
+        }
+      ],
+      "requiredItems": [
+        "5aa66be6e5b5b0214e506e97"
+      ],
+      "requiredItemNames": {
+        "5aa66be6e5b5b0214e506e97": {
+          "zh": "Nightforce ATACR 7-35x56步枪瞄准镜 ☆",
+          "en": "Nightforce ATACR 7-35x56 34mm riflescope"
+        }
+      },
+      "requiredCategories": [
+        "55818afb4bdc2dde698b456d"
+      ],
+      "requiredCategoryNames": {
+        "55818afb4bdc2dde698b456d": {
+          "zh": "脚架",
+          "en": "Bipod"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67e72254ae7dd39115ac0b81",
+      "name": {
+        "zh": "工具之道 - 第十七章",
+        "en": "Tools To Work With - Part 17"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_18.png",
+  "isKey": false
+}

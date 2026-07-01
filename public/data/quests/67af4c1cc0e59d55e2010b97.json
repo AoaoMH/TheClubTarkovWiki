@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Skill",
@@ -46,7 +50,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 8,
+      "value": 2,
       "target": [
         "5d40407c86f774318526545a"
       ],
@@ -61,7 +65,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 15,
+      "value": 4,
       "target": [
         "5d403f9186f7743cac3f229b"
       ],
@@ -76,14 +80,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 15,
+      "value": 4,
       "target": [
         "5d1b376e86f774252519444e"
       ],
       "onlyFoundInRaid": false,
       "targetNames": {
         "5d1b376e86f774252519444e": {
-          "zh": "“凶狠跑刀崽”私酒",
+          "zh": "“凶狠跑刀崽”私酒 ☆",
           "en": "Bottle of Fierce Hatchling moonshine"
         }
       }

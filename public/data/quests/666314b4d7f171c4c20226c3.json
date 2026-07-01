@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -69,8 +73,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: Kills+Equipment",
-      "value": 10,
+      "description": "Elimination: Kills",
+      "value": 2,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
@@ -86,8 +90,7 @@
           "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
           "en": "Colt M4A1 5.56x45 assault rifle"
         }
-      },
-      "location": "factory4_night,factory4_day"
+      }
     }
   ],
   "prerequisites": [

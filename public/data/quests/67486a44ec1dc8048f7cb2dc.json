@@ -1,0 +1,151 @@
+{
+  "id": "67486a44ec1dc8048f7cb2dc",
+  "name": {
+    "zh": "东方联盟 - 第七章",
+    "en": "Eastern Reliability - Part 7"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8100
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 94450,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 94450
+    },
+    {
+      "type": "Item",
+      "value": 12,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 12
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5d80ccdd86f77474f7575e02",
+      "itemName": {
+        "zh": "RB-ORB2钥匙 ☆",
+        "en": "RB-ORB2 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e01ea19e9dc277128008c0b",
+      "itemName": {
+        "zh": "Rotor 43 7.62x54R 消音器",
+        "en": "Rotor 43 7.62x54R sound suppressor"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "615d8f8567085e45ef1409ca",
+      "itemName": {
+        "zh": "AK Hexagon \"Wafflemaker\" 5.45x39声音抑制器",
+        "en": "AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 20,
+      "itemId": "648983d6b5a2df1c815a04ec",
+      "itemName": {
+        "zh": "12.7x55mm PS12B（10发装）",
+        "en": "12.7x55mm PS12B (10 pcs)"
+      },
+      "quantity": 20
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 125
+    },
+    {
+      "type": "Skill",
+      "target": "Revolver",
+      "value": 125
+    }
+  ],
+  "description": {
+    "zh": "这类大家伙的测试不能随便交给谁，我得找个有经验的人。你觉得你够格吗？\n\n你可以选择 ASh-12 突击步枪或者 RSh-12 转轮手枪，装上 30mm 光学瞄具，是的，连转轮也得装，不少 PMC 就是这么干的。带它们去储备站清理点目标，回来告诉我表现如何。\n\n明白了吗？那就行动吧，士兵，别闹出太大动静。",
+    "en": "I need these big guns tested by someone experienced, do you think you're good enough for this kind of work?\n\nIt's the ASh-12 assault rifle and the RSh-12 revolver, choose one of them and bring them to the military base. Either of those need to have a 30mm scope attached, yes even the revolver, I saw people like you use them in this configuration before, you operators can be weird at times. Take out some targets there and come back.\n\nUnderstood? Alright then warrior, I'm sure you won't get into too much trouble."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5cadfbf7ae92152ac412eeef",
+        "633ec7c2a6918cb895019c6c"
+      ],
+      "weaponNames": {
+        "5cadfbf7ae92152ac412eeef": {
+          "zh": "ASh-12 12.7x55 突击步枪",
+          "en": "ASh-12 12.7x55 assault rifle"
+        },
+        "633ec7c2a6918cb895019c6c": {
+          "zh": "RSh-12 12.7x55转轮手枪",
+          "en": "RSh-12 12.7x55 revolver"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674869c190ca5803d23b7ea5",
+      "name": {
+        "zh": "东方联盟 - 第六章",
+        "en": "Eastern Reliability - Part 6"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67486a921ef237f01abfd45f",
+      "name": {
+        "zh": "东方联盟 - 第八章",
+        "en": "Eastern Reliability - Part 8"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_easternreliability_7_prapor.png",
+  "isKey": false
+}

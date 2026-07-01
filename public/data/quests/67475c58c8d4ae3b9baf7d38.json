@@ -1,0 +1,127 @@
+{
+  "id": "67475c58c8d4ae3b9baf7d38",
+  "name": {
+    "zh": "莲花之光 - 第四章",
+    "en": "Light Of The Lotus - Part 4"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 15520,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 15520
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62389aaba63f32501b1b444f",
+      "itemName": {
+        "zh": "26x75燃烧照明信号弹（绿色）",
+        "en": "26x75mm flare cartridge (Green)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b44d22286f774172b0c9de8",
+      "itemName": {
+        "zh": "BNTI Kirasa-N 防弹衣",
+        "en": "BNTI Kirasa-N body armor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5780cf942459777df90dcb72",
+      "itemName": {
+        "zh": "宿舍214房间钥匙",
+        "en": "Dorm room 214 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "56dff3afd2720bba668b4567",
+      "itemName": {
+        "zh": "5.45x39毫米 PS",
+        "en": "5.45x39mm PS gs"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，现在我们已经知道了如何从那个地方安全撤离的方法了。但这地方比你想象的要复杂得多。\n\n我的几个人在地下停车场附近发现了一个奇怪的房间……很奇怪。\n想去看看吗？我听说门是锁着的，也许有一天你会找到钥匙，又或者已经有了。\n如果你能进去，可以把里面的东西带走，同时如果你发现了什么值得一提的东西，记得告诉我，明白了吗？找到房间的门后，调查完后你就离开了，知道了吗？希望我很快就能听到你的消息。",
+    "en": "Alright, now we know where we can safely extract from that place. But there is way more to it than you would think.\n\nA few of my guys located a weird room somewhere near the underground near a parkinglot... strange.\nWanna check it out? I heard it's locked tho, you might find a key some day, or already have it.\nKeep whatever is inside there if you manage to get in there, but let me know if you find something worth mentioning, got it?\nAfter you located the door to the room, you gotta get out of there, understood? I'll hear from you soon."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_underground_utility_outside",
+      "targetNames": {
+        "lotus_groundzero_underground_utility_outside": {
+          "zh": "lotus_groundzero_underground_utility_outside",
+          "en": "lotus_groundzero_underground_utility_outside"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67475931380e79bc84d831b9",
+      "name": {
+        "zh": "莲花之光 - 第三章",
+        "en": "Light Of The Lotus - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67475dbb321ddf314e6fbcad",
+      "name": {
+        "zh": "莲花之光 - 第五章",
+        "en": "Light Of The Lotus - Part 5"
+      }
+    },
+    {
+      "id": "67f0fe25a1cd83e3b2ec082f",
+      "name": {
+        "zh": "不用再找了",
+        "en": "Look No Further"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_4.png",
+  "isKey": false
+}

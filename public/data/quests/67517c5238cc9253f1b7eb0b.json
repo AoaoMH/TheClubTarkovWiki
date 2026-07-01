@@ -1,0 +1,133 @@
+{
+  "id": "67517c5238cc9253f1b7eb0b",
+  "name": {
+    "zh": "步步为营 - 第四章",
+    "en": "Taking Every Round Into Account - Part 4"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 400,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 400
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "65702554bfc87b3a34093247",
+      "itemName": {
+        "zh": "7.62x51 M62曳光弹弹药包（20发装）",
+        "en": "7.62x51mm M62 Tracer ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "55d482194bdc2d1d4e8b456b",
+      "itemName": {
+        "zh": "6L31 5.45x39 60发AK-74兼容弹匣",
+        "en": "AK-74 5.45x39 6L31 60-round magazine"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "65293c7a17e14363030ad308",
+      "itemName": {
+        "zh": "AR-10 7.62x51 Lancer L7AWM 25发容量弹匣",
+        "en": "AR-10 7.62x51 Lancer L7AWM 25-round magazine"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Skill",
+      "target": "MagDrills",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "544a37c44bdc2d25388b4567",
+      "itemName": {
+        "zh": "MAG5-60 5.56x45 60发STANAG弹匣",
+        "en": "AR-15 5.56x45 SureFire MAG5-60 STANAG 60-round magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "59c1383d86f774290a37e0ca",
+      "itemName": {
+        "zh": "Magpul PMAG D-60 5.56x45 60发弹匣",
+        "en": "AR-15 5.56x45 Magpul PMAG D-60 STANAG 60-round magazine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "和之前一样，许多行动人员讨厌使用这些“垃圾”。他们如果拿不到多于20发的弹匣就完全不会使用这些武器，但很遗憾，明明这些都是好枪。总之，可能有理由让人们不喜欢这些弹匣，而你即将发现原因，或者人们是否对它们评价其实过于苛刻了呢。\n\n指定弹匣：\n - KAC Steel 10 7.62x51 10发\n - HK417 或 G28 7.62x51 10发弹匣",
+    "en": "Same story as before, operators hate using these. They totally avoid using the guns if they cannot get their hands on the twenty-rounders, shame, because those are great guns. Anyway, maybe it has a reason that people avoid these magazines, and you are about to find out why, or if people judge it too quickly.\n\nSpecified Magazines :\n - AR-10 7.62x51 KAC 10-Round Steel Magazine\n - HK417 / G28 7.62x51 10-Round Magazine"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 3,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67517c148266e90a41acd3a1",
+      "name": {
+        "zh": "步步为营 - 第三章",
+        "en": "Taking Every Round Into Account - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67517c8c5c2a6190c8dae8a4",
+      "name": {
+        "zh": "步步为营 - 第五章",
+        "en": "Taking Every Round Into Account - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_magazines.png",
+  "isKey": false
+}

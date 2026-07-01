@@ -1,0 +1,102 @@
+{
+  "id": "6877096d5299037a1c4b7b2f",
+  "name": {
+    "zh": "武器测试：Scav",
+    "en": "Weapons Trial: Scavs"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4500
+    },
+    {
+      "type": "Item",
+      "value": 150,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 150
+    }
+  ],
+  "description": {
+    "zh": "听好了——我进了一批武器，但我需要有人帮我做点测试，看看值不值得。你是最合适的人选，拿着这把枪，去替我干掉几个Scav。这事对你来说应该易如反掌。我也会给你一些现金作为酬劳。祝你好运！",
+    "en": "Here is the scoop - I got some weapons in, but I need someone to do a little bit of testing for me to see if they are worth it. You are the best man for the job, so take this gun and go kill some Scavs for me. This should be pretty easy for you. I will give you some cash also for doing so. Good luck!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "6671ebcdd32bd95eb398e920"
+      ],
+      "weaponNames": {
+        "6671ebcdd32bd95eb398e920": {
+          "zh": "博福斯Ak5C 5.56x45毫米突击步枪",
+          "en": "Bofors Ak5C 5.56x45 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "6671ebcdd32bd95eb398e920"
+      ],
+      "weaponNames": {
+        "6671ebcdd32bd95eb398e920": {
+          "zh": "博福斯Ak5C 5.56x45毫米突击步枪",
+          "en": "Bofors Ak5C 5.56x45 assault rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "683645245a1c12488166b1a5",
+      "name": {
+        "zh": "北欧遗物",
+        "en": "Nordic Remnants"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68784cf8dbe00560604d51e1",
+      "name": {
+        "zh": "武器测试：PMC",
+        "en": "Weapons Trial: PMCs"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/5967505886f774590730dadc.jpg",
+  "isKey": false
+}

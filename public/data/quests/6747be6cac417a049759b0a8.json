@@ -1,0 +1,113 @@
+{
+  "id": "6747be6cac417a049759b0a8",
+  "name": {
+    "zh": "PMC特训：地毯式搜刮 - 第一章",
+    "en": "PMC Training - Looter - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 2650
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 10450,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 10450
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6034d103ca006d2dca39b3f0",
+      "itemName": {
+        "zh": "Hazard4 Takedown 吊带背包",
+        "en": "Hazard 4 Takedown sling backpack (Black)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6038d614d10cbf667352dd44",
+      "itemName": {
+        "zh": "Hazard4 Takedown 吊带背包 (multicam)",
+        "en": "Hazard 4 Takedown sling backpack (MultiCam)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我怀疑你以前在部队的时候是否有人教过你如何正确的搜刮物资，但在塔科夫这样的地方生存你就必须要学会这些技能。学习在哪里寻找材料、药品、弹药等等啥都要会。你还需要练一练你的肺活量，毕竟你总得设法把所有东西带回家的。证明一下自己，或许以后我会考虑为你提供一些装备支持。",
+    "en": "I doubt that they trained you to scavenge for loot in your old unit, but these skills are needed to survive here. Learn where to look for materials, meds, ammo, everything. You also need to train your stamina, after all you gotta manage to carry out all your stuff to exfiltration. Prove it and I might supply you with some gear."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Attention",
+      "value": 3,
+      "target": "Attention"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: Endurance",
+      "value": 3,
+      "target": "Endurance"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: Strength",
+      "value": 3,
+      "target": "Strength"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674721e986f435b80234da65",
+      "name": {
+        "zh": "家居用品",
+        "en": "Household Goods"
+      }
+    },
+    {
+      "id": "674720e808312fa336c68ee6",
+      "name": {
+        "zh": "燃料供给 - 第一章",
+        "en": "Fuelist - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67472ac35a736a84d3d9efc5",
+      "name": {
+        "zh": "搬运工 - 第一章",
+        "en": "Carrier - Part 1"
+      }
+    },
+    {
+      "id": "66c021dc9289486ef682c2e4",
+      "name": {
+        "zh": "PMC特训：地毯式搜刮 - 第二章",
+        "en": "PMC Training - Looter - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_loot.png",
+  "isKey": false
+}

@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -105,7 +109,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 10,
+      "value": 2,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {

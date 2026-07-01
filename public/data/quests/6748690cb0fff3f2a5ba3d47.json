@@ -1,0 +1,146 @@
+{
+  "id": "6748690cb0fff3f2a5ba3d47",
+  "name": {
+    "zh": "东方联盟 - Part 4",
+    "en": "Eastern Reliability - Part 4"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 67500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 67500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "59fb257e86f7742981561852",
+      "itemName": {
+        "zh": "AKM Zenit DTK-4M 7.62x39膛口制退器",
+        "en": "AKM Zenit DTK-4M 7.62x39 sound suppressor"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 8,
+      "itemId": "64ace9f9c4eda9354b0226aa",
+      "itemName": {
+        "zh": "7.62x39mm PP gzh弹药包（20发装） ☆",
+        "en": "7.62x39mm PP gzh ammo pack (20 pcs)"
+      },
+      "quantity": 8
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5cbdc23eae9215001136a407",
+      "itemName": {
+        "zh": "Molot 75发AK兼容弹鼓",
+        "en": "AK 7.62x39 Molot Arms 75-round drum magazine"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 150
+    }
+  ],
+  "description": {
+    "zh": "啊…经典老枪 —— AKM，一切的开始……\n\n但站在你枪口下的人可不会觉得怀旧，他们只会后悔来到了塔科夫。\n\n我给你安排好了地方，去 ULTRA 商场里做测试，那地方四通八达、近战频发，正合适。\n你在里面不会迷路吧？小心点，那里可是常年有伏击。\n\n别忘了把 Valday 光学瞄具装上，完成后回来找我领报酬。",
+    "en": "A classic - the AKM, what it all started...\n\nThe people who are gonna stand at the receiving end of your barrel won't have such a good time, let me assure you that!\n\nI got the perfect place for you to test this machine, in the ULTRA shopping mall! You are able to navigate around inside there, right? Never let your guard down inside there, trust me.\n\nYour rifle needs to be equipped with a valday optic. Come back when you're done."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "59d6088586f774275f37482f",
+        "5a0ec13bfcdbcb00165aa685",
+        "59ff346386f77477562ff5e2",
+        "5abcbc27d8ce8700182eceeb",
+        "59e6152586f77473dc057aa1",
+        "59e6687d86f77411d949b251"
+      ],
+      "weaponNames": {
+        "59d6088586f774275f37482f": {
+          "zh": "AKM 7.62×39 突击步枪",
+          "en": "Kalashnikov AKM 7.62x39 assault rifle"
+        },
+        "5a0ec13bfcdbcb00165aa685": {
+          "zh": "AKMN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMN 7.62x39 assault rifle"
+        },
+        "59ff346386f77477562ff5e2": {
+          "zh": "AKMS 7.62×39 突击步枪",
+          "en": "Kalashnikov AKMS 7.62x39 assault rifle"
+        },
+        "5abcbc27d8ce8700182eceeb": {
+          "zh": "AKMSN 7.62x39 突击步枪",
+          "en": "Kalashnikov AKMSN 7.62x39 assault rifle"
+        },
+        "59e6152586f77473dc057aa1": {
+          "zh": "Vepr KM / VPO-136 7.62x39 卡宾枪",
+          "en": "Molot Arms VPO-136 Vepr-KM 7.62x39 carbine"
+        },
+        "59e6687d86f77411d949b251": {
+          "zh": "Vepr AKM / VPO-209 .366TKM 卡宾枪",
+          "en": "Molot Arms VPO-209 .366 TKM carbine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67486879604d84c3e3e3ddd0",
+      "name": {
+        "zh": "东方联盟 - 第三章",
+        "en": "Eastern Reliability - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6748694525ed5b74088bbd08",
+      "name": {
+        "zh": "东方联盟 - 第五章",
+        "en": "Eastern Reliability - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_easternreliability_4_prapor.png",
+  "isKey": false
+}

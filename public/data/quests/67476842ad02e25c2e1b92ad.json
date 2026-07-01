@@ -1,0 +1,171 @@
+{
+  "id": "67476842ad02e25c2e1b92ad",
+  "name": {
+    "zh": "莲花之光 - 第十四章",
+    "en": "Light Of The Lotus - Part 14"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Completion",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 75250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75250
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60391a8b3364dc22b04d0ce5",
+      "itemName": {
+        "zh": "罐装铝热剂",
+        "en": "Can of thermite"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60391b0fb847c71012789415",
+      "itemName": {
+        "zh": "TP-200 砖型TNT",
+        "en": "TP-200 TNT brick"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5656eb674bdc2d35148b457c",
+      "itemName": {
+        "zh": "40毫米VOG-25榴弹",
+        "en": "40mm VOG-25 grenade"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62e7e7bbe6da9612f743f1e0",
+      "itemName": {
+        "zh": "GP-25“篝火”40 毫米下挂式榴弹发射器",
+        "en": "GP-25 Kostyor 40mm underbarrel grenade launcher"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64637076203536ad5600c990",
+      "itemName": {
+        "zh": "PKM 7.62x54R机枪 ★",
+        "en": "Kalashnikov PKM 7.62x54R machine gun"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "661cec09b2c6356b4d0c7a36",
+      "itemName": {
+        "zh": "U.S Ordnance M60E6 7.62x51轻机枪（FDE）",
+        "en": "U.S. Ordnance M60E6 7.62x51 light machine gun (FDE)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "661ceb1b9311543c7104149b",
+      "itemName": {
+        "zh": "U.S Ordnance M60E6 7.62x51轻机枪",
+        "en": "U.S. Ordnance M60E6 7.62x51 light machine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "说实话一开始我并不在意TerragroupTerraGroup集团的生意，但现在他们确实让我重新思考他们的价值。我们到处都能看到他们的标志，以及带有TerragroupTerraGroup集团字样的卡车和货物。不过，有一辆车与其他的不同，它在商业中心的TerraGroup集团总部附近。你能帮我检查一下吗？\n\n一定要查看货物内部，如果需要的话放置一个标记器。完成后清理周围来捣乱的人，明白了吗？很好。",
+    "en": "I did not really care about Terragroups business at first but they really made me think about it now. We keep seeing their symbol everywhere, and also trucks and cargo with Terragroup writing. One of them stood out from the others tho, the one near the Terragroup headquarter in the business center. Can you check it out for me?\n\nMake sure to actually check out the inside of the cargo, put down a marker if needed. And after you are done get rid of some scum that is lurking around there. Understood? Great."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_terragroup_truck",
+      "targetNames": {
+        "lotus_groundzero_terragroup_truck": {
+          "zh": "lotus_groundzero_terragroup_truck",
+          "en": "lotus_groundzero_terragroup_truck"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747666815fa03b3fc03a041",
+      "name": {
+        "zh": "莲花之光 - 第十三章",
+        "en": "Light Of The Lotus - Part 13"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674768fd740e1d790ed07302",
+      "name": {
+        "zh": "莲花之光 - 第十五章",
+        "en": "Light Of The Lotus - Part 15"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_14.png",
+  "isKey": false
+}

@@ -1,0 +1,173 @@
+{
+  "id": "677a55a0be2a8922dab9e040",
+  "name": {
+    "zh": "十六吨重的备件",
+    "en": "Sixteen Tons Of Spare Parts"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 72250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 72250
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "57372ebf2459776862260582",
+      "itemName": {
+        "zh": "5.45x39mm PS弹药包（30发装）",
+        "en": "5.45x39mm PS gs ammo pack (30 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "564ca99c4bdc2d16268b4589",
+      "itemName": {
+        "zh": "6L20 5.45x39 30发AK-74兼容弹匣",
+        "en": "AK-74 5.45x39 6L20 30-round magazine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "583990e32459771419544dd2",
+      "itemName": {
+        "zh": "AKS-74UN 5.45x39 短突击步枪",
+        "en": "Kalashnikov AKS-74UN 5.45x39 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b1fa9b25acfc40018633c01",
+      "itemName": {
+        "zh": "GLOCK 18C 9x19 冲锋手枪",
+        "en": "Glock 18C 9x19 machine pistol"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a7ae0c351dfba0017554310",
+      "itemName": {
+        "zh": "GLOCK 17 9x19手枪",
+        "en": "Glock 17 9x19 pistol"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，希望你今天状态不错。有个小活儿你感兴趣吗？\n\n最近有个承包商联系了我，他专门研究军用机械，尤其是冷战时期的车辆。塔科夫这地方对他来说简直是宝藏——俄罗斯这边还有大把上了年头的军用装备随处可见。\n\n你肯定想知道任务内容吧？行，那我就直说了。老化工厂里停着两辆军用卡车，没人动过，状态几乎完美，正适合我们的人需要。\n\n你得找到这两辆车，并做好标记。我可以提供两个 MS2000 标记器给你，不过别搞丢了，搞丢了我可不会再给你新的。标记完成后，活着撤出去，再来找我报到，后续的事不用你管。",
+    "en": "Good day, I hope you're feeling well. Interested in a little job?\nRecently I have been contacted by another contractor, he specializes in military machinery, specifically vehicles from the cold-war era. You see, Tarkov is more than perfect for this guy since russia still has a bunch decade old equipment left and it's lying around everywhere.\n\nAnyway, you wanna know what your task is, yeah? Alright alright, there should be two whole military trucks parked inside the old chemical factory, untouched, basically perfect condition for this matter. Since nobody would bother with getting these old timers out of that place.\n\nLocate them, and place down markers, I can lend you two for this job but don't ask for new ones if you mess up! After you're done get out of there alive and report back to me, rest of the job shouldn't be our concern."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_factory_ural_1",
+      "targetNames": {
+        "lotus_factory_ural_1": {
+          "zh": "lotus_factory_ural_1",
+          "en": "lotus_factory_ural_1"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_factory_ural_2",
+      "targetNames": {
+        "lotus_factory_ural_2": {
+          "zh": "lotus_factory_ural_2",
+          "en": "lotus_factory_ural_2"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674751d636b2485baddcf5cc",
+      "name": {
+        "zh": "献祭 - 第一章",
+        "en": "Pokloneniye - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67d769c37a074517a838b60b",
+      "name": {
+        "zh": "丰盈满溢的备件",
+        "en": "A Whole Reserve Of Spare Parts"
+      }
+    },
+    {
+      "id": "677b03604996670857682f5c",
+      "name": {
+        "zh": "超自然现象",
+        "en": "Paranormal Activities"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ural_factory.png",
+  "isKey": false
+}

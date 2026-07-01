@@ -1,0 +1,127 @@
+{
+  "id": "66c244489cd554035b1ba245",
+  "name": {
+    "zh": "PMC特训：突击兵 - 第二章",
+    "en": "PMC Training - Infantry - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Skill",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 14250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 14250
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0505e00db834001b735073",
+      "itemName": {
+        "zh": "Valday PK-120 (1P87) 反射式瞄具",
+        "en": "Valday PK-120 (1P87) reflex sight"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "609a63b6e2ff132951242d09",
+      "itemName": {
+        "zh": "Krechet反射式瞄具",
+        "en": "Valday Krechet reflex sight"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "63d114019e35b334d82302f7",
+      "itemName": {
+        "zh": "SAG AK燕尾侧基座",
+        "en": "SAG AK dovetail sidemount"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a0060fc86f7745793204432",
+      "itemName": {
+        "zh": "Izhmash 7.62x39 AKMS 30发铝制AK兼容弹匣",
+        "en": "AKMS 7.62x39 aluminium 30-round magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "564ca9df4bdc2d35148b4569",
+      "itemName": {
+        "zh": "6L18 5.45x39 45发AK-74兼容弹匣",
+        "en": "AK-74 5.45x39 6L18 45-round magazine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "训练是永远不嫌多的，尤其是在塔科夫里。学会与步枪融为一体，应该是你在主动控制步枪，而不是步枪控制你。在进行行动任务时，总会耗尽弹药的时候，所以有必要训练你的装弹技巧。总有一天及时装满弹匣可能会救你一命，你以后会感谢我的。",
+    "en": "Theres never enough training, especially here in Tarkov. Learn to become one with your rifle, it should be you who controls the rifle and not the rifle that controls you. You will run out of ammo in fights for sure, so train your mag drills. Filling up your magazines in time might save your life one day, you can thank me later."
+  },
+  "objectives": [
+    {
+      "type": "Skill",
+      "description": "Skill: Assault",
+      "value": 4,
+      "target": "Assault"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: AimDrills",
+      "value": 4,
+      "target": "AimDrills"
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: MagDrills",
+      "value": 2,
+      "target": "MagDrills"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747beb0723e16cc522b30a9",
+      "name": {
+        "zh": "PMC特训：突击兵 - 第一章",
+        "en": "PMC Training - Infantry - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "66c246975c91c78198d4077c",
+      "name": {
+        "zh": "PMC特训：突击兵 - 第三章",
+        "en": "PMC Training - Infantry - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_training_infantry.png",
+  "isKey": false
+}

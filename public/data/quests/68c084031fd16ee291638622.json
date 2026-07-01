@@ -1,0 +1,207 @@
+{
+  "id": "68c084031fd16ee291638622",
+  "name": {
+    "zh": "熄灯",
+    "en": "Light's Out"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1250,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1250
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "648985c074a806211e4fb682",
+      "itemName": {
+        "zh": ".300 Blackout AP弹药包（50发装）",
+        "en": ".300 Blackout AP ammo pack (50 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "6489854673c462723909a14e",
+      "itemName": {
+        "zh": "9x39mm BP弹药包（20发装）",
+        "en": "9x39mm BP ammo pack (20 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 250
+    },
+    {
+      "type": "Skill",
+      "target": "CovertMovement",
+      "value": 500
+    },
+    {
+      "type": "StashRows"
+    }
+  ],
+  "description": {
+    "zh": "很高兴见到你，“雇佣兵”。我想你真的很好奇，所以我现在就试着给你解释一下。一个为UNTAR工作的人被指控利用塔科夫的局势建立毒品行动，然而没有人能够证明这一点，他过去可能问过你帮忙，他可能提到也可能没有提到他的计划，也许他说得很含糊……你告诉我。\n\n他被称为“Peacekeeper”，你可能已经知道，毕竟你过去已经和他合作过，别装傻，我到处都有眼线。但猜猜邪教徒最近给我带来了什么，他们设法弄到了他的一些合同。看起来他现在有更多人为他工作，他雇了你在塔科夫能找到的每一种人渣，SCAV、Raiders、承包商，见鬼，甚至一些当地帮派也参与其中。他们通常在夜间活动，我猜他们以为自己很隐蔽，嗯，对他们来说太糟糕了，因为我发现了。\n\n现在是你打击这烂摊子的机会，干掉这些人， quietly and when it's dark。Zryachiy和他的人如果你能帮上忙也会非常感激的，你觉得你能做到吗？",
+    "en": "I am glad to see you, \"mercenary\". I think you're really curious, so I'll try to explain it to you right now. One of the people who has been working for UNTAR was being accused of abusing the situation in Tarkov to establish a drug operation, however nobody was able to prove that, he might have asked you in the past to help with that, he may or may not have mentioned his plans, maybe he was vague... You tell me.\n\nHe gets called \"Peacekeeper\", you might already know, after all you have been working with him in the past already, don't play dumb, I have my eyes everywhere. But guess what the cultists brought me recently, they managed to get their hands on some of his contracts. Looks like he got a few more people working for him now, he hired every kind of scum you can find here in Tarkov, scavs, raiders, contractors, heck even some of the local gangs are involved. They usually operate during the night, I guess they thought they're sneaky, well too bad for them that I found out about that.\n\nNow it's your chance to fight this mess, take these people out, do it quietly and when it's dark. Zryachiy and his guys would be very grateful if you can help out there aswell, you think you can do that?"
+  },
+  "objectives": [
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5c0558060db834001b735271"
+      ],
+      "targetNames": {
+        "5c0558060db834001b735271": {
+          "zh": "GPNVG-18夜视仪 ☆",
+          "en": "L3Harris GPNVG-18 night vision goggles"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5c0558060db834001b735271"
+      ],
+      "targetNames": {
+        "5c0558060db834001b735271": {
+          "zh": "GPNVG-18夜视仪 ☆",
+          "en": "L3Harris GPNVG-18 night vision goggles"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5c0558060db834001b735271"
+      ],
+      "targetNames": {
+        "5c0558060db834001b735271": {
+          "zh": "GPNVG-18夜视仪 ☆",
+          "en": "L3Harris GPNVG-18 night vision goggles"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "645e0c6b3b381ede770e1cc9",
+        "644674a13d52156624001fbc",
+        "651450ce0e00edc794068371",
+        "57c44b372459772d2b39b8ce",
+        "57838ad32459774a17445cd2",
+        "5fbcc1d9016cce60e8341ab3",
+        "674d6121c09f69dfb201a888"
+      ],
+      "weaponNames": {
+        "645e0c6b3b381ede770e1cc9": {
+          "zh": "KBP VSK-94 9x39步枪",
+          "en": "KBP VSK-94 9x39 rifle"
+        },
+        "644674a13d52156624001fbc": {
+          "zh": "KBP 9A-91 9x39紧凑型突击步枪",
+          "en": "KBP 9A-91 9x39 compact assault rifle"
+        },
+        "651450ce0e00edc794068371": {
+          "zh": "SR-3M 9x39紧凑型突击步枪",
+          "en": "SR-3M 9x39 compact assault rifle"
+        },
+        "57c44b372459772d2b39b8ce": {
+          "zh": "AS “巨浪” 9x39 特种突击步枪",
+          "en": "AS VAL 9x39 special assault rifle"
+        },
+        "57838ad32459774a17445cd2": {
+          "zh": "VSS “绞丝机” 特种狙击步枪 ",
+          "en": "VSS Vintorez 9x39 special sniper rifle"
+        },
+        "5fbcc1d9016cce60e8341ab3": {
+          "zh": "SIG MCX .300 AAC Blackout 突击步枪 ☆",
+          "en": "SIG MCX .300 Blackout assault rifle"
+        },
+        "674d6121c09f69dfb201a888": {
+          "zh": "Aklys Defense 迅猛龙 .300 Blackout 突击步枪",
+          "en": "Aklys Defense Velociraptor .300 Blackout assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c07c94fd7357fff87e46a7",
+      "name": {
+        "zh": "不太常见",
+        "en": "Blue Moon"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_lightsout.png",
+  "isKey": false
+}

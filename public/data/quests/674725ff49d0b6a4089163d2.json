@@ -1,0 +1,279 @@
+{
+  "id": "674725ff49d0b6a4089163d2",
+  "name": {
+    "zh": "渗透RUAF - 第二章",
+    "en": "RUAF Infiltrator - Part 2"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 25560,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 25560
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c311186f77424d1667482",
+      "itemName": {
+        "zh": "扳手",
+        "en": "Wrench"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b31ce86f7742523398394",
+      "itemName": {
+        "zh": "圆嘴钳",
+        "en": "Round pliers"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c2b4386f77425357b6123",
+      "itemName": {
+        "zh": "钳子",
+        "en": "Pliers"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "57372e73245977685d4159b4",
+      "itemName": {
+        "zh": "5.45x39mm PS弹药包（120发装）",
+        "en": "5.45x39mm PS gs ammo pack (120 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e53c886f7747fa54205c7",
+      "itemName": {
+        "zh": "6B13 突击甲（数码丛林迷彩）",
+        "en": "6B13 assault armor (EMR)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e5bab86f77461f55ed1f3",
+      "itemName": {
+        "zh": "6B23-1护甲（数码丛林迷彩）",
+        "en": "6B23-1 body armor (EMR)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6499849fc93611967b034949",
+      "itemName": {
+        "zh": "AK-12 5.45x39突击步枪",
+        "en": "Kalashnikov AK-12 5.45x39 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "又见面了！\n好消息，你提供的关于撤离点的信息帮助我们获得了更多关于俄军在塔科夫活动的情报。\n\n那么接下来，我有个联系人可能会组织一批人去接近那儿的高阶军官，但他们缺少合适的装备，特别是头盔和防弹背心。具体来说是6B47头盔（有无伪装均可）和数码丛林迷彩背心。\n\n这任务不算太难，一些本地人可能带着这些装备。我不在乎你从哪里弄到这些东西，只要它们的状态尚可就行。我推荐你还是省点钱吧，别老想着去购买这些装备，不过你说了算。祝你好运。",
+    "en": "Hello again!\nGood news, the information you brought us about the extraction points helped us gain more knowledge about the Russian army's current business in Tarkov.\n\nSo heres what's next, I have a contact that might be able to gather a few people to get close to high ranking officers, however he's missing the proper gear for them, helmets and vests specifically. It should be 6B47 helmets with or without cover and vests in digital flora. Shouldn't be too difficult.\n\nSome of the local bandits might be carrying them, however I don't care where you get the stuff from as long as it's in an acceptable condition. And I advise you not to buy any of the required pieces, but that is your choice, I recommend to save your money.\n\nGood luck out there."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5aa7cfc0e5b5b00015693143",
+        "5a7c4850e899ef00150be885",
+        "6745895717824b1ec20570a6"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5aa7cfc0e5b5b00015693143": {
+          "zh": "6B47 Ratnik-BSh 头盔（数码迷彩盔罩）",
+          "en": "6B47 Ratnik-BSh helmet (EMR cover)"
+        },
+        "5a7c4850e899ef00150be885": {
+          "zh": "6B47 Ratnik-BSh 头盔（橄榄绿）",
+          "en": "6B47 Ratnik-BSh helmet (Olive Drab)"
+        },
+        "6745895717824b1ec20570a6": {
+          "zh": "6B47 Ratnik-BSh 头盔（极地数码迷彩盔罩）",
+          "en": "6B47 Ratnik-BSh helmet (EMR Arctic cover)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5aa7cfc0e5b5b00015693143",
+        "5a7c4850e899ef00150be885",
+        "6745895717824b1ec20570a6"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5aa7cfc0e5b5b00015693143": {
+          "zh": "6B47 Ratnik-BSh 头盔（数码迷彩盔罩）",
+          "en": "6B47 Ratnik-BSh helmet (EMR cover)"
+        },
+        "5a7c4850e899ef00150be885": {
+          "zh": "6B47 Ratnik-BSh 头盔（橄榄绿）",
+          "en": "6B47 Ratnik-BSh helmet (Olive Drab)"
+        },
+        "6745895717824b1ec20570a6": {
+          "zh": "6B47 Ratnik-BSh 头盔（极地数码迷彩盔罩）",
+          "en": "6B47 Ratnik-BSh helmet (EMR Arctic cover)"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5929a2a086f7744f4b234d43",
+        "5c0e53c886f7747fa54205c7",
+        "5c0e5bab86f77461f55ed1f3",
+        "5ab8dced86f774646209ec87",
+        "628d0618d1ba6e4fa07ce5a4",
+        "5c0e625a86f7742d77340f62",
+        "64be79e2bf8412471d0d9bcc",
+        "545cdb794bdc2d3a198b456a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5929a2a086f7744f4b234d43": {
+          "zh": "UMTBS 6Sh112 Scout-Sniper胸挂（数码丛林迷彩）",
+          "en": "UMTBS 6Sh112 Scout-Sniper chest rig (EMR)"
+        },
+        "5c0e53c886f7747fa54205c7": {
+          "zh": "6B13 突击甲（数码丛林迷彩）",
+          "en": "6B13 assault armor (EMR)"
+        },
+        "5c0e5bab86f77461f55ed1f3": {
+          "zh": "6B23-1护甲（数码丛林迷彩）",
+          "en": "6B23-1 body armor (EMR)"
+        },
+        "5ab8dced86f774646209ec87": {
+          "zh": "ANA Tactical M2防弹胸挂",
+          "en": "ANA Tactical M2 plate carrier (EMR)"
+        },
+        "628d0618d1ba6e4fa07ce5a4": {
+          "zh": "NPP KlASS Bagariy 防弹胸挂（数码丛林迷彩）",
+          "en": "NPP KlASS Bagariy plate carrier (EMR)"
+        },
+        "5c0e625a86f7742d77340f62": {
+          "zh": "BNTI Zhuk 防弹衣（数码丛林迷彩）",
+          "en": "BNTI Zhuk body armor (EMR)"
+        },
+        "64be79e2bf8412471d0d9bcc": {
+          "zh": "NPP KlASS Kora-Kulon防弹衣（数码迷彩）",
+          "en": "NPP KlASS Kora-Kulon body armor (EMR)"
+        },
+        "545cdb794bdc2d3a198b456a": {
+          "zh": "6B43 Zabralo-Sh 防弹衣（数码丛林迷彩）",
+          "en": "6B43 Zabralo-Sh body armor (EMR)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5929a2a086f7744f4b234d43",
+        "5c0e53c886f7747fa54205c7",
+        "5c0e5bab86f77461f55ed1f3",
+        "5ab8dced86f774646209ec87",
+        "628d0618d1ba6e4fa07ce5a4",
+        "5c0e625a86f7742d77340f62",
+        "64be79e2bf8412471d0d9bcc",
+        "545cdb794bdc2d3a198b456a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5929a2a086f7744f4b234d43": {
+          "zh": "UMTBS 6Sh112 Scout-Sniper胸挂（数码丛林迷彩）",
+          "en": "UMTBS 6Sh112 Scout-Sniper chest rig (EMR)"
+        },
+        "5c0e53c886f7747fa54205c7": {
+          "zh": "6B13 突击甲（数码丛林迷彩）",
+          "en": "6B13 assault armor (EMR)"
+        },
+        "5c0e5bab86f77461f55ed1f3": {
+          "zh": "6B23-1护甲（数码丛林迷彩）",
+          "en": "6B23-1 body armor (EMR)"
+        },
+        "5ab8dced86f774646209ec87": {
+          "zh": "ANA Tactical M2防弹胸挂",
+          "en": "ANA Tactical M2 plate carrier (EMR)"
+        },
+        "628d0618d1ba6e4fa07ce5a4": {
+          "zh": "NPP KlASS Bagariy 防弹胸挂（数码丛林迷彩）",
+          "en": "NPP KlASS Bagariy plate carrier (EMR)"
+        },
+        "5c0e625a86f7742d77340f62": {
+          "zh": "BNTI Zhuk 防弹衣（数码丛林迷彩）",
+          "en": "BNTI Zhuk body armor (EMR)"
+        },
+        "64be79e2bf8412471d0d9bcc": {
+          "zh": "NPP KlASS Kora-Kulon防弹衣（数码迷彩）",
+          "en": "NPP KlASS Kora-Kulon body armor (EMR)"
+        },
+        "545cdb794bdc2d3a198b456a": {
+          "zh": "6B43 Zabralo-Sh 防弹衣（数码丛林迷彩）",
+          "en": "6B43 Zabralo-Sh body armor (EMR)"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67472503ea7a07fc5c20b8a4",
+      "name": {
+        "zh": "渗透RUAF - 第一章",
+        "en": "RUAF Infiltrator - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747268e69275427dffb78f7",
+      "name": {
+        "zh": "渗透RUAF - 第三章",
+        "en": "RUAF Infiltrator - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ruafinfil_2.png",
+  "isKey": false
+}

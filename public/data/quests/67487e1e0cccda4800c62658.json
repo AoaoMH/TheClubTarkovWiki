@@ -1,0 +1,141 @@
+{
+  "id": "67487e1e0cccda4800c62658",
+  "name": {
+    "zh": "专业射手 - 第四章",
+    "en": "Professional Weapon Tester - Part 4"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 500
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c5f0d86f77413997acfab",
+      "itemName": {
+        "zh": "MRE个人即食口粮",
+        "en": "MRE ration pack"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5a0ea79b86f7741d4a35298e",
+      "itemName": {
+        "zh": "疗养院杂物间钥匙",
+        "en": "Health Resort universal utility room key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60098ad7c2240c0fe85c570a",
+      "itemName": {
+        "zh": "AFAK单兵战术急救包",
+        "en": "AFAK tactical individual first aid kit"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c2e1186f77425357b6124",
+      "itemName": {
+        "zh": "一套工具",
+        "en": "Toolset"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "62a0a0bb621468534a797ad5",
+      "itemName": {
+        "zh": "\"Master\"锉刀套装",
+        "en": "Set of files \"Master\""
+      },
+      "quantity": 2
+    }
+  ],
+  "description": {
+    "zh": "UNTAR 的部队基本都配备 M4A1 卡宾枪。为了避免引发更多帮派或 PMC 之间的冲突，我希望你亲自出手解决。\n\n前往海关附近的 ULTRA 商场，干掉一些目标。\n你不一定非得用 M4A1，半自动版的 TX-15 也可以，但别用俄制的那把——好像叫 ADAR 来着？\n\n你的枪上还需要安装一款 EOTech 光学瞄具。对了，我可以借你一把枪，但如果你弄丢了，就别指望我再给你一把。明白了？那就出发吧。",
+    "en": "Most UNTAR troops here use M4A1 carbines. And since we don't want to provoke any firefights between bandit groups or PMCs, I want you to take things into your own hand.\n\nHead down to the ULTRA shopping mall near the industrial zone and take out a few targets there.\nYou don't have to use an M4A1, a semi automatic variant like the TX-15 will work fine aswell, just not the russian one - I believe it was called adar?\n\nYou need some EOTech sight on the rifle aswell. Anyway, I can lend you a rifle, but don't expect another one if you lose that one. Off you go."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "5447a9cd4bdc2dbd208b4567",
+        "5d43021ca4b9362eab4b5e25"
+      ],
+      "weaponNames": {
+        "5447a9cd4bdc2dbd208b4567": {
+          "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+          "en": "Colt M4A1 5.56x45 assault rifle"
+        },
+        "5d43021ca4b9362eab4b5e25": {
+          "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪 ☆",
+          "en": "Lone Star TX-15 DML 5.56x45 carbine"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67487dc889b8109c6f95d7f7",
+      "name": {
+        "zh": "专业射手 - 第三章",
+        "en": "Professional Weapon Tester - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67487e792e79477fa1472f8f",
+      "name": {
+        "zh": "专业射手 - 第五章",
+        "en": "Professional Weapon Tester - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_proshooter_peacekeeper_4.png",
+  "isKey": false
+}

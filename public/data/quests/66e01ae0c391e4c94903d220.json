@@ -11,6 +11,10 @@
   },
   "type": "Exploration",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -41,7 +45,7 @@
       "value": 3,
       "itemId": "5d1b376e86f774252519444e",
       "itemName": {
-        "zh": "“凶狠跑刀崽”私酒",
+        "zh": "“凶狠跑刀崽”私酒 ☆",
         "en": "Bottle of Fierce Hatchling moonshine"
       },
       "quantity": 3
@@ -84,8 +88,7 @@
     {
       "type": "Exploration",
       "description": "Exploration: ExitStatus",
-      "value": 1,
-      "location": "Shoreline"
+      "value": 1
     },
     {
       "type": "LeaveItemAtLocation",

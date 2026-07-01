@@ -1,0 +1,156 @@
+{
+  "id": "67488adc3a2ba4d17055213f",
+  "name": {
+    "zh": "塔科夫扫地机器人：实验室",
+    "en": "Tarkov Cleaner - The Lab"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "5b0fc42d86f7744a585f9105",
+  "locationName": {
+    "zh": "实验室",
+    "en": "The Lab"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 48550
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 366250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 366250
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "619bdef8c9546643a67df6f6",
+      "itemName": {
+        "zh": "TerraGroup 臂带 ★",
+        "en": "Armband (TerraGroup)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "6389c8c5dbfd5e4b95197e6b",
+      "itemName": {
+        "zh": "TerraGroup \"蓝色文件夹\" 材料 ★",
+        "en": "TerraGroup \"Blue Folders\" materials"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c7f115805221fb410466",
+      "itemName": {
+        "zh": "GPS信号放大单元 ★",
+        "en": "Far-forward GPS Signal Amplifier Unit"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1d0efb86f7744baf2e7b7b",
+      "itemName": {
+        "zh": "实验室钥匙卡·红 ★",
+        "en": "TerraGroup Labs keycard (Red)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0a840b86f7742ffa4f2482",
+      "itemName": {
+        "zh": "T H I C C物品箱",
+        "en": "T H I C C item case"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60a283193cb70855c43a381d",
+      "itemName": {
+        "zh": "THOR综合型防弹服",
+        "en": "NFM THOR Integrated Carrier body armor"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ca20ee186f774799474abc2",
+      "itemName": {
+        "zh": "Vulkan-5（LShZ-5）重型头盔 ☆",
+        "en": "Vulkan-5 LShZ-5 bulletproof helmet (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "Terragroup 实验室，一个极其危险却充满宝藏的地方。这里经常被人搜刮和占领，到处都是装备精良的 PMC 和 Raider。\n\n我需要你清理一下这个地方，我可以为你提供一些访问卡。当然，顺便带走所有有价值的物品，也许对你、我或者我们都有用。准备好了吗？",
+    "en": "The Terragroup Laboratory, extremely dangerous but filled with treasure. That place gets raided constantly, a lot of geared locals and former PMCs.\n\nI want you to clean up the place a bit, I can supply you with a few access cards for that. Oh and by the way, take whatever valuable shit you find with you. It might be of use for you, me or both of us."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67488a105a77b869ebd0a968",
+      "name": {
+        "zh": "塔科夫扫地机器人：灯塔",
+        "en": "Tarkov Cleaner - Lighthouse"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67488b377f95f5b5e21b605c",
+      "name": {
+        "zh": "塔科夫扫地机器人",
+        "en": "The Tarkov Cleaner"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_tarkovcleanerlabs.png",
+  "isKey": false
+}

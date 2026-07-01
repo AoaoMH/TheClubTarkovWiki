@@ -44,6 +44,7 @@ export interface WikiQuestSummary {
   traderName: { zh: string; en: string }
   type: string
   location: string
+  locationName: { zh: string; en: string }
   rewards: WikiQuestReward[]
 }
 
@@ -91,6 +92,8 @@ const QUEST_TYPE_EN: Record<string, string> = {
 // Location ID to name mapping (common Tarkov locations)
 const LOCATION_NAMES: Record<string, { zh: string; en: string }> = {
   'any': { zh: '任意', en: 'Any' },
+  'Any': { zh: '任意', en: 'Any' },
+  'marathon': { zh: '马拉松', en: 'Marathon' },
   '56f40101d2720b2a4d8b45d6': { zh: '海关', en: 'Customs' },
   '5704e4dad2720bb55b8b4567': { zh: '储备站', en: 'Reserve' },
   '5704e3c2d2720bac5b8b4567': { zh: '森林', en: 'Woods' },
@@ -104,6 +107,60 @@ const LOCATION_NAMES: Record<string, { zh: string; en: string }> = {
 }
 
 // ============ Processing ============
+
+// SPT serializes some fields (target, weapon, etc.) as wrapper objects:
+// {"Item": "value", "IsItem": true, "IsList": false} -> "value"
+// {"List": ["a","b"], "IsItem": false, "IsList": true} -> ["a","b"]
+function unwrapSptValue(val: unknown): unknown {
+  if (val && typeof val === 'object' && !Array.isArray(val)) {
+    const obj = val as Record<string, unknown>
+    if ('IsItem' in obj && 'IsList' in obj) {
+      if (obj.IsItem) return obj.Item ?? obj.List
+      if (obj.IsList) return Array.isArray(obj.List) ? obj.List : [obj.List]
+    }
+  }
+  return val
+}
+
+function unwrapConditionFields(cond: Record<string, unknown>): void {
+  // Unwrap known fields that SPT may serialize as wrapper objects
+  for (const key of ['target', 'weapon', 'weaponCaliber', 'bodyPart', 'savageRole']) {
+    if (cond[key] !== undefined) {
+      cond[key] = unwrapSptValue(cond[key])
+    }
+  }
+  // Recurse into counter conditions
+  if (cond.counter && typeof cond.counter === 'object') {
+    const counter = cond.counter as { conditions?: unknown[] }
+    if (Array.isArray(counter.conditions)) {
+      for (const inner of counter.conditions) {
+        if (inner && typeof inner === 'object') unwrapConditionFields(inner as Record<string, unknown>)
+      }
+    }
+  }
+}
+
+function preprocessQuest(quest: RawQuest): void {
+  for (const phase of ['AvailableForFinish', 'AvailableForStart', 'Fail'] as const) {
+    const conditions = quest.conditions?.[phase]
+    if (Array.isArray(conditions)) {
+      for (const cond of conditions) {
+        if (cond && typeof cond === 'object') unwrapConditionFields(cond as unknown as Record<string, unknown>)
+      }
+    }
+  }
+  // Unwrap reward target fields
+  for (const phase of ['Success', 'Started', 'Fail'] as const) {
+    const rewards = quest.rewards?.[phase]
+    if (Array.isArray(rewards)) {
+      for (const r of rewards) {
+        if (r && typeof r === 'object' && 'target' in r) {
+          r.target = unwrapSptValue(r.target) as string | undefined
+        }
+      }
+    }
+  }
+}
 
 function getTraderNames(
   traderId: string,
@@ -119,8 +176,15 @@ function getTraderNames(
   return { zh: zhName, en: enName }
 }
 
-function getLocationName(locationId: string): { zh: string; en: string } {
-  return LOCATION_NAMES[locationId] || { zh: locationId, en: locationId }
+function getLocationName(locationId: string, locales: { zh: Locales; en: Locales }): { zh: string; en: string } {
+  // Try hardcoded mapping first
+  if (LOCATION_NAMES[locationId]) return LOCATION_NAMES[locationId]
+  // Try locale lookup: "{locationId} Name"
+  const zh = locales.zh[`${locationId} Name`]
+  const en = locales.en[`${locationId} Name`]
+  if (zh || en) return { zh: zh || en || locationId, en: en || zh || locationId }
+  // Fallback
+  return { zh: locationId, en: locationId }
 }
 
 function resolveItemName(
@@ -485,6 +549,11 @@ export function processQuests(
 ): { summaries: WikiQuestSummary[]; details: Map<string, WikiQuestDetail> } {
   console.log('[quests] Processing quests...')
 
+  // Preprocess: unwrap SPT serialized wrapper objects (target, weapon, etc.)
+  for (const quest of Object.values(rawQuests)) {
+    preprocessQuest(quest)
+  }
+
   const summaries: WikiQuestSummary[] = []
   const details = new Map<string, WikiQuestDetail>()
 
@@ -531,6 +600,7 @@ export function processQuests(
       traderName,
       type: quest.type,
       location: quest.location,
+      locationName: getLocationName(quest.location, locales),
       rewards,
     }
 

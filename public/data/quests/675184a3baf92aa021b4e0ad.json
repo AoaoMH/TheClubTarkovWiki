@@ -1,0 +1,161 @@
+{
+  "id": "675184a3baf92aa021b4e0ad",
+  "name": {
+    "zh": "品味之选 - 第一章",
+    "en": "Ideal For Someone With Taste - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 84250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 84250
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "57372c89245977685d4159b1",
+      "itemName": {
+        "zh": "5.45x39mm BT弹药包（30发装）",
+        "en": "5.45x39mm BT gs ammo pack (30 pcs)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b2388675acfc4771e1be0be",
+      "itemName": {
+        "zh": "Burris FullField TAC30 1-4x24 30 毫米 步枪瞄准镜",
+        "en": "Burris FullField TAC30 1-4x24 30mm riflescope"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "615d8f8567085e45ef1409ca",
+      "itemName": {
+        "zh": "AK Hexagon \"Wafflemaker\" 5.45x39声音抑制器",
+        "en": "AK-74 Hexagon Wafflemaker 5.45x39 sound suppressor"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Assault",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "AimDrills",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "56dff061d2720bb5668b4567",
+      "itemName": {
+        "zh": "5.45x39毫米 BT",
+        "en": "5.45x39mm BT gs"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d9b5acfc4001633997a",
+      "itemName": {
+        "zh": "AK-105 5.45x39 突击步枪",
+        "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我有个新挑战要交给你，不过可不是谁都能完成的。\n\n你用过 AK-105 吗？这把枪性能卓越，深受特种部队的青睐。所以，为什么不装上消音器，用它干掉几个Scav试试？\n\n完成任务后，你需要前往废弃化工厂，在靠近 3 号门的二楼休息室里藏好步枪，然后活着撤离。怎么样，有信心搞定吗？",
+    "en": "I got a new challenge for you. Something which isn't for everyone.\nEver used an AK-105? It's an amazing weapon, favoured by special forces. So, why don't you take out a few bandits with it, and make sure it has a silencer.\n\nAfter you took down enough, you have to go to the abandoned chemical factory, somewhere near gate three there is a break room on the second floor, hide the rifle there and get out alive, can you manage that?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "weapons": [
+        "5ac66d9b5acfc4001633997a"
+      ],
+      "weaponNames": {
+        "5ac66d9b5acfc4001633997a": {
+          "zh": "AK-105 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5ac66d9b5acfc4001633997a"
+      ],
+      "targetNames": {
+        "5ac66d9b5acfc4001633997a": {
+          "zh": "AK-105 5.45x39 突击步枪",
+          "en": "Kalashnikov AK-105 5.45x39 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674766077f5e08878af90bc8",
+      "name": {
+        "zh": "莲花之光 - 第十二章",
+        "en": "Light Of The Lotus - Part 12"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67518cbcb6c904e276ea22cb",
+      "name": {
+        "zh": "品味之选 - 第二章",
+        "en": "Ideal For Someone With Taste - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_idealforsomeonewithtaste_1.png",
+  "isKey": false
+}

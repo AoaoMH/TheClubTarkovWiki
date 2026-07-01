@@ -1,0 +1,225 @@
+{
+  "id": "674750fa37089121191b7d6f",
+  "name": {
+    "zh": "致幻剂 - 第五章",
+    "en": "Narcotic - Part 5"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 30000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.06
+    },
+    {
+      "type": "Item",
+      "value": 236750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 236750
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d02797c86f774203f38e30a",
+      "itemName": {
+        "zh": "Surv12野战手术包",
+        "en": "Surv12 field surgical kit"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5751a89d24597722aa0e8db0",
+      "itemName": {
+        "zh": "金星软膏 ☆",
+        "en": "Golden Star balm"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Skill",
+      "target": "StressResistance",
+      "value": 200
+    },
+    {
+      "type": "Skill",
+      "target": "Immunity",
+      "value": 200
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ed5160a87bb8443d10680b5",
+      "itemName": {
+        "zh": "Meldonin 注射器",
+        "en": "Meldonin injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "637b620db7afa97bfc3d7009",
+      "itemName": {
+        "zh": "曲马多注射器 ☆",
+        "en": "Trimadol stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "637b6251104668754b72f8f9",
+      "itemName": {
+        "zh": "人造血（蓝血）注射器",
+        "en": "Perfotoran (Blue Blood) stimulant injector"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，还记得之前所有注射器的订单吗？这次我又有任务要交给你，不过这可不是个普通的活儿。\n\n我需要测试你在使用这些奇怪针剂后的战斗效率，你大概已经猜到任务内容了吧？不过别猜了，我直接说吧：你得干掉一些Scav、PMC、Raider，还有一些Boss。不过这还不是全部，我还需要你前往TerraGroupTerraGroup集团的实验室。有传言说，一个叫Sanitar的家伙以前是那儿的员工，他的办公室就藏在实验室某处。\n\n你需要他的钥匙卡，我估计你得从他身上搞到一张，或者找个愿意卖给你的人。\n到了那里之后，记得在他办公室外的走廊安一台摄像头，别忘了进去看看，说不定里面有重要情报，或者是其他商人抢破头都想要的高级药剂。\n\n里面的东西你可以自己留着，但如果发现什么有价值的线索，记得通知我一声。祝你好运，士兵！",
+    "en": "Well hello, remember the orders for all the injectors? Well I got something for you yet again, but not a normal job.\n\nI need to test how efficient you are in combat after you used these weird drugs, I suppose you already have a clue on what your job is gonna be about, yeah? We can leave out the guessing tho, you gotta take out some bandits, operators, raiders and somethe gang leaders. But that's not everything, I need to to head to the Terragroup laboratory, a guy named Sanitar is rumored to have been a worker for Terragroup some time ago, his office is located somewhere inside the lab.\n\nYou'll need his keycard, I guess he carries a copy of it, or you find someone who is willing to sell one to you.\nOnce you actually head to there you need to place a camera in the hallway outside, and don't forgot to go inside there, it might be filled with information, or drugs in high demand by other vendors.\n\nKeep whatever you find inside there, just let me know if you find something worth mentioning, good luck out there warrior!"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "pmcBot"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest",
+        "bossZryachiy",
+        "bossKnight",
+        "followerBigPipe",
+        "followerBirdEye",
+        "bossTagilla",
+        "bossSanitar",
+        "bossBoar",
+        "bossKilla",
+        "bossGluhar",
+        "bossBully",
+        "bossSanitar",
+        "bossKojaniy",
+        "bossKolontay",
+        "bossPartisan",
+        "sectantPrizrak",
+        "sectantPredvestnik",
+        "sectantOni"
+      ]
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_sanitaroffice_outside",
+      "targetNames": {
+        "lotus_labs_sanitaroffice_outside": {
+          "zh": "lotus_labs_sanitaroffice_outside",
+          "en": "lotus_labs_sanitaroffice_outside"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_labs_sanitaroffice_inside",
+      "targetNames": {
+        "lotus_labs_sanitaroffice_inside": {
+          "zh": "lotus_labs_sanitaroffice_inside",
+          "en": "lotus_labs_sanitaroffice_inside"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747508429ca66164b39e637",
+      "name": {
+        "zh": "致幻剂 - 第四章",
+        "en": "Narcotic - Part 4"
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_obdolbos.png",
+  "isKey": false
+}

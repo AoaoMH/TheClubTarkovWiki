@@ -1,0 +1,239 @@
+{
+  "id": "679a79773bd9f77047d4bd35",
+  "name": {
+    "zh": "愚者之失，智者之利",
+    "en": "Profit From A Fool's Mistake"
+  },
+  "traderId": "5a7c2eca46aef81a7ca2145d",
+  "traderName": {
+    "zh": "Mechanic",
+    "en": "Mechanic"
+  },
+  "type": "Discover",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9400
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 750,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 750
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c2e1186f77425357b6124",
+      "itemName": {
+        "zh": "一套工具",
+        "en": "Toolset"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "62a0a0bb621468534a797ad5",
+      "itemName": {
+        "zh": "\"Master\"锉刀套装",
+        "en": "Set of files \"Master\""
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b5f666cad6f002ab7214c2",
+      "itemName": {
+        "zh": "Ballistic Armor Co. Bastion头盔（多地形迷彩）",
+        "en": "Ballistic Armor Co. Bastion helmet (MultiCam)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5c0e655586f774045612eeb2",
+      "itemName": {
+        "zh": "HighCom Trooper TFO 防弹背心（复合迷彩）",
+        "en": "HighCom Trooper TFO body armor (MultiCam)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5efb0e16aeb21837e749c7ff",
+      "itemName": {
+        "zh": "9x19 毫米 QuakeMaker",
+        "en": "9x19mm QuakeMaker"
+      }
+    }
+  ],
+  "description": {
+    "zh": "服务器修好了，摄像头看起来也焕然一新，干得不错。\n\n回到正题，你那所谓的“雇主”不是在找一个失踪小队的事吗？我查了一下你之前给我的情报，感觉这事还真不好搞。\n\n目前在城里活动的，有一批新来的人，他们很能打，但不是你们这些常见的私人军火合同工。他们和各个商人之间没什么冲突，但经常破坏其他人的“手下”。\n\n你说你要找的那批失踪人员？我猜就是被这些人干掉的。虽然我没亲眼见过这些家伙，但我这边有几位同行和他们打过交道，不过要从他们口中问出点线索……恐怕不是白来的。\n\n现在我能做的，是从我信得过的人那里找份差事给你。完成之后给我点时间，我保证帮你找线索。怎么样，感兴趣吗？\n\n你还记得你上次去 Terragroup 总部时带回来的科学家硬盘吧？有人居然傻到把另一个重要硬盘藏在你之前发现的同一个位置，搞笑吧？根据可靠消息，那块盘里有关键数据。\n\n你既然要再去那栋楼，就再帮我件事。停车场里有两辆黑色 SUV，是当年合同战争中用来运送重要人员的。找到它们并标记一下，我猜里面还有有价值的东西。完成后再联系我。",
+    "en": "Server is back up and working, the camera also looks as good as new, good job out there.\nSo where were we again? Oh yeah right, about the job. Your \"employer\" or whatever needed some help with a missing group? I went through all the information I was provided with and I think there are ways to help, but it will be a difficult task, you got that?\n\nSo here's what I can tell you about something that could be linked to your case, there are new players in town, highly skilled operators but not ordinary private contractors like you. They don't have any issue with any of the dealers, but they seem to sabotage some of their \"employees\" a lot.\nI suppose this is what you could call the people that went missing, the ones you were looking for, yeah? I haven't met them myself, only a few of my colleagues were dealing and trading with them in person but I doubt they will give you any info for free.\n\nWhat I can do for you now is look for a job from one of my trusted associates. You would need to help me out with one more thing tho, and then give me some time, but I'll guarantee you to help after this job. Interested?\n\nRemember when you visited the Terragroup HQ in the city center and brought some scientist's hard drive? Well, apparently someone got hands on a different drive of it and thought it was a smart idea to \"hide\" it in the same place you found the other one last time, and according to trustworthy sources some pretty important data is on that thing. \nSince you'll head to that building anyway, there's one more thing you can help with. Located in the parking garage there should be two black SUVs, used to transport important people during the contract wars. Find them, and mark them, I'm sure there will still be something of interest inside those. Contact me once you finished."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_suv_1",
+      "targetNames": {
+        "lotus_groundzero_suv_1": {
+          "zh": "lotus_groundzero_suv_1",
+          "en": "lotus_groundzero_suv_1"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_suv_2",
+      "targetNames": {
+        "lotus_groundzero_suv_2": {
+          "zh": "lotus_groundzero_suv_2",
+          "en": "lotus_groundzero_suv_2"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6575a6ca8778e96ded05a802"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6575a6ca8778e96ded05a802": {
+          "zh": "TerraGroup科学家的硬盘",
+          "en": "TerraGroup scientist's hard drive"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Sandbox_5_Laborant_exploration",
+      "targetNames": {
+        "Sandbox_5_Laborant_exploration": {
+          "zh": "Sandbox_5_Laborant_exploration",
+          "en": "Sandbox_5_Laborant_exploration"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "658199aa38c79576a2569e13"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "658199aa38c79576a2569e13": {
+          "zh": "TerraGroup科学家办公室钥匙 ☆",
+          "en": "TerraGroup science office key"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Sandbox_5_Office_exploration",
+      "targetNames": {
+        "Sandbox_5_Office_exploration": {
+          "zh": "Sandbox_5_Office_exploration",
+          "en": "Sandbox_5_Office_exploration"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6575a6ca8778e96ded05a802"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6575a6ca8778e96ded05a802": {
+          "zh": "TerraGroup科学家的硬盘",
+          "en": "TerraGroup scientist's hard drive"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "679a16f9588df6cd38f9de8d",
+      "name": {
+        "zh": "另一个线索",
+        "en": "Another Clue"
+      }
+    },
+    {
+      "id": "657315e4a6af4ab4b50f3459",
+      "name": {
+        "zh": "救援行动",
+        "en": "Saving the Mole"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "677b7c879a8cf3681ecf1673",
+      "name": {
+        "zh": "易碎货物",
+        "en": "Fragile Shipment"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_groundzero_suv.png",
+  "isKey": false
+}

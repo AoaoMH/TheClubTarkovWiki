@@ -1,0 +1,231 @@
+{
+  "id": "68162986c103ecdd90256073",
+  "name": {
+    "zh": "保持联系",
+    "en": "Keeping Connections"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.25
+    },
+    {
+      "type": "Item",
+      "value": 35,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 35
+    },
+    {
+      "type": "Skill",
+      "target": "Charisma",
+      "value": 25
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57ac965c24597706be5f975c",
+      "itemName": {
+        "zh": "ELCAN SpecterDR 1x/4x瞄准镜",
+        "en": "ELCAN SpecterDR 1x/4x scope"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57aca93d2459771f2c7e26db",
+      "itemName": {
+        "zh": "ELCAN SpecterDR 1x/4x瞄准镜 FDE",
+        "en": "ELCAN SpecterDR 1x/4x scope (FDE)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5447a9cd4bdc2dbd208b4567",
+      "itemName": {
+        "zh": "柯尔特 M4A1 5.56x45 卡宾枪",
+        "en": "Colt M4A1 5.56x45 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a7828548dc32e5a9c28b516",
+      "itemName": {
+        "zh": "雷明顿Model 870 12铅径 霰弹枪",
+        "en": "Remington Model 870 12ga pump-action shotgun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我想为你提供一个非常特别的工作，处理一件急事，但它必须等等，发生了一些意外。有人袭击了我的同伙，嗯，他们没有遭受重大损失，但他们的很多成员在此过程中受了重伤。\n\n恢复需要一些时间，他们的医疗用品有点短缺，这就是他们下一个问题的开始。你知道我不能抛下我信任的同事，所以我必须以某种方式采取行动，如果你决定帮助我的朋友们，当然会非常感激。\n\n如果你决定帮助我的朋友们，我可以帮助你在当地匪徒团体中建立更好的声誉——来吧，捍卫者！这将是一个双赢的局面，对吧！",
+    "en": "I wanted to offer you a very special job for an urgent matter, but it has to wait, something unexpected happened. Someone attacked my associates, well they didn't suffer any big losses but a lot of their members got hurt really bad in the process.\n\nRecovery will take some time and they ran kinda short on medical supplies so that's where their next problem starts. You know I can't leave my trusted colleagues behind so I need to act somehow, your help would be very apprechiated of course.\n\nI can help you establish a better reputation among local bandit groups if you decide to help my friends out - Come on champion! This would be a Win-Win situation right here!"
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "544fb45d4bdc2dee738b4568"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb45d4bdc2dee738b4568": {
+          "zh": "Salewa急救包",
+          "en": "Salewa first aid kit"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "544fb45d4bdc2dee738b4568"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "544fb45d4bdc2dee738b4568": {
+          "zh": "Salewa急救包",
+          "en": "Salewa first aid kit"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5d02778e86f774203e7dedbe"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d02778e86f774203e7dedbe": {
+          "zh": "CMS手术包",
+          "en": "CMS surgical kit"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5d02778e86f774203e7dedbe"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5d02778e86f774203e7dedbe": {
+          "zh": "CMS手术包",
+          "en": "CMS surgical kit"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c10c8fd86f7743d7d706df3"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c10c8fd86f7743d7d706df3": {
+          "zh": "肾上腺素注射器",
+          "en": "Adrenaline injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c10c8fd86f7743d7d706df3"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c10c8fd86f7743d7d706df3": {
+          "zh": "肾上腺素注射器",
+          "en": "Adrenaline injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 2,
+      "target": [
+        "5c0e530286f7747fa1419862"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e530286f7747fa1419862": {
+          "zh": "丙泊酚",
+          "en": "Propital regenerative stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "5c0e530286f7747fa1419862"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5c0e530286f7747fa1419862": {
+          "zh": "丙泊酚",
+          "en": "Propital regenerative stimulant injector"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6816279e5c48eee9720f64be",
+      "name": {
+        "zh": "总是想惹点麻烦",
+        "en": "Always In The Mood For Some Trouble"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "681633be8d093606deceedea",
+      "name": {
+        "zh": "角斗士的礼物",
+        "en": "Gladiator's Gift"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_ref.png",
+  "isKey": false
+}

@@ -1,0 +1,177 @@
+{
+  "id": "67f107c6cd96ce08caca8b83",
+  "name": {
+    "zh": "意外发现 - 第三章",
+    "en": "What A Find - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "55f2d3fd4bdc2d5f408b4567",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 144500,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 144500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "60098ad7c2240c0fe85c570a",
+      "itemName": {
+        "zh": "AFAK单兵战术急救包",
+        "en": "AFAK tactical individual first aid kit"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e8488fa988a8701445df1e4",
+      "itemName": {
+        "zh": "CALOK-B止血剂",
+        "en": "CALOK-B hemostatic applicator"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "544fb3f34bdc2d03748b456a",
+      "itemName": {
+        "zh": "吗啡注射器",
+        "en": "Morphine injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c10c8fd86f7743d7d706df3",
+      "itemName": {
+        "zh": "肾上腺素注射器",
+        "en": "Adrenaline injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Health",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fb64bc92b1b027b1f50bcf2",
+      "itemName": {
+        "zh": "TDI KRISS Vector Gen.2 .45 ACP 冲锋枪",
+        "en": "TDI KRISS Vector Gen.2 .45 ACP submachine gun"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fc3f2d5900b1d5091531e57",
+      "itemName": {
+        "zh": "TDI Kriss Vector Gen.2 9x19 冲锋枪",
+        "en": "TDI KRISS Vector Gen.2 9x19 submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "搞定了！你猜货物里面装了什么？一大堆“医疗用品”、TerraGroup集团研发的针剂和制造这些药剂所需的原料。接下来会有人负责把这些货物运送到更安全的地方。\n\n不过我们可能还需要找到一些研究资料，应该是在某个实验室里。比起直接去TerraGroup集团的地下实验室，现在最好还是先查一查地面上的那些实验点，对吧？对了，我之前派过一队人去工厂调查那些军用卡车，他们在一辆卡车附近发现了一个实验室，就在那架坠毁的直升机旁边。但他们当时没空继续深入调查。据说实验室在二楼，也许还能找到什么有用的信息？\n\n所以，这活现在就交给你了，去工厂地图，把那个实验室找出来，看看有没有什么线索，实验记录、研究笔记、日志一类的，只要能派上用场的都行。明白了吗？好，祝你好运，我希望很快能收到你的消息，最好是带着那些笔记回来。",
+    "en": "We got it! Guess what the shipments contained, lots and lots of \"medical supplies\", Terragroup stimulants and resources to manufacture these drugs. Someone else will take care of securing the cargo and bringing them to a safer area.\n\nAnyway, we will likely need to find some research notes, probably in some form of laboratory. It's much safer to check out some labs above ground, before we head down to the actual Terragroup laboratory, makes sense yeah? By the way, when I sent a team to the factory to take a look at the military trucks, they found a lab close to one of them, right next to the crashed helicopter. But they didn't have the time to do any further investigating. It's on the second floor, maybe we can find something there?\n\nWell I guess that's your job now, head to the factory and find that lab, look for something useful, lab notes, journals, research notes, anything that could help. Got it? Alright, good luck then. I expect to see you soon, hopefully with those lab notes."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "66c0b39ca1f68fcc1d0c0cc3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66c0b39ca1f68fcc1d0c0cc3": {
+          "zh": "实验室日志",
+          "en": "Lab journal"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "66c0b39ca1f68fcc1d0c0cc3"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "66c0b39ca1f68fcc1d0c0cc3": {
+          "zh": "实验室日志",
+          "en": "Lab journal"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67efd429317486563c7ee2b2",
+      "name": {
+        "zh": "意外发现 - 第一章",
+        "en": "What A Find - Part 1"
+      }
+    },
+    {
+      "id": "67efd3e59f0821f600a4ebed",
+      "name": {
+        "zh": "意外发现 - 第二章",
+        "en": "What A Find - Part 2"
+      }
+    },
+    {
+      "id": "669fa38fad7f1eac2607ed46",
+      "name": {
+        "zh": "最后的细枝末节",
+        "en": "One Less Loose End"
+      }
+    },
+    {
+      "id": "669fa3910c828825de06d69f",
+      "name": {
+        "zh": "左右为难",
+        "en": "A Healthy Alternative"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "680390e437806877136227f6",
+      "name": {
+        "zh": "秘点",
+        "en": "Dead Drop"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_factorylab.png",
+  "isKey": false
+}

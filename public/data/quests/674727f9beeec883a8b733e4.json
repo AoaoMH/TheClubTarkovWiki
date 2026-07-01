@@ -1,0 +1,198 @@
+{
+  "id": "674727f9beeec883a8b733e4",
+  "name": {
+    "zh": "渗透RUAF - 第四章",
+    "en": "RUAF Infiltrator - Part 4"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 30250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 30250
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5efaf417aeb21837e749c7f2",
+      "itemName": {
+        "zh": "Zenit B-30 护木 + B-31S 上导轨",
+        "en": "AK Zenit B-30 handguard with B-31S upper handguard rail"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5649af884bdc2d1b2b8b4589",
+      "itemName": {
+        "zh": "Zenit B-33 AK-74防尘盖",
+        "en": "AK Zenit B-33 dust cover"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Skill",
+      "target": "Strength",
+      "value": 25
+    },
+    {
+      "type": "Skill",
+      "target": "Endurance",
+      "value": 25
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "647dd2b8a12ebf96c3031655",
+      "itemName": {
+        "zh": "AK Alfa Arms ASPID护木",
+        "en": "AK Alfa Arms ASPID handguard"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "65719f0775149d62ce0a670b",
+      "itemName": {
+        "zh": "NPP KlASS Tor-2头盔（橄榄褐色）",
+        "en": "NPP KlASS Tor-2 helmet (Olive Drab)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ab8ebf186f7742d8b372e80",
+      "itemName": {
+        "zh": "SSO \"Attack 2\"突击背包",
+        "en": "SSO Attack 2 raid backpack (Khaki)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "士兵，我这里又有个任务给你，但这次跟我们的RUAF没什么直接关系。\n\n塔科夫的一些团伙在冲突前曾与俄军或执法部门有联系，有些是贪污警察，有些是军队或特种部队成员。\n\n我需要你检查这些团伙通常出没的地方，我会给你一份需要检查的地点名单。哦，还有，你需要再去一趟商业中心，我听说那里有一些军事车辆，也去看看吧。",
+    "en": "I got something for you again soldier, but nothing that is directly related to our RUAF problem.\n\nSome of the gangs here in Tarkov had connections with the russian army or law enforcement before the conflict, some were corrupt police officers, some where in the army or special forces. I need you to check out all the places where the gangs are usually located.\n\nYou'll receive a list of all the spots you need to check out, oh and you need to go to the business center again, I think there were military vehicles, check those out aswell."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_customs_gasstationoffice",
+      "targetNames": {
+        "lotus_customs_gasstationoffice": {
+          "zh": "lotus_customs_gasstationoffice",
+          "en": "lotus_customs_gasstationoffice"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_trainyard",
+      "targetNames": {
+        "lotus_reserve_trainyard": {
+          "zh": "lotus_reserve_trainyard",
+          "en": "lotus_reserve_trainyard"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tigrcitycenter1",
+      "targetNames": {
+        "lotus_groundzero_tigrcitycenter1": {
+          "zh": "lotus_groundzero_tigrcitycenter1",
+          "en": "lotus_groundzero_tigrcitycenter1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tigrcitycenter2",
+      "targetNames": {
+        "lotus_groundzero_tigrcitycenter2": {
+          "zh": "lotus_groundzero_tigrcitycenter2",
+          "en": "lotus_groundzero_tigrcitycenter2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tigrcitycenter3",
+      "targetNames": {
+        "lotus_groundzero_tigrcitycenter3": {
+          "zh": "lotus_groundzero_tigrcitycenter3",
+          "en": "lotus_groundzero_tigrcitycenter3"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_tigrnakatani",
+      "targetNames": {
+        "lotus_groundzero_tigrnakatani": {
+          "zh": "lotus_groundzero_tigrnakatani",
+          "en": "lotus_groundzero_tigrnakatani"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747268e69275427dffb78f7",
+      "name": {
+        "zh": "渗透RUAF - 第三章",
+        "en": "RUAF Infiltrator - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747c236e7360000d2cdffb9",
+      "name": {
+        "zh": "来自东方的朋友",
+        "en": "A Friend From the East"
+      }
+    },
+    {
+      "id": "674728d52fe62c289180baf3",
+      "name": {
+        "zh": "渗透RUAF - 第五章",
+        "en": "RUAF Infiltrator - Part 5"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ruafinfil_4.png",
+  "isKey": false
+}

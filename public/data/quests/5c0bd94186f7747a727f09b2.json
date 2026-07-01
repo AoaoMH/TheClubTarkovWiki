@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -36,7 +40,7 @@
       "value": 6,
       "itemId": "657025cfbfc87b3a34093253",
       "itemName": {
-        "zh": "20发9x39 PAB-9 gs盒装弹药",
+        "zh": "20发9x39 PAB-9 gs盒装弹药 ★",
         "en": "9x39mm PAB-9 gs ammo pack (20 pcs)"
       },
       "quantity": 1
@@ -68,7 +72,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 5,
+      "value": 1,
       "target": "AnyPmc",
       "targetNames": {
         "AnyPmc": {
@@ -77,17 +81,18 @@
         }
       },
       "weapons": [
-        "5aafa857e5b5b00018480968"
+        "5aafa857e5b5b00018480968",
+        "6932abeb5403890d0c09c926"
       ],
       "weaponNames": {
         "5aafa857e5b5b00018480968": {
           "zh": "春田 M1A 7.62x51 精确射手步枪",
           "en": "Springfield Armory M1A 7.62x51 rifle"
+        },
+        "6932abeb5403890d0c09c926": {
+          "zh": "奈特军械公司 (KAC) SR-25 7.62x51 精确射手步枪（褐灰色）",
+          "en": "Knight's Armament Company SR-25 7.62x51 marksman rifle (Taupe)"
         }
-      },
-      "distance": {
-        "compareMethod": ">=",
-        "value": 60
       }
     }
   ],

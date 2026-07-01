@@ -1,0 +1,175 @@
+{
+  "id": "674751d636b2485baddcf5cc",
+  "name": {
+    "zh": "献祭 - 第一章",
+    "en": "Pokloneniye - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 13000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 57525,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 57525
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "603409c80ca681766b6a0fb2",
+      "itemName": {
+        "zh": "NPP KIASS Condor 护目镜",
+        "en": "NPP KlASS Condor glasses"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590c2e1186f77425357b6124",
+      "itemName": {
+        "zh": "一套工具",
+        "en": "Toolset"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c621186f774138d11ea29",
+      "itemName": {
+        "zh": "加密U盘",
+        "en": "Secure Flash drive"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d5d940f86f7742797262046",
+      "itemName": {
+        "zh": "Oakley Mechanism重型背包 Black",
+        "en": "Oakley Mechanism heavy duty backpack (Black)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ae08f0a5acfc408fb1398a1",
+      "itemName": {
+        "zh": "莫辛-纳甘 7.62x54R 栓动式步枪（狙击型） ☆",
+        "en": "Mosin 7.62x54R bolt-action rifle (Sniper)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "65ca457b4aafb5d7fc0dcb5d",
+      "itemName": {
+        "zh": "United Cutlery M48战术尼泊尔军刀",
+        "en": "United Cutlery M48 Tactical Kukri"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你现在忙吗？没有吗？太好了。听着，昨晚情况好像变得很严重，我的人在森林里进行夜间侦察时。他们想前往旧锯木厂，但一到前面的检查站就被停止住了脚步。大多数人被伏击了，只有少数幸存下来，他们告诉我是一群戴着兜帽、戴着诡异面具的怪人……\n\n我之前听说过关于他们的传闻，但我一直以为这只是为了吓唬PMC的鬼故事。一开始我以为他们只是在开玩笑，但后来发现并不是这样。我的一些人设法反击并撤退了。我想你已经知道我希望你做什么了，对吧？\n\n你的猜测可能是对的。去森林检查站那里，消灭这帮搞出都市传说的兜帽小丑。等着你的好消息，士兵。",
+    "en": "Are you busy right now? No? Good. Listen, shit got serious last night, my guys were scouting at night in the big forest. They wanted to go to the old sawmill but got distracted once they reached the checkpoint before it. Most got gunned down, only a few survived and they told me that they got ambushed by a bunch of hooded freaks with creepy masks... I heard the rumors already about them but thought it was a myth to scare the PMCs. At first I thought that they were making jokes but it turned out that this was not the case. Some of my guys managed to fight back and retreat. I think you already know what I want from you eh? Your guess is probably correct.\n\nVisit that checkpoint at night and get rid of these hooded clowns. I will be hearing from you soldier."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_checkpoint",
+      "targetNames": {
+        "lotus_woods_checkpoint": {
+          "zh": "lotus_woods_checkpoint",
+          "en": "lotus_woods_checkpoint"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantWarrior"
+      ]
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 1,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      },
+      "enemyRoles": [
+        "sectantPriest"
+      ]
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747575b5a841fdbf0ca37ae",
+      "name": {
+        "zh": "“将死！” - 第六章",
+        "en": "Checkmate - Part 6"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "677a55a0be2a8922dab9e040",
+      "name": {
+        "zh": "十六吨重的备件",
+        "en": "Sixteen Tons Of Spare Parts"
+      }
+    },
+    {
+      "id": "677b03604996670857682f5c",
+      "name": {
+        "zh": "超自然现象",
+        "en": "Paranormal Activities"
+      }
+    },
+    {
+      "id": "67475302960eb9c091be4cd1",
+      "name": {
+        "zh": "献祭 - 第二章",
+        "en": "Pokloneniye - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_pokloneniye.png",
+  "isKey": false
+}

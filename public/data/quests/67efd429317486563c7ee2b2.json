@@ -1,0 +1,221 @@
+{
+  "id": "67efd429317486563c7ee2b2",
+  "name": {
+    "zh": "意外发现 - 第一章",
+    "en": "What A Find - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 175400,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 175400
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "590a3cd386f77436f20848cb",
+      "itemName": {
+        "zh": "节能灯泡",
+        "en": "Energy-saving lamp"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "65290f395ae2ae97b80fdf2d",
+      "itemName": {
+        "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+        "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5e01ef6886f77445f643baa4",
+      "itemName": {
+        "zh": "Team Wendy EXFIL 防弹头盔（棕褐色）",
+        "en": "Team Wendy EXFIL Ballistic Helmet (Coyote Brown)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Charisma",
+      "value": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "545cdb794bdc2d3a198b456a",
+      "itemName": {
+        "zh": "6B43 Zabralo-Sh 防弹衣（数码丛林迷彩）",
+        "en": "6B43 Zabralo-Sh body armor (EMR)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6718817435e3cfd9550d2c27",
+      "itemName": {
+        "zh": "Steyr AUG A3 5.56x45 突击步枪（黑色）",
+        "en": "Steyr AUG A3 5.56x45 assault rifle (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我决定将这些文件夹的副本交给BTR的司机，你来当这趟差使的信使，应该没问题吧？我也会派人把副本重新藏回原来的位置，以防你在途中把文件夹弄丢了。\n\n接下来，你要去一个特定位置看看——我们可能追踪到了另一批货物，一辆大卡车，就在旧锯木场附近。去那里找找有没有TerraGroup集团的活动痕迹。一旦找到那辆车，我建议你先用MS2000标记它，然后在卡车周围四个方向都安装上摄像头。希望那车还在那儿。\n\n听上去不算太复杂，对吧？行了，祝你好运，搞定之后赶紧从那鬼地方撤出来。",
+    "en": "I decided it would be best to hand over copies of what is inside the folders to the BTR driver. You will be the courier, I hope that's fine for you? I will send someone to stash more copies where you found them before, just in case you lose the folders.\n\nNext thing you're gonna do is visit a certain location - We might have tracked down another shipment. A big truck, somewhere near the old sawmill. Look for clear signs of Terragroup activity. Once you find that truck I suggest you mark it, and place cameras all around the cargo. If it's even there, so let's hope it is.\n\nSounds simple enough, right? Alright then, good luck out there, and make sure to get the hell out of there once you managed all that."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_tg_cargo_truck",
+      "targetNames": {
+        "lotus_woods_tg_cargo_truck": {
+          "zh": "lotus_woods_tg_cargo_truck",
+          "en": "lotus_woods_tg_cargo_truck"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5b4391a586f7745321235ab2"
+      ],
+      "targetNames": {
+        "5b4391a586f7745321235ab2": {
+          "zh": "WIFI摄像头 ☆",
+          "en": "WI-FI Camera"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67ee61b9f56b571ce703eec4",
+      "name": {
+        "zh": "更进一步",
+        "en": "Further Ahead"
+      }
+    },
+    {
+      "id": "67ee61bb0084128bf23f5477",
+      "name": {
+        "zh": "误伤友军",
+        "en": "Friendly Fire"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67f107c6cd96ce08caca8b83",
+      "name": {
+        "zh": "意外发现 - 第三章",
+        "en": "What A Find - Part 3"
+      }
+    },
+    {
+      "id": "67efd3e59f0821f600a4ebed",
+      "name": {
+        "zh": "意外发现 - 第二章",
+        "en": "What A Find - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_whatafind.png",
+  "isKey": false
+}

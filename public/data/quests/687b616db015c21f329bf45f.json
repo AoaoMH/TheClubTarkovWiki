@@ -1,0 +1,195 @@
+{
+  "id": "687b616db015c21f329bf45f",
+  "name": {
+    "zh": "枪匠 - 阿巴坎",
+    "en": "Gunsmith - Abakan"
+  },
+  "traderId": "5c0647fdd443bc2504c2d371",
+  "traderName": {
+    "zh": "Jaeger",
+    "en": "Jaeger"
+  },
+  "type": "Completion",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5c0647fdd443bc2504c2d371",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5a7c2eca46aef81a7ca2145d",
+      "value": 0.08
+    },
+    {
+      "type": "AssortmentUnlock"
+    },
+    {
+      "type": "AssortmentUnlock"
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "57372bd3245977670b7cd243",
+      "itemName": {
+        "zh": "5.45x39mm BS弹药包（30发装）",
+        "en": "5.45x39mm BS gs ammo pack (30 pcs)"
+      },
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "zh": "进来，坐下。今天给你找了个不一样的活儿。Sergey正埋头搞他自己的东西，在捣鼓几个高优先级的装配任务。他让我来处理这事儿，但我现在维持储备站的秩序已经焦头烂额了。掠夺者到处都是，我在这儿跟他们玩打地鼠呢，所以这事儿就交给你了。有把AN94被人藏在外面，是一个不愿露面的家伙留下的。没有名字，没有细节，他们就好这口。枪藏在湖边那座临时旧军事基地的某个地方。他们还列了一份要装上去的配件和改装件清单。我相信你能办妥，不会拿着枪跑路。把活儿干完，带回来给我。我会确保它送到该去的地方。",
+    "en": "Come in, have a seat. I’ve got something unusual for you today. Sergey’s buried in his own work, tinkering with some high-priority builds. He asked me to deal with it, but I’m stretched thin keeping the reserve in check. Looters are crawling all over, and I’m out here playing whack-a-mole with them, so I’m passing this to you. There’s an AN94 stashed out there, left by someone who wants to stay in the shadows. No names, no details, just how they like it. The rifle’s hidden somewhere at the old makeshift military base near the lake. There’s a list of attachments and mods they want on it. I trust you to get it done right and not run off with the gun.  Get it done, and bring it back to me. I’ll make sure it gets to where it’s supposed to go.  "
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "6879e7fa4c184bd0590dbab6"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6879e7fa4c184bd0590dbab6": {
+          "zh": "给Jaeger的便条",
+          "en": "Note to Jaeger"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "678fe4a4906c7bd23722c71f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "678fe4a4906c7bd23722c71f": {
+          "zh": "AN-94 5.45x39 突击步枪",
+          "en": "AN-94 5.45x39 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "678fe4a4906c7bd23722c71f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "678fe4a4906c7bd23722c71f": {
+          "zh": "AN-94 5.45x39 突击步枪",
+          "en": "AN-94 5.45x39 assault rifle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "679a6e58085b54fdd56f5d0d"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679a6e58085b54fdd56f5d0d": {
+          "zh": "AN-94 镂空折叠枪托",
+          "en": "AN-94 Skeletonized Folding Stock"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "679a702c47bb7fa666fe618e"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "679a702c47bb7fa666fe618e": {
+          "zh": "AK-74 5.45x39 6L23 30发弹匣（迷彩涂装）",
+          "en": "AK-74 5.45x39 6L23 30-round magazine (Camo)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "618a5d5852ecee1505530b2a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "618a5d5852ecee1505530b2a": {
+          "zh": "NPZ PK1 \"Obzor\" 燕尾反射式瞄具",
+          "en": "NPZ PK1 Obzor dovetail reflex sight"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6130ca3fd92c473c77020dbd"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6130ca3fd92c473c77020dbd": {
+          "zh": "CSS AK 凸缘拉机柄",
+          "en": "AK CSS knurled charging handle"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "648ae3e356c6310a830fc291"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "648ae3e356c6310a830fc291": {
+          "zh": "AK CG101 AR-type手枪式握把转换器",
+          "en": "AK Custom Guns CG101 AR-type pistol grip adapter"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "6113cc78d3a39d50044c065a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "6113cc78d3a39d50044c065a": {
+          "zh": "AR-15 F1 Firearms Skeletonized Style 2 PC 手枪式握把",
+          "en": "AR-15 F1 Firearms Skeletonized Style 2 PC pistol grip"
+        }
+      }
+    }
+  ],
+  "prerequisites": [],
+  "followUps": [],
+  "image": "/files/quest/icon/gsabakan.png",
+  "isKey": false
+}

@@ -1,0 +1,97 @@
+{
+  "id": "680e778d7b773d357db874c5",
+  "name": {
+    "zh": "谁偷走了证据？",
+    "en": "Who Stole The Evidence?"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3250
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 10,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 10
+    },
+    {
+      "type": "Skill",
+      "target": "Search",
+      "value": 20
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "58948c8e86f77409493f7266",
+      "itemName": {
+        "zh": "SIG MPX 9x19 冲锋枪 ☆",
+        "en": "SIG MPX 9x19 submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我突然想到，我们可能很快会有麻烦，大麻烦...你最好听好了，这非常重要，可能会危及我们每个人。\n\n我记得Ryba把文件藏在Terragroup实验室里，非常机密的信息，一些不该有人知道的事情！不是你，也不是我。你需要做的是找到这个文件夹，如果你告诉任何人我会发现的，所以别试图耍什么花招。总之，在住宅单元里应该有一个房间，里面住着一个叫Vladimir的家伙，显然他很重要，但这现在不关任何人的事了，谁在乎呢。真正重要的是，Ryba在单位撤离时把日记藏在了那里。\n\n找到这封信、日记，或不管是什么，快点！这些信息在任何情况下都不能公开，明白吗？",
+    "en": "Something just came to my mind, we might have a problem soon, a big problem... You better listen up, this is very important, it could endanger everyone of us.\n\nI remember Ryba hiding documents inside the Terragroup Lab, very confidential information, something nobody should know! Not you, not me. What you need to do is find this folder, if you tell anyone I will notice so don't attemp to pull some sort of sneaky move. Anyway, located in the residental unit there should be a room, in there lived a Vladimir guy, apparently he was important but this ain't anyone's problem now, who gives a shit. The actual important part is that Ryba stashed the diary in there once the unit was evacuated.\n\nFind this letter, diary, or whatever, and hurry up! This information can't reach the public under any circumstance, do you understand?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Halloween_closed_places",
+      "targetNames": {
+        "Halloween_closed_places": {
+          "zh": "Halloween_closed_places",
+          "en": "Halloween_closed_places"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "680e6fa7f03da221e8c72a7f",
+      "name": {
+        "zh": "冠军如何生活",
+        "en": "How Champions Live"
+      }
+    },
+    {
+      "id": "680e3923013c853dc48a35bb",
+      "name": {
+        "zh": "无法隐藏的过去",
+        "en": "Can't Hide The Past"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "680e807527f51292fa6b2f9e",
+      "name": {
+        "zh": "晚餐准备好了",
+        "en": "Dinner's Ready"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_ref.png",
+  "isKey": false
+}

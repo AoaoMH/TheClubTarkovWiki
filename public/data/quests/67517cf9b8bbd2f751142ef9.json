@@ -1,0 +1,143 @@
+{
+  "id": "67517cf9b8bbd2f751142ef9",
+  "name": {
+    "zh": "步步为营 - 第六章",
+    "en": "Taking Every Round Into Account - Part 6"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 75525,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75525
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57372ac324597767001bc261",
+      "itemName": {
+        "zh": "5.45x39mm BP弹药包（30发装）",
+        "en": "5.45x39mm BP gs ammo pack (30 pcs)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "67600a516f01341c9106ab4c",
+      "itemName": {
+        "zh": "6.8x51mm SIG Hybrid弹药包（20发装）",
+        "en": "6.8x51mm SIG Hybrid ammo pack (20 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "65118f531b90b4fc77015083",
+      "itemName": {
+        "zh": "VSS/VAL 9x39 30发弹匣",
+        "en": "VSS/VAL 9x39 30-round magazine"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "5c5970672e221602b21d7855",
+      "itemName": {
+        "zh": "ProMag AALVX 35 7.62x39 35发SKS弹匣",
+        "en": "SKS 7.62x39 ProMag AALVX 35-round magazine"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "MagDrills",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6761770e48fa5c377e06fc3c",
+      "itemName": {
+        "zh": "X-25 7.62x51 50发AR-10弹鼓",
+        "en": "AR-10 7.62x51 X Products X-25 50-round drum magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6761765f1f08ed5e8800b7a6",
+      "itemName": {
+        "zh": "AR-15 5.56x45 Beta C-Mag 100 发弹鼓",
+        "en": "AR-15 5.56x45 Beta C-Mag 100-round drum magazine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧好吧，没问题，这是与弹匣相关的最后一个挑战……应该？\n\n你知道怎么做了，趁挑战热情还没结束时赶快享受这种刺激快感，因为使用这些弹匣将会是噩梦。读一下说明你就会明白，哦差点忘了，祝你好运哦！\n\n指定弹匣：\n - SKS 7.62x39 10发内置盒型弹匣\n - VSS 或 VAL 9x39 6L24 10发弹匣",
+    "en": "Alright alright fine, this will be the final challenge related to magazines... I think.\n\nWell, you know the drill, try to have fun while it lasts, because using these magazines will be a nightmare, just read the note and you'll understand, oh and good luck!\n\nSpecified Magazines :\n - SKS 7.62x39 10-Round Internal Box Magazine\n - VSS / VAL 9x39 6L24 10-Round Magazine"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 4,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67517c8c5c2a6190c8dae8a4",
+      "name": {
+        "zh": "步步为营 - 第五章",
+        "en": "Taking Every Round Into Account - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6750a04d753056276248642d",
+      "name": {
+        "zh": "悠哉写意诺文斯克",
+        "en": "Quiet Days In Norvinsk"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_magazines.png",
+  "isKey": false
+}

@@ -11,6 +11,10 @@
   },
   "type": "PickUp",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -36,7 +40,7 @@
       "value": 1,
       "itemId": "567143bf4bdc2d1a0f8b4567",
       "itemName": {
-        "zh": "手枪收纳箱",
+        "zh": "手枪收纳箱 ☆",
         "en": "Pistol case"
       },
       "quantity": 1
@@ -51,7 +55,7 @@
       "value": 2,
       "itemId": "59faff1d86f7746c51718c9c",
       "itemName": {
-        "zh": "实体比特币",
+        "zh": "实体比特币 ★",
         "en": "Physical Bitcoin"
       },
       "quantity": 1
@@ -75,14 +79,14 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 3,
+      "value": 1,
       "target": [
         "57347ca924597744596b4e71"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "57347ca924597744596b4e71": {
-          "zh": "显示卡",
+          "zh": "显示卡 ☆",
           "en": "Graphics card"
         }
       }
@@ -90,14 +94,14 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 3,
+      "value": 1,
       "target": [
         "57347ca924597744596b4e71"
       ],
       "onlyFoundInRaid": true,
       "targetNames": {
         "57347ca924597744596b4e71": {
-          "zh": "显示卡",
+          "zh": "显示卡 ☆",
           "en": "Graphics card"
         }
       }
@@ -105,7 +109,7 @@
     {
       "type": "FindItem",
       "description": "FindItem",
-      "value": 15,
+      "value": 4,
       "target": [
         "5734779624597737e04bf329"
       ],
@@ -120,7 +124,7 @@
     {
       "type": "HandoverItem",
       "description": "HandoverItem",
-      "value": 15,
+      "value": 4,
       "target": [
         "5734779624597737e04bf329"
       ],

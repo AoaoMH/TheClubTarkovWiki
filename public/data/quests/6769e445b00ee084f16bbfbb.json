@@ -1,0 +1,200 @@
+{
+  "id": "6769e445b00ee084f16bbfbb",
+  "name": {
+    "zh": "塔科夫环卫工 - 第三章",
+    "en": "Tarkov Sweeper - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 14450
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 1350,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1350
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "58d3db5386f77426186285a0",
+      "itemName": {
+        "zh": "M67手榴弹",
+        "en": "M67 hand grenade"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "59fafd4b86f7745ca07e1232",
+      "itemName": {
+        "zh": "钥匙收纳器",
+        "en": "Key tool"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b376e86f774252519444e",
+      "itemName": {
+        "zh": "“凶狠跑刀崽”私酒 ☆",
+        "en": "Bottle of Fierce Hatchling moonshine"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Shotgun",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a16b7e1fcdbcb00165aa6c9",
+      "itemName": {
+        "zh": "Ops-Core FAST头盔多重打击防弹面罩",
+        "en": "Ops-Core FAST multi-hit ballistic face shield"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "669fa3d876116c89840b1217",
+      "itemName": {
+        "zh": "Magnum Research “沙漠之鹰”L6 .50 AE手枪（白色虎纹） ☆",
+        "en": "Magnum Research Desert Eagle L6 .50 AE pistol (WTS)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b40e1525acfc4771e1c6611",
+      "itemName": {
+        "zh": "HighCom Striker ULACH IIIA 头盔（黑色）",
+        "en": "HighCom Striker ULACH IIIA helmet (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，说真的，其实我对之前的结果差强人意，所以我们得一探再探。\n\n也许我们需要用这把枪对付一些更高级别的目标？比如其他PMC之类的？也许行得通说不定！你搞得定吗？别忘了把他们的狗牌带回来给我。\n\n随便BEAR，USEC都行，是个狗牌就OK。",
+    "en": "Hey, I'm not really satisfied with the results if I'm honest, so we're taking it a step up.\n\nMaybe we need to use this gun against higher-priority targets? Maybe other operators, yes that would work! Can you handle that? And don't forget to bring me their dogtags.\n\nIt won't matter if you take out BEAR or USEC operators."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 5,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      },
+      "weapons": [
+        "66ffa9b66e19cc902401c5e8",
+        "67124dcfa3541f2a1f0e788b"
+      ],
+      "weaponNames": {
+        "66ffa9b66e19cc902401c5e8": {
+          "zh": "MPS Auto Assault-12 Gen 1 12铅径自动霰弹枪",
+          "en": "MPS Auto Assault-12 Gen 1 12ga automatic shotgun"
+        },
+        "67124dcfa3541f2a1f0e788b": {
+          "zh": "MPS Auto Assault-12 Gen 2 12铅径自动霰弹枪",
+          "en": "MPS Auto Assault-12 Gen 2 12ga automatic shotgun"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 5,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "6662e9cda7e0b43baa3d5f76",
+        "6662e9aca7e0b43baa3d5f74",
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "675dc9d37ae1a8792107ca96",
+        "675dcb0545b1a2d108011b2b"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9cda7e0b43baa3d5f76": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9aca7e0b43baa3d5f74": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "675dc9d37ae1a8792107ca96": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dcb0545b1a2d108011b2b": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6769e299431e125fdf3f6418",
+      "name": {
+        "zh": "塔科夫环卫工 - 第二章",
+        "en": "Tarkov Sweeper - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67d7fa81e32b6be5326c4935",
+      "name": {
+        "zh": "塔科夫环卫工 - 第四章",
+        "en": "Tarkov Sweeper - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_aa12.png",
+  "isKey": false
+}

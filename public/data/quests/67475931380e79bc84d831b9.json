@@ -1,0 +1,235 @@
+{
+  "id": "67475931380e79bc84d831b9",
+  "name": {
+    "zh": "莲花之光 - 第三章",
+    "en": "Light Of The Lotus - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "653e6760052c01c1c805532f",
+  "locationName": {
+    "zh": "中心区",
+    "en": "Ground Zero"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 32250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 32250
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5672cb304bdc2dc2088b456a",
+      "itemName": {
+        "zh": "一号电池",
+        "en": "D Size battery"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "590a358486f77429692b2790",
+      "itemName": {
+        "zh": "可充电电池",
+        "en": "Rechargeable battery"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Metabolism",
+      "value": 25
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d43021ca4b9362eab4b5e25",
+      "itemName": {
+        "zh": "Lone Star TX-15 DML 5.56x45 半自动卡宾枪 ☆",
+        "en": "Lone Star TX-15 DML 5.56x45 carbine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "60a272cc93ef783291411d8e",
+      "itemName": {
+        "zh": "Hazard 4 Drawbridge 背包（黄褐色）",
+        "en": "Hazard 4 Drawbridge backpack (Coyote Tan)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5b432d215acfc4771e1c6624",
+      "itemName": {
+        "zh": "LZSh 轻型头盔（橄榄绿）",
+        "en": "LShZ lightweight helmet (Olive Drab)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你说你厌倦了翻遍每个包和尸体去找你需要的东西？好吧，那我给你一些更重要的任务。\n\n前往塔科夫商业中心区，那里是TerraGroupTerraGroup集团的总部，那儿可非常危险的说……我告诉你————\n到处都布满地雷或有狙击手把守，就那个机枪楼底下小房间里还能有阔剑，畜生啊，我还特地让人去写了有地雷，不过我感觉有人好像看不懂英文和俄文。我需要你去检查这些地方。不要靠得太近，我可不会给你的医疗费用报销。别忘了在那里放置点标记器，这样我的人在检查时可以更清楚地找到具体位置。我可以保证Mira大道是地雷并有狙击手把手的，至于其他地方我就不太清楚了。\n\n也许在TerraGroupTerraGroup集团大楼附近，也许在靠近Nakatani的某条道路上。好吧，祝你好运。",
+    "en": "Tired of checking every bag and body for the stuff you need? Alright fine, I got something else for you that is more important.\n\nHead to the business center of Tarkov where Terragroup had their headquarter, dangerous place, i'm telling you...\nA bunch of spots are mined or guarded by marksmen, and I need you to check all of them out. Don't go to close however, you know what will happen. And don't forget to put down some markers there so we can see it ourself when checking them out. I can guarantee you that the Mira Avenue is mined and guarded, I don't know too much about the others.\n\nSomewhere near the Terragroup Building and somewhere on a road near Nakatani. Alright then, good luck."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_miraave_extract",
+      "targetNames": {
+        "lotus_groundzero_miraave_extract": {
+          "zh": "lotus_groundzero_miraave_extract",
+          "en": "lotus_groundzero_miraave_extract"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_miraave_mines",
+      "targetNames": {
+        "lotus_groundzero_miraave_mines": {
+          "zh": "lotus_groundzero_miraave_mines",
+          "en": "lotus_groundzero_miraave_mines"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_taxi_extract",
+      "targetNames": {
+        "lotus_groundzero_taxi_extract": {
+          "zh": "lotus_groundzero_taxi_extract",
+          "en": "lotus_groundzero_taxi_extract"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_groundzero_nakatani_snipers",
+      "targetNames": {
+        "lotus_groundzero_nakatani_snipers": {
+          "zh": "lotus_groundzero_nakatani_snipers",
+          "en": "lotus_groundzero_nakatani_snipers"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674758ea142f52a016ecd92d",
+      "name": {
+        "zh": "莲花之光 - 第二章",
+        "en": "Light Of The Lotus - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674753f1d8d87605a4fcb912",
+      "name": {
+        "zh": "“将死！” - 第一章",
+        "en": "Checkmate - Part 1"
+      }
+    },
+    {
+      "id": "67475c58c8d4ae3b9baf7d38",
+      "name": {
+        "zh": "莲花之光 - 第四章",
+        "en": "Light Of The Lotus - Part 4"
+      }
+    },
+    {
+      "id": "6798d6406ad52e1849131aee",
+      "name": {
+        "zh": "雇佣兵失踪事件",
+        "en": "Mercenaries Missing"
+      }
+    },
+    {
+      "id": "67472503ea7a07fc5c20b8a4",
+      "name": {
+        "zh": "渗透RUAF - 第一章",
+        "en": "RUAF Infiltrator - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_3.png",
+  "isKey": false
+}

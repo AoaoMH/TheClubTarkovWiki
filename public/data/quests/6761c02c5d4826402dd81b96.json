@@ -1,0 +1,187 @@
+{
+  "id": "6761c02c5d4826402dd81b96",
+  "name": {
+    "zh": "工具之道 - 第十四章",
+    "en": "Tools To Work With - Part 14"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3950
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 1500,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1500
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b43575a86f77424f443fe62",
+      "itemName": {
+        "zh": "燃油添加剂",
+        "en": "Fuel conditioner"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "59e3606886f77417674759a5",
+      "itemName": {
+        "zh": "盐水溶液 ☆",
+        "en": "Bottle of saline solution"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b44cad286f77402a54ae7e5",
+      "itemName": {
+        "zh": "5.11 Tactical TacTec 插板胸挂（丛林绿）",
+        "en": "5.11 Tactical TacTec plate carrier (Ranger Green)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 20
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d4406a8a4b9361e4f6eb8b7",
+      "itemName": {
+        "zh": "Magpul PRS GEN3 枪托 Grey",
+        "en": "AR-15 Magpul PRS GEN3 stock (Grey)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "606587252535c57a13424cfd",
+      "itemName": {
+        "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪 ★",
+        "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "606587252535c57a13424cfd",
+      "itemName": {
+        "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪 ★",
+        "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我最近对一些冷门枪感兴趣，特别有一把引起了我的注意。它看起来像 AR-10，但却用 AK 的 7.62x39 弹匣。\n\n听说很多高级 PMC 都爱用这个，你也不例外吧？我想自己搞一把，如果你能改一支合我心意的 Mk47，那你也能获得这枪的使用权限。细节我写好了。\n\nMk47 要求：\n - 后坐力总和小于 250\n - 重量小于 4.5 公斤\n - 人机功效 35 或更高\n - 耐久度至少 95 %\n - 弹匣容量 30 或更多\n - 任意 准直式瞄具\n - 任意 消音器\n - LAS/TAC 2战术手电",
+    "en": "Recently I got interested in exotic weapons, one of them catched my attention. It's basically an AR-10 that uses 7.62x39 AK magazines.\n\nThat weapon seems to be very popular among highly skilled operators, like you. So I got the idea of building one, if you can build a nice Mk47, you'll get access to it. I'll write down all the details.\n\nMk47 Requirements :\n - Recoil Sum less than 250\n - Weight less than 4.5 KG\n - Ergonomics 35 or higher\n - Durability higher than 95 %\n - Magazine Capacity of 30 or more\n - A Collimator\n - A Silencer\n - Steiner LAS/TAC 2 Tactical Flashlight"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "606587252535c57a13424cfd"
+      ],
+      "targetNames": {
+        "606587252535c57a13424cfd": {
+          "zh": "CMMG Mk47 Mutant 7.62x39 突击步枪 ★",
+          "en": "CMMG Mk47 Mutant 7.62x39 assault rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 35
+        },
+        {
+          "stat": "recoil",
+          "compare": "<=",
+          "value": 250
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 95
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 30
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 4.5
+        }
+      ],
+      "requiredItems": [
+        "5b07dd285acfc4001754240d"
+      ],
+      "requiredItemNames": {
+        "5b07dd285acfc4001754240d": {
+          "zh": "LAS/TAC 2战术手电",
+          "en": "Steiner LAS/TAC 2 tactical flashlight"
+        }
+      },
+      "requiredCategories": [
+        "550aa4cd4bdc2dd8348b456c",
+        "55818ad54bdc2ddc698b4569"
+      ],
+      "requiredCategoryNames": {
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        },
+        "55818ad54bdc2ddc698b4569": {
+          "zh": "反射式瞄具",
+          "en": "Reflex sight"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6761bd93d87008565f79d473",
+      "name": {
+        "zh": "工具之道 - 第十三章",
+        "en": "Tools To Work With - Part 13"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6761c1e41e5ad9a96c8921a3",
+      "name": {
+        "zh": "工具之道 - 第十五章",
+        "en": "Tools To Work With - Part 15"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_14.png",
+  "isKey": false
+}

@@ -1,0 +1,105 @@
+{
+  "id": "68665a3b90bfb5b2fc3eab8d",
+  "name": {
+    "zh": "彻底清扫",
+    "en": "Clean Sweep"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.05
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": -0.01
+    },
+    {
+      "type": "Item",
+      "value": 50,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 50
+    }
+  ],
+  "description": {
+    "zh": "现在，这给了我一个主意...我们为什么不从驾驶员的基地偷点东西呢？我肯定我们能在里面找到些有价值的东西，或者至少有点用的东西，你不觉得吗？当然！你需要请他带你去那里，那个地方有狙击手守卫，而且地区布满地雷，那样进去太危险了。你需要合法地进入里面，所以带点现金。\n\n我这儿有点装备，拿上，一个信号干扰器和一个标记器。我现在期望你进入那个仓库，把干扰器放在入口处，就是有集装箱的那个入口。这样我们也许能禁用一些陷阱，也许还能再派些人进去。万一你在那里找到什么有用的东西，标记它。我们可以用些重武器，所以我建议你继续寻找机枪之类的东西。明白了吗？太好了，期望很快见到你，冠军！",
+    "en": "Now, that gives me an idea... Why don't we steal some stuff from the driver's base? I'm sure we can find something of value, or at least something slightly useful in there, don't you think? Of course! You'll need to ask him to take you there, the place is guarded by marksmen and the area is full of mines, it's just too dangerous that way. You need to get inside their legitimately so bring some cash.\n\nI got a bit of gear right here, take it, a signal jammer and a marker. What I expect from you now is to enter that depot and plant the jammer in the entrance, the one with the containers. We might be able to disable some of the traps that way, and just maybe we can send in some more people. And in case you find something useful there, mark it. We could use some heavy weaponry so I suggest you keep looking for a machine gun, stuff like that. Got it? Great, I expect to see you soon champion!"
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5ac78a9b86f7741cca0bbd8d"
+      ],
+      "targetNames": {
+        "5ac78a9b86f7741cca0bbd8d": {
+          "zh": "信号干扰器",
+          "en": "Signal Jammer"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_btrdriver_base_utyos",
+      "targetNames": {
+        "lotus_woods_btrdriver_base_utyos": {
+          "zh": "lotus_woods_btrdriver_base_utyos",
+          "en": "lotus_woods_btrdriver_base_utyos"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "5991b51486f77447b112d44f"
+      ],
+      "targetNames": {
+        "5991b51486f77447b112d44f": {
+          "zh": "MS2000指示器",
+          "en": "MS2000 Marker"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6865144e611f20e8e30f88d8",
+      "name": {
+        "zh": "他就是这么死的...",
+        "en": "That's How He Perished..."
+      }
+    }
+  ],
+  "followUps": [],
+  "image": "/files/quest/icon/lotus_depot_utyos.png",
+  "isKey": false
+}

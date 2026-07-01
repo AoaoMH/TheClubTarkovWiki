@@ -1,0 +1,269 @@
+{
+  "id": "67699dc535f6bb1f5781c4cc",
+  "name": {
+    "zh": "致幻剂 - 第三章",
+    "en": "Narcotic - Part 3"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 9900
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 1130,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 1130
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "60098ad7c2240c0fe85c570a",
+      "itemName": {
+        "zh": "AFAK单兵战术急救包",
+        "en": "AFAK tactical individual first aid kit"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "619cc01e0a7c3a1a2731940c",
+      "itemName": {
+        "zh": "医疗工具",
+        "en": "Medical tools"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Skill",
+      "target": "Metabolism",
+      "value": 75
+    },
+    {
+      "type": "Skill",
+      "target": "Immunity",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ed51652f6c34d2cc26336a1",
+      "itemName": {
+        "zh": "M.U.L.E. 兴奋剂 ☆",
+        "en": "M.U.L.E. stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e534186f7747fa1419867",
+      "itemName": {
+        "zh": "eTG-change再生兴奋剂注射器",
+        "en": "eTG-change regenerative stimulant injector"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5751a89d24597722aa0e8db0",
+      "itemName": {
+        "zh": "金星软膏 ☆",
+        "en": "Golden Star balm"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好了，又一个新订单，这次需要更多注射器。这应该是来自这个特定买家的最后一笔订单，但如果他再订购更多，我也不会介意。\n\n现在他在寻找更稀有的注射器，也许可以去TerraGroupTerraGroup集团的实验室里看看可能会是个不错的主意？决定去哪里寻找这些针剂是你的事，有很多地方可以检查，但记住，高风险高回报。",
+    "en": "Okay, a new order, even more injectors this time. It should be last order from this specific buyer, but I wouldn't mind if he ordered more.\n\nSo he's looking for even rarer injectors now, so paying a visit to the Terragroup laboratory might be a good idea? You decide where you will look for them, there are enough places you can check out, but remember, high risk high reward."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "637b6179104668754b72f8f5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "637b6179104668754b72f8f5": {
+          "zh": "PNB (16 号化合物) 兴奋剂注射器",
+          "en": "PNB (Product 16) stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "637b6179104668754b72f8f5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "637b6179104668754b72f8f5": {
+          "zh": "PNB (16 号化合物) 兴奋剂注射器",
+          "en": "PNB (Product 16) stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed515ece452db0eb56fc028"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515ece452db0eb56fc028": {
+          "zh": "P22 (22 号化合物) 兴奋剂注射器",
+          "en": "P22 (Product 22) stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed515ece452db0eb56fc028"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515ece452db0eb56fc028": {
+          "zh": "P22 (22 号化合物) 兴奋剂注射器",
+          "en": "P22 (Product 22) stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed515f6915ec335206e4152"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515f6915ec335206e4152": {
+          "zh": "AHF1-M 兴奋剂注射器",
+          "en": "AHF1-M stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed515f6915ec335206e4152"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed515f6915ec335206e4152": {
+          "zh": "AHF1-M 兴奋剂注射器",
+          "en": "AHF1-M stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5ed5160a87bb8443d10680b5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed5160a87bb8443d10680b5": {
+          "zh": "Meldonin 注射器",
+          "en": "Meldonin injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5ed5160a87bb8443d10680b5"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5ed5160a87bb8443d10680b5": {
+          "zh": "Meldonin 注射器",
+          "en": "Meldonin injector"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "637b620db7afa97bfc3d7009"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "637b620db7afa97bfc3d7009": {
+          "zh": "曲马多注射器 ☆",
+          "en": "Trimadol stimulant injector"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "637b620db7afa97bfc3d7009"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "637b620db7afa97bfc3d7009": {
+          "zh": "曲马多注射器 ☆",
+          "en": "Trimadol stimulant injector"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67699b1421e57b1c6415f6c3",
+      "name": {
+        "zh": "致幻剂 - 第二章",
+        "en": "Narcotic - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747508429ca66164b39e637",
+      "name": {
+        "zh": "致幻剂 - 第四章",
+        "en": "Narcotic - Part 4"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_narcotic.png",
+  "isKey": false
+}

@@ -1,0 +1,116 @@
+{
+  "id": "67487d759f790d565629d605",
+  "name": {
+    "zh": "专业射手 - 第二章",
+    "en": "Professional Weapon Tester - Part 2"
+  },
+  "traderId": "5935c25fb3acc3127c3d8cd9",
+  "traderName": {
+    "zh": "Peacekeeper",
+    "en": "Peacekeeper"
+  },
+  "type": "Elimination",
+  "location": "56f40101d2720b2a4d8b45d6",
+  "locationName": {
+    "zh": "海关",
+    "en": "Customs"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3550
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5935c25fb3acc3127c3d8cd9",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 400,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 400
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5d6fc78386f77449d825f9dc",
+      "itemName": {
+        "zh": "“Eagle”火药",
+        "en": "Gunpowder \"Eagle\""
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "590c5a7286f7747884343aea",
+      "itemName": {
+        "zh": "“Kite”火药",
+        "en": "Gunpowder \"Kite\""
+      },
+      "quantity": 3
+    }
+  ],
+  "description": {
+    "zh": "继续测试。接下来选择就多点了，是———— SIG 系列武器，MPX 和 MCX。\n说实话，西格绍尔除了SPEAR和P320其实都挺好的对吧？只不过现在搞得反倒像美国原神了。\n\n言归正传，测试地点是海关一带。那一带流窜着不少土匪，务必保持警惕。没问题吧？OK，等你消息。",
+    "en": "Let's continue. You have a little more options for this test, it's about SIG weapons, MPX and MCX.\n\nThey need to be tested anywhere in the industrial area. Lots of bandits roam around there, so never let your guard down. Are you able to test these weapons there? Fantastic, report to me when you completed the test."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "58948c8e86f77409493f7266",
+        "5fbcc1d9016cce60e8341ab3",
+        "65290f395ae2ae97b80fdf2d"
+      ],
+      "weaponNames": {
+        "58948c8e86f77409493f7266": {
+          "zh": "SIG MPX 9x19 冲锋枪 ☆",
+          "en": "SIG MPX 9x19 submachine gun"
+        },
+        "5fbcc1d9016cce60e8341ab3": {
+          "zh": "SIG MCX .300 AAC Blackout 突击步枪 ☆",
+          "en": "SIG MCX .300 Blackout assault rifle"
+        },
+        "65290f395ae2ae97b80fdf2d": {
+          "zh": "SIG MCX SPEAR 6.8x51突击步枪",
+          "en": "SIG MCX-SPEAR 6.8x51 assault rifle"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67487d3a9466f36422ede295",
+      "name": {
+        "zh": "专业射手 - 第一章",
+        "en": "Professional Weapon Tester - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67487dc889b8109c6f95d7f7",
+      "name": {
+        "zh": "专业射手 - 第三章",
+        "en": "Professional Weapon Tester - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_proshooter_peacekeeper_2.png",
+  "isKey": false
+}

@@ -1,0 +1,105 @@
+{
+  "id": "68c312d1609a82be2a2d52db",
+  "name": {
+    "zh": "违禁品 - 第1部分",
+    "en": "Contraband - Part 1"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Exploration",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "6557458f83942d705f0c4962",
+      "itemName": {
+        "zh": "SSAPI level III+ 防弹插板（侧边）",
+        "en": "SSAPI level III+ ballistic plate (Side)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5fbcc1d9016cce60e8341ab3",
+      "itemName": {
+        "zh": "SIG MCX .300 AAC Blackout 突击步枪 ☆",
+        "en": "SIG MCX .300 Blackout assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "既然我们已经把所有简单的零工都处理完了，让我们回到重要的事情上，我们有工作要做。我的人设法获得了一些关于Skier走私路线潜在位置的信息。\n\n也许你知道这些地方可能在哪里？毕竟你很了解塔科夫，你应该考虑成为一名导游，嗯？好吧 fine，所有玩笑到此为止，这是 serious。显然Skier的一条路线穿过天蓝海岸以及Cape Dalniy（灯塔），第二条路线可能在军事基地和Cape Dalniy的净水厂之间，也许你应该去看看这些地方连接的区域？\n\n这就是我能给你的所有信息，抱歉捍卫者，但我不能总是用外面的所有智慧来喂养你，有时你必须搜索和寻找。保持警惕。",
+    "en": "Now that we got all the simple side jobs out of the way, let's get back to the important things, we got work to do. My men managed to obtain some information about the potential locations of Skier's smuggling routes.\n\nMaybe you know where these places might be located? After all you know Tarkov pretty well, you should consider becoming a tour guide, eh? Alright fine, all jokes aside now, this is serious. Apparently one of Skier's routes goes through the Azure Coast aswell as Cape Dalniy, the second route might be between the military base and the water treatment plant at Cape Dalniy, perhaps you should visit the areas where these places connect?\n\nThat's about all the information I can give you, sorry champion but I can't always feed you with every wisdom there is outthere, sometimes you gotta search and find. Keep your eyes peeled."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_skier_smuggling_route_1",
+      "targetNames": {
+        "lotus_skier_smuggling_route_1": {
+          "zh": "lotus_skier_smuggling_route_1",
+          "en": "lotus_skier_smuggling_route_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_skier_smuggling_route_2",
+      "targetNames": {
+        "lotus_skier_smuggling_route_2": {
+          "zh": "lotus_skier_smuggling_route_2",
+          "en": "lotus_skier_smuggling_route_2"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c1eff9c5b5f2e47b774a57",
+      "name": {
+        "zh": "走私方法",
+        "en": "Smuggle Method"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c31f71aa355c62f3b4f6e3",
+      "name": {
+        "zh": "违禁品 - 第3部分",
+        "en": "Contraband - Part 3"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_ref.png",
+  "isKey": false
+}

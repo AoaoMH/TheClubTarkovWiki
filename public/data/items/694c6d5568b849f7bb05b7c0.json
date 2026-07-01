@@ -8,21 +8,21 @@
     "Item"
   ],
   "handbook": {
-    "categoryId": null,
-    "price": 0
+    "categoryId": "5b47574386f77428ca22b335",
+    "price": 65000
   },
   "common": {
     "name": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "C4 Skittles Energy Drink [Rare]",
+      "en": "C4 Skittles Energy Drink [Rare]"
     },
     "shortName": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "C4",
+      "en": "C4"
     },
     "description": {
-      "zh": "item_food_vodka",
-      "en": "item_food_vodka"
+      "zh": "跳蚤市场: 80,000₽ | 物品价值: 65,000 | Therapist报价: 40,950₽Unlock your best performance, power, and speed with C4 Performance Energy®. Every can is packed with 200mg of caffeine and CarnoSyn® Beta Alanine for explosive energy you can feel. Made with clinically studied ingredients, ZERO grams of sugar or artificial colors, and carrying the NSF Certified for Sport® label, C4 Performance Energy® is the athletes choice for elevating performance.",
+      "en": "跳蚤市场: 80,000₽ | 物品价值: 65,000 | Therapist报价: 40,950₽Unlock your best performance, power, and speed with C4 Performance Energy®. Every can is packed with 200mg of caffeine and CarnoSyn® Beta Alanine for explosive energy you can feel. Made with clinically studied ingredients, ZERO grams of sugar or artificial colors, and carrying the NSF Certified for Sport® label, C4 Performance Energy® is the athletes choice for elevating performance."
     },
     "weight": 0.6,
     "width": 1,
@@ -119,7 +119,88 @@
           }
         ],
         "damageEffects": [],
-        "stimBuffs": []
+        "stimBuffs": [
+          {
+            "buffType": "StaminaRate",
+            "skillName": "",
+            "value": 0.4,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "MaxStamina",
+            "skillName": "",
+            "value": 15,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Perception",
+            "value": 5,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Attention",
+            "value": 5,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Search",
+            "value": 5,
+            "delay": 0,
+            "duration": 400,
+            "chance": 1
+          },
+          {
+            "buffType": "WeightLimit",
+            "skillName": "",
+            "value": 0.2,
+            "delay": 1,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "SkillRate",
+            "skillName": "Health",
+            "value": -5,
+            "delay": 400,
+            "duration": 300,
+            "chance": 1
+          },
+          {
+            "buffType": "HealthRate",
+            "skillName": "",
+            "value": -999,
+            "delay": 400,
+            "duration": 400,
+            "chance": 0.02
+          },
+          {
+            "buffType": "EnergyRate",
+            "skillName": "",
+            "value": -1.5,
+            "delay": 400,
+            "duration": 60,
+            "chance": 1
+          },
+          {
+            "buffType": "HandsTremor",
+            "skillName": "",
+            "value": 0,
+            "delay": 400,
+            "duration": 120,
+            "chance": 1
+          }
+        ]
       }
     }
   },

@@ -1,0 +1,130 @@
+{
+  "id": "67517b14e12814c596f01bd0",
+  "name": {
+    "zh": "步步为营 - 第一章",
+    "en": "Taking Every Round Into Account - Part 1"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 45250,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 45250
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "5447ac644bdc2d6c208b4567",
+      "itemName": {
+        "zh": "5.56x45mm M855弹药包（50发装）",
+        "en": "5.56x45mm M855 ammo pack (50 pcs)"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "564ca9df4bdc2d35148b4569",
+      "itemName": {
+        "zh": "6L18 5.45x39 45发AK-74兼容弹匣",
+        "en": "AK-74 5.45x39 6L18 45-round magazine"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Skill",
+      "target": "MagDrills",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "55d482194bdc2d1d4e8b456b",
+      "itemName": {
+        "zh": "6L31 5.45x39 60发AK-74兼容弹匣",
+        "en": "AK-74 5.45x39 6L31 60-round magazine"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ba26586d4351e44f824b340",
+      "itemName": {
+        "zh": "MP7 4.6x30 40发标准弹匣",
+        "en": "HK MP7 4.6x30 40-round magazine"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，听好，我有一个连经验丰富的行动人员老手都不敢尝试的挑战。感兴趣吗？\n\n在战斗中，弹匣里有足够的子弹很重要，但如果你的弹匣只能装标准弹匣三分之一甚至更少的子弹呢？\n\n很吓人对吧，我知道……好了，你将从卡拉什尼科夫的弹匣开始，无论使用什么口径，只要使用10发弹匣就行了。祝你好运。\n\n指定弹匣：\n - Izhmash 7.62x39 AK 10发铝合金AK兼容弹匣\n - 使用的7.62x39的加强筋10发装金属AK兼容弹匣。（没错，这就是原名称，包括这个句号。无敌了，njt）\n - Saiga 5.45x39 10发AK-74兼容弹匣",
+    "en": "Hey, listen up, I got a challenge for you that even the most experienced operators wouldn't dare to try. Interested?\n\nHaving enough bullets in your magazine is essential when fighting others, but what if your magazine only holds a third or even less of what standard-issue magazines can hold?\nScary, I know... Well, you're gonna start with kalashnikov magazines, it won't matter what caliber you use, as long as you use ten-round magazines you should be good to go. Good luck out there.\n\nSpecified Magazines :\n - AK 7.62x39 Aluminium 10-Round Magazine\n - AK 7.62x39 Ribbed Metal 10-Round Magazine\n - AK-74 \"Saiga 545\" 5.45x39 10-Round Magazine"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67472495fb91486f4fb89cb3",
+      "name": {
+        "zh": "准备战斗",
+        "en": "Ready For Battle"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6769e676aaf099da20b7d467",
+      "name": {
+        "zh": "知己知彼 - 第一章",
+        "en": "Knowing How To Counter - Part 1"
+      }
+    },
+    {
+      "id": "67517bceebe6088837aa2dab",
+      "name": {
+        "zh": "步步为营 - 第二章",
+        "en": "Taking Every Round Into Account - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_magazines.png",
+  "isKey": false
+}

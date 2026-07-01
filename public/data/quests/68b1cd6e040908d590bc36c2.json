@@ -1,0 +1,95 @@
+{
+  "id": "68b1cd6e040908d590bc36c2",
+  "name": {
+    "zh": "营销活动 - 第1部分",
+    "en": "Marketing Campaign - Part 1"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Elimination",
+  "location": "5704e554d2720bac5b8b456e",
+  "locationName": {
+    "zh": "工厂",
+    "en": "Factory"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 4000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 12,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 12
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "590c2e1186f77425357b6124",
+      "itemName": {
+        "zh": "一套工具",
+        "en": "Toolset"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5447ac644bdc2d6c208b4567",
+      "itemName": {
+        "zh": "5.56x45mm M855弹药包（50发装）",
+        "en": "5.56x45mm M855 ammo pack (50 pcs)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "嘿，正说你呢！你来了，我现在就需要你的帮助————竞技场最近的游客少了很多，所以竞技场老板发了委托。显然有些当地人在海岸线惹麻烦，那是我的人最近张贴广告的地方！他们几乎把我们海报都撕了，我都不懂他们在干什么，海报还赚钱还是怎么了。\n\n我觉得你从来没负责过处理这样的生意，但今天你会稍微体验一下。我需要人帮忙解决这个小问题，所以我在说选了你来做这个工作！你毕竟是专家，真正的专业人士，我需要这样的人，你懂的，嗯。杀人是你的专长，清理一点走地鸡对你来说不算太难，对吧？我打赌你蒙着眼睛都能搞定这个任务！我真该开始和我的人打赌了。\n\n但不管怎样，说正经的，这些混蛋是个需要处理的问题，你有时间吗？",
+    "en": "Hey, you! Good thing you're finally here, I need your help right now! The Arena has been getting a lot less visitors recently, apparently some locals have been causing some trouble on the shoreline lately, that's where my guys put up advertisements lately! They tore down our posters almost everywhere, unbelievable.\n\nI don't think you ever had the responsibility of handling a business like that, but today you will get a slight taste of that. I need some help with fixing this little issue here, and of course I picked you for this job! You're and expert after all, a real pro, and I need these kinds of people, you get it yeah. Killing is your area of expertise, and taking out a little bit of trash can't be too difficult for you, you trained for this, right? I bet you could handle this task while you're blindfolded! I should really start placing bets with my guys.\n\nBut anyway, in all seriousness, these assholes are a problem that needs to be taken care of, do you have time for that?"
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Savage",
+      "targetNames": {
+        "Savage": {
+          "zh": "Savage",
+          "en": "Savage"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68036d6a531f6cc19b89e654",
+      "name": {
+        "zh": "竞技场的新玩具",
+        "en": "New Toys For The Arena"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b1cf3fed5b59b8c54f0d43",
+      "name": {
+        "zh": "营销活动 - 第2部分",
+        "en": "Marketing Campaign - Part 2"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_ref.png",
+  "isKey": false
+}

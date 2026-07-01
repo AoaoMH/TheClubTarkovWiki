@@ -1,0 +1,123 @@
+{
+  "id": "680e19fee0ca81b62f5a448a",
+  "name": {
+    "zh": "捕鱼季",
+    "en": "Fishing Season"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Discover",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 11500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 50,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 50
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5d5d940f86f7742797262046",
+      "itemName": {
+        "zh": "Oakley Mechanism重型背包 Black",
+        "en": "Oakley Mechanism heavy duty backpack (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我突然有种奇怪的感觉，觉得这个驾驶员家伙可能是幕后黑手，要么就是他手下的人干的。还有谁会去检查一个旧谷仓？没人！肯定是他，但我们不能让他知道我们在调查。\n\n也许他的仓库里有些线索？Ryba的踪迹，也许他曾被关押在那里——谁知道呢...但我们会找到他的，死要见尸，活要见人，只是时间问题。如果他的所有装备还藏在他的仓库里，你肯定能在那里找到！检查建筑、车库、仓库，每一个可能藏这些货物的地方。我相信你能搞定。",
+    "en": "Out of nowhere I got this weird feeling that this driver guy might be behind it, either him or the people working for him. Who else goes out there to inspect an old barn? Nobody! It must be him, but we can't let him know that we're investigating this.\n\nMaybe his depot has some clues? Traces of Ryba, maybe he was held captive there - Who knows... But we will find him, dead or alive, only a question of time. If he still has all his gear stashed in his depot you will certainly find it there! Check the buildings, the garages, the warehouses, every spot where you could hide these goods. I'm sure you can take care of it."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_btrbase_ryba_building",
+      "targetNames": {
+        "lotus_woods_btrbase_ryba_building": {
+          "zh": "lotus_woods_btrbase_ryba_building",
+          "en": "lotus_woods_btrbase_ryba_building"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Depo_Zone_2",
+      "targetNames": {
+        "Depo_Zone_2": {
+          "zh": "Depo_Zone_2",
+          "en": "Depo_Zone_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "Depo_Zone_3",
+      "targetNames": {
+        "Depo_Zone_3": {
+          "zh": "Depo_Zone_3",
+          "en": "Depo_Zone_3"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "680e12e8fd2dbebf69986283",
+      "name": {
+        "zh": "680e12e8fd2dbebf69986283",
+        "en": "680e12e8fd2dbebf69986283"
+      }
+    },
+    {
+      "id": "67efd3e59f0821f600a4ebed",
+      "name": {
+        "zh": "意外发现 - 第二章",
+        "en": "What A Find - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "680e1fe9bb891db767cc10a2",
+      "name": {
+        "zh": "现在告诉我...",
+        "en": "Now Tell Me..."
+      }
+    },
+    {
+      "id": "680e6fa7f03da221e8c72a7f",
+      "name": {
+        "zh": "冠军如何生活",
+        "en": "How Champions Live"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_fishing_season.png",
+  "isKey": false
+}

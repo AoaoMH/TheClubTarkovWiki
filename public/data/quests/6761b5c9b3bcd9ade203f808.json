@@ -1,0 +1,235 @@
+{
+  "id": "6761b5c9b3bcd9ade203f808",
+  "name": {
+    "zh": "工具之道 - 第十章",
+    "en": "Tools To Work With - Part 10"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "WeaponAssembly",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 3150
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 1250,
+      "itemId": "5696686a4bdc2da3298b456a",
+      "itemName": {
+        "zh": "美元",
+        "en": "Dollars"
+      },
+      "quantity": 1250
+    },
+    {
+      "type": "Item",
+      "value": 3,
+      "itemId": "590c595c86f7747884343ad7",
+      "itemName": {
+        "zh": "防毒面具滤罐",
+        "en": "Gas mask air filter"
+      },
+      "quantity": 3
+    },
+    {
+      "type": "Item",
+      "value": 6,
+      "itemId": "648984e3f09d032aa9399d53",
+      "itemName": {
+        "zh": "7.62x51mm M993弹药包（20发装）",
+        "en": "7.62x51mm M993 ammo pack (20 pcs)"
+      },
+      "quantity": 6
+    },
+    {
+      "type": "Skill",
+      "target": "TroubleShooting",
+      "value": 15
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5bfea6e90db834001b7347f3",
+      "itemName": {
+        "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+        "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5df24cf80dee1b22f862e9bc",
+      "itemName": {
+        "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪 ☆",
+        "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "617151c1d92c473c770214ab",
+      "itemName": {
+        "zh": "Schmidt & Bender PM II 1-8x24瞄准镜",
+        "en": "Schmidt & Bender PM II 1-8x24 30mm riflescope"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5a37cb10c4a282329a73b4e7",
+      "itemName": {
+        "zh": "Leupold Mark 4 LR 6.5-20x50步枪瞄准镜",
+        "en": "Leupold Mark 4 LR 6.5-20x50 30mm riflescope"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我又接了个新活儿，这次是两把狙击步枪，一把 雷明顿M700，一把 T5000M。能帮我一把吗？太好了！\n\n两把枪都需要至少 5 发弹容量和两脚架。M700 需要能打出 1500 米的射程，T5000M 则要能打出 2000 米远，M700 的初速还得超过 900 米/秒，T5000M 要可折叠并带有消音器。搞得定吗？\n\nM700 要求：\n - 重量小于 3.9 公斤\n - 人机功效 51 或更高\n - 耐久度至少 95 %\n - 弹匣容量 5 或更多\n - “射击场”距离 1500米 或更多\n - 膛口初速 达到 900M/s 或更多\n - 任意 脚架\n\nT-5000M 要求：\n - 重量小于 8.0 公斤\n - 人机功效 40 或更高\n - 耐久度至少 95 %\n - 弹匣容量 5 或更多\n - 宽度占用 6格 或更少\n - “射击场”距离 2000米 或更多\n - 任意 脚架\n - 任意 消音器",
+    "en": "Hey I got another order, this time I need two sniper rifles. A Remington model 700 and a T5000M. Can you help out a little? Great!\n\nBoth weapons need to hold at least five rounds in the magazine and a bipod, the M700 should be able to take a shot from fifteen-hundred meters and the T5000M should be able to do that from two-thousand meters away. The Remington should have a muzzle velocity of at least nine-hundred meters per second. The T5000 should be foldable and be suppressed. Can you handle that?\n\nM700 Requirements :\n - Weight less than 3.9 KG\n - Ergonomics 51 or higher\n - Durability higher than 95 %\n - Magazine Capacity of 5 or more\n - Sighting Range of 1500 Meters or more\n - Muzzle Velocity of 900 M/s or more\n - A Bipod\n\nT-5000M Requirements :\n - Weight less than 8.0 KG\n - Ergonomics 40 or higher\n - Durability higher than 95 %\n - Magazine Capacity of 5 or more\n - Width of 6 slots or less\n - Sighting Range of 2000 Meters or more\n - A Bipod\n - A Silencer"
+  },
+  "objectives": [
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5bfea6e90db834001b7347f3"
+      ],
+      "targetNames": {
+        "5bfea6e90db834001b7347f3": {
+          "zh": "雷明顿Model 700 7.62x51 狙击步枪 ☆",
+          "en": "Remington Model 700 7.62x51 bolt-action sniper rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 51
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 1500
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 95
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 5
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 3.9
+        },
+        {
+          "stat": "muzzleVelocity",
+          "compare": ">=",
+          "value": 900
+        }
+      ],
+      "requiredCategories": [
+        "55818afb4bdc2dde698b456d"
+      ],
+      "requiredCategoryNames": {
+        "55818afb4bdc2dde698b456d": {
+          "zh": "脚架",
+          "en": "Bipod"
+        }
+      }
+    },
+    {
+      "type": "WeaponAssembly",
+      "description": "WeaponAssembly",
+      "target": [
+        "5df24cf80dee1b22f862e9bc"
+      ],
+      "targetNames": {
+        "5df24cf80dee1b22f862e9bc": {
+          "zh": "ORSIS T-5000M 7.62x51 栓动式狙击步枪 ☆",
+          "en": "ORSIS T-5000M 7.62x51 bolt-action sniper rifle"
+        }
+      },
+      "requirements": [
+        {
+          "stat": "ergonomics",
+          "compare": ">=",
+          "value": 40
+        },
+        {
+          "stat": "effectiveDistance",
+          "compare": ">=",
+          "value": 2000
+        },
+        {
+          "stat": "durability",
+          "compare": ">=",
+          "value": 95
+        },
+        {
+          "stat": "magazineCapacity",
+          "compare": ">=",
+          "value": 5
+        },
+        {
+          "stat": "width",
+          "compare": "<=",
+          "value": 6
+        },
+        {
+          "stat": "weight",
+          "compare": "<=",
+          "value": 8
+        }
+      ],
+      "requiredCategories": [
+        "55818afb4bdc2dde698b456d",
+        "550aa4cd4bdc2dd8348b456c"
+      ],
+      "requiredCategoryNames": {
+        "55818afb4bdc2dde698b456d": {
+          "zh": "脚架",
+          "en": "Bipod"
+        },
+        "550aa4cd4bdc2dd8348b456c": {
+          "zh": "消音器",
+          "en": "Silencer"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6761b415c09eec912bb4de63",
+      "name": {
+        "zh": "工具之道 - 第九章",
+        "en": "Tools To Work With - Part 9"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6761b7767e572e2e09758ad0",
+      "name": {
+        "zh": "工具之道 - 第十一章",
+        "en": "Tools To Work With - Part 11"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_toolstoworkwith_10.png",
+  "isKey": false
+}

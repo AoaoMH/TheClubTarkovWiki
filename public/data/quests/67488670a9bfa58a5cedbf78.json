@@ -1,0 +1,187 @@
+{
+  "id": "67488670a9bfa58a5cedbf78",
+  "name": {
+    "zh": "塔楼监控",
+    "en": "Tower Surveillance"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5704e4dad2720bb55b8b4567",
+  "locationName": {
+    "zh": "储备站",
+    "en": "Reserve"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 195550,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 195550
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c1e2a1e86f77431ea0ea84c",
+      "itemName": {
+        "zh": "实验室钥匙·经理办公室 ☆",
+        "en": "TerraGroup Labs manager's office room key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "63a39fc0af870e651d58e6ae",
+      "itemName": {
+        "zh": "Chekannaya 15号公寓钥匙 ★",
+        "en": "Chekannaya 15 apartment key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5c0a840b86f7742ffa4f2482",
+      "itemName": {
+        "zh": "T H I C C物品箱",
+        "en": "T H I C C item case"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "62389ba9a63f32501b1b4451",
+      "itemName": {
+        "zh": "26x75燃烧照明信号弹（红色）",
+        "en": "26x75mm flare cartridge (Red)"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f5e46b96bdad616ad46d613",
+      "itemName": {
+        "zh": "Eberlestock F4 终结者 承重背包（虎纹迷彩）",
+        "en": "Eberlestock F4 Terminator load bearing backpack (Tiger Stripe)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5910968f86f77425cf569c32",
+      "itemName": {
+        "zh": "武器维修套件",
+        "en": "Weapon repair kit"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "591094e086f7747caa7bb2ef",
+      "itemName": {
+        "zh": "防弹衣维修套件 ☆",
+        "en": "Body armor repair kit"
+      }
+    }
+  ],
+  "description": {
+    "zh": "好吧，我已经收集了很多关于这事儿的信息，不过还要更多。Mechanic已经帮你和LightKeeper建立联系了吗？我想尽量避免再次流血冲突，所以尝试和平到达岛上。你需要在岛上设置三个无线电中继器，分别在码头、雷达站的屋顶和灯塔顶部。\n\n此外，因为这个家伙与邪教有某种联系，所以岛上某处一定有邪教符号房间。我的一个人最近找到了这个钥匙，但我们没能找到需要这个钥匙的地方，但我敢肯定它一定在那里。以上，祝你好运，士兵。",
+    "en": "Alright, we collected a lot of information about this now, there is more we can do tho. Did mechanic already help you to work with lightkeeper? We want to avoid spilling blood again, so try to reach the island peacefully. You need to set up radio repeaters on the island, exactly three of them, one at the pier, one on the roof of the radar station and one at the very top of the lighthouse tower itself.\n\nAlso since this guy has some relation to the cult there must be a marked room on the island somewhere. One of my guys found this key recently, we could not find the place that was requiring this exact key so it must be there. Anyway, good luck soldier."
+  },
+  "objectives": [
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ],
+      "targetNames": {
+        "63a0b2eabea67a6d93009e52": {
+          "zh": "无线电中继器",
+          "en": "Radio repeater"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ],
+      "targetNames": {
+        "63a0b2eabea67a6d93009e52": {
+          "zh": "无线电中继器",
+          "en": "Radio repeater"
+        }
+      }
+    },
+    {
+      "type": "PlaceBeacon",
+      "description": "PlaceBeacon",
+      "target": [
+        "63a0b2eabea67a6d93009e52"
+      ],
+      "targetNames": {
+        "63a0b2eabea67a6d93009e52": {
+          "zh": "无线电中继器",
+          "en": "Radio repeater"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_island_markedroom",
+      "targetNames": {
+        "lotus_lighthouse_island_markedroom": {
+          "zh": "lotus_lighthouse_island_markedroom",
+          "en": "lotus_lighthouse_island_markedroom"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747b877505baa44d501d079",
+      "name": {
+        "zh": "莲花之光 - 第二十章",
+        "en": "Light Of The Lotus - Part 20"
+      }
+    },
+    {
+      "id": "625d700cc48e6c62a440fab5",
+      "name": {
+        "zh": "邂逅",
+        "en": "Getting Acquainted"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674884a3ebf5b8cdbf739bd8",
+      "name": {
+        "zh": "未读消息",
+        "en": "Sending A Message"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_lightkeeper.png",
+  "isKey": false
+}

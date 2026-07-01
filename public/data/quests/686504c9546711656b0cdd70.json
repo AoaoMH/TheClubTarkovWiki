@@ -1,0 +1,121 @@
+{
+  "id": "686504c9546711656b0cdd70",
+  "name": {
+    "zh": "挖掘过去",
+    "en": "Digging Up The Past"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    }
+  ],
+  "description": {
+    "zh": "嗨！我想我找到了一些对我们案件有用的东西。看起来，Ref的人和Glukhar帮派之间的联盟比表面看起来更重要。你已经知道Glukhar的过去了，他是俄罗斯海军陆战队员，免得你忘了。嗯总之，有传言说他们俩都有某种过去，并且早在一段时间前就已经有往来了。不确定这是怎么逃过雷达监测的...\n\n我猜其中一些是在合同战争升级之前，在某个地方你应该还能找到一些文件，某种他们之间签署的合同。我们在竞技场有一个内线，但他什么也没找到，显然Ref的人手头没有他们的文书工作，或者他们把它放在竞技场外面某个地方。\n\n另一种可能是Glukhar是保管文件的人，或者文件丢失在军事基地内的某个地方。如果我是你，我会检查D-2地堡内的办公室，如果你在那里找不到任何东西，你就得搜查兵营里的所有办公室，明白吗？",
+    "en": "Hi there! I think I found something useful for our case. By the looks of it, the alliance between Ref's people and Glukhar's gang seems more important than what meets the eye. You already know about Glukhar's past, he was a russian marine, in case you forgot. Well anyway, rumors tell that both of them had a certain past and had been dealing together a while ago already. Unsure how that flew below the radar...\n\nI assume some of this was before the contract wars escalated, somewhere out there you should still find some documents, some form of signed contract between them. We had a mole inside the Arena, but he didn't find anything, apparently Ref's guys don't have their paperwork on hand, or they keep it somewhere outside the Arena.\n\nAnother option would be that Glukhar is the one who keeps the paper, or it's lost somewhere inside the military base. If I were you I would check the offices inside the D-2 bunkers, if you won't find anything there you gotta search all the offices in the barracks, got it?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "prapor_024_area_1",
+      "targetNames": {
+        "prapor_024_area_1": {
+          "zh": "prapor_024_area_1",
+          "en": "prapor_024_area_1"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "60915994c49cf53e4772cc38"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60915994c49cf53e4772cc38": {
+          "zh": "军事机密#1",
+          "en": "Military documents #1"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "60915994c49cf53e4772cc38"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "60915994c49cf53e4772cc38": {
+          "zh": "军事机密#1",
+          "en": "Military documents #1"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "680e807527f51292fa6b2f9e",
+      "name": {
+        "zh": "晚餐准备好了",
+        "en": "Dinner's Ready"
+      }
+    },
+    {
+      "id": "6762597817a433eeee2ef47a",
+      "name": {
+        "zh": "塔科夫环卫工：冷案 - 第1章",
+        "en": "Bandit Hunt - Cold Case - Part 1"
+      }
+    },
+    {
+      "id": "60896b7bfa70fc097863b8f5",
+      "name": {
+        "zh": "多鱼之漏",
+        "en": "Documents"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b85170b361cb40dcf8035e",
+      "name": {
+        "zh": "放债者 - 第1部分",
+        "en": "Loan Sharks - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_past.png",
+  "isKey": false
+}

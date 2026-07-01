@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -70,17 +74,12 @@
       },
       "enemyRoles": [
         "bossKilla"
-      ],
-      "daytime": {
-        "from": 22,
-        "to": 10
-      },
-      "location": "Interchange"
+      ]
     },
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 10,
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -92,12 +91,7 @@
         "assault",
         "savage",
         "marksman"
-      ],
-      "daytime": {
-        "from": 22,
-        "to": 10
-      },
-      "location": "Interchange"
+      ]
     }
   ],
   "prerequisites": [

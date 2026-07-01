@@ -1,0 +1,82 @@
+{
+  "id": "680390e437806877136227f6",
+  "name": {
+    "zh": "秘点",
+    "en": "Dead Drop"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 5000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.03
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 75000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 75000
+    }
+  ],
+  "description": {
+    "zh": "Lotus和我有件事需要你的帮助——如果可能的话，现在就帮。这个竞技场家伙发现了这些泰拉集团药物。我不知道他是怎么发现的！我确保清除了我们所有的痕迹。我们是唯一知道的人，嗯，现在是时候行动了。\n\n我们需要帮忙为这些兴奋剂找一个体面的藏身之处，我来负责搬运实际的货物，你只需要找一个好地方。你能做到吗？这些东西不应该让一些“角斗士”或竞技场管理员接触到，你知道这是些很 serious 的东西吗？\n\n我在想山里，那里应该有一些地堡，邪教徒以前住在里面，但现在它们被封锁了，没人去那里。所以你能在这里搭把手吗？",
+    "en": "There's something Lotus and me need your help with - Right now if possible. This Arena guy found out about these Terragroup drugs. I have no clue how he figured that out! I made sure to get rid of all our tracks. We were the only ones knowing about it, well now it's time to act.\n\nWe need help with finding a decent hiding place for these stimulants, I can do the part with moving the actual cargo, you only need to find a good spot. Can you do that? This stuff shouldn't become accessible to some \"gladiators\" or the Arena administrators, it's some serious stuff you know?\n\nI was thinking about the mountain, there should be some bunkers there, cultists used to live in there back then, but now they are sealed and nobody ever goes there .So can you lend a hand here?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_woods_mountain_bunker_hidingplace",
+      "targetNames": {
+        "lotus_woods_mountain_bunker_hidingplace": {
+          "zh": "lotus_woods_mountain_bunker_hidingplace",
+          "en": "lotus_woods_mountain_bunker_hidingplace"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67f107c6cd96ce08caca8b83",
+      "name": {
+        "zh": "意外发现 - 第三章",
+        "en": "What A Find - Part 3"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6816279e5c48eee9720f64be",
+      "name": {
+        "zh": "总是想惹点麻烦",
+        "en": "Always In The Mood For Some Trouble"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_btr.png",
+  "isKey": false
+}

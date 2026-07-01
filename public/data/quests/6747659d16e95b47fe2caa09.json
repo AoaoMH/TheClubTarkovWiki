@@ -1,0 +1,215 @@
+{
+  "id": "6747659d16e95b47fe2caa09",
+  "name": {
+    "zh": "莲花之光 - 第十一章",
+    "en": "Light Of The Lotus - Part 11"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 65520,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 65520
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ed5160a87bb8443d10680b5",
+      "itemName": {
+        "zh": "Meldonin 注射器",
+        "en": "Meldonin injector"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5448ba0b4bdc2d02308b456c",
+      "itemName": {
+        "zh": "工厂出口钥匙 ★",
+        "en": "Factory emergency exit key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "591afe0186f77431bd616a11",
+      "itemName": {
+        "zh": "ZB-014钥匙",
+        "en": "ZB-014 key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "Charisma",
+      "value": 100
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f63407e1b231926f2329f15",
+      "itemName": {
+        "zh": "Rotor 43 7.62x51 VPO-101膛口制退器",
+        "en": "VPO-101 Rotor 43 7.62x51 sound suppressor"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66b5f661af44ca0014063c05",
+      "itemName": {
+        "zh": "Ballistic Armor Co. Bastion头盔（橄榄绿）",
+        "en": "Ballistic Armor Co. Bastion helmet (OD Green)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5aafbde786f774389d0cbc0f",
+      "itemName": {
+        "zh": "弹药箱",
+        "en": "Ammunition case"
+      }
+    }
+  ],
+  "description": {
+    "zh": "准备好绕着森林转一圈了吗？我需要一些数据和情报。你已经知道BTR了，对吧？有个人开着装甲车在街区和森林里四处走动，提供保镖或滴滴服务，当然是收费的。\n\n很明显他只会在几个固定的地方停车，我想知道他具体是哪几个地方，如果你想挣点外快的话我建议你最好试试。感兴趣？太好了！或许跟上他并让他带你去逛遍所有停车点会更容易些。我希望你在每个停车点都放置标记器，我可以给你几个。\n\n还有一件事，听说这家伙似乎喜欢Scav和BEAR，而USEC可能就需要多付点小费了。",
+    "en": "Ready for a tour around the forest? I need some data. You know about the BTR already, right? Some guy drives around the city and the forest in his armored vehicle, offers protection or taxi services for money.\n\nApparently he always stops at the same few places, and I want to know where they are, if you want to earn some extra cash I suggest you help out here, interested? Great! It's probably easier if you track him down and let him drive you to all the stops each. I will hear from you warrior.\n\nAnd remember that this guy likes bandits and BEARs, USECs pay extra."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_btr_scavbase_woods",
+      "targetNames": {
+        "lotus_btr_scavbase_woods": {
+          "zh": "lotus_btr_scavbase_woods",
+          "en": "lotus_btr_scavbase_woods"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_btr_sawmill_woods",
+      "targetNames": {
+        "lotus_btr_sawmill_woods": {
+          "zh": "lotus_btr_sawmill_woods",
+          "en": "lotus_btr_sawmill_woods"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_btr_checkpoint_woods",
+      "targetNames": {
+        "lotus_btr_checkpoint_woods": {
+          "zh": "lotus_btr_checkpoint_woods",
+          "en": "lotus_btr_checkpoint_woods"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_btr_junction_woods",
+      "targetNames": {
+        "lotus_btr_junction_woods": {
+          "zh": "lotus_btr_junction_woods",
+          "en": "lotus_btr_junction_woods"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_btr_bunker_woods",
+      "targetNames": {
+        "lotus_btr_bunker_woods": {
+          "zh": "lotus_btr_bunker_woods",
+          "en": "lotus_btr_bunker_woods"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_btr_village_woods",
+      "targetNames": {
+        "lotus_btr_village_woods": {
+          "zh": "lotus_btr_village_woods",
+          "en": "lotus_btr_village_woods"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_btr_oldmill_woods",
+      "targetNames": {
+        "lotus_btr_oldmill_woods": {
+          "zh": "lotus_btr_oldmill_woods",
+          "en": "lotus_btr_oldmill_woods"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747652eea4bfbdfa2e46ab4",
+      "name": {
+        "zh": "莲花之光 - 第十章",
+        "en": "Light of the Lotus - Part 10"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67d769c37a074517a838b60b",
+      "name": {
+        "zh": "丰盈满溢的备件",
+        "en": "A Whole Reserve Of Spare Parts"
+      }
+    },
+    {
+      "id": "674766077f5e08878af90bc8",
+      "name": {
+        "zh": "莲花之光 - 第十二章",
+        "en": "Light Of The Lotus - Part 12"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_light_11.png",
+  "isKey": false
+}

@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -36,7 +40,7 @@
       "value": 1,
       "itemId": "6761a6ccd9bbb27ad703c48a",
       "itemName": {
-        "zh": "旧屋钥匙",
+        "zh": "旧屋钥匙 ★",
         "en": "Old house room key"
       },
       "quantity": 1
@@ -50,15 +54,14 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 10,
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
           "zh": "Savage",
           "en": "Savage"
         }
-      },
-      "location": "Woods"
+      }
     }
   ],
   "prerequisites": [

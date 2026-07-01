@@ -1,0 +1,259 @@
+{
+  "id": "6747bcf89415880273ff7fa9",
+  "name": {
+    "zh": "良好联络",
+    "en": "Well Connected"
+  },
+  "traderId": "5ac3b934156ae10c4430e83c",
+  "traderName": {
+    "zh": "Ragman",
+    "en": "Ragman"
+  },
+  "type": "Completion",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12850
+    },
+    {
+      "type": "TraderStanding",
+      "target": "5ac3b934156ae10c4430e83c",
+      "value": 0.06
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 38720,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 33120
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57347c2e24597744902c94a1",
+      "itemName": {
+        "zh": "供电单元",
+        "en": "Power supply unit"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5d1b2fa286f77425227d1674",
+      "itemName": {
+        "zh": "电动马达",
+        "en": "Electric motor"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5ad5d64486f774079b080af8",
+      "itemName": {
+        "zh": "药房钥匙 ★",
+        "en": "NecrusPharm pharmacy key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Skill",
+      "target": "LightVests",
+      "value": 75
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "62a1b7fbc30cfa1d366af586",
+      "itemName": {
+        "zh": "Gruppa 99 T30背包 （复合迷彩）",
+        "en": "Gruppa 99 T30 backpack (MultiCam)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "603409c80ca681766b6a0fb2",
+      "itemName": {
+        "zh": "NPP KIASS Condor 护目镜",
+        "en": "NPP KlASS Condor glasses"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你好，兄弟，很高兴看到你还保持着状态！有什么值得一提的事吗？不过，我这儿倒是有事找你帮忙。我最近一直在和 Lotus 合作，就像你一样。听着，我需要你帮我处理一些事情。最近一些 PMC 的白痴在商场里抢劫，我发现他们总是从同样的两个撤离点离开——大多数时候是这样。一个是东南的小检查站，另一个是西北的铁轨。除此之外，我还需要你在这两个撤离点藏一些枪。我可以借你需要的枪来完成任务，但别弄丢了！明白了吗？别忘了干掉那些抢劫的混蛋，并带回他们的狗牌，我要看到证据。兄弟，我相信你。",
+    "en": "Hello brother good to see you still in shape! Got anything special that is worth mentioning? I got something for you tho, I have been working with Lotus for some time now, just like you. Listen I need something from you, because lately some PMC idiots were looting up the mall and shit. I noticed that they always leave at the same two exfils, most of the time atleast. Theres this small checkpoint in the south-east and then there are the rails in the north-west. Besides that I also require you to hide some guns at both exfils. I can lend you some that you will need for the job, but don't lose them! Okay? Don't forget to smoke some of the looting bastards and take their dogtags, I want to see the proof, you know that I count on you my guy."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_emercom",
+      "targetNames": {
+        "lotus_interchange_emercom": {
+          "zh": "lotus_interchange_emercom",
+          "en": "lotus_interchange_emercom"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "5fc3e272f8b6a877a729eac5"
+      ],
+      "targetNames": {
+        "5fc3e272f8b6a877a729eac5": {
+          "zh": "HK UMP 45冲锋枪",
+          "en": "HK UMP .45 ACP submachine gun"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_railwayexfil",
+      "targetNames": {
+        "lotus_interchange_railwayexfil": {
+          "zh": "lotus_interchange_railwayexfil",
+          "en": "lotus_interchange_railwayexfil"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 2,
+      "target": [
+        "5fc3e272f8b6a877a729eac5"
+      ],
+      "targetNames": {
+        "5fc3e272f8b6a877a729eac5": {
+          "zh": "HK UMP 45冲锋枪",
+          "en": "HK UMP .45 ACP submachine gun"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "AnyPmc",
+      "targetNames": {
+        "AnyPmc": {
+          "zh": "AnyPmc",
+          "en": "AnyPmc"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 2,
+      "target": [
+        "59f32bb586f774757e1e8442",
+        "6662e9cda7e0b43baa3d5f76",
+        "6662e9aca7e0b43baa3d5f74",
+        "59f32c3b86f77472a31742f0",
+        "6662ea05f6259762c56f3189",
+        "6662e9f37fa79a6d83730fa0",
+        "675dc9d37ae1a8792107ca96",
+        "675dcb0545b1a2d108011b2b",
+        "6764207f2fa5e32733055c4a",
+        "6764202ae307804338014c1a"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "59f32bb586f774757e1e8442": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9cda7e0b43baa3d5f76": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6662e9aca7e0b43baa3d5f74": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "59f32c3b86f77472a31742f0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662ea05f6259762c56f3189": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6662e9f37fa79a6d83730fa0": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "675dc9d37ae1a8792107ca96": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "675dcb0545b1a2d108011b2b": {
+          "zh": "BEAR 狗牌",
+          "en": "Dogtag BEAR"
+        },
+        "6764207f2fa5e32733055c4a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        },
+        "6764202ae307804338014c1a": {
+          "zh": "USEC 狗牌",
+          "en": "Dogtag USEC"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6747652eea4bfbdfa2e46ab4",
+      "name": {
+        "zh": "莲花之光 - 第十章",
+        "en": "Light of the Lotus - Part 10"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747b8d6b8b522e15a7aa392",
+      "name": {
+        "zh": "机遇之地",
+        "en": "Land Of Opportunities"
+      }
+    },
+    {
+      "id": "6747bd8c191f49b33d3cd12f",
+      "name": {
+        "zh": "逛超市",
+        "en": "Shopping Tour"
+      }
+    },
+    {
+      "id": "6812590e15f6bcbc89c75b34",
+      "name": {
+        "zh": "血渴",
+        "en": "Blood Thirsty"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_ragman.png",
+  "isKey": false
+}

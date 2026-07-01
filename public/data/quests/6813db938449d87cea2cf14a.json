@@ -1,0 +1,317 @@
+{
+  "id": "6813db938449d87cea2cf14a",
+  "name": {
+    "zh": "赶紧把这事办了 - 第3部分",
+    "en": "Let's Get This Over With - Part 3"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 15000
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.05
+    },
+    {
+      "type": "Item",
+      "value": 200,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 200
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "60391afc25aff57af81f7085",
+      "itemName": {
+        "zh": "棘轮扳手",
+        "en": "Ratchet wrench"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 5,
+      "itemId": "657024e3c5d7d4cb4d07856a",
+      "itemName": {
+        "zh": "50发5.56x45 M855A1盒装弹药 ★",
+        "en": "5.56x45mm M855A1 ammo pack (50 pcs)"
+      },
+      "quantity": 5
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5bb2475ed4351e00853264e3",
+      "itemName": {
+        "zh": "HK 416A5 5.56x45 突击步枪 ☆",
+        "en": "HK 416A5 5.56x45 assault rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "Attention",
+      "value": 300
+    },
+    {
+      "type": "Skill",
+      "target": "Perception",
+      "value": 300
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66b5f6985891c84aab75ca76",
+      "itemName": {
+        "zh": "Peltor ComTac VI 耳机（棕褐色）",
+        "en": "Peltor ComTac VI headset (Coyote Brown)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac8d6885acfc400180ae7b0",
+      "itemName": {
+        "zh": "Ops-Core FAST MT Super High Cut 头盔（城市褐）",
+        "en": "Ops-Core FAST MT Super High Cut helmet (Urban Tan)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "你最近几个任务都很可靠，所以我想你现在可以接一个更有趣的工作了。我需要为清理小队测试一些装备——特别是主动式耳机。不同品牌的。\n\n干掉一些当地渣滓或操作员，无论你遇到谁，我相信你很容易就能找到麻烦——毕竟你就像块磁铁。在你做这件事的时候使用这些耳机，找出它们在战斗中的表现如何，毕竟我不能给我的人廉价的听力保护。用完后把耳机带回来给我，别指望我送你礼物，我的哥们。",
+    "en": "You were reliable with the last few tasks so I guess you can get a more interesting job now. I need a bit of gear tested for the cleanup crew - Active headsets, to be specific. Different brands.\n\nShoot down some local scum or operators, whoever you cross paths with, I'm sure you can find trouble easily - After all you are like a magnet for that. Use these headsets while you do it and find out how well they work in combat, I can't give my guys cheap hearing protection after all. Bring me back the headsets when you're done, don't expect any gifts from me my guy."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5f60cd6cf2bcbb675b00dac6",
+        "5e4d34ca86f774264f758330"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5f60cd6cf2bcbb675b00dac6": {
+          "zh": " Walker's XCEL 500BT 数字耳机",
+          "en": "Walker's XCEL 500BT Digital headset"
+        },
+        "5e4d34ca86f774264f758330": {
+          "zh": "Walker's Razor 数字耳机",
+          "en": "Walker's Razor Digital headset"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5f60cd6cf2bcbb675b00dac6",
+        "5e4d34ca86f774264f758330"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5f60cd6cf2bcbb675b00dac6": {
+          "zh": " Walker's XCEL 500BT 数字耳机",
+          "en": "Walker's XCEL 500BT Digital headset"
+        },
+        "5e4d34ca86f774264f758330": {
+          "zh": "Walker's Razor 数字耳机",
+          "en": "Walker's Razor Digital headset"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5c165d832e2216398b5a7e36",
+        "628e4e576d783146b124c64d",
+        "5645bcc04bdc2d363b8b4572",
+        "66b5f69ea7f72d197e70bcdb",
+        "66b5f693acff495a294927e3",
+        "66b5f6a28ca68c6461709ed8",
+        "66b5f6985891c84aab75ca76"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5c165d832e2216398b5a7e36": {
+          "zh": "Peltor战术运动型耳机",
+          "en": "Peltor Tactical Sport headset"
+        },
+        "628e4e576d783146b124c64d": {
+          "zh": "Peltor ComTac IV Hybrid 耳机（棕褐色）",
+          "en": "Peltor ComTac IV Hybrid headset (Coyote Brown)"
+        },
+        "5645bcc04bdc2d363b8b4572": {
+          "zh": "Peltor ComTac 2 耳机（橄榄绿）",
+          "en": "Peltor ComTac II headset (OD Green)"
+        },
+        "66b5f69ea7f72d197e70bcdb": {
+          "zh": "TW EXFIL Peltor ComTac V耳机（橄榄绿）",
+          "en": "TW EXFIL Peltor ComTac V headset (OD Green)"
+        },
+        "66b5f693acff495a294927e3": {
+          "zh": "Peltor ComTac V耳机（橄榄绿）",
+          "en": "Peltor ComTac V headset (OD Green)"
+        },
+        "66b5f6a28ca68c6461709ed8": {
+          "zh": "TW EXFIL Peltor ComTac VI 耳机（棕褐色）",
+          "en": "TW EXFIL Peltor ComTac VI headset (Coyote Brown)"
+        },
+        "66b5f6985891c84aab75ca76": {
+          "zh": "Peltor ComTac VI 耳机（棕褐色）",
+          "en": "Peltor ComTac VI headset (Coyote Brown)"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5c165d832e2216398b5a7e36",
+        "628e4e576d783146b124c64d",
+        "5645bcc04bdc2d363b8b4572",
+        "66b5f69ea7f72d197e70bcdb",
+        "66b5f693acff495a294927e3",
+        "66b5f6a28ca68c6461709ed8",
+        "66b5f6985891c84aab75ca76"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5c165d832e2216398b5a7e36": {
+          "zh": "Peltor战术运动型耳机",
+          "en": "Peltor Tactical Sport headset"
+        },
+        "628e4e576d783146b124c64d": {
+          "zh": "Peltor ComTac IV Hybrid 耳机（棕褐色）",
+          "en": "Peltor ComTac IV Hybrid headset (Coyote Brown)"
+        },
+        "5645bcc04bdc2d363b8b4572": {
+          "zh": "Peltor ComTac 2 耳机（橄榄绿）",
+          "en": "Peltor ComTac II headset (OD Green)"
+        },
+        "66b5f69ea7f72d197e70bcdb": {
+          "zh": "TW EXFIL Peltor ComTac V耳机（橄榄绿）",
+          "en": "TW EXFIL Peltor ComTac V headset (OD Green)"
+        },
+        "66b5f693acff495a294927e3": {
+          "zh": "Peltor ComTac V耳机（橄榄绿）",
+          "en": "Peltor ComTac V headset (OD Green)"
+        },
+        "66b5f6a28ca68c6461709ed8": {
+          "zh": "TW EXFIL Peltor ComTac VI 耳机（棕褐色）",
+          "en": "TW EXFIL Peltor ComTac VI headset (Coyote Brown)"
+        },
+        "66b5f6985891c84aab75ca76": {
+          "zh": "Peltor ComTac VI 耳机（棕褐色）",
+          "en": "Peltor ComTac VI headset (Coyote Brown)"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5aa2ba71e5b5b000137b758f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5aa2ba71e5b5b000137b758f": {
+          "zh": "MSA Sordin Supreme PRO-X/L有源耳机",
+          "en": "MSA Sordin Supreme PRO-X/L headset"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5aa2ba71e5b5b000137b758f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5aa2ba71e5b5b000137b758f": {
+          "zh": "MSA Sordin Supreme PRO-X/L有源耳机",
+          "en": "MSA Sordin Supreme PRO-X/L headset"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "6813d64b31f920cdbc15ab23",
+      "name": {
+        "zh": "赶紧把这事办了 - 第2部分",
+        "en": "Let's Get This Over With - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b06a005f3eaaf2a27bb49a",
+      "name": {
+        "zh": "政府合同 - 第1部分",
+        "en": "Government Contract - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_lets_get_this_over_with_3.png",
+  "isKey": false
+}

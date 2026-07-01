@@ -1,0 +1,224 @@
+{
+  "id": "67efd3e59f0821f600a4ebed",
+  "name": {
+    "zh": "意外发现 - 第二章",
+    "en": "What A Find - Part 2"
+  },
+  "traderId": "656f0f98d80a697f855d34b1",
+  "traderName": {
+    "zh": "BTR司机",
+    "en": "BTR Driver"
+  },
+  "type": "PickUp",
+  "location": "5704e3c2d2720bac5b8b4567",
+  "locationName": {
+    "zh": "森林",
+    "en": "Woods"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 12500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "TraderStanding",
+      "target": "656f0f98d80a697f855d34b1",
+      "value": 0.03
+    },
+    {
+      "type": "TraderStanding",
+      "target": "579dc571d53a0658a154fbec",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 150000,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 150000
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "618a431df1eb8e24b8741deb",
+      "itemName": {
+        "zh": "RGO手榴弹",
+        "en": "RGO hand grenade"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "58d3db5386f77426186285a0",
+      "itemName": {
+        "zh": "M67手榴弹",
+        "en": "M67 hand grenade"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "66dae7cbeb28f0f96809f325",
+      "itemName": {
+        "zh": "V40 微型手榴弹",
+        "en": "V40 Mini-Grenade"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ea18c84ecf1982c7712d9a2",
+      "itemName": {
+        "zh": "Bastion 头盔附加装甲 ☆",
+        "en": "Diamond Age Bastion helmet armor plate"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "67458730df3c1da90b0b052b",
+      "itemName": {
+        "zh": "5.11 Tactical RUSH 100 背包（黑色）",
+        "en": "5.11 Tactical RUSH 100 backpack (Black)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "想干活？当然有！哈哈！来吧，坐下，听我说清楚。\n\n你朋友 莲花 告诉我你会带来两份文件，有关货物运输的资料。我希望你已经带来了。等我拿到文件后，你再继续跑腿干脏活，明白？\n\n现在说重点，最近这片区域有不少人在惹麻烦，搞得我的客户都被吓跑了，你知道我最讨厌这种事。\n\n每次那些混蛋一出现，现场就一片混乱，通常在两个村子和 Emercom 医疗营地一带。你能帮我把他们清理干净吗？我真是一分钟都不想看到他们。",
+    "en": "Work? For you? Always! Haha! Yes come on in, sit down and listen carefully.\n\nYour friend Lotus told me to expect two deliveries from you, two folders with some details on these shipments. I hope you brought them already. You can do more dirty work once these folders are in my possession, got it?\n\nAnyway, here's the important part now, some people have been causing a lot of trouble around this area lately, scaring off customers and shit, you know how much I hate that.\n\nAll hell breaks loose whenever these fucks arrive, usually around the two villages and inside the emercom camp. Can you get rid of these assholes? Really can't stand their presence."
+  },
+  "objectives": [
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "591092ef86f7747bb8703422"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591092ef86f7747bb8703422": {
+          "zh": "0022号保险文件夹",
+          "en": "Secure Folder 0022"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "591092ef86f7747bb8703422"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "591092ef86f7747bb8703422": {
+          "zh": "0022号保险文件夹",
+          "en": "Secure Folder 0022"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5938188786f77474f723e87f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5938188786f77474f723e87f": {
+          "zh": "0031号保险文件夹",
+          "en": "Secure Folder 0031"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5938188786f77474f723e87f"
+      ],
+      "onlyFoundInRaid": false,
+      "targetNames": {
+        "5938188786f77474f723e87f": {
+          "zh": "0031号保险文件夹",
+          "en": "Secure Folder 0031"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67efd429317486563c7ee2b2",
+      "name": {
+        "zh": "意外发现 - 第一章",
+        "en": "What A Find - Part 1"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67f107c6cd96ce08caca8b83",
+      "name": {
+        "zh": "意外发现 - 第三章",
+        "en": "What A Find - Part 3"
+      }
+    },
+    {
+      "id": "680e19fee0ca81b62f5a448a",
+      "name": {
+        "zh": "捕鱼季",
+        "en": "Fishing Season"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_btr.png",
+  "isKey": false
+}

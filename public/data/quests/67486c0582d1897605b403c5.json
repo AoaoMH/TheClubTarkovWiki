@@ -1,0 +1,165 @@
+{
+  "id": "67486c0582d1897605b403c5",
+  "name": {
+    "zh": "皎月",
+    "en": "Silence Of The Night"
+  },
+  "traderId": "54cb50c76803fa8b248b4571",
+  "traderName": {
+    "zh": "Prapor",
+    "en": "Prapor"
+  },
+  "type": "Elimination",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 21925
+    },
+    {
+      "type": "TraderStanding",
+      "target": "54cb50c76803fa8b248b4571",
+      "value": 0.04
+    },
+    {
+      "type": "Item",
+      "value": 125950,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 125950
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57235b6f24597759bf5a30f1",
+      "itemName": {
+        "zh": "AN/PVS-14单筒夜视仪 ☆",
+        "en": "L3Harris AN/PVS-14 night vision monocular"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "66b5f65ca7f72d197e70bcd6",
+      "itemName": {
+        "zh": "Ballistic Armor Co. Bastion头盔（黑色）",
+        "en": "Ballistic Armor Co. Bastion helmet (Armor Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 15,
+      "itemId": "5c1260dc86f7746b106e8748",
+      "itemName": {
+        "zh": "9x39mm 7N12 BP子弹（8发装）",
+        "en": "9x39mm BP gs ammo pack (8 pcs)"
+      },
+      "quantity": 15
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "57838ad32459774a17445cd2",
+      "itemName": {
+        "zh": "VSS “绞丝机” 特种狙击步枪 ",
+        "en": "VSS Vintorez 9x39 special sniper rifle"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Skill",
+      "target": "CovertMovement",
+      "value": 350
+    },
+    {
+      "type": "Skill",
+      "target": "Surgery",
+      "value": 125
+    },
+    {
+      "type": "StashRows"
+    }
+  ],
+  "description": {
+    "zh": "又见面了，士兵，我有个新任务给你。\n你知道我卖那些使用 9x39 毫米弹药的武器吧，我需要有人在夜晚测试它们。我会给你几百发优质的子弹，但别一次用完！\n\n你的任务很简单，在夜晚用这种口径的武器击杀目标，并确保你熟悉这些步枪！这不是给新手的任务。",
+    "en": "Hello again warrior, I got another job for you.\nYou know that I sell these weapons that shoot 9x39mm ammunition, I need someone to try them out at night. I will give you a few hundred rounds of decent bullets, but don't use them up at once!\n\nYour task is simple, take out a bunch of targets at night while using weapons chambered in this caliber, and make sure you know how to handle these rifles! This ain't for amateurs."
+  },
+  "objectives": [
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 6,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      },
+      "weapons": [
+        "645e0c6b3b381ede770e1cc9",
+        "644674a13d52156624001fbc",
+        "57c44b372459772d2b39b8ce",
+        "57838ad32459774a17445cd2",
+        "651450ce0e00edc794068371"
+      ],
+      "weaponNames": {
+        "645e0c6b3b381ede770e1cc9": {
+          "zh": "KBP VSK-94 9x39步枪",
+          "en": "KBP VSK-94 9x39 rifle"
+        },
+        "644674a13d52156624001fbc": {
+          "zh": "KBP 9A-91 9x39紧凑型突击步枪",
+          "en": "KBP 9A-91 9x39 compact assault rifle"
+        },
+        "57c44b372459772d2b39b8ce": {
+          "zh": "AS “巨浪” 9x39 特种突击步枪",
+          "en": "AS VAL 9x39 special assault rifle"
+        },
+        "57838ad32459774a17445cd2": {
+          "zh": "VSS “绞丝机” 特种狙击步枪 ",
+          "en": "VSS Vintorez 9x39 special sniper rifle"
+        },
+        "651450ce0e00edc794068371": {
+          "zh": "SR-3M 9x39紧凑型突击步枪",
+          "en": "SR-3M 9x39 compact assault rifle"
+        }
+      }
+    },
+    {
+      "type": "Skill",
+      "description": "Skill: Assault",
+      "value": 10,
+      "target": "Assault"
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67486b938b89470d9673a492",
+      "name": {
+        "zh": "都市幽灵",
+        "en": "Urban Sniper"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "67486c9270a59a1b50f7f3de",
+      "name": {
+        "zh": "旅游淡季",
+        "en": "Tourist Season Is Ending"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_prapor.png",
+  "isKey": false
+}

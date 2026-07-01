@@ -1,0 +1,193 @@
+{
+  "id": "68c050219acd85c21d60b669",
+  "name": {
+    "zh": "篡改证据",
+    "en": "Tampering With Evidence"
+  },
+  "traderId": "638f541a29ffd1183d187f57",
+  "traderName": {
+    "zh": "Lightkeeper",
+    "en": "Lightkeeper"
+  },
+  "type": "Discover",
+  "location": "5704e4dad2720bb55b8b4567",
+  "locationName": {
+    "zh": "储备站",
+    "en": "Reserve"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 10500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "638f541a29ffd1183d187f57",
+      "value": 0.01
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.01
+    },
+    {
+      "type": "Item",
+      "value": 750,
+      "itemId": "569668774bdc2da2298b4568",
+      "itemName": {
+        "zh": "欧元",
+        "en": "Euros"
+      },
+      "quantity": 750
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "6389c8c5dbfd5e4b95197e6b",
+      "itemName": {
+        "zh": "TerraGroup \"蓝色文件夹\" 材料 ★",
+        "en": "TerraGroup \"Blue Folders\" materials"
+      },
+      "quantity": 1
+    }
+  ],
+  "description": {
+    "zh": "我料到你会来。\n\n我听说你和Lotus已经开始处理这件事了，是真的吗？好吧，既然如此，我们继续。不过，你的工作对这次行动影响甚微，无意冒犯。只是这件事远比表面看起来复杂，你可能预料到了，也许没有，你来说说看。你想知道那些匪徒怎么了？他们已经不足为虑了，USEC在占领该地区并在周围建立基地时处理了他们。\n\n据Zryachiy观察，实际上并没有人搜刮走他们所有的武器藏匿点，有些被当地人清理干净了，但大部分都原封未动，可惜他无法看清所有藏匿点。在那里部署几个步兵是理所应当的，你不觉得吗？我猜你已经对那片区域非常熟悉了，所以何不替我去查看一下？",
+    "en": "I expected you.\n\nI heard you and Lotus started taking care of this already, is that true? Well, in that case, let's continue. However, your work had very little impact to this operation, no offense. It's just that there is way more to this than what meets the eye, you might have expected this, maybe not, you tell me. You want know what happened to the gangsters? They're nothing to worry about anymore, USEC took care of them when they claimed the territory and set up their bases around the premises.\n\nFrom Zryachiy's observation, nobody actually looted all of their weapon stashes, some where swept clean by the locals, but most of them were left alone, unfortunately he couldn't get a clear view on all of them. It would only make sense to deploy a few footsoldiers there, don't you think? I assume you're already very familiar with that area, so why don't you take a look at it for me?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_bodybag_1",
+      "targetNames": {
+        "lotus_lighthouse_bodybag_1": {
+          "zh": "lotus_lighthouse_bodybag_1",
+          "en": "lotus_lighthouse_bodybag_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_bodybag_2",
+      "targetNames": {
+        "lotus_lighthouse_bodybag_2": {
+          "zh": "lotus_lighthouse_bodybag_2",
+          "en": "lotus_lighthouse_bodybag_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_bodybag_3",
+      "targetNames": {
+        "lotus_lighthouse_bodybag_3": {
+          "zh": "lotus_lighthouse_bodybag_3",
+          "en": "lotus_lighthouse_bodybag_3"
+        }
+      }
+    },
+    {
+      "type": "Elimination",
+      "description": "Elimination: Kills",
+      "value": 2,
+      "target": "Any",
+      "targetNames": {
+        "Any": {
+          "zh": "Any",
+          "en": "Any"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_chalet_usec_weapon_cache_1",
+      "targetNames": {
+        "lotus_lighthouse_chalet_usec_weapon_cache_1": {
+          "zh": "lotus_lighthouse_chalet_usec_weapon_cache_1",
+          "en": "lotus_lighthouse_chalet_usec_weapon_cache_1"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_chalet_usec_weapon_cache_2",
+      "targetNames": {
+        "lotus_lighthouse_chalet_usec_weapon_cache_2": {
+          "zh": "lotus_lighthouse_chalet_usec_weapon_cache_2",
+          "en": "lotus_lighthouse_chalet_usec_weapon_cache_2"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_chalet_usec_weapon_cache_3",
+      "targetNames": {
+        "lotus_lighthouse_chalet_usec_weapon_cache_3": {
+          "zh": "lotus_lighthouse_chalet_usec_weapon_cache_3",
+          "en": "lotus_lighthouse_chalet_usec_weapon_cache_3"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_chalet_usec_weapon_cache_4",
+      "targetNames": {
+        "lotus_lighthouse_chalet_usec_weapon_cache_4": {
+          "zh": "lotus_lighthouse_chalet_usec_weapon_cache_4",
+          "en": "lotus_lighthouse_chalet_usec_weapon_cache_4"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_lighthouse_chalet_usec_weapon_cache_5",
+      "targetNames": {
+        "lotus_lighthouse_chalet_usec_weapon_cache_5": {
+          "zh": "lotus_lighthouse_chalet_usec_weapon_cache_5",
+          "en": "lotus_lighthouse_chalet_usec_weapon_cache_5"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68c044ff8b79163e3eab83a1",
+      "name": {
+        "zh": "放债者 - 第4部分",
+        "en": "Loan Sharks - Part 4"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68c07c94fd7357fff87e46a7",
+      "name": {
+        "zh": "不太常见",
+        "en": "Blue Moon"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_trader_lightkeeper.png",
+  "isKey": false
+}

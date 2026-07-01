@@ -1,0 +1,251 @@
+{
+  "id": "68b1d274cdbd4e83382c7678",
+  "name": {
+    "zh": "营销活动 - 第3部分",
+    "en": "Marketing Campaign - Part 3"
+  },
+  "traderId": "6617beeaa9cfa777ca915b7c",
+  "traderName": {
+    "zh": "竞技场裁判",
+    "en": "Ref"
+  },
+  "type": "PickUp",
+  "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 7500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6617beeaa9cfa777ca915b7c",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 23,
+      "itemId": "5d235b4d86f7742e017bc88a",
+      "itemName": {
+        "zh": "GP币",
+        "en": "GP coin"
+      },
+      "quantity": 23
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5b432d215acfc4771e1c6624",
+      "itemName": {
+        "zh": "LZSh 轻型头盔（橄榄绿）",
+        "en": "LShZ lightweight helmet (Olive Drab)"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5bf3e0490db83400196199af",
+      "itemName": {
+        "zh": "AKS-74 5.45x39 突击步枪",
+        "en": "Kalashnikov AKS-74 5.45x39 assault rifle"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "64acea0d03378853630da53b",
+      "itemName": {
+        "zh": "7.62x39mm US gzh弹药包（20发装）",
+        "en": "7.62x39mm US gzh ammo pack (20 pcs)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "66992b349950f5f4cd06029f",
+      "itemName": {
+        "zh": "IWI UZI 9x19冲锋枪",
+        "en": "IWI UZI 9x19 submachine gun"
+      }
+    }
+  ],
+  "description": {
+    "zh": "还记得你刚开始认识我的时候一直在搞补给的事情...啊对，确实要找东西。JJC委托了一项后勤工作。观众需要这个。当然也更有利于拉赞助，有谁不乐意干饭呢？你帮忙当然会有报酬的。\n\n如果你不知道从哪里开始找，我建议你去一些军事基地的位置，我听说那里有大量的食物储备。Priozersk那位老先生的家那里也很丰富（就是森林地图和新区）似乎也不错，但到处看到树木和灌木丛会让你很累，你懂的。总之，你觉得你能再帮一次忙吗？这将非常感激，我觉得观众也会喜欢的。",
+    "en": "Remember when we first met, you helped with supplying snacks to our audience, right? Of course you do, haha! Well, I need more this time. You know, a show can be as good as it gets... But with something nice to eat and drink, it can always get better, understand? The audience needs that. It helps even more with funding, of course you'll be paid for your trouble.\n\nIf you don't know where to start looking, I suggest you head down to the military base, I heard that it contains large food reserves. Priozersk seems to be excellent for that too, but seeing trees and bushes everywhere can get you pretty tired, you know how it is. Anyway, you think you can help out here again? That would be much apprechiated, and I think the crowd would love it too."
+  },
+  "objectives": [
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "5751496424597720a27126da",
+        "5751435d24597720a27126d1",
+        "575062b524597720a31c09a1",
+        "60b0f93284c20f0feb453da7",
+        "57514643245977207f2c2d09"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5751496424597720a27126da": {
+          "zh": "热棒",
+          "en": "Can of Hot Rod energy drink"
+        },
+        "5751435d24597720a27126d1": {
+          "zh": "Max Energy能量饮料",
+          "en": "Can of Max Energy energy drink"
+        },
+        "575062b524597720a31c09a1": {
+          "zh": "冰绿茶",
+          "en": "Can of Ice Green tea"
+        },
+        "60b0f93284c20f0feb453da7": {
+          "zh": "罐装六可乐",
+          "en": "Can of RatCola soda"
+        },
+        "57514643245977207f2c2d09": {
+          "zh": "塔可乐",
+          "en": "Can of TarCola soda"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "5751496424597720a27126da",
+        "5751435d24597720a27126d1",
+        "575062b524597720a31c09a1",
+        "60b0f93284c20f0feb453da7",
+        "57514643245977207f2c2d09"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "5751496424597720a27126da": {
+          "zh": "热棒",
+          "en": "Can of Hot Rod energy drink"
+        },
+        "5751435d24597720a27126d1": {
+          "zh": "Max Energy能量饮料",
+          "en": "Can of Max Energy energy drink"
+        },
+        "575062b524597720a31c09a1": {
+          "zh": "冰绿茶",
+          "en": "Can of Ice Green tea"
+        },
+        "60b0f93284c20f0feb453da7": {
+          "zh": "罐装六可乐",
+          "en": "Can of RatCola soda"
+        },
+        "57514643245977207f2c2d09": {
+          "zh": "塔可乐",
+          "en": "Can of TarCola soda"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "57505f6224597709a92585a9",
+        "544fb6cc4bdc2d34748b456e"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57505f6224597709a92585a9": {
+          "zh": "Alyonka 巧克力",
+          "en": "Alyonka chocolate bar"
+        },
+        "544fb6cc4bdc2d34748b456e": {
+          "zh": "士腻架能量棒",
+          "en": "Slickers chocolate bar"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "57505f6224597709a92585a9",
+        "544fb6cc4bdc2d34748b456e"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "57505f6224597709a92585a9": {
+          "zh": "Alyonka 巧克力",
+          "en": "Alyonka chocolate bar"
+        },
+        "544fb6cc4bdc2d34748b456e": {
+          "zh": "士腻架能量棒",
+          "en": "Slickers chocolate bar"
+        }
+      }
+    },
+    {
+      "type": "FindItem",
+      "description": "FindItem",
+      "value": 1,
+      "target": [
+        "590c5f0d86f77413997acfab",
+        "590c5d4b86f774784e1b9c45"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590c5f0d86f77413997acfab": {
+          "zh": "MRE个人即食口粮",
+          "en": "MRE ration pack"
+        },
+        "590c5d4b86f774784e1b9c45": {
+          "zh": "Iskra个人配给口粮",
+          "en": "Iskra ration pack"
+        }
+      }
+    },
+    {
+      "type": "HandoverItem",
+      "description": "HandoverItem",
+      "value": 1,
+      "target": [
+        "590c5f0d86f77413997acfab",
+        "590c5d4b86f774784e1b9c45"
+      ],
+      "onlyFoundInRaid": true,
+      "targetNames": {
+        "590c5f0d86f77413997acfab": {
+          "zh": "MRE个人即食口粮",
+          "en": "MRE ration pack"
+        },
+        "590c5d4b86f774784e1b9c45": {
+          "zh": "Iskra个人配给口粮",
+          "en": "Iskra ration pack"
+        }
+      }
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "68b1cf3fed5b59b8c54f0d43",
+      "name": {
+        "zh": "营销活动 - 第2部分",
+        "en": "Marketing Campaign - Part 2"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "68b1d4ea6a301f7c01591db8",
+      "name": {
+        "zh": "辛辣的款待 - 第1部分",
+        "en": "Spicy Treat - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_ref_marketing_campaign_3.png",
+  "isKey": false
+}

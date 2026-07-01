@@ -11,6 +11,10 @@
   },
   "type": "Elimination",
   "location": "marathon",
+  "locationName": {
+    "zh": "马拉松",
+    "en": "Marathon"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -69,8 +73,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 5,
+      "description": "Elimination: Kills",
+      "value": 1,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -82,13 +86,12 @@
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "Lighthouse"
+      "value": 1
     },
     {
       "type": "Elimination",
-      "description": "Elimination: InZone",
-      "value": 5,
+      "description": "Elimination: Kills",
+      "value": 1,
       "target": "Savage",
       "targetNames": {
         "Savage": {

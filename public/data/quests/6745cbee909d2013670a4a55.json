@@ -11,6 +11,10 @@
   },
   "type": "Multi",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -43,7 +47,7 @@
       "type": "AssortmentUnlock",
       "itemId": "57347ca924597744596b4e71",
       "itemName": {
-        "zh": "显示卡",
+        "zh": "显示卡 ☆",
         "en": "Graphics card"
       }
     },
@@ -75,8 +79,7 @@
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "bigmap"
+      "value": 1
     },
     {
       "type": "LeaveItemAtLocation",
@@ -95,27 +98,24 @@
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "RezervBase"
+      "value": 1
     },
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 3,
+      "value": 1,
       "target": "Any",
       "targetNames": {
         "Any": {
           "zh": "Any",
           "en": "Any"
         }
-      },
-      "location": "Woods"
+      }
     },
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "Woods"
+      "value": 1
     },
     {
       "type": "Discover",
@@ -144,7 +144,7 @@
     {
       "type": "Elimination",
       "description": "Elimination: Kills",
-      "value": 10,
+      "value": 2,
       "target": "Savage",
       "targetNames": {
         "Savage": {
@@ -156,8 +156,7 @@
     {
       "type": "Completion",
       "description": "Completion: ExitStatus",
-      "value": 1,
-      "location": "Lighthouse"
+      "value": 1
     }
   ],
   "prerequisites": [

@@ -1,0 +1,177 @@
+{
+  "id": "6747575b5a841fdbf0ca37ae",
+  "name": {
+    "zh": "“将死！” - 第六章",
+    "en": "Checkmate - Part 6"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Exploration",
+  "location": "5704e5fad2720bc05b8b4567",
+  "locationName": {
+    "zh": "海岸线",
+    "en": "Shoreline"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 8750
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.03
+    },
+    {
+      "type": "Item",
+      "value": 37650,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 37650
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e2af29386f7746d4159f077",
+      "itemName": {
+        "zh": "KEKTAPE管道胶带",
+        "en": "KEKTAPE duct tape"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "5734795124597738002c6176",
+      "itemName": {
+        "zh": "绝缘胶带",
+        "en": "Insulating tape"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 4,
+      "itemId": "57347c1124597737fb1379e3",
+      "itemName": {
+        "zh": "管道胶带",
+        "en": "Duct tape"
+      },
+      "quantity": 4
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "64d4b23dc1b37504b41ac2b6",
+      "itemName": {
+        "zh": "生锈的带血钥匙",
+        "en": "Rusted bloody key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5f60b34a41e30a4ab12a6947",
+      "itemName": {
+        "zh": "Galvion 凯门鳄 复合防弹头盔（灰色）",
+        "en": "Galvion Caiman Hybrid helmet (Grey)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "669fa409933e898cce0c2166",
+      "itemName": {
+        "zh": "Magnum Research “沙漠之鹰”L5 .357 手枪",
+        "en": "Magnum Research Desert Eagle L5 .357 pistol"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5ac66d725acfc43b321d4b60",
+      "itemName": {
+        "zh": "AK-104 7.62x39 突击步枪",
+        "en": "Kalashnikov AK-104 7.62x39 assault rifle"
+      }
+    }
+  ],
+  "description": {
+    "zh": "我有事交给你，我们看到一些戴兜帽和面具的人在晚上冲进了那里。我没有看清，当时只有月光照亮了一些地方。\n\n我不知道他们在做什么，我问了一位值得信赖的商人是否知道这些人，他告诉我，他们有一些奇怪的信仰，并在夜晚猎杀一些人来实现他们的“仪式”。他们还到处涂画奇怪的符号，并将他们的宝物藏在分散在整个塔科夫的各个角落中。\n\n据说军事基地里也有这些房间，应该有3间，但你需要自己去检查验证一下真伪。不过显然这些戴兜帽的并不怎么回家逛，这意味着你在那里应该相对是安全的，但不要放松警惕。",
+    "en": "I got something for you, we saw some hooded and masked people rush inside the dome at night. We didn't see too much, only the light of the moon was illuminating it.\n\nI don't know what their business is, I asked a trustworthy dealer if he would know about these guys and he told me that they have some strange belief and hunt down people with daggers at night, as a sacrifice I suppose. They paint strange symbols everywhere aswell and stash their valuables in random rooms spread across the region.\n\nI was also told that the military base should have these rooms aswell, I think that it was three rooms but you would need to check that out yourself. Apparently these hooded people don't visit the base that often, which means you should be safe from them there, but don't let your guard down."
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_markedroom_blackpawn",
+      "targetNames": {
+        "lotus_reserve_markedroom_blackpawn": {
+          "zh": "lotus_reserve_markedroom_blackpawn",
+          "en": "lotus_reserve_markedroom_blackpawn"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_markedroom_barracks",
+      "targetNames": {
+        "lotus_reserve_markedroom_barracks": {
+          "zh": "lotus_reserve_markedroom_barracks",
+          "en": "lotus_reserve_markedroom_barracks"
+        }
+      }
+    },
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_reserve_markedroom_bunker",
+      "targetNames": {
+        "lotus_reserve_markedroom_bunker": {
+          "zh": "lotus_reserve_markedroom_bunker",
+          "en": "lotus_reserve_markedroom_bunker"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "674757075b3b3631a4b3efd5",
+      "name": {
+        "zh": "“将死！” - 第五章",
+        "en": "Checkmate - Part 5"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "674751d636b2485baddcf5cc",
+      "name": {
+        "zh": "献祭 - 第一章",
+        "en": "Pokloneniye - Part 1"
+      }
+    },
+    {
+      "id": "6747c312165746c2dd1e19f2",
+      "name": {
+        "zh": "“将死！” - 第七章",
+        "en": "Checkmate - Part 7"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_checkmate_6.png",
+  "isKey": false
+}

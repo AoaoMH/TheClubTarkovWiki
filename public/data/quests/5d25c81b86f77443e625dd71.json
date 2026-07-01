@@ -11,6 +11,10 @@
   },
   "type": "Completion",
   "location": "any",
+  "locationName": {
+    "zh": "任意",
+    "en": "Any"
+  },
   "rewards": [
     {
       "type": "Experience",
@@ -55,8 +59,8 @@
   "objectives": [
     {
       "type": "Elimination",
-      "description": "Elimination: HealthEffect",
-      "value": 3,
+      "description": "Elimination: Kills",
+      "value": 1,
       "target": "Savage",
       "targetNames": {
         "Savage": {

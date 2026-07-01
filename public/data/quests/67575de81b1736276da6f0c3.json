@@ -1,0 +1,213 @@
+{
+  "id": "67575de81b1736276da6f0c3",
+  "name": {
+    "zh": "清理垃圾：立交桥",
+    "en": "Let The Hunt Begin - Interchange"
+  },
+  "traderId": "6747208ef022cbbfc65c41bf",
+  "traderName": {
+    "zh": "莲花",
+    "en": "Lotus"
+  },
+  "type": "Completion",
+  "location": "5714dbc024597771384a510d",
+  "locationName": {
+    "zh": "立交桥",
+    "en": "Interchange"
+  },
+  "rewards": [
+    {
+      "type": "Experience",
+      "value": 6500
+    },
+    {
+      "type": "TraderStanding",
+      "target": "6747208ef022cbbfc65c41bf",
+      "value": 0.02
+    },
+    {
+      "type": "Item",
+      "value": 37750,
+      "itemId": "5449016a4bdc2d6f028b456f",
+      "itemName": {
+        "zh": "卢布",
+        "en": "Roubles"
+      },
+      "quantity": 37750
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5b40e3f35acfc40016388218",
+      "itemName": {
+        "zh": "HighCom Striker ACHHC IIIA 头盔（黑色）",
+        "en": "HighCom Striker ACHHC IIIA helmet (Black)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 2,
+      "itemId": "5648a69d4bdc2ded0b8b457b",
+      "itemName": {
+        "zh": "BlackRock胸挂",
+        "en": "BlackRock chest rig (Gray)"
+      },
+      "quantity": 2
+    },
+    {
+      "type": "Item",
+      "value": 1,
+      "itemId": "5e42c71586f7747f245e1343",
+      "itemName": {
+        "zh": "ULTRA 医疗仓库钥匙 ★",
+        "en": "ULTRA medical storage key"
+      },
+      "quantity": 1
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "668fe62ac62660a5d8071446",
+      "itemName": {
+        "zh": ".50 AE FMJ",
+        "en": ".50 AE FMJ"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e874186f7745dc7616606",
+      "itemName": {
+        "zh": "Maska-1SCh 防弹头盔（Killa 版）",
+        "en": "Maska-1SCh bulletproof helmet (Killa Edition)"
+      }
+    },
+    {
+      "type": "AssortmentUnlock",
+      "itemId": "5c0e541586f7747fa54205c9",
+      "itemName": {
+        "zh": "6B13 M 突击甲（Killa 版）",
+        "en": "6B13 M assault armor (Killa Edition)"
+      }
+    }
+  ],
+  "description": {
+    "zh": "让我快速检查一下淘气鬼名单……\n嗯，ULTRA购物中心的那个阿迪王？哦，天啊，我觉得我们最好别跟这个家伙扯上关联。毕竟到处都在传这个家伙有多危险。他一个人杀穿了整支PMC小队……厉害吧……\n\n好在我们有一个不需要亲自动手的办法。你还记得如何设置拌雷陷阱吗？太棒了！计划又是这样，某处在地下停车场里，那儿有个他自己的安全屋，基本上他在吃穿住行都在那里。我听传言称地下隧道四通八达可以一直连接到一处地下掩体，显然安全屋就在其中一个隧道内。唉，很遗憾我们不能看到这个家伙被炸死的样子。\n\n你知道该怎么做，找到那个安全屋，并在外面布置陷阱。既然可以轻松解决这个混蛋，为什么还要弄脏自己的手呢？对吧？",
+    "en": "Let me check my list real quick...\nHmmm, the maniac at the ULTRA shopping mall? Oh boy, I don't think we should pick a fight with this guy, word got around how dangerous this guy is. Eliminating squads of PMC operatives all by himself... Wow...\n\nWell, good think we don't need to get our hands dirty, except for one thing however. You still remember how to set up grenade traps? Fantastic! That's the plan again, somewhere on the garage floor he has his own saferoom where he basically lives and keeps all his goods, I heard rumors about tunnels that were connecting to bunkers or something and apparently one of these tunnels can be found inside there. Hmm, shame we won't find out when this guy is dead.\n\nYou know what to do, locate that saferoom and plant a trap outside of it, no need to get your hands dirty if you can get rid of this asshole the easy way, right?"
+  },
+  "objectives": [
+    {
+      "type": "Exploration",
+      "description": "Exploration: VisitPlace",
+      "value": 1,
+      "target": "lotus_interchange_saferoom_outside",
+      "targetNames": {
+        "lotus_interchange_saferoom_outside": {
+          "zh": "lotus_interchange_saferoom_outside",
+          "en": "lotus_interchange_saferoom_outside"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "666b11055a706400b717cfa5"
+      ],
+      "targetNames": {
+        "666b11055a706400b717cfa5": {
+          "zh": "绊线布设装置",
+          "en": "Tripwire installation kit"
+        }
+      }
+    },
+    {
+      "type": "LeaveItemAtLocation",
+      "description": "LeaveItemAtLocation",
+      "value": 1,
+      "target": [
+        "5448be9a4bdc2dfd2f8b456a",
+        "66dae7cbeb28f0f96809f325",
+        "5710c24ad2720bc3458b45a3",
+        "58d3db5386f77426186285a0",
+        "5e32f56fcb6d5863cc5e5ee4",
+        "5e340dcdcb6d5863cc5e5efb",
+        "618a431df1eb8e24b8741deb",
+        "617fd91e5539a84ec44ce155"
+      ],
+      "targetNames": {
+        "5448be9a4bdc2dfd2f8b456a": {
+          "zh": "RGD-5手榴弹",
+          "en": "RGD-5 hand grenade"
+        },
+        "66dae7cbeb28f0f96809f325": {
+          "zh": "V40 微型手榴弹",
+          "en": "V40 Mini-Grenade"
+        },
+        "5710c24ad2720bc3458b45a3": {
+          "zh": "F-1手榴弹",
+          "en": "F-1 hand grenade"
+        },
+        "58d3db5386f77426186285a0": {
+          "zh": "M67手榴弹",
+          "en": "M67 hand grenade"
+        },
+        "5e32f56fcb6d5863cc5e5ee4": {
+          "zh": "VOG-17 Khattabka 简易手榴弹",
+          "en": "VOG-17 Khattabka improvised hand grenade"
+        },
+        "5e340dcdcb6d5863cc5e5efb": {
+          "zh": "VOG-25 Khattabka 简易手榴弹",
+          "en": "VOG-25 Khattabka improvised hand grenade"
+        },
+        "618a431df1eb8e24b8741deb": {
+          "zh": "RGO手榴弹",
+          "en": "RGO hand grenade"
+        },
+        "617fd91e5539a84ec44ce155": {
+          "zh": "RGN手榴弹",
+          "en": "RGN hand grenade"
+        }
+      }
+    },
+    {
+      "type": "Completion",
+      "description": "Completion: ExitStatus",
+      "value": 1
+    }
+  ],
+  "prerequisites": [
+    {
+      "id": "67548fb1d293a6e93d5184a4",
+      "name": {
+        "zh": "清理垃圾",
+        "en": "Let The Hunt Begin"
+      }
+    }
+  ],
+  "followUps": [
+    {
+      "id": "6747c1e4c6f655f7863b727f",
+      "name": {
+        "zh": "塔科夫环卫工：阿迪达斯大金表",
+        "en": "Bandit Hunt - Mall Maniac"
+      }
+    },
+    {
+      "id": "6762543fbaa292049e4cea52",
+      "name": {
+        "zh": "塔科夫环卫工：工厂疯批 - 第1章",
+        "en": "Bandit Hunt - Factory Maniac - Part 1"
+      }
+    },
+    {
+      "id": "6762597817a433eeee2ef47a",
+      "name": {
+        "zh": "塔科夫环卫工：冷案 - 第1章",
+        "en": "Bandit Hunt - Cold Case - Part 1"
+      }
+    }
+  ],
+  "image": "/files/quest/icon/lotus_saferoom.png",
+  "isKey": false
+}
